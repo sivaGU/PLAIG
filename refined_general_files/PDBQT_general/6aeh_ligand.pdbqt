@@ -1,0 +1,75 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O3A_4 
+REMARK    2  A    between atoms: PA_1  and  O5'_5 
+REMARK    3  A    between atoms: O3A_4  and  PB_6 
+REMARK    4  A    between atoms: O5'_5  and  C5'_14 
+REMARK    5  A    between atoms: PB_6  and  O3B_9 
+REMARK    6  A    between atoms: O3B_9  and  PG_10 
+REMARK    7  A    between atoms: C5'_14  and  C4'_15 
+REMARK    8  A    between atoms: C1'_17  and  N1_22 
+REMARK    9  A    between atoms: C2'_18  and  O2'_19 
+REMARK   10  A    between atoms: C3'_20  and  O3'_21 
+ROOT
+ATOM      1  C4' UTP d   1     124.616  92.256  49.408  0.00  0.00     0.089 C 
+ATOM      2  O4' UTP d   1     123.432  92.448  50.183  0.00  0.00    -0.353 OA
+ATOM      3  C1' UTP d   1     123.764  93.115  51.392  0.00  0.00     0.141 C 
+ATOM      4  C2' UTP d   1     125.230  92.811  51.655  0.00  0.00     0.105 C 
+ATOM      5  C3' UTP d   1     125.793  92.741  50.255  0.00  0.00     0.091 C 
+ATOM      6  H3  UTP d   1     124.581  92.852  48.484  0.00  0.00     0.090 H 
+ATOM      7  H4  UTP d   1     123.630  94.201  51.280  0.00  0.00     0.123 H 
+ATOM      8  H5  UTP d   1     125.346  91.845  52.169  0.00  0.00     0.093 H 
+ATOM      9  H7  UTP d   1     126.635  92.035  50.196  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5' UTP d   1     124.611  90.783  49.045  0.00  0.00     0.058 C 
+ATOM     11  H1  UTP d   1     123.641  90.513  48.601  0.00  0.00     0.079 H 
+ATOM     12  H2  UTP d   1     125.415  90.575  48.324  0.00  0.00     0.079 H 
+BRANCH  10  13
+ATOM     13  O5' UTP d   1     124.825  90.024  50.241  0.00  0.00    -0.287 OA
+BRANCH  13  14
+ATOM     14  PA  UTP d   1     125.347  88.508  50.179  0.00  0.00     0.417 P 
+ATOM     15  O1A UTP d   1     124.383  87.627  49.385  0.00  0.00    -0.624 OA
+ATOM     16  O2A UTP d   1     125.666  88.139  51.609  0.00  0.00    -0.624 OA
+BRANCH  14  17
+ATOM     17  O3A UTP d   1     126.744  88.675  49.397  0.00  0.00    -0.180 OA
+BRANCH  17  18
+ATOM     18  PB  UTP d   1     127.127  88.374  47.875  0.00  0.00     0.428 P 
+ATOM     19  O1B UTP d   1     128.026  89.528  47.480  0.00  0.00    -0.624 OA
+ATOM     20  O2B UTP d   1     125.877  88.112  47.072  0.00  0.00    -0.624 OA
+BRANCH  18  21
+ATOM     21  O3B UTP d   1     128.082  87.082  48.014  0.00  0.00    -0.173 OA
+BRANCH  21  22
+ATOM     22  PG  UTP d   1     127.795  85.500  47.842  0.00  0.00     0.431 P 
+ATOM     23  O1G UTP d   1     128.567  84.926  49.013  0.00  0.00    -0.616 OA
+ATOM     24  O2G UTP d   1     128.380  85.095  46.533  0.00  0.00    -0.616 OA
+ATOM     25  O3G UTP d   1     126.288  85.380  47.992  0.00  0.00    -0.616 OA
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   5  26
+ATOM     26  O3' UTP d   1     126.228  94.056  49.855  0.00  0.00    -0.390 OA
+ATOM     27  H8  UTP d   1     125.489  94.652  49.873  0.00  0.00     0.210 HD
+ENDBRANCH   5  26
+BRANCH   3  28
+ATOM     28  N1  UTP d   1     122.874  92.631  52.451  0.00  0.00    -0.280 N 
+ATOM     29  C6  UTP d   1     122.817  91.305  52.718  0.00  0.00    -0.008 A 
+ATOM     30  C5  UTP d   1     121.981  90.826  53.720  0.00  0.00    -0.002 A 
+ATOM     31  H9  UTP d   1     123.429  90.610  52.145  0.00  0.00     0.112 H 
+ATOM     32  C4  UTP d   1     121.199  91.733  54.427  0.00  0.00     0.250 A 
+ATOM     33  H11 UTP d   1     121.939  89.762  53.947  0.00  0.00     0.094 H 
+ATOM     34  N3  UTP d   1     121.253  93.052  54.146  0.00  0.00    -0.275 N 
+ATOM     35  O4  UTP d   1     120.442  91.305  55.322  0.00  0.00    -0.268 OA
+ATOM     36  C2  UTP d   1     122.064  93.531  53.183  0.00  0.00     0.331 A 
+ATOM     37  H10 UTP d   1     120.679  93.687  54.663  0.00  0.00     0.173 HD
+ATOM     38  O2  UTP d   1     122.095  94.763  52.947  0.00  0.00    -0.246 OA
+ENDBRANCH   3  28
+BRANCH   4  39
+ATOM     39  O2' UTP d   1     125.834  93.827  52.445  0.00  0.00    -0.388 OA
+ATOM     40  H6  UTP d   1     125.774  94.659  51.989  0.00  0.00     0.210 HD
+ENDBRANCH   4  39
+TORSDOF 10

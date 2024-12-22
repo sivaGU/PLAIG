@@ -1,0 +1,42 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_8  and  N19_13 
+REMARK    2  A    between atoms: C15_9  and  C16_10 
+REMARK       I    between atoms: N19_13  and  C20_14 
+REMARK    3  A    between atoms: C20_14  and  C21_15 
+ROOT
+ATOM      1  N1  OTA d   1     -42.589  10.453   0.039  0.00  0.00    -0.070 N 
+ATOM      2  C2  OTA d   1     -42.369  10.737   1.451  0.00  0.00     0.112 C 
+ATOM      3  C3  OTA d   1     -42.758  12.125   1.957  0.00  0.00     0.018 A 
+ATOM      4  C4  OTA d   1     -43.559  12.895   1.060  0.00  0.00    -0.022 A 
+ATOM      5  C5  OTA d   1     -44.030  12.391  -0.260  0.00  0.00    -0.016 C 
+ATOM      6  C6  OTA d   1     -43.855  10.950  -0.492  0.00  0.00     0.086 C 
+ATOM      7  S13 OTA d   1     -42.420  12.949   3.275  0.00  0.00    -0.073 SA
+ATOM      8  C14 OTA d   1     -43.202  14.295   2.998  0.00  0.00     0.095 A 
+ATOM      9  C15 OTA d   1     -43.837  14.276   1.743  0.00  0.00     0.082 A 
+ATOM     10  H1  OTA d   1     -42.566   9.453  -0.088  0.00  0.00     0.277 HD
+ATOM     11  H2  OTA d   1     -41.840  10.876  -0.487  0.00  0.00     0.277 HD
+ATOM     12  H3  OTA d   1     -41.296  10.601   1.652  0.00  0.00     0.084 H 
+ATOM     13  H4  OTA d   1     -42.946  10.001   2.030  0.00  0.00     0.084 H 
+ATOM     14  H5  OTA d   1     -43.477  12.929  -1.044  0.00  0.00     0.042 H 
+ATOM     15  H6  OTA d   1     -45.103  12.619  -0.346  0.00  0.00     0.042 H 
+ATOM     16  H7  OTA d   1     -44.680  10.410  -0.004  0.00  0.00     0.076 H 
+ATOM     17  H8  OTA d   1     -43.883  10.760  -1.575  0.00  0.00     0.076 H 
+ENDROOT
+BRANCH   8  18
+ATOM     18  N19 OTA d   1     -43.356  15.478   3.760  0.00  0.00    -0.311 N 
+ATOM     19  C20 OTA d   1     -42.818  15.663   5.033  0.00  0.00     0.323 C 
+ATOM     20  O24 OTA d   1     -42.121  14.811   5.616  0.00  0.00    -0.260 OA
+ATOM     21  H9  OTA d   1     -43.883  16.228   3.360  0.00  0.00     0.170 HD
+BRANCH  19  22
+ATOM     22  C21 OTA d   1     -43.132  17.018   5.620  0.00  0.00     0.270 C 
+ATOM     23  O22 OTA d   1     -42.200  17.653   6.224  0.00  0.00    -0.640 OA
+ATOM     24  O23 OTA d   1     -44.268  17.490   5.401  0.00  0.00    -0.640 OA
+ENDBRANCH  19  22
+ENDBRANCH   8  18
+BRANCH   9  25
+ATOM     25  C16 OTA d   1     -44.668  15.439   1.112  0.00  0.00     0.212 C 
+ATOM     26  O17 OTA d   1     -45.117  16.380   1.883  0.00  0.00    -0.644 OA
+ATOM     27  O18 OTA d   1     -44.883  15.459  -0.133  0.00  0.00    -0.644 OA
+ENDBRANCH   9  25
+TORSDOF 3

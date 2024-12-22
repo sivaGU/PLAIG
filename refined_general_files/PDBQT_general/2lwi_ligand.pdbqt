@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_7  and  N8_8 
+REMARK    2  A    between atoms: C7_9  and  S7_10 
+REMARK    3  A    between atoms: C7_9  and  N7_11 
+REMARK    4  A    between atoms: N6_12  and  C6_13 
+REMARK    5  A    between atoms: C3_16  and  N3_17 
+REMARK    6  A    between atoms: C1_21  and  N1_22 
+ROOT
+ATOM      1  N7  KOB d   1       6.136 -18.253   7.221  0.00  0.00    -0.149 NA
+ATOM      2  N6  KOB d   1       7.060 -18.558   6.468  0.00  0.00    -0.273 N 
+ATOM      3  H7  KOB d   1       8.026 -18.589   6.824  0.00  0.00     0.189 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C7  KOB d   1       5.822 -16.978   7.431  0.00  0.00     0.183 C 
+ATOM      5  N8  KOB d   1       6.512 -16.016   6.823  0.00  0.00    -0.334 N 
+ATOM      6  H5  KOB d   1       7.286 -16.275   6.195  0.00  0.00     0.168 HD
+BRANCH   5   7
+ATOM      7  C8  KOB d   1       6.229 -14.728   7.005  0.00  0.00     0.034 A 
+ATOM      8  C13 KOB d   1       6.988 -13.770   6.342  0.00  0.00    -0.054 A 
+ATOM      9  C12 KOB d   1       6.713 -12.418   6.516  0.00  0.00    -0.044 A 
+ATOM     10  H1  KOB d   1       7.796 -14.078   5.688  0.00  0.00     0.087 H 
+ATOM     11  C11 KOB d   1       5.677 -12.024   7.356  0.00  0.00     0.116 A 
+ATOM     12  H2  KOB d   1       7.305 -11.672   5.998  0.00  0.00     0.088 H 
+ATOM     13  F11 KOB d   1       5.415 -10.714   7.535  0.00  0.00    -0.206 F 
+ATOM     14  C10 KOB d   1       4.916 -12.980   8.018  0.00  0.00    -0.044 A 
+ATOM     15  C9  KOB d   1       5.191 -14.331   7.842  0.00  0.00    -0.054 A 
+ATOM     16  H3  KOB d   1       4.108 -12.672   8.672  0.00  0.00     0.088 H 
+ATOM     17  H4  KOB d   1       4.596 -15.076   8.357  0.00  0.00     0.087 H 
+ENDBRANCH   5   7
+BRANCH   4  18
+ATOM     18  S7  KOB d   1       4.509 -16.597   8.524  0.00  0.00    -0.103 SA
+ATOM     19  H6  KOB d   1       4.113 -17.452   8.882  0.00  0.00     0.110 HD
+ENDBRANCH   4  18
+ENDBRANCH   1   4
+BRANCH   2  20
+ATOM     20  C6  KOB d   1       6.812 -18.848   5.193  0.00  0.00     0.083 A 
+ATOM     21  C5  KOB d   1       5.507 -18.796   4.716  0.00  0.00    -0.051 A 
+ATOM     22  C4  KOB d   1       5.249 -19.109   3.386  0.00  0.00    -0.049 A 
+ATOM     23  H8  KOB d   1       4.696 -18.513   5.377  0.00  0.00     0.087 H 
+ATOM     24  C3  KOB d   1       6.288 -19.469   2.537  0.00  0.00     0.105 A 
+ATOM     25  H9  KOB d   1       4.233 -19.072   3.010  0.00  0.00     0.087 H 
+ATOM     26  C2  KOB d   1       7.592 -19.516   3.015  0.00  0.00    -0.017 A 
+ATOM     27  C1  KOB d   1       7.854 -19.205   4.345  0.00  0.00     0.133 A 
+ATOM     28  H10 KOB d   1       8.403 -19.794   2.353  0.00  0.00     0.091 H 
+BRANCH  24  29
+ATOM     29  N3  KOB d   1       6.033 -19.778   1.268  0.00  0.00    -0.116 N 
+ATOM     30  O3B KOB d   1       7.095 -20.145   0.399  0.00  0.00    -0.532 OA
+ATOM     31  O3A KOB d   1       4.698 -19.741   0.784  0.00  0.00    -0.532 OA
+ENDBRANCH  24  29
+BRANCH  27  32
+ATOM     32  N1  KOB d   1       9.103 -19.256   4.801  0.00  0.00    -0.113 N 
+ATOM     33  O1B KOB d   1       9.380 -18.946   6.160  0.00  0.00    -0.532 OA
+ATOM     34  O1A KOB d   1      10.162 -19.623   3.928  0.00  0.00    -0.532 OA
+ENDBRANCH  27  32
+ENDBRANCH   2  20
+TORSDOF 6

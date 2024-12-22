@@ -1,0 +1,71 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_7  and  C3_8 
+REMARK    2  A    between atoms: C4_11  and  N3_16 
+REMARK    3  A    between atoms: C2_13  and  C1_14 
+REMARK    4  A    between atoms: C1_14  and  C_15 
+REMARK    5  A    between atoms: N3_16  and  C5_17 
+REMARK    6  A    between atoms: C8_20  and  C11_23 
+REMARK    7  A    between atoms: C11_23  and  C12_24 
+REMARK       I    between atoms: C12_24  and  N4_26 
+ROOT
+ATOM      1  C3  KRD d   1       4.871 -14.099  51.135  0.00  0.00     0.180 A 
+ATOM      2  N   KRD d   1       6.216 -13.936  51.518  0.00  0.00    -0.212 NA
+ATOM      3  N1  KRD d   1       4.462 -13.977  49.854  0.00  0.00    -0.042 NA
+ATOM      4  C4  KRD d   1       5.399 -13.674  48.949  0.00  0.00     0.730 A 
+ATOM      5  N2  KRD d   1       6.648 -13.474  49.322  0.00  0.00    -0.047 NA
+ATOM      6  C2  KRD d   1       7.088 -13.582  50.572  0.00  0.00     0.147 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  N3  KRD d   1       5.105 -13.446  47.665  0.00  0.00    -0.188 N 
+ATOM      8  H10 KRD d   1       5.855 -13.538  46.965  0.00  0.00     0.184 HD
+BRANCH   7   9
+ATOM      9  C5  KRD d   1       3.880 -13.103  47.249  0.00  0.00     0.049 A 
+ATOM     10  C10 KRD d   1       2.720 -13.724  47.705  0.00  0.00    -0.056 A 
+ATOM     11  C9  KRD d   1       1.490 -13.232  47.295  0.00  0.00    -0.074 A 
+ATOM     12  H11 KRD d   1       2.778 -14.578  48.370  0.00  0.00     0.086 H 
+ATOM     13  C8  KRD d   1       1.415 -12.171  46.427  0.00  0.00    -0.049 A 
+ATOM     14  H12 KRD d   1       0.579 -13.690  47.663  0.00  0.00     0.084 H 
+ATOM     15  C7  KRD d   1       2.551 -11.593  45.974  0.00  0.00    -0.074 A 
+ATOM     16  C6  KRD d   1       3.791 -12.051  46.397  0.00  0.00    -0.056 A 
+ATOM     17  H13 KRD d   1       2.492 -10.766  45.276  0.00  0.00     0.084 H 
+ATOM     18  H14 KRD d   1       4.694 -11.565  46.044  0.00  0.00     0.086 H 
+BRANCH  13  19
+ATOM     19  C11 KRD d   1       0.073 -11.679  45.942  0.00  0.00     0.033 C 
+ATOM     20  H15 KRD d   1      -0.695 -12.435  46.163  0.00  0.00     0.054 H 
+ATOM     21  H16 KRD d   1       0.117 -11.508  44.856  0.00  0.00     0.054 H 
+BRANCH  19  22
+ATOM     22  C12 KRD d   1      -0.277 -10.395  46.635  0.00  0.00     0.219 C 
+ATOM     23  O   KRD d   1       0.176  -9.316  46.216  0.00  0.00    -0.273 OA
+ATOM     24  N4  KRD d   1      -1.093 -10.530  47.716  0.00  0.00    -0.370 N 
+ATOM     25  H17 KRD d   1      -1.374  -9.722  48.234  0.00  0.00     0.159 HD
+ATOM     26  H18 KRD d   1      -1.411 -11.437  47.992  0.00  0.00     0.159 HD
+ENDBRANCH  19  22
+ENDBRANCH  13  19
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  27
+ATOM     27  C13 KRD d   1       3.899 -14.529  52.152  0.00  0.00     0.014 A 
+ATOM     28  C14 KRD d   1       3.804 -13.858  53.315  0.00  0.00    -0.069 A 
+ATOM     29  C15 KRD d   1       2.923 -14.296  54.272  0.00  0.00    -0.080 A 
+ATOM     30  H3  KRD d   1       4.416 -12.982  53.494  0.00  0.00     0.085 H 
+ATOM     31  C16 KRD d   1       2.182 -15.445  54.097  0.00  0.00    -0.062 A 
+ATOM     32  H2  KRD d   1       2.807 -13.725  55.186  0.00  0.00     0.083 H 
+ATOM     33  C17 KRD d   1       2.327 -16.142  52.945  0.00  0.00     0.035 A 
+ATOM     34  H1  KRD d   1       1.497 -15.784  54.866  0.00  0.00     0.086 H 
+ATOM     35 CL   KRD d   1       1.420 -17.637  52.715  0.00  0.00    -0.084 Cl
+ATOM     36  C18 KRD d   1       3.187 -15.683  51.955  0.00  0.00    -0.048 A 
+ATOM     37  H4  KRD d   1       3.294 -16.236  51.029  0.00  0.00     0.087 H 
+ENDBRANCH   1  27
+BRANCH   6  38
+ATOM     38  C1  KRD d   1       8.592 -13.423  50.811  0.00  0.00    -0.011 C 
+ATOM     39  H5  KRD d   1       8.996 -12.758  50.034  0.00  0.00     0.044 H 
+ATOM     40  H6  KRD d   1       9.061 -14.414  50.726  0.00  0.00     0.044 H 
+BRANCH  38  41
+ATOM     41  C   KRD d   1       8.942 -12.855  52.138  0.00  0.00    -0.070 C 
+ATOM     42  H7  KRD d   1      10.036 -12.775  52.226  0.00  0.00     0.028 H 
+ATOM     43  H8  KRD d   1       8.557 -13.513  52.931  0.00  0.00     0.028 H 
+ATOM     44  H9  KRD d   1       8.492 -11.856  52.240  0.00  0.00     0.028 H 
+ENDBRANCH  38  41
+ENDBRANCH   6  38
+TORSDOF 7

@@ -1,0 +1,63 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N20_1  and  C19_2 
+REMARK    2  A    between atoms: C6_9  and  N13_10 
+REMARK    3  A    between atoms: C2_12  and  C1_13 
+REMARK    4  A    between atoms: C4_14  and  O1_15 
+REMARK    5  A    between atoms: O1_15  and  C45_16 
+REMARK    6  A    between atoms: C3_17  and  O7_18 
+REMARK    7  A    between atoms: O7_18  and  C43_19 
+ROOT
+ATOM      1  C1  LZK d   1       4.616 -20.466  24.316  0.00  0.00     0.045 A 
+ATOM      2  C4  LZK d   1       5.806 -20.059  24.919  0.00  0.00     0.082 A 
+ATOM      3  C3  LZK d   1       3.776 -19.532  23.710  0.00  0.00     0.082 A 
+ATOM      4  C7  LZK d   1       4.133 -18.179  23.718  0.00  0.00    -0.050 A 
+ATOM      5  C14 LZK d   1       5.322 -17.769  24.323  0.00  0.00    -0.078 A 
+ATOM      6  C9  LZK d   1       6.160 -18.706  24.925  0.00  0.00    -0.050 A 
+ATOM      7  H13 LZK d   1       3.483 -17.447  23.253  0.00  0.00     0.087 H 
+ATOM      8  H14 LZK d   1       5.594 -16.720  24.325  0.00  0.00     0.083 H 
+ATOM      9  H15 LZK d   1       7.083 -18.387  25.396  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C2  LZK d   1       4.227 -21.906  24.303  0.00  0.00     0.026 A 
+ATOM     11  C6  LZK d   1       5.008 -22.847  23.629  0.00  0.00     0.135 A 
+ATOM     12  N12 LZK d   1       4.642 -24.149  23.617  0.00  0.00    -0.210 NA
+ATOM     13  C15 LZK d   1       3.516 -24.566  24.240  0.00  0.00     0.182 A 
+ATOM     14  N17 LZK d   1       3.176 -25.871  24.204  0.00  0.00    -0.043 NA
+ATOM     15  C11 LZK d   1       2.702 -23.659  24.918  0.00  0.00     0.032 A 
+ATOM     16  C19 LZK d   1       2.057 -26.306  24.823  0.00  0.00     0.722 A 
+ATOM     17  N18 LZK d   1       1.253 -25.435  25.490  0.00  0.00    -0.074 NA
+ATOM     18  C16 LZK d   1       1.551 -24.125  25.551  0.00  0.00     0.035 A 
+ATOM     19  H3  LZK d   1       0.904 -23.440  26.086  0.00  0.00     0.117 H 
+ATOM     20  C5  LZK d   1       3.059 -22.315  24.954  0.00  0.00    -0.053 A 
+ATOM     21  H6  LZK d   1       2.441 -21.596  25.479  0.00  0.00     0.086 H 
+BRANCH  11  22
+ATOM     22  N13 LZK d   1       6.147 -22.492  22.983  0.00  0.00    -0.383 N 
+ATOM     23  H4  LZK d   1       6.450 -21.508  22.976  0.00  0.00     0.157 HD
+ATOM     24  H5  LZK d   1       6.709 -23.207  22.500  0.00  0.00     0.157 HD
+ENDBRANCH  11  22
+BRANCH  16  25
+ATOM     25  N20 LZK d   1       1.755 -27.625  24.772  0.00  0.00    -0.231 N 
+ATOM     26  H1  LZK d   1       2.371 -28.275  24.264  0.00  0.00     0.174 HD
+ATOM     27  H2  LZK d   1       0.909 -27.978  25.241  0.00  0.00     0.174 HD
+ENDBRANCH  16  25
+ENDBRANCH   1  10
+BRANCH   2  28
+ATOM     28  O1  LZK d   1       6.612 -20.999  25.516  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  C45 LZK d   1       8.010 -20.795  25.693  0.00  0.00     0.010 C 
+ATOM     30  H7  LZK d   1       8.449 -21.673  26.189  0.00  0.00     0.066 H 
+ATOM     31  H8  LZK d   1       8.175 -19.902  26.314  0.00  0.00     0.066 H 
+ATOM     32  H9  LZK d   1       8.487 -20.652  24.712  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   3  33
+ATOM     33  O7  LZK d   1       2.607 -19.962  23.119  0.00  0.00    -0.355 OA
+BRANCH  33  34
+ATOM     34  C43 LZK d   1       1.566 -19.077  22.698  0.00  0.00     0.010 C 
+ATOM     35  H10 LZK d   1       0.744 -19.661  22.259  0.00  0.00     0.066 H 
+ATOM     36  H11 LZK d   1       1.961 -18.378  21.947  0.00  0.00     0.066 H 
+ATOM     37  H12 LZK d   1       1.192 -18.512  23.565  0.00  0.00     0.066 H 
+ENDBRANCH  33  34
+ENDBRANCH   3  33
+TORSDOF 7

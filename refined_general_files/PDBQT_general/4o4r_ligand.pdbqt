@@ -1,0 +1,88 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PBK_2  and  OAX_5 
+REMARK    2  A    between atoms: OAX_5  and  CAT_6 
+REMARK    3  A    between atoms: CAT_6  and  CBE_7 
+REMARK    4  A    between atoms: CBC_8  and  CAO_9 
+REMARK    5  A    between atoms: CBA_11  and  OAH_12 
+REMARK    6  A    between atoms: CAY_13  and  CAA_14 
+REMARK    7  A    between atoms: CBD_16  and  NAV_17 
+REMARK    8  A    between atoms: NAU_18  and  CAZ_19 
+REMARK    9  A    between atoms: CBG_22  and  SBM_23 
+REMARK   10  A    between atoms: CBB_28  and  NBJ_29 
+REMARK   11  A    between atoms: CBF_34  and  SBL_35 
+ROOT
+ATOM      1  CAZ 20V d   1      12.155  10.289  45.286  0.00  0.00     0.081 A 
+ATOM      2  CAR 20V d   1      12.822   9.643  46.321  0.00  0.00    -0.041 A 
+ATOM      3  CBH 20V d   1      12.257   8.500  46.919  0.00  0.00     0.002 A 
+ATOM      4  CBG 20V d   1      12.908   7.825  47.962  0.00  0.00     0.094 A 
+ATOM      5  CAQ 20V d   1      12.307   6.703  48.541  0.00  0.00    -0.026 A 
+ATOM      6  CBB 20V d   1      11.060   6.229  48.105  0.00  0.00     0.105 A 
+ATOM      7  CAS 20V d   1      10.428   6.903  47.073  0.00  0.00    -0.039 A 
+ATOM      8  CBI 20V d   1      11.008   8.027  46.480  0.00  0.00     0.003 A 
+ATOM      9  CBF 20V d   1      10.331   8.689  45.447  0.00  0.00     0.094 A 
+ATOM     10  CAP 20V d   1      10.907   9.812  44.867  0.00  0.00    -0.029 A 
+ATOM     11  H8  20V d   1      13.777  10.019  46.668  0.00  0.00     0.088 H 
+ATOM     12  H9  20V d   1      12.817   6.187  49.346  0.00  0.00     0.089 H 
+ATOM     13  H10 20V d   1       9.466   6.552  46.719  0.00  0.00     0.088 H 
+ATOM     14  H11 20V d   1      10.380  10.330  44.074  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  NAU 20V d   1      12.672  11.378  44.720  0.00  0.00    -0.148 NA
+ATOM     16  NAV 20V d   1      11.842  12.089  44.193  0.00  0.00    -0.129 NA
+BRANCH  16  17
+ATOM     17  CBD 20V d   1      12.134  13.283  43.683  0.00  0.00     0.181 A 
+ATOM     18  CBE 20V d   1      11.433  13.683  42.537  0.00  0.00     0.032 A 
+ATOM     19  CBC 20V d   1      11.694  14.950  42.018  0.00  0.00     0.049 A 
+ATOM     20  CBA 20V d   1      12.616  15.761  42.664  0.00  0.00     0.103 A 
+ATOM     21  CAY 20V d   1      13.281  15.334  43.810  0.00  0.00     0.067 A 
+ATOM     22  NAW 20V d   1      13.012  14.106  44.293  0.00  0.00    -0.229 NA
+BRANCH  18  23
+ATOM     23  CAT 20V d   1      10.494  12.873  41.889  0.00  0.00     0.061 C 
+ATOM     24  H1  20V d   1      10.789  12.725  40.840  0.00  0.00     0.083 H 
+ATOM     25  H2  20V d   1      10.430  11.898  42.394  0.00  0.00     0.083 H 
+BRANCH  23  26
+ATOM     26  OAX 20V d   1       9.221  13.538  41.949  0.00  0.00    -0.278 OA
+BRANCH  26  27
+ATOM     27  PBK 20V d   1       8.025  13.200  40.924  0.00  0.00     0.422 P 
+ATOM     28  OAK 20V d   1       7.081  12.154  41.714  0.00  0.00    -0.617 OA
+ATOM     29  OAL 20V d   1       7.108  14.531  40.827  0.00  0.00    -0.617 OA
+ATOM     30  OAC 20V d   1       8.476  12.744  39.580  0.00  0.00    -0.617 OA
+ENDBRANCH  26  27
+ENDBRANCH  23  26
+ENDBRANCH  18  23
+BRANCH  19  31
+ATOM     31  CAO 20V d   1      11.034  15.397  40.883  0.00  0.00     0.122 C 
+ATOM     32  OAB 20V d   1      10.163  16.264  40.966  0.00  0.00    -0.301 OA
+ATOM     33  H3  20V d   1      11.288  14.978  39.910  0.00  0.00     0.151 H 
+ENDBRANCH  19  31
+BRANCH  20  34
+ATOM     34  OAH 20V d   1      12.871  16.996  42.148  0.00  0.00    -0.358 OA
+ATOM     35  H4  20V d   1      12.068  17.504  42.134  0.00  0.00     0.217 HD
+ENDBRANCH  20  34
+BRANCH  21  36
+ATOM     36  CAA 20V d   1      14.207  16.142  44.465  0.00  0.00    -0.033 C 
+ATOM     37  H5  20V d   1      14.606  15.607  45.340  0.00  0.00     0.035 H 
+ATOM     38  H6  20V d   1      13.716  17.069  44.795  0.00  0.00     0.035 H 
+ATOM     39  H7  20V d   1      15.030  16.387  43.778  0.00  0.00     0.035 H 
+ENDBRANCH  21  36
+ENDBRANCH  16  17
+ENDBRANCH   1  15
+BRANCH   9  40
+ATOM     40  SBL 20V d   1       8.719   8.130  44.832  0.00  0.00     0.138 S 
+ATOM     41  OAM 20V d   1       8.262   8.983  43.651  0.00  0.00    -0.591 OA
+ATOM     42  OAE 20V d   1       7.722   8.213  45.976  0.00  0.00    -0.591 OA
+ATOM     43  OAD 20V d   1       8.790   6.680  44.354  0.00  0.00    -0.591 OA
+ENDBRANCH   9  40
+BRANCH   4  44
+ATOM     44  SBM 20V d   1      14.522   8.348  48.572  0.00  0.00     0.138 S 
+ATOM     45  OAN 20V d   1      15.498   8.351  47.416  0.00  0.00    -0.591 OA
+ATOM     46  OAG 20V d   1      15.047   7.362  49.601  0.00  0.00    -0.591 OA
+ATOM     47  OAF 20V d   1      14.464   9.766  49.151  0.00  0.00    -0.591 OA
+ENDBRANCH   4  44
+BRANCH   6  48
+ATOM     48  NBJ 20V d   1      10.469   5.145  48.653  0.00  0.00    -0.116 N 
+ATOM     49  OAJ 20V d   1       8.987   4.710  48.264  0.00  0.00    -0.532 OA
+ATOM     50  OAI 20V d   1      11.146   4.357  49.648  0.00  0.00    -0.532 OA
+ENDBRANCH   6  48
+TORSDOF 11

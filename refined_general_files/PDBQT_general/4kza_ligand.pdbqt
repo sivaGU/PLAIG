@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C04_4  and  C13_13 
+REMARK    2  A    between atoms: C05_5  and  S06_6 
+REMARK    3  A    between atoms: S06_6  and  N09_9 
+REMARK    4  A    between atoms: N09_9  and  C10_10 
+ROOT
+ATOM      1  S06 NZ9 d   1      51.920  -1.972  24.100  0.00  0.00     0.260 S 
+ATOM      2  O07 NZ9 d   1      51.643  -1.627  25.449  0.00  0.00    -0.200 OA
+ATOM      3  O08 NZ9 d   1      53.035  -2.813  23.795  0.00  0.00    -0.200 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C05 NZ9 d   1      52.021  -0.620  23.114  0.00  0.00     0.103 C 
+ATOM      5  C01 NZ9 d   1      53.214  -0.284  22.344  0.00  0.00    -0.052 C 
+ATOM      6  C02 NZ9 d   1      53.190   0.908  21.725  0.00  0.00    -0.043 C 
+ATOM      7  H   NZ9 d   1      54.068  -0.956  22.276  0.00  0.00     0.086 H 
+ATOM      8  S03 NZ9 d   1      51.613   1.580  21.800  0.00  0.00    -0.094 SA
+ATOM      9  H   NZ9 d   1      54.047   1.379  21.245  0.00  0.00     0.095 H 
+ATOM     10  C04 NZ9 d   1      51.094   0.382  22.876  0.00  0.00     0.104 C 
+BRANCH  10  11
+ATOM     11  C13 NZ9 d   1      49.612   0.492  23.346  0.00  0.00     0.218 C 
+ATOM     12  O14 NZ9 d   1      49.014   1.553  23.238  0.00  0.00    -0.643 OA
+ATOM     13  O15 NZ9 d   1      49.215  -0.596  23.794  0.00  0.00    -0.643 OA
+ENDBRANCH  10  11
+ENDBRANCH   1   4
+BRANCH   1  14
+ATOM     14  N09 NZ9 d   1      50.624  -3.026  23.853  0.00  0.00    -0.311 N 
+ATOM     15  H   NZ9 d   1      50.192  -3.422  24.663  0.00  0.00     0.172 HD
+BRANCH  14  16
+ATOM     16  C10 NZ9 d   1      50.099  -3.395  22.588  0.00  0.00     0.020 A 
+ATOM     17  C11 NZ9 d   1      50.478  -2.557  21.406  0.00  0.00    -0.044 A 
+ATOM     18  C12 NZ9 d   1      51.105  -3.939  21.599  0.00  0.00    -0.044 A 
+ATOM     19  H   NZ9 d   1      51.087  -1.652  21.546  0.00  0.00     0.036 H 
+ATOM     20  H   NZ9 d   1      49.754  -2.390  20.595  0.00  0.00     0.036 H 
+ATOM     21  H   NZ9 d   1      50.831  -4.769  20.931  0.00  0.00     0.036 H 
+ATOM     22  H   NZ9 d   1      52.164  -4.031  21.882  0.00  0.00     0.036 H 
+ATOM     23  H   NZ9 d   1      49.090  -3.822  22.681  0.00  0.00     0.073 H 
+ENDBRANCH  14  16
+ENDBRANCH   1  14
+TORSDOF 4

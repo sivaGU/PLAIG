@@ -1,0 +1,86 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_2  and  C1_1 
+REMARK    2  A    between atoms: C6'_23  and  O1_2 
+REMARK    3  A    between atoms: C2_3  and  O2_4 
+REMARK    4  A    between atoms: C3_5  and  O3_6 
+REMARK    5  A    between atoms: C4_7  and  O4_8 
+REMARK    6  A    between atoms: C5_9  and  C6_11 
+REMARK    7  A    between atoms: C6_11  and  O6_12 
+REMARK    8  A    between atoms: C1'_13  and  O1'_14 
+REMARK    9  A    between atoms: C2'_15  and  O2'_16 
+REMARK   10  A    between atoms: C3'_17  and  O3'_18 
+REMARK   11  A    between atoms: C4'_19  and  O4'_20 
+REMARK   12  A    between atoms: C5'_21  and  C6'_23 
+ROOT
+ATOM      1  O1  MLB d   1      18.533 -38.265  33.778  0.00  0.00    -0.356 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  MLB d   1      18.252 -38.224  32.344  0.00  0.00     0.158 C 
+ATOM      3  C2  MLB d   1      19.393 -37.821  31.449  0.00  0.00     0.110 C 
+ATOM      4  C3  MLB d   1      19.668 -36.332  31.628  0.00  0.00     0.092 C 
+ATOM      5  H2  MLB d   1      19.134 -38.000  30.395  0.00  0.00     0.094 H 
+ATOM      6  C4  MLB d   1      18.362 -35.524  31.550  0.00  0.00     0.090 C 
+ATOM      7  H4  MLB d   1      20.157 -36.149  32.596  0.00  0.00     0.091 H 
+ATOM      8  C5  MLB d   1      17.315 -36.053  32.531  0.00  0.00     0.089 C 
+ATOM      9  H6  MLB d   1      18.576 -34.471  31.783  0.00  0.00     0.091 H 
+ATOM     10  O5  MLB d   1      17.098 -37.386  32.162  0.00  0.00    -0.348 OA
+ATOM     11  H8  MLB d   1      17.736 -36.007  33.546  0.00  0.00     0.090 H 
+ATOM     12  H1  MLB d   1      17.977 -39.245  32.042  0.00  0.00     0.133 H 
+BRANCH   3  13
+ATOM     13  O2  MLB d   1      20.461 -38.676  31.815  0.00  0.00    -0.388 OA
+ATOM     14  H3  MLB d   1      20.670 -38.545  32.733  0.00  0.00     0.210 HD
+ENDBRANCH   3  13
+BRANCH   4  15
+ATOM     15  O3  MLB d   1      20.532 -35.957  30.554  0.00  0.00    -0.390 OA
+ATOM     16  H5  MLB d   1      20.735 -35.031  30.621  0.00  0.00     0.210 HD
+ENDBRANCH   4  15
+BRANCH   6  17
+ATOM     17  O4  MLB d   1      17.830 -35.628  30.225  0.00  0.00    -0.390 OA
+ATOM     18  H7  MLB d   1      17.022 -35.131  30.169  0.00  0.00     0.210 HD
+ENDBRANCH   6  17
+BRANCH   8  19
+ATOM     19  C6  MLB d   1      15.967 -35.330  32.551  0.00  0.00     0.043 C 
+ATOM     20  H9  MLB d   1      16.129 -34.303  32.910  0.00  0.00     0.078 H 
+ATOM     21  H10 MLB d   1      15.299 -35.860  33.246  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O6  MLB d   1      15.329 -35.265  31.273  0.00  0.00    -0.398 OA
+ATOM     23  H11 MLB d   1      14.502 -34.806  31.356  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH   8  19
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C6' MLB d   1      19.751 -38.551  34.540  0.00  0.00     0.049 C 
+ATOM     25  H21 MLB d   1      20.561 -37.857  34.270  0.00  0.00     0.078 H 
+ATOM     26  H22 MLB d   1      20.086 -39.586  34.379  0.00  0.00     0.078 H 
+BRANCH  24  27
+ATOM     27  C5' MLB d   1      19.289 -38.331  36.018  0.00  0.00     0.089 C 
+ATOM     28  C4' MLB d   1      20.300 -38.249  37.141  0.00  0.00     0.090 C 
+ATOM     29  C3' MLB d   1      19.489 -38.568  38.403  0.00  0.00     0.092 C 
+ATOM     30  H18 MLB d   1      21.118 -38.971  37.003  0.00  0.00     0.091 H 
+ATOM     31  C2' MLB d   1      19.009 -40.018  38.419  0.00  0.00     0.110 C 
+ATOM     32  H16 MLB d   1      18.615 -37.901  38.444  0.00  0.00     0.091 H 
+ATOM     33  C1' MLB d   1      18.456 -40.423  37.061  0.00  0.00     0.156 C 
+ATOM     34  H14 MLB d   1      19.870 -40.664  38.645  0.00  0.00     0.094 H 
+ATOM     35  O5' MLB d   1      18.180 -39.197  36.407  0.00  0.00    -0.349 OA
+ATOM     36  H12 MLB d   1      19.233 -40.974  36.511  0.00  0.00     0.133 H 
+ATOM     37  H20 MLB d   1      18.859 -37.319  35.989  0.00  0.00     0.090 H 
+BRANCH  28  38
+ATOM     38  O4' MLB d   1      20.821 -36.913  37.190  0.00  0.00    -0.390 OA
+ATOM     39  H19 MLB d   1      21.387 -36.822  37.948  0.00  0.00     0.210 HD
+ENDBRANCH  28  38
+BRANCH  29  40
+ATOM     40  O3' MLB d   1      20.304 -38.351  39.537  0.00  0.00    -0.390 OA
+ATOM     41  H17 MLB d   1      21.049 -38.940  39.507  0.00  0.00     0.210 HD
+ENDBRANCH  29  40
+BRANCH  31  42
+ATOM     42  O2' MLB d   1      18.034 -40.200  39.440  0.00  0.00    -0.388 OA
+ATOM     43  H15 MLB d   1      17.780 -41.115  39.474  0.00  0.00     0.210 HD
+ENDBRANCH  31  42
+BRANCH  33  44
+ATOM     44  O1' MLB d   1      17.270 -41.248  37.095  0.00  0.00    -0.369 OA
+ATOM     45  H13 MLB d   1      16.582 -40.792  37.565  0.00  0.00     0.212 HD
+ENDBRANCH  33  44
+ENDBRANCH  24  27
+ENDBRANCH   1  24
+TORSDOF 12

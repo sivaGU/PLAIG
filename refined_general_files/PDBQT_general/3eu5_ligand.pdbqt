@@ -1,0 +1,124 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P1_2  and  O3_5 
+REMARK    2  A    between atoms: O3_5  and  P2_6 
+REMARK    3  A    between atoms: P2_6  and  O5_9 
+REMARK    4  A    between atoms: O5_9  and  C1_10 
+REMARK    5  A    between atoms: C2_11  and  C3_12 
+REMARK    6  A    between atoms: C3_12  and  C4_13 
+REMARK    7  A    between atoms: C3_12  and  C5_14 
+REMARK    8  A    between atoms: C5_14  and  C6_15 
+REMARK    9  A    between atoms: C7_16  and  C8_17 
+REMARK   10  A    between atoms: C8_17  and  C9_18 
+REMARK   11  A    between atoms: C8_17  and  C10_19 
+REMARK   12  A    between atoms: C10_19  and  N1_20 
+REMARK       I    between atoms: N1_20  and  C11_21 
+REMARK   13  A    between atoms: C11_21  and  C12_23 
+REMARK   14  A    between atoms: C12_23  and  C13_24 
+REMARK   15  A    between atoms: C13_24  and  C14_25 
+REMARK   16  A    between atoms: C14_25  and  C15_26 
+REMARK   17  A    between atoms: C15_26  and  C16_27 
+ROOT
+ATOM      1  C10 GBO d   1      61.444 -49.126   2.757  0.00  0.00     0.001 C 
+ATOM      2  H15 GBO d   1      62.222 -49.221   3.529  0.00  0.00     0.065 H 
+ATOM      3  H16 GBO d   1      61.877 -48.669   1.855  0.00  0.00     0.065 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C8  GBO d   1      60.223 -48.336   3.269  0.00  0.00    -0.026 C 
+ATOM      5  H11 GBO d   1      60.885 -47.592   3.735  0.00  0.00     0.048 H 
+BRANCH   4   6
+ATOM      6  C7  GBO d   1      59.624 -47.362   2.502  0.00  0.00    -0.101 C 
+ATOM      7  C6  GBO d   1      58.505 -46.600   2.819  0.00  0.00    -0.105 C 
+ATOM      8  H9  GBO d   1      57.968 -46.615   3.766  0.00  0.00     0.076 H 
+ATOM      9  H10 GBO d   1      60.080 -47.165   1.533  0.00  0.00     0.077 H 
+BRANCH   7  10
+ATOM     10  C5  GBO d   1      58.163 -45.742   1.610  0.00  0.00    -0.044 C 
+ATOM     11  H7  GBO d   1      58.844 -44.878   1.608  0.00  0.00     0.039 H 
+ATOM     12  H8  GBO d   1      58.336 -46.347   0.708  0.00  0.00     0.039 H 
+BRANCH  10  13
+ATOM     13  C3  GBO d   1      56.735 -45.211   1.548  0.00  0.00    -0.036 C 
+ATOM     14  H3  GBO d   1      56.351 -46.239   1.624  0.00  0.00     0.046 H 
+BRANCH  13  15
+ATOM     15  C2  GBO d   1      56.002 -44.864   2.654  0.00  0.00    -0.077 C 
+ATOM     16  C1  GBO d   1      54.705 -44.390   2.531  0.00  0.00     0.022 C 
+ATOM     17  H1  GBO d   1      54.207 -44.126   1.599  0.00  0.00     0.123 H 
+ATOM     18  H2  GBO d   1      56.446 -44.962   3.644  0.00  0.00     0.080 H 
+BRANCH  16  19
+ATOM     19  O5  GBO d   1      54.148 -44.310   3.811  0.00  0.00    -0.260 OA
+BRANCH  19  20
+ATOM     20  P2  GBO d   1      52.720 -43.748   4.195  0.00  0.00     0.423 P 
+ATOM     21  O4  GBO d   1      51.790 -44.876   4.277  0.00  0.00    -0.624 OA
+ATOM     22  O9  GBO d   1      52.323 -42.537   3.401  0.00  0.00    -0.624 OA
+BRANCH  20  23
+ATOM     23  O3  GBO d   1      53.112 -43.485   5.749  0.00  0.00    -0.173 OA
+BRANCH  23  24
+ATOM     24  P1  GBO d   1      54.157 -42.406   6.279  0.00  0.00     0.431 P 
+ATOM     25  O2  GBO d   1      54.796 -43.036   7.611  0.00  0.00    -0.616 OA
+ATOM     26  O8  GBO d   1      53.285 -41.235   6.897  0.00  0.00    -0.616 OA
+ATOM     27  O1  GBO d   1      55.173 -42.042   5.272  0.00  0.00    -0.616 OA
+ENDBRANCH  23  24
+ENDBRANCH  20  23
+ENDBRANCH  19  20
+ENDBRANCH  16  19
+ENDBRANCH  13  15
+BRANCH  13  28
+ATOM     28  C4  GBO d   1      56.092 -45.046   0.144  0.00  0.00    -0.069 C 
+ATOM     29  H4  GBO d   1      56.808 -45.367  -0.627  0.00  0.00     0.028 H 
+ATOM     30  H5  GBO d   1      55.828 -43.990  -0.017  0.00  0.00     0.028 H 
+ATOM     31  H6  GBO d   1      55.184 -45.664   0.081  0.00  0.00     0.028 H 
+ENDBRANCH  13  28
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   6
+BRANCH   4  32
+ATOM     32  C9  GBO d   1      59.595 -48.674   4.619  0.00  0.00    -0.068 C 
+ATOM     33  H12 GBO d   1      60.183 -49.464   5.109  0.00  0.00     0.028 H 
+ATOM     34  H13 GBO d   1      58.564 -49.025   4.466  0.00  0.00     0.028 H 
+ATOM     35  H14 GBO d   1      59.586 -47.776   5.254  0.00  0.00     0.028 H 
+ENDBRANCH   4  32
+ENDBRANCH   1   4
+BRANCH   1  36
+ATOM     36  N1  GBO d   1      60.817 -50.398   2.467  0.00  0.00    -0.360 N 
+ATOM     37  C11 GBO d   1      61.350 -51.575   2.192  0.00  0.00     0.217 C 
+ATOM     38  O6  GBO d   1      62.547 -51.844   2.093  0.00  0.00    -0.274 OA
+ATOM     39  H17 GBO d   1      59.817 -50.383   2.476  0.00  0.00     0.162 HD
+BRANCH  37  40
+ATOM     40  C12 GBO d   1      60.271 -52.676   1.932  0.00  0.00     0.009 C 
+ATOM     41  H18 GBO d   1      60.799 -53.630   1.786  0.00  0.00     0.047 H 
+ATOM     42  H19 GBO d   1      59.738 -52.407   1.008  0.00  0.00     0.047 H 
+BRANCH  40  43
+ATOM     43  C13 GBO d   1      59.196 -52.897   3.051  0.00  0.00    -0.057 C 
+ATOM     44  H20 GBO d   1      58.780 -51.925   3.354  0.00  0.00     0.033 H 
+ATOM     45  H21 GBO d   1      59.668 -53.380   3.919  0.00  0.00     0.033 H 
+BRANCH  43  46
+ATOM     46  C14 GBO d   1      58.066 -53.791   2.523  0.00  0.00    -0.064 C 
+ATOM     47  H22 GBO d   1      58.187 -54.799   2.946  0.00  0.00     0.033 H 
+ATOM     48  H23 GBO d   1      58.140 -53.842   1.427  0.00  0.00     0.033 H 
+BRANCH  46  49
+ATOM     49  C15 GBO d   1      56.677 -53.264   2.898  0.00  0.00    -0.051 C 
+ATOM     50  H24 GBO d   1      56.515 -52.289   2.414  0.00  0.00     0.034 H 
+ATOM     51  H25 GBO d   1      56.615 -53.146   3.990  0.00  0.00     0.034 H 
+BRANCH  49  52
+ATOM     52  C16 GBO d   1      55.578 -54.266   2.423  0.00  0.00     0.012 C 
+ATOM     53  S1  GBO d   1      56.140 -55.706   1.387  0.00  0.00    -0.160 SA
+ATOM     54  C17 GBO d   1      54.428 -56.118   0.878  0.00  0.00    -0.002 C 
+ATOM     55  C18 GBO d   1      53.772 -54.723   0.654  0.00  0.00     0.042 A 
+ATOM     56  H27 GBO d   1      53.906 -56.676   1.669  0.00  0.00     0.052 H 
+ATOM     57  H28 GBO d   1      54.425 -56.708  -0.050  0.00  0.00     0.052 H 
+ATOM     58  C19 GBO d   1      54.489 -53.606   1.500  0.00  0.00     0.046 A 
+ATOM     59  N3  GBO d   1      54.132 -54.329  -0.714  0.00  0.00    -0.336 N 
+ATOM     60  H29 GBO d   1      52.687 -54.753   0.833  0.00  0.00     0.077 H 
+ATOM     61  N2  GBO d   1      55.148 -52.759   0.465  0.00  0.00    -0.335 N 
+ATOM     62  H30 GBO d   1      53.773 -53.028   2.103  0.00  0.00     0.077 H 
+ATOM     63  C20 GBO d   1      54.917 -53.245  -0.749  0.00  0.00     0.316 A 
+ATOM     64  H31 GBO d   1      55.688 -51.940   0.658  0.00  0.00     0.164 HD
+ATOM     65  O7  GBO d   1      55.364 -52.749  -1.785  0.00  0.00    -0.247 OA
+ATOM     66  H32 GBO d   1      53.824 -54.817  -1.531  0.00  0.00     0.164 HD
+ATOM     67  H26 GBO d   1      55.097 -54.655   3.333  0.00  0.00     0.059 H 
+ENDBRANCH  49  52
+ENDBRANCH  46  49
+ENDBRANCH  43  46
+ENDBRANCH  40  43
+ENDBRANCH  37  40
+ENDBRANCH   1  36
+TORSDOF 17

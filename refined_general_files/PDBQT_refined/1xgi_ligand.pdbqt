@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C2_2 
+REMARK    2  A    between atoms: N1_1  and  S13_9 
+REMARK    3  A    between atoms: C6_6  and  N2_8 
+REMARK    4  A    between atoms: S13_9  and  C15_10 
+REMARK    5  A    between atoms: C18_13  and  C21_16 
+ROOT
+ATOM      1  N1  NST d   1      79.386   4.262  31.113  0.00  0.00    -0.281 N 
+ATOM      2  H1  NST d   1      79.144   3.301  30.976  0.00  0.00     0.179 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C2  NST d   1      80.640   4.590  31.662  0.00  0.00     0.045 A 
+ATOM      4  C3  NST d   1      80.856   4.543  33.092  0.00  0.00    -0.057 A 
+ATOM      5  C5  NST d   1      82.157   4.873  33.622  0.00  0.00    -0.079 A 
+ATOM      6  H2  NST d   1      80.049   4.263  33.759  0.00  0.00     0.086 H 
+ATOM      7  C7  NST d   1      83.226   5.238  32.723  0.00  0.00    -0.051 A 
+ATOM      8  H4  NST d   1      82.331   4.847  34.692  0.00  0.00     0.083 H 
+ATOM      9  C6  NST d   1      83.001   5.282  31.292  0.00  0.00     0.105 A 
+ATOM     10  H5  NST d   1      84.204   5.481  33.121  0.00  0.00     0.087 H 
+ATOM     11  C4  NST d   1      81.700   4.956  30.772  0.00  0.00    -0.025 A 
+ATOM     12  H3  NST d   1      81.522   4.987  29.703  0.00  0.00     0.090 H 
+BRANCH   9  13
+ATOM     13  N2  NST d   1      84.018   5.623  30.434  0.00  0.00    -0.116 N 
+ATOM     14  O1  NST d   1      83.826   5.660  29.224  0.00  0.00    -0.532 OA
+ATOM     15  O2  NST d   1      85.126   5.889  30.869  0.00  0.00    -0.532 OA
+ENDBRANCH   9  13
+ENDBRANCH   1   3
+BRANCH   1  16
+ATOM     16  S13 NST d   1      78.255   5.497  30.671  0.00  0.00     0.264 S 
+ATOM     17  O16 NST d   1      76.968   4.851  30.513  0.00  0.00    -0.200 OA
+ATOM     18  O17 NST d   1      78.173   6.457  31.723  0.00  0.00    -0.200 OA
+BRANCH  16  19
+ATOM     19  C15 NST d   1      78.657   6.353  29.076  0.00  0.00     0.104 A 
+ATOM     20  C18 NST d   1      78.841   5.761  27.811  0.00  0.00     0.104 A 
+ATOM     21  S20 NST d   1      79.137   6.823  26.868  0.00  0.00    -0.094 SA
+ATOM     22  C22 NST d   1      79.130   8.034  27.585  0.00  0.00    -0.043 A 
+ATOM     23  C19 NST d   1      78.835   7.746  28.926  0.00  0.00    -0.052 A 
+ATOM     24  H7  NST d   1      79.320   9.023  27.171  0.00  0.00     0.095 H 
+ATOM     25  H6  NST d   1      78.756   8.481  29.726  0.00  0.00     0.086 H 
+BRANCH  20  26
+ATOM     26  C21 NST d   1      78.746   4.295  27.483  0.00  0.00     0.218 C 
+ATOM     27  O23 NST d   1      78.475   3.387  28.425  0.00  0.00    -0.643 OA
+ATOM     28  O24 NST d   1      78.928   3.928  26.335  0.00  0.00    -0.643 OA
+ENDBRANCH  20  26
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 5

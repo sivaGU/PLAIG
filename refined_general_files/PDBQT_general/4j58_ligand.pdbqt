@@ -1,0 +1,63 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: NAT_5  and  C_6 
+REMARK    1  A    between atoms: C_6  and  CA_8 
+REMARK    2  A    between atoms: CA_8  and  N_9 
+REMARK       I    between atoms: N_9  and  CAP_10 
+REMARK       I    between atoms: CAP_10  and  NAO_12 
+REMARK    3  A    between atoms: NAO_12  and  CAM_13 
+REMARK    4  A    between atoms: CAM_13  and  CAS_14 
+REMARK    5  A    between atoms: CAR_17  and  NAA_18 
+ROOT
+ATOM      1  N   53Z d   1       3.408  19.743  18.047  0.00  0.00    -0.334 N 
+ATOM      2  CAP 53Z d   1       3.087  18.520  17.716  0.00  0.00     0.316 C 
+ATOM      3  OAB 53Z d   1       3.732  17.883  16.875  0.00  0.00    -0.247 OA
+ATOM      4  NAO 53Z d   1       1.942  18.151  18.278  0.00  0.00    -0.339 N 
+ATOM      5  H11 53Z d   1       2.814  20.269  18.656  0.00  0.00     0.164 HD
+ATOM      6  H12 53Z d   1       1.494  18.834  18.855  0.00  0.00     0.164 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  CA  53Z d   1       4.623  20.335  17.531  0.00  0.00     0.070 C 
+ATOM      8  H9  53Z d   1       5.119  19.636  16.841  0.00  0.00     0.078 H 
+ATOM      9  H10 53Z d   1       4.390  21.270  17.000  0.00  0.00     0.078 H 
+BRANCH   7  10
+ATOM     10  C   53Z d   1       5.531  20.624  18.722  0.00  0.00     0.237 C 
+ATOM     11  NAT 53Z d   1       6.743  21.019  18.451  0.00  0.00    -0.351 N 
+ATOM     12  CAJ 53Z d   1       7.842  21.373  19.282  0.00  0.00    -0.002 C 
+ATOM     13  CAK 53Z d   1       7.411  21.234  17.206  0.00  0.00    -0.002 C 
+ATOM     14  CAH 53Z d   1       9.136  21.171  18.497  0.00  0.00    -0.049 C 
+ATOM     15  H1  53Z d   1       7.753  22.427  19.584  0.00  0.00     0.064 H 
+ATOM     16  H2  53Z d   1       7.849  20.735  20.178  0.00  0.00     0.064 H 
+ATOM     17  CAI 53Z d   1       8.545  22.227  17.444  0.00  0.00    -0.049 C 
+ATOM     18  H3  53Z d   1       9.283  20.155  18.101  0.00  0.00     0.035 H 
+ATOM     19  H4  53Z d   1      10.049  21.497  19.017  0.00  0.00     0.035 H 
+ATOM     20  H5  53Z d   1       9.185  22.413  16.569  0.00  0.00     0.035 H 
+ATOM     21  H6  53Z d   1       8.232  23.187  17.881  0.00  0.00     0.035 H 
+ATOM     22  H7  53Z d   1       7.820  20.283  16.833  0.00  0.00     0.064 H 
+ATOM     23  H8  53Z d   1       6.704  21.644  16.469  0.00  0.00     0.064 H 
+ATOM     24  O   53Z d   1       5.190  20.474  19.905  0.00  0.00    -0.272 OA
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   4  25
+ATOM     25  CAM 53Z d   1       1.261  16.868  18.153  0.00  0.00     0.021 C 
+ATOM     26  H13 53Z d   1       1.852  16.170  17.542  0.00  0.00     0.071 H 
+ATOM     27  H14 53Z d   1       0.265  16.997  17.703  0.00  0.00     0.071 H 
+BRANCH  25  28
+ATOM     28  CAS 53Z d   1       1.144  16.358  19.612  0.00  0.00    -0.040 A 
+ATOM     29  CAF 53Z d   1       2.123  16.627  20.567  0.00  0.00    -0.073 A 
+ATOM     30  CAD 53Z d   1       1.993  16.155  21.874  0.00  0.00    -0.057 A 
+ATOM     31  H15 53Z d   1       2.995  17.209  20.292  0.00  0.00     0.084 H 
+ATOM     32  CAR 53Z d   1       0.882  15.410  22.254  0.00  0.00     0.025 A 
+ATOM     33  H16 53Z d   1       2.767  16.372  22.601  0.00  0.00     0.086 H 
+ATOM     34  CAE 53Z d   1      -0.098  15.143  21.300  0.00  0.00    -0.057 A 
+ATOM     35  CAG 53Z d   1       0.029  15.614  19.995  0.00  0.00    -0.073 A 
+ATOM     36  H19 53Z d   1      -0.970  14.562  21.577  0.00  0.00     0.086 H 
+ATOM     37  H20 53Z d   1      -0.748  15.400  19.270  0.00  0.00     0.084 H 
+BRANCH  32  38
+ATOM     38  NAA 53Z d   1       0.758  14.953  23.516  0.00  0.00    -0.399 N 
+ATOM     39  H17 53Z d   1      -0.070  14.402  23.785  0.00  0.00     0.156 HD
+ATOM     40  H18 53Z d   1       1.491  15.155  24.211  0.00  0.00     0.156 HD
+ENDBRANCH  32  38
+ENDBRANCH  25  28
+ENDBRANCH   4  25
+TORSDOF 5

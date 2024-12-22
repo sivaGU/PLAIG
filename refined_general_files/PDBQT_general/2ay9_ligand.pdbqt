@@ -1,0 +1,46 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  C8_8 
+REMARK    3  A    between atoms: C8_8  and  C9_9 
+REMARK    4  A    between atoms: C9_9  and  C10_10 
+REMARK    5  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C7  5PV d   1      95.069  18.072  -3.040  0.00  0.00    -0.041 C 
+ATOM      2  H6  5PV d   1      96.032  17.557  -3.171  0.00  0.00     0.040 H 
+ATOM      3  H7  5PV d   1      95.018  18.933  -3.722  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  5PV d   1      94.991  18.580  -1.630  0.00  0.00    -0.058 A 
+ATOM      5  C2  5PV d   1      94.173  19.679  -1.298  0.00  0.00    -0.077 A 
+ATOM      6  C3  5PV d   1      94.093  20.150   0.002  0.00  0.00    -0.082 A 
+ATOM      7  H1  5PV d   1      93.595  20.165  -2.076  0.00  0.00     0.084 H 
+ATOM      8  C4  5PV d   1      94.825  19.537   0.995  0.00  0.00    -0.083 A 
+ATOM      9  H2  5PV d   1      93.458  20.996   0.237  0.00  0.00     0.083 H 
+ATOM     10  C5  5PV d   1      95.652  18.454   0.683  0.00  0.00    -0.082 A 
+ATOM     11  H3  5PV d   1      94.760  19.894   2.017  0.00  0.00     0.083 H 
+ATOM     12  C6  5PV d   1      95.729  17.975  -0.630  0.00  0.00    -0.077 A 
+ATOM     13  H4  5PV d   1      96.238  17.982   1.463  0.00  0.00     0.083 H 
+ATOM     14  H5  5PV d   1      96.367  17.130  -0.863  0.00  0.00     0.084 H 
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  C8  5PV d   1      93.958  17.107  -3.404  0.00  0.00    -0.061 C 
+ATOM     16  H8  5PV d   1      94.049  16.222  -2.757  0.00  0.00     0.033 H 
+ATOM     17  H9  5PV d   1      94.095  16.809  -4.454  0.00  0.00     0.033 H 
+BRANCH  15  18
+ATOM     18  C9  5PV d   1      92.528  17.670  -3.248  0.00  0.00    -0.056 C 
+ATOM     19  H10 5PV d   1      92.510  18.715  -3.592  0.00  0.00     0.033 H 
+ATOM     20  H11 5PV d   1      92.235  17.628  -2.188  0.00  0.00     0.033 H 
+BRANCH  18  21
+ATOM     21  C10 5PV d   1      91.532  16.844  -4.083  0.00  0.00     0.016 C 
+ATOM     22  H12 5PV d   1      91.692  17.070  -5.148  0.00  0.00     0.049 H 
+ATOM     23  H13 5PV d   1      90.509  17.131  -3.797  0.00  0.00     0.049 H 
+BRANCH  21  24
+ATOM     24  C11 5PV d   1      91.696  15.339  -3.872  0.00  0.00     0.172 C 
+ATOM     25  O1  5PV d   1      91.310  14.827  -2.804  0.00  0.00    -0.648 OA
+ATOM     26  O2  5PV d   1      92.210  14.657  -4.777  0.00  0.00    -0.648 OA
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   1  15
+TORSDOF 5

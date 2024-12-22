@@ -1,0 +1,76 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_7  and  C6_6 
+REMARK    2  A    between atoms: O12_8  and  C7_7 
+REMARK    3  A    between atoms: C14_9  and  O12_8 
+REMARK       I    between atoms: N_11  and  C14_9 
+REMARK    4  A    between atoms: C_13  and  CA_12 
+REMARK       I    between atoms: N_19  and  C_13 
+REMARK    5  A    between atoms: C_18  and  O_20 
+REMARK    6  A    between atoms: CA_21  and  C_18 
+ROOT
+ATOM      1  C14 PHQ d   1      41.804  37.525  85.235  0.00  0.00     0.363 C 
+ATOM      2  O15 PHQ d   1      42.365  37.260  84.169  0.00  0.00    -0.238 OA
+ATOM      3  N   PRO d   1      40.498  37.349  85.499  0.00  0.00    -0.315 N 
+ATOM      4  CA  PRO d   1      39.596  36.800  84.514  0.00  0.00     0.094 C 
+ATOM      5  CB  PRO d   1      38.348  36.520  85.355  0.00  0.00    -0.036 C 
+ATOM      6  CG  PRO d   1      38.411  37.516  86.496  0.00  0.00    -0.048 C 
+ATOM      7  CD  PRO d   1      39.892  37.688  86.790  0.00  0.00     0.001 C 
+ATOM      8  H   PRO d   1      39.982  35.930  83.982  0.00  0.00     0.088 H 
+ATOM      9  H   PRO d   1      38.328  35.492  85.717  0.00  0.00     0.036 H 
+ATOM     10  H   PRO d   1      37.434  36.632  84.771  0.00  0.00     0.036 H 
+ATOM     11  H   PRO d   1      37.865  37.162  87.371  0.00  0.00     0.035 H 
+ATOM     12  H   PRO d   1      37.940  38.463  86.231  0.00  0.00     0.035 H 
+ATOM     13  H   PRO d   1      40.150  38.688  87.140  0.00  0.00     0.064 H 
+ATOM     14  H   PRO d   1      40.245  37.064  87.611  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   4  15
+ATOM     15  C   PRO d   1      39.283  37.856  83.485  0.00  0.00     0.243 C 
+ATOM     16  O   PRO d   1      39.689  39.034  83.650  0.00  0.00    -0.271 OA
+ATOM     17  N   YCP d   1      38.563  37.502  82.416  0.00  0.00    -0.344 N 
+ATOM     18  CA  YCP d   1      38.199  38.568  81.427  0.00  0.00     0.035 C 
+ATOM     19  CE  YCP d   1      38.024  36.123  82.178  0.00  0.00    -0.002 C 
+ATOM     20  CB  YCP d   1      38.326  38.037  79.970  0.00  0.00    -0.044 C 
+ATOM     21  H   YCP d   1      38.879  39.413  81.533  0.00  0.00     0.076 H 
+ATOM     22  CG  YCP d   1      37.653  36.685  79.730  0.00  0.00    -0.062 C 
+ATOM     23  H   YCP d   1      39.389  37.906  79.769  0.00  0.00     0.036 H 
+ATOM     24  H   YCP d   1      37.831  38.760  79.322  0.00  0.00     0.036 H 
+ATOM     25  CD  YCP d   1      38.223  35.682  80.731  0.00  0.00    -0.050 C 
+ATOM     26  H   YCP d   1      37.845  36.347  78.712  0.00  0.00     0.033 H 
+ATOM     27  H   YCP d   1      36.575  36.775  79.863  0.00  0.00     0.033 H 
+ATOM     28  H   YCP d   1      37.700  34.735  80.593  0.00  0.00     0.035 H 
+ATOM     29  H   YCP d   1      39.294  35.598  80.549  0.00  0.00     0.035 H 
+ATOM     30  H   YCP d   1      36.955  36.130  82.391  0.00  0.00     0.064 H 
+ATOM     31  H   YCP d   1      38.559  35.428  82.826  0.00  0.00     0.064 H 
+BRANCH  18  32
+ATOM     32  C   YCP d   1      36.744  39.012  81.707  0.00  0.00     0.036 C 
+ATOM     33  H   YCP d   1      36.742  39.613  82.617  0.00  0.00     0.077 H 
+ATOM     34  H   YCP d   1      36.388  39.573  80.843  0.00  0.00     0.077 H 
+BRANCH  32  35
+ATOM     35  O   YCP d   1      35.867  37.897  81.907  0.00  0.00    -0.399 OA
+ATOM     36  H   YCP d   1      36.172  37.382  82.658  0.00  0.00     0.209 HD
+ENDBRANCH  32  35
+ENDBRANCH  18  32
+ENDBRANCH   4  15
+BRANCH   1  37
+ATOM     37  O12 PHQ d   1      42.551  38.093  86.309  0.00  0.00    -0.299 OA
+BRANCH  37  38
+ATOM     38  C7  PHQ d   1      43.971  38.288  86.153  0.00  0.00     0.054 C 
+ATOM     39  H   PHQ d   1      44.259  38.257  85.102  0.00  0.00     0.082 H 
+ATOM     40  H   PHQ d   1      44.276  39.267  86.524  0.00  0.00     0.082 H 
+BRANCH  38  41
+ATOM     41  C6  PHQ d   1      44.635  37.182  86.930  0.00  0.00    -0.034 A 
+ATOM     42  C1  PHQ d   1      45.110  37.450  88.223  0.00  0.00    -0.075 A 
+ATOM     43  C2  PHQ d   1      45.719  36.426  88.942  0.00  0.00    -0.082 A 
+ATOM     44  H   PHQ d   1      45.004  38.444  88.657  0.00  0.00     0.084 H 
+ATOM     45  C3  PHQ d   1      45.846  35.156  88.367  0.00  0.00    -0.083 A 
+ATOM     46  H   PHQ d   1      46.095  36.612  89.948  0.00  0.00     0.083 H 
+ATOM     47  C4  PHQ d   1      45.400  34.896  87.077  0.00  0.00    -0.082 A 
+ATOM     48  H   PHQ d   1      46.305  34.353  88.944  0.00  0.00     0.083 H 
+ATOM     49  C5  PHQ d   1      44.780  35.920  86.360  0.00  0.00    -0.075 A 
+ATOM     50  H   PHQ d   1      45.532  33.909  86.633  0.00  0.00     0.083 H 
+ATOM     51  H   PHQ d   1      44.409  35.732  85.353  0.00  0.00     0.084 H 
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH   1  37
+TORSDOF 6

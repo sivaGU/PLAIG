@@ -1,0 +1,88 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_4  and  CD_2 
+REMARK    2  A    between atoms: CB_5  and  CG_4 
+REMARK    3  A    between atoms: CA_35  and  CB_5 
+REMARK    4  A    between atoms: CA_35  and  C_6 
+REMARK       I    between atoms: N_9  and  CAU_10 
+REMARK    5  A    between atoms: N_9  and  CA_35 
+REMARK    6  A    between atoms: CAU_10  and  CAT_12 
+REMARK    7  A    between atoms: CAO_17  and  CAN_18 
+REMARK    8  A    between atoms: CAN_18  and  NAY_19 
+REMARK    9  A    between atoms: NAY_19  and  CAA_20 
+REMARK   10  A    between atoms: CAF_25  and  CAH_26 
+REMARK   11  A    between atoms: CAH_26  and  CAI_27 
+ROOT
+ATOM      1  CAN T04 d   1      20.506   0.964  50.476  0.00  0.00     0.016 C 
+ATOM      2  H6  T04 d   1      20.988   0.698  51.429  0.00  0.00     0.071 H 
+ATOM      3  H7  T04 d   1      20.952   0.373  49.662  0.00  0.00     0.071 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAO T04 d   1      20.829   2.375  50.210  0.00  0.00    -0.039 A 
+ATOM      5  CAQ T04 d   1      21.621   2.749  49.115  0.00  0.00    -0.057 A 
+ATOM      6  CAT T04 d   1      21.934   4.100  48.924  0.00  0.00     0.073 A 
+ATOM      7  H3  T04 d   1      21.987   1.999  48.423  0.00  0.00     0.086 H 
+ATOM      8  CAS T04 d   1      21.472   5.062  49.835  0.00  0.00     0.132 A 
+ATOM      9  CAR T04 d   1      20.695   4.668  50.916  0.00  0.00    -0.044 A 
+ATOM     10  FAS T04 d   1      21.746   6.386  49.719  0.00  0.00    -0.205 F 
+ATOM     11  CAP T04 d   1      20.372   3.331  51.106  0.00  0.00    -0.072 A 
+ATOM     12  H4  T04 d   1      20.337   5.412  51.619  0.00  0.00     0.088 H 
+ATOM     13  H5  T04 d   1      19.764   3.034  51.953  0.00  0.00     0.084 H 
+BRANCH   6  14
+ATOM     14  CAU T04 d   1      22.803   4.402  47.733  0.00  0.00     0.281 C 
+ATOM     15  N   T04 d   1      23.871   3.622  47.650  0.00  0.00    -0.203 NA
+ATOM     16  OBC T04 d   1      22.510   5.220  46.878  0.00  0.00    -0.265 OA
+BRANCH  15  17
+ATOM     17  CA  T04 d   1      24.992   3.894  47.120  0.00  0.00     0.137 C 
+BRANCH  17  18
+ATOM     18  CB  T04 d   1      25.970   2.797  47.226  0.00  0.00    -0.042 C 
+ATOM     19  H2  T04 d   1      26.127   2.292  48.178  0.00  0.00     0.087 H 
+BRANCH  18  20
+ATOM     20  CG  T04 d   1      26.645   2.437  46.172  0.00  0.00    -0.007 C 
+ATOM     21  H1  T04 d   1      26.522   2.956  45.222  0.00  0.00     0.094 H 
+BRANCH  20  22
+ATOM     22  CD  T04 d   1      27.581   1.305  46.304  0.00  0.00     0.198 C 
+ATOM     23  OE1 T04 d   1      27.439   0.483  47.255  0.00  0.00    -0.645 OA
+ATOM     24  OE2 T04 d   1      28.387   1.219  45.377  0.00  0.00    -0.645 OA
+ENDBRANCH  20  22
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+BRANCH  17  25
+ATOM     25  C   T04 d   1      25.362   5.224  46.641  0.00  0.00     0.229 C 
+ATOM     26  O   T04 d   1      25.562   5.518  45.420  0.00  0.00    -0.643 OA
+ATOM     27  OXT T04 d   1      25.498   6.032  47.557  0.00  0.00    -0.643 OA
+ENDBRANCH  17  25
+ENDBRANCH  15  17
+ENDBRANCH   6  14
+ENDBRANCH   1   4
+BRANCH   1  28
+ATOM     28  NAY T04 d   1      19.169   0.577  50.574  0.00  0.00    -0.386 N 
+ATOM     29  H8  T04 d   1      18.669   0.596  51.474  0.00  0.00     0.160 HD
+BRANCH  28  30
+ATOM     30  CAA T04 d   1      18.545   0.167  49.410  0.00  0.00     0.028 A 
+ATOM     31  CAC T04 d   1      19.119   0.450  48.169  0.00  0.00    -0.057 A 
+ATOM     32  CAE T04 d   1      18.467   0.040  47.008  0.00  0.00    -0.071 A 
+ATOM     33  H9  T04 d   1      20.061   0.983  48.109  0.00  0.00     0.086 H 
+ATOM     34  CAF T04 d   1      17.266  -0.672  47.116  0.00  0.00    -0.035 A 
+ATOM     35  H10 T04 d   1      18.884   0.269  46.034  0.00  0.00     0.084 H 
+ATOM     36  CAG T04 d   1      16.686  -0.921  48.360  0.00  0.00    -0.071 A 
+ATOM     37  CAB T04 d   1      17.335  -0.503  49.507  0.00  0.00    -0.057 A 
+ATOM     38  H12 T04 d   1      15.735  -1.437  48.427  0.00  0.00     0.084 H 
+ATOM     39  H11 T04 d   1      16.899  -0.699  50.480  0.00  0.00     0.086 H 
+BRANCH  34  40
+ATOM     40  CAH T04 d   1      16.612  -0.987  45.840  0.00  0.00    -0.051 C 
+ATOM     41  H13 T04 d   1      17.259  -1.138  44.977  0.00  0.00     0.087 H 
+BRANCH  40  42
+ATOM     42  CAI T04 d   1      15.155  -1.118  45.618  0.00  0.00     0.076 A 
+ATOM     43  SBG T04 d   1      13.946  -1.022  46.870  0.00  0.00    -0.055 SA
+ATOM     44  CAL T04 d   1      12.771  -1.287  45.628  0.00  0.00     0.146 A 
+ATOM     45  SBH T04 d   1      11.080  -1.396  46.023  0.00  0.00    -0.052 SA
+ATOM     46  NAX T04 d   1      13.192  -1.439  44.361  0.00  0.00    -0.307 N 
+ATOM     47  CAK T04 d   1      14.546  -1.343  44.386  0.00  0.00     0.264 A 
+ATOM     48  H14 T04 d   1      12.619  -1.593  43.556  0.00  0.00     0.170 HD
+ATOM     49  OBE T04 d   1      15.215  -1.426  43.282  0.00  0.00    -0.267 OA
+ENDBRANCH  40  42
+ENDBRANCH  34  40
+ENDBRANCH  28  30
+ENDBRANCH   1  28
+TORSDOF 11

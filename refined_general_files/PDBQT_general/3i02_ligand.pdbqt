@@ -1,0 +1,117 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_4  and  C1_1 
+REMARK    2  A    between atoms: C2_4  and  O2_15 
+REMARK    3  A    between atoms: O2_23  and  C4_6 
+REMARK    4  A    between atoms: C5_7  and  O5_8 
+REMARK    5  A    between atoms: C6_9  and  C7_11 
+REMARK    6  A    between atoms: C7_11  and  O7_12 
+REMARK    7  A    between atoms: C7_11  and  C8_13 
+REMARK    8  A    between atoms: C8_13  and  O8_14 
+REMARK    9  A    between atoms: O2_15  and  C9_16 
+REMARK   10  A    between atoms: C10_17  and  C11_18 
+REMARK   11  A    between atoms: C2_22  and  C1_19 
+REMARK   12  A    between atoms: C2_22  and  O2_23 
+REMARK   13  A    between atoms: C5_26  and  O5_27 
+REMARK   14  A    between atoms: C6_28  and  C7_30 
+REMARK   15  A    between atoms: C7_30  and  O7_31 
+REMARK   16  A    between atoms: C7_30  and  C8_32 
+REMARK   17  A    between atoms: C8_32  and  O8_33 
+ROOT
+ATOM      1  C2  KDA d   1      49.070  25.479  55.051  0.00  0.00     0.262 C 
+ATOM      2  C3  KDA d   1      47.594  25.112  55.219  0.00  0.00     0.025 C 
+ATOM      3  C4  KDA d   1      47.045  25.554  56.569  0.00  0.00     0.075 C 
+ATOM      4  C5  KDA d   1      47.918  24.997  57.683  0.00  0.00     0.088 C 
+ATOM      5  C6  KDA d   1      49.362  25.498  57.508  0.00  0.00     0.096 C 
+ATOM      6  O6  KDA d   1      49.806  25.013  56.200  0.00  0.00    -0.335 OA
+ATOM      7  H   KDA d   1      47.503  24.028  55.153  0.00  0.00     0.045 H 
+ATOM      8  H   KDA d   1      47.026  25.618  54.438  0.00  0.00     0.045 H 
+ATOM      9  H   KDA d   1      47.074  26.634  56.712  0.00  0.00     0.087 H 
+ATOM     10  H   KDA d   1      47.555  25.332  58.655  0.00  0.00     0.091 H 
+ATOM     11  H   KDA d   1      49.262  26.576  57.634  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  O2  KDO d   1      45.662  25.150  56.612  0.00  0.00    -0.338 OA
+BRANCH  12  13
+ATOM     13  C2  KDO d   1      44.687  25.499  57.605  0.00  0.00     0.256 C 
+ATOM     14  C3  KDO d   1      43.410  24.718  57.281  0.00  0.00     0.000 C 
+ATOM     15  C4  KDO d   1      42.909  25.095  55.904  0.00  0.00    -0.033 C 
+ATOM     16  H   KDA d   1      42.645  24.959  58.019  0.00  0.00     0.042 H 
+ATOM     17  H   KDA d   1      43.627  23.650  57.304  0.00  0.00     0.042 H 
+ATOM     18  C5  KDO d   1      42.764  26.625  55.837  0.00  0.00     0.063 C 
+ATOM     19  H   KDA d   1      41.945  24.622  55.717  0.00  0.00     0.037 H 
+ATOM     20  H   KDA d   1      43.615  24.755  55.146  0.00  0.00     0.037 H 
+ATOM     21  C6  KDO d   1      44.106  27.290  56.144  0.00  0.00     0.094 C 
+ATOM     22  H   KDA d   1      42.453  26.905  54.831  0.00  0.00     0.087 H 
+ATOM     23  O6  KDO d   1      44.537  26.910  57.476  0.00  0.00    -0.336 OA
+ATOM     24  H   KDA d   1      44.837  26.970  55.401  0.00  0.00     0.091 H 
+BRANCH  13  25
+ATOM     25  C1  KDO d   1      45.070  25.168  59.051  0.00  0.00     0.238 C 
+ATOM     26  O1A KDO d   1      45.476  24.011  59.294  0.00  0.00    -0.644 OA
+ATOM     27  O1B KDO d   1      44.881  26.069  59.902  0.00  0.00    -0.644 OA
+ENDBRANCH  13  25
+BRANCH  18  28
+ATOM     28  O5  KDO d   1      41.769  27.071  56.760  0.00  0.00    -0.393 OA
+ATOM     29  H   KDA d   1      42.024  26.819  57.651  0.00  0.00     0.210 HD
+ENDBRANCH  18  28
+BRANCH  21  30
+ATOM     30  C7  KDO d   1      43.953  28.809  56.105  0.00  0.00     0.083 C 
+ATOM     31  H   KDA d   1      43.168  29.090  56.807  0.00  0.00     0.090 H 
+BRANCH  30  32
+ATOM     32  O7  KDO d   1      43.613  29.208  54.772  0.00  0.00    -0.391 OA
+ATOM     33  H   KDA d   1      44.310  28.936  54.170  0.00  0.00     0.210 HD
+ENDBRANCH  30  32
+BRANCH  30  34
+ATOM     34  C8  KDO d   1      45.246  29.519  56.525  0.00  0.00     0.043 C 
+ATOM     35  H   KDA d   1      45.496  29.213  57.541  0.00  0.00     0.078 H 
+ATOM     36  H   KDA d   1      45.087  30.596  56.465  0.00  0.00     0.078 H 
+BRANCH  34  37
+ATOM     37  O8  KDO d   1      46.332  29.170  55.663  0.00  0.00    -0.398 OA
+ATOM     38  H   KDA d   1      47.126  29.628  55.949  0.00  0.00     0.209 HD
+ENDBRANCH  34  37
+ENDBRANCH  30  34
+ENDBRANCH  21  30
+ENDBRANCH  12  13
+ENDBRANCH   3  12
+BRANCH   4  39
+ATOM     39  O5  KDA d   1      47.872  23.572  57.620  0.00  0.00    -0.390 OA
+ATOM     40  H   KDA d   1      46.965  23.277  57.733  0.00  0.00     0.210 HD
+ENDBRANCH   4  39
+BRANCH   1  41
+ATOM     41  C1  KDA d   1      49.492  24.808  53.724  0.00  0.00     0.239 C 
+ATOM     42  O1A KDA d   1      50.260  23.826  53.792  0.00  0.00    -0.644 OA
+ATOM     43  O1B KDA d   1      48.941  25.208  52.675  0.00  0.00    -0.644 OA
+ENDBRANCH   1  41
+BRANCH   1  44
+ATOM     44  O2  KDA d   1      49.288  26.920  55.151  0.00  0.00    -0.317 OA
+BRANCH  44  45
+ATOM     45  C9  KDA d   1      49.137  27.898  54.217  0.00  0.00     0.013 C 
+ATOM     46  C10 KDA d   1      48.747  27.746  52.899  0.00  0.00    -0.086 C 
+ATOM     47  H   KDA d   1      48.516  26.764  52.485  0.00  0.00     0.079 H 
+ATOM     48  H   KDA d   1      49.347  28.916  54.545  0.00  0.00     0.122 H 
+BRANCH  46  49
+ATOM     49  C11 KDA d   1      48.661  28.898  52.122  0.00  0.00    -0.058 C 
+ATOM     50  H   KDA d   1      47.934  29.579  52.564  0.00  0.00     0.032 H 
+ATOM     51  H   KDA d   1      49.637  29.382  52.083  0.00  0.00     0.032 H 
+ATOM     52  H   KDA d   1      48.345  28.632  51.113  0.00  0.00     0.032 H 
+ENDBRANCH  46  49
+ENDBRANCH  44  45
+ENDBRANCH   1  44
+BRANCH   5  53
+ATOM     53  C7  KDA d   1      50.458  25.246  58.561  0.00  0.00     0.083 C 
+ATOM     54  H   KDA d   1      50.689  24.181  58.552  0.00  0.00     0.090 H 
+BRANCH  53  55
+ATOM     55  O7  KDA d   1      49.998  25.628  59.862  0.00  0.00    -0.391 OA
+ATOM     56  H   KDA d   1      50.691  25.465  60.506  0.00  0.00     0.210 HD
+ENDBRANCH  53  55
+BRANCH  53  57
+ATOM     57  C8  KDA d   1      51.728  26.042  58.228  0.00  0.00     0.043 C 
+ATOM     58  H   KDA d   1      52.484  25.810  58.978  0.00  0.00     0.078 H 
+ATOM     59  H   KDA d   1      51.476  27.102  58.222  0.00  0.00     0.078 H 
+BRANCH  57  60
+ATOM     60  O8  KDA d   1      52.249  25.697  56.942  0.00  0.00    -0.398 OA
+ATOM     61  H   KDA d   1      51.590  25.885  56.270  0.00  0.00     0.209 HD
+ENDBRANCH  57  60
+ENDBRANCH  53  57
+ENDBRANCH   5  53
+TORSDOF 17

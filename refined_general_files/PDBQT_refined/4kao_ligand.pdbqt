@@ -1,0 +1,93 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C12_12 
+REMARK    2  A    between atoms: C2_2  and  N6_6 
+REMARK    3  A    between atoms: C4_4  and  C8_8 
+REMARK       I    between atoms: N6_6  and  C7_7 
+REMARK       I    between atoms: C7_7  and  N20_20 
+REMARK    4  A    between atoms: C8_8  and  C9_9 
+REMARK    5  A    between atoms: C8_8  and  C10_10 
+REMARK    6  A    between atoms: C8_8  and  C11_11 
+REMARK    7  A    between atoms: C15_15  and  C18_18 
+REMARK    8  A    between atoms: N20_20  and  C21_21 
+REMARK    9  A    between atoms: C24_24  and  C27_27 
+ROOT
+ATOM      1  N1  KAO d   1       4.626 -13.095  15.883  0.00  0.00    -0.217 N 
+ATOM      2  C2  KAO d   1       3.828 -11.972  15.777  0.00  0.00     0.135 A 
+ATOM      3  C3  KAO d   1       3.113 -12.171  14.626  0.00  0.00    -0.012 A 
+ATOM      4  C4  KAO d   1       3.514 -13.405  14.094  0.00  0.00     0.066 A 
+ATOM      5  N5  KAO d   1       4.436 -13.982  14.846  0.00  0.00    -0.169 NA
+ATOM      6  H1  KAO d   1       2.371 -11.496  14.202  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   2   7
+ATOM      7  N6  KAO d   1       3.811 -10.931  16.682  0.00  0.00    -0.293 N 
+ATOM      8  C7  KAO d   1       2.771 -10.031  16.783  0.00  0.00     0.326 C 
+ATOM      9  O19 KAO d   1       1.691 -10.250  16.252  0.00  0.00    -0.247 OA
+ATOM     10  N20 KAO d   1       3.044  -8.906  17.510  0.00  0.00    -0.309 N 
+ATOM     11  H19 KAO d   1       3.945  -8.853  17.940  0.00  0.00     0.170 HD
+ATOM     12  H2  KAO d   1       4.593 -10.823  17.296  0.00  0.00     0.172 HD
+BRANCH  10  13
+ATOM     13  C21 KAO d   1       2.175  -7.811  17.712  0.00  0.00     0.036 A 
+ATOM     14  C22 KAO d   1       1.947  -7.304  18.981  0.00  0.00    -0.056 A 
+ATOM     15  C23 KAO d   1       1.063  -6.259  19.162  0.00  0.00    -0.070 A 
+ATOM     16  H20 KAO d   1       2.464  -7.729  19.834  0.00  0.00     0.086 H 
+ATOM     17  C24 KAO d   1       0.382  -5.692  18.091  0.00  0.00    -0.024 A 
+ATOM     18  H21 KAO d   1       0.896  -5.872  20.161  0.00  0.00     0.084 H 
+ATOM     19  C25 KAO d   1       0.635  -6.204  16.824  0.00  0.00    -0.070 A 
+ATOM     20  C26 KAO d   1       1.517  -7.247  16.633  0.00  0.00    -0.056 A 
+ATOM     21  H22 KAO d   1       0.128  -5.774  15.967  0.00  0.00     0.084 H 
+ATOM     22  H23 KAO d   1       1.696  -7.627  15.633  0.00  0.00     0.086 H 
+BRANCH  17  23
+ATOM     23  C27 KAO d   1      -0.608  -4.611  18.297  0.00  0.00    -0.008 A 
+ATOM     24  C28 KAO d   1      -1.189  -4.394  19.539  0.00  0.00    -0.070 A 
+ATOM     25  C29 KAO d   1      -2.143  -3.414  19.694  0.00  0.00    -0.065 A 
+ATOM     26  H24 KAO d   1      -0.891  -4.998  20.389  0.00  0.00     0.085 H 
+ATOM     27  C30 KAO d   1      -2.497  -2.665  18.601  0.00  0.00     0.002 A 
+ATOM     28  H25 KAO d   1      -2.604  -3.238  20.659  0.00  0.00     0.085 H 
+ATOM     29  N31 KAO d   1      -1.959  -2.835  17.393  0.00  0.00    -0.272 NA
+ATOM     30  H26 KAO d   1      -3.252  -1.897  18.725  0.00  0.00     0.114 H 
+ATOM     31  C32 KAO d   1      -1.034  -3.791  17.262  0.00  0.00     0.012 A 
+ATOM     32  H27 KAO d   1      -0.588  -3.935  16.285  0.00  0.00     0.116 H 
+ENDBRANCH  17  23
+ENDBRANCH  10  13
+ENDBRANCH   2   7
+BRANCH   1  33
+ATOM     33  C12 KAO d   1       5.572 -13.423  16.896  0.00  0.00     0.060 A 
+ATOM     34  C13 KAO d   1       6.857 -13.805  16.556  0.00  0.00    -0.055 A 
+ATOM     35  C14 KAO d   1       7.758 -14.157  17.540  0.00  0.00    -0.075 A 
+ATOM     36  H12 KAO d   1       7.157 -13.828  15.515  0.00  0.00     0.087 H 
+ATOM     37  C15 KAO d   1       7.407 -14.135  18.879  0.00  0.00    -0.062 A 
+ATOM     38  H13 KAO d   1       8.761 -14.457  17.259  0.00  0.00     0.084 H 
+ATOM     39  C16 KAO d   1       6.120 -13.742  19.206  0.00  0.00    -0.075 A 
+ATOM     40  C17 KAO d   1       5.209 -13.389  18.231  0.00  0.00    -0.055 A 
+ATOM     41  H14 KAO d   1       5.822 -13.711  20.248  0.00  0.00     0.084 H 
+ATOM     42  H15 KAO d   1       4.207 -13.085  18.512  0.00  0.00     0.087 H 
+BRANCH  37  43
+ATOM     43  C18 KAO d   1       8.392 -14.535  19.947  0.00  0.00    -0.051 C 
+ATOM     44  H16 KAO d   1       9.349 -14.810  19.479  0.00  0.00     0.033 H 
+ATOM     45  H17 KAO d   1       7.997 -15.396  20.507  0.00  0.00     0.033 H 
+ATOM     46  H18 KAO d   1       8.550 -13.691  20.635  0.00  0.00     0.033 H 
+ENDBRANCH  37  43
+ENDBRANCH   1  33
+BRANCH   4  47
+ATOM     47  C8  KAO d   1       3.022 -14.085  12.829  0.00  0.00    -0.005 C 
+BRANCH  47  48
+ATOM     48  C9  KAO d   1       1.499 -14.020  12.770  0.00  0.00    -0.064 C 
+ATOM     49  H3  KAO d   1       1.146 -14.514  11.852  0.00  0.00     0.028 H 
+ATOM     50  H4  KAO d   1       1.177 -12.968  12.768  0.00  0.00     0.028 H 
+ATOM     51  H5  KAO d   1       1.076 -14.531  13.647  0.00  0.00     0.028 H 
+ENDBRANCH  47  48
+BRANCH  47  52
+ATOM     52  C10 KAO d   1       3.602 -13.380  11.607  0.00  0.00    -0.064 C 
+ATOM     53  H6  KAO d   1       4.700 -13.424  11.645  0.00  0.00     0.028 H 
+ATOM     54  H7  KAO d   1       3.277 -12.329  11.602  0.00  0.00     0.028 H 
+ATOM     55  H8  KAO d   1       3.247 -13.878  10.693  0.00  0.00     0.028 H 
+ENDBRANCH  47  52
+BRANCH  47  56
+ATOM     56  C11 KAO d   1       3.463 -15.544  12.824  0.00  0.00    -0.064 C 
+ATOM     57  H9  KAO d   1       3.046 -16.056  13.704  0.00  0.00     0.028 H 
+ATOM     58  H10 KAO d   1       4.561 -15.595  12.856  0.00  0.00     0.028 H 
+ATOM     59  H11 KAO d   1       3.099 -16.034  11.909  0.00  0.00     0.028 H 
+ENDBRANCH  47  56
+ENDBRANCH   4  47
+TORSDOF 9

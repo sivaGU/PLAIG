@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_7 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+ROOT
+ATOM      1  C1  GLA d   1      14.312  56.846  55.116  0.00  0.00     0.156 C 
+ATOM      2  C2  GLA d   1      12.873  57.140  54.749  0.00  0.00     0.110 C 
+ATOM      3  C3  GLA d   1      12.373  56.256  53.626  0.00  0.00     0.092 C 
+ATOM      4  C4  GLA d   1      13.334  56.364  52.401  0.00  0.00     0.090 C 
+ATOM      5  C5  GLA d   1      14.735  56.054  52.846  0.00  0.00     0.089 C 
+ATOM      6  O5  GLA d   1      15.135  56.882  53.922  0.00  0.00    -0.349 OA
+ATOM      7  H1  GLA d   1      14.669  57.597  55.836  0.00  0.00     0.133 H 
+ATOM      8  H2  GLA d   1      12.815  58.185  54.409  0.00  0.00     0.094 H 
+ATOM      9  H3  GLA d   1      12.355  55.213  53.976  0.00  0.00     0.091 H 
+ATOM     10  H4  GLA d   1      13.043  55.613  51.652  0.00  0.00     0.091 H 
+ATOM     11  H5  GLA d   1      14.805  54.996  53.139  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  12
+ATOM     12  C6  GLA d   1      15.685  56.357  51.684  0.00  0.00     0.043 C 
+ATOM     13  H6  GLA d   1      15.798  57.442  51.544  0.00  0.00     0.078 H 
+ATOM     14  H7  GLA d   1      15.319  55.903  50.751  0.00  0.00     0.078 H 
+BRANCH  12  15
+ATOM     15  O6  GLA d   1      16.890  55.781  52.074  0.00  0.00    -0.398 OA
+ATOM     16  H12 GLA d   1      16.767  54.848  52.202  0.00  0.00     0.209 HD
+ENDBRANCH  12  15
+ENDBRANCH   5  12
+BRANCH   4  17
+ATOM     17  O4  GLA d   1      13.184  57.694  51.793  0.00  0.00    -0.390 OA
+ATOM     18  H11 GLA d   1      12.278  57.823  51.536  0.00  0.00     0.210 HD
+ENDBRANCH   4  17
+BRANCH   3  19
+ATOM     19  O3  GLA d   1      11.068  56.630  53.244  0.00  0.00    -0.390 OA
+ATOM     20  H10 GLA d   1      10.488  56.562  53.993  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   1  21
+ATOM     21  O1  GLA d   1      14.401  55.565  55.685  0.00  0.00    -0.369 OA
+ATOM     22  H8  GLA d   1      15.306  55.382  55.910  0.00  0.00     0.212 HD
+ENDBRANCH   1  21
+BRANCH   2  23
+ATOM     23  O2  GLA d   1      12.023  56.989  55.927  0.00  0.00    -0.388 OA
+ATOM     24  H9  GLA d   1      11.133  57.238  55.708  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+TORSDOF 6

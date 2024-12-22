@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAG_7  and  CAE_8 
+REMARK    2  A    between atoms: CAB_12  and  NAF_13 
+ROOT
+ATOM      1  NAM 3KN d   1       5.672 -12.901  15.616  0.00  0.00    -0.398 N 
+ATOM      2  CAI 3KN d   1       5.882 -14.150  15.285  0.00  0.00     0.041 A 
+ATOM      3  CAH 3KN d   1       4.849 -15.084  15.384  0.00  0.00    -0.040 A 
+ATOM      4  CAL 3KN d   1       5.130 -16.396  15.032  0.00  0.00     0.004 A 
+ATOM      5  NAK 3KN d   1       6.433 -16.717  14.583  0.00  0.00    -0.272 NA
+ATOM      6  CAJ 3KN d   1       7.469 -15.751  14.475  0.00  0.00     0.017 A 
+ATOM      7  CAG 3KN d   1       7.169 -14.443  14.818  0.00  0.00     0.045 A 
+ATOM      8  H1  3KN d   1       4.749 -12.610  15.968  0.00  0.00     0.156 HD
+ATOM      9  H2  3KN d   1       6.430 -12.210  15.524  0.00  0.00     0.156 HD
+ATOM     10  H3  3KN d   1       3.861 -14.794  15.724  0.00  0.00     0.089 H 
+ATOM     11  H4  3KN d   1       4.365 -17.161  15.100  0.00  0.00     0.114 H 
+ATOM     12  H5  3KN d   1       8.460 -16.028  14.136  0.00  0.00     0.116 H 
+ENDROOT
+BRANCH   7  13
+ATOM     13  CAE 3KN d   1       8.107 -13.487  14.795  0.00  0.00     0.137 A 
+ATOM     14  SAA 3KN d   1       9.780 -13.636  14.330  0.00  0.00    -0.028 SA
+ATOM     15  CAB 3KN d   1      10.110 -11.938  14.745  0.00  0.00     0.188 A 
+ATOM     16  NAC 3KN d   1       8.977 -11.377  15.196  0.00  0.00    -0.124 NA
+ATOM     17  NAD 3KN d   1       7.890 -12.234  15.226  0.00  0.00    -0.139 NA
+BRANCH  15  18
+ATOM     18  NAF 3KN d   1      11.277 -11.295  14.634  0.00  0.00    -0.377 N 
+ATOM     19  H6  3KN d   1      11.347 -10.305  14.908  0.00  0.00     0.158 HD
+ATOM     20  H7  3KN d   1      12.106 -11.790  14.275  0.00  0.00     0.158 HD
+ENDBRANCH  15  18
+ENDBRANCH   7  13
+TORSDOF 2

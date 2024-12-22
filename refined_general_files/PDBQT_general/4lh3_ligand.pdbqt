@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C3_3  and  C4_4 
+REMARK    4  A    between atoms: C4_4  and  C5_5 
+ROOT
+ATOM      1  C3  GUA d   1      19.638   0.639  -2.068  0.00  0.00    -0.047 C 
+ATOM      2  H3  GUA d   1      18.841  -0.026  -2.432  0.00  0.00     0.034 H 
+ATOM      3  H4  GUA d   1      20.589   0.371  -2.551  0.00  0.00     0.034 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C2  GUA d   1      19.773   0.491  -0.579  0.00  0.00     0.016 C 
+ATOM      5  H1  GUA d   1      20.655   1.056  -0.243  0.00  0.00     0.049 H 
+ATOM      6  H2  GUA d   1      18.872   0.897  -0.097  0.00  0.00     0.049 H 
+BRANCH   4   7
+ATOM      7  C1  GUA d   1      19.934  -0.946  -0.176  0.00  0.00     0.172 C 
+ATOM      8  O1  GUA d   1      20.524  -1.761  -0.930  0.00  0.00    -0.648 OA
+ATOM      9  O2  GUA d   1      19.485  -1.355   0.929  0.00  0.00    -0.648 OA
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  10
+ATOM     10  C4  GUA d   1      19.293   2.057  -2.397  0.00  0.00     0.016 C 
+ATOM     11  H5  GUA d   1      20.055   2.722  -1.965  0.00  0.00     0.049 H 
+ATOM     12  H6  GUA d   1      18.310   2.297  -1.966  0.00  0.00     0.049 H 
+BRANCH  10  13
+ATOM     13  C5  GUA d   1      19.242   2.269  -3.883  0.00  0.00     0.172 C 
+ATOM     14  O3  GUA d   1      20.088   1.728  -4.649  0.00  0.00    -0.648 OA
+ATOM     15  O4  GUA d   1      18.345   2.998  -4.386  0.00  0.00    -0.648 OA
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+TORSDOF 4

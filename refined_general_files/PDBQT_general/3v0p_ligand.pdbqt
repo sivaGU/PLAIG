@@ -1,0 +1,85 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBD_1  and  OAD_2 
+REMARK    2  A    between atoms: CBD_1  and  CBE_3 
+REMARK    3  A    between atoms: CBF_7  and  CBG_8 
+REMARK    4  A    between atoms: NBS_15  and  C1'_16 
+REMARK    5  A    between atoms: C2'_18  and  O2'_19 
+REMARK    6  A    between atoms: C3'_20  and  O3'_21 
+REMARK    7  A    between atoms: C4'_22  and  C5'_23 
+REMARK    8  A    between atoms: C5'_23  and  O5'_24 
+REMARK    9  A    between atoms: O5'_24  and  PBT_25 
+REMARK   10  A    between atoms: PBT_25  and  OBA_28 
+REMARK   11  A    between atoms: OBA_28  and  PBU_29 
+ROOT
+ATOM      1  C1' 4GW d   1     -31.491 -50.783   2.530  0.00  0.00     0.141 C 
+ATOM      2  O4' 4GW d   1     -31.991 -50.616   3.927  0.00  0.00    -0.353 OA
+ATOM      3  C2' 4GW d   1     -31.837 -49.535   1.805  0.00  0.00     0.105 C 
+ATOM      4  C3' 4GW d   1     -33.039 -49.136   2.530  0.00  0.00     0.091 C 
+ATOM      5  C4' 4GW d   1     -32.680 -49.400   3.950  0.00  0.00     0.089 C 
+ATOM      6  H8  4GW d   1     -30.395 -50.867   2.554  0.00  0.00     0.123 H 
+ATOM      7  H9  4GW d   1     -32.057 -49.725   0.744  0.00  0.00     0.093 H 
+ATOM      8  H11 4GW d   1     -33.896 -49.758   2.232  0.00  0.00     0.091 H 
+ATOM      9  H13 4GW d   1     -32.049 -48.590   4.343  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  NBS 4GW d   1     -32.023 -52.065   1.908  0.00  0.00    -0.279 N 
+ATOM     11  CAR 4GW d   1     -33.139 -52.614   2.382  0.00  0.00     0.004 A 
+ATOM     12  CBG 4GW d   1     -33.597 -53.821   1.837  0.00  0.00     0.065 A 
+ATOM     13  H6  4GW d   1     -33.691 -52.130   3.186  0.00  0.00     0.113 H 
+ATOM     14  CBH 4GW d   1     -32.931 -54.362   0.743  0.00  0.00     0.262 A 
+ATOM     15  OAE 4GW d   1     -33.302 -55.421   0.236  0.00  0.00    -0.267 OA
+ATOM     16  NAV 4GW d   1     -31.813 -53.743   0.311  0.00  0.00    -0.275 N 
+ATOM     17  CBI 4GW d   1     -31.375 -52.613   0.885  0.00  0.00     0.331 A 
+ATOM     18  H7  4GW d   1     -31.300 -54.135  -0.453  0.00  0.00     0.173 HD
+ATOM     19  OAF 4GW d   1     -30.355 -52.007   0.449  0.00  0.00    -0.246 OA
+BRANCH  12  20
+ATOM     20  CBF 4GW d   1     -34.911 -54.419   2.331  0.00  0.00     0.022 A 
+ATOM     21  SBB 4GW d   1     -35.776 -55.670   1.591  0.00  0.00    -0.092 SA
+ATOM     22  CBE 4GW d   1     -37.103 -55.747   2.657  0.00  0.00     0.007 A 
+ATOM     23  CAP 4GW d   1     -36.881 -54.751   3.620  0.00  0.00    -0.067 A 
+ATOM     24  CAQ 4GW d   1     -35.671 -54.007   3.434  0.00  0.00    -0.064 A 
+ATOM     25  H4  4GW d   1     -37.571 -54.559   4.441  0.00  0.00     0.085 H 
+ATOM     26  H5  4GW d   1     -35.368 -53.193   4.091  0.00  0.00     0.085 H 
+BRANCH  22  27
+ATOM     27  CBD 4GW d   1     -38.252 -56.701   2.640  0.00  0.00     0.046 C 
+ATOM     28  H1  4GW d   1     -38.032 -57.479   3.386  0.00  0.00     0.082 H 
+ATOM     29  H2  4GW d   1     -39.142 -56.135   2.953  0.00  0.00     0.082 H 
+BRANCH  27  30
+ATOM     30  OAD 4GW d   1     -38.581 -57.347   1.477  0.00  0.00    -0.396 OA
+ATOM     31  H3  4GW d   1     -39.328 -57.914   1.631  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH  22  27
+ENDBRANCH  12  20
+ENDBRANCH   1  10
+BRANCH   3  32
+ATOM     32  O2' 4GW d   1     -30.814 -48.628   1.899  0.00  0.00    -0.388 OA
+ATOM     33  H10 4GW d   1     -30.027 -48.999   1.518  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   5  34
+ATOM     34  C5' 4GW d   1     -33.900 -49.573   4.828  0.00  0.00     0.058 C 
+ATOM     35  H14 4GW d   1     -34.391 -48.592   4.909  0.00  0.00     0.079 H 
+ATOM     36  H15 4GW d   1     -33.550 -49.891   5.821  0.00  0.00     0.079 H 
+BRANCH  34  37
+ATOM     37  O5' 4GW d   1     -34.858 -50.485   4.412  0.00  0.00    -0.287 OA
+BRANCH  37  38
+ATOM     38  PBT 4GW d   1     -36.270 -49.980   3.902  0.00  0.00     0.418 P 
+ATOM     39  OAN 4GW d   1     -36.839 -50.998   2.940  0.00  0.00    -0.624 OA
+ATOM     40  OAG 4GW d   1     -36.155 -48.631   3.172  0.00  0.00    -0.624 OA
+BRANCH  38  41
+ATOM     41  OBA 4GW d   1     -37.284 -49.933   5.095  0.00  0.00    -0.173 OA
+BRANCH  41  42
+ATOM     42  PBU 4GW d   1     -37.714 -48.770   5.981  0.00  0.00     0.431 P 
+ATOM     43  OAO 4GW d   1     -38.965 -49.160   6.663  0.00  0.00    -0.616 OA
+ATOM     44  OAH 4GW d   1     -36.638 -48.519   7.072  0.00  0.00    -0.616 OA
+ATOM     45  O1  4GW d   1     -38.004 -47.506   5.184  0.00  0.00    -0.616 OA
+ENDBRANCH  41  42
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH  34  37
+ENDBRANCH   5  34
+BRANCH   4  46
+ATOM     46  O3' 4GW d   1     -33.352 -47.799   2.289  0.00  0.00    -0.390 OA
+ATOM     47  H12 4GW d   1     -34.136 -47.566   2.772  0.00  0.00     0.210 HD
+ENDBRANCH   4  46
+TORSDOF 11

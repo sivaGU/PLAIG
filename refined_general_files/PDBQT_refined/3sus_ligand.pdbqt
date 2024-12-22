@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_5  and  O3_6 
+REMARK    2  A    between atoms: C4_7  and  O4_8 
+REMARK    3  A    between atoms: C5_9  and  C6_11 
+REMARK    4  A    between atoms: C6_11  and  O6_12 
+REMARK    5  A    between atoms: C7_13  and  C8_14 
+ROOT
+ATOM      1  C1  GNL d   1     -35.497 -18.958 -15.929  0.00  0.00     0.115 C 
+ATOM      2  S1  GNL d   1     -34.001 -20.015 -15.778  0.00  0.00    -0.102 SA
+ATOM      3  C2  GNL d   1     -35.114 -17.951 -17.060  0.00  0.00     0.163 C 
+ATOM      4  N2  GNL d   1     -34.299 -18.767 -18.016  0.00  0.00    -0.052 N 
+ATOM      5  C3  GNL d   1     -34.364 -16.683 -16.549  0.00  0.00     0.093 C 
+ATOM      6  C4  GNL d   1     -34.920 -16.151 -15.204  0.00  0.00     0.089 C 
+ATOM      7  C5  GNL d   1     -34.912 -17.289 -14.173  0.00  0.00     0.087 C 
+ATOM      8  O5  GNL d   1     -35.804 -18.333 -14.673  0.00  0.00    -0.363 OA
+ATOM      9  C7  GNL d   1     -33.188 -19.396 -17.278  0.00  0.00     0.145 C 
+ATOM     10  H1  GNL d   1     -36.364 -19.558 -16.241  0.00  0.00     0.104 H 
+ATOM     11  H2  GNL d   1     -36.031 -17.610 -17.564  0.00  0.00     0.094 H 
+ATOM     12  H3  GNL d   1     -33.930 -18.171 -18.741  0.00  0.00     0.279 HD
+ATOM     13  H4  GNL d   1     -34.877 -19.481 -18.430  0.00  0.00     0.279 HD
+ATOM     14  H5  GNL d   1     -33.313 -16.966 -16.389  0.00  0.00     0.090 H 
+ATOM     15  H7  GNL d   1     -34.282 -15.329 -14.846  0.00  0.00     0.091 H 
+ATOM     16  H9  GNL d   1     -33.888 -17.680 -14.084  0.00  0.00     0.090 H 
+ATOM     17  H13 GNL d   1     -32.431 -18.641 -17.018  0.00  0.00     0.101 H 
+ENDROOT
+BRANCH   7  18
+ATOM     18  C6  GNL d   1     -35.399 -16.875 -12.787  0.00  0.00     0.043 C 
+ATOM     19  H10 GNL d   1     -36.476 -16.653 -12.826  0.00  0.00     0.078 H 
+ATOM     20  H11 GNL d   1     -34.852 -15.980 -12.457  0.00  0.00     0.078 H 
+BRANCH  18  21
+ATOM     21  O6  GNL d   1     -35.165 -17.944 -11.868  0.00  0.00    -0.398 OA
+ATOM     22  H12 GNL d   1     -35.467 -17.689 -11.004  0.00  0.00     0.209 HD
+ENDBRANCH  18  21
+ENDBRANCH   7  18
+BRANCH   6  23
+ATOM     23  O4  GNL d   1     -36.266 -15.664 -15.380  0.00  0.00    -0.390 OA
+ATOM     24  H8  GNL d   1     -36.596 -15.341 -14.550  0.00  0.00     0.210 HD
+ENDBRANCH   6  23
+BRANCH   5  25
+ATOM     25  O3  GNL d   1     -34.399 -15.627 -17.528  0.00  0.00    -0.391 OA
+ATOM     26  H6  GNL d   1     -33.982 -15.925 -18.328  0.00  0.00     0.210 HD
+ENDBRANCH   5  25
+BRANCH   9  27
+ATOM     27  C8  GNL d   1     -32.503 -20.508 -18.062  0.00  0.00    -0.041 C 
+ATOM     28  H14 GNL d   1     -32.027 -20.085 -18.959  0.00  0.00     0.031 H 
+ATOM     29  H15 GNL d   1     -33.249 -21.258 -18.363  0.00  0.00     0.031 H 
+ATOM     30  H16 GNL d   1     -31.738 -20.984 -17.431  0.00  0.00     0.031 H 
+ENDBRANCH   9  27
+TORSDOF 5

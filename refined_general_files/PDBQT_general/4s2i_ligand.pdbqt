@@ -1,0 +1,49 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAN_2  and  N_3 
+REMARK    1  A    between atoms: CA_5  and  C_6 
+REMARK       I    between atoms: C_6  and  NAA_8 
+REMARK    2  A    between atoms: CAO_11  and  NAK_12 
+REMARK    3  A    between atoms: NAK_12  and  OAL_13 
+REMARK    4  A    between atoms: OAL_13  and  SAR_14 
+ROOT
+ATOM      1  OAC NXL d   1       8.608  14.243  14.937  0.00  0.00    -0.284 OA
+ATOM      2  CAN NXL d   1       8.645  14.533  13.759  0.00  0.00     0.171 C 
+ATOM      3  N   NXL d   1       9.915  14.763  13.091  0.00  0.00    -0.344 N 
+ATOM      4  CAJ NXL d   1       9.982  14.850  11.649  0.00  0.00     0.027 C 
+ATOM      5  CA  NXL d   1      11.137  14.581  13.819  0.00  0.00     0.091 C 
+ATOM      6  CB  NXL d   1      11.871  13.309  13.331  0.00  0.00    -0.036 C 
+ATOM      7  CAH NXL d   1      11.780  13.122  11.807  0.00  0.00    -0.032 C 
+ATOM      8  CAO NXL d   1      10.421  13.431  11.229  0.00  0.00     0.147 C 
+ATOM      9  H1  NXL d   1       7.717  14.622  13.197  0.00  0.00     0.180 H 
+ATOM     10  H2  NXL d   1      10.721  15.601  11.333  0.00  0.00     0.067 H 
+ATOM     11  H3  NXL d   1       8.999  15.101  11.223  0.00  0.00     0.067 H 
+ATOM     12  H4  NXL d   1      10.868  14.408  14.871  0.00  0.00     0.087 H 
+ATOM     13  H7  NXL d   1      11.421  12.433  13.821  0.00  0.00     0.036 H 
+ATOM     14  H8  NXL d   1      12.931  13.383  13.614  0.00  0.00     0.036 H 
+ATOM     15  H9  NXL d   1      12.026  12.076  11.572  0.00  0.00     0.036 H 
+ATOM     16  H10 NXL d   1      12.517  13.787  11.333  0.00  0.00     0.036 H 
+ATOM     17  H11 NXL d   1      10.452  13.353  10.132  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   8  18
+ATOM     18  NAK NXL d   1       9.457  12.489  11.778  0.00  0.00     0.061 N 
+ATOM     19  H12 NXL d   1       8.544  12.719  11.417  0.00  0.00     0.316 HD
+ATOM     20  H13 NXL d   1       9.455  12.582  12.782  0.00  0.00     0.316 HD
+BRANCH  18  21
+ATOM     21  OAL NXL d   1       9.727  11.205  11.469  0.00  0.00    -0.054 OA
+BRANCH  21  22
+ATOM     22  SAR NXL d   1       9.123  10.285  12.550  0.00  0.00     0.279 S 
+ATOM     23  OAD NXL d   1       7.698  10.649  12.784  0.00  0.00    -0.571 OA
+ATOM     24  OAE NXL d   1       9.919  10.367  13.863  0.00  0.00    -0.571 OA
+ATOM     25  OAG NXL d   1       9.314   8.888  12.058  0.00  0.00    -0.571 OA
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH   8  18
+BRANCH   5  26
+ATOM     26  C   NXL d   1      11.999  15.850  13.790  0.00  0.00     0.238 C 
+ATOM     27  O   NXL d   1      11.869  16.683  12.886  0.00  0.00    -0.271 OA
+ATOM     28  NAA NXL d   1      12.947  16.061  14.844  0.00  0.00    -0.368 N 
+ATOM     29  H5  NXL d   1      13.519  16.881  14.845  0.00  0.00     0.159 HD
+ATOM     30  H6  NXL d   1      13.036  15.388  15.578  0.00  0.00     0.159 HD
+ENDBRANCH   5  26
+TORSDOF 4

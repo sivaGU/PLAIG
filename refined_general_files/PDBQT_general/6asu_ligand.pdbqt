@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C11_11 
+REMARK    2  A    between atoms: C11_11  and  C13_2 
+REMARK    3  A    between atoms: C02_4  and  C01_3 
+REMARK    4  A    between atoms: C05_7  and  C08_10 
+REMARK    5  A    between atoms: C08_10  and  O09_12 
+ROOT
+ATOM      1  C02 BVS d   1      31.638  77.856  61.690  0.00  0.00    -0.062 A 
+ATOM      2  C03 BVS d   1      32.704  77.717  62.604  0.00  0.00    -0.076 A 
+ATOM      3  C04 BVS d   1      33.703  78.694  62.656  0.00  0.00    -0.070 A 
+ATOM      4  C05 BVS d   1      33.665  79.827  61.801  0.00  0.00    -0.003 A 
+ATOM      5  C06 BVS d   1      32.596  79.954  60.882  0.00  0.00    -0.070 A 
+ATOM      6  C07 BVS d   1      31.594  78.975  60.826  0.00  0.00    -0.076 A 
+ATOM      7  H5  BVS d   1      32.748  76.857  63.263  0.00  0.00     0.084 H 
+ATOM      8  H6  BVS d   1      34.520  78.585  63.360  0.00  0.00     0.084 H 
+ATOM      9  H7  BVS d   1      32.552  80.811  60.219  0.00  0.00     0.084 H 
+ATOM     10  H8  BVS d   1      30.781  79.076  60.116  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C08 BVS d   1      34.758  80.833  61.850  0.00  0.00     0.080 C 
+ATOM     12  C10 BVS d   1      35.277  81.389  62.953  0.00  0.00     0.005 C 
+ATOM     13  H1  BVS d   1      35.013  80.979  63.927  0.00  0.00     0.094 H 
+BRANCH  12  14
+ATOM     14  C11 BVS d   1      36.193  82.538  62.886  0.00  0.00     0.250 C 
+ATOM     15  O12 BVS d   1      36.317  83.251  61.874  0.00  0.00    -0.281 OA
+BRANCH  14  16
+ATOM     16  C13 BVS d   1      37.380  82.492  63.827  0.00  0.00     0.251 C 
+ATOM     17  O14 BVS d   1      37.075  82.160  65.120  0.00  0.00    -0.642 OA
+ATOM     18  O15 BVS d   1      38.509  82.161  63.446  0.00  0.00    -0.642 OA
+ENDBRANCH  14  16
+ENDBRANCH  12  14
+BRANCH  11  19
+ATOM     19  O09 BVS d   1      34.946  81.609  60.724  0.00  0.00    -0.360 OA
+ATOM     20  H9  BVS d   1      35.666  82.210  60.872  0.00  0.00     0.217 HD
+ENDBRANCH  11  19
+ENDBRANCH   4  11
+BRANCH   1  21
+ATOM     21  C01 BVS d   1      30.564  76.829  61.650  0.00  0.00    -0.051 C 
+ATOM     22  H2  BVS d   1      30.778  76.046  62.392  0.00  0.00     0.033 H 
+ATOM     23  H3  BVS d   1      30.522  76.382  60.646  0.00  0.00     0.033 H 
+ATOM     24  H4  BVS d   1      29.598  77.300  61.883  0.00  0.00     0.033 H 
+ENDBRANCH   1  21
+TORSDOF 5

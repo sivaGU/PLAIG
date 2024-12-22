@@ -1,0 +1,119 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7N_2  and  C3N_4 
+REMARK    2  A    between atoms: N1N_9  and  C1M_10 
+REMARK    3  A    between atoms: C2M_11  and  O2M_12 
+REMARK    4  A    between atoms: C3M_13  and  O3M_14 
+REMARK    5  A    between atoms: C4M_16  and  C5M_17 
+REMARK    6  A    between atoms: C5M_17  and  O5M_18 
+REMARK    7  A    between atoms: O5M_18  and  PN_19 
+REMARK    8  A    between atoms: PN_19  and  O3A_22 
+REMARK    9  A    between atoms: O3A_22  and  PA_23 
+REMARK   10  A    between atoms: PA_23  and  O5B_26 
+REMARK   11  A    between atoms: O5B_26  and  C5B_27 
+REMARK   12  A    between atoms: C5B_27  and  C4B_28 
+REMARK   13  A    between atoms: C3B_29  and  O3B_30 
+REMARK   14  A    between atoms: C2B_31  and  O2P_32 
+REMARK   15  A    between atoms: C1B_33  and  N9A_35 
+ROOT
+ATOM      1  O3A NXX d   1      20.639  70.297  24.432  0.00  0.00    -0.180 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  PN  NXX d   1      20.263  68.898  23.741  0.00  0.00     0.417 P 
+ATOM      3  O1N NXX d   1      18.895  69.088  23.153  0.00  0.00    -0.624 OA
+ATOM      4  O2N NXX d   1      20.561  67.712  24.600  0.00  0.00    -0.624 OA
+BRANCH   2   5
+ATOM      5  O5M NXX d   1      21.373  68.794  22.585  0.00  0.00    -0.287 OA
+BRANCH   5   6
+ATOM      6  C5M NXX d   1      22.783  68.629  22.851  0.00  0.00     0.058 C 
+ATOM      7  H12 NXX d   1      23.093  69.372  23.601  0.00  0.00     0.079 H 
+ATOM      8  H13 NXX d   1      22.955  67.617  23.245  0.00  0.00     0.079 H 
+BRANCH   6   9
+ATOM      9  C4M NXX d   1      23.635  68.821  21.572  0.00  0.00     0.089 C 
+ATOM     10  C3M NXX d   1      23.018  69.762  20.543  0.00  0.00     0.091 C 
+ATOM     11  C2M NXX d   1      22.312  68.809  19.574  0.00  0.00     0.104 C 
+ATOM     12  H9  NXX d   1      22.315  70.462  21.018  0.00  0.00     0.091 H 
+ATOM     13  C1M NXX d   1      23.276  67.632  19.568  0.00  0.00     0.133 C 
+ATOM     14  H7  NXX d   1      21.349  68.494  20.001  0.00  0.00     0.093 H 
+ATOM     15  O4M NXX d   1      23.768  67.532  20.922  0.00  0.00    -0.354 OA
+ATOM     16  H6  NXX d   1      24.111  67.852  18.886  0.00  0.00     0.122 H 
+ATOM     17  H11 NXX d   1      24.624  69.206  21.862  0.00  0.00     0.090 H 
+BRANCH  10  18
+ATOM     18  O3M NXX d   1      24.025  70.492  19.800  0.00  0.00    -0.390 OA
+ATOM     19  H10 NXX d   1      23.608  70.983  19.102  0.00  0.00     0.210 HD
+ENDBRANCH  10  18
+BRANCH  11  20
+ATOM     20  O2M NXX d   1      22.035  69.370  18.284  0.00  0.00    -0.388 OA
+ATOM     21  H8  NXX d   1      22.844  69.681  17.895  0.00  0.00     0.210 HD
+ENDBRANCH  11  20
+BRANCH  13  22
+ATOM     22  N1N NXX d   1      22.652  66.368  19.135  0.00  0.00    -0.357 N 
+ATOM     23  C6N NXX d   1      21.827  65.660  19.991  0.00  0.00    -0.022 A 
+ATOM     24  C5N NXX d   1      21.237  64.445  19.537  0.00  0.00    -0.067 A 
+ATOM     25  H3  NXX d   1      21.631  66.026  20.998  0.00  0.00     0.111 H 
+ATOM     26  C4N NXX d   1      21.507  64.007  18.244  0.00  0.00    -0.067 A 
+ATOM     27  H2  NXX d   1      20.585  63.868  20.192  0.00  0.00     0.085 H 
+ATOM     28  C3N NXX d   1      22.362  64.760  17.383  0.00  0.00     0.036 A 
+ATOM     29  H1  NXX d   1      21.062  63.080  17.885  0.00  0.00     0.084 H 
+ATOM     30  C2N NXX d   1      22.927  65.961  17.881  0.00  0.00     0.027 A 
+ATOM     31  H4  NXX d   1      22.602  66.767  17.207  0.00  0.00     0.072 H 
+ATOM     32  H5  NXX d   1      24.019  65.848  17.817  0.00  0.00     0.072 H 
+BRANCH  28  33
+ATOM     33  C7N NXX d   1      22.682  64.339  15.978  0.00  0.00     0.206 C 
+ATOM     34  O7N NXX d   1      23.439  65.075  15.279  0.00  0.00    -0.644 OA
+ATOM     35  O8N NXX d   1      22.189  63.265  15.528  0.00  0.00    -0.644 OA
+ENDBRANCH  28  33
+ENDBRANCH  13  22
+ENDBRANCH   6   9
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  36
+ATOM     36  PA  NXX d   1      20.188  70.917  25.849  0.00  0.00     0.417 P 
+ATOM     37  O1A NXX d   1      19.853  72.366  25.632  0.00  0.00    -0.624 OA
+ATOM     38  O2A NXX d   1      19.108  70.028  26.461  0.00  0.00    -0.624 OA
+BRANCH  36  39
+ATOM     39  O5B NXX d   1      21.551  70.807  26.711  0.00  0.00    -0.287 OA
+BRANCH  39  40
+ATOM     40  C5B NXX d   1      22.777  71.297  26.172  0.00  0.00     0.058 C 
+ATOM     41  H14 NXX d   1      22.918  72.340  26.491  0.00  0.00     0.079 H 
+ATOM     42  H15 NXX d   1      22.729  71.253  25.074  0.00  0.00     0.079 H 
+BRANCH  40  43
+ATOM     43  C4B NXX d   1      23.971  70.459  26.656  0.00  0.00     0.089 C 
+ATOM     44  C3B NXX d   1      23.819  68.938  26.523  0.00  0.00     0.091 C 
+ATOM     45  C2B NXX d   1      23.459  68.445  27.910  0.00  0.00     0.105 C 
+ATOM     46  H17 NXX d   1      23.029  68.677  25.804  0.00  0.00     0.091 H 
+ATOM     47  C1B NXX d   1      24.190  69.456  28.781  0.00  0.00     0.139 C 
+ATOM     48  H19 NXX d   1      22.374  68.511  28.081  0.00  0.00     0.093 H 
+ATOM     49  O4B NXX d   1      24.183  70.696  28.032  0.00  0.00    -0.353 OA
+ATOM     50  H21 NXX d   1      25.219  69.103  28.943  0.00  0.00     0.122 H 
+ATOM     51  H16 NXX d   1      24.856  70.773  26.082  0.00  0.00     0.090 H 
+BRANCH  44  52
+ATOM     52  O3B NXX d   1      25.078  68.408  26.085  0.00  0.00    -0.390 OA
+ATOM     53  H18 NXX d   1      25.307  68.791  25.247  0.00  0.00     0.210 HD
+ENDBRANCH  44  52
+BRANCH  45  54
+ATOM     54  O2P NXX d   1      23.862  67.079  28.104  0.00  0.00    -0.388 OA
+ATOM     55  H20 NXX d   1      23.623  66.801  28.980  0.00  0.00     0.210 HD
+ENDBRANCH  45  54
+BRANCH  47  56
+ATOM     56  N9A NXX d   1      23.582  69.762  30.099  0.00  0.00    -0.294 N 
+ATOM     57  C8A NXX d   1      22.418  70.413  30.311  0.00  0.00     0.071 A 
+ATOM     58  N7A NXX d   1      22.202  70.510  31.632  0.00  0.00    -0.236 NA
+ATOM     59  H22 NXX d   1      21.759  70.798  29.534  0.00  0.00     0.144 H 
+ATOM     60  C5A NXX d   1      23.256  69.909  32.250  0.00  0.00     0.149 A 
+ATOM     61  C4A NXX d   1      24.121  69.435  31.258  0.00  0.00     0.167 A 
+ATOM     62  C6A NXX d   1      23.595  69.700  33.592  0.00  0.00     0.155 A 
+ATOM     63  N3A NXX d   1      25.297  68.764  31.598  0.00  0.00    -0.222 NA
+ATOM     64  C2A NXX d   1      25.605  68.574  32.915  0.00  0.00     0.091 A 
+ATOM     65  N1A NXX d   1      24.781  69.028  33.895  0.00  0.00    -0.222 NA
+ATOM     66  H25 NXX d   1      26.518  68.055  33.182  0.00  0.00     0.146 H 
+ATOM     67  N6A NXX d   1      22.770  70.149  34.562  0.00  0.00    -0.382 N 
+ATOM     68  H23 NXX d   1      23.011  70.000  35.552  0.00  0.00     0.157 HD
+ATOM     69  H24 NXX d   1      21.900  70.640  34.312  0.00  0.00     0.157 HD
+ENDBRANCH  47  56
+ENDBRANCH  40  43
+ENDBRANCH  39  40
+ENDBRANCH  36  39
+ENDBRANCH   1  36
+TORSDOF 15

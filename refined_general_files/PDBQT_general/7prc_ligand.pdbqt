@@ -1,0 +1,61 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_5  and  N7_8 
+REMARK    2  A    between atoms: C6_7  and  N13_15 
+REMARK    3  A    between atoms: N7_8  and  C8_9 
+REMARK    4  A    between atoms: C8_9  and  C10_12 
+REMARK    5  A    between atoms: C8_9  and  C12_14 
+REMARK    6  A    between atoms: C10_12  and  C11_13 
+REMARK    7  A    between atoms: N13_15  and  C14_16 
+REMARK    8  A    between atoms: C14_16  and  C15_17 
+ROOT
+ATOM      1  C8  CET d   1     130.539  66.290  -4.284  0.00  0.00     0.132 C 
+ATOM      2  C9  CET d   1     131.404  65.645  -3.289  0.00  0.00     0.091 C 
+ATOM      3  N9  CET d   1     132.069  65.098  -2.464  0.00  0.00    -0.195 NA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N7  CET d   1     131.174  67.498  -4.807  0.00  0.00    -0.200 N 
+ATOM      5  H   CET d   1     131.404  67.510  -5.811  0.00  0.00     0.179 HD
+BRANCH   4   6
+ATOM      6  C4  CET d   1     131.481  68.582  -4.102  0.00  0.00     0.742 A 
+ATOM      7  N3  CET d   1     131.201  68.572  -2.768  0.00  0.00    -0.030 NA
+ATOM      8  C2  CET d   1     131.520  69.705  -2.199  0.00  0.00     0.259 A 
+ATOM      9  N1  CET d   1     132.055  70.786  -2.683  0.00  0.00    -0.030 NA
+ATOM     10 CL2  CET d   1     131.171  69.782  -0.474  0.00  0.00    -0.040 Cl
+ATOM     11  C6  CET d   1     132.300  70.675  -4.029  0.00  0.00     0.741 A 
+ATOM     12  N5  CET d   1     132.034  69.606  -4.768  0.00  0.00     0.130 NA
+BRANCH  11  13
+ATOM     13  N13 CET d   1     132.851  71.750  -4.616  0.00  0.00    -0.222 N 
+ATOM     14  H   CET d   1     133.046  71.695  -5.626  0.00  0.00     0.177 HD
+BRANCH  13  15
+ATOM     15  C14 CET d   1     133.195  72.996  -3.925  0.00  0.00     0.006 C 
+ATOM     16  H   CET d   1     133.991  72.783  -3.196  0.00  0.00     0.064 H 
+ATOM     17  H   CET d   1     132.302  73.361  -3.396  0.00  0.00     0.064 H 
+BRANCH  15  18
+ATOM     18  C15 CET d   1     133.673  74.074  -4.853  0.00  0.00    -0.061 C 
+ATOM     19  H   CET d   1     133.913  74.977  -4.273  0.00  0.00     0.029 H 
+ATOM     20  H   CET d   1     132.883  74.306  -5.583  0.00  0.00     0.029 H 
+ATOM     21  H   CET d   1     134.573  73.729  -5.383  0.00  0.00     0.029 H 
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  22
+ATOM     22  C10 CET d   1     129.215  66.689  -3.651  0.00  0.00    -0.032 C 
+ATOM     23  H   CET d   1     129.388  67.466  -2.892  0.00  0.00     0.037 H 
+ATOM     24  H   CET d   1     128.753  65.810  -3.177  0.00  0.00     0.037 H 
+BRANCH  22  25
+ATOM     25  C11 CET d   1     128.300  67.225  -4.724  0.00  0.00    -0.073 C 
+ATOM     26  H   CET d   1     127.339  67.516  -4.275  0.00  0.00     0.027 H 
+ATOM     27  H   CET d   1     128.129  66.447  -5.482  0.00  0.00     0.027 H 
+ATOM     28  H   CET d   1     128.764  68.103  -5.197  0.00  0.00     0.027 H 
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+BRANCH   1  29
+ATOM     29  C12 CET d   1     130.309  65.305  -5.450  0.00  0.00    -0.040 C 
+ATOM     30  H   CET d   1     129.831  64.391  -5.069  0.00  0.00     0.032 H 
+ATOM     31  H   CET d   1     131.275  65.049  -5.910  0.00  0.00     0.032 H 
+ATOM     32  H   CET d   1     129.657  65.773  -6.202  0.00  0.00     0.032 H 
+ENDBRANCH   1  29
+TORSDOF 8

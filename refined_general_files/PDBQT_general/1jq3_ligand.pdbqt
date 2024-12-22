@@ -1,0 +1,115 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CB_3  and  CG_4 
+REMARK    4  A    between atoms: CG_4  and  C11_24 
+REMARK    5  A    between atoms: CG_4  and  SD_5 
+REMARK    6  A    between atoms: SD_5  and  C5'_6 
+REMARK    7  A    between atoms: C5'_6  and  C4'_7 
+REMARK    8  A    between atoms: C3'_9  and  O3'_10 
+REMARK    9  A    between atoms: C2'_11  and  O2'_12 
+REMARK   10  A    between atoms: C1'_13  and  N9_14 
+REMARK   11  A    between atoms: C6_18  and  N6_19 
+REMARK   12  A    between atoms: C11_24  and  C12_25 
+REMARK   13  A    between atoms: C12_25  and  C13_26 
+REMARK   14  A    between atoms: C13_26  and  C14_27 
+REMARK   15  A    between atoms: C14_27  and  C15_28 
+REMARK   16  A    between atoms: C15_28  and  N16_29 
+ROOT
+ATOM      1  CG  AAT d   1      22.458  38.883  12.754  0.00  0.00    -0.008 C 
+ATOM      2  H8  AAT d   1      22.216  39.852  12.294  0.00  0.00     0.056 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  AAT d   1      22.776  39.076  14.170  0.00  0.00    -0.031 C 
+ATOM      4  H6  AAT d   1      22.038  38.536  14.781  0.00  0.00     0.037 H 
+ATOM      5  H7  AAT d   1      23.781  38.676  14.371  0.00  0.00     0.037 H 
+BRANCH   3   6
+ATOM      6  CA  AAT d   1      22.746  40.489  14.524  0.00  0.00     0.081 C 
+ATOM      7  H4  AAT d   1      22.807  40.589  15.618  0.00  0.00     0.075 H 
+ATOM      8  H5  AAT d   1      23.606  40.996  14.061  0.00  0.00     0.075 H 
+BRANCH   6   9
+ATOM      9  N   AAT d   1      21.578  41.079  14.079  0.00  0.00    -0.079 N 
+ATOM     10  H1  AAT d   1      21.576  42.054  14.333  0.00  0.00     0.274 HD
+ATOM     11  H2  AAT d   1      20.787  40.620  14.503  0.00  0.00     0.274 HD
+ATOM     12  H3  AAT d   1      21.519  40.993  13.076  0.00  0.00     0.274 HD
+ENDBRANCH   6   9
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  13
+ATOM     13  C11 AAT d   1      23.641  38.272  12.043  0.00  0.00    -0.053 C 
+ATOM     14  H21 AAT d   1      23.348  38.257  10.983  0.00  0.00     0.034 H 
+ATOM     15  H22 AAT d   1      23.689  37.241  12.424  0.00  0.00     0.034 H 
+BRANCH  13  16
+ATOM     16  C12 AAT d   1      25.080  38.740  12.032  0.00  0.00    -0.064 C 
+ATOM     17  H23 AAT d   1      25.108  39.794  12.346  0.00  0.00     0.033 H 
+ATOM     18  H24 AAT d   1      25.469  38.652  11.007  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  C13 AAT d   1      25.972  37.936  12.958  0.00  0.00    -0.064 C 
+ATOM     20  H25 AAT d   1      25.383  37.062  13.274  0.00  0.00     0.033 H 
+ATOM     21  H26 AAT d   1      26.173  38.577  13.829  0.00  0.00     0.033 H 
+BRANCH  19  22
+ATOM     22  C14 AAT d   1      27.317  37.402  12.500  0.00  0.00    -0.043 C 
+ATOM     23  H27 AAT d   1      27.901  38.277  12.178  0.00  0.00     0.035 H 
+ATOM     24  H28 AAT d   1      27.112  36.758  11.632  0.00  0.00     0.035 H 
+BRANCH  22  25
+ATOM     25  C15 AAT d   1      28.225  36.602  13.414  0.00  0.00     0.080 C 
+ATOM     26  H29 AAT d   1      27.591  35.759  13.725  0.00  0.00     0.075 H 
+ATOM     27  H30 AAT d   1      28.383  37.277  14.268  0.00  0.00     0.075 H 
+BRANCH  25  28
+ATOM     28  N16 AAT d   1      29.499  36.003  13.232  0.00  0.00    -0.079 N 
+ATOM     29  H31 AAT d   1      29.782  35.550  14.087  0.00  0.00     0.274 HD
+ATOM     30  H32 AAT d   1      30.172  36.713  12.989  0.00  0.00     0.274 HD
+ATOM     31  H33 AAT d   1      29.447  35.321  12.491  0.00  0.00     0.274 HD
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+BRANCH   1  32
+ATOM     32  SD  AAT d   1      21.046  37.791  12.631  0.00  0.00    -0.162 SA
+BRANCH  32  33
+ATOM     33  C5' AAT d   1      21.034  37.243  10.912  0.00  0.00     0.004 C 
+ATOM     34  H9  AAT d   1      21.760  36.424  10.804  0.00  0.00     0.052 H 
+ATOM     35  H10 AAT d   1      21.337  38.088  10.276  0.00  0.00     0.052 H 
+BRANCH  33  36
+ATOM     36  C4' AAT d   1      19.696  36.754  10.443  0.00  0.00     0.076 C 
+ATOM     37  C3' AAT d   1      19.383  35.396  10.890  0.00  0.00     0.090 C 
+ATOM     38  C2' AAT d   1      19.026  34.568   9.569  0.00  0.00     0.105 C 
+ATOM     39  H12 AAT d   1      20.213  34.930  11.441  0.00  0.00     0.091 H 
+ATOM     40  C1' AAT d   1      18.848  35.730   8.602  0.00  0.00     0.139 C 
+ATOM     41  H14 AAT d   1      19.924  34.006   9.273  0.00  0.00     0.093 H 
+ATOM     42  O4' AAT d   1      19.678  36.732   9.115  0.00  0.00    -0.355 OA
+ATOM     43  H16 AAT d   1      17.791  36.033   8.573  0.00  0.00     0.122 H 
+ATOM     44  H11 AAT d   1      18.922  37.441  10.816  0.00  0.00     0.088 H 
+BRANCH  37  45
+ATOM     45  O3' AAT d   1      18.260  35.553  11.694  0.00  0.00    -0.390 OA
+ATOM     46  H13 AAT d   1      18.495  36.047  12.471  0.00  0.00     0.210 HD
+ENDBRANCH  37  45
+BRANCH  38  47
+ATOM     47  O2' AAT d   1      17.996  33.594   9.604  0.00  0.00    -0.388 OA
+ATOM     48  H15 AAT d   1      17.178  34.009   9.851  0.00  0.00     0.210 HD
+ENDBRANCH  38  47
+BRANCH  40  49
+ATOM     49  N9  AAT d   1      19.335  35.530   7.267  0.00  0.00    -0.294 N 
+ATOM     50  C4  AAT d   1      18.479  35.821   6.199  0.00  0.00     0.167 A 
+ATOM     51  C5  AAT d   1      18.873  34.998   5.104  0.00  0.00     0.149 A 
+ATOM     52  N3  AAT d   1      17.407  36.724   6.065  0.00  0.00    -0.222 NA
+ATOM     53  N7  AAT d   1      19.870  34.226   5.432  0.00  0.00    -0.236 NA
+ATOM     54  C6  AAT d   1      18.152  35.123   3.809  0.00  0.00     0.155 A 
+ATOM     55  C8  AAT d   1      20.115  34.552   6.721  0.00  0.00     0.071 A 
+ATOM     56  H17 AAT d   1      20.897  34.058   7.296  0.00  0.00     0.144 H 
+ATOM     57  N1  AAT d   1      17.085  36.030   3.667  0.00  0.00    -0.222 NA
+ATOM     58  C2  AAT d   1      16.785  36.766   4.811  0.00  0.00     0.091 A 
+ATOM     59  H20 AAT d   1      15.961  37.464   4.718  0.00  0.00     0.146 H 
+BRANCH  54  60
+ATOM     60  N6  AAT d   1      18.477  34.368   2.683  0.00  0.00    -0.382 N 
+ATOM     61  H18 AAT d   1      17.946  34.492   1.809  0.00  0.00     0.157 HD
+ATOM     62  H19 AAT d   1      19.248  33.686   2.725  0.00  0.00     0.157 HD
+ENDBRANCH  54  60
+ENDBRANCH  40  49
+ENDBRANCH  33  36
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16

@@ -1,0 +1,52 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O16_1  and  C14_2 
+REMARK    2  A    between atoms: C14_2  and  C13_3 
+REMARK    3  A    between atoms: C13_3  and  C15_4 
+REMARK    4  A    between atoms: C12_5  and  C11_6 
+REMARK    5  A    between atoms: C11_6  and  N10_7 
+REMARK    6  A    between atoms: N10_7  and  C6_8 
+ROOT
+ATOM      1  C11 ZEA d   1      28.447 -14.315   0.418  0.00  0.00     0.009 C 
+ATOM      2  H8  ZEA d   1      28.187 -14.067  -0.622  0.00  0.00     0.070 H 
+ATOM      3  H9  ZEA d   1      27.632 -13.999   1.086  0.00  0.00     0.070 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C12 ZEA d   1      29.684 -13.580   0.791  0.00  0.00    -0.082 C 
+ATOM      5  C13 ZEA d   1      29.683 -12.265   1.360  0.00  0.00    -0.063 C 
+ATOM      6  H7  ZEA d   1      30.643 -14.068   0.623  0.00  0.00     0.079 H 
+BRANCH   5   7
+ATOM      7  C14 ZEA d   1      31.011 -11.572   1.626  0.00  0.00     0.036 C 
+ATOM      8  H2  ZEA d   1      31.102 -11.257   2.676  0.00  0.00     0.081 H 
+ATOM      9  H3  ZEA d   1      31.865 -12.213   1.360  0.00  0.00     0.081 H 
+BRANCH   7  10
+ATOM     10  O16 ZEA d   1      30.891 -10.399   0.704  0.00  0.00    -0.397 OA
+ATOM     11  H1  ZEA d   1      30.791 -10.708  -0.189  0.00  0.00     0.209 HD
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  12
+ATOM     12  C15 ZEA d   1      28.419 -11.536   1.634  0.00  0.00    -0.053 C 
+ATOM     13  H4  ZEA d   1      27.563 -12.181   1.387  0.00  0.00     0.033 H 
+ATOM     14  H5  ZEA d   1      28.381 -10.625   1.019  0.00  0.00     0.033 H 
+ATOM     15  H6  ZEA d   1      28.377 -11.262   2.699  0.00  0.00     0.033 H 
+ENDBRANCH   5  12
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  N10 ZEA d   1      28.610 -15.731   0.527  0.00  0.00    -0.369 N 
+ATOM     17  H10 ZEA d   1      28.160 -16.239   1.302  0.00  0.00     0.161 HD
+BRANCH  16  18
+ATOM     18  C6  ZEA d   1      29.361 -16.419  -0.391  0.00  0.00     0.156 C 
+ATOM     19  C5  ZEA d   1      29.379 -17.801  -0.427  0.00  0.00     0.127 A 
+ATOM     20  N9  ZEA d   1      28.688 -18.774   0.309  0.00  0.00    -0.345 N 
+ATOM     21  C4  ZEA d   1      30.131 -18.378  -1.387  0.00  0.00     0.182 A 
+ATOM     22  C8  ZEA d   1      29.103 -19.909  -0.299  0.00  0.00     0.067 A 
+ATOM     23  H11 ZEA d   1      28.039 -18.656   1.100  0.00  0.00     0.167 HD
+ATOM     24  N7  ZEA d   1      29.968 -19.741  -1.286  0.00  0.00    -0.222 NA
+ATOM     25  H12 ZEA d   1      28.749 -20.894   0.003  0.00  0.00     0.143 H 
+ATOM     26  N3  ZEA d   1      30.979 -17.757  -2.252  0.00  0.00    -0.220 NA
+ATOM     27  C2  ZEA d   1      30.858 -16.422  -2.167  0.00  0.00     0.091 C 
+ATOM     28  N1  ZEA d   1      30.125 -15.745  -1.261  0.00  0.00    -0.222 NA
+ATOM     29  H13 ZEA d   1      31.402 -15.833  -2.897  0.00  0.00     0.146 H 
+ENDBRANCH  16  18
+ENDBRANCH   1  16
+TORSDOF 6

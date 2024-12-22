@@ -1,0 +1,105 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1B_2  and  C5B_3 
+REMARK       I    between atoms: C1B_2  and  N1B_10 
+REMARK    2  A    between atoms: C2B_6  and  C8B_7 
+REMARK    3  A    between atoms: N1B_10  and  C3A_11 
+REMARK    4  A    between atoms: C4A_12  and  O4A_13 
+REMARK    5  A    between atoms: C2D_14  and  C6A_15 
+REMARK    6  A    between atoms: C6A_15  and  O6A_16 
+REMARK    7  A    between atoms: C1A_18  and  S1D_19 
+REMARK    8  A    between atoms: S1D_19  and  C1D_20 
+REMARK    9  A    between atoms: C2A_21  and  O4P_22 
+REMARK   10  A    between atoms: O4P_22  and  P_23 
+REMARK   11  A    between atoms: P_23  and  O1P_26 
+REMARK   12  A    between atoms: O1P_26  and  C1C_27 
+REMARK   13  A    between atoms: C1C_27  and  C5C_28 
+ROOT
+ATOM      1  C3A PGZ d   1      -5.217  24.751 -32.680  0.00  0.00     0.068 C 
+ATOM      2  C4A PGZ d   1      -4.097  24.449 -31.680  0.00  0.00     0.084 C 
+ATOM      3  C2D PGZ d   1      -3.485  25.776 -31.261  0.00  0.00     0.087 C 
+ATOM      4  O5A PGZ d   1      -2.930  26.405 -32.426  0.00  0.00    -0.363 OA
+ATOM      5  C1A PGZ d   1      -3.974  26.855 -33.292  0.00  0.00     0.110 C 
+ATOM      6  C2A PGZ d   1      -4.753  25.649 -33.836  0.00  0.00     0.106 C 
+ATOM      7  H   PGZ d   1      -6.004  25.276 -32.139  0.00  0.00     0.080 H 
+ATOM      8  H   PGZ d   1      -4.529  23.900 -30.843  0.00  0.00     0.090 H 
+ATOM      9  H   PGZ d   1      -4.260  26.404 -30.820  0.00  0.00     0.090 H 
+ATOM     10  H   PGZ d   1      -4.693  27.465 -32.745  0.00  0.00     0.104 H 
+ATOM     11  H   PGZ d   1      -4.106  25.082 -34.505  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   6  12
+ATOM     12  O4P PGZ d   1      -5.912  26.123 -34.517  0.00  0.00    -0.279 OA
+BRANCH  12  13
+ATOM     13  P   PGZ d   1      -6.153  25.977 -36.105  0.00  0.00     0.409 P 
+ATOM     14  O3P PGZ d   1      -7.646  25.787 -36.298  0.00  0.00    -0.624 OA
+ATOM     15  O2P PGZ d   1      -5.170  25.011 -36.723  0.00  0.00    -0.624 OA
+BRANCH  13  16
+ATOM     16  O1P PGZ d   1      -5.844  27.468 -36.656  0.00  0.00    -0.285 OA
+BRANCH  16  17
+ATOM     17  C1C PGZ d   1      -5.542  27.709 -38.034  0.00  0.00     0.055 C 
+ATOM     18  H   PGZ d   1      -5.153  26.788 -38.469  0.00  0.00     0.082 H 
+ATOM     19  H   PGZ d   1      -4.811  28.516 -38.093  0.00  0.00     0.082 H 
+BRANCH  17  20
+ATOM     20  C5C PGZ d   1      -6.778  28.122 -38.806  0.00  0.00    -0.034 A 
+ATOM     21  C6C PGZ d   1      -7.701  29.020 -38.258  0.00  0.00    -0.075 A 
+ATOM     22  C7C PGZ d   1      -8.832  29.389 -38.991  0.00  0.00    -0.082 A 
+ATOM     23  H   PGZ d   1      -7.538  29.431 -37.262  0.00  0.00     0.084 H 
+ATOM     24  C2C PGZ d   1      -9.039  28.863 -40.271  0.00  0.00    -0.083 A 
+ATOM     25  H   PGZ d   1      -9.553  30.087 -38.566  0.00  0.00     0.083 H 
+ATOM     26  C3C PGZ d   1      -8.116  27.969 -40.821  0.00  0.00    -0.082 A 
+ATOM     27  H   PGZ d   1      -9.922  29.151 -40.841  0.00  0.00     0.083 H 
+ATOM     28  C4C PGZ d   1      -6.986  27.599 -40.086  0.00  0.00    -0.075 A 
+ATOM     29  H   PGZ d   1      -8.277  27.562 -41.819  0.00  0.00     0.083 H 
+ATOM     30  H   PGZ d   1      -6.265  26.901 -40.512  0.00  0.00     0.084 H 
+ENDBRANCH  17  20
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   6  12
+BRANCH   1  31
+ATOM     31  N1B PGZ d   1      -5.687  23.487 -33.251  0.00  0.00    -0.347 N 
+ATOM     32  C1B PGZ d   1      -6.985  23.156 -33.201  0.00  0.00     0.252 C 
+ATOM     33  O1B PGZ d   1      -7.817  23.895 -32.687  0.00  0.00    -0.268 OA
+ATOM     34  H   PGZ d   1      -5.020  22.852 -33.691  0.00  0.00     0.163 HD
+BRANCH  32  35
+ATOM     35  C5B PGZ d   1      -7.462  21.859 -33.800  0.00  0.00     0.032 A 
+ATOM     36  C6B PGZ d   1      -8.697  21.310 -33.428  0.00  0.00    -0.067 A 
+ATOM     37  C7B PGZ d   1      -9.131  20.110 -33.998  0.00  0.00    -0.076 A 
+ATOM     38  H   PGZ d   1      -9.320  21.820 -32.693  0.00  0.00     0.085 H 
+ATOM     39  C2B PGZ d   1      -8.334  19.461 -34.943  0.00  0.00    -0.062 A 
+ATOM     40  H   PGZ d   1     -10.090  19.682 -33.705  0.00  0.00     0.084 H 
+ATOM     41  C3B PGZ d   1      -7.108  20.008 -35.316  0.00  0.00    -0.076 A 
+ATOM     42  C4B PGZ d   1      -6.674  21.203 -34.746  0.00  0.00    -0.067 A 
+ATOM     43  H   PGZ d   1      -6.488  19.500 -36.055  0.00  0.00     0.084 H 
+ATOM     44  H   PGZ d   1      -5.714  21.627 -35.041  0.00  0.00     0.085 H 
+BRANCH  39  45
+ATOM     45  C8B PGZ d   1      -8.788  18.162 -35.573  0.00  0.00    -0.051 C 
+ATOM     46  H   PGZ d   1      -8.928  17.412 -34.795  0.00  0.00     0.033 H 
+ATOM     47  H   PGZ d   1      -9.730  18.324 -36.097  0.00  0.00     0.033 H 
+ATOM     48  H   PGZ d   1      -8.032  17.818 -36.279  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  32  35
+ENDBRANCH   1  31
+BRANCH   5  49
+ATOM     49  S1D PGZ d   1      -3.292  27.893 -34.558  0.00  0.00    -0.139 SA
+BRANCH  49  50
+ATOM     50  C1D PGZ d   1      -2.413  26.941 -35.758  0.00  0.00    -0.032 C 
+ATOM     51  H   PGZ d   1      -1.599  26.406 -35.270  0.00  0.00     0.041 H 
+ATOM     52  H   PGZ d   1      -3.093  26.226 -36.222  0.00  0.00     0.041 H 
+ATOM     53  H   PGZ d   1      -2.007  27.606 -36.521  0.00  0.00     0.041 H 
+ENDBRANCH  49  50
+ENDBRANCH   5  49
+BRANCH   2  54
+ATOM     54  O4A PGZ d   1      -3.054  23.637 -32.243  0.00  0.00    -0.391 OA
+ATOM     55  H   PGZ d   1      -3.423  22.800 -32.533  0.00  0.00     0.210 HD
+ENDBRANCH   2  54
+BRANCH   3  56
+ATOM     56  C6A PGZ d   1      -2.408  25.582 -30.211  0.00  0.00     0.043 C 
+ATOM     57  H   PGZ d   1      -1.521  25.119 -30.643  0.00  0.00     0.078 H 
+ATOM     58  H   PGZ d   1      -2.751  24.916 -29.419  0.00  0.00     0.078 H 
+BRANCH  56  59
+ATOM     59  O6A PGZ d   1      -2.108  26.874 -29.695  0.00  0.00    -0.398 OA
+ATOM     60  H   PGZ d   1      -1.796  27.437 -30.407  0.00  0.00     0.209 HD
+ENDBRANCH  56  59
+ENDBRANCH   3  56
+TORSDOF 13

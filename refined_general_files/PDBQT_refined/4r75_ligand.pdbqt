@@ -1,0 +1,66 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C3_3  and  O4_4 
+REMARK    4  A    between atoms: C6_6  and  C8_7 
+REMARK    5  A    between atoms: C8_7  and  O9_8 
+REMARK    6  A    between atoms: C8_7  and  C10_9 
+REMARK    7  A    between atoms: C10_9  and  O11_10 
+REMARK    8  A    between atoms: O11_10  and  P12_11 
+REMARK    9  A    between atoms: C16_15  and  O17_16 
+REMARK   10  A    between atoms: C18_17  and  O20_18 
+ROOT
+ATOM      1  C3  S7P d   1     -14.126  -9.882  13.663  0.00  0.00     0.213 C 
+ATOM      2  O5  S7P d   1     -13.754  -9.426  12.334  0.00  0.00    -0.340 OA
+ATOM      3  C6  S7P d   1     -12.971  -8.211  12.423  0.00  0.00     0.096 C 
+ATOM      4  C16 S7P d   1     -12.539  -8.199  13.869  0.00  0.00     0.093 C 
+ATOM      5  C18 S7P d   1     -13.770  -8.689  14.520  0.00  0.00     0.118 C 
+ATOM      6  H5  S7P d   1     -13.581  -7.321  12.210  0.00  0.00     0.091 H 
+ATOM      7  H10 S7P d   1     -11.688  -8.873  14.046  0.00  0.00     0.091 H 
+ATOM      8  H12 S7P d   1     -14.556  -7.924  14.439  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   3   9
+ATOM      9  C8  S7P d   1     -11.890  -8.301  11.415  0.00  0.00     0.084 C 
+ATOM     10  H6  S7P d   1     -11.214  -9.115  11.715  0.00  0.00     0.090 H 
+BRANCH   9  11
+ATOM     11  O9  S7P d   1     -11.169  -7.098  11.374  0.00  0.00    -0.391 OA
+ATOM     12  H7  S7P d   1     -10.479  -7.166  10.725  0.00  0.00     0.210 HD
+ENDBRANCH   9  11
+BRANCH   9  13
+ATOM     13  C10 S7P d   1     -12.426  -8.608   9.917  0.00  0.00     0.059 C 
+ATOM     14  H8  S7P d   1     -13.415  -8.147   9.777  0.00  0.00     0.079 H 
+ATOM     15  H9  S7P d   1     -12.504  -9.695   9.768  0.00  0.00     0.079 H 
+BRANCH  13  16
+ATOM     16  O11 S7P d   1     -11.523  -8.072   8.994  0.00  0.00    -0.280 OA
+BRANCH  16  17
+ATOM     17  P12 S7P d   1     -10.799  -9.010   7.928  0.00  0.00     0.422 P 
+ATOM     18  O13 S7P d   1     -10.007  -8.056   7.081  0.00  0.00    -0.617 OA
+ATOM     19  O14 S7P d   1     -11.855  -9.758   7.151  0.00  0.00    -0.617 OA
+ATOM     20  O15 S7P d   1      -9.882  -9.980   8.660  0.00  0.00    -0.617 OA
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH   9  13
+ENDBRANCH   3   9
+BRANCH   4  21
+ATOM     21  O17 S7P d   1     -12.189  -6.825  14.321  0.00  0.00    -0.390 OA
+ATOM     22  H11 S7P d   1     -11.922  -6.851  15.232  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   1  23
+ATOM     23  C2  S7P d   1     -15.644 -10.203  13.630  0.00  0.00     0.071 C 
+ATOM     24  H2  S7P d   1     -16.192  -9.324  13.260  0.00  0.00     0.082 H 
+ATOM     25  H3  S7P d   1     -15.819 -11.055  12.956  0.00  0.00     0.082 H 
+BRANCH  23  26
+ATOM     26  O1  S7P d   1     -16.119 -10.537  14.951  0.00  0.00    -0.395 OA
+ATOM     27  H1  S7P d   1     -15.649 -11.298  15.272  0.00  0.00     0.209 HD
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+BRANCH   1  28
+ATOM     28  O4  S7P d   1     -13.387 -10.970  14.028  0.00  0.00    -0.362 OA
+ATOM     29  H4  S7P d   1     -13.537 -11.675  13.409  0.00  0.00     0.213 HD
+ENDBRANCH   1  28
+BRANCH   5  30
+ATOM     30  O20 S7P d   1     -13.633  -9.007  15.894  0.00  0.00    -0.387 OA
+ATOM     31  H13 S7P d   1     -12.980  -9.689  15.996  0.00  0.00     0.210 HD
+ENDBRANCH   5  30
+TORSDOF 10

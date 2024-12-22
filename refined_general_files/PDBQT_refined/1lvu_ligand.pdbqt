@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_12  and  N9_1 
+REMARK    2  A    between atoms: C11_13  and  C10_12 
+REMARK    3  A    between atoms: C11_13  and  C12_14 
+REMARK    4  A    between atoms: O13_15  and  C11_13 
+REMARK    5  A    between atoms: C14_17  and  O13_15 
+REMARK    6  A    between atoms: C14_17  and  P_16 
+ROOT
+ATOM      1  C10 9PP d   1      42.502  60.968 170.898  0.00  0.00     0.026 C 
+ATOM      2  H6  9PP d   1      43.305  61.594 171.315  0.00  0.00     0.068 H 
+ATOM      3  H7  9PP d   1      42.926  60.017 170.543  0.00  0.00     0.068 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N9  9PP d   1      41.959  61.629 169.814  0.00  0.00    -0.321 N 
+ATOM      5  C8  9PP d   1      40.824  61.275 169.100  0.00  0.00     0.068 A 
+ATOM      6  N7  9PP d   1      40.619  62.146 168.121  0.00  0.00    -0.236 NA
+ATOM      7  H1  9PP d   1      40.195  60.411 169.311  0.00  0.00     0.143 H 
+ATOM      8  C5  9PP d   1      41.638  63.085 168.191  0.00  0.00     0.150 A 
+ATOM      9  C6  9PP d   1      41.938  64.271 167.377  0.00  0.00     0.173 A 
+ATOM     10  C4  9PP d   1      42.490  62.773 169.253  0.00  0.00     0.183 A 
+ATOM     11  N6  9PP d   1      41.286  64.694 166.395  0.00  0.00    -0.381 N 
+ATOM     12  N1  9PP d   1      43.115  64.964 167.814  0.00  0.00    -0.043 NA
+ATOM     13  H2  9PP d   1      41.595  65.542 165.899  0.00  0.00     0.157 HD
+ATOM     14  H3  9PP d   1      40.441  64.194 166.084  0.00  0.00     0.157 HD
+ATOM     15  C2  9PP d   1      43.918  64.565 168.910  0.00  0.00     0.724 A 
+ATOM     16  N2  9PP d   1      45.017  65.306 169.226  0.00  0.00    -0.231 N 
+ATOM     17  N3  9PP d   1      43.634  63.459 169.665  0.00  0.00    -0.043 NA
+ATOM     18  H4  9PP d   1      45.251  66.142 168.672  0.00  0.00     0.174 HD
+ATOM     19  H5  9PP d   1      45.614  65.030 170.019  0.00  0.00     0.174 HD
+ENDBRANCH   1   4
+BRANCH   1  20
+ATOM     20  C11 9PP d   1      41.501  60.656 172.027  0.00  0.00     0.051 C 
+ATOM     21  H8  9PP d   1      40.597  60.194 171.604  0.00  0.00     0.085 H 
+BRANCH  20  22
+ATOM     22  C12 9PP d   1      41.127  61.948 172.746  0.00  0.00    -0.051 C 
+ATOM     23  H9  9PP d   1      40.412  61.725 173.552  0.00  0.00     0.030 H 
+ATOM     24  H10 9PP d   1      40.667  62.646 172.031  0.00  0.00     0.030 H 
+ATOM     25  H11 9PP d   1      42.032  62.405 173.174  0.00  0.00     0.030 H 
+ENDBRANCH  20  22
+BRANCH  20  26
+ATOM     26  O13 9PP d   1      42.124  59.742 172.970  0.00  0.00    -0.371 OA
+BRANCH  26  27
+ATOM     27  C14 9PP d   1      41.799  58.371 172.632  0.00  0.00     0.122 C 
+ATOM     28  H12 9PP d   1      41.891  58.240 171.544  0.00  0.00     0.095 H 
+ATOM     29  H13 9PP d   1      40.764  58.163 172.940  0.00  0.00     0.095 H 
+BRANCH  27  30
+ATOM     30  P   9PP d   1      42.731  57.384 173.330  0.00  0.00     0.283 P 
+ATOM     31  O1P 9PP d   1      42.639  57.562 174.810  0.00  0.00    -0.638 OA
+ATOM     32  O3P 9PP d   1      44.144  57.614 172.891  0.00  0.00    -0.638 OA
+ATOM     33  O2P 9PP d   1      42.321  55.987 172.976  0.00  0.00    -0.638 OA
+ENDBRANCH  27  30
+ENDBRANCH  26  27
+ENDBRANCH  20  26
+ENDBRANCH   1  20
+TORSDOF 6

@@ -1,0 +1,74 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N32_18 
+REMARK    2  A    between atoms: C3_3  and  N13_10 
+REMARK    3  A    between atoms: C5_5  and  C10_7 
+REMARK       I    between atoms: N13_10  and  C14_11 
+REMARK    4  A    between atoms: C14_11  and  C15_12 
+REMARK    5  A    between atoms: C15_12  and  C24_16 
+REMARK    6  A    between atoms: C15_12  and  C17_14 
+REMARK    7  A    between atoms: C17_14  and  C18_15 
+REMARK    8  A    between atoms: C24_16  and  C26_17 
+REMARK       I    between atoms: N32_18  and  C33_19 
+REMARK    9  A    between atoms: C33_19  and  C34_20 
+ROOT
+ATOM      1  C1  FDI d   1      33.587  -9.713  64.229  0.00  0.00    -0.054 A 
+ATOM      2  C2  FDI d   1      32.285  -9.460  63.700  0.00  0.00     0.061 A 
+ATOM      3  C3  FDI d   1      31.219 -10.366  64.009  0.00  0.00     0.062 A 
+ATOM      4  C4  FDI d   1      31.476 -11.502  64.830  0.00  0.00    -0.038 A 
+ATOM      5  C5  FDI d   1      32.767 -11.759  65.355  0.00  0.00     0.043 A 
+ATOM      6  C6  FDI d   1      33.826 -10.852  65.050  0.00  0.00    -0.064 A 
+ATOM      7  H1  FDI d   1      34.400  -9.033  64.004  0.00  0.00     0.087 H 
+ATOM      8  H2  FDI d   1      30.666 -12.185  65.058  0.00  0.00     0.088 H 
+ATOM      9  H3  FDI d   1      34.819 -11.031  65.446  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   3  10
+ATOM     10  N13 FDI d   1      29.944 -10.158  63.520  0.00  0.00    -0.325 N 
+ATOM     11  C14 FDI d   1      28.804 -10.676  64.094  0.00  0.00     0.226 C 
+ATOM     12  O16 FDI d   1      28.416 -11.835  63.935  0.00  0.00    -0.273 OA
+ATOM     13  H4  FDI d   1      29.842  -9.597  62.699  0.00  0.00     0.169 HD
+BRANCH  11  14
+ATOM     14  C15 FDI d   1      27.983  -9.662  64.957  0.00  0.00     0.023 C 
+ATOM     15  H5  FDI d   1      27.025 -10.128  65.231  0.00  0.00     0.054 H 
+BRANCH  14  16
+ATOM     16  C24 FDI d   1      28.764  -9.361  66.276  0.00  0.00    -0.057 C 
+ATOM     17  H11 FDI d   1      28.326  -8.463  66.735  0.00  0.00     0.033 H 
+ATOM     18  H12 FDI d   1      29.814  -9.164  66.014  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  C26 FDI d   1      28.736 -10.496  67.321  0.00  0.00    -0.076 C 
+ATOM     20  H13 FDI d   1      29.310 -10.191  68.209  0.00  0.00     0.027 H 
+ATOM     21  H14 FDI d   1      29.183 -11.403  66.889  0.00  0.00     0.027 H 
+ATOM     22  H15 FDI d   1      27.695 -10.703  67.610  0.00  0.00     0.027 H 
+ENDBRANCH  16  19
+ENDBRANCH  14  16
+BRANCH  14  23
+ATOM     23  C17 FDI d   1      27.671  -8.396  64.119  0.00  0.00    -0.057 C 
+ATOM     24  H6  FDI d   1      28.330  -8.399  63.238  0.00  0.00     0.033 H 
+ATOM     25  H7  FDI d   1      27.891  -7.514  64.738  0.00  0.00     0.033 H 
+BRANCH  23  26
+ATOM     26  C18 FDI d   1      26.219  -8.283  63.628  0.00  0.00    -0.076 C 
+ATOM     27  H8  FDI d   1      26.100  -7.357  63.047  0.00  0.00     0.027 H 
+ATOM     28  H9  FDI d   1      25.540  -8.263  64.493  0.00  0.00     0.027 H 
+ATOM     29  H10 FDI d   1      25.978  -9.148  62.993  0.00  0.00     0.027 H 
+ENDBRANCH  23  26
+ENDBRANCH  14  23
+ENDBRANCH  11  14
+ENDBRANCH   3  10
+BRANCH   2  30
+ATOM     30  N32 FDI d   1      32.085  -8.357  62.902  0.00  0.00    -0.326 N 
+ATOM     31  C33 FDI d   1      31.534  -7.188  63.337  0.00  0.00     0.218 C 
+ATOM     32  O38 FDI d   1      31.148  -6.966  64.480  0.00  0.00    -0.274 OA
+ATOM     33  H16 FDI d   1      32.361  -8.416  61.943  0.00  0.00     0.169 HD
+BRANCH  31  34
+ATOM     34  C34 FDI d   1      31.423  -6.122  62.243  0.00  0.00    -0.003 C 
+ATOM     35  H17 FDI d   1      30.972  -5.211  62.663  0.00  0.00     0.040 H 
+ATOM     36  H18 FDI d   1      30.791  -6.500  61.425  0.00  0.00     0.040 H 
+ATOM     37  H19 FDI d   1      32.425  -5.889  61.855  0.00  0.00     0.040 H 
+ENDBRANCH  31  34
+ENDBRANCH   2  30
+BRANCH   5  38
+ATOM     38  C10 FDI d   1      32.992 -12.965  66.201  0.00  0.00     0.209 C 
+ATOM     39  O12 FDI d   1      34.066 -13.213  66.653  0.00  0.00    -0.644 OA
+ATOM     40  O11 FDI d   1      31.917 -13.759  66.419  0.00  0.00    -0.644 OA
+ENDBRANCH   5  38
+TORSDOF 9

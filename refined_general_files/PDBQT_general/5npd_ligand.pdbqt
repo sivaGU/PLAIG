@@ -1,0 +1,46 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O3_11 
+REMARK    2  A    between atoms: C3_3  and  O2_10 
+REMARK    3  A    between atoms: C4_4  and  O4_9 
+REMARK    4  A    between atoms: C5_5  and  C6_6 
+REMARK    5  A    between atoms: C6_6  and  O6_8 
+ROOT
+ATOM      1  C1  94B d   1      29.666  80.032  34.744  0.00  0.00     0.157 A 
+ATOM      2  C2  94B d   1      28.165  79.858  34.730  0.00  0.00     0.092 C 
+ATOM      3  C3  94B d   1      27.415  80.410  35.942  0.00  0.00     0.087 C 
+ATOM      4  C4  94B d   1      28.032  79.799  37.201  0.00  0.00     0.070 C 
+ATOM      5  C5  94B d   1      29.531  80.143  37.391  0.00  0.00     0.023 C 
+ATOM      6  C7  94B d   1      30.351  80.108  36.102  0.00  0.00     0.140 A 
+ATOM      7  N12 94B d   1      30.265  81.294  35.211  0.00  0.00    -0.059 N 
+ATOM      8  H1  94B d   1      30.120  79.480  33.908  0.00  0.00     0.091 H 
+ATOM      9  H2  94B d   1      27.965  78.776  34.735  0.00  0.00     0.090 H 
+ATOM     10  H3  94B d   1      27.488  81.507  35.980  0.00  0.00     0.091 H 
+ATOM     11  H4  94B d   1      27.943  78.705  37.128  0.00  0.00     0.087 H 
+ATOM     12  H5  94B d   1      29.572  81.177  37.765  0.00  0.00     0.050 H 
+ATOM     13  H8  94B d   1      31.304  79.586  36.272  0.00  0.00     0.088 H 
+ATOM     14  H13 94B d   1      29.668  82.066  35.464  0.00  0.00     0.278 HD
+ATOM     15  H14 94B d   1      31.099  81.645  34.766  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   5  16
+ATOM     16  C6  94B d   1      30.175  79.238  38.462  0.00  0.00     0.024 C 
+ATOM     17  H6  94B d   1      29.718  79.469  39.436  0.00  0.00     0.074 H 
+ATOM     18  H7  94B d   1      31.253  79.455  38.502  0.00  0.00     0.074 H 
+BRANCH  16  19
+ATOM     19  O6  94B d   1      30.003  77.849  38.200  0.00  0.00    -0.400 OA
+ATOM     20  H9  94B d   1      30.401  77.634  37.365  0.00  0.00     0.209 HD
+ENDBRANCH  16  19
+ENDBRANCH   5  16
+BRANCH   4  21
+ATOM     21  O4  94B d   1      27.297  80.244  38.323  0.00  0.00    -0.392 OA
+ATOM     22  H10 94B d   1      27.623  79.814  39.105  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   3  23
+ATOM     23  O2  94B d   1      26.052  80.008  35.809  0.00  0.00    -0.390 OA
+ATOM     24  H11 94B d   1      25.684  80.395  35.023  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+BRANCH   2  25
+ATOM     25  O3  94B d   1      27.739  80.355  33.483  0.00  0.00    -0.391 OA
+ATOM     26  H12 94B d   1      27.851  81.298  33.464  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+TORSDOF 5

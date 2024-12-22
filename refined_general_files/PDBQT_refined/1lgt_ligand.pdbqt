@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_1  and  CB1_9 
+REMARK    2  A    between atoms: CA2_2  and  OA2_3 
+REMARK    3  A    between atoms: CA3_4  and  OA3_5 
+ROOT
+ATOM      1  CA1 BP3 d   1      22.490  21.771  16.533  0.00  0.00     0.012 A 
+ATOM      2  CA2 BP3 d   1      21.124  22.006  16.281  0.00  0.00     0.110 A 
+ATOM      3  CA3 BP3 d   1      20.217  20.938  16.063  0.00  0.00     0.099 A 
+ATOM      4  CA4 BP3 d   1      20.674  19.603  16.092  0.00  0.00    -0.048 A 
+ATOM      5  CA5 BP3 d   1      22.046  19.351  16.341  0.00  0.00    -0.079 A 
+ATOM      6  CA6 BP3 d   1      22.946  20.433  16.561  0.00  0.00    -0.069 A 
+ATOM      7  H3  BP3 d   1      19.985  18.782  15.926  0.00  0.00     0.087 H 
+ATOM      8  H4  BP3 d   1      22.412  18.331  16.364  0.00  0.00     0.083 H 
+ATOM      9  H5  BP3 d   1      23.993  20.228  16.752  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB1 BP3 d   1      23.429  22.922  16.767  0.00  0.00    -0.001 A 
+ATOM     11  CB6 BP3 d   1      24.394  23.258  15.791  0.00  0.00    -0.070 A 
+ATOM     12  CB5 BP3 d   1      25.293  24.341  15.982  0.00  0.00    -0.082 A 
+ATOM     13  H9  BP3 d   1      24.449  22.677  14.877  0.00  0.00     0.084 H 
+ATOM     14  CB4 BP3 d   1      25.234  25.113  17.168  0.00  0.00    -0.081 A 
+ATOM     15  H8  BP3 d   1      26.026  24.577  15.219  0.00  0.00     0.083 H 
+ATOM     16  CB3 BP3 d   1      24.273  24.793  18.160  0.00  0.00    -0.061 A 
+ATOM     17  H7  BP3 d   1      25.918  25.941  17.316  0.00  0.00     0.083 H 
+ATOM     18  CB2 BP3 d   1      23.379  23.705  17.961  0.00  0.00     0.045 A 
+ATOM     19  H6  BP3 d   1      24.220  25.378  19.071  0.00  0.00     0.086 H 
+ATOM     20 CL1  BP3 d   1      22.252  23.423  19.272  0.00  0.00    -0.083 Cl
+ENDBRANCH   1  10
+BRANCH   2  21
+ATOM     21  OA2 BP3 d   1      20.609  23.281  16.237  0.00  0.00    -0.357 OA
+ATOM     22  H1  BP3 d   1      19.939  23.374  16.904  0.00  0.00     0.217 HD
+ENDBRANCH   2  21
+BRANCH   3  23
+ATOM     23  OA3 BP3 d   1      18.884  21.225  15.822  0.00  0.00    -0.358 OA
+ATOM     24  H2  BP3 d   1      18.348  20.820  16.493  0.00  0.00     0.217 HD
+ENDBRANCH   3  23
+TORSDOF 3

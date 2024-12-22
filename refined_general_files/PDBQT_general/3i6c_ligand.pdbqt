@@ -1,0 +1,61 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_6  and  C7_8 
+REMARK    2  A    between atoms: C7_8  and  C8_9 
+REMARK    3  A    between atoms: C8_9  and  C9_10 
+REMARK    4  A    between atoms: C8_9  and  N12_13 
+REMARK       I    between atoms: N12_13  and  C13_14 
+REMARK    5  A    between atoms: C13_14  and  C15_16 
+ROOT
+ATOM      1  N12 GIA d   1      21.425  -8.345  11.086  0.00  0.00    -0.342 N 
+ATOM      2  C13 GIA d   1      22.231  -8.507  10.007  0.00  0.00     0.252 C 
+ATOM      3  O14 GIA d   1      23.392  -8.872  10.193  0.00  0.00    -0.268 OA
+ATOM      4  H   GIA d   1      20.438  -8.118  10.967  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C8  GIA d   1      22.001  -8.503  12.435  0.00  0.00     0.100 C 
+ATOM      6  H   GIA d   1      22.984  -8.034  12.475  0.00  0.00     0.090 H 
+BRANCH   5   7
+ATOM      7  C7  GIA d   1      22.299  -9.939  12.825  0.00  0.00    -0.013 C 
+ATOM      8  H   GIA d   1      22.866 -10.405  12.019  0.00  0.00     0.043 H 
+ATOM      9  H   GIA d   1      22.863  -9.934  13.758  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C5  GIA d   1      21.013 -10.739  13.040  0.00  0.00    -0.053 C 
+ATOM     11  C4  GIA d   1      20.428 -10.935  14.296  0.00  0.00    -0.077 C 
+ATOM     12  C3  GIA d   1      19.225 -11.589  14.433  0.00  0.00    -0.080 C 
+ATOM     13  H   GIA d   1      20.936 -10.562  15.185  0.00  0.00     0.084 H 
+ATOM     14  C2  GIA d   1      18.553 -12.036  13.297  0.00  0.00    -0.046 C 
+ATOM     15  H   GIA d   1      18.801 -11.756  15.423  0.00  0.00     0.083 H 
+ATOM     16  C1  GIA d   1      19.194 -11.951  12.072  0.00  0.00     0.116 C 
+ATOM     17  H   GIA d   1      17.545 -12.444  13.371  0.00  0.00     0.088 H 
+ATOM     18  F1  GIA d   1      18.494 -12.354  10.983  0.00  0.00    -0.206 F 
+ATOM     19  C6  GIA d   1      20.340 -11.199  11.906  0.00  0.00    -0.040 C 
+ATOM     20  H   GIA d   1      20.713 -10.969  10.908  0.00  0.00     0.089 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  GIA d   1      21.020  -7.840  13.379  0.00  0.00     0.197 C 
+ATOM     22  O10 GIA d   1      21.338  -7.560  14.491  0.00  0.00    -0.646 OA
+ATOM     23  O11 GIA d   1      19.794  -7.623  12.905  0.00  0.00    -0.646 OA
+ENDBRANCH   5  21
+ENDBRANCH   1   5
+BRANCH   2  24
+ATOM     24  C15 GIA d   1      21.705  -8.247   8.653  0.00  0.00     0.032 A 
+ATOM     25  C16 GIA d   1      20.682  -7.343   8.473  0.00  0.00    -0.057 A 
+ATOM     26  C17 GIA d   1      20.254  -7.060   7.165  0.00  0.00    -0.025 A 
+ATOM     27  H   GIA d   1      20.213  -6.856   9.329  0.00  0.00     0.086 H 
+ATOM     28  C18 GIA d   1      20.848  -7.668   6.033  0.00  0.00    -0.026 A 
+ATOM     29  C21 GIA d   1      19.217  -6.118   6.966  0.00  0.00    -0.072 A 
+ATOM     30  C19 GIA d   1      21.948  -8.524   6.235  0.00  0.00    -0.071 A 
+ATOM     31  C24 GIA d   1      20.406  -7.340   4.751  0.00  0.00    -0.072 A 
+ATOM     32  C20 GIA d   1      22.315  -8.830   7.518  0.00  0.00    -0.067 A 
+ATOM     33  H   GIA d   1      22.496  -8.935   5.387  0.00  0.00     0.084 H 
+ATOM     34  H   GIA d   1      23.113  -9.556   7.672  0.00  0.00     0.085 H 
+ATOM     35  C23 GIA d   1      19.410  -6.423   4.584  0.00  0.00    -0.082 A 
+ATOM     36  H   GIA d   1      20.857  -7.817   3.881  0.00  0.00     0.084 H 
+ATOM     37  C22 GIA d   1      18.847  -5.774   5.686  0.00  0.00    -0.082 A 
+ATOM     38  H   GIA d   1      19.050  -6.194   3.581  0.00  0.00     0.083 H 
+ATOM     39  H   GIA d   1      18.108  -4.988   5.530  0.00  0.00     0.083 H 
+ATOM     40  H   GIA d   1      18.714  -5.667   7.822  0.00  0.00     0.084 H 
+ENDBRANCH   2  24
+TORSDOF 5

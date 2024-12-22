@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  C9_9 
+REMARK    2  A    between atoms: C6_6  and  C7_7 
+REMARK    3  A    between atoms: C7_7  and  C8_8 
+REMARK    4  A    between atoms: C8_8  and  C13_17 
+REMARK    5  A    between atoms: C9_9  and  C10_10 
+REMARK    6  A    between atoms: C9_9  and  O1_11 
+ROOT
+ATOM      1  C1  8TZ d   1      14.509   6.753  55.807  0.00  0.00    -0.039 A 
+ATOM      2  C2  8TZ d   1      14.174   5.788  54.814  0.00  0.00     0.117 A 
+ATOM      3  C3  8TZ d   1      15.168   4.943  54.287  0.00  0.00    -0.045 A 
+ATOM      4  C4  8TZ d   1      16.485   5.052  54.742  0.00  0.00    -0.071 A 
+ATOM      5  C5  8TZ d   1      16.819   6.007  55.725  0.00  0.00    -0.016 A 
+ATOM      6  C6  8TZ d   1      15.822   6.854  56.257  0.00  0.00    -0.046 A 
+ATOM      7  F1  8TZ d   1      12.889   5.683  54.373  0.00  0.00    -0.206 F 
+ATOM      8  H1  8TZ d   1      13.744   7.406  56.211  0.00  0.00     0.089 H 
+ATOM      9  H2  8TZ d   1      14.913   4.210  53.530  0.00  0.00     0.088 H 
+ATOM     10  H3  8TZ d   1      17.252   4.401  54.338  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C9  8TZ d   1      18.236   6.113  56.207  0.00  0.00     0.118 C 
+ATOM     12  H8  8TZ d   1      18.240   6.371  57.276  0.00  0.00     0.103 H 
+BRANCH  11  13
+ATOM     13  C10 8TZ d   1      18.940   4.779  56.002  0.00  0.00     0.137 A 
+ATOM     14  N1  8TZ d   1      19.823   4.492  55.017  0.00  0.00    -0.350 N 
+ATOM     15  C11 8TZ d   1      20.221   3.210  55.182  0.00  0.00    -0.004 A 
+ATOM     16  H10 8TZ d   1      20.136   5.135  54.275  0.00  0.00     0.166 HD
+ATOM     17  C12 8TZ d   1      19.581   2.707  56.268  0.00  0.00     0.019 A 
+ATOM     18  H11 8TZ d   1      20.931   2.675  54.553  0.00  0.00     0.113 H 
+ATOM     19  N2  8TZ d   1      18.791   3.674  56.774  0.00  0.00    -0.243 NA
+ATOM     20  H12 8TZ d   1      19.688   1.697  56.662  0.00  0.00     0.117 H 
+ENDBRANCH  11  13
+BRANCH  11  21
+ATOM     21  O1  8TZ d   1      18.917   7.111  55.481  0.00  0.00    -0.383 OA
+ATOM     22  H9  8TZ d   1      19.813   7.171  55.791  0.00  0.00     0.211 HD
+ENDBRANCH  11  21
+ENDBRANCH   5  11
+BRANCH   6  23
+ATOM     23  C7  8TZ d   1      16.189   7.893  57.329  0.00  0.00    -0.041 C 
+ATOM     24  H4  8TZ d   1      17.276   7.875  57.499  0.00  0.00     0.040 H 
+ATOM     25  H5  8TZ d   1      15.667   7.652  58.267  0.00  0.00     0.040 H 
+BRANCH  23  26
+ATOM     26  C8  8TZ d   1      15.767   9.296  56.853  0.00  0.00    -0.065 C 
+ATOM     27  H6  8TZ d   1      14.673   9.333  56.742  0.00  0.00     0.032 H 
+ATOM     28  H7  8TZ d   1      16.241   9.514  55.885  0.00  0.00     0.032 H 
+BRANCH  26  29
+ATOM     29  C13 8TZ d   1      16.232  10.379  57.931  0.00  0.00    -0.076 C 
+ATOM     30  H13 8TZ d   1      15.933  11.383  57.595  0.00  0.00     0.027 H 
+ATOM     31  H14 8TZ d   1      17.326  10.340  58.041  0.00  0.00     0.027 H 
+ATOM     32  H15 8TZ d   1      15.758  10.160  58.899  0.00  0.00     0.027 H 
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   6  23
+TORSDOF 6

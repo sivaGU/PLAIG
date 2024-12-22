@@ -1,0 +1,56 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N08_8  and  C07_1 
+REMARK    2  A    between atoms: C07_1  and  O15_9 
+REMARK    3  A    between atoms: C09_2  and  C10_3 
+REMARK    4  A    between atoms: C09_2  and  N08_8 
+REMARK    5  A    between atoms: C10_3  and  C11_4 
+REMARK    6  A    between atoms: C11_4  and  C12_5 
+REMARK    7  A    between atoms: C12_5  and  C13_6 
+REMARK    8  A    between atoms: C13_6  and  C14_7 
+ROOT
+ATOM      1  C10 JRY d   1      -8.212   1.444  29.296  0.00  0.00    -0.042 C 
+ATOM      2  H5  JRY d   1      -7.253   0.909  29.227  0.00  0.00     0.035 H 
+ATOM      3  H6  JRY d   1      -8.825   1.213  28.413  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C09 JRY d   1      -7.859   2.900  29.157  0.00  0.00     0.084 C 
+ATOM      5  H3  JRY d   1      -7.577   2.975  28.096  0.00  0.00     0.075 H 
+ATOM      6  H4  JRY d   1      -6.958   2.986  29.783  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  N08 JRY d   1      -8.502   4.119  29.385  0.00  0.00    -0.054 N 
+ATOM      8  H16 JRY d   1      -9.446   4.145  29.032  0.00  0.00     0.279 HD
+ATOM      9  H17 JRY d   1      -8.497   4.399  30.353  0.00  0.00     0.279 HD
+BRANCH   7  10
+ATOM     10  C07 JRY d   1      -7.583   4.843  28.586  0.00  0.00     0.161 C 
+ATOM     11  H1  JRY d   1      -7.602   4.460  27.555  0.00  0.00     0.118 H 
+ATOM     12  H2  JRY d   1      -6.568   4.739  28.997  0.00  0.00     0.118 H 
+BRANCH  10  13
+ATOM     13  O15 JRY d   1      -7.898   5.949  28.598  0.00  0.00    -0.375 OA
+ATOM     14  H18 JRY d   1      -7.294   6.455  28.067  0.00  0.00     0.211 HD
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  C11 JRY d   1      -8.928   0.811  30.442  0.00  0.00    -0.064 C 
+ATOM     16  H7  JRY d   1     -10.008   0.735  30.247  0.00  0.00     0.033 H 
+ATOM     17  H8  JRY d   1      -8.763   1.370  31.375  0.00  0.00     0.033 H 
+BRANCH  15  18
+ATOM     18  C12 JRY d   1      -8.276  -0.565  30.497  0.00  0.00    -0.065 C 
+ATOM     19  H9  JRY d   1      -7.406  -0.525  31.169  0.00  0.00     0.033 H 
+ATOM     20  H10 JRY d   1      -7.946  -0.848  29.487  0.00  0.00     0.033 H 
+BRANCH  18  21
+ATOM     21  C13 JRY d   1      -9.256  -1.606  31.011  0.00  0.00    -0.069 C 
+ATOM     22  H11 JRY d   1      -9.947  -1.872  30.198  0.00  0.00     0.032 H 
+ATOM     23  H12 JRY d   1      -9.824  -1.173  31.848  0.00  0.00     0.032 H 
+BRANCH  21  24
+ATOM     24  C14 JRY d   1      -8.561  -2.873  31.496  0.00  0.00    -0.077 C 
+ATOM     25  H13 JRY d   1      -9.314  -3.590  31.856  0.00  0.00     0.027 H 
+ATOM     26  H14 JRY d   1      -7.872  -2.622  32.316  0.00  0.00     0.027 H 
+ATOM     27  H15 JRY d   1      -7.995  -3.321  30.666  0.00  0.00     0.027 H 
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   1  15
+TORSDOF 8

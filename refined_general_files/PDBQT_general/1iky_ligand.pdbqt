@@ -1,0 +1,77 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  N8_7 
+REMARK    2  A    between atoms: C9_8  and  N11_10 
+REMARK    3  A    between atoms: N11_10  and  C12_11 
+REMARK    4  A    between atoms: C14_13  and  C15_14 
+REMARK    5  A    between atoms: C16_15  and  O41_24 
+REMARK    6  A    between atoms: C20_18  and  C23_21 
+REMARK    7  A    between atoms: C21_19  and  O22_20 
+REMARK    8  A    between atoms: C23_21  and  C25_23 
+REMARK    9  A    between atoms: O41_24  and  C44_27 
+ROOT
+ATOM      1  C2  MSD d   1      -6.745 144.932 173.087  0.00  0.00     0.062 A 
+ATOM      2  C3  MSD d   1      -8.038 144.423 173.434  0.00  0.00     0.024 A 
+ATOM      3  N4  MSD d   1      -8.691 143.587 172.534  0.00  0.00    -0.242 NA
+ATOM      4  C5  MSD d   1      -8.154 143.204 171.290  0.00  0.00     0.129 A 
+ATOM      5  C6  MSD d   1      -6.863 143.682 170.902  0.00  0.00    -0.037 A 
+ATOM      6  C7  MSD d   1      -6.161 144.549 171.806  0.00  0.00    -0.058 A 
+ATOM      7  C42 MSD d   1      -5.920 145.859 173.961  0.00  0.00     0.101 C 
+ATOM      8  N43 MSD d   1      -5.411 146.642 174.689  0.00  0.00    -0.191 NA
+ATOM      9  H1  MSD d   1      -8.499 144.684 174.380  0.00  0.00     0.117 H 
+ATOM     10  H2  MSD d   1      -6.426 143.398 169.951  0.00  0.00     0.089 H 
+ATOM     11  H3  MSD d   1      -5.182 144.925 171.532  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   4  12
+ATOM     12  N8  MSD d   1      -8.922 142.344 170.438  0.00  0.00    -0.318 N 
+ATOM     13  C9  MSD d   1     -10.242 142.031 170.576  0.00  0.00     0.173 C 
+ATOM     14  S10 MSD d   1     -10.804 141.236 169.725  0.00  0.00    -0.041 SA
+ATOM     15  H4  MSD d   1      -8.441 141.932 169.664  0.00  0.00     0.170 HD
+BRANCH  13  16
+ATOM     16  N11 MSD d   1     -10.912 142.595 171.640  0.00  0.00    -0.362 N 
+ATOM     17  H5  MSD d   1     -10.421 143.206 172.261  0.00  0.00     0.162 HD
+BRANCH  16  18
+ATOM     18  C12 MSD d   1     -12.298 142.322 171.873  0.00  0.00     0.020 A 
+ATOM     19  C13 MSD d   1     -13.066 143.356 172.701  0.00  0.00    -0.036 A 
+ATOM     20  C14 MSD d   1     -13.023 141.817 173.067  0.00  0.00    -0.002 A 
+ATOM     21  H7  MSD d   1     -13.988 143.811 172.310  0.00  0.00     0.037 H 
+ATOM     22  H8  MSD d   1     -12.526 144.091 173.316  0.00  0.00     0.037 H 
+ATOM     23  H9  MSD d   1     -13.906 141.171 172.952  0.00  0.00     0.051 H 
+ATOM     24  H6  MSD d   1     -12.713 141.989 170.910  0.00  0.00     0.073 H 
+BRANCH  20  25
+ATOM     25  C15 MSD d   1     -12.226 141.441 174.357  0.00  0.00     0.015 A 
+ATOM     26  C16 MSD d   1     -12.406 140.102 174.828  0.00  0.00     0.077 A 
+ATOM     27  C18 MSD d   1     -11.719 139.655 176.028  0.00  0.00    -0.049 A 
+ATOM     28  C19 MSD d   1     -10.862 140.531 176.757  0.00  0.00    -0.064 A 
+ATOM     29  H10 MSD d   1     -11.861 138.638 176.375  0.00  0.00     0.087 H 
+ATOM     30  C20 MSD d   1     -10.643 141.886 176.321  0.00  0.00     0.043 A 
+ATOM     31  H11 MSD d   1     -10.368 140.172 177.653  0.00  0.00     0.085 H 
+ATOM     32  C21 MSD d   1     -11.327 142.357 175.108  0.00  0.00     0.089 A 
+BRANCH  26  33
+ATOM     33  O41 MSD d   1     -13.224 139.269 174.147  0.00  0.00    -0.355 OA
+BRANCH  33  34
+ATOM     34  C44 MSD d   1     -12.998 138.049 173.942  0.00  0.00     0.010 C 
+ATOM     35  H16 MSD d   1     -13.827 137.615 173.363  0.00  0.00     0.066 H 
+ATOM     36  H17 MSD d   1     -12.910 137.525 174.905  0.00  0.00     0.066 H 
+ATOM     37  H18 MSD d   1     -12.060 137.940 173.378  0.00  0.00     0.066 H 
+ENDBRANCH  33  34
+ENDBRANCH  26  33
+BRANCH  30  38
+ATOM     38  C23 MSD d   1      -9.710 142.804 177.129  0.00  0.00     0.158 C 
+ATOM     39  O24 MSD d   1      -9.534 143.954 176.734  0.00  0.00    -0.293 OA
+BRANCH  38  40
+ATOM     40  C25 MSD d   1      -8.992 142.354 178.397  0.00  0.00    -0.017 C 
+ATOM     41  H13 MSD d   1      -8.387 143.184 178.790  0.00  0.00     0.038 H 
+ATOM     42  H14 MSD d   1      -8.337 141.501 178.165  0.00  0.00     0.038 H 
+ATOM     43  H15 MSD d   1      -9.734 142.052 179.151  0.00  0.00     0.038 H 
+ENDBRANCH  38  40
+ENDBRANCH  30  38
+BRANCH  32  44
+ATOM     44  O22 MSD d   1     -11.143 143.650 174.660  0.00  0.00    -0.359 OA
+ATOM     45  H12 MSD d   1     -10.223 143.790 174.471  0.00  0.00     0.217 HD
+ENDBRANCH  32  44
+ENDBRANCH  20  25
+ENDBRANCH  16  18
+ENDBRANCH  13  16
+ENDBRANCH   4  12
+TORSDOF 9

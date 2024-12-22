@@ -1,0 +1,75 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  N10_10 
+REMARK    2  A    between atoms: C7_7  and  N12_12 
+REMARK    3  A    between atoms: N10_10  and  C11_11 
+REMARK    4  A    between atoms: N12_12  and  O23_23 
+REMARK    5  A    between atoms: C16_16  and  C17_17 
+REMARK    6  A    between atoms: C17_17  and  O24_24 
+REMARK    7  A    between atoms: O24_24  and  C26_26 
+REMARK    8  A    between atoms: C26_26  and  C25_25 
+ROOT
+ATOM      1  N10 SM6 d   1      84.218   7.018  -7.050  0.00  0.00    -0.354 N 
+ATOM      2  H   SM6 d   1      84.968   6.598  -6.501  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C4  SM6 d   1      83.071   6.344  -6.911  0.00  0.00     0.033 A 
+ATOM      4  C3  SM6 d   1      82.030   6.448  -7.860  0.00  0.00    -0.051 A 
+ATOM      5  C2  SM6 d   1      80.862   5.700  -7.625  0.00  0.00    -0.047 A 
+ATOM      6  H   SM6 d   1      82.128   7.083  -8.740  0.00  0.00     0.087 H 
+ATOM      7  C1  SM6 d   1      80.732   4.877  -6.504  0.00  0.00    -0.014 A 
+ATOM      8  C9  SM6 d   1      79.651   5.676  -8.502  0.00  0.00    -0.038 A 
+ATOM      9  C6  SM6 d   1      81.765   4.766  -5.557  0.00  0.00    -0.072 A 
+ATOM     10  C7  SM6 d   1      79.459   4.199  -6.453  0.00  0.00     0.165 A 
+ATOM     11  C5  SM6 d   1      82.941   5.514  -5.775  0.00  0.00    -0.057 A 
+ATOM     12  H   SM6 d   1      81.661   4.123  -4.683  0.00  0.00     0.084 H 
+ATOM     13  H   SM6 d   1      83.760   5.451  -5.058  0.00  0.00     0.086 H 
+ATOM     14  C8  SM6 d   1      78.711   4.735  -7.693  0.00  0.00    -0.025 A 
+ATOM     15  H   SM6 d   1      79.080   3.404  -5.811  0.00  0.00     0.104 H 
+ATOM     16  H   SM6 d   1      77.830   5.291  -7.373  0.00  0.00     0.037 H 
+ATOM     17  H   SM6 d   1      78.406   3.899  -8.322  0.00  0.00     0.037 H 
+ATOM     18  H   SM6 d   1      79.850   5.331  -9.517  0.00  0.00     0.040 H 
+ATOM     19  H   SM6 d   1      79.227   6.662  -8.693  0.00  0.00     0.040 H 
+BRANCH  10  20
+ATOM     20  N12 SM6 d   1      79.059   3.382  -5.566  0.00  0.00    -0.060 N 
+ATOM     21  H   SM6 d   1      79.869   3.010  -5.070  0.00  0.00     0.342 HD
+ATOM     22  H   SM6 d   1      78.540   2.630  -6.019  0.00  0.00     0.342 HD
+BRANCH  20  23
+ATOM     23  O23 SM6 d   1      78.199   4.041  -4.625  0.00  0.00    -0.198 OA
+ATOM     24  H   SM6 d   1      77.907   3.410  -3.963  0.00  0.00     0.257 HD
+ENDBRANCH  20  23
+ENDBRANCH  10  20
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C11 SM6 d   1      84.664   8.150  -7.751  0.00  0.00     0.068 A 
+ATOM     26  C13 SM6 d   1      83.845   9.313  -8.088  0.00  0.00     0.012 A 
+ATOM     27  C14 SM6 d   1      84.550  10.299  -8.789  0.00  0.00     0.036 A 
+ATOM     28  C19 SM6 d   1      82.482   9.545  -7.798  0.00  0.00    -0.052 A 
+ATOM     29  S15 SM6 d   1      86.227   9.879  -9.077  0.00  0.00    -0.080 SA
+ATOM     30  C22 SM6 d   1      83.905  11.490  -9.192  0.00  0.00     0.019 A 
+ATOM     31  C16 SM6 d   1      85.992   8.351  -8.241  0.00  0.00     0.108 A 
+ATOM     32  N21 SM6 d   1      82.600  11.708  -8.913  0.00  0.00    -0.272 NA
+ATOM     33  H   SM6 d   1      84.469  12.246  -9.737  0.00  0.00     0.116 H 
+ATOM     34  C20 SM6 d   1      81.910  10.764  -8.235  0.00  0.00     0.003 A 
+ATOM     35  H   SM6 d   1      80.859  10.951  -8.013  0.00  0.00     0.114 H 
+ATOM     36  H   SM6 d   1      81.889   8.809  -7.255  0.00  0.00     0.087 H 
+BRANCH  31  37
+ATOM     37  C17 SM6 d   1      87.123   7.472  -8.136  0.00  0.00     0.302 C 
+ATOM     38  O18 SM6 d   1      86.968   6.327  -7.697  0.00  0.00    -0.259 OA
+BRANCH  37  39
+ATOM     39  O24 SM6 d   1      88.320   8.112  -8.083  0.00  0.00    -0.317 OA
+BRANCH  39  40
+ATOM     40  C26 SM6 d   1      89.541   7.460  -8.430  0.00  0.00     0.026 C 
+ATOM     41  H   SM6 d   1      89.329   6.635  -9.110  0.00  0.00     0.074 H 
+ATOM     42  H   SM6 d   1      90.016   7.079  -7.526  0.00  0.00     0.074 H 
+BRANCH  40  43
+ATOM     43  C25 SM6 d   1      90.488   8.460  -9.121  0.00  0.00    -0.056 C 
+ATOM     44  H   SM6 d   1      90.013   8.843 -10.024  0.00  0.00     0.030 H 
+ATOM     45  H   SM6 d   1      90.700   9.286  -8.442  0.00  0.00     0.030 H 
+ATOM     46  H   SM6 d   1      91.418   7.956  -9.383  0.00  0.00     0.030 H 
+ENDBRANCH  40  43
+ENDBRANCH  39  40
+ENDBRANCH  37  39
+ENDBRANCH  31  37
+ENDBRANCH   1  25
+TORSDOF 8

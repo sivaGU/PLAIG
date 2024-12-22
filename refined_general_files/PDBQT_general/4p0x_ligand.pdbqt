@@ -1,0 +1,75 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAC_3  and  OAD_4 
+REMARK    2  A    between atoms: CAF_6  and  CAG_7 
+REMARK    3  A    between atoms: CAK_11  and  CAL_12 
+REMARK    4  A    between atoms: CAK_11  and  CAM_13 
+REMARK    5  A    between atoms: CAT_20  and  CAU_21 
+REMARK    6  A    between atoms: CAU_21  and  CAW_22 
+REMARK    7  A    between atoms: CAU_21  and  CAV_23 
+ROOT
+ATOM      1  OAA 1WO d   1      -8.176  35.986 -17.348  0.00  0.00    -0.285 OA
+ATOM      2  CAB 1WO d   1      -8.746  36.208 -16.265  0.00  0.00     0.212 A 
+ATOM      3  CAC 1WO d   1      -8.024  36.044 -15.060  0.00  0.00     0.124 A 
+ATOM      4  CAE 1WO d   1      -8.715  36.259 -13.850  0.00  0.00    -0.001 A 
+ATOM      5  CAF 1WO d   1      -8.139  36.163 -12.502  0.00  0.00    -0.002 C 
+ATOM      6  CAH 1WO d   1      -6.597  36.221 -12.334  0.00  0.00    -0.053 C 
+ATOM      7  CAI 1WO d   1      -6.122  37.629 -12.012  0.00  0.00    -0.063 C 
+ATOM      8  CAJ 1WO d   1      -6.794  38.484 -10.950  0.00  0.00    -0.058 C 
+ATOM      9  CAK 1WO d   1      -8.118  37.904 -10.529  0.00  0.00    -0.036 C 
+ATOM     10  CAN 1WO d   1      -8.844  37.317 -11.747  0.00  0.00     0.025 C 
+ATOM     11  CAO 1WO d   1     -10.174  36.874 -11.522  0.00  0.00     0.156 C 
+ATOM     12  OAP 1WO d   1     -10.706  36.654 -10.406  0.00  0.00    -0.293 OA
+ATOM     13  CAQ 1WO d   1     -10.831  36.753 -12.749  0.00  0.00    -0.028 C 
+ATOM     14  CAR 1WO d   1     -10.078  36.660 -13.927  0.00  0.00    -0.022 A 
+ATOM     15  CAS 1WO d   1     -10.719  36.774 -15.122  0.00  0.00    -0.062 A 
+ATOM     16  CAT 1WO d   1     -10.084  36.539 -16.263  0.00  0.00    -0.001 A 
+ATOM     17  H   1WO d   1      -6.123  35.890 -13.270  0.00  0.00     0.034 H 
+ATOM     18  H   1WO d   1      -6.301  35.548 -11.515  0.00  0.00     0.034 H 
+ATOM     19  H   1WO d   1      -6.187  38.198 -12.951  0.00  0.00     0.033 H 
+ATOM     20  H   1WO d   1      -5.068  37.537 -11.711  0.00  0.00     0.033 H 
+ATOM     21  H   1WO d   1      -6.959  39.493 -11.356  0.00  0.00     0.034 H 
+ATOM     22  H   1WO d   1      -6.135  38.545 -10.071  0.00  0.00     0.034 H 
+ATOM     23  H   1WO d   1      -8.909  38.155 -12.456  0.00  0.00     0.055 H 
+ATOM     24  H   1WO d   1     -11.919  36.731 -12.790  0.00  0.00     0.090 H 
+ATOM     25  H   1WO d   1     -11.769  37.062 -15.142  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH  16  26
+ATOM     26  CAU 1WO d   1     -10.811  36.753 -17.458  0.00  0.00    -0.032 C 
+ATOM     27  H   1WO d   1     -10.100  37.289 -18.104  0.00  0.00     0.046 H 
+BRANCH  26  28
+ATOM     28  CAW 1WO d   1     -11.911  37.805 -17.104  0.00  0.00    -0.069 C 
+ATOM     29  H   1WO d   1     -12.516  38.017 -17.998  0.00  0.00     0.028 H 
+ATOM     30  H   1WO d   1     -11.433  38.733 -16.756  0.00  0.00     0.028 H 
+ATOM     31  H   1WO d   1     -12.558  37.406 -16.309  0.00  0.00     0.028 H 
+ENDBRANCH  26  28
+BRANCH  26  32
+ATOM     32  CAV 1WO d   1     -11.281  35.538 -18.417  0.00  0.00    -0.069 C 
+ATOM     33  H   1WO d   1     -10.431  34.864 -18.598  0.00  0.00     0.028 H 
+ATOM     34  H   1WO d   1     -11.637  35.944 -19.375  0.00  0.00     0.028 H 
+ATOM     35  H   1WO d   1     -12.094  34.980 -17.930  0.00  0.00     0.028 H 
+ENDBRANCH  26  32
+ENDBRANCH  16  26
+BRANCH   3  36
+ATOM     36  OAD 1WO d   1      -6.636  35.626 -15.048  0.00  0.00    -0.356 OA
+ATOM     37  H   1WO d   1      -6.560  34.773 -15.460  0.00  0.00     0.218 HD
+ENDBRANCH   3  36
+BRANCH   5  38
+ATOM     38  CAG 1WO d   1      -8.577  34.851 -11.898  0.00  0.00    -0.064 C 
+ATOM     39  H   1WO d   1      -8.083  34.022 -12.425  0.00  0.00     0.028 H 
+ATOM     40  H   1WO d   1      -9.668  34.749 -11.994  0.00  0.00     0.028 H 
+ATOM     41  H   1WO d   1      -8.299  34.826 -10.834  0.00  0.00     0.028 H 
+ENDBRANCH   5  38
+BRANCH   9  42
+ATOM     42  CAL 1WO d   1      -7.814  36.771  -9.609  0.00  0.00    -0.069 C 
+ATOM     43  H   1WO d   1      -8.754  36.311  -9.271  0.00  0.00     0.028 H 
+ATOM     44  H   1WO d   1      -7.255  37.145  -8.738  0.00  0.00     0.028 H 
+ATOM     45  H   1WO d   1      -7.208  36.021 -10.139  0.00  0.00     0.028 H 
+ENDBRANCH   9  42
+BRANCH   9  46
+ATOM     46  CAM 1WO d   1      -8.949  39.034  -9.803  0.00  0.00    -0.069 C 
+ATOM     47  H   1WO d   1      -9.154  39.851 -10.511  0.00  0.00     0.028 H 
+ATOM     48  H   1WO d   1      -8.372  39.423  -8.951  0.00  0.00     0.028 H 
+ATOM     49  H   1WO d   1      -9.900  38.615  -9.441  0.00  0.00     0.028 H 
+ENDBRANCH   9  46
+TORSDOF 7

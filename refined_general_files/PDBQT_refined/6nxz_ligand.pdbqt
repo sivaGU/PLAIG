@@ -1,0 +1,46 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_2  and  O7_1 
+REMARK    2  A    between atoms: C9_3  and  C8_2 
+REMARK    3  A    between atoms: C9_3  and  O35_6 
+REMARK    4  A    between atoms: C36_7  and  C9_3 
+REMARK    5  A    between atoms: O10_4  and  C11_5 
+REMARK    6  A    between atoms: C37_8  and  O10_4 
+REMARK    7  A    between atoms: C36_7  and  C37_8 
+ROOT
+ATOM      1  C36 D49 d   1       1.684   0.340   3.593  0.00  0.00    -0.019 C 
+ATOM      2  H9  D49 d   1       1.780   0.098   4.662  0.00  0.00     0.040 H 
+ATOM      3  H10 D49 d   1       2.330   1.197   3.352  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C9  D49 d   1       0.239   0.812   3.383  0.00  0.00     0.058 C 
+ATOM      5  H4  D49 d   1      -0.011   1.427   4.260  0.00  0.00     0.086 H 
+BRANCH   4   6
+ATOM      6  C8  D49 d   1      -0.818  -0.285   3.349  0.00  0.00     0.041 C 
+ATOM      7  H2  D49 d   1      -0.726  -0.839   2.403  0.00  0.00     0.077 H 
+ATOM      8  H3  D49 d   1      -0.648  -0.970   4.193  0.00  0.00     0.077 H 
+BRANCH   6   9
+ATOM      9  O7  D49 d   1      -2.158   0.256   3.447  0.00  0.00    -0.398 OA
+ATOM     10  H1  D49 d   1      -2.788  -0.455   3.423  0.00  0.00     0.209 HD
+ENDBRANCH   6   9
+ENDBRANCH   4   6
+BRANCH   4  11
+ATOM     11  O35 D49 d   1       0.193   1.693   2.233  0.00  0.00    -0.393 OA
+ATOM     12  H8  D49 d   1       0.873   2.352   2.313  0.00  0.00     0.210 HD
+ENDBRANCH   4  11
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C37 D49 d   1       2.243  -0.844   2.834  0.00  0.00     0.021 C 
+ATOM     14  H11 D49 d   1       1.896  -1.779   3.299  0.00  0.00     0.074 H 
+ATOM     15  H12 D49 d   1       1.905  -0.807   1.788  0.00  0.00     0.074 H 
+BRANCH  13  16
+ATOM     16  O10 D49 d   1       3.684  -0.783   2.881  0.00  0.00    -0.396 OA
+BRANCH  16  17
+ATOM     17  C11 D49 d   1       4.406  -1.925   2.608  0.00  0.00     0.004 C 
+ATOM     18  H5  D49 d   1       5.481  -1.707   2.687  0.00  0.00     0.066 H 
+ATOM     19  H6  D49 d   1       4.176  -2.270   1.589  0.00  0.00     0.066 H 
+ATOM     20  H7  D49 d   1       4.138  -2.710   3.330  0.00  0.00     0.066 H 
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 7

@@ -1,0 +1,94 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C2_2  and  C4_4 
+REMARK    4  A    between atoms: C4_4  and  C5_5 
+REMARK    5  A    between atoms: C5_5  and  N6_6 
+REMARK    6  A    between atoms: C5_5  and  C17_17 
+REMARK       I    between atoms: N6_6  and  C7_7 
+REMARK    7  A    between atoms: C7_7  and  O9_9 
+REMARK    8  A    between atoms: O9_9  and  C10_10 
+REMARK    9  A    between atoms: C10_10  and  C11_11 
+REMARK       I    between atoms: C17_17  and  N19_19 
+REMARK   10  A    between atoms: N19_19  and  C20_20 
+REMARK   11  A    between atoms: N23_23  and  C25_25 
+ROOT
+ATOM      1  C5  NBL d   1      73.675-128.151  32.937  0.00  0.00     0.092 C 
+ATOM      2  H10 NBL d   1      73.369-127.461  33.737  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C4  NBL d   1      74.722-129.126  33.477  0.00  0.00    -0.035 C 
+ATOM      4  H8  NBL d   1      74.299-129.687  34.324  0.00  0.00     0.037 H 
+ATOM      5  H9  NBL d   1      75.015-129.828  32.682  0.00  0.00     0.037 H 
+BRANCH   3   6
+ATOM      6  C2  NBL d   1      75.927-128.357  33.936  0.00  0.00    -0.059 C 
+ATOM      7  H4  NBL d   1      76.161-127.567  33.207  0.00  0.00     0.038 H 
+BRANCH   6   8
+ATOM      8  C1  NBL d   1      75.631-127.722  35.302  0.00  0.00    -0.073 C 
+ATOM      9  H1  NBL d   1      76.511-127.157  35.642  0.00  0.00     0.028 H 
+ATOM     10  H2  NBL d   1      75.398-128.512  36.031  0.00  0.00     0.028 H 
+ATOM     11  H3  NBL d   1      74.772-127.041  35.212  0.00  0.00     0.028 H 
+ENDBRANCH   6   8
+BRANCH   6  12
+ATOM     12  C3  NBL d   1      77.109-129.303  34.055  0.00  0.00    -0.073 C 
+ATOM     13  H5  NBL d   1      77.317-129.755  33.074  0.00  0.00     0.028 H 
+ATOM     14  H6  NBL d   1      76.873-130.095  34.781  0.00  0.00     0.028 H 
+ATOM     15  H7  NBL d   1      77.993-128.744  34.396  0.00  0.00     0.028 H 
+ENDBRANCH   6  12
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  16
+ATOM     16  N6  NBL d   1      72.484-128.939  32.495  0.00  0.00    -0.324 N 
+ATOM     17  C7  NBL d   1      71.604-128.493  31.526  0.00  0.00     0.361 C 
+ATOM     18  O8  NBL d   1      71.375-127.292  31.378  0.00  0.00    -0.238 OA
+ATOM     19  H11 NBL d   1      72.316-129.829  32.919  0.00  0.00     0.165 HD
+BRANCH  17  20
+ATOM     20  O9  NBL d   1      70.993-129.378  30.759  0.00  0.00    -0.299 OA
+BRANCH  20  21
+ATOM     21  C10 NBL d   1      69.765-128.906  30.237  0.00  0.00     0.054 C 
+ATOM     22  H12 NBL d   1      69.946-128.372  29.293  0.00  0.00     0.082 H 
+ATOM     23  H13 NBL d   1      69.294-128.224  30.960  0.00  0.00     0.082 H 
+BRANCH  21  24
+ATOM     24  C11 NBL d   1      68.857-130.086  29.987  0.00  0.00    -0.034 A 
+ATOM     25  C12 NBL d   1      69.398-131.309  29.586  0.00  0.00    -0.075 A 
+ATOM     26  C13 NBL d   1      68.567-132.393  29.361  0.00  0.00    -0.082 A 
+ATOM     27  H14 NBL d   1      70.469-131.410  29.451  0.00  0.00     0.084 H 
+ATOM     28  C14 NBL d   1      67.188-132.266  29.535  0.00  0.00    -0.083 A 
+ATOM     29  H15 NBL d   1      68.988-133.342  29.049  0.00  0.00     0.083 H 
+ATOM     30  C15 NBL d   1      66.648-131.053  29.931  0.00  0.00    -0.082 A 
+ATOM     31  H16 NBL d   1      66.539-133.117  29.360  0.00  0.00     0.083 H 
+ATOM     32  C16 NBL d   1      67.483-129.959  30.159  0.00  0.00    -0.075 A 
+ATOM     33  H17 NBL d   1      65.577-130.954  30.064  0.00  0.00     0.083 H 
+ATOM     34  H18 NBL d   1      67.061-129.010  30.470  0.00  0.00     0.084 H 
+ENDBRANCH  21  24
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH   1  16
+BRANCH   1  35
+ATOM     35  C17 NBL d   1      74.302-127.317  31.765  0.00  0.00     0.240 C 
+ATOM     36  O18 NBL d   1      74.835-127.891  30.815  0.00  0.00    -0.271 OA
+ATOM     37  N19 NBL d   1      74.205-125.948  31.799  0.00  0.00    -0.353 N 
+ATOM     38  H19 NBL d   1      73.335-125.544  32.080  0.00  0.00     0.163 HD
+BRANCH  37  39
+ATOM     39  C20 NBL d   1      75.325-125.029  31.440  0.00  0.00     0.025 C 
+ATOM     40  C21 NBL d   1      75.019-124.275  30.168  0.00  0.00    -0.034 C 
+ATOM     41  C22 NBL d   1      76.371-124.116  29.446  0.00  0.00    -0.014 C 
+ATOM     42  H21 NBL d   1      74.589-123.289  30.400  0.00  0.00     0.037 H 
+ATOM     43  H22 NBL d   1      74.315-124.845  29.544  0.00  0.00     0.037 H 
+ATOM     44  N23 NBL d   1      77.386-124.771  30.302  0.00  0.00    -0.276 NA
+ATOM     45  H23 NBL d   1      76.611-123.050  29.320  0.00  0.00     0.056 H 
+ATOM     46  H24 NBL d   1      76.335-124.603  28.460  0.00  0.00     0.056 H 
+ATOM     47  C24 NBL d   1      76.672-125.701  31.217  0.00  0.00     0.003 C 
+ATOM     48  H25 NBL d   1      76.544-126.689  30.750  0.00  0.00     0.059 H 
+ATOM     49  H26 NBL d   1      77.217-125.812  32.166  0.00  0.00     0.059 H 
+ATOM     50  H20 NBL d   1      75.433-124.310  32.266  0.00  0.00     0.074 H 
+BRANCH  44  51
+ATOM     51  C25 NBL d   1      78.367-125.410  29.500  0.00  0.00     0.036 C 
+ATOM     52  N26 NBL d   1      78.903-124.721  28.487  0.00  0.00    -0.301 NA
+ATOM     53  H28 NBL d   1      79.602-125.149  27.900  0.00  0.00     0.187 HD
+ATOM     54  H27 NBL d   1      78.675-126.434  29.704  0.00  0.00     0.133 H 
+ENDBRANCH  44  51
+ENDBRANCH  37  39
+ENDBRANCH   1  35
+TORSDOF 11

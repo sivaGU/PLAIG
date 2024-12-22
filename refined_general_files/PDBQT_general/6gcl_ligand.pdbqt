@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAN_1  and  SAK_2 
+REMARK    2  A    between atoms: SAK_2  and  CAC_5 
+REMARK    3  A    between atoms: CAH_9  and  NAJ_10 
+ROOT
+ATOM      1  CAC EUE d   1       6.058 -14.355  14.802  0.00  0.00     0.060 A 
+ATOM      2  CAD EUE d   1       7.381 -14.476  14.323  0.00  0.00    -0.043 A 
+ATOM      3  CAE EUE d   1       8.227 -13.417  14.414  0.00  0.00     0.038 A 
+ATOM      4  SAG EUE d   1       9.893 -13.256  13.930  0.00  0.00    -0.050 SA
+ATOM      5  CAH EUE d   1       9.978 -11.607  14.488  0.00  0.00     0.165 A 
+ATOM      6  NAI EUE d   1       8.782 -11.254  14.991  0.00  0.00    -0.224 NA
+ATOM      7  CAF EUE d   1       7.827 -12.221  14.958  0.00  0.00     0.077 A 
+ATOM      8  CAA EUE d   1       6.560 -12.106  15.401  0.00  0.00    -0.052 A 
+ATOM      9  CAB EUE d   1       5.623 -13.146  15.349  0.00  0.00    -0.060 A 
+ATOM     10  H4  EUE d   1       7.719 -15.408  13.885  0.00  0.00     0.088 H 
+ATOM     11  H7  EUE d   1       6.248 -11.156  15.821  0.00  0.00     0.087 H 
+ATOM     12  H8  EUE d   1       4.611 -13.019  15.715  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  SAK EUE d   1       4.996 -15.706  14.737  0.00  0.00     0.171 S 
+ATOM     14  OAL EUE d   1       5.878 -16.917  14.413  0.00  0.00    -0.223 OA
+ATOM     15  OAM EUE d   1       4.014 -15.565  13.553  0.00  0.00    -0.223 OA
+BRANCH  13  16
+ATOM     16  CAN EUE d   1       4.176 -16.005  16.271  0.00  0.00     0.020 C 
+ATOM     17  H1  EUE d   1       4.922 -16.096  17.074  0.00  0.00     0.049 H 
+ATOM     18  H2  EUE d   1       3.597 -16.937  16.201  0.00  0.00     0.049 H 
+ATOM     19  H3  EUE d   1       3.498 -15.168  16.494  0.00  0.00     0.049 H 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+BRANCH   5  20
+ATOM     20  NAJ EUE d   1      11.065 -10.816  14.424  0.00  0.00    -0.378 N 
+ATOM     21  H5  EUE d   1      11.021  -9.851  14.780  0.00  0.00     0.158 HD
+ATOM     22  H6  EUE d   1      11.941 -11.176  14.019  0.00  0.00     0.158 HD
+ENDBRANCH   5  20
+TORSDOF 3

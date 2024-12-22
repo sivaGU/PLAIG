@@ -1,0 +1,79 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAO_2 
+REMARK    2  A    between atoms: CAO_2  and  CAP_3 
+REMARK    3  A    between atoms: CAP_3  and  OAQ_4 
+REMARK    4  A    between atoms: OAQ_4  and  CAS_5 
+REMARK    5  A    between atoms: CAU_11  and  CAR_12 
+REMARK    6  A    between atoms: CAR_12  and  CAB_14 
+REMARK    7  A    between atoms: CAV_16  and  CAT_17 
+REMARK    8  A    between atoms: CAW_22  and  SAZ_23 
+REMARK    9  A    between atoms: SAZ_23  and  CAC_26 
+ROOT
+ATOM      1  CAS 3WQ d   1      71.255  42.117  -0.964  0.00  0.00     0.072 A 
+ATOM      2  CAN 3WQ d   1      71.740  40.798  -0.784  0.00  0.00    -0.024 A 
+ATOM      3  CAX 3WQ d   1      70.879  39.759  -0.744  0.00  0.00     0.053 A 
+ATOM      4  CAK 3WQ d   1      69.888  42.350  -1.115  0.00  0.00    -0.035 A 
+ATOM      5  CAL 3WQ d   1      69.013  41.284  -1.095  0.00  0.00    -0.012 A 
+ATOM      6  NAY 3WQ d   1      69.561  39.993  -0.893  0.00  0.00    -0.318 N 
+ATOM      7  CAU 3WQ d   1      68.877  38.810  -0.864  0.00  0.00     0.085 A 
+ATOM      8  CAM 3WQ d   1      69.804  37.835  -0.668  0.00  0.00    -0.040 A 
+ATOM      9  CAV 3WQ d   1      71.044  38.432  -0.615  0.00  0.00     0.005 A 
+ATOM     10  H8  3WQ d   1      72.809  40.622  -0.678  0.00  0.00     0.091 H 
+ATOM     11  H9  3WQ d   1      69.515  43.364  -1.248  0.00  0.00     0.089 H 
+ATOM     12  H10 3WQ d   1      67.942  41.429  -1.229  0.00  0.00     0.112 H 
+ATOM     13  H14 3WQ d   1      69.602  36.769  -0.570  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   9  14
+ATOM     14  CAT 3WQ d   1      72.254  37.789  -0.523  0.00  0.00    -0.002 A 
+ATOM     15  CAI 3WQ d   1      72.937  37.532  -1.713  0.00  0.00    -0.071 A 
+ATOM     16  CAG 3WQ d   1      74.153  36.847  -1.766  0.00  0.00    -0.082 A 
+ATOM     17  H15 3WQ d   1      72.502  37.882  -2.642  0.00  0.00     0.084 H 
+ATOM     18  CAH 3WQ d   1      74.743  36.356  -0.609  0.00  0.00    -0.082 A 
+ATOM     19  H16 3WQ d   1      74.642  36.697  -2.722  0.00  0.00     0.083 H 
+ATOM     20  CAJ 3WQ d   1      74.080  36.599   0.588  0.00  0.00    -0.061 A 
+ATOM     21  H17 3WQ d   1      75.678  35.808  -0.638  0.00  0.00     0.083 H 
+ATOM     22  CAW 3WQ d   1      72.869  37.295   0.645  0.00  0.00     0.070 A 
+ATOM     23  H18 3WQ d   1      74.518  36.236   1.511  0.00  0.00     0.085 H 
+BRANCH  22  24
+ATOM     24  SAZ 3WQ d   1      72.154  37.479   2.247  0.00  0.00     0.172 S 
+ATOM     25  OAE 3WQ d   1      73.287  37.131   3.164  0.00  0.00    -0.223 OA
+ATOM     26  OAF 3WQ d   1      71.702  38.858   2.437  0.00  0.00    -0.223 OA
+BRANCH  24  27
+ATOM     27  CAC 3WQ d   1      70.840  36.288   2.415  0.00  0.00     0.020 C 
+ATOM     28  H19 3WQ d   1      70.380  36.387   3.409  0.00  0.00     0.049 H 
+ATOM     29  H20 3WQ d   1      71.248  35.273   2.299  0.00  0.00     0.049 H 
+ATOM     30  H21 3WQ d   1      70.080  36.469   1.640  0.00  0.00     0.049 H 
+ENDBRANCH  24  27
+ENDBRANCH  22  24
+ENDBRANCH   9  14
+BRANCH   7  31
+ATOM     31  CAR 3WQ d   1      67.487  38.712  -0.978  0.00  0.00     0.172 C 
+ATOM     32  OAD 3WQ d   1      66.718  39.692  -1.120  0.00  0.00    -0.291 OA
+BRANCH  31  33
+ATOM     33  CAB 3WQ d   1      66.856  37.322  -0.903  0.00  0.00    -0.015 C 
+ATOM     34  H11 3WQ d   1      65.764  37.409  -1.008  0.00  0.00     0.038 H 
+ATOM     35  H12 3WQ d   1      67.096  36.862   0.067  0.00  0.00     0.038 H 
+ATOM     36  H13 3WQ d   1      67.254  36.694  -1.714  0.00  0.00     0.038 H 
+ENDBRANCH  31  33
+ENDBRANCH   7  31
+BRANCH   1  37
+ATOM     37  OAQ 3WQ d   1      72.071  43.233  -1.018  0.00  0.00    -0.351 OA
+BRANCH  37  38
+ATOM     38  CAP 3WQ d   1      73.492  43.066  -0.793  0.00  0.00     0.026 C 
+ATOM     39  H6  3WQ d   1      73.654  42.555   0.167  0.00  0.00     0.075 H 
+ATOM     40  H7  3WQ d   1      73.925  42.465  -1.606  0.00  0.00     0.075 H 
+BRANCH  38  41
+ATOM     41  CAO 3WQ d   1      74.174  44.464  -0.760  0.00  0.00    -0.048 C 
+ATOM     42  H4  3WQ d   1      74.649  44.663  -1.732  0.00  0.00     0.035 H 
+ATOM     43  H5  3WQ d   1      73.417  45.236  -0.557  0.00  0.00     0.035 H 
+BRANCH  41  44
+ATOM     44  CAA 3WQ d   1      75.243  44.492   0.347  0.00  0.00    -0.075 C 
+ATOM     45  H1  3WQ d   1      75.723  45.481   0.368  0.00  0.00     0.027 H 
+ATOM     46  H2  3WQ d   1      76.001  43.721   0.145  0.00  0.00     0.027 H 
+ATOM     47  H3  3WQ d   1      74.769  44.294   1.320  0.00  0.00     0.027 H 
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH   1  37
+TORSDOF 9

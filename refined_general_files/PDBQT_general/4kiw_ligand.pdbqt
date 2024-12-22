@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_2  and  CAT_4 
+REMARK    2  A    between atoms: CAU_7  and  CAQ_8 
+REMARK    3  A    between atoms: CAS_12  and  NAO_13 
+REMARK    4  A    between atoms: NAO_13  and  CAN_14 
+REMARK    5  A    between atoms: CAN_14  and  CAR_15 
+REMARK    6  A    between atoms: CAV_20  and  NAW_21 
+ROOT
+ATOM      1  NAO KIW d   1      11.281  19.424  75.499  0.00  0.00    -0.386 N 
+ATOM      2  H   KIW d   1      10.828  18.515  75.671  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAS KIW d   1      11.932  19.584  74.351  0.00  0.00     0.030 A 
+ATOM      4  CAJ KIW d   1      12.904  20.556  74.126  0.00  0.00    -0.041 A 
+ATOM      5  CAT KIW d   1      13.545  20.643  72.876  0.00  0.00     0.043 A 
+ATOM      6  H   KIW d   1      13.168  21.248  74.917  0.00  0.00     0.088 H 
+ATOM      7  CAM KIW d   1      13.214  19.751  71.841  0.00  0.00    -0.050 A 
+ATOM      8  CAU KIW d   1      12.237  18.774  72.078  0.00  0.00     0.043 A 
+ATOM      9  H   KIW d   1      13.705  19.817  70.877  0.00  0.00     0.086 H 
+ATOM     10  CAK KIW d   1      11.617  18.705  73.326  0.00  0.00    -0.041 A 
+ATOM     11  H   KIW d   1      10.867  17.942  73.499  0.00  0.00     0.088 H 
+BRANCH   5  12
+ATOM     12  CAP KIW d   1      14.603  21.734  72.677  0.00  0.00     0.209 C 
+ATOM     13  OAA KIW d   1      15.704  21.465  72.161  0.00  0.00    -0.644 OA
+ATOM     14  OAC KIW d   1      14.284  22.861  73.066  0.00  0.00    -0.644 OA
+ENDBRANCH   5  12
+BRANCH   8  15
+ATOM     15  CAQ KIW d   1      11.785  17.751  71.024  0.00  0.00     0.209 C 
+ATOM     16  OAD KIW d   1      11.073  16.804  71.422  0.00  0.00    -0.644 OA
+ATOM     17  OAB KIW d   1      12.108  17.926  69.828  0.00  0.00    -0.644 OA
+ENDBRANCH   8  15
+ENDBRANCH   1   3
+BRANCH   1  18
+ATOM     18  CAN KIW d   1      11.163  20.453  76.539  0.00  0.00     0.017 C 
+ATOM     19  H   KIW d   1      10.112  20.537  76.854  0.00  0.00     0.071 H 
+ATOM     20  H   KIW d   1      11.504  21.419  76.138  0.00  0.00     0.071 H 
+BRANCH  18  21
+ATOM     21  CAR KIW d   1      12.023  20.070  77.739  0.00  0.00    -0.038 A 
+ATOM     22  CAL KIW d   1      12.524  21.075  78.544  0.00  0.00    -0.043 A 
+ATOM     23  CAV KIW d   1      13.310  20.748  79.640  0.00  0.00     0.103 A 
+ATOM     24  H   KIW d   1      12.304  22.113  78.321  0.00  0.00     0.088 H 
+ATOM     25  CAI KIW d   1      13.595  19.412  79.946  0.00  0.00    -0.051 A 
+ATOM     26  CAG KIW d   1      13.090  18.397  79.139  0.00  0.00    -0.080 A 
+ATOM     27  H   KIW d   1      14.206  19.169  80.808  0.00  0.00     0.087 H 
+ATOM     28  CAH KIW d   1      12.303  18.734  78.036  0.00  0.00    -0.075 A 
+ATOM     29  H   KIW d   1      13.305  17.358  79.364  0.00  0.00     0.083 H 
+ATOM     30  H   KIW d   1      11.905  17.950  77.403  0.00  0.00     0.084 H 
+BRANCH  23  31
+ATOM     31  NAW KIW d   1      13.763  21.731  80.413  0.00  0.00    -0.116 N 
+ATOM     32  OAF KIW d   1      13.971  22.963  79.877  0.00  0.00    -0.532 OA
+ATOM     33  OAE KIW d   1      13.949  21.521  81.756  0.00  0.00    -0.532 OA
+ENDBRANCH  23  31
+ENDBRANCH  18  21
+ENDBRANCH   1  18
+TORSDOF 6

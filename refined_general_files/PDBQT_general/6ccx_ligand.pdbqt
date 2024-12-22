@@ -1,0 +1,67 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAA_21  and  CAC_1 
+REMARK    2  A    between atoms: CAH_5  and  CAI_6 
+REMARK    3  A    between atoms: CAI_6  and  CAJ_7 
+REMARK       I    between atoms: CAZ_20  and  NAA_21 
+REMARK    4  A    between atoms: CAZ_20  and  CBA_25 
+ROOT
+ATOM      1  CAC EWS d   1      12.875   7.315  17.186  0.00  0.00     0.016 C 
+ATOM      2  CAD EWS d   1      12.172   7.530  15.837  0.00  0.00    -0.019 C 
+ATOM      3  CAE EWS d   1      14.311   6.829  16.993  0.00  0.00    -0.024 C 
+ATOM      4  CAF EWS d   1      15.098   7.892  16.195  0.00  0.00     0.084 C 
+ATOM      5  CAH EWS d   1      13.140   7.916  14.709  0.00  0.00     0.107 C 
+ATOM      6  NAG EWS d   1      14.291   8.680  15.247  0.00  0.00    -0.070 N 
+ATOM      7  H1  EWS d   1      12.918   8.283  17.706  0.00  0.00     0.072 H 
+ATOM      8  H2  EWS d   1      11.431   8.334  15.953  0.00  0.00     0.039 H 
+ATOM      9  H3  EWS d   1      11.661   6.598  15.556  0.00  0.00     0.039 H 
+ATOM     10  H4  EWS d   1      14.308   5.879  16.438  0.00  0.00     0.038 H 
+ATOM     11  H5  EWS d   1      14.785   6.679  17.974  0.00  0.00     0.038 H 
+ATOM     12  H6  EWS d   1      15.887   7.378  15.627  0.00  0.00     0.075 H 
+ATOM     13  H7  EWS d   1      15.557   8.587  16.913  0.00  0.00     0.075 H 
+ATOM     14  H8  EWS d   1      13.537   6.991  14.265  0.00  0.00     0.084 H 
+ATOM     15  H20 EWS d   1      14.879   8.962  14.479  0.00  0.00     0.277 HD
+ATOM     16  H21 EWS d   1      13.942   9.498  15.722  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   1  17
+ATOM     17  NAA EWS d   1      12.083   6.387  18.019  0.00  0.00    -0.352 N 
+ATOM     18  CAZ EWS d   1      12.343   6.167  19.325  0.00  0.00     0.254 C 
+ATOM     19  OAB EWS d   1      13.297   6.680  19.914  0.00  0.00    -0.268 OA
+ATOM     20  H19 EWS d   1      11.319   5.899  17.596  0.00  0.00     0.163 HD
+BRANCH  18  21
+ATOM     21  CBA EWS d   1      11.532   5.295  19.945  0.00  0.00     0.059 A 
+ATOM     22  CAV EWS d   1      11.226   4.047  19.576  0.00  0.00     0.009 A 
+ATOM     23  CAQ EWS d   1      11.664   3.251  18.561  0.00  0.00    -0.053 A 
+ATOM     24  CAU EWS d   1      10.277   3.605  20.446  0.00  0.00     0.043 A 
+ATOM     25  CAR EWS d   1      11.127   1.953  18.431  0.00  0.00     0.011 A 
+ATOM     26  H15 EWS d   1      12.413   3.609  17.864  0.00  0.00     0.087 H 
+ATOM     27  CAS EWS d   1      10.144   1.501  19.343  0.00  0.00    -0.064 A 
+ATOM     28 BRA  EWS d   1      11.686   0.848  17.029  0.00  0.00    -0.051 Br
+ATOM     29  CAT EWS d   1       9.735   2.371  20.368  0.00  0.00    -0.055 A 
+ATOM     30  H16 EWS d   1       9.717   0.509  19.253  0.00  0.00     0.085 H 
+ATOM     31  H17 EWS d   1       8.991   2.054  21.090  0.00  0.00     0.087 H 
+ATOM     32  NAW EWS d   1      10.053   4.582  21.327  0.00  0.00    -0.364 N 
+ATOM     33  CAX EWS d   1      10.818   5.623  21.022  0.00  0.00    -0.006 A 
+ATOM     34  H22 EWS d   1       9.393   4.536  22.116  0.00  0.00     0.165 HD
+ATOM     35  H18 EWS d   1      10.855   6.572  21.555  0.00  0.00     0.112 H 
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+BRANCH   5  36
+ATOM     36  CAI EWS d   1      12.367   8.671  13.606  0.00  0.00    -0.014 C 
+ATOM     37  H9  EWS d   1      11.975   9.607  14.030  0.00  0.00     0.043 H 
+ATOM     38  H10 EWS d   1      11.530   8.041  13.270  0.00  0.00     0.043 H 
+BRANCH  36  39
+ATOM     39  CAJ EWS d   1      13.158   8.981  12.505  0.00  0.00    -0.056 A 
+ATOM     40  CAK EWS d   1      13.397   7.998  11.511  0.00  0.00    -0.075 A 
+ATOM     41  CAO EWS d   1      14.202   8.316  10.405  0.00  0.00    -0.061 A 
+ATOM     42  H11 EWS d   1      12.962   7.010  11.604  0.00  0.00     0.084 H 
+ATOM     43  CAN EWS d   1      14.755   9.617  10.309  0.00  0.00     0.034 A 
+ATOM     44  H14 EWS d   1      14.397   7.577   9.636  0.00  0.00     0.086 H 
+ATOM     45  CAM EWS d   1      14.528  10.598  11.295  0.00  0.00    -0.061 A 
+ATOM     46 CLA  EWS d   1      15.759  10.001   8.949  0.00  0.00    -0.084 Cl
+ATOM     47  CAL EWS d   1      13.722  10.280  12.401  0.00  0.00    -0.075 A 
+ATOM     48  H13 EWS d   1      14.969  11.584  11.201  0.00  0.00     0.086 H 
+ATOM     49  H12 EWS d   1      13.532  11.021  13.169  0.00  0.00     0.084 H 
+ENDBRANCH  36  39
+ENDBRANCH   5  36
+TORSDOF 4

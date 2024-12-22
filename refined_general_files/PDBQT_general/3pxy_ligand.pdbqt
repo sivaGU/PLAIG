@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  C6_6 
+REMARK    2  A    between atoms: C7_7  and  O8_8 
+REMARK    3  A    between atoms: C11_11  and  O12_12 
+REMARK    4  A    between atoms: O12_12  and  C17_17 
+ROOT
+ATOM      1  C6  JWS d   1      65.067  80.515 -85.349  0.00  0.00     0.049 A 
+ATOM      2  C7  JWS d   1      65.021  81.060 -86.705  0.00  0.00     0.080 A 
+ATOM      3  C9  JWS d   1      66.008  80.654 -87.665  0.00  0.00    -0.047 A 
+ATOM      4  C10 JWS d   1      67.047  79.718 -87.298  0.00  0.00    -0.048 A 
+ATOM      5  C11 JWS d   1      67.131  79.153 -85.940  0.00  0.00     0.069 A 
+ATOM      6  C13 JWS d   1      66.106  79.585 -84.996  0.00  0.00    -0.034 A 
+ATOM      7  H4  JWS d   1      65.974  81.052 -88.673  0.00  0.00     0.087 H 
+ATOM      8  H5  JWS d   1      67.781  79.425 -88.040  0.00  0.00     0.087 H 
+ATOM      9  H6  JWS d   1      66.128  79.189 -83.987  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5  JWS d   1      64.065  80.885 -84.302  0.00  0.00     0.200 A 
+ATOM     11  N4  JWS d   1      64.146  80.329 -83.044  0.00  0.00    -0.041 NA
+ATOM     12  C2  JWS d   1      63.222  80.655 -82.075  0.00  0.00     0.738 A 
+ATOM     13  N1  JWS d   1      62.218  81.541 -82.363  0.00  0.00     0.129 NA
+ATOM     14  N3  JWS d   1      63.314  80.094 -80.850  0.00  0.00    -0.230 N 
+ATOM     15  C15 JWS d   1      62.130  82.107 -83.620  0.00  0.00     0.738 A 
+ATOM     16  N14 JWS d   1      63.050  81.772 -84.574  0.00  0.00    -0.041 NA
+ATOM     17  N16 JWS d   1      61.157  82.978 -83.919  0.00  0.00    -0.230 N 
+ATOM     18  H7  JWS d   1      60.460  83.236 -83.206  0.00  0.00     0.174 HD
+ATOM     19  H8  JWS d   1      61.106  83.390 -84.862  0.00  0.00     0.174 HD
+ATOM     20  H1  JWS d   1      62.627  80.333 -80.121  0.00  0.00     0.174 HD
+ATOM     21  H2  JWS d   1      64.071  79.427 -80.645  0.00  0.00     0.174 HD
+ENDBRANCH   1  10
+BRANCH   2  22
+ATOM     22  O8  JWS d   1      64.034  81.947 -87.043  0.00  0.00    -0.360 OA
+ATOM     23  H3  JWS d   1      63.186  81.535 -86.927  0.00  0.00     0.217 HD
+ENDBRANCH   2  22
+BRANCH   5  24
+ATOM     24  O12 JWS d   1      68.105  78.313 -85.671  0.00  0.00    -0.356 OA
+BRANCH  24  25
+ATOM     25  C17 JWS d   1      69.108  77.904 -86.628  0.00  0.00     0.010 C 
+ATOM     26  H9  JWS d   1      69.804  77.198 -86.151  0.00  0.00     0.066 H 
+ATOM     27  H10 JWS d   1      69.663  78.787 -86.977  0.00  0.00     0.066 H 
+ATOM     28  H11 JWS d   1      68.620  77.415 -87.484  0.00  0.00     0.066 H 
+ENDBRANCH  24  25
+ENDBRANCH   5  24
+TORSDOF 4

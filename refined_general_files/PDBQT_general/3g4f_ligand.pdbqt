@@ -1,0 +1,99 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C1_1  and  C2_3 
+REMARK    3  A    between atoms: O1_2  and  P1_18 
+REMARK    4  A    between atoms: C3_5  and  C4_6 
+REMARK    5  A    between atoms: C3_5  and  C5_7 
+REMARK    6  A    between atoms: C5_7  and  C6_8 
+REMARK    7  A    between atoms: C6_8  and  C7_9 
+REMARK    8  A    between atoms: C8_10  and  C10_11 
+REMARK    9  A    between atoms: C8_10  and  C9_12 
+REMARK   10  A    between atoms: C9_12  and  C11_13 
+REMARK   11  A    between atoms: C11_13  and  C12_14 
+REMARK   12  A    between atoms: C13_15  and  C14_16 
+REMARK   13  A    between atoms: C13_15  and  C15_17 
+REMARK   14  A    between atoms: P1_18  and  O3A_21 
+REMARK   15  A    between atoms: O3A_21  and  P2_22 
+ROOT
+ATOM      1  C6  FPF d   1      16.262 -43.731  13.527  0.00  0.00    -0.046 C 
+ATOM      2  H8  FPF d   1      16.238 -43.918  12.443  0.00  0.00     0.039 H 
+ATOM      3  H9  FPF d   1      17.221 -43.265  13.797  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  FPF d   1      16.082 -45.078  14.307  0.00  0.00    -0.039 C 
+ATOM      5  H6  FPF d   1      17.087 -45.489  14.482  0.00  0.00     0.040 H 
+ATOM      6  H7  FPF d   1      15.613 -44.834  15.271  0.00  0.00     0.040 H 
+BRANCH   4   7
+ATOM      7  C3  FPF d   1      15.232 -46.207  13.655  0.00  0.00    -0.047 C 
+ATOM      8  C2  FPF d   1      15.831 -47.251  13.092  0.00  0.00     0.120 C 
+ATOM      9  F   FPF d   1      17.175 -47.345  13.075  0.00  0.00    -0.208 F 
+BRANCH   8  10
+ATOM     10  C1  FPF d   1      14.995 -48.392  12.493  0.00  0.00     0.080 C 
+ATOM     11  H1  FPF d   1      13.926 -48.231  12.695  0.00  0.00     0.086 H 
+ATOM     12  H2  FPF d   1      15.157 -48.457  11.407  0.00  0.00     0.086 H 
+BRANCH  10  13
+ATOM     13  O1  FPF d   1      15.441 -49.558  13.124  0.00  0.00    -0.283 OA
+BRANCH  13  14
+ATOM     14  P1  FPF d   1      14.408 -50.678  13.359  0.00  0.00     0.418 P 
+ATOM     15  O1A FPF d   1      14.685 -51.258  14.694  0.00  0.00    -0.624 OA
+ATOM     16  O2A FPF d   1      13.121 -49.963  13.297  0.00  0.00    -0.624 OA
+BRANCH  14  17
+ATOM     17  O3A FPF d   1      14.606 -51.665  12.256  0.00  0.00    -0.173 OA
+BRANCH  17  18
+ATOM     18  P2  FPF d   1      16.054 -52.515  12.215  0.00  0.00     0.431 P 
+ATOM     19  O1B FPF d   1      15.796 -54.159  12.278  0.00  0.00    -0.616 OA
+ATOM     20  O2B FPF d   1      16.836 -52.209  10.790  0.00  0.00    -0.616 OA
+ATOM     21  O3B FPF d   1      17.034 -52.065  13.474  0.00  0.00    -0.616 OA
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   8  10
+BRANCH   7  22
+ATOM     22  C4  FPF d   1      13.703 -46.142  13.656  0.00  0.00    -0.052 C 
+ATOM     23  H3  FPF d   1      13.376 -45.220  14.158  0.00  0.00     0.033 H 
+ATOM     24  H4  FPF d   1      13.299 -47.014  14.191  0.00  0.00     0.033 H 
+ATOM     25  H5  FPF d   1      13.335 -46.146  12.619  0.00  0.00     0.033 H 
+ENDBRANCH   7  22
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  C7  FPF d   1      15.090 -42.802  13.930  0.00  0.00    -0.101 C 
+ATOM     27  C8  FPF d   1      15.057 -41.484  13.656  0.00  0.00    -0.087 C 
+ATOM     28  H10 FPF d   1      14.247 -43.238  14.464  0.00  0.00     0.077 H 
+BRANCH  27  29
+ATOM     29  C10 FPF d   1      16.227 -40.753  12.959  0.00  0.00    -0.055 C 
+ATOM     30  H11 FPF d   1      15.976 -39.689  12.841  0.00  0.00     0.033 H 
+ATOM     31  H12 FPF d   1      16.402 -41.201  11.970  0.00  0.00     0.033 H 
+ATOM     32  H13 FPF d   1      17.136 -40.849  13.571  0.00  0.00     0.033 H 
+ENDBRANCH  27  29
+BRANCH  27  33
+ATOM     33  C9  FPF d   1      13.807 -40.707  14.108  0.00  0.00    -0.042 C 
+ATOM     34  H14 FPF d   1      14.107 -39.662  14.273  0.00  0.00     0.040 H 
+ATOM     35  H15 FPF d   1      13.469 -41.145  15.059  0.00  0.00     0.040 H 
+BRANCH  33  36
+ATOM     36  C11 FPF d   1      12.601 -40.700  13.142  0.00  0.00    -0.046 C 
+ATOM     37  H16 FPF d   1      12.838 -41.362  12.296  0.00  0.00     0.039 H 
+ATOM     38  H17 FPF d   1      12.465 -39.672  12.775  0.00  0.00     0.039 H 
+BRANCH  36  39
+ATOM     39  C12 FPF d   1      11.260 -41.171  13.758  0.00  0.00    -0.101 C 
+ATOM     40  C13 FPF d   1      10.817 -42.430  13.628  0.00  0.00    -0.091 C 
+ATOM     41  H18 FPF d   1      10.657 -40.456  14.315  0.00  0.00     0.077 H 
+BRANCH  40  42
+ATOM     42  C14 FPF d   1       9.489 -42.868  14.258  0.00  0.00    -0.055 C 
+ATOM     43  H19 FPF d   1       9.311 -43.931  14.036  0.00  0.00     0.033 H 
+ATOM     44  H20 FPF d   1       8.669 -42.264  13.842  0.00  0.00     0.033 H 
+ATOM     45  H21 FPF d   1       9.535 -42.724  15.348  0.00  0.00     0.033 H 
+ENDBRANCH  40  42
+BRANCH  40  46
+ATOM     46  C15 FPF d   1      11.632 -43.463  12.848  0.00  0.00    -0.055 C 
+ATOM     47  H22 FPF d   1      12.549 -42.992  12.464  0.00  0.00     0.033 H 
+ATOM     48  H23 FPF d   1      11.034 -43.842  12.006  0.00  0.00     0.033 H 
+ATOM     49  H24 FPF d   1      11.899 -44.297  13.513  0.00  0.00     0.033 H 
+ENDBRANCH  40  46
+ENDBRANCH  36  39
+ENDBRANCH  33  36
+ENDBRANCH  27  33
+ENDBRANCH   1  26
+TORSDOF 15

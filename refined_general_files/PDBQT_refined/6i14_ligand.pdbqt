@@ -1,0 +1,66 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_1  and  NAT_2 
+REMARK    2  A    between atoms: CAQ_6  and  NAP_7 
+REMARK       I    between atoms: NAP_7  and  CAO_8 
+REMARK    3  A    between atoms: CAO_8  and  CAN_10 
+REMARK    4  A    between atoms: NAI_20  and  CAH_21 
+REMARK    5  A    between atoms: CAH_21  and  CAE_22 
+ROOT
+ATOM      1  CAN GZN d   1      -0.198  -2.725 -12.559  0.00  0.00     0.059 A 
+ATOM      2  CBA GZN d   1      -1.086  -1.662 -12.380  0.00  0.00    -0.001 A 
+ATOM      3  CAM GZN d   1       0.676  -2.653 -13.688  0.00  0.00    -0.003 A 
+ATOM      4  CAW GZN d   1       1.636  -3.652 -13.989  0.00  0.00    -0.071 A 
+ATOM      5  CAX GZN d   1       2.468  -3.576 -15.119  0.00  0.00    -0.082 A 
+ATOM      6  CAY GZN d   1       2.364  -2.457 -15.943  0.00  0.00    -0.082 A 
+ATOM      7  CAZ GZN d   1       1.424  -1.476 -15.683  0.00  0.00    -0.067 A 
+ATOM      8  CAL GZN d   1       0.573  -1.552 -14.548  0.00  0.00     0.043 A 
+ATOM      9  CAJ GZN d   1      -0.386  -0.538 -14.330  0.00  0.00     0.258 A 
+ATOM     10  OAK GZN d   1      -0.472   0.414 -15.090  0.00  0.00    -0.267 OA
+ATOM     11  NAI GZN d   1      -1.216  -0.612 -13.264  0.00  0.00    -0.319 N 
+ATOM     12  H7  GZN d   1      -1.713  -1.663 -11.489  0.00  0.00     0.113 H 
+ATOM     13  H8  GZN d   1       1.732  -4.503 -13.325  0.00  0.00     0.084 H 
+ATOM     14  H9  GZN d   1       3.173  -4.368 -15.344  0.00  0.00     0.083 H 
+ATOM     15  H10 GZN d   1       3.026  -2.354 -16.795  0.00  0.00     0.083 H 
+ATOM     16  H11 GZN d   1       1.335  -0.633 -16.358  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  CAO GZN d   1      -0.168  -3.756 -11.571  0.00  0.00     0.258 C 
+ATOM     18  NAP GZN d   1      -1.321  -4.148 -11.003  0.00  0.00    -0.320 N 
+ATOM     19  H6  GZN d   1      -2.207  -3.808 -11.320  0.00  0.00     0.169 HD
+ATOM     20  OBB GZN d   1       0.909  -4.157 -11.160  0.00  0.00    -0.267 OA
+BRANCH  18  21
+ATOM     21  CAQ GZN d   1      -1.220  -5.028  -9.977  0.00  0.00     0.071 A 
+ATOM     22  CAV GZN d   1      -0.156  -5.145  -9.146  0.00  0.00     0.025 A 
+ATOM     23  NAT GZN d   1      -0.445  -6.093  -8.264  0.00  0.00    -0.283 N 
+ATOM     24  H4  GZN d   1       0.766  -4.567  -9.193  0.00  0.00     0.117 H 
+ATOM     25  NAS GZN d   1      -1.717  -6.565  -8.575  0.00  0.00    -0.183 NA
+ATOM     26  CAR GZN d   1      -2.184  -5.886  -9.620  0.00  0.00     0.049 A 
+ATOM     27  H5  GZN d   1      -3.158  -6.005 -10.092  0.00  0.00     0.121 H 
+BRANCH  23  28
+ATOM     28  CAU GZN d   1       0.581  -6.397  -7.260  0.00  0.00     0.002 C 
+ATOM     29  H1  GZN d   1       1.450  -5.741  -7.414  0.00  0.00     0.059 H 
+ATOM     30  H2  GZN d   1       0.892  -7.447  -7.360  0.00  0.00     0.059 H 
+ATOM     31  H3  GZN d   1       0.170  -6.230  -6.253  0.00  0.00     0.059 H 
+ENDBRANCH  23  28
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+BRANCH  11  32
+ATOM     32  CAH GZN d   1      -2.190   0.472 -12.899  0.00  0.00     0.026 C 
+ATOM     33  H12 GZN d   1      -2.949   0.090 -12.200  0.00  0.00     0.072 H 
+ATOM     34  H13 GZN d   1      -2.685   0.865 -13.799  0.00  0.00     0.072 H 
+BRANCH  32  35
+ATOM     35  CAE GZN d   1      -1.382   1.513 -12.261  0.00  0.00    -0.038 A 
+ATOM     36  CAF GZN d   1      -1.092   1.537 -10.887  0.00  0.00    -0.053 A 
+ATOM     37  CAG GZN d   1      -0.304   2.570 -10.355  0.00  0.00     0.056 A 
+ATOM     38  H14 GZN d   1      -1.476   0.759 -10.238  0.00  0.00     0.087 H 
+ATOM     39 CL1  GZN d   1       0.084   2.559  -8.634  0.00  0.00    -0.083 Cl
+ATOM     40  CAB GZN d   1       0.191   3.598 -11.129  0.00  0.00     0.055 A 
+ATOM     41 CL2  GZN d   1       1.188   4.856 -10.427  0.00  0.00    -0.083 Cl
+ATOM     42  CAC GZN d   1      -0.139   3.658 -12.447  0.00  0.00    -0.060 A 
+ATOM     43  CAD GZN d   1      -0.903   2.605 -12.988  0.00  0.00    -0.074 A 
+ATOM     44  H15 GZN d   1       0.177   4.492 -13.063  0.00  0.00     0.086 H 
+ATOM     45  H16 GZN d   1      -1.136   2.645 -14.046  0.00  0.00     0.084 H 
+ENDBRANCH  32  35
+ENDBRANCH  11  32
+TORSDOF 5

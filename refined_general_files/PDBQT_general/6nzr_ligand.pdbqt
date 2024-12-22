@@ -1,0 +1,76 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3_14  and  C13_1 
+REMARK    2  A    between atoms: S1_26  and  C18_2 
+REMARK    3  A    between atoms: C12_7  and  S1_26 
+REMARK    4  A    between atoms: C1_8  and  C5_16 
+REMARK    5  A    between atoms: C2_11  and  N3_14 
+REMARK    6  A    between atoms: N4_15  and  C4_13 
+REMARK    7  A    between atoms: N4_15  and  C7_20 
+REMARK       I    between atoms: C5_16  and  N5_17 
+REMARK    8  A    between atoms: N5_17  and  C6_19 
+ROOT
+ATOM      1  C1  LAJ d   1      14.239  -1.017  31.271  0.00  0.00     0.173 A 
+ATOM      2  N1  LAJ d   1      13.475  -0.394  32.186  0.00  0.00    -0.140 NA
+ATOM      3  N2  LAJ d   1      12.218  -0.802  32.438  0.00  0.00    -0.131 NA
+ATOM      4  C2  LAJ d   1      11.702  -1.806  31.733  0.00  0.00     0.153 A 
+ATOM      5  C3  LAJ d   1      12.416  -2.471  30.734  0.00  0.00    -0.009 A 
+ATOM      6  C4  LAJ d   1      13.748  -2.131  30.513  0.00  0.00     0.072 A 
+ATOM      7  H8  LAJ d   1      11.940  -3.241  30.139  0.00  0.00     0.093 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  N4  LAJ d   1      14.629  -2.875  29.664  0.00  0.00    -0.353 N 
+ATOM      9  H10 LAJ d   1      15.587  -2.502  29.599  0.00  0.00     0.166 HD
+BRANCH   8  10
+ATOM     10  C7  LAJ d   1      14.389  -4.046  28.898  0.00  0.00     0.054 A 
+ATOM     11  C12 LAJ d   1      15.127  -4.290  27.722  0.00  0.00     0.085 A 
+ATOM     12  C11 LAJ d   1      14.868  -5.410  26.941  0.00  0.00    -0.060 A 
+ATOM     13  C10 LAJ d   1      13.881  -6.302  27.327  0.00  0.00    -0.081 A 
+ATOM     14  H7  LAJ d   1      15.436  -5.585  26.034  0.00  0.00     0.085 H 
+ATOM     15  C9  LAJ d   1      13.166  -6.091  28.483  0.00  0.00    -0.081 A 
+ATOM     16  H17 LAJ d   1      13.671  -7.171  26.715  0.00  0.00     0.083 H 
+ATOM     17  C8  LAJ d   1      13.430  -4.990  29.280  0.00  0.00    -0.056 A 
+ATOM     18  H16 LAJ d   1      12.391  -6.791  28.772  0.00  0.00     0.083 H 
+ATOM     19  H15 LAJ d   1      12.888  -4.858  30.209  0.00  0.00     0.087 H 
+BRANCH  11  20
+ATOM     20  S1  LAJ d   1      16.487  -3.262  27.205  0.00  0.00     0.174 S 
+ATOM     21  O2  LAJ d   1      17.400  -3.152  28.304  0.00  0.00    -0.223 OA
+ATOM     22  O3  LAJ d   1      16.988  -3.775  25.968  0.00  0.00    -0.223 OA
+BRANCH  20  23
+ATOM     23  C18 LAJ d   1      15.791  -1.681  26.904  0.00  0.00     0.020 C 
+ATOM     24  H1  LAJ d   1      16.581  -0.989  26.578  0.00  0.00     0.049 H 
+ATOM     25  H2  LAJ d   1      15.329  -1.302  27.828  0.00  0.00     0.049 H 
+ATOM     26  H3  LAJ d   1      15.026  -1.761  26.117  0.00  0.00     0.049 H 
+ENDBRANCH  20  23
+ENDBRANCH  11  20
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+BRANCH   1  27
+ATOM     27  C5  LAJ d   1      15.580  -0.393  31.020  0.00  0.00     0.274 C 
+ATOM     28  N5  LAJ d   1      15.906   0.632  31.809  0.00  0.00    -0.360 N 
+ATOM     29  H11 LAJ d   1      15.318   0.849  32.588  0.00  0.00     0.162 HD
+ATOM     30  O1  LAJ d   1      16.297  -0.792  30.107  0.00  0.00    -0.266 OA
+BRANCH  28  31
+ATOM     31  C6  LAJ d   1      17.088   1.443  31.573  0.00  0.00    -0.018 C 
+ATOM     32  H12 LAJ d   1      17.156   2.225  32.343  0.00  0.00     0.056 H 
+ATOM     33  H13 LAJ d   1      17.019   1.911  30.580  0.00  0.00     0.056 H 
+ATOM     34  H14 LAJ d   1      17.984   0.807  31.617  0.00  0.00     0.056 H 
+ENDBRANCH  28  31
+ENDBRANCH   1  27
+BRANCH   4  35
+ATOM     35  N3  LAJ d   1      10.396  -2.141  32.049  0.00  0.00    -0.324 N 
+ATOM     36  H9  LAJ d   1       9.950  -1.485  32.706  0.00  0.00     0.169 HD
+BRANCH  35  37
+ATOM     37  C13 LAJ d   1       9.570  -3.181  31.659  0.00  0.00     0.128 A 
+ATOM     38  C14 LAJ d   1       8.240  -3.197  32.101  0.00  0.00    -0.039 A 
+ATOM     39  C15 LAJ d   1       7.426  -4.228  31.666  0.00  0.00    -0.078 A 
+ATOM     40  H18 LAJ d   1       7.861  -2.426  32.763  0.00  0.00     0.089 H 
+ATOM     41  C16 LAJ d   1       7.940  -5.214  30.848  0.00  0.00    -0.066 A 
+ATOM     42  H6  LAJ d   1       6.385  -4.261  31.967  0.00  0.00     0.083 H 
+ATOM     43  C17 LAJ d   1       9.272  -5.135  30.488  0.00  0.00     0.004 A 
+ATOM     44  H5  LAJ d   1       7.316  -6.028  30.497  0.00  0.00     0.085 H 
+ATOM     45  N6  LAJ d   1      10.087  -4.144  30.878  0.00  0.00    -0.243 NA
+ATOM     46  H4  LAJ d   1       9.680  -5.916  29.857  0.00  0.00     0.114 H 
+ENDBRANCH  35  37
+ENDBRANCH   4  35
+TORSDOF 8

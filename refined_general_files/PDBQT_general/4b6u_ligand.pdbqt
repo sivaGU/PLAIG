@@ -1,0 +1,80 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O3A_4 
+REMARK    2  A    between atoms: PA_1  and  O5'_5 
+REMARK    3  A    between atoms: O3A_4  and  PB_6 
+REMARK    4  A    between atoms: O5'_5  and  C5'_10 
+REMARK    5  A    between atoms: C5'_10  and  C4'_11 
+REMARK    6  A    between atoms: C3'_13  and  O3'_14 
+REMARK    7  A    between atoms: C2'_15  and  O2'_16 
+REMARK    8  A    between atoms: C1'_17  and  N9_18 
+REMARK    9  A    between atoms: N7_20  and  CM7_21 
+ROOT
+ATOM      1  C4' M7G d   1       5.985  30.753  -9.526  0.00  0.00     0.089 C 
+ATOM      2  O4' M7G d   1       7.289  31.307  -9.209  0.00  0.00    -0.354 OA
+ATOM      3  C3' M7G d   1       5.295  31.823 -10.401  0.00  0.00     0.091 C 
+ATOM      4  C2' M7G d   1       6.469  32.563 -11.055  0.00  0.00     0.104 C 
+ATOM      5  C1' M7G d   1       7.590  32.479 -10.009  0.00  0.00     0.136 C 
+ATOM      6  H3  M7G d   1       5.396  30.587  -8.612  0.00  0.00     0.090 H 
+ATOM      7  H4  M7G d   1       4.633  31.378 -11.158  0.00  0.00     0.091 H 
+ATOM      8  H6  M7G d   1       6.771  32.048 -11.979  0.00  0.00     0.093 H 
+ATOM      9  H8  M7G d   1       7.553  33.375  -9.372  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  N9  M7G d   1       8.929  32.399 -10.594  0.00  0.00    -0.315 N 
+ATOM     11  C8  M7G d   1       9.422  31.305 -11.251  0.00  0.00     0.147 A 
+ATOM     12  N7  M7G d   1      10.667  31.668 -11.731  0.00  0.00    -0.039 N 
+ATOM     13  H9  M7G d   1       8.758  31.030 -12.084  0.00  0.00     0.108 H 
+ATOM     14  H10 M7G d   1       9.514  30.455 -10.559  0.00  0.00     0.108 H 
+ATOM     15  C5  M7G d   1      10.890  32.978 -11.335  0.00  0.00     0.236 A 
+ATOM     16  H11 M7G d   1      11.125  31.316 -10.905  0.00  0.00     0.282 HD
+ATOM     17  C6  M7G d   1      12.085  33.775 -11.632  0.00  0.00     0.274 A 
+ATOM     18  C4  M7G d   1       9.812  33.432 -10.623  0.00  0.00     0.139 A 
+ATOM     19  H15 M7G d   1      11.389  32.638 -10.415  0.00  0.00     0.112 H 
+ATOM     20  O6  M7G d   1      13.066  33.435 -12.264  0.00  0.00    -0.270 OA
+ATOM     21  N1  M7G d   1      11.966  35.010 -11.100  0.00  0.00    -0.158 N 
+ATOM     22  C2  M7G d   1      10.853  35.459 -10.387  0.00  0.00     0.679 A 
+ATOM     23  H16 M7G d   1      12.727  35.647 -11.225  0.00  0.00     0.187 HD
+ATOM     24  N2  M7G d   1      10.915  36.750  -9.954  0.00  0.00    -0.234 N 
+ATOM     25  N3  M7G d   1       9.745  34.728 -10.118  0.00  0.00    -0.178 N 
+ATOM     26  H17 M7G d   1      10.131  37.153  -9.421  0.00  0.00     0.174 HD
+ATOM     27  H18 M7G d   1      11.746  37.323 -10.160  0.00  0.00     0.174 HD
+ATOM     28  H19 M7G d   1       8.937  35.093  -9.594  0.00  0.00     0.185 HD
+BRANCH  12  29
+ATOM     29  CM7 M7G d   1      11.546  30.811 -12.516  0.00  0.00     0.070 C 
+ATOM     30  H12 M7G d   1      12.469  31.358 -12.760  0.00  0.00     0.068 H 
+ATOM     31  H13 M7G d   1      11.037  30.517 -13.446  0.00  0.00     0.068 H 
+ATOM     32  H14 M7G d   1      11.796  29.911 -11.934  0.00  0.00     0.068 H 
+ENDBRANCH  12  29
+ENDBRANCH   5  10
+BRANCH   4  33
+ATOM     33  O2' M7G d   1       6.152  33.922 -11.373  0.00  0.00    -0.388 OA
+ATOM     34  H7  M7G d   1       5.920  34.386 -10.577  0.00  0.00     0.210 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  C5' M7G d   1       6.206  29.398 -10.237  0.00  0.00     0.058 C 
+ATOM     36  H1  M7G d   1       7.028  29.497 -10.961  0.00  0.00     0.079 H 
+ATOM     37  H2  M7G d   1       6.466  28.633  -9.490  0.00  0.00     0.079 H 
+BRANCH  35  38
+ATOM     38  O5' M7G d   1       5.003  28.999 -10.931  0.00  0.00    -0.287 OA
+BRANCH  38  39
+ATOM     39  PA  M7G d   1       4.353  27.536 -10.656  0.00  0.00     0.418 P 
+ATOM     40  O1A M7G d   1       5.216  26.452 -11.100  0.00  0.00    -0.624 OA
+ATOM     41  O2A M7G d   1       3.917  27.389  -9.256  0.00  0.00    -0.624 OA
+BRANCH  39  42
+ATOM     42  O3A M7G d   1       3.093  27.697 -11.637  0.00  0.00    -0.173 OA
+BRANCH  42  43
+ATOM     43  PB  M7G d   1       1.803  28.632 -11.432  0.00  0.00     0.431 P 
+ATOM     44  O1B M7G d   1       2.197  30.007 -10.974  0.00  0.00    -0.616 OA
+ATOM     45  O2B M7G d   1       0.881  28.041 -10.449  0.00  0.00    -0.616 OA
+ATOM     46  O3B M7G d   1       1.099  28.769 -12.727  0.00  0.00    -0.616 OA
+ENDBRANCH  42  43
+ENDBRANCH  39  42
+ENDBRANCH  38  39
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+BRANCH   3  47
+ATOM     47  O3' M7G d   1       4.561  32.661  -9.533  0.00  0.00    -0.390 OA
+ATOM     48  H5  M7G d   1       4.122  33.334 -10.040  0.00  0.00     0.210 HD
+ENDBRANCH   3  47
+TORSDOF 9

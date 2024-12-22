@@ -1,0 +1,68 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  OAN_2 
+REMARK    2  A    between atoms: OAN_2  and  CAR_3 
+REMARK    3  A    between atoms: CAQ_8  and  CAL_9 
+REMARK    4  A    between atoms: CAL_9  and  CAU_10 
+REMARK    5  A    between atoms: CAT_13  and  OAF_14 
+REMARK    6  A    between atoms: CAS_15  and  OAE_16 
+REMARK    7  A    between atoms: CAV_18  and  CAO_19 
+REMARK    8  A    between atoms: CAV_18  and  OAG_22 
+ROOT
+ATOM      1  CAU 3DQ d   1     -44.870 -28.836  -7.138  0.00  0.00     0.050 C 
+ATOM      2  CAP 3DQ d   1     -45.223 -28.169  -8.481  0.00  0.00     0.165 C 
+ATOM      3  OAC 3DQ d   1     -45.967 -27.169  -8.538  0.00  0.00    -0.294 OA
+ATOM      4  CAT 3DQ d   1     -44.637 -28.795  -9.753  0.00  0.00     0.118 C 
+ATOM      5  CAS 3DQ d   1     -43.127 -29.004  -9.560  0.00  0.00     0.070 C 
+ATOM      6  CAM 3DQ d   1     -42.833 -29.834  -8.305  0.00  0.00     0.001 C 
+ATOM      7  CAV 3DQ d   1     -43.314 -29.084  -7.044  0.00  0.00     0.158 C 
+ATOM      8  H10 3DQ d   1     -45.154 -28.156  -6.321  0.00  0.00     0.058 H 
+ATOM      9  H11 3DQ d   1     -45.114 -29.773  -9.916  0.00  0.00     0.099 H 
+ATOM     10  H13 3DQ d   1     -42.635 -28.025  -9.468  0.00  0.00     0.087 H 
+ATOM     11  H15 3DQ d   1     -41.750 -30.010  -8.232  0.00  0.00     0.042 H 
+ATOM     12  H16 3DQ d   1     -43.357 -30.798  -8.376  0.00  0.00     0.042 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  CAL 3DQ d   1     -45.696 -30.133  -6.993  0.00  0.00    -0.028 C 
+ATOM     14  H8  3DQ d   1     -45.495 -30.785  -7.856  0.00  0.00     0.041 H 
+ATOM     15  H9  3DQ d   1     -45.398 -30.647  -6.067  0.00  0.00     0.041 H 
+BRANCH  13  16
+ATOM     16  CAQ 3DQ d   1     -47.179 -29.830  -6.936  0.00  0.00    -0.057 A 
+ATOM     17  CAI 3DQ d   1     -48.006 -30.157  -7.981  0.00  0.00    -0.074 A 
+ATOM     18  CAK 3DQ d   1     -49.369 -29.883  -7.907  0.00  0.00    -0.050 A 
+ATOM     19  H5  3DQ d   1     -47.597 -30.630  -8.867  0.00  0.00     0.084 H 
+ATOM     20  CAR 3DQ d   1     -49.908 -29.247  -6.804  0.00  0.00     0.068 A 
+ATOM     21  H4  3DQ d   1     -50.017 -30.173  -8.726  0.00  0.00     0.087 H 
+ATOM     22  CAJ 3DQ d   1     -49.056 -28.903  -5.760  0.00  0.00    -0.050 A 
+ATOM     23  CAH 3DQ d   1     -47.700 -29.184  -5.822  0.00  0.00    -0.074 A 
+ATOM     24  H6  3DQ d   1     -49.459 -28.407  -4.884  0.00  0.00     0.087 H 
+ATOM     25  H7  3DQ d   1     -47.048 -28.901  -5.004  0.00  0.00     0.084 H 
+BRANCH  20  26
+ATOM     26  OAN 3DQ d   1     -51.242 -28.944  -6.682  0.00  0.00    -0.356 OA
+BRANCH  26  27
+ATOM     27  CAA 3DQ d   1     -52.167 -29.425  -7.690  0.00  0.00     0.010 C 
+ATOM     28  H1  3DQ d   1     -53.186 -29.095  -7.440  0.00  0.00     0.066 H 
+ATOM     29  H2  3DQ d   1     -52.136 -30.524  -7.722  0.00  0.00     0.066 H 
+ATOM     30  H3  3DQ d   1     -51.881 -29.021  -8.672  0.00  0.00     0.066 H 
+ENDBRANCH  26  27
+ENDBRANCH  20  26
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+BRANCH   7  31
+ATOM     31  CAO 3DQ d   1     -42.986 -29.857  -5.751  0.00  0.00     0.210 C 
+ATOM     32  OAB 3DQ d   1     -42.818 -31.109  -5.830  0.00  0.00    -0.646 OA
+ATOM     33  OAD 3DQ d   1     -42.914 -29.186  -4.682  0.00  0.00    -0.646 OA
+ENDBRANCH   7  31
+BRANCH   7  34
+ATOM     34  OAG 3DQ d   1     -42.636 -27.779  -7.015  0.00  0.00    -0.378 OA
+ATOM     35  H17 3DQ d   1     -42.915 -27.295  -6.246  0.00  0.00     0.211 HD
+ENDBRANCH   7  34
+BRANCH   4  36
+ATOM     36  OAF 3DQ d   1     -44.885 -27.966 -10.913  0.00  0.00    -0.385 OA
+ATOM     37  H12 3DQ d   1     -45.822 -27.862 -11.032  0.00  0.00     0.210 HD
+ENDBRANCH   4  36
+BRANCH   5  38
+ATOM     38  OAE 3DQ d   1     -42.616 -29.696 -10.704  0.00  0.00    -0.392 OA
+ATOM     39  H14 3DQ d   1     -42.776 -29.177 -11.484  0.00  0.00     0.210 HD
+ENDBRANCH   5  38
+TORSDOF 8

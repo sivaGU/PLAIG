@@ -1,0 +1,59 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SAB_2  and  CAE_5 
+REMARK    2  A    between atoms: CAG_7  and  NAZ_26 
+REMARK    3  A    between atoms: CAJ_10  and  CAK_11 
+REMARK    4  A    between atoms: CAL_12  and  CAM_13 
+REMARK    5  A    between atoms: CAN_14  and  SAV_22 
+REMARK    6  A    between atoms: CAP_16  and  NAS_19 
+ROOT
+ATOM      1  NAS 4DS d   1       0.030 -45.175  -8.805  0.00  0.00    -0.234 NA
+ATOM      2  CAT 4DS d   1       0.345 -43.960  -8.918  0.00  0.00     0.163 C 
+ATOM      3  SAU 4DS d   1       0.729 -42.356  -9.153  0.00  0.00    -0.055 SA
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAP 4DS d   1      -0.026 -46.188  -7.962  0.00  0.00     0.060 A 
+ATOM      5  CAO 4DS d   1      -0.255 -47.479  -8.450  0.00  0.00    -0.031 A 
+ATOM      6  CAN 4DS d   1      -0.282 -48.541  -7.546  0.00  0.00     0.093 A 
+ATOM      7  H   4DS d   1      -0.408 -47.651  -9.509  0.00  0.00     0.089 H 
+ATOM      8  CAM 4DS d   1      -0.130 -48.346  -6.160  0.00  0.00    -0.012 A 
+ATOM      9  CAR 4DS d   1       0.166 -47.080  -5.731  0.00  0.00    -0.069 A 
+ATOM     10  CAQ 4DS d   1       0.197 -46.045  -6.607  0.00  0.00    -0.054 A 
+ATOM     11  H   4DS d   1       0.377 -46.903  -4.683  0.00  0.00     0.085 H 
+ATOM     12  H   4DS d   1       0.408 -45.053  -6.223  0.00  0.00     0.087 H 
+BRANCH   6  13
+ATOM     13  SAV 4DS d   1      -0.569 -50.225  -8.132  0.00  0.00     0.138 S 
+ATOM     14  OAW 4DS d   1       0.650 -51.020  -7.891  0.00  0.00    -0.591 OA
+ATOM     15  OAX 4DS d   1      -0.984 -50.070  -9.489  0.00  0.00    -0.591 OA
+ATOM     16  OAY 4DS d   1      -1.642 -50.712  -7.194  0.00  0.00    -0.591 OA
+ENDBRANCH   6  13
+BRANCH   8  17
+ATOM     17  CAL 4DS d   1      -0.091 -49.377  -5.196  0.00  0.00    -0.071 C 
+ATOM     18  CAK 4DS d   1      -0.402 -49.252  -3.872  0.00  0.00    -0.071 C 
+ATOM     19  H   4DS d   1      -0.772 -48.290  -3.519  0.00  0.00     0.084 H 
+ATOM     20  H   4DS d   1       0.216 -50.364  -5.540  0.00  0.00     0.084 H 
+BRANCH  18  21
+ATOM     21  CAJ 4DS d   1      -0.268 -50.324  -2.913  0.00  0.00    -0.012 A 
+ATOM     22  CAE 4DS d   1      -0.279 -50.062  -1.537  0.00  0.00     0.093 A 
+ATOM     23  CAF 4DS d   1      -0.143 -51.067  -0.544  0.00  0.00    -0.031 A 
+ATOM     24  CAG 4DS d   1       0.039 -52.396  -0.957  0.00  0.00     0.060 A 
+ATOM     25  H   4DS d   1      -0.179 -50.814   0.509  0.00  0.00     0.089 H 
+ATOM     26  CAH 4DS d   1       0.059 -52.672  -2.337  0.00  0.00    -0.054 A 
+ATOM     27  CAI 4DS d   1      -0.082 -51.661  -3.313  0.00  0.00    -0.069 A 
+ATOM     28  H   4DS d   1       0.187 -53.698  -2.663  0.00  0.00     0.087 H 
+ATOM     29  H   4DS d   1      -0.047 -51.914  -4.367  0.00  0.00     0.085 H 
+BRANCH  22  30
+ATOM     30  SAB 4DS d   1      -0.510 -48.423  -0.946  0.00  0.00     0.138 S 
+ATOM     31  OAA 4DS d   1       0.438 -47.504  -1.592  0.00  0.00    -0.591 OA
+ATOM     32  OAC 4DS d   1      -1.840 -48.059  -1.424  0.00  0.00    -0.591 OA
+ATOM     33  OAD 4DS d   1      -0.487 -48.407   0.537  0.00  0.00    -0.591 OA
+ENDBRANCH  22  30
+BRANCH  24  34
+ATOM     34  NAZ 4DS d   1       0.186 -53.381  -0.031  0.00  0.00    -0.234 NA
+ATOM     35  CBA 4DS d   1       0.222 -53.054   1.213  0.00  0.00     0.163 C 
+ATOM     36  SBB 4DS d   1       0.282 -52.632   2.868  0.00  0.00    -0.055 SA
+ENDBRANCH  24  34
+ENDBRANCH  18  21
+ENDBRANCH   8  17
+ENDBRANCH   1   4
+TORSDOF 6

@@ -1,0 +1,113 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBE_1  and  SBD_2 
+REMARK    2  A    between atoms: SBD_2  and  CBC_3 
+REMARK    3  A    between atoms: CBC_3  and  CBB_4 
+REMARK    4  A    between atoms: CBB_4  and  CAY_5 
+REMARK    5  A    between atoms: CAY_5  and  CAZ_6 
+REMARK    6  A    between atoms: CAY_5  and  NAX_9 
+REMARK       I    between atoms: CAZ_6  and  NBF_8 
+REMARK       I    between atoms: NAX_9  and  CAS_10 
+REMARK    7  A    between atoms: CAS_10  and  CAR_12 
+REMARK       I    between atoms: NAQ_16  and  CAG_17 
+REMARK    8  A    between atoms: CAG_17  and  CAF_19 
+REMARK    9  A    between atoms: CAF_19  and  NAA_20 
+REMARK   10  A    between atoms: CAF_19  and  CAI_25 
+REMARK       I    between atoms: NAA_20  and  CAB_21 
+REMARK   11  A    between atoms: CAB_21  and  CAD_23 
+REMARK   12  A    between atoms: CAD_23  and  SAE_24 
+REMARK   13  A    between atoms: CAI_25  and  CAJ_26 
+REMARK   14  A    between atoms: CAO_29  and  OAP_30 
+ROOT
+ATOM      1  CAR SD2 d   1      83.633  33.868 133.727  0.00  0.00     0.091 C 
+ATOM      2  CAU SD2 d   1      84.705  32.781 133.864  0.00  0.00    -0.036 C 
+ATOM      3  CAV SD2 d   1      85.421  33.105 135.163  0.00  0.00    -0.048 C 
+ATOM      4  CAW SD2 d   1      84.338  33.720 136.045  0.00  0.00    -0.001 C 
+ATOM      5  NAQ SD2 d   1      83.481  34.389 135.065  0.00  0.00    -0.337 N 
+ATOM      6  CAG SD2 d   1      82.776  35.492 135.312  0.00  0.00     0.243 C 
+ATOM      7  OAH SD2 d   1      82.208  36.060 134.381  0.00  0.00    -0.271 OA
+ATOM      8  H12 SD2 d   1      83.960  34.669 133.047  0.00  0.00     0.087 H 
+ATOM      9  H13 SD2 d   1      85.405  32.818 133.016  0.00  0.00     0.036 H 
+ATOM     10  H14 SD2 d   1      84.242  31.784 133.915  0.00  0.00     0.036 H 
+ATOM     11  H15 SD2 d   1      86.237  33.822 134.990  0.00  0.00     0.035 H 
+ATOM     12  H16 SD2 d   1      85.827  32.192 135.623  0.00  0.00     0.035 H 
+ATOM     13  H17 SD2 d   1      84.766  34.440 136.758  0.00  0.00     0.064 H 
+ATOM     14  H18 SD2 d   1      83.784  32.945 136.595  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAS SD2 d   1      82.392  33.221 133.173  0.00  0.00     0.241 C 
+ATOM     16  NAX SD2 d   1      82.690  32.826 131.959  0.00  0.00    -0.346 N 
+ATOM     17  H11 SD2 d   1      83.638  33.047 131.730  0.00  0.00     0.163 HD
+ATOM     18  OAT SD2 d   1      81.358  33.093 133.821  0.00  0.00    -0.271 OA
+BRANCH  16  19
+ATOM     19  CAY SD2 d   1      82.039  32.170 130.876  0.00  0.00     0.090 C 
+ATOM     20  H8  SD2 d   1      80.951  32.060 130.991  0.00  0.00     0.087 H 
+BRANCH  19  21
+ATOM     21  CBB SD2 d   1      82.467  33.075 129.727  0.00  0.00    -0.030 C 
+ATOM     22  H6  SD2 d   1      83.491  33.410 129.950  0.00  0.00     0.037 H 
+ATOM     23  H7  SD2 d   1      82.474  32.454 128.819  0.00  0.00     0.037 H 
+BRANCH  21  24
+ATOM     24  CBC SD2 d   1      81.735  34.201 129.433  0.00  0.00    -0.021 C 
+ATOM     25  H4  SD2 d   1      80.717  33.867 129.184  0.00  0.00     0.049 H 
+ATOM     26  H5  SD2 d   1      81.707  34.814 130.346  0.00  0.00     0.049 H 
+BRANCH  24  27
+ATOM     27  SBD SD2 d   1      82.284  35.284 128.082  0.00  0.00    -0.173 SA
+BRANCH  27  28
+ATOM     28  CBE SD2 d   1      83.761  36.093 128.678  0.00  0.00    -0.035 C 
+ATOM     29  H1  SD2 d   1      84.148  36.769 127.901  0.00  0.00     0.041 H 
+ATOM     30  H2  SD2 d   1      84.522  35.336 128.918  0.00  0.00     0.041 H 
+ATOM     31  H3  SD2 d   1      83.522  36.672 129.582  0.00  0.00     0.041 H 
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  19  21
+BRANCH  19  32
+ATOM     32  CAZ SD2 d   1      82.766  30.835 130.692  0.00  0.00     0.238 C 
+ATOM     33  OBA SD2 d   1      84.004  30.771 130.762  0.00  0.00    -0.271 OA
+ATOM     34  NBF SD2 d   1      81.982  29.792 130.461  0.00  0.00    -0.368 N 
+ATOM     35  H9  SD2 d   1      82.382  28.885 130.330  0.00  0.00     0.159 HD
+ATOM     36  H10 SD2 d   1      80.990  29.912 130.418  0.00  0.00     0.159 HD
+ENDBRANCH  19  32
+ENDBRANCH  16  19
+ENDBRANCH   1  15
+BRANCH   6  37
+ATOM     37  CAF SD2 d   1      82.636  36.029 136.737  0.00  0.00     0.093 C 
+ATOM     38  H19 SD2 d   1      83.293  35.453 137.405  0.00  0.00     0.088 H 
+BRANCH  37  39
+ATOM     39  NAA SD2 d   1      83.035  37.448 136.780  0.00  0.00    -0.347 N 
+ATOM     40  CAB SD2 d   1      83.406  38.041 137.917  0.00  0.00     0.227 C 
+ATOM     41  OAC SD2 d   1      83.445  37.473 139.009  0.00  0.00    -0.273 OA
+ATOM     42  H20 SD2 d   1      83.027  37.981 135.934  0.00  0.00     0.163 HD
+BRANCH  40  43
+ATOM     43  CAD SD2 d   1      83.781  39.516 137.792  0.00  0.00     0.048 C 
+ATOM     44  H21 SD2 d   1      83.469  39.886 136.804  0.00  0.00     0.062 H 
+ATOM     45  H22 SD2 d   1      84.871  39.622 137.895  0.00  0.00     0.062 H 
+BRANCH  43  46
+ATOM     46  SAE SD2 d   1      82.952  40.507 139.097  0.00  0.00    -0.173 SA
+ATOM     47  H23 SD2 d   1      81.953  40.415 139.003  0.00  0.00     0.102 HD
+ENDBRANCH  43  46
+ENDBRANCH  40  43
+ENDBRANCH  37  39
+BRANCH  37  48
+ATOM     48  CAI SD2 d   1      81.175  35.869 137.210  0.00  0.00    -0.014 C 
+ATOM     49  H24 SD2 d   1      80.500  36.196 136.405  0.00  0.00     0.043 H 
+ATOM     50  H25 SD2 d   1      81.016  36.496 138.099  0.00  0.00     0.043 H 
+BRANCH  48  51
+ATOM     51  CAJ SD2 d   1      80.859  34.411 137.565  0.00  0.00    -0.056 A 
+ATOM     52  CAK SD2 d   1      80.848  34.014 138.911  0.00  0.00    -0.074 A 
+ATOM     53  CAM SD2 d   1      80.673  32.661 139.248  0.00  0.00    -0.051 A 
+ATOM     54  H26 SD2 d   1      80.975  34.754 139.693  0.00  0.00     0.084 H 
+ATOM     55  CAO SD2 d   1      80.503  31.703 138.236  0.00  0.00     0.065 A 
+ATOM     56  H27 SD2 d   1      80.669  32.357 140.289  0.00  0.00     0.087 H 
+ATOM     57  CAN SD2 d   1      80.500  32.104 136.890  0.00  0.00    -0.051 A 
+ATOM     58  CAL SD2 d   1      80.673  33.458 136.556  0.00  0.00    -0.074 A 
+ATOM     59  H29 SD2 d   1      80.364  31.367 136.107  0.00  0.00     0.087 H 
+ATOM     60  H30 SD2 d   1      80.662  33.765 135.516  0.00  0.00     0.084 H 
+BRANCH  55  61
+ATOM     61  OAP SD2 d   1      80.390  30.383 138.558  0.00  0.00    -0.361 OA
+ATOM     62  H28 SD2 d   1      80.281  29.873 137.764  0.00  0.00     0.217 HD
+ENDBRANCH  55  61
+ENDBRANCH  48  51
+ENDBRANCH  37  48
+ENDBRANCH   6  37
+TORSDOF 14

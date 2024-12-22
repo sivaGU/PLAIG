@@ -1,0 +1,145 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O9_9 
+REMARK    2  A    between atoms: C4_4  and  C7_7 
+REMARK    3  A    between atoms: C6_6  and  C27_27 
+REMARK    4  A    between atoms: C7_7  and  C8_8 
+REMARK    5  A    between atoms: C8_8  and  C11_11 
+REMARK    6  A    between atoms: C8_8  and  N10_10 
+REMARK    7  A    between atoms: O9_9  and  C23_23 
+REMARK       I    between atoms: N10_10  and  C12_12 
+REMARK       I    between atoms: C11_11  and  N13_13 
+REMARK    8  A    between atoms: C12_12  and  C21_21 
+REMARK    9  A    between atoms: N13_13  and  C15_15 
+REMARK   10  A    between atoms: C15_15  and  C16_16 
+REMARK   11  A    between atoms: C16_16  and  C17_17 
+REMARK   12  A    between atoms: C17_17  and  C18_18 
+REMARK   13  A    between atoms: C18_18  and  C19_19 
+REMARK   14  A    between atoms: C21_21  and  C30_30 
+REMARK   15  A    between atoms: C21_21  and  N22_22 
+REMARK       I    between atoms: N22_22  and  C37_37 
+REMARK   16  A    between atoms: C23_23  and  C24_24 
+REMARK   17  A    between atoms: C30_30  and  C31_31 
+REMARK   18  A    between atoms: C37_37  and  C38_38 
+REMARK   19  A    between atoms: C38_38  and  C39_39 
+REMARK   20  A    between atoms: C39_39  and  C40_40 
+ROOT
+ATOM      1  C8  INX d   1       9.237  18.473   9.577  0.00  0.00     0.093 C 
+ATOM      2  H6  INX d   1       9.069  18.715  10.637  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C7  INX d   1       9.953  17.149   9.506  0.00  0.00    -0.014 C 
+ATOM      4  H4  INX d   1       9.262  16.373   9.867  0.00  0.00     0.043 H 
+ATOM      5  H5  INX d   1      10.201  16.957   8.452  0.00  0.00     0.043 H 
+BRANCH   3   6
+ATOM      6  C4  INX d   1      11.209  17.044  10.296  0.00  0.00    -0.055 A 
+ATOM      7  C3  INX d   1      12.445  16.640   9.687  0.00  0.00    -0.074 A 
+ATOM      8  C2  INX d   1      13.609  16.524  10.488  0.00  0.00    -0.049 A 
+ATOM      9  H2  INX d   1      12.488  16.426   8.625  0.00  0.00     0.084 H 
+ATOM     10  C1  INX d   1      13.579  16.795  11.896  0.00  0.00     0.086 A 
+ATOM     11  H1  INX d   1      14.543  16.224  10.026  0.00  0.00     0.087 H 
+ATOM     12  C6  INX d   1      12.313  17.215  12.515  0.00  0.00     0.074 A 
+ATOM     13  C5  INX d   1      11.184  17.323  11.689  0.00  0.00    -0.058 A 
+ATOM     14  H3  INX d   1      10.247  17.635  12.136  0.00  0.00     0.086 H 
+BRANCH  10  15
+ATOM     15  O9  INX d   1      14.756  16.644  12.556  0.00  0.00    -0.340 OA
+BRANCH  15  16
+ATOM     16  C23 INX d   1      15.855  17.516  12.615  0.00  0.00     0.105 C 
+ATOM     17  H22 INX d   1      15.609  18.396  13.227  0.00  0.00     0.091 H 
+ATOM     18  H23 INX d   1      16.137  17.840  11.602  0.00  0.00     0.091 H 
+BRANCH  16  19
+ATOM     19  C24 INX d   1      17.012  16.723  13.263  0.00  0.00     0.198 C 
+ATOM     20  O26 INX d   1      16.916  15.639  13.760  0.00  0.00    -0.646 OA
+ATOM     21  O25 INX d   1      18.104  17.434  13.164  0.00  0.00    -0.646 OA
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  10  15
+BRANCH  12  22
+ATOM     22  C27 INX d   1      12.200  17.544  13.970  0.00  0.00     0.212 C 
+ATOM     23  O29 INX d   1      11.427  18.550  14.212  0.00  0.00    -0.644 OA
+ATOM     24  O28 INX d   1      12.805  17.000  14.838  0.00  0.00    -0.644 OA
+ENDBRANCH  12  22
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C11 INX d   1      10.032  19.634   8.938  0.00  0.00     0.240 C 
+ATOM     26  O14 INX d   1      10.794  20.335   9.668  0.00  0.00    -0.271 OA
+ATOM     27  N13 INX d   1       9.958  19.579   7.606  0.00  0.00    -0.359 N 
+ATOM     28  H8  INX d   1       9.265  18.956   7.242  0.00  0.00     0.162 HD
+BRANCH  27  29
+ATOM     29  C15 INX d   1      10.729  20.285   6.617  0.00  0.00    -0.005 C 
+ATOM     30  H9  INX d   1      11.148  21.205   7.051  0.00  0.00     0.064 H 
+ATOM     31  H10 INX d   1      10.095  20.541   5.755  0.00  0.00     0.064 H 
+BRANCH  29  32
+ATOM     32  C16 INX d   1      11.883  19.329   6.169  0.00  0.00    -0.050 C 
+ATOM     33  H11 INX d   1      12.643  19.265   6.961  0.00  0.00     0.035 H 
+ATOM     34  H12 INX d   1      12.346  19.710   5.247  0.00  0.00     0.035 H 
+BRANCH  32  35
+ATOM     35  C17 INX d   1      11.272  17.925   5.911  0.00  0.00    -0.064 C 
+ATOM     36  H13 INX d   1      10.183  17.987   6.051  0.00  0.00     0.033 H 
+ATOM     37  H14 INX d   1      11.696  17.220   6.641  0.00  0.00     0.033 H 
+BRANCH  35  38
+ATOM     38  C18 INX d   1      11.552  17.394   4.502  0.00  0.00    -0.068 C 
+ATOM     39  H15 INX d   1      11.992  18.201   3.898  0.00  0.00     0.032 H 
+ATOM     40  H16 INX d   1      10.603  17.072   4.048  0.00  0.00     0.032 H 
+BRANCH  38  41
+ATOM     41  C19 INX d   1      12.518  16.208   4.523  0.00  0.00    -0.077 C 
+ATOM     42  H17 INX d   1      12.692  15.858   3.495  0.00  0.00     0.027 H 
+ATOM     43  H18 INX d   1      12.084  15.392   5.119  0.00  0.00     0.027 H 
+ATOM     44  H19 INX d   1      13.473  16.521   4.970  0.00  0.00     0.027 H 
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+ENDBRANCH   1  25
+BRANCH   1  45
+ATOM     45  N10 INX d   1       7.920  18.349   8.893  0.00  0.00    -0.346 N 
+ATOM     46  C12 INX d   1       7.062  19.387   9.046  0.00  0.00     0.241 C 
+ATOM     47  O20 INX d   1       7.230  20.330   9.812  0.00  0.00    -0.271 OA
+ATOM     48  H7  INX d   1       7.682  17.544   8.350  0.00  0.00     0.163 HD
+BRANCH  46  49
+ATOM     49  C21 INX d   1       5.693  19.286   8.405  0.00  0.00     0.093 C 
+ATOM     50  H20 INX d   1       5.535  18.307   7.930  0.00  0.00     0.088 H 
+BRANCH  49  51
+ATOM     51  C30 INX d   1       5.645  20.421   7.361  0.00  0.00    -0.014 C 
+ATOM     52  H24 INX d   1       6.497  20.345   6.670  0.00  0.00     0.043 H 
+ATOM     53  H25 INX d   1       5.662  21.402   7.858  0.00  0.00     0.043 H 
+BRANCH  51  54
+ATOM     54  C31 INX d   1       4.331  20.224   6.612  0.00  0.00    -0.056 A 
+ATOM     55  C36 INX d   1       3.156  20.817   7.151  0.00  0.00    -0.077 A 
+ATOM     56  C35 INX d   1       1.927  20.620   6.415  0.00  0.00    -0.082 A 
+ATOM     57  H30 INX d   1       3.181  21.390   8.071  0.00  0.00     0.084 H 
+ATOM     58  C34 INX d   1       1.928  19.849   5.214  0.00  0.00    -0.083 A 
+ATOM     59  H29 INX d   1       1.004  21.058   6.776  0.00  0.00     0.083 H 
+ATOM     60  C33 INX d   1       3.108  19.246   4.704  0.00  0.00    -0.082 A 
+ATOM     61  H28 INX d   1       0.997  19.720   4.673  0.00  0.00     0.083 H 
+ATOM     62  C32 INX d   1       4.346  19.433   5.400  0.00  0.00    -0.077 A 
+ATOM     63  H27 INX d   1       3.072  18.651   3.799  0.00  0.00     0.083 H 
+ATOM     64  H26 INX d   1       5.266  18.995   5.030  0.00  0.00     0.084 H 
+ENDBRANCH  51  54
+ENDBRANCH  49  51
+BRANCH  49  65
+ATOM     65  N22 INX d   1       4.698  19.513   9.483  0.00  0.00    -0.347 N 
+ATOM     66  C37 INX d   1       3.913  18.502   9.900  0.00  0.00     0.218 C 
+ATOM     67  O43 INX d   1       4.001  17.373   9.352  0.00  0.00    -0.274 OA
+ATOM     68  H21 INX d   1       4.611  20.418   9.900  0.00  0.00     0.163 HD
+BRANCH  66  69
+ATOM     69  C38 INX d   1       2.813  18.770  10.925  0.00  0.00     0.018 C 
+ATOM     70  H31 INX d   1       2.116  19.512  10.507  0.00  0.00     0.047 H 
+ATOM     71  H32 INX d   1       3.275  19.174  11.838  0.00  0.00     0.047 H 
+BRANCH  69  72
+ATOM     72  C39 INX d   1       2.015  17.497  11.297  0.00  0.00     0.024 C 
+ATOM     73  H33 INX d   1       1.780  17.538  12.371  0.00  0.00     0.049 H 
+ATOM     74  H34 INX d   1       2.648  16.621  11.093  0.00  0.00     0.049 H 
+BRANCH  72  75
+ATOM     75  C40 INX d   1       0.686  17.329  10.515  0.00  0.00     0.172 C 
+ATOM     76  O42 INX d   1       0.373  16.018  10.289  0.00  0.00    -0.648 OA
+ATOM     77  O41 INX d   1      -0.037  18.225  10.114  0.00  0.00    -0.648 OA
+ENDBRANCH  72  75
+ENDBRANCH  69  72
+ENDBRANCH  66  69
+ENDBRANCH  49  65
+ENDBRANCH  46  49
+ENDBRANCH   1  45
+TORSDOF 20

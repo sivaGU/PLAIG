@@ -1,0 +1,64 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C3'_4  and  O3'_5 
+REMARK    4  A    between atoms: N4'_6  and  C7_10 
+REMARK    5  A    between atoms: C2'_8  and  O2'_9 
+REMARK    6  A    between atoms: C7_10  and  C9_11 
+REMARK    7  A    between atoms: C6_16  and  N6_17 
+ROOT
+ATOM      1  C4' AGV d   1       6.690  19.970  18.675  0.00  0.00     0.151 C 
+ATOM      2  C3' AGV d   1       6.711  18.447  18.484  0.00  0.00     0.091 C 
+ATOM      3  N4' AGV d   1       6.777  20.099  20.180  0.00  0.00    -0.056 N 
+ATOM      4  C1' AGV d   1       5.944  18.983  20.726  0.00  0.00     0.110 C 
+ATOM      5  C2' AGV d   1       6.211  17.857  19.810  0.00  0.00     0.085 C 
+ATOM      6  H4  AGV d   1       7.588  20.412  18.218  0.00  0.00     0.092 H 
+ATOM      7  H5  AGV d   1       6.022  18.166  17.674  0.00  0.00     0.090 H 
+ATOM      8  H7  AGV d   1       7.729  19.862  20.410  0.00  0.00     0.281 HD
+ATOM      9  H8  AGV d   1       4.877  19.250  20.716  0.00  0.00     0.080 H 
+ATOM     10  H9  AGV d   1       6.250  18.733  21.753  0.00  0.00     0.080 H 
+ATOM     11  H10 AGV d   1       5.284  17.294  19.625  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  C7  AGV d   1       6.601  21.497  20.824  0.00  0.00     0.111 C 
+ATOM     13  H12 AGV d   1       6.828  22.261  20.066  0.00  0.00     0.083 H 
+ATOM     14  H13 AGV d   1       7.310  21.587  21.660  0.00  0.00     0.083 H 
+BRANCH  12  15
+ATOM     15  C9  AGV d   1       5.217  21.744  21.347  0.00  0.00     0.014 A 
+ATOM     16  C8  AGV d   1       4.258  22.483  20.696  0.00  0.00    -0.012 A 
+ATOM     17  N7  AGV d   1       3.135  22.493  21.457  0.00  0.00    -0.360 N 
+ATOM     18  H14 AGV d   1       4.379  22.977  19.733  0.00  0.00     0.112 H 
+ATOM     19  C5  AGV d   1       3.329  21.762  22.612  0.00  0.00     0.107 A 
+ATOM     20  H15 AGV d   1       2.261  22.978  21.208  0.00  0.00     0.165 HD
+ATOM     21  C4  AGV d   1       4.642  21.289  22.548  0.00  0.00     0.098 A 
+ATOM     22  C6  AGV d   1       2.499  21.439  23.694  0.00  0.00     0.151 A 
+ATOM     23  N3  AGV d   1       5.141  20.555  23.557  0.00  0.00    -0.239 NA
+ATOM     24  C2  AGV d   1       4.300  20.288  24.574  0.00  0.00     0.089 A 
+ATOM     25  N1  AGV d   1       3.038  20.684  24.679  0.00  0.00    -0.223 NA
+ATOM     26  H18 AGV d   1       4.693  19.690  25.388  0.00  0.00     0.146 H 
+BRANCH  22  27
+ATOM     27  N6  AGV d   1       1.224  21.821  23.780  0.00  0.00    -0.382 N 
+ATOM     28  H16 AGV d   1       0.661  21.554  24.600  0.00  0.00     0.157 HD
+ATOM     29  H17 AGV d   1       0.803  22.383  23.026  0.00  0.00     0.157 HD
+ENDBRANCH  22  27
+ENDBRANCH  12  15
+ENDBRANCH   3  12
+BRANCH   1  30
+ATOM     30  C5' AGV d   1       5.485  20.652  18.045  0.00  0.00     0.046 C 
+ATOM     31  H2  AGV d   1       5.335  20.218  17.046  0.00  0.00     0.077 H 
+ATOM     32  H3  AGV d   1       4.608  20.437  18.674  0.00  0.00     0.077 H 
+BRANCH  30  33
+ATOM     33  O5' AGV d   1       5.581  22.070  17.897  0.00  0.00    -0.399 OA
+ATOM     34  H1  AGV d   1       6.325  22.280  17.345  0.00  0.00     0.209 HD
+ENDBRANCH  30  33
+ENDBRANCH   1  30
+BRANCH   2  35
+ATOM     35  O3' AGV d   1       8.017  17.985  18.143  0.00  0.00    -0.391 OA
+ATOM     36  H6  AGV d   1       7.999  17.042  18.032  0.00  0.00     0.210 HD
+ENDBRANCH   2  35
+BRANCH   5  37
+ATOM     37  O2' AGV d   1       7.171  16.983  20.436  0.00  0.00    -0.391 OA
+ATOM     38  H11 AGV d   1       7.355  16.251  19.859  0.00  0.00     0.210 HD
+ENDBRANCH   5  37
+TORSDOF 7

@@ -1,0 +1,107 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_11  and  C1_3 
+REMARK    2  A    between atoms: C2A_4  and  CP1_5 
+REMARK    3  A    between atoms: C2_11  and  C2A_4 
+REMARK    4  A    between atoms: C2_11  and  O3_12 
+REMARK    5  A    between atoms: O3_12  and  P3_13 
+REMARK    6  A    between atoms: P3_13  and  C4_16 
+REMARK    7  A    between atoms: C4_16  and  C4A_17 
+REMARK    8  A    between atoms: C4_16  and  N5_18 
+REMARK       I    between atoms: N5_18  and  C6_19 
+REMARK    9  A    between atoms: C6_19  and  C7_21 
+REMARK   10  A    between atoms: C7_21  and  C7A_22 
+REMARK   11  A    between atoms: C7_21  and  N8_23 
+REMARK       I    between atoms: N8_23  and  C9_24 
+REMARK   12  A    between atoms: C9_24  and  O10_26 
+REMARK   13  A    between atoms: O10_26  and  C11_27 
+REMARK   14  A    between atoms: C11_27  and  ACP1_28 
+ROOT
+ATOM      1  C4  ZAF d   1      45.316  20.607  38.043  0.00  0.00     0.109 C 
+ATOM      2  H9  ZAF d   1      44.669  20.259  38.861  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  P3  ZAF d   1      44.357  21.613  37.005  0.00  0.00     0.273 P 
+ATOM      4  O3A ZAF d   1      43.195  20.768  36.420  0.00  0.00    -0.645 OA
+ATOM      5  O3B ZAF d   1      43.957  22.825  37.875  0.00  0.00    -0.645 OA
+BRANCH   3   6
+ATOM      6  O3  ZAF d   1      45.362  22.152  35.750  0.00  0.00    -0.294 OA
+BRANCH   6   7
+ATOM      7  C2  ZAF d   1      44.786  22.860  34.625  0.00  0.00     0.136 C 
+ATOM      8  H8  ZAF d   1      43.934  23.481  34.938  0.00  0.00     0.101 H 
+BRANCH   7   9
+ATOM      9  C1  ZAF d   1      44.381  21.762  33.787  0.00  0.00     0.204 C 
+ATOM     10  O1A ZAF d   1      43.353  21.981  33.006  0.00  0.00    -0.646 OA
+ATOM     11  O1B ZAF d   1      44.933  20.708  33.791  0.00  0.00    -0.646 OA
+ENDBRANCH   7   9
+BRANCH   7  12
+ATOM     12  C2A ZAF d   1      45.801  23.720  33.863  0.00  0.00    -0.007 C 
+ATOM     13  H1  ZAF d   1      46.089  24.539  34.538  0.00  0.00     0.044 H 
+ATOM     14  H2  ZAF d   1      46.674  23.079  33.671  0.00  0.00     0.044 H 
+BRANCH  12  15
+ATOM     15  CP1 ZAF d   1      45.453  24.324  32.612  0.00  0.00    -0.055 A 
+ATOM     16  CP2 ZAF d   1      44.930  25.572  32.561  0.00  0.00    -0.077 A 
+ATOM     17  CP3 ZAF d   1      44.594  26.114  31.370  0.00  0.00    -0.082 A 
+ATOM     18  H3  ZAF d   1      44.781  26.136  33.475  0.00  0.00     0.084 H 
+ATOM     19  CP4 ZAF d   1      44.827  25.443  30.222  0.00  0.00    -0.083 A 
+ATOM     20  H4  ZAF d   1      44.134  27.095  31.336  0.00  0.00     0.083 H 
+ATOM     21  CP5 ZAF d   1      45.380  24.210  30.269  0.00  0.00    -0.082 A 
+ATOM     22  H5  ZAF d   1      44.572  25.890  29.268  0.00  0.00     0.083 H 
+ATOM     23  CP6 ZAF d   1      45.673  23.649  31.463  0.00  0.00    -0.077 A 
+ATOM     24  H6  ZAF d   1      45.588  23.673  29.351  0.00  0.00     0.083 H 
+ATOM     25  H7  ZAF d   1      46.088  22.648  31.499  0.00  0.00     0.084 H 
+ENDBRANCH  12  15
+ENDBRANCH   7  12
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  26
+ATOM     26  C4A ZAF d   1      46.585  21.244  38.659  0.00  0.00    -0.046 C 
+ATOM     27  H10 ZAF d   1      47.097  20.504  39.291  0.00  0.00     0.031 H 
+ATOM     28  H11 ZAF d   1      46.300  22.113  39.270  0.00  0.00     0.031 H 
+ATOM     29  H12 ZAF d   1      47.261  21.568  37.854  0.00  0.00     0.031 H 
+ENDBRANCH   1  26
+BRANCH   1  30
+ATOM     30  N5  ZAF d   1      45.796  19.498  37.293  0.00  0.00    -0.343 N 
+ATOM     31  C6  ZAF d   1      45.357  18.241  37.432  0.00  0.00     0.241 C 
+ATOM     32  O6A ZAF d   1      44.341  18.008  38.012  0.00  0.00    -0.271 OA
+ATOM     33  H13 ZAF d   1      46.511  19.669  36.615  0.00  0.00     0.163 HD
+BRANCH  31  34
+ATOM     34  C7  ZAF d   1      46.197  17.237  36.846  0.00  0.00     0.088 C 
+ATOM     35  H14 ZAF d   1      47.150  17.720  36.585  0.00  0.00     0.087 H 
+BRANCH  34  36
+ATOM     36  C7A ZAF d   1      45.530  16.762  35.539  0.00  0.00    -0.049 C 
+ATOM     37  H15 ZAF d   1      46.156  15.989  35.068  0.00  0.00     0.030 H 
+ATOM     38  H16 ZAF d   1      45.421  17.614  34.852  0.00  0.00     0.030 H 
+ATOM     39  H17 ZAF d   1      44.538  16.343  35.765  0.00  0.00     0.030 H 
+ENDBRANCH  34  36
+BRANCH  34  40
+ATOM     40  N8  ZAF d   1      46.515  16.143  37.699  0.00  0.00    -0.324 N 
+ATOM     41  C9  ZAF d   1      47.236  16.168  38.822  0.00  0.00     0.361 C 
+ATOM     42  O9A ZAF d   1      47.366  15.131  39.408  0.00  0.00    -0.238 OA
+ATOM     43  H18 ZAF d   1      46.156  15.251  37.425  0.00  0.00     0.165 HD
+BRANCH  41  44
+ATOM     44  O10 ZAF d   1      47.782  17.310  39.216  0.00  0.00    -0.299 OA
+BRANCH  44  45
+ATOM     45  C11 ZAF d   1      48.962  17.233  39.976  0.00  0.00     0.054 C 
+ATOM     46  H19 ZAF d   1      49.590  16.453  39.522  0.00  0.00     0.082 H 
+ATOM     47  H20 ZAF d   1      48.674  16.926  40.992  0.00  0.00     0.082 H 
+BRANCH  45  48
+ATOM     48  ACP ZAF d   1      49.775  18.409  40.104  0.00  0.00    -0.034 A 
+ATOM     49  ACP ZAF d   1      50.263  18.996  38.992  0.00  0.00    -0.075 A 
+ATOM     50  ACP ZAF d   1      51.030  20.100  39.089  0.00  0.00    -0.082 A 
+ATOM     51  H21 ZAF d   1      50.038  18.579  38.017  0.00  0.00     0.084 H 
+ATOM     52  ACP ZAF d   1      51.345  20.595  40.301  0.00  0.00    -0.083 A 
+ATOM     53  H22 ZAF d   1      51.393  20.589  38.192  0.00  0.00     0.083 H 
+ATOM     54  ACP ZAF d   1      50.860  20.008  41.411  0.00  0.00    -0.082 A 
+ATOM     55  H23 ZAF d   1      51.988  21.464  40.383  0.00  0.00     0.083 H 
+ATOM     56  ACP ZAF d   1      50.088  18.906  41.320  0.00  0.00    -0.075 A 
+ATOM     57  H24 ZAF d   1      51.092  20.424  42.385  0.00  0.00     0.083 H 
+ATOM     58  H25 ZAF d   1      49.721  18.422  42.218  0.00  0.00     0.084 H 
+ENDBRANCH  45  48
+ENDBRANCH  44  45
+ENDBRANCH  41  44
+ENDBRANCH  34  40
+ENDBRANCH  31  34
+ENDBRANCH   1  30
+TORSDOF 14

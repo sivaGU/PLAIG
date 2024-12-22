@@ -1,0 +1,67 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: AP_1  and  AO5_4 
+REMARK    2  A    between atoms: AO5_4  and  AC5_5 
+REMARK    3  A    between atoms: AC5_5  and  AC4_6 
+REMARK    4  A    between atoms: AC3_8  and  AO3_9 
+REMARK    5  A    between atoms: AC2_10  and  AO2_11 
+REMARK    6  A    between atoms: AO2_11  and  AP2_24 
+REMARK    7  A    between atoms: AC1_12  and  AN9_13 
+REMARK    8  A    between atoms: AC6_17  and  AN6_18 
+ROOT
+ATOM      1  AC4 NAP d   1      94.265  71.482  -4.961  0.00  0.00     0.089 C 
+ATOM      2  AO4 NAP d   1      94.638  72.244  -3.772  0.00  0.00    -0.353 OA
+ATOM      3  AC3 NAP d   1      95.556  70.745  -5.314  0.00  0.00     0.092 C 
+ATOM      4  AC2 NAP d   1      96.644  71.739  -4.940  0.00  0.00     0.121 C 
+ATOM      5  AC1 NAP d   1      96.070  72.122  -3.605  0.00  0.00     0.140 C 
+ATOM      6  H3  NAP d   1      94.058  72.204  -5.764  0.00  0.00     0.090 H 
+ATOM      7  H4  NAP d   1      95.651  69.833  -4.706  0.00  0.00     0.091 H 
+ATOM      8  H6  NAP d   1      97.665  71.330  -4.967  0.00  0.00     0.095 H 
+ATOM      9  H7  NAP d   1      96.467  73.114  -3.346  0.00  0.00     0.123 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  AN9 NAP d   1      96.441  71.208  -2.480  0.00  0.00    -0.294 N 
+ATOM     11  AC8 NAP d   1      95.806  70.048  -2.003  0.00  0.00     0.071 A 
+ATOM     12  AN7 NAP d   1      96.331  69.611  -0.885  0.00  0.00    -0.236 NA
+ATOM     13  H8  NAP d   1      94.970  69.566  -2.507  0.00  0.00     0.144 H 
+ATOM     14  AC5 NAP d   1      97.358  70.515  -0.598  0.00  0.00     0.149 A 
+ATOM     15  AC6 NAP d   1      98.285  70.597   0.444  0.00  0.00     0.155 A 
+ATOM     16  AC4 NAP d   1      97.441  71.487  -1.577  0.00  0.00     0.167 A 
+ATOM     17  AN1 NAP d   1      99.190  71.575   0.390  0.00  0.00    -0.222 NA
+ATOM     18  AC2 NAP d   1      99.186  72.455  -0.620  0.00  0.00     0.091 A 
+ATOM     19  AN3 NAP d   1      98.349  72.496  -1.664  0.00  0.00    -0.222 NA
+ATOM     20  H11 NAP d   1      99.950  73.224  -0.588  0.00  0.00     0.146 H 
+BRANCH  15  21
+ATOM     21  AN6 NAP d   1      98.333  69.740   1.429  0.00  0.00    -0.382 N 
+ATOM     22  H9  NAP d   1      99.038  69.848   2.172  0.00  0.00     0.157 HD
+ATOM     23  H10 NAP d   1      97.666  68.956   1.463  0.00  0.00     0.157 HD
+ENDBRANCH  15  21
+ENDBRANCH   5  10
+BRANCH   4  24
+ATOM     24  AO2 NAP d   1      96.502  73.009  -5.577  0.00  0.00    -0.270 OA
+BRANCH  24  25
+ATOM     25  AP2 NAP d   1      97.524  73.623  -6.708  0.00  0.00     0.422 P 
+ATOM     26  AOP NAP d   1      97.019  74.971  -7.102  0.00  0.00    -0.617 OA
+ATOM     27  AOP NAP d   1      97.676  72.531  -7.717  0.00  0.00    -0.617 OA
+ATOM     28  AOP NAP d   1      98.976  73.917  -6.042  0.00  0.00    -0.617 OA
+ENDBRANCH  24  25
+ENDBRANCH   4  24
+BRANCH   1  29
+ATOM     29  AC5 NAP d   1      92.984  70.592  -4.876  0.00  0.00     0.059 C 
+ATOM     30  H1  NAP d   1      92.181  71.238  -4.491  0.00  0.00     0.079 H 
+ATOM     31  H2  NAP d   1      92.748  70.288  -5.906  0.00  0.00     0.079 H 
+BRANCH  29  32
+ATOM     32  AO5 NAP d   1      92.956  69.365  -4.063  0.00  0.00    -0.280 OA
+BRANCH  32  33
+ATOM     33  AP  NAP d   1      92.263  68.007  -4.808  0.00  0.00     0.422 P 
+ATOM     34  AO1 NAP d   1      90.999  67.599  -4.072  0.00  0.00    -0.617 OA
+ATOM     35  AO2 NAP d   1      92.143  68.357  -6.268  0.00  0.00    -0.617 OA
+ATOM     36  O3  NAP d   1      93.458  66.858  -4.707  0.00  0.00    -0.617 OA
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+BRANCH   3  37
+ATOM     37  AO3 NAP d   1      95.606  70.377  -6.687  0.00  0.00    -0.390 OA
+ATOM     38  H5  NAP d   1      95.555  71.158  -7.225  0.00  0.00     0.210 HD
+ENDBRANCH   3  37
+TORSDOF 8

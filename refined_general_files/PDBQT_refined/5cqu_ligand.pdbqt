@@ -1,0 +1,70 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C03_3  and  C04_4 
+REMARK    4  A    between atoms: C04_4  and  C05_5 
+REMARK    5  A    between atoms: C05_5  and  N06_6 
+REMARK    6  A    between atoms: C08_8  and  C09_9 
+REMARK    7  A    between atoms: C09_9  and  C10_10 
+REMARK    8  A    between atoms: C10_10  and  N11_11 
+ROOT
+ATOM      1  N06 JRJ d   1       4.934  -3.742  -9.359  0.00  0.00    -0.261 N 
+ATOM      2  C07 JRJ d   1       5.311  -3.202 -10.571  0.00  0.00     0.025 A 
+ATOM      3  C08 JRJ d   1       4.970  -1.755 -10.508  0.00  0.00     0.077 A 
+ATOM      4  N24 JRJ d   1       4.402  -1.596  -9.203  0.00  0.00    -0.135 NA
+ATOM      5  N25 JRJ d   1       4.398  -2.725  -8.585  0.00  0.00    -0.066 NA
+ATOM      6  H12 JRJ d   1       5.767  -3.730 -11.407  0.00  0.00     0.117 H 
+ENDROOT
+BRANCH   3   7
+ATOM      7  C09 JRJ d   1       5.181  -0.651 -11.617  0.00  0.00    -0.003 C 
+ATOM      8  H13 JRJ d   1       6.190  -0.791 -12.032  0.00  0.00     0.045 H 
+ATOM      9  H14 JRJ d   1       5.122   0.329 -11.120  0.00  0.00     0.045 H 
+BRANCH   7  10
+ATOM     10  C10 JRJ d   1       4.239  -0.626 -12.751  0.00  0.00     0.040 C 
+ATOM     11  H15 JRJ d   1       4.225   0.398 -13.153  0.00  0.00     0.070 H 
+ATOM     12  H16 JRJ d   1       3.242  -0.882 -12.364  0.00  0.00     0.070 H 
+BRANCH  10  13
+ATOM     13  N11 JRJ d   1       4.545  -1.569 -13.899  0.00  0.00    -0.187 N 
+ATOM     14  N12 JRJ d   1       4.633  -1.225 -15.108  0.00  0.00    -0.151 NA
+ATOM     15  C13 JRJ d   1       4.928  -2.369 -15.869  0.00  0.00     0.129 A 
+ATOM     16  C14 JRJ d   1       5.152  -2.632 -17.312  0.00  0.00     0.062 A 
+ATOM     17  C22 JRJ d   1       5.006  -3.451 -14.928  0.00  0.00     0.129 A 
+ATOM     18 BR1  JRJ d   1       5.050  -1.240 -18.523  0.00  0.00    -0.047 Br
+ATOM     19  C16 JRJ d   1       5.429  -3.905 -17.732  0.00  0.00     0.049 A 
+ATOM     20 BR2  JRJ d   1       5.731  -4.302 -19.632  0.00  0.00    -0.048 Br
+ATOM     21  C18 JRJ d   1       5.504  -4.956 -16.813  0.00  0.00     0.049 A 
+ATOM     22 BR3  JRJ d   1       5.897  -6.733 -17.436  0.00  0.00    -0.048 Br
+ATOM     23  C20 JRJ d   1       5.279  -4.698 -15.350  0.00  0.00     0.062 A 
+ATOM     24 BR4  JRJ d   1       5.383  -6.183 -14.046  0.00  0.00    -0.047 Br
+ATOM     25  N23 JRJ d   1       4.758  -2.886 -13.730  0.00  0.00    -0.151 NA
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   3   7
+BRANCH   1  26
+ATOM     26  C05 JRJ d   1       5.065  -5.094  -8.953  0.00  0.00     0.018 C 
+ATOM     27  H10 JRJ d   1       6.103  -5.234  -8.617  0.00  0.00     0.067 H 
+ATOM     28  H11 JRJ d   1       4.381  -5.248  -8.105  0.00  0.00     0.067 H 
+BRANCH  26  29
+ATOM     29  C04 JRJ d   1       4.760  -6.221 -10.010  0.00  0.00    -0.047 C 
+ATOM     30  H8  JRJ d   1       3.700  -6.130 -10.291  0.00  0.00     0.035 H 
+ATOM     31  H9  JRJ d   1       5.391  -6.026 -10.890  0.00  0.00     0.035 H 
+BRANCH  29  32
+ATOM     32  C03 JRJ d   1       4.992  -7.638  -9.601  0.00  0.00    -0.041 C 
+ATOM     33  H6  JRJ d   1       4.815  -8.267 -10.486  0.00  0.00     0.035 H 
+ATOM     34  H7  JRJ d   1       6.045  -7.723  -9.296  0.00  0.00     0.035 H 
+BRANCH  32  35
+ATOM     35  C02 JRJ d   1       4.162  -8.189  -8.490  0.00  0.00     0.080 C 
+ATOM     36  H4  JRJ d   1       3.863  -7.344  -7.853  0.00  0.00     0.075 H 
+ATOM     37  H5  JRJ d   1       3.267  -8.642  -8.942  0.00  0.00     0.075 H 
+BRANCH  35  38
+ATOM     38  N01 JRJ d   1       4.740  -9.145  -7.667  0.00  0.00    -0.079 N 
+ATOM     39  H1  JRJ d   1       4.076  -9.429  -6.964  0.00  0.00     0.274 HD
+ATOM     40  H2  JRJ d   1       5.555  -8.755  -7.220  0.00  0.00     0.274 HD
+ATOM     41  H3  JRJ d   1       5.009  -9.945  -8.218  0.00  0.00     0.274 HD
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 8

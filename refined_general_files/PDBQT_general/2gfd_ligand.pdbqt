@@ -1,0 +1,83 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_1  and  O4_2 
+REMARK    2  A    between atoms: O4_2  and  C6_3 
+REMARK    3  A    between atoms: C6_3  and  C5_5 
+REMARK    4  A    between atoms: C4_6  and  O2_7 
+REMARK    5  A    between atoms: C2_9  and  O1_10 
+REMARK    6  A    between atoms: C8_13  and  C9_14 
+REMARK    7  A    between atoms: C9_14  and  C10_15 
+REMARK    8  A    between atoms: C10_15  and  C11_16 
+REMARK       I    between atoms: C11_16  and  N1_18 
+REMARK    9  A    between atoms: N1_18  and  C12_19 
+REMARK   10  A    between atoms: C15_23  and  O7_24 
+REMARK   11  A    between atoms: O7_24  and  C16_25 
+ROOT
+ATOM      1  C9  RDA d   1    -120.060 -38.996  56.293  0.00  0.00    -0.030 C 
+ATOM      2  H   RDA d   1    -120.001 -40.039  55.983  0.00  0.00     0.041 H 
+ATOM      3  H   RDA d   1    -120.764 -38.865  57.115  0.00  0.00     0.041 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C8  RDA d   1    -120.542 -38.161  55.102  0.00  0.00    -0.014 A 
+ATOM      5  C5  RDA d   1    -120.310 -38.573  53.791  0.00  0.00     0.080 A 
+ATOM      6  C4  RDA d   1    -120.720 -37.803  52.706  0.00  0.00     0.085 A 
+ATOM      7  C3  RDA d   1    -121.376 -36.594  52.910  0.00  0.00    -0.016 A 
+ATOM      8  C2  RDA d   1    -121.618 -36.167  54.211  0.00  0.00     0.090 A 
+ATOM      9  H   RDA d   1    -121.696 -35.989  52.062  0.00  0.00     0.092 H 
+ATOM     10  C1  RDA d   1    -121.209 -36.950  55.287  0.00  0.00     0.074 A 
+ATOM     11 CL   RDA d   1    -121.606 -36.414  56.884  0.00  0.00    -0.081 Cl
+BRANCH   5  12
+ATOM     12  C6  RDA d   1    -119.617 -39.909  53.506  0.00  0.00     0.296 C 
+ATOM     13  O3  RDA d   1    -120.049 -40.655  52.629  0.00  0.00    -0.259 OA
+BRANCH  12  14
+ATOM     14  O4  RDA d   1    -118.514 -40.269  54.217  0.00  0.00    -0.322 OA
+BRANCH  14  15
+ATOM     15  C7  RDA d   1    -118.628 -41.620  54.674  0.00  0.00     0.013 C 
+ATOM     16  H   RDA d   1    -119.506 -41.713  55.313  0.00  0.00     0.067 H 
+ATOM     17  H   RDA d   1    -118.728 -42.285  53.816  0.00  0.00     0.067 H 
+ATOM     18  H   RDA d   1    -117.736 -41.887  55.240  0.00  0.00     0.067 H 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   5  12
+BRANCH   6  19
+ATOM     19  O2  RDA d   1    -120.482 -38.228  51.437  0.00  0.00    -0.360 OA
+ATOM     20  H   RDA d   1    -120.827 -37.584  50.815  0.00  0.00     0.217 HD
+ENDBRANCH   6  19
+BRANCH   8  21
+ATOM     21  O1  RDA d   1    -122.227 -34.970  54.423  0.00  0.00    -0.359 OA
+ATOM     22  H   RDA d   1    -121.695 -34.269  54.040  0.00  0.00     0.217 HD
+ENDBRANCH   8  21
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  C10 RDA d   1    -118.673 -38.549  56.764  0.00  0.00     0.013 C 
+ATOM     24  H   RDA d   1    -118.788 -37.646  57.364  0.00  0.00     0.047 H 
+ATOM     25  H   RDA d   1    -118.052 -38.372  55.886  0.00  0.00     0.047 H 
+BRANCH  23  26
+ATOM     26  C11 RDA d   1    -117.996 -39.618  57.626  0.00  0.00     0.222 C 
+ATOM     27  O5  RDA d   1    -116.892 -40.069  57.323  0.00  0.00    -0.273 OA
+ATOM     28  N1  RDA d   1    -118.694 -40.029  58.681  0.00  0.00    -0.324 N 
+ATOM     29  H   RDA d   1    -119.215 -40.904  58.615  0.00  0.00     0.169 HD
+BRANCH  28  30
+ATOM     30  C12 RDA d   1    -118.738 -39.341  59.820  0.00  0.00     0.089 A 
+ATOM     31  C18 RDA d   1    -119.518 -38.192  59.911  0.00  0.00    -0.002 A 
+ATOM     32  C17 RDA d   1    -119.632 -37.517  61.122  0.00  0.00     0.207 A 
+ATOM     33  H   RDA d   1    -120.041 -37.820  59.030  0.00  0.00     0.093 H 
+ATOM     34  O8  RDA d   1    -120.304 -36.490  61.188  0.00  0.00    -0.285 OA
+ATOM     35  C15 RDA d   1    -118.971 -37.989  62.252  0.00  0.00     0.122 A 
+ATOM     36  C14 RDA d   1    -118.181 -39.132  62.159  0.00  0.00     0.004 A 
+ATOM     37  C13 RDA d   1    -118.064 -39.806  60.946  0.00  0.00     0.201 A 
+ATOM     38  H   RDA d   1    -117.653 -39.500  63.038  0.00  0.00     0.094 H 
+ATOM     39  O6  RDA d   1    -117.361 -40.812  60.874  0.00  0.00    -0.286 OA
+BRANCH  35  40
+ATOM     40  O7  RDA d   1    -119.155 -37.341  63.435  0.00  0.00    -0.352 OA
+BRANCH  40  41
+ATOM     41  C16 RDA d   1    -118.502 -37.782  64.630  0.00  0.00     0.011 C 
+ATOM     42  H   RDA d   1    -118.806 -38.805  64.852  0.00  0.00     0.067 H 
+ATOM     43  H   RDA d   1    -117.422 -37.745  64.487  0.00  0.00     0.067 H 
+ATOM     44  H   RDA d   1    -118.783 -37.130  65.457  0.00  0.00     0.067 H 
+ENDBRANCH  40  41
+ENDBRANCH  35  40
+ENDBRANCH  28  30
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+TORSDOF 11

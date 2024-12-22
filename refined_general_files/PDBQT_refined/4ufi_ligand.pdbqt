@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C4_2 
+REMARK    2  A    between atoms: C3_3  and  O1_4 
+REMARK    3  A    between atoms: C5_7  and  C6_8 
+REMARK    4  A    between atoms: C6_8  and  O_9 
+ROOT
+ATOM      1  C4  AGK d   1      79.074  89.388  20.156  0.00  0.00     0.093 C 
+ATOM      2  C3  AGK d   1      77.883  90.273  20.485  0.00  0.00     0.087 C 
+ATOM      3  C2  AGK d   1      76.699  89.893  19.615  0.00  0.00     0.135 C 
+ATOM      4  N1  AGK d   1      77.160  90.139  18.226  0.00  0.00     0.081 N 
+ATOM      5  C5  AGK d   1      79.417  89.467  18.672  0.00  0.00     0.177 C 
+ATOM      6  N   AGK d   1      78.195  89.232  17.890  0.00  0.00     0.087 N 
+ATOM      7  H2  AGK d   1      79.943  89.718  20.744  0.00  0.00     0.090 H 
+ATOM      8  H3  AGK d   1      78.152  91.321  20.285  0.00  0.00     0.089 H 
+ATOM      9  H5  AGK d   1      75.827  90.520  19.851  0.00  0.00     0.083 H 
+ATOM     10  H6  AGK d   1      76.438  88.834  19.756  0.00  0.00     0.083 H 
+ATOM     11  H7  AGK d   1      77.506  91.083  18.152  0.00  0.00     0.312 HD
+ATOM     12  H8  AGK d   1      76.387  90.014  17.591  0.00  0.00     0.312 HD
+ATOM     13  H9  AGK d   1      79.865  90.443  18.434  0.00  0.00     0.095 H 
+ATOM     14  H13 AGK d   1      78.412  89.335  16.911  0.00  0.00     0.313 HD
+ATOM     15  H14 AGK d   1      77.873  88.293  18.066  0.00  0.00     0.313 HD
+ENDROOT
+BRANCH   5  16
+ATOM     16  C6  AGK d   1      80.338  88.339  18.292  0.00  0.00     0.048 C 
+ATOM     17  H10 AGK d   1      79.738  87.451  18.045  0.00  0.00     0.077 H 
+ATOM     18  H11 AGK d   1      80.999  88.111  19.141  0.00  0.00     0.077 H 
+BRANCH  16  19
+ATOM     19  O   AGK d   1      81.125  88.692  17.175  0.00  0.00    -0.399 OA
+ATOM     20  H12 AGK d   1      81.647  89.457  17.386  0.00  0.00     0.209 HD
+ENDBRANCH  16  19
+ENDBRANCH   5  16
+BRANCH   1  21
+ATOM     21  O2  AGK d   1      78.755  88.051  20.493  0.00  0.00    -0.391 OA
+ATOM     22  H1  AGK d   1      78.560  87.998  21.421  0.00  0.00     0.210 HD
+ENDBRANCH   1  21
+BRANCH   2  23
+ATOM     23  O1  AGK d   1      77.533  90.140  21.860  0.00  0.00    -0.391 OA
+ATOM     24  H4  AGK d   1      78.271  90.398  22.400  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+TORSDOF 4

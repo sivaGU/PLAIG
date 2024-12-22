@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C6_2 
+REMARK    2  A    between atoms: C6_2  and  C5_3 
+REMARK    3  A    between atoms: C4_4  and  O5_5 
+REMARK    4  A    between atoms: C3_6  and  O7_7 
+ROOT
+ATOM      1  C5  DZX d   1      79.048  88.896  18.390  0.00  0.00     0.021 C 
+ATOM      2  C4  DZX d   1      78.798  89.142  19.910  0.00  0.00     0.069 C 
+ATOM      3  C3  DZX d   1      77.450  89.800  20.303  0.00  0.00     0.088 C 
+ATOM      4  C2  DZX d   1      76.305  89.437  19.316  0.00  0.00     0.129 C 
+ATOM      5  C7  DZX d   1      76.110  87.914  19.254  0.00  0.00    -0.034 C 
+ATOM      6  C8  DZX d   1      76.985  87.424  18.097  0.00  0.00    -0.036 C 
+ATOM      7  C1  DZX d   1      77.715  88.690  17.624  0.00  0.00     0.110 C 
+ATOM      8  N1  DZX d   1      76.701  89.739  17.936  0.00  0.00    -0.064 N 
+ATOM      9  H4  DZX d   1      79.506  89.816  17.998  0.00  0.00     0.050 H 
+ATOM     10  H5  DZX d   1      79.605  89.788  20.285  0.00  0.00     0.087 H 
+ATOM     11  H7  DZX d   1      77.564  90.894  20.317  0.00  0.00     0.090 H 
+ATOM     12  H9  DZX d   1      75.379  89.958  19.601  0.00  0.00     0.088 H 
+ATOM     13  H10 DZX d   1      75.054  87.671  19.064  0.00  0.00     0.036 H 
+ATOM     14  H11 DZX d   1      76.429  87.449  20.198  0.00  0.00     0.036 H 
+ATOM     15  H12 DZX d   1      76.367  87.004  17.290  0.00  0.00     0.036 H 
+ATOM     16  H13 DZX d   1      77.702  86.665  18.443  0.00  0.00     0.036 H 
+ATOM     17  H14 DZX d   1      77.924  88.651  16.545  0.00  0.00     0.085 H 
+ATOM     18  H15 DZX d   1      77.105  90.660  17.871  0.00  0.00     0.278 HD
+ATOM     19  H16 DZX d   1      75.912  89.673  17.312  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1  20
+ATOM     20  C6  DZX d   1      80.043  87.745  18.086  0.00  0.00     0.024 C 
+ATOM     21  H2  DZX d   1      80.736  87.613  18.930  0.00  0.00     0.074 H 
+ATOM     22  H3  DZX d   1      79.494  86.808  17.912  0.00  0.00     0.074 H 
+BRANCH  20  23
+ATOM     23  O1  DZX d   1      80.753  88.108  16.932  0.00  0.00    -0.400 OA
+ATOM     24  H1  DZX d   1      81.219  88.921  17.090  0.00  0.00     0.209 HD
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+BRANCH   2  25
+ATOM     25  O5  DZX d   1      78.869  87.894  20.528  0.00  0.00    -0.392 OA
+ATOM     26  H6  DZX d   1      78.722  87.995  21.461  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   3  27
+ATOM     27  O7  DZX d   1      77.170  89.335  21.595  0.00  0.00    -0.391 OA
+ATOM     28  H8  DZX d   1      77.869  89.596  22.183  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+TORSDOF 4

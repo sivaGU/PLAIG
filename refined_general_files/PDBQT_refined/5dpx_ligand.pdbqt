@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S6_1  and  C1_2 
+REMARK    2  A    between atoms: C4_4  and  C7_7 
+REMARK    3  A    between atoms: C8_12  and  C13_13 
+ROOT
+ATOM      1  C7  L3B d   1      15.454  30.111  29.665  0.00  0.00     0.019 A 
+ATOM      2  C12 L3B d   1      15.235  30.371  28.393  0.00  0.00    -0.069 A 
+ATOM      3  C11 L3B d   1      16.393  30.353  27.400  0.00  0.00    -0.082 A 
+ATOM      4  C10 L3B d   1      17.610  30.078  27.818  0.00  0.00    -0.082 A 
+ATOM      5  C9  L3B d   1      17.867  29.782  29.293  0.00  0.00    -0.076 A 
+ATOM      6  C8  L3B d   1      16.870  29.800  30.152  0.00  0.00    -0.048 A 
+ATOM      7  H3  L3B d   1      14.232  30.598  28.051  0.00  0.00     0.085 H 
+ATOM      8  H4  L3B d   1      16.214  30.566  26.352  0.00  0.00     0.083 H 
+ATOM      9  H5  L3B d   1      18.433  30.062  27.112  0.00  0.00     0.083 H 
+ATOM     10  H6  L3B d   1      18.871  29.557  29.633  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C4  L3B d   1      14.284  30.150  30.639  0.00  0.00     0.182 A 
+ATOM     12  N5  L3B d   1      13.914  31.247  31.343  0.00  0.00    -0.201 NA
+ATOM     13  C1  L3B d   1      12.807  30.910  32.121  0.00  0.00     0.182 A 
+ATOM     14  N2  L3B d   1      12.510  29.587  31.887  0.00  0.00    -0.254 N 
+ATOM     15  N3  L3B d   1      13.415  29.108  30.968  0.00  0.00    -0.152 NA
+ATOM     16  H2  L3B d   1      11.746  29.051  32.322  0.00  0.00     0.191 HD
+BRANCH  13  17
+ATOM     17  S6  L3B d   1      11.950  32.051  33.238  0.00  0.00    -0.104 SA
+ATOM     18  H1  L3B d   1      11.185  31.571  33.685  0.00  0.00     0.110 HD
+ENDBRANCH  13  17
+ENDBRANCH   1  11
+BRANCH   6  19
+ATOM     19  C13 L3B d   1      17.156  29.495  31.622  0.00  0.00    -0.050 C 
+ATOM     20  H7  L3B d   1      16.220  29.552  32.197  0.00  0.00     0.033 H 
+ATOM     21  H8  L3B d   1      17.874  30.229  32.016  0.00  0.00     0.033 H 
+ATOM     22  H9  L3B d   1      17.580  28.484  31.711  0.00  0.00     0.033 H 
+ENDBRANCH   6  19
+TORSDOF 3

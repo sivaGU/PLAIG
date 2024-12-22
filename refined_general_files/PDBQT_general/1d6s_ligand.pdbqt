@@ -1,0 +1,81 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  SD_7 
+REMARK    6  A    between atoms: SD_7  and  CE_8 
+REMARK    7  A    between atoms: C2_11  and  C2A_12 
+REMARK    8  A    between atoms: C3_13  and  O3_14 
+REMARK    9  A    between atoms: C4_15  and  C4A_16 
+REMARK   10  A    between atoms: C5_17  and  C5A_19 
+REMARK   11  A    between atoms: C5A_19  and  O4P_20 
+REMARK   12  A    between atoms: O4P_20  and  P_21 
+ROOT
+ATOM      1  N1  PLP d   1      35.880  26.289  15.932  0.00  0.00    -0.262 NA
+ATOM      2  C2  PLP d   1      37.141  26.634  15.511  0.00  0.00     0.064 A 
+ATOM      3  C3  PLP d   1      38.233  26.278  16.251  0.00  0.00     0.102 A 
+ATOM      4  C4  PLP d   1      38.072  25.539  17.420  0.00  0.00     0.026 A 
+ATOM      5  C5  PLP d   1      36.806  25.189  17.834  0.00  0.00    -0.002 A 
+ATOM      6  C6  PLP d   1      35.716  25.573  17.096  0.00  0.00     0.012 A 
+ATOM      7  H14 PLP d   1      34.719  25.311  17.431  0.00  0.00     0.115 H 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C4A PLP d   1      39.304  25.028  18.191  0.00  0.00     0.011 C 
+ATOM      9  N   PLP d   1      40.464  25.037  17.625  0.00  0.00    -0.285 NA
+ATOM     10  H13 PLP d   1      39.197  24.660  19.210  0.00  0.00     0.115 H 
+BRANCH   9  11
+ATOM     11  CA  PLP d   1      41.622  24.290  18.204  0.00  0.00     0.116 C 
+ATOM     12  H1  PLP d   1      41.828  24.698  19.204  0.00  0.00     0.092 H 
+BRANCH  11  13
+ATOM     13  C   PLP d   1      42.905  24.468  17.336  0.00  0.00     0.198 C 
+ATOM     14  O   PLP d   1      43.844  23.644  17.460  0.00  0.00    -0.646 OA
+ATOM     15  OXT PLP d   1      42.999  25.445  16.554  0.00  0.00    -0.646 OA
+ENDBRANCH  11  13
+BRANCH  11  16
+ATOM     16  CB  PLP d   1      41.268  22.799  18.353  0.00  0.00    -0.027 C 
+ATOM     17  H2  PLP d   1      40.316  22.722  18.898  0.00  0.00     0.038 H 
+ATOM     18  H3  PLP d   1      42.064  22.310  18.934  0.00  0.00     0.038 H 
+BRANCH  16  19
+ATOM     19  CG  PLP d   1      41.122  22.063  17.025  0.00  0.00    -0.021 C 
+ATOM     20  H4  PLP d   1      42.111  22.015  16.546  0.00  0.00     0.049 H 
+ATOM     21  H5  PLP d   1      40.433  22.635  16.387  0.00  0.00     0.049 H 
+BRANCH  19  22
+ATOM     22  SD  PLP d   1      40.485  20.382  17.182  0.00  0.00    -0.173 SA
+BRANCH  22  23
+ATOM     23  CE  PLP d   1      40.129  20.004  15.446  0.00  0.00    -0.035 C 
+ATOM     24  H6  PLP d   1      39.722  18.985  15.369  0.00  0.00     0.041 H 
+ATOM     25  H7  PLP d   1      41.056  20.074  14.858  0.00  0.00     0.041 H 
+ATOM     26  H8  PLP d   1      39.393  20.723  15.058  0.00  0.00     0.041 H 
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   8
+BRANCH   3  27
+ATOM     27  O3  PLP d   1      39.474  26.694  15.850  0.00  0.00    -0.358 OA
+ATOM     28  H12 PLP d   1      40.127  26.371  16.459  0.00  0.00     0.217 HD
+ENDBRANCH   3  27
+BRANCH   5  29
+ATOM     29  C5A PLP d   1      36.615  24.265  19.014  0.00  0.00     0.058 C 
+ATOM     30  H15 PLP d   1      37.414  23.509  19.005  0.00  0.00     0.082 H 
+ATOM     31  H16 PLP d   1      35.639  23.767  18.920  0.00  0.00     0.082 H 
+BRANCH  29  32
+ATOM     32  O4P PLP d   1      36.657  24.963  20.256  0.00  0.00    -0.278 OA
+BRANCH  32  33
+ATOM     33  P   PLP d   1      37.093  24.134  21.549  0.00  0.00     0.422 P 
+ATOM     34  O1P PLP d   1      36.851  24.916  22.776  0.00  0.00    -0.617 OA
+ATOM     35  O2P PLP d   1      36.034  22.922  21.521  0.00  0.00    -0.617 OA
+ATOM     36  O3P PLP d   1      38.433  23.563  21.279  0.00  0.00    -0.617 OA
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH   5  29
+BRANCH   2  37
+ATOM     37  C2A PLP d   1      37.336  27.353  14.188  0.00  0.00    -0.033 C 
+ATOM     38  H9  PLP d   1      38.408  27.542  14.028  0.00  0.00     0.035 H 
+ATOM     39  H10 PLP d   1      36.794  28.310  14.207  0.00  0.00     0.035 H 
+ATOM     40  H11 PLP d   1      36.947  26.728  13.370  0.00  0.00     0.035 H 
+ENDBRANCH   2  37
+TORSDOF 12

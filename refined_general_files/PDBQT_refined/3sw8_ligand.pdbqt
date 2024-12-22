@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_8  and  C4_4 
+REMARK       I    between atoms: N12_12  and  C7_7 
+REMARK       I    between atoms: N11_11  and  C8_8 
+REMARK    2  A    between atoms: C10_10  and  C9_9 
+REMARK    3  A    between atoms: C9_9  and  N11_11 
+REMARK    4  A    between atoms: C10_10  and  N12_12 
+REMARK    5  A    between atoms: N12_12  and  O15_15 
+ROOT
+ATOM      1  C8  5LI d   1      26.435  -5.090   5.692  0.00  0.00     0.253 C 
+ATOM      2  N11 5LI d   1      27.667  -5.568   5.351  0.00  0.00    -0.355 N 
+ATOM      3  O14 5LI d   1      25.680  -4.533   4.906  0.00  0.00    -0.268 OA
+ATOM      4  H9  5LI d   1      28.244  -6.009   6.038  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  C9  5LI d   1      28.130  -5.432   3.991  0.00  0.00     0.013 C 
+ATOM      6  H5  5LI d   1      29.098  -5.945   3.892  0.00  0.00     0.066 H 
+ATOM      7  H6  5LI d   1      27.397  -5.900   3.318  0.00  0.00     0.066 H 
+BRANCH   5   8
+ATOM      8  C10 5LI d   1      28.303  -3.979   3.593  0.00  0.00     0.037 C 
+ATOM      9  H7  5LI d   1      27.401  -3.418   3.878  0.00  0.00     0.070 H 
+ATOM     10  H8  5LI d   1      28.443  -3.919   2.504  0.00  0.00     0.070 H 
+BRANCH   8  11
+ATOM     11  N12 5LI d   1      29.447  -3.396   4.248  0.00  0.00    -0.234 N 
+ATOM     12  C7  5LI d   1      29.519  -2.186   4.880  0.00  0.00     0.193 C 
+ATOM     13  O13 5LI d   1      30.511  -1.720   5.418  0.00  0.00    -0.281 OA
+ATOM     14  H4  5LI d   1      28.611  -1.585   4.906  0.00  0.00     0.183 H 
+BRANCH  11  15
+ATOM     15  O15 5LI d   1      30.635  -4.139   4.246  0.00  0.00    -0.285 OA
+ATOM     16  H10 5LI d   1      31.311  -3.654   4.704  0.00  0.00     0.245 HD
+ENDBRANCH  11  15
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+BRANCH   1  17
+ATOM     17  C4  5LI d   1      26.049  -5.338   7.096  0.00  0.00     0.055 A 
+ATOM     18  C2  5LI d   1      25.520  -6.572   7.401  0.00  0.00    -0.066 A 
+ATOM     19  C1  5LI d   1      25.139  -6.863   8.688  0.00  0.00    -0.080 A 
+ATOM     20  H2  5LI d   1      25.404  -7.317   6.622  0.00  0.00     0.085 H 
+ATOM     21  C3  5LI d   1      25.286  -5.925   9.685  0.00  0.00    -0.060 A 
+ATOM     22  H1  5LI d   1      24.721  -7.836   8.920  0.00  0.00     0.083 H 
+ATOM     23  C5  5LI d   1      25.819  -4.697   9.371  0.00  0.00     0.056 A 
+ATOM     24  H3  5LI d   1      24.986  -6.151  10.702  0.00  0.00     0.086 H 
+ATOM     25  C6  5LI d   1      26.205  -4.388   8.083  0.00  0.00     0.071 A 
+ATOM     26 CL16 5LI d   1      25.981  -3.560  10.649  0.00  0.00    -0.083 Cl
+ATOM     27 CL17 5LI d   1      26.871  -2.830   7.719  0.00  0.00    -0.081 Cl
+ENDBRANCH   1  17
+TORSDOF 5

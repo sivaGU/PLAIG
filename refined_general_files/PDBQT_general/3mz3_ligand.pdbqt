@@ -1,0 +1,85 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_2  and  C14_3 
+REMARK       I    between atoms: C13_2  and  N12_12 
+REMARK    2  A    between atoms: C17_6  and  N20_7 
+REMARK    3  A    between atoms: N20_7  and  C22_8 
+REMARK    4  A    between atoms: N20_7  and  C21_9 
+REMARK    5  A    between atoms: N12_12  and  C10_13 
+REMARK    6  A    between atoms: C10_13  and  C9_14 
+REMARK    7  A    between atoms: C9_14  and  C8_15 
+REMARK    8  A    between atoms: C8_15  and  C7_16 
+REMARK    9  A    between atoms: C7_16  and  C6_17 
+REMARK   10  A    between atoms: C6_17  and  C5_18 
+REMARK   11  A    between atoms: C5_18  and  C1_19 
+REMARK       I    between atoms: C1_19  and  N3_21 
+ROOT
+ATOM      1  O23 B3N d   1      19.759  32.587  18.931  0.00  0.00    -0.268 OA
+ATOM      2  C13 B3N d   1      20.838  33.266  18.956  0.00  0.00     0.251 C 
+ATOM      3  N12 B3N d   1      21.572  33.542  17.827  0.00  0.00    -0.357 N 
+ATOM      4  H   B3N d   1      22.422  34.092  17.951  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C10 B3N d   1      21.246  33.117  16.453  0.00  0.00    -0.004 C 
+ATOM      6  H   B3N d   1      21.678  33.857  15.779  0.00  0.00     0.064 H 
+ATOM      7  H   B3N d   1      20.161  33.032  16.394  0.00  0.00     0.064 H 
+BRANCH   5   8
+ATOM      8  C9  B3N d   1      21.822  31.764  16.058  0.00  0.00    -0.050 C 
+ATOM      9  H   B3N d   1      22.892  31.765  16.267  0.00  0.00     0.035 H 
+ATOM     10  H   B3N d   1      21.631  31.599  14.998  0.00  0.00     0.035 H 
+BRANCH   8  11
+ATOM     11  C8  B3N d   1      21.167  30.635  16.856  0.00  0.00    -0.064 C 
+ATOM     12  H   B3N d   1      20.101  30.620  16.632  0.00  0.00     0.033 H 
+ATOM     13  H   B3N d   1      21.338  30.811  17.918  0.00  0.00     0.033 H 
+BRANCH  11  14
+ATOM     14  C7  B3N d   1      21.758  29.303  16.485  0.00  0.00    -0.065 C 
+ATOM     15  H   B3N d   1      22.820  29.348  16.728  0.00  0.00     0.033 H 
+ATOM     16  H   B3N d   1      21.539  29.142  15.430  0.00  0.00     0.033 H 
+BRANCH  14  17
+ATOM     17  C6  B3N d   1      21.192  28.141  17.228  0.00  0.00    -0.057 C 
+ATOM     18  H   B3N d   1      20.121  28.058  17.042  0.00  0.00     0.033 H 
+ATOM     19  H   B3N d   1      21.335  28.272  18.301  0.00  0.00     0.033 H 
+BRANCH  17  20
+ATOM     20  C5  B3N d   1      21.906  26.895  16.751  0.00  0.00     0.013 C 
+ATOM     21  H   B3N d   1      22.834  26.781  17.311  0.00  0.00     0.047 H 
+ATOM     22  H   B3N d   1      22.115  26.991  15.686  0.00  0.00     0.047 H 
+BRANCH  20  23
+ATOM     23  C1  B3N d   1      21.046  25.680  16.974  0.00  0.00     0.269 C 
+ATOM     24  O2  B3N d   1      20.557  25.405  18.064  0.00  0.00    -0.269 OA
+ATOM     25  N3  B3N d   1      20.832  24.908  15.934  0.00  0.00    -0.059 NA
+ATOM     26  O4  B3N d   1      20.127  23.888  16.046  0.00  0.00    -0.058 OA
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  27
+ATOM     27  C14 B3N d   1      21.322  33.780  20.297  0.00  0.00     0.032 A 
+ATOM     28  C15 B3N d   1      22.661  34.324  20.476  0.00  0.00    -0.066 A 
+ATOM     29  C16 B3N d   1      23.051  34.797  21.790  0.00  0.00    -0.056 A 
+ATOM     30  H   B3N d   1      23.357  34.375  19.638  0.00  0.00     0.085 H 
+ATOM     31  C17 B3N d   1      22.109  34.736  22.945  0.00  0.00     0.029 A 
+ATOM     32  H   B3N d   1      24.051  35.205  21.936  0.00  0.00     0.086 H 
+ATOM     33  C18 B3N d   1      20.779  34.185  22.723  0.00  0.00    -0.056 A 
+ATOM     34  C19 B3N d   1      20.394  33.718  21.435  0.00  0.00    -0.066 A 
+ATOM     35  H   B3N d   1      20.072  34.130  23.551  0.00  0.00     0.086 H 
+ATOM     36  H   B3N d   1      19.395  33.308  21.290  0.00  0.00     0.085 H 
+BRANCH  31  37
+ATOM     37  N20 B3N d   1      22.452  35.196  24.267  0.00  0.00    -0.390 N 
+BRANCH  37  38
+ATOM     38  C22 B3N d   1      23.747  35.764  24.605  0.00  0.00    -0.019 C 
+ATOM     39  H   B3N d   1      23.612  36.782  24.969  0.00  0.00     0.056 H 
+ATOM     40  H   B3N d   1      24.216  35.159  25.381  0.00  0.00     0.056 H 
+ATOM     41  H   B3N d   1      24.380  35.775  23.718  0.00  0.00     0.056 H 
+ENDBRANCH  37  38
+BRANCH  37  42
+ATOM     42  C21 B3N d   1      21.487  35.118  25.378  0.00  0.00    -0.019 C 
+ATOM     43  H   B3N d   1      21.899  34.496  26.173  0.00  0.00     0.056 H 
+ATOM     44  H   B3N d   1      21.295  36.120  25.762  0.00  0.00     0.056 H 
+ATOM     45  H   B3N d   1      20.556  34.680  25.019  0.00  0.00     0.056 H 
+ENDBRANCH  37  42
+ENDBRANCH  31  37
+ENDBRANCH   2  27
+TORSDOF 11

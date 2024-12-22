@@ -1,0 +1,52 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_9  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_11 
+REMARK    3  A    between atoms: C4_4  and  O4_12 
+REMARK    4  A    between atoms: C5_5  and  C6_6 
+REMARK    5  A    between atoms: C6_6  and  O6_14 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK       I    between atoms: C7_7  and  N1_9 
+ROOT
+ATOM      1  C1  GDL d   1       9.570  17.071  31.952  0.00  0.00     0.285 C 
+ATOM      2  C2  GDL d   1       9.729  15.731  32.373  0.00  0.00     0.123 C 
+ATOM      3  C3  GDL d   1       8.986  14.692  31.479  0.00  0.00     0.091 C 
+ATOM      4  C4  GDL d   1       7.765  15.295  30.831  0.00  0.00     0.090 C 
+ATOM      5  C5  GDL d   1       8.322  16.379  29.927  0.00  0.00     0.095 C 
+ATOM      6  O1  GDL d   1       9.987  17.970  32.677  0.00  0.00    -0.263 OA
+ATOM      7  O5  GDL d   1       9.025  17.355  30.720  0.00  0.00    -0.309 OA
+ATOM      8  H1  GDL d   1       9.329  15.649  33.394  0.00  0.00     0.092 H 
+ATOM      9  H2  GDL d   1       9.674  14.404  30.670  0.00  0.00     0.091 H 
+ATOM     10  H3  GDL d   1       7.079  15.714  31.582  0.00  0.00     0.091 H 
+ATOM     11  H4  GDL d   1       9.033  15.909  29.232  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   2  12
+ATOM     12  N1  GDL d   1      11.175  15.386  32.392  0.00  0.00    -0.345 N 
+ATOM     13  C7  GDL d   1      12.027  15.671  31.373  0.00  0.00     0.214 C 
+ATOM     14  O7  GDL d   1      11.726  16.273  30.338  0.00  0.00    -0.274 OA
+ATOM     15  H10 GDL d   1      11.540  14.919  33.198  0.00  0.00     0.163 HD
+BRANCH  13  16
+ATOM     16  C8  GDL d   1      13.457  15.186  31.578  0.00  0.00    -0.003 C 
+ATOM     17  H7  GDL d   1      14.067  15.462  30.705  0.00  0.00     0.040 H 
+ATOM     18  H8  GDL d   1      13.460  14.092  31.696  0.00  0.00     0.040 H 
+ATOM     19  H9  GDL d   1      13.877  15.653  32.481  0.00  0.00     0.040 H 
+ENDBRANCH  13  16
+ENDBRANCH   2  12
+BRANCH   3  20
+ATOM     20  O3  GDL d   1       8.674  13.494  32.222  0.00  0.00    -0.390 OA
+ATOM     21  H11 GDL d   1       8.301  12.847  31.635  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   4  22
+ATOM     22  O4  GDL d   1       7.083  14.293  30.034  0.00  0.00    -0.390 OA
+ATOM     23  H12 GDL d   1       6.370  14.701  29.556  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+BRANCH   5  24
+ATOM     24  C6  GDL d   1       7.244  17.090  29.096  0.00  0.00     0.044 C 
+ATOM     25  H5  GDL d   1       6.646  16.335  28.564  0.00  0.00     0.078 H 
+ATOM     26  H6  GDL d   1       7.733  17.751  28.366  0.00  0.00     0.078 H 
+BRANCH  24  27
+ATOM     27  O6  GDL d   1       6.373  17.876  29.930  0.00  0.00    -0.398 OA
+ATOM     28  H13 GDL d   1       6.883  18.533  30.389  0.00  0.00     0.209 HD
+ENDBRANCH  24  27
+ENDBRANCH   5  24
+TORSDOF 6

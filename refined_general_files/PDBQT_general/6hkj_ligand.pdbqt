@@ -1,0 +1,92 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAZ_2  and  CAY_4 
+REMARK    2  A    between atoms: CAY_4  and  CAX_5 
+REMARK    3  A    between atoms: CAX_5  and  CAT_6 
+REMARK    4  A    between atoms: CAT_6  and  CAU_7 
+REMARK    5  A    between atoms: CAT_6  and  NAS_10 
+REMARK       I    between atoms: NAS_10  and  CAA_11 
+REMARK       I    between atoms: CAA_11  and  N_13 
+REMARK    6  A    between atoms: N_13  and  CA_14 
+REMARK    7  A    between atoms: CA_14  and  C_15 
+REMARK    8  A    between atoms: CA_14  and  CB_18 
+REMARK    9  A    between atoms: CB_18  and  CAL_19 
+REMARK   10  A    between atoms: CAL_19  and  CAK_20 
+REMARK   11  A    between atoms: CAK_20  and  CAB_21 
+REMARK       I    between atoms: CAB_21  and  NAJ_23 
+REMARK   12  A    between atoms: NAJ_23  and  CAD_24 
+ROOT
+ATOM      1  CA  G8W d   1      20.117  45.431  44.610  0.00  0.00     0.098 C 
+ATOM      2  H8  G8W d   1      20.198  44.343  44.753  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   G8W d   1      18.798  45.772  44.027  0.00  0.00    -0.329 N 
+ATOM      4  CAA G8W d   1      18.131  44.976  43.138  0.00  0.00     0.317 C 
+ATOM      5  NAS G8W d   1      16.902  45.425  42.751  0.00  0.00    -0.329 N 
+ATOM      6  OBD G8W d   1      18.575  43.889  42.736  0.00  0.00    -0.247 OA
+ATOM      7  H6  G8W d   1      16.477  46.158  43.282  0.00  0.00     0.165 HD
+ATOM      8  H7  G8W d   1      18.371  46.634  44.300  0.00  0.00     0.165 HD
+BRANCH   5   9
+ATOM      9  CAT G8W d   1      16.182  44.898  41.615  0.00  0.00     0.098 C 
+ATOM     10  H5  G8W d   1      15.929  43.842  41.792  0.00  0.00     0.089 H 
+BRANCH   9  11
+ATOM     11  CAX G8W d   1      14.859  45.688  41.268  0.00  0.00    -0.028 C 
+ATOM     12  H3  G8W d   1      14.442  45.293  40.330  0.00  0.00     0.037 H 
+ATOM     13  H4  G8W d   1      14.133  45.545  42.082  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAY G8W d   1      15.130  47.181  41.101  0.00  0.00     0.018 C 
+ATOM     15  H1  G8W d   1      15.321  47.619  42.092  0.00  0.00     0.049 H 
+ATOM     16  H2  G8W d   1      16.018  47.311  40.465  0.00  0.00     0.049 H 
+BRANCH  14  17
+ATOM     17  CAZ G8W d   1      13.944  47.918  40.453  0.00  0.00     0.172 C 
+ATOM     18  OBA G8W d   1      13.870  49.166  40.715  0.00  0.00    -0.648 OA
+ATOM     19  OBB G8W d   1      13.170  47.285  39.660  0.00  0.00    -0.648 OA
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+BRANCH   9  20
+ATOM     20  CAU G8W d   1      17.190  45.037  40.425  0.00  0.00     0.196 C 
+ATOM     21  OAW G8W d   1      17.079  44.243  39.436  0.00  0.00    -0.646 OA
+ATOM     22  OAV G8W d   1      18.050  45.968  40.538  0.00  0.00    -0.646 OA
+ENDBRANCH   9  20
+ENDBRANCH   5   9
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  C   G8W d   1      20.313  46.132  45.957  0.00  0.00     0.196 C 
+ATOM     24  OXT G8W d   1      19.864  47.313  46.070  0.00  0.00    -0.646 OA
+ATOM     25  O   G8W d   1      20.997  45.512  46.818  0.00  0.00    -0.646 OA
+ENDBRANCH   1  23
+BRANCH   1  26
+ATOM     26  CB  G8W d   1      21.183  45.920  43.572  0.00  0.00    -0.036 C 
+ATOM     27  H9  G8W d   1      21.217  47.019  43.545  0.00  0.00     0.036 H 
+ATOM     28  H10 G8W d   1      20.947  45.536  42.569  0.00  0.00     0.036 H 
+BRANCH  26  29
+ATOM     29  CAL G8W d   1      22.499  45.365  44.051  0.00  0.00    -0.055 C 
+ATOM     30  H11 G8W d   1      22.338  44.337  44.407  0.00  0.00     0.033 H 
+ATOM     31  H12 G8W d   1      22.862  45.988  44.882  0.00  0.00     0.033 H 
+BRANCH  29  32
+ATOM     32  CAK G8W d   1      23.587  45.340  42.936  0.00  0.00     0.010 C 
+ATOM     33  H13 G8W d   1      23.148  44.910  42.023  0.00  0.00     0.047 H 
+ATOM     34  H14 G8W d   1      24.423  44.710  43.272  0.00  0.00     0.047 H 
+BRANCH  32  35
+ATOM     35  CAB G8W d   1      24.125  46.742  42.612  0.00  0.00     0.222 C 
+ATOM     36  OBC G8W d   1      24.246  47.513  43.539  0.00  0.00    -0.273 OA
+ATOM     37  NAJ G8W d   1      24.612  46.982  41.365  0.00  0.00    -0.326 N 
+ATOM     38  H15 G8W d   1      24.638  46.232  40.704  0.00  0.00     0.169 HD
+BRANCH  37  39
+ATOM     39  CAD G8W d   1      25.064  48.204  40.986  0.00  0.00     0.052 A 
+ATOM     40  CAC G8W d   1      25.722  48.332  39.755  0.00  0.00    -0.051 A 
+ATOM     41  CAE G8W d   1      26.159  49.583  39.311  0.00  0.00    -0.025 A 
+ATOM     42  H16 G8W d   1      25.893  47.454  39.143  0.00  0.00     0.087 H 
+ATOM     43  CAG G8W d   1      25.911  50.742  40.087  0.00  0.00     0.209 A 
+ATOM     44  H17 G8W d   1      26.690  49.667  38.370  0.00  0.00     0.090 H 
+ATOM     45  FAI G8W d   1      26.338  52.081  39.632  0.00  0.00    -0.184 F 
+ATOM     46  NAH G8W d   1      25.254  50.652  41.272  0.00  0.00    -0.231 NA
+ATOM     47  CAF G8W d   1      24.813  49.387  41.726  0.00  0.00     0.031 A 
+ATOM     48  H18 G8W d   1      24.270  49.321  42.662  0.00  0.00     0.118 H 
+ENDBRANCH  37  39
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 12

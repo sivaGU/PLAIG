@@ -1,0 +1,81 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAR_26  and  CAA_1 
+REMARK    2  A    between atoms: CAN_10  and  CAO_11 
+REMARK    3  A    between atoms: CAX_18  and  CAN_10 
+REMARK    4  A    between atoms: CAO_11  and  CAY_19 
+REMARK    5  A    between atoms: CAP_12  and  CAT_14 
+REMARK    6  A    between atoms: NBA_22  and  CAP_12 
+REMARK    7  A    between atoms: CAZ_20  and  CAS_13 
+REMARK    8  A    between atoms: CAS_13  and  OAR_26 
+REMARK    9  A    between atoms: CAU_15  and  OAC_24 
+REMARK   10  A    between atoms: CAV_16  and  OAD_25 
+ROOT
+ATOM      1  CAN 9QY d   1     -14.481 -27.167 -44.407  0.00  0.00    -0.006 C 
+ATOM      2  H12 9QY d   1     -14.089 -28.180 -44.233  0.00  0.00     0.045 H 
+ATOM      3  H13 9QY d   1     -15.579 -27.182 -44.337  0.00  0.00     0.045 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAO 9QY d   1     -14.069 -26.698 -45.804  0.00  0.00    -0.032 C 
+ATOM      5  H14 9QY d   1     -12.999 -26.908 -45.952  0.00  0.00     0.040 H 
+ATOM      6  H15 9QY d   1     -14.245 -25.615 -45.885  0.00  0.00     0.040 H 
+BRANCH   4   7
+ATOM      7  CAY 9QY d   1     -14.803 -27.354 -46.794  0.00  0.00    -0.014 A 
+ATOM      8  CAW 9QY d   1     -15.985 -26.766 -47.241  0.00  0.00     0.074 A 
+ATOM      9  CAU 9QY d   1     -16.740 -27.382 -48.232  0.00  0.00     0.090 A 
+ATOM     10 CL   9QY d   1     -16.531 -25.267 -46.560  0.00  0.00    -0.081 Cl
+ATOM     11  CAM 9QY d   1     -16.339 -28.584 -48.800  0.00  0.00    -0.016 A 
+ATOM     12  CAV 9QY d   1     -15.156 -29.157 -48.353  0.00  0.00     0.085 A 
+ATOM     13  H11 9QY d   1     -16.933 -29.062 -49.571  0.00  0.00     0.092 H 
+ATOM     14  CAZ 9QY d   1     -14.382 -28.564 -47.361  0.00  0.00     0.080 A 
+BRANCH   9  15
+ATOM     15  OAC 9QY d   1     -17.880 -26.742 -48.608  0.00  0.00    -0.359 OA
+ATOM     16  H18 9QY d   1     -18.316 -27.245 -49.285  0.00  0.00     0.217 HD
+ENDBRANCH   9  15
+BRANCH  12  17
+ATOM     17  OAD 9QY d   1     -14.690 -30.332 -48.855  0.00  0.00    -0.360 OA
+ATOM     18  H19 9QY d   1     -15.288 -30.650 -49.521  0.00  0.00     0.217 HD
+ENDBRANCH  12  17
+BRANCH  14  19
+ATOM     19  CAS 9QY d   1     -13.212 -29.218 -46.978  0.00  0.00     0.296 C 
+ATOM     20  OAB 9QY d   1     -12.973 -29.489 -45.802  0.00  0.00    -0.259 OA
+BRANCH  19  21
+ATOM     21  OAR 9QY d   1     -12.405 -29.590 -48.011  0.00  0.00    -0.322 OA
+BRANCH  21  22
+ATOM     22  CAA 9QY d   1     -11.260 -30.298 -47.515  0.00  0.00     0.013 C 
+ATOM     23  H1  9QY d   1     -10.617 -30.592 -48.358  0.00  0.00     0.067 H 
+ATOM     24  H2  9QY d   1     -11.591 -31.197 -46.975  0.00  0.00     0.067 H 
+ATOM     25  H3  9QY d   1     -10.694 -29.647 -46.832  0.00  0.00     0.067 H 
+ENDBRANCH  21  22
+ENDBRANCH  19  21
+ENDBRANCH  14  19
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  CAX 9QY d   1     -13.918 -26.216 -43.347  0.00  0.00     0.106 A 
+ATOM     27  NAQ 9QY d   1     -14.631 -25.288 -42.717  0.00  0.00    -0.246 NA
+ATOM     28  CAI 9QY d   1     -13.800 -24.672 -41.878  0.00  0.00     0.019 A 
+ATOM     29  CAL 9QY d   1     -12.592 -25.228 -42.000  0.00  0.00    -0.002 A 
+ATOM     30  H7  9QY d   1     -14.061 -23.855 -41.207  0.00  0.00     0.117 H 
+ATOM     31  NBA 9QY d   1     -12.657 -26.188 -42.924  0.00  0.00    -0.340 N 
+ATOM     32  H10 9QY d   1     -11.703 -24.945 -41.439  0.00  0.00     0.113 H 
+BRANCH  31  33
+ATOM     33  CAP 9QY d   1     -11.546 -27.072 -43.368  0.00  0.00     0.024 C 
+ATOM     34  H16 9QY d   1     -10.931 -27.326 -42.492  0.00  0.00     0.072 H 
+ATOM     35  H17 9QY d   1     -11.979 -27.991 -43.791  0.00  0.00     0.072 H 
+BRANCH  33  36
+ATOM     36  CAT 9QY d   1     -10.723 -26.485 -44.333  0.00  0.00    -0.040 A 
+ATOM     37  CAJ 9QY d   1     -10.528 -25.109 -44.391  0.00  0.00    -0.075 A 
+ATOM     38  CAG 9QY d   1      -9.694 -24.561 -45.359  0.00  0.00    -0.082 A 
+ATOM     39  H8  9QY d   1     -11.028 -24.462 -43.679  0.00  0.00     0.084 H 
+ATOM     40  CAF 9QY d   1      -9.043 -25.384 -46.271  0.00  0.00    -0.083 A 
+ATOM     41  H5  9QY d   1      -9.551 -23.487 -45.403  0.00  0.00     0.083 H 
+ATOM     42  CAH 9QY d   1      -9.231 -26.760 -46.213  0.00  0.00    -0.082 A 
+ATOM     43  H4  9QY d   1      -8.392 -24.955 -47.024  0.00  0.00     0.083 H 
+ATOM     44  CAK 9QY d   1     -10.066 -27.306 -45.246  0.00  0.00    -0.075 A 
+ATOM     45  H6  9QY d   1      -8.726 -27.407 -46.922  0.00  0.00     0.083 H 
+ATOM     46  H9  9QY d   1     -10.207 -28.380 -45.202  0.00  0.00     0.084 H 
+ENDBRANCH  33  36
+ENDBRANCH  31  33
+ENDBRANCH   1  26
+TORSDOF 10

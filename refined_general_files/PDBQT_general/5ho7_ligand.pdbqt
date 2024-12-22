@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C4_7 
+REMARK    2  A    between atoms: C2_2  and  N6_4 
+REMARK    3  A    between atoms: C3_3  and  S8_10 
+REMARK       I    between atoms: N5_8  and  C11_5 
+REMARK       I    between atoms: C11_5  and  N13_13 
+REMARK    4  A    between atoms: S8_10  and  C12_6 
+REMARK       I    between atoms: C4_7  and  N9_11 
+ROOT
+ATOM      1  C1  63L d   1      41.006  14.935   2.995  0.00  0.00     0.114 A 
+ATOM      2  C2  63L d   1      42.103  14.391   3.637  0.00  0.00     0.146 A 
+ATOM      3  C3  63L d   1      41.331  16.359   2.827  0.00  0.00     0.133 A 
+ATOM      4  C11 63L d   1      44.219  15.343   4.392  0.00  0.00     0.342 C 
+ATOM      5  N5  63L d   1      43.006  15.403   3.820  0.00  0.00    -0.165 N 
+ATOM      6  N7  63L d   1      42.504  16.583   3.310  0.00  0.00    -0.154 NA
+ATOM      7  N13 63L d   1      44.977  16.463   4.479  0.00  0.00    -0.350 N 
+ATOM      8  O14 63L d   1      44.630  14.290   4.838  0.00  0.00    -0.245 OA
+ATOM      9  H8  63L d   1      45.881  16.423   4.904  0.00  0.00     0.160 HD
+ATOM     10  H9  63L d   1      44.632  17.329   4.118  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  C4  63L d   1      39.804  14.193   2.584  0.00  0.00     0.256 C 
+ATOM     12  N9  63L d   1      38.823  14.804   1.884  0.00  0.00    -0.366 N 
+ATOM     13  H6  63L d   1      38.010  14.290   1.610  0.00  0.00     0.159 HD
+ATOM     14  H7  63L d   1      38.910  15.770   1.640  0.00  0.00     0.159 HD
+ATOM     15  O10 63L d   1      39.697  13.007   2.863  0.00  0.00    -0.268 OA
+ENDBRANCH   1  11
+BRANCH   2  16
+ATOM     16  N6  63L d   1      42.220  13.074   4.014  0.00  0.00    -0.383 N 
+ATOM     17  H1  63L d   1      41.458  12.411   3.813  0.00  0.00     0.157 HD
+ATOM     18  H2  63L d   1      43.070  12.750   4.498  0.00  0.00     0.157 HD
+ENDBRANCH   2  16
+BRANCH   3  19
+ATOM     19  S8  63L d   1      40.437  17.628   2.043  0.00  0.00    -0.112 SA
+BRANCH  19  20
+ATOM     20  C12 63L d   1      40.174  18.797   3.411  0.00  0.00    -0.029 C 
+ATOM     21  H3  63L d   1      39.608  19.667   3.046  0.00  0.00     0.042 H 
+ATOM     22  H4  63L d   1      41.147  19.130   3.801  0.00  0.00     0.042 H 
+ATOM     23  H5  63L d   1      39.608  18.301   4.213  0.00  0.00     0.042 H 
+ENDBRANCH  19  20
+ENDBRANCH   3  19
+TORSDOF 4

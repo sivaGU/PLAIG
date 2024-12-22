@@ -1,0 +1,65 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N8_8  and  C9_9 
+REMARK    2  A    between atoms: N10_11  and  C11_12 
+REMARK    3  A    between atoms: C11_12  and  C12_13 
+REMARK    4  A    between atoms: C12_13  and  C13_14 
+REMARK    5  A    between atoms: C17_18  and  O17_20 
+REMARK    6  A    between atoms: O17_20  and  CA_21 
+REMARK    7  A    between atoms: CA_21  and  CB_22 
+ROOT
+ATOM      1  C12 FTC d   1       1.356 -37.153  24.538  0.00  0.00    -0.007 C 
+ATOM      2  H8  FTC d   1       2.140 -37.859  24.848  0.00  0.00     0.044 H 
+ATOM      3  H9  FTC d   1       0.368 -37.586  24.752  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C11 FTC d   1       1.479 -36.894  23.005  0.00  0.00    -0.000 C 
+ATOM      5  H6  FTC d   1       2.152 -36.041  22.834  0.00  0.00     0.064 H 
+ATOM      6  H7  FTC d   1       1.891 -37.790  22.517  0.00  0.00     0.064 H 
+BRANCH   4   7
+ATOM      7  N10 FTC d   1       0.153 -36.592  22.431  0.00  0.00    -0.367 N 
+ATOM      8  C9  FTC d   1       0.014 -36.040  21.201  0.00  0.00     0.173 C 
+ATOM      9  S9  FTC d   1       1.097 -36.331  19.870  0.00  0.00    -0.041 SA
+ATOM     10  H5  FTC d   1      -0.666 -36.801  22.965  0.00  0.00     0.161 HD
+BRANCH   8  11
+ATOM     11  N8  FTC d   1      -1.053 -35.264  21.004  0.00  0.00    -0.318 N 
+ATOM     12  C1  FTC d   1      -1.907 -34.689  21.888  0.00  0.00     0.129 A 
+ATOM     13  N2  FTC d   1      -1.884 -34.892  23.268  0.00  0.00    -0.242 NA
+ATOM     14  C6  FTC d   1      -2.935 -33.914  21.330  0.00  0.00    -0.037 A 
+ATOM     15  C3  FTC d   1      -2.837 -34.351  24.127  0.00  0.00     0.025 A 
+ATOM     16  C4  FTC d   1      -3.860 -33.589  23.559  0.00  0.00     0.051 A 
+ATOM     17  H1  FTC d   1      -2.787 -34.515  25.197  0.00  0.00     0.117 H 
+ATOM     18  C5  FTC d   1      -3.888 -33.371  22.178  0.00  0.00    -0.057 A 
+ATOM     19 CL7  FTC d   1      -5.092 -32.942  24.536  0.00  0.00    -0.083 Cl
+ATOM     20  H2  FTC d   1      -4.678 -32.759  21.758  0.00  0.00     0.086 H 
+ATOM     21  H3  FTC d   1      -2.983 -33.744  20.261  0.00  0.00     0.089 H 
+ATOM     22  H4  FTC d   1      -1.258 -35.074  20.044  0.00  0.00     0.170 HD
+ENDBRANCH   8  11
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  C13 FTC d   1       1.514 -35.851  25.328  0.00  0.00     0.077 A 
+ATOM     24  N14 FTC d   1       2.656 -35.092  25.145  0.00  0.00    -0.262 NA
+ATOM     25  C15 FTC d   1       2.850 -33.864  25.743  0.00  0.00     0.005 A 
+ATOM     26  C16 FTC d   1       1.856 -33.350  26.578  0.00  0.00    -0.031 A 
+ATOM     27  H10 FTC d   1       3.762 -33.306  25.567  0.00  0.00     0.114 H 
+ATOM     28  C17 FTC d   1       0.683 -34.088  26.794  0.00  0.00     0.110 A 
+ATOM     29  H11 FTC d   1       1.990 -32.386  27.056  0.00  0.00     0.090 H 
+ATOM     30  C18 FTC d   1       0.494 -35.345  26.165  0.00  0.00     0.174 A 
+ATOM     31  F18 FTC d   1      -0.642 -36.032  26.363  0.00  0.00    -0.201 F 
+BRANCH  28  32
+ATOM     32  O17 FTC d   1      -0.255 -33.569  27.667  0.00  0.00    -0.348 OA
+BRANCH  32  33
+ATOM     33  CA  FTC d   1      -1.088 -32.588  27.067  0.00  0.00     0.023 C 
+ATOM     34  H12 FTC d   1      -1.578 -33.016  26.180  0.00  0.00     0.074 H 
+ATOM     35  H13 FTC d   1      -0.478 -31.723  26.767  0.00  0.00     0.074 H 
+BRANCH  33  36
+ATOM     36  CB  FTC d   1      -2.139 -32.144  28.058  0.00  0.00    -0.056 C 
+ATOM     37  H14 FTC d   1      -2.784 -31.384  27.593  0.00  0.00     0.030 H 
+ATOM     38  H15 FTC d   1      -1.649 -31.716  28.945  0.00  0.00     0.030 H 
+ATOM     39  H16 FTC d   1      -2.749 -33.009  28.358  0.00  0.00     0.030 H 
+ENDBRANCH  33  36
+ENDBRANCH  32  33
+ENDBRANCH  28  32
+ENDBRANCH   1  23
+TORSDOF 7

@@ -1,0 +1,91 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N10_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CA_2  and  C9_5 
+REMARK    4  A    between atoms: CB_3  and  OG_4 
+REMARK       I    between atoms: C9_5  and  N8_7 
+REMARK    5  A    between atoms: N8_7  and  S1_8 
+REMARK    6  A    between atoms: S1_8  and  O5'_11 
+REMARK    7  A    between atoms: O5'_11  and  C5'_12 
+REMARK    8  A    between atoms: C5'_12  and  C4'_13 
+REMARK    9  A    between atoms: C3'_15  and  O3'_16 
+REMARK   10  A    between atoms: C2'_17  and  O2'_18 
+REMARK   11  A    between atoms: C1'_19  and  N9_20 
+REMARK   12  A    between atoms: C6_24  and  N6_25 
+ROOT
+ATOM      1  C4' SSA d   1      19.609 -17.341 -51.712  0.00  0.00     0.090 C 
+ATOM      2  O4' SSA d   1      19.332 -18.609 -51.067  0.00  0.00    -0.353 OA
+ATOM      3  C3' SSA d   1      18.892 -16.314 -50.850  0.00  0.00     0.091 C 
+ATOM      4  C2' SSA d   1      17.663 -17.068 -50.367  0.00  0.00     0.105 C 
+ATOM      5  C1' SSA d   1      18.217 -18.486 -50.215  0.00  0.00     0.139 C 
+ATOM      6  H11 SSA d   1      19.173 -17.326 -52.722  0.00  0.00     0.090 H 
+ATOM      7  H12 SSA d   1      19.522 -16.046 -49.989  0.00  0.00     0.091 H 
+ATOM      8  H14 SSA d   1      17.272 -16.663 -49.422  0.00  0.00     0.093 H 
+ATOM      9  H16 SSA d   1      17.442 -19.213 -50.500  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5' SSA d   1      21.099 -17.157 -51.847  0.00  0.00     0.066 C 
+ATOM     11  H9  SSA d   1      21.534 -18.068 -52.285  0.00  0.00     0.080 H 
+ATOM     12  H10 SSA d   1      21.295 -16.302 -52.510  0.00  0.00     0.080 H 
+BRANCH  10  13
+ATOM     13  O5' SSA d   1      21.708 -16.914 -50.587  0.00  0.00    -0.257 OA
+BRANCH  13  14
+ATOM     14  S1  SSA d   1      22.861 -15.981 -50.486  0.00  0.00     0.364 S 
+ATOM     15  O1S SSA d   1      22.426 -14.606 -50.325  0.00  0.00    -0.175 OA
+ATOM     16  O2S SSA d   1      23.585 -16.198 -49.263  0.00  0.00    -0.175 OA
+BRANCH  14  17
+ATOM     17  N8  SSA d   1      23.830 -16.149 -51.805  0.00  0.00    -0.230 N 
+ATOM     18  C9  SSA d   1      24.782 -17.242 -51.822  0.00  0.00     0.265 C 
+ATOM     19  O9  SSA d   1      24.838 -18.045 -50.849  0.00  0.00    -0.270 OA
+ATOM     20  H8  SSA d   1      23.764 -15.514 -52.575  0.00  0.00     0.183 HD
+BRANCH  18  21
+ATOM     21  CA  SSA d   1      25.719 -17.449 -53.016  0.00  0.00     0.196 C 
+ATOM     22  H4  SSA d   1      26.578 -16.768 -52.928  0.00  0.00     0.102 H 
+BRANCH  21  23
+ATOM     23  N10 SSA d   1      26.185 -18.806 -53.059  0.00  0.00    -0.064 N 
+ATOM     24  H1  SSA d   1      26.799 -18.925 -53.849  0.00  0.00     0.275 HD
+ATOM     25  H2  SSA d   1      25.398 -19.429 -53.148  0.00  0.00     0.275 HD
+ATOM     26  H3  SSA d   1      26.685 -19.017 -52.210  0.00  0.00     0.275 HD
+ENDBRANCH  21  23
+BRANCH  21  27
+ATOM     27  CB  SSA d   1      24.982 -17.166 -54.265  0.00  0.00     0.051 C 
+ATOM     28  H5  SSA d   1      25.001 -16.078 -54.424  0.00  0.00     0.077 H 
+ATOM     29  H6  SSA d   1      23.943 -17.497 -54.122  0.00  0.00     0.077 H 
+BRANCH  27  30
+ATOM     30  OG  SSA d   1      25.466 -17.776 -55.434  0.00  0.00    -0.398 OA
+ATOM     31  H7  SSA d   1      25.445 -18.720 -55.329  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH  21  27
+ENDBRANCH  18  21
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   3  32
+ATOM     32  O3' SSA d   1      18.588 -15.121 -51.549  0.00  0.00    -0.390 OA
+ATOM     33  H13 SSA d   1      18.025 -15.322 -52.287  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   5  34
+ATOM     34  N9  SSA d   1      18.657 -18.760 -48.835  0.00  0.00    -0.294 N 
+ATOM     35  C8  SSA d   1      19.686 -18.226 -48.106  0.00  0.00     0.071 A 
+ATOM     36  N7  SSA d   1      19.707 -18.780 -46.873  0.00  0.00    -0.236 NA
+ATOM     37  H17 SSA d   1      20.382 -17.470 -48.465  0.00  0.00     0.144 H 
+ATOM     38  C5  SSA d   1      18.666 -19.698 -46.811  0.00  0.00     0.149 A 
+ATOM     39  C6  SSA d   1      18.181 -20.594 -45.781  0.00  0.00     0.155 A 
+ATOM     40  C4  SSA d   1      18.023 -19.681 -48.029  0.00  0.00     0.167 A 
+ATOM     41  N1  SSA d   1      17.124 -21.379 -46.031  0.00  0.00    -0.222 NA
+ATOM     42  C2  SSA d   1      16.510 -21.330 -47.257  0.00  0.00     0.091 A 
+ATOM     43  N3  SSA d   1      16.936 -20.504 -48.245  0.00  0.00    -0.222 NA
+ATOM     44  H20 SSA d   1      15.657 -21.972 -47.442  0.00  0.00     0.146 H 
+BRANCH  39  45
+ATOM     45  N6  SSA d   1      18.825 -20.648 -44.490  0.00  0.00    -0.382 N 
+ATOM     46  H18 SSA d   1      18.472 -21.289 -43.765  0.00  0.00     0.157 HD
+ATOM     47  H19 SSA d   1      19.637 -20.046 -44.294  0.00  0.00     0.157 HD
+ENDBRANCH  39  45
+ENDBRANCH   5  34
+BRANCH   4  48
+ATOM     48  O2' SSA d   1      16.654 -17.080 -51.366  0.00  0.00    -0.388 OA
+ATOM     49  H15 SSA d   1      16.404 -16.187 -51.573  0.00  0.00     0.210 HD
+ENDBRANCH   4  48
+TORSDOF 12

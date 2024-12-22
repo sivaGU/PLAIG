@@ -1,0 +1,45 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_3  and  O8_4 
+REMARK    2  A    between atoms: C3_5  and  O7_6 
+REMARK    3  A    between atoms: C2_8  and  C9_9 
+REMARK    4  A    between atoms: C9_9  and  O11_10 
+REMARK    5  A    between atoms: C9_9  and  C13_11 
+REMARK    6  A    between atoms: C13_11  and  O14_12 
+ROOT
+ATOM      1  O6  ISD d   1     -15.462 -47.803   2.637  0.00  0.00    -0.262 OA
+ATOM      2  C5  ISD d   1     -15.851 -46.826   3.228  0.00  0.00     0.291 C 
+ATOM      3  C4  ISD d   1     -15.792 -46.772   4.489  0.00  0.00     0.146 C 
+ATOM      4  C3  ISD d   1     -15.349 -45.514   4.770  0.00  0.00     0.097 C 
+ATOM      5  O1  ISD d   1     -16.298 -45.525   2.746  0.00  0.00    -0.308 OA
+ATOM      6  C2  ISD d   1     -15.898 -44.531   3.734  0.00  0.00     0.102 C 
+ATOM      7  H1  ISD d   1     -14.767 -47.167   4.548  0.00  0.00     0.103 H 
+ATOM      8  H3  ISD d   1     -16.184 -45.333   5.462  0.00  0.00     0.091 H 
+ATOM      9  H5  ISD d   1     -16.786 -44.035   4.153  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   6  10
+ATOM     10  C9  ISD d   1     -14.992 -43.364   3.158  0.00  0.00     0.084 C 
+ATOM     11  H6  ISD d   1     -14.600 -43.745   2.204  0.00  0.00     0.090 H 
+BRANCH  10  12
+ATOM     12  O11 ISD d   1     -13.860 -42.986   3.967  0.00  0.00    -0.391 OA
+ATOM     13  H7  ISD d   1     -13.385 -42.284   3.537  0.00  0.00     0.210 HD
+ENDBRANCH  10  12
+BRANCH  10  14
+ATOM     14  C13 ISD d   1     -15.724 -42.041   2.860  0.00  0.00     0.043 C 
+ATOM     15  H8  ISD d   1     -15.083 -41.214   3.200  0.00  0.00     0.078 H 
+ATOM     16  H9  ISD d   1     -16.663 -42.036   3.433  0.00  0.00     0.078 H 
+BRANCH  14  17
+ATOM     17  O14 ISD d   1     -16.047 -41.813   1.473  0.00  0.00    -0.398 OA
+ATOM     18  H10 ISD d   1     -16.494 -40.979   1.386  0.00  0.00     0.209 HD
+ENDBRANCH  14  17
+ENDBRANCH  10  14
+ENDBRANCH   6  10
+BRANCH   4  19
+ATOM     19  O7  ISD d   1     -14.485 -45.157   5.744  0.00  0.00    -0.390 OA
+ATOM     20  H4  ISD d   1     -14.350 -44.217   5.717  0.00  0.00     0.210 HD
+ENDBRANCH   4  19
+BRANCH   3  21
+ATOM     21  O8  ISD d   1     -16.203 -47.832   5.200  0.00  0.00    -0.383 OA
+ATOM     22  H2  ISD d   1     -15.681 -48.590   4.967  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+TORSDOF 6

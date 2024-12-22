@@ -1,0 +1,74 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P2_2  and  C13_5 
+REMARK    2  A    between atoms: C13_5  and  P1_6 
+REMARK    3  A    between atoms: C13_5  and  N1_10 
+REMARK    4  A    between atoms: N1_10  and  C12_11 
+REMARK    5  A    between atoms: C10_16  and  C9_17 
+REMARK    6  A    between atoms: C4_22  and  O1_23 
+REMARK    7  A    between atoms: O1_23  and  C2_24 
+REMARK    8  A    between atoms: C2_24  and  C1_25 
+REMARK    9  A    between atoms: C2_24  and  C3_26 
+ROOT
+ATOM      1  C12 YS4 d   1      14.793  31.301  -7.618  0.00  0.00     0.125 A 
+ATOM      2  C11 YS4 d   1      15.545  30.239  -7.072  0.00  0.00    -0.028 A 
+ATOM      3  N2  YS4 d   1      13.836  31.077  -8.570  0.00  0.00    -0.244 NA
+ATOM      4  C14 YS4 d   1      13.564  29.789  -9.039  0.00  0.00     0.005 A 
+ATOM      5  C15 YS4 d   1      14.321  28.747  -8.499  0.00  0.00    -0.055 A 
+ATOM      6  C10 YS4 d   1      15.340  28.938  -7.520  0.00  0.00    -0.021 A 
+ATOM      7  H3  YS4 d   1      16.283  30.437  -6.303  0.00  0.00     0.090 H 
+ATOM      8  H4  YS4 d   1      12.801  29.607  -9.787  0.00  0.00     0.114 H 
+ATOM      9  H5  YS4 d   1      14.123  27.738  -8.843  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  10
+ATOM     10  C9  YS4 d   1      16.130  27.856  -6.987  0.00  0.00    -0.026 A 
+ATOM     11  C6  YS4 d   1      16.187  26.634  -7.679  0.00  0.00    -0.070 A 
+ATOM     12  C5  YS4 d   1      16.926  25.504  -7.206  0.00  0.00    -0.050 A 
+ATOM     13  H6  YS4 d   1      15.646  26.544  -8.614  0.00  0.00     0.085 H 
+ATOM     14  C4  YS4 d   1      17.661  25.599  -5.997  0.00  0.00     0.069 A 
+ATOM     15  H7  YS4 d   1      16.924  24.578  -7.770  0.00  0.00     0.087 H 
+ATOM     16  C7  YS4 d   1      17.617  26.834  -5.288  0.00  0.00    -0.050 A 
+ATOM     17  C8  YS4 d   1      16.862  27.935  -5.764  0.00  0.00    -0.070 A 
+ATOM     18  H9  YS4 d   1      18.174  26.934  -4.363  0.00  0.00     0.087 H 
+ATOM     19  H8  YS4 d   1      16.840  28.854  -5.189  0.00  0.00     0.085 H 
+BRANCH  14  20
+ATOM     20  O1  YS4 d   1      18.330  24.443  -5.573  0.00  0.00    -0.347 OA
+BRANCH  20  21
+ATOM     21  C2  YS4 d   1      19.190  24.486  -4.420  0.00  0.00     0.038 C 
+ATOM     22  H10 YS4 d   1      18.755  25.119  -3.633  0.00  0.00     0.082 H 
+BRANCH  21  23
+ATOM     23  C1  YS4 d   1      20.541  24.986  -4.840  0.00  0.00    -0.052 C 
+ATOM     24  H11 YS4 d   1      21.207  25.023  -3.965  0.00  0.00     0.030 H 
+ATOM     25  H12 YS4 d   1      20.442  25.994  -5.268  0.00  0.00     0.030 H 
+ATOM     26  H13 YS4 d   1      20.965  24.307  -5.595  0.00  0.00     0.030 H 
+ENDBRANCH  21  23
+BRANCH  21  27
+ATOM     27  C3  YS4 d   1      19.414  23.065  -3.929  0.00  0.00    -0.052 C 
+ATOM     28  H14 YS4 d   1      20.070  23.081  -3.047  0.00  0.00     0.030 H 
+ATOM     29  H15 YS4 d   1      19.886  22.472  -4.726  0.00  0.00     0.030 H 
+ATOM     30  H16 YS4 d   1      18.448  22.614  -3.659  0.00  0.00     0.030 H 
+ENDBRANCH  21  27
+ENDBRANCH  20  21
+ENDBRANCH  14  20
+ENDBRANCH   6  10
+BRANCH   1  31
+ATOM     31  N1  YS4 d   1      15.061  32.550  -7.193  0.00  0.00    -0.347 N 
+ATOM     32  H2  YS4 d   1      15.420  32.706  -6.240  0.00  0.00     0.162 HD
+BRANCH  31  33
+ATOM     33  C13 YS4 d   1      14.834  33.722  -8.117  0.00  0.00     0.228 C 
+ATOM     34  H1  YS4 d   1      13.819  33.657  -8.535  0.00  0.00     0.117 H 
+BRANCH  33  35
+ATOM     35  P2  YS4 d   1      14.998  35.252  -7.158  0.00  0.00     0.297 P 
+ATOM     36  O5  YS4 d   1      14.770  36.456  -8.054  0.00  0.00    -0.638 OA
+ATOM     37  O6  YS4 d   1      16.428  35.273  -6.661  0.00  0.00    -0.638 OA
+ATOM     38  O7  YS4 d   1      14.032  35.199  -5.972  0.00  0.00    -0.638 OA
+ENDBRANCH  33  35
+BRANCH  33  39
+ATOM     39  P1  YS4 d   1      16.060  33.748  -9.516  0.00  0.00     0.297 P 
+ATOM     40  O3  YS4 d   1      17.549  33.558  -8.919  0.00  0.00    -0.638 OA
+ATOM     41  O2  YS4 d   1      15.928  32.454 -10.419  0.00  0.00    -0.638 OA
+ATOM     42  O4  YS4 d   1      15.961  35.018 -10.353  0.00  0.00    -0.638 OA
+ENDBRANCH  33  39
+ENDBRANCH  31  33
+ENDBRANCH   1  31
+TORSDOF 9

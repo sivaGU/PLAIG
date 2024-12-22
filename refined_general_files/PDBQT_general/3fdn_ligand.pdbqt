@@ -1,0 +1,89 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBC_1  and  CBB_2 
+REMARK       I    between atoms: CBB_2  and  NBA_4 
+REMARK    2  A    between atoms: NBA_4  and  CAY_5 
+REMARK    3  A    between atoms: CAS_10  and  NAR_11 
+REMARK       I    between atoms: NAR_11  and  CAG_12 
+REMARK    4  A    between atoms: CAG_12  and  CAD_14 
+REMARK    5  A    between atoms: CAE_15  and  CAF_16 
+REMARK    6  A    between atoms: CAC_19  and  NAH_20 
+REMARK    7  A    between atoms: NAI_21  and  CAJ_22 
+REMARK    8  A    between atoms: CAJ_22  and  CAL_23 
+REMARK    9  A    between atoms: CAO_26  and  OAT_27 
+REMARK   10  A    between atoms: OAT_27  and  CAU_28 
+ROOT
+ATOM      1  CAD MMH d   1      -4.412 -30.609   7.681  0.00  0.00     0.107 A 
+ATOM      2  CAE MMH d   1      -4.595 -30.146   8.974  0.00  0.00     0.043 A 
+ATOM      3  NAA MMH d   1      -3.982 -30.997   9.811  0.00  0.00    -0.280 N 
+ATOM      4  NAB MMH d   1      -3.475 -31.940   9.177  0.00  0.00    -0.152 NA
+ATOM      5  CAC MMH d   1      -3.698 -31.806   7.863  0.00  0.00     0.208 A 
+ATOM      6  H13 MMH d   1      -3.937 -30.885  10.834  0.00  0.00     0.189 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAG MMH d   1      -5.002 -29.986   6.396  0.00  0.00     0.262 C 
+ATOM      8  NAR MMH d   1      -4.618 -30.522   5.228  0.00  0.00    -0.323 N 
+ATOM      9  H9  MMH d   1      -3.922 -31.239   5.263  0.00  0.00     0.169 HD
+ATOM     10  OAQ MMH d   1      -5.831 -29.088   6.480  0.00  0.00    -0.267 OA
+BRANCH   8  11
+ATOM     11  CAS MMH d   1      -5.088 -30.180   4.009  0.00  0.00     0.037 A 
+ATOM     12  CAZ MMH d   1      -4.858 -31.082   2.950  0.00  0.00    -0.031 A 
+ATOM     13  CAY MMH d   1      -5.354 -30.853   1.663  0.00  0.00     0.036 A 
+ATOM     14  H5  MMH d   1      -4.280 -31.979   3.139  0.00  0.00     0.090 H 
+ATOM     15  CAX MMH d   1      -6.093 -29.684   1.450  0.00  0.00    -0.057 A 
+ATOM     16  CAW MMH d   1      -6.351 -28.772   2.480  0.00  0.00    -0.079 A 
+ATOM     17  H6  MMH d   1      -6.477 -29.479   0.457  0.00  0.00     0.086 H 
+ATOM     18  CAV MMH d   1      -5.858 -29.026   3.779  0.00  0.00    -0.057 A 
+ATOM     19  H7  MMH d   1      -6.926 -27.875   2.282  0.00  0.00     0.083 H 
+ATOM     20  H8  MMH d   1      -6.071 -28.339   4.590  0.00  0.00     0.086 H 
+BRANCH  13  21
+ATOM     21  NBA MMH d   1      -5.094 -31.690   0.617  0.00  0.00    -0.327 N 
+ATOM     22  CBB MMH d   1      -4.786 -33.007   0.647  0.00  0.00     0.218 C 
+ATOM     23  OBD MMH d   1      -4.723 -33.730   1.642  0.00  0.00    -0.274 OA
+ATOM     24  H4  MMH d   1      -5.137 -31.275  -0.292  0.00  0.00     0.169 HD
+BRANCH  22  25
+ATOM     25  CBC MMH d   1      -4.510 -33.637  -0.724  0.00  0.00    -0.003 C 
+ATOM     26  H1  MMH d   1      -4.604 -32.869  -1.506  0.00  0.00     0.040 H 
+ATOM     27  H2  MMH d   1      -5.237 -34.441  -0.911  0.00  0.00     0.040 H 
+ATOM     28  H3  MMH d   1      -3.491 -34.052  -0.738  0.00  0.00     0.040 H 
+ENDBRANCH  22  25
+ENDBRANCH  13  21
+ENDBRANCH   8  11
+ENDBRANCH   1   7
+BRANCH   2  29
+ATOM     29  CAF MMH d   1      -5.341 -28.849   9.453  0.00  0.00    -0.035 C 
+ATOM     30  H10 MMH d   1      -5.298 -28.785  10.550  0.00  0.00     0.035 H 
+ATOM     31  H11 MMH d   1      -6.391 -28.889   9.129  0.00  0.00     0.035 H 
+ATOM     32  H12 MMH d   1      -4.856 -27.964   9.015  0.00  0.00     0.035 H 
+ENDBRANCH   2  29
+BRANCH   5  33
+ATOM     33  NAH MMH d   1      -3.216 -32.733   7.001  0.00  0.00    -0.132 NA
+ATOM     34  NAI MMH d   1      -2.838 -32.550   5.837  0.00  0.00    -0.186 NA
+BRANCH  34  35
+ATOM     35  CAJ MMH d   1      -2.338 -33.602   5.197  0.00  0.00     0.058 C 
+ATOM     36  H14 MMH d   1      -3.115 -34.377   5.261  0.00  0.00     0.077 H 
+ATOM     37  H15 MMH d   1      -1.462 -33.911   5.786  0.00  0.00     0.077 H 
+BRANCH  35  38
+ATOM     38  CAL MMH d   1      -1.911 -33.616   3.866  0.00  0.00    -0.037 A 
+ATOM     39  CAK MMH d   1      -1.935 -32.476   3.052  0.00  0.00    -0.072 A 
+ATOM     40  CAP MMH d   1      -1.517 -32.552   1.715  0.00  0.00    -0.050 A 
+ATOM     41  H16 MMH d   1      -2.278 -31.531   3.457  0.00  0.00     0.084 H 
+ATOM     42  CAO MMH d   1      -1.094 -33.780   1.191  0.00  0.00     0.068 A 
+ATOM     43  H17 MMH d   1      -1.521 -31.666   1.091  0.00  0.00     0.087 H 
+ATOM     44  CAN MMH d   1      -1.080 -34.917   1.993  0.00  0.00    -0.050 A 
+ATOM     45  CAM MMH d   1      -1.490 -34.836   3.323  0.00  0.00    -0.072 A 
+ATOM     46  H21 MMH d   1      -0.750 -35.865   1.584  0.00  0.00     0.087 H 
+ATOM     47  H22 MMH d   1      -1.483 -35.726   3.942  0.00  0.00     0.084 H 
+BRANCH  42  48
+ATOM     48  OAT MMH d   1      -0.694 -33.847  -0.113  0.00  0.00    -0.356 OA
+BRANCH  48  49
+ATOM     49  CAU MMH d   1      -0.199 -35.168  -0.489  0.00  0.00     0.010 C 
+ATOM     50  H18 MMH d   1       0.106 -35.158  -1.546  0.00  0.00     0.066 H 
+ATOM     51  H19 MMH d   1      -0.996 -35.913  -0.345  0.00  0.00     0.066 H 
+ATOM     52  H20 MMH d   1       0.665 -35.428   0.140  0.00  0.00     0.066 H 
+ENDBRANCH  48  49
+ENDBRANCH  42  48
+ENDBRANCH  35  38
+ENDBRANCH  34  35
+ENDBRANCH   5  33
+TORSDOF 10

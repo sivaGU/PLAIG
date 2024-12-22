@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  CA1_1 
+REMARK       I    between atoms: N2_15  and  C5_2 
+REMARK    2  A    between atoms: CA2_7  and  P_5 
+REMARK    3  A    between atoms: CA2_7  and  CB2_8 
+REMARK    4  A    between atoms: CA2_7  and  N2_15 
+REMARK    5  A    between atoms: CB2_8  and  CG3_9 
+ROOT
+ATOM      1  CA2 VPF d   1      -4.578  41.650  37.341  0.00  0.00     0.088 C 
+ATOM      2  H5  VPF d   1      -4.963  41.331  36.361  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  P   VPF d   1      -5.981  41.698  38.488  0.00  0.00     0.120 P 
+ATOM      4  O2P VPF d   1      -5.598  40.912  39.740  0.00  0.00    -0.668 OA
+ATOM      5  O1P VPF d   1      -6.794  42.950  38.596  0.00  0.00    -0.668 OA
+ATOM      6  H4  VPF d   1      -6.649  41.087  38.045  0.00  0.00     0.132 HD
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  CB2 VPF d   1      -4.003  43.010  37.192  0.00  0.00    -0.013 C 
+ATOM      8  H6  VPF d   1      -2.976  43.091  37.578  0.00  0.00     0.043 H 
+ATOM      9  H7  VPF d   1      -4.627  43.796  37.642  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  CG3 VPF d   1      -4.070  42.989  35.700  0.00  0.00    -0.056 A 
+ATOM     11  CD2 VPF d   1      -4.412  41.796  35.100  0.00  0.00    -0.077 A 
+ATOM     12  CE2 VPF d   1      -4.492  41.720  33.724  0.00  0.00    -0.082 A 
+ATOM     13  H8  VPF d   1      -4.617  40.921  35.706  0.00  0.00     0.084 H 
+ATOM     14  CZ  VPF d   1      -4.228  42.857  32.985  0.00  0.00    -0.083 A 
+ATOM     15  H9  VPF d   1      -4.756  40.789  33.234  0.00  0.00     0.083 H 
+ATOM     16  CE1 VPF d   1      -3.893  44.048  33.585  0.00  0.00    -0.082 A 
+ATOM     17  H10 VPF d   1      -4.287  42.809  31.904  0.00  0.00     0.083 H 
+ATOM     18  CD1 VPF d   1      -3.803  44.120  34.960  0.00  0.00    -0.077 A 
+ATOM     19  H11 VPF d   1      -3.700  44.927  32.980  0.00  0.00     0.083 H 
+ATOM     20  H12 VPF d   1      -3.528  45.048  35.448  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   1  21
+ATOM     21  N2  VPF d   1      -3.525  40.695  37.735  0.00  0.00    -0.347 N 
+ATOM     22  C5  VPF d   1      -2.215  40.970  37.962  0.00  0.00     0.214 C 
+ATOM     23  O4  VPF d   1      -1.690  42.093  37.865  0.00  0.00    -0.274 OA
+ATOM     24  H13 VPF d   1      -3.807  39.742  37.847  0.00  0.00     0.163 HD
+BRANCH  22  25
+ATOM     25  CA1 VPF d   1      -1.369  39.784  38.340  0.00  0.00    -0.003 C 
+ATOM     26  H1  VPF d   1      -1.998  38.882  38.377  0.00  0.00     0.040 H 
+ATOM     27  H2  VPF d   1      -0.916  39.956  39.328  0.00  0.00     0.040 H 
+ATOM     28  H3  VPF d   1      -0.575  39.647  37.592  0.00  0.00     0.040 H 
+ENDBRANCH  22  25
+ENDBRANCH   1  21
+TORSDOF 5

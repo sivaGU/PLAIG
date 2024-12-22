@@ -1,0 +1,74 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: N5_12  and  C5_5 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  C8_8 
+REMARK    6  A    between atoms: C7_7  and  O7_17 
+REMARK    7  A    between atoms: C8_8  and  C9_9 
+REMARK    8  A    between atoms: C8_8  and  O8_18 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+REMARK       I    between atoms: C10_10  and  N5_12 
+ROOT
+ATOM      1  C2  SIA d   1       3.889 -88.016 -16.671  0.00  0.00     0.125 C 
+ATOM      2  C3  SIA d   1       2.935 -88.589 -17.699  0.00  0.00    -0.005 C 
+ATOM      3  C4  SIA d   1       3.294 -88.091 -19.081  0.00  0.00     0.060 C 
+ATOM      4  C5  SIA d   1       4.717 -88.488 -19.396  0.00  0.00     0.064 C 
+ATOM      5  C6  SIA d   1       5.594 -87.990 -18.274  0.00  0.00     0.088 C 
+ATOM      6  O6  SIA d   1       5.154 -88.519 -17.043  0.00  0.00    -0.365 OA
+ATOM      7  H   SIA d   1       3.634 -88.436 -15.687  0.00  0.00     0.100 H 
+ATOM      8  H   SIA d   1       1.909 -88.277 -17.456  0.00  0.00     0.041 H 
+ATOM      9  H   SIA d   1       2.998 -89.687 -17.681  0.00  0.00     0.041 H 
+ATOM     10  H   SIA d   1       3.207 -86.995 -19.108  0.00  0.00     0.086 H 
+ATOM     11  H   SIA d   1       4.796 -89.582 -19.484  0.00  0.00     0.080 H 
+ATOM     12  H   SIA d   1       5.538 -86.892 -18.238  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  C7  SIA d   1       7.029 -88.408 -18.498  0.00  0.00     0.089 C 
+ATOM     14  H   SIA d   1       7.377 -88.043 -19.476  0.00  0.00     0.091 H 
+BRANCH  13  15
+ATOM     15  C8  SIA d   1       7.880 -87.817 -17.398  0.00  0.00     0.083 C 
+ATOM     16  H   SIA d   1       7.690 -88.359 -16.460  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  C9  SIA d   1       9.344 -87.936 -17.755  0.00  0.00     0.043 C 
+ATOM     18  H   SIA d   1       9.597 -87.190 -18.523  0.00  0.00     0.078 H 
+ATOM     19  H   SIA d   1       9.547 -88.945 -18.143  0.00  0.00     0.078 H 
+BRANCH  17  20
+ATOM     20  O9  SIA d   1      10.124 -87.708 -16.601  0.00  0.00    -0.398 OA
+ATOM     21  H   SIA d   1      11.045 -87.782 -16.823  0.00  0.00     0.209 HD
+ENDBRANCH  17  20
+ENDBRANCH  15  17
+BRANCH  15  22
+ATOM     22  O8  SIA d   1       7.547 -86.460 -17.231  0.00  0.00    -0.391 OA
+ATOM     23  H   SIA d   1       6.627 -86.386 -17.007  0.00  0.00     0.210 HD
+ENDBRANCH  15  22
+ENDBRANCH  13  15
+BRANCH  13  24
+ATOM     24  O7  SIA d   1       7.114 -89.811 -18.458  0.00  0.00    -0.390 OA
+ATOM     25  H   SIA d   1       6.803 -90.122 -17.616  0.00  0.00     0.210 HD
+ENDBRANCH  13  24
+ENDBRANCH   5  13
+BRANCH   4  26
+ATOM     26  N5  SIA d   1       5.118 -87.875 -20.611  0.00  0.00    -0.352 N 
+ATOM     27  C10 SIA d   1       5.620 -88.645 -21.693  0.00  0.00     0.214 C 
+ATOM     28  O10 SIA d   1       5.956 -88.090 -22.720  0.00  0.00    -0.274 OA
+ATOM     29  H   SIA d   1       5.046 -86.882 -20.707  0.00  0.00     0.163 HD
+BRANCH  27  30
+ATOM     30  C11 SIA d   1       5.739 -90.150 -21.574  0.00  0.00    -0.003 C 
+ATOM     31  H   SIA d   1       6.145 -90.561 -22.510  0.00  0.00     0.040 H 
+ATOM     32  H   SIA d   1       4.745 -90.583 -21.384  0.00  0.00     0.040 H 
+ATOM     33  H   SIA d   1       6.413 -90.400 -20.741  0.00  0.00     0.040 H 
+ENDBRANCH  27  30
+ENDBRANCH   4  26
+BRANCH   3  34
+ATOM     34  O4  SIA d   1       2.418 -88.648 -20.033  0.00  0.00    -0.393 OA
+ATOM     35  H   SIA d   1       1.526 -88.394 -19.828  0.00  0.00     0.210 HD
+ENDBRANCH   3  34
+BRANCH   1  36
+ATOM     36  C1  SIA d   1       3.787 -86.509 -16.529  0.00  0.00     0.203 C 
+ATOM     37  O1A SIA d   1       2.653 -85.965 -16.592  0.00  0.00    -0.646 OA
+ATOM     38  O1B SIA d   1       4.807 -85.792 -16.328  0.00  0.00    -0.646 OA
+ENDBRANCH   1  36
+TORSDOF 10

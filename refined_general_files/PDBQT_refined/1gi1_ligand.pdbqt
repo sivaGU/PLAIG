@@ -1,0 +1,49 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  N1_8 
+REMARK    3  A    between atoms: C8_12  and  C1'_13 
+REMARK    4  A    between atoms: C6'_18  and  O6'_19 
+ROOT
+ATOM      1  C1  BMZ d   1      29.421  15.002  17.037  0.00  0.00     0.009 A 
+ATOM      2  C2  BMZ d   1      28.893  15.818  18.096  0.00  0.00    -0.067 A 
+ATOM      3  C3  BMZ d   1      28.598  15.316  19.369  0.00  0.00    -0.054 A 
+ATOM      4  C4  BMZ d   1      28.827  13.978  19.553  0.00  0.00     0.062 A 
+ATOM      5  C5  BMZ d   1      29.321  13.161  18.588  0.00  0.00     0.086 A 
+ATOM      6  C6  BMZ d   1      29.635  13.628  17.321  0.00  0.00    -0.039 A 
+ATOM      7  N3  BMZ d   1      28.626  13.235  20.595  0.00  0.00    -0.338 N 
+ATOM      8  N4  BMZ d   1      29.448  11.903  19.005  0.00  0.00    -0.228 NA
+ATOM      9  C8  BMZ d   1      28.991  12.045  20.246  0.00  0.00     0.141 A 
+ATOM     10  H1  BMZ d   1      28.715  16.869  17.900  0.00  0.00     0.085 H 
+ATOM     11  H2  BMZ d   1      28.212  15.948  20.161  0.00  0.00     0.087 H 
+ATOM     12  H3  BMZ d   1      30.034  12.960  16.566  0.00  0.00     0.088 H 
+ATOM     13  H8  BMZ d   1      28.254  13.530  21.509  0.00  0.00     0.167 HD
+ENDROOT
+BRANCH   9  14
+ATOM     14  C1' BMZ d   1      28.867  10.988  21.172  0.00  0.00     0.043 A 
+ATOM     15  C2' BMZ d   1      29.451   9.729  20.970  0.00  0.00    -0.067 A 
+ATOM     16  C3' BMZ d   1      29.291   8.693  21.890  0.00  0.00    -0.082 A 
+ATOM     17  H9  BMZ d   1      30.041   9.557  20.077  0.00  0.00     0.085 H 
+ATOM     18  C4' BMZ d   1      28.536   8.887  23.028  0.00  0.00    -0.080 A 
+ATOM     19  H10 BMZ d   1      29.761   7.733  21.710  0.00  0.00     0.083 H 
+ATOM     20  C5' BMZ d   1      27.954  10.108  23.261  0.00  0.00    -0.050 A 
+ATOM     21  H11 BMZ d   1      28.403   8.077  23.736  0.00  0.00     0.083 H 
+ATOM     22  C6' BMZ d   1      28.110  11.146  22.351  0.00  0.00     0.079 A 
+ATOM     23  H12 BMZ d   1      27.369  10.263  24.160  0.00  0.00     0.087 H 
+BRANCH  22  24
+ATOM     24  O6' BMZ d   1      27.498  12.331  22.667  0.00  0.00    -0.360 OA
+ATOM     25  H13 BMZ d   1      27.668  12.967  21.982  0.00  0.00     0.217 HD
+ENDBRANCH  22  24
+ENDBRANCH   9  14
+BRANCH   1  26
+ATOM     26  C7  BMZ d   1      29.680  15.565  15.754  0.00  0.00     0.102 C 
+ATOM     27  N2  BMZ d   1      29.205  16.753  15.462  0.00  0.00    -0.385 N 
+ATOM     28  H6  BMZ d   1      28.644  17.268  16.155  0.00  0.00     0.157 HD
+ATOM     29  H7  BMZ d   1      29.393  17.170  14.539  0.00  0.00     0.157 HD
+BRANCH  26  30
+ATOM     30  N1  BMZ d   1      30.401  14.894  14.873  0.00  0.00    -0.385 N 
+ATOM     31  H4  BMZ d   1      30.589  15.300  13.945  0.00  0.00     0.157 HD
+ATOM     32  H5  BMZ d   1      30.775  13.965  15.114  0.00  0.00     0.157 HD
+ENDBRANCH  26  30
+ENDBRANCH   1  26
+TORSDOF 4

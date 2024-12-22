@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9 
+REMARK    2  A    between atoms: C5'_11  and  C6'_12 
+REMARK    3  A    between atoms: C6'_12  and  O6'_13 
+REMARK    4  A    between atoms: C4'_14  and  O4'_15 
+REMARK    5  A    between atoms: C3'_16  and  O3'_17 
+REMARK    6  A    between atoms: C2'_18  and  O2'_19 
+ROOT
+ATOM      1  C1' CJB d   1      33.318  22.734  27.787  0.00  0.00     0.141 C 
+ATOM      2  O5' CJB d   1      33.284  21.305  28.006  0.00  0.00    -0.353 OA
+ATOM      3  C5' CJB d   1      32.195  20.706  27.303  0.00  0.00     0.088 C 
+ATOM      4  C4' CJB d   1      32.456  20.886  25.768  0.00  0.00     0.089 C 
+ATOM      5  C3' CJB d   1      32.628  22.366  25.384  0.00  0.00     0.091 C 
+ATOM      6  C2' CJB d   1      33.705  23.006  26.309  0.00  0.00     0.105 C 
+ATOM      7  H4  CJB d   1      32.302  23.121  27.955  0.00  0.00     0.123 H 
+ATOM      8  H5  CJB d   1      31.233  21.171  27.564  0.00  0.00     0.090 H 
+ATOM      9  H9  CJB d   1      33.398  20.370  25.528  0.00  0.00     0.091 H 
+ATOM     10  H11 CJB d   1      31.672  22.893  25.514  0.00  0.00     0.091 H 
+ATOM     11  H13 CJB d   1      34.664  22.508  26.103  0.00  0.00     0.093 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  N1  CJB d   1      34.216  23.457  28.697  0.00  0.00    -0.280 N 
+ATOM     13  C2  CJB d   1      33.631  24.158  29.747  0.00  0.00     0.331 A 
+ATOM     14  O2  CJB d   1      32.424  24.183  29.928  0.00  0.00    -0.246 OA
+ATOM     15  N3  CJB d   1      34.433  24.872  30.619  0.00  0.00    -0.275 N 
+ATOM     16  C4  CJB d   1      35.814  24.882  30.444  0.00  0.00     0.250 A 
+ATOM     17  H1  CJB d   1      34.021  25.381  31.375  0.00  0.00     0.173 HD
+ATOM     18  O4  CJB d   1      36.418  25.565  31.262  0.00  0.00    -0.268 OA
+ATOM     19  C5  CJB d   1      36.445  24.185  29.400  0.00  0.00    -0.002 A 
+ATOM     20  C6  CJB d   1      35.636  23.491  28.516  0.00  0.00    -0.008 A 
+ATOM     21  H2  CJB d   1      37.528  24.190  29.290  0.00  0.00     0.094 H 
+ATOM     22  H3  CJB d   1      36.084  22.965  27.674  0.00  0.00     0.112 H 
+ENDBRANCH   1  12
+BRANCH   6  23
+ATOM     23  O2' CJB d   1      33.895  24.413  26.091  0.00  0.00    -0.388 OA
+ATOM     24  H14 CJB d   1      34.171  24.559  25.194  0.00  0.00     0.210 HD
+ENDBRANCH   6  23
+BRANCH   3  25
+ATOM     25  C6' CJB d   1      32.243  19.271  27.806  0.00  0.00     0.043 C 
+ATOM     26  H6  CJB d   1      31.269  18.795  27.621  0.00  0.00     0.078 H 
+ATOM     27  H7  CJB d   1      32.448  19.279  28.887  0.00  0.00     0.078 H 
+BRANCH  25  28
+ATOM     28  O6' CJB d   1      33.261  18.514  27.147  0.00  0.00    -0.398 OA
+ATOM     29  H8  CJB d   1      34.107  18.916  27.307  0.00  0.00     0.209 HD
+ENDBRANCH  25  28
+ENDBRANCH   3  25
+BRANCH   5  30
+ATOM     30  O3' CJB d   1      33.030  22.461  24.063  0.00  0.00    -0.390 OA
+ATOM     31  H12 CJB d   1      33.135  23.376  23.830  0.00  0.00     0.210 HD
+ENDBRANCH   5  30
+BRANCH   4  32
+ATOM     32  O4' CJB d   1      31.407  20.267  24.998  0.00  0.00    -0.390 OA
+ATOM     33  H10 CJB d   1      30.575  20.669  25.218  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 6

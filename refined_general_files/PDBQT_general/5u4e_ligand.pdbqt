@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_2  and  C15_15 
+REMARK    2  A    between atoms: C04_4  and  C07_7 
+REMARK    3  A    between atoms: C08_8  and  C09_9 
+REMARK    4  A    between atoms: C12_12  and  B01_21 
+REMARK    5  A    between atoms: B01_21  and  O01_16 
+REMARK    6  A    between atoms: B01_21  and  O02_17 
+ROOT
+ATOM      1  C07 XLB d   1      43.889   0.347  25.443  0.00  0.00    -0.072 C 
+ATOM      2  C08 XLB d   1      43.117   0.234  26.538  0.00  0.00    -0.071 C 
+ATOM      3  H   XLB d   1      44.935   0.075  25.584  0.00  0.00     0.084 H 
+ATOM      4  H   XLB d   1      42.059   0.469  26.422  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   2   5
+ATOM      5  C09 XLB d   1      43.582  -0.192  27.926  0.00  0.00    -0.015 A 
+ATOM      6  C10 XLB d   1      44.598  -1.117  28.171  0.00  0.00     0.044 A 
+ATOM      7  C11 XLB d   1      44.965  -1.435  29.469  0.00  0.00    -0.060 A 
+ATOM      8 CL1  XLB d   1      45.463  -1.939  26.909  0.00  0.00    -0.083 Cl
+ATOM      9  C12 XLB d   1      44.332  -0.836  30.540  0.00  0.00    -0.031 A 
+ATOM     10  H   XLB d   1      45.758  -2.162  29.645  0.00  0.00     0.085 H 
+ATOM     11  C13 XLB d   1      43.329   0.089  30.310  0.00  0.00    -0.081 A 
+ATOM     12  C14 XLB d   1      42.960   0.408  29.011  0.00  0.00    -0.072 A 
+ATOM     13  H   XLB d   1      42.828   0.568  31.151  0.00  0.00     0.083 H 
+ATOM     14  H   XLB d   1      42.171   1.140  28.841  0.00  0.00     0.084 H 
+BRANCH   9  15
+ATOM     15  B01 XLB d   1      44.792  -1.234  32.073  0.00  0.00     0.529 B 
+BRANCH  15  16
+ATOM     16  O01 XLB d   1      46.105  -0.896  32.525  0.00  0.00    -0.433 OA
+ATOM     17  H   XLB d   1      46.575  -1.697  32.767  0.00  0.00     0.185 HD
+ENDBRANCH  15  16
+BRANCH  15  18
+ATOM     18  O02 XLB d   1      43.883  -1.914  32.937  0.00  0.00    -0.433 OA
+ATOM     19  H   XLB d   1      43.054  -2.061  32.476  0.00  0.00     0.185 HD
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+ENDBRANCH   2   5
+BRANCH   1  20
+ATOM     20  C04 XLB d   1      43.523   0.796  24.043  0.00  0.00    -0.035 A 
+ATOM     21  C03 XLB d   1      43.598  -0.077  22.968  0.00  0.00    -0.057 A 
+ATOM     22  C02 XLB d   1      43.276   0.370  21.696  0.00  0.00     0.041 A 
+ATOM     23  H   XLB d   1      43.909  -1.110  23.123  0.00  0.00     0.086 H 
+ATOM     24  C01 XLB d   1      42.896   1.685  21.494  0.00  0.00    -0.066 A 
+ATOM     25  C06 XLB d   1      42.833   2.559  22.564  0.00  0.00    -0.081 A 
+ATOM     26  H   XLB d   1      42.646   2.032  20.491  0.00  0.00     0.085 H 
+ATOM     27  C05 XLB d   1      43.153   2.115  23.836  0.00  0.00    -0.073 A 
+ATOM     28  H   XLB d   1      42.532   3.595  22.406  0.00  0.00     0.083 H 
+ATOM     29  H   XLB d   1      43.114   2.806  24.678  0.00  0.00     0.084 H 
+BRANCH  22  30
+ATOM     30  C15 XLB d   1      43.343  -0.568  20.514  0.00  0.00     0.209 C 
+ATOM     31  O03 XLB d   1      42.913  -0.191  19.394  0.00  0.00    -0.644 OA
+ATOM     32  O04 XLB d   1      43.833  -1.718  20.645  0.00  0.00    -0.644 OA
+ENDBRANCH  22  30
+ENDBRANCH   1  20
+TORSDOF 6

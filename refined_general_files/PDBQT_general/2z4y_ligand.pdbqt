@@ -1,0 +1,74 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAI_2 
+REMARK    2  A    between atoms: CAI_2  and  CAJ_3 
+REMARK    3  A    between atoms: CAJ_3  and  CAK_4 
+REMARK    4  A    between atoms: CAK_4  and  CAL_5 
+REMARK    5  A    between atoms: CAL_5  and  CAM_6 
+REMARK    6  A    between atoms: CAM_6  and  CAN_7 
+REMARK    7  A    between atoms: CAN_7  and  CAO_8 
+REMARK    8  A    between atoms: CAO_8  and  CAP_9 
+REMARK    9  A    between atoms: CAP_9  and  P1P_10 
+REMARK   10  A    between atoms: CAP_9  and  P1R_14 
+REMARK   11  A    between atoms: CAP_9  and  OAD_18 
+ROOT
+ATOM      1  CAM 252 d   1      28.261  45.848   9.723  0.00  0.00    -0.065 C 
+ATOM      2  H12 252 d   1      28.036  44.807   9.449  0.00  0.00     0.033 H 
+ATOM      3  H13 252 d   1      29.321  45.933  10.004  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAL 252 d   1      27.402  46.236  10.925  0.00  0.00    -0.065 C 
+ATOM      5  H10 252 d   1      27.755  47.194  11.334  0.00  0.00     0.033 H 
+ATOM      6  H11 252 d   1      26.353  46.336  10.610  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  CAK 252 d   1      27.511  45.153  11.997  0.00  0.00    -0.065 C 
+ATOM      8  H8  252 d   1      27.100  44.212  11.604  0.00  0.00     0.033 H 
+ATOM      9  H9  252 d   1      28.569  45.009  12.260  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  CAJ 252 d   1      26.732  45.560  13.247  0.00  0.00    -0.065 C 
+ATOM     11  H6  252 d   1      27.151  46.498  13.641  0.00  0.00     0.033 H 
+ATOM     12  H7  252 d   1      25.677  45.714  12.978  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  CAI 252 d   1      26.819  44.481  14.329  0.00  0.00    -0.069 C 
+ATOM     14  H4  252 d   1      26.353  43.556  13.960  0.00  0.00     0.032 H 
+ATOM     15  H5  252 d   1      27.875  44.289  14.569  0.00  0.00     0.032 H 
+BRANCH  13  16
+ATOM     16  CAA 252 d   1      26.089  44.948  15.590  0.00  0.00    -0.077 C 
+ATOM     17  H1  252 d   1      26.156  44.168  16.363  0.00  0.00     0.027 H 
+ATOM     18  H2  252 d   1      25.032  45.139  15.352  0.00  0.00     0.027 H 
+ATOM     19  H3  252 d   1      26.554  45.873  15.962  0.00  0.00     0.027 H 
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  20
+ATOM     20  CAN 252 d   1      28.000  46.744   8.508  0.00  0.00    -0.061 C 
+ATOM     21  H14 252 d   1      28.430  47.742   8.676  0.00  0.00     0.033 H 
+ATOM     22  H15 252 d   1      26.918  46.836   8.333  0.00  0.00     0.033 H 
+BRANCH  20  23
+ATOM     23  CAO 252 d   1      28.669  46.082   7.308  0.00  0.00    -0.010 C 
+ATOM     24  H16 252 d   1      28.385  45.019   7.311  0.00  0.00     0.039 H 
+ATOM     25  H17 252 d   1      29.757  46.171   7.441  0.00  0.00     0.039 H 
+BRANCH  23  26
+ATOM     26  CAP 252 d   1      28.320  46.654   5.929  0.00  0.00     0.285 C 
+BRANCH  26  27
+ATOM     27  P1P 252 d   1      28.703  45.252   4.768  0.00  0.00     0.310 P 
+ATOM     28  OAE 252 d   1      30.209  44.819   5.140  0.00  0.00    -0.637 OA
+ATOM     29  OAF 252 d   1      27.706  44.088   5.262  0.00  0.00    -0.637 OA
+ATOM     30  OAB 252 d   1      28.509  45.635   3.351  0.00  0.00    -0.637 OA
+ENDBRANCH  26  27
+BRANCH  26  31
+ATOM     31  P1R 252 d   1      26.528  47.119   5.701  0.00  0.00     0.310 P 
+ATOM     32  OAG 252 d   1      26.241  48.420   6.607  0.00  0.00    -0.637 OA
+ATOM     33  OAH 252 d   1      26.443  47.627   4.174  0.00  0.00    -0.637 OA
+ATOM     34  OAC 252 d   1      25.564  46.032   5.986  0.00  0.00    -0.637 OA
+ENDBRANCH  26  31
+BRANCH  26  35
+ATOM     35  OAD 252 d   1      29.127  47.798   5.629  0.00  0.00    -0.365 OA
+ATOM     36  H18 252 d   1      30.045  47.569   5.717  0.00  0.00     0.212 HD
+ENDBRANCH  26  35
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+TORSDOF 11

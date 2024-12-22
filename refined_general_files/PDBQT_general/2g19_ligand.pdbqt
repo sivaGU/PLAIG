@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_13  and  C8_9 
+REMARK    2  A    between atoms: C9_10  and  O1_12 
+REMARK       I    between atoms: N2_19  and  C10_13 
+REMARK    3  A    between atoms: C11_14  and  C12_15 
+REMARK    4  A    between atoms: C11_14  and  N2_19 
+ROOT
+ATOM      1  C1  4HG d   1       6.402  47.732  23.948  0.00  0.00    -0.081 A 
+ATOM      2  C2  4HG d   1       5.605  48.926  24.148  0.00  0.00    -0.066 A 
+ATOM      3  C3  4HG d   1       4.348  48.772  24.866  0.00  0.00     0.019 A 
+ATOM      4  C4  4HG d   1       5.894  46.467  24.465  0.00  0.00    -0.069 A 
+ATOM      5  C5  4HG d   1       4.620  46.347  25.178  0.00  0.00     0.013 A 
+ATOM      6  C6  4HG d   1       3.801  47.537  25.405  0.00  0.00     0.011 A 
+ATOM      7  C7  4HG d   1       2.561  47.422  26.170  0.00  0.00     0.015 A 
+ATOM      8  N1  4HG d   1       2.123  46.191  26.702  0.00  0.00    -0.252 NA
+ATOM      9  C8  4HG d   1       2.909  45.036  26.474  0.00  0.00     0.158 A 
+ATOM     10  C9  4HG d   1       4.152  45.073  25.705  0.00  0.00     0.111 A 
+ATOM     11  I1  4HG d   1       3.255  50.452  25.281  0.00  0.00    -0.044 I 
+ATOM     12  H1  4HG d   1       7.352  47.778  23.427  0.00  0.00     0.083 H 
+ATOM     13  H2  4HG d   1       5.931  49.892  23.779  0.00  0.00     0.085 H 
+ATOM     14  H3  4HG d   1       6.487  45.572  24.315  0.00  0.00     0.085 H 
+ATOM     15  H4  4HG d   1       1.960  48.309  26.334  0.00  0.00     0.116 H 
+ENDROOT
+BRANCH   9  16
+ATOM     16  C10 4HG d   1       2.322  43.788  27.058  0.00  0.00     0.273 C 
+ATOM     17  O3  4HG d   1       1.408  43.881  27.875  0.00  0.00    -0.266 OA
+ATOM     18  N2  4HG d   1       2.775  42.591  26.678  0.00  0.00    -0.346 N 
+ATOM     19  H8  4HG d   1       3.645  42.514  26.191  0.00  0.00     0.163 HD
+BRANCH  18  20
+ATOM     20  C11 4HG d   1       2.019  41.436  26.967  0.00  0.00     0.075 C 
+ATOM     21  H6  4HG d   1       1.988  41.289  28.057  0.00  0.00     0.080 H 
+ATOM     22  H7  4HG d   1       0.996  41.570  26.586  0.00  0.00     0.080 H 
+BRANCH  20  23
+ATOM     23  C12 4HG d   1       2.639  40.204  26.313  0.00  0.00     0.191 C 
+ATOM     24  O2  4HG d   1       2.223  39.085  26.655  0.00  0.00    -0.647 OA
+ATOM     25  O4  4HG d   1       3.593  40.351  25.512  0.00  0.00    -0.647 OA
+ENDBRANCH  20  23
+ENDBRANCH  18  20
+ENDBRANCH   9  16
+BRANCH  10  26
+ATOM     26  O1  4HG d   1       4.832  43.935  25.524  0.00  0.00    -0.357 OA
+ATOM     27  H5  4HG d   1       5.082  43.579  26.369  0.00  0.00     0.217 HD
+ENDBRANCH  10  26
+TORSDOF 4

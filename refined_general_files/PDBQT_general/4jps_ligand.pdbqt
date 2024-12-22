@@ -1,0 +1,84 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_19 
+REMARK    2  A    between atoms: N1_22  and  C2_2 
+REMARK       I    between atoms: C3_3  and  N1_22 
+REMARK       I    between atoms: N2_24  and  C3_3 
+REMARK    3  A    between atoms: C13_7  and  C15_9 
+REMARK    4  A    between atoms: C15_9  and  C16_10 
+REMARK    5  A    between atoms: C15_9  and  C17_11 
+REMARK    6  A    between atoms: C15_9  and  C18_12 
+REMARK    7  A    between atoms: C9_18  and  C10_17 
+REMARK    8  A    between atoms: C7_25  and  C8_26 
+REMARK       I    between atoms: C8_26  and  N3_27 
+ROOT
+ATOM      1  C1  1LT d   1      -3.080 -11.729  15.773  0.00  0.00     0.051 A 
+ATOM      2  C2  1LT d   1      -1.603 -10.421  14.772  0.00  0.00     0.175 A 
+ATOM      3  C9  1LT d   1      -2.750 -10.938  16.869  0.00  0.00     0.043 A 
+ATOM      4  S   1LT d   1      -1.577  -9.746  16.362  0.00  0.00    -0.049 SA
+ATOM      5  N   1LT d   1      -2.419 -11.429  14.599  0.00  0.00    -0.228 NA
+ENDROOT
+BRANCH   3   6
+ATOM      6  C10 1LT d   1      -3.184 -10.890  18.283  0.00  0.00    -0.014 A 
+ATOM      7  C11 1LT d   1      -4.273 -11.629  18.732  0.00  0.00    -0.055 A 
+ATOM      8  C12 1LT d   1      -4.639 -11.527  20.056  0.00  0.00     0.003 A 
+ATOM      9  H   1LT d   1      -4.822 -12.272  18.054  0.00  0.00     0.087 H 
+ATOM     10  N4  1LT d   1      -3.991 -10.769  20.952  0.00  0.00    -0.264 NA
+ATOM     11  H   1LT d   1      -5.500 -12.092  20.393  0.00  0.00     0.114 H 
+ATOM     12  C13 1LT d   1      -2.916 -10.090  20.529  0.00  0.00     0.051 A 
+ATOM     13  C14 1LT d   1      -2.478 -10.114  19.197  0.00  0.00    -0.047 A 
+ATOM     14  H   1LT d   1      -1.611  -9.542  18.887  0.00  0.00     0.088 H 
+BRANCH  12  15
+ATOM     15  C15 1LT d   1      -2.140  -9.303  21.613  0.00  0.00     0.095 C 
+BRANCH  15  16
+ATOM     16  C16 1LT d   1      -1.064  -8.403  20.984  0.00  0.00    -0.056 C 
+ATOM     17  H   1LT d   1      -1.540  -7.690  20.295  0.00  0.00     0.029 H 
+ATOM     18  H   1LT d   1      -0.345  -9.024  20.430  0.00  0.00     0.029 H 
+ATOM     19  H   1LT d   1      -0.538  -7.851  21.777  0.00  0.00     0.029 H 
+ENDBRANCH  15  16
+BRANCH  15  20
+ATOM     20  C17 1LT d   1      -3.111  -8.446  22.444  0.00  0.00    -0.056 C 
+ATOM     21  H   1LT d   1      -3.635  -7.740  21.783  0.00  0.00     0.029 H 
+ATOM     22  H   1LT d   1      -2.547  -7.886  23.205  0.00  0.00     0.029 H 
+ATOM     23  H   1LT d   1      -3.845  -9.099  22.939  0.00  0.00     0.029 H 
+ENDBRANCH  15  20
+BRANCH  15  24
+ATOM     24  C18 1LT d   1      -1.381 -10.337  22.622  0.00  0.00     0.400 C 
+ATOM     25  F2  1LT d   1      -0.682  -9.668  23.538  0.00  0.00    -0.170 F 
+ATOM     26  F   1LT d   1      -2.219 -11.132  23.277  0.00  0.00    -0.170 F 
+ATOM     27  F1  1LT d   1      -0.536 -11.132  21.975  0.00  0.00    -0.170 F 
+ENDBRANCH  15  24
+ENDBRANCH  12  15
+ENDBRANCH   3   6
+BRANCH   1  28
+ATOM     28  C   1LT d   1      -4.052 -12.864  15.772  0.00  0.00    -0.034 C 
+ATOM     29  H   1LT d   1      -4.106 -13.300  14.764  0.00  0.00     0.035 H 
+ATOM     30  H   1LT d   1      -5.046 -12.496  16.066  0.00  0.00     0.035 H 
+ATOM     31  H   1LT d   1      -3.720 -13.632  16.486  0.00  0.00     0.035 H 
+ENDBRANCH   1  28
+BRANCH   2  32
+ATOM     32  N1  1LT d   1      -0.829  -9.958  13.725  0.00  0.00    -0.287 N 
+ATOM     33  C3  1LT d   1       0.044  -8.863  13.808  0.00  0.00     0.325 C 
+ATOM     34  O   1LT d   1       0.190  -8.235  14.846  0.00  0.00    -0.247 OA
+ATOM     35  N2  1LT d   1       0.739  -8.517  12.665  0.00  0.00    -0.320 N 
+ATOM     36  C7  1LT d   1       1.680  -7.385  12.691  0.00  0.00     0.093 C 
+ATOM     37  C4  1LT d   1       0.676  -9.166  11.346  0.00  0.00     0.000 C 
+ATOM     38  C6  1LT d   1       2.307  -7.399  11.288  0.00  0.00    -0.036 C 
+ATOM     39  H   1LT d   1       2.456  -7.569  13.448  0.00  0.00     0.087 H 
+ATOM     40  C5  1LT d   1       1.328  -8.159  10.424  0.00  0.00    -0.048 C 
+ATOM     41  H   1LT d   1       3.282  -7.909  11.306  0.00  0.00     0.036 H 
+ATOM     42  H   1LT d   1       2.437  -6.373  10.913  0.00  0.00     0.036 H 
+ATOM     43  H   1LT d   1       1.854  -8.671   9.605  0.00  0.00     0.035 H 
+ATOM     44  H   1LT d   1       0.574  -7.476  10.005  0.00  0.00     0.035 H 
+ATOM     45  H   1LT d   1      -0.367  -9.353  11.049  0.00  0.00     0.064 H 
+ATOM     46  H   1LT d   1       1.232 -10.115  11.348  0.00  0.00     0.064 H 
+ATOM     47  H   1LT d   1      -0.896 -10.436  12.849  0.00  0.00     0.172 HD
+BRANCH  36  48
+ATOM     48  C8  1LT d   1       1.016  -6.045  13.014  0.00  0.00     0.238 C 
+ATOM     49  O1  1LT d   1       1.610  -5.205  13.696  0.00  0.00    -0.271 OA
+ATOM     50  N3  1LT d   1      -0.227  -5.881  12.591  0.00  0.00    -0.368 N 
+ATOM     51  H   1LT d   1      -0.666  -6.591  12.040  0.00  0.00     0.159 HD
+ATOM     52  H   1LT d   1      -0.728  -5.047  12.822  0.00  0.00     0.159 HD
+ENDBRANCH  36  48
+ENDBRANCH   2  32
+TORSDOF 8

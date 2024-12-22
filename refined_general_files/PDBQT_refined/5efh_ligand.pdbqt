@@ -1,0 +1,84 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  C2_1 
+REMARK    2  A    between atoms: C2_1  and  N1_15 
+REMARK    3  A    between atoms: C4_3  and  C3_2 
+REMARK    4  A    between atoms: N5_14  and  C4_3 
+REMARK    5  A    between atoms: C6_4  and  C7_5 
+REMARK    6  A    between atoms: C6_4  and  N5_14 
+REMARK    7  A    between atoms: C7_5  and  C8_6 
+REMARK    8  A    between atoms: C8_6  and  C9_7 
+REMARK    9  A    between atoms: C9_7  and  C10_8 
+REMARK   10  A    between atoms: C10_8  and  C11_9 
+REMARK   11  A    between atoms: C11_9  and  C12_10 
+REMARK   12  A    between atoms: C11_9  and  O13_16 
+REMARK   13  A    between atoms: C11_9  and  O14_17 
+ROOT
+ATOM      1  C7  FKS d   1      81.825 188.720 135.276  0.00  0.00    -0.043 C 
+ATOM      2  H9  FKS d   1      82.199 187.829 134.751  0.00  0.00     0.035 H 
+ATOM      3  H10 FKS d   1      81.041 188.424 135.988  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C6  FKS d   1      81.215 189.681 134.243  0.00  0.00     0.082 C 
+ATOM      5  H7  FKS d   1      81.954 189.875 133.451  0.00  0.00     0.075 H 
+ATOM      6  H8  FKS d   1      80.953 190.626 134.741  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  N5  FKS d   1      80.038 189.118 133.658  0.00  0.00    -0.075 N 
+ATOM      8  H17 FKS d   1      80.146 188.119 133.584  0.00  0.00     0.277 HD
+ATOM      9  H18 FKS d   1      79.242 189.328 134.239  0.00  0.00     0.277 HD
+BRANCH   7  10
+ATOM     10  C4  FKS d   1      79.831 189.679 132.336  0.00  0.00     0.083 C 
+ATOM     11  H5  FKS d   1      79.906 190.775 132.392  0.00  0.00     0.075 H 
+ATOM     12  H6  FKS d   1      80.603 189.293 131.654  0.00  0.00     0.075 H 
+BRANCH  10  13
+ATOM     13  C3  FKS d   1      78.424 189.287 131.794  0.00  0.00    -0.020 C 
+ATOM     14  H3  FKS d   1      78.452 188.240 131.458  0.00  0.00     0.037 H 
+ATOM     15  H4  FKS d   1      77.689 189.392 132.605  0.00  0.00     0.037 H 
+BRANCH  13  16
+ATOM     16  C2  FKS d   1      77.990 190.185 130.604  0.00  0.00     0.081 C 
+ATOM     17  H1  FKS d   1      78.633 189.974 129.737  0.00  0.00     0.075 H 
+ATOM     18  H2  FKS d   1      78.096 191.242 130.890  0.00  0.00     0.075 H 
+BRANCH  16  19
+ATOM     19  N1  FKS d   1      76.610 189.922 130.250  0.00  0.00    -0.079 N 
+ATOM     20  H19 FKS d   1      76.343 190.512 129.477  0.00  0.00     0.274 HD
+ATOM     21  H20 FKS d   1      76.017 190.117 131.042  0.00  0.00     0.274 HD
+ATOM     22  H21 FKS d   1      76.510 188.955 129.985  0.00  0.00     0.274 HD
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  C8  FKS d   1      82.980 189.353 136.053  0.00  0.00    -0.063 C 
+ATOM     24  H11 FKS d   1      82.579 190.158 136.686  0.00  0.00     0.033 H 
+ATOM     25  H12 FKS d   1      83.698 189.775 135.334  0.00  0.00     0.033 H 
+BRANCH  23  26
+ATOM     26  C9  FKS d   1      83.711 188.352 136.942  0.00  0.00    -0.060 C 
+ATOM     27  H13 FKS d   1      84.273 187.652 136.306  0.00  0.00     0.033 H 
+ATOM     28  H14 FKS d   1      82.972 187.795 137.536  0.00  0.00     0.033 H 
+BRANCH  26  29
+ATOM     29  C10 FKS d   1      84.678 189.051 137.884  0.00  0.00    -0.004 C 
+ATOM     30  H15 FKS d   1      84.103 189.693 138.567  0.00  0.00     0.041 H 
+ATOM     31  H16 FKS d   1      85.364 189.671 137.289  0.00  0.00     0.041 H 
+BRANCH  29  32
+ATOM     32  C11 FKS d   1      85.497 188.073 138.708  0.00  0.00     0.260 C 
+BRANCH  32  33
+ATOM     33  C12 FKS d   1      86.426 188.820 139.651  0.00  0.00     0.444 C 
+ATOM     34  F15 FKS d   1      87.192 189.687 138.986  0.00  0.00    -0.166 F 
+ATOM     35  F16 FKS d   1      87.213 187.924 140.254  0.00  0.00    -0.166 F 
+ATOM     36  F17 FKS d   1      85.706 189.481 140.553  0.00  0.00    -0.166 F 
+ENDBRANCH  32  33
+BRANCH  32  37
+ATOM     37  O13 FKS d   1      84.608 187.269 139.450  0.00  0.00    -0.359 OA
+ATOM     38  H22 FKS d   1      84.069 187.822 140.004  0.00  0.00     0.213 HD
+ENDBRANCH  32  37
+BRANCH  32  39
+ATOM     39  O14 FKS d   1      86.307 187.267 137.878  0.00  0.00    -0.359 OA
+ATOM     40  H23 FKS d   1      86.901 187.820 137.384  0.00  0.00     0.213 HD
+ENDBRANCH  32  39
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+TORSDOF 13

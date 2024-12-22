@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O30_22 
+REMARK    2  A    between atoms: C6_6  and  O29_21 
+REMARK    3  A    between atoms: C10_8  and  O27_20 
+REMARK    4  A    between atoms: C11_9  and  C14_10 
+REMARK    5  A    between atoms: C17_13  and  O24_19 
+REMARK    6  A    between atoms: C18_14  and  O23_18 
+ROOT
+ATOM      1  C1  QUE d   1     -24.938 -10.399  -2.248  0.00  0.00    -0.018 A 
+ATOM      2  C2  QUE d   1     -25.966 -10.526  -3.184  0.00  0.00     0.085 A 
+ATOM      3  C3  QUE d   1     -26.786 -11.666  -3.161  0.00  0.00     0.079 A 
+ATOM      4  C4  QUE d   1     -26.599 -12.690  -2.203  0.00  0.00     0.089 A 
+ATOM      5  C5  QUE d   1     -25.563 -12.535  -1.268  0.00  0.00    -0.018 A 
+ATOM      6  C6  QUE d   1     -24.739 -11.398  -1.295  0.00  0.00     0.071 A 
+ATOM      7  C9  QUE d   1     -27.882 -11.806  -4.157  0.00  0.00     0.196 A 
+ATOM      8  C10 QUE d   1     -28.720 -13.017  -4.097  0.00  0.00     0.127 A 
+ATOM      9  C11 QUE d   1     -28.441 -14.063  -3.069  0.00  0.00     0.102 A 
+ATOM     10  O12 QUE d   1     -27.412 -13.825  -2.164  0.00  0.00    -0.337 OA
+ATOM     11  O13 QUE d   1     -28.096 -10.928  -5.021  0.00  0.00    -0.289 OA
+ATOM     12  H1  QUE d   1     -24.296  -9.526  -2.262  0.00  0.00     0.092 H 
+ATOM     13  H2  QUE d   1     -25.398 -13.300  -0.518  0.00  0.00     0.092 H 
+ATOM     14  H3  QUE d   1     -29.415 -12.522  -3.403  0.00  0.00     0.100 H 
+ATOM     15  H4  QUE d   1     -27.756 -14.600  -3.742  0.00  0.00     0.096 H 
+ENDROOT
+BRANCH   9  16
+ATOM     16  C14 QUE d   1     -29.350 -15.265  -2.992  0.00  0.00    -0.023 A 
+ATOM     17  C15 QUE d   1     -30.085 -15.392  -1.802  0.00  0.00    -0.071 A 
+ATOM     18  C16 QUE d   1     -30.995 -16.441  -1.612  0.00  0.00    -0.048 A 
+ATOM     19  H5  QUE d   1     -29.945 -14.662  -1.013  0.00  0.00     0.084 H 
+ATOM     20  C17 QUE d   1     -31.222 -17.384  -2.607  0.00  0.00     0.098 A 
+ATOM     21  H6  QUE d   1     -31.531 -16.518  -0.673  0.00  0.00     0.087 H 
+ATOM     22  C18 QUE d   1     -30.510 -17.259  -3.804  0.00  0.00     0.099 A 
+ATOM     23  C19 QUE d   1     -29.586 -16.206  -4.014  0.00  0.00    -0.040 A 
+ATOM     24  H7  QUE d   1     -29.061 -16.124  -4.959  0.00  0.00     0.088 H 
+BRANCH  20  25
+ATOM     25  O24 QUE d   1     -32.126 -18.393  -2.394  0.00  0.00    -0.358 OA
+ATOM     26  H9  QUE d   1     -32.500 -18.303  -1.526  0.00  0.00     0.217 HD
+ENDBRANCH  20  25
+BRANCH  22  27
+ATOM     27  O23 QUE d   1     -30.739 -18.187  -4.771  0.00  0.00    -0.358 OA
+ATOM     28  H8  QUE d   1     -31.383 -18.813  -4.461  0.00  0.00     0.217 HD
+ENDBRANCH  22  27
+ENDBRANCH   9  16
+BRANCH   8  29
+ATOM     29  O27 QUE d   1     -29.708 -13.146  -5.007  0.00  0.00    -0.385 OA
+ATOM     30  H10 QUE d   1     -29.723 -12.379  -5.568  0.00  0.00     0.210 HD
+ENDBRANCH   8  29
+BRANCH   2  31
+ATOM     31  O30 QUE d   1     -26.164  -9.548  -4.120  0.00  0.00    -0.360 OA
+ATOM     32  H12 QUE d   1     -26.062  -9.918  -4.989  0.00  0.00     0.217 HD
+ENDBRANCH   2  31
+BRANCH   6  33
+ATOM     33  O29 QUE d   1     -23.735 -11.255  -0.389  0.00  0.00    -0.361 OA
+ATOM     34  H11 QUE d   1     -23.280 -10.436  -0.548  0.00  0.00     0.217 HD
+ENDBRANCH   6  33
+TORSDOF 6

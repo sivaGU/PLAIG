@@ -1,0 +1,26 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C41_2  and  C4_4 
+REMARK    2  A    between atoms: C2_8  and  C21_10 
+ROOT
+ATOM      1  C4  PD2 d   1     -11.348  44.145 -63.255  0.00  0.00     0.044 A 
+ATOM      2  C5  PD2 d   1     -11.612  45.413 -62.833  0.00  0.00    -0.049 A 
+ATOM      3  C6  PD2 d   1     -10.622  46.174 -62.228  0.00  0.00     0.004 A 
+ATOM      4  C3  PD2 d   1     -10.100  43.623 -63.083  0.00  0.00    -0.032 A 
+ATOM      5  C2  PD2 d   1      -9.113  44.388 -62.478  0.00  0.00     0.133 A 
+ATOM      6  N1  PD2 d   1      -9.379  45.653 -62.057  0.00  0.00    -0.254 NA
+ATOM      7  H1  PD2 d   1     -12.603  45.831 -62.971  0.00  0.00     0.087 H 
+ATOM      8  H2  PD2 d   1     -10.840  47.182 -61.893  0.00  0.00     0.114 H 
+ATOM      9  H3  PD2 d   1      -9.880  42.615 -63.417  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C41 PD2 d   1     -12.457  43.354 -63.910  0.00  0.00     0.209 C 
+ATOM     11  O42 PD2 d   1     -12.172  42.289 -64.542  0.00  0.00    -0.644 OA
+ATOM     12  O41 PD2 d   1     -13.646  43.796 -63.828  0.00  0.00    -0.644 OA
+ENDBRANCH   1  10
+BRANCH   5  13
+ATOM     13  C21 PD2 d   1      -7.718  43.843 -62.287  0.00  0.00     0.229 C 
+ATOM     14  O21 PD2 d   1      -6.845  44.572 -61.729  0.00  0.00    -0.643 OA
+ATOM     15  O22 PD2 d   1      -7.434  42.683 -62.702  0.00  0.00    -0.643 OA
+ENDBRANCH   5  13
+TORSDOF 2

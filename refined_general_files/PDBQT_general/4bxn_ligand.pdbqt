@@ -1,0 +1,121 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAY_3  and  CAZ_4 
+REMARK    2  A    between atoms: CAM_7  and  CAL_8 
+REMARK       I    between atoms: CAL_8  and  NAK_10 
+REMARK    3  A    between atoms: NAK_10  and  CAU_11 
+REMARK    4  A    between atoms: NAK_10  and  CAJ_15 
+REMARK    5  A    between atoms: CAU_11  and  CBC_12 
+REMARK    6  A    between atoms: CBC_12  and  CBD_13 
+REMARK    7  A    between atoms: CBD_13  and  NBE_14 
+REMARK    8  A    between atoms: CAJ_15  and  CAB_16 
+REMARK    9  A    between atoms: CAJ_15  and  CAI_19 
+REMARK   10  A    between atoms: CAB_16  and  CAA_17 
+REMARK   11  A    between atoms: CAB_16  and  CAC_18 
+REMARK   12  A    between atoms: CAS_28  and  OBA_29 
+REMARK   13  A    between atoms: CAT_30  and  CBB_31 
+REMARK   14  A    between atoms: CBB_31  and  CBG_32 
+ROOT
+ATOM      1  CAJ 6LX d   1       7.323  11.380   1.836  0.00  0.00     0.064 C 
+ATOM      2  H17 6LX d   1       6.339  11.336   2.325  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  NAK 6LX d   1       8.111  12.413   2.535  0.00  0.00    -0.337 N 
+ATOM      4  CAL 6LX d   1       8.066  12.454   4.014  0.00  0.00     0.254 C 
+ATOM      5  OAV 6LX d   1       8.720  13.312   4.629  0.00  0.00    -0.267 OA
+BRANCH   4   6
+ATOM      6  CAM 6LX d   1       7.238  11.470   4.818  0.00  0.00     0.032 A 
+ATOM      7  CAW 6LX d   1       7.787  10.258   5.188  0.00  0.00    -0.067 A 
+ATOM      8  CAX 6LX d   1       7.026   9.334   5.937  0.00  0.00    -0.076 A 
+ATOM      9  H1  6LX d   1       8.804  10.015   4.903  0.00  0.00     0.085 H 
+ATOM     10  CAY 6LX d   1       5.713   9.643   6.306  0.00  0.00    -0.062 A 
+ATOM     11  H2  6LX d   1       7.460   8.384   6.226  0.00  0.00     0.084 H 
+ATOM     12  CAO 6LX d   1       5.158  10.861   5.936  0.00  0.00    -0.076 A 
+ATOM     13  CAN 6LX d   1       5.921  11.782   5.188  0.00  0.00    -0.067 A 
+ATOM     14  H6  6LX d   1       4.141  11.104   6.221  0.00  0.00     0.084 H 
+ATOM     15  H7  6LX d   1       5.489  12.733   4.898  0.00  0.00     0.085 H 
+BRANCH  10  16
+ATOM     16  CAZ 6LX d   1       4.858   8.599   7.149  0.00  0.00    -0.051 C 
+ATOM     17  H3  6LX d   1       3.858   9.015   7.342  0.00  0.00     0.033 H 
+ATOM     18  H4  6LX d   1       5.363   8.399   8.105  0.00  0.00     0.033 H 
+ATOM     19  H5  6LX d   1       4.761   7.661   6.582  0.00  0.00     0.033 H 
+ENDBRANCH  10  16
+ENDBRANCH   4   6
+BRANCH   3  20
+ATOM     20  CAU 6LX d   1       8.950  13.415   1.802  0.00  0.00     0.000 C 
+ATOM     21  H8  6LX d   1       9.236  12.963   0.841  0.00  0.00     0.064 H 
+ATOM     22  H9  6LX d   1       9.852  13.592   2.406  0.00  0.00     0.064 H 
+BRANCH  20  23
+ATOM     23  CBC 6LX d   1       8.328  14.781   1.498  0.00  0.00    -0.028 C 
+ATOM     24  H10 6LX d   1       7.323  14.597   1.091  0.00  0.00     0.037 H 
+ATOM     25  H11 6LX d   1       8.953  15.259   0.730  0.00  0.00     0.037 H 
+BRANCH  23  26
+ATOM     26  CBD 6LX d   1       8.178  15.764   2.622  0.00  0.00     0.081 C 
+ATOM     27  H12 6LX d   1       7.732  16.679   2.204  0.00  0.00     0.075 H 
+ATOM     28  H13 6LX d   1       9.186  15.988   3.002  0.00  0.00     0.075 H 
+BRANCH  26  29
+ATOM     29  NBE 6LX d   1       7.330  15.344   3.803  0.00  0.00    -0.079 N 
+ATOM     30  H14 6LX d   1       7.310  16.087   4.483  0.00  0.00     0.274 HD
+ATOM     31  H15 6LX d   1       7.724  14.516   4.222  0.00  0.00     0.274 HD
+ATOM     32  H16 6LX d   1       6.392  15.149   3.490  0.00  0.00     0.274 HD
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH   3  20
+ENDBRANCH   1   3
+BRANCH   1  33
+ATOM     33  CAB 6LX d   1       7.921  10.030   1.936  0.00  0.00    -0.035 C 
+ATOM     34  H18 6LX d   1       7.317   9.527   2.706  0.00  0.00     0.042 H 
+BRANCH  33  35
+ATOM     35  CAA 6LX d   1       7.714   9.169   0.641  0.00  0.00    -0.071 C 
+ATOM     36  H19 6LX d   1       8.179   8.182   0.779  0.00  0.00     0.028 H 
+ATOM     37  H20 6LX d   1       8.180   9.678  -0.216  0.00  0.00     0.028 H 
+ATOM     38  H21 6LX d   1       6.638   9.044   0.452  0.00  0.00     0.028 H 
+ENDBRANCH  33  35
+BRANCH  33  39
+ATOM     39  CAC 6LX d   1       9.407   9.951   2.498  0.00  0.00    -0.071 C 
+ATOM     40  H22 6LX d   1       9.491  10.572   3.402  0.00  0.00     0.028 H 
+ATOM     41  H23 6LX d   1      10.108  10.319   1.734  0.00  0.00     0.028 H 
+ATOM     42  H24 6LX d   1       9.650   8.907   2.746  0.00  0.00     0.028 H 
+ENDBRANCH  33  39
+ENDBRANCH   1  33
+BRANCH   1  43
+ATOM     43  CAI 6LX d   1       7.096  11.769   0.375  0.00  0.00     0.082 A 
+ATOM     44  OAH 6LX d   1       8.156  11.929  -0.383  0.00  0.00    -0.312 OA
+ATOM     45  CAG 6LX d   1       8.099  12.280  -1.723  0.00  0.00     0.086 A 
+ATOM     46  CAF 6LX d   1       9.317  12.433  -2.475  0.00  0.00    -0.029 A 
+ATOM     47  CAR 6LX d   1       6.864  12.486  -2.349  0.00  0.00     0.009 A 
+ATOM     48  CAE 6LX d   1       9.261  12.794  -3.854  0.00  0.00     0.036 A 
+ATOM     49  H25 6LX d   1      10.275  12.274  -1.994  0.00  0.00     0.090 H 
+ATOM     50 CLA  6LX d   1      10.712  12.977  -4.754  0.00  0.00    -0.084 Cl
+ATOM     51  CAP 6LX d   1       7.999  13.003  -4.486  0.00  0.00    -0.061 A 
+ATOM     52  CAQ 6LX d   1       6.810  12.853  -3.751  0.00  0.00    -0.070 A 
+ATOM     53  H26 6LX d   1       7.957  13.278  -5.534  0.00  0.00     0.086 H 
+ATOM     54  H27 6LX d   1       5.852  13.012  -4.233  0.00  0.00     0.084 H 
+ATOM     55  CAS 6LX d   1       5.630  12.326  -1.565  0.00  0.00     0.088 A 
+ATOM     56  CAT 6LX d   1       5.747  11.957  -0.167  0.00  0.00    -0.011 A 
+ATOM     57  H28 6LX d   1       5.662  13.391  -1.290  0.00  0.00     0.098 H 
+BRANCH  55  58
+ATOM     58  OBA 6LX d   1       4.388  12.521  -2.148  0.00  0.00    -0.386 OA
+ATOM     59  H29 6LX d   1       4.330  13.411  -2.477  0.00  0.00     0.210 HD
+ENDBRANCH  55  58
+BRANCH  56  60
+ATOM     60  CBB 6LX d   1       4.452  11.789   0.655  0.00  0.00    -0.015 C 
+ATOM     61  H30 6LX d   1       3.594  11.791  -0.034  0.00  0.00     0.047 H 
+ATOM     62  H31 6LX d   1       4.364  12.636   1.352  0.00  0.00     0.047 H 
+BRANCH  60  63
+ATOM     63  CBG 6LX d   1       4.432  10.488   1.459  0.00  0.00    -0.054 A 
+ATOM     64  CBF 6LX d   1       5.071  10.484   2.698  0.00  0.00    -0.077 A 
+ATOM     65  CBI 6LX d   1       5.094   9.299   3.509  0.00  0.00    -0.082 A 
+ATOM     66  H32 6LX d   1       5.556  11.386   3.053  0.00  0.00     0.084 H 
+ATOM     67  CBJ 6LX d   1       4.472   8.133   3.061  0.00  0.00    -0.083 A 
+ATOM     68  H33 6LX d   1       5.595   9.310   4.470  0.00  0.00     0.083 H 
+ATOM     69  CBK 6LX d   1       3.811   8.121   1.791  0.00  0.00    -0.082 A 
+ATOM     70  H34 6LX d   1       4.489   7.239   3.673  0.00  0.00     0.083 H 
+ATOM     71  CBH 6LX d   1       3.791   9.295   0.991  0.00  0.00    -0.077 A 
+ATOM     72  H35 6LX d   1       3.326   7.217   1.440  0.00  0.00     0.083 H 
+ATOM     73  H36 6LX d   1       3.292   9.288   0.029  0.00  0.00     0.084 H 
+ENDBRANCH  60  63
+ENDBRANCH  56  60
+ENDBRANCH   1  43
+TORSDOF 14

@@ -1,0 +1,88 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+REMARK    5  A    between atoms: CG_7  and  SD_8 
+REMARK    6  A    between atoms: SD_8  and  CE_9 
+REMARK    7  A    between atoms: SD_8  and  C5'_10 
+REMARK    8  A    between atoms: C5'_10  and  C4'_11 
+REMARK    9  A    between atoms: C3'_13  and  O3'_14 
+REMARK   10  A    between atoms: C2'_15  and  O2'_16 
+REMARK   11  A    between atoms: C1'_17  and  N9_18 
+ROOT
+ATOM      1  C4' SAM d   1       8.302   5.207  47.426  0.00  0.00     0.076 C 
+ATOM      2  O4' SAM d   1       6.882   5.339  47.385  0.00  0.00    -0.355 OA
+ATOM      3  C3' SAM d   1       8.525   3.780  47.880  0.00  0.00     0.090 C 
+ATOM      4  C2' SAM d   1       7.311   3.489  48.745  0.00  0.00     0.105 C 
+ATOM      5  C1' SAM d   1       6.218   4.332  48.127  0.00  0.00     0.139 C 
+ATOM      6  H14 SAM d   1       8.706   5.893  48.185  0.00  0.00     0.088 H 
+ATOM      7  H15 SAM d   1       8.540   3.104  47.013  0.00  0.00     0.091 H 
+ATOM      8  H17 SAM d   1       7.066   2.417  48.756  0.00  0.00     0.093 H 
+ATOM      9  H19 SAM d   1       5.619   4.796  48.924  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5' SAM d   1       8.990   5.548  46.089  0.00  0.00    -0.005 C 
+ATOM     11  H12 SAM d   1       8.630   6.537  45.769  0.00  0.00     0.051 H 
+ATOM     12  H13 SAM d   1      10.074   5.594  46.271  0.00  0.00     0.051 H 
+BRANCH  10  13
+ATOM     13  SD  SAM d   1       8.705   4.383  44.721  0.00  0.00    -0.221 SA
+BRANCH  13  14
+ATOM     14  CG  SAM d   1      10.223   3.400  44.597  0.00  0.00    -0.029 C 
+ATOM     15  H7  SAM d   1      10.648   3.518  43.590  0.00  0.00     0.047 H 
+ATOM     16  H8  SAM d   1      10.946   3.757  45.345  0.00  0.00     0.047 H 
+BRANCH  14  17
+ATOM     17  CB  SAM d   1       9.932   1.920  44.848  0.00  0.00    -0.022 C 
+ATOM     18  H5  SAM d   1       9.351   1.848  45.779  0.00  0.00     0.037 H 
+ATOM     19  H6  SAM d   1       9.324   1.553  44.008  0.00  0.00     0.037 H 
+BRANCH  17  20
+ATOM     20  CA  SAM d   1      11.146   0.992  44.984  0.00  0.00     0.183 C 
+ATOM     21  H4  SAM d   1      11.847   1.476  45.680  0.00  0.00     0.101 H 
+BRANCH  20  22
+ATOM     22  N   SAM d   1      11.850   0.828  43.714  0.00  0.00    -0.065 N 
+ATOM     23  H1  SAM d   1      12.089   1.734  43.343  0.00  0.00     0.275 HD
+ATOM     24  H2  SAM d   1      11.255   0.343  43.060  0.00  0.00     0.275 HD
+ATOM     25  H3  SAM d   1      12.691   0.293  43.863  0.00  0.00     0.275 HD
+ENDBRANCH  20  22
+BRANCH  20  26
+ATOM     26  C   SAM d   1      10.752  -0.354  45.605  0.00  0.00     0.204 C 
+ATOM     27  O   SAM d   1      10.739  -0.511  46.828  0.00  0.00    -0.646 OA
+ATOM     28  OXT SAM d   1      10.442  -1.323  44.912  0.00  0.00    -0.646 OA
+ENDBRANCH  20  26
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+BRANCH  13  29
+ATOM     29  CE  SAM d   1       8.791   5.468  43.271  0.00  0.00    -0.042 C 
+ATOM     30  H9  SAM d   1       7.904   6.119  43.247  0.00  0.00     0.040 H 
+ATOM     31  H10 SAM d   1       8.822   4.857  42.357  0.00  0.00     0.040 H 
+ATOM     32  H11 SAM d   1       9.698   6.087  43.330  0.00  0.00     0.040 H 
+ENDBRANCH  13  29
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   3  33
+ATOM     33  O3' SAM d   1       9.744   3.633  48.581  0.00  0.00    -0.390 OA
+ATOM     34  H16 SAM d   1       9.847   2.727  48.848  0.00  0.00     0.210 HD
+ENDBRANCH   3  33
+BRANCH   5  35
+ATOM     35  N9  SAM d   1       5.308   3.531  47.264  0.00  0.00    -0.294 N 
+ATOM     36  C8  SAM d   1       5.271   3.509  45.868  0.00  0.00     0.071 A 
+ATOM     37  N7  SAM d   1       4.305   2.651  45.463  0.00  0.00    -0.236 NA
+ATOM     38  H20 SAM d   1       5.916   4.089  45.210  0.00  0.00     0.144 H 
+ATOM     39  C5  SAM d   1       3.710   2.129  46.582  0.00  0.00     0.149 A 
+ATOM     40  C6  SAM d   1       2.677   1.218  46.739  0.00  0.00     0.155 A 
+ATOM     41  C4  SAM d   1       4.326   2.666  47.715  0.00  0.00     0.167 A 
+ATOM     42  N6  SAM d   1       2.080   0.699  45.663  0.00  0.00    -0.382 N 
+ATOM     43  N1  SAM d   1       2.266   0.853  48.007  0.00  0.00    -0.222 NA
+ATOM     44  H21 SAM d   1       1.312   0.022  45.776  0.00  0.00     0.157 HD
+ATOM     45  H22 SAM d   1       2.387   0.976  44.720  0.00  0.00     0.157 HD
+ATOM     46  C2  SAM d   1       2.892   1.402  49.124  0.00  0.00     0.091 A 
+ATOM     47  N3  SAM d   1       3.924   2.309  48.974  0.00  0.00    -0.222 NA
+ATOM     48  H23 SAM d   1       2.567   1.116  50.118  0.00  0.00     0.146 H 
+ENDBRANCH   5  35
+BRANCH   4  49
+ATOM     49  O2' SAM d   1       7.495   3.991  50.066  0.00  0.00    -0.388 OA
+ATOM     50  H18 SAM d   1       6.725   3.798  50.587  0.00  0.00     0.210 HD
+ENDBRANCH   4  49
+TORSDOF 11

@@ -1,0 +1,67 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N9_9 
+REMARK    2  A    between atoms: C5_5  and  C8_8 
+REMARK    3  A    between atoms: N10_10  and  C11_11 
+REMARK    4  A    between atoms: C14_14  and  S17_17 
+REMARK    5  A    between atoms: S17_17  and  N20_20 
+REMARK    6  A    between atoms: N20_20  and  C21_21 
+ROOT
+ATOM      1  C11 NUD d   1     -16.338   7.303  -5.466  0.00  0.00     0.079 A 
+ATOM      2  C12 NUD d   1     -16.532   6.033  -5.994  0.00  0.00    -0.052 A 
+ATOM      3  C13 NUD d   1     -17.307   5.133  -5.265  0.00  0.00    -0.058 A 
+ATOM      4  C14 NUD d   1     -17.987   5.470  -4.096  0.00  0.00     0.080 A 
+ATOM      5  C15 NUD d   1     -17.818   6.732  -3.596  0.00  0.00    -0.058 A 
+ATOM      6  C16 NUD d   1     -17.004   7.684  -4.234  0.00  0.00    -0.052 A 
+ATOM      7  H   NUD d   1     -16.094   5.750  -6.944  0.00  0.00     0.087 H 
+ATOM      8  H   NUD d   1     -17.385   4.114  -5.627  0.00  0.00     0.086 H 
+ATOM      9  H   NUD d   1     -18.328   7.006  -2.679  0.00  0.00     0.086 H 
+ATOM     10  H   NUD d   1     -16.877   8.677  -3.817  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  N10 NUD d   1     -15.580   8.235  -6.199  0.00  0.00    -0.150 NA
+ATOM     12  N9  NUD d   1     -15.584   9.442  -5.780  0.00  0.00    -0.148 NA
+BRANCH  12  13
+ATOM     13  C3  NUD d   1     -14.868  10.421  -6.440  0.00  0.00     0.102 A 
+ATOM     14  C2  NUD d   1     -14.941  11.714  -5.858  0.00  0.00     0.058 A 
+ATOM     15  C1  NUD d   1     -14.251  12.725  -6.473  0.00  0.00    -0.024 A 
+ATOM     16  N41 NUD d   1     -15.687  11.942  -4.764  0.00  0.00    -0.397 N 
+ATOM     17  C6  NUD d   1     -13.436  12.506  -7.601  0.00  0.00     0.094 A 
+ATOM     18  H   NUD d   1     -14.336  13.735  -6.075  0.00  0.00     0.091 H 
+ATOM     19  C5  NUD d   1     -13.316  11.199  -8.145  0.00  0.00     0.011 A 
+ATOM     20  O7  NUD d   1     -12.756  13.515  -8.104  0.00  0.00    -0.196 OA
+ATOM     21  C4  NUD d   1     -14.045  10.159  -7.576  0.00  0.00    -0.061 A 
+ATOM     22  H   NUD d   1     -12.480  10.981  -7.465  0.00  0.00     0.056 H 
+ATOM     23  H   NUD d   1     -13.988   9.155  -7.994  0.00  0.00     0.081 H 
+ATOM     24  H   NUD d   1     -15.727  12.887  -4.356  0.00  0.00     0.156 HD
+ATOM     25  H   NUD d   1     -16.218  11.172  -4.333  0.00  0.00     0.156 HD
+BRANCH  19  26
+ATOM     26  C8  NUD d   1     -12.387  10.982  -9.353  0.00  0.00    -0.064 C 
+ATOM     27  H   NUD d   1     -12.409   9.922  -9.647  0.00  0.00     0.028 H 
+ATOM     28  H   NUD d   1     -11.360  11.265  -9.081  0.00  0.00     0.028 H 
+ATOM     29  H   NUD d   1     -12.728  11.603 -10.194  0.00  0.00     0.028 H 
+ENDBRANCH  19  26
+ENDBRANCH  12  13
+ENDBRANCH   1  11
+BRANCH   4  30
+ATOM     30  S17 NUD d   1     -18.998   4.353  -3.326  0.00  0.00     0.264 S 
+ATOM     31  O18 NUD d   1     -19.623   3.635  -4.389  0.00  0.00    -0.200 OA
+ATOM     32  O19 NUD d   1     -19.961   5.078  -2.443  0.00  0.00    -0.200 OA
+BRANCH  30  33
+ATOM     33  N20 NUD d   1     -18.055   3.340  -2.486  0.00  0.00    -0.264 N 
+ATOM     34  H   NUD d   1     -17.866   2.437  -2.871  0.00  0.00     0.180 HD
+BRANCH  33  35
+ATOM     35  C21 NUD d   1     -17.501   3.661  -1.270  0.00  0.00     0.136 A 
+ATOM     36  N22 NUD d   1     -16.846   2.675  -0.657  0.00  0.00    -0.243 NA
+ATOM     37  C23 NUD d   1     -16.161   2.779   0.516  0.00  0.00     0.004 A 
+ATOM     38  C24 NUD d   1     -16.267   4.004   1.179  0.00  0.00    -0.066 A 
+ATOM     39  H   NUD d   1     -15.570   1.961   0.911  0.00  0.00     0.114 H 
+ATOM     40  C25 NUD d   1     -16.937   5.073   0.554  0.00  0.00    -0.078 A 
+ATOM     41  H   NUD d   1     -15.837   4.130   2.166  0.00  0.00     0.085 H 
+ATOM     42  C26 NUD d   1     -17.573   4.861  -0.655  0.00  0.00    -0.038 A 
+ATOM     43  H   NUD d   1     -16.954   6.053   1.016  0.00  0.00     0.083 H 
+ATOM     44  H   NUD d   1     -18.135   5.666  -1.114  0.00  0.00     0.089 H 
+ENDBRANCH  33  35
+ENDBRANCH  30  33
+ENDBRANCH   4  30
+TORSDOF 6

@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAG_1  and  NAF_2 
+REMARK    2  A    between atoms: NAF_2  and  CAK_3 
+REMARK    3  A    between atoms: NAF_2  and  CAE_4 
+REMARK    4  A    between atoms: CAD_7  and  CAC_8 
+ROOT
+ATOM      1  CAE XP1 d   1     -17.769 -42.306 -19.786  0.00  0.00     0.029 A 
+ATOM      2  CAJ XP1 d   1     -17.452 -42.565 -21.118  0.00  0.00    -0.057 A 
+ATOM      3  CAI XP1 d   1     -16.599 -43.626 -21.451  0.00  0.00    -0.068 A 
+ATOM      4  CAD XP1 d   1     -16.040 -44.424 -20.435  0.00  0.00     0.002 A 
+ATOM      5  CAA XP1 d   1     -16.330 -44.180 -19.084  0.00  0.00    -0.068 A 
+ATOM      6  CAB XP1 d   1     -17.204 -43.127 -18.780  0.00  0.00    -0.057 A 
+ATOM      7  H7  XP1 d   1     -17.868 -41.942 -21.902  0.00  0.00     0.086 H 
+ATOM      8  H8  XP1 d   1     -16.370 -43.832 -22.490  0.00  0.00     0.085 H 
+ATOM      9  H10 XP1 d   1     -15.892 -44.787 -18.300  0.00  0.00     0.085 H 
+ATOM     10  H11 XP1 d   1     -17.455 -42.935 -17.743  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NAF XP1 d   1     -18.606 -41.277 -19.438  0.00  0.00    -0.390 N 
+BRANCH  11  12
+ATOM     12  CAG XP1 d   1     -19.247 -40.362 -20.419  0.00  0.00    -0.019 C 
+ATOM     13  H1  XP1 d   1     -19.867 -39.628 -19.884  0.00  0.00     0.056 H 
+ATOM     14  H2  XP1 d   1     -19.879 -40.945 -21.106  0.00  0.00     0.056 H 
+ATOM     15  H3  XP1 d   1     -18.469 -39.837 -20.993  0.00  0.00     0.056 H 
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CAK XP1 d   1     -18.875 -41.049 -18.007  0.00  0.00    -0.019 C 
+ATOM     17  H4  XP1 d   1     -18.336 -41.799 -17.409  0.00  0.00     0.056 H 
+ATOM     18  H5  XP1 d   1     -19.955 -41.137 -17.818  0.00  0.00     0.056 H 
+ATOM     19  H6  XP1 d   1     -18.534 -40.042 -17.726  0.00  0.00     0.056 H 
+ENDBRANCH  11  16
+ENDBRANCH   1  11
+BRANCH   4  20
+ATOM     20  CAC XP1 d   1     -15.101 -45.565 -20.811  0.00  0.00     0.118 C 
+ATOM     21  OAH XP1 d   1     -14.640 -46.300 -19.935  0.00  0.00    -0.301 OA
+ATOM     22  H9  XP1 d   1     -14.837 -45.731 -21.855  0.00  0.00     0.151 H 
+ENDBRANCH   4  20
+TORSDOF 4

@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_6  and  C4_7 
+REMARK    2  A    between atoms: C1_9  and  C6_10 
+ROOT
+ATOM      1  C12 ODK d   1      39.182 -19.024  11.851  0.00  0.00    -0.053 A 
+ATOM      2  C14 ODK d   1      39.467 -20.190  12.536  0.00  0.00    -0.079 A 
+ATOM      3  C13 ODK d   1      39.835 -20.100  13.868  0.00  0.00    -0.066 A 
+ATOM      4  C11 ODK d   1      39.903 -18.850  14.476  0.00  0.00     0.003 A 
+ATOM      5  N8  ODK d   1      39.614 -17.740  13.807  0.00  0.00    -0.259 NA
+ATOM      6  C7  ODK d   1      39.269 -17.799  12.505  0.00  0.00     0.086 A 
+ATOM      7  H   ODK d   1      38.890 -19.064  10.802  0.00  0.00     0.087 H 
+ATOM      8  H   ODK d   1      39.404 -21.158  12.039  0.00  0.00     0.083 H 
+ATOM      9  H   ODK d   1      40.069 -21.001  14.435  0.00  0.00     0.085 H 
+ATOM     10  H   ODK d   1      40.200 -18.781  15.523  0.00  0.00     0.114 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C4  ODK d   1      38.952 -16.637  11.813  0.00  0.00     0.108 A 
+ATOM     12  C2  ODK d   1      39.394 -15.393  12.035  0.00  0.00    -0.017 A 
+ATOM     13  C1  ODK d   1      38.750 -14.663  11.117  0.00  0.00     0.129 A 
+ATOM     14  H   ODK d   1      40.109 -15.055  12.785  0.00  0.00     0.091 H 
+ATOM     15  N5  ODK d   1      37.957 -15.445  10.389  0.00  0.00    -0.271 N 
+ATOM     16  N3  ODK d   1      38.074 -16.604  10.807  0.00  0.00    -0.172 NA
+ATOM     17  H   ODK d   1      37.358 -15.142   9.621  0.00  0.00     0.189 HD
+BRANCH  13  18
+ATOM     18  C6  ODK d   1      38.877 -13.152  10.883  0.00  0.00     0.228 C 
+ATOM     19  O10 ODK d   1      38.790 -12.695   9.740  0.00  0.00    -0.643 OA
+ATOM     20  O9  ODK d   1      39.078 -12.384  11.827  0.00  0.00    -0.643 OA
+ENDBRANCH  13  18
+ENDBRANCH   6  11
+TORSDOF 2

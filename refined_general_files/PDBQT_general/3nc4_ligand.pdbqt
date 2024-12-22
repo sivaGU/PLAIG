@@ -1,0 +1,78 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  NAL_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: CAM_13  and  NAN_14 
+REMARK    8  A    between atoms: NAP_16  and  CAQ_17 
+REMARK    9  A    between atoms: CAQ_17  and  CAR_18 
+REMARK   10  A    between atoms: CAS_19  and  OAX_24 
+ROOT
+ATOM      1  C1  26O d   1      33.464  22.807  27.849  0.00  0.00     0.133 C 
+ATOM      2  C2  26O d   1      33.817  23.080  26.382  0.00  0.00     0.104 C 
+ATOM      3  C3  26O d   1      32.699  22.521  25.485  0.00  0.00     0.091 C 
+ATOM      4  C4  26O d   1      32.434  21.041  25.794  0.00  0.00     0.089 C 
+ATOM      5  C5  26O d   1      32.241  20.831  27.304  0.00  0.00     0.088 C 
+ATOM      6  O5  26O d   1      33.359  21.385  28.009  0.00  0.00    -0.354 OA
+ATOM      7  H1  26O d   1      32.520  23.304  28.117  0.00  0.00     0.122 H 
+ATOM      8  H2  26O d   1      34.755  22.558  26.141  0.00  0.00     0.093 H 
+ATOM      9  H4  26O d   1      31.779  23.091  25.685  0.00  0.00     0.091 H 
+ATOM     10  H6  26O d   1      33.294  20.443  25.459  0.00  0.00     0.091 H 
+ATOM     11  H8  26O d   1      31.330  21.371  27.602  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  NAL 26O d   1      34.550  23.269  28.716  0.00  0.00    -0.336 N 
+ATOM     13  CAM 26O d   1      34.347  23.948  29.857  0.00  0.00     0.216 C 
+ATOM     14  SAO 26O d   1      32.787  24.373  30.389  0.00  0.00    -0.037 SA
+ATOM     15  H12 26O d   1      35.491  23.069  28.445  0.00  0.00     0.164 HD
+BRANCH  13  16
+ATOM     16  NAN 26O d   1      35.419  24.296  30.571  0.00  0.00    -0.125 NA
+ATOM     17  NAP 26O d   1      35.330  24.927  31.637  0.00  0.00    -0.185 NA
+BRANCH  17  18
+ATOM     18  CAQ 26O d   1      36.382  25.224  32.280  0.00  0.00     0.061 C 
+ATOM     19  H13 26O d   1      37.004  25.806  31.584  0.00  0.00     0.077 H 
+ATOM     20  H14 26O d   1      36.877  24.267  32.502  0.00  0.00     0.077 H 
+BRANCH  18  21
+ATOM     21  CAR 26O d   1      36.384  25.987  33.559  0.00  0.00    -0.004 A 
+ATOM     22  CAS 26O d   1      35.213  26.444  34.188  0.00  0.00     0.073 A 
+ATOM     23  CAT 26O d   1      35.321  27.173  35.374  0.00  0.00    -0.050 A 
+ATOM     24  CAU 26O d   1      36.566  27.433  35.945  0.00  0.00    -0.080 A 
+ATOM     25  H15 26O d   1      34.424  27.542  35.858  0.00  0.00     0.087 H 
+ATOM     26  CAV 26O d   1      37.728  26.988  35.315  0.00  0.00    -0.082 A 
+ATOM     27  H16 26O d   1      36.631  27.981  36.878  0.00  0.00     0.083 H 
+ATOM     28  CAW 26O d   1      37.633  26.269  34.128  0.00  0.00    -0.072 A 
+ATOM     29  H17 26O d   1      38.699  27.201  35.748  0.00  0.00     0.083 H 
+ATOM     30  H18 26O d   1      38.536  25.923  33.638  0.00  0.00     0.084 H 
+BRANCH  22  31
+ATOM     31  OAX 26O d   1      33.953  26.209  33.681  0.00  0.00    -0.360 OA
+ATOM     32  H19 26O d   1      34.025  25.706  32.878  0.00  0.00     0.217 HD
+ENDBRANCH  22  31
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  13  16
+ENDBRANCH   1  12
+BRANCH   2  33
+ATOM     33  O2  26O d   1      34.011  24.476  26.160  0.00  0.00    -0.389 OA
+ATOM     34  H3  26O d   1      33.213  24.944  26.376  0.00  0.00     0.210 HD
+ENDBRANCH   2  33
+BRANCH   3  35
+ATOM     35  O3  26O d   1      33.032  22.665  24.101  0.00  0.00    -0.390 OA
+ATOM     36  H5  26O d   1      33.153  23.585  23.900  0.00  0.00     0.210 HD
+ENDBRANCH   3  35
+BRANCH   5  37
+ATOM     37  C6  26O d   1      32.078  19.372  27.727  0.00  0.00     0.043 C 
+ATOM     38  H9  26O d   1      31.137  18.979  27.316  0.00  0.00     0.078 H 
+ATOM     39  H10 26O d   1      32.051  19.314  28.825  0.00  0.00     0.078 H 
+BRANCH  37  40
+ATOM     40  O6  26O d   1      33.173  18.582  27.239  0.00  0.00    -0.398 OA
+ATOM     41  H11 26O d   1      33.987  18.918  27.594  0.00  0.00     0.209 HD
+ENDBRANCH  37  40
+ENDBRANCH   5  37
+BRANCH   4  42
+ATOM     42  O4  26O d   1      31.266  20.622  25.087  0.00  0.00    -0.390 OA
+ATOM     43  H7  26O d   1      30.524  21.146  25.365  0.00  0.00     0.210 HD
+ENDBRANCH   4  42
+TORSDOF 10

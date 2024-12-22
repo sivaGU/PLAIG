@@ -1,0 +1,53 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C2_4  and  O2_3 
+REMARK    3  A    between atoms: O2_3  and  PAM_9 
+REMARK    4  A    between atoms: C3_5  and  O3_12 
+REMARK    5  A    between atoms: C5_6  and  C6_7 
+REMARK    6  A    between atoms: C6_7  and  O6_15 
+REMARK    7  A    between atoms: C4_13  and  O4_14 
+ROOT
+ATOM      1  C1  ALX d   1     -16.253 -27.487  17.155  0.00  0.00     0.157 C 
+ATOM      2  C2  ALX d   1     -15.535 -27.714  18.459  0.00  0.00     0.126 C 
+ATOM      3  C3  ALX d   1     -14.075 -28.029  18.268  0.00  0.00     0.093 C 
+ATOM      4  C5  ALX d   1     -14.645 -28.691  15.958  0.00  0.00     0.089 C 
+ATOM      5  C4  ALX d   1     -13.856 -29.049  17.189  0.00  0.00     0.090 C 
+ATOM      6  O5  ALX d   1     -15.991 -28.508  16.261  0.00  0.00    -0.349 OA
+ATOM      7  H1  ALX d   1     -17.333 -27.487  17.364  0.00  0.00     0.133 H 
+ATOM      8  H3  ALX d   1     -15.998 -28.588  18.941  0.00  0.00     0.096 H 
+ATOM      9  H4  ALX d   1     -13.580 -27.099  17.951  0.00  0.00     0.091 H 
+ATOM     10  H5  ALX d   1     -14.246 -27.745  15.562  0.00  0.00     0.090 H 
+ATOM     11  H9  ALX d   1     -14.181 -30.036  17.549  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   2  12
+ATOM     12  O2  ALX d   1     -15.701 -26.631  19.303  0.00  0.00    -0.270 OA
+BRANCH  12  13
+ATOM     13  PAM ALX d   1     -16.655 -26.662  20.555  0.00  0.00     0.422 P 
+ATOM     14  OAN ALX d   1     -17.325 -25.339  20.731  0.00  0.00    -0.617 OA
+ATOM     15  OAO ALX d   1     -17.726 -27.695  20.509  0.00  0.00    -0.617 OA
+ATOM     16  OAP ALX d   1     -15.901 -26.943  21.819  0.00  0.00    -0.617 OA
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+BRANCH   1  17
+ATOM     17  O1  ALX d   1     -15.930 -26.262  16.593  0.00  0.00    -0.368 OA
+ATOM     18  H2  ALX d   1     -16.448 -26.128  15.808  0.00  0.00     0.212 HD
+ENDBRANCH   1  17
+BRANCH   3  19
+ATOM     19  O3  ALX d   1     -13.469 -28.445  19.455  0.00  0.00    -0.390 OA
+ATOM     20  H8  ALX d   1     -12.552 -28.633  19.292  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   5  21
+ATOM     21  O4  ALX d   1     -12.508 -29.090  16.890  0.00  0.00    -0.390 OA
+ATOM     22  H10 ALX d   1     -12.018 -29.316  17.672  0.00  0.00     0.210 HD
+ENDBRANCH   5  21
+BRANCH   4  23
+ATOM     23  C6  ALX d   1     -14.513 -29.737  14.897  0.00  0.00     0.043 C 
+ATOM     24  H6  ALX d   1     -13.445 -29.819  14.647  0.00  0.00     0.078 H 
+ATOM     25  H7  ALX d   1     -15.070 -29.385  14.016  0.00  0.00     0.078 H 
+BRANCH  23  26
+ATOM     26  O6  ALX d   1     -14.965 -31.002  15.191  0.00  0.00    -0.398 OA
+ATOM     27  H11 ALX d   1     -14.488 -31.341  15.939  0.00  0.00     0.209 HD
+ENDBRANCH  23  26
+ENDBRANCH   4  23
+TORSDOF 7

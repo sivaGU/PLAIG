@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_9  and  C1'_10 
+REMARK    2  A    between atoms: C2'_12  and  O2'_13 
+REMARK    3  A    between atoms: C3'_14  and  O3'_15 
+REMARK    4  A    between atoms: C4'_16  and  C5'_17 
+REMARK    5  A    between atoms: C5'_17  and  O5'_18 
+REMARK    6  A    between atoms: O5'_18  and  P_19 
+ROOT
+ATOM      1  C1' NUP d   1       8.449 -25.826 -24.284  0.00  0.00     0.143 C 
+ATOM      2  O4' NUP d   1       7.755 -26.391 -25.404  0.00  0.00    -0.353 OA
+ATOM      3  C2' NUP d   1       9.207 -26.993 -23.636  0.00  0.00     0.105 C 
+ATOM      4  C3' NUP d   1       9.486 -27.855 -24.867  0.00  0.00     0.091 C 
+ATOM      5  C4' NUP d   1       8.233 -27.686 -25.724  0.00  0.00     0.089 C 
+ATOM      6  H5  NUP d   1       9.168 -25.078 -24.648  0.00  0.00     0.123 H 
+ATOM      7  H6  NUP d   1       8.541 -27.521 -22.938  0.00  0.00     0.093 H 
+ATOM      8  H8  NUP d   1       9.671 -28.908 -24.608  0.00  0.00     0.091 H 
+ATOM      9  H10 NUP d   1       8.506 -27.745 -26.788  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  N1  NUP d   1       7.559 -25.165 -23.312  0.00  0.00    -0.257 N 
+ATOM     11  C2  NUP d   1       6.589 -25.866 -22.573  0.00  0.00     0.332 A 
+ATOM     12  N2  NUP d   1       5.817 -25.196 -21.687  0.00  0.00    -0.278 N 
+ATOM     13  O2  NUP d   1       6.430 -27.096 -22.729  0.00  0.00    -0.246 OA
+ATOM     14  C4  NUP d   1       5.962 -23.877 -21.496  0.00  0.00     0.232 A 
+ATOM     15  H1  NUP d   1       5.125 -25.694 -21.165  0.00  0.00     0.173 HD
+ATOM     16  O4  NUP d   1       5.227 -23.330 -20.672  0.00  0.00    -0.273 OA
+ATOM     17  C5  NUP d   1       6.873 -23.095 -22.207  0.00  0.00     0.064 A 
+ATOM     18  C6  NUP d   1       7.672 -23.765 -23.112  0.00  0.00     0.113 A 
+ATOM     19  H2  NUP d   1       7.532 -22.601 -21.478  0.00  0.00     0.059 H 
+ATOM     20  H3  NUP d   1       6.303 -22.334 -22.761  0.00  0.00     0.059 H 
+ATOM     21  N3  NUP d   1       8.570 -23.061 -23.829  0.00  0.00    -0.287 NA
+ATOM     22  H4  NUP d   1       9.163 -23.531 -24.495  0.00  0.00     0.188 HD
+ENDBRANCH   1  10
+BRANCH   3  23
+ATOM     23  O2' NUP d   1      10.412 -26.670 -22.917  0.00  0.00    -0.388 OA
+ATOM     24  H7  NUP d   1      10.206 -26.073 -22.207  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+BRANCH   5  25
+ATOM     25  C5' NUP d   1       7.134 -28.707 -25.448  0.00  0.00     0.059 C 
+ATOM     26  H11 NUP d   1       6.170 -28.335 -25.826  0.00  0.00     0.079 H 
+ATOM     27  H12 NUP d   1       7.056 -28.894 -24.367  0.00  0.00     0.079 H 
+BRANCH  25  28
+ATOM     28  O5' NUP d   1       7.492 -29.898 -26.122  0.00  0.00    -0.280 OA
+BRANCH  28  29
+ATOM     29  P   NUP d   1       6.605 -31.248 -26.085  0.00  0.00     0.422 P 
+ATOM     30  O1P NUP d   1       5.515 -31.204 -27.151  0.00  0.00    -0.617 OA
+ATOM     31  O2P NUP d   1       7.642 -32.315 -26.327  0.00  0.00    -0.617 OA
+ATOM     32  O3P NUP d   1       6.003 -31.275 -24.699  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH   5  25
+BRANCH   4  33
+ATOM     33  O3' NUP d   1      10.604 -27.284 -25.558  0.00  0.00    -0.390 OA
+ATOM     34  H9  NUP d   1      10.797 -27.804 -26.329  0.00  0.00     0.210 HD
+ENDBRANCH   4  33
+TORSDOF 6

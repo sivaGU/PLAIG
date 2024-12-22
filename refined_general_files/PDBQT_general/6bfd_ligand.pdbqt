@@ -1,0 +1,116 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_1  and  S16_15 
+REMARK       I    between atoms: C2_5  and  N1_2 
+REMARK    2  A    between atoms: N1_2  and  C20_19 
+REMARK    3  A    between atoms: C4_4  and  C2_5 
+REMARK    4  A    between atoms: C8_8  and  N10_10 
+REMARK    5  A    between atoms: N10_10  and  C11_11 
+REMARK    6  A    between atoms: C11_11  and  C13_12 
+REMARK    7  A    between atoms: C11_11  and  C14_13 
+REMARK    8  A    between atoms: C14_13  and  C15_14 
+REMARK    9  A    between atoms: S16_15  and  C19_18 
+REMARK   10  A    between atoms: C20_19  and  C22_20 
+REMARK   11  A    between atoms: C20_19  and  C31_27 
+REMARK   12  A    between atoms: C22_20  and  O24_21 
+REMARK   13  A    between atoms: C22_20  and  C25_22 
+REMARK   14  A    between atoms: C31_27  and  C32_28 
+ROOT
+ATOM      1  N1  DJS d   1      24.017  55.942  89.382  0.00  0.00    -0.349 N 
+ATOM      2  C2  DJS d   1      24.144  57.311  89.323  0.00  0.00     0.252 C 
+ATOM      3  O3  DJS d   1      23.217  58.096  89.187  0.00  0.00    -0.268 OA
+ATOM      4  H1  DJS d   1      24.795  55.411  89.718  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C20 DJS d   1      22.825  55.228  88.987  0.00  0.00     0.043 C 
+ATOM      6  H17 DJS d   1      22.069  55.968  88.684  0.00  0.00     0.077 H 
+BRANCH   5   7
+ATOM      7  C22 DJS d   1      22.248  54.425  90.162  0.00  0.00     0.082 C 
+ATOM      8  H18 DJS d   1      23.028  53.723  90.490  0.00  0.00     0.089 H 
+BRANCH   7   9
+ATOM      9  O24 DJS d   1      21.098  53.667  89.758  0.00  0.00    -0.391 OA
+ATOM     10  H19 DJS d   1      21.345  53.062  89.069  0.00  0.00     0.210 HD
+ENDBRANCH   7   9
+BRANCH   7  11
+ATOM     11  C25 DJS d   1      21.852  55.282  91.367  0.00  0.00     0.128 C 
+ATOM     12  C27 DJS d   1      20.803  56.328  91.045  0.00  0.00    -0.034 C 
+ATOM     13  C28 DJS d   1      20.090  56.519  92.364  0.00  0.00    -0.041 C 
+ATOM     14  H21 DJS d   1      20.110  55.967  90.271  0.00  0.00     0.036 H 
+ATOM     15  H22 DJS d   1      21.271  57.266  90.710  0.00  0.00     0.036 H 
+ATOM     16  C29 DJS d   1      20.282  55.235  93.135  0.00  0.00     0.082 C 
+ATOM     17  H23 DJS d   1      19.019  56.706  92.195  0.00  0.00     0.035 H 
+ATOM     18  H24 DJS d   1      20.528  57.364  92.915  0.00  0.00     0.035 H 
+ATOM     19  N30 DJS d   1      21.275  54.432  92.408  0.00  0.00    -0.068 N 
+ATOM     20  H25 DJS d   1      19.330  54.688  93.198  0.00  0.00     0.075 H 
+ATOM     21  H26 DJS d   1      20.646  55.456  94.149  0.00  0.00     0.075 H 
+ATOM     22  H27 DJS d   1      21.997  54.124  93.040  0.00  0.00     0.277 HD
+ATOM     23  H28 DJS d   1      20.830  53.630  91.990  0.00  0.00     0.277 HD
+ATOM     24  H20 DJS d   1      22.754  55.782  91.750  0.00  0.00     0.088 H 
+ENDBRANCH   7  11
+ENDBRANCH   5   7
+BRANCH   5  25
+ATOM     25  C31 DJS d   1      23.125  54.327  87.766  0.00  0.00    -0.020 C 
+ATOM     26  H29 DJS d   1      22.166  54.001  87.337  0.00  0.00     0.043 H 
+ATOM     27  H30 DJS d   1      23.687  53.449  88.118  0.00  0.00     0.043 H 
+BRANCH  25  28
+ATOM     28  C32 DJS d   1      23.922  54.988  86.680  0.00  0.00    -0.056 A 
+ATOM     29  C33 DJS d   1      25.035  54.329  86.183  0.00  0.00    -0.077 A 
+ATOM     30  C34 DJS d   1      25.782  54.882  85.161  0.00  0.00    -0.082 A 
+ATOM     31  H31 DJS d   1      25.322  53.371  86.600  0.00  0.00     0.084 H 
+ATOM     32  C35 DJS d   1      25.437  56.123  84.632  0.00  0.00    -0.083 A 
+ATOM     33  H32 DJS d   1      26.640  54.348  84.769  0.00  0.00     0.083 H 
+ATOM     34  C36 DJS d   1      24.330  56.785  85.138  0.00  0.00    -0.082 A 
+ATOM     35  H33 DJS d   1      26.026  56.565  83.836  0.00  0.00     0.083 H 
+ATOM     36  C37 DJS d   1      23.569  56.222  86.151  0.00  0.00    -0.077 A 
+ATOM     37  H34 DJS d   1      24.056  57.754  84.737  0.00  0.00     0.083 H 
+ATOM     38  H35 DJS d   1      22.698  56.745  86.530  0.00  0.00     0.084 H 
+ENDBRANCH  25  28
+ENDBRANCH   5  25
+ENDBRANCH   1   5
+BRANCH   2  39
+ATOM     39  C4  DJS d   1      25.544  57.720  89.576  0.00  0.00     0.038 A 
+ATOM     40  C5  DJS d   1      25.843  58.636  90.582  0.00  0.00    -0.029 A 
+ATOM     41  C6  DJS d   1      27.202  58.835  90.780  0.00  0.00     0.154 A 
+ATOM     42  H2  DJS d   1      25.081  59.148  91.159  0.00  0.00     0.089 H 
+ATOM     43  N7  DJS d   1      28.216  58.210  90.174  0.00  0.00    -0.220 NA
+ATOM     44  C8  DJS d   1      27.898  57.315  89.227  0.00  0.00     0.126 A 
+ATOM     45  C9  DJS d   1      26.566  57.078  88.893  0.00  0.00    -0.024 A 
+ATOM     46  H3  DJS d   1      26.327  56.386  88.093  0.00  0.00     0.090 H 
+BRANCH  41  47
+ATOM     47  S16 DJS d   1      27.875  59.926  92.021  0.00  0.00     0.189 S 
+ATOM     48  O17 DJS d   1      28.782  59.189  92.903  0.00  0.00    -0.222 OA
+ATOM     49  O18 DJS d   1      28.527  60.988  91.239  0.00  0.00    -0.222 OA
+BRANCH  47  50
+ATOM     50  C19 DJS d   1      26.520  60.641  92.769  0.00  0.00     0.021 C 
+ATOM     51  H14 DJS d   1      26.858  61.334  93.554  0.00  0.00     0.049 H 
+ATOM     52  H15 DJS d   1      25.892  59.857  93.217  0.00  0.00     0.049 H 
+ATOM     53  H16 DJS d   1      25.936  61.194  92.018  0.00  0.00     0.049 H 
+ENDBRANCH  47  50
+ENDBRANCH  41  47
+BRANCH  44  54
+ATOM     54  N10 DJS d   1      28.990  56.662  88.638  0.00  0.00    -0.370 N 
+ATOM     55  H4  DJS d   1      29.954  56.949  88.858  0.00  0.00     0.161 HD
+BRANCH  54  56
+ATOM     56  C11 DJS d   1      28.731  55.557  87.698  0.00  0.00     0.007 C 
+ATOM     57  H5  DJS d   1      27.738  55.112  87.860  0.00  0.00     0.071 H 
+BRANCH  56  58
+ATOM     58  C13 DJS d   1      28.875  56.133  86.303  0.00  0.00    -0.057 C 
+ATOM     59  H6  DJS d   1      28.690  55.344  85.559  0.00  0.00     0.030 H 
+ATOM     60  H7  DJS d   1      29.893  56.528  86.173  0.00  0.00     0.030 H 
+ATOM     61  H8  DJS d   1      28.146  56.945  86.165  0.00  0.00     0.030 H 
+ENDBRANCH  56  58
+BRANCH  56  62
+ATOM     62  C14 DJS d   1      29.835  54.530  87.848  0.00  0.00    -0.050 C 
+ATOM     63  H9  DJS d   1      30.798  55.062  87.868  0.00  0.00     0.035 H 
+ATOM     64  H10 DJS d   1      29.803  53.862  86.975  0.00  0.00     0.035 H 
+BRANCH  62  65
+ATOM     65  C15 DJS d   1      29.742  53.684  89.088  0.00  0.00    -0.075 C 
+ATOM     66  H11 DJS d   1      30.581  52.972  89.110  0.00  0.00     0.027 H 
+ATOM     67  H12 DJS d   1      28.791  53.130  89.084  0.00  0.00     0.027 H 
+ATOM     68  H13 DJS d   1      29.786  54.330  89.977  0.00  0.00     0.027 H 
+ENDBRANCH  62  65
+ENDBRANCH  56  62
+ENDBRANCH  54  56
+ENDBRANCH  44  54
+ENDBRANCH   2  39
+TORSDOF 14

@@ -1,0 +1,25 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O1P_2 
+REMARK    2  A    between atoms: O1P_2  and  C2_6 
+REMARK    3  A    between atoms: C2_6  and  C1_7 
+ROOT
+ATOM      1  C2  PGA d   1      15.279   4.854  19.133  0.00  0.00     0.112 C 
+ATOM      2  H1  PGA d   1      15.519   3.898  19.622  0.00  0.00     0.092 H 
+ATOM      3  H2  PGA d   1      15.189   5.643  19.894  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  O1P PGA d   1      14.066   4.734  18.433  0.00  0.00    -0.272 OA
+BRANCH   4   5
+ATOM      5  P   PGA d   1      13.188   3.387  18.461  0.00  0.00     0.422 P 
+ATOM      6  O2P PGA d   1      13.522   2.581  17.228  0.00  0.00    -0.617 OA
+ATOM      7  O3P PGA d   1      11.730   3.774  18.451  0.00  0.00    -0.617 OA
+ATOM      8  O4P PGA d   1      13.456   2.572  19.703  0.00  0.00    -0.617 OA
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1   9
+ATOM      9  C1  PGA d   1      16.371   5.212  18.161  0.00  0.00     0.198 C 
+ATOM     10  O1  PGA d   1      17.372   4.482  18.097  0.00  0.00    -0.646 OA
+ATOM     11  O2  PGA d   1      16.298   6.219  17.418  0.00  0.00    -0.646 OA
+ENDBRANCH   1   9
+TORSDOF 3

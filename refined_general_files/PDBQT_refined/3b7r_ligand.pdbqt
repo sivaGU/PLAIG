@@ -1,0 +1,97 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  N1_3 
+REMARK    3  A    between atoms: C2_2  and  P4_4 
+REMARK    4  A    between atoms: P4_4  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  C8_8 
+REMARK    6  A    between atoms: C8_8  and  C10_9 
+REMARK    7  A    between atoms: C8_8  and  C9_17 
+REMARK       I    between atoms: C10_9  and  N24_11 
+REMARK    8  A    between atoms: N24_11  and  C25_12 
+REMARK    9  A    between atoms: C25_12  and  C26_13 
+REMARK   10  A    between atoms: C25_12  and  C27_14 
+REMARK   11  A    between atoms: C9_17  and  C11_18 
+REMARK   12  A    between atoms: C14_21  and  C17_24 
+ROOT
+ATOM      1  C8  BIR d   1      34.719   6.699   1.761  0.00  0.00     0.036 C 
+ATOM      2  H10 BIR d   1      34.018   6.825   2.599  0.00  0.00     0.056 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C7  BIR d   1      34.531   5.320   1.162  0.00  0.00     0.021 C 
+ATOM      4  H8  BIR d   1      33.476   5.228   0.863  0.00  0.00     0.050 H 
+ATOM      5  H9  BIR d   1      35.172   5.255   0.270  0.00  0.00     0.050 H 
+BRANCH   3   6
+ATOM      6  P4  BIR d   1      34.926   3.899   2.228  0.00  0.00     0.137 P 
+ATOM      7  O6  BIR d   1      36.396   3.675   2.634  0.00  0.00    -0.666 OA
+ATOM      8  O5  BIR d   1      34.040   4.082   3.517  0.00  0.00    -0.666 OA
+BRANCH   6   9
+ATOM      9  C2  BIR d   1      34.217   2.364   1.443  0.00  0.00     0.170 C 
+ATOM     10  H4  BIR d   1      34.893   2.045   0.636  0.00  0.00     0.100 H 
+BRANCH   9  11
+ATOM     11  C3  BIR d   1      32.825   2.614   0.813  0.00  0.00    -0.041 C 
+ATOM     12  H1  BIR d   1      32.452   1.681   0.365  0.00  0.00     0.031 H 
+ATOM     13  H2  BIR d   1      32.908   3.387   0.035  0.00  0.00     0.031 H 
+ATOM     14  H3  BIR d   1      32.125   2.952   1.592  0.00  0.00     0.031 H 
+ENDBRANCH   9  11
+BRANCH   9  15
+ATOM     15  N1  BIR d   1      34.182   1.322   2.445  0.00  0.00    -0.066 N 
+ATOM     16  H5  BIR d   1      33.801   0.480   2.041  0.00  0.00     0.275 HD
+ATOM     17  H6  BIR d   1      33.603   1.617   3.216  0.00  0.00     0.275 HD
+ATOM     18  H7  BIR d   1      35.117   1.143   2.776  0.00  0.00     0.275 HD
+ENDBRANCH   9  15
+ENDBRANCH   6   9
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  19
+ATOM     19  C10 BIR d   1      34.403   7.659   0.647  0.00  0.00     0.223 C 
+ATOM     20  O23 BIR d   1      35.026   7.596  -0.391  0.00  0.00    -0.273 OA
+ATOM     21  N24 BIR d   1      33.188   8.285   0.706  0.00  0.00    -0.347 N 
+ATOM     22  H11 BIR d   1      32.630   8.185   1.530  0.00  0.00     0.163 HD
+BRANCH  21  23
+ATOM     23  C25 BIR d   1      32.693   9.077  -0.373  0.00  0.00     0.092 C 
+ATOM     24  H12 BIR d   1      32.476   8.428  -1.234  0.00  0.00     0.089 H 
+BRANCH  23  25
+ATOM     25  C26 BIR d   1      31.426   9.811   0.046  0.00  0.00    -0.048 C 
+ATOM     26  H13 BIR d   1      31.058  10.416  -0.795  0.00  0.00     0.030 H 
+ATOM     27  H14 BIR d   1      31.648  10.468   0.900  0.00  0.00     0.030 H 
+ATOM     28  H15 BIR d   1      30.657   9.079   0.336  0.00  0.00     0.030 H 
+ENDBRANCH  23  25
+BRANCH  23  29
+ATOM     29  C27 BIR d   1      33.768  10.138  -0.767  0.00  0.00     0.196 C 
+ATOM     30  O28 BIR d   1      33.941  10.205  -2.088  0.00  0.00    -0.646 OA
+ATOM     31  O29 BIR d   1      34.397  10.846   0.016  0.00  0.00    -0.646 OA
+ENDBRANCH  23  29
+ENDBRANCH  21  23
+ENDBRANCH   1  19
+BRANCH   1  32
+ATOM     32  C9  BIR d   1      36.137   7.032   2.249  0.00  0.00    -0.029 C 
+ATOM     33  H16 BIR d   1      36.831   6.940   1.401  0.00  0.00     0.041 H 
+ATOM     34  H17 BIR d   1      36.417   6.312   3.032  0.00  0.00     0.041 H 
+BRANCH  32  35
+ATOM     35  C11 BIR d   1      36.248   8.432   2.816  0.00  0.00    -0.057 A 
+ATOM     36  C12 BIR d   1      36.389   9.561   1.982  0.00  0.00    -0.076 A 
+ATOM     37  C13 BIR d   1      36.311  10.872   2.449  0.00  0.00    -0.072 A 
+ATOM     38  H18 BIR d   1      36.567   9.401   0.925  0.00  0.00     0.084 H 
+ATOM     39  C14 BIR d   1      36.159  11.073   3.825  0.00  0.00    -0.026 A 
+ATOM     40  H19 BIR d   1      36.367  11.712   1.766  0.00  0.00     0.084 H 
+ATOM     41  C15 BIR d   1      35.960   9.961   4.636  0.00  0.00    -0.072 A 
+ATOM     42  C16 BIR d   1      36.017   8.650   4.158  0.00  0.00    -0.076 A 
+ATOM     43  H20 BIR d   1      35.751  10.119   5.688  0.00  0.00     0.084 H 
+ATOM     44  H21 BIR d   1      35.881   7.814   4.834  0.00  0.00     0.084 H 
+BRANCH  39  45
+ATOM     45  C17 BIR d   1      36.068  12.461   4.341  0.00  0.00    -0.026 A 
+ATOM     46  C18 BIR d   1      35.207  12.798   5.403  0.00  0.00    -0.072 A 
+ATOM     47  C19 BIR d   1      35.120  14.130   5.846  0.00  0.00    -0.082 A 
+ATOM     48  H22 BIR d   1      34.610  12.029   5.880  0.00  0.00     0.084 H 
+ATOM     49  C20 BIR d   1      35.864  15.166   5.219  0.00  0.00    -0.083 A 
+ATOM     50  H23 BIR d   1      34.473  14.371   6.682  0.00  0.00     0.083 H 
+ATOM     51  C21 BIR d   1      36.705  14.825   4.140  0.00  0.00    -0.082 A 
+ATOM     52  H24 BIR d   1      35.787  16.192   5.561  0.00  0.00     0.083 H 
+ATOM     53  C22 BIR d   1      36.777  13.509   3.673  0.00  0.00    -0.072 A 
+ATOM     54  H25 BIR d   1      37.304  15.594   3.666  0.00  0.00     0.083 H 
+ATOM     55  H26 BIR d   1      37.375  13.281   2.798  0.00  0.00     0.084 H 
+ENDBRANCH  39  45
+ENDBRANCH  32  35
+ENDBRANCH   1  32
+TORSDOF 12

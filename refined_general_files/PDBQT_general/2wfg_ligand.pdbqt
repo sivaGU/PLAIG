@@ -1,0 +1,85 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: ND_36  and  CZ_7 
+REMARK    2  A    between atoms: O5'_22  and  P_8 
+REMARK    3  A    between atoms: C1'_30  and  N9_12 
+REMARK    4  A    between atoms: C6_16  and  N6_17 
+REMARK    5  A    between atoms: C5'_23  and  O5'_22 
+REMARK    6  A    between atoms: C4'_24  and  C5'_23 
+REMARK    7  A    between atoms: CK_35  and  CF_34 
+REMARK    8  A    between atoms: CK_35  and  ND_36 
+ROOT
+ATOM      1  CB  ZZB d   1      16.529   0.393  10.071  0.00  0.00     0.030 A 
+ATOM      2  CG  ZZB d   1      17.360  -0.600   9.711  0.00  0.00    -0.029 A 
+ATOM      3  CD1 ZZB d   1      17.688  -1.115   8.458  0.00  0.00    -0.035 A 
+ATOM      4  CD2 ZZB d   1      17.958  -1.137  10.847  0.00  0.00     0.016 A 
+ATOM      5  CE1 ZZB d   1      18.605  -2.158   8.342  0.00  0.00     0.143 A 
+ATOM      6  CE2 ZZB d   1      18.874  -2.187  10.751  0.00  0.00    -0.050 A 
+ATOM      7  CZ  ZZB d   1      19.204  -2.701   9.491  0.00  0.00     0.067 A 
+ATOM      8  C4' ZZB d   1      18.780  -1.280  14.818  0.00  0.00     0.088 C 
+ATOM      9  O4' ZZB d   1      17.734  -2.236  15.259  0.00  0.00    -0.353 OA
+ATOM     10  C3' ZZB d   1      18.024  -0.076  14.232  0.00  0.00     0.080 C 
+ATOM     11  O3' ZZB d   1      18.405   0.188  12.889  0.00  0.00    -0.385 OA
+ATOM     12  C2' ZZB d   1      16.585  -0.566  14.126  0.00  0.00     0.093 C 
+ATOM     13  O2' ZZB d   1      16.596  -1.249  12.875  0.00  0.00    -0.383 OA
+ATOM     14  C1' ZZB d   1      16.609  -1.453  15.357  0.00  0.00     0.138 C 
+ATOM     15  F   ZZB d   1      18.895  -2.641   7.106  0.00  0.00    -0.204 F 
+ATOM     16  O1  ZZB d   1      16.510   0.597  11.427  0.00  0.00    -0.391 OA
+ATOM     17  B   ZZB d   1      17.371  -0.370  12.036  0.00  0.00     0.647 B 
+ATOM     18  H1  ZZB d   1      15.512   0.140   9.738  0.00  0.00     0.079 H 
+ATOM     19  H2  ZZB d   1      16.855   1.321   9.579  0.00  0.00     0.079 H 
+ATOM     20  H3  ZZB d   1      17.227  -0.702   7.568  0.00  0.00     0.089 H 
+ATOM     21  H5  ZZB d   1      19.326  -2.601  11.645  0.00  0.00     0.086 H 
+ATOM     22  H12 ZZB d   1      19.405  -1.741  14.039  0.00  0.00     0.090 H 
+ATOM     23  H13 ZZB d   1      18.132   0.817  14.865  0.00  0.00     0.088 H 
+ATOM     24  H15 ZZB d   1      15.805   0.209  14.168  0.00  0.00     0.091 H 
+ATOM     25  H17 ZZB d   1      15.881  -2.203  15.014  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   7  26
+ATOM     26  ND  ZZB d   1      20.076  -3.712   9.346  0.00  0.00    -0.388 N 
+ATOM     27  H24 ZZB d   1      20.291  -4.033   8.391  0.00  0.00     0.159 HD
+BRANCH  26  28
+ATOM     28  CK  ZZB d   1      20.744  -4.390  10.474  0.00  0.00    -0.011 C 
+ATOM     29  H22 ZZB d   1      21.149  -3.644  11.174  0.00  0.00     0.063 H 
+ATOM     30  H23 ZZB d   1      20.026  -5.036  11.001  0.00  0.00     0.063 H 
+BRANCH  28  31
+ATOM     31  CF  ZZB d   1      21.891  -5.243   9.893  0.00  0.00    -0.061 C 
+ATOM     32  H19 ZZB d   1      22.411  -5.763  10.711  0.00  0.00     0.029 H 
+ATOM     33  H20 ZZB d   1      22.601  -4.591   9.363  0.00  0.00     0.029 H 
+ATOM     34  H21 ZZB d   1      21.479  -5.983   9.191  0.00  0.00     0.029 H 
+ENDBRANCH  28  31
+ENDBRANCH  26  28
+ENDBRANCH   7  26
+BRANCH  14  35
+ATOM     35  N9  ZZB d   1      15.949  -1.184  16.491  0.00  0.00    -0.294 N 
+ATOM     36  C8  ZZB d   1      15.848   0.017  17.055  0.00  0.00     0.071 A 
+ATOM     37  N7  ZZB d   1      15.167  -0.084  18.188  0.00  0.00    -0.236 NA
+ATOM     38  H6  ZZB d   1      16.261   0.939  16.649  0.00  0.00     0.144 H 
+ATOM     39  C5  ZZB d   1      14.848  -1.364  18.353  0.00  0.00     0.149 A 
+ATOM     40  C6  ZZB d   1      14.150  -2.042  19.343  0.00  0.00     0.155 A 
+ATOM     41  C4  ZZB d   1      15.356  -2.075  17.277  0.00  0.00     0.167 A 
+ATOM     42  N1  ZZB d   1      13.985  -3.364  19.224  0.00  0.00    -0.222 NA
+ATOM     43  C2  ZZB d   1      14.484  -4.021  18.185  0.00  0.00     0.091 A 
+ATOM     44  N3  ZZB d   1      15.159  -3.401  17.223  0.00  0.00    -0.222 NA
+ATOM     45  H9  ZZB d   1      14.337  -5.093  18.119  0.00  0.00     0.146 H 
+BRANCH  40  46
+ATOM     46  N6  ZZB d   1      13.650  -1.380  20.392  0.00  0.00    -0.382 N 
+ATOM     47  H7  ZZB d   1      13.133  -1.889  21.123  0.00  0.00     0.157 HD
+ATOM     48  H8  ZZB d   1      13.782  -0.361  20.469  0.00  0.00     0.157 HD
+ENDBRANCH  40  46
+ENDBRANCH  14  35
+BRANCH   8  49
+ATOM     49  C5' ZZB d   1      19.673  -0.874  15.985  0.00  0.00     0.059 C 
+ATOM     50  H10 ZZB d   1      20.640  -0.509  15.608  0.00  0.00     0.079 H 
+ATOM     51  H11 ZZB d   1      19.186  -0.082  16.573  0.00  0.00     0.079 H 
+BRANCH  49  52
+ATOM     52  O5' ZZB d   1      19.874  -2.045  16.807  0.00  0.00    -0.280 OA
+BRANCH  52  53
+ATOM     53  P   ZZB d   1      21.234  -2.268  17.625  0.00  0.00     0.422 P 
+ATOM     54  O1P ZZB d   1      21.157  -3.752  18.258  0.00  0.00    -0.617 OA
+ATOM     55  O2P ZZB d   1      22.395  -2.318  16.472  0.00  0.00    -0.617 OA
+ATOM     56  O3P ZZB d   1      21.445  -1.185  18.626  0.00  0.00    -0.617 OA
+ENDBRANCH  52  53
+ENDBRANCH  49  52
+ENDBRANCH   8  49
+TORSDOF 8

@@ -1,0 +1,81 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  SD_7 
+REMARK    6  A    between atoms: SD_7  and  CE_8 
+REMARK    7  A    between atoms: N_9  and  CA_10 
+REMARK    8  A    between atoms: CA_10  and  C_11 
+REMARK    9  A    between atoms: CA_10  and  CB_13 
+REMARK   10  A    between atoms: CB_13  and  CG_14 
+REMARK   11  A    between atoms: CG_14  and  CD1_15 
+REMARK   12  A    between atoms: CG_14  and  CD2_16 
+ROOT
+ATOM      1  C   MET d   1      12.250  -6.447  11.412  0.00  0.00     0.249 C 
+ATOM      2  O   MET d   1      12.530  -7.234  10.510  0.00  0.00    -0.271 OA
+ATOM      3  H12 MET d   1      10.912  -5.193  12.238  0.00  0.00     0.163 HD
+ATOM      4  N   LEU d   1      11.133  -5.736  11.428  0.00  0.00    -0.345 N 
+ENDROOT
+BRANCH   4   5
+ATOM      5  CA  LEU d   1      10.222  -5.726  10.300  0.00  0.00     0.096 C 
+ATOM      6  H13 MET d   1      10.081  -6.747   9.915  0.00  0.00     0.089 H 
+BRANCH   5   7
+ATOM      7  C   LEU d   1      10.840  -4.840   9.232  0.00  0.00     0.196 C 
+ATOM      8  O   LEU d   1      11.503  -3.853   9.575  0.00  0.00    -0.646 OA
+ATOM      9  OXT LEU d   1      10.695  -5.072   8.022  0.00  0.00    -0.646 OA
+ENDBRANCH   5   7
+BRANCH   5  10
+ATOM     10  CB  LEU d   1       8.877  -5.144  10.728  0.00  0.00    -0.034 C 
+ATOM     11  H14 MET d   1       8.508  -4.552   9.878  0.00  0.00     0.037 H 
+ATOM     12  H15 MET d   1       9.082  -4.477  11.578  0.00  0.00     0.037 H 
+BRANCH  10  13
+ATOM     13  CG  LEU d   1       7.725  -6.053  11.157  0.00  0.00    -0.059 C 
+ATOM     14  H16 MET d   1       7.141  -6.291  10.256  0.00  0.00     0.038 H 
+BRANCH  13  15
+ATOM     15  CD1 LEU d   1       8.213  -7.362  11.729  0.00  0.00    -0.073 C 
+ATOM     16  H17 MET d   1       7.350  -7.979  12.022  0.00  0.00     0.028 H 
+ATOM     17  H18 MET d   1       8.840  -7.166  12.611  0.00  0.00     0.028 H 
+ATOM     18  H19 MET d   1       8.805  -7.896  10.971  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  CD2 LEU d   1       6.795  -5.316  12.127  0.00  0.00    -0.073 C 
+ATOM     20  H20 MET d   1       6.464  -4.371  11.671  0.00  0.00     0.028 H 
+ATOM     21  H21 MET d   1       7.334  -5.103  13.062  0.00  0.00     0.028 H 
+ATOM     22  H22 MET d   1       5.919  -5.945  12.344  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  10  13
+ENDBRANCH   5  10
+ENDBRANCH   4   5
+BRANCH   1  23
+ATOM     23  CA  MET d   1      13.197  -6.217  12.575  0.00  0.00     0.176 C 
+ATOM     24  H4  MET d   1      12.629  -5.757  13.397  0.00  0.00     0.099 H 
+BRANCH  23  25
+ATOM     25  N   MET d   1      13.789  -7.453  13.075  0.00  0.00    -0.066 N 
+ATOM     26  H1  MET d   1      14.407  -7.243  13.843  0.00  0.00     0.275 HD
+ATOM     27  H2  MET d   1      14.311  -7.898  12.337  0.00  0.00     0.275 HD
+ATOM     28  H3  MET d   1      13.059  -8.072  13.391  0.00  0.00     0.275 HD
+ENDBRANCH  23  25
+BRANCH  23  29
+ATOM     29  CB  MET d   1      14.292  -5.245  12.129  0.00  0.00    -0.022 C 
+ATOM     30  H5  MET d   1      13.873  -4.567  11.371  0.00  0.00     0.037 H 
+ATOM     31  H6  MET d   1      15.117  -5.823  11.688  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  CG  MET d   1      14.840  -4.414  13.273  0.00  0.00    -0.021 C 
+ATOM     33  H7  MET d   1      14.982  -5.071  14.143  0.00  0.00     0.049 H 
+ATOM     34  H8  MET d   1      14.105  -3.633  13.519  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  MET d   1      16.423  -3.613  12.895  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  CE  MET d   1      16.353  -3.472  11.113  0.00  0.00    -0.035 C 
+ATOM     37  H9  MET d   1      17.273  -2.992  10.747  0.00  0.00     0.041 H 
+ATOM     38  H10 MET d   1      15.483  -2.863  10.827  0.00  0.00     0.041 H 
+ATOM     39  H11 MET d   1      16.261  -4.474  10.669  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  23  29
+ENDBRANCH   1  23
+TORSDOF 12

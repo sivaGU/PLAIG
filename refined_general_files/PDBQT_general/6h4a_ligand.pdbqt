@@ -1,0 +1,89 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_2  and  C30_12 
+REMARK    2  A    between atoms: C10_21  and  C11_2 
+REMARK    3  A    between atoms: C11_2  and  O13_23 
+REMARK       I    between atoms: C14_3  and  N12_22 
+REMARK       I    between atoms: N15_24  and  C14_3 
+REMARK    4  A    between atoms: C17_4  and  N15_24 
+REMARK    5  A    between atoms: N24_28  and  C20_6 
+REMARK    6  A    between atoms: O13_23  and  C29_11 
+REMARK    7  A    between atoms: C30_12  and  C31_31 
+REMARK    8  A    between atoms: C30_12  and  O32_32 
+REMARK    9  A    between atoms: N12_22  and  C9_20 
+REMARK   10  A    between atoms: O32_32  and  C33_33 
+ROOT
+ATOM      1  C2  FNB d   1     -24.931 -17.407  20.203  0.00  0.00     0.154 A 
+ATOM      2  N1  FNB d   1     -26.212 -17.193  20.320  0.00  0.00    -0.213 N 
+ATOM      3  N3  FNB d   1     -26.782 -18.377  20.563  0.00  0.00    -0.153 NA
+ATOM      4  C4  FNB d   1     -25.900 -19.266  20.636  0.00  0.00     0.150 A 
+ATOM      5  C5  FNB d   1     -24.592 -18.679  20.395  0.00  0.00     0.004 A 
+ATOM      6 CL6  FNB d   1     -26.224 -20.923  20.953  0.00  0.00    -0.060 Cl
+ATOM      7  N7  FNB d   1     -24.049 -16.337  19.841  0.00  0.00    -0.239 NA
+ATOM      8  C8  FNB d   1     -24.522 -15.236  19.441  0.00  0.00     0.032 C 
+ATOM      9  C9  FNB d   1     -26.007 -15.048  19.499  0.00  0.00     0.081 C 
+ATOM     10  C10 FNB d   1     -26.757 -16.041  20.055  0.00  0.00     0.098 C 
+ATOM     11  H10 FNB d   1     -23.610 -19.149  20.377  0.00  0.00     0.094 H 
+ATOM     12  H11 FNB d   1     -23.870 -14.448  19.066  0.00  0.00     0.118 H 
+ENDROOT
+BRANCH   9  13
+ATOM     13  N12 FNB d   1     -26.507 -13.838  19.152  0.00  0.00    -0.305 N 
+ATOM     14  C14 FNB d   1     -26.201 -13.102  18.076  0.00  0.00     0.325 C 
+ATOM     15  N15 FNB d   1     -26.788 -11.882  17.991  0.00  0.00    -0.307 N 
+ATOM     16  O16 FNB d   1     -25.433 -13.523  17.214  0.00  0.00    -0.247 OA
+ATOM     17  H13 FNB d   1     -27.394 -11.621  18.742  0.00  0.00     0.170 HD
+ATOM     18  H12 FNB d   1     -27.186 -13.447  19.774  0.00  0.00     0.171 HD
+BRANCH  15  19
+ATOM     19  C17 FNB d   1     -26.627 -10.934  16.936  0.00  0.00     0.055 A 
+ATOM     20  C18 FNB d   1     -27.258  -9.715  17.168  0.00  0.00     0.030 A 
+ATOM     21  N19 FNB d   1     -27.202  -8.780  16.214  0.00  0.00    -0.236 NA
+ATOM     22  H2  FNB d   1     -27.782  -9.529  18.099  0.00  0.00     0.118 H 
+ATOM     23  C20 FNB d   1     -26.552  -8.927  15.028  0.00  0.00     0.193 A 
+ATOM     24  C21 FNB d   1     -25.857 -10.117  14.733  0.00  0.00     0.085 A 
+ATOM     25  C22 FNB d   1     -25.898 -11.128  15.726  0.00  0.00    -0.031 A 
+ATOM     26 CL2  FNB d   1     -24.921 -10.342  13.227  0.00  0.00    -0.080 Cl
+ATOM     27  H3  FNB d   1     -25.369 -12.060  15.563  0.00  0.00     0.089 H 
+BRANCH  23  28
+ATOM     28  N24 FNB d   1     -26.654  -7.847  14.216  0.00  0.00    -0.131 N 
+ATOM     29  N25 FNB d   1     -27.313  -7.866  13.047  0.00  0.00    -0.159 NA
+ATOM     30  C26 FNB d   1     -27.294  -6.706  12.524  0.00  0.00     0.042 A 
+ATOM     31  C27 FNB d   1     -26.630  -5.821  13.487  0.00  0.00     0.042 A 
+ATOM     32  H4  FNB d   1     -27.693  -6.425  11.550  0.00  0.00     0.119 H 
+ATOM     33  N28 FNB d   1     -26.293  -6.565  14.459  0.00  0.00    -0.159 NA
+ATOM     34  H5  FNB d   1     -26.461  -4.750  13.389  0.00  0.00     0.119 H 
+ENDBRANCH  23  28
+ENDBRANCH  15  19
+ENDBRANCH   9  13
+BRANCH  10  35
+ATOM     35  C11 FNB d   1     -28.268 -16.039  20.281  0.00  0.00     0.106 C 
+ATOM     36  H1  FNB d   1     -28.456 -16.698  21.141  0.00  0.00     0.097 H 
+BRANCH  35  37
+ATOM     37  C30 FNB d   1     -29.020 -16.673  19.069  0.00  0.00     0.065 C 
+ATOM     38  H9  FNB d   1     -28.594 -17.675  18.910  0.00  0.00     0.087 H 
+BRANCH  37  39
+ATOM     39  C31 FNB d   1     -30.536 -16.883  19.321  0.00  0.00    -0.050 C 
+ATOM     40  H14 FNB d   1     -30.997 -17.331  18.429  0.00  0.00     0.031 H 
+ATOM     41  H15 FNB d   1     -31.011 -15.913  19.531  0.00  0.00     0.031 H 
+ATOM     42  H16 FNB d   1     -30.675 -17.554  20.182  0.00  0.00     0.031 H 
+ENDBRANCH  37  39
+BRANCH  37  43
+ATOM     43  O32 FNB d   1     -28.730 -15.897  17.893  0.00  0.00    -0.388 OA
+BRANCH  43  44
+ATOM     44  C33 FNB d   1     -28.875 -16.676  16.694  0.00  0.00     0.005 C 
+ATOM     45  H17 FNB d   1     -28.645 -16.049  15.820  0.00  0.00     0.066 H 
+ATOM     46  H18 FNB d   1     -29.909 -17.045  16.619  0.00  0.00     0.066 H 
+ATOM     47  H19 FNB d   1     -28.182 -17.530  16.725  0.00  0.00     0.066 H 
+ENDBRANCH  43  44
+ENDBRANCH  37  43
+ENDBRANCH  35  37
+BRANCH  35  48
+ATOM     48  O13 FNB d   1     -28.774 -14.734  20.658  0.00  0.00    -0.382 OA
+BRANCH  48  49
+ATOM     49  C29 FNB d   1     -28.350 -14.378  21.990  0.00  0.00     0.005 C 
+ATOM     50  H6  FNB d   1     -28.748 -13.386  22.248  0.00  0.00     0.066 H 
+ATOM     51  H7  FNB d   1     -27.251 -14.355  22.031  0.00  0.00     0.066 H 
+ATOM     52  H8  FNB d   1     -28.728 -15.122  22.706  0.00  0.00     0.066 H 
+ENDBRANCH  48  49
+ENDBRANCH  35  48
+ENDBRANCH  10  35
+TORSDOF 10

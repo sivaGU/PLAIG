@@ -1,0 +1,63 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CA_2  and  C_10 
+REMARK    4  A    between atoms: CB_3  and  CG_4 
+REMARK    5  A    between atoms: CG_4  and  CD_5 
+REMARK    6  A    between atoms: CD_5  and  CE_6 
+REMARK    7  A    between atoms: CE_6  and  NZ_7 
+REMARK    8  A    between atoms: NZ_7  and  CH1_8 
+REMARK    9  A    between atoms: NZ_7  and  CH2_9 
+ROOT
+ATOM      1  CD  MLY d   1      -4.936   2.195  10.082  0.00  0.00    -0.042 C 
+ATOM      2  H9  MLY d   1      -5.639   2.647  10.797  0.00  0.00     0.035 H 
+ATOM      3  H10 MLY d   1      -4.229   2.960   9.729  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CG  MLY d   1      -5.735   1.706   8.883  0.00  0.00    -0.061 C 
+ATOM      5  H7  MLY d   1      -5.063   1.101   8.257  0.00  0.00     0.033 H 
+ATOM      6  H8  MLY d   1      -6.553   1.075   9.260  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  CB  MLY d   1      -6.352   2.786   7.995  0.00  0.00    -0.029 C 
+ATOM      8  H5  MLY d   1      -5.858   3.725   8.284  0.00  0.00     0.036 H 
+ATOM      9  H6  MLY d   1      -6.066   2.523   6.966  0.00  0.00     0.036 H 
+BRANCH   7  10
+ATOM     10  CA  MLY d   1      -7.854   3.108   7.939  0.00  0.00     0.182 C 
+ATOM     11  H4  MLY d   1      -8.296   2.747   8.880  0.00  0.00     0.101 H 
+BRANCH  10  12
+ATOM     12  N   MLY d   1      -8.625   2.506   6.859  0.00  0.00    -0.065 N 
+ATOM     13  H1  MLY d   1      -8.528   1.503   6.896  0.00  0.00     0.275 HD
+ATOM     14  H2  MLY d   1      -8.283   2.844   5.973  0.00  0.00     0.275 HD
+ATOM     15  H3  MLY d   1      -9.597   2.754   6.961  0.00  0.00     0.275 HD
+ENDBRANCH  10  12
+BRANCH  10  16
+ATOM     16  C   MLY d   1      -7.996   4.617   7.888  0.00  0.00     0.204 C 
+ATOM     17  O   MLY d   1      -7.984   5.251   8.977  0.00  0.00    -0.646 OA
+ATOM     18  O   MLY d   1      -8.122   5.219   6.788  0.00  0.00    -0.646 OA
+ENDBRANCH  10  16
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  CE  MLY d   1      -4.141   1.126  10.819  0.00  0.00     0.083 C 
+ATOM     20  H11 MLY d   1      -3.171   1.578  11.074  0.00  0.00     0.075 H 
+ATOM     21  H12 MLY d   1      -3.986   0.304  10.105  0.00  0.00     0.075 H 
+BRANCH  19  22
+ATOM     22  NZ  MLY d   1      -4.644   0.528  12.028  0.00  0.00    -0.079 N 
+ATOM     23  H13 MLY d   1      -4.338   1.036  12.843  0.00  0.00     0.278 HD
+BRANCH  22  24
+ATOM     24  CH1 MLY d   1      -4.231  -0.853  12.086  0.00  0.00     0.066 C 
+ATOM     25  H14 MLY d   1      -4.614  -1.312  13.009  0.00  0.00     0.068 H 
+ATOM     26  H15 MLY d   1      -3.132  -0.908  12.078  0.00  0.00     0.068 H 
+ATOM     27  H16 MLY d   1      -4.631  -1.392  11.215  0.00  0.00     0.068 H 
+ENDBRANCH  22  24
+BRANCH  22  28
+ATOM     28  CH2 MLY d   1      -6.077   0.520  11.908  0.00  0.00     0.066 C 
+ATOM     29  H17 MLY d   1      -6.447   1.555  11.860  0.00  0.00     0.068 H 
+ATOM     30  H18 MLY d   1      -6.515   0.015  12.781  0.00  0.00     0.068 H 
+ATOM     31  H19 MLY d   1      -6.365  -0.016  10.992  0.00  0.00     0.068 H 
+ENDBRANCH  22  28
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+TORSDOF 9

@@ -1,0 +1,87 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBD_1  and  OBC_2 
+REMARK    2  A    between atoms: OBC_2  and  CAZ_3 
+REMARK    3  A    between atoms: CAW_8  and  NAK_9 
+REMARK    4  A    between atoms: NAK_9  and  CAJ_10 
+REMARK    5  A    between atoms: CAH_12  and  NAL_13 
+REMARK       I    between atoms: NAL_13  and  CAM_14 
+REMARK       I    between atoms: CAM_14  and  NAN_16 
+REMARK    6  A    between atoms: NAN_16  and  CAP_17 
+REMARK    7  A    between atoms: CAP_17  and  CAQ_18 
+REMARK    8  A    between atoms: CAE_21  and  CAC_22 
+REMARK       I    between atoms: CAC_22  and  NAB_24 
+REMARK    9  A    between atoms: NAB_24  and  CAA_25 
+ROOT
+ATOM      1  CAJ D0K d   1      61.910  28.697  63.420  0.00  0.00     0.053 A 
+ATOM      2  CAI D0K d   1      62.395  29.548  62.396  0.00  0.00    -0.012 A 
+ATOM      3  CAH D0K d   1      62.786  30.876  62.674  0.00  0.00     0.133 A 
+ATOM      4  NAG D0K d   1      62.689  31.330  63.932  0.00  0.00    -0.242 NA
+ATOM      5  CAF D0K d   1      62.223  30.527  64.970  0.00  0.00     0.022 A 
+ATOM      6  CAE D0K d   1      61.835  29.188  64.759  0.00  0.00     0.076 A 
+ATOM      7  H9  D0K d   1      62.467  29.173  61.382  0.00  0.00     0.092 H 
+ATOM      8  H17 D0K d   1      62.157  30.943  65.969  0.00  0.00     0.116 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  NAK D0K d   1      61.528  27.400  63.239  0.00  0.00    -0.355 N 
+ATOM     10  H8  D0K d   1      61.319  26.849  64.084  0.00  0.00     0.166 HD
+BRANCH   9  11
+ATOM     11  CAW D0K d   1      61.401  26.781  62.058  0.00  0.00     0.032 A 
+ATOM     12  CBB D0K d   1      60.146  26.273  61.735  0.00  0.00    -0.055 A 
+ATOM     13  CBA D0K d   1      59.941  25.578  60.542  0.00  0.00    -0.049 A 
+ATOM     14  H5  D0K d   1      59.317  26.419  62.419  0.00  0.00     0.087 H 
+ATOM     15  CAZ D0K d   1      61.002  25.364  59.653  0.00  0.00     0.068 A 
+ATOM     16  H4  D0K d   1      58.953  25.201  60.302  0.00  0.00     0.087 H 
+ATOM     17  CAY D0K d   1      62.271  25.849  59.988  0.00  0.00    -0.049 A 
+ATOM     18  CAX D0K d   1      62.474  26.539  61.191  0.00  0.00    -0.055 A 
+ATOM     19  H6  D0K d   1      63.103  25.690  59.312  0.00  0.00     0.087 H 
+ATOM     20  H7  D0K d   1      63.467  26.887  61.452  0.00  0.00     0.087 H 
+BRANCH  15  21
+ATOM     21  OBC D0K d   1      60.839  24.683  58.476  0.00  0.00    -0.356 OA
+BRANCH  21  22
+ATOM     22  CBD D0K d   1      59.602  24.895  57.763  0.00  0.00     0.010 C 
+ATOM     23  H1  D0K d   1      59.602  24.293  56.843  0.00  0.00     0.066 H 
+ATOM     24  H2  D0K d   1      59.506  25.960  57.505  0.00  0.00     0.066 H 
+ATOM     25  H3  D0K d   1      58.756  24.594  58.399  0.00  0.00     0.066 H 
+ENDBRANCH  21  22
+ENDBRANCH  15  21
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   6  26
+ATOM     26  CAC D0K d   1      61.350  28.418  65.857  0.00  0.00     0.259 C 
+ATOM     27  OAD D0K d   1      60.491  27.568  65.656  0.00  0.00    -0.267 OA
+ATOM     28  NAB D0K d   1      61.859  28.678  67.094  0.00  0.00    -0.322 N 
+ATOM     29  H18 D0K d   1      62.590  29.355  67.175  0.00  0.00     0.169 HD
+BRANCH  28  30
+ATOM     30  CAA D0K d   1      61.426  28.068  68.211  0.00  0.00     0.052 A 
+ATOM     31  CAR D0K d   1      60.065  27.939  68.521  0.00  0.00    -0.054 A 
+ATOM     32  CAS D0K d   1      59.647  27.341  69.706  0.00  0.00    -0.064 A 
+ATOM     33  H19 D0K d   1      59.324  28.312  67.824  0.00  0.00     0.087 H 
+ATOM     34  CAT D0K d   1      60.589  26.882  70.618  0.00  0.00     0.002 A 
+ATOM     35  H20 D0K d   1      58.589  27.234  69.917  0.00  0.00     0.085 H 
+ATOM     36  NAU D0K d   1      61.953  27.023  70.336  0.00  0.00    -0.271 NA
+ATOM     37  H21 D0K d   1      60.270  26.417  71.543  0.00  0.00     0.114 H 
+ATOM     38  CAV D0K d   1      62.368  27.627  69.143  0.00  0.00     0.028 A 
+ATOM     39  H22 D0K d   1      63.426  27.753  68.942  0.00  0.00     0.118 H 
+ENDBRANCH  28  30
+ENDBRANCH   6  26
+BRANCH   3  40
+ATOM     40  NAL D0K d   1      63.250  31.794  61.804  0.00  0.00    -0.293 N 
+ATOM     41  CAM D0K d   1      63.970  31.501  60.690  0.00  0.00     0.321 C 
+ATOM     42  OAO D0K d   1      64.221  30.356  60.312  0.00  0.00    -0.247 OA
+ATOM     43  NAN D0K d   1      64.391  32.564  59.985  0.00  0.00    -0.343 N 
+ATOM     44  H11 D0K d   1      64.166  33.477  60.325  0.00  0.00     0.164 HD
+ATOM     45  H10 D0K d   1      63.051  32.756  61.991  0.00  0.00     0.172 HD
+BRANCH  43  46
+ATOM     46  CAP D0K d   1      65.165  32.454  58.740  0.00  0.00    -0.006 C 
+ATOM     47  H12 D0K d   1      64.486  32.553  57.880  0.00  0.00     0.063 H 
+ATOM     48  H13 D0K d   1      65.660  31.472  58.705  0.00  0.00     0.063 H 
+BRANCH  46  49
+ATOM     49  CAQ D0K d   1      66.222  33.554  58.678  0.00  0.00    -0.061 C 
+ATOM     50  H14 D0K d   1      66.794  33.461  57.743  0.00  0.00     0.029 H 
+ATOM     51  H15 D0K d   1      66.904  33.456  59.536  0.00  0.00     0.029 H 
+ATOM     52  H16 D0K d   1      65.730  34.537  58.711  0.00  0.00     0.029 H 
+ENDBRANCH  46  49
+ENDBRANCH  43  46
+ENDBRANCH   3  40
+TORSDOF 9

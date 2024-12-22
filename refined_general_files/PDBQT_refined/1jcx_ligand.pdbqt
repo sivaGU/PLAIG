@@ -1,0 +1,95 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P1_1  and  O3P_4 
+REMARK    2  A    between atoms: O3P_4  and  C6_6 
+REMARK    3  A    between atoms: C6_6  and  C5_7 
+REMARK    4  A    between atoms: C5_7  and  C4_9 
+REMARK    5  A    between atoms: C5_7  and  O1_8 
+REMARK    6  A    between atoms: C4_9  and  C3_11 
+REMARK    7  A    between atoms: C4_9  and  O4_10 
+REMARK    8  A    between atoms: C3_11  and  C2_13 
+REMARK    9  A    between atoms: C3_11  and  O3_12 
+REMARK   10  A    between atoms: C2_13  and  C1_15 
+REMARK   11  A    between atoms: C2_13  and  O2_14 
+REMARK   12  A    between atoms: C1_15  and  N1_16 
+REMARK   13  A    between atoms: N1_16  and  C9_21 
+REMARK   14  A    between atoms: N1_16  and  C7_17 
+REMARK   15  A    between atoms: C7_17  and  C8_18 
+REMARK   16  A    between atoms: C9_21  and  P2_22 
+ROOT
+ATOM      1  C2  PAI d   1      34.612  52.664  19.904  0.00  0.00     0.086 C 
+ATOM      2  H9  PAI d   1      33.710  52.867  19.308  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C3  PAI d   1      35.766  52.425  18.931  0.00  0.00     0.089 C 
+ATOM      4  H7  PAI d   1      36.694  52.302  19.509  0.00  0.00     0.091 H 
+BRANCH   3   5
+ATOM      5  C4  PAI d   1      35.885  53.704  18.084  0.00  0.00     0.089 C 
+ATOM      6  H5  PAI d   1      36.041  54.544  18.776  0.00  0.00     0.091 H 
+BRANCH   5   7
+ATOM      7  C5  PAI d   1      37.155  53.593  17.228  0.00  0.00     0.084 C 
+ATOM      8  H3  PAI d   1      37.082  52.694  16.598  0.00  0.00     0.090 H 
+BRANCH   7   9
+ATOM      9  C6  PAI d   1      37.197  54.820  16.318  0.00  0.00     0.059 C 
+ATOM     10  H1  PAI d   1      37.157  54.471  15.276  0.00  0.00     0.079 H 
+ATOM     11  H2  PAI d   1      36.310  55.433  16.534  0.00  0.00     0.079 H 
+BRANCH   9  12
+ATOM     12  O3P PAI d   1      38.350  55.648  16.461  0.00  0.00    -0.280 OA
+BRANCH  12  13
+ATOM     13  P1  PAI d   1      39.566  55.805  15.441  0.00  0.00     0.422 P 
+ATOM     14  O4P PAI d   1      39.266  55.166  14.135  0.00  0.00    -0.617 OA
+ATOM     15  O2P PAI d   1      40.716  55.151  16.106  0.00  0.00    -0.617 OA
+ATOM     16  O1P PAI d   1      39.684  57.281  15.343  0.00  0.00    -0.617 OA
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   7   9
+BRANCH   7  17
+ATOM     17  O1  PAI d   1      38.322  53.457  18.046  0.00  0.00    -0.391 OA
+ATOM     18  H4  PAI d   1      38.402  54.217  18.610  0.00  0.00     0.210 HD
+ENDBRANCH   7  17
+ENDBRANCH   5   7
+BRANCH   5  19
+ATOM     19  O4  PAI d   1      34.677  54.002  17.369  0.00  0.00    -0.390 OA
+ATOM     20  H6  PAI d   1      34.798  54.797  16.863  0.00  0.00     0.210 HD
+ENDBRANCH   5  19
+ENDBRANCH   3   5
+BRANCH   3  21
+ATOM     21  O3  PAI d   1      35.592  51.236  18.149  0.00  0.00    -0.390 OA
+ATOM     22  H8  PAI d   1      34.792  51.306  17.641  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  C1  PAI d   1      34.392  51.426  20.765  0.00  0.00     0.111 C 
+ATOM     24  H11 PAI d   1      34.963  51.514  21.701  0.00  0.00     0.080 H 
+ATOM     25  H12 PAI d   1      34.718  50.528  20.220  0.00  0.00     0.080 H 
+BRANCH  23  26
+ATOM     26  N1  PAI d   1      33.057  51.344  21.040  0.00  0.00    -0.047 N 
+ATOM     27  H13 PAI d   1      32.654  52.131  20.556  0.00  0.00     0.281 HD
+BRANCH  26  28
+ATOM     28  C9  PAI d   1      32.454  50.248  20.470  0.00  0.00     0.185 C 
+ATOM     29  H16 PAI d   1      31.398  50.482  20.668  0.00  0.00     0.098 H 
+ATOM     30  H17 PAI d   1      32.791  49.460  21.159  0.00  0.00     0.098 H 
+BRANCH  28  31
+ATOM     31  P2  PAI d   1      32.314  49.429  19.164  0.00  0.00     0.286 P 
+ATOM     32  O7P PAI d   1      30.787  49.442  18.848  0.00  0.00    -0.638 OA
+ATOM     33  O6P PAI d   1      33.037  50.045  18.016  0.00  0.00    -0.638 OA
+ATOM     34  O5P PAI d   1      32.937  48.201  19.649  0.00  0.00    -0.638 OA
+ENDBRANCH  28  31
+ENDBRANCH  26  28
+BRANCH  26  35
+ATOM     35  C7  PAI d   1      32.728  51.557  22.357  0.00  0.00     0.163 C 
+ATOM     36  H14 PAI d   1      33.533  52.191  22.756  0.00  0.00     0.093 H 
+ATOM     37  H15 PAI d   1      32.775  50.565  22.829  0.00  0.00     0.093 H 
+BRANCH  35  38
+ATOM     38  C8  PAI d   1      31.438  52.182  22.871  0.00  0.00     0.199 C 
+ATOM     39  O6  PAI d   1      31.479  53.255  23.376  0.00  0.00    -0.647 OA
+ATOM     40  O5  PAI d   1      30.404  51.487  22.619  0.00  0.00    -0.647 OA
+ENDBRANCH  35  38
+ENDBRANCH  26  35
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+BRANCH   1  41
+ATOM     41  O2  PAI d   1      34.796  53.734  20.826  0.00  0.00    -0.391 OA
+ATOM     42  H10 PAI d   1      34.939  54.542  20.347  0.00  0.00     0.210 HD
+ENDBRANCH   1  41
+TORSDOF 16

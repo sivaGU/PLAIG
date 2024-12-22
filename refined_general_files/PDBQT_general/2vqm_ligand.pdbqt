@@ -1,0 +1,61 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAF_6  and  CAG_7 
+REMARK       I    between atoms: NAO_15  and  CAP_16 
+REMARK    2  A    between atoms: CAP_16  and  CAR_18 
+REMARK    3  A    between atoms: CAV_22  and  CAW_23 
+REMARK       I    between atoms: CAW_23  and  NAX_25 
+REMARK    4  A    between atoms: NAX_25  and  OAZ_26 
+ROOT
+ATOM      1  CAG HA3 d   1      18.147  -5.907  -7.167  0.00  0.00     0.064 A 
+ATOM      2  CAH HA3 d   1      17.787  -4.909  -6.345  0.00  0.00     0.031 A 
+ATOM      3  NAI HA3 d   1      18.409  -5.047  -5.161  0.00  0.00    -0.243 NA
+ATOM      4  CAJ HA3 d   1      19.199  -6.121  -5.168  0.00  0.00     0.124 A 
+ATOM      5  CAK HA3 d   1      20.123  -6.699  -4.048  0.00  0.00     0.053 C 
+ATOM      6  NAL HA3 d   1      19.058  -6.703  -6.459  0.00  0.00    -0.330 N 
+ATOM      7  CAM HA3 d   1      19.776  -7.912  -6.862  0.00  0.00     0.016 C 
+ATOM      8  CAN HA3 d   1      21.004  -8.017  -6.008  0.00  0.00     0.014 C 
+ATOM      9  NAO HA3 d   1      20.606  -7.987  -4.594  0.00  0.00    -0.339 N 
+ATOM     10  CAP HA3 d   1      20.627  -9.159  -3.970  0.00  0.00     0.261 C 
+ATOM     11  OAQ HA3 d   1      21.023 -10.152  -4.600  0.00  0.00    -0.267 OA
+ATOM     12  H6  HA3 d   1      17.095  -4.107  -6.599  0.00  0.00     0.118 H 
+ATOM     13  H7  HA3 d   1      19.555  -6.859  -3.119  0.00  0.00     0.076 H 
+ATOM     14  H8  HA3 d   1      20.966  -6.020  -3.850  0.00  0.00     0.076 H 
+ATOM     15  H9  HA3 d   1      20.061  -7.843  -7.922  0.00  0.00     0.067 H 
+ATOM     16  H10 HA3 d   1      19.138  -8.795  -6.711  0.00  0.00     0.067 H 
+ATOM     17  H11 HA3 d   1      21.675  -7.171  -6.221  0.00  0.00     0.067 H 
+ATOM     18  H12 HA3 d   1      21.525  -8.961  -6.225  0.00  0.00     0.067 H 
+ENDROOT
+BRANCH  10  19
+ATOM     19  CAR HA3 d   1      20.353  -9.382  -2.522  0.00  0.00     0.073 A 
+ATOM     20  SAS HA3 d   1      19.807 -10.842  -1.924  0.00  0.00    -0.079 SA
+ATOM     21  CAV HA3 d   1      19.946 -10.307  -0.335  0.00  0.00     0.075 A 
+ATOM     22  CAU HA3 d   1      20.449  -9.070  -0.300  0.00  0.00    -0.059 A 
+ATOM     23  CAT HA3 d   1      20.699  -8.563  -1.527  0.00  0.00    -0.059 A 
+ATOM     24  H14 HA3 d   1      20.638  -8.525   0.624  0.00  0.00     0.085 H 
+ATOM     25  H13 HA3 d   1      21.140  -7.581  -1.688  0.00  0.00     0.085 H 
+BRANCH  21  26
+ATOM     26  CAW HA3 d   1      19.566 -11.153   0.867  0.00  0.00     0.281 C 
+ATOM     27  OAY HA3 d   1      19.364 -12.358   0.713  0.00  0.00    -0.265 OA
+ATOM     28  NAX HA3 d   1      19.502 -10.507   2.041  0.00  0.00    -0.233 N 
+ATOM     29  H15 HA3 d   1      19.698  -9.528   2.093  0.00  0.00     0.197 HD
+BRANCH  28  30
+ATOM     30  OAZ HA3 d   1      19.166 -11.205   3.160  0.00  0.00    -0.287 OA
+ATOM     31  H16 HA3 d   1      19.801 -11.898   3.302  0.00  0.00     0.244 HD
+ENDBRANCH  28  30
+ENDBRANCH  21  26
+ENDBRANCH  10  19
+BRANCH   1  32
+ATOM     32  CAF HA3 d   1      17.778  -6.152  -8.500  0.00  0.00    -0.008 A 
+ATOM     33  CAA HA3 d   1      17.368  -5.084  -9.304  0.00  0.00    -0.071 A 
+ATOM     34  CAB HA3 d   1      17.023  -5.288 -10.638  0.00  0.00    -0.082 A 
+ATOM     35  H1  HA3 d   1      17.318  -4.086  -8.884  0.00  0.00     0.084 H 
+ATOM     36  CAC HA3 d   1      17.075  -6.570 -11.194  0.00  0.00    -0.083 A 
+ATOM     37  H2  HA3 d   1      16.712  -4.448 -11.249  0.00  0.00     0.083 H 
+ATOM     38  CAD HA3 d   1      17.488  -7.646 -10.402  0.00  0.00    -0.082 A 
+ATOM     39  H3  HA3 d   1      16.798  -6.728 -12.230  0.00  0.00     0.083 H 
+ATOM     40  CAE HA3 d   1      17.838  -7.438  -9.071  0.00  0.00    -0.071 A 
+ATOM     41  H4  HA3 d   1      17.536  -8.643 -10.825  0.00  0.00     0.083 H 
+ATOM     42  H5  HA3 d   1      18.161  -8.277  -8.466  0.00  0.00     0.084 H 
+ENDBRANCH   1  32
+TORSDOF 4

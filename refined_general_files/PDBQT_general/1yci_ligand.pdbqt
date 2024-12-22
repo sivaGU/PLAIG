@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  C2_13 
+REMARK    5  A    between atoms: C2_13  and  C1_15 
+ROOT
+ATOM      1  CB  NDF d   1      18.677  25.085  31.183  0.00  0.00    -0.013 C 
+ATOM      2  H6  NDF d   1      17.799  25.452  31.735  0.00  0.00     0.043 H 
+ATOM      3  H7  NDF d   1      18.546  24.017  30.953  0.00  0.00     0.043 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CG  NDF d   1      19.920  25.254  32.061  0.00  0.00    -0.056 A 
+ATOM      5  CD1 NDF d   1      19.964  26.253  33.016  0.00  0.00    -0.077 A 
+ATOM      6  CE1 NDF d   1      21.092  26.391  33.835  0.00  0.00    -0.082 A 
+ATOM      7  H1  NDF d   1      19.125  26.930  33.131  0.00  0.00     0.084 H 
+ATOM      8  CZ  NDF d   1      22.163  25.529  33.687  0.00  0.00    -0.083 A 
+ATOM      9  H2  NDF d   1      21.125  27.173  34.585  0.00  0.00     0.083 H 
+ATOM     10  CE2 NDF d   1      22.118  24.517  32.717  0.00  0.00    -0.082 A 
+ATOM     11  H3  NDF d   1      23.037  25.635  34.320  0.00  0.00     0.083 H 
+ATOM     12  CD2 NDF d   1      21.004  24.379  31.909  0.00  0.00    -0.077 A 
+ATOM     13  H4  NDF d   1      22.958  23.842  32.600  0.00  0.00     0.083 H 
+ATOM     14  H5  NDF d   1      20.970  23.596  31.160  0.00  0.00     0.084 H 
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  CA  NDF d   1      18.796  25.862  29.871  0.00  0.00     0.100 C 
+ATOM     16  H8  NDF d   1      18.923  26.934  30.083  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  C   NDF d   1      17.521  25.655  29.056  0.00  0.00     0.197 C 
+ATOM     18  O   NDF d   1      17.544  25.049  27.989  0.00  0.00    -0.646 OA
+ATOM     19  OXT NDF d   1      16.444  26.101  29.474  0.00  0.00    -0.646 OA
+ENDBRANCH  15  17
+BRANCH  15  20
+ATOM     20  N   NDF d   1      19.969  25.367  29.136  0.00  0.00    -0.337 N 
+ATOM     21  C2  NDF d   1      21.075  26.094  28.994  0.00  0.00     0.319 C 
+ATOM     22  O2' NDF d   1      21.184  27.241  29.427  0.00  0.00    -0.261 OA
+ATOM     23  H9  NDF d   1      19.935  24.454  28.729  0.00  0.00     0.164 HD
+BRANCH  21  24
+ATOM     24  C1  NDF d   1      22.263  25.498  28.238  0.00  0.00     0.270 C 
+ATOM     25  O1  NDF d   1      22.142  24.400  27.674  0.00  0.00    -0.640 OA
+ATOM     26  O2  NDF d   1      23.332  26.087  28.195  0.00  0.00    -0.640 OA
+ENDBRANCH  21  24
+ENDBRANCH  15  20
+ENDBRANCH   1  15
+TORSDOF 5

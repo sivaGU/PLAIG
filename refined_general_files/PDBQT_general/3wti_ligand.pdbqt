@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N_1  and  C_2 
+REMARK    1  A    between atoms: N_1  and  C1_5 
+REMARK       I    between atoms: C_2  and  N1_3 
+REMARK    2  A    between atoms: N1_3  and  C3_7 
+REMARK    3  A    between atoms: N2_4  and  N5_13 
+REMARK    4  A    between atoms: C1_5  and  C2_6 
+ROOT
+ATOM      1  N   CT4 d   1      30.460 -27.599 -28.569  0.00  0.00    -0.220 N 
+ATOM      2  C   CT4 d   1      29.388 -28.232 -28.078  0.00  0.00     0.693 C 
+ATOM      3  N1  CT4 d   1      29.063 -28.065 -26.798  0.00  0.00    -0.229 N 
+ATOM      4  N2  CT4 d   1      28.723 -28.947 -29.015  0.00  0.00    -0.072 N 
+ATOM      5  H1  CT4 d   1      31.004 -26.984 -27.946  0.00  0.00     0.178 HD
+ATOM      6  H2  CT4 d   1      28.167 -28.457 -26.474  0.00  0.00     0.177 HD
+ATOM      7  H3  CT4 d   1      29.057 -28.955 -29.989  0.00  0.00     0.212 HD
+ENDROOT
+BRANCH   1   8
+ATOM      8  C1  CT4 d   1      30.881 -27.749 -29.945  0.00  0.00     0.040 C 
+ATOM      9  H4  CT4 d   1      30.527 -28.713 -30.339  0.00  0.00     0.073 H 
+ATOM     10  H5  CT4 d   1      31.979 -27.710 -30.005  0.00  0.00     0.073 H 
+BRANCH   8  11
+ATOM     11  C2  CT4 d   1      30.301 -26.648 -30.728  0.00  0.00     0.021 A 
+ATOM     12  S   CT4 d   1      29.845 -26.799 -32.383  0.00  0.00    -0.060 SA
+ATOM     13  C4  CT4 d   1      29.361 -25.152 -32.354  0.00  0.00     0.167 A 
+ATOM     14  N4  CT4 d   1      29.510 -24.524 -31.246  0.00  0.00    -0.240 NA
+ATOM     15 CL   CT4 d   1      28.704 -24.423 -33.758  0.00  0.00    -0.054 Cl
+ATOM     16  C5  CT4 d   1      30.046 -25.388 -30.319  0.00  0.00     0.019 A 
+ATOM     17  H9  CT4 d   1      30.255 -25.069 -29.299  0.00  0.00     0.116 H 
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+BRANCH   3  18
+ATOM     18  C3  CT4 d   1      29.887 -27.368 -25.828  0.00  0.00    -0.005 C 
+ATOM     19  H6  CT4 d   1      29.386 -27.375 -24.849  0.00  0.00     0.057 H 
+ATOM     20  H7  CT4 d   1      30.039 -26.329 -26.155  0.00  0.00     0.057 H 
+ATOM     21  H8  CT4 d   1      30.861 -27.872 -25.745  0.00  0.00     0.057 H 
+ENDBRANCH   3  18
+BRANCH   4  22
+ATOM     22  N5  CT4 d   1      27.634 -29.642 -28.677  0.00  0.00    -0.024 N 
+ATOM     23  O1  CT4 d   1      27.073 -30.255 -29.604  0.00  0.00    -0.516 OA
+ATOM     24  O2  CT4 d   1      27.204 -29.706 -27.510  0.00  0.00    -0.516 OA
+ENDBRANCH   4  22
+TORSDOF 4

@@ -1,0 +1,94 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAG_7 
+REMARK    2  A    between atoms: CAC_3  and  NAZ_19 
+REMARK    3  A    between atoms: NBG_26  and  CAD_4 
+REMARK    4  A    between atoms: CAE_5  and  CAJ_10 
+REMARK    5  A    between atoms: CAJ_10  and  CAK_11 
+REMARK    6  A    between atoms: CAJ_10  and  OAW_16 
+REMARK    7  A    between atoms: CAK_11  and  CAL_12 
+REMARK    8  A    between atoms: CAK_11  and  OAY_18 
+REMARK    9  A    between atoms: CAL_12  and  OAM_13 
+REMARK   10  A    between atoms: OAM_13  and  CAN_14 
+REMARK   11  A    between atoms: OAW_16  and  CAX_17 
+REMARK       I    between atoms: NAZ_19  and  CBA_20 
+REMARK       I    between atoms: CBA_20  and  NBB_21 
+REMARK   12  A    between atoms: CBD_23  and  CBE_24 
+REMARK       I    between atoms: CBD_23  and  NBG_26 
+ROOT
+ATOM      1  CAA LVO d   1      23.460 -21.940  -5.659  0.00  0.00     0.124 C 
+ATOM      2  CAB LVO d   1      23.321 -20.788  -4.706  0.00  0.00    -0.010 C 
+ATOM      3  CAC LVO d   1      24.418 -19.699  -4.733  0.00  0.00     0.051 C 
+ATOM      4  CAD LVO d   1      25.718 -20.088  -5.502  0.00  0.00     0.059 C 
+ATOM      5  CAE LVO d   1      25.824 -21.589  -5.917  0.00  0.00     0.088 C 
+ATOM      6  OAF LVO d   1      24.715 -22.422  -5.778  0.00  0.00    -0.365 OA
+ATOM      7  H1  LVO d   1      23.279 -21.472  -6.638  0.00  0.00     0.100 H 
+ATOM      8  H2  LVO d   1      23.296 -21.204  -3.688  0.00  0.00     0.040 H 
+ATOM      9  H3  LVO d   1      22.362 -20.295  -4.924  0.00  0.00     0.040 H 
+ATOM     10  H4  LVO d   1      24.768 -19.747  -3.691  0.00  0.00     0.076 H 
+ATOM     11  H5  LVO d   1      25.452 -19.663  -6.481  0.00  0.00     0.079 H 
+ATOM     12  H6  LVO d   1      26.335 -21.930  -5.005  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  CAJ LVO d   1      26.929 -21.972  -6.878  0.00  0.00     0.091 C 
+ATOM     14  H7  LVO d   1      27.738 -21.283  -6.594  0.00  0.00     0.091 H 
+BRANCH  13  15
+ATOM     15  CAK LVO d   1      27.580 -23.331  -6.659  0.00  0.00     0.084 C 
+ATOM     16  H8  LVO d   1      26.813 -24.015  -7.051  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  CAL LVO d   1      28.778 -23.662  -7.528  0.00  0.00     0.054 C 
+ATOM     18  H9  LVO d   1      28.391 -23.888  -8.533  0.00  0.00     0.079 H 
+ATOM     19  H10 LVO d   1      29.242 -24.564  -7.102  0.00  0.00     0.079 H 
+BRANCH  17  20
+ATOM     20  OAM LVO d   1      29.784 -22.731  -7.687  0.00  0.00    -0.326 OA
+BRANCH  20  21
+ATOM     21  CAN LVO d   1      29.942 -22.104  -8.825  0.00  0.00     0.206 C 
+ATOM     22  OAV LVO d   1      30.635 -21.108  -9.018  0.00  0.00    -0.276 OA
+ATOM     23  H11 LVO d   1      29.407 -22.504  -9.685  0.00  0.00     0.192 H 
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH  15  17
+BRANCH  15  24
+ATOM     24  OAY LVO d   1      27.693 -23.726  -5.394  0.00  0.00    -0.391 OA
+ATOM     25  H15 LVO d   1      27.804 -24.669  -5.367  0.00  0.00     0.210 HD
+ENDBRANCH  15  24
+ENDBRANCH  13  15
+BRANCH  13  26
+ATOM     26  OAW LVO d   1      26.688 -21.624  -8.161  0.00  0.00    -0.385 OA
+BRANCH  26  27
+ATOM     27  CAX LVO d   1      27.221 -20.559  -8.777  0.00  0.00     0.005 C 
+ATOM     28  H12 LVO d   1      26.856 -20.514  -9.814  0.00  0.00     0.066 H 
+ATOM     29  H13 LVO d   1      28.317 -20.647  -8.778  0.00  0.00     0.066 H 
+ATOM     30  H14 LVO d   1      26.927 -19.642  -8.245  0.00  0.00     0.066 H 
+ENDBRANCH  26  27
+ENDBRANCH  13  26
+ENDBRANCH   5  13
+BRANCH   4  31
+ATOM     31  NBG LVO d   1      26.932 -19.364  -5.304  0.00  0.00    -0.352 N 
+ATOM     32  CBD LVO d   1      27.338 -18.267  -6.048  0.00  0.00     0.214 C 
+ATOM     33  OBF LVO d   1      26.774 -18.007  -6.993  0.00  0.00    -0.274 OA
+ATOM     34  H24 LVO d   1      27.538 -19.672  -4.571  0.00  0.00     0.163 HD
+BRANCH  32  35
+ATOM     35  CBE LVO d   1      28.466 -17.448  -5.601  0.00  0.00    -0.003 C 
+ATOM     36  H21 LVO d   1      28.875 -17.865  -4.669  0.00  0.00     0.040 H 
+ATOM     37  H22 LVO d   1      28.123 -16.418  -5.422  0.00  0.00     0.040 H 
+ATOM     38  H23 LVO d   1      29.247 -17.445  -6.376  0.00  0.00     0.040 H 
+ENDBRANCH  32  35
+ENDBRANCH   4  31
+BRANCH   3  39
+ATOM     39  NAZ LVO d   1      24.051 -18.355  -4.807  0.00  0.00    -0.220 N 
+ATOM     40  CBA LVO d   1      24.705 -17.273  -4.171  0.00  0.00     0.665 C 
+ATOM     41  NBB LVO d   1      24.417 -16.102  -4.526  0.00  0.00    -0.235 N 
+ATOM     42  NBC LVO d   1      25.533 -17.442  -3.218  0.00  0.00    -0.235 N 
+ATOM     43  H17 LVO d   1      24.880 -15.299  -4.077  0.00  0.00     0.174 HD
+ATOM     44  H18 LVO d   1      23.718 -15.945  -5.266  0.00  0.00     0.174 HD
+ATOM     45  H19 LVO d   1      25.781 -18.394  -2.914  0.00  0.00     0.174 HD
+ATOM     46  H20 LVO d   1      25.955 -16.626  -2.752  0.00  0.00     0.174 HD
+ATOM     47  H16 LVO d   1      23.225 -18.129  -5.379  0.00  0.00     0.178 HD
+ENDBRANCH   3  39
+BRANCH   1  48
+ATOM     48  CAG LVO d   1      22.370 -23.002  -5.584  0.00  0.00     0.203 C 
+ATOM     49  OAH LVO d   1      22.616 -24.279  -5.849  0.00  0.00    -0.646 OA
+ATOM     50  OAI LVO d   1      21.321 -22.691  -5.232  0.00  0.00    -0.646 OA
+ENDBRANCH   1  48
+TORSDOF 12

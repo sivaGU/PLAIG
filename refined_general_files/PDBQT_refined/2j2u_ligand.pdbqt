@@ -1,0 +1,77 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_10  and  S4_11 
+REMARK    2  A    between atoms: S4_11  and  N7_14 
+REMARK    3  A    between atoms: N7_14  and  C12_15 
+REMARK    4  A    between atoms: N18_20  and  C21_21 
+REMARK    5  A    between atoms: C21_21  and  C23_22 
+REMARK    6  A    between atoms: C21_21  and  C22_23 
+REMARK       I    between atoms: C22_23  and  N24_25 
+ROOT
+ATOM      1  C12 GSQ d   1       6.190   6.819  22.842  0.00  0.00     0.098 C 
+ATOM      2  C15 GSQ d   1       7.071   6.248  21.733  0.00  0.00     0.244 C 
+ATOM      3  O19 GSQ d   1       8.136   6.726  21.335  0.00  0.00    -0.271 OA
+ATOM      4  C16 GSQ d   1       4.849   6.075  22.718  0.00  0.00    -0.022 C 
+ATOM      5  C20 GSQ d   1       5.051   5.065  21.578  0.00  0.00     0.001 C 
+ATOM      6  N18 GSQ d   1       6.488   5.117  21.286  0.00  0.00    -0.337 N 
+ATOM      7  H7  GSQ d   1       6.652   6.558  23.805  0.00  0.00     0.088 H 
+ATOM      8  H8  GSQ d   1       4.040   6.778  22.471  0.00  0.00     0.039 H 
+ATOM      9  H9  GSQ d   1       4.609   5.554  23.657  0.00  0.00     0.039 H 
+ATOM     10  H10 GSQ d   1       4.465   5.355  20.694  0.00  0.00     0.064 H 
+ATOM     11  H11 GSQ d   1       4.756   4.055  21.898  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   6  12
+ATOM     12  C21 GSQ d   1       7.254   4.043  20.614  0.00  0.00     0.088 C 
+ATOM     13  H12 GSQ d   1       8.319   4.293  20.731  0.00  0.00     0.087 H 
+BRANCH  12  14
+ATOM     14  C23 GSQ d   1       6.997   2.701  21.319  0.00  0.00    -0.049 C 
+ATOM     15  H13 GSQ d   1       7.568   1.907  20.816  0.00  0.00     0.030 H 
+ATOM     16  H14 GSQ d   1       5.924   2.464  21.276  0.00  0.00     0.030 H 
+ATOM     17  H15 GSQ d   1       7.315   2.772  22.370  0.00  0.00     0.030 H 
+ENDBRANCH  12  14
+BRANCH  12  18
+ATOM     18  C22 GSQ d   1       7.000   3.870  19.112  0.00  0.00     0.242 C 
+ATOM     19  O25 GSQ d   1       5.861   4.010  18.674  0.00  0.00    -0.271 OA
+ATOM     20  N24 GSQ d   1       8.052   3.553  18.295  0.00  0.00    -0.346 N 
+ATOM     21  C26 GSQ d   1       9.260   2.789  18.663  0.00  0.00     0.017 C 
+ATOM     22  C27 GSQ d   1       8.020   3.978  16.889  0.00  0.00     0.017 C 
+ATOM     23  C28 GSQ d   1       9.615   1.691  17.648  0.00  0.00     0.034 C 
+ATOM     24  H16 GSQ d   1       9.091   2.318  19.642  0.00  0.00     0.067 H 
+ATOM     25  H17 GSQ d   1      10.107   3.487  18.733  0.00  0.00     0.067 H 
+ATOM     26  O30 GSQ d   1       9.606   2.256  16.337  0.00  0.00    -0.388 OA
+ATOM     27  H18 GSQ d   1       8.874   0.880  17.706  0.00  0.00     0.076 H 
+ATOM     28  H19 GSQ d   1      10.615   1.291  17.871  0.00  0.00     0.076 H 
+ATOM     29  C29 GSQ d   1       8.331   2.788  15.971  0.00  0.00     0.034 C 
+ATOM     30  H20 GSQ d   1       7.558   2.015  16.091  0.00  0.00     0.076 H 
+ATOM     31  H21 GSQ d   1       8.355   3.123  14.924  0.00  0.00     0.076 H 
+ATOM     32  H22 GSQ d   1       8.771   4.766  16.730  0.00  0.00     0.067 H 
+ATOM     33  H23 GSQ d   1       7.021   4.370  16.650  0.00  0.00     0.067 H 
+ENDBRANCH  12  18
+ENDBRANCH   6  12
+BRANCH   1  34
+ATOM     34  N7  GSQ d   1       6.003   8.268  22.850  0.00  0.00    -0.300 N 
+ATOM     35  H6  GSQ d   1       5.509   8.670  22.079  0.00  0.00     0.173 HD
+BRANCH  34  36
+ATOM     36  S4  GSQ d   1       6.531   9.282  24.007  0.00  0.00     0.275 S 
+ATOM     37  O8  GSQ d   1       5.665   9.173  25.139  0.00  0.00    -0.199 OA
+ATOM     38  O9  GSQ d   1       6.608  10.509  23.279  0.00  0.00    -0.199 OA
+BRANCH  36  39
+ATOM     39  C1  GSQ d   1       8.109   8.841  24.592  0.00  0.00     0.150 A 
+ATOM     40  N1  GSQ d   1       8.152   8.199  25.784  0.00  0.00    -0.345 N 
+ATOM     41  C6  GSQ d   1       9.479   7.941  26.083  0.00  0.00     0.043 A 
+ATOM     42  H3  GSQ d   1       7.340   7.947  26.366  0.00  0.00     0.167 HD
+ATOM     43  C11 GSQ d   1      10.090   7.297  27.187  0.00  0.00    -0.055 A 
+ATOM     44  C5  GSQ d   1      10.254   8.482  24.988  0.00  0.00    -0.005 A 
+ATOM     45  C14 GSQ d   1      11.493   7.182  27.233  0.00  0.00    -0.060 A 
+ATOM     46  H2  GSQ d   1       9.482   6.896  27.990  0.00  0.00     0.087 H 
+ATOM     47  C13 GSQ d   1      12.248   7.699  26.151  0.00  0.00     0.035 A 
+ATOM     48  H1  GSQ d   1      11.984   6.709  28.076  0.00  0.00     0.086 H 
+ATOM     49 CL   GSQ d   1      13.985   7.528  26.187  0.00  0.00    -0.084 Cl
+ATOM     50  C10 GSQ d   1      11.642   8.357  25.053  0.00  0.00    -0.050 A 
+ATOM     51  H4  GSQ d   1      12.259   8.765  24.260  0.00  0.00     0.087 H 
+ATOM     52  C2  GSQ d   1       9.372   9.070  24.037  0.00  0.00    -0.032 A 
+ATOM     53  H5  GSQ d   1       9.620   9.575  23.105  0.00  0.00     0.089 H 
+ENDBRANCH  36  39
+ENDBRANCH  34  36
+ENDBRANCH   1  34
+TORSDOF 6

@@ -1,0 +1,75 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_15  and  C10_1 
+REMARK    2  A    between atoms: C10_1  and  C11_16 
+REMARK       I    between atoms: N12_2  and  C13_3 
+REMARK    3  A    between atoms: C11_16  and  N12_2 
+REMARK    4  A    between atoms: C13_3  and  C14_17 
+REMARK    5  A    between atoms: C14_17  and  C15_4 
+REMARK    6  A    between atoms: C02_8  and  O01_7 
+REMARK    7  A    between atoms: C03_9  and  C02_8 
+REMARK    8  A    between atoms: C08_14  and  C06_12 
+REMARK    9  A    between atoms: C08_14  and  C09_15 
+ROOT
+ATOM      1  C10 OJG d   1      23.309  72.941   3.856  0.00  0.00    -0.050 C 
+ATOM      2  H1  OJG d   1      23.504  73.578   2.981  0.00  0.00     0.035 H 
+ATOM      3  H2  OJG d   1      24.117  72.202   3.959  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C09 OJG d   1      21.993  72.180   3.609  0.00  0.00    -0.057 C 
+ATOM      5  H13 OJG d   1      22.117  71.567   2.704  0.00  0.00     0.033 H 
+ATOM      6  H14 OJG d   1      21.196  72.920   3.444  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  C08 OJG d   1      21.559  71.264   4.744  0.00  0.00    -0.010 C 
+ATOM      8  H11 OJG d   1      22.331  70.491   4.876  0.00  0.00     0.044 H 
+ATOM      9  H12 OJG d   1      21.483  71.866   5.661  0.00  0.00     0.044 H 
+BRANCH   7  10
+ATOM     10  C06 OJG d   1      20.206  70.559   4.517  0.00  0.00     0.104 A 
+ATOM     11  N05 OJG d   1      19.655  70.208   3.332  0.00  0.00    -0.352 N 
+ATOM     12  C04 OJG d   1      18.490  69.598   3.618  0.00  0.00     0.004 A 
+ATOM     13  H10 OJG d   1      20.050  70.375   2.395  0.00  0.00     0.166 HD
+ATOM     14  C03 OJG d   1      18.354  69.591   5.013  0.00  0.00     0.075 A 
+ATOM     15  H9  OJG d   1      17.784  69.186   2.899  0.00  0.00     0.114 H 
+ATOM     16  N07 OJG d   1      19.422  70.196   5.500  0.00  0.00    -0.236 NA
+BRANCH  14  17
+ATOM     17  C02 OJG d   1      17.202  69.031   5.857  0.00  0.00     0.058 C 
+ATOM     18  H7  OJG d   1      17.564  68.152   6.410  0.00  0.00     0.083 H 
+ATOM     19  H8  OJG d   1      16.878  69.804   6.569  0.00  0.00     0.083 H 
+BRANCH  17  20
+ATOM     20  O01 OJG d   1      16.091  68.646   5.068  0.00  0.00    -0.395 OA
+ATOM     21  H6  OJG d   1      15.766  69.401   4.591  0.00  0.00     0.209 HD
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  22
+ATOM     22  C11 OJG d   1      23.317  73.827   5.098  0.00  0.00    -0.005 C 
+ATOM     23  H15 OJG d   1      24.337  74.204   5.264  0.00  0.00     0.064 H 
+ATOM     24  H16 OJG d   1      23.000  73.231   5.967  0.00  0.00     0.064 H 
+BRANCH  22  25
+ATOM     25  N12 OJG d   1      22.424  74.941   4.941  0.00  0.00    -0.361 N 
+ATOM     26  C13 OJG d   1      21.379  75.222   5.882  0.00  0.00     0.221 C 
+ATOM     27  O21 OJG d   1      21.183  74.538   6.818  0.00  0.00    -0.273 OA
+ATOM     28  H3  OJG d   1      22.535  75.541   4.149  0.00  0.00     0.162 HD
+BRANCH  26  29
+ATOM     29  C14 OJG d   1      20.512  76.450   5.645  0.00  0.00     0.033 C 
+ATOM     30  H17 OJG d   1      19.519  76.299   6.093  0.00  0.00     0.054 H 
+ATOM     31  H18 OJG d   1      20.404  76.629   4.565  0.00  0.00     0.054 H 
+BRANCH  29  32
+ATOM     32  C15 OJG d   1      21.196  77.633   6.296  0.00  0.00    -0.050 A 
+ATOM     33  C20 OJG d   1      20.880  78.002   7.594  0.00  0.00    -0.076 A 
+ATOM     34  C19 OJG d   1      21.536  79.086   8.153  0.00  0.00    -0.082 A 
+ATOM     35  H5  OJG d   1      20.135  77.454   8.160  0.00  0.00     0.084 H 
+ATOM     36  C18 OJG d   1      22.502  79.761   7.440  0.00  0.00    -0.083 A 
+ATOM     37  H21 OJG d   1      21.288  79.406   9.159  0.00  0.00     0.083 H 
+ATOM     38  C17 OJG d   1      22.812  79.397   6.147  0.00  0.00    -0.082 A 
+ATOM     39  H20 OJG d   1      23.026  80.590   7.902  0.00  0.00     0.083 H 
+ATOM     40  C16 OJG d   1      22.166  78.308   5.588  0.00  0.00    -0.076 A 
+ATOM     41  H4  OJG d   1      23.548  79.954   5.578  0.00  0.00     0.083 H 
+ATOM     42  H19 OJG d   1      22.425  77.984   4.587  0.00  0.00     0.084 H 
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+TORSDOF 9

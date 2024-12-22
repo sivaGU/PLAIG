@@ -1,0 +1,59 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_16  and  C10_1 
+REMARK    2  A    between atoms: C03_8  and  N01_4 
+REMARK    3  A    between atoms: C05_12  and  O01_5 
+REMARK    4  A    between atoms: O02_7  and  C02_6 
+REMARK    5  A    between atoms: C08_15  and  O02_7 
+REMARK    6  A    between atoms: C06_13  and  C07_14 
+REMARK    7  A    between atoms: C08_15  and  C09_16 
+ROOT
+ATOM      1  C01 9GW d   1      91.249  94.068 -45.591  0.00  0.00    -0.029 A 
+ATOM      2  C02 9GW d   1      91.715  92.874 -45.024  0.00  0.00     0.098 A 
+ATOM      3  C03 9GW d   1      92.039  92.867 -43.659  0.00  0.00     0.091 A 
+ATOM      4  C04 9GW d   1      91.896  94.039 -42.893  0.00  0.00     0.070 A 
+ATOM      5  C05 9GW d   1      91.427  95.220 -43.488  0.00  0.00     0.101 A 
+ATOM      6  C06 9GW d   1      91.099  95.245 -44.842  0.00  0.00     0.077 A 
+ATOM      7  I01 9GW d   1      92.346  94.090 -40.819  0.00  0.00    -0.039 I 
+ATOM      8  H5  9GW d   1      90.996  94.083 -46.645  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   2   9
+ATOM      9  O02 9GW d   1      91.863  91.706 -45.724  0.00  0.00    -0.349 OA
+BRANCH   9  10
+ATOM     10  C08 9GW d   1      91.044  91.572 -46.889  0.00  0.00     0.026 C 
+ATOM     11  H7  9GW d   1      91.377  92.281 -47.661  0.00  0.00     0.075 H 
+ATOM     12  H8  9GW d   1      89.994  91.777 -46.632  0.00  0.00     0.075 H 
+BRANCH  10  13
+ATOM     13  C09 9GW d   1      91.178  90.149 -47.405  0.00  0.00    -0.048 C 
+ATOM     14  H9  9GW d   1      90.906  89.451 -46.599  0.00  0.00     0.035 H 
+ATOM     15  H10 9GW d   1      90.493  90.012 -48.255  0.00  0.00     0.035 H 
+BRANCH  13  16
+ATOM     16  C10 9GW d   1      92.595  89.847 -47.861  0.00  0.00    -0.075 C 
+ATOM     17  H1  9GW d   1      92.650  88.811 -48.226  0.00  0.00     0.027 H 
+ATOM     18  H2  9GW d   1      93.287  89.975 -47.016  0.00  0.00     0.027 H 
+ATOM     19  H3  9GW d   1      92.874  90.536 -48.671  0.00  0.00     0.027 H 
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   9  10
+ENDBRANCH   2   9
+BRANCH   3  20
+ATOM     20  N01 9GW d   1      92.543  91.742 -42.972  0.00  0.00    -0.329 N 
+ATOM     21  C16 9GW d   1      91.857  90.683 -42.428  0.00  0.00    -0.015 A 
+ATOM     22  C17 9GW d   1      92.752  89.865 -41.779  0.00  0.00    -0.066 A 
+ATOM     23  H11 9GW d   1      90.783  90.519 -42.499  0.00  0.00     0.112 H 
+ATOM     24  C18 9GW d   1      94.034  90.445 -41.910  0.00  0.00    -0.066 A 
+ATOM     25  H4  9GW d   1      92.516  88.938 -41.258  0.00  0.00     0.085 H 
+ATOM     26  C19 9GW d   1      93.876  91.605 -42.629  0.00  0.00    -0.015 A 
+ATOM     27  H12 9GW d   1      94.969  90.048 -41.516  0.00  0.00     0.085 H 
+ATOM     28  H13 9GW d   1      94.671  92.303 -42.887  0.00  0.00     0.112 H 
+ENDBRANCH   3  20
+BRANCH   6  29
+ATOM     29  C07 9GW d   1      90.597  96.485 -45.524  0.00  0.00     0.212 C 
+ATOM     30  O03 9GW d   1      90.321  96.389 -46.766  0.00  0.00    -0.644 OA
+ATOM     31  O04 9GW d   1      90.500  97.519 -44.800  0.00  0.00    -0.644 OA
+ENDBRANCH   6  29
+BRANCH   5  32
+ATOM     32  O01 9GW d   1      91.286  96.364 -42.746  0.00  0.00    -0.358 OA
+ATOM     33  H6  9GW d   1      90.960  97.062 -43.302  0.00  0.00     0.217 HD
+ENDBRANCH   5  32
+TORSDOF 7

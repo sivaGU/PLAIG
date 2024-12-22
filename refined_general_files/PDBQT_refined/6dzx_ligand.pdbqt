@@ -1,0 +1,43 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  SD_7 
+REMARK    6  A    between atoms: SD_7  and  CE_8 
+ROOT
+ATOM      1  CB  MED d   1      49.633  -9.039 -33.082  0.00  0.00    -0.021 C 
+ATOM      2  H5  MED d   1      49.633  -7.958 -33.288  0.00  0.00     0.037 H 
+ATOM      3  H6  MED d   1      48.746  -9.299 -32.486  0.00  0.00     0.037 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  MED d   1      50.868  -9.382 -32.289  0.00  0.00     0.183 C 
+ATOM      5  H4  MED d   1      51.738  -9.187 -32.933  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   MED d   1      50.957  -8.530 -31.112  0.00  0.00    -0.065 N 
+ATOM      7  H1  MED d   1      50.910  -7.563 -31.393  0.00  0.00     0.275 HD
+ATOM      8  H2  MED d   1      51.831  -8.700 -30.639  0.00  0.00     0.275 HD
+ATOM      9  H3  MED d   1      50.192  -8.737 -30.489  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   MED d   1      50.942 -10.826 -31.833  0.00  0.00     0.204 C 
+ATOM     11  O   MED d   1      49.943 -11.575 -31.780  0.00  0.00    -0.646 OA
+ATOM     12  OXT MED d   1      52.082 -11.239 -31.532  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  MED d   1      49.572  -9.798 -34.418  0.00  0.00    -0.021 C 
+ATOM     14  H7  MED d   1      48.518  -9.825 -34.731  0.00  0.00     0.049 H 
+ATOM     15  H8  MED d   1      49.924 -10.823 -34.228  0.00  0.00     0.049 H 
+BRANCH  13  16
+ATOM     16  SD  MED d   1      50.508  -9.165 -35.780  0.00  0.00    -0.173 SA
+BRANCH  16  17
+ATOM     17  CE  MED d   1      49.656  -7.646 -36.014  0.00  0.00    -0.035 C 
+ATOM     18  H9  MED d   1      50.112  -7.094 -36.849  0.00  0.00     0.041 H 
+ATOM     19  H10 MED d   1      49.723  -7.043 -35.096  0.00  0.00     0.041 H 
+ATOM     20  H11 MED d   1      48.600  -7.850 -36.243  0.00  0.00     0.041 H 
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6

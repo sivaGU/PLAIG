@@ -1,0 +1,60 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAS_2  and  CAR_5 
+REMARK    2  A    between atoms: CAR_5  and  PAT_6 
+REMARK    3  A    between atoms: CAR_5  and  NAJ_10 
+REMARK    4  A    between atoms: NAJ_10  and  C4_11 
+REMARK    5  A    between atoms: CAD_19  and  CAK_20 
+REMARK    6  A    between atoms: CAN_23  and  CAQ_24 
+ROOT
+ATOM      1  C4  1MV d   1       5.157  71.293  27.883  0.00  0.00     0.139 A 
+ATOM      2  N3  1MV d   1       4.931  69.988  28.149  0.00  0.00    -0.224 NA
+ATOM      3  C2  1MV d   1       3.734  69.620  28.736  0.00  0.00     0.090 A 
+ATOM      4  N1  1MV d   1       2.844  70.645  29.036  0.00  0.00    -0.234 NA
+ATOM      5  C6  1MV d   1       3.151  71.931  28.766  0.00  0.00     0.113 A 
+ATOM      6  SAE 1MV d   1       2.284  73.262  29.026  0.00  0.00    -0.069 SA
+ATOM      7  C5  1MV d   1       4.308  72.302  28.179  0.00  0.00     0.047 A 
+ATOM      8  CAC 1MV d   1       4.431  73.666  27.982  0.00  0.00    -0.049 A 
+ATOM      9  CAD 1MV d   1       3.376  74.406  28.396  0.00  0.00     0.018 A 
+ATOM     10  H   1MV d   1       3.501  68.583  28.951  0.00  0.00     0.146 H 
+ATOM     11  H   1MV d   1       5.314  74.112  27.526  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   9  12
+ATOM     12  CAK 1MV d   1       3.212  75.778  28.325  0.00  0.00    -0.019 A 
+ATOM     13  CAL 1MV d   1       4.289  76.690  28.321  0.00  0.00    -0.071 A 
+ATOM     14  CAM 1MV d   1       4.118  78.072  28.216  0.00  0.00    -0.076 A 
+ATOM     15  H   1MV d   1       5.297  76.299  28.403  0.00  0.00     0.084 H 
+ATOM     16  CAN 1MV d   1       2.851  78.608  28.126  0.00  0.00    -0.062 A 
+ATOM     17  H   1MV d   1       4.983  78.725  28.205  0.00  0.00     0.084 H 
+ATOM     18  CAO 1MV d   1       1.768  77.734  28.113  0.00  0.00    -0.076 A 
+ATOM     19  CAP 1MV d   1       1.948  76.347  28.213  0.00  0.00    -0.071 A 
+ATOM     20  H   1MV d   1       0.764  78.134  28.024  0.00  0.00     0.084 H 
+ATOM     21  H   1MV d   1       1.078  75.701  28.203  0.00  0.00     0.084 H 
+BRANCH  16  22
+ATOM     22  CAQ 1MV d   1       2.669  79.996  28.042  0.00  0.00    -0.051 C 
+ATOM     23  H   1MV d   1       1.594  80.222  27.978  0.00  0.00     0.033 H 
+ATOM     24  H   1MV d   1       3.178  80.379  27.145  0.00  0.00     0.033 H 
+ATOM     25  H   1MV d   1       3.092  80.476  28.937  0.00  0.00     0.033 H 
+ENDBRANCH  16  22
+ENDBRANCH   9  12
+BRANCH   1  26
+ATOM     26  NAJ 1MV d   1       6.309  71.608  27.322  0.00  0.00    -0.346 N 
+ATOM     27  H   1MV d   1       6.568  72.597  27.195  0.00  0.00     0.162 HD
+BRANCH  26  28
+ATOM     28  CAR 1MV d   1       7.229  70.538  26.875  0.00  0.00     0.228 C 
+ATOM     29  H   1MV d   1       7.159  69.657  27.530  0.00  0.00     0.117 H 
+BRANCH  28  30
+ATOM     30  PAS 1MV d   1       8.892  71.285  26.915  0.00  0.00     0.297 P 
+ATOM     31  OAU 1MV d   1       9.336  70.937  25.514  0.00  0.00    -0.638 OA
+ATOM     32  OAV 1MV d   1       9.784  70.602  28.167  0.00  0.00    -0.638 OA
+ATOM     33  OAW 1MV d   1       8.631  72.723  27.239  0.00  0.00    -0.638 OA
+ENDBRANCH  28  30
+BRANCH  28  34
+ATOM     34  PAT 1MV d   1       6.885  70.059  25.056  0.00  0.00     0.297 P 
+ATOM     35  OAX 1MV d   1       7.536  71.293  24.447  0.00  0.00    -0.638 OA
+ATOM     36  OAZ 1MV d   1       5.290  69.904  24.759  0.00  0.00    -0.638 OA
+ATOM     37  OAY 1MV d   1       7.430  68.695  24.774  0.00  0.00    -0.638 OA
+ENDBRANCH  28  34
+ENDBRANCH  26  28
+ENDBRANCH   1  26
+TORSDOF 6

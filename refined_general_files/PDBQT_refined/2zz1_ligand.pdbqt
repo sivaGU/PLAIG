@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_2  and  O5'_5 
+REMARK    2  A    between atoms: O5'_5  and  C5'_6 
+REMARK    3  A    between atoms: C5'_6  and  C4'_7 
+REMARK    4  A    between atoms: C3'_8  and  O3'_9 
+REMARK    5  A    between atoms: C2'_10  and  O2'_11 
+REMARK    6  A    between atoms: C1'_13  and  N1_14 
+ROOT
+ATOM      1  N1  Q6C d   1      27.092 -18.626  14.271  0.00  0.00    -0.260 N 
+ATOM      2  C6  Q6C d   1      27.501 -19.547  15.202  0.00  0.00     0.127 A 
+ATOM      3  C5  Q6C d   1      28.864 -19.685  15.506  0.00  0.00     0.019 A 
+ATOM      4  C4  Q6C d   1      29.762 -18.880  14.838  0.00  0.00     0.252 A 
+ATOM      5  O4  Q6C d   1      31.037 -18.951  15.020  0.00  0.00    -0.268 OA
+ATOM      6  N3  Q6C d   1      29.308 -18.043  13.874  0.00  0.00    -0.275 N 
+ATOM      7  C2  Q6C d   1      27.987 -17.912  13.598  0.00  0.00     0.332 A 
+ATOM      8  O2  Q6C d   1      27.633 -17.115  12.708  0.00  0.00    -0.246 OA
+ATOM      9  C7  Q6C d   1      26.802 -20.831  15.293  0.00  0.00     0.118 C 
+ATOM     10  N8  Q6C d   1      26.251 -21.846  15.398  0.00  0.00    -0.190 NA
+ATOM     11  H9  Q6C d   1      29.203 -20.407  16.248  0.00  0.00     0.096 H 
+ATOM     12  H10 Q6C d   1      29.968 -17.505  13.350  0.00  0.00     0.173 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  C1' Q6C d   1      25.646 -18.502  14.021  0.00  0.00     0.142 C 
+ATOM     14  C2' Q6C d   1      25.098 -17.078  14.027  0.00  0.00     0.105 C 
+ATOM     15  C3' Q6C d   1      23.919 -17.170  13.046  0.00  0.00     0.091 C 
+ATOM     16  H6  Q6C d   1      25.855 -16.349  13.701  0.00  0.00     0.093 H 
+ATOM     17  C4' Q6C d   1      24.455 -18.149  12.031  0.00  0.00     0.089 C 
+ATOM     18  H4  Q6C d   1      23.634 -16.197  12.619  0.00  0.00     0.091 H 
+ATOM     19  O4' Q6C d   1      25.377 -19.023  12.705  0.00  0.00    -0.353 OA
+ATOM     20  H3  Q6C d   1      23.616 -18.734  11.627  0.00  0.00     0.090 H 
+ATOM     21  H8  Q6C d   1      25.111 -19.090  14.781  0.00  0.00     0.123 H 
+BRANCH  14  22
+ATOM     22  O2' Q6C d   1      24.591 -16.732  15.310  0.00  0.00    -0.388 OA
+ATOM     23  H7  Q6C d   1      25.310 -16.672  15.928  0.00  0.00     0.210 HD
+ENDBRANCH  14  22
+BRANCH  15  24
+ATOM     24  O3' Q6C d   1      22.801 -17.833  13.696  0.00  0.00    -0.390 OA
+ATOM     25  H5  Q6C d   1      22.426 -17.253  14.349  0.00  0.00     0.210 HD
+ENDBRANCH  15  24
+BRANCH  17  26
+ATOM     26  C5' Q6C d   1      25.193 -17.477  10.864  0.00  0.00     0.059 C 
+ATOM     27  H1  Q6C d   1      25.912 -16.732  11.236  0.00  0.00     0.079 H 
+ATOM     28  H2  Q6C d   1      25.722 -18.226  10.257  0.00  0.00     0.079 H 
+BRANCH  26  29
+ATOM     29  O5' Q6C d   1      24.166 -16.848  10.104  0.00  0.00    -0.280 OA
+BRANCH  29  30
+ATOM     30  P   Q6C d   1      24.508 -16.012   8.749  0.00  0.00     0.422 P 
+ATOM     31  O3P Q6C d   1      24.586 -17.027   7.627  0.00  0.00    -0.617 OA
+ATOM     32  O1P Q6C d   1      25.814 -15.277   8.966  0.00  0.00    -0.617 OA
+ATOM     33  O2P Q6C d   1      23.318 -15.105   8.624  0.00  0.00    -0.617 OA
+ENDBRANCH  29  30
+ENDBRANCH  26  29
+ENDBRANCH  17  26
+ENDBRANCH   1  13
+TORSDOF 6

@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C7_10 
+REMARK    2  A    between atoms: C7_10  and  C8_11 
+REMARK    3  A    between atoms: C8_11  and  N8_12 
+REMARK    4  A    between atoms: C8_11  and  C9_13 
+ROOT
+ATOM      1  C7  CWD d   1      19.987 -20.874 -26.686  0.00  0.00     0.040 C 
+ATOM      2  H3  CWD d   1      20.279 -21.052 -27.732  0.00  0.00     0.069 H 
+ATOM      3  H4  CWD d   1      20.466 -21.624 -26.039  0.00  0.00     0.069 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N1  CWD d   1      18.528 -21.004 -26.569  0.00  0.00    -0.305 N 
+ATOM      5  C2  CWD d   1      17.997 -21.101 -25.340  0.00  0.00     0.328 A 
+ATOM      6  O2  CWD d   1      18.674 -21.209 -24.345  0.00  0.00    -0.246 OA
+ATOM      7  N3  CWD d   1      16.640 -21.138 -25.189  0.00  0.00    -0.285 N 
+ATOM      8  C4  CWD d   1      15.893 -21.089 -26.308  0.00  0.00     0.206 A 
+ATOM      9  H1  CWD d   1      16.218 -21.199 -24.284  0.00  0.00     0.172 HD
+ATOM     10  O4  CWD d   1      14.529 -21.074 -26.119  0.00  0.00    -0.170 OA
+ATOM     11  C5  CWD d   1      16.453 -20.990 -27.553  0.00  0.00     0.103 A 
+ATOM     12 CL5  CWD d   1      15.459 -20.963 -29.017  0.00  0.00    -0.078 Cl
+ATOM     13  C6  CWD d   1      17.778 -20.954 -27.736  0.00  0.00     0.009 A 
+ATOM     14  H2  CWD d   1      18.233 -20.890 -28.724  0.00  0.00     0.114 H 
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  C8  CWD d   1      20.457 -19.487 -26.269  0.00  0.00     0.198 C 
+ATOM     16  H5  CWD d   1      19.914 -19.210 -25.353  0.00  0.00     0.103 H 
+BRANCH  15  17
+ATOM     17  N8  CWD d   1      20.203 -18.458 -27.275  0.00  0.00    -0.064 N 
+ATOM     18  H6  CWD d   1      20.537 -17.569 -26.938  0.00  0.00     0.275 HD
+ATOM     19  H7  CWD d   1      19.213 -18.400 -27.453  0.00  0.00     0.275 HD
+ATOM     20  H8  CWD d   1      20.685 -18.696 -28.128  0.00  0.00     0.275 HD
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  C9  CWD d   1      21.949 -19.510 -25.966  0.00  0.00     0.206 C 
+ATOM     22  O91 CWD d   1      22.737 -18.827 -26.570  0.00  0.00    -0.646 OA
+ATOM     23  O92 CWD d   1      22.328 -20.447 -25.052  0.00  0.00    -0.646 OA
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+TORSDOF 4

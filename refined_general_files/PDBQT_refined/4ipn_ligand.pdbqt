@@ -1,0 +1,92 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PBA_2  and  O6_5 
+REMARK    2  A    between atoms: O6_5  and  C6_6 
+REMARK    3  A    between atoms: C6_6  and  C5_7 
+REMARK    4  A    between atoms: C4_9  and  O4_10 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C2_13  and  O2_14 
+REMARK    7  A    between atoms: C1_15  and  SAP_16 
+REMARK    8  A    between atoms: SAP_16  and  CAZ_17 
+REMARK    9  A    between atoms: CAX_18  and  OAG_19 
+REMARK   10  A    between atoms: CAT_20  and  OAC_21 
+REMARK   11  A    between atoms: CAQ_22  and  OAB_23 
+REMARK   12  A    between atoms: CAR_25  and  CAK_26 
+REMARK   13  A    between atoms: CAK_26  and  OAA_27 
+ROOT
+ATOM      1  C5  1FT d   1      27.323  -1.153  17.689  0.00  0.00     0.088 C 
+ATOM      2  O5  1FT d   1      26.120  -1.855  17.817  0.00  0.00    -0.363 OA
+ATOM      3  C4  1FT d   1      28.172  -1.006  18.959  0.00  0.00     0.089 C 
+ATOM      4  C3  1FT d   1      27.490  -1.042  20.200  0.00  0.00     0.090 C 
+ATOM      5  C2  1FT d   1      26.356  -1.898  20.219  0.00  0.00     0.096 C 
+ATOM      6  C1  1FT d   1      25.438  -1.663  19.029  0.00  0.00     0.111 C 
+ATOM      7  H3  1FT d   1      27.936  -1.730  16.982  0.00  0.00     0.090 H 
+ATOM      8  H4  1FT d   1      28.872  -1.855  18.970  0.00  0.00     0.091 H 
+ATOM      9  H6  1FT d   1      27.148  -0.024  20.438  0.00  0.00     0.091 H 
+ATOM     10  H8  1FT d   1      26.723  -2.934  20.168  0.00  0.00     0.092 H 
+ATOM     11  H10 1FT d   1      25.116  -0.612  19.066  0.00  0.00     0.104 H 
+ENDROOT
+BRANCH   6  12
+ATOM     12  SAP 1FT d   1      23.950  -2.686  19.105  0.00  0.00    -0.124 SA
+BRANCH  12  13
+ATOM     13  CAZ 1FT d   1      23.904  -3.924  17.756  0.00  0.00     0.048 C 
+ATOM     14  CAX 1FT d   1      23.268  -5.158  18.277  0.00  0.00     0.079 C 
+ATOM     15  CAT 1FT d   1      23.044  -6.133  17.293  0.00  0.00     0.108 C 
+ATOM     16  H12 1FT d   1      22.297  -4.886  18.716  0.00  0.00     0.089 H 
+ATOM     17  CAQ 1FT d   1      22.306  -5.585  16.101  0.00  0.00     0.156 C 
+ATOM     18  H14 1FT d   1      24.022  -6.504  16.952  0.00  0.00     0.094 H 
+ATOM     19  OAN 1FT d   1      22.932  -4.363  15.567  0.00  0.00    -0.350 OA
+ATOM     20  H16 1FT d   1      21.278  -5.343  16.407  0.00  0.00     0.133 H 
+ATOM     21  CAR 1FT d   1      23.214  -3.381  16.527  0.00  0.00     0.076 C 
+ATOM     22  H18 1FT d   1      22.266  -2.922  16.843  0.00  0.00     0.088 H 
+ATOM     23  H11 1FT d   1      24.939  -4.167  17.473  0.00  0.00     0.065 H 
+BRANCH  14  24
+ATOM     24  OAG 1FT d   1      24.121  -5.713  19.313  0.00  0.00    -0.392 OA
+ATOM     25  H13 1FT d   1      24.221  -5.079  20.013  0.00  0.00     0.210 HD
+ENDBRANCH  14  24
+BRANCH  15  26
+ATOM     26  OAC 1FT d   1      22.288  -7.250  17.851  0.00  0.00    -0.388 OA
+ATOM     27  H15 1FT d   1      22.143  -7.902  17.175  0.00  0.00     0.210 HD
+ENDBRANCH  15  26
+BRANCH  17  28
+ATOM     28  OAB 1FT d   1      22.269  -6.526  15.144  0.00  0.00    -0.369 OA
+ATOM     29  H17 1FT d   1      21.865  -7.313  15.491  0.00  0.00     0.212 HD
+ENDBRANCH  17  28
+BRANCH  21  30
+ATOM     30  CAK 1FT d   1      24.088  -2.321  15.870  0.00  0.00     0.042 C 
+ATOM     31  H19 1FT d   1      24.681  -2.827  15.094  0.00  0.00     0.077 H 
+ATOM     32  H20 1FT d   1      24.760  -1.929  16.648  0.00  0.00     0.077 H 
+BRANCH  30  33
+ATOM     33  OAA 1FT d   1      23.478  -1.229  15.270  0.00  0.00    -0.398 OA
+ATOM     34  H21 1FT d   1      24.143  -0.657  14.905  0.00  0.00     0.209 HD
+ENDBRANCH  30  33
+ENDBRANCH  21  30
+ENDBRANCH  12  13
+ENDBRANCH   6  12
+BRANCH   5  35
+ATOM     35  O2  1FT d   1      25.592  -1.753  21.431  0.00  0.00    -0.389 OA
+ATOM     36  H9  1FT d   1      25.289  -0.856  21.508  0.00  0.00     0.210 HD
+ENDBRANCH   5  35
+BRANCH   1  37
+ATOM     37  C6  1FT d   1      27.073   0.199  17.063  0.00  0.00     0.059 C 
+ATOM     38  H1  1FT d   1      26.025   0.472  17.254  0.00  0.00     0.079 H 
+ATOM     39  H2  1FT d   1      27.737   0.927  17.552  0.00  0.00     0.079 H 
+BRANCH  37  40
+ATOM     40  O6  1FT d   1      27.290   0.271  15.707  0.00  0.00    -0.280 OA
+BRANCH  40  41
+ATOM     41  PBA 1FT d   1      28.684  -0.192  15.129  0.00  0.00     0.422 P 
+ATOM     42  OAH 1FT d   1      28.811  -1.698  15.176  0.00  0.00    -0.617 OA
+ATOM     43  OAI 1FT d   1      28.786   0.265  13.687  0.00  0.00    -0.617 OA
+ATOM     44  OAJ 1FT d   1      29.791   0.414  15.958  0.00  0.00    -0.617 OA
+ENDBRANCH  40  41
+ENDBRANCH  37  40
+ENDBRANCH   1  37
+BRANCH   4  45
+ATOM     45  O3  1FT d   1      28.484  -1.487  21.235  0.00  0.00    -0.390 OA
+ATOM     46  H7  1FT d   1      28.060  -1.523  22.084  0.00  0.00     0.210 HD
+ENDBRANCH   4  45
+BRANCH   3  47
+ATOM     47  O4  1FT d   1      28.938   0.194  18.841  0.00  0.00    -0.390 OA
+ATOM     48  H5  1FT d   1      29.498   0.137  18.076  0.00  0.00     0.210 HD
+ENDBRANCH   3  47
+TORSDOF 13

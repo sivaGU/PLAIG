@@ -1,0 +1,110 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C03_3  and  C04_4 
+REMARK    4  A    between atoms: C04_4  and  N05_5 
+REMARK    5  A    between atoms: N05_5  and  C06_6 
+REMARK    6  A    between atoms: C09_9  and  C10_10 
+REMARK       I    between atoms: C10_10  and  N12_12 
+REMARK    7  A    between atoms: N12_12  and  C13_13 
+REMARK    8  A    between atoms: N12_12  and  C14_14 
+REMARK    9  A    between atoms: C14_14  and  C15_15 
+REMARK   10  A    between atoms: C15_15  and  C16_16 
+REMARK   11  A    between atoms: C16_16  and  C17_17 
+REMARK   12  A    between atoms: C18_18  and  N19_19 
+REMARK   13  A    between atoms: N19_19  and  C20_20 
+REMARK   14  A    between atoms: C23_23  and  O24_24 
+ROOT
+ATOM      1  C06 MH7 d   1      14.914  19.665  16.299  0.00  0.00     0.724 A 
+ATOM      2  N07 MH7 d   1      16.014  20.219  15.749  0.00  0.00    -0.074 NA
+ATOM      3  C08 MH7 d   1      16.672  19.600  14.740  0.00  0.00     0.040 A 
+ATOM      4  C09 MH7 d   1      16.226  18.357  14.238  0.00  0.00     0.096 A 
+ATOM      5  C18 MH7 d   1      15.065  17.816  14.856  0.00  0.00     0.160 A 
+ATOM      6  N27 MH7 d   1      14.451  18.484  15.856  0.00  0.00    -0.044 NA
+ATOM      7  H   MH7 d   1      17.553  20.065  14.312  0.00  0.00     0.117 H 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C10 MH7 d   1      16.854  17.526  13.100  0.00  0.00     0.258 C 
+ATOM      9  O11 MH7 d   1      16.261  16.489  12.883  0.00  0.00    -0.267 OA
+ATOM     10  N12 MH7 d   1      18.030  17.787  12.259  0.00  0.00    -0.352 N 
+BRANCH  10  11
+ATOM     11  C13 MH7 d   1      18.905  18.947  12.316  0.00  0.00    -0.016 C 
+ATOM     12  H   MH7 d   1      19.695  18.848  11.557  0.00  0.00     0.056 H 
+ATOM     13  H   MH7 d   1      19.362  19.013  13.314  0.00  0.00     0.056 H 
+ATOM     14  H   MH7 d   1      18.320  19.858  12.120  0.00  0.00     0.056 H 
+ENDBRANCH  10  11
+BRANCH  10  15
+ATOM     15  C14 MH7 d   1      18.456  16.811  11.233  0.00  0.00    -0.003 C 
+ATOM     16  H   MH7 d   1      18.659  17.323  10.281  0.00  0.00     0.064 H 
+ATOM     17  H   MH7 d   1      17.675  16.052  11.082  0.00  0.00     0.064 H 
+BRANCH  15  18
+ATOM     18  C15 MH7 d   1      19.760  16.145  11.779  0.00  0.00    -0.050 C 
+ATOM     19  H   MH7 d   1      19.571  15.068  11.900  0.00  0.00     0.035 H 
+ATOM     20  H   MH7 d   1      19.989  16.590  12.759  0.00  0.00     0.035 H 
+BRANCH  18  21
+ATOM     21  C16 MH7 d   1      20.972  16.316  10.886  0.00  0.00    -0.067 C 
+ATOM     22  H   MH7 d   1      21.121  17.388  10.688  0.00  0.00     0.032 H 
+ATOM     23  H   MH7 d   1      20.793  15.789   9.937  0.00  0.00     0.032 H 
+BRANCH  21  24
+ATOM     24  C17 MH7 d   1      22.249  15.745  11.544  0.00  0.00    -0.076 C 
+ATOM     25  H   MH7 d   1      23.105  15.887  10.868  0.00  0.00     0.027 H 
+ATOM     26  H   MH7 d   1      22.112  14.671  11.741  0.00  0.00     0.027 H 
+ATOM     27  H   MH7 d   1      22.439  16.270  12.492  0.00  0.00     0.027 H 
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH  10  15
+ENDBRANCH   4   8
+BRANCH   5  28
+ATOM     28  N19 MH7 d   1      14.477  16.532  14.453  0.00  0.00    -0.369 N 
+ATOM     29  H   MH7 d   1      14.883  15.991  13.676  0.00  0.00     0.161 HD
+BRANCH  28  30
+ATOM     30  C20 MH7 d   1      13.333  16.045  15.156  0.00  0.00     0.011 C 
+ATOM     31  C21 MH7 d   1      13.825  15.257  16.374  0.00  0.00    -0.044 C 
+ATOM     32  C22 MH7 d   1      12.666  14.635  17.130  0.00  0.00    -0.039 C 
+ATOM     33  H   MH7 d   1      14.368  15.938  17.046  0.00  0.00     0.036 H 
+ATOM     34  H   MH7 d   1      14.502  14.459  16.035  0.00  0.00     0.036 H 
+ATOM     35  C23 MH7 d   1      11.781  13.806  16.236  0.00  0.00     0.035 C 
+ATOM     36  H   MH7 d   1      12.063  15.439  17.578  0.00  0.00     0.036 H 
+ATOM     37  H   MH7 d   1      13.068  13.991  17.926  0.00  0.00     0.036 H 
+ATOM     38  C25 MH7 d   1      11.345  14.557  14.969  0.00  0.00    -0.039 C 
+ATOM     39  H   MH7 d   1      12.330  12.900  15.939  0.00  0.00     0.082 H 
+ATOM     40  C26 MH7 d   1      12.512  15.186  14.232  0.00  0.00    -0.044 C 
+ATOM     41  H   MH7 d   1      10.640  15.351  15.255  0.00  0.00     0.036 H 
+ATOM     42  H   MH7 d   1      10.844  13.848  14.294  0.00  0.00     0.036 H 
+ATOM     43  H   MH7 d   1      13.149  14.389  13.820  0.00  0.00     0.036 H 
+ATOM     44  H   MH7 d   1      12.126  15.808  13.411  0.00  0.00     0.036 H 
+ATOM     45  H   MH7 d   1      12.719  16.892  15.497  0.00  0.00     0.072 H 
+BRANCH  35  46
+ATOM     46  O24 MH7 d   1      10.619  13.441  16.959  0.00  0.00    -0.396 OA
+ATOM     47  H   MH7 d   1      10.053  12.917  16.404  0.00  0.00     0.210 HD
+ENDBRANCH  35  46
+ENDBRANCH  28  30
+ENDBRANCH   5  28
+BRANCH   1  48
+ATOM     48  N05 MH7 d   1      14.225  20.333  17.386  0.00  0.00    -0.222 N 
+ATOM     49  H   MH7 d   1      13.707  21.207  17.218  0.00  0.00     0.177 HD
+BRANCH  48  50
+ATOM     50  C04 MH7 d   1      14.278  19.749  18.716  0.00  0.00     0.009 C 
+ATOM     51  H   MH7 d   1      15.209  19.173  18.824  0.00  0.00     0.064 H 
+ATOM     52  H   MH7 d   1      14.254  20.552  19.468  0.00  0.00     0.064 H 
+BRANCH  50  53
+ATOM     53  C03 MH7 d   1      13.062  18.806  18.931  0.00  0.00    -0.050 C 
+ATOM     54  H   MH7 d   1      12.136  19.395  18.858  0.00  0.00     0.035 H 
+ATOM     55  H   MH7 d   1      13.067  18.032  18.149  0.00  0.00     0.035 H 
+BRANCH  53  56
+ATOM     56  C02 MH7 d   1      13.114  18.128  20.304  0.00  0.00    -0.067 C 
+ATOM     57  H   MH7 d   1      14.086  18.347  20.769  0.00  0.00     0.032 H 
+ATOM     58  H   MH7 d   1      12.308  18.537  20.930  0.00  0.00     0.032 H 
+BRANCH  56  59
+ATOM     59  C01 MH7 d   1      12.946  16.633  20.215  0.00  0.00    -0.076 C 
+ATOM     60  H   MH7 d   1      12.991  16.198  21.224  0.00  0.00     0.027 H 
+ATOM     61  H   MH7 d   1      13.752  16.210  19.597  0.00  0.00     0.027 H 
+ATOM     62  H   MH7 d   1      11.973  16.400  19.759  0.00  0.00     0.027 H 
+ENDBRANCH  56  59
+ENDBRANCH  53  56
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+ENDBRANCH   1  48
+TORSDOF 14

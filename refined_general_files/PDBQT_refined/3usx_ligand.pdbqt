@@ -1,0 +1,87 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  C6_8 
+REMARK    6  A    between atoms: C6_8  and  C7_9 
+REMARK    7  A    between atoms: C7_9  and  C8_10 
+REMARK    8  A    between atoms: C8_10  and  C9_11 
+REMARK    9  A    between atoms: C9_11  and  C10_12 
+REMARK   10  A    between atoms: C10_12  and  C11_13 
+REMARK   11  A    between atoms: C11_13  and  C12_14 
+REMARK   12  A    between atoms: C12_14  and  C13_15 
+REMARK   13  A    between atoms: C13_15  and  C14_16 
+ROOT
+ATOM      1  C8  MYR d   1     -32.991 -22.987 -41.619  0.00  0.00    -0.065 C 
+ATOM      2  H13 MYR d   1     -31.910 -22.784 -41.615  0.00  0.00     0.033 H 
+ATOM      3  H14 MYR d   1     -33.182 -23.947 -42.120  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C7  MYR d   1     -33.704 -21.871 -42.393  0.00  0.00    -0.065 C 
+ATOM      5  H11 MYR d   1     -34.033 -21.105 -41.676  0.00  0.00     0.033 H 
+ATOM      6  H12 MYR d   1     -32.989 -21.427 -43.102  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  C6  MYR d   1     -34.929 -22.359 -43.179  0.00  0.00    -0.065 C 
+ATOM      8  H9  MYR d   1     -34.851 -21.997 -44.215  0.00  0.00     0.033 H 
+ATOM      9  H10 MYR d   1     -34.935 -23.459 -43.175  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  C5  MYR d   1     -36.241 -21.860 -42.584  0.00  0.00    -0.065 C 
+ATOM     11  H7  MYR d   1     -37.073 -22.328 -43.131  0.00  0.00     0.033 H 
+ATOM     12  H8  MYR d   1     -36.282 -22.160 -41.527  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C4  MYR d   1     -36.399 -20.335 -42.665  0.00  0.00    -0.065 C 
+ATOM     14  H5  MYR d   1     -35.761 -19.960 -43.479  0.00  0.00     0.033 H 
+ATOM     15  H6  MYR d   1     -37.451 -20.104 -42.887  0.00  0.00     0.033 H 
+BRANCH  13  16
+ATOM     16  C3  MYR d   1     -36.004 -19.616 -41.362  0.00  0.00    -0.056 C 
+ATOM     17  H3  MYR d   1     -36.806 -19.779 -40.627  0.00  0.00     0.033 H 
+ATOM     18  H4  MYR d   1     -35.071 -20.067 -40.993  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  C2  MYR d   1     -35.780 -18.099 -41.496  0.00  0.00     0.016 C 
+ATOM     20  H1  MYR d   1     -35.936 -17.820 -42.549  0.00  0.00     0.049 H 
+ATOM     21  H2  MYR d   1     -36.522 -17.585 -40.867  0.00  0.00     0.049 H 
+BRANCH  19  22
+ATOM     22  C1  MYR d   1     -34.388 -17.626 -41.077  0.00  0.00     0.172 C 
+ATOM     23  O1  MYR d   1     -33.760 -18.154 -40.131  0.00  0.00    -0.648 OA
+ATOM     24  O2  MYR d   1     -33.831 -16.669 -41.664  0.00  0.00    -0.648 OA
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  25
+ATOM     25  C9  MYR d   1     -33.483 -23.075 -40.178  0.00  0.00    -0.065 C 
+ATOM     26  H15 MYR d   1     -34.486 -22.627 -40.113  0.00  0.00     0.033 H 
+ATOM     27  H16 MYR d   1     -32.791 -22.520 -39.528  0.00  0.00     0.033 H 
+BRANCH  25  28
+ATOM     28  C10 MYR d   1     -33.554 -24.529 -39.706  0.00  0.00    -0.065 C 
+ATOM     29  H17 MYR d   1     -32.945 -24.637 -38.797  0.00  0.00     0.033 H 
+ATOM     30  H18 MYR d   1     -33.150 -25.178 -40.497  0.00  0.00     0.033 H 
+BRANCH  28  31
+ATOM     31  C11 MYR d   1     -34.986 -24.965 -39.394  0.00  0.00    -0.065 C 
+ATOM     32  H19 MYR d   1     -35.587 -24.892 -40.313  0.00  0.00     0.033 H 
+ATOM     33  H20 MYR d   1     -35.403 -24.293 -38.629  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  C12 MYR d   1     -35.051 -26.400 -38.876  0.00  0.00    -0.065 C 
+ATOM     35  H21 MYR d   1     -35.291 -26.384 -37.803  0.00  0.00     0.033 H 
+ATOM     36  H22 MYR d   1     -34.073 -26.881 -39.026  0.00  0.00     0.033 H 
+BRANCH  34  37
+ATOM     37  C13 MYR d   1     -36.125 -27.207 -39.617  0.00  0.00    -0.069 C 
+ATOM     38  H23 MYR d   1     -35.691 -28.172 -39.918  0.00  0.00     0.032 H 
+ATOM     39  H24 MYR d   1     -36.428 -26.645 -40.513  0.00  0.00     0.032 H 
+BRANCH  37  40
+ATOM     40  C14 MYR d   1     -37.366 -27.476 -38.770  0.00  0.00    -0.077 C 
+ATOM     41  H25 MYR d   1     -38.093 -28.056 -39.358  0.00  0.00     0.027 H 
+ATOM     42  H26 MYR d   1     -37.818 -26.520 -38.468  0.00  0.00     0.027 H 
+ATOM     43  H27 MYR d   1     -37.081 -28.046 -37.873  0.00  0.00     0.027 H 
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH   1  25
+TORSDOF 13

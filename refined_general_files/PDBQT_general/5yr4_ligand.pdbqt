@@ -1,0 +1,94 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C11_7 
+REMARK    2  A    between atoms: C1_1  and  O11_8 
+REMARK    3  A    between atoms: C2_2  and  C21_9 
+REMARK    4  A    between atoms: C3_3  and  O31_19 
+REMARK    5  A    between atoms: C4_4  and  O41_21 
+REMARK    6  A    between atoms: C21_9  and  C2A_14 
+REMARK    7  A    between atoms: C22_10  and  C23_11 
+REMARK    8  A    between atoms: C23_11  and  C24_12 
+REMARK    9  A    between atoms: C25_13  and  C2B_16 
+REMARK   10  A    between atoms: C25_13  and  C2C_17 
+REMARK   11  A    between atoms: O31_19  and  C31_18 
+REMARK   12  A    between atoms: O41_21  and  C41_20 
+REMARK       I    between atoms: C41_20  and  N42_22 
+ROOT
+ATOM      1  C1  TN4 d   1      11.258   3.700  20.336  0.00  0.00     0.063 C 
+ATOM      2  C2  TN4 d   1      12.673   4.311  20.178  0.00  0.00     0.035 C 
+ATOM      3  C3  TN4 d   1      13.659   3.146  19.885  0.00  0.00     0.072 C 
+ATOM      4  C4  TN4 d   1      13.353   2.458  18.584  0.00  0.00     0.075 C 
+ATOM      5  C5  TN4 d   1      11.935   1.893  18.640  0.00  0.00    -0.035 C 
+ATOM      6  C6  TN4 d   1      10.922   2.980  19.023  0.00  0.00    -0.034 C 
+ATOM      7  H1  TN4 d   1      12.612   5.005  19.326  0.00  0.00     0.053 H 
+ATOM      8  H2  TN4 d   1      13.581   2.407  20.696  0.00  0.00     0.088 H 
+ATOM      9  H3  TN4 d   1      14.078   1.656  18.380  0.00  0.00     0.088 H 
+ATOM     10  H4  TN4 d   1      11.898   1.088  19.389  0.00  0.00     0.037 H 
+ATOM     11  H5  TN4 d   1      11.671   1.488  17.652  0.00  0.00     0.037 H 
+ATOM     12  H6  TN4 d   1      10.891   3.726  18.215  0.00  0.00     0.037 H 
+ATOM     13  H7  TN4 d   1       9.932   2.511  19.127  0.00  0.00     0.037 H 
+ENDROOT
+BRANCH   2  14
+ATOM     14  C21 TN4 d   1      13.455   5.024  21.304  0.00  0.00     0.093 A 
+ATOM     15  C22 TN4 d   1      12.704   6.295  21.747  0.00  0.00     0.072 A 
+ATOM     16  O2A TN4 d   1      13.871   6.392  21.052  0.00  0.00    -0.369 OA
+ATOM     17  H12 TN4 d   1      11.787   6.438  21.156  0.00  0.00     0.088 H 
+BRANCH  15  18
+ATOM     18  C23 TN4 d   1      12.372   7.078  22.999  0.00  0.00    -0.023 C 
+ATOM     19  H13 TN4 d   1      12.301   8.147  22.749  0.00  0.00     0.042 H 
+ATOM     20  H14 TN4 d   1      13.169   6.928  23.742  0.00  0.00     0.042 H 
+BRANCH  18  21
+ATOM     21  C24 TN4 d   1      11.060   6.616  23.579  0.00  0.00    -0.099 C 
+ATOM     22  C25 TN4 d   1       9.955   7.321  23.848  0.00  0.00    -0.091 C 
+ATOM     23  H15 TN4 d   1      11.003   5.554  23.813  0.00  0.00     0.077 H 
+BRANCH  22  24
+ATOM     24  C2B TN4 d   1       9.710   8.769  23.592  0.00  0.00    -0.055 C 
+ATOM     25  H19 TN4 d   1       8.698   9.035  23.931  0.00  0.00     0.033 H 
+ATOM     26  H20 TN4 d   1       9.801   8.971  22.515  0.00  0.00     0.033 H 
+ATOM     27  H21 TN4 d   1      10.450   9.369  24.141  0.00  0.00     0.033 H 
+ENDBRANCH  22  24
+BRANCH  22  28
+ATOM     28  C2C TN4 d   1       8.834   6.498  24.364  0.00  0.00    -0.055 C 
+ATOM     29  H22 TN4 d   1       9.173   5.460  24.499  0.00  0.00     0.033 H 
+ATOM     30  H23 TN4 d   1       8.001   6.521  23.646  0.00  0.00     0.033 H 
+ATOM     31  H24 TN4 d   1       8.496   6.902  25.330  0.00  0.00     0.033 H 
+ENDBRANCH  22  28
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+BRANCH  14  32
+ATOM     32  C2A TN4 d   1      13.455   4.287  22.670  0.00  0.00    -0.045 C 
+ATOM     33  H16 TN4 d   1      13.965   3.318  22.564  0.00  0.00     0.031 H 
+ATOM     34  H17 TN4 d   1      12.418   4.121  22.997  0.00  0.00     0.031 H 
+ATOM     35  H18 TN4 d   1      13.982   4.899  23.417  0.00  0.00     0.031 H 
+ENDBRANCH  14  32
+ENDBRANCH   2  14
+BRANCH   1  36
+ATOM     36  C11 TN4 d   1      10.107   4.698  20.539  0.00  0.00    -0.047 C 
+ATOM     37  H8  TN4 d   1      10.271   5.263  21.469  0.00  0.00     0.031 H 
+ATOM     38  H9  TN4 d   1       9.155   4.151  20.605  0.00  0.00     0.031 H 
+ATOM     39  H10 TN4 d   1      10.072   5.395  19.689  0.00  0.00     0.031 H 
+ENDBRANCH   1  36
+BRANCH   1  40
+ATOM     40  O11 TN4 d   1      11.288   2.669  21.351  0.00  0.00    -0.390 OA
+ATOM     41  H11 TN4 d   1      10.439   2.246  21.396  0.00  0.00     0.210 HD
+ENDBRANCH   1  40
+BRANCH   3  42
+ATOM     42  O31 TN4 d   1      14.979   3.665  19.854  0.00  0.00    -0.388 OA
+BRANCH  42  43
+ATOM     43  C31 TN4 d   1      16.005   2.652  20.059  0.00  0.00     0.005 C 
+ATOM     44  H25 TN4 d   1      16.998   3.123  20.023  0.00  0.00     0.066 H 
+ATOM     45  H26 TN4 d   1      15.931   1.890  19.269  0.00  0.00     0.066 H 
+ATOM     46  H27 TN4 d   1      15.860   2.177  21.041  0.00  0.00     0.066 H 
+ENDBRANCH  42  43
+ENDBRANCH   3  42
+BRANCH   4  47
+ATOM     47  O41 TN4 d   1      13.417   3.473  17.583  0.00  0.00    -0.296 OA
+BRANCH  47  48
+ATOM     48  C41 TN4 d   1      14.637   3.574  16.851  0.00  0.00     0.358 C 
+ATOM     49  N42 TN4 d   1      15.022   4.789  16.404  0.00  0.00    -0.346 N 
+ATOM     50  H28 TN4 d   1      15.873   4.885  15.888  0.00  0.00     0.161 HD
+ATOM     51  H29 TN4 d   1      14.456   5.592  16.589  0.00  0.00     0.161 HD
+ATOM     52  O4A TN4 d   1      15.238   2.539  16.688  0.00  0.00    -0.239 OA
+ENDBRANCH  47  48
+ENDBRANCH   4  47
+TORSDOF 12

@@ -1,0 +1,78 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_4  and  C1_2 
+REMARK    2  A    between atoms: N1_3  and  O1_4 
+REMARK    3  A    between atoms: C2_5  and  C3_8 
+REMARK    4  A    between atoms: C7_18  and  C2_5 
+REMARK       I    between atoms: N2_6  and  C7_18 
+REMARK    5  A    between atoms: C8_20  and  N2_6 
+REMARK       I    between atoms: C15_28  and  N4_12 
+REMARK    6  A    between atoms: C14_27  and  O5_15 
+REMARK    7  A    between atoms: O5_15  and  C15_28 
+REMARK    8  A    between atoms: C11_24  and  C16_29 
+REMARK    9  A    between atoms: C12_25  and  C14_27 
+ROOT
+ATOM      1  S   KOV d   1      16.546   2.486   8.915  0.00  0.00    -0.136 SA
+ATOM      2  N3  KOV d   1      14.506   4.162   9.378  0.00  0.00    -0.293 N 
+ATOM      3  O4  KOV d   1      12.167   3.935   9.533  0.00  0.00    -0.271 OA
+ATOM      4  C8  KOV d   1      14.020   2.378  10.291  0.00  0.00     0.119 C 
+ATOM      5  C9  KOV d   1      15.326   3.135  10.055  0.00  0.00     0.092 C 
+ATOM      6  C10 KOV d   1      13.342   3.643   9.684  0.00  0.00     0.251 C 
+ATOM      7  C11 KOV d   1      15.047   5.238   8.610  0.00  0.00     0.121 C 
+ATOM      8  C12 KOV d   1      16.319   5.217   8.339  0.00  0.00    -0.013 C 
+ATOM      9  C13 KOV d   1      17.315   4.124   8.608  0.00  0.00     0.004 C 
+ATOM     10  H10 KOV d   1      13.810   2.201  11.356  0.00  0.00     0.092 H 
+ATOM     11  H11 KOV d   1      15.825   3.450  10.983  0.00  0.00     0.094 H 
+ATOM     12  H12 KOV d   1      17.980   4.038   7.736  0.00  0.00     0.056 H 
+ATOM     13  H13 KOV d   1      17.905   4.402   9.493  0.00  0.00     0.056 H 
+ENDROOT
+BRANCH   4  14
+ATOM     14  N2  KOV d   1      13.706   1.162   9.563  0.00  0.00    -0.339 N 
+ATOM     15  C7  KOV d   1      14.200  -0.022   9.879  0.00  0.00     0.276 C 
+ATOM     16  O3  KOV d   1      15.017  -0.213  10.762  0.00  0.00    -0.266 OA
+ATOM     17  H4  KOV d   1      13.084   1.224   8.782  0.00  0.00     0.163 HD
+BRANCH  15  18
+ATOM     18  C2  KOV d   1      13.611  -1.134   9.081  0.00  0.00     0.185 C 
+ATOM     19  N1  KOV d   1      12.572  -1.810   9.416  0.00  0.00    -0.126 NA
+BRANCH  19  20
+ATOM     20  O1  KOV d   1      12.074  -1.408  10.677  0.00  0.00    -0.261 OA
+BRANCH  20  21
+ATOM     21  C1  KOV d   1      10.631  -1.496  10.652  0.00  0.00     0.031 C 
+ATOM     22  H1  KOV d   1      10.228  -1.186  11.627  0.00  0.00     0.070 H 
+ATOM     23  H2  KOV d   1      10.330  -2.534  10.444  0.00  0.00     0.070 H 
+ATOM     24  H3  KOV d   1      10.237  -0.835   9.866  0.00  0.00     0.070 H 
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+BRANCH  18  25
+ATOM     25  C3  KOV d   1      14.217  -1.423   7.826  0.00  0.00     0.111 A 
+ATOM     26  O2  KOV d   1      13.664  -2.480   7.119  0.00  0.00    -0.320 OA
+ATOM     27  C6  KOV d   1      14.413  -2.573   5.959  0.00  0.00     0.019 A 
+ATOM     28  C5  KOV d   1      15.357  -1.678   5.933  0.00  0.00    -0.059 A 
+ATOM     29  H9  KOV d   1      14.235  -3.302   5.170  0.00  0.00     0.123 H 
+ATOM     30  C4  KOV d   1      15.246  -0.895   7.123  0.00  0.00    -0.046 A 
+ATOM     31  H8  KOV d   1      16.098  -1.549   5.146  0.00  0.00     0.086 H 
+ATOM     32  H5  KOV d   1      15.864  -0.045   7.407  0.00  0.00     0.087 H 
+ENDBRANCH  18  25
+ENDBRANCH  15  18
+ENDBRANCH   4  14
+BRANCH   7  33
+ATOM     33  C16 KOV d   1      14.012   6.179   8.081  0.00  0.00     0.227 C 
+ATOM     34  O7  KOV d   1      14.054   7.387   8.467  0.00  0.00    -0.643 OA
+ATOM     35  O8  KOV d   1      13.106   5.759   7.338  0.00  0.00    -0.643 OA
+ENDBRANCH   7  33
+BRANCH   8  36
+ATOM     36  C14 KOV d   1      16.980   6.399   7.637  0.00  0.00     0.054 C 
+ATOM     37  H14 KOV d   1      17.444   6.072   6.695  0.00  0.00     0.082 H 
+ATOM     38  H15 KOV d   1      16.237   7.183   7.428  0.00  0.00     0.082 H 
+BRANCH  36  39
+ATOM     39  O5  KOV d   1      18.025   6.912   8.581  0.00  0.00    -0.300 OA
+BRANCH  39  40
+ATOM     40  C15 KOV d   1      18.619   8.061   8.286  0.00  0.00     0.358 C 
+ATOM     41  N4  KOV d   1      19.726   8.172   9.047  0.00  0.00    -0.346 N 
+ATOM     42  H6  KOV d   1      20.310   8.979   8.965  0.00  0.00     0.161 HD
+ATOM     43  H7  KOV d   1      19.963   7.447   9.694  0.00  0.00     0.161 HD
+ATOM     44  O6  KOV d   1      18.175   8.873   7.464  0.00  0.00    -0.239 OA
+ENDBRANCH  39  40
+ENDBRANCH  36  39
+ENDBRANCH   8  36
+TORSDOF 9

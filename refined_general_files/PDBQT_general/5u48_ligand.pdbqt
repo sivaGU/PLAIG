@@ -1,0 +1,58 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  B01_19 
+REMARK    2  A    between atoms: C04_4  and  C07_7 
+REMARK    3  A    between atoms: C08_8  and  C09_9 
+REMARK    4  A    between atoms: C11_11  and  O02_16 
+REMARK    5  A    between atoms: C13_13  and  O01_15 
+REMARK    6  A    between atoms: B01_19  and  O03_17 
+REMARK    7  A    between atoms: B01_19  and  O04_18 
+ROOT
+ATOM      1  C07 S4B d   1     -22.406  -0.696 -26.345  0.00  0.00    -0.072 C 
+ATOM      2  C08 S4B d   1     -21.485  -0.058 -25.609  0.00  0.00    -0.072 C 
+ATOM      3  H   S4B d   1     -23.200  -1.207 -25.800  0.00  0.00     0.084 H 
+ATOM      4  H   S4B d   1     -20.691   0.469 -26.138  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1   5
+ATOM      5  C04 S4B d   1     -22.456  -0.780 -27.859  0.00  0.00    -0.036 A 
+ATOM      6  C03 S4B d   1     -21.548  -0.090 -28.645  0.00  0.00    -0.073 A 
+ATOM      7  C02 S4B d   1     -21.608  -0.196 -30.031  0.00  0.00    -0.081 A 
+ATOM      8  H   S4B d   1     -20.787   0.535 -28.178  0.00  0.00     0.084 H 
+ATOM      9  C01 S4B d   1     -22.573  -0.995 -30.624  0.00  0.00    -0.032 A 
+ATOM     10  H   S4B d   1     -20.896   0.349 -30.651  0.00  0.00     0.083 H 
+ATOM     11  C06 S4B d   1     -23.476  -1.689 -29.837  0.00  0.00    -0.081 A 
+ATOM     12  C05 S4B d   1     -23.414  -1.584 -28.457  0.00  0.00    -0.073 A 
+ATOM     13  H   S4B d   1     -24.235  -2.317 -30.303  0.00  0.00     0.083 H 
+ATOM     14  H   S4B d   1     -24.122  -2.136 -27.839  0.00  0.00     0.084 H 
+BRANCH   9  15
+ATOM     15  B01 S4B d   1     -22.659  -1.142 -32.267  0.00  0.00     0.529 B 
+BRANCH  15  16
+ATOM     16  O03 S4B d   1     -23.767  -1.817 -32.865  0.00  0.00    -0.433 OA
+ATOM     17  H   S4B d   1     -24.367  -2.115 -32.178  0.00  0.00     0.185 HD
+ENDBRANCH  15  16
+BRANCH  15  18
+ATOM     18  O04 S4B d   1     -21.624  -0.604 -33.090  0.00  0.00    -0.433 OA
+ATOM     19  H   S4B d   1     -20.960  -0.187 -32.536  0.00  0.00     0.185 HD
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+ENDBRANCH   1   5
+BRANCH   2  20
+ATOM     20  C09 S4B d   1     -21.468  -0.016 -24.095  0.00  0.00    -0.031 A 
+ATOM     21  C10 S4B d   1     -21.130   1.142 -23.416  0.00  0.00    -0.041 A 
+ATOM     22  C11 S4B d   1     -21.120   1.157 -22.028  0.00  0.00     0.069 A 
+ATOM     23  H   S4B d   1     -20.871   2.043 -23.972  0.00  0.00     0.089 H 
+ATOM     24  C12 S4B d   1     -21.438   0.021 -21.303  0.00  0.00    -0.019 A 
+ATOM     25  C13 S4B d   1     -21.765  -1.135 -21.987  0.00  0.00     0.069 A 
+ATOM     26  H   S4B d   1     -21.431   0.038 -20.213  0.00  0.00     0.092 H 
+ATOM     27  C14 S4B d   1     -21.783  -1.156 -23.374  0.00  0.00    -0.041 A 
+ATOM     28  H   S4B d   1     -22.046  -2.074 -23.899  0.00  0.00     0.089 H 
+BRANCH  22  29
+ATOM     29  O02 S4B d   1     -20.777   2.336 -21.354  0.00  0.00    -0.361 OA
+ATOM     30  H   S4B d   1     -21.509   2.609 -20.797  0.00  0.00     0.217 HD
+ENDBRANCH  22  29
+BRANCH  25  31
+ATOM     31  O01 S4B d   1     -22.092  -2.296 -21.276  0.00  0.00    -0.361 OA
+ATOM     32  H   S4B d   1     -22.033  -2.120 -20.334  0.00  0.00     0.217 HD
+ENDBRANCH  25  31
+ENDBRANCH   2  20
+TORSDOF 7

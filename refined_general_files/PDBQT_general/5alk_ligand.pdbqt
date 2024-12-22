@@ -1,0 +1,65 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_13  and  C5_4 
+REMARK    2  A    between atoms: C16_9  and  C19_10 
+REMARK    3  A    between atoms: C16_9  and  C20_11 
+REMARK    4  A    between atoms: C2_14  and  C1_12 
+REMARK    5  A    between atoms: C3_15  and  C4_13 
+REMARK    6  A    between atoms: C2_14  and  C3_15 
+ROOT
+ATOM      1  C8  WMR d   1      16.025  10.283  12.233  0.00  0.00     0.065 A 
+ATOM      2  C7  WMR d   1      17.372   9.867  11.905  0.00  0.00    -0.030 A 
+ATOM      3  C6  WMR d   1      17.693   9.564  10.440  0.00  0.00    -0.017 A 
+ATOM      4  C5  WMR d   1      16.562   9.709   9.516  0.00  0.00     0.044 A 
+ATOM      5  C12 WMR d   1      15.072  10.353  11.175  0.00  0.00     0.184 A 
+ATOM      6  C9  WMR d   1      15.286  10.709  13.414  0.00  0.00     0.130 A 
+ATOM      7  C15 WMR d   1      18.448   9.756  13.002  0.00  0.00    -0.024 C 
+ATOM      8  C18 WMR d   1      19.140   9.127   9.985  0.00  0.00     0.004 C 
+ATOM      9  C16 WMR d   1      19.839   9.316  12.602  0.00  0.00     0.005 C 
+ATOM     10  N13 WMR d   1      15.243  10.077   9.904  0.00  0.00    -0.231 NA
+ATOM     11  N10 WMR d   1      14.000  11.025  13.001  0.00  0.00    -0.260 N 
+ATOM     12  N11 WMR d   1      13.912  10.810  11.654  0.00  0.00    -0.152 NA
+ATOM     13  N14 WMR d   1      15.838  10.808  14.648  0.00  0.00    -0.384 N 
+ATOM     14  S17 WMR d   1      19.847   7.988  11.234  0.00  0.00    -0.155 SA
+ATOM     15  H1  WMR d   1      18.080   9.035  13.747  0.00  0.00     0.042 H 
+ATOM     16  H2  WMR d   1      18.542  10.748  13.467  0.00  0.00     0.042 H 
+ATOM     17  H3  WMR d   1      19.781  10.016   9.894  0.00  0.00     0.056 H 
+ATOM     18  H4  WMR d   1      19.081   8.616   9.013  0.00  0.00     0.056 H 
+ATOM     19  H20 WMR d   1      13.240  11.364  13.607  0.00  0.00     0.191 HD
+ATOM     20  H21 WMR d   1      16.819  10.530  14.797  0.00  0.00     0.157 HD
+ATOM     21  H22 WMR d   1      15.277  11.161  15.436  0.00  0.00     0.157 HD
+ENDROOT
+BRANCH   4  22
+ATOM     22  C4  WMR d   1      16.864   9.432   8.111  0.00  0.00    -0.024 C 
+ATOM     23  H14 WMR d   1      17.773   8.814   8.075  0.00  0.00     0.042 H 
+ATOM     24  H15 WMR d   1      17.053  10.392   7.609  0.00  0.00     0.042 H 
+BRANCH  22  25
+ATOM     25  C3  WMR d   1      15.811   8.732   7.367  0.00  0.00    -0.060 C 
+ATOM     26  H18 WMR d   1      15.166   9.446   6.834  0.00  0.00     0.033 H 
+ATOM     27  H19 WMR d   1      15.197   8.117   8.041  0.00  0.00     0.033 H 
+BRANCH  25  28
+ATOM     28  C2  WMR d   1      16.561   7.881   6.411  0.00  0.00    -0.068 C 
+ATOM     29  H16 WMR d   1      16.973   8.495   5.596  0.00  0.00     0.032 H 
+ATOM     30  H17 WMR d   1      17.380   7.359   6.927  0.00  0.00     0.032 H 
+BRANCH  28  31
+ATOM     31  C1  WMR d   1      15.571   6.889   5.867  0.00  0.00    -0.077 C 
+ATOM     32  H11 WMR d   1      16.074   6.226   5.147  0.00  0.00     0.027 H 
+ATOM     33  H12 WMR d   1      14.754   7.425   5.362  0.00  0.00     0.027 H 
+ATOM     34  H13 WMR d   1      15.161   6.289   6.693  0.00  0.00     0.027 H 
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH   4  22
+BRANCH   9  35
+ATOM     35  C19 WMR d   1      20.585  10.577  12.288  0.00  0.00    -0.060 C 
+ATOM     36  H5  WMR d   1      21.614  10.329  11.987  0.00  0.00     0.029 H 
+ATOM     37  H6  WMR d   1      20.609  11.221  13.180  0.00  0.00     0.029 H 
+ATOM     38  H7  WMR d   1      20.080  11.107  11.467  0.00  0.00     0.029 H 
+ENDBRANCH   9  35
+BRANCH   9  39
+ATOM     39  C20 WMR d   1      20.451   8.713  13.810  0.00  0.00    -0.060 C 
+ATOM     40  H8  WMR d   1      19.921   7.783  14.064  0.00  0.00     0.029 H 
+ATOM     41  H9  WMR d   1      20.376   9.419  14.650  0.00  0.00     0.029 H 
+ATOM     42  H10 WMR d   1      21.510   8.490  13.612  0.00  0.00     0.029 H 
+ENDBRANCH   9  39
+TORSDOF 6

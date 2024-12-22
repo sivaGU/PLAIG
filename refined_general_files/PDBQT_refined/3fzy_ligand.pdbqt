@@ -1,0 +1,83 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O11_7 
+REMARK    2  A    between atoms: C2_2  and  O12_12 
+REMARK    3  A    between atoms: C3_3  and  O13_17 
+REMARK    4  A    between atoms: C4_4  and  O14_22 
+REMARK    5  A    between atoms: C5_5  and  O15_27 
+REMARK    6  A    between atoms: C6_6  and  O16_32 
+REMARK    7  A    between atoms: O11_7  and  P1_8 
+REMARK    8  A    between atoms: O12_12  and  P2_13 
+REMARK    9  A    between atoms: O13_17  and  P3_18 
+REMARK   10  A    between atoms: O14_22  and  P4_23 
+REMARK   11  A    between atoms: O15_27  and  P5_28 
+REMARK   12  A    between atoms: O16_32  and  P6_33 
+ROOT
+ATOM      1  C1  IHP d   1       6.402  20.097  39.061  0.00  0.00     0.107 C 
+ATOM      2  C2  IHP d   1       7.547  19.511  39.893  0.00  0.00     0.107 C 
+ATOM      3  C3  IHP d   1       7.486  17.967  39.873  0.00  0.00     0.107 C 
+ATOM      4  C4  IHP d   1       7.526  17.401  38.455  0.00  0.00     0.107 C 
+ATOM      5  C5  IHP d   1       6.313  17.966  37.710  0.00  0.00     0.107 C 
+ATOM      6  C6  IHP d   1       6.444  19.504  37.651  0.00  0.00     0.107 C 
+ATOM      7  H1  IHP d   1       5.448  19.822  39.535  0.00  0.00     0.092 H 
+ATOM      8  H2  IHP d   1       7.470  19.870  40.930  0.00  0.00     0.092 H 
+ATOM      9  H3  IHP d   1       6.528  17.671  40.325  0.00  0.00     0.092 H 
+ATOM     10  H4  IHP d   1       8.452  17.721  37.955  0.00  0.00     0.092 H 
+ATOM     11  H5  IHP d   1       5.409  17.730  38.290  0.00  0.00     0.092 H 
+ATOM     12  H6  IHP d   1       7.405  19.759  37.181  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  O11 IHP d   1       6.479  21.516  38.994  0.00  0.00    -0.272 OA
+BRANCH  13  14
+ATOM     14  P1  IHP d   1       5.635  22.560  39.872  0.00  0.00     0.422 P 
+ATOM     15  O21 IHP d   1       6.095  23.819  39.227  0.00  0.00    -0.617 OA
+ATOM     16  O31 IHP d   1       6.125  22.393  41.295  0.00  0.00    -0.617 OA
+ATOM     17  O41 IHP d   1       4.177  22.175  39.575  0.00  0.00    -0.617 OA
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   2  18
+ATOM     18  O12 IHP d   1       8.788  19.924  39.328  0.00  0.00    -0.272 OA
+BRANCH  18  19
+ATOM     19  P2  IHP d   1       9.774  21.036  39.900  0.00  0.00     0.422 P 
+ATOM     20  O22 IHP d   1      10.251  21.712  38.632  0.00  0.00    -0.617 OA
+ATOM     21  O32 IHP d   1       8.969  21.930  40.817  0.00  0.00    -0.617 OA
+ATOM     22  O42 IHP d   1      10.808  20.232  40.634  0.00  0.00    -0.617 OA
+ENDBRANCH  18  19
+ENDBRANCH   2  18
+BRANCH   6  23
+ATOM     23  O16 IHP d   1       5.379  20.075  36.880  0.00  0.00    -0.272 OA
+BRANCH  23  24
+ATOM     24  P6  IHP d   1       5.635  20.821  35.508  0.00  0.00     0.422 P 
+ATOM     25  O26 IHP d   1       5.514  19.763  34.452  0.00  0.00    -0.617 OA
+ATOM     26  O36 IHP d   1       4.477  21.777  35.524  0.00  0.00    -0.617 OA
+ATOM     27  O46 IHP d   1       7.033  21.454  35.506  0.00  0.00    -0.617 OA
+ENDBRANCH  23  24
+ENDBRANCH   6  23
+BRANCH   3  28
+ATOM     28  O13 IHP d   1       8.536  17.390  40.652  0.00  0.00    -0.272 OA
+BRANCH  28  29
+ATOM     29  P3  IHP d   1       8.285  16.337  41.852  0.00  0.00     0.422 P 
+ATOM     30  O23 IHP d   1       9.104  15.188  41.316  0.00  0.00    -0.617 OA
+ATOM     31  O33 IHP d   1       6.840  16.045  41.872  0.00  0.00    -0.617 OA
+ATOM     32  O43 IHP d   1       8.784  16.942  43.120  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH   3  28
+BRANCH   5  33
+ATOM     33  O15 IHP d   1       6.171  17.346  36.434  0.00  0.00    -0.272 OA
+BRANCH  33  34
+ATOM     34  P5  IHP d   1       4.754  16.773  35.861  0.00  0.00     0.422 P 
+ATOM     35  O25 IHP d   1       4.000  16.533  37.130  0.00  0.00    -0.617 OA
+ATOM     36  O35 IHP d   1       4.148  17.818  34.953  0.00  0.00    -0.617 OA
+ATOM     37  O45 IHP d   1       5.130  15.511  35.129  0.00  0.00    -0.617 OA
+ENDBRANCH  33  34
+ENDBRANCH   5  33
+BRANCH   4  38
+ATOM     38  O14 IHP d   1       7.475  15.960  38.474  0.00  0.00    -0.272 OA
+BRANCH  38  39
+ATOM     39  P4  IHP d   1       8.691  15.012  38.025  0.00  0.00     0.422 P 
+ATOM     40  O24 IHP d   1       9.796  15.155  39.050  0.00  0.00    -0.617 OA
+ATOM     41  O34 IHP d   1       7.991  13.656  38.038  0.00  0.00    -0.617 OA
+ATOM     42  O44 IHP d   1       9.126  15.318  36.630  0.00  0.00    -0.617 OA
+ENDBRANCH  38  39
+ENDBRANCH   4  38
+TORSDOF 12

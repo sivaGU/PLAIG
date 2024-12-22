@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: B_1  and  OB1_2 
+REMARK    2  A    between atoms: B_1  and  OB2_3 
+REMARK    3  A    between atoms: B_1  and  CP1_4 
+REMARK    4  A    between atoms: CP4_7  and  CX1_8 
+REMARK    5  A    between atoms: CX2_9  and  CX3_10 
+ROOT
+ATOM      1  CP1 CVB d   1      26.248   6.017  15.251  0.00  0.00    -0.032 A 
+ATOM      2  CP2 CVB d   1      25.842   5.306  14.127  0.00  0.00    -0.081 A 
+ATOM      3  CP3 CVB d   1      25.333   5.950  12.999  0.00  0.00    -0.073 A 
+ATOM      4  CP4 CVB d   1      25.236   7.375  13.017  0.00  0.00    -0.036 A 
+ATOM      5  CP5 CVB d   1      25.664   8.065  14.179  0.00  0.00    -0.073 A 
+ATOM      6  CP6 CVB d   1      26.154   7.388  15.258  0.00  0.00    -0.081 A 
+ATOM      7  H3  CVB d   1      25.923   4.225  14.127  0.00  0.00     0.083 H 
+ATOM      8  H4  CVB d   1      25.019   5.383  12.130  0.00  0.00     0.084 H 
+ATOM      9  H7  CVB d   1      25.601   9.147  14.211  0.00  0.00     0.084 H 
+ATOM     10  H8  CVB d   1      26.474   7.940  16.134  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  CX1 CVB d   1      24.710   8.148  11.887  0.00  0.00    -0.067 C 
+ATOM     12  CX2 CVB d   1      24.268   7.596  10.734  0.00  0.00    -0.009 C 
+ATOM     13  H6  CVB d   1      24.286   6.516  10.594  0.00  0.00     0.094 H 
+ATOM     14  H5  CVB d   1      24.673   9.232  11.982  0.00  0.00     0.085 H 
+BRANCH  12  15
+ATOM     15  CX3 CVB d   1      23.767   8.473   9.681  0.00  0.00     0.198 C 
+ATOM     16  OX1 CVB d   1      24.454   8.626   8.541  0.00  0.00    -0.645 OA
+ATOM     17  OX2 CVB d   1      22.710   9.093   9.847  0.00  0.00    -0.645 OA
+ENDBRANCH  12  15
+ENDBRANCH   4  11
+BRANCH   1  18
+ATOM     18  B   CVB d   1      26.783   5.247  16.506  0.00  0.00     0.529 B 
+BRANCH  18  19
+ATOM     19  OB1 CVB d   1      25.804   4.198  16.861  0.00  0.00    -0.433 OA
+ATOM     20  H1  CVB d   1      25.696   3.606  16.126  0.00  0.00     0.185 HD
+ENDBRANCH  18  19
+BRANCH  18  21
+ATOM     21  OB2 CVB d   1      26.961   6.188  17.660  0.00  0.00    -0.433 OA
+ATOM     22  H2  CVB d   1      27.277   5.705  18.415  0.00  0.00     0.185 HD
+ENDBRANCH  18  21
+ENDBRANCH   1  18
+TORSDOF 5

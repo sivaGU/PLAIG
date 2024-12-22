@@ -1,0 +1,89 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C4_4 
+REMARK    2  A    between atoms: C4_4  and  N5_5 
+REMARK    3  A    between atoms: C4_4  and  C10_10 
+REMARK    4  A    between atoms: C10_10  and  C11_11 
+REMARK    5  A    between atoms: C14_14  and  C17_17 
+REMARK    6  A    between atoms: C17_17  and  C18_18 
+REMARK    7  A    between atoms: C18_18  and  C19_19 
+REMARK    8  A    between atoms: C19_19  and  C20_20 
+REMARK    9  A    between atoms: C22_22  and  C26_26 
+REMARK   10  A    between atoms: C24_24  and  C25_25 
+ROOT
+ATOM      1  C17 UNT d   1      17.505  61.532  12.267  0.00  0.00    -0.041 C 
+ATOM      2  H10 UNT d   1      17.120  60.519  12.079  0.00  0.00     0.040 H 
+ATOM      3  H11 UNT d   1      18.476  61.654  11.764  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C14 UNT d   1      17.719  61.684  13.733  0.00  0.00    -0.058 A 
+ATOM      5  C13 UNT d   1      16.692  61.911  14.629  0.00  0.00    -0.076 A 
+ATOM      6  C12 UNT d   1      16.970  62.032  15.973  0.00  0.00    -0.076 A 
+ATOM      7  H7  UNT d   1      15.671  61.994  14.276  0.00  0.00     0.084 H 
+ATOM      8  C11 UNT d   1      18.267  61.926  16.437  0.00  0.00    -0.056 A 
+ATOM      9  H6  UNT d   1      16.163  62.212  16.674  0.00  0.00     0.084 H 
+ATOM     10  C16 UNT d   1      19.281  61.694  15.533  0.00  0.00    -0.076 A 
+ATOM     11  C15 UNT d   1      19.010  61.575  14.194  0.00  0.00    -0.076 A 
+ATOM     12  H9  UNT d   1      20.303  61.605  15.884  0.00  0.00     0.084 H 
+ATOM     13  H8  UNT d   1      19.818  61.394  13.495  0.00  0.00     0.084 H 
+BRANCH   8  14
+ATOM     14  C10 UNT d   1      18.603  62.053  17.894  0.00  0.00    -0.009 C 
+ATOM     15  H4  UNT d   1      17.816  61.566  18.489  0.00  0.00     0.044 H 
+ATOM     16  H5  UNT d   1      19.567  61.559  18.086  0.00  0.00     0.044 H 
+BRANCH  14  17
+ATOM     17  C4  UNT d   1      18.703  63.517  18.301  0.00  0.00     0.140 C 
+ATOM     18  H1  UNT d   1      17.784  64.066  18.051  0.00  0.00     0.096 H 
+BRANCH  17  19
+ATOM     19  C2  UNT d   1      18.933  63.415  19.811  0.00  0.00     0.201 C 
+ATOM     20  O1  UNT d   1      20.112  63.187  20.209  0.00  0.00    -0.646 OA
+ATOM     21  O3  UNT d   1      17.892  63.578  20.505  0.00  0.00    -0.646 OA
+ENDBRANCH  17  19
+BRANCH  17  22
+ATOM     22  N5  UNT d   1      19.865  64.186  17.729  0.00  0.00    -0.173 N 
+ATOM     23  N6  UNT d   1      19.842  65.521  17.597  0.00  0.00    -0.165 NA
+ATOM     24  C7  UNT d   1      21.037  65.744  17.051  0.00  0.00     0.042 A 
+ATOM     25  C8  UNT d   1      21.719  64.516  16.884  0.00  0.00     0.042 A 
+ATOM     26  H2  UNT d   1      21.429  66.722  16.776  0.00  0.00     0.119 H 
+ATOM     27  N9  UNT d   1      20.955  63.516  17.323  0.00  0.00    -0.165 NA
+ATOM     28  H3  UNT d   1      22.716  64.405  16.461  0.00  0.00     0.119 H 
+ENDBRANCH  17  22
+ENDBRANCH  14  17
+ENDBRANCH   8  14
+ENDBRANCH   1   4
+BRANCH   1  29
+ATOM     29  C18 UNT d   1      16.540  62.518  11.671  0.00  0.00    -0.056 C 
+ATOM     30  H12 UNT d   1      16.775  63.536  12.015  0.00  0.00     0.034 H 
+ATOM     31  H13 UNT d   1      15.509  62.263  11.959  0.00  0.00     0.034 H 
+BRANCH  29  32
+ATOM     32  C19 UNT d   1      16.702  62.424  10.171  0.00  0.00    -0.022 C 
+ATOM     33  H14 UNT d   1      15.724  62.201   9.720  0.00  0.00     0.042 H 
+ATOM     34  H15 UNT d   1      17.407  61.612   9.939  0.00  0.00     0.042 H 
+BRANCH  32  35
+ATOM     35  C20 UNT d   1      17.215  63.677   9.600  0.00  0.00     0.066 A 
+ATOM     36  N21 UNT d   1      16.423  64.795   9.535  0.00  0.00    -0.226 NA
+ATOM     37  C22 UNT d   1      17.202  65.696   8.979  0.00  0.00     0.180 A 
+ATOM     38  O23 UNT d   1      18.450  65.256   8.667  0.00  0.00    -0.294 OA
+ATOM     39  C24 UNT d   1      18.452  63.960   9.069  0.00  0.00     0.076 A 
+BRANCH  37  40
+ATOM     40  C26 UNT d   1      16.914  67.069   8.656  0.00  0.00     0.017 A 
+ATOM     41  C27 UNT d   1      17.892  67.886   8.127  0.00  0.00    -0.069 A 
+ATOM     42  C28 UNT d   1      17.606  69.199   7.822  0.00  0.00    -0.082 A 
+ATOM     43  H19 UNT d   1      18.887  67.494   7.951  0.00  0.00     0.085 H 
+ATOM     44  C29 UNT d   1      16.343  69.701   8.046  0.00  0.00    -0.083 A 
+ATOM     45  H20 UNT d   1      18.376  69.838   7.405  0.00  0.00     0.083 H 
+ATOM     46  C30 UNT d   1      15.364  68.889   8.574  0.00  0.00    -0.082 A 
+ATOM     47  H21 UNT d   1      16.120  70.734   7.807  0.00  0.00     0.083 H 
+ATOM     48  C31 UNT d   1      15.652  67.577   8.879  0.00  0.00    -0.069 A 
+ATOM     49  H22 UNT d   1      14.369  69.281   8.749  0.00  0.00     0.083 H 
+ATOM     50  H23 UNT d   1      14.881  66.940   9.297  0.00  0.00     0.085 H 
+ENDBRANCH  37  40
+BRANCH  39  51
+ATOM     51  C25 UNT d   1      19.691  63.195   8.859  0.00  0.00    -0.029 C 
+ATOM     52  H16 UNT d   1      20.446  63.842   8.389  0.00  0.00     0.036 H 
+ATOM     53  H17 UNT d   1      19.485  62.336   8.203  0.00  0.00     0.036 H 
+ATOM     54  H18 UNT d   1      20.068  62.835   9.828  0.00  0.00     0.036 H 
+ENDBRANCH  39  51
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 10

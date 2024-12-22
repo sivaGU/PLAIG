@@ -1,0 +1,50 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_3  and  SAG_4 
+REMARK    2  A    between atoms: SAG_4  and  NAN_7 
+REMARK    3  A    between atoms: CAD_10  and  OAH_11 
+REMARK    4  A    between atoms: OAH_11  and  CAI_12 
+REMARK    5  A    between atoms: CAI_12  and  CAJ_13 
+REMARK    6  A    between atoms: CAJ_13  and  CAK_14 
+ROOT
+ATOM      1  CAC 3W3 d   1      -5.556   4.642  14.920  0.00  0.00    -0.049 A 
+ATOM      2  CAB 3W3 d   1      -6.120   3.453  15.631  0.00  0.00    -0.058 A 
+ATOM      3  CAA 3W3 d   1      -5.329   2.387  15.850  0.00  0.00     0.079 A 
+ATOM      4  CAF 3W3 d   1      -3.901   2.369  15.413  0.00  0.00    -0.058 A 
+ATOM      5  CAE 3W3 d   1      -3.394   3.434  14.777  0.00  0.00    -0.049 A 
+ATOM      6  CAD 3W3 d   1      -4.274   4.624  14.536  0.00  0.00     0.068 A 
+ATOM      7  H1  3W3 d   1      -6.178   5.507  14.718  0.00  0.00     0.087 H 
+ATOM      8  H2  3W3 d   1      -7.151   3.450  15.965  0.00  0.00     0.086 H 
+ATOM      9  H5  3W3 d   1      -3.280   1.502  15.608  0.00  0.00     0.086 H 
+ATOM     10  H6  3W3 d   1      -2.363   3.435  14.442  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  OAH 3W3 d   1      -3.788   5.756  13.893  0.00  0.00    -0.351 OA
+BRANCH  11  12
+ATOM     12  CAI 3W3 d   1      -2.424   5.800  13.528  0.00  0.00     0.026 C 
+ATOM     13  H7  3W3 d   1      -2.254   5.176  12.638  0.00  0.00     0.075 H 
+ATOM     14  H8  3W3 d   1      -1.802   5.432  14.358  0.00  0.00     0.075 H 
+BRANCH  12  15
+ATOM     15  CAJ 3W3 d   1      -2.074   7.239  13.222  0.00  0.00    -0.048 C 
+ATOM     16  H9  3W3 d   1      -2.846   7.664  12.563  0.00  0.00     0.035 H 
+ATOM     17  H10 3W3 d   1      -1.099   7.271  12.713  0.00  0.00     0.035 H 
+BRANCH  15  18
+ATOM     18  CAK 3W3 d   1      -1.997   8.064  14.489  0.00  0.00    -0.075 C 
+ATOM     19  H11 3W3 d   1      -1.741   9.103  14.235  0.00  0.00     0.027 H 
+ATOM     20  H12 3W3 d   1      -1.224   7.648  15.151  0.00  0.00     0.027 H 
+ATOM     21  H13 3W3 d   1      -2.970   8.041  15.002  0.00  0.00     0.027 H 
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   6  11
+BRANCH   3  22
+ATOM     22  SAG 3W3 d   1      -5.958   0.999  16.716  0.00  0.00     0.256 S 
+ATOM     23  OAL 3W3 d   1      -5.428   1.117  18.064  0.00  0.00    -0.201 OA
+ATOM     24  OAM 3W3 d   1      -7.376   1.105  16.606  0.00  0.00    -0.201 OA
+BRANCH  22  25
+ATOM     25  NAN 3W3 d   1      -5.402  -0.351  16.036  0.00  0.00    -0.324 N 
+ATOM     26  H3  3W3 d   1      -5.664  -1.242  16.407  0.00  0.00     0.169 HD
+ATOM     27  H4  3W3 d   1      -4.795  -0.298  15.243  0.00  0.00     0.169 HD
+ENDBRANCH  22  25
+ENDBRANCH   3  22
+TORSDOF 6

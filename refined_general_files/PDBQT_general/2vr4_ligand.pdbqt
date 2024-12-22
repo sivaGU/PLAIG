@@ -1,0 +1,77 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_1  and  C7_13 
+REMARK    2  A    between atoms: C9_15  and  C8_1 
+REMARK    3  A    between atoms: C2_2  and  O2_7 
+REMARK    4  A    between atoms: C3_3  and  O3_8 
+REMARK    5  A    between atoms: C4_4  and  O4_9 
+REMARK    6  A    between atoms: C5_5  and  C6_6 
+REMARK    7  A    between atoms: C6_6  and  O6_11 
+REMARK    8  A    between atoms: C7_13  and  N1_12 
+REMARK    9  A    between atoms: C10_14  and  C9_15 
+REMARK   10  A    between atoms: N2_16  and  C10_14 
+REMARK   11  A    between atoms: N2_16  and  C1_17 
+ROOT
+ATOM      1  C2  17B d   1      27.440  45.871  -0.591  0.00  0.00     0.119 C 
+ATOM      2  C3  17B d   1      27.881  47.131   0.230  0.00  0.00     0.094 C 
+ATOM      3  C4  17B d   1      27.573  48.466  -0.510  0.00  0.00     0.086 C 
+ATOM      4  C5  17B d   1      26.447  48.267  -1.574  0.00  0.00     0.082 C 
+ATOM      5  N5  17B d   1      26.871  47.274  -2.508  0.00  0.00    -0.264 NA
+ATOM      6  C1  17B d   1      27.515  46.198  -2.125  0.00  0.00     0.126 C 
+ATOM      7  H3  17B d   1      26.384  45.706  -0.332  0.00  0.00     0.099 H 
+ATOM      8  H4  17B d   1      27.345  47.138   1.191  0.00  0.00     0.091 H 
+ATOM      9  H5  17B d   1      28.487  48.770  -1.042  0.00  0.00     0.090 H 
+ATOM     10  H6  17B d   1      25.564  47.886  -1.040  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  N2  17B d   1      28.172  45.387  -2.950  0.00  0.00    -0.376 N 
+ATOM     12  H22 17B d   1      28.613  44.556  -2.530  0.00  0.00     0.160 HD
+BRANCH  11  13
+ATOM     13  C10 17B d   1      28.331  45.557  -4.391  0.00  0.00    -0.006 C 
+ATOM     14  H18 17B d   1      28.485  44.564  -4.840  0.00  0.00     0.064 H 
+ATOM     15  H19 17B d   1      27.406  46.000  -4.789  0.00  0.00     0.064 H 
+BRANCH  13  16
+ATOM     16  C9  17B d   1      29.514  46.460  -4.800  0.00  0.00    -0.049 C 
+ATOM     17  H20 17B d   1      29.385  47.449  -4.336  0.00  0.00     0.035 H 
+ATOM     18  H21 17B d   1      30.450  46.006  -4.442  0.00  0.00     0.035 H 
+BRANCH  16  19
+ATOM     19  C8  17B d   1      29.595  46.631  -6.324  0.00  0.00    -0.041 C 
+ATOM     20  H1  17B d   1      29.781  45.643  -6.771  0.00  0.00     0.035 H 
+ATOM     21  H2  17B d   1      28.628  47.018  -6.678  0.00  0.00     0.035 H 
+BRANCH  19  22
+ATOM     22  C7  17B d   1      30.703  47.593  -6.802  0.00  0.00     0.080 C 
+ATOM     23  H16 17B d   1      31.024  48.216  -5.954  0.00  0.00     0.075 H 
+ATOM     24  H17 17B d   1      30.297  48.236  -7.597  0.00  0.00     0.075 H 
+BRANCH  22  25
+ATOM     25  N1  17B d   1      31.873  46.864  -7.328  0.00  0.00    -0.079 N 
+ATOM     26  H13 17B d   1      32.573  47.524  -7.629  0.00  0.00     0.274 HD
+ATOM     27  H14 17B d   1      31.590  46.294  -8.110  0.00  0.00     0.274 HD
+ATOM     28  H15 17B d   1      32.256  46.276  -6.604  0.00  0.00     0.274 HD
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  29
+ATOM     29  O2  17B d   1      28.090  44.622  -0.375  0.00  0.00    -0.385 OA
+ATOM     30  H9  17B d   1      27.709  43.965  -0.946  0.00  0.00     0.210 HD
+ENDBRANCH   1  29
+BRANCH   2  31
+ATOM     31  O3  17B d   1      29.277  47.003   0.469  0.00  0.00    -0.390 OA
+ATOM     32  H10 17B d   1      29.741  47.011  -0.360  0.00  0.00     0.210 HD
+ENDBRANCH   2  31
+BRANCH   4  33
+ATOM     33  C6  17B d   1      26.000  49.526  -2.336  0.00  0.00     0.040 C 
+ATOM     34  H7  17B d   1      25.810  50.341  -1.623  0.00  0.00     0.077 H 
+ATOM     35  H8  17B d   1      25.081  49.310  -2.900  0.00  0.00     0.077 H 
+BRANCH  33  36
+ATOM     36  O6  17B d   1      27.045  49.915  -3.247  0.00  0.00    -0.399 OA
+ATOM     37  H12 17B d   1      27.838  50.100  -2.757  0.00  0.00     0.209 HD
+ENDBRANCH  33  36
+ENDBRANCH   4  33
+BRANCH   3  38
+ATOM     38  O4  17B d   1      27.236  49.513   0.404  0.00  0.00    -0.391 OA
+ATOM     39  H11 17B d   1      27.122  50.325  -0.075  0.00  0.00     0.210 HD
+ENDBRANCH   3  38
+TORSDOF 11

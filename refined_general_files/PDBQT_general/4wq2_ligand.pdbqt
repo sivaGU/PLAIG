@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_2  and  CAJ_4 
+REMARK    2  A    between atoms: CAJ_4  and  SAP_5 
+REMARK    3  A    between atoms: CAJ_4  and  CAI_6 
+REMARK    4  A    between atoms: CAI_6  and  CAH_7 
+ROOT
+ATOM      1  CAH 3SU d   1       8.852   7.414  33.648  0.00  0.00    -0.029 A 
+ATOM      2  CAE 3SU d   1       9.477   6.676  32.703  0.00  0.00    -0.002 A 
+ATOM      3  CAD 3SU d   1       9.106   6.227  31.497  0.00  0.00    -0.069 A 
+ATOM      4  CAC 3SU d   1      10.005   5.513  30.666  0.00  0.00    -0.065 A 
+ATOM      5  CAB 3SU d   1      11.243   5.318  31.161  0.00  0.00     0.013 A 
+ATOM      6 BR   3SU d   1      12.440   4.243  30.344  0.00  0.00    -0.051 Br
+ATOM      7  CAG 3SU d   1      11.573   5.773  32.434  0.00  0.00    -0.040 A 
+ATOM      8  CAF 3SU d   1      10.727   6.493  33.154  0.00  0.00     0.044 A 
+ATOM      9  NAA 3SU d   1      10.850   7.048  34.373  0.00  0.00    -0.365 N 
+ATOM     10  CAK 3SU d   1       9.674   7.611  34.696  0.00  0.00    -0.015 A 
+ATOM     11  H5  3SU d   1       8.097   6.414  31.149  0.00  0.00     0.085 H 
+ATOM     12  H6  3SU d   1       9.714   5.145  29.689  0.00  0.00     0.085 H 
+ATOM     13  H7  3SU d   1      12.546   5.532  32.846  0.00  0.00     0.089 H 
+ATOM     14  H8  3SU d   1      11.698   7.042  34.957  0.00  0.00     0.165 HD
+ATOM     15  H9  3SU d   1       9.432   8.126  35.624  0.00  0.00     0.112 H 
+ENDROOT
+BRANCH   1  16
+ATOM     16  CAI 3SU d   1       7.565   7.791  33.505  0.00  0.00    -0.018 C 
+ATOM     17  H3  3SU d   1       7.574   8.572  32.731  0.00  0.00     0.042 H 
+ATOM     18  H4  3SU d   1       7.041   6.902  33.123  0.00  0.00     0.042 H 
+BRANCH  16  19
+ATOM     19  CAJ 3SU d   1       6.666   8.343  34.633  0.00  0.00     0.076 C 
+ATOM     20  H1  3SU d   1       6.486   7.335  35.036  0.00  0.00     0.073 H 
+BRANCH  19  21
+ATOM     21  CAL 3SU d   1       5.184   8.602  34.358  0.00  0.00     0.187 C 
+ATOM     22  OAM 3SU d   1       4.487   9.137  35.234  0.00  0.00    -0.647 OA
+ATOM     23  OAN 3SU d   1       4.660   8.246  33.286  0.00  0.00    -0.647 OA
+ENDBRANCH  19  21
+BRANCH  19  24
+ATOM     24  SAP 3SU d   1       7.258   8.917  36.115  0.00  0.00    -0.166 SA
+ATOM     25  H2  3SU d   1       8.238   8.694  36.193  0.00  0.00     0.102 HD
+ENDBRANCH  19  24
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 4

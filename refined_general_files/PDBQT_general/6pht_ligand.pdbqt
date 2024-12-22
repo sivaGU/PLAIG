@@ -1,0 +1,79 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  B11_2 
+REMARK    2  A    between atoms: C09_9  and  C10_1 
+REMARK    3  A    between atoms: B11_2  and  O12_12 
+REMARK    4  A    between atoms: B11_2  and  O13_13 
+REMARK    5  A    between atoms: C03_4  and  C02_3 
+REMARK    6  A    between atoms: C02_3  and  N01_10 
+REMARK    7  A    between atoms: C04_5  and  C03_4 
+REMARK    8  A    between atoms: N05_11  and  C04_5 
+REMARK    9  A    between atoms: C07_7  and  C06_6 
+REMARK   10  A    between atoms: C06_6  and  N05_11 
+REMARK   11  A    between atoms: C08_8  and  C07_7 
+REMARK   12  A    between atoms: C08_8  and  C09_9 
+ROOT
+ATOM      1  C06 OKP d   1      31.107  35.349  72.522  0.00  0.00     0.082 C 
+ATOM      2  H10 OKP d   1      31.119  34.460  73.170  0.00  0.00     0.075 H 
+ATOM      3  H11 OKP d   1      30.847  36.235  73.120  0.00  0.00     0.075 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C07 OKP d   1      30.086  35.162  71.441  0.00  0.00    -0.043 C 
+ATOM      5  H12 OKP d   1      29.618  34.173  71.550  0.00  0.00     0.035 H 
+ATOM      6  H13 OKP d   1      30.579  35.228  70.460  0.00  0.00     0.035 H 
+BRANCH   4   7
+ATOM      7  C08 OKP d   1      29.048  36.205  71.535  0.00  0.00    -0.064 C 
+ATOM      8  H14 OKP d   1      28.146  35.870  71.003  0.00  0.00     0.033 H 
+ATOM      9  H15 OKP d   1      29.421  37.133  71.077  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  C09 OKP d   1      28.719  36.455  72.934  0.00  0.00    -0.074 C 
+ATOM     11  H16 OKP d   1      29.642  36.439  73.532  0.00  0.00     0.032 H 
+ATOM     12  H17 OKP d   1      28.241  37.442  73.023  0.00  0.00     0.032 H 
+BRANCH  10  13
+ATOM     13  C10 OKP d   1      27.809  35.436  73.432  0.00  0.00    -0.109 C 
+ATOM     14  H1  OKP d   1      27.160  35.092  72.613  0.00  0.00     0.020 H 
+ATOM     15  H3  OKP d   1      28.388  34.586  73.822  0.00  0.00     0.020 H 
+BRANCH  13  16
+ATOM     16  B11 OKP d   1      26.619  35.991  74.161  0.00  0.00     0.082 B 
+BRANCH  16  17
+ATOM     17  O12 OKP d   1      26.365  37.312  74.069  0.00  0.00     0.000 OA
+ATOM     18  H23 OKP d   1      27.015  37.720  73.509  0.00  0.00     0.000 HD
+ATOM     19  H24 OKP d   1      27.015  37.720  73.509  0.00  0.00     0.000 HD
+ENDBRANCH  16  17
+BRANCH  16  20
+ATOM     20  O13 OKP d   1      25.868  35.151  74.885  0.00  0.00     0.000 OA
+ATOM     21  H25 OKP d   1      26.220  34.272  74.813  0.00  0.00     0.000 HD
+ATOM     22  H26 OKP d   1      26.220  34.271  74.813  0.00  0.00     0.000 HD
+ENDBRANCH  16  20
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  N05 OKP d   1      32.377  35.528  71.955  0.00  0.00    -0.075 N 
+ATOM     24  H21 OKP d   1      32.678  34.652  71.557  0.00  0.00     0.277 HD
+ATOM     25  H22 OKP d   1      32.310  36.222  71.228  0.00  0.00     0.277 HD
+BRANCH  23  26
+ATOM     26  C04 OKP d   1      33.368  35.963  72.921  0.00  0.00     0.083 C 
+ATOM     27  H8  OKP d   1      33.986  36.762  72.485  0.00  0.00     0.075 H 
+ATOM     28  H9  OKP d   1      32.865  36.340  73.824  0.00  0.00     0.075 H 
+BRANCH  26  29
+ATOM     29  C03 OKP d   1      34.194  34.846  73.260  0.00  0.00    -0.020 C 
+ATOM     30  H6  OKP d   1      35.187  35.203  73.571  0.00  0.00     0.037 H 
+ATOM     31  H7  OKP d   1      33.732  34.284  74.085  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C02 OKP d   1      34.333  33.962  72.071  0.00  0.00     0.081 C 
+ATOM     33  H4  OKP d   1      35.403  33.840  71.845  0.00  0.00     0.075 H 
+ATOM     34  H5  OKP d   1      33.830  34.438  71.217  0.00  0.00     0.075 H 
+BRANCH  32  35
+ATOM     35  N01 OKP d   1      33.771  32.697  72.274  0.00  0.00    -0.079 N 
+ATOM     36  H18 OKP d   1      33.891  32.139  71.443  0.00  0.00     0.274 HD
+ATOM     37  H19 OKP d   1      32.788  32.794  72.475  0.00  0.00     0.274 HD
+ATOM     38  H20 OKP d   1      34.229  32.246  73.050  0.00  0.00     0.274 HD
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+TORSDOF 12

@@ -1,0 +1,69 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  CA_3 
+REMARK    2  A    between atoms: CA_3  and  CB_4 
+REMARK    3  A    between atoms: CA_3  and  N_5 
+REMARK    4  A    between atoms: N_5  and  CAI_6 
+REMARK    5  A    between atoms: CAI_6  and  CAE_7 
+REMARK    6  A    between atoms: CAI_6  and  CAK_10 
+REMARK    7  A    between atoms: CAK_10  and  CAL_11 
+REMARK    8  A    between atoms: CAL_11  and  CAM_12 
+REMARK    9  A    between atoms: CAM_12  and  NAN_13 
+REMARK       I    between atoms: NAN_13  and  CAP_14 
+REMARK       I    between atoms: CAP_14  and  NAO_15 
+ROOT
+ATOM      1  CAK 6DB d   1      18.538  -5.970  -5.647  0.00  0.00    -0.027 C 
+ATOM      2  H8  6DB d   1      19.456  -5.410  -5.416  0.00  0.00     0.036 H 
+ATOM      3  H9  6DB d   1      17.844  -5.323  -6.204  0.00  0.00     0.036 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAI 6DB d   1      17.875  -6.372  -4.334  0.00  0.00     0.185 C 
+ATOM      5  H7  6DB d   1      17.720  -5.452  -3.751  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   6DB d   1      18.679  -7.293  -3.494  0.00  0.00    -0.047 N 
+ATOM      7  H5  6DB d   1      18.200  -7.391  -2.613  0.00  0.00     0.279 HD
+ATOM      8  H6  6DB d   1      18.703  -8.184  -3.964  0.00  0.00     0.279 HD
+BRANCH   6   9
+ATOM      9  CA  6DB d   1      20.082  -6.912  -3.195  0.00  0.00     0.182 C 
+ATOM     10  H1  6DB d   1      20.646  -7.040  -4.131  0.00  0.00     0.101 H 
+BRANCH   9  11
+ATOM     11  C   6DB d   1      20.245  -5.467  -2.758  0.00  0.00     0.204 C 
+ATOM     12  O   6DB d   1      21.264  -4.822  -3.133  0.00  0.00    -0.646 OA
+ATOM     13  OXT 6DB d   1      19.367  -4.959  -2.016  0.00  0.00    -0.646 OA
+ENDBRANCH   9  11
+BRANCH   9  14
+ATOM     14  CB  6DB d   1      20.725  -7.787  -2.153  0.00  0.00    -0.040 C 
+ATOM     15  H2  6DB d   1      20.621  -8.842  -2.446  0.00  0.00     0.031 H 
+ATOM     16  H3  6DB d   1      20.232  -7.625  -1.183  0.00  0.00     0.031 H 
+ATOM     17  H4  6DB d   1      21.792  -7.533  -2.069  0.00  0.00     0.031 H 
+ENDBRANCH   9  14
+ENDBRANCH   6   9
+ENDBRANCH   4   6
+BRANCH   4  18
+ATOM     18  CAE 6DB d   1      16.524  -6.981  -4.623  0.00  0.00     0.204 C 
+ATOM     19  OAB 6DB d   1      15.597  -6.312  -5.171  0.00  0.00    -0.646 OA
+ATOM     20  OAF 6DB d   1      16.320  -8.188  -4.325  0.00  0.00    -0.646 OA
+ENDBRANCH   4  18
+ENDBRANCH   1   4
+BRANCH   1  21
+ATOM     21  CAL 6DB d   1      18.900  -7.141  -6.519  0.00  0.00    -0.047 C 
+ATOM     22  H10 6DB d   1      17.971  -7.694  -6.721  0.00  0.00     0.035 H 
+ATOM     23  H11 6DB d   1      19.586  -7.776  -5.940  0.00  0.00     0.035 H 
+BRANCH  21  24
+ATOM     24  CAM 6DB d   1      19.545  -6.880  -7.825  0.00  0.00     0.009 C 
+ATOM     25  H12 6DB d   1      20.297  -6.087  -7.705  0.00  0.00     0.064 H 
+ATOM     26  H13 6DB d   1      18.781  -6.555  -8.547  0.00  0.00     0.064 H 
+BRANCH  24  27
+ATOM     27  NAN 6DB d   1      20.189  -8.074  -8.321  0.00  0.00    -0.227 N 
+ATOM     28  CAP 6DB d   1      20.909  -8.082  -9.554  0.00  0.00     0.665 C 
+ATOM     29  NAO 6DB d   1      21.015  -7.020 -10.275  0.00  0.00    -0.235 N 
+ATOM     30  NAQ 6DB d   1      21.487  -9.204  -9.914  0.00  0.00    -0.235 N 
+ATOM     31  H15 6DB d   1      21.539  -7.049 -11.161  0.00  0.00     0.174 HD
+ATOM     32  H16 6DB d   1      20.575  -6.141  -9.966  0.00  0.00     0.174 HD
+ATOM     33  H17 6DB d   1      21.392 -10.044  -9.326  0.00  0.00     0.174 HD
+ATOM     34  H18 6DB d   1      22.035  -9.244 -10.785  0.00  0.00     0.174 HD
+ATOM     35  H14 6DB d   1      20.127  -8.943  -7.771  0.00  0.00     0.177 HD
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   1  21
+TORSDOF 9

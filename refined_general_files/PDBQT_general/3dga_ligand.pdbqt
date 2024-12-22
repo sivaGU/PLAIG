@@ -1,0 +1,44 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C8_8 
+REMARK    2  A    between atoms: C5_5  and  N12_12 
+REMARK       I    between atoms: N12_12  and  C13_13 
+REMARK       I    between atoms: C13_13  and  N14_14 
+REMARK       I    between atoms: N14_14  and  C15_15 
+REMARK       I    between atoms: C15_15  and  N16_16 
+ROOT
+ATOM      1  N12 RJ1 d   1      28.850   4.985  58.895  0.00  0.00    -0.190 N 
+ATOM      2  C13 RJ1 d   1      29.856   4.389  58.172  0.00  0.00     0.690 C 
+ATOM      3  N14 RJ1 d   1      30.238   4.714  56.921  0.00  0.00    -0.023 N 
+ATOM      4  C15 RJ1 d   1      29.689   5.221  55.810  0.00  0.00     0.683 C 
+ATOM      5  N16 RJ1 d   1      29.969   4.748  54.580  0.00  0.00    -0.234 N 
+ATOM      6  N17 RJ1 d   1      30.512   3.434  58.732  0.00  0.00    -0.234 N 
+ATOM      7  N18 RJ1 d   1      28.869   6.202  55.930  0.00  0.00    -0.234 N 
+ATOM      8  H   RJ1 d   1      28.814   5.962  58.570  0.00  0.00     0.184 HD
+ATOM      9  H   RJ1 d   1      31.239   4.516  56.779  0.00  0.00     0.203 HD
+ATOM     10  H   RJ1 d   1      29.523   5.169  53.752  0.00  0.00     0.174 HD
+ATOM     11  H   RJ1 d   1      30.629   3.966  54.467  0.00  0.00     0.174 HD
+ATOM     12  H   RJ1 d   1      30.271   3.135  59.688  0.00  0.00     0.174 HD
+ATOM     13  H   RJ1 d   1      31.278   2.968  58.224  0.00  0.00     0.174 HD
+ATOM     14  H   RJ1 d   1      28.645   6.575  56.864  0.00  0.00     0.174 HD
+ATOM     15  H   RJ1 d   1      28.435   6.616  55.093  0.00  0.00     0.174 HD
+ENDROOT
+BRANCH   1  16
+ATOM     16  C5  RJ1 d   1      27.862   4.873  59.861  0.00  0.00     0.071 A 
+ATOM     17  C4  RJ1 d   1      28.044   4.109  61.029  0.00  0.00     0.061 A 
+ATOM     18  C3  RJ1 d   1      27.045   4.024  61.962  0.00  0.00    -0.059 A 
+ATOM     19 CL7  RJ1 d   1      29.465   3.239  61.398  0.00  0.00    -0.082 Cl
+ATOM     20  C2  RJ1 d   1      25.874   4.676  61.784  0.00  0.00    -0.067 A 
+ATOM     21  H   RJ1 d   1      27.195   3.427  62.854  0.00  0.00     0.086 H 
+ATOM     22  C1  RJ1 d   1      25.638   5.437  60.674  0.00  0.00     0.050 A 
+ATOM     23  H   RJ1 d   1      25.103   4.593  62.541  0.00  0.00     0.084 H 
+ATOM     24  C6  RJ1 d   1      26.648   5.532  59.708  0.00  0.00    -0.040 A 
+ATOM     25  H   RJ1 d   1      26.479   6.133  58.822  0.00  0.00     0.088 H 
+BRANCH  22  26
+ATOM     26  C8  RJ1 d   1      24.306   6.148  60.539  0.00  0.00     0.417 C 
+ATOM     27  F9  RJ1 d   1      24.283   7.075  59.521  0.00  0.00    -0.166 F 
+ATOM     28  F10 RJ1 d   1      23.253   5.240  60.325  0.00  0.00    -0.166 F 
+ATOM     29  F11 RJ1 d   1      24.021   6.862  61.700  0.00  0.00    -0.166 F 
+ENDBRANCH  22  26
+ENDBRANCH   1  16
+TORSDOF 2

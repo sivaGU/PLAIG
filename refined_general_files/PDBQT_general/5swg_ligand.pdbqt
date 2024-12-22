@@ -1,0 +1,25 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_4 
+REMARK    2  A    between atoms: C4_5  and  O4_6 
+ROOT
+ATOM      1  C1  CAQ d   1      57.715  47.478  73.956  0.00  0.00    -0.080 A 
+ATOM      2  C2  CAQ d   1      58.489  46.590  73.204  0.00  0.00    -0.048 A 
+ATOM      3  C3  CAQ d   1      58.635  45.258  73.618  0.00  0.00     0.098 A 
+ATOM      4  C4  CAQ d   1      58.011  44.809  74.778  0.00  0.00     0.098 A 
+ATOM      5  C5  CAQ d   1      57.235  45.703  75.530  0.00  0.00    -0.048 A 
+ATOM      6  C6  CAQ d   1      57.085  47.034  75.122  0.00  0.00    -0.080 A 
+ATOM      7  H1  CAQ d   1      57.604  48.508  73.636  0.00  0.00     0.083 H 
+ATOM      8  H2  CAQ d   1      58.978  46.931  72.299  0.00  0.00     0.087 H 
+ATOM      9  H5  CAQ d   1      56.747  45.361  76.435  0.00  0.00     0.087 H 
+ATOM     10  H6  CAQ d   1      56.482  47.718  75.709  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   3  11
+ATOM     11  O3  CAQ d   1      59.383  44.385  72.891  0.00  0.00    -0.358 OA
+ATOM     12  H3  CAQ d   1      59.373  43.534  73.313  0.00  0.00     0.217 HD
+ENDBRANCH   3  11
+BRANCH   4  13
+ATOM     13  O4  CAQ d   1      57.898  43.466  75.000  0.00  0.00    -0.358 OA
+ATOM     14  H4  CAQ d   1      58.764  43.078  75.032  0.00  0.00     0.217 HD
+ENDBRANCH   4  13
+TORSDOF 2

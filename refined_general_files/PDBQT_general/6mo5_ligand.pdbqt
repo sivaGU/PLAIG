@@ -1,0 +1,105 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C28_1  and  C29_22 
+REMARK    2  A    between atoms: S25_32  and  C28_1 
+REMARK    3  A    between atoms: C04_15  and  C21_4 
+REMARK       I    between atoms: C21_4  and  N23_25 
+REMARK    4  A    between atoms: C17_6  and  C18_5 
+REMARK    5  A    between atoms: C18_5  and  C19_21 
+REMARK    6  A    between atoms: C15_8  and  C16_7 
+REMARK    7  A    between atoms: C11_11  and  C14_9 
+REMARK    8  A    between atoms: C02_13  and  C01_12 
+REMARK    9  A    between atoms: C02_13  and  C03_14 
+REMARK   10  A    between atoms: C04_15  and  C02_13 
+REMARK   11  A    between atoms: C02_13  and  S25_32 
+REMARK   12  A    between atoms: N05_24  and  C04_15 
+REMARK   13  A    between atoms: C08_17  and  C06_16 
+REMARK       I    between atoms: C06_16  and  N05_24 
+REMARK   14  A    between atoms: C19_21  and  O20_27 
+ROOT
+ATOM      1  C04 JWP d   1     -11.087 -15.275 -23.725  0.00  0.00     0.114 C 
+ATOM      2  H14 JWP d   1     -10.127 -15.778 -23.914  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C21 JWP d   1     -11.297 -15.675 -22.267  0.00  0.00     0.293 C 
+ATOM      4  N23 JWP d   1     -10.351 -16.404 -21.451  0.00  0.00    -0.057 NA
+ATOM      5  O24 JWP d   1     -10.671 -16.623 -20.315  0.00  0.00    -0.058 OA
+ATOM      6  O22 JWP d   1     -12.339 -15.334 -21.811  0.00  0.00    -0.267 OA
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C02 JWP d   1     -10.691 -13.809 -24.030  0.00  0.00     0.086 C 
+BRANCH   7   8
+ATOM      8  C01 JWP d   1      -9.781 -13.277 -22.920  0.00  0.00    -0.054 C 
+ATOM      9  H8  JWP d   1     -10.277 -13.406 -21.946  0.00  0.00     0.029 H 
+ATOM     10  H9  JWP d   1      -9.580 -12.209 -23.091  0.00  0.00     0.029 H 
+ATOM     11  H10 JWP d   1      -8.832 -13.834 -22.925  0.00  0.00     0.029 H 
+ENDBRANCH   7   8
+BRANCH   7  12
+ATOM     12  C03 JWP d   1     -11.930 -12.892 -24.126  0.00  0.00    -0.054 C 
+ATOM     13  H11 JWP d   1     -12.527 -12.986 -23.207  0.00  0.00     0.029 H 
+ATOM     14  H12 JWP d   1     -12.540 -13.189 -24.992  0.00  0.00     0.029 H 
+ATOM     15  H13 JWP d   1     -11.605 -11.848 -24.247  0.00  0.00     0.029 H 
+ENDBRANCH   7  12
+BRANCH   7  16
+ATOM     16  S25 JWP d   1      -9.797 -13.558 -25.605  0.00  0.00     0.155 S 
+ATOM     17  O26 JWP d   1      -9.522 -12.133 -25.774  0.00  0.00    -0.227 OA
+ATOM     18  O27 JWP d   1      -8.447 -14.116 -25.513  0.00  0.00    -0.227 OA
+BRANCH  16  19
+ATOM     19  C28 JWP d   1     -10.736 -14.170 -27.035  0.00  0.00     0.037 C 
+ATOM     20  H1  JWP d   1     -10.690 -15.269 -27.059  0.00  0.00     0.057 H 
+ATOM     21  H2  JWP d   1     -11.784 -13.848 -26.948  0.00  0.00     0.057 H 
+BRANCH  19  22
+ATOM     22  C29 JWP d   1     -10.135 -13.606 -28.331  0.00  0.00    -0.000 A 
+ATOM     23  C30 JWP d   1     -10.661 -14.248 -29.541  0.00  0.00     0.025 A 
+ATOM     24  O31 JWP d   1     -11.250 -12.977 -29.964  0.00  0.00    -0.390 OA
+ATOM     25  H3  JWP d   1      -9.884 -14.630 -30.220  0.00  0.00     0.075 H 
+ATOM     26  H4  JWP d   1     -11.398 -15.040 -29.344  0.00  0.00     0.075 H 
+ATOM     27  C32 JWP d   1     -10.719 -12.335 -28.759  0.00  0.00     0.025 A 
+ATOM     28  H21 JWP d   1     -11.493 -11.946 -28.080  0.00  0.00     0.075 H 
+ATOM     29  H22 JWP d   1      -9.978 -11.547 -28.960  0.00  0.00     0.075 H 
+ATOM     30  H20 JWP d   1      -9.037 -13.598 -28.259  0.00  0.00     0.047 H 
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH   7  16
+ENDBRANCH   1   7
+BRANCH   1  31
+ATOM     31  N05 JWP d   1     -11.900 -15.902 -24.725  0.00  0.00    -0.342 N 
+ATOM     32  C06 JWP d   1     -11.561 -16.965 -25.620  0.00  0.00     0.252 C 
+ATOM     33  O07 JWP d   1     -10.509 -17.502 -25.637  0.00  0.00    -0.268 OA
+ATOM     34  H23 JWP d   1     -12.832 -15.548 -24.808  0.00  0.00     0.163 HD
+BRANCH  32  35
+ATOM     35  C08 JWP d   1     -12.685 -17.308 -26.579  0.00  0.00     0.032 A 
+ATOM     36  C09 JWP d   1     -13.974 -16.900 -26.276  0.00  0.00    -0.066 A 
+ATOM     37  C10 JWP d   1     -15.010 -17.177 -27.135  0.00  0.00    -0.064 A 
+ATOM     38  H15 JWP d   1     -14.166 -16.359 -25.356  0.00  0.00     0.085 H 
+ATOM     39  C11 JWP d   1     -14.741 -17.858 -28.304  0.00  0.00     0.018 A 
+ATOM     40  H16 JWP d   1     -16.021 -16.866 -26.898  0.00  0.00     0.085 H 
+ATOM     41  C12 JWP d   1     -13.460 -18.248 -28.622  0.00  0.00    -0.064 A 
+ATOM     42  C13 JWP d   1     -12.417 -17.964 -27.757  0.00  0.00    -0.066 A 
+ATOM     43  H7  JWP d   1     -13.268 -18.777 -29.549  0.00  0.00     0.085 H 
+ATOM     44  H17 JWP d   1     -11.403 -18.255 -28.005  0.00  0.00     0.085 H 
+BRANCH  39  45
+ATOM     45  C14 JWP d   1     -15.870 -18.174 -29.249  0.00  0.00    -0.053 C 
+ATOM     46  C15 JWP d   1     -16.741 -18.405 -29.991  0.00  0.00    -0.010 C 
+BRANCH  46  47
+ATOM     47  C16 JWP d   1     -17.798 -18.639 -31.043  0.00  0.00    -0.015 C 
+ATOM     48  C17 JWP d   1     -18.623 -18.838 -31.847  0.00  0.00    -0.090 C 
+BRANCH  48  49
+ATOM     49  C18 JWP d   1     -19.694 -19.098 -32.889  0.00  0.00     0.011 C 
+ATOM     50  H5  JWP d   1     -20.672 -18.775 -32.502  0.00  0.00     0.055 H 
+ATOM     51  H6  JWP d   1     -19.729 -20.172 -33.122  0.00  0.00     0.055 H 
+BRANCH  49  52
+ATOM     52  C19 JWP d   1     -19.359 -18.311 -34.153  0.00  0.00     0.026 C 
+ATOM     53  H18 JWP d   1     -18.628 -17.521 -33.926  0.00  0.00     0.075 H 
+ATOM     54  H19 JWP d   1     -20.270 -17.858 -34.571  0.00  0.00     0.075 H 
+BRANCH  52  55
+ATOM     55  O20 JWP d   1     -18.814 -19.226 -35.062  0.00  0.00    -0.400 OA
+ATOM     56  H24 JWP d   1     -18.590 -18.775 -35.868  0.00  0.00     0.209 HD
+ENDBRANCH  52  55
+ENDBRANCH  49  52
+ENDBRANCH  48  49
+ENDBRANCH  46  47
+ENDBRANCH  39  45
+ENDBRANCH  32  35
+ENDBRANCH   1  31
+TORSDOF 14

@@ -1,0 +1,57 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAE_2  and  N_3 
+REMARK    1  A    between atoms: CA_9  and  C_10 
+REMARK       I    between atoms: C_10  and  NAO_12 
+REMARK    2  A    between atoms: NAO_12  and  NAN_13 
+REMARK       I    between atoms: NAN_13  and  CAQ_14 
+REMARK    3  A    between atoms: CAQ_14  and  CAS_16 
+ROOT
+ATOM      1  C   CD7 d   1      12.365   0.850  -3.913  0.00  0.00     0.259 C 
+ATOM      2  O   CD7 d   1      11.966   0.656  -5.076  0.00  0.00    -0.269 OA
+ATOM      3  NAO CD7 d   1      13.600   1.368  -3.615  0.00  0.00    -0.266 N 
+ATOM      4  H10 CD7 d   1      13.957   1.343  -2.681  0.00  0.00     0.190 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  CD7 d   1      11.509   0.587  -2.783  0.00  0.00     0.093 C 
+ATOM      6  N   CD7 d   1      10.406  -0.334  -3.016  0.00  0.00    -0.340 N 
+ATOM      7  CAE CD7 d   1       9.148   0.075  -2.771  0.00  0.00     0.172 C 
+ATOM      8  CAL CD7 d   1      10.650  -1.685  -3.577  0.00  0.00     0.034 C 
+ATOM      9  OAB CD7 d   1       8.877   1.128  -2.180  0.00  0.00    -0.284 OA
+ATOM     10  H1  CD7 d   1       8.326  -0.553  -3.110  0.00  0.00     0.180 H 
+ATOM     11  CAP CD7 d   1      11.614  -2.230  -2.640  0.00  0.00     0.021 C 
+ATOM     12  H2  CD7 d   1      11.069  -1.627  -4.593  0.00  0.00     0.073 H 
+ATOM     13  H3  CD7 d   1       9.727  -2.283  -3.595  0.00  0.00     0.073 H 
+ATOM     14  NAA CD7 d   1      11.649  -3.526  -2.404  0.00  0.00    -0.307 NA
+ATOM     15  CAH CD7 d   1      12.549  -1.498  -1.876  0.00  0.00    -0.025 C 
+ATOM     16  H4  CD7 d   1      12.320  -3.902  -1.752  0.00  0.00     0.186 HD
+ATOM     17  CB  CD7 d   1      12.152  -0.118  -1.575  0.00  0.00    -0.033 C 
+ATOM     18  H5  CD7 d   1      13.497  -1.468  -2.433  0.00  0.00     0.042 H 
+ATOM     19  H6  CD7 d   1      12.700  -2.026  -0.923  0.00  0.00     0.042 H 
+ATOM     20  H7  CD7 d   1      13.045   0.448  -1.271  0.00  0.00     0.037 H 
+ATOM     21  H8  CD7 d   1      11.427  -0.132  -0.748  0.00  0.00     0.037 H 
+ATOM     22  H9  CD7 d   1      11.112   1.563  -2.467  0.00  0.00     0.087 H 
+ENDBRANCH   1   5
+BRANCH   3  23
+ATOM     23  NAN CD7 d   1      14.310   1.905  -4.604  0.00  0.00    -0.267 N 
+ATOM     24  CAQ CD7 d   1      14.031   3.167  -4.988  0.00  0.00     0.241 C 
+ATOM     25  OAC CD7 d   1      13.016   3.739  -4.633  0.00  0.00    -0.271 OA
+ATOM     26  H11 CD7 d   1      15.035   1.383  -5.053  0.00  0.00     0.190 HD
+BRANCH  24  27
+ATOM     27  CAS CD7 d   1      15.083   3.830  -5.911  0.00  0.00     0.050 C 
+ATOM     28  CAI CD7 d   1      16.318   4.157  -5.177  0.00  0.00    -0.030 C 
+ATOM     29  CAF CD7 d   1      15.805   5.437  -4.358  0.00  0.00     0.083 C 
+ATOM     30  H13 CD7 d   1      17.145   4.409  -5.857  0.00  0.00     0.036 H 
+ATOM     31  H14 CD7 d   1      16.628   3.339  -4.510  0.00  0.00     0.036 H 
+ATOM     32  NAM CD7 d   1      14.712   6.061  -5.205  0.00  0.00    -0.074 N 
+ATOM     33  H15 CD7 d   1      16.628   6.151  -4.209  0.00  0.00     0.075 H 
+ATOM     34  H16 CD7 d   1      15.404   5.130  -3.381  0.00  0.00     0.075 H 
+ATOM     35  CAK CD7 d   1      14.645   5.209  -6.409  0.00  0.00     0.093 C 
+ATOM     36  H17 CD7 d   1      14.950   7.009  -5.452  0.00  0.00     0.277 HD
+ATOM     37  H18 CD7 d   1      13.832   6.053  -4.713  0.00  0.00     0.277 HD
+ATOM     38  H19 CD7 d   1      13.620   5.174  -6.807  0.00  0.00     0.076 H 
+ATOM     39  H20 CD7 d   1      15.328   5.579  -7.188  0.00  0.00     0.076 H 
+ATOM     40  H12 CD7 d   1      15.291   3.157  -6.756  0.00  0.00     0.057 H 
+ENDBRANCH  24  27
+ENDBRANCH   3  23
+TORSDOF 3

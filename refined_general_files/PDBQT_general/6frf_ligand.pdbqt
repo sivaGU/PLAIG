@@ -1,0 +1,96 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_14  and  CAA_1 
+REMARK    2  A    between atoms: CAV_15  and  CAB_2 
+REMARK    3  A    between atoms: CAZ_19  and  CAC_3 
+REMARK    4  A    between atoms: CBC_22  and  CAD_4 
+REMARK    5  A    between atoms: OAS_31  and  CAP_14 
+REMARK    6  A    between atoms: CAY_18  and  CAV_15 
+REMARK    7  A    between atoms: CAW_16  and  CBD_23 
+REMARK       I    between atoms: NAR_28  and  CAW_16 
+REMARK    8  A    between atoms: CAX_17  and  NAR_28 
+REMARK    9  A    between atoms: CBF_25  and  CBA_20 
+REMARK   10  A    between atoms: CBB_21  and  CBG_26 
+REMARK   11  A    between atoms: CBE_24  and  OAS_31 
+ROOT
+ATOM      1  CAL E3T d   1     -16.354  -0.579  19.747  0.00  0.00    -0.046 A 
+ATOM      2  CAM E3T d   1     -16.375   1.428  18.414  0.00  0.00    -0.046 A 
+ATOM      3  CAN E3T d   1     -15.083  -0.423  17.689  0.00  0.00    -0.061 A 
+ATOM      4  CAX E3T d   1     -16.801   0.731  19.544  0.00  0.00     0.036 A 
+ATOM      5  CBA E3T d   1     -15.503  -1.157  18.807  0.00  0.00    -0.020 A 
+ATOM      6  CBB E3T d   1     -15.506   0.888  17.458  0.00  0.00    -0.018 A 
+ATOM      7  H18 E3T d   1     -16.665  -1.137  20.623  0.00  0.00     0.088 H 
+ATOM      8  H19 E3T d   1     -16.735   2.440  18.268  0.00  0.00     0.088 H 
+ATOM      9  H20 E3T d   1     -14.408  -0.888  16.980  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  CBF E3T d   1     -15.000  -2.451  18.971  0.00  0.00     0.009 A 
+ATOM     11  CAO E3T d   1     -14.255  -2.804  20.106  0.00  0.00    -0.056 A 
+ATOM     12  CAY E3T d   1     -13.731  -4.097  20.225  0.00  0.00     0.010 A 
+ATOM     13  H21 E3T d   1     -14.085  -2.076  20.891  0.00  0.00     0.086 H 
+ATOM     14  CAJ E3T d   1     -13.947  -5.029  19.203  0.00  0.00    -0.067 A 
+ATOM     15  CAK E3T d   1     -14.681  -4.680  18.076  0.00  0.00    -0.049 A 
+ATOM     16  H16 E3T d   1     -13.539  -6.029  19.291  0.00  0.00     0.085 H 
+ATOM     17  CBE E3T d   1     -15.197  -3.388  17.966  0.00  0.00     0.079 A 
+ATOM     18  H17 E3T d   1     -14.851  -5.405  17.289  0.00  0.00     0.087 H 
+BRANCH  12  19
+ATOM     19  CAV E3T d   1     -12.959  -4.505  21.325  0.00  0.00     0.155 C 
+ATOM     20  OAE E3T d   1     -12.481  -5.637  21.363  0.00  0.00    -0.293 OA
+BRANCH  19  21
+ATOM     21  CAB E3T d   1     -12.633  -3.478  22.438  0.00  0.00    -0.017 C 
+ATOM     22  H4  E3T d   1     -12.025  -3.962  23.217  0.00  0.00     0.038 H 
+ATOM     23  H5  E3T d   1     -13.569  -3.108  22.881  0.00  0.00     0.038 H 
+ATOM     24  H6  E3T d   1     -12.073  -2.635  22.007  0.00  0.00     0.038 H 
+ENDBRANCH  19  21
+ENDBRANCH  12  19
+BRANCH  17  25
+ATOM     25  OAS E3T d   1     -15.935  -2.970  16.899  0.00  0.00    -0.351 OA
+BRANCH  25  26
+ATOM     26  CAP E3T d   1     -15.424  -3.490  15.664  0.00  0.00     0.023 C 
+ATOM     27  H22 E3T d   1     -15.383  -2.690  14.910  0.00  0.00     0.074 H 
+ATOM     28  H23 E3T d   1     -14.415  -3.898  15.820  0.00  0.00     0.074 H 
+BRANCH  26  29
+ATOM     29  CAA E3T d   1     -16.360  -4.592  15.197  0.00  0.00    -0.056 C 
+ATOM     30  H1  E3T d   1     -15.991  -5.010  14.249  0.00  0.00     0.030 H 
+ATOM     31  H2  E3T d   1     -17.368  -4.178  15.047  0.00  0.00     0.030 H 
+ATOM     32  H3  E3T d   1     -16.399  -5.386  15.957  0.00  0.00     0.030 H 
+ENDBRANCH  26  29
+ENDBRANCH  25  26
+ENDBRANCH  17  25
+ENDBRANCH   5  10
+BRANCH   4  33
+ATOM     33  NAR E3T d   1     -17.653   1.377  20.362  0.00  0.00    -0.321 N 
+ATOM     34  CAW E3T d   1     -18.645   0.716  21.035  0.00  0.00     0.279 C 
+ATOM     35  OAF E3T d   1     -18.840  -0.504  21.027  0.00  0.00    -0.265 OA
+ATOM     36  H24 E3T d   1     -17.559   2.365  20.481  0.00  0.00     0.169 HD
+BRANCH  34  37
+ATOM     37  CBD E3T d   1     -19.490   1.501  21.714  0.00  0.00     0.142 A 
+ATOM     38  CAI E3T d   1     -19.453   2.830  21.771  0.00  0.00    -0.043 A 
+ATOM     39  CAG E3T d   1     -20.481   3.248  22.514  0.00  0.00    -0.059 A 
+ATOM     40  H15 E3T d   1     -18.711   3.468  21.293  0.00  0.00     0.088 H 
+ATOM     41  CAH E3T d   1     -21.181   2.184  22.924  0.00  0.00     0.020 A 
+ATOM     42  H13 E3T d   1     -20.712   4.286  22.748  0.00  0.00     0.086 H 
+ATOM     43  OAT E3T d   1     -20.545   1.043  22.409  0.00  0.00    -0.317 OA
+ATOM     44  H14 E3T d   1     -22.077   2.200  23.542  0.00  0.00     0.123 H 
+ENDBRANCH  34  37
+ENDBRANCH   4  33
+BRANCH   6  45
+ATOM     45  CBG E3T d   1     -15.131   1.608  16.358  0.00  0.00     0.032 A 
+ATOM     46  CAZ E3T d   1     -14.647   2.875  16.327  0.00  0.00     0.071 A 
+ATOM     47  NAQ E3T d   1     -14.410   3.265  15.074  0.00  0.00    -0.133 NA
+ATOM     48  OAU E3T d   1     -14.769   2.200  14.243  0.00  0.00    -0.217 OA
+ATOM     49  CBC E3T d   1     -15.207   1.209  15.070  0.00  0.00     0.088 A 
+BRANCH  46  50
+ATOM     50  CAC E3T d   1     -14.363   3.825  17.496  0.00  0.00    -0.033 C 
+ATOM     51  H7  E3T d   1     -13.975   4.778  17.108  0.00  0.00     0.035 H 
+ATOM     52  H8  E3T d   1     -13.617   3.371  18.165  0.00  0.00     0.035 H 
+ATOM     53  H9  E3T d   1     -15.293   4.008  18.054  0.00  0.00     0.035 H 
+ENDBRANCH  46  50
+BRANCH  49  54
+ATOM     54  CAD E3T d   1     -15.683  -0.134  14.508  0.00  0.00    -0.028 C 
+ATOM     55  H10 E3T d   1     -15.613  -0.118  13.410  0.00  0.00     0.036 H 
+ATOM     56  H11 E3T d   1     -16.728  -0.307  14.806  0.00  0.00     0.036 H 
+ATOM     57  H12 E3T d   1     -15.050  -0.942  14.904  0.00  0.00     0.036 H 
+ENDBRANCH  49  54
+ENDBRANCH   6  45
+TORSDOF 11

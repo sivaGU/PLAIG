@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  C5_2 
+REMARK    2  A    between atoms: C4_1  and  C3_3 
+REMARK    3  A    between atoms: C3_3  and  C2_4 
+REMARK    4  A    between atoms: C2_4  and  C1_5 
+ROOT
+ATOM      1  C3  SHF d   1      19.997  25.831  15.537  0.00  0.00    -0.056 C 
+ATOM      2  H6  SHF d   1      19.949  26.773  16.103  0.00  0.00     0.033 H 
+ATOM      3  H7  SHF d   1      19.319  25.887  14.673  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4  SHF d   1      19.540  24.708  16.434  0.00  0.00    -0.068 C 
+ATOM      5  H1  SHF d   1      18.601  24.318  16.014  0.00  0.00     0.032 H 
+ATOM      6  H2  SHF d   1      20.312  23.926  16.395  0.00  0.00     0.032 H 
+BRANCH   4   7
+ATOM      7  C5  SHF d   1      19.283  25.015  17.904  0.00  0.00    -0.077 C 
+ATOM      8  H3  SHF d   1      18.959  24.099  18.419  0.00  0.00     0.027 H 
+ATOM      9  H4  SHF d   1      18.497  25.780  17.987  0.00  0.00     0.027 H 
+ATOM     10  H5  SHF d   1      20.208  25.388  18.368  0.00  0.00     0.027 H 
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C2  SHF d   1      21.412  25.644  15.029  0.00  0.00     0.016 C 
+ATOM     12  H8  SHF d   1      21.487  24.653  14.558  0.00  0.00     0.049 H 
+ATOM     13  H9  SHF d   1      22.101  25.697  15.885  0.00  0.00     0.049 H 
+BRANCH  11  14
+ATOM     14  C1  SHF d   1      21.822  26.690  14.016  0.00  0.00     0.172 C 
+ATOM     15  O1  SHF d   1      21.018  27.600  13.718  0.00  0.00    -0.648 OA
+ATOM     16  OH1 SHF d   1      22.952  26.640  13.482  0.00  0.00    -0.648 OA
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+TORSDOF 4

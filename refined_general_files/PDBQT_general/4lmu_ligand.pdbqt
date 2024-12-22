@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O30_22 
+REMARK    2  A    between atoms: C6_6  and  O29_21 
+REMARK    3  A    between atoms: C10_8  and  O27_20 
+REMARK    4  A    between atoms: C11_9  and  C14_10 
+REMARK    5  A    between atoms: C17_13  and  O24_19 
+ROOT
+ATOM      1  C1  QUE d   1     169.715-122.821   0.666  0.00  0.00    -0.018 A 
+ATOM      2  C2  QUE d   1     169.783-122.909  -0.742  0.00  0.00     0.085 A 
+ATOM      3  C3  QUE d   1     169.416-121.806  -1.603  0.00  0.00     0.084 A 
+ATOM      4  C4  QUE d   1     168.981-120.607  -1.010  0.00  0.00     0.096 A 
+ATOM      5  C5  QUE d   1     168.908-120.505   0.437  0.00  0.00    -0.017 A 
+ATOM      6  C6  QUE d   1     169.272-121.599   1.290  0.00  0.00     0.071 A 
+ATOM      7  C9  QUE d   1     169.477-121.833  -3.102  0.00  0.00     0.223 C 
+ATOM      8  C10 QUE d   1     169.092-120.694  -3.986  0.00  0.00     0.152 C 
+ATOM      9  C11 QUE d   1     168.824-119.505  -3.293  0.00  0.00     0.120 C 
+ATOM     10  O12 QUE d   1     168.627-119.545  -1.888  0.00  0.00    -0.306 OA
+ATOM     11  O13 QUE d   1     169.913-122.883  -3.650  0.00  0.00    -0.284 OA
+ATOM     12  H   QUE d   1     169.996-123.671   1.277  0.00  0.00     0.092 H 
+ATOM     13  H   QUE d   1     168.569-119.577   0.884  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   9  14
+ATOM     14  C14 QUE d   1     168.506-118.154  -4.006  0.00  0.00    -0.015 A 
+ATOM     15  C15 QUE d   1     168.818-117.945  -5.363  0.00  0.00    -0.071 A 
+ATOM     16  C16 QUE d   1     168.516-116.689  -5.974  0.00  0.00    -0.048 A 
+ATOM     17  H   QUE d   1     169.287-118.737  -5.944  0.00  0.00     0.084 H 
+ATOM     18  C17 QUE d   1     167.912-115.634  -5.256  0.00  0.00     0.098 A 
+ATOM     19  H   QUE d   1     168.759-116.541  -7.025  0.00  0.00     0.087 H 
+ATOM     20  C18 QUE d   1     167.584-115.794  -3.880  0.00  0.00     0.122 A 
+ATOM     21  C19 QUE d   1     167.903-117.061  -3.309  0.00  0.00     0.011 A 
+ATOM     22  O23 QUE d   1     167.026-114.830  -3.198  0.00  0.00    -0.194 OA
+ATOM     23  H   QUE d   1     168.580-116.841  -2.470  0.00  0.00     0.050 H 
+ATOM     24  H   QUE d   1     166.952-117.453  -2.919  0.00  0.00     0.050 H 
+BRANCH  18  25
+ATOM     25  O24 QUE d   1     167.652-114.456  -5.920  0.00  0.00    -0.358 OA
+ATOM     26  H   QUE d   1     167.937-114.533  -6.823  0.00  0.00     0.217 HD
+ENDBRANCH  18  25
+ENDBRANCH   9  14
+BRANCH   8  27
+ATOM     27  O27 QUE d   1     169.300-120.729  -5.340  0.00  0.00    -0.355 OA
+ATOM     28  H   QUE d   1     169.464-121.625  -5.611  0.00  0.00     0.218 HD
+ENDBRANCH   8  27
+BRANCH   2  29
+ATOM     29  O30 QUE d   1     170.202-124.042  -1.419  0.00  0.00    -0.360 OA
+ATOM     30  H   QUE d   1     170.965-123.832  -1.944  0.00  0.00     0.217 HD
+ENDBRANCH   2  29
+BRANCH   6  31
+ATOM     31  O29 QUE d   1     169.204-121.507   2.673  0.00  0.00    -0.361 OA
+ATOM     32  H   QUE d   1     169.484-122.329   3.058  0.00  0.00     0.217 HD
+ENDBRANCH   6  31
+TORSDOF 5

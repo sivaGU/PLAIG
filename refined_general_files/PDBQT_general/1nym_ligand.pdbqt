@@ -1,0 +1,61 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C18_1  and  O17_2 
+REMARK    2  A    between atoms: O17_2  and  N16_3 
+REMARK    3  A    between atoms: C13_4  and  C11_5 
+REMARK    4  A    between atoms: C13_4  and  C14_12 
+REMARK       I    between atoms: C11_5  and  N10_7 
+REMARK    5  A    between atoms: N10_7  and  C7_8 
+REMARK    6  A    between atoms: C7_8  and  B_9 
+REMARK    7  A    between atoms: B_9  and  OB1_10 
+REMARK    8  A    between atoms: B_9  and  OB2_11 
+REMARK    9  A    between atoms: C17_15  and  N18_16 
+ROOT
+ATOM      1  N16 CXB d   1      13.605  11.997  36.995  0.00  0.00    -0.126 NA
+ATOM      2  C13 CXB d   1      13.900  10.774  37.197  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C11 CXB d   1      13.030   9.715  37.818  0.00  0.00     0.274 C 
+ATOM      4  O12 CXB d   1      13.321   9.338  38.929  0.00  0.00    -0.266 OA
+ATOM      5  N10 CXB d   1      12.073   9.251  37.108  0.00  0.00    -0.359 N 
+ATOM      6  H4  CXB d   1      11.950   9.614  36.184  0.00  0.00     0.161 HD
+BRANCH   5   7
+ATOM      7  C7  CXB d   1      11.149   8.217  37.576  0.00  0.00     0.030 C 
+ATOM      8  H5  CXB d   1      10.435   8.651  38.292  0.00  0.00     0.057 H 
+ATOM      9  H6  CXB d   1      11.712   7.408  38.065  0.00  0.00     0.057 H 
+BRANCH   7  10
+ATOM     10  B   CXB d   1      10.356   7.636  36.300  0.00  0.00     0.510 B 
+BRANCH  10  11
+ATOM     11  OB1 CXB d   1      11.245   7.117  35.232  0.00  0.00    -0.436 OA
+ATOM     12  H7  CXB d   1      11.717   7.840  34.835  0.00  0.00     0.184 HD
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  OB2 CXB d   1       9.390   8.597  35.714  0.00  0.00    -0.436 OA
+ATOM     14  H8  CXB d   1       9.864   9.318  35.317  0.00  0.00     0.184 HD
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+ENDBRANCH   2   3
+BRANCH   2  15
+ATOM     15  C14 CXB d   1      15.308  10.382  36.908  0.00  0.00     0.102 A 
+ATOM     16  C15 CXB d   1      15.910   9.254  37.388  0.00  0.00    -0.011 A 
+ATOM     17  S16 CXB d   1      17.565   9.187  36.910  0.00  0.00    -0.062 SA
+ATOM     18  H9  CXB d   1      15.411   8.498  37.992  0.00  0.00     0.098 H 
+ATOM     19  C17 CXB d   1      17.330  10.654  36.070  0.00  0.00     0.164 A 
+ATOM     20  N19 CXB d   1      16.115  11.189  36.132  0.00  0.00    -0.222 NA
+BRANCH  19  21
+ATOM     21  N18 CXB d   1      18.391  11.202  35.363  0.00  0.00    -0.378 N 
+ATOM     22  H10 CXB d   1      18.266  12.087  34.851  0.00  0.00     0.158 HD
+ATOM     23  H11 CXB d   1      19.303  10.724  35.351  0.00  0.00     0.158 HD
+ENDBRANCH  19  21
+ENDBRANCH   2  15
+BRANCH   1  24
+ATOM     24  O17 CXB d   1      12.441  12.212  37.632  0.00  0.00    -0.261 OA
+BRANCH  24  25
+ATOM     25  C18 CXB d   1      11.294  13.040  37.642  0.00  0.00     0.031 C 
+ATOM     26  H1  CXB d   1      10.621  12.724  38.452  0.00  0.00     0.070 H 
+ATOM     27  H2  CXB d   1      10.772  12.955  36.677  0.00  0.00     0.070 H 
+ATOM     28  H3  CXB d   1      11.597  14.085  37.804  0.00  0.00     0.070 H 
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 9

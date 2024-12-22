@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_3  and  N_1 
+REMARK    2  A    between atoms: CA_3  and  C_4 
+ROOT
+ATOM      1  CA  AC5 d   1       1.901  -4.788   1.881  0.00  0.00     0.210 C 
+ATOM      2  CB1 AC5 d   1       3.403  -4.630   2.175  0.00  0.00    -0.024 C 
+ATOM      3  CB2 AC5 d   1       1.195  -3.866   2.893  0.00  0.00    -0.024 C 
+ATOM      4  CG1 AC5 d   1       3.514  -3.517   3.185  0.00  0.00    -0.062 C 
+ATOM      5  CG2 AC5 d   1       2.202  -2.767   3.155  0.00  0.00    -0.062 C 
+ATOM      6  H4  AC5 d   1       3.947  -4.367   1.256  0.00  0.00     0.037 H 
+ATOM      7  H5  AC5 d   1       3.812  -5.564   2.589  0.00  0.00     0.037 H 
+ATOM      8  H6  AC5 d   1       0.961  -4.410   3.820  0.00  0.00     0.037 H 
+ATOM      9  H7  AC5 d   1       0.269  -3.454   2.466  0.00  0.00     0.037 H 
+ATOM     10  H8  AC5 d   1       4.341  -2.844   2.917  0.00  0.00     0.033 H 
+ATOM     11  H9  AC5 d   1       3.690  -3.932   4.188  0.00  0.00     0.033 H 
+ATOM     12  H10 AC5 d   1       2.007  -2.271   4.117  0.00  0.00     0.033 H 
+ATOM     13  H11 AC5 d   1       2.191  -2.019   2.349  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1  14
+ATOM     14  N   AC5 d   1       1.589  -4.368   0.486  0.00  0.00    -0.060 N 
+ATOM     15  H1  AC5 d   1       1.909  -3.423   0.340  0.00  0.00     0.275 HD
+ATOM     16  H2  AC5 d   1       0.593  -4.412   0.337  0.00  0.00     0.275 HD
+ATOM     17  H3  AC5 d   1       2.054  -4.984  -0.162  0.00  0.00     0.275 HD
+ENDBRANCH   1  14
+BRANCH   1  18
+ATOM     18  C   AC5 d   1       1.398  -6.242   2.074  0.00  0.00     0.210 C 
+ATOM     19  O   AC5 d   1       0.599  -6.692   1.181  0.00  0.00    -0.646 OA
+ATOM     20  OXT AC5 d   1       1.754  -6.911   3.048  0.00  0.00    -0.646 OA
+ENDBRANCH   1  18
+TORSDOF 2

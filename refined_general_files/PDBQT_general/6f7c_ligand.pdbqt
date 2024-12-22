@@ -1,0 +1,80 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_21  and  C11_5 
+REMARK    2  A    between atoms: C12_10  and  C13_11 
+REMARK       I    between atoms: N2_13  and  C12_10 
+REMARK    3  A    between atoms: N1_12  and  N2_13 
+REMARK    4  A    between atoms: C15_16  and  O2_25 
+REMARK    5  A    between atoms: C16_17  and  O3_26 
+REMARK    6  A    between atoms: C17_18  and  O4_27 
+REMARK    7  A    between atoms: O4_27  and  C19_20 
+REMARK    8  A    between atoms: O3_26  and  C20_22 
+REMARK    9  A    between atoms: O2_25  and  C21_23 
+ROOT
+ATOM      1  C12 CVT d   1      18.996  67.986  41.637  0.00  0.00     0.271 C 
+ATOM      2  N2  CVT d   1      19.254  67.348  42.885  0.00  0.00    -0.243 N 
+ATOM      3  O1  CVT d   1      19.705  68.933  41.265  0.00  0.00    -0.266 OA
+ATOM      4  H9  CVT d   1      20.000  67.691  43.456  0.00  0.00     0.192 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C13 CVT d   1      17.915  67.546  40.745  0.00  0.00     0.039 A 
+ATOM      6  C14 CVT d   1      16.652  67.158  41.226  0.00  0.00    -0.033 A 
+ATOM      7  C15 CVT d   1      15.668  66.762  40.319  0.00  0.00     0.105 A 
+ATOM      8  H1  CVT d   1      16.445  67.166  42.290  0.00  0.00     0.089 H 
+ATOM      9  C16 CVT d   1      15.945  66.751  38.952  0.00  0.00     0.135 A 
+ATOM     10  C17 CVT d   1      17.205  67.132  38.472  0.00  0.00     0.105 A 
+ATOM     11  C18 CVT d   1      18.188  67.534  39.376  0.00  0.00    -0.033 A 
+ATOM     12  H11 CVT d   1      19.164  67.837  39.016  0.00  0.00     0.089 H 
+BRANCH   7  13
+ATOM     13  O2  CVT d   1      14.405  66.367  40.735  0.00  0.00    -0.353 OA
+BRANCH  13  14
+ATOM     14  C21 CVT d   1      13.956  66.557  42.075  0.00  0.00     0.010 C 
+ATOM     15  H18 CVT d   1      12.931  66.171  42.176  0.00  0.00     0.066 H 
+ATOM     16  H19 CVT d   1      13.969  67.630  42.318  0.00  0.00     0.066 H 
+ATOM     17  H20 CVT d   1      14.621  66.017  42.765  0.00  0.00     0.066 H 
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+BRANCH   9  18
+ATOM     18  O3  CVT d   1      14.985  66.345  38.060  0.00  0.00    -0.351 OA
+BRANCH  18  19
+ATOM     19  C20 CVT d   1      14.895  64.946  37.803  0.00  0.00     0.011 C 
+ATOM     20  H15 CVT d   1      14.091  64.758  37.076  0.00  0.00     0.067 H 
+ATOM     21  H16 CVT d   1      14.673  64.415  38.740  0.00  0.00     0.067 H 
+ATOM     22  H17 CVT d   1      15.851  64.586  37.395  0.00  0.00     0.067 H 
+ENDBRANCH  18  19
+ENDBRANCH   9  18
+BRANCH  10  23
+ATOM     23  O4  CVT d   1      17.445  67.109  37.107  0.00  0.00    -0.353 OA
+BRANCH  23  24
+ATOM     24  C19 CVT d   1      18.727  66.751  36.604  0.00  0.00     0.010 C 
+ATOM     25  H12 CVT d   1      18.714  66.793  35.505  0.00  0.00     0.066 H 
+ATOM     26  H13 CVT d   1      18.977  65.730  36.929  0.00  0.00     0.066 H 
+ATOM     27  H14 CVT d   1      19.481  67.453  36.989  0.00  0.00     0.066 H 
+ENDBRANCH  23  24
+ENDBRANCH  10  23
+ENDBRANCH   1   5
+BRANCH   2  28
+ATOM     28  N1  CVT d   1      18.518  66.283  43.332  0.00  0.00    -0.183 NA
+ATOM     29  C11 CVT d   1      18.583  65.976  44.575  0.00  0.00     0.032 C 
+ATOM     30  H4  CVT d   1      19.194  66.577  45.247  0.00  0.00     0.118 H 
+BRANCH  29  31
+ATOM     31  C2  CVT d   1      17.844  64.824  45.102  0.00  0.00    -0.006 A 
+ATOM     32  C3  CVT d   1      17.722  64.622  46.542  0.00  0.00    -0.014 A 
+ATOM     33  C4  CVT d   1      17.023  63.474  47.007  0.00  0.00    -0.025 A 
+ATOM     34  C7  CVT d   1      17.944  65.704  47.461  0.00  0.00    -0.071 A 
+ATOM     35  C5  CVT d   1      16.462  62.564  46.072  0.00  0.00    -0.072 A 
+ATOM     36  C10 CVT d   1      16.584  63.428  48.361  0.00  0.00    -0.072 A 
+ATOM     37  C6  CVT d   1      16.589  62.777  44.724  0.00  0.00    -0.081 A 
+ATOM     38  H2  CVT d   1      15.927  61.691  46.428  0.00  0.00     0.084 H 
+ATOM     39  C1  CVT d   1      17.282  63.897  44.231  0.00  0.00    -0.071 A 
+ATOM     40  H3  CVT d   1      16.149  62.072  44.028  0.00  0.00     0.083 H 
+ATOM     41  H10 CVT d   1      17.379  64.039  43.161  0.00  0.00     0.084 H 
+ATOM     42  C9  CVT d   1      16.811  64.474  49.218  0.00  0.00    -0.082 A 
+ATOM     43  H8  CVT d   1      16.061  62.550  48.721  0.00  0.00     0.084 H 
+ATOM     44  C8  CVT d   1      17.496  65.619  48.761  0.00  0.00    -0.082 A 
+ATOM     45  H7  CVT d   1      16.465  64.421  50.244  0.00  0.00     0.083 H 
+ATOM     46  H6  CVT d   1      17.672  66.444  49.442  0.00  0.00     0.083 H 
+ATOM     47  H5  CVT d   1      18.468  66.593  47.129  0.00  0.00     0.084 H 
+ENDBRANCH  29  31
+ENDBRANCH   2  28
+TORSDOF 9

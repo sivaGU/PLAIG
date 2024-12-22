@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_7 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: O1_7  and  CM_12 
+ROOT
+ATOM      1  C1  MFU d   1       1.471  -5.365  32.937  0.00  0.00     0.158 C 
+ATOM      2  C2  MFU d   1       0.228  -5.125  33.779  0.00  0.00     0.110 C 
+ATOM      3  C3  MFU d   1      -1.014  -5.072  32.966  0.00  0.00     0.092 C 
+ATOM      4  C4  MFU d   1      -1.162  -6.303  32.115  0.00  0.00     0.087 C 
+ATOM      5  C5  MFU d   1       0.105  -6.559  31.317  0.00  0.00     0.065 C 
+ATOM      6  O5  MFU d   1       1.303  -6.618  32.177  0.00  0.00    -0.351 OA
+ATOM      7  H1  MFU d   1       2.349  -5.439  33.596  0.00  0.00     0.133 H 
+ATOM      8  H2  MFU d   1       0.132  -5.944  34.507  0.00  0.00     0.094 H 
+ATOM      9  H3  MFU d   1      -0.960  -4.194  32.306  0.00  0.00     0.091 H 
+ATOM     10  H4  MFU d   1      -1.997  -6.146  31.417  0.00  0.00     0.091 H 
+ATOM     11  H5  MFU d   1       0.237  -5.745  30.590  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  O1  MFU d   1       1.656  -4.354  32.038  0.00  0.00    -0.363 OA
+BRANCH  12  13
+ATOM     13  CM  MFU d   1       2.652  -4.617  31.073  0.00  0.00     0.007 C 
+ATOM     14  H12 MFU d   1       2.738  -3.758  30.391  0.00  0.00     0.066 H 
+ATOM     15  H13 MFU d   1       2.379  -5.515  30.499  0.00  0.00     0.066 H 
+ATOM     16  H14 MFU d   1       3.616  -4.783  31.577  0.00  0.00     0.066 H 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  17
+ATOM     17  O2  MFU d   1       0.396  -3.882  34.482  0.00  0.00    -0.388 OA
+ATOM     18  H9  MFU d   1      -0.350  -3.739  35.052  0.00  0.00     0.210 HD
+ENDBRANCH   2  17
+BRANCH   3  19
+ATOM     19  O3  MFU d   1      -2.182  -4.937  33.832  0.00  0.00    -0.390 OA
+ATOM     20  H10 MFU d   1      -2.251  -5.703  34.390  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   5  21
+ATOM     21  C6  MFU d   1      -0.056  -7.849  30.589  0.00  0.00    -0.050 C 
+ATOM     22  H6  MFU d   1       0.852  -8.055  30.003  0.00  0.00     0.031 H 
+ATOM     23  H7  MFU d   1      -0.921  -7.783  29.913  0.00  0.00     0.031 H 
+ATOM     24  H8  MFU d   1      -0.217  -8.661  31.313  0.00  0.00     0.031 H 
+ENDBRANCH   5  21
+BRANCH   4  25
+ATOM     25  O4  MFU d   1      -1.443  -7.454  32.922  0.00  0.00    -0.390 OA
+ATOM     26  H11 MFU d   1      -0.716  -7.610  33.514  0.00  0.00     0.210 HD
+ENDBRANCH   4  25
+TORSDOF 6

@@ -1,0 +1,65 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_8  and  C11_11 
+REMARK    2  A    between atoms: C11_11  and  C12_12 
+REMARK    3  A    between atoms: C12_12  and  O13_13 
+REMARK    4  A    between atoms: O13_13  and  C14_14 
+REMARK    5  A    between atoms: C19_19  and  O20_20 
+REMARK    6  A    between atoms: O20_20  and  C21_21 
+ROOT
+ATOM      1  C12 PFK d   1      11.023  17.342  40.078  0.00  0.00     0.031 C 
+ATOM      2  H9  PFK d   1      10.273  16.537  40.078  0.00  0.00     0.075 H 
+ATOM      3  H10 PFK d   1      10.642  18.199  40.653  0.00  0.00     0.075 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C11 PFK d   1      11.352  17.764  38.648  0.00  0.00    -0.004 C 
+ATOM      5  H7  PFK d   1      11.956  18.682  38.695  0.00  0.00     0.045 H 
+ATOM      6  H8  PFK d   1      11.942  16.960  38.184  0.00  0.00     0.045 H 
+BRANCH   4   7
+ATOM      7  C8  PFK d   1      10.144  18.039  37.755  0.00  0.00     0.037 A 
+ATOM      8  N7  PFK d   1       9.430  16.984  37.249  0.00  0.00    -0.253 NA
+ATOM      9  C4  PFK d   1       8.360  17.177  36.439  0.00  0.00     0.067 A 
+ATOM     10  C3  PFK d   1       7.636  16.068  35.958  0.00  0.00    -0.054 A 
+ATOM     11  C5  PFK d   1       7.974  18.488  36.085  0.00  0.00    -0.007 A 
+ATOM     12  C2  PFK d   1       6.549  16.268  35.111  0.00  0.00    -0.081 A 
+ATOM     13  H3  PFK d   1       7.924  15.063  36.246  0.00  0.00     0.087 H 
+ATOM     14  C1  PFK d   1       6.163  17.560  34.752  0.00  0.00    -0.082 A 
+ATOM     15  H2  PFK d   1       6.000  15.415  34.728  0.00  0.00     0.083 H 
+ATOM     16  C6  PFK d   1       6.889  18.662  35.218  0.00  0.00    -0.071 A 
+ATOM     17  H1  PFK d   1       5.301  17.710  34.112  0.00  0.00     0.083 H 
+ATOM     18  H4  PFK d   1       6.608  19.661  34.904  0.00  0.00     0.084 H 
+ATOM     19  C10 PFK d   1       8.699  19.602  36.568  0.00  0.00    -0.069 A 
+ATOM     20  C9  PFK d   1       9.801  19.359  37.403  0.00  0.00    -0.058 A 
+ATOM     21  H6  PFK d   1       8.412  20.613  36.301  0.00  0.00     0.085 H 
+ATOM     22  H5  PFK d   1      10.389  20.189  37.778  0.00  0.00     0.086 H 
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O13 PFK d   1      12.245  16.880  40.630  0.00  0.00    -0.348 OA
+BRANCH  23  24
+ATOM     24  C14 PFK d   1      12.597  17.039  41.948  0.00  0.00     0.104 A 
+ATOM     25  C15 PFK d   1      12.042  18.059  42.695  0.00  0.00    -0.019 A 
+ATOM     26  C16 PFK d   1      12.407  18.241  44.026  0.00  0.00     0.072 A 
+ATOM     27  H11 PFK d   1      11.316  18.724  42.241  0.00  0.00     0.091 H 
+ATOM     28  C17 PFK d   1      13.337  17.398  44.599  0.00  0.00     0.013 A 
+ATOM     29  N22 PFK d   1      11.839  19.249  44.748  0.00  0.00    -0.241 NA
+ATOM     30  C18 PFK d   1      13.929  16.374  43.855  0.00  0.00    -0.034 A 
+ATOM     31  C25 PFK d   1      13.693  17.624  45.936  0.00  0.00     0.016 A 
+ATOM     32  C19 PFK d   1      13.554  16.201  42.519  0.00  0.00     0.102 A 
+ATOM     33  H12 PFK d   1      14.668  15.723  44.307  0.00  0.00     0.089 H 
+ATOM     34  N24 PFK d   1      13.103  18.635  46.599  0.00  0.00    -0.253 NA
+ATOM     35  H17 PFK d   1      14.429  16.997  46.426  0.00  0.00     0.116 H 
+ATOM     36  C23 PFK d   1      12.196  19.448  46.023  0.00  0.00     0.086 A 
+ATOM     37  H16 PFK d   1      11.757  20.261  46.590  0.00  0.00     0.146 H 
+BRANCH  32  38
+ATOM     38  O20 PFK d   1      14.099  15.192  41.761  0.00  0.00    -0.353 OA
+BRANCH  38  39
+ATOM     39  C21 PFK d   1      15.244  14.453  42.192  0.00  0.00     0.010 C 
+ATOM     40  H13 PFK d   1      15.502  13.701  41.432  0.00  0.00     0.066 H 
+ATOM     41  H14 PFK d   1      15.019  13.950  43.144  0.00  0.00     0.066 H 
+ATOM     42  H15 PFK d   1      16.092  15.139  42.332  0.00  0.00     0.066 H 
+ENDBRANCH  38  39
+ENDBRANCH  32  38
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 6

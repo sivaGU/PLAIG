@@ -1,0 +1,107 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  N6_7 
+REMARK    2  A    between atoms: C1_11  and  N9_10 
+REMARK    3  A    between atoms: C2_12  and  O2_13 
+REMARK    4  A    between atoms: C3_14  and  O3_15 
+REMARK    5  A    between atoms: C5_18  and  C4_17 
+REMARK    6  A    between atoms: O5_19  and  C5_18 
+REMARK    7  A    between atoms: PA_20  and  O5_19 
+REMARK    8  A    between atoms: O3A_23  and  PA_20 
+REMARK    9  A    between atoms: PB_24  and  O3A_23 
+REMARK   10  A    between atoms: RO5_27  and  PB_24 
+REMARK   11  A    between atoms: RC5_28  and  RO5_27 
+REMARK   12  A    between atoms: RC4_36  and  RC5_28 
+REMARK   13  A    between atoms: RC1_31  and  RO1_30 
+REMARK   14  A    between atoms: RC2_33  and  RO2_32 
+REMARK   15  A    between atoms: RC3_35  and  RO3_34 
+ROOT
+ATOM      1  C5  APR d   1      45.669  11.922  43.195  0.00  0.00     0.058 C 
+ATOM      2  H11 APR d   1      45.850  11.785  44.271  0.00  0.00     0.079 H 
+ATOM      3  H12 APR d   1      45.973  11.014  42.654  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4  APR d   1      46.478  13.111  42.690  0.00  0.00     0.089 C 
+ATOM      5  C3  APR d   1      47.328  12.852  41.450  0.00  0.00     0.091 C 
+ATOM      6  C2  APR d   1      48.747  12.806  42.006  0.00  0.00     0.105 C 
+ATOM      7  H8  APR d   1      47.084  11.857  41.049  0.00  0.00     0.091 H 
+ATOM      8  C1  APR d   1      48.696  13.634  43.276  0.00  0.00     0.139 C 
+ATOM      9  H6  APR d   1      49.013  11.766  42.247  0.00  0.00     0.093 H 
+ATOM     10  O4  APR d   1      47.381  13.548  43.747  0.00  0.00    -0.353 OA
+ATOM     11  H5  APR d   1      48.921  14.682  43.029  0.00  0.00     0.122 H 
+ATOM     12  H10 APR d   1      45.771  13.921  42.455  0.00  0.00     0.090 H 
+BRANCH   5  13
+ATOM     13  O3  APR d   1      47.071  13.792  40.388  0.00  0.00    -0.390 OA
+ATOM     14  H9  APR d   1      47.254  14.672  40.695  0.00  0.00     0.210 HD
+ENDBRANCH   5  13
+BRANCH   6  15
+ATOM     15  O2  APR d   1      49.728  13.321  41.092  0.00  0.00    -0.388 OA
+ATOM     16  H7  APR d   1      49.507  14.216  40.863  0.00  0.00     0.210 HD
+ENDBRANCH   6  15
+BRANCH   8  17
+ATOM     17  N9  APR d   1      49.680  13.185  44.287  0.00  0.00    -0.294 N 
+ATOM     18  C4  APR d   1      50.469  14.063  45.013  0.00  0.00     0.167 A 
+ATOM     19  N3  APR d   1      50.466  15.432  44.939  0.00  0.00    -0.222 NA
+ATOM     20  C5  APR d   1      51.263  13.261  45.833  0.00  0.00     0.149 A 
+ATOM     21  C2  APR d   1      51.336  15.979  45.762  0.00  0.00     0.091 A 
+ATOM     22  N1  APR d   1      52.196  15.335  46.630  0.00  0.00    -0.222 NA
+ATOM     23  H1  APR d   1      51.383  17.062  45.758  0.00  0.00     0.146 H 
+ATOM     24  C6  APR d   1      52.178  13.952  46.689  0.00  0.00     0.155 A 
+ATOM     25  N7  APR d   1      50.981  11.918  45.634  0.00  0.00    -0.236 NA
+ATOM     26  C8  APR d   1      50.023  11.921  44.693  0.00  0.00     0.071 A 
+ATOM     27  H4  APR d   1      49.567  11.016  44.295  0.00  0.00     0.144 H 
+BRANCH  24  28
+ATOM     28  N6  APR d   1      53.004  13.332  47.524  0.00  0.00    -0.382 N 
+ATOM     29  H2  APR d   1      53.003  12.303  47.580  0.00  0.00     0.157 HD
+ATOM     30  H3  APR d   1      53.645  13.880  48.115  0.00  0.00     0.157 HD
+ENDBRANCH  24  28
+ENDBRANCH   8  17
+ENDBRANCH   1   4
+BRANCH   1  31
+ATOM     31  O5  APR d   1      44.245  12.173  42.967  0.00  0.00    -0.287 OA
+BRANCH  31  32
+ATOM     32  PA  APR d   1      43.276  11.042  42.300  0.00  0.00     0.417 P 
+ATOM     33  O1A APR d   1      43.877   9.692  42.468  0.00  0.00    -0.624 OA
+ATOM     34  O2A APR d   1      43.072  11.319  40.859  0.00  0.00    -0.624 OA
+BRANCH  32  35
+ATOM     35  O3A APR d   1      41.944  11.231  43.124  0.00  0.00    -0.180 OA
+BRANCH  35  36
+ATOM     36  PB  APR d   1      41.354  12.448  44.120  0.00  0.00     0.417 P 
+ATOM     37  O1B APR d   1      41.842  12.262  45.516  0.00  0.00    -0.624 OA
+ATOM     38  O2B APR d   1      41.746  13.787  43.597  0.00  0.00    -0.624 OA
+BRANCH  36  39
+ATOM     39  RO5 APR d   1      39.831  12.223  44.004  0.00  0.00    -0.287 OA
+BRANCH  39  40
+ATOM     40  RC5 APR d   1      39.358  10.999  44.475  0.00  0.00     0.058 C 
+ATOM     41  H13 APR d   1      39.597  10.896  45.544  0.00  0.00     0.079 H 
+ATOM     42  H14 APR d   1      39.829  10.179  43.913  0.00  0.00     0.079 H 
+BRANCH  40  43
+ATOM     43  RC4 APR d   1      37.901  10.953  44.288  0.00  0.00     0.090 C 
+ATOM     44  RO4 APR d   1      37.623  11.088  42.868  0.00  0.00    -0.349 OA
+ATOM     45  RC1 APR d   1      36.901   9.980  42.409  0.00  0.00     0.156 C 
+ATOM     46  RC2 APR d   1      37.192   8.899  43.435  0.00  0.00     0.110 C 
+ATOM     47  H16 APR d   1      35.823  10.199  42.379  0.00  0.00     0.133 H 
+ATOM     48  RC3 APR d   1      37.304   9.662  44.767  0.00  0.00     0.092 C 
+ATOM     49  H18 APR d   1      38.153   8.419  43.196  0.00  0.00     0.094 H 
+ATOM     50  H20 APR d   1      38.013   9.152  45.436  0.00  0.00     0.091 H 
+ATOM     51  H21 APR d   1      37.442  11.786  44.840  0.00  0.00     0.090 H 
+BRANCH  45  52
+ATOM     52  RO1 APR d   1      37.361   9.609  41.055  0.00  0.00    -0.369 OA
+ATOM     53  H15 APR d   1      38.285   9.392  41.084  0.00  0.00     0.212 HD
+ENDBRANCH  45  52
+BRANCH  46  54
+ATOM     54  RO2 APR d   1      36.188   7.872  43.505  0.00  0.00    -0.388 OA
+ATOM     55  H17 APR d   1      35.353   8.262  43.737  0.00  0.00     0.210 HD
+ENDBRANCH  46  54
+BRANCH  48  56
+ATOM     56  RO3 APR d   1      36.045   9.777  45.487  0.00  0.00    -0.390 OA
+ATOM     57  H19 APR d   1      35.715   8.909  45.686  0.00  0.00     0.210 HD
+ENDBRANCH  48  56
+ENDBRANCH  40  43
+ENDBRANCH  39  40
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  31  32
+ENDBRANCH   1  31
+TORSDOF 15

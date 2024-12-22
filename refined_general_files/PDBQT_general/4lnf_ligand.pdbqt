@@ -1,0 +1,41 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD_7 
+REMARK       I    between atoms: CD_7  and  NE2_9 
+ROOT
+ATOM      1  CB  GLN d   1      17.893  32.959 -27.237  0.00  0.00    -0.021 C 
+ATOM      2  H5  GLN d   1      17.707  33.627 -28.091  0.00  0.00     0.037 H 
+ATOM      3  H6  GLN d   1      18.798  32.363 -27.428  0.00  0.00     0.037 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  GLN d   1      16.705  32.009 -27.093  0.00  0.00     0.183 C 
+ATOM      5  H4  GLN d   1      15.896  32.550 -26.579  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   GLN d   1      17.058  30.856 -26.261  0.00  0.00    -0.065 N 
+ATOM      7  H1  GLN d   1      17.389  31.177 -25.365  0.00  0.00     0.275 HD
+ATOM      8  H2  GLN d   1      17.783  30.323 -26.716  0.00  0.00     0.275 HD
+ATOM      9  H3  GLN d   1      16.245  30.275 -26.130  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   GLN d   1      16.193  31.616 -28.470  0.00  0.00     0.204 C 
+ATOM     11  O   GLN d   1      16.408  32.369 -29.457  0.00  0.00    -0.646 OA
+ATOM     12  O   GLN d   1      15.556  30.540 -28.624  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  GLN d   1      18.124  33.806 -26.003  0.00  0.00     0.011 C 
+ATOM     14  H7  GLN d   1      18.108  33.152 -25.119  0.00  0.00     0.047 H 
+ATOM     15  H8  GLN d   1      17.314  34.546 -25.927  0.00  0.00     0.047 H 
+BRANCH  13  16
+ATOM     16  CD  GLN d   1      19.445  34.537 -26.041  0.00  0.00     0.215 C 
+ATOM     17  OE1 GLN d   1      20.331  34.283 -25.229  0.00  0.00    -0.274 OA
+ATOM     18  NE2 GLN d   1      19.587  35.453 -26.988  0.00  0.00    -0.370 N 
+ATOM     19  H9  GLN d   1      20.441  35.968 -27.061  0.00  0.00     0.159 HD
+ATOM     20  H10 GLN d   1      18.840  35.629 -27.630  0.00  0.00     0.159 HD
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 5

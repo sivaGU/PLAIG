@@ -1,0 +1,60 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAU_3  and  CAA_4 
+REMARK    2  A    between atoms: NAV_7  and  CAR_8 
+REMARK    3  A    between atoms: CAS_11  and  OAB_12 
+REMARK    4  A    between atoms: CAT_13  and  CAE_14 
+REMARK    5  A    between atoms: CAE_14  and  CAO_15 
+ROOT
+ATOM      1  CAR DWV d   1      14.325  38.252  16.730  0.00  0.00     0.172 A 
+ATOM      2  SAN DWV d   1      13.661  37.952  15.150  0.00  0.00    -0.052 SA
+ATOM      3  NAM DWV d   1      13.388  37.825  17.632  0.00  0.00    -0.199 NA
+ATOM      4  CAS DWV d   1      12.233  37.305  17.086  0.00  0.00     0.178 A 
+ATOM      5  CAT DWV d   1      12.176  37.282  15.640  0.00  0.00     0.043 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  NAV DWV d   1      15.602  38.797  17.099  0.00  0.00    -0.357 N 
+ATOM      7  CAK DWV d   1      15.801  39.102  18.488  0.00  0.00     0.020 C 
+ATOM      8  CAI DWV d   1      17.215  39.124  18.955  0.00  0.00     0.098 C 
+ATOM      9  H1  DWV d   1      15.367  40.094  18.680  0.00  0.00     0.066 H 
+ATOM     10  H2  DWV d   1      15.263  38.346  19.079  0.00  0.00     0.066 H 
+ATOM     11  NAU DWV d   1      18.113  39.614  17.949  0.00  0.00    -0.072 N 
+ATOM     12  H3  DWV d   1      17.514  38.101  19.228  0.00  0.00     0.078 H 
+ATOM     13  H4  DWV d   1      17.285  39.775  19.839  0.00  0.00     0.078 H 
+ATOM     14  CAJ DWV d   1      18.002  38.838  16.751  0.00  0.00     0.098 C 
+ATOM     15  H5  DWV d   1      17.670  40.478  17.680  0.00  0.00     0.279 HD
+ATOM     16  CAL DWV d   1      16.652  38.999  16.154  0.00  0.00     0.020 C 
+ATOM     17  H9  DWV d   1      18.169  37.777  16.989  0.00  0.00     0.078 H 
+ATOM     18  H10 DWV d   1      18.760  39.175  16.029  0.00  0.00     0.078 H 
+ATOM     19  H11 DWV d   1      16.538  38.268  15.340  0.00  0.00     0.066 H 
+ATOM     20  H12 DWV d   1      16.567  40.017  15.746  0.00  0.00     0.066 H 
+BRANCH  11  21
+ATOM     21  CAA DWV d   1      19.387  40.091  18.331  0.00  0.00     0.066 C 
+ATOM     22  H6  DWV d   1      19.936  40.424  17.438  0.00  0.00     0.068 H 
+ATOM     23  H7  DWV d   1      19.947  39.284  18.826  0.00  0.00     0.068 H 
+ATOM     24  H8  DWV d   1      19.269  40.936  19.026  0.00  0.00     0.068 H 
+ENDBRANCH  11  21
+ENDBRANCH   1   6
+BRANCH   5  25
+ATOM     25  CAE DWV d   1      10.956  36.735  14.863  0.00  0.00    -0.007 C 
+ATOM     26  H14 DWV d   1      10.091  37.353  15.145  0.00  0.00     0.048 H 
+ATOM     27  H15 DWV d   1      10.794  35.701  15.203  0.00  0.00     0.048 H 
+BRANCH  25  28
+ATOM     28  CAO DWV d   1      11.006  36.702  13.314  0.00  0.00    -0.052 A 
+ATOM     29  CAH DWV d   1      11.360  37.876  12.533  0.00  0.00    -0.054 A 
+ATOM     30  CAQ DWV d   1      11.359  37.806  11.201  0.00  0.00     0.056 A 
+ATOM     31  H16 DWV d   1      11.623  38.803  13.030  0.00  0.00     0.087 H 
+ATOM     32 CLD  DWV d   1      11.806  39.221  10.303  0.00  0.00    -0.083 Cl
+ATOM     33  CAP DWV d   1      10.998  36.594  10.570  0.00  0.00     0.055 A 
+ATOM     34 CLC  DWV d   1      10.964  36.411   8.881  0.00  0.00    -0.083 Cl
+ATOM     35  CAG DWV d   1      10.637  35.456  11.355  0.00  0.00    -0.060 A 
+ATOM     36  CAF DWV d   1      10.639  35.528  12.695  0.00  0.00    -0.075 A 
+ATOM     37  H17 DWV d   1      10.360  34.529  10.865  0.00  0.00     0.086 H 
+ATOM     38  H18 DWV d   1      10.353  34.666  13.287  0.00  0.00     0.084 H 
+ENDBRANCH  25  28
+ENDBRANCH   5  25
+BRANCH   4  39
+ATOM     39  OAB DWV d   1      11.185  36.823  17.860  0.00  0.00    -0.344 OA
+ATOM     40  H13 DWV d   1      10.490  36.512  17.292  0.00  0.00     0.219 HD
+ENDBRANCH   4  39
+TORSDOF 5

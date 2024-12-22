@@ -1,0 +1,83 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: O1_2  and  S1_3 
+REMARK    3  A    between atoms: C2_4  and  O12_17 
+REMARK    4  A    between atoms: O12_17  and  S2_6 
+REMARK    5  A    between atoms: C3_7  and  O13_18 
+REMARK    6  A    between atoms: O13_18  and  S3_9 
+REMARK    7  A    between atoms: C4_10  and  O14_19 
+REMARK    8  A    between atoms: O14_19  and  S4_12 
+REMARK    9  A    between atoms: C5_13  and  O15_20 
+REMARK   10  A    between atoms: O15_20  and  S5_14 
+REMARK   11  A    between atoms: C6_15  and  O16_21 
+REMARK   12  A    between atoms: O16_21  and  S6_16 
+ROOT
+ATOM      1  C1  IHS d   1     -18.389   2.891  -5.881  0.00  0.00     0.117 C 
+ATOM      2  C2  IHS d   1     -16.944   2.408  -5.786  0.00  0.00     0.117 C 
+ATOM      3  C3  IHS d   1     -16.752   1.077  -6.487  0.00  0.00     0.117 C 
+ATOM      4  C4  IHS d   1     -17.251   1.152  -7.950  0.00  0.00     0.117 C 
+ATOM      5  C5  IHS d   1     -18.689   1.699  -8.040  0.00  0.00     0.117 C 
+ATOM      6  C6  IHS d   1     -18.894   3.013  -7.344  0.00  0.00     0.117 C 
+ATOM      7  H1  IHS d   1     -19.029   2.159  -5.367  0.00  0.00     0.094 H 
+ATOM      8  H2  IHS d   1     -16.650   2.312  -4.730  0.00  0.00     0.094 H 
+ATOM      9  H3  IHS d   1     -17.346   0.317  -5.957  0.00  0.00     0.094 H 
+ATOM     10  H4  IHS d   1     -16.576   1.813  -8.513  0.00  0.00     0.094 H 
+ATOM     11  H5  IHS d   1     -19.348   0.957  -7.566  0.00  0.00     0.094 H 
+ATOM     12  H6  IHS d   1     -18.296   3.777  -7.863  0.00  0.00     0.094 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  O1  IHS d   1     -18.496   4.144  -5.204  0.00  0.00    -0.246 OA
+BRANCH  13  14
+ATOM     14  S1  IHS d   1     -19.055   4.183  -3.734  0.00  0.00     0.252 S 
+ATOM     15  O2  IHS d   1     -20.439   3.809  -3.769  0.00  0.00    -0.572 OA
+ATOM     16  O3  IHS d   1     -18.173   3.091  -2.970  0.00  0.00    -0.572 OA
+ATOM     17  O4  IHS d   1     -18.836   5.543  -3.274  0.00  0.00    -0.572 OA
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   2  18
+ATOM     18  O12 IHS d   1     -16.150   3.379  -6.433  0.00  0.00    -0.246 OA
+BRANCH  18  19
+ATOM     19  S2  IHS d   1     -14.926   4.064  -5.667  0.00  0.00     0.252 S 
+ATOM     20  O22 IHS d   1     -14.888   5.469  -6.048  0.00  0.00    -0.572 OA
+ATOM     21  O32 IHS d   1     -15.108   3.898  -4.238  0.00  0.00    -0.572 OA
+ATOM     22  O42 IHS d   1     -13.680   3.244  -6.220  0.00  0.00    -0.572 OA
+ENDBRANCH  18  19
+ENDBRANCH   2  18
+BRANCH   6  23
+ATOM     23  O16 IHS d   1     -20.329   3.452  -7.362  0.00  0.00    -0.246 OA
+BRANCH  23  24
+ATOM     24  S6  IHS d   1     -20.812   4.812  -8.013  0.00  0.00     0.252 S 
+ATOM     25  O26 IHS d   1     -20.151   5.878  -7.279  0.00  0.00    -0.572 OA
+ATOM     26  O36 IHS d   1     -22.201   4.921  -7.856  0.00  0.00    -0.572 OA
+ATOM     27  O46 IHS d   1     -20.326   4.765  -9.488  0.00  0.00    -0.572 OA
+ENDBRANCH  23  24
+ENDBRANCH   6  23
+BRANCH   3  28
+ATOM     28  O13 IHS d   1     -15.375   0.685  -6.445  0.00  0.00    -0.246 OA
+BRANCH  28  29
+ATOM     29  S3  IHS d   1     -15.044  -0.408  -5.325  0.00  0.00     0.252 S 
+ATOM     30  O23 IHS d   1     -13.468  -0.598  -5.650  0.00  0.00    -0.572 OA
+ATOM     31  O33 IHS d   1     -15.926  -1.506  -5.535  0.00  0.00    -0.572 OA
+ATOM     32  O43 IHS d   1     -15.284   0.262  -4.069  0.00  0.00    -0.572 OA
+ENDBRANCH  28  29
+ENDBRANCH   3  28
+BRANCH   5  33
+ATOM     33  O15 IHS d   1     -19.099   1.871  -9.379  0.00  0.00    -0.246 OA
+BRANCH  33  34
+ATOM     34  S5  IHS d   1     -20.110   0.929 -10.136  0.00  0.00     0.252 S 
+ATOM     35  O25 IHS d   1     -21.185   1.780 -10.749  0.00  0.00    -0.572 OA
+ATOM     36  O35 IHS d   1     -19.261   0.252 -11.252  0.00  0.00    -0.572 OA
+ATOM     37  O45 IHS d   1     -20.497  -0.086  -9.210  0.00  0.00    -0.572 OA
+ENDBRANCH  33  34
+ENDBRANCH   5  33
+BRANCH   4  38
+ATOM     38  O14 IHS d   1     -17.266  -0.152  -8.565  0.00  0.00    -0.246 OA
+BRANCH  38  39
+ATOM     39  S4  IHS d   1     -16.154  -0.528  -9.675  0.00  0.00     0.252 S 
+ATOM     40  O24 IHS d   1     -14.913  -0.921  -8.780  0.00  0.00    -0.572 OA
+ATOM     41  O34 IHS d   1     -15.943   0.619 -10.516  0.00  0.00    -0.572 OA
+ATOM     42  O44 IHS d   1     -16.848  -1.653 -10.254  0.00  0.00    -0.572 OA
+ENDBRANCH  38  39
+ENDBRANCH   4  38
+TORSDOF 12

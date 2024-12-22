@@ -1,0 +1,107 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N19_21  and  C5_3 
+REMARK    2  A    between atoms: C3_5  and  N7_18 
+REMARK    3  A    between atoms: C11_6  and  C15_14 
+REMARK    4  A    between atoms: N7_18  and  C8_9 
+REMARK    5  A    between atoms: N7_18  and  C16_12 
+REMARK    6  A    between atoms: C20_15  and  N19_21 
+REMARK    7  A    between atoms: C23_23  and  O26_26 
+REMARK    8  A    between atoms: O26_26  and  C27_27 
+REMARK    9  A    between atoms: C27_27  and  C28_28 
+REMARK   10  A    between atoms: C28_28  and  C29_29 
+REMARK   11  A    between atoms: C28_28  and  O33_33 
+REMARK   12  A    between atoms: C29_29  and  N30_30 
+REMARK   13  A    between atoms: N30_30  and  C31_31 
+REMARK   14  A    between atoms: N30_30  and  C32_32 
+ROOT
+ATOM      1  C17 MFP d   1      -2.683  31.550  10.745  0.00  0.00     0.105 C 
+ATOM      2  C16 MFP d   1      -2.652  30.373   9.956  0.00  0.00     0.063 C 
+ATOM      3  N18 MFP d   1      -2.722  32.514  11.392  0.00  0.00    -0.191 NA
+ATOM      4  H6  MFP d   1      -3.603  29.939   9.649  0.00  0.00     0.130 H 
+ENDROOT
+BRANCH   2   5
+ATOM      5  N7  MFP d   1      -1.380  29.680   9.513  0.00  0.00    -0.295 N 
+BRANCH   5   6
+ATOM      6  C3  MFP d   1      -0.365  30.462   8.643  0.00  0.00     0.140 A 
+ATOM      7  C4  MFP d   1       0.796  29.852   8.115  0.00  0.00     0.006 A 
+ATOM      8  C5  MFP d   1       1.706  30.646   7.287  0.00  0.00     0.133 A 
+ATOM      9  H3  MFP d   1       1.010  28.809   8.321  0.00  0.00     0.095 H 
+ATOM     10  N6  MFP d   1       1.427  31.937   7.036  0.00  0.00    -0.224 NA
+ATOM     11  C1  MFP d   1       0.307  32.440   7.568  0.00  0.00     0.091 A 
+ATOM     12  N2  MFP d   1      -0.580  31.777   8.331  0.00  0.00    -0.224 NA
+ATOM     13  H2  MFP d   1       0.094  33.483   7.364  0.00  0.00     0.146 H 
+BRANCH   8  14
+ATOM     14  N19 MFP d   1       2.940  30.053   6.712  0.00  0.00    -0.341 N 
+ATOM     15  H11 MFP d   1       3.515  30.684   6.136  0.00  0.00     0.167 HD
+BRANCH  14  16
+ATOM     16  C20 MFP d   1       3.444  28.689   6.858  0.00  0.00     0.033 A 
+ATOM     17  C25 MFP d   1       3.192  28.076   8.079  0.00  0.00    -0.055 A 
+ATOM     18  C24 MFP d   1       3.583  26.799   8.318  0.00  0.00    -0.049 A 
+ATOM     19  H14 MFP d   1       2.674  28.628   8.855  0.00  0.00     0.087 H 
+ATOM     20  C23 MFP d   1       4.261  26.068   7.350  0.00  0.00     0.069 A 
+ATOM     21  H13 MFP d   1       3.364  26.343   9.277  0.00  0.00     0.087 H 
+ATOM     22  C22 MFP d   1       4.559  26.648   6.084  0.00  0.00    -0.049 A 
+ATOM     23  C21 MFP d   1       4.143  27.991   5.832  0.00  0.00    -0.055 A 
+ATOM     24  H1  MFP d   1       5.090  26.082   5.327  0.00  0.00     0.087 H 
+ATOM     25  H12 MFP d   1       4.354  28.468   4.882  0.00  0.00     0.087 H 
+BRANCH  20  26
+ATOM     26  O26 MFP d   1       4.616  24.759   7.655  0.00  0.00    -0.349 OA
+BRANCH  26  27
+ATOM     27  C27 MFP d   1       4.094  24.076   8.839  0.00  0.00     0.051 C 
+ATOM     28  H15 MFP d   1       2.996  24.052   8.781  0.00  0.00     0.079 H 
+ATOM     29  H16 MFP d   1       4.402  24.634   9.736  0.00  0.00     0.079 H 
+BRANCH  27  30
+ATOM     30  C28 MFP d   1       4.611  22.654   8.944  0.00  0.00     0.080 C 
+ATOM     31  H17 MFP d   1       3.843  22.080   9.483  0.00  0.00     0.088 H 
+BRANCH  30  32
+ATOM     32  C29 MFP d   1       5.918  22.490   9.750  0.00  0.00     0.108 C 
+ATOM     33  H18 MFP d   1       6.079  23.412  10.328  0.00  0.00     0.080 H 
+ATOM     34  H19 MFP d   1       6.744  22.356   9.035  0.00  0.00     0.080 H 
+BRANCH  32  35
+ATOM     35  N30 MFP d   1       5.941  21.339  10.702  0.00  0.00    -0.076 N 
+ATOM     36  H20 MFP d   1       5.101  20.818  10.504  0.00  0.00     0.279 HD
+BRANCH  35  37
+ATOM     37  C31 MFP d   1       5.835  21.724  12.139  0.00  0.00     0.066 C 
+ATOM     38  H21 MFP d   1       5.860  20.819  12.764  0.00  0.00     0.068 H 
+ATOM     39  H22 MFP d   1       4.889  22.259  12.306  0.00  0.00     0.068 H 
+ATOM     40  H23 MFP d   1       6.678  22.378  12.407  0.00  0.00     0.068 H 
+ENDBRANCH  35  37
+BRANCH  35  41
+ATOM     41  C32 MFP d   1       7.064  20.393  10.452  0.00  0.00     0.066 C 
+ATOM     42  H24 MFP d   1       7.100  20.141   9.382  0.00  0.00     0.068 H 
+ATOM     43  H25 MFP d   1       6.909  19.476  11.040  0.00  0.00     0.068 H 
+ATOM     44  H26 MFP d   1       8.013  20.863  10.750  0.00  0.00     0.068 H 
+ENDBRANCH  35  41
+ENDBRANCH  32  35
+ENDBRANCH  30  32
+BRANCH  30  45
+ATOM     45  O33 MFP d   1       4.728  22.087   7.642  0.00  0.00    -0.392 OA
+ATOM     46  H27 MFP d   1       5.430  22.521   7.171  0.00  0.00     0.210 HD
+ENDBRANCH  30  45
+ENDBRANCH  27  30
+ENDBRANCH  26  27
+ENDBRANCH  20  26
+ENDBRANCH  14  16
+ENDBRANCH   8  14
+ENDBRANCH   5   6
+BRANCH   5  47
+ATOM     47  C8  MFP d   1      -1.165  28.267  10.079  0.00  0.00     0.058 A 
+ATOM     48  C9  MFP d   1      -0.463  28.062  11.312  0.00  0.00     0.038 A 
+ATOM     49  C10 MFP d   1      -0.279  26.768  11.855  0.00  0.00    -0.058 A 
+ATOM     50 BR   MFP d   1       0.252  29.517  12.297  0.00  0.00    -0.049 Br
+ATOM     51  C11 MFP d   1      -0.783  25.633  11.190  0.00  0.00    -0.061 A 
+ATOM     52  H4  MFP d   1       0.255  26.649  12.791  0.00  0.00     0.086 H 
+ATOM     53  C12 MFP d   1      -1.483  25.800   9.960  0.00  0.00    -0.075 A 
+ATOM     54  C13 MFP d   1      -1.672  27.108   9.406  0.00  0.00    -0.055 A 
+ATOM     55  H5  MFP d   1      -1.875  24.933   9.441  0.00  0.00     0.084 H 
+ATOM     56  H7  MFP d   1      -2.204  27.222   8.468  0.00  0.00     0.087 H 
+BRANCH  51  57
+ATOM     57  C15 MFP d   1      -0.578  24.247  11.799  0.00  0.00    -0.051 C 
+ATOM     58  H8  MFP d   1      -0.018  24.340  12.741  0.00  0.00     0.033 H 
+ATOM     59  H9  MFP d   1      -0.012  23.618  11.096  0.00  0.00     0.033 H 
+ATOM     60  H10 MFP d   1      -1.556  23.786  11.998  0.00  0.00     0.033 H 
+ENDBRANCH  51  57
+ENDBRANCH   5  47
+ENDBRANCH   2   5
+TORSDOF 14

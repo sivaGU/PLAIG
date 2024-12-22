@@ -1,0 +1,78 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_2  and  CB_1 
+REMARK    2  A    between atoms: CB_1  and  O1_32 
+REMARK    3  A    between atoms: B_33  and  CD2_4 
+REMARK    4  A    between atoms: O5'_22  and  P_8 
+REMARK    5  A    between atoms: C1'_30  and  N9_12 
+REMARK    6  A    between atoms: C6_16  and  N6_17 
+REMARK    7  A    between atoms: C5'_23  and  O5'_22 
+REMARK    8  A    between atoms: C4'_24  and  C5'_23 
+ROOT
+ATOM      1  C4' ANZ d   1      51.430 -24.353  27.745  0.00  0.00     0.088 C 
+ATOM      2  O4' ANZ d   1      51.395 -22.961  27.379  0.00  0.00    -0.353 OA
+ATOM      3  C3' ANZ d   1      52.507 -24.565  28.808  0.00  0.00     0.076 C 
+ATOM      4  O3' ANZ d   1      53.348 -25.660  28.516  0.00  0.00    -0.413 OA
+ATOM      5  C2' ANZ d   1      53.337 -23.314  28.641  0.00  0.00     0.090 C 
+ATOM      6  O2' ANZ d   1      54.365 -23.685  27.731  0.00  0.00    -0.411 OA
+ATOM      7  C1' ANZ d   1      52.418 -22.258  28.052  0.00  0.00     0.138 C 
+ATOM      8  B   ANZ d   1      54.550 -25.184  27.739  0.00  0.00     0.535 B 
+ATOM      9  H13 ANZ d   1      51.679 -24.960  26.862  0.00  0.00     0.090 H 
+ATOM     10  H14 ANZ d   1      52.075 -24.663  29.815  0.00  0.00     0.088 H 
+ATOM     11  H16 ANZ d   1      53.761 -22.969  29.596  0.00  0.00     0.091 H 
+ATOM     12  H18 ANZ d   1      52.968 -21.644  27.323  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   7  13
+ATOM     13  N9  ANZ d   1      51.941 -21.375  29.141  0.00  0.00    -0.294 N 
+ATOM     14  C8  ANZ d   1      51.711 -21.699  30.443  0.00  0.00     0.071 A 
+ATOM     15  N7  ANZ d   1      51.333 -20.590  31.117  0.00  0.00    -0.236 NA
+ATOM     16  H7  ANZ d   1      51.815 -22.694  30.873  0.00  0.00     0.144 H 
+ATOM     17  C5  ANZ d   1      51.333 -19.584  30.219  0.00  0.00     0.149 A 
+ATOM     18  C6  ANZ d   1      51.042 -18.239  30.334  0.00  0.00     0.155 A 
+ATOM     19  C4  ANZ d   1      51.709 -20.080  28.974  0.00  0.00     0.167 A 
+ATOM     20  N1  ANZ d   1      51.134 -17.422  29.239  0.00  0.00    -0.222 NA
+ATOM     21  C2  ANZ d   1      51.518 -17.934  28.033  0.00  0.00     0.091 A 
+ATOM     22  N3  ANZ d   1      51.802 -19.246  27.894  0.00  0.00    -0.222 NA
+ATOM     23  H10 ANZ d   1      51.596 -17.277  27.174  0.00  0.00     0.146 H 
+BRANCH  18  24
+ATOM     24  N6  ANZ d   1      50.681 -17.786  31.560  0.00  0.00    -0.382 N 
+ATOM     25  H8  ANZ d   1      50.455 -16.790  31.695  0.00  0.00     0.157 HD
+ATOM     26  H9  ANZ d   1      50.633 -18.438  32.356  0.00  0.00     0.157 HD
+ENDBRANCH  18  24
+ENDBRANCH   7  13
+BRANCH   1  27
+ATOM     27  C5' ANZ d   1      50.052 -24.748  28.244  0.00  0.00     0.059 C 
+ATOM     28  H11 ANZ d   1      49.340 -24.710  27.406  0.00  0.00     0.079 H 
+ATOM     29  H12 ANZ d   1      50.093 -25.772  28.644  0.00  0.00     0.079 H 
+BRANCH  27  30
+ATOM     30  O5' ANZ d   1      49.614 -23.859  29.273  0.00  0.00    -0.280 OA
+BRANCH  30  31
+ATOM     31  P   ANZ d   1      48.032 -23.478  29.365  0.00  0.00     0.422 P 
+ATOM     32  O1P ANZ d   1      47.769 -22.866  27.991  0.00  0.00    -0.617 OA
+ATOM     33  O2P ANZ d   1      47.371 -24.853  29.487  0.00  0.00    -0.617 OA
+ATOM     34  O3P ANZ d   1      47.915 -22.474  30.503  0.00  0.00    -0.617 OA
+ENDBRANCH  30  31
+ENDBRANCH  27  30
+ENDBRANCH   1  27
+BRANCH   8  35
+ATOM     35  CD2 ANZ d   1      55.077 -25.927  26.534  0.00  0.00    -0.023 A 
+ATOM     36  CG  ANZ d   1      56.370 -26.392  26.680  0.00  0.00    -0.031 A 
+ATOM     37  CD1 ANZ d   1      57.036 -27.088  25.672  0.00  0.00    -0.038 A 
+ATOM     38  CE1 ANZ d   1      56.382 -27.261  24.434  0.00  0.00     0.117 A 
+ATOM     39  H3  ANZ d   1      58.031 -27.486  25.835  0.00  0.00     0.089 H 
+ATOM     40  CZ  ANZ d   1      55.078 -26.769  24.259  0.00  0.00    -0.046 A 
+ATOM     41  F   ANZ d   1      57.030 -27.945  23.467  0.00  0.00    -0.206 F 
+ATOM     42  CE2 ANZ d   1      54.422 -26.084  25.298  0.00  0.00    -0.079 A 
+ATOM     43  H6  ANZ d   1      54.571 -26.919  23.312  0.00  0.00     0.088 H 
+ATOM     44  H5  ANZ d   1      53.426 -25.683  25.149  0.00  0.00     0.083 H 
+BRANCH  36  45
+ATOM     45  CB  ANZ d   1      56.916 -26.123  28.067  0.00  0.00     0.040 C 
+ATOM     46  H1  ANZ d   1      57.818 -25.495  28.033  0.00  0.00     0.081 H 
+ATOM     47  H2  ANZ d   1      57.140 -27.057  28.603  0.00  0.00     0.081 H 
+BRANCH  45  48
+ATOM     48  O1  ANZ d   1      55.798 -25.420  28.664  0.00  0.00    -0.396 OA
+ATOM     49  H19 ANZ d   1      55.032 -25.982  28.657  0.00  0.00     0.209 HD
+ENDBRANCH  45  48
+ENDBRANCH  36  45
+ENDBRANCH   8  35
+TORSDOF 8

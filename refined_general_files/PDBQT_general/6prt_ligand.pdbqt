@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N03_9  and  C04_2 
+REMARK    2  A    between atoms: C06_4  and  C07_5 
+REMARK    3  A    between atoms: C07_5  and  C08_6 
+REMARK    4  A    between atoms: C08_6  and  O09_11 
+REMARK    5  A    between atoms: O09_11  and  C10_7 
+ROOT
+ATOM      1  C02 OWA d   1     -14.331   4.781   0.057  0.00  0.00     0.219 C 
+ATOM      2  C05 OWA d   1     -12.233   5.689   0.641  0.00  0.00     0.001 C 
+ATOM      3  C06 OWA d   1     -12.823   6.601  -0.489  0.00  0.00    -0.022 C 
+ATOM      4  C12 OWA d   1     -14.257   6.169  -0.506  0.00  0.00     0.015 C 
+ATOM      5  N03 OWA d   1     -13.129   4.508   0.734  0.00  0.00    -0.356 N 
+ATOM      6  O01 OWA d   1     -15.266   4.016  -0.006  0.00  0.00    -0.273 OA
+ATOM      7  H4  OWA d   1     -12.217   6.231   1.598  0.00  0.00     0.065 H 
+ATOM      8  H5  OWA d   1     -11.212   5.373   0.381  0.00  0.00     0.065 H 
+ATOM      9  H6  OWA d   1     -12.768   7.659  -0.192  0.00  0.00     0.043 H 
+ATOM     10  H12 OWA d   1     -14.860   6.854   0.109  0.00  0.00     0.047 H 
+ATOM     11  H13 OWA d   1     -14.636   6.173  -1.539  0.00  0.00     0.047 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  C07 OWA d   1     -12.027   6.453  -1.831  0.00  0.00     0.021 C 
+ATOM     13  H7  OWA d   1     -12.641   6.865  -2.645  0.00  0.00     0.048 H 
+ATOM     14  H8  OWA d   1     -11.848   5.383  -2.012  0.00  0.00     0.048 H 
+BRANCH  12  15
+ATOM     15  C08 OWA d   1     -10.709   7.157  -1.833  0.00  0.00     0.258 C 
+ATOM     16  O11 OWA d   1     -10.499   8.260  -2.258  0.00  0.00    -0.265 OA
+BRANCH  15  17
+ATOM     17  O09 OWA d   1      -9.645   6.452  -1.281  0.00  0.00    -0.326 OA
+BRANCH  17  18
+ATOM     18  C10 OWA d   1      -8.337   7.189  -0.997  0.00  0.00     0.013 C 
+ATOM     19  H9  OWA d   1      -7.608   6.488  -0.565  0.00  0.00     0.067 H 
+ATOM     20  H10 OWA d   1      -8.524   8.008  -0.286  0.00  0.00     0.067 H 
+ATOM     21  H11 OWA d   1      -7.938   7.602  -1.935  0.00  0.00     0.067 H 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH   3  12
+BRANCH   5  22
+ATOM     22  C04 OWA d   1     -12.866   3.273   1.446  0.00  0.00    -0.016 C 
+ATOM     23  H1  OWA d   1     -11.858   3.311   1.886  0.00  0.00     0.056 H 
+ATOM     24  H2  OWA d   1     -12.930   2.426   0.747  0.00  0.00     0.056 H 
+ATOM     25  H3  OWA d   1     -13.610   3.145   2.246  0.00  0.00     0.056 H 
+ENDBRANCH   5  22
+TORSDOF 5

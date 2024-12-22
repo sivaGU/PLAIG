@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAN_2 
+REMARK    2  A    between atoms: CAL_4  and  CAA_5 
+REMARK    3  A    between atoms: CAO_7  and  CAE_8 
+REMARK    4  A    between atoms: CAE_8  and  CAQ_9 
+REMARK    5  A    between atoms: CAM_12  and  NAC_13 
+ROOT
+ATOM      1  CAQ X2K d   1     -11.610   8.110  11.192  0.00  0.00     0.047 A 
+ATOM      2  CAS X2K d   1     -11.559   6.746  10.819  0.00  0.00     0.009 A 
+ATOM      3  CAI X2K d   1     -10.582   5.895  10.248  0.00  0.00    -0.045 A 
+ATOM      4  CAM X2K d   1     -10.899   4.523  10.022  0.00  0.00     0.026 A 
+ATOM      5  CAF X2K d   1     -12.177   4.035  10.346  0.00  0.00    -0.056 A 
+ATOM      6  CAG X2K d   1     -13.130   4.878  10.904  0.00  0.00    -0.054 A 
+ATOM      7  CAR X2K d   1     -12.844   6.229  11.147  0.00  0.00     0.046 A 
+ATOM      8  NAK X2K d   1     -13.615   7.206  11.680  0.00  0.00    -0.322 N 
+ATOM      9  CAP X2K d   1     -12.900   8.341  11.717  0.00  0.00     0.257 A 
+ATOM     10  OAD X2K d   1     -13.337   9.408  12.160  0.00  0.00    -0.267 OA
+ATOM     11  H   X2K d   1      -9.599   6.284   9.984  0.00  0.00     0.088 H 
+ATOM     12  H   X2K d   1     -12.421   2.990  10.158  0.00  0.00     0.087 H 
+ATOM     13  H   X2K d   1     -14.114   4.484  11.156  0.00  0.00     0.087 H 
+ATOM     14  H   X2K d   1     -14.578   7.098  12.000  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAE X2K d   1     -10.547   9.024  11.056  0.00  0.00    -0.041 C 
+ATOM     16  H   X2K d   1      -9.619   8.614  10.658  0.00  0.00     0.088 H 
+BRANCH  15  17
+ATOM     17  CAO X2K d   1     -10.523  10.401  11.367  0.00  0.00     0.039 A 
+ATOM     18  CAN X2K d   1      -9.334  11.153  11.205  0.00  0.00    -0.033 A 
+ATOM     19  CAH X2K d   1      -9.560  12.432  11.535  0.00  0.00    -0.054 A 
+ATOM     20  CAL X2K d   1     -10.851  12.483  11.900  0.00  0.00     0.006 A 
+ATOM     21  H   X2K d   1      -8.847  13.256  11.512  0.00  0.00     0.087 H 
+ATOM     22  NAJ X2K d   1     -11.445  11.275  11.805  0.00  0.00    -0.359 N 
+ATOM     23  H   X2K d   1     -12.418  11.063  12.026  0.00  0.00     0.166 HD
+BRANCH  18  24
+ATOM     24  CAB X2K d   1      -7.955  10.614  10.707  0.00  0.00    -0.049 C 
+ATOM     25  H   X2K d   1      -7.606   9.834  11.383  0.00  0.00     0.033 H 
+ATOM     26  H   X2K d   1      -8.068  10.203   9.704  0.00  0.00     0.033 H 
+ATOM     27  H   X2K d   1      -7.233  11.430  10.688  0.00  0.00     0.033 H 
+ENDBRANCH  18  24
+BRANCH  20  28
+ATOM     28  CAA X2K d   1     -11.550  13.778  12.366  0.00  0.00    -0.037 C 
+ATOM     29  H   X2K d   1     -11.045  14.164  13.251  0.00  0.00     0.035 H 
+ATOM     30  H   X2K d   1     -11.506  14.520  11.569  0.00  0.00     0.035 H 
+ATOM     31  H   X2K d   1     -12.591  13.561  12.606  0.00  0.00     0.035 H 
+ENDBRANCH  20  28
+ENDBRANCH  15  17
+ENDBRANCH   1  15
+BRANCH   4  32
+ATOM     32  NAC X2K d   1     -10.016   3.623   9.483  0.00  0.00    -0.399 N 
+ATOM     33  H   X2K d   1     -10.301   2.655   9.336  0.00  0.00     0.156 HD
+ATOM     34  H   X2K d   1      -9.075   3.922   9.229  0.00  0.00     0.156 HD
+ENDBRANCH   4  32
+TORSDOF 5

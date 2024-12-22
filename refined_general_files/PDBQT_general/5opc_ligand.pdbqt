@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O01_1  and  C02_2 
+REMARK    2  A    between atoms: C03_3  and  C04_4 
+REMARK       I    between atoms: C04_4  and  N05_5 
+REMARK    3  A    between atoms: N05_5  and  C06_6 
+REMARK    4  A    between atoms: C06_6  and  C07_7 
+ROOT
+ATOM      1  C02 A1Z d   1     -24.571  22.220  -5.886  0.00  0.00     0.100 A 
+ATOM      2  C03 A1Z d   1     -25.605  22.409  -6.762  0.00  0.00     0.157 A 
+ATOM      3  N11 A1Z d   1     -26.122  23.619  -6.972  0.00  0.00    -0.253 NA
+ATOM      4  C12 A1Z d   1     -25.652  24.683  -6.337  0.00  0.00     0.003 A 
+ATOM      5  C13 A1Z d   1     -24.616  24.578  -5.442  0.00  0.00    -0.063 A 
+ATOM      6  C21 A1Z d   1     -24.048  23.327  -5.198  0.00  0.00    -0.047 A 
+ATOM      7  H5  A1Z d   1     -26.094  25.654  -6.528  0.00  0.00     0.114 H 
+ATOM      8  H6  A1Z d   1     -24.243  25.458  -4.930  0.00  0.00     0.085 H 
+ATOM      9  H7  A1Z d   1     -23.228  23.213  -4.498  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   2  10
+ATOM     10  C04 A1Z d   1     -26.188  21.221  -7.524  0.00  0.00     0.273 C 
+ATOM     11  N05 A1Z d   1     -25.695  19.925  -7.322  0.00  0.00    -0.346 N 
+ATOM     12  H2  A1Z d   1     -24.954  19.764  -6.670  0.00  0.00     0.163 HD
+ATOM     13  O10 A1Z d   1     -27.052  21.393  -8.309  0.00  0.00    -0.266 OA
+BRANCH  11  14
+ATOM     14  C06 A1Z d   1     -26.288  18.775  -8.094  0.00  0.00     0.075 C 
+ATOM     15  H3  A1Z d   1     -27.281  19.064  -8.468  0.00  0.00     0.080 H 
+ATOM     16  H4  A1Z d   1     -26.386  17.905  -7.429  0.00  0.00     0.080 H 
+BRANCH  14  17
+ATOM     17  C07 A1Z d   1     -25.425  18.419  -9.234  0.00  0.00     0.191 C 
+ATOM     18  O08 A1Z d   1     -25.259  17.261  -9.517  0.00  0.00    -0.647 OA
+ATOM     19  O09 A1Z d   1     -24.822  19.383  -9.926  0.00  0.00    -0.647 OA
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   2  10
+BRANCH   1  20
+ATOM     20  O01 A1Z d   1     -24.020  20.903  -5.667  0.00  0.00    -0.358 OA
+ATOM     21  H1  A1Z d   1     -23.315  20.957  -5.032  0.00  0.00     0.217 HD
+ENDBRANCH   1  20
+TORSDOF 4

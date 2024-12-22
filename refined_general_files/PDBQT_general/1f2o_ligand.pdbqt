@@ -1,0 +1,45 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD2_8 
+REMARK    6  A    between atoms: CG_6  and  CD1_7 
+ROOT
+ATOM      1  CB  LEU d   1      15.395  17.657  50.575  0.00  0.00    -0.026 C 
+ATOM      2  H5  LEU d   1      14.432  18.108  50.295  0.00  0.00     0.037 H 
+ATOM      3  H6  LEU d   1      15.731  16.982  49.774  0.00  0.00     0.037 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  LEU d   1      15.121  16.772  51.804  0.00  0.00     0.182 C 
+ATOM      5  H4  LEU d   1      14.934  17.419  52.674  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  C   LEU d   1      13.865  15.975  51.517  0.00  0.00     0.204 C 
+ATOM      7  OXT LEU d   1      13.877  14.786  51.211  0.00  0.00    -0.646 OA
+ATOM      8  O   LEU d   1      12.808  16.576  51.643  0.00  0.00    -0.646 OA
+ENDBRANCH   4   6
+BRANCH   4   9
+ATOM      9  N   LEU d   1      16.293  15.907  52.123  0.00  0.00    -0.065 N 
+ATOM     10  H1  LEU d   1      17.098  16.486  52.305  0.00  0.00     0.275 HD
+ATOM     11  H2  LEU d   1      16.485  15.300  51.342  0.00  0.00     0.275 HD
+ATOM     12  H3  LEU d   1      16.088  15.351  52.938  0.00  0.00     0.275 HD
+ENDBRANCH   4   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  LEU d   1      16.407  18.798  50.632  0.00  0.00    -0.059 C 
+ATOM     14  H7  LEU d   1      16.113  19.586  49.923  0.00  0.00     0.038 H 
+BRANCH  13  15
+ATOM     15  CD2 LEU d   1      17.792  18.247  50.210  0.00  0.00    -0.073 C 
+ATOM     16  H11 LEU d   1      17.730  17.841  49.190  0.00  0.00     0.028 H 
+ATOM     17  H12 LEU d   1      18.096  17.450  50.904  0.00  0.00     0.028 H 
+ATOM     18  H13 LEU d   1      18.533  19.059  50.236  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  CD1 LEU d   1      16.398  19.395  52.065  0.00  0.00    -0.073 C 
+ATOM     20  H8  LEU d   1      17.123  20.220  52.123  0.00  0.00     0.028 H 
+ATOM     21  H9  LEU d   1      16.672  18.614  52.789  0.00  0.00     0.028 H 
+ATOM     22  H10 LEU d   1      15.392  19.774  52.298  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH   1  13
+TORSDOF 6

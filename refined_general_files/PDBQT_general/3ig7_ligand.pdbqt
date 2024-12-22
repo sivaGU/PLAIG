@@ -1,0 +1,78 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N3_2 
+REMARK    2  A    between atoms: C6_4  and  N7_5 
+REMARK       I    between atoms: N7_5  and  C9_6 
+REMARK    3  A    between atoms: C9_6  and  C10_7 
+REMARK    4  A    between atoms: C10_7  and  C13_8 
+REMARK    5  A    between atoms: C18_11  and  O19_12 
+REMARK    6  A    between atoms: O19_12  and  C20_13 
+REMARK    7  A    between atoms: C35_20  and  N37_21 
+REMARK       I    between atoms: N37_21  and  C39_22 
+REMARK    8  A    between atoms: C39_22  and  C40_23 
+ROOT
+ATOM      1  N3  EFP d   1      -0.116  30.943   7.900  0.00  0.00    -0.343 N 
+ATOM      2  C4  EFP d   1       0.689  29.823   8.014  0.00  0.00     0.025 A 
+ATOM      3  C6  EFP d   1       1.852  30.166   7.323  0.00  0.00     0.147 A 
+ATOM      4  N29 EFP d   1       1.753  31.470   6.875  0.00  0.00    -0.225 NA
+ATOM      5  C30 EFP d   1       0.554  31.908   7.226  0.00  0.00     0.068 A 
+ATOM      6  H2  EFP d   1       0.466  28.888   8.526  0.00  0.00     0.117 H 
+ATOM      7  H13 EFP d   1       0.163  32.900   7.005  0.00  0.00     0.143 H 
+ENDROOT
+BRANCH   3   8
+ATOM      8  N7  EFP d   1       3.019  29.431   7.201  0.00  0.00    -0.310 N 
+ATOM      9  C9  EFP d   1       3.310  28.167   7.687  0.00  0.00     0.227 C 
+ATOM     10  O28 EFP d   1       2.577  27.358   8.274  0.00  0.00    -0.273 OA
+ATOM     11  H3  EFP d   1       3.755  29.875   6.690  0.00  0.00     0.170 HD
+BRANCH   9  12
+ATOM     12  C10 EFP d   1       4.745  27.723   7.429  0.00  0.00     0.033 C 
+ATOM     13  H4  EFP d   1       5.176  27.329   8.361  0.00  0.00     0.054 H 
+ATOM     14  H5  EFP d   1       5.336  28.586   7.088  0.00  0.00     0.054 H 
+BRANCH  12  15
+ATOM     15  C13 EFP d   1       4.780  26.656   6.380  0.00  0.00    -0.049 A 
+ATOM     16  C14 EFP d   1       5.096  27.078   5.082  0.00  0.00    -0.074 A 
+ATOM     17  C16 EFP d   1       5.121  26.181   4.027  0.00  0.00    -0.050 A 
+ATOM     18  H6  EFP d   1       5.324  28.122   4.901  0.00  0.00     0.084 H 
+ATOM     19  C18 EFP d   1       4.845  24.830   4.264  0.00  0.00     0.068 A 
+ATOM     20  H7  EFP d   1       5.353  26.523   3.025  0.00  0.00     0.087 H 
+ATOM     21  C24 EFP d   1       4.551  24.403   5.557  0.00  0.00    -0.050 A 
+ATOM     22  C26 EFP d   1       4.494  25.315   6.633  0.00  0.00    -0.074 A 
+ATOM     23  H11 EFP d   1       4.363  23.351   5.740  0.00  0.00     0.087 H 
+ATOM     24  H12 EFP d   1       4.234  24.981   7.631  0.00  0.00     0.084 H 
+BRANCH  19  25
+ATOM     25  O19 EFP d   1       4.866  23.901   3.259  0.00  0.00    -0.356 OA
+BRANCH  25  26
+ATOM     26  C20 EFP d   1       6.155  23.686   2.669  0.00  0.00     0.010 C 
+ATOM     27  H8  EFP d   1       6.074  22.928   1.876  0.00  0.00     0.066 H 
+ATOM     28  H9  EFP d   1       6.857  23.336   3.440  0.00  0.00     0.066 H 
+ATOM     29  H10 EFP d   1       6.523  24.629   2.238  0.00  0.00     0.066 H 
+ENDBRANCH  25  26
+ENDBRANCH  19  25
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   3   8
+BRANCH   1  30
+ATOM     30  C1  EFP d   1      -1.463  31.024   8.432  0.00  0.00     0.021 C 
+ATOM     31  C32 EFP d   1      -1.468  30.748   9.951  0.00  0.00    -0.027 C 
+ATOM     32  C35 EFP d   1      -2.858  30.056   9.725  0.00  0.00     0.016 C 
+ATOM     33  H14 EFP d   1      -1.497  31.647  10.584  0.00  0.00     0.039 H 
+ATOM     34  H15 EFP d   1      -0.669  30.078  10.302  0.00  0.00     0.039 H 
+ATOM     35  C45 EFP d   1      -2.435  29.844   8.232  0.00  0.00    -0.027 C 
+ATOM     36  H16 EFP d   1      -3.752  30.674   9.898  0.00  0.00     0.072 H 
+ATOM     37  H21 EFP d   1      -1.952  28.878   8.022  0.00  0.00     0.039 H 
+ATOM     38  H22 EFP d   1      -3.233  30.023   7.496  0.00  0.00     0.039 H 
+ATOM     39  H1  EFP d   1      -1.902  31.989   8.138  0.00  0.00     0.073 H 
+BRANCH  32  40
+ATOM     40  N37 EFP d   1      -2.922  28.761  10.462  0.00  0.00    -0.357 N 
+ATOM     41  C39 EFP d   1      -3.789  28.678  11.539  0.00  0.00     0.213 C 
+ATOM     42  O44 EFP d   1      -4.260  29.680  12.090  0.00  0.00    -0.274 OA
+ATOM     43  H17 EFP d   1      -2.359  27.981  10.188  0.00  0.00     0.162 HD
+BRANCH  41  44
+ATOM     44  C40 EFP d   1      -4.062  27.262  12.007  0.00  0.00    -0.003 C 
+ATOM     45  H18 EFP d   1      -4.756  27.285  12.860  0.00  0.00     0.040 H 
+ATOM     46  H19 EFP d   1      -3.118  26.789  12.315  0.00  0.00     0.040 H 
+ATOM     47  H20 EFP d   1      -4.511  26.684  11.185  0.00  0.00     0.040 H 
+ENDBRANCH  41  44
+ENDBRANCH  32  40
+ENDBRANCH   1  30
+TORSDOF 8

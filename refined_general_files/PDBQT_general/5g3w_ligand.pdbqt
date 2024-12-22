@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAE_5  and  NAG_7 
+REMARK    2  A    between atoms: NAG_7  and  NAH_8 
+REMARK    3  A    between atoms: NAH_8  and  CAI_9 
+REMARK    4  A    between atoms: CAL_12  and  CAO_15 
+REMARK    5  A    between atoms: CAP_16  and  CAQ_17 
+REMARK       I    between atoms: CAQ_17  and  NAR_18 
+ROOT
+ATOM      1  CAI C65 d   1      29.529  31.500  55.038  0.00  0.00     0.079 A 
+ATOM      2  CAJ C65 d   1      29.912  30.215  55.588  0.00  0.00    -0.053 A 
+ATOM      3  CAK C65 d   1      29.049  29.174  55.967  0.00  0.00    -0.071 A 
+ATOM      4  CAL C65 d   1      27.698  29.369  55.875  0.00  0.00    -0.036 A 
+ATOM      5  CAM C65 d   1      27.264  30.596  55.426  0.00  0.00    -0.071 A 
+ATOM      6  CAN C65 d   1      28.135  31.587  55.015  0.00  0.00    -0.053 A 
+ATOM      7  H6  C65 d   1      30.974  30.039  55.720  0.00  0.00     0.087 H 
+ATOM      8  H7  C65 d   1      29.447  28.232  56.326  0.00  0.00     0.084 H 
+ATOM      9  H8  C65 d   1      26.198  30.792  55.394  0.00  0.00     0.084 H 
+ATOM     10  H9  C65 d   1      27.701  32.508  54.644  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NAH C65 d   1      30.328  32.726  54.645  0.00  0.00    -0.150 NA
+BRANCH  11  12
+ATOM     12  NAG C65 d   1      31.351  33.095  53.894  0.00  0.00    -0.150 NA
+BRANCH  12  13
+ATOM     13  CAE C65 d   1      32.146  34.319  53.565  0.00  0.00     0.079 A 
+ATOM     14  CAD C65 d   1      33.010  34.336  52.433  0.00  0.00    -0.053 A 
+ATOM     15  CAC C65 d   1      33.815  35.403  51.997  0.00  0.00    -0.081 A 
+ATOM     16  H4  C65 d   1      33.051  33.427  51.843  0.00  0.00     0.087 H 
+ATOM     17  CAB C65 d   1      33.846  36.577  52.713  0.00  0.00    -0.083 A 
+ATOM     18  H3  C65 d   1      34.411  35.300  51.097  0.00  0.00     0.083 H 
+ATOM     19  CAA C65 d   1      33.045  36.630  53.856  0.00  0.00    -0.081 A 
+ATOM     20  H2  C65 d   1      34.459  37.416  52.407  0.00  0.00     0.083 H 
+ATOM     21  CAF C65 d   1      32.245  35.531  54.289  0.00  0.00    -0.053 A 
+ATOM     22  H1  C65 d   1      33.031  37.544  54.438  0.00  0.00     0.083 H 
+ATOM     23  H5  C65 d   1      31.688  35.629  55.214  0.00  0.00     0.087 H 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   4  24
+ATOM     24  CAO C65 d   1      26.781  28.331  56.239  0.00  0.00    -0.068 C 
+ATOM     25  CAP C65 d   1      25.473  28.303  55.915  0.00  0.00    -0.013 C 
+ATOM     26  H11 C65 d   1      24.970  29.122  55.403  0.00  0.00     0.092 H 
+ATOM     27  H10 C65 d   1      27.171  27.499  56.823  0.00  0.00     0.085 H 
+BRANCH  25  28
+ATOM     28  CAQ C65 d   1      24.787  27.063  56.317  0.00  0.00     0.292 C 
+ATOM     29  NAR C65 d   1      25.013  26.769  57.544  0.00  0.00    -0.055 NA
+ATOM     30  OAT C65 d   1      24.080  26.048  58.094  0.00  0.00    -0.058 OA
+ATOM     31  OAS C65 d   1      24.119  26.264  55.712  0.00  0.00    -0.264 OA
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+TORSDOF 5

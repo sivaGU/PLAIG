@@ -1,0 +1,85 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_10 
+REMARK    2  A    between atoms: O1_20  and  C4_4 
+REMARK    3  A    between atoms: C5_5  and  C6_6 
+REMARK    4  A    between atoms: C6_6  and  O6_13 
+REMARK    5  A    between atoms: C2_12  and  O2_11 
+REMARK    6  A    between atoms: C1_14  and  O1_20 
+REMARK    7  A    between atoms: C2_15  and  O2_21 
+REMARK    8  A    between atoms: C3_16  and  O3_22 
+REMARK    9  A    between atoms: C4_17  and  O4_23 
+REMARK   10  A    between atoms: C5_18  and  C6_19 
+REMARK   11  A    between atoms: C6_19  and  O6_25 
+ROOT
+ATOM      1  C1  MVL d   1      15.070 -19.352 -21.497  0.00  0.00     0.138 A 
+ATOM      2  N10 MVL d   1      16.008 -19.193 -22.415  0.00  0.00    -0.332 N 
+ATOM      3  C3  MVL d   1      16.247 -17.980 -19.853  0.00  0.00     0.094 C 
+ATOM      4  C4  MVL d   1      17.322 -17.828 -20.953  0.00  0.00     0.091 C 
+ATOM      5  C5  MVL d   1      16.759 -17.940 -22.384  0.00  0.00     0.065 C 
+ATOM      6  C7  MVL d   1      15.100 -21.130 -22.770  0.00  0.00     0.019 A 
+ATOM      7  C8  MVL d   1      16.056 -20.253 -23.238  0.00  0.00    -0.001 A 
+ATOM      8  N1  MVL d   1      14.491 -20.540 -21.709  0.00  0.00    -0.243 NA
+ATOM      9  C2  MVL d   1      14.866 -18.303 -20.447  0.00  0.00     0.119 C 
+ATOM     10  H   MVL d   1      16.185 -17.025 -19.311  0.00  0.00     0.091 H 
+ATOM     11  H   MVL d   1      18.082 -18.603 -20.776  0.00  0.00     0.090 H 
+ATOM     12  H   MVL d   1      16.076 -17.096 -22.557  0.00  0.00     0.080 H 
+ATOM     13  H   MVL d   1      14.875 -22.115 -23.177  0.00  0.00     0.117 H 
+ATOM     14  H   MVL d   1      16.713 -20.391 -24.096  0.00  0.00     0.113 H 
+ATOM     15  H   MVL d   1      14.439 -17.403 -20.915  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   4  16
+ATOM     16  O1  BMA d   1      17.957 -16.524 -21.054  0.00  0.00    -0.348 OA
+BRANCH  16  17
+ATOM     17  C1  BMA d   1      19.154 -16.517 -20.297  0.00  0.00     0.159 C 
+ATOM     18  C2  BMA d   1      19.884 -15.200 -20.515  0.00  0.00     0.110 C 
+ATOM     19  C3  BMA d   1      21.149 -15.204 -19.661  0.00  0.00     0.092 C 
+ATOM     20  H   MVL d   1      20.141 -15.118 -21.581  0.00  0.00     0.094 H 
+ATOM     21  C4  BMA d   1      20.782 -15.578 -18.230  0.00  0.00     0.090 C 
+ATOM     22  H   MVL d   1      21.840 -15.963 -20.058  0.00  0.00     0.091 H 
+ATOM     23  C5  BMA d   1      20.060 -16.925 -18.183  0.00  0.00     0.089 C 
+ATOM     24  H   MVL d   1      20.157 -14.799 -17.769  0.00  0.00     0.091 H 
+ATOM     25  O5  BMA d   1      18.845 -16.735 -18.917  0.00  0.00    -0.348 OA
+ATOM     26  H   MVL d   1      20.679 -17.674 -18.698  0.00  0.00     0.090 H 
+ATOM     27  H   MVL d   1      19.801 -17.336 -20.643  0.00  0.00     0.133 H 
+BRANCH  18  28
+ATOM     28  O2  BMA d   1      19.181 -14.052 -20.127  0.00  0.00    -0.388 OA
+ATOM     29  H   MVL d   1      19.716 -13.284 -20.291  0.00  0.00     0.210 HD
+ENDBRANCH  18  28
+BRANCH  19  30
+ATOM     30  O3  BMA d   1      21.806 -13.927 -19.707  0.00  0.00    -0.390 OA
+ATOM     31  H   MVL d   1      21.226 -13.261 -19.357  0.00  0.00     0.210 HD
+ENDBRANCH  19  30
+BRANCH  21  32
+ATOM     32  O4  BMA d   1      22.024 -15.705 -17.562  0.00  0.00    -0.390 OA
+ATOM     33  H   MVL d   1      22.481 -14.873 -17.585  0.00  0.00     0.210 HD
+ENDBRANCH  21  32
+BRANCH  23  34
+ATOM     34  C6  BMA d   1      19.794 -17.444 -16.771  0.00  0.00     0.043 C 
+ATOM     35  H   MVL d   1      19.483 -16.606 -16.130  0.00  0.00     0.078 H 
+ATOM     36  H   MVL d   1      20.716 -17.890 -16.370  0.00  0.00     0.078 H 
+BRANCH  34  37
+ATOM     37  O6  BMA d   1      18.756 -18.438 -16.785  0.00  0.00    -0.398 OA
+ATOM     38  H   MVL d   1      17.957 -18.055 -17.128  0.00  0.00     0.209 HD
+ENDBRANCH  34  37
+ENDBRANCH  23  34
+ENDBRANCH  16  17
+ENDBRANCH   4  16
+BRANCH   3  39
+ATOM     39  O3  MVL d   1      16.559 -19.013 -18.919  0.00  0.00    -0.390 OA
+ATOM     40  H   MVL d   1      17.386 -18.815 -18.494  0.00  0.00     0.210 HD
+ENDBRANCH   3  39
+BRANCH   5  41
+ATOM     41  C6  MVL d   1      17.804 -17.930 -23.503  0.00  0.00     0.038 C 
+ATOM     42  H   MVL d   1      18.334 -16.966 -23.479  0.00  0.00     0.077 H 
+ATOM     43  H   MVL d   1      17.286 -18.040 -24.467  0.00  0.00     0.077 H 
+BRANCH  41  44
+ATOM     44  O6  MVL d   1      18.773 -18.989 -23.380  0.00  0.00    -0.399 OA
+ATOM     45  H   MVL d   1      18.329 -19.828 -23.408  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH   5  41
+BRANCH   9  46
+ATOM     46  O2  MVL d   1      13.996 -18.732 -19.393  0.00  0.00    -0.385 OA
+ATOM     47  H   MVL d   1      13.140 -18.933 -19.753  0.00  0.00     0.210 HD
+ENDBRANCH   9  46
+TORSDOF 11

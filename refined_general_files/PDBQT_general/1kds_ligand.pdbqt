@@ -1,0 +1,35 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: B_1  and  CP1_4 
+REMARK    2  A    between atoms: B_1  and  OB2_3 
+REMARK    3  A    between atoms: B_1  and  OB1_2 
+REMARK    4  A    between atoms: CP3_6  and  NT_7 
+ROOT
+ATOM      1  CP1 NPB d   1      26.008   6.088  15.598  0.00  0.00    -0.030 A 
+ATOM      2  CP2 NPB d   1      25.367   5.421  14.595  0.00  0.00    -0.050 A 
+ATOM      3  CP3 NPB d   1      24.887   6.057  13.491  0.00  0.00     0.102 A 
+ATOM      4  CP4 NPB d   1      25.064   7.451  13.374  0.00  0.00    -0.051 A 
+ATOM      5  CP5 NPB d   1      25.719   8.141  14.385  0.00  0.00    -0.081 A 
+ATOM      6  CP6 NPB d   1      26.188   7.433  15.500  0.00  0.00    -0.082 A 
+ATOM      7  H3  NPB d   1      25.235   4.348  14.680  0.00  0.00     0.086 H 
+ATOM      8  H4  NPB d   1      24.692   7.979  12.503  0.00  0.00     0.087 H 
+ATOM      9  H5  NPB d   1      25.866   9.213  14.313  0.00  0.00     0.083 H 
+ATOM     10  H6  NPB d   1      26.701   7.964  16.294  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  B   NPB d   1      26.492   5.297  16.869  0.00  0.00     0.529 B 
+BRANCH  11  12
+ATOM     12  OB2 NPB d   1      26.590   6.310  17.864  0.00  0.00    -0.433 OA
+ATOM     13  H2  NPB d   1      26.755   5.908  18.709  0.00  0.00     0.185 HD
+ENDBRANCH  11  12
+BRANCH  11  14
+ATOM     14  OB1 NPB d   1      25.422   4.264  17.027  0.00  0.00    -0.433 OA
+ATOM     15  H1  NPB d   1      24.572   4.689  17.034  0.00  0.00     0.185 HD
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   3  16
+ATOM     16  NT  NPB d   1      24.138   5.290  12.428  0.00  0.00    -0.116 N 
+ATOM     17  O2  NPB d   1      24.003   4.105  12.511  0.00  0.00    -0.532 OA
+ATOM     18  O1  NPB d   1      23.571   5.857  11.565  0.00  0.00    -0.532 OA
+ENDBRANCH   3  16
+TORSDOF 4

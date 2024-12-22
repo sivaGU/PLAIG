@@ -1,0 +1,88 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_13  and  C6_9 
+REMARK    2  A    between atoms: N10_14  and  C9_13 
+REMARK    3  A    between atoms: N10_14  and  CM_15 
+REMARK    4  A    between atoms: C14_19  and  N10_14 
+REMARK    5  A    between atoms: C11_16  and  C_22 
+REMARK    6  A    between atoms: N_24  and  CA_25 
+REMARK    7  A    between atoms: CA_25  and  CT_26 
+REMARK    8  A    between atoms: CA_25  and  CB_29 
+REMARK    9  A    between atoms: CB_29  and  CG_30 
+REMARK   10  A    between atoms: CG_30  and  CD_31 
+ROOT
+ATOM      1  C11 MTX d   1     -22.607   9.381 -31.299  0.00  0.00     0.018 C 
+ATOM      2  C12 MTX d   1     -21.712   9.553 -32.351  0.00  0.00    -0.067 C 
+ATOM      3  C13 MTX d   1     -20.854  10.642 -32.352  0.00  0.00    -0.056 C 
+ATOM      4  C14 MTX d   1     -20.876  11.555 -31.286  0.00  0.00     0.030 C 
+ATOM      5  C15 MTX d   1     -21.779  11.365 -30.229  0.00  0.00    -0.056 C 
+ATOM      6  C16 MTX d   1     -22.445  10.140 -30.138  0.00  0.00    -0.067 C 
+ATOM      7  H11 MTX d   1     -21.686   8.839 -33.166  0.00  0.00     0.085 H 
+ATOM      8  H12 MTX d   1     -20.166  10.789 -33.176  0.00  0.00     0.086 H 
+ATOM      9  H13 MTX d   1     -21.956  12.149 -29.501  0.00  0.00     0.086 H 
+ATOM     10  H14 MTX d   1     -22.828   9.787 -29.187  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  N10 MTX d   1     -19.984  12.662 -31.351  0.00  0.00    -0.379 N 
+BRANCH  11  12
+ATOM     12  C9  MTX d   1     -20.258  13.838 -30.545  0.00  0.00     0.036 C 
+ATOM     13  H6  MTX d   1     -20.610  14.648 -31.201  0.00  0.00     0.073 H 
+ATOM     14  H7  MTX d   1     -21.040  13.595 -29.811  0.00  0.00     0.073 H 
+BRANCH  12  15
+ATOM     15  C6  MTX d   1     -19.015  14.304 -29.807  0.00  0.00     0.070 A 
+ATOM     16  N5  MTX d   1     -18.997  15.537 -29.199  0.00  0.00    -0.242 NA
+ATOM     17  C4A MTX d   1     -17.865  15.967 -28.520  0.00  0.00     0.151 A 
+ATOM     18  C4  MTX d   1     -17.830  17.203 -27.858  0.00  0.00     0.173 A 
+ATOM     19  C8A MTX d   1     -16.744  15.149 -28.467  0.00  0.00     0.201 A 
+ATOM     20  N3  MTX d   1     -16.670  17.605 -27.188  0.00  0.00    -0.043 NA
+ATOM     21  NA4 MTX d   1     -18.880  18.028 -27.894  0.00  0.00    -0.381 N 
+ATOM     22  C2  MTX d   1     -15.569  16.766 -27.148  0.00  0.00     0.724 A 
+ATOM     23  N1  MTX d   1     -15.602  15.565 -27.817  0.00  0.00    -0.041 NA
+ATOM     24  NA2 MTX d   1     -14.445  17.125 -26.515  0.00  0.00    -0.231 N 
+ATOM     25  H1  MTX d   1     -13.637  16.486 -26.497  0.00  0.00     0.174 HD
+ATOM     26  H2  MTX d   1     -14.388  18.040 -26.046  0.00  0.00     0.174 HD
+ATOM     27  H3  MTX d   1     -19.741  17.745 -28.384  0.00  0.00     0.157 HD
+ATOM     28  H4  MTX d   1     -18.829  18.947 -27.432  0.00  0.00     0.157 HD
+ATOM     29  N8  MTX d   1     -16.738  13.931 -29.101  0.00  0.00    -0.237 NA
+ATOM     30  C7  MTX d   1     -17.870  13.503 -29.770  0.00  0.00     0.030 A 
+ATOM     31  H5  MTX d   1     -17.869  12.540 -30.269  0.00  0.00     0.118 H 
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+BRANCH  11  32
+ATOM     32  CM  MTX d   1     -19.414  12.883 -32.686  0.00  0.00    -0.018 C 
+ATOM     33  H8  MTX d   1     -19.258  11.914 -33.183  0.00  0.00     0.056 H 
+ATOM     34  H9  MTX d   1     -18.451  13.406 -32.592  0.00  0.00     0.056 H 
+ATOM     35  H10 MTX d   1     -20.106  13.495 -33.284  0.00  0.00     0.056 H 
+ENDBRANCH  11  32
+ENDBRANCH   4  11
+BRANCH   1  36
+ATOM     36  C   MTX d   1     -23.535   8.199 -31.343  0.00  0.00     0.185 C 
+ATOM     37  O   MTX d   1     -24.389   7.985 -32.452  0.00  0.00    -0.172 OA
+ATOM     38  N   MTX d   1     -23.503   7.344 -30.347  0.00  0.00    -0.353 N 
+ATOM     39  H15 MTX d   1     -23.888   7.573 -29.453  0.00  0.00     0.162 HD
+BRANCH  38  40
+ATOM     40  CA  MTX d   1     -22.889   6.059 -30.593  0.00  0.00     0.096 C 
+ATOM     41  H16 MTX d   1     -23.687   5.352 -30.863  0.00  0.00     0.089 H 
+BRANCH  40  42
+ATOM     42  CT  MTX d   1     -22.278   5.564 -29.320  0.00  0.00     0.196 C 
+ATOM     43  O1  MTX d   1     -21.541   6.320 -28.641  0.00  0.00    -0.646 OA
+ATOM     44  O2  MTX d   1     -22.535   4.401 -28.933  0.00  0.00    -0.646 OA
+ENDBRANCH  40  42
+BRANCH  40  45
+ATOM     45  CB  MTX d   1     -21.928   6.118 -31.798  0.00  0.00    -0.028 C 
+ATOM     46  H17 MTX d   1     -22.132   7.058 -32.332  0.00  0.00     0.037 H 
+ATOM     47  H18 MTX d   1     -22.171   5.266 -32.450  0.00  0.00     0.037 H 
+BRANCH  45  48
+ATOM     48  CG  MTX d   1     -20.424   6.068 -31.529  0.00  0.00     0.018 C 
+ATOM     49  H19 MTX d   1     -20.162   6.877 -30.831  0.00  0.00     0.049 H 
+ATOM     50  H20 MTX d   1     -19.889   6.215 -32.479  0.00  0.00     0.049 H 
+BRANCH  48  51
+ATOM     51  CD  MTX d   1     -19.993   4.745 -30.926  0.00  0.00     0.172 C 
+ATOM     52  OE1 MTX d   1     -19.327   4.734 -29.863  0.00  0.00    -0.648 OA
+ATOM     53  OE2 MTX d   1     -20.301   3.647 -31.454  0.00  0.00    -0.648 OA
+ENDBRANCH  48  51
+ENDBRANCH  45  48
+ENDBRANCH  40  45
+ENDBRANCH  38  40
+ENDBRANCH   1  36
+TORSDOF 10

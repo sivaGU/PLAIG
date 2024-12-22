@@ -1,0 +1,91 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C17_20 
+REMARK    2  A    between atoms: C2_6  and  C1_2 
+REMARK    3  A    between atoms: N1_3  and  C2_6 
+REMARK    4  A    between atoms: C7_11  and  O1_4 
+REMARK    5  A    between atoms: C10_13  and  N2_7 
+REMARK    6  A    between atoms: N2_7  and  C11_14 
+REMARK    7  A    between atoms: N2_7  and  C13_16 
+REMARK    8  A    between atoms: C11_14  and  C12_15 
+REMARK    9  A    between atoms: C13_16  and  C14_17 
+REMARK   10  A    between atoms: C18_21  and  C19_22 
+REMARK   11  A    between atoms: C19_22  and  O2_23 
+ROOT
+ATOM      1  N1  NXG d   1      90.702  98.290 -44.661  0.00  0.00    -0.067 N 
+ATOM      2  C03 NXG d   1      89.710  99.424 -44.719  0.00  0.00     0.086 C 
+ATOM      3  C8  NXG d   1      90.263 100.625 -43.972  0.00  0.00    -0.015 C 
+ATOM      4  C10 NXG d   1      91.523 101.019 -44.737  0.00  0.00     0.107 C 
+ATOM      5  C15 NXG d   1      92.592  99.927 -44.560  0.00  0.00    -0.015 C 
+ATOM      6  C16 NXG d   1      92.045  98.662 -45.212  0.00  0.00     0.086 C 
+ATOM      7  H1  NXG d   1      90.826  98.041 -43.692  0.00  0.00     0.280 HD
+ATOM      8  H7  NXG d   1      88.765  99.107 -44.254  0.00  0.00     0.076 H 
+ATOM      9  H8  NXG d   1      89.528  99.698 -45.769  0.00  0.00     0.076 H 
+ATOM     10  H10 NXG d   1      90.509 100.355 -42.934  0.00  0.00     0.038 H 
+ATOM     11  H11 NXG d   1      89.536 101.450 -43.974  0.00  0.00     0.038 H 
+ATOM     12  H12 NXG d   1      91.260 101.069 -45.804  0.00  0.00     0.084 H 
+ATOM     13  H23 NXG d   1      92.779  99.751 -43.490  0.00  0.00     0.038 H 
+ATOM     14  H24 NXG d   1      93.528 100.231 -45.051  0.00  0.00     0.038 H 
+ATOM     15  H25 NXG d   1      91.951  98.831 -46.295  0.00  0.00     0.076 H 
+ATOM     16  H26 NXG d   1      92.747  97.835 -45.029  0.00  0.00     0.076 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  C2  NXG d   1      90.170  97.108 -45.381  0.00  0.00     0.110 C 
+ATOM     18  H4  NXG d   1      89.078  97.073 -45.254  0.00  0.00     0.083 H 
+ATOM     19  H5  NXG d   1      90.412  97.201 -46.450  0.00  0.00     0.083 H 
+BRANCH  17  20
+ATOM     20  C1  NXG d   1      90.766  95.831 -44.854  0.00  0.00     0.003 A 
+ATOM     21  C3  NXG d   1      90.908  94.752 -45.728  0.00  0.00    -0.054 A 
+ATOM     22  C01 NXG d   1      91.434  93.534 -45.257  0.00  0.00     0.019 A 
+ATOM     23  H9  NXG d   1      90.614  94.852 -46.767  0.00  0.00     0.086 H 
+ATOM     24  C02 NXG d   1      91.808  93.405 -43.909  0.00  0.00    -0.046 A 
+ATOM     25  C4  NXG d   1      91.650  94.514 -43.055  0.00  0.00     0.041 A 
+ATOM     26  H3  NXG d   1      92.210  92.471 -43.534  0.00  0.00     0.087 H 
+ATOM     27  C7  NXG d   1      91.129  95.740 -43.487  0.00  0.00     0.090 A 
+ATOM     28  I2  NXG d   1      92.175  94.325 -41.000  0.00  0.00    -0.042 I 
+BRANCH  22  29
+ATOM     29  C17 NXG d   1      91.574  92.464 -46.194  0.00  0.00    -0.065 C 
+ATOM     30  C18 NXG d   1      91.702  91.568 -46.981  0.00  0.00    -0.075 C 
+BRANCH  30  31
+ATOM     31  C19 NXG d   1      91.860  90.473 -47.939  0.00  0.00     0.071 C 
+ATOM     32  H27 NXG d   1      91.005  89.787 -47.851  0.00  0.00     0.093 H 
+ATOM     33  H28 NXG d   1      92.791  89.929 -47.719  0.00  0.00     0.093 H 
+BRANCH  31  34
+ATOM     34  O2  NXG d   1      91.917  90.984 -49.266  0.00  0.00    -0.389 OA
+ATOM     35  H29 NXG d   1      92.656  91.576 -49.345  0.00  0.00     0.210 HD
+ENDBRANCH  31  34
+ENDBRANCH  30  31
+ENDBRANCH  22  29
+BRANCH  27  36
+ATOM     36  O1  NXG d   1      90.990  96.824 -42.671  0.00  0.00    -0.359 OA
+ATOM     37  H2  NXG d   1      91.276  96.597 -41.794  0.00  0.00     0.217 HD
+ENDBRANCH  27  36
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+BRANCH   4  38
+ATOM     38  N2  NXG d   1      92.085 102.403 -44.339  0.00  0.00    -0.067 N 
+ATOM     39  H6  NXG d   1      92.514 102.770 -45.174  0.00  0.00     0.280 HD
+BRANCH  38  40
+ATOM     40  C11 NXG d   1      93.181 102.422 -43.280  0.00  0.00     0.081 C 
+ATOM     41  H13 NXG d   1      93.743 101.478 -43.333  0.00  0.00     0.075 H 
+ATOM     42  H14 NXG d   1      92.715 102.516 -42.288  0.00  0.00     0.075 H 
+BRANCH  40  43
+ATOM     43  C12 NXG d   1      94.145 103.581 -43.482  0.00  0.00    -0.053 C 
+ATOM     44  H15 NXG d   1      94.917 103.557 -42.699  0.00  0.00     0.029 H 
+ATOM     45  H16 NXG d   1      93.594 104.531 -43.424  0.00  0.00     0.029 H 
+ATOM     46  H17 NXG d   1      94.622 103.494 -44.469  0.00  0.00     0.029 H 
+ENDBRANCH  40  43
+ENDBRANCH  38  40
+BRANCH  38  47
+ATOM     47  C13 NXG d   1      90.937 103.367 -43.974  0.00  0.00     0.081 C 
+ATOM     48  H18 NXG d   1      89.974 102.899 -44.228  0.00  0.00     0.075 H 
+ATOM     49  H19 NXG d   1      91.052 104.302 -44.542  0.00  0.00     0.075 H 
+BRANCH  47  50
+ATOM     50  C14 NXG d   1      90.968 103.676 -42.487  0.00  0.00    -0.053 C 
+ATOM     51  H20 NXG d   1      90.146 104.363 -42.238  0.00  0.00     0.029 H 
+ATOM     52  H21 NXG d   1      91.929 104.145 -42.230  0.00  0.00     0.029 H 
+ATOM     53  H22 NXG d   1      90.851 102.743 -41.916  0.00  0.00     0.029 H 
+ENDBRANCH  47  50
+ENDBRANCH  38  47
+ENDBRANCH   4  38
+TORSDOF 11

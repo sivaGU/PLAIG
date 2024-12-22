@@ -1,0 +1,89 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_7 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: O1_7  and  C2'_14 
+REMARK    8  A    between atoms: C2'_14  and  C1'_13 
+REMARK    9  A    between atoms: C1'_13  and  O1'_19 
+REMARK   10  A    between atoms: C3'_15  and  O3'_21 
+REMARK   11  A    between atoms: C4'_16  and  O4'_22 
+REMARK   12  A    between atoms: C5'_17  and  C6'_18 
+REMARK   13  A    between atoms: C6'_18  and  O6'_23 
+ROOT
+ATOM      1  O1  SUC d   1     -46.273 -15.061 -14.648  0.00  0.00    -0.318 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  SUC d   1     -44.952 -14.645 -14.258  0.00  0.00     0.162 C 
+ATOM      3  C2  SUC d   1     -43.974 -15.813 -14.436  0.00  0.00     0.110 C 
+ATOM      4  C3  SUC d   1     -44.325 -16.949 -13.476  0.00  0.00     0.092 C 
+ATOM      5  H2  SUC d   1     -42.960 -15.463 -14.192  0.00  0.00     0.094 H 
+ATOM      6  C4  SUC d   1     -44.286 -16.442 -12.085  0.00  0.00     0.090 C 
+ATOM      7  H3  SUC d   1     -45.332 -17.330 -13.700  0.00  0.00     0.091 H 
+ATOM      8  C5  SUC d   1     -45.277 -15.304 -11.921  0.00  0.00     0.089 C 
+ATOM      9  H4  SUC d   1     -43.275 -16.073 -11.857  0.00  0.00     0.091 H 
+ATOM     10  O5  SUC d   1     -44.918 -14.244 -12.860  0.00  0.00    -0.348 OA
+ATOM     11  H5  SUC d   1     -46.291 -15.669 -12.143  0.00  0.00     0.090 H 
+ATOM     12  H1  SUC d   1     -44.640 -13.799 -14.889  0.00  0.00     0.133 H 
+BRANCH   3  13
+ATOM     13  O2  SUC d   1     -43.985 -16.233 -15.801  0.00  0.00    -0.388 OA
+ATOM     14  H8  SUC d   1     -44.851 -16.552 -16.026  0.00  0.00     0.210 HD
+ENDBRANCH   3  13
+BRANCH   4  15
+ATOM     15  O3  SUC d   1     -43.375 -17.987 -13.642  0.00  0.00    -0.390 OA
+ATOM     16  H9  SUC d   1     -43.408 -18.305 -14.537  0.00  0.00     0.210 HD
+ENDBRANCH   4  15
+BRANCH   6  17
+ATOM     17  O4  SUC d   1     -44.613 -17.538 -11.187  0.00  0.00    -0.390 OA
+ATOM     18  H10 SUC d   1     -44.583 -17.230 -10.289  0.00  0.00     0.210 HD
+ENDBRANCH   6  17
+BRANCH   8  19
+ATOM     19  C6  SUC d   1     -45.245 -14.758 -10.529  0.00  0.00     0.043 C 
+ATOM     20  H6  SUC d   1     -45.576 -13.709 -10.542  0.00  0.00     0.078 H 
+ATOM     21  H7  SUC d   1     -44.218 -14.813 -10.140  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O6  SUC d   1     -46.115 -15.519  -9.679  0.00  0.00    -0.398 OA
+ATOM     23  H11 SUC d   1     -45.829 -16.425  -9.665  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH   8  19
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C2' SUC d   1     -47.290 -14.025 -14.850  0.00  0.00     0.217 C 
+ATOM     25  C3' SUC d   1     -48.656 -14.581 -14.361  0.00  0.00     0.118 C 
+ATOM     26  C4' SUC d   1     -48.670 -14.175 -12.903  0.00  0.00     0.092 C 
+ATOM     27  H14 SUC d   1     -49.463 -14.047 -14.884  0.00  0.00     0.095 H 
+ATOM     28  C5' SUC d   1     -48.064 -12.774 -13.026  0.00  0.00     0.089 C 
+ATOM     29  H15 SUC d   1     -48.040 -14.832 -12.285  0.00  0.00     0.091 H 
+ATOM     30  O2' SUC d   1     -47.021 -12.934 -14.002  0.00  0.00    -0.341 OA
+ATOM     31  H16 SUC d   1     -48.838 -12.096 -13.415  0.00  0.00     0.090 H 
+BRANCH  24  32
+ATOM     32  C1' SUC d   1     -47.271 -13.519 -16.288  0.00  0.00     0.071 C 
+ATOM     33  H12 SUC d   1     -47.184 -14.370 -16.980  0.00  0.00     0.082 H 
+ATOM     34  H13 SUC d   1     -46.417 -12.841 -16.432  0.00  0.00     0.082 H 
+BRANCH  32  35
+ATOM     35  O1' SUC d   1     -48.490 -12.818 -16.536  0.00  0.00    -0.395 OA
+ATOM     36  H19 SUC d   1     -48.493 -12.496 -17.430  0.00  0.00     0.209 HD
+ENDBRANCH  32  35
+ENDBRANCH  24  32
+BRANCH  25  37
+ATOM     37  O3' SUC d   1     -48.865 -15.951 -14.606  0.00  0.00    -0.387 OA
+ATOM     38  H20 SUC d   1     -49.713 -16.207 -14.262  0.00  0.00     0.210 HD
+ENDBRANCH  25  37
+BRANCH  26  39
+ATOM     39  O4' SUC d   1     -50.005 -14.182 -12.388  0.00  0.00    -0.390 OA
+ATOM     40  H21 SUC d   1     -50.319 -15.077 -12.338  0.00  0.00     0.210 HD
+ENDBRANCH  26  39
+BRANCH  28  41
+ATOM     41  C6' SUC d   1     -47.510 -12.145 -11.779  0.00  0.00     0.043 C 
+ATOM     42  H17 SUC d   1     -47.870 -11.108 -11.715  0.00  0.00     0.078 H 
+ATOM     43  H18 SUC d   1     -46.412 -12.149 -11.838  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  O6' SUC d   1     -47.902 -12.831 -10.621  0.00  0.00    -0.398 OA
+ATOM     45  H22 SUC d   1     -47.590 -13.727 -10.664  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  28  41
+ENDBRANCH   1  24
+TORSDOF 13

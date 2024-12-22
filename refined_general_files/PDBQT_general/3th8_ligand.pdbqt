@@ -1,0 +1,104 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_11  and  CAA_1 
+REMARK    2  A    between atoms: CAW_23  and  OAE_5 
+REMARK    3  A    between atoms: CAF_6  and  CAV_22 
+REMARK    4  A    between atoms: CAW_23  and  CAF_6 
+REMARK    5  A    between atoms: CAL_12  and  CAK_11 
+REMARK    6  A    between atoms: CAM_13  and  CAL_12 
+REMARK    7  A    between atoms: CAN_14  and  CAM_13 
+REMARK    8  A    between atoms: CAQ_17  and  CAN_14 
+REMARK    9  A    between atoms: CAP_16  and  CAO_15 
+REMARK   10  A    between atoms: CAO_15  and  CAR_18 
+REMARK   11  A    between atoms: NAS_19  and  CAP_16 
+REMARK   12  A    between atoms: OAT_20  and  CAQ_17 
+REMARK   13  A    between atoms: CAR_18  and  CAX_24 
+REMARK       I    between atoms: CAV_22  and  NAS_19 
+REMARK   14  A    between atoms: CAY_25  and  OAT_20 
+REMARK   15  A    between atoms: CAU_21  and  CAW_23 
+ROOT
+ATOM      1  CAG TH9 d   1     -10.867   2.485  -3.944  0.00  0.00    -0.080 A 
+ATOM      2  CAH TH9 d   1      -9.509   2.668  -3.694  0.00  0.00    -0.077 A 
+ATOM      3  CAI TH9 d   1     -11.669   1.908  -2.968  0.00  0.00    -0.051 A 
+ATOM      4  CAJ TH9 d   1      -9.726   1.720  -1.499  0.00  0.00    -0.045 A 
+ATOM      5  CAX TH9 d   1      -8.932   2.306  -2.488  0.00  0.00    -0.056 A 
+ATOM      6  CAY TH9 d   1     -11.100   1.532  -1.743  0.00  0.00     0.069 A 
+ATOM      7  H   TH9 d   1     -11.297   2.792  -4.898  0.00  0.00     0.083 H 
+ATOM      8  H   TH9 d   1      -8.883   3.109  -4.470  0.00  0.00     0.084 H 
+ATOM      9  H   TH9 d   1     -12.731   1.749  -3.153  0.00  0.00     0.087 H 
+ATOM     10  H   TH9 d   1      -9.287   1.412  -0.550  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  CAR TH9 d   1      -7.555   2.528  -2.303  0.00  0.00    -0.040 C 
+ATOM     12  H   TH9 d   1      -7.112   1.578  -2.004  0.00  0.00     0.040 H 
+ATOM     13  H   TH9 d   1      -7.163   2.926  -3.239  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAO TH9 d   1      -7.222   3.568  -1.182  0.00  0.00    -0.047 C 
+ATOM     15  H   TH9 d   1      -7.476   3.090  -0.236  0.00  0.00     0.035 H 
+ATOM     16  H   TH9 d   1      -6.174   3.837  -1.316  0.00  0.00     0.035 H 
+BRANCH  14  17
+ATOM     17  CAP TH9 d   1      -8.026   4.903  -1.226  0.00  0.00    -0.005 C 
+ATOM     18  H   TH9 d   1      -8.555   5.063  -0.287  0.00  0.00     0.064 H 
+ATOM     19  H   TH9 d   1      -8.774   4.874  -2.018  0.00  0.00     0.064 H 
+BRANCH  17  20
+ATOM     20  NAS TH9 d   1      -7.063   5.983  -1.466  0.00  0.00    -0.361 N 
+ATOM     21  CAV TH9 d   1      -6.451   6.698  -0.524  0.00  0.00     0.220 C 
+ATOM     22  OAC TH9 d   1      -6.620   6.611   0.677  0.00  0.00    -0.274 OA
+ATOM     23  H   TH9 d   1      -6.843   6.205  -2.437  0.00  0.00     0.162 HD
+BRANCH  21  24
+ATOM     24  CAF TH9 d   1      -5.404   7.616  -1.069  0.00  0.00     0.042 C 
+ATOM     25  H   TH9 d   1      -5.955   8.319  -1.694  0.00  0.00     0.051 H 
+ATOM     26  H   TH9 d   1      -4.666   6.953  -1.521  0.00  0.00     0.051 H 
+BRANCH  24  27
+ATOM     27  CAW TH9 d   1      -4.597   8.497  -0.118  0.00  0.00     0.127 C 
+ATOM     28  H   TH9 d   1      -4.933   7.834   0.679  0.00  0.00     0.100 H 
+BRANCH  27  29
+ATOM     29  OAE TH9 d   1      -4.713   8.560   1.227  0.00  0.00    -0.384 OA
+ATOM     30  H   TH9 d   1      -5.604   8.832   1.458  0.00  0.00     0.210 HD
+ENDBRANCH  27  29
+BRANCH  27  31
+ATOM     31  CAU TH9 d   1      -3.646   9.378  -0.790  0.00  0.00     0.203 C 
+ATOM     32  OAB TH9 d   1      -3.614   9.278  -2.007  0.00  0.00    -0.646 OA
+ATOM     33  OAD TH9 d   1      -2.909  10.188  -0.147  0.00  0.00    -0.646 OA
+ENDBRANCH  27  31
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   5  11
+BRANCH   6  34
+ATOM     34  OAT TH9 d   1     -11.940   0.972  -0.813  0.00  0.00    -0.351 OA
+BRANCH  34  35
+ATOM     35  CAQ TH9 d   1     -11.699   1.308   0.565  0.00  0.00     0.026 C 
+ATOM     36  H   TH9 d   1     -10.626   1.350   0.754  0.00  0.00     0.075 H 
+ATOM     37  H   TH9 d   1     -12.131   2.283   0.790  0.00  0.00     0.075 H 
+BRANCH  35  38
+ATOM     38  CAN TH9 d   1     -12.345   0.233   1.453  0.00  0.00    -0.045 C 
+ATOM     39  H   TH9 d   1     -11.854   0.236   2.426  0.00  0.00     0.036 H 
+ATOM     40  H   TH9 d   1     -13.407   0.454   1.559  0.00  0.00     0.036 H 
+BRANCH  38  41
+ATOM     41  CAM TH9 d   1     -12.184  -1.171   0.813  0.00  0.00    -0.063 C 
+ATOM     42  H   TH9 d   1     -11.386  -1.131   0.072  0.00  0.00     0.033 H 
+ATOM     43  H   TH9 d   1     -11.946  -1.891   1.596  0.00  0.00     0.033 H 
+BRANCH  41  44
+ATOM     44  CAL TH9 d   1     -13.489  -1.604   0.118  0.00  0.00    -0.065 C 
+ATOM     45  H   TH9 d   1     -14.280  -0.930   0.447  0.00  0.00     0.033 H 
+ATOM     46  H   TH9 d   1     -13.320  -1.568  -0.958  0.00  0.00     0.033 H 
+BRANCH  44  47
+ATOM     47  CAK TH9 d   1     -13.914  -3.039   0.479  0.00  0.00    -0.069 C 
+ATOM     48  H   TH9 d   1     -13.758  -3.180   1.548  0.00  0.00     0.032 H 
+ATOM     49  H   TH9 d   1     -14.959  -3.165   0.195  0.00  0.00     0.032 H 
+BRANCH  47  50
+ATOM     50  CAA TH9 d   1     -13.081  -4.100  -0.272  0.00  0.00    -0.077 C 
+ATOM     51  H   TH9 d   1     -13.210  -3.968  -1.346  0.00  0.00     0.027 H 
+ATOM     52  H   TH9 d   1     -12.028  -3.983  -0.014  0.00  0.00     0.027 H 
+ATOM     53  H   TH9 d   1     -13.418  -5.096   0.016  0.00  0.00     0.027 H 
+ENDBRANCH  47  50
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+TORSDOF 15

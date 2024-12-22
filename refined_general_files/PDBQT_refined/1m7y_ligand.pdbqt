@@ -1,0 +1,94 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C2A_3 
+REMARK    2  A    between atoms: C3_4  and  O3_5 
+REMARK    3  A    between atoms: C4_6  and  C4A_7 
+REMARK    4  A    between atoms: C4A_7  and  N4A_16 
+REMARK    5  A    between atoms: C5_8  and  C5A_10 
+REMARK    6  A    between atoms: C5A_10  and  OP4_11 
+REMARK    7  A    between atoms: OP4_11  and  P_12 
+REMARK    8  A    between atoms: N4A_16  and  CAI_17 
+REMARK    9  A    between atoms: CAI_17  and  CBC_18 
+REMARK   10  A    between atoms: CAI_17  and  CBI_21 
+REMARK   11  A    between atoms: CGI_22  and  OET_23 
+REMARK   12  A    between atoms: OET_23  and  CEI_24 
+REMARK   13  A    between atoms: CEI_24  and  CFI_25 
+REMARK   14  A    between atoms: CFI_25  and  NI_26 
+ROOT
+ATOM      1  C4A PPG d   1      20.207  -0.127  20.868  0.00  0.00     0.110 C 
+ATOM      2  H5  PPG d   1      20.215   0.135  21.936  0.00  0.00     0.083 H 
+ATOM      3  H6  PPG d   1      20.470  -1.188  20.749  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4  PPG d   1      21.287   0.749  20.124  0.00  0.00     0.012 A 
+ATOM      5  C3  PPG d   1      21.052   1.245  18.751  0.00  0.00     0.098 A 
+ATOM      6  C2  PPG d   1      22.073   2.029  18.140  0.00  0.00     0.064 A 
+ATOM      7  N1  PPG d   1      23.237   2.276  18.879  0.00  0.00    -0.262 NA
+ATOM      8  C6  PPG d   1      23.504   1.841  20.146  0.00  0.00     0.011 A 
+ATOM      9  C5  PPG d   1      22.564   1.087  20.791  0.00  0.00    -0.006 A 
+ATOM     10  H7  PPG d   1      24.442   2.089  20.630  0.00  0.00     0.115 H 
+BRANCH   5  11
+ATOM     11  O3  PPG d   1      19.954   0.998  18.077  0.00  0.00    -0.358 OA
+ATOM     12  H4  PPG d   1      20.172   0.529  17.280  0.00  0.00     0.217 HD
+ENDBRANCH   5  11
+BRANCH   6  13
+ATOM     13  C2A PPG d   1      22.048   2.630  16.773  0.00  0.00    -0.033 C 
+ATOM     14  H1  PPG d   1      21.098   2.379  16.279  0.00  0.00     0.035 H 
+ATOM     15  H2  PPG d   1      22.885   2.231  16.181  0.00  0.00     0.035 H 
+ATOM     16  H3  PPG d   1      22.143   3.723  16.851  0.00  0.00     0.035 H 
+ENDBRANCH   6  13
+BRANCH   9  17
+ATOM     17  C5A PPG d   1      22.796   0.563  22.209  0.00  0.00     0.058 C 
+ATOM     18  H8  PPG d   1      21.885   0.705  22.809  0.00  0.00     0.082 H 
+ATOM     19  H9  PPG d   1      23.630   1.109  22.673  0.00  0.00     0.082 H 
+BRANCH  17  20
+ATOM     20  OP4 PPG d   1      23.111  -0.819  22.139  0.00  0.00    -0.278 OA
+BRANCH  20  21
+ATOM     21  P   PPG d   1      24.080  -1.532  23.244  0.00  0.00     0.422 P 
+ATOM     22  OP1 PPG d   1      25.268  -1.989  22.465  0.00  0.00    -0.617 OA
+ATOM     23  OP2 PPG d   1      23.369  -2.669  23.807  0.00  0.00    -0.617 OA
+ATOM     24  OP3 PPG d   1      24.409  -0.547  24.294  0.00  0.00    -0.617 OA
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH   9  17
+ENDBRANCH   1   4
+BRANCH   1  25
+ATOM     25  N4A PPG d   1      18.879   0.080  20.352  0.00  0.00    -0.054 N 
+ATOM     26  H10 PPG d   1      18.808  -0.537  19.558  0.00  0.00     0.278 HD
+ATOM     27  H11 PPG d   1      18.867   1.037  20.036  0.00  0.00     0.278 HD
+BRANCH  25  28
+ATOM     28  CAI PPG d   1      17.723  -0.080  21.024  0.00  0.00     0.203 C 
+ATOM     29  H12 PPG d   1      17.720  -1.161  20.819  0.00  0.00     0.108 H 
+BRANCH  28  30
+ATOM     30  CBC PPG d   1      16.555   0.090  20.256  0.00  0.00     0.208 C 
+ATOM     31  O2B PPG d   1      16.643   0.753  19.150  0.00  0.00    -0.646 OA
+ATOM     32  O3B PPG d   1      15.400  -0.401  20.644  0.00  0.00    -0.646 OA
+ENDBRANCH  28  30
+BRANCH  28  33
+ATOM     33  CBI PPG d   1      17.725  -0.357  22.451  0.00  0.00    -0.043 C 
+ATOM     34  CGI PPG d   1      16.816  -1.125  23.054  0.00  0.00     0.011 C 
+ATOM     35  H14 PPG d   1      15.979  -1.567  22.515  0.00  0.00     0.122 H 
+ATOM     36  H13 PPG d   1      18.511   0.086  23.061  0.00  0.00     0.083 H 
+BRANCH  34  37
+ATOM     37  OET PPG d   1      17.018  -1.331  24.475  0.00  0.00    -0.362 OA
+BRANCH  37  38
+ATOM     38  CEI PPG d   1      15.760  -1.420  25.171  0.00  0.00     0.047 C 
+ATOM     39  H15 PPG d   1      14.949  -1.129  24.487  0.00  0.00     0.077 H 
+ATOM     40  H16 PPG d   1      15.776  -0.736  26.032  0.00  0.00     0.077 H 
+BRANCH  38  41
+ATOM     41  CFI PPG d   1      15.509  -2.849  25.669  0.00  0.00     0.100 C 
+ATOM     42  H17 PPG d   1      14.600  -2.868  26.288  0.00  0.00     0.078 H 
+ATOM     43  H18 PPG d   1      16.368  -3.186  26.268  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  NI  PPG d   1      15.336  -3.737  24.520  0.00  0.00    -0.077 N 
+ATOM     45  H19 PPG d   1      15.171  -4.677  24.844  0.00  0.00     0.274 HD
+ATOM     46  H20 PPG d   1      16.169  -3.719  23.953  0.00  0.00     0.274 HD
+ATOM     47  H21 PPG d   1      14.549  -3.427  23.972  0.00  0.00     0.274 HD
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH  34  37
+ENDBRANCH  28  33
+ENDBRANCH  25  28
+ENDBRANCH   1  25
+TORSDOF 14

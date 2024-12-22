@@ -1,0 +1,67 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_12  and  CAA_1 
+REMARK    2  A    between atoms: CAR_18  and  OAD_4 
+REMARK    3  A    between atoms: CAM_13  and  CAL_12 
+REMARK    4  A    between atoms: CAN_14  and  CAM_13 
+REMARK    5  A    between atoms: NAP_16  and  CAN_14 
+REMARK    6  A    between atoms: CAO_15  and  NAQ_17 
+REMARK    7  A    between atoms: CAR_18  and  CAO_15 
+REMARK    8  A    between atoms: CAR_18  and  PAS_19 
+REMARK    9  A    between atoms: CAR_18  and  PAT_20 
+ROOT
+ATOM      1  CAI 4GA d   1      16.039  80.785  24.833  0.00  0.00    -0.005 A 
+ATOM      2  CAJ 4GA d   1      15.830  79.444  24.743  0.00  0.00    -0.004 A 
+ATOM      3  CAK 4GA d   1      14.428  80.380  26.164  0.00  0.00     0.044 A 
+ATOM      4  NAP 4GA d   1      15.188  81.318  25.717  0.00  0.00    -0.352 N 
+ATOM      5  NAQ 4GA d   1      14.846  79.232  25.575  0.00  0.00    -0.347 N 
+ATOM      6  H5  4GA d   1      16.787  81.341  24.270  0.00  0.00     0.113 H 
+ATOM      7  H6  4GA d   1      16.358  78.720  24.124  0.00  0.00     0.113 H 
+ATOM      8  H7  4GA d   1      13.610  80.487  26.875  0.00  0.00     0.141 H 
+ENDROOT
+BRANCH   5   9
+ATOM      9  CAO 4GA d   1      14.231  78.001  25.962  0.00  0.00     0.054 C 
+ATOM     10  H14 4GA d   1      13.651  77.563  25.136  0.00  0.00     0.071 H 
+ATOM     11  H15 4GA d   1      13.579  78.134  26.838  0.00  0.00     0.071 H 
+BRANCH   9  12
+ATOM     12  CAR 4GA d   1      15.394  77.195  26.282  0.00  0.00     0.301 C 
+BRANCH  12  13
+ATOM     13  OAD 4GA d   1      14.890  76.436  27.364  0.00  0.00    -0.364 OA
+ATOM     14  H4  4GA d   1      15.540  75.797  27.631  0.00  0.00     0.212 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  PAS 4GA d   1      15.794  76.097  24.818  0.00  0.00     0.311 P 
+ATOM     16  OAB 4GA d   1      17.198  76.074  24.234  0.00  0.00    -0.637 OA
+ATOM     17  OAE 4GA d   1      15.430  74.718  25.505  0.00  0.00    -0.637 OA
+ATOM     18  OAF 4GA d   1      14.697  76.338  23.786  0.00  0.00    -0.637 OA
+ENDBRANCH  12  15
+BRANCH  12  19
+ATOM     19  PAT 4GA d   1      16.892  77.946  27.021  0.00  0.00     0.311 P 
+ATOM     20  OAC 4GA d   1      16.671  79.123  27.885  0.00  0.00    -0.637 OA
+ATOM     21  OAG 4GA d   1      17.046  76.582  27.855  0.00  0.00    -0.637 OA
+ATOM     22  OAH 4GA d   1      18.444  77.777  26.241  0.00  0.00    -0.637 OA
+ENDBRANCH  12  19
+ENDBRANCH   9  12
+ENDBRANCH   5   9
+BRANCH   4  23
+ATOM     23  CAN 4GA d   1      14.984  82.640  26.159  0.00  0.00     0.000 C 
+ATOM     24  H12 4GA d   1      14.111  83.075  25.651  0.00  0.00     0.064 H 
+ATOM     25  H13 4GA d   1      14.819  82.651  27.247  0.00  0.00     0.064 H 
+BRANCH  23  26
+ATOM     26  CAM 4GA d   1      16.225  83.428  25.817  0.00  0.00    -0.050 C 
+ATOM     27  H10 4GA d   1      16.346  84.253  26.534  0.00  0.00     0.035 H 
+ATOM     28  H11 4GA d   1      17.104  82.769  25.864  0.00  0.00     0.035 H 
+BRANCH  26  29
+ATOM     29  CAL 4GA d   1      16.086  83.993  24.407  0.00  0.00    -0.067 C 
+ATOM     30  H8  4GA d   1      15.723  83.208  23.727  0.00  0.00     0.032 H 
+ATOM     31  H9  4GA d   1      15.374  84.832  24.412  0.00  0.00     0.032 H 
+BRANCH  29  32
+ATOM     32  CAA 4GA d   1      17.486  84.493  23.935  0.00  0.00    -0.076 C 
+ATOM     33  H1  4GA d   1      17.405  84.904  22.918  0.00  0.00     0.027 H 
+ATOM     34  H2  4GA d   1      18.195  83.652  23.934  0.00  0.00     0.027 H 
+ATOM     35  H3  4GA d   1      17.846  85.275  24.619  0.00  0.00     0.027 H 
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   4  23
+TORSDOF 9

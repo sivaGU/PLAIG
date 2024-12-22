@@ -1,0 +1,56 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAN_1  and  CAL_2 
+REMARK    2  A    between atoms: CAH_14  and  SAO_15 
+REMARK    3  A    between atoms: SAO_15  and  CAP_16 
+REMARK    4  A    between atoms: CAP_16  and  CAQ_17 
+ROOT
+ATOM      1  CAL AXC d   1     -21.541 -15.262  33.431  0.00  0.00     0.145 A 
+ATOM      2  NAM AXC d   1     -21.079 -14.044  33.175  0.00  0.00    -0.212 NA
+ATOM      3  NAK AXC d   1     -21.585 -15.496  34.737  0.00  0.00    -0.149 NA
+ATOM      4  NAI AXC d   1     -21.170 -14.496  35.321  0.00  0.00    -0.188 N 
+ATOM      5  CAJ AXC d   1     -20.828 -13.529  34.370  0.00  0.00     0.168 A 
+ATOM      6  CAE AXC d   1     -20.333 -12.305  34.808  0.00  0.00     0.041 A 
+ATOM      7  CAF AXC d   1     -19.983 -11.321  33.885  0.00  0.00    -0.067 A 
+ATOM      8  CAA AXC d   1     -19.489 -10.097  34.326  0.00  0.00    -0.082 A 
+ATOM      9  CAB AXC d   1     -19.348  -9.861  35.694  0.00  0.00    -0.081 A 
+ATOM     10  CAC AXC d   1     -19.700 -10.850  36.617  0.00  0.00    -0.054 A 
+ATOM     11  CAD AXC d   1     -20.190 -12.077  36.181  0.00  0.00     0.073 A 
+ATOM     12  NAG AXC d   1     -20.525 -13.022  37.082  0.00  0.00    -0.222 NA
+ATOM     13  CAH AXC d   1     -21.006 -14.216  36.686  0.00  0.00     0.192 A 
+ATOM     14  H4  AXC d   1     -20.096 -11.509  32.823  0.00  0.00     0.085 H 
+ATOM     15  H5  AXC d   1     -19.215  -9.331  33.610  0.00  0.00     0.083 H 
+ATOM     16  H6  AXC d   1     -18.965  -8.909  36.042  0.00  0.00     0.083 H 
+ATOM     17  H7  AXC d   1     -19.591 -10.660  37.679  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH  13  18
+ATOM     18  SAO AXC d   1     -21.447 -15.470  37.806  0.00  0.00    -0.082 SA
+BRANCH  18  19
+ATOM     19  CAP AXC d   1     -21.074 -14.752  39.456  0.00  0.00     0.039 C 
+ATOM     20  H8  AXC d   1     -20.174 -14.124  39.374  0.00  0.00     0.061 H 
+ATOM     21  H9  AXC d   1     -20.886 -15.572  40.165  0.00  0.00     0.061 H 
+BRANCH  19  22
+ATOM     22  CAQ AXC d   1     -22.228 -13.894  39.987  0.00  0.00     0.115 A 
+ATOM     23  NAU AXC d   1     -22.239 -12.558  40.032  0.00  0.00    -0.233 NA
+ATOM     24  CAT AXC d   1     -23.400 -12.167  40.541  0.00  0.00     0.085 A 
+ATOM     25  CAY AXC d   1     -23.927 -10.907  40.805  0.00  0.00    -0.053 A 
+ATOM     26  CAS AXC d   1     -24.131 -13.312  40.820  0.00  0.00     0.062 A 
+ATOM     27  CAX AXC d   1     -25.202 -10.806  41.352  0.00  0.00    -0.081 A 
+ATOM     28  H10 AXC d   1     -23.351 -10.015  40.587  0.00  0.00     0.087 H 
+ATOM     29  CAW AXC d   1     -25.936 -11.961  41.633  0.00  0.00    -0.081 A 
+ATOM     30  H11 AXC d   1     -25.626  -9.831  41.560  0.00  0.00     0.083 H 
+ATOM     31  CAV AXC d   1     -25.402 -13.219  41.367  0.00  0.00    -0.055 A 
+ATOM     32  H12 AXC d   1     -26.928 -11.877  42.061  0.00  0.00     0.083 H 
+ATOM     33  H13 AXC d   1     -25.973 -14.115  41.585  0.00  0.00     0.087 H 
+ATOM     34  NAR AXC d   1     -23.380 -14.354  40.475  0.00  0.00    -0.342 N 
+ATOM     35  H14 AXC d   1     -23.643 -15.345  40.569  0.00  0.00     0.167 HD
+ENDBRANCH  19  22
+ENDBRANCH  18  19
+ENDBRANCH  13  18
+BRANCH   1  36
+ATOM     36  CAN AXC d   1     -21.975 -16.275  32.380  0.00  0.00    -0.018 C 
+ATOM     37  H1  AXC d   1     -21.843 -15.843  31.377  0.00  0.00     0.038 H 
+ATOM     38  H2  AXC d   1     -23.034 -16.530  32.532  0.00  0.00     0.038 H 
+ATOM     39  H3  AXC d   1     -21.362 -17.184  32.471  0.00  0.00     0.038 H 
+ENDBRANCH   1  36
+TORSDOF 4

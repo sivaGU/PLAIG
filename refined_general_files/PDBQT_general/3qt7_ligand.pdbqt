@@ -1,0 +1,63 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAQ_17  and  OAE_5 
+REMARK    2  A    between atoms: CAQ_17  and  CAJ_10 
+REMARK    3  A    between atoms: CAK_11  and  CAL_12 
+REMARK    4  A    between atoms: OAN_14  and  CAK_11 
+REMARK    5  A    between atoms: CAL_12  and  CAQ_17 
+REMARK    6  A    between atoms: CAM_13  and  CAP_16 
+REMARK    7  A    between atoms: CAQ_17  and  CAM_13 
+REMARK    8  A    between atoms: PAS_19  and  OAN_14 
+REMARK    9  A    between atoms: OAO_15  and  PAR_18 
+REMARK   10  A    between atoms: OAO_15  and  PAS_19 
+ROOT
+ATOM      1  CAL FM0 d   1      14.160 -21.310 -19.460  0.00  0.00    -0.013 C 
+ATOM      2  H   FM0 d   1      13.463 -20.914 -20.199  0.00  0.00     0.040 H 
+ATOM      3  H   FM0 d   1      13.931 -21.087 -18.418  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAK FM0 d   1      15.500 -20.662 -19.749  0.00  0.00     0.034 C 
+ATOM      5  H   FM0 d   1      15.711 -20.844 -20.803  0.00  0.00     0.075 H 
+ATOM      6  H   FM0 d   1      16.211 -21.094 -19.044  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  OAN FM0 d   1      15.553 -19.301 -19.571  0.00  0.00    -0.289 OA
+BRANCH   7   8
+ATOM      8  PAS FM0 d   1      16.663 -18.375 -20.224  0.00  0.00     0.418 P 
+ATOM      9  OAC FM0 d   1      17.976 -18.690 -19.518  0.00  0.00    -0.624 OA
+ATOM     10  OAH FM0 d   1      16.789 -18.575 -21.723  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  OAO FM0 d   1      16.114 -16.962 -19.845  0.00  0.00    -0.173 OA
+BRANCH  11  12
+ATOM     12  PAR FM0 d   1      16.938 -15.656 -19.810  0.00  0.00     0.431 P 
+ATOM     13  OAB FM0 d   1      15.952 -14.541 -20.041  0.00  0.00    -0.616 OA
+ATOM     14  OAF FM0 d   1      17.464 -15.530 -18.403  0.00  0.00    -0.616 OA
+ATOM     15  OAG FM0 d   1      18.080 -15.695 -20.811  0.00  0.00    -0.616 OA
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  CAQ FM0 d   1      14.109 -22.779 -19.589  0.00  0.00     0.095 C 
+BRANCH  16  17
+ATOM     17  OAE FM0 d   1      15.076 -23.143 -20.521  0.00  0.00    -0.387 OA
+ATOM     18  H   FM0 d   1      15.943 -22.887 -20.198  0.00  0.00     0.210 HD
+ENDBRANCH  16  17
+BRANCH  16  19
+ATOM     19  CAJ FM0 d   1      12.815 -23.214 -20.175  0.00  0.00     0.087 C 
+ATOM     20  FAI FM0 d   1      12.502 -22.751 -21.400  0.00  0.00    -0.252 F 
+ATOM     21  H   FM0 d   1      12.889 -24.296 -20.280  0.00  0.00     0.086 H 
+ATOM     22  H   FM0 d   1      12.045 -22.826 -19.508  0.00  0.00     0.086 H 
+ENDBRANCH  16  19
+BRANCH  16  23
+ATOM     23  CAM FM0 d   1      14.340 -23.404 -18.222  0.00  0.00     0.046 C 
+ATOM     24  H   FM0 d   1      13.773 -22.782 -17.530  0.00  0.00     0.053 H 
+ATOM     25  H   FM0 d   1      14.062 -24.451 -18.342  0.00  0.00     0.053 H 
+BRANCH  23  26
+ATOM     26  CAP FM0 d   1      15.737 -23.436 -17.658  0.00  0.00     0.175 C 
+ATOM     27  OAA FM0 d   1      16.763 -23.644 -18.389  0.00  0.00    -0.648 OA
+ATOM     28  OAD FM0 d   1      15.877 -23.258 -16.425  0.00  0.00    -0.648 OA
+ENDBRANCH  23  26
+ENDBRANCH  16  23
+ENDBRANCH   1  16
+TORSDOF 10

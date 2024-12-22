@@ -1,0 +1,57 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAH_2  and  OAM_5 
+REMARK    2  A    between atoms: OAM_5  and  CAL_6 
+REMARK    3  A    between atoms: CAP_7  and  OAQ_8 
+REMARK    4  A    between atoms: OAQ_8  and  PAT_9 
+REMARK    5  A    between atoms: CAO_13  and  OAR_14 
+REMARK    6  A    between atoms: OAR_14  and  PAW_15 
+REMARK    7  A    between atoms: CAK_21  and  OAF_22 
+REMARK    8  A    between atoms: OAF_22  and  PAC_23 
+ROOT
+ATOM      1  CAL GVF d   1      14.258  10.406  15.140  0.00  0.00     0.153 A 
+ATOM      2  CAP GVF d   1      14.083  10.899  16.435  0.00  0.00     0.153 A 
+ATOM      3  CAO GVF d   1      15.132  11.551  17.078  0.00  0.00     0.119 A 
+ATOM      4  CAN GVF d   1      16.364  11.671  16.443  0.00  0.00    -0.044 A 
+ATOM      5  CAJ GVF d   1      16.552  11.162  15.158  0.00  0.00    -0.044 A 
+ATOM      6  CAK GVF d   1      15.494  10.534  14.510  0.00  0.00     0.119 A 
+ATOM      7  H   GVF d   1      17.189  12.167  16.954  0.00  0.00     0.088 H 
+ATOM      8  H   GVF d   1      17.520  11.256  14.666  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  OAM GVF d   1      13.212   9.985  14.378  0.00  0.00    -0.234 OA
+BRANCH   9  10
+ATOM     10  PAH GVF d   1      12.703   8.478  14.641  0.00  0.00     0.427 P 
+ATOM     11  OAE GVF d   1      12.566   7.794  13.192  0.00  0.00    -0.617 OA
+ATOM     12  OAG GVF d   1      13.858   7.646  15.393  0.00  0.00    -0.617 OA
+ATOM     13  OAI GVF d   1      11.417   8.432  15.371  0.00  0.00    -0.617 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   2  14
+ATOM     14  OAQ GVF d   1      12.935  10.660  17.129  0.00  0.00    -0.234 OA
+BRANCH  14  15
+ATOM     15  PAT GVF d   1      11.673  11.558  16.682  0.00  0.00     0.427 P 
+ATOM     16  OAS GVF d   1      12.149  12.580  15.533  0.00  0.00    -0.617 OA
+ATOM     17  OAY GVF d   1      10.660  10.506  16.003  0.00  0.00    -0.617 OA
+ATOM     18  OAU GVF d   1      11.024  12.243  17.820  0.00  0.00    -0.617 OA
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+BRANCH   6  19
+ATOM     19  OAF GVF d   1      15.553  10.093  13.224  0.00  0.00    -0.237 OA
+BRANCH  19  20
+ATOM     20  PAC GVF d   1      16.993   9.709  12.614  0.00  0.00     0.427 P 
+ATOM     21  OAB GVF d   1      17.856  11.064  12.519  0.00  0.00    -0.617 OA
+ATOM     22  OAA GVF d   1      16.635   9.252  11.114  0.00  0.00    -0.617 OA
+ATOM     23  OAD GVF d   1      17.685   8.635  13.359  0.00  0.00    -0.617 OA
+ENDBRANCH  19  20
+ENDBRANCH   6  19
+BRANCH   3  24
+ATOM     24  OAR GVF d   1      14.906  12.256  18.223  0.00  0.00    -0.237 OA
+BRANCH  24  25
+ATOM     25  PAW GVF d   1      14.785  11.402  19.585  0.00  0.00     0.427 P 
+ATOM     26  OAV GVF d   1      13.223  11.256  19.935  0.00  0.00    -0.617 OA
+ATOM     27  OAZ GVF d   1      15.302   9.911  19.267  0.00  0.00    -0.617 OA
+ATOM     28  OAX GVF d   1      15.517  12.056  20.692  0.00  0.00    -0.617 OA
+ENDBRANCH  24  25
+ENDBRANCH   3  24
+TORSDOF 8

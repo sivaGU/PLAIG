@@ -1,0 +1,104 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C3_3 
+REMARK    3  A    between atoms: C5_5  and  O34_34 
+REMARK    4  A    between atoms: C6_6  and  S17_17 
+REMARK    5  A    between atoms: C8_8  and  N9_9 
+REMARK       I    between atoms: N9_9  and  C10_10 
+REMARK    6  A    between atoms: C10_10  and  C12_12 
+REMARK    7  A    between atoms: C12_12  and  C13_13 
+REMARK    8  A    between atoms: C13_13  and  C14_14 
+REMARK    9  A    between atoms: S17_17  and  N20_20 
+REMARK   10  A    between atoms: N20_20  and  C21_21 
+REMARK   11  A    between atoms: N20_20  and  C27_27 
+REMARK   12  A    between atoms: C30_30  and  N33_33 
+REMARK   13  A    between atoms: O34_34  and  C35_35 
+ROOT
+ATOM      1  C3  GOB d   1      25.306 -25.236 -16.518  0.00  0.00     0.097 A 
+ATOM      2  C4  GOB d   1      24.990 -25.633 -17.810  0.00  0.00    -0.015 A 
+ATOM      3  C5  GOB d   1      25.606 -24.999 -18.898  0.00  0.00     0.094 A 
+ATOM      4  C6  GOB d   1      26.560 -23.988 -18.680  0.00  0.00     0.116 A 
+ATOM      5  C7  GOB d   1      26.883 -23.588 -17.384  0.00  0.00    -0.029 A 
+ATOM      6  C8  GOB d   1      26.255 -24.211 -16.307  0.00  0.00     0.070 A 
+ATOM      7  H   GOB d   1      24.268 -26.432 -17.977  0.00  0.00     0.092 H 
+ATOM      8  H   GOB d   1      27.616 -22.799 -17.215  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   4   9
+ATOM      9  S17 GOB d   1      27.337 -23.142 -20.036  0.00  0.00     0.272 S 
+ATOM     10  O18 GOB d   1      27.958 -24.091 -20.863  0.00  0.00    -0.200 OA
+ATOM     11  O19 GOB d   1      27.995 -22.056 -19.415  0.00  0.00    -0.200 OA
+BRANCH   9  12
+ATOM     12  N20 GOB d   1      26.001 -22.502 -20.819  0.00  0.00    -0.236 N 
+BRANCH  12  13
+ATOM     13  C21 GOB d   1      24.904 -21.984 -20.084  0.00  0.00     0.051 A 
+ATOM     14  C22 GOB d   1      23.635 -22.584 -20.203  0.00  0.00    -0.056 A 
+ATOM     15  C23 GOB d   1      22.554 -22.094 -19.464  0.00  0.00    -0.081 A 
+ATOM     16  H   GOB d   1      23.495 -23.432 -20.873  0.00  0.00     0.087 H 
+ATOM     17  C24 GOB d   1      22.734 -21.007 -18.611  0.00  0.00    -0.083 A 
+ATOM     18  H   GOB d   1      21.573 -22.561 -19.555  0.00  0.00     0.083 H 
+ATOM     19  C25 GOB d   1      23.995 -20.403 -18.479  0.00  0.00    -0.081 A 
+ATOM     20  H   GOB d   1      21.888 -20.622 -18.041  0.00  0.00     0.083 H 
+ATOM     21  C26 GOB d   1      25.070 -20.880 -19.222  0.00  0.00    -0.056 A 
+ATOM     22  H   GOB d   1      24.131 -19.564 -17.797  0.00  0.00     0.083 H 
+ATOM     23  H   GOB d   1      26.044 -20.399 -19.138  0.00  0.00     0.087 H 
+ENDBRANCH  12  13
+BRANCH  12  24
+ATOM     24  C27 GOB d   1      26.016 -22.544 -22.228  0.00  0.00     0.051 A 
+ATOM     25  C28 GOB d   1      26.518 -21.459 -22.944  0.00  0.00    -0.054 A 
+ATOM     26  C29 GOB d   1      26.561 -21.506 -24.333  0.00  0.00    -0.056 A 
+ATOM     27  H   GOB d   1      26.876 -20.575 -22.416  0.00  0.00     0.087 H 
+ATOM     28  C30 GOB d   1      26.113 -22.638 -25.002  0.00  0.00     0.025 A 
+ATOM     29  H   GOB d   1      26.946 -20.656 -24.896  0.00  0.00     0.087 H 
+ATOM     30  C31 GOB d   1      25.620 -23.735 -24.296  0.00  0.00    -0.056 A 
+ATOM     31  C32 GOB d   1      25.570 -23.684 -22.910  0.00  0.00    -0.054 A 
+ATOM     32  H   GOB d   1      25.278 -24.623 -24.827  0.00  0.00     0.087 H 
+ATOM     33  H   GOB d   1      25.182 -24.535 -22.349  0.00  0.00     0.087 H 
+BRANCH  28  34
+ATOM     34  N33 GOB d   1      26.170 -22.674 -26.394  0.00  0.00    -0.399 N 
+ATOM     35  H   GOB d   1      26.538 -21.875 -26.910  0.00  0.00     0.156 HD
+ATOM     36  H   GOB d   1      25.844 -23.500 -26.897  0.00  0.00     0.156 HD
+ENDBRANCH  28  34
+ENDBRANCH  12  24
+ENDBRANCH   9  12
+ENDBRANCH   4   9
+BRANCH   3  37
+ATOM     37  O34 GOB d   1      25.323 -25.354 -20.197  0.00  0.00    -0.354 OA
+BRANCH  37  38
+ATOM     38  C35 GOB d   1      24.267 -26.321 -20.377  0.00  0.00     0.010 C 
+ATOM     39  H   GOB d   1      24.531 -27.245 -19.862  0.00  0.00     0.066 H 
+ATOM     40  H   GOB d   1      23.339 -25.925 -19.963  0.00  0.00     0.066 H 
+ATOM     41  H   GOB d   1      24.136 -26.520 -21.441  0.00  0.00     0.066 H 
+ENDBRANCH  37  38
+ENDBRANCH   3  37
+BRANCH   6  42
+ATOM     42  N9  GOB d   1      26.535 -23.900 -14.966  0.00  0.00    -0.325 N 
+ATOM     43  C10 GOB d   1      27.551 -23.175 -14.446  0.00  0.00     0.222 C 
+ATOM     44  O11 GOB d   1      28.410 -22.622 -15.119  0.00  0.00    -0.273 OA
+ATOM     45  H   GOB d   1      25.875 -24.276 -14.285  0.00  0.00     0.169 HD
+BRANCH  43  46
+ATOM     46  C12 GOB d   1      27.544 -23.120 -12.933  0.00  0.00     0.018 C 
+ATOM     47  H   GOB d   1      28.266 -23.851 -12.569  0.00  0.00     0.048 H 
+ATOM     48  H   GOB d   1      26.528 -23.327 -12.596  0.00  0.00     0.048 H 
+BRANCH  46  49
+ATOM     49  C13 GOB d   1      27.947 -21.755 -12.392  0.00  0.00     0.024 C 
+ATOM     50  H   GOB d   1      27.265 -20.968 -12.713  0.00  0.00     0.049 H 
+ATOM     51  H   GOB d   1      28.920 -21.436 -12.766  0.00  0.00     0.049 H 
+BRANCH  49  52
+ATOM     52  C14 GOB d   1      27.944 -21.934 -10.893  0.00  0.00     0.172 C 
+ATOM     53  O15 GOB d   1      28.814 -22.557 -10.312  0.00  0.00    -0.648 OA
+ATOM     54  O16 GOB d   1      26.958 -21.386 -10.202  0.00  0.00    -0.648 OA
+ENDBRANCH  49  52
+ENDBRANCH  46  49
+ENDBRANCH  43  46
+ENDBRANCH   6  42
+BRANCH   1  55
+ATOM     55  O2  GOB d   1      24.742 -25.812 -15.405  0.00  0.00    -0.354 OA
+BRANCH  55  56
+ATOM     56  C1  GOB d   1      23.873 -26.929 -15.678  0.00  0.00     0.010 C 
+ATOM     57  H   GOB d   1      23.051 -26.601 -16.314  0.00  0.00     0.066 H 
+ATOM     58  H   GOB d   1      24.437 -27.711 -16.186  0.00  0.00     0.066 H 
+ATOM     59  H   GOB d   1      23.476 -27.317 -14.740  0.00  0.00     0.066 H 
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 13

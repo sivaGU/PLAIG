@@ -1,0 +1,94 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_1  and  CAU_3 
+REMARK    2  A    between atoms: CAU_3  and  CAT_4 
+REMARK    3  A    between atoms: CAT_4  and  CAS_5 
+REMARK    4  A    between atoms: CAS_5  and  CAR_6 
+REMARK    5  A    between atoms: CAR_6  and  CAQ_7 
+REMARK    6  A    between atoms: CAQ_7  and  NAO_8 
+REMARK       I    between atoms: NAO_8  and  CAN_9 
+REMARK    7  A    between atoms: CAN_9  and  CAM_11 
+REMARK    8  A    between atoms: CAM_11  and  CAL_12 
+REMARK    9  A    between atoms: CAL_12  and  CAK_13 
+REMARK   10  A    between atoms: CAK_13  and  CAI_14 
+REMARK   11  A    between atoms: CAI_14  and  CAH_15 
+REMARK   12  A    between atoms: CAA_21  and  NAJ_22 
+ROOT
+ATOM      1  CAL ZOF d   1      26.791 -76.632   9.802  0.00  0.00    -0.057 C 
+ATOM      2  H15 ZOF d   1      27.105 -77.601  10.217  0.00  0.00     0.033 H 
+ATOM      3  H16 ZOF d   1      25.900 -76.774   9.173  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAM ZOF d   1      27.911 -76.124   8.911  0.00  0.00     0.009 C 
+ATOM      5  H13 ZOF d   1      28.766 -75.857   9.549  0.00  0.00     0.047 H 
+ATOM      6  H14 ZOF d   1      28.203 -76.934   8.226  0.00  0.00     0.047 H 
+BRANCH   4   7
+ATOM      7  CAN ZOF d   1      27.531 -74.893   8.070  0.00  0.00     0.217 C 
+ATOM      8  NAO ZOF d   1      28.291 -73.822   8.108  0.00  0.00    -0.361 N 
+ATOM      9  H12 ZOF d   1      29.063 -73.855   8.743  0.00  0.00     0.162 HD
+ATOM     10  OAP ZOF d   1      26.516 -74.982   7.342  0.00  0.00    -0.274 OA
+BRANCH   8  11
+ATOM     11  CAQ ZOF d   1      28.151 -72.620   7.357  0.00  0.00    -0.005 C 
+ATOM     12  H10 ZOF d   1      29.086 -72.044   7.420  0.00  0.00     0.064 H 
+ATOM     13  H11 ZOF d   1      27.946 -72.872   6.306  0.00  0.00     0.064 H 
+BRANCH  11  14
+ATOM     14  CAR ZOF d   1      26.992 -71.767   7.909  0.00  0.00    -0.050 C 
+ATOM     15  H8  ZOF d   1      26.055 -72.343   7.894  0.00  0.00     0.035 H 
+ATOM     16  H9  ZOF d   1      27.211 -71.448   8.939  0.00  0.00     0.035 H 
+BRANCH  14  17
+ATOM     17  CAS ZOF d   1      26.884 -70.591   7.021  0.00  0.00    -0.063 C 
+ATOM     18  H6  ZOF d   1      27.777 -69.958   7.134  0.00  0.00     0.033 H 
+ATOM     19  H7  ZOF d   1      26.800 -70.923   5.976  0.00  0.00     0.033 H 
+BRANCH  17  20
+ATOM     20  CAT ZOF d   1      25.678 -69.823   7.398  0.00  0.00    -0.059 C 
+ATOM     21  H4  ZOF d   1      24.772 -70.377   7.111  0.00  0.00     0.033 H 
+ATOM     22  H5  ZOF d   1      25.669 -69.642   8.483  0.00  0.00     0.033 H 
+BRANCH  20  23
+ATOM     23  CAU ZOF d   1      25.742 -68.524   6.660  0.00  0.00    -0.017 C 
+ATOM     24  H2  ZOF d   1      26.532 -67.885   7.082  0.00  0.00     0.043 H 
+ATOM     25  H3  ZOF d   1      25.945 -68.702   5.594  0.00  0.00     0.043 H 
+BRANCH  23  26
+ATOM     26  CAV ZOF d   1      24.408 -67.876   6.831  0.00  0.00     0.088 C 
+ATOM     27  OAX ZOF d   1      23.338 -68.273   6.333  0.00  0.00    -0.307 OA
+ATOM     28  H1  ZOF d   1      24.367 -66.978   7.445  0.00  0.00     0.143 H 
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  29
+ATOM     29  CAK ZOF d   1      26.406 -75.750  10.945  0.00  0.00    -0.064 C 
+ATOM     30  H17 ZOF d   1      26.123 -74.758  10.564  0.00  0.00     0.033 H 
+ATOM     31  H18 ZOF d   1      27.257 -75.649  11.634  0.00  0.00     0.033 H 
+BRANCH  29  32
+ATOM     32  CAI ZOF d   1      25.230 -76.365  11.679  0.00  0.00    -0.051 C 
+ATOM     33  H19 ZOF d   1      25.510 -77.372  12.021  0.00  0.00     0.034 H 
+ATOM     34  H20 ZOF d   1      24.376 -76.436  10.989  0.00  0.00     0.034 H 
+BRANCH  32  35
+ATOM     35  CAH ZOF d   1      24.815 -75.517  12.904  0.00  0.00     0.013 C 
+ATOM     36  SAG ZOF d   1      26.028 -75.623  14.271  0.00  0.00    -0.160 SA
+ATOM     37  CAF ZOF d   1      24.806 -74.889  15.302  0.00  0.00    -0.002 C 
+ATOM     38  CAC ZOF d   1      23.420 -75.377  15.006  0.00  0.00     0.055 C 
+ATOM     39  H22 ZOF d   1      24.832 -73.799  15.156  0.00  0.00     0.052 H 
+ATOM     40  H23 ZOF d   1      25.044 -75.124  16.350  0.00  0.00     0.052 H 
+ATOM     41  CAD ZOF d   1      23.434 -75.883  13.534  0.00  0.00     0.059 C 
+ATOM     42  NAB ZOF d   1      23.290 -76.648  15.701  0.00  0.00    -0.219 N 
+ATOM     43  H24 ZOF d   1      22.636 -74.640  15.234  0.00  0.00     0.077 H 
+ATOM     44  NAE ZOF d   1      23.295 -77.281  13.589  0.00  0.00    -0.219 N 
+ATOM     45  H25 ZOF d   1      22.616 -75.432  12.954  0.00  0.00     0.078 H 
+ATOM     46  CAA ZOF d   1      22.936 -77.669  14.885  0.00  0.00     0.668 C 
+ATOM     47  H26 ZOF d   1      23.436 -77.923  12.796  0.00  0.00     0.178 HD
+ATOM     48  H29 ZOF d   1      23.451 -76.760  16.712  0.00  0.00     0.178 HD
+ATOM     49  H21 ZOF d   1      24.765 -74.473  12.562  0.00  0.00     0.059 H 
+BRANCH  46  50
+ATOM     50  NAJ ZOF d   1      22.968 -78.990  15.222  0.00  0.00    -0.235 N 
+ATOM     51  H27 ZOF d   1      22.706 -79.285  16.173  0.00  0.00     0.174 HD
+ATOM     52  H28 ZOF d   1      23.255 -79.692  14.525  0.00  0.00     0.174 HD
+ENDBRANCH  46  50
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 12

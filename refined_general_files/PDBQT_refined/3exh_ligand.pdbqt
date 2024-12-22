@@ -1,0 +1,77 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2'_2  and  CM2_3 
+REMARK    2  A    between atoms: C5'_7  and  C7'_9 
+REMARK    3  A    between atoms: C7'_9  and  N3_10 
+REMARK    4  A    between atoms: C5_13  and  C6_16 
+REMARK    5  A    between atoms: C4_14  and  CM4_15 
+REMARK    6  A    between atoms: C6_16  and  C7_17 
+REMARK    7  A    between atoms: C7_17  and  O7_18 
+REMARK    8  A    between atoms: O7_18  and  PA_19 
+REMARK    9  A    between atoms: PA_19  and  O3A_22 
+REMARK   10  A    between atoms: O3A_22  and  PB_23 
+ROOT
+ATOM      1  N3  TPP d   1     -34.233  61.839  22.063  0.00  0.00    -0.349 N 
+ATOM      2  C2  TPP d   1     -34.612  63.097  22.525  0.00  0.00     0.018 A 
+ATOM      3  S1  TPP d   1     -33.333  64.053  22.716  0.00  0.00    -0.087 SA
+ATOM      4  C5  TPP d   1     -32.260  62.944  22.190  0.00  0.00     0.008 A 
+ATOM      5  C4  TPP d   1     -32.860  61.730  21.847  0.00  0.00     0.021 A 
+ATOM      6  H9  TPP d   1     -35.639  63.394  22.730  0.00  0.00     0.123 H 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C7' TPP d   1     -35.261  60.858  21.843  0.00  0.00     0.028 C 
+ATOM      8  H7  TPP d   1     -34.869  59.854  22.060  0.00  0.00     0.072 H 
+ATOM      9  H8  TPP d   1     -36.119  61.066  22.499  0.00  0.00     0.072 H 
+BRANCH   7  10
+ATOM     10  C5' TPP d   1     -35.693  60.936  20.395  0.00  0.00     0.023 A 
+ATOM     11  C4' TPP d   1     -36.465  61.953  19.853  0.00  0.00     0.132 A 
+ATOM     12  N3' TPP d   1     -36.784  61.867  18.518  0.00  0.00    -0.216 NA
+ATOM     13  N4' TPP d   1     -36.929  62.979  20.549  0.00  0.00    -0.383 N 
+ATOM     14  C2' TPP d   1     -36.363  60.808  17.707  0.00  0.00     0.124 A 
+ATOM     15  N1' TPP d   1     -35.591  59.834  18.273  0.00  0.00    -0.245 NA
+ATOM     16  C6' TPP d   1     -35.274  59.910  19.586  0.00  0.00     0.015 A 
+ATOM     17  H6  TPP d   1     -34.662  59.126  20.018  0.00  0.00     0.116 H 
+ATOM     18  H4  TPP d   1     -36.704  63.066  21.550  0.00  0.00     0.157 HD
+ATOM     19  H5  TPP d   1     -37.515  63.690  20.089  0.00  0.00     0.157 HD
+BRANCH  14  20
+ATOM     20  CM2 TPP d   1     -36.710  60.703  16.226  0.00  0.00    -0.019 C 
+ATOM     21  H1  TPP d   1     -36.267  59.787  15.810  0.00  0.00     0.037 H 
+ATOM     22  H2  TPP d   1     -36.311  61.578  15.693  0.00  0.00     0.037 H 
+ATOM     23  H3  TPP d   1     -37.803  60.668  16.107  0.00  0.00     0.037 H 
+ENDBRANCH  14  20
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   5  24
+ATOM     24  CM4 TPP d   1     -32.099  60.532  21.376  0.00  0.00    -0.036 C 
+ATOM     25  H10 TPP d   1     -31.029  60.780  21.310  0.00  0.00     0.035 H 
+ATOM     26  H11 TPP d   1     -32.467  60.230  20.384  0.00  0.00     0.035 H 
+ATOM     27  H12 TPP d   1     -32.241  59.705  22.087  0.00  0.00     0.035 H 
+ENDBRANCH   5  24
+BRANCH   4  28
+ATOM     28  C6  TPP d   1     -30.824  63.390  22.141  0.00  0.00    -0.013 C 
+ATOM     29  H13 TPP d   1     -30.169  62.529  21.940  0.00  0.00     0.044 H 
+ATOM     30  H14 TPP d   1     -30.541  63.851  23.099  0.00  0.00     0.044 H 
+BRANCH  28  31
+ATOM     31  C7  TPP d   1     -30.701  64.420  21.005  0.00  0.00     0.036 C 
+ATOM     32  H15 TPP d   1     -31.602  65.050  20.980  0.00  0.00     0.075 H 
+ATOM     33  H16 TPP d   1     -30.592  63.897  20.043  0.00  0.00     0.075 H 
+BRANCH  31  34
+ATOM     34  O7  TPP d   1     -29.564  65.228  21.237  0.00  0.00    -0.289 OA
+BRANCH  34  35
+ATOM     35  PA  TPP d   1     -28.932  66.424  20.361  0.00  0.00     0.418 P 
+ATOM     36  O1A TPP d   1     -29.511  66.562  18.965  0.00  0.00    -0.624 OA
+ATOM     37  O2A TPP d   1     -27.446  66.352  20.368  0.00  0.00    -0.624 OA
+BRANCH  35  38
+ATOM     38  O3A TPP d   1     -29.546  67.749  21.043  0.00  0.00    -0.173 OA
+BRANCH  38  39
+ATOM     39  PB  TPP d   1     -29.277  68.287  22.554  0.00  0.00     0.431 P 
+ATOM     40  O1B TPP d   1     -27.841  67.989  22.862  0.00  0.00    -0.616 OA
+ATOM     41  O2B TPP d   1     -29.403  69.795  22.456  0.00  0.00    -0.616 OA
+ATOM     42  O3B TPP d   1     -30.216  67.714  23.559  0.00  0.00    -0.616 OA
+ENDBRANCH  38  39
+ENDBRANCH  35  38
+ENDBRANCH  34  35
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   4  28
+TORSDOF 10

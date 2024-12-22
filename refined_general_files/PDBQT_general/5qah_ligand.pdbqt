@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_3  and  C_1 
+REMARK    2  A    between atoms: C3_10  and  C4_11 
+REMARK    3  A    between atoms: C6_13  and  C7_14 
+REMARK    4  A    between atoms: C7_14  and  O2_18 
+REMARK    5  A    between atoms: O2_18  and  C8_15 
+ROOT
+ATOM      1  C10 EFX d   1      97.654 247.469   4.847  0.00  0.00    -0.085 C 
+ATOM      2  C11 EFX d   1      96.651 248.407   5.021  0.00  0.00    -0.095 C 
+ATOM      3  C4  EFX d   1      96.934 249.658   5.568  0.00  0.00    -0.008 C 
+ATOM      4  C5  EFX d   1      98.230 249.903   6.023  0.00  0.00    -0.025 C 
+ATOM      5  C6  EFX d   1      99.260 249.002   5.769  0.00  0.00     0.018 C 
+ATOM      6  C9  EFX d   1      98.958 247.772   5.198  0.00  0.00    -0.071 C 
+ATOM      7  H1  EFX d   1      97.416 246.490   4.433  0.00  0.00     0.083 H 
+ATOM      8  H2  EFX d   1      95.630 248.165   4.728  0.00  0.00     0.077 H 
+ATOM      9  H7  EFX d   1      96.610 249.329   6.566  0.00  0.00     0.054 H 
+ATOM     10  H8  EFX d   1      98.164 250.003   7.117  0.00  0.00     0.041 H 
+ATOM     11  H9  EFX d   1      98.539 250.863   5.585  0.00  0.00     0.041 H 
+ATOM     12  H13 EFX d   1      99.750 247.044   5.026  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   3  13
+ATOM     13  C3  EFX d   1      95.920 250.743   5.564  0.00  0.00    -0.049 A 
+ATOM     14  C12 EFX d   1      94.554 250.457   5.569  0.00  0.00    -0.076 A 
+ATOM     15  C13 EFX d   1      93.618 251.469   5.450  0.00  0.00    -0.081 A 
+ATOM     16  H3  EFX d   1      94.222 249.430   5.667  0.00  0.00     0.084 H 
+ATOM     17  C14 EFX d   1      94.027 252.784   5.327  0.00  0.00    -0.066 A 
+ATOM     18  H4  EFX d   1      92.561 251.230   5.453  0.00  0.00     0.083 H 
+ATOM     19  C1  EFX d   1      95.382 253.099   5.334  0.00  0.00     0.041 A 
+ATOM     20  H5  EFX d   1      93.290 253.572   5.225  0.00  0.00     0.085 H 
+ATOM     21  C2  EFX d   1      96.317 252.077   5.467  0.00  0.00    -0.060 A 
+ATOM     22  H6  EFX d   1      97.373 252.322   5.496  0.00  0.00     0.086 H 
+BRANCH  19  23
+ATOM     23  C   EFX d   1      95.842 254.526   5.169  0.00  0.00     0.209 C 
+ATOM     24  O   EFX d   1      97.040 254.787   5.448  0.00  0.00    -0.644 OA
+ATOM     25  O1  EFX d   1      95.008 255.366   4.753  0.00  0.00    -0.644 OA
+ENDBRANCH  19  23
+ENDBRANCH   3  13
+BRANCH   5  26
+ATOM     26  C7  EFX d   1     100.659 249.351   6.133  0.00  0.00     0.288 C 
+ATOM     27  O3  EFX d   1     101.611 248.635   5.943  0.00  0.00    -0.260 OA
+BRANCH  26  28
+ATOM     28  O2  EFX d   1     100.750 250.558   6.690  0.00  0.00    -0.323 OA
+BRANCH  28  29
+ATOM     29  C8  EFX d   1     102.087 251.008   7.015  0.00  0.00     0.013 C 
+ATOM     30  H10 EFX d   1     102.037 252.010   7.466  0.00  0.00     0.067 H 
+ATOM     31  H11 EFX d   1     102.693 251.048   6.098  0.00  0.00     0.067 H 
+ATOM     32  H12 EFX d   1     102.546 250.308   7.728  0.00  0.00     0.067 H 
+ENDBRANCH  28  29
+ENDBRANCH  26  28
+ENDBRANCH   5  26
+TORSDOF 5

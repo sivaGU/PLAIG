@@ -1,0 +1,81 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  N6_6 
+REMARK    2  A    between atoms: C15_15  and  S1_1 
+REMARK    3  A    between atoms: O2_2  and  C13_13 
+REMARK    4  A    between atoms: C20_20  and  O2_2 
+REMARK    5  A    between atoms: C18_18  and  O3_3 
+REMARK    6  A    between atoms: O3_3  and  C21_21 
+REMARK    7  A    between atoms: C22_22  and  N9_9 
+REMARK    8  A    between atoms: C24_24  and  N10_10 
+REMARK    9  A    between atoms: C12_12  and  C11_11 
+REMARK   10  A    between atoms: C11_11  and  C16_16 
+REMARK   11  A    between atoms: C11_11  and  C17_17 
+ROOT
+ATOM      1  C12 AF9 d   1     -16.039  -1.199 -45.921  0.00  0.00    -0.018 A 
+ATOM      2  C13 AF9 d   1     -17.012  -1.848 -46.671  0.00  0.00     0.084 A 
+ATOM      3  C14 AF9 d   1     -16.280  -0.879 -44.595  0.00  0.00    -0.040 A 
+ATOM      4  C15 AF9 d   1     -18.461  -1.862 -44.736  0.00  0.00     0.115 A 
+ATOM      5  C18 AF9 d   1     -17.487  -1.207 -43.999  0.00  0.00     0.092 A 
+ATOM      6  C19 AF9 d   1     -18.217  -2.185 -46.062  0.00  0.00    -0.024 A 
+ATOM      7  H8  AF9 d   1     -15.518  -0.367 -44.019  0.00  0.00     0.088 H 
+ATOM      8  H15 AF9 d   1     -18.976  -2.708 -46.633  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   2   9
+ATOM      9  O2  AF9 d   1     -16.736  -2.166 -48.017  0.00  0.00    -0.305 OA
+BRANCH   9  10
+ATOM     10  C20 AF9 d   1     -17.867  -2.213 -48.853  0.00  0.00     0.140 A 
+ATOM     11  C22 AF9 d   1     -18.083  -3.325 -49.545  0.00  0.00     0.176 A 
+ATOM     12  N7  AF9 d   1     -19.026  -3.499 -50.308  0.00  0.00    -0.043 NA
+ATOM     13  C24 AF9 d   1     -19.863  -2.511 -50.460  0.00  0.00     0.722 A 
+ATOM     14  N8  AF9 d   1     -19.800  -1.293 -49.841  0.00  0.00    -0.073 NA
+ATOM     15  C23 AF9 d   1     -18.707  -1.093 -48.961  0.00  0.00     0.057 A 
+ATOM     16  H19 AF9 d   1     -18.536  -0.167 -48.424  0.00  0.00     0.120 H 
+BRANCH  11  17
+ATOM     17  N9  AF9 d   1     -17.151  -4.425 -49.386  0.00  0.00    -0.381 N 
+ATOM     18  H3  AF9 d   1     -16.342  -4.328 -48.756  0.00  0.00     0.157 HD
+ATOM     19  H4  AF9 d   1     -17.298  -5.303 -49.903  0.00  0.00     0.157 HD
+ENDBRANCH  11  17
+BRANCH  13  20
+ATOM     20  N10 AF9 d   1     -20.970  -2.734 -51.371  0.00  0.00    -0.231 N 
+ATOM     21  H5  AF9 d   1     -21.060  -3.635 -51.861  0.00  0.00     0.174 HD
+ATOM     22  H6  AF9 d   1     -21.666  -1.991 -51.528  0.00  0.00     0.174 HD
+ENDBRANCH  13  20
+ENDBRANCH   9  10
+ENDBRANCH   2   9
+BRANCH   1  23
+ATOM     23  C11 AF9 d   1     -14.702  -0.818 -46.554  0.00  0.00    -0.033 C 
+ATOM     24  H7  AF9 d   1     -14.863  -0.545 -47.607  0.00  0.00     0.046 H 
+BRANCH  23  25
+ATOM     25  C16 AF9 d   1     -13.727  -1.987 -46.478  0.00  0.00    -0.069 C 
+ATOM     26  H9  AF9 d   1     -12.771  -1.697 -46.937  0.00  0.00     0.028 H 
+ATOM     27  H10 AF9 d   1     -14.146  -2.850 -47.017  0.00  0.00     0.028 H 
+ATOM     28  H11 AF9 d   1     -13.561  -2.258 -45.425  0.00  0.00     0.028 H 
+ENDBRANCH  23  25
+BRANCH  23  29
+ATOM     29  C17 AF9 d   1     -14.108   0.372 -45.801  0.00  0.00    -0.069 C 
+ATOM     30  H12 AF9 d   1     -14.805   1.222 -45.850  0.00  0.00     0.028 H 
+ATOM     31  H13 AF9 d   1     -13.150   0.656 -46.261  0.00  0.00     0.028 H 
+ATOM     32  H14 AF9 d   1     -13.941   0.095 -44.750  0.00  0.00     0.028 H 
+ENDBRANCH  23  29
+ENDBRANCH   1  23
+BRANCH   4  33
+ATOM     33  S1  AF9 d   1     -20.055  -2.298 -43.980  0.00  0.00     0.259 S 
+ATOM     34  O4  AF9 d   1     -20.013  -2.219 -42.518  0.00  0.00    -0.201 OA
+ATOM     35  O5  AF9 d   1     -20.381  -3.712 -44.162  0.00  0.00    -0.201 OA
+BRANCH  33  36
+ATOM     36  N6  AF9 d   1     -21.286  -1.299 -44.620  0.00  0.00    -0.324 N 
+ATOM     37  H1  AF9 d   1     -21.200  -0.304 -44.568  0.00  0.00     0.169 HD
+ATOM     38  H2  AF9 d   1     -22.092  -1.710 -45.047  0.00  0.00     0.169 HD
+ENDBRANCH  33  36
+ENDBRANCH   4  33
+BRANCH   5  39
+ATOM     39  O3  AF9 d   1     -17.710  -0.870 -42.658  0.00  0.00    -0.354 OA
+BRANCH  39  40
+ATOM     40  C21 AF9 d   1     -16.580  -0.958 -41.836  0.00  0.00     0.010 C 
+ATOM     41  H16 AF9 d   1     -16.852  -0.676 -40.808  0.00  0.00     0.066 H 
+ATOM     42  H17 AF9 d   1     -15.801  -0.277 -42.209  0.00  0.00     0.066 H 
+ATOM     43  H18 AF9 d   1     -16.200  -1.990 -41.845  0.00  0.00     0.066 H 
+ENDBRANCH  39  40
+ENDBRANCH   5  39
+TORSDOF 11

@@ -1,0 +1,106 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_23 
+REMARK    2  A    between atoms: C12_2  and  C14_3 
+REMARK    3  A    between atoms: N11_27  and  C15_4 
+REMARK    4  A    between atoms: C16_5  and  C29_16 
+REMARK    5  A    between atoms: C21_10  and  C26_15 
+REMARK    6  A    between atoms: N3_19  and  C4_20 
+REMARK    7  A    between atoms: C4_20  and  C5_21 
+REMARK    8  A    between atoms: C4_20  and  C6_22 
+REMARK    9  A    between atoms: C32_32  and  O37_37 
+REMARK   10  A    between atoms: C34_34  and  O35_35 
+REMARK   11  A    between atoms: O35_35  and  C36_36 
+REMARK   12  A    between atoms: O37_37  and  C38_38 
+ROOT
+ATOM      1  C1  EYH d   1     -11.586 -10.763  -0.849  0.00  0.00     0.147 A 
+ATOM      2  C12 EYH d   1      -7.955 -10.612  -0.860  0.00  0.00     0.088 A 
+ATOM      3  N2  EYH d   1     -11.276 -10.259   0.264  0.00  0.00    -0.222 NA
+ATOM      4  N3  EYH d   1     -10.510 -11.014  -1.560  0.00  0.00    -0.326 N 
+ATOM      5  C8  EYH d   1      -9.463 -10.663  -0.827  0.00  0.00     0.076 A 
+ATOM      6  C9  EYH d   1      -9.862 -10.169   0.344  0.00  0.00     0.152 A 
+ATOM      7  C10 EYH d   1      -8.777  -9.760   1.212  0.00  0.00     0.280 A 
+ATOM      8  N11 EYH d   1      -7.676 -10.044   0.492  0.00  0.00    -0.297 N 
+ATOM      9  O13 EYH d   1      -8.882  -9.288   2.326  0.00  0.00    -0.265 OA
+ATOM     10  H1  EYH d   1      -7.623  -9.941  -1.666  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C7  EYH d   1     -13.059 -10.914  -1.170  0.00  0.00     0.081 A 
+ATOM     12  C30 EYH d   1     -13.866  -9.821  -1.542  0.00  0.00     0.024 A 
+ATOM     13  N31 EYH d   1     -15.168  -9.966  -1.841  0.00  0.00    -0.218 NA
+ATOM     14  H14 EYH d   1     -13.423  -8.833  -1.589  0.00  0.00     0.116 H 
+ATOM     15  C32 EYH d   1     -15.745 -11.183  -1.809  0.00  0.00     0.270 A 
+ATOM     16  N33 EYH d   1     -15.002 -12.268  -1.470  0.00  0.00    -0.181 NA
+ATOM     17  C34 EYH d   1     -13.684 -12.172  -1.161  0.00  0.00     0.183 A 
+BRANCH  15  18
+ATOM     18  O37 EYH d   1     -17.100 -11.310  -2.124  0.00  0.00    -0.324 OA
+BRANCH  18  19
+ATOM     19  C38 EYH d   1     -17.542 -12.577  -2.631  0.00  0.00     0.013 C 
+ATOM     20  H25 EYH d   1     -18.622 -12.534  -2.834  0.00  0.00     0.067 H 
+ATOM     21  H26 EYH d   1     -17.340 -13.361  -1.886  0.00  0.00     0.067 H 
+ATOM     22  H27 EYH d   1     -17.003 -12.808  -3.561  0.00  0.00     0.067 H 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+BRANCH  17  23
+ATOM     23  O35 EYH d   1     -12.949 -13.315  -0.807  0.00  0.00    -0.339 OA
+BRANCH  23  24
+ATOM     24  C36 EYH d   1     -13.368 -14.617  -1.232  0.00  0.00     0.012 C 
+ATOM     25  H22 EYH d   1     -12.662 -15.371  -0.853  0.00  0.00     0.067 H 
+ATOM     26  H23 EYH d   1     -13.389 -14.655  -2.331  0.00  0.00     0.067 H 
+ATOM     27  H24 EYH d   1     -14.374 -14.825  -0.838  0.00  0.00     0.067 H 
+ENDBRANCH  23  24
+ENDBRANCH  17  23
+ENDBRANCH   1  11
+BRANCH   4  28
+ATOM     28  C4  EYH d   1     -10.522 -11.593  -2.917  0.00  0.00     0.012 C 
+ATOM     29  H15 EYH d   1     -11.572 -11.538  -3.242  0.00  0.00     0.072 H 
+BRANCH  28  30
+ATOM     30  C5  EYH d   1      -9.715 -10.872  -4.039  0.00  0.00    -0.057 C 
+ATOM     31  H16 EYH d   1      -9.826 -11.425  -4.983  0.00  0.00     0.030 H 
+ATOM     32  H17 EYH d   1      -8.652 -10.833  -3.759  0.00  0.00     0.030 H 
+ATOM     33  H18 EYH d   1     -10.098  -9.849  -4.166  0.00  0.00     0.030 H 
+ENDBRANCH  28  30
+BRANCH  28  34
+ATOM     34  C6  EYH d   1     -10.153 -13.102  -2.861  0.00  0.00    -0.057 C 
+ATOM     35  H19 EYH d   1     -10.166 -13.521  -3.878  0.00  0.00     0.030 H 
+ATOM     36  H20 EYH d   1     -10.884 -13.635  -2.236  0.00  0.00     0.030 H 
+ATOM     37  H21 EYH d   1      -9.148 -13.218  -2.429  0.00  0.00     0.030 H 
+ENDBRANCH  28  34
+ENDBRANCH   4  28
+BRANCH   2  38
+ATOM     38  C14 EYH d   1      -7.175 -11.944  -0.980  0.00  0.00    -0.023 A 
+ATOM     39  C16 EYH d   1      -6.018 -12.057  -1.782  0.00  0.00    -0.052 A 
+ATOM     40  C17 EYH d   1      -5.331 -13.283  -1.838  0.00  0.00    -0.056 A 
+ATOM     41  C18 EYH d   1      -5.770 -14.390  -1.099  0.00  0.00     0.034 A 
+ATOM     42  H2  EYH d   1      -4.449 -13.373  -2.462  0.00  0.00     0.086 H 
+ATOM     43  C19 EYH d   1      -6.911 -14.284  -0.299  0.00  0.00    -0.061 A 
+ATOM     44 CL3  EYH d   1      -4.894 -15.908  -1.172  0.00  0.00    -0.084 Cl
+ATOM     45  C20 EYH d   1      -7.601 -13.063  -0.234  0.00  0.00    -0.072 A 
+ATOM     46  H3  EYH d   1      -7.261 -15.139   0.268  0.00  0.00     0.086 H 
+ATOM     47  H4  EYH d   1      -8.476 -12.979   0.400  0.00  0.00     0.084 H 
+BRANCH  39  48
+ATOM     48  C29 EYH d   1      -5.454 -10.901  -2.630  0.00  0.00    -0.051 C 
+ATOM     49  H11 EYH d   1      -6.081 -10.008  -2.495  0.00  0.00     0.033 H 
+ATOM     50  H12 EYH d   1      -5.453 -11.191  -3.691  0.00  0.00     0.033 H 
+ATOM     51  H13 EYH d   1      -4.426 -10.679  -2.309  0.00  0.00     0.033 H 
+ENDBRANCH  39  48
+ENDBRANCH   2  38
+BRANCH   8  52
+ATOM     52  C15 EYH d   1      -6.348  -9.738   0.932  0.00  0.00     0.046 A 
+ATOM     53  C21 EYH d   1      -5.901  -8.401   0.740  0.00  0.00    -0.035 A 
+ATOM     54  C22 EYH d   1      -4.609  -8.014   1.124  0.00  0.00    -0.073 A 
+ATOM     55  C23 EYH d   1      -3.745  -8.945   1.700  0.00  0.00    -0.061 A 
+ATOM     56  H5  EYH d   1      -4.282  -6.992   0.973  0.00  0.00     0.084 H 
+ATOM     57  C24 EYH d   1      -4.182 -10.262   1.888  0.00  0.00     0.036 A 
+ATOM     58  H6  EYH d   1      -2.745  -8.652   1.999  0.00  0.00     0.086 H 
+ATOM     59  C25 EYH d   1      -5.473 -10.671   1.509  0.00  0.00    -0.035 A 
+ATOM     60 CL2  EYH d   1      -3.070 -11.389   2.608  0.00  0.00    -0.084 Cl
+ATOM     61  H7  EYH d   1      -5.789 -11.697   1.661  0.00  0.00     0.089 H 
+BRANCH  53  62
+ATOM     62  C26 EYH d   1      -6.787  -7.313   0.109  0.00  0.00    -0.049 C 
+ATOM     63  H8  EYH d   1      -7.768  -7.741  -0.146  0.00  0.00     0.033 H 
+ATOM     64  H9  EYH d   1      -6.305  -6.931  -0.803  0.00  0.00     0.033 H 
+ATOM     65  H10 EYH d   1      -6.922  -6.489   0.825  0.00  0.00     0.033 H 
+ENDBRANCH  53  62
+ENDBRANCH   8  52
+TORSDOF 12

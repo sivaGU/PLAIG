@@ -1,0 +1,140 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O3A_4 
+REMARK    2  A    between atoms: O5D_21  and  PA_1 
+REMARK    3  A    between atoms: O3A_4  and  PB_5 
+REMARK    4  A    between atoms: PB_5  and  O3B_8 
+REMARK    5  A    between atoms: O3B_8  and  PG_30 
+REMARK    6  A    between atoms: C1D_29  and  N9A_9 
+REMARK    7  A    between atoms: N7A_11  and  C7X_12 
+REMARK    8  A    between atoms: C5D_22  and  O5D_21 
+REMARK    9  A    between atoms: C4D_23  and  C5D_22 
+REMARK   10  A    between atoms: C3D_25  and  O3D_26 
+REMARK   11  A    between atoms: C2D_27  and  O2D_28 
+REMARK   12  A    between atoms: PG_30  and  O5E_33 
+REMARK   13  A    between atoms: O5E_33  and  C5E_34 
+REMARK   14  A    between atoms: C5E_34  and  C4E_35 
+REMARK   15  A    between atoms: C3E_37  and  O3E_38 
+REMARK   16  A    between atoms: C2E_39  and  O2E_40 
+REMARK   17  A    between atoms: C1E_41  and  N9B_42 
+REMARK   18  A    between atoms: C2B_49  and  N2B_50 
+ROOT
+ATOM      1  O3A GTG d   1      36.217  17.845   4.225  0.00  0.00    -0.180 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  PA  GTG d   1      35.061  18.607   3.412  0.00  0.00     0.417 P 
+ATOM      3  O1A GTG d   1      34.737  17.935   2.105  0.00  0.00    -0.624 OA
+ATOM      4  O2A GTG d   1      33.985  18.963   4.415  0.00  0.00    -0.624 OA
+BRANCH   2   5
+ATOM      5  O5D GTG d   1      35.763  19.976   3.036  0.00  0.00    -0.287 OA
+BRANCH   5   6
+ATOM      6  C5D GTG d   1      36.933  19.952   2.225  0.00  0.00     0.058 C 
+ATOM      7  H   GTG d   1      36.727  19.409   1.303  0.00  0.00     0.079 H 
+ATOM      8  H   GTG d   1      37.740  19.454   2.762  0.00  0.00     0.079 H 
+BRANCH   6   9
+ATOM      9  C4D GTG d   1      37.341  21.371   1.898  0.00  0.00     0.089 C 
+ATOM     10  O4D GTG d   1      36.348  21.944   1.059  0.00  0.00    -0.353 OA
+ATOM     11  C1D GTG d   1      36.272  23.341   1.342  0.00  0.00     0.139 C 
+ATOM     12  C2D GTG d   1      37.256  23.641   2.467  0.00  0.00     0.105 C 
+ATOM     13  H   GTG d   1      36.516  23.918   0.450  0.00  0.00     0.122 H 
+ATOM     14  C3D GTG d   1      37.425  22.283   3.105  0.00  0.00     0.091 C 
+ATOM     15  H   GTG d   1      36.928  24.418   3.158  0.00  0.00     0.093 H 
+ATOM     16  H   GTG d   1      36.687  22.082   3.882  0.00  0.00     0.091 H 
+ATOM     17  H   GTG d   1      38.328  21.299   1.442  0.00  0.00     0.090 H 
+BRANCH  11  18
+ATOM     18  N9A GTG d   1      34.900  23.706   1.771  0.00  0.00    -0.296 N 
+ATOM     19  C8A GTG d   1      33.986  22.941   2.377  0.00  0.00     0.049 A 
+ATOM     20  N7A GTG d   1      32.876  23.682   2.594  0.00  0.00    -0.340 N 
+ATOM     21  H   GTG d   1      34.114  21.894   2.651  0.00  0.00     0.141 H 
+ATOM     22  C5A GTG d   1      33.114  24.907   2.119  0.00  0.00     0.149 A 
+ATOM     23  C6A GTG d   1      32.318  26.058   2.085  0.00  0.00     0.290 A 
+ATOM     24  C4A GTG d   1      34.384  24.916   1.598  0.00  0.00     0.159 A 
+ATOM     25  O6A GTG d   1      31.152  26.096   2.542  0.00  0.00    -0.265 OA
+ATOM     26  N1A GTG d   1      32.855  27.181   1.546  0.00  0.00    -0.154 N 
+ATOM     27  C2A GTG d   1      34.126  27.160   1.033  0.00  0.00     0.680 A 
+ATOM     28  H   GTG d   1      32.311  28.044   1.522  0.00  0.00     0.187 HD
+ATOM     29  N2A GTG d   1      34.679  28.258   0.487  0.00  0.00    -0.234 N 
+ATOM     30  N3A GTG d   1      34.887  26.043   1.065  0.00  0.00    -0.174 N 
+ATOM     31  H   GTG d   1      34.151  29.130   0.449  0.00  0.00     0.174 HD
+ATOM     32  H   GTG d   1      35.627  28.219   0.111  0.00  0.00     0.174 HD
+ATOM     33  H   GTG d   1      35.835  26.055   0.688  0.00  0.00     0.186 HD
+BRANCH  20  34
+ATOM     34  C7X GTG d   1      31.651  23.156   3.246  0.00  0.00    -0.013 C 
+ATOM     35  H   GTG d   1      31.258  22.324   2.661  0.00  0.00     0.057 H 
+ATOM     36  H   GTG d   1      31.895  22.812   4.251  0.00  0.00     0.057 H 
+ATOM     37  H   GTG d   1      30.903  23.947   3.303  0.00  0.00     0.057 H 
+ENDBRANCH  20  34
+ENDBRANCH  11  18
+BRANCH  12  38
+ATOM     38  O2D GTG d   1      38.504  24.073   1.904  0.00  0.00    -0.388 OA
+ATOM     39  H   GTG d   1      39.165  24.128   2.598  0.00  0.00     0.210 HD
+ENDBRANCH  12  38
+BRANCH  14  40
+ATOM     40  O3D GTG d   1      38.670  22.133   3.784  0.00  0.00    -0.390 OA
+ATOM     41  H   GTG d   1      38.764  21.225   4.080  0.00  0.00     0.210 HD
+ENDBRANCH  14  40
+ENDBRANCH   6   9
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  42
+ATOM     42  PB  GTG d   1      36.833  16.396   3.998  0.00  0.00     0.427 P 
+ATOM     43  O1B GTG d   1      35.756  15.340   3.960  0.00  0.00    -0.624 OA
+ATOM     44  O2B GTG d   1      37.963  16.280   5.016  0.00  0.00    -0.624 OA
+BRANCH  42  45
+ATOM     45  O3B GTG d   1      37.525  16.592   2.560  0.00  0.00    -0.180 OA
+BRANCH  45  46
+ATOM     46  PG  GTG d   1      38.179  15.455   1.632  0.00  0.00     0.417 P 
+ATOM     47  O1G GTG d   1      37.695  14.077   1.954  0.00  0.00    -0.624 OA
+ATOM     48  O2G GTG d   1      39.671  15.724   1.541  0.00  0.00    -0.624 OA
+BRANCH  46  49
+ATOM     49  O5E GTG d   1      37.548  15.892   0.220  0.00  0.00    -0.287 OA
+BRANCH  49  50
+ATOM     50  C5E GTG d   1      36.168  15.656  -0.053  0.00  0.00     0.058 C 
+ATOM     51  H   GTG d   1      35.559  16.242   0.635  0.00  0.00     0.079 H 
+ATOM     52  H   GTG d   1      35.952  14.595   0.074  0.00  0.00     0.079 H 
+BRANCH  50  53
+ATOM     53  C4E GTG d   1      35.848  16.065  -1.476  0.00  0.00     0.089 C 
+ATOM     54  O4E GTG d   1      36.057  17.474  -1.608  0.00  0.00    -0.353 OA
+ATOM     55  C1E GTG d   1      37.107  17.723  -2.563  0.00  0.00     0.139 C 
+ATOM     56  C2E GTG d   1      37.886  16.422  -2.697  0.00  0.00     0.105 C 
+ATOM     57  H   GTG d   1      36.794  17.974  -3.577  0.00  0.00     0.122 H 
+ATOM     58  C3E GTG d   1      36.761  15.416  -2.500  0.00  0.00     0.091 C 
+ATOM     59  H   GTG d   1      38.717  16.302  -2.002  0.00  0.00     0.093 H 
+ATOM     60  H   GTG d   1      37.123  14.431  -2.204  0.00  0.00     0.091 H 
+ATOM     61  H   GTG d   1      34.819  15.757  -1.661  0.00  0.00     0.090 H 
+BRANCH  55  62
+ATOM     62  N9B GTG d   1      37.839  18.909  -2.076  0.00  0.00    -0.295 N 
+ATOM     63  C8B GTG d   1      38.411  18.764  -0.758  0.00  0.00     0.071 A 
+ATOM     64  N7B GTG d   1      38.996  20.087  -0.564  0.00  0.00    -0.234 NA
+ATOM     65  H   GTG d   1      38.407  17.902  -0.091  0.00  0.00     0.144 H 
+ATOM     66  C5B GTG d   1      38.712  20.849  -1.663  0.00  0.00     0.171 A 
+ATOM     67  C6B GTG d   1      39.021  22.241  -2.035  0.00  0.00     0.292 A 
+ATOM     68  C4B GTG d   1      37.937  20.074  -2.648  0.00  0.00     0.161 A 
+ATOM     69  O6B GTG d   1      39.678  22.937  -1.215  0.00  0.00    -0.265 OA
+ATOM     70  N1B GTG d   1      38.595  22.690  -3.250  0.00  0.00    -0.154 N 
+ATOM     71  C2B GTG d   1      37.880  21.891  -4.115  0.00  0.00     0.680 A 
+ATOM     72  H   GTG d   1      38.812  23.647  -3.527  0.00  0.00     0.187 HD
+ATOM     73  N3B GTG d   1      37.561  20.605  -3.829  0.00  0.00    -0.174 N 
+ATOM     74  H   GTG d   1      37.040  20.043  -4.502  0.00  0.00     0.186 HD
+BRANCH  71  75
+ATOM     75  N2B GTG d   1      37.455  22.357  -5.316  0.00  0.00    -0.234 N 
+ATOM     76  H   GTG d   1      37.663  23.316  -5.594  0.00  0.00     0.174 HD
+ATOM     77  H   GTG d   1      36.927  21.748  -5.941  0.00  0.00     0.174 HD
+ENDBRANCH  71  75
+ENDBRANCH  55  62
+BRANCH  56  78
+ATOM     78  O2E GTG d   1      38.520  16.311  -3.982  0.00  0.00    -0.388 OA
+ATOM     79  H   GTG d   1      37.870  16.461  -4.672  0.00  0.00     0.210 HD
+ENDBRANCH  56  78
+BRANCH  58  80
+ATOM     80  O3E GTG d   1      36.019  15.331  -3.728  0.00  0.00    -0.390 OA
+ATOM     81  H   GTG d   1      35.232  14.800  -3.589  0.00  0.00     0.210 HD
+ENDBRANCH  58  80
+ENDBRANCH  50  53
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH  45  46
+ENDBRANCH  42  45
+ENDBRANCH   1  42
+TORSDOF 18

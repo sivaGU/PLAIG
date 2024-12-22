@@ -1,0 +1,33 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_2  and  C04_4 
+REMARK    2  A    between atoms: C04_4  and  S13_13 
+REMARK    3  A    between atoms: C05_5  and  C06_6 
+ROOT
+ATOM      1  C06 DZ5 d   1      60.778   5.879  27.454  0.00  0.00    -0.035 A 
+ATOM      2  C07 DZ5 d   1      60.004   6.513  26.465  0.00  0.00    -0.070 A 
+ATOM      3  C08 DZ5 d   1      58.730   7.016  26.714  0.00  0.00    -0.045 A 
+ATOM      4  C09 DZ5 d   1      58.235   6.897  28.022  0.00  0.00     0.116 A 
+ATOM      5  F10 DZ5 d   1      56.983   7.390  28.300  0.00  0.00    -0.206 F 
+ATOM      6  C11 DZ5 d   1      58.910   6.306  29.026  0.00  0.00    -0.045 A 
+ATOM      7  C12 DZ5 d   1      60.183   5.813  28.737  0.00  0.00    -0.070 A 
+ATOM      8  H2  DZ5 d   1      60.417   6.614  25.468  0.00  0.00     0.084 H 
+ATOM      9  H3  DZ5 d   1      58.144   7.481  25.929  0.00  0.00     0.088 H 
+ATOM     10  H4  DZ5 d   1      58.482   6.217  30.018  0.00  0.00     0.088 H 
+ATOM     11  H5  DZ5 d   1      60.748   5.354  29.540  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  C05 DZ5 d   1      62.119   5.306  27.277  0.00  0.00    -0.050 C 
+ATOM     13  C04 DZ5 d   1      62.581   4.492  26.279  0.00  0.00     0.075 C 
+ATOM     14  H1  DZ5 d   1      62.845   5.565  28.046  0.00  0.00     0.087 H 
+BRANCH  13  15
+ATOM     15  C02 DZ5 d   1      63.990   3.896  26.366  0.00  0.00     0.216 C 
+ATOM     16  O01 DZ5 d   1      64.300   2.929  25.623  0.00  0.00    -0.644 OA
+ATOM     17  O03 DZ5 d   1      64.761   4.305  27.286  0.00  0.00    -0.644 OA
+ENDBRANCH  13  15
+BRANCH  13  18
+ATOM     18  S13 DZ5 d   1      61.593   4.065  24.925  0.00  0.00    -0.136 SA
+ATOM     19  H6  DZ5 d   1      61.322   4.901  24.431  0.00  0.00     0.107 HD
+ENDBRANCH  13  18
+ENDBRANCH   1  12
+TORSDOF 3

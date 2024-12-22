@@ -1,0 +1,97 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_3  and  O6_30 
+REMARK    2  A    between atoms: N2_6  and  C2_8 
+REMARK    3  A    between atoms: CAX_24  and  N2_6 
+REMARK    4  A    between atoms: CAL_18  and  CAA_9 
+REMARK    5  A    between atoms: CAM_19  and  CAB_10 
+REMARK    6  A    between atoms: NBE_29  and  CAL_18 
+REMARK    7  A    between atoms: NBE_29  and  CAM_19 
+REMARK    8  A    between atoms: CAP_22  and  CBD_26 
+REMARK    9  A    between atoms: O6_30  and  CAP_22 
+REMARK   10  A    between atoms: CAW_23  and  CAY_25 
+REMARK       I    between atoms: CAW_23  and  NBE_29 
+ROOT
+ATOM      1  C4  AQG d   1      -0.642  -5.129   0.586  0.00  0.00     0.181 A 
+ATOM      2  C5  AQG d   1      -1.866  -5.387  -0.001  0.00  0.00     0.158 A 
+ATOM      3  C6  AQG d   1      -2.813  -6.189   0.705  0.00  0.00     0.216 A 
+ATOM      4  C8  AQG d   1      -0.661  -4.135  -1.357  0.00  0.00     0.066 A 
+ATOM      5  N1  AQG d   1      -2.476  -6.659   1.916  0.00  0.00    -0.035 NA
+ATOM      6  N3  AQG d   1      -0.381  -5.649   1.825  0.00  0.00    -0.042 NA
+ATOM      7  C2  AQG d   1      -1.277  -6.397   2.461  0.00  0.00     0.731 A 
+ATOM      8  N7  AQG d   1      -1.838  -4.751  -1.209  0.00  0.00    -0.236 NA
+ATOM      9  N9  AQG d   1       0.084  -4.352  -0.275  0.00  0.00    -0.333 N 
+ATOM     10  H1  AQG d   1      -0.359  -3.549  -2.224  0.00  0.00     0.143 H 
+ATOM     11  H30 AQG d   1       1.038  -3.998  -0.115  0.00  0.00     0.168 HD
+ENDROOT
+BRANCH   7  12
+ATOM     12  N2  AQG d   1      -0.900  -6.908   3.803  0.00  0.00    -0.188 N 
+ATOM     13  H2  AQG d   1      -0.072  -6.476   4.238  0.00  0.00     0.184 HD
+BRANCH  12  14
+ATOM     14  CAX AQG d   1      -1.575  -7.967   4.590  0.00  0.00     0.049 A 
+ATOM     15  CAD AQG d   1      -1.149  -8.150   5.898  0.00  0.00    -0.056 A 
+ATOM     16  CAF AQG d   1      -1.723  -9.125   6.709  0.00  0.00    -0.066 A 
+ATOM     17  H9  AQG d   1      -0.357  -7.524   6.294  0.00  0.00     0.087 H 
+ATOM     18  CAY AQG d   1      -2.758  -9.924   6.215  0.00  0.00     0.032 A 
+ATOM     19  H11 AQG d   1      -1.367  -9.265   7.723  0.00  0.00     0.085 H 
+ATOM     20  CAG AQG d   1      -3.190  -9.754   4.907  0.00  0.00    -0.066 A 
+ATOM     21  CAE AQG d   1      -2.605  -8.774   4.089  0.00  0.00    -0.056 A 
+ATOM     22  H12 AQG d   1      -3.983 -10.381   4.515  0.00  0.00     0.085 H 
+ATOM     23  H10 AQG d   1      -2.950  -8.642   3.070  0.00  0.00     0.087 H 
+BRANCH  18  24
+ATOM     24  CAW AQG d   1      -3.385 -11.012   7.137  0.00  0.00     0.253 C 
+ATOM     25  NBE AQG d   1      -4.160 -10.665   8.361  0.00  0.00    -0.349 N 
+ATOM     26  OAC AQG d   1      -3.229 -12.147   6.861  0.00  0.00    -0.267 OA
+BRANCH  25  27
+ATOM     27  CAL AQG d   1      -4.393  -9.271   8.759  0.00  0.00    -0.005 C 
+ATOM     28  H19 AQG d   1      -4.342  -8.632   7.865  0.00  0.00     0.063 H 
+ATOM     29  H20 AQG d   1      -5.393  -9.191   9.210  0.00  0.00     0.063 H 
+BRANCH  27  30
+ATOM     30  CAA AQG d   1      -3.350  -8.791   9.774  0.00  0.00    -0.061 C 
+ATOM     31  H3  AQG d   1      -3.558  -7.746  10.047  0.00  0.00     0.029 H 
+ATOM     32  H4  AQG d   1      -2.346  -8.861   9.330  0.00  0.00     0.029 H 
+ATOM     33  H5  AQG d   1      -3.397  -9.421  10.674  0.00  0.00     0.029 H 
+ENDBRANCH  27  30
+ENDBRANCH  25  27
+BRANCH  25  34
+ATOM     34  CAM AQG d   1      -4.722 -11.761   9.188  0.00  0.00    -0.005 C 
+ATOM     35  H21 AQG d   1      -5.538 -11.362   9.808  0.00  0.00     0.063 H 
+ATOM     36  H22 AQG d   1      -5.115 -12.547   8.526  0.00  0.00     0.063 H 
+BRANCH  34  37
+ATOM     37  CAB AQG d   1      -3.639 -12.367  10.106  0.00  0.00    -0.061 C 
+ATOM     38  H6  AQG d   1      -4.079 -13.176  10.708  0.00  0.00     0.029 H 
+ATOM     39  H7  AQG d   1      -3.245 -11.586  10.773  0.00  0.00     0.029 H 
+ATOM     40  H8  AQG d   1      -2.821 -12.771   9.491  0.00  0.00     0.029 H 
+ENDBRANCH  34  37
+ENDBRANCH  25  34
+ENDBRANCH  18  24
+ENDBRANCH  12  14
+ENDBRANCH   7  12
+BRANCH   3  41
+ATOM     41  O6  AQG d   1      -4.093  -6.483   0.139  0.00  0.00    -0.332 OA
+BRANCH  41  42
+ATOM     42  CAP AQG d   1      -5.033  -6.952   1.097  0.00  0.00     0.031 C 
+ATOM     43  H27 AQG d   1      -4.620  -6.839   2.110  0.00  0.00     0.075 H 
+ATOM     44  H28 AQG d   1      -5.967  -6.377   1.015  0.00  0.00     0.075 H 
+BRANCH  42  45
+ATOM     45  CBD AQG d   1      -5.310  -8.448   0.807  0.00  0.00    -0.033 C 
+ATOM     46  CAN AQG d   1      -5.651  -8.576  -0.683  0.00  0.00    -0.060 C 
+ATOM     47  CAJ AQG d   1      -6.272  -9.909  -1.103  0.00  0.00    -0.065 C 
+ATOM     48  H23 AQG d   1      -6.361  -7.776  -0.938  0.00  0.00     0.033 H 
+ATOM     49  H24 AQG d   1      -4.722  -8.439  -1.256  0.00  0.00     0.033 H 
+ATOM     50  CAI AQG d   1      -6.843 -10.712   0.064  0.00  0.00    -0.065 C 
+ATOM     51  H15 AQG d   1      -7.085  -9.705  -1.815  0.00  0.00     0.033 H 
+ATOM     52  H16 AQG d   1      -5.496 -10.514  -1.595  0.00  0.00     0.033 H 
+ATOM     53  CAK AQG d   1      -7.468  -9.795   1.106  0.00  0.00    -0.065 C 
+ATOM     54  H13 AQG d   1      -6.033 -11.290   0.533  0.00  0.00     0.033 H 
+ATOM     55  H14 AQG d   1      -7.612 -11.401  -0.316  0.00  0.00     0.033 H 
+ATOM     56  CAO AQG d   1      -6.411  -8.912   1.765  0.00  0.00    -0.060 C 
+ATOM     57  H17 AQG d   1      -7.956 -10.408   1.878  0.00  0.00     0.033 H 
+ATOM     58  H18 AQG d   1      -8.218  -9.155   0.618  0.00  0.00     0.033 H 
+ATOM     59  H25 AQG d   1      -5.943  -9.482   2.582  0.00  0.00     0.033 H 
+ATOM     60  H26 AQG d   1      -6.910  -8.023   2.177  0.00  0.00     0.033 H 
+ATOM     61  H29 AQG d   1      -4.405  -9.040   1.007  0.00  0.00     0.043 H 
+ENDBRANCH  42  45
+ENDBRANCH  41  42
+ENDBRANCH   3  41
+TORSDOF 10

@@ -1,0 +1,89 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAG_7 
+REMARK    2  A    between atoms: CAC_3  and  NAZ_17 
+REMARK    3  A    between atoms: NBG_24  and  CAD_4 
+REMARK    4  A    between atoms: CAE_5  and  CAJ_10 
+REMARK    5  A    between atoms: CAJ_10  and  CAK_11 
+REMARK    6  A    between atoms: CAJ_10  and  OAW_14 
+REMARK    7  A    between atoms: CAK_11  and  CAL_12 
+REMARK    8  A    between atoms: CAK_11  and  OAY_16 
+REMARK    9  A    between atoms: CAL_12  and  OAM_13 
+REMARK   10  A    between atoms: OAW_14  and  CAX_15 
+REMARK       I    between atoms: NAZ_17  and  CBA_18 
+REMARK       I    between atoms: CBA_18  and  NBB_19 
+REMARK   11  A    between atoms: CBD_21  and  CBE_22 
+REMARK       I    between atoms: CBD_21  and  NBG_24 
+ROOT
+ATOM      1  CAA LNV d   1      45.982  28.460  22.132  0.00  0.00     0.124 C 
+ATOM      2  CAB LNV d   1      45.435  27.064  22.306  0.00  0.00    -0.010 C 
+ATOM      3  CAC LNV d   1      45.537  26.069  21.146  0.00  0.00     0.051 C 
+ATOM      4  CAD LNV d   1      46.539  26.479  20.044  0.00  0.00     0.059 C 
+ATOM      5  CAE LNV d   1      46.691  28.033  19.857  0.00  0.00     0.088 C 
+ATOM      6  OAF LNV d   1      46.759  28.732  21.060  0.00  0.00    -0.365 OA
+ATOM      7  H1  LNV d   1      45.061  28.826  21.655  0.00  0.00     0.100 H 
+ATOM      8  H2  LNV d   1      44.367  27.166  22.549  0.00  0.00     0.040 H 
+ATOM      9  H3  LNV d   1      45.964  26.616  23.160  0.00  0.00     0.040 H 
+ATOM     10  H4  LNV d   1      44.565  26.177  20.643  0.00  0.00     0.076 H 
+ATOM     11  H5  LNV d   1      47.501  26.197  20.497  0.00  0.00     0.079 H 
+ATOM     12  H6  LNV d   1      45.799  28.379  19.314  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  CAJ LNV d   1      47.932  28.415  19.031  0.00  0.00     0.091 C 
+ATOM     14  H7  LNV d   1      47.964  27.815  18.110  0.00  0.00     0.091 H 
+BRANCH  13  15
+ATOM     15  CAK LNV d   1      47.902  29.863  18.688  0.00  0.00     0.083 C 
+ATOM     16  H8  LNV d   1      47.927  30.383  19.657  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  CAL LNV d   1      49.097  30.355  17.934  0.00  0.00     0.043 C 
+ATOM     18  H9  LNV d   1      49.993  30.188  18.550  0.00  0.00     0.078 H 
+ATOM     19  H10 LNV d   1      48.975  31.433  17.749  0.00  0.00     0.078 H 
+BRANCH  17  20
+ATOM     20  OAM LNV d   1      49.270  29.728  16.739  0.00  0.00    -0.398 OA
+ATOM     21  H11 LNV d   1      48.506  29.872  16.194  0.00  0.00     0.209 HD
+ENDBRANCH  17  20
+ENDBRANCH  15  17
+BRANCH  15  22
+ATOM     22  OAY LNV d   1      46.807  30.258  18.104  0.00  0.00    -0.391 OA
+ATOM     23  H15 LNV d   1      46.780  29.914  17.219  0.00  0.00     0.210 HD
+ENDBRANCH  15  22
+ENDBRANCH  13  15
+BRANCH  13  24
+ATOM     24  OAW LNV d   1      49.029  28.179  19.777  0.00  0.00    -0.385 OA
+BRANCH  24  25
+ATOM     25  CAX LNV d   1      49.962  27.338  19.371  0.00  0.00     0.005 C 
+ATOM     26  H12 LNV d   1      50.765  27.291  20.121  0.00  0.00     0.066 H 
+ATOM     27  H13 LNV d   1      50.376  27.684  18.412  0.00  0.00     0.066 H 
+ATOM     28  H14 LNV d   1      49.523  26.338  19.241  0.00  0.00     0.066 H 
+ENDBRANCH  24  25
+ENDBRANCH  13  24
+ENDBRANCH   5  13
+BRANCH   4  29
+ATOM     29  NBG LNV d   1      46.557  25.738  18.848  0.00  0.00    -0.352 N 
+ATOM     30  CBD LNV d   1      47.326  24.609  18.661  0.00  0.00     0.214 C 
+ATOM     31  OBF LNV d   1      48.142  24.221  19.380  0.00  0.00    -0.274 OA
+ATOM     32  H24 LNV d   1      45.980  26.047  18.092  0.00  0.00     0.163 HD
+BRANCH  30  33
+ATOM     33  CBE LNV d   1      46.988  23.967  17.356  0.00  0.00    -0.003 C 
+ATOM     34  H21 LNV d   1      46.179  24.531  16.869  0.00  0.00     0.040 H 
+ATOM     35  H22 LNV d   1      46.659  22.932  17.531  0.00  0.00     0.040 H 
+ATOM     36  H23 LNV d   1      47.876  23.965  16.707  0.00  0.00     0.040 H 
+ENDBRANCH  30  33
+ENDBRANCH   4  29
+BRANCH   3  37
+ATOM     37  NAZ LNV d   1      45.542  24.685  21.523  0.00  0.00    -0.220 N 
+ATOM     38  CBA LNV d   1      44.948  23.649  20.769  0.00  0.00     0.665 C 
+ATOM     39  NBB LNV d   1      45.146  22.413  21.124  0.00  0.00    -0.235 N 
+ATOM     40  NBC LNV d   1      44.268  23.964  19.710  0.00  0.00    -0.235 N 
+ATOM     41  H17 LNV d   1      44.719  21.647  20.583  0.00  0.00     0.174 HD
+ATOM     42  H18 LNV d   1      45.730  22.200  21.946  0.00  0.00     0.174 HD
+ATOM     43  H19 LNV d   1      44.132  24.954  19.461  0.00  0.00     0.174 HD
+ATOM     44  H20 LNV d   1      43.864  23.224  19.118  0.00  0.00     0.174 HD
+ATOM     45  H16 LNV d   1      46.011  24.429  22.404  0.00  0.00     0.178 HD
+ENDBRANCH   3  37
+BRANCH   1  46
+ATOM     46  CAG LNV d   1      45.925  29.493  23.242  0.00  0.00     0.203 C 
+ATOM     47  OAH LNV d   1      45.198  29.188  24.299  0.00  0.00    -0.646 OA
+ATOM     48  OAI LNV d   1      46.309  30.571  22.965  0.00  0.00    -0.646 OA
+ENDBRANCH   1  46
+TORSDOF 11

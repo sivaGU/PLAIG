@@ -1,0 +1,104 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  NBG_22 
+REMARK    2  A    between atoms: SBH_7  and  CAD_6 
+REMARK    3  A    between atoms: OAU_10  and  SBH_7 
+REMARK    4  A    between atoms: CBC_11  and  OAU_10 
+REMARK    5  A    between atoms: CAW_12  and  CAB_13 
+REMARK    6  A    between atoms: CAV_15  and  CAA_16 
+REMARK    7  A    between atoms: NAT_19  and  CAZ_18 
+REMARK    8  A    between atoms: NAT_19  and  C2_20 
+REMARK    9  A    between atoms: CAX_25  and  CAC_26 
+REMARK   10  A    between atoms: CBA_27  and  CAP_28 
+REMARK   11  A    between atoms: CAP_28  and  NBF_29 
+REMARK   12  A    between atoms: CBE_33  and  OAG_34 
+ROOT
+ATOM      1  C4  X3G d   1      12.904  11.467   5.744  0.00  0.00     0.193 A 
+ATOM      2  C5  X3G d   1      11.751  12.218   5.494  0.00  0.00     0.181 A 
+ATOM      3  C6  X3G d   1      11.870  13.401   4.776  0.00  0.00     0.062 A 
+ATOM      4  N1  X3G d   1      13.057  13.819   4.360  0.00  0.00    -0.072 NA
+ATOM      5  N3  X3G d   1      14.082  11.960   5.291  0.00  0.00    -0.041 NA
+ATOM      6  C2  X3G d   1      14.181  13.112   4.594  0.00  0.00     0.728 A 
+ATOM      7  F5  X3G d   1      10.536  11.836   5.908  0.00  0.00    -0.200 F 
+ATOM      8  H1  X3G d   1      10.985  13.987   4.554  0.00  0.00     0.120 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  NBG X3G d   1      12.903  10.330   6.461  0.00  0.00    -0.313 N 
+ATOM     10  CAM X3G d   1      14.019   9.673   6.805  0.00  0.00    -0.005 A 
+ATOM     11  CBA X3G d   1      13.709   8.614   7.548  0.00  0.00    -0.009 A 
+ATOM     12  H14 X3G d   1      15.029   9.963   6.519  0.00  0.00     0.113 H 
+ATOM     13  CAX X3G d   1      12.332   8.627   7.671  0.00  0.00    -0.037 A 
+ATOM     14  CAL X3G d   1      11.857   9.682   7.013  0.00  0.00    -0.007 A 
+ATOM     15  H15 X3G d   1      10.810   9.971   6.934  0.00  0.00     0.113 H 
+BRANCH  11  16
+ATOM     16  CAP X3G d   1      14.699   7.592   8.119  0.00  0.00     0.109 C 
+ATOM     17  H19 X3G d   1      15.542   7.481   7.421  0.00  0.00     0.083 H 
+ATOM     18  H20 X3G d   1      14.189   6.624   8.236  0.00  0.00     0.083 H 
+BRANCH  16  19
+ATOM     19  NBF X3G d   1      15.213   8.025   9.429  0.00  0.00    -0.065 N 
+ATOM     20  CAQ X3G d   1      16.137   9.173   9.332  0.00  0.00     0.107 C 
+ATOM     21  CBE X3G d   1      17.189   8.902  10.376  0.00  0.00     0.060 C 
+ATOM     22  H22 X3G d   1      15.611  10.115   9.546  0.00  0.00     0.080 H 
+ATOM     23  H23 X3G d   1      16.588   9.225   8.330  0.00  0.00     0.080 H 
+ATOM     24  CAN X3G d   1      17.395   7.414  10.202  0.00  0.00    -0.017 C 
+ATOM     25  H28 X3G d   1      16.869   9.174  11.393  0.00  0.00     0.085 H 
+ATOM     26  CAO X3G d   1      15.969   6.911  10.038  0.00  0.00     0.086 C 
+ATOM     27  H26 X3G d   1      18.000   7.197   9.309  0.00  0.00     0.039 H 
+ATOM     28  H27 X3G d   1      17.875   6.971  11.087  0.00  0.00     0.039 H 
+ATOM     29  H24 X3G d   1      15.948   6.030   9.380  0.00  0.00     0.076 H 
+ATOM     30  H25 X3G d   1      15.541   6.649  11.017  0.00  0.00     0.076 H 
+ATOM     31  H21 X3G d   1      14.434   8.275  10.018  0.00  0.00     0.280 HD
+BRANCH  21  32
+ATOM     32  OAG X3G d   1      18.379   9.592  10.003  0.00  0.00    -0.394 OA
+ATOM     33  H29 X3G d   1      18.249  10.527  10.112  0.00  0.00     0.210 HD
+ENDBRANCH  21  32
+ENDBRANCH  16  19
+ENDBRANCH  11  16
+BRANCH  13  34
+ATOM     34  CAC X3G d   1      11.497   7.594   8.435  0.00  0.00    -0.049 C 
+ATOM     35  H16 X3G d   1      10.431   7.858   8.362  0.00  0.00     0.033 H 
+ATOM     36  H17 X3G d   1      11.801   7.586   9.492  0.00  0.00     0.033 H 
+ATOM     37  H18 X3G d   1      11.659   6.597   7.999  0.00  0.00     0.033 H 
+ENDBRANCH  13  34
+ENDBRANCH   1   9
+BRANCH   6  38
+ATOM     38  NAT X3G d   1      15.353  13.622   4.154  0.00  0.00    -0.188 N 
+ATOM     39  H13 X3G d   1      15.339  14.599   3.828  0.00  0.00     0.184 HD
+BRANCH  38  40
+ATOM     40  CAZ X3G d   1      16.538  12.983   4.098  0.00  0.00     0.050 A 
+ATOM     41  CAK X3G d   1      17.561  13.559   3.332  0.00  0.00    -0.048 A 
+ATOM     42  CAW X3G d   1      18.813  12.953   3.209  0.00  0.00    -0.025 A 
+ATOM     43  H8  X3G d   1      17.376  14.498   2.823  0.00  0.00     0.087 H 
+ATOM     44  CBC X3G d   1      19.088  11.750   3.888  0.00  0.00     0.101 A 
+ATOM     45  CAV X3G d   1      18.060  11.165   4.650  0.00  0.00    -0.025 A 
+ATOM     46  CAJ X3G d   1      16.816  11.783   4.769  0.00  0.00    -0.048 A 
+ATOM     47  H12 X3G d   1      16.052  11.329   5.390  0.00  0.00     0.087 H 
+BRANCH  42  48
+ATOM     48  CAB X3G d   1      19.863  13.651   2.337  0.00  0.00    -0.049 C 
+ATOM     49  H5  X3G d   1      19.432  14.567   1.907  0.00  0.00     0.033 H 
+ATOM     50  H6  X3G d   1      20.173  12.976   1.526  0.00  0.00     0.033 H 
+ATOM     51  H7  X3G d   1      20.737  13.910   2.952  0.00  0.00     0.033 H 
+ENDBRANCH  42  48
+BRANCH  44  52
+ATOM     52  OAU X3G d   1      20.295  11.085   3.761  0.00  0.00    -0.232 OA
+BRANCH  52  53
+ATOM     53  SBH X3G d   1      21.495  11.539   4.401  0.00  0.00     0.266 S 
+ATOM     54  OAE X3G d   1      22.573  11.633   3.363  0.00  0.00    -0.199 OA
+ATOM     55  OAF X3G d   1      21.310  12.891   5.018  0.00  0.00    -0.199 OA
+BRANCH  53  56
+ATOM     56  CAD X3G d   1      21.995  10.344   5.622  0.00  0.00     0.038 C 
+ATOM     57  H2  X3G d   1      22.916  10.688   6.116  0.00  0.00     0.052 H 
+ATOM     58  H3  X3G d   1      22.181   9.376   5.133  0.00  0.00     0.052 H 
+ATOM     59  H4  X3G d   1      21.198  10.230   6.371  0.00  0.00     0.052 H 
+ENDBRANCH  53  56
+ENDBRANCH  52  53
+ENDBRANCH  44  52
+BRANCH  45  60
+ATOM     60  CAA X3G d   1      18.265   9.855   5.416  0.00  0.00    -0.049 C 
+ATOM     61  H9  X3G d   1      17.335   9.586   5.938  0.00  0.00     0.033 H 
+ATOM     62  H10 X3G d   1      19.074   9.982   6.151  0.00  0.00     0.033 H 
+ATOM     63  H11 X3G d   1      18.534   9.056   4.710  0.00  0.00     0.033 H 
+ENDBRANCH  45  60
+ENDBRANCH  38  40
+ENDBRANCH   6  38
+TORSDOF 12

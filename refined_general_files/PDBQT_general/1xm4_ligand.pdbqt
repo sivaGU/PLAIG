@@ -1,0 +1,67 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C18_8  and  N16_9 
+REMARK       I    between atoms: N16_9  and  C15_10 
+REMARK    2  A    between atoms: C15_10  and  C14_12 
+REMARK    3  A    between atoms: C9_15  and  O10_16 
+REMARK    4  A    between atoms: O10_16  and  C11_17 
+REMARK    5  A    between atoms: C2_18  and  O3_20 
+REMARK    6  A    between atoms: O3_20  and  C4_21 
+ROOT
+ATOM      1  C14 PIL d   1      87.695   1.912  62.586  0.00  0.00     0.035 A 
+ATOM      2  C13 PIL d   1      88.781   2.292  61.799  0.00  0.00    -0.065 A 
+ATOM      3  C12 PIL d   1      90.054   2.350  62.345  0.00  0.00    -0.047 A 
+ATOM      4  C9  PIL d   1      90.281   2.035  63.684  0.00  0.00     0.101 A 
+ATOM      5  C2  PIL d   1      89.207   1.658  64.451  0.00  0.00     0.103 A 
+ATOM      6  C1  PIL d   1      87.919   1.591  63.906  0.00  0.00    -0.033 A 
+ATOM      7  H4  PIL d   1      88.629   2.543  60.755  0.00  0.00     0.085 H 
+ATOM      8  H5  PIL d   1      90.888   2.646  61.719  0.00  0.00     0.087 H 
+ATOM      9  H9  PIL d   1      87.088   1.283  64.531  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  O3  PIL d   1      89.472   1.355  65.750  0.00  0.00    -0.343 OA
+BRANCH  10  11
+ATOM     11  C4  PIL d   1      88.473   0.798  66.602  0.00  0.00     0.045 C 
+ATOM     12  C5  PIL d   1      87.459   1.873  66.968  0.00  0.00    -0.040 C 
+ATOM     13  C6  PIL d   1      87.955   2.429  68.283  0.00  0.00    -0.063 C 
+ATOM     14  H11 PIL d   1      86.456   1.438  67.084  0.00  0.00     0.036 H 
+ATOM     15  H12 PIL d   1      87.431   2.659  66.199  0.00  0.00     0.036 H 
+ATOM     16  C7  PIL d   1      88.644   1.275  68.962  0.00  0.00    -0.063 C 
+ATOM     17  H13 PIL d   1      87.113   2.789  68.892  0.00  0.00     0.033 H 
+ATOM     18  H14 PIL d   1      88.662   3.254  68.111  0.00  0.00     0.033 H 
+ATOM     19  C8  PIL d   1      89.119   0.349  67.887  0.00  0.00    -0.040 C 
+ATOM     20  H15 PIL d   1      87.939   0.752  69.625  0.00  0.00     0.033 H 
+ATOM     21  H16 PIL d   1      89.499   1.640  69.550  0.00  0.00     0.033 H 
+ATOM     22  H17 PIL d   1      90.214   0.403  67.798  0.00  0.00     0.036 H 
+ATOM     23  H18 PIL d   1      88.820  -0.684  68.119  0.00  0.00     0.036 H 
+ATOM     24  H10 PIL d   1      87.977  -0.046  66.102  0.00  0.00     0.084 H 
+ENDBRANCH  10  11
+ENDBRANCH   5  10
+BRANCH   4  25
+ATOM     25  O10 PIL d   1      91.531   2.080  64.310  0.00  0.00    -0.353 OA
+BRANCH  25  26
+ATOM     26  C11 PIL d   1      92.729   2.391  63.591  0.00  0.00     0.010 C 
+ATOM     27  H6  PIL d   1      93.586   2.369  64.280  0.00  0.00     0.066 H 
+ATOM     28  H7  PIL d   1      92.641   3.394  63.147  0.00  0.00     0.066 H 
+ATOM     29  H8  PIL d   1      92.881   1.649  62.793  0.00  0.00     0.066 H 
+ENDBRANCH  25  26
+ENDBRANCH   4  25
+BRANCH   1  30
+ATOM     30  C15 PIL d   1      86.289   1.862  62.059  0.00  0.00     0.256 C 
+ATOM     31  N16 PIL d   1      86.021   2.275  60.808  0.00  0.00    -0.320 N 
+ATOM     32  H3  PIL d   1      86.776   2.562  60.219  0.00  0.00     0.169 HD
+ATOM     33  O17 PIL d   1      85.419   1.504  62.830  0.00  0.00    -0.267 OA
+BRANCH  31  34
+ATOM     34  C18 PIL d   1      84.717   2.315  60.307  0.00  0.00     0.081 A 
+ATOM     35  C24 PIL d   1      83.759   3.150  60.864  0.00  0.00     0.080 A 
+ATOM     36 CL25 PIL d   1      84.223   4.142  62.194  0.00  0.00    -0.080 Cl
+ATOM     37  C23 PIL d   1      82.461   3.234  60.414  0.00  0.00     0.025 A 
+ATOM     38  N22 PIL d   1      82.120   2.489  59.353  0.00  0.00    -0.270 NA
+ATOM     39  H1  PIL d   1      81.740   3.880  60.901  0.00  0.00     0.117 H 
+ATOM     40  C21 PIL d   1      83.017   1.692  58.743  0.00  0.00     0.025 A 
+ATOM     41  C19 PIL d   1      84.322   1.608  59.209  0.00  0.00     0.080 A 
+ATOM     42  H2  PIL d   1      82.717   1.110  57.879  0.00  0.00     0.117 H 
+ATOM     43 CL20 PIL d   1      85.462   0.504  58.443  0.00  0.00    -0.080 Cl
+ENDBRANCH  31  34
+ENDBRANCH   1  30
+TORSDOF 6

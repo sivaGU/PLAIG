@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CB_3  and  CG_4 
+ROOT
+ATOM      1  CB  HSM d   1      -1.970   5.583   9.567  0.00  0.00    -0.003 C 
+ATOM      2  H6  HSM d   1      -1.712   4.914   8.733  0.00  0.00     0.044 H 
+ATOM      3  H7  HSM d   1      -2.345   6.537   9.169  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  HSM d   1      -0.646   5.919  10.239  0.00  0.00     0.085 C 
+ATOM      5  H4  HSM d   1      -0.418   6.980  10.056  0.00  0.00     0.075 H 
+ATOM      6  H5  HSM d   1      -0.747   5.747  11.321  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  N   HSM d   1       0.472   5.105   9.736  0.00  0.00    -0.079 N 
+ATOM      8  H1  HSM d   1       1.320   5.368  10.213  0.00  0.00     0.274 HD
+ATOM      9  H2  HSM d   1       0.582   5.260   8.746  0.00  0.00     0.274 HD
+ATOM     10  H3  HSM d   1       0.280   4.130   9.905  0.00  0.00     0.274 HD
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  CG  HSM d   1      -3.141   4.946  10.236  0.00  0.00     0.029 A 
+ATOM     12  CD2 HSM d   1      -4.083   5.415  11.087  0.00  0.00     0.025 A 
+ATOM     13  NE2 HSM d   1      -4.926   4.363  11.383  0.00  0.00    -0.254 NA
+ATOM     14  H9  HSM d   1      -4.161   6.433  11.467  0.00  0.00     0.117 H 
+ATOM     15  CE1 HSM d   1      -4.545   3.288  10.731  0.00  0.00     0.063 A 
+ATOM     16  ND1 HSM d   1      -3.480   3.627  10.041  0.00  0.00    -0.353 N 
+ATOM     17  H10 HSM d   1      -5.019   2.308  10.757  0.00  0.00     0.143 H 
+ATOM     18  H8  HSM d   1      -2.961   2.983   9.428  0.00  0.00     0.166 HD
+ENDBRANCH   1  11
+TORSDOF 3

@@ -1,0 +1,71 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3'_1  and  C3'_2 
+REMARK    2  A    between atoms: N1'_4  and  C10_12 
+REMARK    3  A    between atoms: C4'_6  and  C5'_7 
+REMARK    4  A    between atoms: C5'_7  and  S5'_8 
+REMARK    5  A    between atoms: S5'_8  and  C20_9 
+REMARK    6  A    between atoms: C20_9  and  C21_10 
+REMARK    7  A    between atoms: C10_12  and  C9_13 
+REMARK    8  A    between atoms: C6_19  and  N6_20 
+ROOT
+ATOM      1  C21 OS2 d   1      58.306  13.260  33.786  0.00  0.00    -0.107 C 
+ATOM      2  C22 OS2 d   1      57.730  13.670  34.849  0.00  0.00    -0.153 C 
+ATOM      3  H13 OS2 d   1      57.254  14.009  35.728  0.00  0.00     0.166 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C20 OS2 d   1      58.924  12.831  32.543  0.00  0.00     0.031 C 
+ATOM      5  H11 OS2 d   1      60.009  12.992  32.631  0.00  0.00     0.068 H 
+ATOM      6  H12 OS2 d   1      58.721  11.757  32.417  0.00  0.00     0.068 H 
+BRANCH   4   7
+ATOM      7  S5' OS2 d   1      58.379  13.647  31.115  0.00  0.00    -0.157 SA
+BRANCH   7   8
+ATOM      8  C5' OS2 d   1      58.781  15.356  31.437  0.00  0.00    -0.015 C 
+ATOM      9  H9  OS2 d   1      58.368  15.971  30.624  0.00  0.00     0.049 H 
+ATOM     10  H10 OS2 d   1      58.319  15.650  32.391  0.00  0.00     0.049 H 
+BRANCH   8  11
+ATOM     11  C4' OS2 d   1      60.289  15.616  31.526  0.00  0.00     0.004 C 
+ATOM     12  C3' OS2 d   1      60.604  17.093  31.764  0.00  0.00     0.064 C 
+ATOM     13  C2' OS2 d   1      60.986  17.616  30.394  0.00  0.00     0.108 C 
+ATOM     14  H2  OS2 d   1      59.722  17.616  32.162  0.00  0.00     0.086 H 
+ATOM     15  N1' OS2 d   1      61.793  16.479  29.904  0.00  0.00    -0.064 N 
+ATOM     16  H3  OS2 d   1      61.579  18.540  30.460  0.00  0.00     0.080 H 
+ATOM     17  H4  OS2 d   1      60.102  17.792  29.763  0.00  0.00     0.080 H 
+ATOM     18  C1' OS2 d   1      61.000  15.274  30.214  0.00  0.00     0.090 C 
+ATOM     19  H5  OS2 d   1      62.637  16.440  30.454  0.00  0.00     0.280 HD
+ATOM     20  H6  OS2 d   1      61.654  14.399  30.342  0.00  0.00     0.076 H 
+ATOM     21  H7  OS2 d   1      60.270  15.072  29.416  0.00  0.00     0.076 H 
+ATOM     22  H8  OS2 d   1      60.700  15.009  32.346  0.00  0.00     0.047 H 
+BRANCH  12  23
+ATOM     23  O3' OS2 d   1      61.716  17.287  32.641  0.00  0.00    -0.393 OA
+ATOM     24  H1  OS2 d   1      61.495  16.965  33.507  0.00  0.00     0.210 HD
+ENDBRANCH  12  23
+BRANCH  15  25
+ATOM     25  C10 OS2 d   1      62.226  16.595  28.517  0.00  0.00     0.111 C 
+ATOM     26  H14 OS2 d   1      62.844  15.710  28.304  0.00  0.00     0.083 H 
+ATOM     27  H15 OS2 d   1      62.848  17.500  28.455  0.00  0.00     0.083 H 
+BRANCH  25  28
+ATOM     28  C9  OS2 d   1      61.218  16.690  27.415  0.00  0.00     0.014 A 
+ATOM     29  C4  OS2 d   1      60.589  17.906  26.909  0.00  0.00     0.098 A 
+ATOM     30  N3  OS2 d   1      60.670  19.164  27.366  0.00  0.00    -0.239 NA
+ATOM     31  C5  OS2 d   1      59.788  17.475  25.780  0.00  0.00     0.107 A 
+ATOM     32  C2  OS2 d   1      59.965  20.057  26.675  0.00  0.00     0.089 A 
+ATOM     33  N1  OS2 d   1      59.195  19.766  25.634  0.00  0.00    -0.223 NA
+ATOM     34  H20 OS2 d   1      60.024  21.094  26.984  0.00  0.00     0.146 H 
+ATOM     35  C6  OS2 d   1      59.078  18.530  25.104  0.00  0.00     0.151 A 
+ATOM     36  N7  OS2 d   1      59.961  16.139  25.630  0.00  0.00    -0.360 N 
+ATOM     37  C8  OS2 d   1      60.824  15.701  26.565  0.00  0.00    -0.012 A 
+ATOM     38  H17 OS2 d   1      59.505  15.553  24.916  0.00  0.00     0.165 HD
+ATOM     39  H16 OS2 d   1      61.169  14.671  26.634  0.00  0.00     0.112 H 
+BRANCH  35  40
+ATOM     40  N6  OS2 d   1      58.322  18.247  24.042  0.00  0.00    -0.382 N 
+ATOM     41  H18 OS2 d   1      57.813  19.000  23.557  0.00  0.00     0.157 HD
+ATOM     42  H19 OS2 d   1      58.247  17.276  23.707  0.00  0.00     0.157 HD
+ENDBRANCH  35  40
+ENDBRANCH  25  28
+ENDBRANCH  15  25
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+TORSDOF 8

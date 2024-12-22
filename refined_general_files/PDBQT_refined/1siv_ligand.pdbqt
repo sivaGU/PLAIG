@@ -1,0 +1,176 @@
+REMARK  26 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA1_2 
+REMARK    2  A    between atoms: CA1_2  and  C1_4 
+REMARK    3  A    between atoms: CA1_2  and  CB1_3 
+REMARK       I    between atoms: C1_4  and  N2_6 
+REMARK    4  A    between atoms: N2_6  and  CA2_7 
+REMARK    5  A    between atoms: CA2_7  and  C2_9 
+REMARK    6  A    between atoms: CA2_7  and  CB2_8 
+REMARK       I    between atoms: C2_9  and  N3_11 
+REMARK    7  A    between atoms: N3_11  and  CA3_12 
+REMARK    8  A    between atoms: CA3_12  and  C3_20 
+REMARK    9  A    between atoms: CA3_12  and  CB3_13 
+REMARK   10  A    between atoms: CB3_13  and  CG3_14 
+REMARK   11  A    between atoms: C3_20  and  CX4_22 
+REMARK   12  A    between atoms: C3_20  and  O3_21 
+REMARK   13  A    between atoms: CX4_22  and  CA4_23 
+REMARK   14  A    between atoms: CA4_23  and  C4_24 
+REMARK       I    between atoms: C4_24  and  N5_26 
+REMARK   15  A    between atoms: N5_26  and  CA5_27 
+REMARK   16  A    between atoms: CA5_27  and  C5_31 
+REMARK   17  A    between atoms: CA5_27  and  CB5_28 
+REMARK   18  A    between atoms: CB5_28  and  CG52_30 
+REMARK   19  A    between atoms: CB5_28  and  CG51_29 
+REMARK       I    between atoms: C5_31  and  N6_33 
+REMARK   20  A    between atoms: N6_33  and  CA6_34 
+REMARK   21  A    between atoms: CA6_34  and  C6_38 
+REMARK   22  A    between atoms: CA6_34  and  CB6_35 
+REMARK   23  A    between atoms: CB6_35  and  CG62_37 
+REMARK   24  A    between atoms: CB6_35  and  CG61_36 
+REMARK   25  A    between atoms: C6_38  and  OM6_40 
+REMARK   26  A    between atoms: OM6_40  and  CM6_41 
+ROOT
+ATOM      1  CX4 PSI d   1       1.969  12.755  39.784  0.00  0.00    -0.031 C 
+ATOM      2  H24 PSI d   1       2.032  11.902  39.093  0.00  0.00     0.037 H 
+ATOM      3  H25 PSI d   1       1.514  13.613  39.267  0.00  0.00     0.037 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C3  PSI d   1       3.343  13.125  40.233  0.00  0.00     0.056 C 
+ATOM      5  H22 PSI d   1       3.622  12.466  41.069  0.00  0.00     0.086 H 
+BRANCH   4   6
+ATOM      6  CA3 PSI d   1       4.452  13.011  39.177  0.00  0.00     0.041 C 
+ATOM      7  H14 PSI d   1       4.450  11.984  38.782  0.00  0.00     0.076 H 
+BRANCH   6   8
+ATOM      8  N3  PSI d   1       4.215  13.948  38.082  0.00  0.00    -0.352 N 
+ATOM      9  C2  PSI d   1       3.760  13.525  36.914  0.00  0.00     0.240 C 
+ATOM     10  O2  PSI d   1       3.546  12.322  36.761  0.00  0.00    -0.271 OA
+ATOM     11  H13 PSI d   1       4.399  14.922  38.217  0.00  0.00     0.163 HD
+BRANCH   9  12
+ATOM     12  CA2 PSI d   1       3.522  14.546  35.801  0.00  0.00     0.086 C 
+ATOM     13  H9  PSI d   1       3.544  15.562  36.222  0.00  0.00     0.086 H 
+BRANCH  12  14
+ATOM     14  N2  PSI d   1       4.553  14.387  34.822  0.00  0.00    -0.346 N 
+ATOM     15  C1  PSI d   1       5.100  15.411  34.260  0.00  0.00     0.248 C 
+ATOM     16  O1  PSI d   1       4.745  16.562  34.542  0.00  0.00    -0.271 OA
+ATOM     17  H8  PSI d   1       4.854  13.467  34.569  0.00  0.00     0.163 HD
+BRANCH  15  18
+ATOM     18  CA1 PSI d   1       6.178  15.157  33.219  0.00  0.00     0.172 C 
+ATOM     19  H4  PSI d   1       5.890  14.306  32.584  0.00  0.00     0.098 H 
+BRANCH  18  20
+ATOM     20  N   PSI d   1       6.321  16.347  32.389  0.00  0.00    -0.067 N 
+ATOM     21  H1  PSI d   1       7.034  16.189  31.695  0.00  0.00     0.275 HD
+ATOM     22  H2  PSI d   1       6.583  17.130  32.967  0.00  0.00     0.275 HD
+ATOM     23  H3  PSI d   1       5.445  16.545  31.931  0.00  0.00     0.275 HD
+ENDBRANCH  18  20
+BRANCH  18  24
+ATOM     24  CB1 PSI d   1       7.468  14.826  33.945  0.00  0.00    -0.042 C 
+ATOM     25  H5  PSI d   1       7.322  13.925  34.559  0.00  0.00     0.030 H 
+ATOM     26  H6  PSI d   1       7.751  15.669  34.592  0.00  0.00     0.030 H 
+ATOM     27  H7  PSI d   1       8.266  14.643  33.210  0.00  0.00     0.030 H 
+ENDBRANCH  18  24
+ENDBRANCH  15  18
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  CB2 PSI d   1       2.205  14.311  35.105  0.00  0.00    -0.049 C 
+ATOM     29  H10 PSI d   1       1.383  14.425  35.827  0.00  0.00     0.030 H 
+ATOM     30  H11 PSI d   1       2.188  13.294  34.687  0.00  0.00     0.030 H 
+ATOM     31  H12 PSI d   1       2.083  15.043  34.293  0.00  0.00     0.030 H 
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+BRANCH   6  32
+ATOM     32  CB3 PSI d   1       5.822  13.315  39.752  0.00  0.00    -0.020 C 
+ATOM     33  H15 PSI d   1       5.995  12.670  40.626  0.00  0.00     0.043 H 
+ATOM     34  H16 PSI d   1       5.855  14.370  40.062  0.00  0.00     0.043 H 
+BRANCH  32  35
+ATOM     35  CG3 PSI d   1       6.911  13.067  38.732  0.00  0.00    -0.056 A 
+ATOM     36  CD3 PSI d   1       7.268  11.774  38.425  0.00  0.00    -0.077 A 
+ATOM     37  CE3 PSI d   1       8.269  11.582  37.501  0.00  0.00    -0.082 A 
+ATOM     38  H18 PSI d   1       6.775  10.932  38.897  0.00  0.00     0.084 H 
+ATOM     39  CZ3 PSI d   1       8.899  12.661  36.898  0.00  0.00    -0.083 A 
+ATOM     40  H20 PSI d   1       8.570  10.574  37.240  0.00  0.00     0.083 H 
+ATOM     41  CE3 PSI d   1       8.541  13.949  37.210  0.00  0.00    -0.082 A 
+ATOM     42  H21 PSI d   1       9.684  12.485  36.171  0.00  0.00     0.083 H 
+ATOM     43  CD3 PSI d   1       7.542  14.143  38.131  0.00  0.00    -0.077 A 
+ATOM     44  H19 PSI d   1       9.035  14.792  36.741  0.00  0.00     0.083 H 
+ATOM     45  H17 PSI d   1       7.243  15.152  38.391  0.00  0.00     0.084 H 
+ENDBRANCH  32  35
+ENDBRANCH   6  32
+ENDBRANCH   4   6
+BRANCH   4  46
+ATOM     46  O3  PSI d   1       3.227  14.460  40.705  0.00  0.00    -0.393 OA
+ATOM     47  H23 PSI d   1       4.075  14.762  41.010  0.00  0.00     0.210 HD
+ENDBRANCH   4  46
+ENDBRANCH   1   4
+BRANCH   1  48
+ATOM     48  CA4 PSI d   1       1.117  12.378  40.951  0.00  0.00     0.011 C 
+ATOM     49  H26 PSI d   1       0.061  12.358  40.643  0.00  0.00     0.047 H 
+ATOM     50  H27 PSI d   1       1.250  13.115  41.756  0.00  0.00     0.047 H 
+BRANCH  48  51
+ATOM     51  C4  PSI d   1       1.527  11.000  41.451  0.00  0.00     0.218 C 
+ATOM     52  N5  PSI d   1       1.524  10.780  42.758  0.00  0.00    -0.347 N 
+ATOM     53  H28 PSI d   1       1.278  11.506  43.400  0.00  0.00     0.163 HD
+ATOM     54  O4  PSI d   1       1.845  10.122  40.635  0.00  0.00    -0.274 OA
+BRANCH  52  55
+ATOM     55  CA5 PSI d   1       1.882   9.476  43.227  0.00  0.00     0.092 C 
+ATOM     56  H29 PSI d   1       1.828   8.755  42.398  0.00  0.00     0.088 H 
+BRANCH  55  57
+ATOM     57  C5  PSI d   1       0.831   9.202  44.272  0.00  0.00     0.241 C 
+ATOM     58  N6  PSI d   1       0.187   8.063  44.137  0.00  0.00    -0.345 N 
+ATOM     59  H37 PSI d   1       0.408   7.476  43.358  0.00  0.00     0.163 HD
+ATOM     60  O5  PSI d   1       0.594   9.973  45.206  0.00  0.00    -0.271 OA
+BRANCH  58  61
+ATOM     61  CA6 PSI d   1      -0.835   7.623  45.077  0.00  0.00     0.099 C 
+ATOM     62  H38 PSI d   1      -0.922   8.351  45.897  0.00  0.00     0.089 H 
+BRANCH  61  63
+ATOM     63  C6  PSI d   1      -0.358   6.263  45.627  0.00  0.00     0.281 C 
+ATOM     64  O6  PSI d   1       0.661   5.687  45.229  0.00  0.00    -0.263 OA
+BRANCH  63  65
+ATOM     65  OM6 PSI d   1      -1.036   5.602  46.676  0.00  0.00    -0.325 OA
+BRANCH  65  66
+ATOM     66  CM6 PSI d   1      -0.146   5.010  47.645  0.00  0.00     0.013 C 
+ATOM     67  H46 PSI d   1      -0.736   4.514  48.430  0.00  0.00     0.067 H 
+ATOM     68  H47 PSI d   1       0.479   5.795  48.096  0.00  0.00     0.067 H 
+ATOM     69  H48 PSI d   1       0.498   4.270  47.148  0.00  0.00     0.067 H 
+ENDBRANCH  65  66
+ENDBRANCH  63  65
+ENDBRANCH  61  63
+BRANCH  61  70
+ATOM     70  CB6 PSI d   1      -2.213   7.472  44.394  0.00  0.00    -0.032 C 
+ATOM     71  H39 PSI d   1      -2.942   7.140  45.147  0.00  0.00     0.042 H 
+BRANCH  70  72
+ATOM     72  CG6 PSI d   1      -2.156   6.412  43.315  0.00  0.00    -0.071 C 
+ATOM     73  H43 PSI d   1      -1.831   5.458  43.755  0.00  0.00     0.028 H 
+ATOM     74  H44 PSI d   1      -1.441   6.719  42.537  0.00  0.00     0.028 H 
+ATOM     75  H45 PSI d   1      -3.154   6.289  42.868  0.00  0.00     0.028 H 
+ENDBRANCH  70  72
+BRANCH  70  76
+ATOM     76  CG6 PSI d   1      -2.652   8.832  43.888  0.00  0.00    -0.071 C 
+ATOM     77  H40 PSI d   1      -3.633   8.742  43.398  0.00  0.00     0.028 H 
+ATOM     78  H41 PSI d   1      -1.914   9.210  43.165  0.00  0.00     0.028 H 
+ATOM     79  H42 PSI d   1      -2.727   9.531  44.734  0.00  0.00     0.028 H 
+ENDBRANCH  70  76
+ENDBRANCH  61  70
+ENDBRANCH  58  61
+ENDBRANCH  55  57
+BRANCH  55  80
+ATOM     80  CB5 PSI d   1       3.272   9.343  43.919  0.00  0.00    -0.033 C 
+ATOM     81  H30 PSI d   1       3.269   9.921  44.855  0.00  0.00     0.042 H 
+BRANCH  80  82
+ATOM     82  CG5 PSI d   1       4.425   9.805  43.038  0.00  0.00    -0.071 C 
+ATOM     83  H34 PSI d   1       4.301  10.872  42.802  0.00  0.00     0.028 H 
+ATOM     84  H35 PSI d   1       4.431   9.221  42.106  0.00  0.00     0.028 H 
+ATOM     85  H36 PSI d   1       5.376   9.655  43.570  0.00  0.00     0.028 H 
+ENDBRANCH  80  82
+BRANCH  80  86
+ATOM     86  CG5 PSI d   1       3.512   7.866  44.202  0.00  0.00    -0.071 C 
+ATOM     87  H31 PSI d   1       4.489   7.741  44.692  0.00  0.00     0.028 H 
+ATOM     88  H32 PSI d   1       3.502   7.305  43.256  0.00  0.00     0.028 H 
+ATOM     89  H33 PSI d   1       2.719   7.486  44.863  0.00  0.00     0.028 H 
+ENDBRANCH  80  86
+ENDBRANCH  55  80
+ENDBRANCH  52  55
+ENDBRANCH  48  51
+ENDBRANCH   1  48
+TORSDOF 26

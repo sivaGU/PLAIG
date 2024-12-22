@@ -1,0 +1,71 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  N1_4 
+REMARK    2  A    between atoms: C5_10  and  S1_1 
+REMARK    3  A    between atoms: C2_9  and  C15_11 
+REMARK    4  A    between atoms: C15_11  and  C16_12 
+REMARK    5  A    between atoms: C16_12  and  N2_13 
+REMARK    6  A    between atoms: C10_16  and  C14_21 
+REMARK    7  A    between atoms: C11_17  and  C13_20 
+REMARK    8  A    between atoms: C8_18  and  C12_19 
+ROOT
+ATOM      1  C16 PIU d   1      -4.614   6.390  12.381  0.00  0.00     0.003 C 
+ATOM      2  H9  PIU d   1      -5.639   5.995  12.316  0.00  0.00     0.065 H 
+ATOM      3  H10 PIU d   1      -3.955   5.811  11.717  0.00  0.00     0.065 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C15 PIU d   1      -4.122   6.218  13.816  0.00  0.00    -0.026 C 
+ATOM      5  H7  PIU d   1      -3.022   6.248  13.804  0.00  0.00     0.042 H 
+ATOM      6  H8  PIU d   1      -4.505   7.061  14.410  0.00  0.00     0.042 H 
+BRANCH   4   7
+ATOM      7  C2  PIU d   1      -4.547   4.936  14.497  0.00  0.00    -0.057 A 
+ATOM      8  C1  PIU d   1      -5.873   4.828  15.017  0.00  0.00    -0.075 A 
+ATOM      9  C6  PIU d   1      -6.293   3.632  15.668  0.00  0.00    -0.060 A 
+ATOM     10  H3  PIU d   1      -6.562   5.659  14.916  0.00  0.00     0.084 H 
+ATOM     11  C5  PIU d   1      -5.392   2.525  15.804  0.00  0.00     0.079 A 
+ATOM     12  H6  PIU d   1      -7.300   3.559  16.063  0.00  0.00     0.085 H 
+ATOM     13  C4  PIU d   1      -4.053   2.626  15.288  0.00  0.00    -0.060 A 
+ATOM     14  C3  PIU d   1      -3.623   3.839  14.628  0.00  0.00    -0.075 A 
+ATOM     15  H5  PIU d   1      -3.367   1.794  15.394  0.00  0.00     0.085 H 
+ATOM     16  H4  PIU d   1      -2.616   3.922  14.236  0.00  0.00     0.084 H 
+BRANCH  11  17
+ATOM     17  S1  PIU d   1      -5.926   1.047  16.731  0.00  0.00     0.256 S 
+ATOM     18  O1  PIU d   1      -5.318   1.137  18.051  0.00  0.00    -0.201 OA
+ATOM     19  O2  PIU d   1      -7.360   0.951  16.622  0.00  0.00    -0.201 OA
+BRANCH  17  20
+ATOM     20  N1  PIU d   1      -5.320  -0.251  16.054  0.00  0.00    -0.324 N 
+ATOM     21  H1  PIU d   1      -4.329  -0.382  16.023  0.00  0.00     0.169 HD
+ATOM     22  H2  PIU d   1      -5.928  -0.939  15.658  0.00  0.00     0.169 HD
+ENDBRANCH  17  20
+ENDBRANCH  11  17
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  N2  PIU d   1      -4.625   7.833  11.907  0.00  0.00    -0.354 N 
+ATOM     24  C10 PIU d   1      -5.885   8.523  11.805  0.00  0.00     0.008 A 
+ATOM     25  C9  PIU d   1      -5.916   9.862  11.338  0.00  0.00    -0.056 A 
+ATOM     26  C8  PIU d   1      -4.699  10.511  10.983  0.00  0.00    -0.058 A 
+ATOM     27  H12 PIU d   1      -6.860  10.388  11.252  0.00  0.00     0.087 H 
+ATOM     28  C7  PIU d   1      -3.439   9.846  11.077  0.00  0.00    -0.056 A 
+ATOM     29  C11 PIU d   1      -3.393   8.501  11.540  0.00  0.00     0.008 A 
+ATOM     30  H11 PIU d   1      -2.526  10.361  10.799  0.00  0.00     0.087 H 
+BRANCH  24  31
+ATOM     31  C14 PIU d   1      -7.229   7.944  12.183  0.00  0.00    -0.037 C 
+ATOM     32  H19 PIU d   1      -8.015   8.692  12.002  0.00  0.00     0.035 H 
+ATOM     33  H20 PIU d   1      -7.223   7.669  13.248  0.00  0.00     0.035 H 
+ATOM     34  H21 PIU d   1      -7.427   7.049  11.574  0.00  0.00     0.035 H 
+ENDBRANCH  24  31
+BRANCH  26  35
+ATOM     35  C12 PIU d   1      -4.751  11.940  10.533  0.00  0.00    -0.051 C 
+ATOM     36  H13 PIU d   1      -3.734  12.288  10.299  0.00  0.00     0.033 H 
+ATOM     37  H14 PIU d   1      -5.175  12.562  11.335  0.00  0.00     0.033 H 
+ATOM     38  H15 PIU d   1      -5.382  12.019   9.635  0.00  0.00     0.033 H 
+ENDBRANCH  26  35
+BRANCH  29  39
+ATOM     39  C13 PIU d   1      -1.993   7.911  11.597  0.00  0.00    -0.037 C 
+ATOM     40  H16 PIU d   1      -1.265   8.661  11.255  0.00  0.00     0.035 H 
+ATOM     41  H17 PIU d   1      -1.941   7.026  10.945  0.00  0.00     0.035 H 
+ATOM     42  H18 PIU d   1      -1.760   7.619  12.632  0.00  0.00     0.035 H 
+ENDBRANCH  29  39
+ENDBRANCH   1  23
+TORSDOF 8

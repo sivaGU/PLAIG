@@ -1,0 +1,88 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C9_9 
+REMARK    2  A    between atoms: C17_17  and  C4_4 
+REMARK    3  A    between atoms: C11_11  and  C6_6 
+REMARK    4  A    between atoms: C7_7  and  C8_8 
+REMARK    5  A    between atoms: C8_8  and  C11_11 
+REMARK    6  A    between atoms: C10_10  and  C27_27 
+REMARK    7  A    between atoms: C11_11  and  O26_26 
+REMARK    8  A    between atoms: O19_19  and  C17_17 
+REMARK    9  A    between atoms: C18_18  and  O19_19 
+REMARK   10  A    between atoms: O26_26  and  C28_28 
+REMARK   11  A    between atoms: C28_28  and  C29_29 
+ROOT
+ATOM      1  C7  CTM d   1      46.348  35.498  30.246  0.00  0.00    -0.049 A 
+ATOM      2  C10 CTM d   1      45.439  35.782  31.278  0.00  0.00    -0.053 A 
+ATOM      3  C12 CTM d   1      45.220  34.852  32.278  0.00  0.00    -0.044 A 
+ATOM      4  C14 CTM d   1      47.056  34.292  30.229  0.00  0.00    -0.074 A 
+ATOM      5  C18 CTM d   1      45.929  33.656  32.232  0.00  0.00     0.069 A 
+ATOM      6  C22 CTM d   1      46.846  33.347  31.228  0.00  0.00    -0.050 A 
+ATOM      7  H5  CTM d   1      44.514  35.050  33.077  0.00  0.00     0.088 H 
+ATOM      8  H6  CTM d   1      47.769  34.093  29.437  0.00  0.00     0.084 H 
+ATOM      9  H11 CTM d   1      47.377  32.402  31.226  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  O19 CTM d   1      45.668  32.776  33.235  0.00  0.00    -0.345 OA
+BRANCH  10  11
+ATOM     11  C17 CTM d   1      46.395  31.568  33.320  0.00  0.00     0.066 C 
+ATOM     12  H9  CTM d   1      45.741  30.685  33.273  0.00  0.00     0.084 H 
+ATOM     13  H10 CTM d   1      47.169  31.493  32.541  0.00  0.00     0.084 H 
+BRANCH  11  14
+ATOM     14  C4  CTM d   1      46.989  31.768  34.700  0.00  0.00     0.066 A 
+ATOM     15  N1  CTM d   1      48.077  31.095  35.190  0.00  0.00    -0.243 NA
+ATOM     16  C2  CTM d   1      48.356  31.488  36.423  0.00  0.00     0.108 A 
+ATOM     17  S3  CTM d   1      47.311  32.715  37.075  0.00  0.00    -0.079 SA
+ATOM     18  C5  CTM d   1      46.448  32.679  35.561  0.00  0.00    -0.017 A 
+ATOM     19  H1  CTM d   1      45.586  33.304  35.331  0.00  0.00     0.098 H 
+BRANCH  16  20
+ATOM     20  C9  CTM d   1      49.419  31.002  37.294  0.00  0.00    -0.000 A 
+ATOM     21  C15 CTM d   1      49.538  31.555  38.576  0.00  0.00    -0.069 A 
+ATOM     22  C23 CTM d   1      50.538  31.133  39.446  0.00  0.00    -0.061 A 
+ATOM     23  H7  CTM d   1      48.841  32.322  38.894  0.00  0.00     0.085 H 
+ATOM     24  C21 CTM d   1      51.426  30.140  39.038  0.00  0.00     0.034 A 
+ATOM     25  H12 CTM d   1      50.626  31.573  40.433  0.00  0.00     0.086 H 
+ATOM     26  C24 CTM d   1      51.315  29.576  37.767  0.00  0.00    -0.061 A 
+ATOM     27 CL25 CTM d   1      52.698  29.599  40.139  0.00  0.00    -0.084 Cl
+ATOM     28  C16 CTM d   1      50.315  30.000  36.896  0.00  0.00    -0.069 A 
+ATOM     29  H13 CTM d   1      52.010  28.805  37.456  0.00  0.00     0.086 H 
+ATOM     30  H8  CTM d   1      50.229  29.556  35.911  0.00  0.00     0.085 H 
+ENDBRANCH  16  20
+ENDBRANCH  11  14
+ENDBRANCH  10  11
+ENDBRANCH   5  10
+BRANCH   2  31
+ATOM     31  C27 CTM d   1      44.671  37.066  31.316  0.00  0.00    -0.051 C 
+ATOM     32  H14 CTM d   1      44.959  37.691  30.458  0.00  0.00     0.033 H 
+ATOM     33  H15 CTM d   1      44.896  37.600  32.251  0.00  0.00     0.033 H 
+ATOM     34  H16 CTM d   1      43.593  36.850  31.268  0.00  0.00     0.033 H 
+ENDBRANCH   2  31
+BRANCH   1  35
+ATOM     35  C8  CTM d   1      46.605  36.495  29.162  0.00  0.00    -0.007 C 
+ATOM     36  H2  CTM d   1      45.774  37.211  29.085  0.00  0.00     0.044 H 
+ATOM     37  H3  CTM d   1      46.746  35.992  28.194  0.00  0.00     0.044 H 
+BRANCH  35  38
+ATOM     38  C11 CTM d   1      47.895  37.203  29.600  0.00  0.00     0.125 C 
+ATOM     39  H4  CTM d   1      48.634  36.421  29.827  0.00  0.00     0.101 H 
+BRANCH  38  40
+ATOM     40  C6  CTM d   1      48.471  38.094  28.553  0.00  0.00     0.203 C 
+ATOM     41  O13 CTM d   1      48.240  39.298  28.494  0.00  0.00    -0.646 OA
+ATOM     42  O20 CTM d   1      49.286  37.503  27.659  0.00  0.00    -0.646 OA
+ENDBRANCH  38  40
+BRANCH  38  43
+ATOM     43  O26 CTM d   1      47.699  37.991  30.772  0.00  0.00    -0.375 OA
+BRANCH  43  44
+ATOM     44  C28 CTM d   1      48.929  38.625  31.117  0.00  0.00     0.017 C 
+ATOM     45  H17 CTM d   1      49.326  39.157  30.239  0.00  0.00     0.073 H 
+ATOM     46  H18 CTM d   1      49.654  37.865  31.444  0.00  0.00     0.073 H 
+BRANCH  44  47
+ATOM     47  C29 CTM d   1      48.692  39.622  32.251  0.00  0.00    -0.056 C 
+ATOM     48  H19 CTM d   1      49.642  40.109  32.515  0.00  0.00     0.030 H 
+ATOM     49  H20 CTM d   1      48.296  39.091  33.129  0.00  0.00     0.030 H 
+ATOM     50  H21 CTM d   1      47.968  40.383  31.925  0.00  0.00     0.030 H 
+ENDBRANCH  44  47
+ENDBRANCH  43  44
+ENDBRANCH  38  43
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11

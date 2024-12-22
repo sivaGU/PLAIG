@@ -1,0 +1,71 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N7_7 
+REMARK    2  A    between atoms: C5_5  and  N9_9 
+REMARK       I    between atoms: N9_9  and  C10_10 
+REMARK    3  A    between atoms: C10_10  and  C12_12 
+REMARK    4  A    between atoms: C16_16  and  N20_20 
+REMARK    5  A    between atoms: N20_20  and  S21_21 
+REMARK    6  A    between atoms: S21_21  and  C24_24 
+REMARK    7  A    between atoms: C24_24  and  C25_25 
+REMARK    8  A    between atoms: C25_25  and  C26_26 
+ROOT
+ATOM      1  C12 TV4 d   1      13.136 -28.118  -2.643  0.00  0.00     0.111 A 
+ATOM      2  C13 TV4 d   1      12.605 -28.926  -1.636  0.00  0.00     0.135 A 
+ATOM      3  C14 TV4 d   1      11.825 -30.042  -1.957  0.00  0.00    -0.042 A 
+ATOM      4  C15 TV4 d   1      11.554 -30.365  -3.286  0.00  0.00    -0.051 A 
+ATOM      5  C16 TV4 d   1      12.071 -29.556  -4.294  0.00  0.00     0.082 A 
+ATOM      6  C17 TV4 d   1      12.846 -28.449  -3.958  0.00  0.00     0.162 A 
+ATOM      7  F18 TV4 d   1      13.347 -27.676  -4.922  0.00  0.00    -0.203 F 
+ATOM      8  F19 TV4 d   1      12.843 -28.637  -0.351  0.00  0.00    -0.205 F 
+ATOM      9  H   TV4 d   1      11.424 -30.666  -1.159  0.00  0.00     0.088 H 
+ATOM     10  H   TV4 d   1      10.947 -31.237  -3.532  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C10 TV4 d   1      13.965 -26.908  -2.394  0.00  0.00     0.262 C 
+ATOM     12  N9  TV4 d   1      15.082 -27.023  -1.587  0.00  0.00    -0.321 N 
+ATOM     13  H   TV4 d   1      15.248 -27.963  -1.228  0.00  0.00     0.169 HD
+ATOM     14  O11 TV4 d   1      13.627 -25.874  -2.944  0.00  0.00    -0.267 OA
+BRANCH  12  15
+ATOM     15  C5  TV4 d   1      16.045 -26.051  -1.169  0.00  0.00     0.054 A 
+ATOM     16  C4  TV4 d   1      15.727 -24.722  -0.838  0.00  0.00    -0.035 A 
+ATOM     17  C3  TV4 d   1      16.742 -23.849  -0.409  0.00  0.00     0.058 A 
+ATOM     18  H   TV4 d   1      14.698 -24.370  -0.914  0.00  0.00     0.089 H 
+ATOM     19  C2  TV4 d   1      18.052 -24.338  -0.316  0.00  0.00     0.138 A 
+ATOM     20 BR8  TV4 d   1      16.376 -22.033   0.041  0.00  0.00    -0.047 Br
+ATOM     21  N1  TV4 d   1      18.381 -25.615  -0.619  0.00  0.00    -0.240 NA
+ATOM     22  C6  TV4 d   1      17.387 -26.437  -1.037  0.00  0.00     0.030 A 
+ATOM     23  H   TV4 d   1      17.648 -27.465  -1.287  0.00  0.00     0.118 H 
+BRANCH  19  24
+ATOM     24  N7  TV4 d   1      19.131 -23.538   0.105  0.00  0.00    -0.383 N 
+ATOM     25  H   TV4 d   1      20.069 -23.935   0.161  0.00  0.00     0.157 HD
+ATOM     26  H   TV4 d   1      18.975 -22.561   0.354  0.00  0.00     0.157 HD
+ENDBRANCH  19  24
+ENDBRANCH  12  15
+ENDBRANCH   1  11
+BRANCH   5  27
+ATOM     27  N20 TV4 d   1      11.871 -29.790  -5.657  0.00  0.00    -0.281 N 
+ATOM     28  H   TV4 d   1      12.274 -29.153  -6.344  0.00  0.00     0.178 HD
+BRANCH  27  29
+ATOM     29  S21 TV4 d   1      10.968 -31.119  -6.176  0.00  0.00     0.231 S 
+ATOM     30  O22 TV4 d   1      10.944 -31.046  -7.626  0.00  0.00    -0.206 OA
+ATOM     31  O23 TV4 d   1       9.784 -31.194  -5.358  0.00  0.00    -0.206 OA
+BRANCH  29  32
+ATOM     32  C24 TV4 d   1      12.031 -32.475  -5.661  0.00  0.00     0.046 C 
+ATOM     33  H   TV4 d   1      11.383 -33.331  -5.473  0.00  0.00     0.058 H 
+ATOM     34  H   TV4 d   1      12.591 -32.127  -4.793  0.00  0.00     0.058 H 
+BRANCH  32  35
+ATOM     35  C25 TV4 d   1      13.057 -32.915  -6.703  0.00  0.00    -0.055 C 
+ATOM     36  H   TV4 d   1      12.588 -32.804  -7.681  0.00  0.00     0.033 H 
+ATOM     37  H   TV4 d   1      13.346 -33.937  -6.456  0.00  0.00     0.033 H 
+BRANCH  35  38
+ATOM     38  C26 TV4 d   1      14.330 -32.082  -6.721  0.00  0.00    -0.076 C 
+ATOM     39  H   TV4 d   1      14.080 -31.044  -6.938  0.00  0.00     0.027 H 
+ATOM     40  H   TV4 d   1      14.817 -32.144  -5.748  0.00  0.00     0.027 H 
+ATOM     41  H   TV4 d   1      15.002 -32.464  -7.490  0.00  0.00     0.027 H 
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+ENDBRANCH   5  27
+TORSDOF 8

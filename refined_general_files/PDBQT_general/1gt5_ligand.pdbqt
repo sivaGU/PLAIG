@@ -1,0 +1,40 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  C9_9 
+REMARK    3  A    between atoms: C7_7  and  O_14 
+ROOT
+ATOM      1  C7  BZQ d   1       0.659  -0.880   6.457  0.00  0.00     0.086 C 
+ATOM      2  H6  BZQ d   1       0.489   0.114   6.897  0.00  0.00     0.098 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C5  BZQ d   1      -0.138  -0.452   5.240  0.00  0.00    -0.025 A 
+ATOM      4  C4  BZQ d   1      -1.565  -0.605   5.119  0.00  0.00    -0.074 A 
+ATOM      5  C3  BZQ d   1      -2.267  -0.187   3.943  0.00  0.00    -0.082 A 
+ATOM      6  H4  BZQ d   1      -2.121  -1.047   5.938  0.00  0.00     0.084 H 
+ATOM      7  C2  BZQ d   1      -1.540   0.394   2.873  0.00  0.00    -0.083 A 
+ATOM      8  H3  BZQ d   1      -3.341  -0.313   3.872  0.00  0.00     0.083 H 
+ATOM      9  C1  BZQ d   1      -0.114   0.556   2.982  0.00  0.00    -0.082 A 
+ATOM     10  H2  BZQ d   1      -2.057   0.715   1.976  0.00  0.00     0.083 H 
+ATOM     11  C6  BZQ d   1       0.557   0.136   4.151  0.00  0.00    -0.074 A 
+ATOM     12  H1  BZQ d   1       0.445   1.000   2.166  0.00  0.00     0.083 H 
+ATOM     13  H5  BZQ d   1       1.631   0.266   4.219  0.00  0.00     0.084 H 
+ENDBRANCH   1   3
+BRANCH   1  14
+ATOM     14  C9  BZQ d   1       0.128  -1.523   7.730  0.00  0.00    -0.025 A 
+ATOM     15  C10 BZQ d   1       0.850  -2.577   8.355  0.00  0.00    -0.074 A 
+ATOM     16  C11 BZQ d   1       0.375  -3.165   9.536  0.00  0.00    -0.082 A 
+ATOM     17  H8  BZQ d   1       1.776  -2.929   7.914  0.00  0.00     0.084 H 
+ATOM     18  C12 BZQ d   1      -0.818  -2.720  10.114  0.00  0.00    -0.083 A 
+ATOM     19  H9  BZQ d   1       0.935  -3.967  10.003  0.00  0.00     0.083 H 
+ATOM     20  C13 BZQ d   1      -1.551  -1.671   9.506  0.00  0.00    -0.082 A 
+ATOM     21  H10 BZQ d   1      -1.182  -3.178  11.027  0.00  0.00     0.083 H 
+ATOM     22  C8  BZQ d   1      -1.069  -1.088   8.328  0.00  0.00    -0.074 A 
+ATOM     23  H11 BZQ d   1      -2.477  -1.323   9.949  0.00  0.00     0.083 H 
+ATOM     24  H7  BZQ d   1      -1.630  -0.284   7.866  0.00  0.00     0.084 H 
+ENDBRANCH   1  14
+BRANCH   1  25
+ATOM     25  O   BZQ d   1       2.055  -0.675   6.430  0.00  0.00    -0.386 OA
+ATOM     26  H12 BZQ d   1       2.299  -0.272   5.605  0.00  0.00     0.210 HD
+ENDBRANCH   1  25
+TORSDOF 3

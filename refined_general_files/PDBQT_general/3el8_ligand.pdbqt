@@ -1,0 +1,84 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_3  and  NAC_12 
+REMARK    2  A    between atoms: CBE_7  and  CAA_6 
+REMARK    3  A    between atoms: CBE_7  and  CAB_8 
+REMARK    4  A    between atoms: CBE_7  and  NBF_9 
+REMARK    5  A    between atoms: CBB_13  and  CAZ_14 
+REMARK    6  A    between atoms: CAX_19  and  NAT_20 
+REMARK       I    between atoms: NAT_20  and  CAV_21 
+REMARK       I    between atoms: CAV_21  and  NAU_23 
+REMARK    7  A    between atoms: NAU_23  and  CAY_24 
+REMARK    8  A    between atoms: CBA_29  and  CBG_30 
+ROOT
+ATOM      1  CAZ PD5 d   1       3.180   6.875   8.007  0.00  0.00    -0.004 A 
+ATOM      2  CAO PD5 d   1       2.267   7.537   8.817  0.00  0.00    -0.069 A 
+ATOM      3  CAM PD5 d   1       1.122   6.881   9.259  0.00  0.00    -0.056 A 
+ATOM      4  CAN PD5 d   1       2.952   5.545   7.668  0.00  0.00    -0.069 A 
+ATOM      5  CAL PD5 d   1       1.806   4.888   8.108  0.00  0.00    -0.056 A 
+ATOM      6  CAX PD5 d   1       0.878   5.561   8.895  0.00  0.00     0.036 A 
+ATOM      7  H11 PD5 d   1       2.446   8.566   9.105  0.00  0.00     0.085 H 
+ATOM      8  H12 PD5 d   1       0.414   7.403   9.892  0.00  0.00     0.086 H 
+ATOM      9  H13 PD5 d   1       3.673   5.016   7.056  0.00  0.00     0.085 H 
+ATOM     10  H14 PD5 d   1       1.637   3.852   7.837  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  CBB PD5 d   1       4.229   7.587   7.434  0.00  0.00     0.105 A 
+ATOM     12  C5  PD5 d   1       5.566   7.216   7.456  0.00  0.00     0.088 A 
+ATOM     13  C4  PD5 d   1       6.214   8.223   6.764  0.00  0.00     0.164 A 
+ATOM     14  C6  PD5 d   1       6.321   6.169   7.971  0.00  0.00     0.139 A 
+ATOM     15  N3  PD5 d   1       7.550   8.166   6.606  0.00  0.00    -0.222 NA
+ATOM     16  NBF PD5 d   1       5.276   9.085   6.395  0.00  0.00    -0.247 N 
+ATOM     17  C2  PD5 d   1       8.234   7.158   7.108  0.00  0.00     0.091 A 
+ATOM     18  N1  PD5 d   1       7.645   6.177   7.775  0.00  0.00    -0.224 NA
+ATOM     19  H8  PD5 d   1       9.309   7.131   6.971  0.00  0.00     0.146 H 
+ATOM     20  NAS PD5 d   1       4.152   8.737   6.772  0.00  0.00    -0.169 NA
+BRANCH  16  21
+ATOM     21  CBE PD5 d   1       5.547  10.295   5.608  0.00  0.00     0.029 C 
+ATOM     22  H4  PD5 d   1       6.558  10.659   5.843  0.00  0.00     0.074 H 
+BRANCH  21  23
+ATOM     23  CAA PD5 d   1       4.534  11.385   5.967  0.00  0.00    -0.056 C 
+ATOM     24  H1  PD5 d   1       4.742  12.288   5.375  0.00  0.00     0.030 H 
+ATOM     25  H2  PD5 d   1       4.615  11.622   7.038  0.00  0.00     0.030 H 
+ATOM     26  H3  PD5 d   1       3.517  11.028   5.746  0.00  0.00     0.030 H 
+ENDBRANCH  21  23
+BRANCH  21  27
+ATOM     27  CAB PD5 d   1       5.476   9.956   4.117  0.00  0.00    -0.056 C 
+ATOM     28  H5  PD5 d   1       6.212   9.172   3.884  0.00  0.00     0.030 H 
+ATOM     29  H6  PD5 d   1       5.699  10.856   3.525  0.00  0.00     0.030 H 
+ATOM     30  H7  PD5 d   1       4.466   9.596   3.870  0.00  0.00     0.030 H 
+ENDBRANCH  21  27
+ENDBRANCH  16  21
+BRANCH  14  31
+ATOM     31  NAC PD5 d   1       5.748   5.182   8.654  0.00  0.00    -0.383 N 
+ATOM     32  H9  PD5 d   1       6.323   4.414   9.029  0.00  0.00     0.157 HD
+ATOM     33  H10 PD5 d   1       4.730   5.186   8.808  0.00  0.00     0.157 HD
+ENDBRANCH  14  31
+ENDBRANCH   1  11
+BRANCH   6  34
+ATOM     34  NAT PD5 d   1      -0.308   5.037   9.208  0.00  0.00    -0.309 N 
+ATOM     35  CAV PD5 d   1      -0.722   3.801   8.940  0.00  0.00     0.325 C 
+ATOM     36  OAD PD5 d   1      -0.020   2.971   8.368  0.00  0.00    -0.247 OA
+ATOM     37  NAU PD5 d   1      -1.964   3.547   9.347  0.00  0.00    -0.309 N 
+ATOM     38  H16 PD5 d   1      -2.444   4.295   9.804  0.00  0.00     0.170 HD
+ATOM     39  H15 PD5 d   1      -0.950   5.632   9.692  0.00  0.00     0.170 HD
+BRANCH  37  40
+ATOM     40  CAY PD5 d   1      -2.638   2.405   9.212  0.00  0.00     0.037 A 
+ATOM     41  CAP PD5 d   1      -2.111   1.275   8.599  0.00  0.00    -0.043 A 
+ATOM     42  CBA PD5 d   1      -2.879   0.120   8.476  0.00  0.00     0.050 A 
+ATOM     43  H17 PD5 d   1      -1.097   1.293   8.215  0.00  0.00     0.088 H 
+ATOM     44  CAK PD5 d   1      -4.178   0.097   8.970  0.00  0.00    -0.068 A 
+ATOM     45  CAH PD5 d   1      -4.712   1.221   9.586  0.00  0.00    -0.080 A 
+ATOM     46  H20 PD5 d   1      -4.776  -0.802   8.874  0.00  0.00     0.084 H 
+ATOM     47  CAJ PD5 d   1      -3.936   2.369   9.704  0.00  0.00    -0.057 A 
+ATOM     48  H19 PD5 d   1      -5.725   1.204   9.972  0.00  0.00     0.083 H 
+ATOM     49  H18 PD5 d   1      -4.350   3.247  10.186  0.00  0.00     0.086 H 
+BRANCH  42  50
+ATOM     50  CBG PD5 d   1      -2.320  -1.145   7.819  0.00  0.00     0.417 C 
+ATOM     51  FAF PD5 d   1      -2.256  -2.112   8.729  0.00  0.00    -0.166 F 
+ATOM     52  FAG PD5 d   1      -3.127  -1.520   6.832  0.00  0.00    -0.166 F 
+ATOM     53  FAE PD5 d   1      -1.104  -0.932   7.328  0.00  0.00    -0.166 F 
+ENDBRANCH  42  50
+ENDBRANCH  37  40
+ENDBRANCH   6  34
+TORSDOF 8

@@ -1,0 +1,59 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C51_1  and  C11_2 
+REMARK    2  A    between atoms: C11_2  and  C10_3 
+REMARK       I    between atoms: C10_3  and  N11_5 
+REMARK    3  A    between atoms: N11_5  and  C9_6 
+REMARK    4  A    between atoms: C6_12  and  N1_16 
+REMARK    5  A    between atoms: N1_16  and  C5_17 
+ROOT
+ATOM      1  C9  DJK d   1       5.653 -38.363  27.801  0.00  0.00     0.035 A 
+ATOM      2  C8  DJK d   1       6.678 -37.924  28.668  0.00  0.00    -0.041 A 
+ATOM      3  C13 DJK d   1       4.328 -38.091  28.150  0.00  0.00    -0.055 A 
+ATOM      4  C17 DJK d   1       4.016 -37.420  29.328  0.00  0.00    -0.052 A 
+ATOM      5  C18 DJK d   1       5.030 -36.998  30.183  0.00  0.00     0.072 A 
+ATOM      6  C7  DJK d   1       6.371 -37.239  29.865  0.00  0.00     0.041 A 
+ATOM      7  C6  DJK d   1       7.359 -36.788  30.760  0.00  0.00     0.142 A 
+ATOM      8  N3  DJK d   1       6.985 -36.143  31.889  0.00  0.00    -0.224 NA
+ATOM      9  C19 DJK d   1       5.686 -35.924  32.157  0.00  0.00     0.089 A 
+ATOM     10  N2  DJK d   1       4.716 -36.343  31.325  0.00  0.00    -0.241 NA
+ATOM     11  H7  DJK d   1       7.714 -38.115  28.412  0.00  0.00     0.088 H 
+ATOM     12  H8  DJK d   1       3.528 -38.409  27.491  0.00  0.00     0.087 H 
+ATOM     13  H9  DJK d   1       2.980 -37.225  29.581  0.00  0.00     0.087 H 
+ATOM     14  H10 DJK d   1       5.414 -35.398  33.065  0.00  0.00     0.146 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  N1  DJK d   1       8.678 -37.004  30.498  0.00  0.00    -0.340 N 
+ATOM     16  H11 DJK d   1       8.882 -37.499  29.618  0.00  0.00     0.167 HD
+BRANCH  15  17
+ATOM     17  C5  DJK d   1       9.774 -36.650  31.250  0.00  0.00     0.035 A 
+ATOM     18  C4  DJK d   1       9.706 -35.958  32.471  0.00  0.00    -0.040 A 
+ATOM     19  C3  DJK d   1      10.892 -35.636  33.157  0.00  0.00     0.013 A 
+ATOM     20  H12 DJK d   1       8.745 -35.673  32.883  0.00  0.00     0.089 H 
+ATOM     21  C22 DJK d   1      12.141 -36.005  32.634  0.00  0.00    -0.066 A 
+ATOM     22 BR   DJK d   1      10.857 -34.692  34.808  0.00  0.00    -0.051 Br
+ATOM     23  C21 DJK d   1      12.215 -36.683  31.418  0.00  0.00    -0.080 A 
+ATOM     24  H15 DJK d   1      13.048 -35.763  33.176  0.00  0.00     0.085 H 
+ATOM     25  C20 DJK d   1      11.033 -37.002  30.742  0.00  0.00    -0.057 A 
+ATOM     26  H14 DJK d   1      13.177 -36.959  31.002  0.00  0.00     0.083 H 
+ATOM     27  H13 DJK d   1      11.091 -37.536  29.800  0.00  0.00     0.086 H 
+ENDBRANCH  15  17
+ENDBRANCH   7  15
+BRANCH   1  28
+ATOM     28  N11 DJK d   1       5.863 -39.036  26.618  0.00  0.00    -0.327 N 
+ATOM     29  C10 DJK d   1       7.049 -39.353  26.066  0.00  0.00     0.221 C 
+ATOM     30  O61 DJK d   1       8.115 -38.966  26.515  0.00  0.00    -0.273 OA
+ATOM     31  H6  DJK d   1       5.047 -39.320  26.115  0.00  0.00     0.169 HD
+BRANCH  29  32
+ATOM     32  C11 DJK d   1       7.039 -40.149  24.766  0.00  0.00     0.006 C 
+ATOM     33  H4  DJK d   1       7.767 -40.969  24.852  0.00  0.00     0.046 H 
+ATOM     34  H5  DJK d   1       6.032 -40.566  24.618  0.00  0.00     0.046 H 
+BRANCH  32  35
+ATOM     35  C51 DJK d   1       7.401 -39.300  23.540  0.00  0.00    -0.068 C 
+ATOM     36  H1  DJK d   1       7.376 -39.929  22.638  0.00  0.00     0.028 H 
+ATOM     37  H2  DJK d   1       8.411 -38.883  23.668  0.00  0.00     0.028 H 
+ATOM     38  H3  DJK d   1       6.676 -38.480  23.435  0.00  0.00     0.028 H 
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH   1  28
+TORSDOF 5

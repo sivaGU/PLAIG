@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_8  and  N10_10 
+REMARK    2  A    between atoms: N9_9  and  C11_11 
+REMARK    3  A    between atoms: C11_11  and  C12_12 
+REMARK    4  A    between atoms: C12_12  and  C13_13 
+REMARK    5  A    between atoms: C13_13  and  O14_14 
+ROOT
+ATOM      1  C1  EV3 d   1     -15.634 -89.656  14.026  0.00  0.00     0.036 A 
+ATOM      2  C2  EV3 d   1     -15.883 -90.813  14.771  0.00  0.00    -0.060 A 
+ATOM      3  C3  EV3 d   1     -16.231 -89.461  12.788  0.00  0.00    -0.031 A 
+ATOM      4  C4  EV3 d   1     -16.730 -91.801  14.270  0.00  0.00    -0.052 A 
+ATOM      5  C5  EV3 d   1     -17.062 -90.449  12.316  0.00  0.00     0.104 A 
+ATOM      6  C6  EV3 d   1     -17.308 -91.593  13.030  0.00  0.00     0.081 A 
+ATOM      7  N7  EV3 d   1     -17.718 -90.479  11.158  0.00  0.00    -0.063 NA
+ATOM      8  C8  EV3 d   1     -18.376 -91.646  11.174  0.00  0.00     0.701 A 
+ATOM      9  N9  EV3 d   1     -18.139 -92.343  12.306  0.00  0.00    -0.179 N 
+ATOM     10 CL15 EV3 d   1     -14.581 -88.450  14.642  0.00  0.00    -0.084 Cl
+ATOM     11  H1  EV3 d   1     -15.416 -90.942  15.741  0.00  0.00     0.086 H 
+ATOM     12  H2  EV3 d   1     -16.048 -88.560  12.213  0.00  0.00     0.089 H 
+ATOM     13  H3  EV3 d   1     -16.930 -92.704  14.835  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   9  14
+ATOM     14  C11 EV3 d   1     -18.691 -93.661  12.691  0.00  0.00     0.019 C 
+ATOM     15  H6  EV3 d   1     -18.173 -94.014  13.595  0.00  0.00     0.066 H 
+ATOM     16  H7  EV3 d   1     -18.522 -94.373  11.869  0.00  0.00     0.066 H 
+BRANCH  14  17
+ATOM     17  C12 EV3 d   1     -20.193 -93.582  12.978  0.00  0.00    -0.029 C 
+ATOM     18  H8  EV3 d   1     -20.625 -92.781  12.359  0.00  0.00     0.038 H 
+ATOM     19  H9  EV3 d   1     -20.333 -93.339  14.042  0.00  0.00     0.038 H 
+BRANCH  17  20
+ATOM     20  C13 EV3 d   1     -20.933 -94.875  12.678  0.00  0.00     0.018 C 
+ATOM     21  H10 EV3 d   1     -20.777 -95.142  11.622  0.00  0.00     0.074 H 
+ATOM     22  H11 EV3 d   1     -22.007 -94.726  12.864  0.00  0.00     0.074 H 
+BRANCH  20  23
+ATOM     23  O14 EV3 d   1     -20.463 -95.930  13.496  0.00  0.00    -0.401 OA
+ATOM     24  H12 EV3 d   1     -20.940 -96.725  13.290  0.00  0.00     0.209 HD
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH   9  14
+BRANCH   8  25
+ATOM     25  N10 EV3 d   1     -19.200 -92.049  10.122  0.00  0.00    -0.233 N 
+ATOM     26  H4  EV3 d   1     -19.316 -91.443   9.297  0.00  0.00     0.174 HD
+ATOM     27  H5  EV3 d   1     -19.692 -92.953  10.170  0.00  0.00     0.174 HD
+ENDBRANCH   8  25
+TORSDOF 5

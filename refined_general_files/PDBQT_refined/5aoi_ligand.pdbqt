@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  C9_11 
+REMARK    2  A    between atoms: C4_5  and  C10_12 
+REMARK    3  A    between atoms: C5_6  and  C11_14 
+REMARK    4  A    between atoms: C9_11  and  C12_15 
+REMARK    5  A    between atoms: C12_15  and  N2_13 
+REMARK    6  A    between atoms: C11_14  and  C13_16 
+ROOT
+ATOM      1  N1  RZH d   1     122.215 103.499 -46.605  0.00  0.00    -0.358 N 
+ATOM      2  C1  RZH d   1     123.560 103.462 -44.792  0.00  0.00     0.001 A 
+ATOM      3  C2  RZH d   1     123.098 102.677 -45.876  0.00  0.00     0.049 A 
+ATOM      4  C3  RZH d   1     122.950 104.784 -44.885  0.00  0.00    -0.022 A 
+ATOM      5  C4  RZH d   1     122.115 104.767 -46.021  0.00  0.00     0.013 A 
+ATOM      6  C5  RZH d   1     123.491 101.338 -46.093  0.00  0.00    -0.030 A 
+ATOM      7  C6  RZH d   1     124.454 102.892 -43.887  0.00  0.00    -0.053 A 
+ATOM      8  C7  RZH d   1     124.394 100.808 -45.161  0.00  0.00    -0.058 A 
+ATOM      9  C8  RZH d   1     124.864 101.573 -44.078  0.00  0.00     0.012 A 
+ATOM     10 BR   RZH d   1     126.117 100.805 -42.800  0.00  0.00    -0.051 Br
+ATOM     11  H1  RZH d   1     121.711 103.206 -47.454  0.00  0.00     0.166 HD
+ATOM     12  H2  RZH d   1     124.826 103.466 -43.046  0.00  0.00     0.087 H 
+ATOM     13  H3  RZH d   1     124.738  99.787 -45.277  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   4  14
+ATOM     14  C9  RZH d   1     123.159 105.950 -43.916  0.00  0.00    -0.016 C 
+ATOM     15  H4  RZH d   1     123.381 105.547 -42.917  0.00  0.00     0.042 H 
+ATOM     16  H5  RZH d   1     122.236 106.547 -43.873  0.00  0.00     0.042 H 
+BRANCH  14  17
+ATOM     17  C12 RZH d   1     124.304 106.846 -44.350  0.00  0.00     0.084 C 
+ATOM     18  H14 RZH d   1     124.031 107.380 -45.272  0.00  0.00     0.075 H 
+ATOM     19  H15 RZH d   1     125.204 106.240 -44.530  0.00  0.00     0.075 H 
+BRANCH  17  20
+ATOM     20  N2  RZH d   1     124.558 107.805 -43.279  0.00  0.00    -0.079 N 
+ATOM     21  H9  RZH d   1     125.317 108.413 -43.545  0.00  0.00     0.274 HD
+ATOM     22  H10 RZH d   1     124.804 107.310 -42.436  0.00  0.00     0.274 HD
+ATOM     23  H11 RZH d   1     123.729 108.355 -43.116  0.00  0.00     0.274 HD
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH   4  14
+BRANCH   5  24
+ATOM     24  C10 RZH d   1     121.267 105.914 -46.527  0.00  0.00    -0.037 C 
+ATOM     25  H6  RZH d   1     121.391 106.782 -45.864  0.00  0.00     0.035 H 
+ATOM     26  H7  RZH d   1     120.210 105.611 -46.539  0.00  0.00     0.035 H 
+ATOM     27  H8  RZH d   1     121.584 106.183 -47.546  0.00  0.00     0.035 H 
+ENDBRANCH   5  24
+BRANCH   6  28
+ATOM     28  C11 RZH d   1     122.981 100.511 -47.264  0.00  0.00    -0.042 C 
+ATOM     29  H12 RZH d   1     122.688 101.181 -48.086  0.00  0.00     0.039 H 
+ATOM     30  H13 RZH d   1     122.110  99.920 -46.944  0.00  0.00     0.039 H 
+BRANCH  28  31
+ATOM     31  C13 RZH d   1     124.078  99.579 -47.738  0.00  0.00    -0.073 C 
+ATOM     32  H16 RZH d   1     123.710  98.981 -48.585  0.00  0.00     0.028 H 
+ATOM     33  H17 RZH d   1     124.371  98.910 -46.916  0.00  0.00     0.028 H 
+ATOM     34  H18 RZH d   1     124.949 100.170 -48.058  0.00  0.00     0.028 H 
+ENDBRANCH  28  31
+ENDBRANCH   6  28
+TORSDOF 6

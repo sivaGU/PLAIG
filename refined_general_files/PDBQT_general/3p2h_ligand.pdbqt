@@ -1,0 +1,70 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  N7_8 
+REMARK       I    between atoms: N7_8  and  C8_9 
+REMARK    2  A    between atoms: C8_9  and  C9_11 
+REMARK    3  A    between atoms: C9_11  and  C10_12 
+REMARK    4  A    between atoms: C10_12  and  C11_13 
+REMARK    5  A    between atoms: C11_13  and  C12_14 
+REMARK    6  A    between atoms: C12_14  and  C13_15 
+REMARK    7  A    between atoms: C13_15  and  C14_16 
+REMARK    8  A    between atoms: C14_16  and  C15_17 
+ROOT
+ATOM      1  C9  NOO d   1      -2.001  76.279  51.608  0.00  0.00     0.009 C 
+ATOM      2  H   NOO d   1      -2.092  75.323  52.124  0.00  0.00     0.047 H 
+ATOM      3  H   NOO d   1      -1.795  76.306  50.538  0.00  0.00     0.047 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C8  NOO d   1      -0.768  76.949  52.254  0.00  0.00     0.221 C 
+ATOM      5  N7  NOO d   1      -0.866  78.279  52.741  0.00  0.00    -0.331 N 
+ATOM      6  H   NOO d   1      -1.661  78.408  53.367  0.00  0.00     0.168 HD
+ATOM      7  O8  NOO d   1       0.246  76.260  52.308  0.00  0.00    -0.273 OA
+BRANCH   5   8
+ATOM      8  C3  NOO d   1      -0.097  79.505  52.556  0.00  0.00     0.015 C 
+ATOM      9  C2  NOO d   1      -0.639  80.778  52.334  0.00  0.00    -0.017 C 
+ATOM     10  C1  NOO d   1       0.214  82.040  52.369  0.00  0.00     0.151 C 
+ATOM     11  H   NOO d   1      -1.706  80.868  52.130  0.00  0.00     0.092 H 
+ATOM     12  O1  NOO d   1      -0.236  83.128  52.714  0.00  0.00    -0.293 OA
+ATOM     13  C6  NOO d   1       1.721  81.920  51.980  0.00  0.00    -0.006 C 
+ATOM     14  C5  NOO d   1       2.221  80.459  51.759  0.00  0.00    -0.054 C 
+ATOM     15  H   NOO d   1       2.297  82.331  52.809  0.00  0.00     0.044 H 
+ATOM     16  H   NOO d   1       1.848  82.446  51.034  0.00  0.00     0.044 H 
+ATOM     17  C4  NOO d   1       1.440  79.390  52.622  0.00  0.00    -0.026 C 
+ATOM     18  H   NOO d   1       2.062  80.213  50.709  0.00  0.00     0.034 H 
+ATOM     19  H   NOO d   1       3.268  80.421  52.059  0.00  0.00     0.034 H 
+ATOM     20  H   NOO d   1       1.702  78.409  52.224  0.00  0.00     0.042 H 
+ATOM     21  H   NOO d   1       1.726  79.552  53.661  0.00  0.00     0.042 H 
+ENDBRANCH   5   8
+ENDBRANCH   1   4
+BRANCH   1  22
+ATOM     22  C10 NOO d   1      -3.403  76.927  51.747  0.00  0.00    -0.057 C 
+ATOM     23  H   NOO d   1      -3.559  77.632  50.931  0.00  0.00     0.033 H 
+ATOM     24  H   NOO d   1      -3.467  77.452  52.700  0.00  0.00     0.033 H 
+BRANCH  22  25
+ATOM     25  C11 NOO d   1      -4.494  75.823  51.691  0.00  0.00    -0.065 C 
+ATOM     26  H   NOO d   1      -4.799  75.602  52.714  0.00  0.00     0.033 H 
+ATOM     27  H   NOO d   1      -4.069  74.958  51.182  0.00  0.00     0.033 H 
+BRANCH  25  28
+ATOM     28  C12 NOO d   1      -5.745  76.263  50.910  0.00  0.00    -0.065 C 
+ATOM     29  H   NOO d   1      -5.471  76.410  49.865  0.00  0.00     0.033 H 
+ATOM     30  H   NOO d   1      -6.124  77.186  51.349  0.00  0.00     0.033 H 
+BRANCH  28  31
+ATOM     31  C13 NOO d   1      -6.852  75.189  50.985  0.00  0.00    -0.065 C 
+ATOM     32  H   NOO d   1      -6.745  74.649  51.926  0.00  0.00     0.033 H 
+ATOM     33  H   NOO d   1      -6.747  74.525  50.127  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  C14 NOO d   1      -8.257  75.819  50.943  0.00  0.00    -0.069 C 
+ATOM     35  H   NOO d   1      -8.306  76.495  50.089  0.00  0.00     0.032 H 
+ATOM     36  H   NOO d   1      -8.426  76.345  51.882  0.00  0.00     0.032 H 
+BRANCH  34  37
+ATOM     37  C15 NOO d   1      -9.348  74.756  50.781  0.00  0.00    -0.077 C 
+ATOM     38  H   NOO d   1      -9.187  74.211  49.851  0.00  0.00     0.027 H 
+ATOM     39  H   NOO d   1      -9.306  74.063  51.621  0.00  0.00     0.027 H 
+ATOM     40  H   NOO d   1     -10.324  75.240  50.756  0.00  0.00     0.027 H 
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+TORSDOF 8

@@ -1,0 +1,95 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_20  and  C1_1 
+REMARK    2  A    between atoms: C4_4  and  C9_9 
+REMARK    3  A    between atoms: C8_8  and  C7_7 
+REMARK    4  A    between atoms: C7_7  and  O1_20 
+REMARK    5  A    between atoms: C10_10  and  C8_8 
+REMARK    6  A    between atoms: C9_9  and  N1_22 
+REMARK    7  A    between atoms: C9_9  and  N2_23 
+REMARK    8  A    between atoms: C8'_18  and  C10_10 
+REMARK    9  A    between atoms: O1'_21  and  C1'_11 
+REMARK   10  A    between atoms: C4'_14  and  C9'_19 
+REMARK   11  A    between atoms: C7'_17  and  C8'_18 
+REMARK   12  A    between atoms: C7'_17  and  O1'_21 
+REMARK   13  A    between atoms: C9'_19  and  N1'_24 
+ROOT
+ATOM      1  C10 PNT d   1       4.084   3.512  23.773  0.00  0.00    -0.061 C 
+ATOM      2  H9  PNT d   1       4.738   4.213  23.234  0.00  0.00     0.033 H 
+ATOM      3  H10 PNT d   1       3.927   2.612  23.160  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C8  PNT d   1       2.733   4.185  24.016  0.00  0.00    -0.045 C 
+ATOM      5  H7  PNT d   1       2.819   4.861  24.880  0.00  0.00     0.036 H 
+ATOM      6  H8  PNT d   1       2.455   4.764  23.123  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  C7  PNT d   1       1.644   3.150  24.299  0.00  0.00     0.026 C 
+ATOM      8  H5  PNT d   1       1.616   2.953  25.381  0.00  0.00     0.075 H 
+ATOM      9  H6  PNT d   1       1.891   2.221  23.764  0.00  0.00     0.075 H 
+BRANCH   7  10
+ATOM     10  O1  PNT d   1       0.348   3.593  23.878  0.00  0.00    -0.351 OA
+BRANCH  10  11
+ATOM     11  C1  PNT d   1      -0.678   2.685  23.737  0.00  0.00     0.068 A 
+ATOM     12  C2  PNT d   1      -1.628   2.848  22.727  0.00  0.00    -0.050 A 
+ATOM     13  C3  PNT d   1      -2.665   1.922  22.585  0.00  0.00    -0.067 A 
+ATOM     14  H1  PNT d   1      -1.561   3.694  22.052  0.00  0.00     0.087 H 
+ATOM     15  C4  PNT d   1      -2.764   0.827  23.451  0.00  0.00     0.007 A 
+ATOM     16  H2  PNT d   1      -3.399   2.053  21.798  0.00  0.00     0.085 H 
+ATOM     17  C5  PNT d   1      -1.812   0.674  24.458  0.00  0.00    -0.067 A 
+ATOM     18  C6  PNT d   1      -0.776   1.595  24.603  0.00  0.00    -0.050 A 
+ATOM     19  H3  PNT d   1      -1.878  -0.170  25.135  0.00  0.00     0.085 H 
+ATOM     20  H4  PNT d   1      -0.044   1.464  25.391  0.00  0.00     0.087 H 
+BRANCH  15  21
+ATOM     21  C9  PNT d   1      -3.887  -0.174  23.311  0.00  0.00     0.102 C 
+BRANCH  21  22
+ATOM     22  N1  PNT d   1      -3.874  -1.260  23.953  0.00  0.00    -0.385 N 
+ATOM     23  H19 PNT d   1      -4.648  -1.931  23.846  0.00  0.00     0.157 HD
+ATOM     24  H20 PNT d   1      -3.089  -1.476  24.585  0.00  0.00     0.157 HD
+ENDBRANCH  21  22
+BRANCH  21  25
+ATOM     25  N2  PNT d   1      -4.910   0.070  22.491  0.00  0.00    -0.385 N 
+ATOM     26  H21 PNT d   1      -4.943   0.950  21.956  0.00  0.00     0.157 HD
+ATOM     27  H22 PNT d   1      -5.667  -0.621  22.392  0.00  0.00     0.157 HD
+ENDBRANCH  21  25
+ENDBRANCH  15  21
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  28
+ATOM     28  C8' PNT d   1       4.766   3.106  25.079  0.00  0.00    -0.045 C 
+ATOM     29  H17 PNT d   1       4.108   3.382  25.916  0.00  0.00     0.036 H 
+ATOM     30  H18 PNT d   1       5.715   3.656  25.162  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  C7' PNT d   1       5.064   1.608  25.170  0.00  0.00     0.026 C 
+ATOM     32  H15 PNT d   1       5.193   1.332  26.227  0.00  0.00     0.075 H 
+ATOM     33  H16 PNT d   1       5.992   1.393  24.619  0.00  0.00     0.075 H 
+BRANCH  31  34
+ATOM     34  O1' PNT d   1       3.999   0.830  24.611  0.00  0.00    -0.351 OA
+BRANCH  34  35
+ATOM     35  C1' PNT d   1       3.650  -0.424  25.058  0.00  0.00     0.068 A 
+ATOM     36  C2' PNT d   1       4.600  -1.279  25.607  0.00  0.00    -0.050 A 
+ATOM     37  C3' PNT d   1       4.240  -2.549  26.045  0.00  0.00    -0.067 A 
+ATOM     38  H11 PNT d   1       5.630  -0.953  25.694  0.00  0.00     0.087 H 
+ATOM     39  C4' PNT d   1       2.919  -2.978  25.948  0.00  0.00     0.007 A 
+ATOM     40  H12 PNT d   1       4.992  -3.208  26.464  0.00  0.00     0.085 H 
+ATOM     41  C5' PNT d   1       1.960  -2.125  25.396  0.00  0.00    -0.067 A 
+ATOM     42  C6' PNT d   1       2.325  -0.853  24.951  0.00  0.00    -0.050 A 
+ATOM     43  H13 PNT d   1       0.930  -2.452  25.313  0.00  0.00     0.085 H 
+ATOM     44  H14 PNT d   1       1.578  -0.196  24.521  0.00  0.00     0.087 H 
+BRANCH  39  45
+ATOM     45  C9' PNT d   1       2.549  -4.354  26.433  0.00  0.00     0.102 C 
+ATOM     46  N2' PNT d   1       1.323  -4.609  26.890  0.00  0.00    -0.385 N 
+ATOM     47  H25 PNT d   1       0.615  -3.861  26.910  0.00  0.00     0.157 HD
+ATOM     48  H26 PNT d   1       1.084  -5.554  27.223  0.00  0.00     0.157 HD
+BRANCH  45  49
+ATOM     49  N1' PNT d   1       3.402  -5.281  26.416  0.00  0.00    -0.385 N 
+ATOM     50  H23 PNT d   1       3.147  -6.222  26.748  0.00  0.00     0.157 HD
+ATOM     51  H24 PNT d   1       4.355  -5.098  26.070  0.00  0.00     0.157 HD
+ENDBRANCH  45  49
+ENDBRANCH  39  45
+ENDBRANCH  34  35
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+TORSDOF 13

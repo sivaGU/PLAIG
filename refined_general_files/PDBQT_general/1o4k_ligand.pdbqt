@@ -1,0 +1,60 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  C7_7 
+REMARK    2  A    between atoms: C5_5  and  O8_8 
+REMARK    3  A    between atoms: C7_7  and  O25_20 
+REMARK    4  A    between atoms: O8_8  and  P9_9 
+REMARK    5  A    between atoms: P9_9  and  O10_10 
+REMARK    6  A    between atoms: O10_10  and  C12_12 
+REMARK    7  A    between atoms: C12_12  and  C13_13 
+ROOT
+ATOM      1  P9  PSN d   1      15.828  28.279  17.291  0.00  0.00     0.413 P 
+ATOM      2  O11 PSN d   1      14.459  28.783  16.749  0.00  0.00    -0.624 OA
+ATOM      3  O32 PSN d   1      16.524  27.465  16.187  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O8  PSN d   1      15.448  27.415  18.587  0.00  0.00    -0.247 OA
+BRANCH   4   5
+ATOM      5  C5  PSN d   1      16.436  26.596  19.232  0.00  0.00     0.090 A 
+ATOM      6  C4  PSN d   1      16.480  25.236  18.809  0.00  0.00    -0.001 A 
+ATOM      7  C3  PSN d   1      17.409  24.374  19.484  0.00  0.00    -0.072 A 
+ATOM      8  C2  PSN d   1      18.298  24.848  20.500  0.00  0.00    -0.082 A 
+ATOM      9  H3  PSN d   1      17.438  23.325  19.214  0.00  0.00     0.084 H 
+ATOM     10  C1  PSN d   1      18.255  26.221  20.886  0.00  0.00    -0.080 A 
+ATOM     11  H2  PSN d   1      18.999  24.169  20.973  0.00  0.00     0.083 H 
+ATOM     12  C6  PSN d   1      17.292  27.103  20.294  0.00  0.00    -0.050 A 
+ATOM     13  H1  PSN d   1      18.951  26.597  21.627  0.00  0.00     0.083 H 
+ATOM     14  H4  PSN d   1      17.203  28.129  20.631  0.00  0.00     0.087 H 
+BRANCH   6  15
+ATOM     15  C7  PSN d   1      15.607  24.671  17.714  0.00  0.00     0.043 C 
+ATOM     16  H5  PSN d   1      14.601  25.064  17.923  0.00  0.00     0.081 H 
+ATOM     17  H6  PSN d   1      15.617  23.583  17.877  0.00  0.00     0.081 H 
+BRANCH  15  18
+ATOM     18  O25 PSN d   1      15.770  24.824  16.382  0.00  0.00    -0.396 OA
+ATOM     19  H14 PSN d   1      15.735  25.748  16.164  0.00  0.00     0.209 HD
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  20
+ATOM     20  O10 PSN d   1      16.551  29.599  17.580  0.00  0.00    -0.285 OA
+BRANCH  20  21
+ATOM     21  C12 PSN d   1      17.561  29.847  18.630  0.00  0.00     0.055 C 
+ATOM     22  H7  PSN d   1      17.138  29.511  19.588  0.00  0.00     0.082 H 
+ATOM     23  H8  PSN d   1      17.744  30.931  18.670  0.00  0.00     0.082 H 
+BRANCH  21  24
+ATOM     24  C13 PSN d   1      18.959  29.128  18.441  0.00  0.00    -0.034 C 
+ATOM     25  C16 PSN d   1      20.020  29.470  19.379  0.00  0.00    -0.075 C 
+ATOM     26  C17 PSN d   1      21.311  28.898  19.155  0.00  0.00    -0.082 C 
+ATOM     27  H9  PSN d   1      19.837  30.134  20.216  0.00  0.00     0.084 H 
+ATOM     28  C18 PSN d   1      21.538  27.994  18.029  0.00  0.00    -0.083 C 
+ATOM     29  H10 PSN d   1      22.128  29.137  19.826  0.00  0.00     0.083 H 
+ATOM     30  C19 PSN d   1      20.446  27.550  17.199  0.00  0.00    -0.082 C 
+ATOM     31  H11 PSN d   1      22.544  27.652  17.814  0.00  0.00     0.083 H 
+ATOM     32  C20 PSN d   1      19.159  28.135  17.387  0.00  0.00    -0.075 C 
+ATOM     33  H12 PSN d   1      20.600  26.786  16.446  0.00  0.00     0.083 H 
+ATOM     34  H13 PSN d   1      18.331  27.844  16.750  0.00  0.00     0.084 H 
+ENDBRANCH  21  24
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+TORSDOF 7

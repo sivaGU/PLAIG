@@ -1,0 +1,85 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PG_1  and  C3B_5 
+REMARK    2  A    between atoms: C3B_5  and  PB_6 
+REMARK    3  A    between atoms: PB_6  and  O3A_9 
+REMARK    4  A    between atoms: O3A_9  and  PA_10 
+REMARK    5  A    between atoms: PA_10  and  O5'_13 
+REMARK    6  A    between atoms: O5'_13  and  C5'_14 
+REMARK    7  A    between atoms: C5'_14  and  C4'_15 
+REMARK    8  A    between atoms: C3'_17  and  O3'_18 
+REMARK    9  A    between atoms: C2'_19  and  O2'_20 
+REMARK   10  A    between atoms: C1'_21  and  N9_22 
+REMARK   11  A    between atoms: C2_29  and  N2_30 
+ROOT
+ATOM      1  C4' GCP d   1     -22.372 -53.613  24.643  0.00  0.00     0.089 C 
+ATOM      2  O4' GCP d   1     -23.466 -52.685  24.663  0.00  0.00    -0.353 OA
+ATOM      3  C3' GCP d   1     -22.322 -54.092  23.201  0.00  0.00     0.091 C 
+ATOM      4  C2' GCP d   1     -23.746 -53.908  22.701  0.00  0.00     0.105 C 
+ATOM      5  C1' GCP d   1     -24.489 -53.339  23.899  0.00  0.00     0.139 C 
+ATOM      6  H5  GCP d   1     -22.537 -54.447  25.341  0.00  0.00     0.090 H 
+ATOM      7  H6  GCP d   1     -21.606 -53.507  22.605  0.00  0.00     0.091 H 
+ATOM      8  H8  GCP d   1     -23.787 -53.226  21.839  0.00  0.00     0.093 H 
+ATOM      9  H10 GCP d   1     -24.972 -54.139  24.480  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5' GCP d   1     -21.073 -52.879  24.983  0.00  0.00     0.058 C 
+ATOM     11  H3  GCP d   1     -20.987 -52.773  26.075  0.00  0.00     0.079 H 
+ATOM     12  H4  GCP d   1     -20.216 -53.454  24.601  0.00  0.00     0.079 H 
+BRANCH  10  13
+ATOM     13  O5' GCP d   1     -21.085 -51.583  24.378  0.00  0.00    -0.287 OA
+BRANCH  13  14
+ATOM     14  PA  GCP d   1     -19.932 -51.172  23.333  0.00  0.00     0.416 P 
+ATOM     15  O1A GCP d   1     -19.534 -52.385  22.587  0.00  0.00    -0.624 OA
+ATOM     16  O2A GCP d   1     -20.388 -49.976  22.592  0.00  0.00    -0.624 OA
+BRANCH  14  17
+ATOM     17  O3A GCP d   1     -18.734 -50.750  24.316  0.00  0.00    -0.203 OA
+BRANCH  17  18
+ATOM     18  PB  GCP d   1     -18.873 -49.436  25.237  0.00  0.00     0.272 P 
+ATOM     19  O1B GCP d   1     -18.015 -48.265  24.519  0.00  0.00    -0.646 OA
+ATOM     20  O2B GCP d   1     -20.277 -49.021  25.483  0.00  0.00    -0.646 OA
+BRANCH  18  21
+ATOM     21  C3B GCP d   1     -17.985 -49.785  26.796  0.00  0.00     0.134 C 
+ATOM     22  H1  GCP d   1     -18.034 -48.903  27.451  0.00  0.00     0.073 H 
+ATOM     23  H2  GCP d   1     -18.454 -50.643  27.301  0.00  0.00     0.073 H 
+BRANCH  21  24
+ATOM     24  PG  GCP d   1     -16.256 -50.171  26.432  0.00  0.00     0.271 P 
+ATOM     25  O1G GCP d   1     -15.811 -49.294  25.328  0.00  0.00    -0.639 OA
+ATOM     26  O2G GCP d   1     -16.364 -51.679  25.887  0.00  0.00    -0.639 OA
+ATOM     27  O3G GCP d   1     -15.508 -50.176  27.707  0.00  0.00    -0.639 OA
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   3  28
+ATOM     28  O3' GCP d   1     -21.980 -55.485  23.171  0.00  0.00    -0.390 OA
+ATOM     29  H7  GCP d   1     -21.949 -55.783  22.269  0.00  0.00     0.210 HD
+ENDBRANCH   3  28
+BRANCH   5  30
+ATOM     30  N9  GCP d   1     -25.500 -52.345  23.474  0.00  0.00    -0.295 N 
+ATOM     31  C8  GCP d   1     -25.246 -51.112  23.049  0.00  0.00     0.071 A 
+ATOM     32  N7  GCP d   1     -26.408 -50.533  22.762  0.00  0.00    -0.234 NA
+ATOM     33  H11 GCP d   1     -24.261 -50.657  22.953  0.00  0.00     0.144 H 
+ATOM     34  C5  GCP d   1     -27.380 -51.408  23.010  0.00  0.00     0.171 A 
+ATOM     35  C6  GCP d   1     -28.702 -51.309  22.884  0.00  0.00     0.292 A 
+ATOM     36  C4  GCP d   1     -26.816 -52.534  23.452  0.00  0.00     0.161 A 
+ATOM     37  O6  GCP d   1     -29.218 -50.270  22.476  0.00  0.00    -0.265 OA
+ATOM     38  N1  GCP d   1     -29.511 -52.397  23.219  0.00  0.00    -0.154 N 
+ATOM     39  C2  GCP d   1     -28.895 -53.561  23.678  0.00  0.00     0.680 A 
+ATOM     40  H12 GCP d   1     -30.506 -52.343  23.132  0.00  0.00     0.187 HD
+ATOM     41  N3  GCP d   1     -27.561 -53.600  23.783  0.00  0.00    -0.174 N 
+ATOM     42  H15 GCP d   1     -27.102 -54.457  24.122  0.00  0.00     0.186 HD
+BRANCH  39  43
+ATOM     43  N2  GCP d   1     -29.626 -54.622  24.009  0.00  0.00    -0.234 N 
+ATOM     44  H13 GCP d   1     -29.166 -55.479  24.347  0.00  0.00     0.174 HD
+ATOM     45  H14 GCP d   1     -30.652 -54.586  23.927  0.00  0.00     0.174 HD
+ENDBRANCH  39  43
+ENDBRANCH   5  30
+BRANCH   4  46
+ATOM     46  O2' GCP d   1     -24.301 -55.186  22.356  0.00  0.00    -0.388 OA
+ATOM     47  H9  GCP d   1     -23.774 -55.585  21.673  0.00  0.00     0.210 HD
+ENDBRANCH   4  46
+TORSDOF 11

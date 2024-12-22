@@ -1,0 +1,62 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N1_1 
+REMARK    2  A    between atoms: N1_1  and  C8_7 
+REMARK    3  A    between atoms: N1_1  and  C9_8 
+REMARK    4  A    between atoms: N1_1  and  C10_9 
+REMARK    5  A    between atoms: C3_3  and  C2_2 
+REMARK    6  A    between atoms: C4_10  and  C3_3 
+REMARK    7  A    between atoms: C5_4  and  O7_5 
+REMARK    8  A    between atoms: C5_4  and  C6_6 
+REMARK    9  A    between atoms: C5_4  and  C4_10 
+ROOT
+ATOM      1  C2  NWA d   1      27.584  18.677  13.726  0.00  0.00     0.084 C 
+ATOM      2  H1  NWA d   1      28.619  19.045  13.788  0.00  0.00     0.076 H 
+ATOM      3  H2  NWA d   1      27.125  19.029  12.790  0.00  0.00     0.076 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N1  NWA d   1      26.828  19.282  14.848  0.00  0.00    -0.079 N 
+BRANCH   4   5
+ATOM      5  C8  NWA d   1      26.934  20.749  14.694  0.00  0.00     0.067 C 
+ATOM      6  H10 NWA d   1      26.385  21.244  15.509  0.00  0.00     0.068 H 
+ATOM      7  H11 NWA d   1      26.503  21.048  13.727  0.00  0.00     0.068 H 
+ATOM      8  H12 NWA d   1      27.992  21.046  14.732  0.00  0.00     0.068 H 
+ENDBRANCH   4   5
+BRANCH   4   9
+ATOM      9  C9  NWA d   1      27.414  18.947  16.136  0.00  0.00     0.067 C 
+ATOM     10  H13 NWA d   1      27.357  17.860  16.293  0.00  0.00     0.068 H 
+ATOM     11  H14 NWA d   1      26.862  19.463  16.935  0.00  0.00     0.068 H 
+ATOM     12  H15 NWA d   1      28.467  19.265  16.154  0.00  0.00     0.068 H 
+ENDBRANCH   4   9
+BRANCH   4  13
+ATOM     13  C10 NWA d   1      25.403  18.886  14.824  0.00  0.00     0.067 C 
+ATOM     14  H16 NWA d   1      24.968  19.143  13.847  0.00  0.00     0.068 H 
+ATOM     15  H17 NWA d   1      24.861  19.419  15.619  0.00  0.00     0.068 H 
+ATOM     16  H18 NWA d   1      25.321  17.802  14.988  0.00  0.00     0.068 H 
+ENDBRANCH   4  13
+ENDBRANCH   1   4
+BRANCH   1  17
+ATOM     17  C3  NWA d   1      27.642  17.144  13.663  0.00  0.00    -0.040 C 
+ATOM     18  H3  NWA d   1      26.621  16.734  13.645  0.00  0.00     0.035 H 
+ATOM     19  H4  NWA d   1      28.178  16.756  14.542  0.00  0.00     0.035 H 
+BRANCH  17  20
+ATOM     20  C4  NWA d   1      28.385  16.740  12.383  0.00  0.00    -0.040 C 
+ATOM     21  H19 NWA d   1      29.270  17.387  12.288  0.00  0.00     0.036 H 
+ATOM     22  H20 NWA d   1      27.710  16.914  11.532  0.00  0.00     0.036 H 
+BRANCH  20  23
+ATOM     23  C5  NWA d   1      28.862  15.269  12.319  0.00  0.00     0.032 C 
+ATOM     24  H5  NWA d   1      27.968  14.633  12.240  0.00  0.00     0.082 H 
+BRANCH  23  25
+ATOM     25  O7  NWA d   1      29.567  14.907  13.499  0.00  0.00    -0.396 OA
+ATOM     26  H6  NWA d   1      29.785  13.983  13.465  0.00  0.00     0.210 HD
+ENDBRANCH  23  25
+BRANCH  23  27
+ATOM     27  C6  NWA d   1      29.754  14.989  11.103  0.00  0.00    -0.052 C 
+ATOM     28  H7  NWA d   1      29.218  15.266  10.183  0.00  0.00     0.030 H 
+ATOM     29  H8  NWA d   1      30.006  13.919  11.072  0.00  0.00     0.030 H 
+ATOM     30  H9  NWA d   1      30.677  15.582  11.181  0.00  0.00     0.030 H 
+ENDBRANCH  23  27
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+TORSDOF 9

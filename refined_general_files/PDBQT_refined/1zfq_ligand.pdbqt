@@ -1,0 +1,34 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C2_2 
+REMARK    2  A    between atoms: C9_6  and  S11_7 
+REMARK    3  A    between atoms: S11_7  and  N14_8 
+ROOT
+ATOM      1  C2  ZEC d   1      17.901   7.546  13.483  0.00  0.00     0.067 A 
+ATOM      2  C7  ZEC d   1      16.603   7.113  13.798  0.00  0.00    -0.032 A 
+ATOM      3  C6  ZEC d   1      16.551   5.930  14.542  0.00  0.00     0.039 A 
+ATOM      4  S8  ZEC d   1      15.036   5.204  15.022  0.00  0.00    -0.054 SA
+ATOM      5  C9  ZEC d   1      16.086   3.948  15.806  0.00  0.00     0.214 A 
+ATOM      6  N10 ZEC d   1      17.338   4.107  15.666  0.00  0.00    -0.227 NA
+ATOM      7  C5  ZEC d   1      17.665   5.224  14.959  0.00  0.00     0.076 A 
+ATOM      8  C4  ZEC d   1      18.950   5.658  14.657  0.00  0.00    -0.051 A 
+ATOM      9  C3  ZEC d   1      19.023   6.833  13.907  0.00  0.00    -0.049 A 
+ATOM     10  H2  ZEC d   1      15.714   7.652  13.490  0.00  0.00     0.089 H 
+ATOM     11  H5  ZEC d   1      19.834   5.121  14.981  0.00  0.00     0.087 H 
+ATOM     12  H6  ZEC d   1      20.003   7.212  13.640  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  S11 ZEC d   1      15.254   2.662  16.694  0.00  0.00     0.281 S 
+ATOM     14  O13 ZEC d   1      13.840   2.881  16.429  0.00  0.00    -0.199 OA
+ATOM     15  O12 ZEC d   1      15.706   2.804  18.074  0.00  0.00    -0.199 OA
+BRANCH  13  16
+ATOM     16  N14 ZEC d   1      15.710   1.351  16.128  0.00  0.00    -0.323 N 
+ATOM     17  H3  ZEC d   1      15.351   0.494  16.499  0.00  0.00     0.169 HD
+ATOM     18  H4  ZEC d   1      16.373   1.333  15.380  0.00  0.00     0.169 HD
+ENDBRANCH  13  16
+ENDBRANCH   5  13
+BRANCH   1  19
+ATOM     19  O1  ZEC d   1      18.071   8.712  12.737  0.00  0.00    -0.361 OA
+ATOM     20  H1  ZEC d   1      18.998   8.871  12.607  0.00  0.00     0.217 HD
+ENDBRANCH   1  19
+TORSDOF 3

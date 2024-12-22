@@ -1,0 +1,83 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  N1_4 
+REMARK       I    between atoms: N1_4  and  C13_18 
+REMARK    2  A    between atoms: C4_9  and  N2_5 
+REMARK    3  A    between atoms: N2_5  and  C16_22 
+REMARK    4  A    between atoms: N2_5  and  C17_21 
+REMARK    5  A    between atoms: C7_12  and  C1_6 
+REMARK    6  A    between atoms: C8_13  and  C7_12 
+REMARK    7  A    between atoms: C9_14  and  C8_13 
+REMARK    8  A    between atoms: C8_13  and  C14_19 
+REMARK    9  A    between atoms: C11_16  and  C10_15 
+REMARK   10  A    between atoms: C10_15  and  C15_20 
+REMARK   11  A    between atoms: C13_18  and  C12_17 
+ROOT
+ATOM      1  C8  TSN d   1      50.108   4.726 101.996  0.00  0.00     0.022 C 
+ATOM      2  H7  TSN d   1      49.437   3.855 102.006  0.00  0.00     0.058 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C9  TSN d   1      50.052   5.421 103.338  0.00  0.00    -0.086 C 
+ATOM      4  C10 TSN d   1      49.060   5.357 104.279  0.00  0.00    -0.065 C 
+ATOM      5  H8  TSN d   1      50.906   6.050 103.586  0.00  0.00     0.078 H 
+BRANCH   4   6
+ATOM      6  C11 TSN d   1      49.315   6.155 105.504  0.00  0.00    -0.072 C 
+ATOM      7  C12 TSN d   1      48.515   6.184 106.595  0.00  0.00    -0.015 C 
+ATOM      8  H10 TSN d   1      47.601   5.591 106.605  0.00  0.00     0.092 H 
+ATOM      9  H9  TSN d   1      50.217   6.765 105.527  0.00  0.00     0.084 H 
+BRANCH   7  10
+ATOM     10  C13 TSN d   1      48.855   6.994 107.756  0.00  0.00     0.264 C 
+ATOM     11  N1  TSN d   1      47.800   7.789 108.131  0.00  0.00    -0.234 N 
+ATOM     12  H2  TSN d   1      47.127   8.081 107.452  0.00  0.00     0.197 HD
+ATOM     13  O2  TSN d   1      49.952   6.981 108.340  0.00  0.00    -0.266 OA
+BRANCH  11  14
+ATOM     14  O1  TSN d   1      47.669   8.189 109.464  0.00  0.00    -0.287 OA
+ATOM     15  H1  TSN d   1      47.588   7.421 110.017  0.00  0.00     0.244 HD
+ENDBRANCH  11  14
+ENDBRANCH   7  10
+ENDBRANCH   4   6
+BRANCH   4  16
+ATOM     16  C15 TSN d   1      47.776   4.545 104.132  0.00  0.00    -0.051 C 
+ATOM     17  H14 TSN d   1      47.157   4.672 105.032  0.00  0.00     0.033 H 
+ATOM     18  H15 TSN d   1      48.027   3.481 104.007  0.00  0.00     0.033 H 
+ATOM     19  H16 TSN d   1      47.219   4.896 103.251  0.00  0.00     0.033 H 
+ENDBRANCH   4  16
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  C14 TSN d   1      49.680   5.693 100.864  0.00  0.00    -0.063 C 
+ATOM     21  H11 TSN d   1      48.647   6.028 101.039  0.00  0.00     0.028 H 
+ATOM     22  H12 TSN d   1      49.738   5.173  99.896  0.00  0.00     0.028 H 
+ATOM     23  H13 TSN d   1      50.351   6.564 100.853  0.00  0.00     0.028 H 
+ENDBRANCH   1  20
+BRANCH   1  24
+ATOM     24  C7  TSN d   1      51.572   4.261 101.734  0.00  0.00     0.166 C 
+ATOM     25  O3  TSN d   1      52.458   5.101 101.667  0.00  0.00    -0.292 OA
+BRANCH  24  26
+ATOM     26  C1  TSN d   1      51.859   2.799 101.610  0.00  0.00     0.011 A 
+ATOM     27  C6  TSN d   1      53.218   2.408 101.418  0.00  0.00    -0.067 A 
+ATOM     28  C5  TSN d   1      53.589   1.080 101.303  0.00  0.00    -0.057 A 
+ATOM     29  H6  TSN d   1      53.983   3.174 101.361  0.00  0.00     0.085 H 
+ATOM     30  C4  TSN d   1      52.626   0.026 101.366  0.00  0.00     0.029 A 
+ATOM     31  H5  TSN d   1      54.635   0.833 101.162  0.00  0.00     0.086 H 
+ATOM     32  C3  TSN d   1      51.241   0.419 101.551  0.00  0.00    -0.057 A 
+ATOM     33  C2  TSN d   1      50.907   1.769 101.666  0.00  0.00    -0.067 A 
+ATOM     34  H4  TSN d   1      50.465  -0.337 101.600  0.00  0.00     0.086 H 
+ATOM     35  H3  TSN d   1      49.865   2.034 101.805  0.00  0.00     0.085 H 
+BRANCH  30  36
+ATOM     36  N2  TSN d   1      53.013  -1.329 101.259  0.00  0.00    -0.390 N 
+BRANCH  36  37
+ATOM     37  C16 TSN d   1      52.044  -2.416 101.316  0.00  0.00    -0.019 C 
+ATOM     38  H20 TSN d   1      51.030  -1.999 101.404  0.00  0.00     0.056 H 
+ATOM     39  H21 TSN d   1      52.256  -3.051 102.189  0.00  0.00     0.056 H 
+ATOM     40  H22 TSN d   1      52.114  -3.018 100.398  0.00  0.00     0.056 H 
+ENDBRANCH  36  37
+BRANCH  36  41
+ATOM     41  C17 TSN d   1      54.438  -1.703 101.139  0.00  0.00    -0.019 C 
+ATOM     42  H17 TSN d   1      54.525  -2.797 101.068  0.00  0.00     0.056 H 
+ATOM     43  H18 TSN d   1      54.986  -1.348 102.024  0.00  0.00     0.056 H 
+ATOM     44  H19 TSN d   1      54.863  -1.242 100.235  0.00  0.00     0.056 H 
+ENDBRANCH  36  41
+ENDBRANCH  30  36
+ENDBRANCH  24  26
+ENDBRANCH   1  24
+TORSDOF 11

@@ -1,0 +1,77 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PB_1  and  C3B_4 
+REMARK    2  A    between atoms: O3A_8  and  PB_1 
+REMARK    3  A    between atoms: PA_5  and  O3A_8 
+REMARK    4  A    between atoms: PA_5  and  O5'_9 
+REMARK    5  A    between atoms: O5'_9  and  C5'_10 
+REMARK    6  A    between atoms: C5'_10  and  C4'_11 
+REMARK    7  A    between atoms: C3'_13  and  O3'_14 
+REMARK    8  A    between atoms: C2'_15  and  O2'_16 
+REMARK    9  A    between atoms: C1'_17  and  N9_18 
+REMARK   10  A    between atoms: C6_22  and  N6_23 
+ROOT
+ATOM      1  C4' M33 d   1      24.442 -26.572 -30.188  0.00  0.00     0.089 C 
+ATOM      2  O4' M33 d   1      23.159 -26.629 -29.535  0.00  0.00    -0.353 OA
+ATOM      3  C3' M33 d   1      24.143 -26.617 -31.689  0.00  0.00     0.091 C 
+ATOM      4  C2' M33 d   1      22.820 -25.857 -31.716  0.00  0.00     0.105 C 
+ATOM      5  C1' M33 d   1      22.142 -26.580 -30.552  0.00  0.00     0.139 C 
+ATOM      6  H6  M33 d   1      25.084 -27.412 -29.884  0.00  0.00     0.090 H 
+ATOM      7  H7  M33 d   1      24.926 -26.140 -32.297  0.00  0.00     0.091 H 
+ATOM      8  H9  M33 d   1      22.923 -24.772 -31.567  0.00  0.00     0.093 H 
+ATOM      9  H11 M33 d   1      21.843 -27.596 -30.850  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5' M33 d   1      25.107 -25.235 -29.847  0.00  0.00     0.058 C 
+ATOM     11  H4  M33 d   1      25.350 -25.221 -28.774  0.00  0.00     0.079 H 
+ATOM     12  H5  M33 d   1      26.032 -25.138 -30.433  0.00  0.00     0.079 H 
+BRANCH  10  13
+ATOM     13  O5' M33 d   1      24.252 -24.126 -30.143  0.00  0.00    -0.287 OA
+BRANCH  13  14
+ATOM     14  PA  M33 d   1      24.777 -22.615 -29.956  0.00  0.00     0.416 P 
+ATOM     15  O1A M33 d   1      23.630 -21.737 -29.632  0.00  0.00    -0.624 OA
+ATOM     16  O2A M33 d   1      25.942 -22.618 -29.041  0.00  0.00    -0.624 OA
+BRANCH  14  17
+ATOM     17  O3A M33 d   1      25.304 -22.225 -31.429  0.00  0.00    -0.204 OA
+BRANCH  17  18
+ATOM     18  PB  M33 d   1      26.876 -22.215 -31.781  0.00  0.00     0.255 P 
+ATOM     19  O1B M33 d   1      27.188 -20.871 -31.245  0.00  0.00    -0.646 OA
+ATOM     20  O2B M33 d   1      27.250 -23.496 -31.141  0.00  0.00    -0.646 OA
+BRANCH  18  21
+ATOM     21  C3B M33 d   1      26.558 -22.356 -33.558  0.00  0.00     0.019 C 
+ATOM     22  H1  M33 d   1      27.514 -22.375 -34.101  0.00  0.00     0.045 H 
+ATOM     23  H2  M33 d   1      25.962 -21.494 -33.894  0.00  0.00     0.045 H 
+ATOM     24  H3  M33 d   1      26.004 -23.285 -33.759  0.00  0.00     0.045 H 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   3  25
+ATOM     25  O3' M33 d   1      23.926 -27.969 -32.101  0.00  0.00    -0.390 OA
+ATOM     26  H8  M33 d   1      23.741 -27.989 -33.033  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  N9  M33 d   1      20.948 -25.842 -30.081  0.00  0.00    -0.294 N 
+ATOM     28  C8  M33 d   1      20.910 -24.555 -29.741  0.00  0.00     0.071 A 
+ATOM     29  N7  M33 d   1      19.674 -24.222 -29.377  0.00  0.00    -0.236 NA
+ATOM     30  H12 M33 d   1      21.762 -23.877 -29.758  0.00  0.00     0.144 H 
+ATOM     31  C5  M33 d   1      18.912 -25.308 -29.484  0.00  0.00     0.149 A 
+ATOM     32  C6  M33 d   1      17.568 -25.572 -29.253  0.00  0.00     0.155 A 
+ATOM     33  C4  M33 d   1      19.724 -26.341 -29.932  0.00  0.00     0.167 A 
+ATOM     34  N1  M33 d   1      17.109 -26.813 -29.471  0.00  0.00    -0.222 NA
+ATOM     35  C2  M33 d   1      17.911 -27.773 -29.897  0.00  0.00     0.091 A 
+ATOM     36  N3  M33 d   1      19.194 -27.556 -30.127  0.00  0.00    -0.222 NA
+ATOM     37  H15 M33 d   1      17.506 -28.765 -30.062  0.00  0.00     0.146 H 
+BRANCH  32  38
+ATOM     38  N6  M33 d   1      16.748 -24.613 -28.833  0.00  0.00    -0.382 N 
+ATOM     39  H13 M33 d   1      15.754 -24.823 -28.666  0.00  0.00     0.157 HD
+ATOM     40  H14 M33 d   1      17.107 -23.661 -28.675  0.00  0.00     0.157 HD
+ENDBRANCH  32  38
+ENDBRANCH   5  27
+BRANCH   4  41
+ATOM     41  O2' M33 d   1      22.135 -26.161 -32.934  0.00  0.00    -0.388 OA
+ATOM     42  H10 M33 d   1      21.970 -27.095 -32.978  0.00  0.00     0.210 HD
+ENDBRANCH   4  41
+TORSDOF 10

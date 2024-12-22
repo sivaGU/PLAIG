@@ -1,0 +1,84 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_6  and  CAP_7 
+REMARK    2  A    between atoms: CAP_7  and  CAM_8 
+REMARK    3  A    between atoms: CAM_8  and  CAL_9 
+REMARK    4  A    between atoms: CAL_9  and  CAN_10 
+REMARK    5  A    between atoms: CAN_10  and  OAS_11 
+REMARK    6  A    between atoms: OAS_11  and  PAX_12 
+REMARK    7  A    between atoms: PAX_12  and  N_15 
+REMARK    8  A    between atoms: N_15  and  CA_16 
+REMARK    9  A    between atoms: CA_16  and  C_17 
+REMARK   10  A    between atoms: CA_16  and  CB_20 
+REMARK   11  A    between atoms: CB_20  and  CG_21 
+REMARK   12  A    between atoms: CG_21  and  CD_22 
+ROOT
+ATOM      1  CAN 2G4 d   1      19.451  45.855  43.659  0.00  0.00     0.031 C 
+ATOM      2  H12 2G4 d   1      19.107  45.684  42.628  0.00  0.00     0.075 H 
+ATOM      3  H13 2G4 d   1      19.313  46.915  43.920  0.00  0.00     0.075 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAL 2G4 d   1      20.938  45.455  43.803  0.00  0.00    -0.044 C 
+ATOM      5  H10 2G4 d   1      21.275  45.629  44.836  0.00  0.00     0.036 H 
+ATOM      6  H11 2G4 d   1      21.067  44.392  43.550  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  CAM 2G4 d   1      21.749  46.327  42.833  0.00  0.00    -0.059 C 
+ATOM      8  H8  2G4 d   1      21.102  46.632  41.997  0.00  0.00     0.033 H 
+ATOM      9  H9  2G4 d   1      22.106  47.221  43.365  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  CAP 2G4 d   1      22.928  45.575  42.292  0.00  0.00    -0.041 C 
+ATOM     11  H6  2G4 d   1      22.601  44.608  41.881  0.00  0.00     0.040 H 
+ATOM     12  H7  2G4 d   1      23.418  46.162  41.502  0.00  0.00     0.040 H 
+BRANCH  10  13
+ATOM     13  CAV 2G4 d   1      23.895  45.350  43.451  0.00  0.00    -0.058 A 
+ATOM     14  CAJ 2G4 d   1      23.787  44.194  44.249  0.00  0.00    -0.077 A 
+ATOM     15  CAH 2G4 d   1      24.701  44.006  45.293  0.00  0.00    -0.082 A 
+ATOM     16  H1  2G4 d   1      23.010  43.463  44.058  0.00  0.00     0.084 H 
+ATOM     17  CAG 2G4 d   1      25.693  44.954  45.517  0.00  0.00    -0.083 A 
+ATOM     18  H2  2G4 d   1      24.636  43.126  45.923  0.00  0.00     0.083 H 
+ATOM     19  CAI 2G4 d   1      25.810  46.108  44.721  0.00  0.00    -0.082 A 
+ATOM     20  H3  2G4 d   1      26.396  44.800  46.328  0.00  0.00     0.083 H 
+ATOM     21  CAK 2G4 d   1      24.898  46.306  43.673  0.00  0.00    -0.077 A 
+ATOM     22  H4  2G4 d   1      26.592  46.833  44.914  0.00  0.00     0.083 H 
+ATOM     23  H5  2G4 d   1      24.967  47.186  43.043  0.00  0.00     0.084 H 
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  OAS 2G4 d   1      18.739  45.033  44.556  0.00  0.00    -0.295 OA
+BRANCH  24  25
+ATOM     25  PAX 2G4 d   1      17.619  44.115  43.995  0.00  0.00     0.360 P 
+ATOM     26  OAF 2G4 d   1      16.950  43.453  45.157  0.00  0.00    -0.630 OA
+ATOM     27  OAC 2G4 d   1      18.204  43.045  43.028  0.00  0.00    -0.630 OA
+BRANCH  25  28
+ATOM     28  N   2G4 d   1      16.545  45.093  43.201  0.00  0.00    -0.311 N 
+ATOM     29  H14 2G4 d   1      16.266  45.978  43.573  0.00  0.00     0.166 HD
+BRANCH  28  30
+ATOM     30  CA  2G4 d   1      16.013  44.585  41.899  0.00  0.00     0.100 C 
+ATOM     31  H15 2G4 d   1      15.785  43.518  42.037  0.00  0.00     0.089 H 
+BRANCH  30  32
+ATOM     32  C   2G4 d   1      17.048  44.722  40.741  0.00  0.00     0.196 C 
+ATOM     33  OXT 2G4 d   1      17.911  45.624  40.840  0.00  0.00    -0.646 OA
+ATOM     34  O   2G4 d   1      16.955  43.908  39.780  0.00  0.00    -0.646 OA
+ENDBRANCH  30  32
+BRANCH  30  35
+ATOM     35  CB  2G4 d   1      14.697  45.312  41.425  0.00  0.00    -0.028 C 
+ATOM     36  H16 2G4 d   1      13.884  45.105  42.137  0.00  0.00     0.037 H 
+ATOM     37  H17 2G4 d   1      14.412  44.947  40.427  0.00  0.00     0.037 H 
+BRANCH  35  38
+ATOM     38  CG  2G4 d   1      14.957  46.816  41.366  0.00  0.00     0.018 C 
+ATOM     39  H18 2G4 d   1      15.903  46.987  40.831  0.00  0.00     0.049 H 
+ATOM     40  H19 2G4 d   1      15.044  47.197  42.394  0.00  0.00     0.049 H 
+BRANCH  38  41
+ATOM     41  CD  2G4 d   1      13.830  47.603  40.641  0.00  0.00     0.172 C 
+ATOM     42  OE2 2G4 d   1      13.099  46.998  39.817  0.00  0.00    -0.648 OA
+ATOM     43  OE1 2G4 d   1      13.794  48.859  40.831  0.00  0.00    -0.648 OA
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  30  35
+ENDBRANCH  28  30
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 12

@@ -1,0 +1,94 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAW_2  and  CAP_4 
+REMARK    2  A    between atoms: CAP_4  and  CAS_5 
+REMARK    3  A    between atoms: CAS_5  and  CBE_6 
+REMARK    4  A    between atoms: CBE_6  and  CAY_7 
+REMARK    5  A    between atoms: CBE_6  and  NAV_10 
+REMARK       I    between atoms: NAV_10  and  CBA_11 
+REMARK       I    between atoms: CBA_11  and  N_13 
+REMARK    6  A    between atoms: N_13  and  CA_14 
+REMARK    7  A    between atoms: CA_14  and  C_15 
+REMARK    8  A    between atoms: CA_14  and  CB_18 
+REMARK    9  A    between atoms: CB_18  and  CAN_19 
+REMARK   10  A    between atoms: CAN_19  and  CAO_20 
+REMARK   11  A    between atoms: CAO_20  and  CAZ_21 
+REMARK       I    between atoms: CAZ_21  and  NAT_23 
+REMARK   12  A    between atoms: CAQ_24  and  CBC_25 
+ROOT
+ATOM      1  CA  9TB d   1      19.979  45.181  44.608  0.00  0.00     0.098 C 
+ATOM      2  H8  9TB d   1      19.934  44.099  44.804  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   9TB d   1      18.727  45.588  43.955  0.00  0.00    -0.329 N 
+ATOM      4  CBA 9TB d   1      18.105  44.808  43.110  0.00  0.00     0.317 C 
+ATOM      5  NAV 9TB d   1      16.888  45.222  42.704  0.00  0.00    -0.329 N 
+ATOM      6  OAE 9TB d   1      18.499  43.734  42.693  0.00  0.00    -0.247 OA
+ATOM      7  H6  9TB d   1      16.459  46.006  43.153  0.00  0.00     0.165 HD
+ATOM      8  H7  9TB d   1      18.340  46.486  44.163  0.00  0.00     0.165 HD
+BRANCH   5   9
+ATOM      9  CBE 9TB d   1      16.196  44.549  41.630  0.00  0.00     0.098 C 
+ATOM     10  H5  9TB d   1      16.003  43.501  41.902  0.00  0.00     0.089 H 
+BRANCH   9  11
+ATOM     11  CAS 9TB d   1      14.853  45.262  41.303  0.00  0.00    -0.028 C 
+ATOM     12  H3  9TB d   1      14.439  44.839  40.376  0.00  0.00     0.037 H 
+ATOM     13  H4  9TB d   1      14.148  45.094  42.130  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAP 9TB d   1      15.053  46.762  41.118  0.00  0.00     0.018 C 
+ATOM     15  H1  9TB d   1      15.251  47.203  42.106  0.00  0.00     0.049 H 
+ATOM     16  H2  9TB d   1      15.928  46.911  40.468  0.00  0.00     0.049 H 
+BRANCH  14  17
+ATOM     17  CAW 9TB d   1      13.875  47.504  40.498  0.00  0.00     0.172 C 
+ATOM     18  OAA 9TB d   1      13.805  48.731  40.752  0.00  0.00    -0.648 OA
+ATOM     19  OAF 9TB d   1      13.062  46.909  39.741  0.00  0.00    -0.648 OA
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+BRANCH   9  20
+ATOM     20  CAY 9TB d   1      17.095  44.626  40.425  0.00  0.00     0.196 C 
+ATOM     21  OAH 9TB d   1      17.989  45.528  40.301  0.00  0.00    -0.646 OA
+ATOM     22  OAC 9TB d   1      16.911  43.770  39.546  0.00  0.00    -0.646 OA
+ENDBRANCH   9  20
+ENDBRANCH   5   9
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  C   9TB d   1      20.070  45.883  45.945  0.00  0.00     0.196 C 
+ATOM     24  OXT 9TB d   1      20.595  45.162  46.805  0.00  0.00    -0.646 OA
+ATOM     25  O   9TB d   1      19.658  47.047  46.124  0.00  0.00    -0.646 OA
+ENDBRANCH   1  23
+BRANCH   1  26
+ATOM     26  CB  9TB d   1      21.170  45.422  43.673  0.00  0.00    -0.036 C 
+ATOM     27  H9  9TB d   1      20.787  45.878  42.748  0.00  0.00     0.036 H 
+ATOM     28  H10 9TB d   1      21.620  44.446  43.441  0.00  0.00     0.036 H 
+BRANCH  26  29
+ATOM     29  CAN 9TB d   1      22.273  46.330  44.222  0.00  0.00    -0.055 C 
+ATOM     30  H11 9TB d   1      23.218  45.767  44.252  0.00  0.00     0.033 H 
+ATOM     31  H12 9TB d   1      22.002  46.647  45.240  0.00  0.00     0.033 H 
+BRANCH  29  32
+ATOM     32  CAO 9TB d   1      22.459  47.556  43.359  0.00  0.00     0.011 C 
+ATOM     33  H13 9TB d   1      21.463  47.897  43.040  0.00  0.00     0.047 H 
+ATOM     34  H14 9TB d   1      23.046  47.261  42.477  0.00  0.00     0.047 H 
+BRANCH  32  35
+ATOM     35  CAZ 9TB d   1      23.163  48.728  44.012  0.00  0.00     0.242 C 
+ATOM     36  OAD 9TB d   1      23.674  49.511  43.249  0.00  0.00    -0.271 OA
+ATOM     37  NAT 9TB d   1      23.190  48.883  45.339  0.00  0.00    -0.226 NA
+ATOM     38  CAQ 9TB d   1      23.710  49.855  45.979  0.00  0.00     0.016 C 
+ATOM     39  H15 9TB d   1      24.194  50.676  45.452  0.00  0.00     0.116 H 
+BRANCH  38  40
+ATOM     40  CBC 9TB d   1      23.638  49.839  47.462  0.00  0.00    -0.018 A 
+ATOM     41  CAL 9TB d   1      24.149  50.869  48.223  0.00  0.00    -0.069 A 
+ATOM     42  CAJ 9TB d   1      24.080  50.824  49.621  0.00  0.00    -0.045 A 
+ATOM     43  H16 9TB d   1      24.608  51.721  47.735  0.00  0.00     0.085 H 
+ATOM     44  CBB 9TB d   1      23.475  49.760  50.286  0.00  0.00     0.116 A 
+ATOM     45  H17 9TB d   1      24.507  51.636  50.199  0.00  0.00     0.088 H 
+ATOM     46  FAI 9TB d   1      23.369  49.694  51.637  0.00  0.00    -0.206 F 
+ATOM     47  CAK 9TB d   1      22.969  48.730  49.515  0.00  0.00    -0.045 A 
+ATOM     48  CAM 9TB d   1      23.043  48.761  48.127  0.00  0.00    -0.069 A 
+ATOM     49  H18 9TB d   1      22.505  47.880  50.003  0.00  0.00     0.088 H 
+ATOM     50  H19 9TB d   1      22.634  47.938  47.552  0.00  0.00     0.085 H 
+ENDBRANCH  38  40
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 12

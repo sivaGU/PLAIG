@@ -1,0 +1,33 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAH_2  and  CAK_4 
+REMARK    2  A    between atoms: CAI_7  and  CAA_8 
+REMARK    3  A    between atoms: CAJ_10  and  NAB_11 
+ROOT
+ATOM      1  CAK 4M0 d   1      21.422  43.198 -14.833  0.00  0.00     0.067 A 
+ATOM      2  CAF 4M0 d   1      21.210  42.325 -15.936  0.00  0.00    -0.064 A 
+ATOM      3  CAE 4M0 d   1      22.162  42.276 -16.965  0.00  0.00    -0.076 A 
+ATOM      4  CAI 4M0 d   1      23.298  43.117 -16.884  0.00  0.00    -0.060 A 
+ATOM      5  CAG 4M0 d   1      23.516  43.969 -15.816  0.00  0.00    -0.051 A 
+ATOM      6  CAJ 4M0 d   1      22.582  44.026 -14.743  0.00  0.00     0.043 A 
+ATOM      7  H1  4M0 d   1      20.322  41.704 -15.981  0.00  0.00     0.085 H 
+ATOM      8  H2  4M0 d   1      22.030  41.606 -17.807  0.00  0.00     0.084 H 
+ATOM      9  H6  4M0 d   1      24.401  44.595 -15.796  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   4  10
+ATOM     10  CAA 4M0 d   1      24.347  43.060 -17.987  0.00  0.00    -0.051 C 
+ATOM     11  H3  4M0 d   1      25.153  43.774 -17.764  0.00  0.00     0.033 H 
+ATOM     12  H4  4M0 d   1      23.882  43.321 -18.949  0.00  0.00     0.033 H 
+ATOM     13  H5  4M0 d   1      24.763  42.044 -18.045  0.00  0.00     0.033 H 
+ENDBRANCH   4  10
+BRANCH   6  14
+ATOM     14  NAB 4M0 d   1      22.846  44.897 -13.685  0.00  0.00    -0.398 N 
+ATOM     15  H7  4M0 d   1      22.189  44.961 -12.894  0.00  0.00     0.156 HD
+ATOM     16  H8  4M0 d   1      23.698  45.476 -13.695  0.00  0.00     0.156 HD
+ENDBRANCH   6  14
+BRANCH   1  17
+ATOM     17  CAH 4M0 d   1      20.387  43.190 -13.804  0.00  0.00     0.211 C 
+ATOM     18  OAC 4M0 d   1      19.188  42.870 -14.006  0.00  0.00    -0.644 OA
+ATOM     19  OAD 4M0 d   1      20.721  43.565 -12.549  0.00  0.00    -0.644 OA
+ENDBRANCH   1  17
+TORSDOF 3

@@ -1,0 +1,80 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_7  and  O22_8 
+REMARK    2  A    between atoms: O22_8  and  C20_9 
+REMARK    3  A    between atoms: C6_14  and  O2_15 
+REMARK    4  A    between atoms: O2_15  and  C1_16 
+REMARK    5  A    between atoms: C1_16  and  C5_17 
+REMARK    6  A    between atoms: C5_17  and  C11_18 
+REMARK    7  A    between atoms: C11_18  and  O15_19 
+REMARK    8  A    between atoms: O15_19  and  C19_20 
+REMARK    9  A    between atoms: C19_20  and  C21_21 
+ROOT
+ATOM      1  C1  PFD d   1      43.304  39.044  -2.432  0.00  0.00     0.230 A 
+ATOM      2  C4  PFD d   1      44.288  37.949  -1.987  0.00  0.00     0.270 A 
+ATOM      3  O10 PFD d   1      45.057  37.415  -2.796  0.00  0.00    -0.269 OA
+ATOM      4  N9  PFD d   1      44.425  37.540  -0.702  0.00  0.00    -0.287 N 
+ATOM      5  C14 PFD d   1      43.644  38.078   0.246  0.00  0.00     0.261 A 
+ATOM      6  O18 PFD d   1      43.787  37.632   1.492  0.00  0.00    -0.151 OA
+ATOM      7  N7  PFD d   1      42.743  39.039  -0.003  0.00  0.00    -0.287 N 
+ATOM      8  C3  PFD d   1      42.545  39.538  -1.245  0.00  0.00     0.270 A 
+ATOM      9  O8  PFD d   1      41.703  40.406  -1.514  0.00  0.00    -0.269 OA
+ATOM     10  H18 PFD d   1      45.102  36.844  -0.463  0.00  0.00     0.172 HD
+ATOM     11  H19 PFD d   1      42.199  39.399   0.755  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   1  12
+ATOM     12  O2  PFD d   1      42.124  38.730  -3.323  0.00  0.00    -0.321 OA
+BRANCH  12  13
+ATOM     13  C6  PFD d   1      41.701  37.409  -3.430  0.00  0.00     0.071 A 
+ATOM     14  C12 PFD d   1      41.740  36.746  -4.661  0.00  0.00    -0.048 A 
+ATOM     15  C16 PFD d   1      41.423  35.378  -4.797  0.00  0.00    -0.048 A 
+ATOM     16  H6  PFD d   1      42.025  37.305  -5.545  0.00  0.00     0.087 H 
+ATOM     17  C20 PFD d   1      41.060  34.671  -3.660  0.00  0.00     0.076 A 
+ATOM     18  H5  PFD d   1      41.462  34.892  -5.765  0.00  0.00     0.087 H 
+ATOM     19  C17 PFD d   1      41.018  35.338  -2.423  0.00  0.00    -0.048 A 
+ATOM     20  C13 PFD d   1      41.346  36.693  -2.298  0.00  0.00    -0.048 A 
+ATOM     21  H7  PFD d   1      40.722  34.786  -1.538  0.00  0.00     0.087 H 
+ATOM     22  H8  PFD d   1      41.323  37.176  -1.328  0.00  0.00     0.087 H 
+BRANCH  17  23
+ATOM     23  O22 PFD d   1      40.723  33.336  -3.688  0.00  0.00    -0.311 OA
+BRANCH  23  24
+ATOM     24  C23 PFD d   1      41.083  32.413  -4.601  0.00  0.00     0.076 A 
+ATOM     25  C24 PFD d   1      40.078  31.762  -5.314  0.00  0.00    -0.047 A 
+ATOM     26  C26 PFD d   1      40.411  30.768  -6.227  0.00  0.00    -0.043 A 
+ATOM     27  H2  PFD d   1      39.039  32.030  -5.157  0.00  0.00     0.087 H 
+ATOM     28  C28 PFD d   1      41.762  30.460  -6.430  0.00  0.00     0.116 A 
+ATOM     29  H1  PFD d   1      39.638  30.240  -6.773  0.00  0.00     0.088 H 
+ATOM     30  F29 PFD d   1      42.089  29.535  -7.333  0.00  0.00    -0.206 F 
+ATOM     31  C27 PFD d   1      42.786  31.133  -5.754  0.00  0.00    -0.043 A 
+ATOM     32  C25 PFD d   1      42.428  32.103  -4.823  0.00  0.00    -0.047 A 
+ATOM     33  H3  PFD d   1      43.828  30.905  -5.950  0.00  0.00     0.088 H 
+ATOM     34  H4  PFD d   1      43.199  32.623  -4.265  0.00  0.00     0.087 H 
+ENDBRANCH  23  24
+ENDBRANCH  17  23
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   1  35
+ATOM     35  C5  PFD d   1      44.303  40.141  -2.897  0.00  0.00     0.002 C 
+ATOM     36  H9  PFD d   1      43.767  40.825  -3.571  0.00  0.00     0.042 H 
+ATOM     37  H10 PFD d   1      45.118  39.648  -3.447  0.00  0.00     0.042 H 
+BRANCH  35  38
+ATOM     38  C11 PFD d   1      44.938  40.989  -1.755  0.00  0.00     0.023 C 
+ATOM     39  H11 PFD d   1      44.193  41.078  -0.950  0.00  0.00     0.074 H 
+ATOM     40  H12 PFD d   1      45.159  41.987  -2.162  0.00  0.00     0.074 H 
+BRANCH  38  41
+ATOM     41  O15 PFD d   1      46.166  40.468  -1.167  0.00  0.00    -0.391 OA
+BRANCH  41  42
+ATOM     42  C19 PFD d   1      46.134  40.352   0.279  0.00  0.00     0.016 C 
+ATOM     43  H13 PFD d   1      45.356  39.622   0.546  0.00  0.00     0.073 H 
+ATOM     44  H14 PFD d   1      45.871  41.336   0.695  0.00  0.00     0.073 H 
+BRANCH  42  45
+ATOM     45  C21 PFD d   1      47.443  39.903   0.917  0.00  0.00    -0.056 C 
+ATOM     46  H15 PFD d   1      47.318  39.846   2.008  0.00  0.00     0.030 H 
+ATOM     47  H16 PFD d   1      48.236  40.627   0.676  0.00  0.00     0.030 H 
+ATOM     48  H17 PFD d   1      47.720  38.912   0.527  0.00  0.00     0.030 H 
+ENDBRANCH  42  45
+ENDBRANCH  41  42
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 9

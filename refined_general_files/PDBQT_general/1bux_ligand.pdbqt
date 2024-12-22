@@ -1,0 +1,81 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S2_1  and  OS1_2 
+REMARK    2  A    between atoms: S2_1  and  O6P_5 
+REMARK    3  A    between atoms: O6P_5  and  P2_6 
+REMARK    4  A    between atoms: P2_6  and  O5_9 
+REMARK    5  A    between atoms: O5_9  and  C5_10 
+REMARK    6  A    between atoms: C5_10  and  C4_11 
+REMARK    7  A    between atoms: C1_13  and  N9_14 
+REMARK    8  A    between atoms: C6_19  and  N6_20 
+REMARK    9  A    between atoms: C2_24  and  O2_25 
+REMARK   10  A    between atoms: C3_26  and  O3_27 
+REMARK   11  A    between atoms: O3_27  and  P1_28 
+ROOT
+ATOM      1  C4  PPS d   1      68.790  32.100  -1.579  0.00  0.00     0.090 C 
+ATOM      2  O4  PPS d   1      68.878  33.534  -1.556  0.00  0.00    -0.353 OA
+ATOM      3  C1  PPS d   1      67.850  34.118  -0.709  0.00  0.00     0.140 C 
+ATOM      4  C2  PPS d   1      67.091  32.895  -0.187  0.00  0.00     0.106 C 
+ATOM      5  C3  PPS d   1      68.160  31.760  -0.223  0.00  0.00     0.107 C 
+ATOM      6  H4  PPS d   1      69.753  31.588  -1.725  0.00  0.00     0.090 H 
+ATOM      7  H5  PPS d   1      68.274  34.717   0.110  0.00  0.00     0.122 H 
+ATOM      8  H10 PPS d   1      66.262  32.658  -0.870  0.00  0.00     0.093 H 
+ATOM      9  H12 PPS d   1      67.716  30.753  -0.216  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   3  10
+ATOM     10  N9  PPS d   1      66.998  34.913  -1.532  0.00  0.00    -0.294 N 
+ATOM     11  C4  PPS d   1      66.783  36.251  -1.484  0.00  0.00     0.167 A 
+ATOM     12  N3  PPS d   1      67.452  37.123  -0.697  0.00  0.00    -0.222 NA
+ATOM     13  C5  PPS d   1      65.768  36.508  -2.414  0.00  0.00     0.149 A 
+ATOM     14  C2  PPS d   1      66.918  38.297  -0.972  0.00  0.00     0.091 A 
+ATOM     15  N1  PPS d   1      65.944  38.695  -1.847  0.00  0.00    -0.222 NA
+ATOM     16  H6  PPS d   1      67.334  39.110  -0.388  0.00  0.00     0.146 H 
+ATOM     17  C6  PPS d   1      65.308  37.804  -2.612  0.00  0.00     0.155 A 
+ATOM     18  N7  PPS d   1      65.350  35.355  -3.002  0.00  0.00    -0.236 NA
+ATOM     19  C8  PPS d   1      66.120  34.467  -2.450  0.00  0.00     0.071 A 
+ATOM     20  H9  PPS d   1      66.059  33.413  -2.717  0.00  0.00     0.144 H 
+BRANCH  17  21
+ATOM     21  N6  PPS d   1      64.265  38.120  -3.406  0.00  0.00    -0.382 N 
+ATOM     22  H7  PPS d   1      63.812  37.391  -3.975  0.00  0.00     0.157 HD
+ATOM     23  H8  PPS d   1      63.921  39.090  -3.443  0.00  0.00     0.157 HD
+ENDBRANCH  17  21
+ENDBRANCH   3  10
+BRANCH   4  24
+ATOM     24  O2  PPS d   1      66.550  33.053   1.133  0.00  0.00    -0.388 OA
+ATOM     25  H11 PPS d   1      67.256  33.224   1.745  0.00  0.00     0.210 HD
+ENDBRANCH   4  24
+BRANCH   1  26
+ATOM     26  C5  PPS d   1      67.882  31.891  -2.687  0.00  0.00     0.058 C 
+ATOM     27  H2  PPS d   1      67.020  32.570  -2.606  0.00  0.00     0.079 H 
+ATOM     28  H3  PPS d   1      68.399  32.068  -3.641  0.00  0.00     0.079 H 
+BRANCH  26  29
+ATOM     29  O5  PPS d   1      67.473  30.604  -2.609  0.00  0.00    -0.287 OA
+BRANCH  29  30
+ATOM     30  P2  PPS d   1      66.160  30.062  -3.369  0.00  0.00     0.424 P 
+ATOM     31  O4P PPS d   1      65.008  30.189  -2.464  0.00  0.00    -0.624 OA
+ATOM     32  O5P PPS d   1      66.488  28.761  -4.003  0.00  0.00    -0.624 OA
+BRANCH  30  33
+ATOM     33  O6P PPS d   1      65.881  31.163  -4.520  0.00  0.00    -0.151 OA
+BRANCH  33  34
+ATOM     34  S2  PPS d   1      64.462  31.827  -4.927  0.00  0.00     0.250 S 
+ATOM     35  OS2 PPS d   1      64.546  31.996  -6.397  0.00  0.00    -0.579 OA
+ATOM     36  OS3 PPS d   1      64.411  33.089  -4.186  0.00  0.00    -0.579 OA
+BRANCH  34  37
+ATOM     37  OS1 PPS d   1      63.463  30.824  -4.480  0.00  0.00    -0.273 OA
+ATOM     38  H1  PPS d   1      63.469  30.774  -3.531  0.00  0.00     0.234 HD
+ENDBRANCH  34  37
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  29  30
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+BRANCH   5  39
+ATOM     39  O3  PPS d   1      69.087  31.908   0.930  0.00  0.00    -0.272 OA
+BRANCH  39  40
+ATOM     40  P1  PPS d   1      69.360  30.695   1.975  0.00  0.00     0.422 P 
+ATOM     41  O1P PPS d   1      70.019  31.383   3.125  0.00  0.00    -0.617 OA
+ATOM     42  O2P PPS d   1      68.008  30.121   2.209  0.00  0.00    -0.617 OA
+ATOM     43  O3P PPS d   1      70.249  29.779   1.246  0.00  0.00    -0.617 OA
+ENDBRANCH  39  40
+ENDBRANCH   5  39
+TORSDOF 11

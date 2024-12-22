@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1P_5 
+REMARK    2  A    between atoms: C1P_5  and  C1_6 
+REMARK       I    between atoms: C1_6  and  N2_8 
+REMARK    3  A    between atoms: N2_8  and  C2_9 
+REMARK    4  A    between atoms: C2_9  and  C4_10 
+REMARK    5  A    between atoms: C2_9  and  C3_13 
+REMARK    6  A    between atoms: C3_13  and  C5_14 
+ROOT
+ATOM      1  C1  PAL d   1      32.475  54.402  61.442  0.00  0.00     0.231 C 
+ATOM      2  O1  PAL d   1      33.181  53.650  60.723  0.00  0.00    -0.273 OA
+ATOM      3  N2  PAL d   1      32.056  55.527  60.984  0.00  0.00    -0.345 N 
+ATOM      4  H3  PAL d   1      31.497  56.068  61.612  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C2  PAL d   1      32.279  56.103  59.712  0.00  0.00     0.105 C 
+ATOM      6  H4  PAL d   1      32.041  55.324  58.973  0.00  0.00     0.090 H 
+BRANCH   5   7
+ATOM      7  C4  PAL d   1      33.695  56.545  59.414  0.00  0.00     0.197 C 
+ATOM      8  O2  PAL d   1      34.624  56.392  60.288  0.00  0.00    -0.646 OA
+ATOM      9  O3  PAL d   1      34.012  57.065  58.318  0.00  0.00    -0.646 OA
+ENDBRANCH   5   7
+BRANCH   5  10
+ATOM     10  C3  PAL d   1      31.251  57.308  59.487  0.00  0.00     0.044 C 
+ATOM     11  H5  PAL d   1      30.238  56.882  59.523  0.00  0.00     0.053 H 
+ATOM     12  H6  PAL d   1      31.442  57.715  58.483  0.00  0.00     0.053 H 
+BRANCH  10  13
+ATOM     13  C5  PAL d   1      31.282  58.488  60.468  0.00  0.00     0.175 C 
+ATOM     14  O4  PAL d   1      30.470  59.502  60.346  0.00  0.00    -0.648 OA
+ATOM     15  O5  PAL d   1      32.124  58.463  61.422  0.00  0.00    -0.648 OA
+ENDBRANCH  10  13
+ENDBRANCH   5  10
+ENDBRANCH   3   5
+BRANCH   1  16
+ATOM     16  C1P PAL d   1      32.106  54.050  62.831  0.00  0.00     0.112 C 
+ATOM     17  H1  PAL d   1      31.208  54.615  63.120  0.00  0.00     0.068 H 
+ATOM     18  H2  PAL d   1      31.894  52.972  62.886  0.00  0.00     0.068 H 
+BRANCH  16  19
+ATOM     19  P   PAL d   1      33.476  54.457  63.992  0.00  0.00     0.268 P 
+ATOM     20  O1P PAL d   1      34.119  55.727  63.723  0.00  0.00    -0.639 OA
+ATOM     21  O2P PAL d   1      32.870  54.392  65.374  0.00  0.00    -0.639 OA
+ATOM     22  O3P PAL d   1      34.475  53.294  63.797  0.00  0.00    -0.639 OA
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 6

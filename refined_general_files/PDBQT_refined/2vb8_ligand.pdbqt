@@ -1,0 +1,51 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C9_11 
+REMARK    2  A    between atoms: C3_4  and  O2_12 
+REMARK    3  A    between atoms: C4_5  and  C5_6 
+REMARK    4  A    between atoms: C4_5  and  C10_13 
+REMARK    5  A    between atoms: C6_7  and  C7_8 
+REMARK    6  A    between atoms: C6_7  and  C11_14 
+ROOT
+ATOM      1  S1  TLM d   1      38.300  70.710  60.536  0.00  0.00    -0.067 SA
+ATOM      2  C1  TLM d   1      38.516  71.301  62.104  0.00  0.00     0.218 C 
+ATOM      3  C2  TLM d   1      39.589  72.058  62.300  0.00  0.00     0.026 C 
+ATOM      4  C3  TLM d   1      40.311  72.263  61.195  0.00  0.00     0.076 C 
+ATOM      5  C4  TLM d   1      39.700  71.683  59.946  0.00  0.00     0.079 C 
+ATOM      6  O1  TLM d   1      37.693  71.028  62.970  0.00  0.00    -0.280 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C5  TLM d   1      40.767  70.800  59.274  0.00  0.00    -0.073 C 
+ATOM      8  C6  TLM d   1      40.588  69.866  58.296  0.00  0.00    -0.065 C 
+ATOM      9  H1  TLM d   1      41.790  70.938  59.622  0.00  0.00     0.080 H 
+BRANCH   8  10
+ATOM     10  C7  TLM d   1      41.765  69.097  57.803  0.00  0.00    -0.086 C 
+ATOM     11  C8  TLM d   1      41.720  68.139  56.869  0.00  0.00    -0.121 C 
+ATOM     12  H3  TLM d   1      42.633  67.628  56.569  0.00  0.00     0.066 H 
+ATOM     13  H4  TLM d   1      40.770  67.871  56.409  0.00  0.00     0.066 H 
+ATOM     14  H2  TLM d   1      42.736  69.332  58.236  0.00  0.00     0.083 H 
+ENDBRANCH   8  10
+BRANCH   8  15
+ATOM     15  C11 TLM d   1      39.228  69.609  57.703  0.00  0.00    -0.051 C 
+ATOM     16  H12 TLM d   1      38.488  70.263  58.186  0.00  0.00     0.033 H 
+ATOM     17  H13 TLM d   1      38.950  68.557  57.866  0.00  0.00     0.033 H 
+ATOM     18  H14 TLM d   1      39.253  69.819  56.623  0.00  0.00     0.033 H 
+ENDBRANCH   8  15
+ENDBRANCH   5   7
+BRANCH   5  19
+ATOM     19  C10 TLM d   1      39.210  72.870  59.078  0.00  0.00    -0.051 C 
+ATOM     20  H9  TLM d   1      40.076  73.451  58.728  0.00  0.00     0.030 H 
+ATOM     21  H10 TLM d   1      38.553  73.517  59.678  0.00  0.00     0.030 H 
+ATOM     22  H11 TLM d   1      38.653  72.485  58.211  0.00  0.00     0.030 H 
+ENDBRANCH   5  19
+BRANCH   4  23
+ATOM     23  O2  TLM d   1      41.470  72.931  61.172  0.00  0.00    -0.362 OA
+ATOM     24  H8  TLM d   1      41.688  73.216  62.052  0.00  0.00     0.217 HD
+ENDBRANCH   4  23
+BRANCH   3  25
+ATOM     25  C9  TLM d   1      39.921  72.650  63.648  0.00  0.00    -0.045 C 
+ATOM     26  H5  TLM d   1      39.171  72.327  64.385  0.00  0.00     0.033 H 
+ATOM     27  H6  TLM d   1      39.917  73.748  63.578  0.00  0.00     0.033 H 
+ATOM     28  H7  TLM d   1      40.917  72.307  63.964  0.00  0.00     0.033 H 
+ENDBRANCH   3  25
+TORSDOF 6

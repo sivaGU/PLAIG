@@ -1,0 +1,76 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_5  and  CAK_6 
+REMARK    2  A    between atoms: CAK_6  and  CAL_7 
+REMARK    3  A    between atoms: CAL_7  and  NAY_8 
+REMARK    4  A    between atoms: NAY_8  and  OAE_9 
+REMARK       I    between atoms: NAY_8  and  C_10 
+REMARK    5  A    between atoms: C_10  and  CA_12 
+REMARK    6  A    between atoms: CB_14  and  CG2_15 
+REMARK    7  A    between atoms: CAR_17  and  CAV_18 
+REMARK    8  A    between atoms: CAS_22  and  OAC_23 
+REMARK    9  A    between atoms: CAU_24  and  OAD_25 
+ROOT
+ATOM      1  CA  FV8 d   1     -72.860  32.602   1.849  0.00  0.00     0.139 A 
+ATOM      2  N   FV8 d   1     -73.391  33.968   1.542  0.00  0.00    -0.248 NA
+ATOM      3  CB  FV8 d   1     -73.580  31.716   0.852  0.00  0.00     0.073 A 
+ATOM      4  OG1 FV8 d   1     -74.378  32.596   0.053  0.00  0.00    -0.326 OA
+ATOM      5  CAR FV8 d   1     -74.275  33.870   0.528  0.00  0.00     0.174 A 
+ATOM      6  H9  FV8 d   1     -73.113  32.301   2.876  0.00  0.00     0.095 H 
+ATOM      7  H10 FV8 d   1     -72.856  31.155   0.243  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1   8
+ATOM      8  C   FV8 d   1     -71.448  32.596   1.701  0.00  0.00     0.270 C 
+ATOM      9  NAY FV8 d   1     -70.851  33.464   2.491  0.00  0.00    -0.227 N 
+ATOM     10  O   FV8 d   1     -70.799  31.906   0.866  0.00  0.00    -0.269 OA
+BRANCH   9  11
+ATOM     11  CAL FV8 d   1     -69.408  33.681   2.467  0.00  0.00     0.029 C 
+ATOM     12  H6  FV8 d   1     -68.917  32.983   3.161  0.00  0.00     0.068 H 
+ATOM     13  H7  FV8 d   1     -69.025  33.517   1.449  0.00  0.00     0.068 H 
+BRANCH  11  14
+ATOM     14  CAK FV8 d   1     -69.123  35.128   2.900  0.00  0.00    -0.008 C 
+ATOM     15  H4  FV8 d   1     -69.529  35.290   3.909  0.00  0.00     0.044 H 
+ATOM     16  H5  FV8 d   1     -68.036  35.295   2.911  0.00  0.00     0.044 H 
+BRANCH  14  17
+ATOM     17  CAT FV8 d   1     -69.768  36.106   1.940  0.00  0.00     0.029 A 
+ATOM     18  CAJ FV8 d   1     -69.048  36.868   1.057  0.00  0.00     0.025 A 
+ATOM     19  NAN FV8 d   1     -69.918  37.613   0.386  0.00  0.00    -0.254 NA
+ATOM     20  H1  FV8 d   1     -67.966  36.863   0.930  0.00  0.00     0.117 H 
+ATOM     21  CAI FV8 d   1     -71.169  37.289   0.847  0.00  0.00     0.063 A 
+ATOM     22  NAO FV8 d   1     -71.083  36.333   1.831  0.00  0.00    -0.353 N 
+ATOM     23  H2  FV8 d   1     -72.098  37.727   0.485  0.00  0.00     0.143 H 
+ATOM     24  H3  FV8 d   1     -71.850  35.894   2.360  0.00  0.00     0.166 HD
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+BRANCH   9  25
+ATOM     25  OAE FV8 d   1     -71.599  34.165   3.401  0.00  0.00    -0.285 OA
+ATOM     26  H8  FV8 d   1     -72.514  33.928   3.307  0.00  0.00     0.245 HD
+ENDBRANCH   9  25
+ENDBRANCH   1   8
+BRANCH   3  27
+ATOM     27  CG2 FV8 d   1     -74.578  30.749   1.536  0.00  0.00    -0.049 C 
+ATOM     28  H11 FV8 d   1     -75.072  30.131   0.772  0.00  0.00     0.031 H 
+ATOM     29  H12 FV8 d   1     -75.335  31.330   2.083  0.00  0.00     0.031 H 
+ATOM     30  H13 FV8 d   1     -74.036  30.099   2.239  0.00  0.00     0.031 H 
+ENDBRANCH   3  27
+BRANCH   5  31
+ATOM     31  CAV FV8 d   1     -74.894  34.912  -0.079  0.00  0.00     0.052 A 
+ATOM     32  CAH FV8 d   1     -75.685  34.669  -1.208  0.00  0.00    -0.066 A 
+ATOM     33  CAF FV8 d   1     -76.336  35.722  -1.874  0.00  0.00    -0.079 A 
+ATOM     34  H14 FV8 d   1     -75.797  33.655  -1.574  0.00  0.00     0.085 H 
+ATOM     35  CAG FV8 d   1     -76.176  37.049  -1.432  0.00  0.00    -0.048 A 
+ATOM     36  H15 FV8 d   1     -76.964  35.511  -2.732  0.00  0.00     0.083 H 
+ATOM     37  CAS FV8 d   1     -75.369  37.292  -0.317  0.00  0.00     0.099 A 
+ATOM     38  H16 FV8 d   1     -76.669  37.866  -1.946  0.00  0.00     0.087 H 
+ATOM     39  CAU FV8 d   1     -74.734  36.222   0.324  0.00  0.00     0.113 A 
+BRANCH  37  40
+ATOM     40  OAC FV8 d   1     -75.159  38.544   0.192  0.00  0.00    -0.358 OA
+ATOM     41  H17 FV8 d   1     -74.583  38.486   0.945  0.00  0.00     0.217 HD
+ENDBRANCH  37  40
+BRANCH  39  42
+ATOM     42  OAD FV8 d   1     -73.976  36.470   1.407  0.00  0.00    -0.357 OA
+ATOM     43  H18 FV8 d   1     -73.613  35.654   1.731  0.00  0.00     0.217 HD
+ENDBRANCH  39  42
+ENDBRANCH   5  31
+TORSDOF 9

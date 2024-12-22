@@ -1,0 +1,97 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_1  and  CAU_3 
+REMARK       I    between atoms: NAS_4  and  CAT_1 
+REMARK    2  A    between atoms: CAQ_5  and  NAS_4 
+REMARK    3  A    between atoms: CAP_6  and  CAQ_5 
+REMARK       I    between atoms: NAM_8  and  CAP_6 
+REMARK    4  A    between atoms: CAK_9  and  NAM_8 
+REMARK    5  A    between atoms: CAJ_10  and  CAK_9 
+REMARK    6  A    between atoms: CAK_9  and  CAN_12 
+REMARK       I    between atoms: N_15  and  CAJ_10 
+REMARK    7  A    between atoms: CAN_12  and  OAO_13 
+REMARK    8  A    between atoms: CA_17  and  C_14 
+REMARK    9  A    between atoms: C_14  and  CAC_20 
+REMARK   10  A    between atoms: N_15  and  CA_17 
+REMARK   11  A    between atoms: CA_17  and  CB_18 
+REMARK   12  A    between atoms: CB_18  and  CG_19 
+REMARK   13  A    between atoms: CG_19  and  CD1_21 
+REMARK   14  A    between atoms: CG_19  and  CD2_22 
+ROOT
+ATOM      1  CAJ 621 d   1      18.532   3.952  36.154  0.00  0.00     0.243 C 
+ATOM      2  OAL 621 d   1      17.392   4.241  36.515  0.00  0.00    -0.271 OA
+ATOM      3  N   621 d   1      18.956   4.030  34.896  0.00  0.00    -0.348 N 
+ATOM      4  H   621 d   1      19.919   3.771  34.681  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CAK 621 d   1      19.578   3.465  37.159  0.00  0.00     0.109 C 
+ATOM      6  H   621 d   1      20.576   3.636  36.756  0.00  0.00     0.090 H 
+BRANCH   5   7
+ATOM      7  NAM 621 d   1      19.426   4.204  38.421  0.00  0.00    -0.344 N 
+ATOM      8  CAP 621 d   1      19.798   5.475  38.543  0.00  0.00     0.236 C 
+ATOM      9  OAR 621 d   1      20.293   6.137  37.632  0.00  0.00    -0.272 OA
+ATOM     10  H   621 d   1      19.023   3.727  39.228  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CAQ 621 d   1      19.568   6.086  39.927  0.00  0.00     0.069 C 
+ATOM     12  H   621 d   1      18.503   6.272  40.070  0.00  0.00     0.078 H 
+ATOM     13  H   621 d   1      19.922   5.395  40.692  0.00  0.00     0.078 H 
+BRANCH  11  14
+ATOM     14  NAS 621 d   1      20.305   7.353  40.032  0.00  0.00    -0.353 N 
+ATOM     15  CAT 621 d   1      21.587   7.396  40.385  0.00  0.00     0.213 C 
+ATOM     16  OAV 621 d   1      22.261   6.401  40.649  0.00  0.00    -0.274 OA
+ATOM     17  H   621 d   1      19.819   8.226  39.828  0.00  0.00     0.162 HD
+BRANCH  15  18
+ATOM     18  CAU 621 d   1      22.195   8.798  40.444  0.00  0.00    -0.003 C 
+ATOM     19  H   621 d   1      22.554   8.995  41.454  0.00  0.00     0.040 H 
+ATOM     20  H   621 d   1      23.027   8.862  39.743  0.00  0.00     0.040 H 
+ATOM     21  H   621 d   1      21.436   9.533  40.177  0.00  0.00     0.040 H 
+ENDBRANCH  15  18
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  22
+ATOM     22  CAN 621 d   1      19.383   1.970  37.416  0.00  0.00     0.044 C 
+ATOM     23  H   621 d   1      18.318   1.736  37.410  0.00  0.00     0.077 H 
+ATOM     24  H   621 d   1      19.807   1.710  38.386  0.00  0.00     0.077 H 
+BRANCH  22  25
+ATOM     25  OAO 621 d   1      20.041   1.220  36.391  0.00  0.00    -0.398 OA
+ATOM     26  H   621 d   1      19.918   0.282  36.553  0.00  0.00     0.209 HD
+ENDBRANCH  22  25
+ENDBRANCH   5  22
+ENDBRANCH   1   5
+BRANCH   3  27
+ATOM     27  CA  621 d   1      18.078   4.479  33.805  0.00  0.00     0.070 C 
+ATOM     28  H   621 d   1      17.314   5.146  34.205  0.00  0.00     0.084 H 
+BRANCH  27  29
+ATOM     29  C   621 d   1      17.408   3.266  33.157  0.00  0.00     0.145 C 
+ATOM     30  O   621 d   1      16.469   3.416  32.376  0.00  0.00    -0.296 OA
+BRANCH  29  31
+ATOM     31  CAC 621 d   1      17.919   1.863  33.493  0.00  0.00    -0.019 C 
+ATOM     32  H   621 d   1      17.113   1.282  33.941  0.00  0.00     0.037 H 
+ATOM     33  H   621 d   1      18.259   1.373  32.580  0.00  0.00     0.037 H 
+ATOM     34  H   621 d   1      18.748   1.938  34.197  0.00  0.00     0.037 H 
+ENDBRANCH  29  31
+ENDBRANCH  27  29
+BRANCH  27  35
+ATOM     35  CB  621 d   1      18.907   5.224  32.757  0.00  0.00    -0.037 C 
+ATOM     36  H   621 d   1      18.809   4.723  31.794  0.00  0.00     0.037 H 
+ATOM     37  H   621 d   1      19.954   5.230  33.060  0.00  0.00     0.037 H 
+BRANCH  35  38
+ATOM     38  CG  621 d   1      18.403   6.664  32.636  0.00  0.00    -0.059 C 
+ATOM     39  H   621 d   1      17.885   6.759  31.682  0.00  0.00     0.038 H 
+BRANCH  38  40
+ATOM     40  CD1 621 d   1      17.404   6.990  33.748  0.00  0.00    -0.073 C 
+ATOM     41  H   621 d   1      16.552   6.314  33.679  0.00  0.00     0.028 H 
+ATOM     42  H   621 d   1      17.888   6.869  34.717  0.00  0.00     0.028 H 
+ATOM     43  H   621 d   1      17.062   8.019  33.638  0.00  0.00     0.028 H 
+ENDBRANCH  38  40
+BRANCH  38  44
+ATOM     44  CD2 621 d   1      19.569   7.654  32.639  0.00  0.00    -0.073 C 
+ATOM     45  H   621 d   1      20.126   7.555  33.571  0.00  0.00     0.028 H 
+ATOM     46  H   621 d   1      20.227   7.441  31.797  0.00  0.00     0.028 H 
+ATOM     47  H   621 d   1      19.182   8.669  32.552  0.00  0.00     0.028 H 
+ENDBRANCH  38  44
+ENDBRANCH  35  38
+ENDBRANCH  27  35
+ENDBRANCH   3  27
+TORSDOF 14

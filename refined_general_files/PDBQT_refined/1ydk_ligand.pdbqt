@@ -1,0 +1,110 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CA1_2 
+REMARK    2  A    between atoms: CA1_2  and  C1_3 
+REMARK    3  A    between atoms: CA1_2  and  CB1_6 
+REMARK    4  A    between atoms: CB1_6  and  CG1_7 
+REMARK    5  A    between atoms: CG1_7  and  CD1_8 
+REMARK    6  A    between atoms: N2_10  and  CA2_11 
+REMARK    7  A    between atoms: CA2_11  and  C2_12 
+REMARK    8  A    between atoms: CA2_11  and  CB2_14 
+REMARK    9  A    between atoms: CB2_14  and  SG2_15 
+REMARK   10  A    between atoms: SG2_15  and  C1S_16 
+REMARK   11  A    between atoms: C1S_16  and  C2S_17 
+REMARK   12  A    between atoms: C2S_17  and  C3S_18 
+REMARK   13  A    between atoms: C3S_18  and  C4S_19 
+REMARK   14  A    between atoms: C4S_19  and  C5S_20 
+REMARK   15  A    between atoms: C5S_20  and  C6S_21 
+REMARK   16  A    between atoms: N3_22  and  CA3_23 
+REMARK   17  A    between atoms: CA3_23  and  C3_24 
+ROOT
+ATOM      1  CA2 GTX d   1      31.208  28.878  14.804  0.00  0.00     0.084 C 
+ATOM      2  H10 GTX d   1      31.143  28.332  15.757  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N2  GTX d   1      30.264  28.306  13.856  0.00  0.00    -0.359 N 
+ATOM      4  CD1 GTX d   1      29.422  27.337  14.208  0.00  0.00     0.152 C 
+ATOM      5  OE1 GTX d   1      29.473  26.714  15.462  0.00  0.00    -0.177 OA
+ATOM      6  H9  GTX d   1      30.247  28.649  12.917  0.00  0.00     0.162 HD
+BRANCH   4   7
+ATOM      7  CG1 GTX d   1      28.365  26.936  13.199  0.00  0.00    -0.001 C 
+ATOM      8  H7  GTX d   1      27.576  27.703  13.181  0.00  0.00     0.045 H 
+ATOM      9  H8  GTX d   1      28.828  26.863  12.204  0.00  0.00     0.045 H 
+BRANCH   7  10
+ATOM     10  CB1 GTX d   1      27.743  25.588  13.561  0.00  0.00    -0.022 C 
+ATOM     11  H5  GTX d   1      28.519  24.809  13.515  0.00  0.00     0.037 H 
+ATOM     12  H6  GTX d   1      27.337  25.641  14.582  0.00  0.00     0.037 H 
+BRANCH  10  13
+ATOM     13  CA1 GTX d   1      26.616  25.230  12.592  0.00  0.00     0.183 C 
+ATOM     14  H4  GTX d   1      25.972  26.112  12.456  0.00  0.00     0.101 H 
+BRANCH  13  15
+ATOM     15  N1  GTX d   1      25.814  24.141  13.120  0.00  0.00    -0.065 N 
+ATOM     16  H1  GTX d   1      25.430  24.409  14.013  0.00  0.00     0.275 HD
+ATOM     17  H2  GTX d   1      26.392  23.323  13.235  0.00  0.00     0.275 HD
+ATOM     18  H3  GTX d   1      25.064  23.935  12.479  0.00  0.00     0.275 HD
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C1  GTX d   1      27.192  24.835  11.259  0.00  0.00     0.204 C 
+ATOM     20  O11 GTX d   1      27.525  25.706  10.423  0.00  0.00    -0.646 OA
+ATOM     21  O12 GTX d   1      27.350  23.632  10.970  0.00  0.00    -0.646 OA
+ENDBRANCH  13  19
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  22
+ATOM     22  C2  GTX d   1      30.897  30.327  15.019  0.00  0.00     0.175 C 
+ATOM     23  O2  GTX d   1      30.640  31.144  13.902  0.00  0.00    -0.175 OA
+ATOM     24  N3  GTX d   1      30.901  30.759  16.281  0.00  0.00    -0.360 N 
+ATOM     25  H26 GTX d   1      31.259  30.156  16.994  0.00  0.00     0.162 HD
+BRANCH  24  26
+ATOM     26  CA3 GTX d   1      30.407  32.070  16.661  0.00  0.00     0.074 C 
+ATOM     27  H27 GTX d   1      30.234  32.655  15.746  0.00  0.00     0.080 H 
+ATOM     28  H28 GTX d   1      31.174  32.566  17.273  0.00  0.00     0.080 H 
+BRANCH  26  29
+ATOM     29  C3  GTX d   1      29.118  32.027  17.452  0.00  0.00     0.191 C 
+ATOM     30  O31 GTX d   1      28.651  33.089  17.924  0.00  0.00    -0.647 OA
+ATOM     31  O32 GTX d   1      28.498  30.954  17.652  0.00  0.00    -0.647 OA
+ENDBRANCH  26  29
+ENDBRANCH  24  26
+ENDBRANCH   1  22
+BRANCH   1  32
+ATOM     32  CB2 GTX d   1      32.635  28.805  14.258  0.00  0.00     0.003 C 
+ATOM     33  H11 GTX d   1      33.325  29.138  15.048  0.00  0.00     0.052 H 
+ATOM     34  H12 GTX d   1      32.710  29.483  13.395  0.00  0.00     0.052 H 
+BRANCH  32  35
+ATOM     35  SG2 GTX d   1      33.136  27.156  13.727  0.00  0.00    -0.167 SA
+BRANCH  35  36
+ATOM     36  C1S GTX d   1      33.832  26.759  15.352  0.00  0.00    -0.023 C 
+ATOM     37  H13 GTX d   1      33.126  26.111  15.892  0.00  0.00     0.049 H 
+ATOM     38  H14 GTX d   1      33.976  27.693  15.914  0.00  0.00     0.049 H 
+BRANCH  36  39
+ATOM     39  C2S GTX d   1      35.172  26.040  15.240  0.00  0.00    -0.057 C 
+ATOM     40  H15 GTX d   1      35.806  26.333  16.090  0.00  0.00     0.034 H 
+ATOM     41  H16 GTX d   1      35.659  26.338  14.300  0.00  0.00     0.034 H 
+BRANCH  39  42
+ATOM     42  C3S GTX d   1      35.002  24.524  15.250  0.00  0.00    -0.064 C 
+ATOM     43  H17 GTX d   1      35.069  24.153  14.216  0.00  0.00     0.033 H 
+ATOM     44  H18 GTX d   1      34.012  24.282  15.663  0.00  0.00     0.033 H 
+BRANCH  42  45
+ATOM     45  C4S GTX d   1      36.070  23.827  16.093  0.00  0.00    -0.065 C 
+ATOM     46  H19 GTX d   1      35.767  22.781  16.246  0.00  0.00     0.033 H 
+ATOM     47  H20 GTX d   1      36.135  24.336  17.066  0.00  0.00     0.033 H 
+BRANCH  45  48
+ATOM     48  C5S GTX d   1      37.451  23.842  15.445  0.00  0.00    -0.069 C 
+ATOM     49  H21 GTX d   1      37.571  24.772  14.870  0.00  0.00     0.032 H 
+ATOM     50  H22 GTX d   1      37.543  22.979  14.770  0.00  0.00     0.032 H 
+BRANCH  48  51
+ATOM     51  C6S GTX d   1      38.544  23.766  16.511  0.00  0.00    -0.077 C 
+ATOM     52  H23 GTX d   1      39.531  23.778  16.026  0.00  0.00     0.027 H 
+ATOM     53  H24 GTX d   1      38.430  22.836  17.087  0.00  0.00     0.027 H 
+ATOM     54  H25 GTX d   1      38.458  24.629  17.187  0.00  0.00     0.027 H 
+ENDBRANCH  48  51
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH   1  32
+TORSDOF 17

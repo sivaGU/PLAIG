@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAJ_2 
+REMARK    2  A    between atoms: CAK_10  and  CAI_11 
+REMARK    3  A    between atoms: CAI_11  and  CAA_13 
+ROOT
+ATOM      1  CAJ 5RO d   1       6.353 -10.021   5.886  0.00  0.00    -0.034 A 
+ATOM      2  CAE 5RO d   1       5.254  -9.495   5.221  0.00  0.00    -0.075 A 
+ATOM      3  CAD 5RO d   1       4.973  -9.955   3.942  0.00  0.00    -0.082 A 
+ATOM      4  CAF 5RO d   1       5.804 -10.915   3.376  0.00  0.00    -0.070 A 
+ATOM      5  CAL 5RO d   1       6.850 -11.390   4.058  0.00  0.00     0.006 A 
+ATOM      6  CAM 5RO d   1       7.117 -10.942   5.297  0.00  0.00     0.049 A 
+ATOM      7  NAH 5RO d   1       8.206 -11.570   5.738  0.00  0.00    -0.364 N 
+ATOM      8  CAG 5RO d   1       8.627 -12.405   4.794  0.00  0.00    -0.008 A 
+ATOM      9  CAK 5RO d   1       7.791 -12.292   3.761  0.00  0.00     0.037 A 
+ATOM     10  H4  5RO d   1       4.630  -8.743   5.690  0.00  0.00     0.084 H 
+ATOM     11  H5  5RO d   1       4.120  -9.572   3.394  0.00  0.00     0.083 H 
+ATOM     12  H6  5RO d   1       5.602 -11.280   2.376  0.00  0.00     0.084 H 
+ATOM     13  H7  5RO d   1       8.648 -11.431   6.658  0.00  0.00     0.165 HD
+ATOM     14  H8  5RO d   1       9.495 -13.061   4.853  0.00  0.00     0.112 H 
+ENDROOT
+BRANCH   9  15
+ATOM     15  CAI 5RO d   1       7.925 -13.004   2.628  0.00  0.00     0.158 C 
+ATOM     16  OAC 5RO d   1       7.091 -13.011   1.715  0.00  0.00    -0.293 OA
+BRANCH  15  17
+ATOM     17  CAA 5RO d   1       9.204 -13.841   2.538  0.00  0.00    -0.017 C 
+ATOM     18  H9  5RO d   1       9.221 -14.383   1.581  0.00  0.00     0.038 H 
+ATOM     19  H10 5RO d   1       9.230 -14.562   3.368  0.00  0.00     0.038 H 
+ATOM     20  H11 5RO d   1      10.080 -13.179   2.600  0.00  0.00     0.038 H 
+ENDBRANCH  15  17
+ENDBRANCH   9  15
+BRANCH   1  21
+ATOM     21  CAB 5RO d   1       6.657  -9.578   7.173  0.00  0.00    -0.049 C 
+ATOM     22  H1  5RO d   1       5.919  -8.825   7.485  0.00  0.00     0.033 H 
+ATOM     23  H2  5RO d   1       7.662  -9.131   7.179  0.00  0.00     0.033 H 
+ATOM     24  H3  5RO d   1       6.630 -10.429   7.870  0.00  0.00     0.033 H 
+ENDBRANCH   1  21
+TORSDOF 3

@@ -1,0 +1,133 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CT_2  and  CA_4 
+REMARK    2  A    between atoms: CA_4  and  CB_5 
+REMARK    3  A    between atoms: CA_4  and  N_9 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD_7 
+REMARK       I    between atoms: CD_7  and  N2_32 
+REMARK       I    between atoms: N_9  and  C_10 
+REMARK    6  A    between atoms: C_10  and  C11_12 
+REMARK    7  A    between atoms: C14_15  and  N10_18 
+REMARK    8  A    between atoms: N10_18  and  C9_19 
+REMARK    9  A    between atoms: C9_19  and  C6_20 
+REMARK   10  A    between atoms: N5_21  and  C1_42 
+REMARK   11  A    between atoms: C2_27  and  NA2_28 
+REMARK   12  A    between atoms: C4_30  and  O4_31 
+REMARK   13  A    between atoms: N2_32  and  C3_33 
+REMARK   14  A    between atoms: C3_33  and  C5_34 
+REMARK   15  A    between atoms: C3_33  and  C8_37 
+REMARK   16  A    between atoms: C8_37  and  C10_38 
+REMARK   17  A    between atoms: C10_38  and  C17_39 
+ROOT
+ATOM      1  C11 TLL d   1      70.704  13.931 167.803  0.00  0.00     0.032 A 
+ATOM      2  C16 TLL d   1      71.193  13.317 166.497  0.00  0.00    -0.066 A 
+ATOM      3  C15 TLL d   1      72.194  13.915 165.796  0.00  0.00    -0.057 A 
+ATOM      4  C14 TLL d   1      72.824  15.199 166.319  0.00  0.00     0.028 A 
+ATOM      5  C13 TLL d   1      72.388  15.749 167.479  0.00  0.00    -0.057 A 
+ATOM      6  C12 TLL d   1      71.258  15.077 168.268  0.00  0.00    -0.066 A 
+ATOM      7  H   TLL d   1      70.743  12.403 166.126  0.00  0.00     0.085 H 
+ATOM      8  H   TLL d   1      72.542  13.478 164.867  0.00  0.00     0.086 H 
+ATOM      9  H   TLL d   1      72.838  16.663 167.849  0.00  0.00     0.086 H 
+ATOM     10  H   TLL d   1      70.904  15.517 169.194  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C   TLL d   1      69.566  13.239 168.572  0.00  0.00     0.252 C 
+ATOM     12  N   TLL d   1      68.723  12.306 167.850  0.00  0.00    -0.342 N 
+ATOM     13  H   TLL d   1      68.904  12.135 166.881  0.00  0.00     0.163 HD
+ATOM     14  O   TLL d   1      69.377  13.471 169.754  0.00  0.00    -0.268 OA
+BRANCH  12  15
+ATOM     15  CA  TLL d   1      67.638  11.623 168.487  0.00  0.00     0.097 C 
+ATOM     16  H   TLL d   1      67.212  12.254 169.281  0.00  0.00     0.089 H 
+BRANCH  15  17
+ATOM     17  CT  TLL d   1      68.137  10.340 169.075  0.00  0.00     0.196 C 
+ATOM     18  O2  TLL d   1      69.329   9.993 168.900  0.00  0.00    -0.646 OA
+ATOM     19  O1  TLL d   1      67.361   9.607 169.747  0.00  0.00    -0.646 OA
+ENDBRANCH  15  17
+BRANCH  15  20
+ATOM     20  CB  TLL d   1      66.576  11.321 167.438  0.00  0.00    -0.029 C 
+ATOM     21  H   TLL d   1      65.621  11.107 167.940  0.00  0.00     0.037 H 
+ATOM     22  H   TLL d   1      66.886  10.445 166.850  0.00  0.00     0.037 H 
+BRANCH  20  23
+ATOM     23  CG  TLL d   1      66.397  12.529 166.496  0.00  0.00     0.011 C 
+ATOM     24  H   TLL d   1      67.318  12.684 165.915  0.00  0.00     0.047 H 
+ATOM     25  H   TLL d   1      66.182  13.430 167.089  0.00  0.00     0.047 H 
+BRANCH  23  26
+ATOM     26  CD  TLL d   1      65.223  12.248 165.538  0.00  0.00     0.218 C 
+ATOM     27  OE2 TLL d   1      64.608  11.214 165.637  0.00  0.00    -0.274 OA
+ATOM     28  N2  TLL d   1      64.870  13.207 164.520  0.00  0.00    -0.347 N 
+ATOM     29  H   TLL d   1      65.379  14.064 164.438  0.00  0.00     0.163 HD
+BRANCH  28  30
+ATOM     30  C3  TLL d   1      63.793  12.927 163.633  0.00  0.00     0.096 C 
+ATOM     31  H   TLL d   1      63.066  12.272 164.136  0.00  0.00     0.089 H 
+BRANCH  30  32
+ATOM     32  C5  TLL d   1      64.349  12.225 162.426  0.00  0.00     0.196 C 
+ATOM     33  O6  TLL d   1      63.623  12.014 161.415  0.00  0.00    -0.646 OA
+ATOM     34  O7  TLL d   1      65.543  11.836 162.418  0.00  0.00    -0.646 OA
+ENDBRANCH  30  32
+BRANCH  30  35
+ATOM     35  C8  TLL d   1      63.092  14.222 163.216  0.00  0.00    -0.028 C 
+ATOM     36  H   TLL d   1      62.985  14.236 162.121  0.00  0.00     0.037 H 
+ATOM     37  H   TLL d   1      63.702  15.080 163.536  0.00  0.00     0.037 H 
+BRANCH  35  38
+ATOM     38  C10 TLL d   1      61.690  14.328 163.863  0.00  0.00     0.018 C 
+ATOM     39  H   TLL d   1      61.186  15.228 163.480  0.00  0.00     0.049 H 
+ATOM     40  H   TLL d   1      61.804  14.408 164.954  0.00  0.00     0.049 H 
+BRANCH  38  41
+ATOM     41  C17 TLL d   1      60.829  13.095 163.538  0.00  0.00     0.172 C 
+ATOM     42  O18 TLL d   1      59.905  12.753 164.319  0.00  0.00    -0.648 OA
+ATOM     43  O19 TLL d   1      61.050  12.413 162.495  0.00  0.00    -0.648 OA
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  30  35
+ENDBRANCH  28  30
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  15  20
+ENDBRANCH  12  15
+ENDBRANCH   1  11
+BRANCH   4  44
+ATOM     44  N10 TLL d   1      73.881  15.832 165.573  0.00  0.00    -0.388 N 
+ATOM     45  H   TLL d   1      74.617  16.358 166.066  0.00  0.00     0.159 HD
+BRANCH  44  46
+ATOM     46  C9  TLL d   1      73.907  15.728 164.141  0.00  0.00     0.021 C 
+ATOM     47  H   TLL d   1      73.949  14.666 163.857  0.00  0.00     0.067 H 
+ATOM     48  H   TLL d   1      74.799  16.246 163.758  0.00  0.00     0.067 H 
+BRANCH  46  49
+ATOM     49  C6  TLL d   1      72.664  16.358 163.532  0.00  0.00     0.134 C 
+ATOM     50  N5  TLL d   1      72.740  16.260 162.103  0.00  0.00    -0.052 N 
+ATOM     51  C4A TLL d   1      73.757  17.034 161.435  0.00  0.00     0.202 A 
+ATOM     52  H   TLL d   1      73.370  15.477 162.182  0.00  0.00     0.281 HD
+ATOM     53  C8A TLL d   1      74.133  18.169 161.983  0.00  0.00     0.154 A 
+ATOM     54  C4  TLL d   1      74.448  16.599 160.094  0.00  0.00     0.151 A 
+ATOM     55  H   TLL d   1      72.976  17.551 160.858  0.00  0.00     0.104 H 
+ATOM     56  N8  TLL d   1      73.548  18.609 163.198  0.00  0.00    -0.374 N 
+ATOM     57  N1  TLL d   1      75.096  18.875 161.334  0.00  0.00    -0.050 NA
+ATOM     58  C7  TLL d   1      72.572  17.815 163.871  0.00  0.00     0.022 C 
+ATOM     59  H   TLL d   1      73.832  19.514 163.600  0.00  0.00     0.160 HD
+ATOM     60  H   TLL d   1      72.713  17.932 164.956  0.00  0.00     0.067 H 
+ATOM     61  H   TLL d   1      71.572  18.177 163.590  0.00  0.00     0.067 H 
+ATOM     62  C2  TLL d   1      75.786  18.635 160.173  0.00  0.00     0.697 A 
+ATOM     63  N3  TLL d   1      75.502  17.511 159.516  0.00  0.00    -0.196 N 
+ATOM     64  H   TLL d   1      75.987  17.272 158.640  0.00  0.00     0.180 HD
+ATOM     65  H   TLL d   1      73.670  17.122 159.519  0.00  0.00     0.122 H 
+ATOM     66  H   TLL d   1      71.771  15.833 163.901  0.00  0.00     0.089 H 
+BRANCH  50  67
+ATOM     67  C1  TLL d   1      71.834  15.450 161.353  0.00  0.00     0.068 C 
+ATOM     68  H   TLL d   1      71.141  14.943 162.040  0.00  0.00     0.068 H 
+ATOM     69  H   TLL d   1      72.400  14.699 160.783  0.00  0.00     0.068 H 
+ATOM     70  H   TLL d   1      71.264  16.084 160.659  0.00  0.00     0.068 H 
+ENDBRANCH  50  67
+BRANCH  62  71
+ATOM     71  NA2 TLL d   1      76.775  19.551 159.686  0.00  0.00    -0.233 N 
+ATOM     72  H   TLL d   1      76.979  20.414 160.209  0.00  0.00     0.174 HD
+ATOM     73  H   TLL d   1      77.281  19.346 158.813  0.00  0.00     0.174 HD
+ENDBRANCH  62  71
+BRANCH  54  74
+ATOM     74  O4  TLL d   1      74.106  15.403 159.450  0.00  0.00    -0.374 OA
+ATOM     75  H   TLL d   1      73.431  14.958 159.949  0.00  0.00     0.212 HD
+ENDBRANCH  54  74
+ENDBRANCH  46  49
+ENDBRANCH  44  46
+ENDBRANCH   4  44
+TORSDOF 17

@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2'_1  and  C2'_2 
+REMARK    2  A    between atoms: C3'_5  and  O3'_6 
+REMARK    3  A    between atoms: C4'_7  and  C5'_8 
+REMARK    4  A    between atoms: C5'_8  and  O5'_9 
+ROOT
+ATOM      1  C2' EDG d   1     305.148 220.180 330.535  0.00  0.00     0.085 C 
+ATOM      2  C1' EDG d   1     304.360 218.928 330.911  0.00  0.00     0.108 C 
+ATOM      3  N4' EDG d   1     304.461 218.834 332.356  0.00  0.00    -0.064 N 
+ATOM      4  C3' EDG d   1     305.866 220.596 331.823  0.00  0.00     0.091 C 
+ATOM      5  C4' EDG d   1     304.914 220.120 332.917  0.00  0.00     0.148 C 
+ATOM      6  H2  EDG d   1     304.475 220.982 330.198  0.00  0.00     0.089 H 
+ATOM      7  H3  EDG d   1     304.799 218.039 330.435  0.00  0.00     0.079 H 
+ATOM      8  H4  EDG d   1     303.308 219.027 330.604  0.00  0.00     0.079 H 
+ATOM      9  H5  EDG d   1     305.123 218.113 332.598  0.00  0.00     0.277 HD
+ATOM     10  H6  EDG d   1     303.558 218.603 332.739  0.00  0.00     0.277 HD
+ATOM     11  H7  EDG d   1     306.839 220.088 331.899  0.00  0.00     0.090 H 
+ATOM     12  H9  EDG d   1     304.067 220.816 333.006  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  C5' EDG d   1     305.542 219.987 334.289  0.00  0.00     0.046 C 
+ATOM     14  H10 EDG d   1     304.746 219.805 335.026  0.00  0.00     0.077 H 
+ATOM     15  H11 EDG d   1     306.060 220.926 334.533  0.00  0.00     0.077 H 
+BRANCH  13  16
+ATOM     16  O5' EDG d   1     306.478 218.919 334.355  0.00  0.00    -0.399 OA
+ATOM     17  H12 EDG d   1     307.174 219.070 333.726  0.00  0.00     0.209 HD
+ENDBRANCH  13  16
+ENDBRANCH   5  13
+BRANCH   4  18
+ATOM     18  O3' EDG d   1     306.068 221.996 331.927  0.00  0.00    -0.391 OA
+ATOM     19  H8  EDG d   1     306.596 222.294 331.196  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  O2' EDG d   1     306.050 219.857 329.500  0.00  0.00    -0.391 OA
+ATOM     21  H1  EDG d   1     306.545 220.631 329.260  0.00  0.00     0.210 HD
+ENDBRANCH   1  20
+TORSDOF 4

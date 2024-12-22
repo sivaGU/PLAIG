@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_2  and  C4_3 
+REMARK    2  A    between atoms: C12_2  and  C14_14 
+REMARK    3  A    between atoms: C2_5  and  O7_6 
+REMARK    4  A    between atoms: C6_8  and  N9_9 
+REMARK    5  A    between atoms: C1_12  and  O8_13 
+REMARK    6  A    between atoms: C17_17  and  C20_18 
+ROOT
+ATOM      1  O13 TCW d   1     -13.317  35.233  60.203  0.00  0.00    -0.287 OA
+ATOM      2  C12 TCW d   1     -13.559  36.075  61.064  0.00  0.00     0.192 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C4  TCW d   1     -12.398  36.653  61.819  0.00  0.00     0.020 A 
+ATOM      4  C3  TCW d   1     -11.204  35.881  61.937  0.00  0.00    -0.034 A 
+ATOM      5  C2  TCW d   1     -10.094  36.435  62.625  0.00  0.00     0.102 A 
+ATOM      6  H1  TCW d   1     -11.146  34.887  61.508  0.00  0.00     0.089 H 
+ATOM      7  C1  TCW d   1     -10.177  37.724  63.113  0.00  0.00     0.132 A 
+ATOM      8  C6  TCW d   1     -11.361  38.498  62.978  0.00  0.00     0.139 A 
+ATOM      9  C5  TCW d   1     -12.472  37.953  62.331  0.00  0.00    -0.034 A 
+ATOM     10  H3  TCW d   1     -13.383  38.531  62.227  0.00  0.00     0.088 H 
+BRANCH   5  11
+ATOM     11  O7  TCW d   1      -8.927  35.718  62.792  0.00  0.00    -0.358 OA
+ATOM     12  H2  TCW d   1      -8.299  36.245  63.273  0.00  0.00     0.217 HD
+ENDBRANCH   5  11
+BRANCH   7  13
+ATOM     13  O8  TCW d   1      -9.072  38.239  63.736  0.00  0.00    -0.356 OA
+ATOM     14  H4  TCW d   1      -8.379  37.590  63.736  0.00  0.00     0.218 HD
+ENDBRANCH   7  13
+BRANCH   8  15
+ATOM     15  N9  TCW d   1     -11.461  39.815  63.494  0.00  0.00    -0.113 N 
+ATOM     16  O11 TCW d   1     -12.481  40.454  63.254  0.00  0.00    -0.532 OA
+ATOM     17  O10 TCW d   1     -10.576  40.339  64.197  0.00  0.00    -0.532 OA
+ENDBRANCH   8  15
+ENDBRANCH   2   3
+BRANCH   2  18
+ATOM     18  C14 TCW d   1     -14.951  36.570  61.270  0.00  0.00     0.015 A 
+ATOM     19  C19 TCW d   1     -15.712  36.858  60.125  0.00  0.00    -0.069 A 
+ATOM     20  C18 TCW d   1     -17.015  37.333  60.281  0.00  0.00    -0.076 A 
+ATOM     21  H5  TCW d   1     -15.294  36.714  59.136  0.00  0.00     0.085 H 
+ATOM     22  C17 TCW d   1     -17.540  37.530  61.565  0.00  0.00    -0.062 A 
+ATOM     23  H6  TCW d   1     -17.621  37.550  59.409  0.00  0.00     0.084 H 
+ATOM     24  C16 TCW d   1     -16.769  37.259  62.707  0.00  0.00    -0.076 A 
+ATOM     25  C15 TCW d   1     -15.461  36.779  62.558  0.00  0.00    -0.069 A 
+ATOM     26  H10 TCW d   1     -17.183  37.420  63.696  0.00  0.00     0.084 H 
+ATOM     27  H11 TCW d   1     -14.851  36.572  63.429  0.00  0.00     0.085 H 
+BRANCH  22  28
+ATOM     28  C20 TCW d   1     -18.946  38.055  61.721  0.00  0.00    -0.051 C 
+ATOM     29  H7  TCW d   1     -19.187  38.146  62.790  0.00  0.00     0.033 H 
+ATOM     30  H8  TCW d   1     -19.652  37.359  61.244  0.00  0.00     0.033 H 
+ATOM     31  H9  TCW d   1     -19.024  39.042  61.242  0.00  0.00     0.033 H 
+ENDBRANCH  22  28
+ENDBRANCH   2  18
+TORSDOF 6

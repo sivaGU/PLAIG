@@ -1,0 +1,34 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  CA_4 
+REMARK    2  A    between atoms: CAI_8  and  CAA_9 
+ROOT
+ATOM      1  CA  4CS d   1      32.522  14.670   8.870  0.00  0.00     0.188 C 
+ATOM      2  CB  4CS d   1      33.787  15.383   9.265  0.00  0.00    -0.006 C 
+ATOM      3  CAD 4CS d   1      33.755  16.829   8.880  0.00  0.00     0.086 C 
+ATOM      4  NAG 4CS d   1      32.478  17.430   9.148  0.00  0.00    -0.046 N 
+ATOM      5  CAI 4CS d   1      31.398  16.685   9.670  0.00  0.00     0.250 C 
+ATOM      6  N   4CS d   1      31.344  15.288   9.397  0.00  0.00    -0.033 N 
+ATOM      7  H1  4CS d   1      32.453  14.661   7.772  0.00  0.00     0.101 H 
+ATOM      8  H2  4CS d   1      34.639  14.900   8.764  0.00  0.00     0.039 H 
+ATOM      9  H3  4CS d   1      33.912  15.308  10.355  0.00  0.00     0.039 H 
+ATOM     10  H4  4CS d   1      33.969  16.915   7.804  0.00  0.00     0.075 H 
+ATOM     11  H5  4CS d   1      34.527  17.366   9.451  0.00  0.00     0.075 H 
+ATOM     12  H6  4CS d   1      32.158  17.817   8.274  0.00  0.00     0.279 HD
+ATOM     13  H7  4CS d   1      32.649  18.177   9.803  0.00  0.00     0.279 HD
+ATOM     14  H8  4CS d   1      31.883  16.546  10.648  0.00  0.00     0.129 H 
+ATOM     15  H12 4CS d   1      31.119  14.820  10.261  0.00  0.00     0.280 HD
+ATOM     16  H13 4CS d   1      30.602  15.139   8.731  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   5  17
+ATOM     17  CAA 4CS d   1      30.191  17.377  10.275  0.00  0.00    -0.026 C 
+ATOM     18  H9  4CS d   1      29.470  16.621  10.620  0.00  0.00     0.032 H 
+ATOM     19  H10 4CS d   1      29.717  18.017   9.516  0.00  0.00     0.032 H 
+ATOM     20  H11 4CS d   1      30.511  17.994  11.127  0.00  0.00     0.032 H 
+ENDBRANCH   5  17
+BRANCH   1  21
+ATOM     21  C   4CS d   1      32.583  13.239   9.387  0.00  0.00     0.204 C 
+ATOM     22  O   4CS d   1      31.712  12.804   9.975  0.00  0.00    -0.646 OA
+ATOM     23  OXT 4CS d   1      33.778  12.664   9.421  0.00  0.00    -0.646 OA
+ENDBRANCH   1  21
+TORSDOF 2

@@ -1,0 +1,84 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_18  and  C10_1 
+REMARK    2  A    between atoms: N16_21  and  C15_3 
+REMARK       I    between atoms: C17_4  and  N16_21 
+REMARK    3  A    between atoms: O18_22  and  C17_4 
+REMARK    4  A    between atoms: C19_23  and  C20_5 
+REMARK    5  A    between atoms: C25_27  and  C26_7 
+REMARK    6  A    between atoms: C02_10  and  C01_9 
+REMARK    7  A    between atoms: C03_11  and  N04_12 
+REMARK    8  A    between atoms: N04_12  and  S05_13 
+REMARK    9  A    between atoms: S05_13  and  C06_14 
+REMARK   10  A    between atoms: O18_22  and  C19_23 
+ROOT
+ATOM      1  N12 BMF d   1      31.758  16.402   0.253  0.00  0.00    -0.164 NA
+ATOM      2  C15 BMF d   1      33.655  15.454  -1.711  0.00  0.00     0.089 A 
+ATOM      3  C22 BMF d   1      32.370  14.944  -1.651  0.00  0.00    -0.023 A 
+ATOM      4  C11 BMF d   1      31.483  15.406  -0.620  0.00  0.00     0.090 A 
+ATOM      5  N13 BMF d   1      33.009  16.915   0.132  0.00  0.00    -0.195 N 
+ATOM      6  C14 BMF d   1      34.025  16.484  -0.769  0.00  0.00     0.201 A 
+ATOM      7  N23 BMF d   1      35.149  17.188  -0.586  0.00  0.00    -0.126 NA
+ATOM      8  N24 BMF d   1      34.857  18.106   0.407  0.00  0.00    -0.133 NA
+ATOM      9  C25 BMF d   1      33.567  17.933   0.858  0.00  0.00     0.148 A 
+ATOM     10  H4  BMF d   1      32.036  14.203  -2.375  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C10 BMF d   1      30.172  14.870  -0.501  0.00  0.00    -0.003 A 
+ATOM     12  C09 BMF d   1      29.633  14.685   0.798  0.00  0.00    -0.044 A 
+ATOM     13  C03 BMF d   1      28.383  13.969   0.945  0.00  0.00     0.049 A 
+ATOM     14  H16 BMF d   1      30.149  15.074   1.668  0.00  0.00     0.088 H 
+ATOM     15  C02 BMF d   1      27.670  13.544  -0.174  0.00  0.00    -0.035 A 
+ATOM     16  C28 BMF d   1      28.225  13.713  -1.418  0.00  0.00    -0.074 A 
+ATOM     17  C27 BMF d   1      29.462  14.332  -1.563  0.00  0.00    -0.070 A 
+ATOM     18  H8  BMF d   1      27.694  13.361  -2.295  0.00  0.00     0.084 H 
+ATOM     19  H20 BMF d   1      29.892  14.397  -2.556  0.00  0.00     0.084 H 
+BRANCH  13  20
+ATOM     20  N04 BMF d   1      27.844  13.674   2.250  0.00  0.00    -0.284 N 
+ATOM     21  H12 BMF d   1      26.878  13.420   2.288  0.00  0.00     0.178 HD
+BRANCH  20  22
+ATOM     22  S05 BMF d   1      28.648  13.712   3.675  0.00  0.00     0.227 S 
+ATOM     23  O07 BMF d   1      29.929  13.163   3.411  0.00  0.00    -0.206 OA
+ATOM     24  O08 BMF d   1      27.855  13.007   4.606  0.00  0.00    -0.206 OA
+BRANCH  22  25
+ATOM     25  C06 BMF d   1      28.852  15.308   4.258  0.00  0.00     0.033 C 
+ATOM     26  H13 BMF d   1      29.395  15.282   5.214  0.00  0.00     0.051 H 
+ATOM     27  H14 BMF d   1      27.866  15.772   4.409  0.00  0.00     0.051 H 
+ATOM     28  H15 BMF d   1      29.426  15.895   3.526  0.00  0.00     0.051 H 
+ENDBRANCH  22  25
+ENDBRANCH  20  22
+ENDBRANCH  13  20
+BRANCH  15  29
+ATOM     29  C01 BMF d   1      26.419  12.716  -0.057  0.00  0.00    -0.049 C 
+ATOM     30  H9  BMF d   1      26.028  12.498  -1.062  0.00  0.00     0.033 H 
+ATOM     31  H10 BMF d   1      25.664  13.272   0.518  0.00  0.00     0.033 H 
+ATOM     32  H11 BMF d   1      26.651  11.772   0.459  0.00  0.00     0.033 H 
+ENDBRANCH  15  29
+ENDBRANCH   4  11
+BRANCH   2  33
+ATOM     33  N16 BMF d   1      34.708  15.088  -2.523  0.00  0.00    -0.299 N 
+ATOM     34  C17 BMF d   1      34.652  14.001  -3.358  0.00  0.00     0.365 C 
+ATOM     35  O21 BMF d   1      33.698  13.240  -3.491  0.00  0.00    -0.238 OA
+ATOM     36  H17 BMF d   1      35.544  15.636  -2.502  0.00  0.00     0.171 HD
+BRANCH  34  37
+ATOM     37  O18 BMF d   1      35.826  13.864  -4.018  0.00  0.00    -0.304 OA
+BRANCH  37  38
+ATOM     38  C19 BMF d   1      35.834  12.727  -4.927  0.00  0.00     0.027 C 
+ATOM     39  H18 BMF d   1      35.444  11.827  -4.429  0.00  0.00     0.074 H 
+ATOM     40  H19 BMF d   1      35.233  12.940  -5.823  0.00  0.00     0.074 H 
+BRANCH  38  41
+ATOM     41  C20 BMF d   1      37.292  12.549  -5.290  0.00  0.00    -0.056 C 
+ATOM     42  H1  BMF d   1      37.396  11.701  -5.983  0.00  0.00     0.030 H 
+ATOM     43  H2  BMF d   1      37.875  12.352  -4.379  0.00  0.00     0.030 H 
+ATOM     44  H3  BMF d   1      37.664  13.465  -5.773  0.00  0.00     0.030 H 
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH  34  37
+ENDBRANCH   2  33
+BRANCH   9  45
+ATOM     45  C26 BMF d   1      32.805  18.695   1.953  0.00  0.00    -0.018 C 
+ATOM     46  H5  BMF d   1      33.461  19.462   2.390  0.00  0.00     0.038 H 
+ATOM     47  H6  BMF d   1      32.490  17.992   2.738  0.00  0.00     0.038 H 
+ATOM     48  H7  BMF d   1      31.918  19.177   1.515  0.00  0.00     0.038 H 
+ENDBRANCH   9  45
+TORSDOF 10

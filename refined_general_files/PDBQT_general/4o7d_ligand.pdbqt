@@ -1,0 +1,44 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+REMARK    5  A    between atoms: CG_7  and  CD_8 
+REMARK    6  A    between atoms: CD_8  and  CE_10 
+ROOT
+ATOM      1  CB  ONL d   1      19.496  -6.746  63.595  0.00  0.00    -0.023 C 
+ATOM      2  H5  ONL d   1      18.861  -7.493  63.097  0.00  0.00     0.037 H 
+ATOM      3  H6  ONL d   1      20.346  -6.495  62.944  0.00  0.00     0.037 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  ONL d   1      20.068  -7.401  64.869  0.00  0.00     0.183 C 
+ATOM      5  H4  ONL d   1      20.666  -6.646  65.400  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   ONL d   1      20.938  -8.542  64.520  0.00  0.00    -0.065 N 
+ATOM      7  H1  ONL d   1      21.666  -8.231  63.897  0.00  0.00     0.275 HD
+ATOM      8  H2  ONL d   1      20.390  -9.256  64.066  0.00  0.00     0.275 HD
+ATOM      9  H3  ONL d   1      21.352  -8.918  65.359  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   ONL d   1      18.954  -7.919  65.833  0.00  0.00     0.204 C 
+ATOM     11  O   ONL d   1      18.471  -7.145  66.710  0.00  0.00    -0.646 OA
+ATOM     12  OXT ONL d   1      18.625  -9.120  65.671  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  ONL d   1      18.655  -5.468  63.770  0.00  0.00    -0.008 C 
+ATOM     14  H7  ONL d   1      19.267  -4.648  64.173  0.00  0.00     0.044 H 
+ATOM     15  H8  ONL d   1      17.799  -5.649  64.437  0.00  0.00     0.044 H 
+BRANCH  13  16
+ATOM     16  CD  ONL d   1      18.186  -5.152  62.359  0.00  0.00     0.123 C 
+ATOM     17  OD  ONL d   1      18.974  -5.017  61.433  0.00  0.00    -0.298 OA
+BRANCH  16  18
+ATOM     18  CE  ONL d   1      16.690  -5.396  62.085  0.00  0.00    -0.021 C 
+ATOM     19  H9  ONL d   1      16.461  -5.136  61.041  0.00  0.00     0.037 H 
+ATOM     20  H10 ONL d   1      16.087  -4.770  62.759  0.00  0.00     0.037 H 
+ATOM     21  H11 ONL d   1      16.453  -6.456  62.260  0.00  0.00     0.037 H 
+ENDBRANCH  16  18
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6

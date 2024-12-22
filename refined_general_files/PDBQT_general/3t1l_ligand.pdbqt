@@ -1,0 +1,88 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: O1_2  and  CAS_25 
+REMARK    3  A    between atoms: C2_3  and  O2_4 
+REMARK    4  A    between atoms: O2_4  and  CAN_22 
+REMARK    5  A    between atoms: C3_5  and  O3_6 
+REMARK    6  A    between atoms: O3_6  and  CAB_14 
+REMARK    7  A    between atoms: C4_7  and  O4_8 
+REMARK    8  A    between atoms: C5_9  and  C6_11 
+REMARK    9  A    between atoms: C6_11  and  O6_12 
+REMARK   10  A    between atoms: CAB_14  and  CAC_15 
+REMARK   11  A    between atoms: CAF_18  and  CAG_19 
+REMARK   12  A    between atoms: CAN_22  and  CAP_24 
+ROOT
+ATOM      1  C1  MQT d   1      20.575  -8.762  -1.534  0.00  0.00     0.158 C 
+ATOM      2  C2  MQT d   1      19.155  -9.283  -1.374  0.00  0.00     0.117 C 
+ATOM      3  C3  MQT d   1      18.150  -8.148  -1.530  0.00  0.00     0.105 C 
+ATOM      4  C4  MQT d   1      18.506  -6.959  -0.636  0.00  0.00     0.090 C 
+ATOM      5  C5  MQT d   1      19.990  -6.595  -0.761  0.00  0.00     0.089 C 
+ATOM      6  O5  MQT d   1      20.801  -7.752  -0.555  0.00  0.00    -0.349 OA
+ATOM      7  H1  MQT d   1      20.697  -8.335  -2.540  0.00  0.00     0.133 H 
+ATOM      8  H2  MQT d   1      18.961 -10.044  -2.144  0.00  0.00     0.095 H 
+ATOM      9  H3  MQT d   1      18.145  -7.813  -2.578  0.00  0.00     0.092 H 
+ATOM     10  H4  MQT d   1      17.912  -6.090  -0.956  0.00  0.00     0.091 H 
+ATOM     11  H6  MQT d   1      20.159  -6.218  -1.780  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  O3  MQT d   1      16.856  -8.651  -1.185  0.00  0.00    -0.306 OA
+BRANCH  12  13
+ATOM     13  CAB MQT d   1      15.742  -8.270  -2.044  0.00  0.00     0.293 C 
+ATOM     14  OAA MQT d   1      15.878  -7.399  -2.888  0.00  0.00    -0.259 OA
+BRANCH  13  15
+ATOM     15  CAC MQT d   1      14.422  -8.966  -1.866  0.00  0.00     0.039 A 
+ATOM     16  CAD MQT d   1      14.373 -10.232  -1.283  0.00  0.00    -0.067 A 
+ATOM     17  CAE MQT d   1      13.149 -10.877  -1.113  0.00  0.00    -0.076 A 
+ATOM     18  H10 MQT d   1      15.289 -10.715  -0.962  0.00  0.00     0.085 H 
+ATOM     19  CAF MQT d   1      11.973 -10.260  -1.525  0.00  0.00    -0.062 A 
+ATOM     20  H11 MQT d   1      13.114 -11.861  -0.659  0.00  0.00     0.084 H 
+ATOM     21  CAH MQT d   1      12.020  -8.996  -2.105  0.00  0.00    -0.076 A 
+ATOM     22  CAI MQT d   1      13.241  -8.350  -2.275  0.00  0.00    -0.067 A 
+ATOM     23  H15 MQT d   1      11.104  -8.513  -2.425  0.00  0.00     0.084 H 
+ATOM     24  H16 MQT d   1      13.273  -7.365  -2.727  0.00  0.00     0.085 H 
+BRANCH  19  25
+ATOM     25  CAG MQT d   1      10.652 -10.959  -1.343  0.00  0.00    -0.051 C 
+ATOM     26  H12 MQT d   1       9.843 -10.320  -1.726  0.00  0.00     0.033 H 
+ATOM     27  H13 MQT d   1      10.487 -11.158  -0.274  0.00  0.00     0.033 H 
+ATOM     28  H14 MQT d   1      10.661 -11.910  -1.896  0.00  0.00     0.033 H 
+ENDBRANCH  19  25
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH   3  12
+BRANCH   2  29
+ATOM     29  O2  MQT d   1      19.010  -9.873  -0.079  0.00  0.00    -0.336 OA
+BRANCH  29  30
+ATOM     30  CAN MQT d   1      18.436 -11.212  -0.037  0.00  0.00     0.253 C 
+ATOM     31  OAO MQT d   1      18.170 -11.889  -1.152  0.00  0.00    -0.192 OA
+BRANCH  30  32
+ATOM     32  CAP MQT d   1      18.177 -11.765   1.136  0.00  0.00    -0.017 C 
+ATOM     33  H17 MQT d   1      17.751 -12.767   0.983  0.00  0.00     0.035 H 
+ATOM     34  H18 MQT d   1      17.457 -11.140   1.685  0.00  0.00     0.035 H 
+ATOM     35  H19 MQT d   1      19.108 -11.847   1.716  0.00  0.00     0.035 H 
+ENDBRANCH  30  32
+ENDBRANCH  29  30
+ENDBRANCH   2  29
+BRANCH   4  36
+ATOM     36  O4  MQT d   1      18.162  -7.274   0.717  0.00  0.00    -0.390 OA
+ATOM     37  H5  MQT d   1      17.230  -7.450   0.773  0.00  0.00     0.210 HD
+ENDBRANCH   4  36
+BRANCH   1  38
+ATOM     38  O1  MQT d   1      21.515  -9.817  -1.354  0.00  0.00    -0.363 OA
+BRANCH  38  39
+ATOM     39  CAS MQT d   1      22.831  -9.408  -1.726  0.00  0.00     0.007 C 
+ATOM     40  H20 MQT d   1      23.531 -10.243  -1.575  0.00  0.00     0.066 H 
+ATOM     41  H21 MQT d   1      23.139  -8.555  -1.104  0.00  0.00     0.066 H 
+ATOM     42  H22 MQT d   1      22.837  -9.111  -2.785  0.00  0.00     0.066 H 
+ENDBRANCH  38  39
+ENDBRANCH   1  38
+BRANCH   5  43
+ATOM     43  C6  MQT d   1      20.442  -5.519   0.228  0.00  0.00     0.043 C 
+ATOM     44  H7  MQT d   1      20.210  -5.841   1.254  0.00  0.00     0.078 H 
+ATOM     45  H8  MQT d   1      19.917  -4.577   0.012  0.00  0.00     0.078 H 
+BRANCH  43  46
+ATOM     46  O6  MQT d   1      21.860  -5.322   0.094  0.00  0.00    -0.398 OA
+ATOM     47  H9  MQT d   1      22.311  -6.137   0.280  0.00  0.00     0.209 HD
+ENDBRANCH  43  46
+ENDBRANCH   5  43
+TORSDOF 12

@@ -1,0 +1,68 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_11  and  B_1 
+REMARK    2  A    between atoms: C1_2  and  N2_7 
+REMARK    3  A    between atoms: S1_5  and  N1_3 
+REMARK    4  A    between atoms: N2_7  and  S1_5 
+REMARK    5  A    between atoms: C7_15  and  C9_17 
+REMARK    6  A    between atoms: C7_15  and  C10_18 
+REMARK    7  A    between atoms: C8_16  and  C11_19 
+REMARK    8  A    between atoms: C8_16  and  C12_20 
+ROOT
+ATOM      1  B   BON d   1      -5.035   6.877  12.679  0.00  0.00     0.535 B 
+ATOM      2  O3  BON d   1      -3.981   7.733  12.511  0.00  0.00    -0.411 OA
+ATOM      3  O4  BON d   1      -6.185   7.333  12.099  0.00  0.00    -0.411 OA
+ATOM      4  C7  BON d   1      -4.218   8.489  11.264  0.00  0.00     0.066 C 
+ATOM      5  C8  BON d   1      -5.790   8.204  10.968  0.00  0.00     0.066 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C4  BON d   1      -4.926   5.508  13.406  0.00  0.00    -0.032 A 
+ATOM      7  C3  BON d   1      -6.059   4.915  14.008  0.00  0.00    -0.080 A 
+ATOM      8  C2  BON d   1      -5.957   3.656  14.649  0.00  0.00    -0.057 A 
+ATOM      9  H   BON d   1      -7.019   5.431  13.979  0.00  0.00     0.083 H 
+ATOM     10  C1  BON d   1      -4.700   2.987  14.685  0.00  0.00     0.043 A 
+ATOM     11  H   BON d   1      -6.834   3.203  15.111  0.00  0.00     0.086 H 
+ATOM     12  C6  BON d   1      -3.568   3.594  14.086  0.00  0.00    -0.057 A 
+ATOM     13  C5  BON d   1      -3.689   4.846  13.453  0.00  0.00    -0.080 A 
+ATOM     14  H   BON d   1      -2.602   3.091  14.115  0.00  0.00     0.086 H 
+ATOM     15  H   BON d   1      -2.813   5.306  12.995  0.00  0.00     0.083 H 
+BRANCH  10  16
+ATOM     16  N2  BON d   1      -4.521   1.699  15.296  0.00  0.00    -0.268 N 
+ATOM     17  H   BON d   1      -3.670   1.204  15.029  0.00  0.00     0.180 HD
+BRANCH  16  18
+ATOM     18  S1  BON d   1      -5.489   0.908  16.363  0.00  0.00     0.317 S 
+ATOM     19  O1  BON d   1      -6.858   1.210  16.064  0.00  0.00    -0.183 OA
+ATOM     20  O2  BON d   1      -5.009   1.259  17.667  0.00  0.00    -0.183 OA
+BRANCH  18  21
+ATOM     21  N1  BON d   1      -5.230  -0.631  16.130  0.00  0.00    -0.311 N 
+ATOM     22  H   BON d   1      -5.989  -1.234  15.814  0.00  0.00     0.170 HD
+ATOM     23  H   BON d   1      -4.303  -1.023  16.296  0.00  0.00     0.170 HD
+ENDBRANCH  18  21
+ENDBRANCH  16  18
+ENDBRANCH  10  16
+ENDBRANCH   1   6
+BRANCH   4  24
+ATOM     24  C9  BON d   1      -3.226   7.956  10.228  0.00  0.00    -0.047 C 
+ATOM     25  H   BON d   1      -2.209   8.111  10.588  0.00  0.00     0.031 H 
+ATOM     26  H   BON d   1      -3.400   6.891  10.074  0.00  0.00     0.031 H 
+ATOM     27  H   BON d   1      -3.365   8.488   9.287  0.00  0.00     0.031 H 
+ENDBRANCH   4  24
+BRANCH   4  28
+ATOM     28  C10 BON d   1      -3.842   9.944  11.555  0.00  0.00    -0.047 C 
+ATOM     29  H   BON d   1      -4.465  10.324  12.364  0.00  0.00     0.031 H 
+ATOM     30  H   BON d   1      -2.793   9.995  11.847  0.00  0.00     0.031 H 
+ATOM     31  H   BON d   1      -4.001  10.545  10.660  0.00  0.00     0.031 H 
+ENDBRANCH   4  28
+BRANCH   5  32
+ATOM     32  C11 BON d   1      -6.705   9.421  11.032  0.00  0.00    -0.047 C 
+ATOM     33  H   BON d   1      -7.742   9.100  10.937  0.00  0.00     0.031 H 
+ATOM     34  H   BON d   1      -6.566   9.928  11.987  0.00  0.00     0.031 H 
+ATOM     35  H   BON d   1      -6.459  10.102  10.218  0.00  0.00     0.031 H 
+ENDBRANCH   5  32
+BRANCH   5  36
+ATOM     36  C12 BON d   1      -6.104   7.434   9.679  0.00  0.00    -0.047 C 
+ATOM     37  H   BON d   1      -5.537   6.503   9.666  0.00  0.00     0.031 H 
+ATOM     38  H   BON d   1      -7.170   7.212   9.641  0.00  0.00     0.031 H 
+ATOM     39  H   BON d   1      -5.827   8.042   8.818  0.00  0.00     0.031 H 
+ENDBRANCH   5  36
+TORSDOF 8

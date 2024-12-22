@@ -1,0 +1,69 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAE_6  and  NAH_7 
+REMARK       I    between atoms: NAH_7  and  CAK_8 
+REMARK    2  A    between atoms: CAK_8  and  CAM_10 
+REMARK    3  A    between atoms: CAP_13  and  NAX_14 
+REMARK       I    between atoms: NAX_14  and  CAY_15 
+REMARK       I    between atoms: CAY_15  and  NAZ_17 
+REMARK    4  A    between atoms: NAZ_17  and  CBB_18 
+REMARK    5  A    between atoms: CBB_18  and  CBC_19 
+REMARK    6  A    between atoms: CAR_21  and  NAS_22 
+ROOT
+ATOM      1  CAM CZ5 d   1      61.456  29.103  64.635  0.00  0.00     0.078 A 
+ATOM      2  CAN CZ5 d   1      61.738  30.464  64.825  0.00  0.00     0.022 A 
+ATOM      3  NAO CZ5 d   1      62.283  31.260  63.804  0.00  0.00    -0.242 NA
+ATOM      4  CAP CZ5 d   1      62.551  30.741  62.589  0.00  0.00     0.133 A 
+ATOM      5  CAQ CZ5 d   1      62.258  29.373  62.360  0.00  0.00    -0.010 A 
+ATOM      6  CAR CZ5 d   1      61.699  28.548  63.356  0.00  0.00     0.078 A 
+ATOM      7  H6  CZ5 d   1      61.529  30.915  65.788  0.00  0.00     0.116 H 
+ATOM      8  H14 CZ5 d   1      62.471  28.948  61.386  0.00  0.00     0.093 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  CAK CZ5 d   1      60.850  28.398  65.712  0.00  0.00     0.260 C 
+ATOM     10  NAH CZ5 d   1      61.463  28.433  66.922  0.00  0.00    -0.322 N 
+ATOM     11  H5  CZ5 d   1      62.350  28.891  66.982  0.00  0.00     0.169 HD
+ATOM     12  OAL CZ5 d   1      59.742  27.906  65.502  0.00  0.00    -0.267 OA
+BRANCH  10  13
+ATOM     13  CAE CZ5 d   1      60.953  27.888  68.058  0.00  0.00     0.052 A 
+ATOM     14  CAF CZ5 d   1      59.581  27.779  68.367  0.00  0.00    -0.054 A 
+ATOM     15  CAA CZ5 d   1      59.142  27.242  69.578  0.00  0.00    -0.064 A 
+ATOM     16  H1  CZ5 d   1      58.849  28.121  67.645  0.00  0.00     0.087 H 
+ATOM     17  CAB CZ5 d   1      60.051  26.801  70.524  0.00  0.00     0.002 A 
+ATOM     18  H2  CZ5 d   1      58.079  27.170  69.780  0.00  0.00     0.085 H 
+ATOM     19  NAC CZ5 d   1      61.428  26.903  70.252  0.00  0.00    -0.271 NA
+ATOM     20  H3  CZ5 d   1      59.707  26.382  71.463  0.00  0.00     0.114 H 
+ATOM     21  CAD CZ5 d   1      61.863  27.458  69.029  0.00  0.00     0.028 A 
+ATOM     22  H4  CZ5 d   1      62.926  27.553  68.838  0.00  0.00     0.118 H 
+ENDBRANCH  10  13
+ENDBRANCH   1   9
+BRANCH   6  23
+ATOM     23  NAS CZ5 d   1      61.494  27.235  63.072  0.00  0.00    -0.244 N 
+ATOM     24  NAT CZ5 d   1      61.721  26.219  63.931  0.00  0.00    -0.180 NA
+ATOM     25  CAU CZ5 d   1      61.456  25.060  63.316  0.00  0.00     0.023 A 
+ATOM     26  CAV CZ5 d   1      61.095  25.337  62.066  0.00  0.00    -0.047 A 
+ATOM     27  H15 CZ5 d   1      61.524  24.068  63.760  0.00  0.00     0.117 H 
+ATOM     28  CAW CZ5 d   1      61.124  26.664  61.911  0.00  0.00     0.006 A 
+ATOM     29  H16 CZ5 d   1      60.823  24.610  61.303  0.00  0.00     0.087 H 
+ATOM     30  H17 CZ5 d   1      60.886  27.198  60.992  0.00  0.00     0.114 H 
+ENDBRANCH   6  23
+BRANCH   4  31
+ATOM     31  NAX CZ5 d   1      63.062  31.649  61.728  0.00  0.00    -0.293 N 
+ATOM     32  CAY CZ5 d   1      63.694  31.375  60.562  0.00  0.00     0.321 C 
+ATOM     33  OBA CZ5 d   1      63.902  30.241  60.133  0.00  0.00    -0.247 OA
+ATOM     34  NAZ CZ5 d   1      64.156  32.457  59.909  0.00  0.00    -0.343 N 
+ATOM     35  H8  CZ5 d   1      63.964  33.360  60.292  0.00  0.00     0.164 HD
+ATOM     36  H7  CZ5 d   1      62.964  32.613  61.975  0.00  0.00     0.172 HD
+BRANCH  34  37
+ATOM     37  CBB CZ5 d   1      64.929  32.379  58.661  0.00  0.00    -0.006 C 
+ATOM     38  H9  CZ5 d   1      64.243  32.451  57.804  0.00  0.00     0.063 H 
+ATOM     39  H10 CZ5 d   1      65.461  31.417  58.624  0.00  0.00     0.063 H 
+BRANCH  37  40
+ATOM     40  CBC CZ5 d   1      65.946  33.521  58.590  0.00  0.00    -0.061 C 
+ATOM     41  H11 CZ5 d   1      66.515  33.447  57.651  0.00  0.00     0.029 H 
+ATOM     42  H12 CZ5 d   1      66.636  33.451  59.444  0.00  0.00     0.029 H 
+ATOM     43  H13 CZ5 d   1      65.418  34.485  58.624  0.00  0.00     0.029 H 
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH   4  31
+TORSDOF 6

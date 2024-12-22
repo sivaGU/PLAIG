@@ -1,0 +1,149 @@
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: C_1  and  N_4 
+REMARK    2  A    between atoms: N_4  and  CA_5 
+REMARK    3  A    between atoms: CA_5  and  C_6 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: C_6  and  N_11 
+REMARK    5  A    between atoms: CB_8  and  CG1_9 
+REMARK    6  A    between atoms: CB_8  and  CG2_10 
+REMARK    7  A    between atoms: N_11  and  CA_12 
+REMARK    8  A    between atoms: CA_12  and  C_13 
+REMARK    9  A    between atoms: CA_12  and  CB_15 
+REMARK       I    between atoms: C_13  and  N_19 
+REMARK   10  A    between atoms: CB_15  and  CG_16 
+REMARK   11  A    between atoms: N_19  and  CA_20 
+REMARK   12  A    between atoms: CA_20  and  C_21 
+REMARK   13  A    between atoms: CA_20  and  CB_23 
+REMARK       I    between atoms: C_21  and  N_26 
+REMARK   14  A    between atoms: CB_23  and  CG1_24 
+REMARK   15  A    between atoms: CB_23  and  CG2_25 
+REMARK   16  A    between atoms: N_26  and  CA_27 
+REMARK   17  A    between atoms: CA_27  and  C_28 
+REMARK   18  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_31 
+REMARK   19  A    between atoms: N_31  and  CA_32 
+REMARK   20  A    between atoms: CA_32  and  C_33 
+REMARK   21  A    between atoms: CA_32  and  CB_35 
+REMARK   22  A    between atoms: CB_35  and  CG_36 
+ROOT
+ATOM      1  CA  VAL d   1     -12.298  -8.343  34.296  0.00  0.00     0.092 C 
+ATOM      2  H   VAL d   1     -12.204  -9.427  34.363  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   VAL d   1     -11.688  -7.825  35.543  0.00  0.00    -0.346 N 
+ATOM      4  C   ASP d   1     -11.442  -8.603  36.589  0.00  0.00     0.241 C 
+ATOM      5  O   ASP d   1     -11.784  -9.787  36.623  0.00  0.00    -0.271 OA
+ATOM      6  H   VAL d   1     -11.449  -6.835  35.599  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CA  ASP d   1     -10.745  -7.963  37.797  0.00  0.00     0.098 C 
+ATOM      8  H   ASP d   1     -10.783  -6.897  37.575  0.00  0.00     0.088 H 
+BRANCH   7   9
+ATOM      9  N   ASP d   1     -11.434  -8.200  39.068  0.00  0.00    -0.345 N 
+ATOM     10  C   VAL d   1     -12.423  -7.429  39.522  0.00  0.00     0.241 C 
+ATOM     11  O   VAL d   1     -12.872  -6.458  38.915  0.00  0.00    -0.271 OA
+ATOM     12  H   ASP d   1     -11.142  -8.996  39.635  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CA  VAL d   1     -13.018  -7.855  40.873  0.00  0.00     0.092 C 
+ATOM     14  H   VAL d   1     -12.189  -8.125  41.527  0.00  0.00     0.088 H 
+BRANCH  13  15
+ATOM     15  N   VAL d   1     -13.705  -6.772  41.580  0.00  0.00    -0.348 N 
+ATOM     16  C   ACE d   1     -13.277  -6.316  42.757  0.00  0.00     0.214 C 
+ATOM     17  O   ACE d   1     -12.634  -7.022  43.537  0.00  0.00    -0.274 OA
+ATOM     18  H   VAL d   1     -14.535  -6.354  41.159  0.00  0.00     0.163 HD
+BRANCH  16  19
+ATOM     19  CH3 ACE d   1     -13.829  -4.980  43.188  0.00  0.00    -0.003 C 
+ATOM     20  H   ACE d   1     -14.515  -5.124  44.023  0.00  0.00     0.040 H 
+ATOM     21  H   ACE d   1     -13.009  -4.332  43.498  0.00  0.00     0.040 H 
+ATOM     22  H   ACE d   1     -14.361  -4.522  42.354  0.00  0.00     0.040 H 
+ENDBRANCH  16  19
+ENDBRANCH  13  15
+BRANCH  13  23
+ATOM     23  CB  VAL d   1     -13.930  -9.096  40.670  0.00  0.00    -0.033 C 
+ATOM     24  H   VAL d   1     -13.314  -9.906  40.279  0.00  0.00     0.042 H 
+BRANCH  23  25
+ATOM     25  CG1 VAL d   1     -14.522  -9.570  42.026  0.00  0.00    -0.071 C 
+ATOM     26  H   VAL d   1     -15.193  -8.804  42.416  0.00  0.00     0.028 H 
+ATOM     27  H   VAL d   1     -15.075 -10.497  41.875  0.00  0.00     0.028 H 
+ATOM     28  H   VAL d   1     -13.712  -9.740  42.735  0.00  0.00     0.028 H 
+ENDBRANCH  23  25
+BRANCH  23  29
+ATOM     29  CG2 VAL d   1     -15.014  -8.838  39.626  0.00  0.00    -0.071 C 
+ATOM     30  H   VAL d   1     -15.573  -9.757  39.449  0.00  0.00     0.028 H 
+ATOM     31  H   VAL d   1     -15.690  -8.064  39.990  0.00  0.00     0.028 H 
+ATOM     32  H   VAL d   1     -14.550  -8.509  38.696  0.00  0.00     0.028 H 
+ENDBRANCH  23  29
+ENDBRANCH  13  23
+ENDBRANCH  10  13
+ENDBRANCH   7   9
+BRANCH   7  33
+ATOM     33  CB  ASP d   1      -9.290  -8.388  37.947  0.00  0.00     0.043 C 
+ATOM     34  H   ASP d   1      -8.829  -8.393  36.959  0.00  0.00     0.052 H 
+ATOM     35  H   ASP d   1      -9.266  -9.376  38.406  0.00  0.00     0.052 H 
+BRANCH  33  36
+ATOM     36  CG  ASP d   1      -8.523  -7.438  38.824  0.00  0.00     0.175 C 
+ATOM     37  OD1 ASP d   1      -8.821  -6.235  38.689  0.00  0.00    -0.648 OA
+ATOM     38  OD2 ASP d   1      -7.640  -7.843  39.634  0.00  0.00    -0.648 OA
+ENDBRANCH  33  36
+ENDBRANCH   7  33
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  39
+ATOM     39  C   VAL d   1     -11.560  -7.839  33.052  0.00  0.00     0.241 C 
+ATOM     40  O   VAL d   1     -10.753  -6.909  33.141  0.00  0.00    -0.271 OA
+ATOM     41  N   ALA d   1     -11.857  -8.441  31.901  0.00  0.00    -0.346 N 
+ATOM     42  H   ALA d   1     -12.572  -9.168  31.909  0.00  0.00     0.163 HD
+BRANCH  41  43
+ATOM     43  CA  ALA d   1     -11.207  -8.114  30.610  0.00  0.00     0.086 C 
+ATOM     44  H   ALA d   1     -10.209  -7.777  30.890  0.00  0.00     0.086 H 
+BRANCH  43  45
+ATOM     45  C   ALA d   1     -11.830  -6.955  29.818  0.00  0.00     0.240 C 
+ATOM     46  O   ALA d   1     -13.045  -6.919  29.621  0.00  0.00    -0.271 OA
+ATOM     47  N   ASA d   1     -10.984  -6.052  29.313  0.00  0.00    -0.344 N 
+ATOM     48  H   ASA d   1     -10.003  -6.089  29.591  0.00  0.00     0.163 HD
+BRANCH  47  49
+ATOM     49  CA  ASA d   1     -11.413  -5.008  28.372  0.00  0.00     0.105 C 
+ATOM     50  H   ASA d   1     -12.391  -4.678  28.723  0.00  0.00     0.090 H 
+BRANCH  49  51
+ATOM     51  C   ASA d   1     -11.608  -5.514  26.943  0.00  0.00     0.197 C 
+ATOM     52  O   ASA d   1     -11.498  -4.749  25.948  0.00  0.00    -0.646 OA
+ATOM     53  O   ASA d   1     -11.886  -6.729  26.755  0.00  0.00    -0.646 OA
+ENDBRANCH  49  51
+BRANCH  49  54
+ATOM     54  CB  ASA d   1     -10.438  -3.824  28.384  0.00  0.00     0.044 C 
+ATOM     55  H   ASA d   1     -10.300  -3.487  27.357  0.00  0.00     0.053 H 
+ATOM     56  H   ASA d   1      -9.504  -4.158  28.835  0.00  0.00     0.053 H 
+BRANCH  54  57
+ATOM     57  CG  ASA d   1     -10.966  -2.657  29.198  0.00  0.00     0.175 C 
+ATOM     58  OD1 ASA d   1     -10.144  -1.815  29.612  0.00  0.00    -0.648 OA
+ATOM     59  OD2 ASA d   1     -12.206  -2.615  29.420  0.00  0.00    -0.648 OA
+ENDBRANCH  54  57
+ENDBRANCH  49  54
+ENDBRANCH  47  49
+ENDBRANCH  43  45
+BRANCH  43  60
+ATOM     60  CB  ALA d   1     -11.170  -9.359  29.711  0.00  0.00    -0.049 C 
+ATOM     61  H   ALA d   1     -10.605 -10.148  30.208  0.00  0.00     0.030 H 
+ATOM     62  H   ALA d   1     -12.188  -9.701  29.524  0.00  0.00     0.030 H 
+ATOM     63  H   ALA d   1     -10.691  -9.108  28.765  0.00  0.00     0.030 H 
+ENDBRANCH  43  60
+ENDBRANCH  41  43
+ENDBRANCH   1  39
+BRANCH   1  64
+ATOM     64  CB  VAL d   1     -13.823  -7.996  34.162  0.00  0.00    -0.033 C 
+ATOM     65  H   VAL d   1     -14.192  -8.539  33.292  0.00  0.00     0.042 H 
+BRANCH  64  66
+ATOM     66  CG1 VAL d   1     -14.636  -8.488  35.387  0.00  0.00    -0.071 C 
+ATOM     67  H   VAL d   1     -14.537  -9.570  35.476  0.00  0.00     0.028 H 
+ATOM     68  H   VAL d   1     -14.254  -8.011  36.290  0.00  0.00     0.028 H 
+ATOM     69  H   VAL d   1     -15.686  -8.227  35.253  0.00  0.00     0.028 H 
+ENDBRANCH  64  66
+BRANCH  64  70
+ATOM     70  CG2 VAL d   1     -14.058  -6.496  33.883  0.00  0.00    -0.071 C 
+ATOM     71  H   VAL d   1     -13.647  -5.907  34.703  0.00  0.00     0.028 H 
+ATOM     72  H   VAL d   1     -13.564  -6.219  32.952  0.00  0.00     0.028 H 
+ATOM     73  H   VAL d   1     -15.128  -6.307  33.799  0.00  0.00     0.028 H 
+ENDBRANCH  64  70
+ENDBRANCH   1  64
+TORSDOF 22

@@ -1,0 +1,30 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  CA_4 
+REMARK    2  A    between atoms: CAI_8  and  CAA_9 
+ROOT
+ATOM      1  CA  4CS d   1      43.284  32.271  32.939  0.00  0.00     0.096 C 
+ATOM      2  CB  4CS d   1      42.387  33.363  33.510  0.00  0.00    -0.020 C 
+ATOM      3  CAD 4CS d   1      42.187  34.438  32.449  0.00  0.00     0.019 C 
+ATOM      4  NAG 4CS d   1      41.837  33.864  31.157  0.00  0.00    -0.277 NA
+ATOM      5  CAI 4CS d   1      42.070  32.614  30.842  0.00  0.00     0.091 C 
+ATOM      6  N   4CS d   1      42.715  31.809  31.674  0.00  0.00    -0.364 N 
+ATOM      7  H1  4CS d   1      44.261  32.726  32.718  0.00  0.00     0.089 H 
+ATOM      8  H2  4CS d   1      42.862  33.804  34.399  0.00  0.00     0.039 H 
+ATOM      9  H3  4CS d   1      41.414  32.934  33.789  0.00  0.00     0.039 H 
+ATOM     10  H4  4CS d   1      43.120  35.011  32.343  0.00  0.00     0.067 H 
+ATOM     11  H5  4CS d   1      41.378  35.110  32.771  0.00  0.00     0.067 H 
+ATOM     12  H9  4CS d   1      42.820  30.817  31.419  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  C   4CS d   1      43.535  31.158  33.900  0.00  0.00     0.196 C 
+ATOM     14  O   4CS d   1      43.861  31.439  35.079  0.00  0.00    -0.646 OA
+ATOM     15  OXT 4CS d   1      43.461  29.994  33.478  0.00  0.00    -0.646 OA
+ENDBRANCH   1  13
+BRANCH   5  16
+ATOM     16  CAA 4CS d   1      41.540  32.121  29.519  0.00  0.00    -0.022 C 
+ATOM     17  H6  4CS d   1      41.043  32.949  28.992  0.00  0.00     0.037 H 
+ATOM     18  H7  4CS d   1      40.817  31.310  29.693  0.00  0.00     0.037 H 
+ATOM     19  H8  4CS d   1      42.373  31.745  28.907  0.00  0.00     0.037 H 
+ENDBRANCH   5  16
+TORSDOF 2

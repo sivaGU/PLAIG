@@ -1,0 +1,66 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_2  and  C8_1 
+REMARK    2  A    between atoms: C8_1  and  C13_7 
+REMARK    3  A    between atoms: C8_1  and  C14_8 
+REMARK    4  A    between atoms: C1_11  and  C9_3 
+REMARK    5  A    between atoms: C15_9  and  N7_14 
+REMARK    6  A    between atoms: C19_12  and  N8_15 
+REMARK    7  A    between atoms: C44_22  and  N10_24 
+ROOT
+ATOM      1  N2  FDW d   1     -19.078 147.744  29.494  0.00  0.00    -0.246 N 
+ATOM      2  C10 FDW d   1     -16.846 148.128  29.359  0.00  0.00     0.089 A 
+ATOM      3  C11 FDW d   1     -18.080 148.647  29.912  0.00  0.00     0.182 A 
+ATOM      4  N3  FDW d   1     -18.541 146.772  28.711  0.00  0.00    -0.169 NA
+ATOM      5  C15 FDW d   1     -15.706 148.842  29.654  0.00  0.00     0.157 A 
+ATOM      6  N4  FDW d   1     -18.227 149.786  30.685  0.00  0.00    -0.043 NA
+ATOM      7  C1  FDW d   1     -17.212 146.974  28.639  0.00  0.00     0.105 A 
+ATOM      8  C19 FDW d   1     -17.022 150.389  30.906  0.00  0.00     0.724 A 
+ATOM      9  N6  FDW d   1     -15.751 149.995  30.417  0.00  0.00    -0.045 NA
+ENDROOT
+BRANCH   7  10
+ATOM     10  C9  FDW d   1     -16.498 146.011  27.880  0.00  0.00    -0.002 A 
+ATOM     11  C27 FDW d   1     -15.599 146.343  26.895  0.00  0.00    -0.040 A 
+ATOM     12  C28 FDW d   1     -15.114 145.236  26.199  0.00  0.00     0.096 A 
+ATOM     13  H12 FDW d   1     -15.297 147.362  26.681  0.00  0.00     0.088 H 
+ATOM     14  C29 FDW d   1     -15.503 143.900  26.553  0.00  0.00     0.108 A 
+ATOM     15  N9  FDW d   1     -14.237 145.149  25.113  0.00  0.00    -0.206 NA
+ATOM     16  C30 FDW d   1     -16.331 143.587  27.569  0.00  0.00    -0.047 A 
+ATOM     17  O43 FDW d   1     -14.927 142.993  25.732  0.00  0.00    -0.276 OA
+ATOM     18  C31 FDW d   1     -16.813 144.683  28.246  0.00  0.00    -0.068 A 
+ATOM     19  H13 FDW d   1     -16.593 142.567  27.828  0.00  0.00     0.087 H 
+ATOM     20  H14 FDW d   1     -17.463 144.521  29.098  0.00  0.00     0.085 H 
+ATOM     21  C44 FDW d   1     -14.168 143.799  24.875  0.00  0.00     0.245 A 
+BRANCH  21  22
+ATOM     22  N10 FDW d   1     -13.455 143.127  23.910  0.00  0.00    -0.363 N 
+ATOM     23  H15 FDW d   1     -12.872 143.651  23.242  0.00  0.00     0.159 HD
+ATOM     24  H16 FDW d   1     -13.504 142.100  23.856  0.00  0.00     0.159 HD
+ENDBRANCH  21  22
+ENDBRANCH   7  10
+BRANCH   5  25
+ATOM     25  N7  FDW d   1     -14.519 148.421  29.197  0.00  0.00    -0.383 N 
+ATOM     26  H8  FDW d   1     -13.665 148.953  29.416  0.00  0.00     0.157 HD
+ATOM     27  H9  FDW d   1     -14.461 147.565  28.627  0.00  0.00     0.157 HD
+ENDBRANCH   5  25
+BRANCH   1  28
+ATOM     28  C8  FDW d   1     -20.541 147.686  29.756  0.00  0.00     0.029 C 
+ATOM     29  H1  FDW d   1     -20.826 146.624  29.749  0.00  0.00     0.074 H 
+BRANCH  28  30
+ATOM     30  C13 FDW d   1     -21.271 148.342  28.595  0.00  0.00    -0.056 C 
+ATOM     31  H2  FDW d   1     -22.355 148.306  28.776  0.00  0.00     0.030 H 
+ATOM     32  H3  FDW d   1     -21.037 147.805  27.664  0.00  0.00     0.030 H 
+ATOM     33  H4  FDW d   1     -20.949 149.390  28.505  0.00  0.00     0.030 H 
+ENDBRANCH  28  30
+BRANCH  28  34
+ATOM     34  C14 FDW d   1     -20.944 148.223  31.161  0.00  0.00    -0.056 C 
+ATOM     35  H5  FDW d   1     -22.035 148.149  31.283  0.00  0.00     0.030 H 
+ATOM     36  H6  FDW d   1     -20.635 149.275  31.254  0.00  0.00     0.030 H 
+ATOM     37  H7  FDW d   1     -20.447 147.625  31.939  0.00  0.00     0.030 H 
+ENDBRANCH  28  34
+ENDBRANCH   1  28
+BRANCH   8  38
+ATOM     38  N8  FDW d   1     -17.076 151.511  31.702  0.00  0.00    -0.231 N 
+ATOM     39  H10 FDW d   1     -17.979 151.832  32.078  0.00  0.00     0.174 HD
+ATOM     40  H11 FDW d   1     -16.213 152.029  31.921  0.00  0.00     0.174 HD
+ENDBRANCH   8  38
+TORSDOF 7

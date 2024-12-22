@@ -1,0 +1,57 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_3 
+REMARK       I    between atoms: N1_4  and  C_1 
+REMARK       I    between atoms: C8_13  and  N3_8 
+REMARK    2  A    between atoms: N3_8  and  C9_14 
+REMARK    3  A    between atoms: C5_10  and  C8_13 
+REMARK    4  A    between atoms: C12_17  and  C14_19 
+ROOT
+ATOM      1  C   HAU d   1      -4.602  52.258  14.664  0.00  0.00     0.215 C 
+ATOM      2  O   HAU d   1      -5.031  53.217  15.289  0.00  0.00    -0.274 OA
+ATOM      3  N1  HAU d   1      -5.456  51.369  14.068  0.00  0.00    -0.352 N 
+ATOM      4  C3  HAU d   1      -5.060  50.128  13.377  0.00  0.00    -0.002 C 
+ATOM      5  C4  HAU d   1      -5.590  50.087  11.941  0.00  0.00    -0.039 C 
+ATOM      6  C5  HAU d   1      -7.121  50.229  11.968  0.00  0.00     0.027 C 
+ATOM      7  C6  HAU d   1      -7.505  51.551  12.657  0.00  0.00    -0.039 C 
+ATOM      8  C7  HAU d   1      -6.916  51.578  14.075  0.00  0.00    -0.002 C 
+ATOM      9  H4  HAU d   1      -5.463  49.267  13.931  0.00  0.00     0.064 H 
+ATOM     10  H5  HAU d   1      -3.962  50.068  13.354  0.00  0.00     0.064 H 
+ATOM     11  H7  HAU d   1      -5.317  49.129  11.474  0.00  0.00     0.036 H 
+ATOM     12  H8  HAU d   1      -5.153  50.914  11.363  0.00  0.00     0.036 H 
+ATOM     13  H9  HAU d   1      -7.527  49.402  12.569  0.00  0.00     0.054 H 
+ATOM     14  H10 HAU d   1      -8.601  51.631  12.713  0.00  0.00     0.036 H 
+ATOM     15  H11 HAU d   1      -7.105  52.396  12.078  0.00  0.00     0.036 H 
+ATOM     16  H12 HAU d   1      -7.133  52.555  14.532  0.00  0.00     0.064 H 
+ATOM     17  H13 HAU d   1      -7.386  50.782  14.671  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   6  18
+ATOM     18  C8  HAU d   1      -7.725  50.123  10.578  0.00  0.00     0.227 C 
+ATOM     19  O1  HAU d   1      -7.102  50.442   9.566  0.00  0.00    -0.273 OA
+ATOM     20  N3  HAU d   1      -8.987  49.626  10.580  0.00  0.00    -0.311 N 
+ATOM     21  H6  HAU d   1      -9.363  49.392  11.476  0.00  0.00     0.170 HD
+BRANCH  20  22
+ATOM     22  C9  HAU d   1      -9.832  49.399   9.480  0.00  0.00     0.129 A 
+ATOM     23  N2  HAU d   1     -11.113  49.190   9.829  0.00  0.00    -0.243 NA
+ATOM     24  C13 HAU d   1     -11.995  48.944   8.850  0.00  0.00     0.010 A 
+ATOM     25  C12 HAU d   1     -11.686  48.898   7.500  0.00  0.00    -0.044 A 
+ATOM     26  H16 HAU d   1     -13.026  48.768   9.135  0.00  0.00     0.115 H 
+ATOM     27  C11 HAU d   1     -10.355  49.099   7.165  0.00  0.00    -0.072 A 
+ATOM     28  C10 HAU d   1      -9.404  49.353   8.138  0.00  0.00    -0.038 A 
+ATOM     29  H15 HAU d   1     -10.055  49.056   6.124  0.00  0.00     0.084 H 
+ATOM     30  H14 HAU d   1      -8.364  49.511   7.876  0.00  0.00     0.089 H 
+BRANCH  25  31
+ATOM     31  C14 HAU d   1     -12.749  48.686   6.450  0.00  0.00    -0.050 C 
+ATOM     32  H17 HAU d   1     -12.284  48.684   5.453  0.00  0.00     0.033 H 
+ATOM     33  H18 HAU d   1     -13.489  49.498   6.508  0.00  0.00     0.033 H 
+ATOM     34  H19 HAU d   1     -13.249  47.721   6.623  0.00  0.00     0.033 H 
+ENDBRANCH  25  31
+ENDBRANCH  20  22
+ENDBRANCH   6  18
+BRANCH   1  35
+ATOM     35  C1  HAU d   1      -3.127  52.003  14.574  0.00  0.00    -0.003 C 
+ATOM     36  H1  HAU d   1      -2.947  51.100  13.973  0.00  0.00     0.040 H 
+ATOM     37  H2  HAU d   1      -2.717  51.858  15.585  0.00  0.00     0.040 H 
+ATOM     38  H3  HAU d   1      -2.634  52.864  14.099  0.00  0.00     0.040 H 
+ENDBRANCH   1  35
+TORSDOF 4

@@ -1,0 +1,58 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CA_2  and  C_11 
+REMARK    4  A    between atoms: CB_3  and  CG'_5 
+REMARK    5  A    between atoms: CG'_5  and  CG_4 
+REMARK    6  A    between atoms: CG_4  and  CD_6 
+REMARK    7  A    between atoms: CD_6  and  NE_7 
+REMARK       I    between atoms: NE_7  and  CZ_8 
+REMARK       I    between atoms: CZ_8  and  NH1_9 
+ROOT
+ATOM      1  CG  HRG d   1      32.553 -11.909  28.140  0.00  0.00    -0.050 C 
+ATOM      2  H7  HRG d   1      32.524 -12.189  29.203  0.00  0.00     0.035 H 
+ATOM      3  H8  HRG d   1      33.528 -11.458  27.906  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CG' HRG d   1      31.489 -10.886  27.893  0.00  0.00    -0.061 C 
+ATOM      5  H9  HRG d   1      30.935 -11.166  26.985  0.00  0.00     0.033 H 
+ATOM      6  H10 HRG d   1      30.803 -10.877  28.753  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  CB  HRG d   1      32.053  -9.490  27.706  0.00  0.00    -0.029 C 
+ATOM      8  H5  HRG d   1      32.559  -9.199  28.639  0.00  0.00     0.036 H 
+ATOM      9  H6  HRG d   1      32.786  -9.526  26.887  0.00  0.00     0.036 H 
+BRANCH   7  10
+ATOM     10  CA  HRG d   1      31.022  -8.412  27.371  0.00  0.00     0.182 C 
+ATOM     11  H4  HRG d   1      30.518  -8.675  26.429  0.00  0.00     0.101 H 
+BRANCH  10  12
+ATOM     12  N   HRG d   1      31.713  -7.117  27.213  0.00  0.00    -0.065 N 
+ATOM     13  H1  HRG d   1      32.401  -7.191  26.480  0.00  0.00     0.275 HD
+ATOM     14  H2  HRG d   1      32.168  -6.871  28.078  0.00  0.00     0.275 HD
+ATOM     15  H3  HRG d   1      31.041  -6.405  26.973  0.00  0.00     0.275 HD
+ENDBRANCH  10  12
+BRANCH  10  16
+ATOM     16  C   HRG d   1      29.980  -8.301  28.480  0.00  0.00     0.204 C 
+ATOM     17  O   HRG d   1      28.951  -9.096  28.359  0.00  0.00    -0.646 OA
+ATOM     18  OXT HRG d   1      30.167  -7.535  29.387  0.00  0.00    -0.646 OA
+ENDBRANCH  10  16
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  CD  HRG d   1      32.400 -13.156  27.319  0.00  0.00     0.009 C 
+ATOM     20  H11 HRG d   1      32.452 -12.895  26.252  0.00  0.00     0.064 H 
+ATOM     21  H12 HRG d   1      31.425 -13.615  27.538  0.00  0.00     0.064 H 
+BRANCH  19  22
+ATOM     22  NE  HRG d   1      33.460 -14.110  27.631  0.00  0.00    -0.227 N 
+ATOM     23  CZ  HRG d   1      33.330 -15.448  27.659  0.00  0.00     0.665 C 
+ATOM     24  NH1 HRG d   1      33.535 -16.098  26.567  0.00  0.00    -0.235 N 
+ATOM     25  NH2 HRG d   1      33.010 -16.060  28.800  0.00  0.00    -0.235 N 
+ATOM     26  H14 HRG d   1      33.444 -17.124  26.553  0.00  0.00     0.174 HD
+ATOM     27  H15 HRG d   1      33.790 -15.592  25.707  0.00  0.00     0.174 HD
+ATOM     28  H16 HRG d   1      32.853 -15.507  29.655  0.00  0.00     0.174 HD
+ATOM     29  H17 HRG d   1      32.920 -17.086  28.826  0.00  0.00     0.174 HD
+ATOM     30  H13 HRG d   1      34.390 -13.724  27.849  0.00  0.00     0.177 HD
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+TORSDOF 7

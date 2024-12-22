@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_4  and  NAA_5 
+REMARK    2  A    between atoms: CAO_7  and  CAD_8 
+REMARK    3  A    between atoms: CAD_8  and  CAL_9 
+REMARK    4  A    between atoms: CAK_12  and  NAB_13 
+ROOT
+ATOM      1  CAL 2PV d   1      58.839 463.351  30.538  0.00  0.00    -0.035 A 
+ATOM      2  CAG 2PV d   1      59.607 464.504  30.616  0.00  0.00    -0.071 A 
+ATOM      3  CAE 2PV d   1      59.074 465.693  31.088  0.00  0.00    -0.057 A 
+ATOM      4  CAK 2PV d   1      57.749 465.758  31.484  0.00  0.00     0.025 A 
+ATOM      5  CAF 2PV d   1      56.966 464.618  31.416  0.00  0.00    -0.057 A 
+ATOM      6  CAH 2PV d   1      57.517 463.428  30.960  0.00  0.00    -0.071 A 
+ATOM      7  H   2PV d   1      60.644 464.474  30.302  0.00  0.00     0.084 H 
+ATOM      8  H   2PV d   1      59.698 466.577  31.148  0.00  0.00     0.086 H 
+ATOM      9  H   2PV d   1      55.926 464.654  31.718  0.00  0.00     0.086 H 
+ATOM     10  H   2PV d   1      56.901 462.537  30.932  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  CAD 2PV d   1      59.524 462.221  30.069  0.00  0.00    -0.051 C 
+ATOM     12  H   2PV d   1      60.551 462.394  29.750  0.00  0.00     0.087 H 
+BRANCH  11  13
+ATOM     13  CAO 2PV d   1      59.087 460.951  29.959  0.00  0.00     0.077 A 
+ATOM     14  CAN 2PV d   1      57.942 460.298  30.245  0.00  0.00     0.264 A 
+ATOM     15  OAC 2PV d   1      56.942 460.787  30.758  0.00  0.00    -0.267 OA
+ATOM     16  NAI 2PV d   1      57.964 458.986  29.947  0.00  0.00    -0.301 N 
+ATOM     17  CAM 2PV d   1      59.115 458.591  29.404  0.00  0.00     0.167 A 
+ATOM     18  H   2PV d   1      57.195 458.370  30.116  0.00  0.00     0.171 HD
+ATOM     19  SAJ 2PV d   1      60.104 459.840  29.301  0.00  0.00    -0.047 SA
+BRANCH  17  20
+ATOM     20  NAA 2PV d   1      59.402 457.353  29.010  0.00  0.00    -0.278 NA
+ATOM     21  H   2PV d   1      60.304 457.148  28.608  0.00  0.00     0.189 HD
+ENDBRANCH  17  20
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+BRANCH   4  22
+ATOM     22  NAB 2PV d   1      57.240 466.903  31.926  0.00  0.00    -0.399 N 
+ATOM     23  H   2PV d   1      56.254 466.949  32.220  0.00  0.00     0.156 HD
+ATOM     24  H   2PV d   1      57.831 467.745  31.975  0.00  0.00     0.156 HD
+ENDBRANCH   4  22
+TORSDOF 4

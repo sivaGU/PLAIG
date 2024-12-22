@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_3 
+REMARK    2  A    between atoms: C3_4  and  O3_5 
+REMARK    3  A    between atoms: C4_6  and  O4_7 
+REMARK    4  A    between atoms: C5_8  and  C6_10 
+REMARK    5  A    between atoms: C6_10  and  O6_11 
+ROOT
+ATOM      1  C1  DGJ d   1     -17.801  61.593 105.691  0.00  0.00     0.108 C 
+ATOM      2  C2  DGJ d   1     -16.914  60.544 106.329  0.00  0.00     0.086 C 
+ATOM      3  C3  DGJ d   1     -16.389  59.606 105.245  0.00  0.00     0.088 C 
+ATOM      4  C4  DGJ d   1     -17.553  58.887 104.569  0.00  0.00     0.092 C 
+ATOM      5  C5  DGJ d   1     -18.525  59.901 103.968  0.00  0.00     0.149 C 
+ATOM      6  N5  DGJ d   1     -18.844  60.921 104.944  0.00  0.00    -0.064 N 
+ATOM      7  H1  DGJ d   1     -17.204  62.221 105.013  0.00  0.00     0.079 H 
+ATOM      8  H2  DGJ d   1     -18.251  62.223 106.472  0.00  0.00     0.079 H 
+ATOM      9  H3  DGJ d   1     -17.511  59.953 107.039  0.00  0.00     0.089 H 
+ATOM     10  H5  DGJ d   1     -15.854  60.200 104.490  0.00  0.00     0.091 H 
+ATOM     11  H7  DGJ d   1     -17.160  58.252 103.761  0.00  0.00     0.090 H 
+ATOM     12  H9  DGJ d   1     -18.039  60.376 103.103  0.00  0.00     0.091 H 
+ATOM     13  H10 DGJ d   1     -19.352  61.639 104.452  0.00  0.00     0.277 HD
+ATOM     14  H11 DGJ d   1     -19.449  60.487 105.624  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   5  15
+ATOM     15  C6  DGJ d   1     -19.815  59.241 103.497  0.00  0.00     0.046 C 
+ATOM     16  H12 DGJ d   1     -20.341  58.819 104.366  0.00  0.00     0.077 H 
+ATOM     17  H13 DGJ d   1     -19.569  58.434 102.791  0.00  0.00     0.077 H 
+BRANCH  15  18
+ATOM     18  O6  DGJ d   1     -20.671  60.188 102.846  0.00  0.00    -0.399 OA
+ATOM     19  H14 DGJ d   1     -21.466  59.752 102.563  0.00  0.00     0.209 HD
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+BRANCH   4  20
+ATOM     20  O4  DGJ d   1     -18.223  58.058 105.526  0.00  0.00    -0.391 OA
+ATOM     21  H8  DGJ d   1     -18.947  57.611 105.104  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   3  22
+ATOM     22  O3  DGJ d   1     -15.480  58.660 105.814  0.00  0.00    -0.390 OA
+ATOM     23  H6  DGJ d   1     -15.159  58.081 105.132  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   2  24
+ATOM     24  O2  DGJ d   1     -15.861  61.191 107.054  0.00  0.00    -0.391 OA
+ATOM     25  H4  DGJ d   1     -15.347  61.722 106.457  0.00  0.00     0.210 HD
+ENDBRANCH   2  24
+TORSDOF 5

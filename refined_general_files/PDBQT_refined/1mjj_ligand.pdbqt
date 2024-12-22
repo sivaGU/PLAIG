@@ -1,0 +1,109 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CP1_1  and  C1_7 
+REMARK    2  A    between atoms: C1_7  and  C2_8 
+REMARK    3  A    between atoms: C2_8  and  N1_9 
+REMARK       I    between atoms: N1_9  and  C3_10 
+REMARK    4  A    between atoms: C3_10  and  C4_12 
+REMARK    5  A    between atoms: C4_12  and  O2_13 
+REMARK    6  A    between atoms: O2_13  and  P_14 
+REMARK    7  A    between atoms: P_14  and  C5_17 
+REMARK    8  A    between atoms: C5_17  and  C6_18 
+REMARK    9  A    between atoms: C5_17  and  N2_25 
+REMARK   10  A    between atoms: C6_18  and  CR1_19 
+REMARK       I    between atoms: N2_25  and  C7_26 
+REMARK   11  A    between atoms: C7_26  and  C8_28 
+REMARK   12  A    between atoms: C8_28  and  C9_29 
+REMARK   13  A    between atoms: C9_29  and  C10_30 
+REMARK   14  A    between atoms: C10_30  and  C11_31 
+ROOT
+ATOM      1  C5  HAL d   1       2.493  46.084  57.137  0.00  0.00     0.116 C 
+ATOM      2  H13 HAL d   1       2.856  45.446  57.956  0.00  0.00     0.093 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  P   HAL d   1       2.831  45.376  55.872  0.00  0.00     0.273 P 
+ATOM      4  O3  HAL d   1       2.429  46.266  54.755  0.00  0.00    -0.645 OA
+ATOM      5  O4  HAL d   1       4.253  44.969  55.987  0.00  0.00    -0.645 OA
+BRANCH   3   6
+ATOM      6  O2  HAL d   1       1.913  44.067  55.832  0.00  0.00    -0.301 OA
+BRANCH   6   7
+ATOM      7  C4  HAL d   1       2.409  42.835  55.313  0.00  0.00     0.103 C 
+ATOM      8  H11 HAL d   1       3.508  42.841  55.356  0.00  0.00     0.089 H 
+ATOM      9  H12 HAL d   1       2.022  42.005  55.922  0.00  0.00     0.089 H 
+BRANCH   7  10
+ATOM     10  C3  HAL d   1       1.965  42.643  53.863  0.00  0.00     0.241 C 
+ATOM     11  N1  HAL d   1       1.883  43.721  53.091  0.00  0.00    -0.359 N 
+ATOM     12  H10 HAL d   1       2.093  44.617  53.483  0.00  0.00     0.162 HD
+ATOM     13  O1  HAL d   1       1.729  41.516  53.422  0.00  0.00    -0.271 OA
+BRANCH  11  14
+ATOM     14  C2  HAL d   1       1.493  43.633  51.678  0.00  0.00    -0.001 C 
+ATOM     15  H8  HAL d   1       2.311  43.142  51.130  0.00  0.00     0.064 H 
+ATOM     16  H9  HAL d   1       0.586  43.014  51.614  0.00  0.00     0.064 H 
+BRANCH  14  17
+ATOM     17  C1  HAL d   1       1.205  44.953  51.001  0.00  0.00    -0.026 C 
+ATOM     18  H6  HAL d   1       0.326  45.409  51.480  0.00  0.00     0.042 H 
+ATOM     19  H7  HAL d   1       2.076  45.612  51.130  0.00  0.00     0.042 H 
+BRANCH  17  20
+ATOM     20  CP1 HAL d   1       0.929  44.804  49.532  0.00  0.00    -0.057 A 
+ATOM     21  CP2 HAL d   1       1.814  45.306  48.590  0.00  0.00    -0.077 A 
+ATOM     22  CP3 HAL d   1       1.621  45.041  47.217  0.00  0.00    -0.082 A 
+ATOM     23  H1  HAL d   1       2.659  45.905  48.910  0.00  0.00     0.084 H 
+ATOM     24  CP4 HAL d   1       0.534  44.267  46.806  0.00  0.00    -0.083 A 
+ATOM     25  H2  HAL d   1       2.314  45.437  46.484  0.00  0.00     0.083 H 
+ATOM     26  CP5 HAL d   1      -0.354  43.769  47.743  0.00  0.00    -0.082 A 
+ATOM     27  H3  HAL d   1       0.386  44.056  45.753  0.00  0.00     0.083 H 
+ATOM     28  CP6 HAL d   1      -0.151  44.045  49.104  0.00  0.00    -0.077 A 
+ATOM     29  H4  HAL d   1      -1.201  43.170  47.428  0.00  0.00     0.083 H 
+ATOM     30  H5  HAL d   1      -0.852  43.658  49.835  0.00  0.00     0.084 H 
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   7  10
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  31
+ATOM     31  C6  HAL d   1       3.184  47.468  57.262  0.00  0.00    -0.011 C 
+ATOM     32  H14 HAL d   1       2.850  48.097  56.424  0.00  0.00     0.044 H 
+ATOM     33  H15 HAL d   1       4.272  47.318  57.197  0.00  0.00     0.044 H 
+BRANCH  31  34
+ATOM     34  CR1 HAL d   1       2.878  48.208  58.571  0.00  0.00    -0.056 A 
+ATOM     35  CR2 HAL d   1       3.732  48.105  59.670  0.00  0.00    -0.077 A 
+ATOM     36  CR3 HAL d   1       3.441  48.771  60.885  0.00  0.00    -0.082 A 
+ATOM     37  H16 HAL d   1       4.632  47.506  59.592  0.00  0.00     0.084 H 
+ATOM     38  CR4 HAL d   1       2.277  49.549  61.000  0.00  0.00    -0.083 A 
+ATOM     39  H17 HAL d   1       4.117  48.681  61.727  0.00  0.00     0.083 H 
+ATOM     40  CR5 HAL d   1       1.418  49.654  59.895  0.00  0.00    -0.082 A 
+ATOM     41  H18 HAL d   1       2.046  50.060  61.928  0.00  0.00     0.083 H 
+ATOM     42  CR6 HAL d   1       1.727  48.989  58.702  0.00  0.00    -0.077 A 
+ATOM     43  H19 HAL d   1       0.515  50.250  59.965  0.00  0.00     0.083 H 
+ATOM     44  H20 HAL d   1       1.055  49.083  57.857  0.00  0.00     0.084 H 
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   1  45
+ATOM     45  N2  HAL d   1       1.062  46.313  57.353  0.00  0.00    -0.344 N 
+ATOM     46  C7  HAL d   1       0.364  45.761  58.351  0.00  0.00     0.218 C 
+ATOM     47  O5  HAL d   1       0.842  44.952  59.151  0.00  0.00    -0.274 OA
+ATOM     48  H21 HAL d   1       0.580  46.916  56.718  0.00  0.00     0.163 HD
+BRANCH  46  49
+ATOM     49  C8  HAL d   1      -1.112  46.143  58.452  0.00  0.00     0.010 C 
+ATOM     50  H22 HAL d   1      -1.696  45.460  57.818  0.00  0.00     0.047 H 
+ATOM     51  H23 HAL d   1      -1.234  47.175  58.090  0.00  0.00     0.047 H 
+BRANCH  49  52
+ATOM     52  C9  HAL d   1      -1.661  46.058  59.919  0.00  0.00    -0.048 C 
+ATOM     53  H24 HAL d   1      -1.635  45.010  60.252  0.00  0.00     0.034 H 
+ATOM     54  H25 HAL d   1      -2.699  46.422  59.935  0.00  0.00     0.034 H 
+BRANCH  52  55
+ATOM     55  C10 HAL d   1      -0.823  46.904  60.874  0.00  0.00     0.016 C 
+ATOM     56  H26 HAL d   1      -0.815  47.942  60.510  0.00  0.00     0.049 H 
+ATOM     57  H27 HAL d   1       0.204  46.510  60.884  0.00  0.00     0.049 H 
+BRANCH  55  58
+ATOM     58  C11 HAL d   1      -1.366  46.892  62.306  0.00  0.00     0.172 C 
+ATOM     59  O6  HAL d   1      -1.179  47.901  63.013  0.00  0.00    -0.648 OA
+ATOM     60  O7  HAL d   1      -1.953  45.875  62.733  0.00  0.00    -0.648 OA
+ENDBRANCH  55  58
+ENDBRANCH  52  55
+ENDBRANCH  49  52
+ENDBRANCH  46  49
+ENDBRANCH   1  45
+TORSDOF 14

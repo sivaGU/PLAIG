@@ -1,0 +1,80 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAQ_23  and  CAV_1 
+REMARK    2  A    between atoms: CBB_2  and  OAD_3 
+REMARK    3  A    between atoms: CBA_4  and  OAC_5 
+REMARK    4  A    between atoms: CBC_7  and  CAT_8 
+REMARK    5  A    between atoms: CBC_7  and  OAE_11 
+REMARK    6  A    between atoms: CAU_12  and  CAO_24 
+REMARK    7  A    between atoms: CAN_22  and  CAX_21 
+REMARK    8  A    between atoms: CAN_22  and  OAQ_23 
+REMARK    9  A    between atoms: CAO_24  and  CAW_25 
+ROOT
+ATOM      1  CAV CB8 d   1       2.904  13.928  23.196  0.00  0.00     0.084 C 
+ATOM      2  CBB CB8 d   1       2.664  13.305  21.812  0.00  0.00     0.106 C 
+ATOM      3  CBA CB8 d   1       2.630  11.774  21.892  0.00  0.00     0.069 C 
+ATOM      4  CAP CB8 d   1       1.736  11.337  23.051  0.00  0.00     0.004 C 
+ATOM      5  CBC CB8 d   1       2.353  11.791  24.383  0.00  0.00     0.174 C 
+ATOM      6  CAU CB8 d   1       2.622  13.304  24.406  0.00  0.00     0.001 C 
+ATOM      7  H   CB8 d   1       1.694  13.622  21.429  0.00  0.00     0.097 H 
+ATOM      8  H   CB8 d   1       3.646  11.407  22.036  0.00  0.00     0.087 H 
+ATOM      9  H   CB8 d   1       1.645  10.251  23.047  0.00  0.00     0.042 H 
+ATOM     10  H   CB8 d   1       0.751  11.789  22.937  0.00  0.00     0.042 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  OAQ CB8 d   1       3.335  15.234  23.242  0.00  0.00    -0.347 OA
+BRANCH  11  12
+ATOM     12  CAN CB8 d   1       2.130  16.234  23.003  0.00  0.00     0.055 C 
+ATOM     13  H   CB8 d   1       2.525  17.015  22.353  0.00  0.00     0.083 H 
+ATOM     14  H   CB8 d   1       1.314  15.620  22.622  0.00  0.00     0.083 H 
+BRANCH  12  15
+ATOM     15  CAX CB8 d   1       1.593  16.920  24.143  0.00  0.00     0.008 A 
+ATOM     16  CAM CB8 d   1       0.295  17.097  24.420  0.00  0.00    -0.057 A 
+ATOM     17  CAY CB8 d   1       0.035  17.755  25.574  0.00  0.00    -0.018 A 
+ATOM     18  H   CB8 d   1      -0.496  16.737  23.763  0.00  0.00     0.086 H 
+ATOM     19  CAK CB8 d   1      -1.203  18.095  26.121  0.00  0.00    -0.072 A 
+ATOM     20  CAZ CB8 d   1       1.196  18.127  26.275  0.00  0.00     0.015 A 
+ATOM     21  CAF CB8 d   1      -1.296  18.779  27.326  0.00  0.00    -0.082 A 
+ATOM     22  H   CB8 d   1      -2.115  17.818  25.592  0.00  0.00     0.084 H 
+ATOM     23  CAG CB8 d   1      -0.141  19.140  28.005  0.00  0.00    -0.082 A 
+ATOM     24  H   CB8 d   1      -2.273  19.032  27.737  0.00  0.00     0.083 H 
+ATOM     25  CAL CB8 d   1       1.106  18.813  27.481  0.00  0.00    -0.066 A 
+ATOM     26  H   CB8 d   1      -0.210  19.680  28.949  0.00  0.00     0.083 H 
+ATOM     27  H   CB8 d   1       2.013  19.095  28.016  0.00  0.00     0.085 H 
+ATOM     28  SAS CB8 d   1       2.521  17.595  25.371  0.00  0.00    -0.092 SA
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   2  29
+ATOM     29  OAD CB8 d   1       3.708  13.754  20.928  0.00  0.00    -0.386 OA
+ATOM     30  H   CB8 d   1       3.684  14.712  20.867  0.00  0.00     0.210 HD
+ENDBRANCH   2  29
+BRANCH   6  31
+ATOM     31  CAO CB8 d   1       2.881  14.011  25.748  0.00  0.00    -0.009 C 
+ATOM     32  H   CB8 d   1       3.471  14.910  25.572  0.00  0.00     0.048 H 
+ATOM     33  H   CB8 d   1       3.421  13.335  26.411  0.00  0.00     0.048 H 
+BRANCH  31  34
+ATOM     34  CAW CB8 d   1       1.547  14.402  26.402  0.00  0.00    -0.013 A 
+ATOM     35  CAJ CB8 d   1       1.349  14.957  27.600  0.00  0.00    -0.070 A 
+ATOM     36  CAH CB8 d   1       0.054  15.201  27.902  0.00  0.00    -0.076 A 
+ATOM     37  H   CB8 d   1       2.167  15.195  28.281  0.00  0.00     0.085 H 
+ATOM     38  CAI CB8 d   1      -0.850  14.853  26.972  0.00  0.00    -0.045 A 
+ATOM     39  H   CB8 d   1      -0.240  15.655  28.848  0.00  0.00     0.084 H 
+ATOM     40  SAR CB8 d   1       0.033  14.213  25.684  0.00  0.00    -0.106 SA
+ATOM     41  H   CB8 d   1      -1.933  14.962  27.036  0.00  0.00     0.095 H 
+ENDBRANCH  31  34
+ENDBRANCH   6  31
+BRANCH   3  42
+ATOM     42  OAC CB8 d   1       2.063  11.249  20.683  0.00  0.00    -0.392 OA
+ATOM     43  H   CB8 d   1       2.041  10.290  20.731  0.00  0.00     0.210 HD
+ENDBRANCH   3  42
+BRANCH   5  44
+ATOM     44  CAT CB8 d   1       1.566  11.300  25.591  0.00  0.00     0.213 C 
+ATOM     45  OAB CB8 d   1       2.197  11.234  26.668  0.00  0.00    -0.645 OA
+ATOM     46  OAA CB8 d   1       0.371  11.003  25.426  0.00  0.00    -0.645 OA
+ENDBRANCH   5  44
+BRANCH   5  47
+ATOM     47  OAE CB8 d   1       3.854  10.996  24.506  0.00  0.00    -0.374 OA
+ATOM     48  H   CB8 d   1       4.277  11.239  25.333  0.00  0.00     0.211 HD
+ENDBRANCH   5  47
+TORSDOF 9

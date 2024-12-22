@@ -1,0 +1,58 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_2  and  C15_3 
+REMARK    2  A    between atoms: C14_2  and  C13_10 
+REMARK    3  A    between atoms: C21_4  and  C22_5 
+REMARK    4  A    between atoms: C13_10  and  S12_11 
+REMARK    5  A    between atoms: S12_11  and  C10_12 
+REMARK    6  A    between atoms: C02_18  and  N08_19 
+ROOT
+ATOM      1  C13 YH4 d   1      56.087  12.305  33.883  0.00  0.00     0.043 C 
+ATOM      2  H8  YH4 d   1      56.654  13.102  34.386  0.00  0.00     0.061 H 
+ATOM      3  H9  YH4 d   1      55.998  12.538  32.812  0.00  0.00     0.061 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C14 YH4 d   1      54.696  12.386  34.433  0.00  0.00     0.169 C 
+ATOM      5  O16 YH4 d   1      54.208  11.391  34.934  0.00  0.00    -0.291 OA
+BRANCH   4   6
+ATOM      6  C15 YH4 d   1      53.943  13.683  34.374  0.00  0.00     0.016 A 
+ATOM      7  C21 YH4 d   1      52.551  13.826  34.477  0.00  0.00    -0.048 A 
+ATOM      8  C20 YH4 d   1      51.973  15.102  34.407  0.00  0.00    -0.076 A 
+ATOM      9  C19 YH4 d   1      52.758  16.234  34.237  0.00  0.00    -0.082 A 
+ATOM     10  H4  YH4 d   1      50.897  15.206  34.487  0.00  0.00     0.084 H 
+ATOM     11  C18 YH4 d   1      54.134  16.099  34.137  0.00  0.00    -0.082 A 
+ATOM     12  H5  YH4 d   1      52.299  17.215  34.183  0.00  0.00     0.083 H 
+ATOM     13  C17 YH4 d   1      54.717  14.838  34.204  0.00  0.00    -0.069 A 
+ATOM     14  H6  YH4 d   1      54.756  16.977  34.007  0.00  0.00     0.083 H 
+ATOM     15  H7  YH4 d   1      55.794  14.747  34.123  0.00  0.00     0.085 H 
+BRANCH   7  16
+ATOM     16  C22 YH4 d   1      51.583  12.679  34.659  0.00  0.00    -0.050 C 
+ATOM     17  H1  YH4 d   1      50.556  13.070  34.710  0.00  0.00     0.033 H 
+ATOM     18  H2  YH4 d   1      51.818  12.145  35.592  0.00  0.00     0.033 H 
+ATOM     19  H3  YH4 d   1      51.670  11.987  33.808  0.00  0.00     0.033 H 
+ENDBRANCH   7  16
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  20
+ATOM     20  S12 YH4 d   1      57.124  10.832  33.979  0.00  0.00    -0.084 SA
+BRANCH  20  21
+ATOM     21  C10 YH4 d   1      56.133   9.564  33.356  0.00  0.00     0.169 A 
+ATOM     22  N11 YH4 d   1      56.083   8.288  33.795  0.00  0.00    -0.329 N 
+ATOM     23  C05 YH4 d   1      55.140   7.678  32.997  0.00  0.00     0.138 A 
+ATOM     24  H10 YH4 d   1      56.630   7.864  34.558  0.00  0.00     0.168 HD
+ATOM     25  C06 YH4 d   1      54.620   6.367  32.928  0.00  0.00     0.224 A 
+ATOM     26  C04 YH4 d   1      54.630   8.612  32.098  0.00  0.00     0.202 A 
+ATOM     27  O07 YH4 d   1      55.053   5.382  33.782  0.00  0.00    -0.169 OA
+ATOM     28  N01 YH4 d   1      53.671   6.111  32.029  0.00  0.00    -0.164 N 
+ATOM     29  C02 YH4 d   1      53.229   7.057  31.184  0.00  0.00     0.702 A 
+ATOM     30  H11 YH4 d   1      53.278   5.193  31.982  0.00  0.00     0.186 HD
+ATOM     31  N03 YH4 d   1      53.688   8.312  31.177  0.00  0.00    -0.043 NA
+ATOM     32  N09 YH4 d   1      55.279   9.791  32.349  0.00  0.00    -0.202 NA
+BRANCH  29  33
+ATOM     33  N08 YH4 d   1      52.230   6.701  30.256  0.00  0.00    -0.233 N 
+ATOM     34  H12 YH4 d   1      51.869   7.402  29.594  0.00  0.00     0.174 HD
+ATOM     35  H13 YH4 d   1      51.861   5.739  30.240  0.00  0.00     0.174 HD
+ENDBRANCH  29  33
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+TORSDOF 6

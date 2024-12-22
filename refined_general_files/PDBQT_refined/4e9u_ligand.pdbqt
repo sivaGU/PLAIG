@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_12  and  CAM_13 
+REMARK    2  A    between atoms: OAN_14  and  CAL_12 
+REMARK    3  A    between atoms: CAM_13  and  SAP_16 
+REMARK    4  A    between atoms: CAQ_17  and  OAN_14 
+REMARK    5  A    between atoms: OAO_15  and  CAR_18 
+REMARK    6  A    between atoms: OAO_15  and  CAS_19 
+ROOT
+ATOM      1  NAA RWY d   1      22.409 -10.152   8.892  0.00  0.00    -0.184 NA
+ATOM      2  CAB RWY d   1      22.625 -10.612   7.874  0.00  0.00     0.133 C 
+ATOM      3  SAP RWY d   1      22.935 -11.273   6.407  0.00  0.00    -0.049 SA
+ENDROOT
+BRANCH   3   4
+ATOM      4  CAM RWY d   1      23.831 -12.786   6.912  0.00  0.00     0.010 C 
+ATOM      5  H12 RWY d   1      24.037 -12.728   7.991  0.00  0.00     0.053 H 
+ATOM      6  H13 RWY d   1      23.192 -13.658   6.707  0.00  0.00     0.053 H 
+BRANCH   4   7
+ATOM      7  CAL RWY d   1      25.156 -12.967   6.171  0.00  0.00     0.035 C 
+ATOM      8  H10 RWY d   1      25.692 -12.007   6.138  0.00  0.00     0.076 H 
+ATOM      9  H11 RWY d   1      24.959 -13.313   5.146  0.00  0.00     0.076 H 
+BRANCH   7  10
+ATOM     10  OAN RWY d   1      25.955 -13.938   6.858  0.00  0.00    -0.350 OA
+BRANCH  10  11
+ATOM     11  CAQ RWY d   1      25.152 -14.952   7.270  0.00  0.00     0.069 A 
+ATOM     12  CAH RWY d   1      24.796 -15.051   8.608  0.00  0.00    -0.048 A 
+ATOM     13  CAJ RWY d   1      23.973 -16.087   9.031  0.00  0.00    -0.048 A 
+ATOM     14  H6  RWY d   1      25.160 -14.321   9.322  0.00  0.00     0.087 H 
+ATOM     15  CAS RWY d   1      23.508 -17.022   8.116  0.00  0.00     0.076 A 
+ATOM     16  H8  RWY d   1      23.694 -16.166  10.075  0.00  0.00     0.087 H 
+ATOM     17  CAK RWY d   1      23.864 -16.922   6.778  0.00  0.00    -0.048 A 
+ATOM     18  CAI RWY d   1      24.686 -15.886   6.355  0.00  0.00    -0.048 A 
+ATOM     19  H9  RWY d   1      23.500 -17.652   6.064  0.00  0.00     0.087 H 
+ATOM     20  H7  RWY d   1      24.964 -15.807   5.310  0.00  0.00     0.087 H 
+BRANCH  15  21
+ATOM     21  OAO RWY d   1      22.701 -18.031   8.535  0.00  0.00    -0.311 OA
+BRANCH  21  22
+ATOM     22  CAR RWY d   1      23.059 -19.203   7.953  0.00  0.00     0.076 A 
+ATOM     23  CAF RWY d   1      22.857 -20.399   8.632  0.00  0.00    -0.050 A 
+ATOM     24  CAD RWY d   1      23.219 -21.603   8.044  0.00  0.00    -0.080 A 
+ATOM     25  H4  RWY d   1      22.416 -20.391   9.622  0.00  0.00     0.087 H 
+ATOM     26  CAC RWY d   1      23.784 -21.609   6.775  0.00  0.00    -0.083 A 
+ATOM     27  H2  RWY d   1      23.061 -22.536   8.573  0.00  0.00     0.083 H 
+ATOM     28  CAE RWY d   1      23.984 -20.413   6.096  0.00  0.00    -0.080 A 
+ATOM     29  H1  RWY d   1      24.069 -22.548   6.314  0.00  0.00     0.083 H 
+ATOM     30  CAG RWY d   1      23.623 -19.208   6.685  0.00  0.00    -0.050 A 
+ATOM     31  H3  RWY d   1      24.423 -20.421   5.105  0.00  0.00     0.083 H 
+ATOM     32  H5  RWY d   1      23.781 -18.275   6.156  0.00  0.00     0.087 H 
+ENDBRANCH  21  22
+ENDBRANCH  15  21
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   3   4
+TORSDOF 6

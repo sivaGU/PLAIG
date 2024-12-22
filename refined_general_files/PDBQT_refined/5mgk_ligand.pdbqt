@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C03_3  and  C05_5 
+REMARK    4  A    between atoms: C08_8  and  C10_10 
+REMARK    5  A    between atoms: C10_10  and  O12_12 
+REMARK    6  A    between atoms: O12_12  and  C13_13 
+ROOT
+ATOM      1  C05 7MW d   1    -106.974  40.038  27.368  0.00  0.00     0.027 A 
+ATOM      2  C06 7MW d   1    -105.932  40.889  27.686  0.00  0.00    -0.009 A 
+ATOM      3  N07 7MW d   1    -106.474  42.026  28.145  0.00  0.00    -0.360 N 
+ATOM      4  C08 7MW d   1    -107.815  41.941  28.132  0.00  0.00     0.109 A 
+ATOM      5  C09 7MW d   1    -108.158  40.692  27.647  0.00  0.00    -0.036 A 
+ATOM      6  H6  7MW d   1    -104.869  40.676  27.583  0.00  0.00     0.112 H 
+ATOM      7  H7  7MW d   1    -105.939  42.847  28.462  0.00  0.00     0.165 HD
+ATOM      8  H8  7MW d   1    -109.165  40.301  27.512  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C03 7MW d   1    -106.821  38.643  26.815  0.00  0.00     0.160 C 
+ATOM     10  O04 7MW d   1    -107.799  37.984  26.526  0.00  0.00    -0.292 OA
+BRANCH   9  11
+ATOM     11  C02 7MW d   1    -105.434  38.076  26.628  0.00  0.00    -0.008 C 
+ATOM     12  H4  7MW d   1    -104.747  38.895  26.367  0.00  0.00     0.044 H 
+ATOM     13  H5  7MW d   1    -105.109  37.612  27.571  0.00  0.00     0.044 H 
+BRANCH  11  14
+ATOM     14  C01 7MW d   1    -105.394  37.036  25.532  0.00  0.00    -0.070 C 
+ATOM     15  H1  7MW d   1    -104.369  36.651  25.430  0.00  0.00     0.028 H 
+ATOM     16  H2  7MW d   1    -105.711  37.492  24.582  0.00  0.00     0.028 H 
+ATOM     17  H3  7MW d   1    -106.073  36.209  25.786  0.00  0.00     0.028 H 
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   4  18
+ATOM     18  C10 7MW d   1    -108.761  43.027  28.582  0.00  0.00     0.309 C 
+ATOM     19  O11 7MW d   1    -109.918  43.023  28.215  0.00  0.00    -0.258 OA
+BRANCH  18  20
+ATOM     20  O12 7MW d   1    -108.281  44.033  29.436  0.00  0.00    -0.321 OA
+BRANCH  20  21
+ATOM     21  C13 7MW d   1    -109.052  45.212  29.443  0.00  0.00     0.013 C 
+ATOM     22  H9  7MW d   1    -108.604  45.939  30.136  0.00  0.00     0.067 H 
+ATOM     23  H10 7MW d   1    -110.076  44.978  29.769  0.00  0.00     0.067 H 
+ATOM     24  H11 7MW d   1    -109.078  45.639  28.430  0.00  0.00     0.067 H 
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+ENDBRANCH   4  18
+TORSDOF 6

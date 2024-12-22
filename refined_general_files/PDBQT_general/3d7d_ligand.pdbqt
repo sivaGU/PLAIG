@@ -1,0 +1,83 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C17_7  and  C16_8 
+REMARK    2  A    between atoms: C16_8  and  S15_9 
+REMARK    3  A    between atoms: S15_9  and  C14_10 
+REMARK    4  A    between atoms: C14_10  and  C13_11 
+REMARK    5  A    between atoms: C13_11  and  C24_12 
+REMARK    6  A    between atoms: C13_11  and  N12_15 
+REMARK       I    between atoms: N12_15  and  C11_16 
+REMARK       I    between atoms: C11_16  and  N10_18 
+REMARK    7  A    between atoms: N10_18  and  C6_19 
+REMARK    8  A    between atoms: C6_19  and  C7_20 
+REMARK    9  A    between atoms: C6_19  and  C5_23 
+REMARK   10  A    between atoms: C5_23  and  C4_24 
+REMARK   11  A    between atoms: C4_24  and  C2_25 
+ROOT
+ATOM      1  C13 FBD d   1      19.971  45.098  44.406  0.00  0.00     0.106 C 
+ATOM      2  H9  FBD d   1      20.159  44.014  44.416  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C14 FBD d   1      20.850  45.877  43.402  0.00  0.00     0.005 C 
+ATOM      4  H7  FBD d   1      20.394  45.787  42.405  0.00  0.00     0.052 H 
+ATOM      5  H8  FBD d   1      20.862  46.934  43.705  0.00  0.00     0.052 H 
+BRANCH   3   6
+ATOM      6  S15 FBD d   1      22.538  45.309  43.295  0.00  0.00    -0.162 SA
+BRANCH   6   7
+ATOM      7  C16 FBD d   1      23.379  46.826  42.895  0.00  0.00     0.001 C 
+ATOM      8  H5  FBD d   1      24.432  46.604  42.669  0.00  0.00     0.056 H 
+ATOM      9  H6  FBD d   1      22.902  47.279  42.013  0.00  0.00     0.056 H 
+BRANCH   7  10
+ATOM     10  C17 FBD d   1      23.316  47.816  44.062  0.00  0.00    -0.049 A 
+ATOM     11  C23 FBD d   1      23.895  47.432  45.276  0.00  0.00    -0.073 A 
+ATOM     12  C22 FBD d   1      23.885  48.292  46.370  0.00  0.00    -0.045 A 
+ATOM     13  H2  FBD d   1      24.356  46.455  45.365  0.00  0.00     0.084 H 
+ATOM     14  C20 FBD d   1      23.299  49.550  46.274  0.00  0.00     0.116 A 
+ATOM     15  H1  FBD d   1      24.337  47.979  47.304  0.00  0.00     0.088 H 
+ATOM     16  F21 FBD d   1      23.359  50.346  47.382  0.00  0.00    -0.206 F 
+ATOM     17  C19 FBD d   1      22.715  49.969  45.058  0.00  0.00    -0.045 A 
+ATOM     18  C18 FBD d   1      22.721  49.093  43.948  0.00  0.00    -0.073 A 
+ATOM     19  H3  FBD d   1      22.267  50.953  44.977  0.00  0.00     0.088 H 
+ATOM     20  H4  FBD d   1      22.270  49.400  43.011  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  21
+ATOM     21  C24 FBD d   1      20.122  45.722  45.783  0.00  0.00     0.197 C 
+ATOM     22  O25 FBD d   1      20.632  45.009  46.672  0.00  0.00    -0.646 OA
+ATOM     23  O26 FBD d   1      19.686  46.889  45.974  0.00  0.00    -0.646 OA
+ENDBRANCH   1  21
+BRANCH   1  24
+ATOM     24  N12 FBD d   1      18.657  45.473  43.901  0.00  0.00    -0.328 N 
+ATOM     25  C11 FBD d   1      17.967  44.733  43.032  0.00  0.00     0.317 C 
+ATOM     26  O27 FBD d   1      18.402  43.660  42.556  0.00  0.00    -0.247 OA
+ATOM     27  N10 FBD d   1      16.724  45.155  42.702  0.00  0.00    -0.329 N 
+ATOM     28  H11 FBD d   1      16.290  45.921  43.176  0.00  0.00     0.165 HD
+ATOM     29  H10 FBD d   1      18.252  46.329  44.222  0.00  0.00     0.165 HD
+BRANCH  27  30
+ATOM     30  C6  FBD d   1      16.038  44.436  41.614  0.00  0.00     0.098 C 
+ATOM     31  H12 FBD d   1      15.830  43.384  41.858  0.00  0.00     0.089 H 
+BRANCH  30  32
+ATOM     32  C7  FBD d   1      17.008  44.636  40.437  0.00  0.00     0.196 C 
+ATOM     33  O8  FBD d   1      17.905  45.524  40.454  0.00  0.00    -0.646 OA
+ATOM     34  O9  FBD d   1      16.935  43.874  39.410  0.00  0.00    -0.646 OA
+ENDBRANCH  30  32
+BRANCH  30  35
+ATOM     35  C5  FBD d   1      14.771  45.209  41.175  0.00  0.00    -0.028 C 
+ATOM     36  H13 FBD d   1      13.970  45.008  41.902  0.00  0.00     0.037 H 
+ATOM     37  H14 FBD d   1      14.466  44.845  40.183  0.00  0.00     0.037 H 
+BRANCH  35  38
+ATOM     38  C4  FBD d   1      14.985  46.727  41.092  0.00  0.00     0.018 C 
+ATOM     39  H15 FBD d   1      15.914  46.912  40.533  0.00  0.00     0.049 H 
+ATOM     40  H16 FBD d   1      15.090  47.114  42.116  0.00  0.00     0.049 H 
+BRANCH  38  41
+ATOM     41  C2  FBD d   1      13.857  47.496  40.406  0.00  0.00     0.172 C 
+ATOM     42  O3  FBD d   1      13.789  48.733  40.583  0.00  0.00    -0.648 OA
+ATOM     43  O1  FBD d   1      13.010  46.886  39.698  0.00  0.00    -0.648 OA
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  30  35
+ENDBRANCH  27  30
+ENDBRANCH   1  24
+TORSDOF 11

@@ -1,0 +1,117 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  OAW_2 
+REMARK    2  A    between atoms: OAW_2  and  CBC_3 
+REMARK    3  A    between atoms: CBB_5  and  OAV_6 
+REMARK    4  A    between atoms: OAV_6  and  CAA_7 
+REMARK    5  A    between atoms: CAY_10  and  CAR_11 
+REMARK    6  A    between atoms: CAR_11  and  CBA_12 
+REMARK    7  A    between atoms: CAZ_19  and  CAC_20 
+REMARK    8  A    between atoms: CBD_22  and  CBH_23 
+REMARK    9  A    between atoms: CBH_23  and  CBG_24 
+REMARK   10  A    between atoms: CBH_23  and  CAQ_27 
+REMARK   11  A    between atoms: CBG_24  and  CAD_25 
+REMARK   12  A    between atoms: CBG_24  and  OAF_26 
+REMARK   13  A    between atoms: CAQ_27  and  CAO_28 
+REMARK   14  A    between atoms: CAO_28  and  CAP_29 
+REMARK   15  A    between atoms: CAP_29  and  CAX_30 
+ROOT
+ATOM      1  CBA 19F d   1      11.976   4.934  16.763  0.00  0.00     0.132 A 
+ATOM      2  NAU 19F d   1      12.786   4.730  15.599  0.00  0.00    -0.308 N 
+ATOM      3  CBE 19F d   1      14.057   4.207  15.608  0.00  0.00     0.277 A 
+ATOM      4  OAE 19F d   1      14.689   4.091  14.566  0.00  0.00    -0.266 OA
+ATOM      5  NAT 19F d   1      12.332   4.679  17.957  0.00  0.00    -0.152 NA
+ATOM      6  NBI 19F d   1      13.649   4.123  18.048  0.00  0.00    -0.210 N 
+ATOM      7  CBF 19F d   1      14.491   3.869  16.950  0.00  0.00     0.152 A 
+ATOM      8  CAZ 19F d   1      15.625   3.314  17.474  0.00  0.00     0.067 A 
+ATOM      9  NAS 19F d   1      15.508   3.246  18.850  0.00  0.00    -0.235 NA
+ATOM     10  CBD 19F d   1      14.314   3.724  19.185  0.00  0.00     0.135 A 
+ATOM     11  H12 19F d   1      12.398   4.987  14.714  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH  10  12
+ATOM     12  CBH 19F d   1      13.721   3.770  20.553  0.00  0.00     0.030 C 
+ATOM     13  H16 19F d   1      14.446   3.303  21.236  0.00  0.00     0.056 H 
+BRANCH  12  14
+ATOM     14  CBG 19F d   1      12.420   2.957  20.665  0.00  0.00     0.042 C 
+ATOM     15  H17 19F d   1      11.619   3.547  20.196  0.00  0.00     0.083 H 
+BRANCH  14  16
+ATOM     16  CAD 19F d   1      12.484   1.625  19.950  0.00  0.00    -0.052 C 
+ATOM     17  H18 19F d   1      11.526   1.098  20.070  0.00  0.00     0.030 H 
+ATOM     18  H19 19F d   1      13.293   1.016  20.380  0.00  0.00     0.030 H 
+ATOM     19  H20 19F d   1      12.680   1.792  18.881  0.00  0.00     0.030 H 
+ENDBRANCH  14  16
+BRANCH  14  20
+ATOM     20  OAF 19F d   1      12.080   2.757  22.036  0.00  0.00    -0.395 OA
+ATOM     21  H21 19F d   1      11.233   2.330  22.092  0.00  0.00     0.210 HD
+ENDBRANCH  14  20
+ENDBRANCH  12  14
+BRANCH  12  22
+ATOM     22  CAQ 19F d   1      13.542   5.225  21.007  0.00  0.00    -0.052 C 
+ATOM     23  H22 19F d   1      12.811   5.242  21.828  0.00  0.00     0.034 H 
+ATOM     24  H23 19F d   1      13.153   5.806  20.158  0.00  0.00     0.034 H 
+BRANCH  22  25
+ATOM     25  CAO 19F d   1      14.831   5.894  21.497  0.00  0.00    -0.061 C 
+ATOM     26  H24 19F d   1      15.469   6.106  20.626  0.00  0.00     0.033 H 
+ATOM     27  H25 19F d   1      15.352   5.199  22.172  0.00  0.00     0.033 H 
+BRANCH  25  28
+ATOM     28  CAP 19F d   1      14.581   7.189  22.238  0.00  0.00    -0.041 C 
+ATOM     29  H26 19F d   1      13.982   6.975  23.135  0.00  0.00     0.040 H 
+ATOM     30  H27 19F d   1      14.025   7.873  21.580  0.00  0.00     0.040 H 
+BRANCH  28  31
+ATOM     31  CAX 19F d   1      15.869   7.857  22.659  0.00  0.00    -0.058 A 
+ATOM     32  CAJ 19F d   1      16.642   8.543  21.741  0.00  0.00    -0.077 A 
+ATOM     33  CAH 19F d   1      17.812   9.172  22.126  0.00  0.00    -0.082 A 
+ATOM     34  H28 19F d   1      16.327   8.589  20.705  0.00  0.00     0.084 H 
+ATOM     35  CAG 19F d   1      18.237   9.110  23.435  0.00  0.00    -0.083 A 
+ATOM     36  H29 19F d   1      18.398   9.716  21.394  0.00  0.00     0.083 H 
+ATOM     37  CAI 19F d   1      17.502   8.392  24.353  0.00  0.00    -0.082 A 
+ATOM     38  H30 19F d   1      19.142   9.622  23.740  0.00  0.00     0.083 H 
+ATOM     39  CAK 19F d   1      16.321   7.776  23.969  0.00  0.00    -0.077 A 
+ATOM     40  H31 19F d   1      17.848   8.309  25.377  0.00  0.00     0.083 H 
+ATOM     41  H32 19F d   1      15.743   7.224  24.701  0.00  0.00     0.084 H 
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  12  22
+ENDBRANCH  10  12
+BRANCH   8  42
+ATOM     42  CAC 19F d   1      16.872   2.855  16.800  0.00  0.00    -0.033 C 
+ATOM     43  H13 19F d   1      17.571   2.461  17.552  0.00  0.00     0.035 H 
+ATOM     44  H14 19F d   1      17.338   3.702  16.274  0.00  0.00     0.035 H 
+ATOM     45  H15 19F d   1      16.628   2.064  16.076  0.00  0.00     0.035 H 
+ENDBRANCH   8  42
+BRANCH   1  46
+ATOM     46  CAR 19F d   1      10.589   5.378  16.475  0.00  0.00     0.016 C 
+ATOM     47  H10 19F d   1      10.365   5.182  15.416  0.00  0.00     0.051 H 
+ATOM     48  H11 19F d   1       9.894   4.808  17.109  0.00  0.00     0.051 H 
+BRANCH  46  49
+ATOM     49  CAY 19F d   1      10.403   6.852  16.749  0.00  0.00    -0.048 A 
+ATOM     50  CAN 19F d   1      10.432   7.331  18.055  0.00  0.00    -0.042 A 
+ATOM     51  CBC 19F d   1      10.298   8.687  18.313  0.00  0.00     0.102 A 
+ATOM     52  H4  19F d   1      10.560   6.638  18.878  0.00  0.00     0.088 H 
+ATOM     53  CBB 19F d   1      10.132   9.589  17.241  0.00  0.00     0.101 A 
+ATOM     54  CAM 19F d   1      10.081   9.109  15.942  0.00  0.00    -0.048 A 
+ATOM     55  CAL 19F d   1      10.223   7.751  15.706  0.00  0.00    -0.074 A 
+ATOM     56  H8  19F d   1       9.931   9.793  15.114  0.00  0.00     0.087 H 
+ATOM     57  H9  19F d   1      10.193   7.383  14.687  0.00  0.00     0.084 H 
+BRANCH  51  58
+ATOM     58  OAW 19F d   1      10.296   9.254  19.560  0.00  0.00    -0.353 OA
+BRANCH  58  59
+ATOM     59  CAB 19F d   1      10.489   8.396  20.683  0.00  0.00     0.010 C 
+ATOM     60  H1  19F d   1      10.463   8.991  21.608  0.00  0.00     0.066 H 
+ATOM     61  H2  19F d   1      11.464   7.894  20.598  0.00  0.00     0.066 H 
+ATOM     62  H3  19F d   1       9.689   7.641  20.710  0.00  0.00     0.066 H 
+ENDBRANCH  58  59
+ENDBRANCH  51  58
+BRANCH  53  63
+ATOM     63  OAV 19F d   1      10.065  10.909  17.590  0.00  0.00    -0.353 OA
+BRANCH  63  64
+ATOM     64  CAA 19F d   1      10.001  11.879  16.543  0.00  0.00     0.010 C 
+ATOM     65  H5  19F d   1       9.952  12.887  16.980  0.00  0.00     0.066 H 
+ATOM     66  H6  19F d   1       9.104  11.700  15.932  0.00  0.00     0.066 H 
+ATOM     67  H7  19F d   1      10.898  11.796  15.911  0.00  0.00     0.066 H 
+ENDBRANCH  63  64
+ENDBRANCH  53  63
+ENDBRANCH  46  49
+ENDBRANCH   1  46
+TORSDOF 15

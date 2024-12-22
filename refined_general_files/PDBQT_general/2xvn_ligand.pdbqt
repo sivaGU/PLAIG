@@ -1,0 +1,42 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_1  and  NAL_2 
+REMARK       I    between atoms: NAL_2  and  CAK_3 
+REMARK       I    between atoms: CAK_3  and  NAN_5 
+REMARK       I    between atoms: NAN_5  and  CAB_6 
+REMARK       I    between atoms: CAB_6  and  NAA_7 
+REMARK    2  A    between atoms: NAC_8  and  CAD_9 
+ROOT
+ATOM      1  NAL KLS d   1     -10.215  10.072  -3.424  0.00  0.00    -0.347 N 
+ATOM      2  CAK KLS d   1     -11.423  10.630  -3.427  0.00  0.00     0.334 C 
+ATOM      3  OAJ KLS d   1     -12.324  10.199  -2.736  0.00  0.00    -0.247 OA
+ATOM      4  NAN KLS d   1     -11.674  11.584  -4.356  0.00  0.00    -0.142 N 
+ATOM      5  CAB KLS d   1     -12.755  12.333  -4.620  0.00  0.00     0.680 C 
+ATOM      6  NAA KLS d   1     -13.883  12.244  -3.936  0.00  0.00    -0.234 N 
+ATOM      7  NAC KLS d   1     -12.620  13.249  -5.594  0.00  0.00    -0.192 N 
+ATOM      8  H   KLS d   1      -9.483  10.403  -4.053  0.00  0.00     0.163 HD
+ATOM      9  H   KLS d   1     -10.886  11.769  -4.977  0.00  0.00     0.189 HD
+ATOM     10  H   KLS d   1     -14.658  12.873  -4.146  0.00  0.00     0.174 HD
+ATOM     11  H   KLS d   1     -13.978  11.546  -3.198  0.00  0.00     0.174 HD
+ATOM     12  H   KLS d   1     -11.713  13.328  -6.055  0.00  0.00     0.184 HD
+ENDROOT
+BRANCH   7  13
+ATOM     13  CAD KLS d   1     -13.617  14.075  -6.002  0.00  0.00     0.049 A 
+ATOM     14  CAE KLS d   1     -13.921  14.149  -7.365  0.00  0.00    -0.057 A 
+ATOM     15  CAF KLS d   1     -14.949  14.978  -7.801  0.00  0.00    -0.081 A 
+ATOM     16  H   KLS d   1     -13.354  13.558  -8.084  0.00  0.00     0.086 H 
+ATOM     17  CAG KLS d   1     -15.663  15.743  -6.878  0.00  0.00    -0.083 A 
+ATOM     18  H   KLS d   1     -15.196  15.030  -8.861  0.00  0.00     0.083 H 
+ATOM     19  CAH KLS d   1     -15.367  15.678  -5.526  0.00  0.00    -0.081 A 
+ATOM     20  H   KLS d   1     -16.462  16.399  -7.224  0.00  0.00     0.083 H 
+ATOM     21  CAI KLS d   1     -14.337  14.853  -5.099  0.00  0.00    -0.057 A 
+ATOM     22  H   KLS d   1     -15.936  16.267  -4.807  0.00  0.00     0.083 H 
+ATOM     23  H   KLS d   1     -14.087  14.813  -4.039  0.00  0.00     0.086 H 
+ENDBRANCH   7  13
+BRANCH   1  24
+ATOM     24  CAM KLS d   1      -9.965   8.966  -2.489  0.00  0.00    -0.017 C 
+ATOM     25  H   KLS d   1     -10.118   9.314  -1.467  0.00  0.00     0.056 H 
+ATOM     26  H   KLS d   1     -10.653   8.149  -2.703  0.00  0.00     0.056 H 
+ATOM     27  H   KLS d   1      -8.939   8.618  -2.606  0.00  0.00     0.056 H 
+ENDBRANCH   1  24
+TORSDOF 2

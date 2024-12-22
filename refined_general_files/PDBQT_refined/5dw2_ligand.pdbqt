@@ -1,0 +1,50 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  N1_14 
+REMARK    2  A    between atoms: C5_2  and  C4_8 
+REMARK       I    between atoms: C5_2  and  N_13 
+REMARK    3  A    between atoms: C1_4  and  O_11 
+REMARK    4  A    between atoms: C21_5  and  O3_9 
+REMARK    5  A    between atoms: O3_9  and  C22_6 
+REMARK    6  A    between atoms: O_11  and  C_12 
+ROOT
+ATOM      1  C3  5GD d   1      11.766   6.696   1.292  0.00  0.00     0.047 A 
+ATOM      2  C2  5GD d   1      10.436   6.926   0.824  0.00  0.00    -0.024 A 
+ATOM      3  C1  5GD d   1       9.971   6.176  -0.187  0.00  0.00     0.073 A 
+ATOM      4  C21 5GD d   1      12.063   4.987  -0.399  0.00  0.00     0.088 A 
+ATOM      5  C4  5GD d   1      12.559   5.749   0.636  0.00  0.00     0.091 A 
+ATOM      6  C23 5GD d   1      10.748   5.229  -0.830  0.00  0.00    -0.018 A 
+ATOM      7  H1  5GD d   1       9.815   7.691   1.276  0.00  0.00     0.091 H 
+ATOM      8  H5  5GD d   1      10.342   4.673  -1.667  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   3   9
+ATOM      9  O   5GD d   1       8.715   6.287  -0.729  0.00  0.00    -0.356 OA
+BRANCH   9  10
+ATOM     10  C   5GD d   1       7.784   7.206  -0.149  0.00  0.00     0.010 C 
+ATOM     11  H6  5GD d   1       6.835   7.166  -0.704  0.00  0.00     0.066 H 
+ATOM     12  H7  5GD d   1       8.195   8.225  -0.199  0.00  0.00     0.066 H 
+ATOM     13  H8  5GD d   1       7.606   6.934   0.902  0.00  0.00     0.066 H 
+ENDBRANCH   9  10
+ENDBRANCH   3   9
+BRANCH   1  14
+ATOM     14  N1  5GD d   1      12.162   7.452   2.370  0.00  0.00    -0.398 N 
+ATOM     15  H11 5GD d   1      11.510   8.128   2.792  0.00  0.00     0.156 HD
+ATOM     16  H12 5GD d   1      13.111   7.342   2.755  0.00  0.00     0.156 HD
+ENDBRANCH   1  14
+BRANCH   4  17
+ATOM     17  O3  5GD d   1      12.835   4.005  -0.910  0.00  0.00    -0.355 OA
+BRANCH  17  18
+ATOM     18  C22 5GD d   1      12.272   3.090  -1.834  0.00  0.00     0.010 C 
+ATOM     19  H2  5GD d   1      13.038   2.364  -2.144  0.00  0.00     0.066 H 
+ATOM     20  H3  5GD d   1      11.907   3.637  -2.716  0.00  0.00     0.066 H 
+ATOM     21  H4  5GD d   1      11.434   2.559  -1.360  0.00  0.00     0.066 H 
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+BRANCH   5  22
+ATOM     22  C5  5GD d   1      13.943   5.581   1.168  0.00  0.00     0.254 C 
+ATOM     23  O1  5GD d   1      14.829   4.841   0.688  0.00  0.00    -0.268 OA
+ATOM     24  N   5GD d   1      14.244   6.321   2.297  0.00  0.00    -0.366 N 
+ATOM     25  H9  5GD d   1      13.553   6.921   2.701  0.00  0.00     0.159 HD
+ATOM     26  H10 5GD d   1      15.153   6.256   2.710  0.00  0.00     0.159 HD
+ENDBRANCH   5  22
+TORSDOF 6

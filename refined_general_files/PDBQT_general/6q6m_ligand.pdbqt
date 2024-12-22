@@ -1,0 +1,74 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N15_14  and  C3_2 
+REMARK    2  A    between atoms: C4_10  and  C11_3 
+REMARK    3  A    between atoms: C16_4  and  C18_5 
+REMARK    4  A    between atoms: C22_6  and  C16_4 
+REMARK    5  A    between atoms: C16_4  and  N15_14 
+REMARK    6  A    between atoms: O24_16  and  C22_6 
+REMARK    7  A    between atoms: C25_7  and  C28_8 
+REMARK    8  A    between atoms: C25_7  and  O24_16 
+REMARK       I    between atoms: N15_14  and  C32_17 
+REMARK    9  A    between atoms: C32_17  and  C34_19 
+ROOT
+ATOM      1  N15 HJW d   1       3.558 -34.889  -9.185  0.00  0.00    -0.297 N 
+ATOM      2  C32 HJW d   1       4.593 -35.786  -9.054  0.00  0.00     0.266 C 
+ATOM      3  O33 HJW d   1       4.421 -36.955  -9.353  0.00  0.00    -0.266 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C3  HJW d   1       3.786 -33.503  -8.811  0.00  0.00     0.066 A 
+ATOM      5  C2  HJW d   1       3.617 -33.162  -7.448  0.00  0.00     0.061 A 
+ATOM      6 CL1  HJW d   1       3.073 -34.412  -6.327  0.00  0.00    -0.082 Cl
+ATOM      7  C9  HJW d   1       3.867 -31.849  -7.000  0.00  0.00    -0.060 A 
+ATOM      8  C7  HJW d   1       4.314 -30.857  -7.908  0.00  0.00    -0.081 A 
+ATOM      9  H15 HJW d   1       3.717 -31.597  -5.957  0.00  0.00     0.086 H 
+ATOM     10  C5  HJW d   1       4.521 -31.187  -9.270  0.00  0.00    -0.075 A 
+ATOM     11  H14 HJW d   1       4.497 -29.847  -7.561  0.00  0.00     0.083 H 
+ATOM     12  C4  HJW d   1       4.272 -32.505  -9.730  0.00  0.00    -0.033 A 
+ATOM     13  H13 HJW d   1       4.871 -30.430  -9.963  0.00  0.00     0.084 H 
+BRANCH  12  14
+ATOM     14  C11 HJW d   1       4.503 -32.817 -11.222  0.00  0.00    -0.049 C 
+ATOM     15  H1  HJW d   1       4.873 -31.915 -11.732  0.00  0.00     0.033 H 
+ATOM     16  H2  HJW d   1       3.555 -33.135 -11.681  0.00  0.00     0.033 H 
+ATOM     17  H3  HJW d   1       5.245 -33.623 -11.317  0.00  0.00     0.033 H 
+ENDBRANCH  12  14
+ENDBRANCH   1   4
+BRANCH   1  18
+ATOM     18  C16 HJW d   1       2.210 -35.372  -9.685  0.00  0.00     0.100 C 
+ATOM     19  H4  HJW d   1       1.730 -35.929  -8.867  0.00  0.00     0.088 H 
+BRANCH  18  20
+ATOM     20  C18 HJW d   1       1.298 -34.183 -10.051  0.00  0.00    -0.048 C 
+ATOM     21  H5  HJW d   1       0.329 -34.561 -10.410  0.00  0.00     0.030 H 
+ATOM     22  H6  HJW d   1       1.774 -33.586 -10.842  0.00  0.00     0.030 H 
+ATOM     23  H7  HJW d   1       1.140 -33.555  -9.162  0.00  0.00     0.030 H 
+ENDBRANCH  18  20
+BRANCH  18  24
+ATOM     24  C22 HJW d   1       2.355 -36.316 -10.871  0.00  0.00     0.282 C 
+ATOM     25  O23 HJW d   1       3.173 -36.102 -11.755  0.00  0.00    -0.263 OA
+BRANCH  24  26
+ATOM     26  O24 HJW d   1       1.503 -37.372 -10.829  0.00  0.00    -0.320 OA
+BRANCH  26  27
+ATOM     27  C25 HJW d   1       1.528 -38.406 -11.839  0.00  0.00     0.026 C 
+ATOM     28  H8  HJW d   1       0.507 -38.612 -12.193  0.00  0.00     0.074 H 
+ATOM     29  H9  HJW d   1       2.153 -38.090 -12.687  0.00  0.00     0.074 H 
+BRANCH  27  30
+ATOM     30  C28 HJW d   1       2.130 -39.678 -11.179  0.00  0.00    -0.056 C 
+ATOM     31  H10 HJW d   1       2.167 -40.492 -11.918  0.00  0.00     0.030 H 
+ATOM     32  H11 HJW d   1       1.502 -39.982 -10.329  0.00  0.00     0.030 H 
+ATOM     33  H12 HJW d   1       3.148 -39.460 -10.823  0.00  0.00     0.030 H 
+ENDBRANCH  27  30
+ENDBRANCH  26  27
+ENDBRANCH  24  26
+ENDBRANCH  18  24
+ENDBRANCH   1  18
+BRANCH   2  34
+ATOM     34  C34 HJW d   1       5.987 -35.588  -8.545  0.00  0.00     0.073 A 
+ATOM     35  S35 HJW d   1       6.689 -34.026  -8.315  0.00  0.00    -0.097 SA
+ATOM     36  C36 HJW d   1       8.155 -34.720  -7.709  0.00  0.00    -0.044 A 
+ATOM     37  C38 HJW d   1       8.100 -36.052  -7.688  0.00  0.00    -0.075 A 
+ATOM     38  H16 HJW d   1       9.017 -34.139  -7.385  0.00  0.00     0.095 H 
+ATOM     39  C40 HJW d   1       6.826 -36.572  -8.171  0.00  0.00    -0.060 A 
+ATOM     40  H17 HJW d   1       8.919 -36.684  -7.347  0.00  0.00     0.084 H 
+ATOM     41  H18 HJW d   1       6.582 -37.632  -8.223  0.00  0.00     0.085 H 
+ENDBRANCH   2  34
+TORSDOF 9

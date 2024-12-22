@@ -1,0 +1,74 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C03_3  and  C04_4 
+REMARK    4  A    between atoms: C04_4  and  C05_5 
+REMARK    5  A    between atoms: C05_5  and  C06_6 
+REMARK    6  A    between atoms: C06_6  and  C07_7 
+REMARK    7  A    between atoms: N11_11  and  C12_12 
+REMARK    8  A    between atoms: C12_12  and  C13_13 
+REMARK    9  A    between atoms: C13_13  and  P14_14 
+REMARK   10  A    between atoms: C13_13  and  P18_18 
+ROOT
+ATOM      1  C07 QAF d   1      26.649  -2.603  16.032  0.00  0.00     0.013 A 
+ATOM      2  C08 QAF d   1      26.030  -1.624  15.236  0.00  0.00    -0.066 A 
+ATOM      3  C09 QAF d   1      25.939  -0.315  15.725  0.00  0.00    -0.067 A 
+ATOM      4  C10 QAF d   1      26.457  -0.004  16.978  0.00  0.00    -0.025 A 
+ATOM      5  N11 QAF d   1      27.061  -0.996  17.726  0.00  0.00    -0.384 N 
+ATOM      6  C22 QAF d   1      27.134  -2.270  17.254  0.00  0.00     0.026 A 
+ATOM      7  H10 QAF d   1      25.628  -1.879  14.256  0.00  0.00     0.085 H 
+ATOM      8  H11 QAF d   1      25.463   0.459  15.125  0.00  0.00     0.085 H 
+ATOM      9  H12 QAF d   1      26.387   1.011  17.365  0.00  0.00     0.111 H 
+ATOM     10  H16 QAF d   1      28.201  -2.538  17.248  0.00  0.00     0.072 H 
+ATOM     11  H17 QAF d   1      26.602  -2.901  17.981  0.00  0.00     0.072 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  C06 QAF d   1      26.788  -4.010  15.578  0.00  0.00    -0.070 C 
+BRANCH  12  13
+ATOM     13  C05 QAF d   1      26.906  -5.187  15.215  0.00  0.00    -0.101 C 
+BRANCH  13  14
+ATOM     14  C04 QAF d   1      27.040  -6.613  14.753  0.00  0.00    -0.009 C 
+ATOM     15  H8  QAF d   1      28.082  -6.834  14.479  0.00  0.00     0.051 H 
+ATOM     16  H9  QAF d   1      26.713  -7.306  15.542  0.00  0.00     0.051 H 
+BRANCH  14  17
+ATOM     17  C03 QAF d   1      26.108  -6.727  13.501  0.00  0.00    -0.056 C 
+ATOM     18  H6  QAF d   1      25.110  -6.342  13.757  0.00  0.00     0.034 H 
+ATOM     19  H7  QAF d   1      26.531  -6.130  12.680  0.00  0.00     0.034 H 
+BRANCH  17  20
+ATOM     20  C02 QAF d   1      25.985  -8.181  13.052  0.00  0.00    -0.068 C 
+ATOM     21  H4  QAF d   1      26.991  -8.560  12.818  0.00  0.00     0.032 H 
+ATOM     22  H5  QAF d   1      25.556  -8.766  13.879  0.00  0.00     0.032 H 
+BRANCH  20  23
+ATOM     23  C01 QAF d   1      25.109  -8.362  11.833  0.00  0.00    -0.076 C 
+ATOM     24  H1  QAF d   1      25.066  -9.429  11.568  0.00  0.00     0.027 H 
+ATOM     25  H2  QAF d   1      25.529  -7.791  10.992  0.00  0.00     0.027 H 
+ATOM     26  H3  QAF d   1      24.095  -7.998  12.053  0.00  0.00     0.027 H 
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   5  27
+ATOM     27  C12 QAF d   1      27.600  -0.791  19.044  0.00  0.00     0.022 C 
+ATOM     28  H13 QAF d   1      28.297  -1.615  19.257  0.00  0.00     0.066 H 
+ATOM     29  H14 QAF d   1      26.766  -0.822  19.760  0.00  0.00     0.066 H 
+BRANCH  27  30
+ATOM     30  C13 QAF d   1      28.354   0.533  19.252  0.00  0.00     0.177 C 
+ATOM     31  H15 QAF d   1      27.632   1.346  19.085  0.00  0.00     0.086 H 
+BRANCH  30  32
+ATOM     32  P14 QAF d   1      28.903   0.629  20.960  0.00  0.00     0.279 P 
+ATOM     33  O15 QAF d   1      28.309  -0.434  21.746  0.00  0.00    -0.639 OA
+ATOM     34  O16 QAF d   1      28.428   1.982  21.464  0.00  0.00    -0.639 OA
+ATOM     35  O17 QAF d   1      30.370   0.484  21.140  0.00  0.00    -0.639 OA
+ENDBRANCH  30  32
+BRANCH  30  36
+ATOM     36  P18 QAF d   1      29.750   0.818  18.084  0.00  0.00     0.279 P 
+ATOM     37  O19 QAF d   1      30.327   2.106  18.659  0.00  0.00    -0.639 OA
+ATOM     38  O20 QAF d   1      30.650  -0.425  17.979  0.00  0.00    -0.639 OA
+ATOM     39  O21 QAF d   1      29.113   1.024  16.739  0.00  0.00    -0.639 OA
+ENDBRANCH  30  36
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+TORSDOF 10

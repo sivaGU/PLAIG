@@ -1,0 +1,86 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  N2_8 
+REMARK    6  A    between atoms: C5_7  and  C6_13 
+REMARK       I    between atoms: N2_8  and  C10_9 
+REMARK    7  A    between atoms: C10_9  and  C11_10 
+REMARK    8  A    between atoms: C6_13  and  O6_12 
+REMARK    9  A    between atoms: C6_13  and  C7_14 
+REMARK   10  A    between atoms: C7_14  and  O7_15 
+REMARK   11  A    between atoms: C7_14  and  C8_16 
+REMARK   12  A    between atoms: C8_16  and  O8_17 
+REMARK   13  A    between atoms: C8_16  and  C9_18 
+REMARK   14  A    between atoms: C9_18  and  O9_19 
+ROOT
+ATOM      1  C5  NAV d   1       9.818  12.130  38.289  0.00  0.00     0.097 C 
+ATOM      2  H5  NAV d   1      10.430  11.659  39.073  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C4  NAV d   1       8.845  13.117  38.957  0.00  0.00     0.152 C 
+ATOM      4  O4  NAV d   1       8.430  14.141  38.373  0.00  0.00    -0.296 OA
+BRANCH   3   5
+ATOM      5  C3  NAV d   1       8.370  12.743  40.313  0.00  0.00     0.001 C 
+ATOM      6  H3  NAV d   1       8.071  11.694  40.170  0.00  0.00     0.045 H 
+ATOM      7  H4  NAV d   1       9.299  12.782  40.900  0.00  0.00     0.045 H 
+BRANCH   5   8
+ATOM      8  C2  NAV d   1       7.348  13.228  41.310  0.00  0.00     0.022 C 
+ATOM      9  H1  NAV d   1       7.578  14.266  41.591  0.00  0.00     0.049 H 
+ATOM     10  H2  NAV d   1       6.347  13.185  40.856  0.00  0.00     0.049 H 
+BRANCH   8  11
+ATOM     11  C1  NAV d   1       7.373  12.405  42.478  0.00  0.00     0.172 C 
+ATOM     12  O1A NAV d   1       6.306  12.078  43.044  0.00  0.00    -0.648 OA
+ATOM     13  O1B NAV d   1       8.490  11.985  42.852  0.00  0.00    -0.648 OA
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  14
+ATOM     14  N2  NAV d   1       9.027  11.071  37.620  0.00  0.00    -0.347 N 
+ATOM     15  C10 NAV d   1       9.545   9.835  37.280  0.00  0.00     0.214 C 
+ATOM     16  O10 NAV d   1      10.700   9.452  37.656  0.00  0.00    -0.274 OA
+ATOM     17  H6  NAV d   1       8.069  11.260  37.403  0.00  0.00     0.163 HD
+BRANCH  15  18
+ATOM     18  C11 NAV d   1       8.739   8.890  36.420  0.00  0.00    -0.003 C 
+ATOM     19  H7  NAV d   1       9.311   7.965  36.257  0.00  0.00     0.040 H 
+ATOM     20  H8  NAV d   1       8.528   9.366  35.451  0.00  0.00     0.040 H 
+ATOM     21  H9  NAV d   1       7.792   8.652  36.926  0.00  0.00     0.040 H 
+ENDBRANCH  15  18
+ENDBRANCH   1  14
+BRANCH   1  22
+ATOM     22  C6  NAV d   1      10.780  12.859  37.316  0.00  0.00     0.089 C 
+ATOM     23  H11 NAV d   1      10.228  13.298  36.472  0.00  0.00     0.090 H 
+BRANCH  22  24
+ATOM     24  O6  NAV d   1      11.461  13.877  38.098  0.00  0.00    -0.390 OA
+ATOM     25  H10 NAV d   1      12.065  14.352  37.540  0.00  0.00     0.210 HD
+ENDBRANCH  22  24
+BRANCH  22  26
+ATOM     26  C7  NAV d   1      11.874  11.873  36.811  0.00  0.00     0.089 C 
+ATOM     27  H12 NAV d   1      11.399  11.104  36.183  0.00  0.00     0.091 H 
+BRANCH  26  28
+ATOM     28  O7  NAV d   1      12.486  11.210  37.954  0.00  0.00    -0.390 OA
+ATOM     29  H13 NAV d   1      12.881  11.861  38.522  0.00  0.00     0.210 HD
+ENDBRANCH  26  28
+BRANCH  26  30
+ATOM     30  C8  NAV d   1      12.895  12.648  35.936  0.00  0.00     0.083 C 
+ATOM     31  H14 NAV d   1      13.507  13.276  36.600  0.00  0.00     0.090 H 
+BRANCH  30  32
+ATOM     32  O8  NAV d   1      12.173  13.506  35.005  0.00  0.00    -0.391 OA
+ATOM     33  H15 NAV d   1      12.795  13.982  34.468  0.00  0.00     0.210 HD
+ENDBRANCH  30  32
+BRANCH  30  34
+ATOM     34  C9  NAV d   1      13.836  11.734  35.143  0.00  0.00     0.043 C 
+ATOM     35  H16 NAV d   1      14.274  10.982  35.815  0.00  0.00     0.078 H 
+ATOM     36  H17 NAV d   1      14.639  12.334  34.691  0.00  0.00     0.078 H 
+BRANCH  34  37
+ATOM     37  O9  NAV d   1      13.077  11.073  34.102  0.00  0.00    -0.398 OA
+ATOM     38  H18 NAV d   1      12.699  11.726  33.524  0.00  0.00     0.209 HD
+ENDBRANCH  34  37
+ENDBRANCH  30  34
+ENDBRANCH  26  30
+ENDBRANCH  22  26
+ENDBRANCH   1  22
+TORSDOF 14

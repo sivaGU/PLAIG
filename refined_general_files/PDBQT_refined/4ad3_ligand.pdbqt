@@ -1,0 +1,84 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_15  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_11 
+REMARK    7  A    between atoms: C4_12  and  O4_13 
+REMARK    8  A    between atoms: C3_14  and  O3_15 
+REMARK    9  A    between atoms: C2_16  and  O2_17 
+REMARK   10  A    between atoms: C5_20  and  C6_21 
+REMARK   11  A    between atoms: C6_21  and  O6_22 
+ROOT
+ATOM      1  H12 GLC d   1     -47.250  68.587 -14.574  0.00  0.00     0.090 H 
+ATOM      2  H14 GLC d   1     -48.074  71.515 -14.910  0.00  0.00     0.091 H 
+ATOM      3  H15 GLC d   1     -46.002  72.052 -13.643  0.00  0.00     0.089 H 
+ATOM      4  H17 GLC d   1     -48.160  71.836 -12.379  0.00  0.00     0.079 H 
+ATOM      5  H18 GLC d   1     -46.778  71.263 -11.385  0.00  0.00     0.079 H 
+ATOM      6  H19 GLC d   1     -48.527  69.709 -11.379  0.00  0.00     0.277 HD
+ATOM      7  H20 GLC d   1     -47.221  69.080 -12.160  0.00  0.00     0.277 HD
+ATOM      8  H21 GLC d   1     -49.634  70.098 -13.444  0.00  0.00     0.091 H 
+ATOM      9  C4  DMJ d   1     -48.015  69.375 -14.635  0.00  0.00     0.092 C 
+ATOM     10  C3  DMJ d   1     -47.311  70.734 -14.777  0.00  0.00     0.094 C 
+ATOM     11  C2  DMJ d   1     -46.488  71.073 -13.521  0.00  0.00     0.086 C 
+ATOM     12  C1  DMJ d   1     -47.377  71.069 -12.287  0.00  0.00     0.108 C 
+ATOM     13  N5  DMJ d   1     -47.972  69.750 -12.220  0.00  0.00    -0.064 N 
+ATOM     14  C5  DMJ d   1     -48.834  69.351 -13.340  0.00  0.00     0.149 C 
+ENDROOT
+BRANCH  10  15
+ATOM     15  O3  DMJ d   1     -46.476  70.700 -15.946  0.00  0.00    -0.348 OA
+BRANCH  15  16
+ATOM     16  C1  GLC d   1     -46.317  72.034 -16.471  0.00  0.00     0.159 C 
+ATOM     17  C2  GLC d   1     -45.805  71.881 -17.913  0.00  0.00     0.110 C 
+ATOM     18  C3  GLC d   1     -44.382  71.338 -17.894  0.00  0.00     0.092 C 
+ATOM     19  H2  GLC d   1     -45.830  72.856 -18.421  0.00  0.00     0.094 H 
+ATOM     20  C4  GLC d   1     -43.471  72.222 -17.050  0.00  0.00     0.090 C 
+ATOM     21  H3  GLC d   1     -44.396  70.327 -17.462  0.00  0.00     0.091 H 
+ATOM     22  C5  GLC d   1     -44.063  72.352 -15.650  0.00  0.00     0.089 C 
+ATOM     23  H4  GLC d   1     -43.378  73.218 -17.506  0.00  0.00     0.091 H 
+ATOM     24  O5  GLC d   1     -45.398  72.852 -15.754  0.00  0.00    -0.348 OA
+ATOM     25  H5  GLC d   1     -44.097  71.354 -15.188  0.00  0.00     0.090 H 
+ATOM     26  H1  GLC d   1     -47.298  72.532 -16.471  0.00  0.00     0.133 H 
+BRANCH  17  27
+ATOM     27  O2  GLC d   1     -46.608  70.958 -18.604  0.00  0.00    -0.388 OA
+ATOM     28  H8  GLC d   1     -47.503  71.275 -18.629  0.00  0.00     0.210 HD
+ENDBRANCH  17  27
+BRANCH  18  29
+ATOM     29  O3  GLC d   1     -43.877  71.270 -19.202  0.00  0.00    -0.390 OA
+ATOM     30  H9  GLC d   1     -43.846  72.144 -19.574  0.00  0.00     0.210 HD
+ENDBRANCH  18  29
+BRANCH  20  31
+ATOM     31  O4  GLC d   1     -42.208  71.599 -16.994  0.00  0.00    -0.390 OA
+ATOM     32  H10 GLC d   1     -41.623  72.120 -16.457  0.00  0.00     0.210 HD
+ENDBRANCH  20  31
+BRANCH  22  33
+ATOM     33  C6  GLC d   1     -43.198  73.255 -14.771  0.00  0.00     0.043 C 
+ATOM     34  H6  GLC d   1     -43.177  74.264 -15.207  0.00  0.00     0.078 H 
+ATOM     35  H7  GLC d   1     -42.176  72.849 -14.737  0.00  0.00     0.078 H 
+BRANCH  33  36
+ATOM     36  O6  GLC d   1     -43.704  73.335 -13.454  0.00  0.00    -0.398 OA
+ATOM     37  H11 GLC d   1     -43.721  72.467 -13.069  0.00  0.00     0.209 HD
+ENDBRANCH  33  36
+ENDBRANCH  22  33
+ENDBRANCH  15  16
+ENDBRANCH  10  15
+BRANCH   9  38
+ATOM     38  O4  DMJ d   1     -48.836  69.119 -15.797  0.00  0.00    -0.391 OA
+ATOM     39  H13 GLC d   1     -49.267  68.278 -15.700  0.00  0.00     0.210 HD
+ENDBRANCH   9  38
+BRANCH  11  40
+ATOM     40  O2  DMJ d   1     -45.510  70.039 -13.311  0.00  0.00    -0.391 OA
+ATOM     41  H16 GLC d   1     -44.998  70.242 -12.537  0.00  0.00     0.210 HD
+ENDBRANCH  11  40
+BRANCH  14  42
+ATOM     42  C6  DMJ d   1     -49.500  68.019 -13.033  0.00  0.00     0.046 C 
+ATOM     43  H22 GLC d   1     -50.161  67.743 -13.868  0.00  0.00     0.077 H 
+ATOM     44  H23 GLC d   1     -50.093  68.114 -12.111  0.00  0.00     0.077 H 
+BRANCH  42  45
+ATOM     45  O6  DMJ d   1     -48.509  66.993 -12.855  0.00  0.00    -0.399 OA
+ATOM     46  H24 GLC d   1     -47.938  67.228 -12.133  0.00  0.00     0.209 HD
+ENDBRANCH  42  45
+ENDBRANCH  14  42
+TORSDOF 11

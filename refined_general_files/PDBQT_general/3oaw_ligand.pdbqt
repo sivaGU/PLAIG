@@ -1,0 +1,59 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N7_7 
+REMARK    2  A    between atoms: C6_6  and  C9_9 
+REMARK    3  A    between atoms: N10_10  and  C8_8 
+REMARK    4  A    between atoms: C8_8  and  C16_16 
+REMARK    5  A    between atoms: C8_8  and  C17_17 
+REMARK    6  A    between atoms: C12_12  and  C15_15 
+ROOT
+ATOM      1  N1  OAW d   1      47.344  13.085  28.405  0.00  0.00    -0.066 NA
+ATOM      2  C2  OAW d   1      47.952  14.105  29.009  0.00  0.00     0.722 A 
+ATOM      3  N3  OAW d   1      47.311  14.865  29.882  0.00  0.00    -0.043 NA
+ATOM      4  C4  OAW d   1      46.013  14.698  30.142  0.00  0.00     0.183 A 
+ATOM      5  C5  OAW d   1      45.333  13.621  29.518  0.00  0.00     0.129 A 
+ATOM      6  C6  OAW d   1      46.059  12.824  28.611  0.00  0.00     0.082 A 
+ATOM      7  N10 OAW d   1      45.341  15.535  31.023  0.00  0.00    -0.290 N 
+ATOM      8  C11 OAW d   1      44.021  15.255  31.317  0.00  0.00     0.279 A 
+ATOM      9  C12 OAW d   1      43.363  14.080  30.666  0.00  0.00     0.139 A 
+ATOM     10  N13 OAW d   1      44.041  13.358  29.800  0.00  0.00    -0.236 NA
+ATOM     11  O14 OAW d   1      43.378  15.955  32.090  0.00  0.00    -0.265 OA
+ENDROOT
+BRANCH   7  12
+ATOM     12  C8  OAW d   1      46.094  16.690  31.579  0.00  0.00     0.015 C 
+ATOM     13  H   OAW d   1      47.022  16.681  31.008  0.00  0.00     0.072 H 
+BRANCH  12  14
+ATOM     14  C16 OAW d   1      45.468  18.058  31.297  0.00  0.00    -0.057 C 
+ATOM     15  H   OAW d   1      45.404  18.212  30.220  0.00  0.00     0.030 H 
+ATOM     16  H   OAW d   1      44.468  18.095  31.730  0.00  0.00     0.030 H 
+ATOM     17  H   OAW d   1      46.087  18.838  31.741  0.00  0.00     0.030 H 
+ENDBRANCH  12  14
+BRANCH  12  18
+ATOM     18  C17 OAW d   1      46.503  16.521  33.044  0.00  0.00    -0.057 C 
+ATOM     19  H   OAW d   1      45.611  16.394  33.657  0.00  0.00     0.030 H 
+ATOM     20  H   OAW d   1      47.141  15.643  33.143  0.00  0.00     0.030 H 
+ATOM     21  H   OAW d   1      47.047  17.406  33.372  0.00  0.00     0.030 H 
+ENDBRANCH  12  18
+ENDBRANCH   7  12
+BRANCH   9  22
+ATOM     22  C15 OAW d   1      41.945  13.694  30.933  0.00  0.00     0.034 A 
+ATOM     23  C18 OAW d   1      41.228  12.768  30.210  0.00  0.00     0.035 A 
+ATOM     24  N19 OAW d   1      40.003  12.708  30.754  0.00  0.00    -0.187 NA
+ATOM     25  H   OAW d   1      41.587  12.192  29.357  0.00  0.00     0.118 H 
+ATOM     26  N20 OAW d   1      39.932  13.600  31.837  0.00  0.00    -0.289 N 
+ATOM     27  C21 OAW d   1      41.086  14.177  31.959  0.00  0.00     0.009 A 
+ATOM     28  H   OAW d   1      39.115  13.765  32.425  0.00  0.00     0.188 HD
+ATOM     29  H   OAW d   1      41.354  14.910  32.720  0.00  0.00     0.115 H 
+ENDBRANCH   9  22
+BRANCH   2  30
+ATOM     30  N7  OAW d   1      49.279  14.373  28.729  0.00  0.00    -0.231 N 
+ATOM     31  H   OAW d   1      49.787  13.791  28.063  0.00  0.00     0.174 HD
+ATOM     32  H   OAW d   1      49.750  15.153  29.188  0.00  0.00     0.174 HD
+ENDBRANCH   2  30
+BRANCH   6  33
+ATOM     33  C9  OAW d   1      45.401  11.685  27.885  0.00  0.00    -0.033 C 
+ATOM     34  H   OAW d   1      45.022  10.965  28.610  0.00  0.00     0.035 H 
+ATOM     35  H   OAW d   1      44.576  12.067  27.284  0.00  0.00     0.035 H 
+ATOM     36  H   OAW d   1      46.130  11.200  27.236  0.00  0.00     0.035 H 
+ENDBRANCH   6  33
+TORSDOF 6

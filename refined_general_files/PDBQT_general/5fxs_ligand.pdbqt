@@ -1,0 +1,103 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C25_6  and  C27_3 
+REMARK    2  A    between atoms: C3_4  and  N20_33 
+REMARK    3  A    between atoms: C2_8  and  C1_21 
+REMARK    4  A    between atoms: C4_9  and  C19_22 
+REMARK    5  A    between atoms: N20_33  and  C21_10 
+REMARK    6  A    between atoms: C13_25  and  C14_15 
+REMARK       I    between atoms: C14_15  and  N16_34 
+REMARK    7  A    between atoms: C7_20  and  N5_31 
+REMARK    8  A    between atoms: N16_34  and  C17_23 
+REMARK    9  A    between atoms: N16_34  and  C18_24 
+REMARK   10  A    between atoms: C13_25  and  N10_32 
+ROOT
+ATOM      1  C3  OZN d   1      10.267  -2.566  53.477  0.00  0.00     0.099 A 
+ATOM      2  C2  OZN d   1      10.518  -2.865  52.099  0.00  0.00     0.080 A 
+ATOM      3  C4  OZN d   1       9.108  -3.169  53.767  0.00  0.00     0.056 A 
+ATOM      4  N6  OZN d   1       9.531  -3.621  51.613  0.00  0.00    -0.175 NA
+ATOM      5  N5  OZN d   1       8.671  -3.812  52.678  0.00  0.00    -0.267 N 
+ENDROOT
+BRANCH   5   6
+ATOM      6  C7  OZN d   1       7.390  -4.504  52.506  0.00  0.00     0.038 C 
+ATOM      7  C8  OZN d   1       6.321  -3.640  51.966  0.00  0.00    -0.021 C 
+ATOM      8  C9  OZN d   1       4.999  -4.319  52.123  0.00  0.00     0.086 C 
+ATOM      9  H7  OZN d   1       6.310  -2.686  52.514  0.00  0.00     0.038 H 
+ATOM     10  H8  OZN d   1       6.509  -3.448  50.899  0.00  0.00     0.038 H 
+ATOM     11  N10 OZN d   1       4.948  -5.636  51.416  0.00  0.00    -0.063 N 
+ATOM     12  H11 OZN d   1       4.215  -3.666  51.711  0.00  0.00     0.076 H 
+ATOM     13  H12 OZN d   1       4.812  -4.486  53.194  0.00  0.00     0.076 H 
+ATOM     14  C11 OZN d   1       6.148  -6.461  51.796  0.00  0.00     0.086 C 
+ATOM     15  H30 OZN d   1       4.125  -6.126  51.730  0.00  0.00     0.280 HD
+ATOM     16  C12 OZN d   1       7.444  -5.725  51.685  0.00  0.00    -0.021 C 
+ATOM     17  H13 OZN d   1       6.025  -6.793  52.838  0.00  0.00     0.076 H 
+ATOM     18  H14 OZN d   1       6.189  -7.339  51.134  0.00  0.00     0.076 H 
+ATOM     19  H9  OZN d   1       7.621  -5.452  50.634  0.00  0.00     0.038 H 
+ATOM     20  H10 OZN d   1       8.262  -6.369  52.040  0.00  0.00     0.038 H 
+ATOM     21  H15 OZN d   1       7.079  -4.812  53.515  0.00  0.00     0.076 H 
+BRANCH  11  22
+ATOM     22  C13 OZN d   1       4.830  -5.463  49.968  0.00  0.00     0.156 C 
+ATOM     23  H28 OZN d   1       5.226  -4.476  49.689  0.00  0.00     0.090 H 
+ATOM     24  H29 OZN d   1       5.411  -6.248  49.462  0.00  0.00     0.090 H 
+BRANCH  22  25
+ATOM     25  C14 OZN d   1       3.375  -5.559  49.533  0.00  0.00     0.245 C 
+ATOM     26  N16 OZN d   1       2.610  -6.418  50.227  0.00  0.00    -0.359 N 
+ATOM     27  O15 OZN d   1       2.907  -4.901  48.619  0.00  0.00    -0.272 OA
+BRANCH  26  28
+ATOM     28  C17 OZN d   1       3.172  -7.182  51.303  0.00  0.00    -0.017 C 
+ATOM     29  H22 OZN d   1       2.394  -7.822  51.744  0.00  0.00     0.056 H 
+ATOM     30  H23 OZN d   1       3.564  -6.500  52.072  0.00  0.00     0.056 H 
+ATOM     31  H24 OZN d   1       3.989  -7.810  50.919  0.00  0.00     0.056 H 
+ENDBRANCH  26  28
+BRANCH  26  32
+ATOM     32  C18 OZN d   1       1.221  -6.576  49.890  0.00  0.00    -0.017 C 
+ATOM     33  H25 OZN d   1       0.971  -5.915  49.047  0.00  0.00     0.056 H 
+ATOM     34  H26 OZN d   1       0.601  -6.312  50.759  0.00  0.00     0.056 H 
+ATOM     35  H27 OZN d   1       1.029  -7.621  49.606  0.00  0.00     0.056 H 
+ENDBRANCH  26  32
+ENDBRANCH  22  25
+ENDBRANCH  11  22
+ENDBRANCH   5   6
+BRANCH   3  36
+ATOM     36  C19 OZN d   1       8.276  -3.054  55.010  0.00  0.00    -0.034 C 
+ATOM     37  H19 OZN d   1       8.832  -2.488  55.772  0.00  0.00     0.035 H 
+ATOM     38  H20 OZN d   1       8.049  -4.060  55.394  0.00  0.00     0.035 H 
+ATOM     39  H21 OZN d   1       7.338  -2.530  54.776  0.00  0.00     0.035 H 
+ENDBRANCH   3  36
+BRANCH   1  40
+ATOM     40  N20 OZN d   1      11.046  -1.829  54.284  0.00  0.00    -0.184 N 
+ATOM     41  H31 OZN d   1      10.592  -1.087  54.835  0.00  0.00     0.184 HD
+BRANCH  40  42
+ATOM     42  C21 OZN d   1      12.395  -1.987  54.431  0.00  0.00     0.727 A 
+ATOM     43  N22 OZN d   1      12.964  -1.088  55.237  0.00  0.00    -0.073 NA
+ATOM     44  C23 OZN d   1      14.275  -1.227  55.372  0.00  0.00     0.044 A 
+ATOM     45  C24 OZN d   1      14.985  -2.205  54.728  0.00  0.00     0.082 A 
+ATOM     46  H2  OZN d   1      14.807  -0.538  56.019  0.00  0.00     0.118 H 
+ATOM     47  C25 OZN d   1      14.301  -3.090  53.924  0.00  0.00     0.113 A 
+ATOM     48 CL36 OZN d   1      16.683  -2.267  54.959  0.00  0.00    -0.080 Cl
+ATOM     49  N26 OZN d   1      12.992  -2.982  53.770  0.00  0.00    -0.060 NA
+BRANCH  47  50
+ATOM     50  C27 OZN d   1      14.933  -4.159  53.177  0.00  0.00     0.043 A 
+ATOM     51  C28 OZN d   1      16.279  -4.386  52.821  0.00  0.00     0.037 A 
+ATOM     52  N29 OZN d   1      16.443  -5.459  52.079  0.00  0.00    -0.179 NA
+ATOM     53  H1  OZN d   1      17.099  -3.739  53.129  0.00  0.00     0.118 H 
+ATOM     54  N30 OZN d   1      15.192  -5.989  51.913  0.00  0.00    -0.244 N 
+ATOM     55  C31 OZN d   1      14.255  -5.193  52.580  0.00  0.00     0.072 A 
+ATOM     56  C35 OZN d   1      14.811  -7.095  51.217  0.00  0.00     0.004 A 
+ATOM     57  C32 OZN d   1      12.914  -5.588  52.515  0.00  0.00    -0.054 A 
+ATOM     58  C33 OZN d   1      12.549  -6.707  51.816  0.00  0.00    -0.079 A 
+ATOM     59  H3  OZN d   1      12.153  -4.999  53.026  0.00  0.00     0.087 H 
+ATOM     60  C34 OZN d   1      13.488  -7.466  51.160  0.00  0.00    -0.066 A 
+ATOM     61  H4  OZN d   1      11.501  -7.000  51.779  0.00  0.00     0.083 H 
+ATOM     62  H5  OZN d   1      13.188  -8.351  50.601  0.00  0.00     0.085 H 
+ATOM     63  H6  OZN d   1      15.561  -7.692  50.700  0.00  0.00     0.114 H 
+ENDBRANCH  47  50
+ENDBRANCH  40  42
+ENDBRANCH   1  40
+BRANCH   2  64
+ATOM     64  C1  OZN d   1      11.638  -2.463  51.194  0.00  0.00    -0.032 C 
+ATOM     65  H16 OZN d   1      11.476  -2.895  50.196  0.00  0.00     0.035 H 
+ATOM     66  H17 OZN d   1      12.590  -2.832  51.603  0.00  0.00     0.035 H 
+ATOM     67  H18 OZN d   1      11.672  -1.366  51.118  0.00  0.00     0.035 H 
+ENDBRANCH   2  64
+TORSDOF 10

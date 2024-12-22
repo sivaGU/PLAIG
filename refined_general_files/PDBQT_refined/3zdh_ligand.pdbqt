@@ -1,0 +1,66 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  O14_6 
+REMARK    2  A    between atoms: N12_5  and  C7_14 
+REMARK    3  A    between atoms: O14_6  and  C6_7 
+REMARK    4  A    between atoms: C6_7  and  C5_8 
+REMARK    5  A    between atoms: C5_8  and  C4_9 
+REMARK    6  A    between atoms: C4_9  and  N11_10 
+REMARK    7  A    between atoms: C4_9  and  C3_11 
+REMARK    8  A    between atoms: N11_10  and  C2_12 
+REMARK    9  A    between atoms: N11_10  and  C1_13 
+ROOT
+ATOM      1  C5  XRS d   1      55.398  -4.508 -56.980  0.00  0.00    -0.018 C 
+ATOM      2  H5  XRS d   1      55.396  -3.413 -57.087  0.00  0.00     0.039 H 
+ATOM      3  H6  XRS d   1      54.818  -4.958 -57.799  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C6  XRS d   1      54.682  -4.850 -55.657  0.00  0.00     0.031 C 
+ATOM      5  H3  XRS d   1      53.620  -4.576 -55.738  0.00  0.00     0.075 H 
+ATOM      6  H4  XRS d   1      54.769  -5.930 -55.466  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  O14 XRS d   1      55.270  -4.134 -54.580  0.00  0.00    -0.320 OA
+BRANCH   7   8
+ATOM      8  C10 XRS d   1      54.530  -4.071 -53.457  0.00  0.00     0.247 A 
+ATOM      9  N13 XRS d   1      53.355  -4.640 -53.206  0.00  0.00    -0.220 NA
+ATOM     10  C9  XRS d   1      53.042  -4.255 -51.918  0.00  0.00     0.021 A 
+ATOM     11  C8  XRS d   1      54.057  -3.462 -51.438  0.00  0.00    -0.000 A 
+ATOM     12  H1  XRS d   1      52.141  -4.533 -51.373  0.00  0.00     0.117 H 
+ATOM     13  N12 XRS d   1      54.998  -3.353 -52.444  0.00  0.00    -0.325 N 
+ATOM     14  H2  XRS d   1      54.110  -3.006 -50.451  0.00  0.00     0.114 H 
+BRANCH  13  15
+ATOM     15  C7  XRS d   1      56.246  -2.618 -52.396  0.00  0.00    -0.011 C 
+ATOM     16  H18 XRS d   1      56.773  -2.727 -53.356  0.00  0.00     0.057 H 
+ATOM     17  H19 XRS d   1      56.875  -3.016 -51.586  0.00  0.00     0.057 H 
+ATOM     18  H20 XRS d   1      56.038  -1.554 -52.210  0.00  0.00     0.057 H 
+ENDBRANCH  13  15
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  C4  XRS d   1      56.864  -4.991 -57.122  0.00  0.00     0.101 C 
+ATOM     20  H7  XRS d   1      56.852  -6.091 -57.094  0.00  0.00     0.084 H 
+BRANCH  19  21
+ATOM     21  N11 XRS d   1      57.732  -4.538 -55.985  0.00  0.00    -0.075 N 
+ATOM     22  H8  XRS d   1      57.226  -4.817 -55.159  0.00  0.00     0.279 HD
+BRANCH  21  23
+ATOM     23  C2  XRS d   1      57.892  -3.065 -55.848  0.00  0.00     0.066 C 
+ATOM     24  H12 XRS d   1      58.543  -2.845 -54.989  0.00  0.00     0.068 H 
+ATOM     25  H13 XRS d   1      56.907  -2.602 -55.689  0.00  0.00     0.068 H 
+ATOM     26  H14 XRS d   1      58.345  -2.659 -56.764  0.00  0.00     0.068 H 
+ENDBRANCH  21  23
+BRANCH  21  27
+ATOM     27  C1  XRS d   1      59.030  -5.254 -55.899  0.00  0.00     0.066 C 
+ATOM     28  H15 XRS d   1      58.860  -6.335 -56.005  0.00  0.00     0.068 H 
+ATOM     29  H16 XRS d   1      59.497  -5.051 -54.924  0.00  0.00     0.068 H 
+ATOM     30  H17 XRS d   1      59.694  -4.907 -56.704  0.00  0.00     0.068 H 
+ENDBRANCH  21  27
+ENDBRANCH  19  21
+BRANCH  19  31
+ATOM     31  C3  XRS d   1      57.416  -4.571 -58.503  0.00  0.00    -0.049 C 
+ATOM     32  H9  XRS d   1      56.740  -4.930 -59.293  0.00  0.00     0.030 H 
+ATOM     33  H10 XRS d   1      58.414  -5.010 -58.648  0.00  0.00     0.030 H 
+ATOM     34  H11 XRS d   1      57.487  -3.474 -58.551  0.00  0.00     0.030 H 
+ENDBRANCH  19  31
+ENDBRANCH   1  19
+TORSDOF 9

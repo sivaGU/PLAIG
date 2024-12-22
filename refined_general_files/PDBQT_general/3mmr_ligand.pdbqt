@@ -1,0 +1,59 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+REMARK    5  A    between atoms: CG_7  and  CD_8 
+REMARK    6  A    between atoms: CD_8  and  CE_9 
+REMARK    7  A    between atoms: CE_9  and  B_10 
+REMARK    8  A    between atoms: B_10  and  O1_12 
+REMARK    9  A    between atoms: B_10  and  O3_13 
+ROOT
+ATOM      1  CG  ABH d   1      38.005 -16.084  24.033  0.00  0.00    -0.063 C 
+ATOM      2  H   ABH d   1      37.596 -15.338  24.715  0.00  0.00     0.033 H 
+ATOM      3  H   ABH d   1      37.867 -15.968  22.958  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CB  ABH d   1      37.260 -17.372  24.380  0.00  0.00    -0.029 C 
+ATOM      5  H   ABH d   1      37.786 -18.168  23.853  0.00  0.00     0.036 H 
+ATOM      6  H   ABH d   1      37.244 -17.420  25.469  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  CA  ABH d   1      35.797 -17.477  23.938  0.00  0.00     0.182 C 
+ATOM      8  H   ABH d   1      35.400 -18.326  24.494  0.00  0.00     0.101 H 
+BRANCH   7   9
+ATOM      9  N   ABH d   1      35.653 -17.783  22.518  0.00  0.00    -0.065 N 
+ATOM     10  H   ABH d   1      34.662 -17.840  22.283  0.00  0.00     0.275 HD
+ATOM     11  H   ABH d   1      36.093 -17.046  21.966  0.00  0.00     0.275 HD
+ATOM     12  H   ABH d   1      36.104 -18.675  22.316  0.00  0.00     0.275 HD
+ENDBRANCH   7   9
+BRANCH   7  13
+ATOM     13  C   ABH d   1      34.955 -16.266  24.330  0.00  0.00     0.204 C 
+ATOM     14  O   ABH d   1      34.800 -15.953  25.466  0.00  0.00    -0.646 OA
+ATOM     15  OT  ABH d   1      34.374 -15.514  23.307  0.00  0.00    -0.646 OA
+ENDBRANCH   7  13
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  CD  ABH d   1      39.518 -16.004  24.237  0.00  0.00    -0.065 C 
+ATOM     17  H   ABH d   1      39.958 -16.703  23.526  0.00  0.00     0.032 H 
+ATOM     18  H   ABH d   1      39.695 -16.216  25.292  0.00  0.00     0.032 H 
+BRANCH  16  19
+ATOM     19  CE  ABH d   1      40.169 -14.640  23.958  0.00  0.00    -0.001 C 
+ATOM     20  H   ABH d   1      40.067 -14.089  24.893  0.00  0.00     0.034 H 
+ATOM     21  H   ABH d   1      39.669 -14.274  23.061  0.00  0.00     0.034 H 
+BRANCH  19  22
+ATOM     22  B   ABH d   1      41.736 -14.565  23.610  0.00  0.00     0.631 B 
+ATOM     23  O2  ABH d   1      42.240 -13.167  23.522  0.00  0.00    -0.254 OA
+BRANCH  22  24
+ATOM     24  O1  ABH d   1      41.970 -15.214  22.328  0.00  0.00    -0.408 OA
+ATOM     25  H   ABH d   1      41.501 -14.738  21.639  0.00  0.00     0.188 HD
+ENDBRANCH  22  24
+BRANCH  22  26
+ATOM     26  O3  ABH d   1      42.465 -15.318  24.631  0.00  0.00    -0.408 OA
+ATOM     27  H   ABH d   1      43.402 -15.315  24.421  0.00  0.00     0.188 HD
+ENDBRANCH  22  26
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 9

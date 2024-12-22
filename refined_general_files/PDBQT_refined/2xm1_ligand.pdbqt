@@ -1,0 +1,53 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_2  and  C8_3 
+REMARK       I    between atoms: C7_2  and  N2_4 
+REMARK    2  A    between atoms: N2_4  and  C2_5 
+REMARK    3  A    between atoms: C3_6  and  O3_7 
+REMARK    4  A    between atoms: C4_8  and  O4_9 
+REMARK    5  A    between atoms: C5_10  and  C6_11 
+REMARK    6  A    between atoms: C6_11  and  O6_12 
+ROOT
+ATOM      1  C2  LTM d   1       7.766 -11.639   3.753  0.00  0.00     0.116 C 
+ATOM      2  C3  LTM d   1       7.482 -10.563   2.711  0.00  0.00     0.090 C 
+ATOM      3  C4  LTM d   1       6.622 -11.153   1.587  0.00  0.00     0.084 C 
+ATOM      4  C5  LTM d   1       5.283 -11.534   2.213  0.00  0.00     0.059 C 
+ATOM      5  N5  LTM d   1       5.538 -12.706   3.085  0.00  0.00    -0.350 N 
+ATOM      6  C1  LTM d   1       6.657 -12.663   3.882  0.00  0.00     0.243 C 
+ATOM      7  O1  LTM d   1       6.753 -13.527   4.749  0.00  0.00    -0.271 OA
+ATOM      8  H5  LTM d   1       8.652 -12.187   3.401  0.00  0.00     0.091 H 
+ATOM      9  H6  LTM d   1       6.958  -9.708   3.163  0.00  0.00     0.091 H 
+ATOM     10  H8  LTM d   1       7.107 -12.048   1.169  0.00  0.00     0.090 H 
+ATOM     11  H10 LTM d   1       4.900 -10.685   2.798  0.00  0.00     0.080 H 
+ATOM     12  H14 LTM d   1       4.922 -13.494   3.093  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  N2  LTM d   1       8.128 -11.039   5.069  0.00  0.00    -0.346 N 
+ATOM     14  C7  LTM d   1       7.115 -10.468   5.832  0.00  0.00     0.214 C 
+ATOM     15  O7  LTM d   1       5.942 -10.473   5.493  0.00  0.00    -0.274 OA
+ATOM     16  H4  LTM d   1       9.074 -11.047   5.394  0.00  0.00     0.163 HD
+BRANCH  14  17
+ATOM     17  C8  LTM d   1       7.516  -9.827   7.127  0.00  0.00    -0.003 C 
+ATOM     18  H1  LTM d   1       8.604  -9.920   7.261  0.00  0.00     0.040 H 
+ATOM     19  H2  LTM d   1       7.000 -10.328   7.959  0.00  0.00     0.040 H 
+ATOM     20  H3  LTM d   1       7.239  -8.763   7.111  0.00  0.00     0.040 H 
+ENDBRANCH  14  17
+ENDBRANCH   1  13
+BRANCH   2  21
+ATOM     21  O3  LTM d   1       8.777 -10.162   2.235  0.00  0.00    -0.390 OA
+ATOM     22  H7  LTM d   1       8.675  -9.486   1.575  0.00  0.00     0.210 HD
+ENDBRANCH   2  21
+BRANCH   3  23
+ATOM     23  O4  LTM d   1       6.450 -10.183   0.550  0.00  0.00    -0.391 OA
+ATOM     24  H9  LTM d   1       5.917 -10.553  -0.143  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+BRANCH   4  25
+ATOM     25  C6  LTM d   1       4.226 -11.973   1.205  0.00  0.00     0.038 C 
+ATOM     26  H11 LTM d   1       3.986 -11.148   0.518  0.00  0.00     0.077 H 
+ATOM     27  H12 LTM d   1       3.312 -12.295   1.725  0.00  0.00     0.077 H 
+BRANCH  25  28
+ATOM     28  O6  LTM d   1       4.806 -13.080   0.477  0.00  0.00    -0.399 OA
+ATOM     29  H13 LTM d   1       5.016 -13.781   1.083  0.00  0.00     0.209 HD
+ENDBRANCH  25  28
+ENDBRANCH   4  25
+TORSDOF 6

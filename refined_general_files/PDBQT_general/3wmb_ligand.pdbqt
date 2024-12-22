@@ -1,0 +1,76 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAN_1  and  CAM_2 
+REMARK    2  A    between atoms: CAK_13  and  OAO_14 
+REMARK    3  A    between atoms: NAL_15  and  CAP_16 
+REMARK    4  A    between atoms: CAP_16  and  CAQ_17 
+REMARK    5  A    between atoms: CAQ_17  and  NAR_18 
+REMARK    6  A    between atoms: NAR_18  and  CAS_19 
+REMARK    7  A    between atoms: CAS_19  and  CAT_20 
+REMARK    8  A    between atoms: CAW_24  and  CAY_25 
+ROOT
+ATOM      1  CAM NF1 d   1      33.368   2.280  14.138  0.00  0.00     0.222 A 
+ATOM      2  CAE NF1 d   1      33.555   3.548  14.918  0.00  0.00     0.009 A 
+ATOM      3  CAD NF1 d   1      34.835   4.176  14.867  0.00  0.00    -0.005 A 
+ATOM      4  CAF NF1 d   1      32.491   4.142  15.720  0.00  0.00    -0.072 A 
+ATOM      5  CAA NF1 d   1      32.731   5.344  16.442  0.00  0.00    -0.082 A 
+ATOM      6  CAB NF1 d   1      34.002   5.968  16.387  0.00  0.00    -0.072 A 
+ATOM      7  CAC NF1 d   1      35.071   5.369  15.583  0.00  0.00    -0.025 A 
+ATOM      8  CAG NF1 d   1      36.391   6.013  15.520  0.00  0.00    -0.072 A 
+ATOM      9  CAH NF1 d   1      37.427   5.422  14.738  0.00  0.00    -0.082 A 
+ATOM     10  CAI NF1 d   1      37.194   4.215  14.014  0.00  0.00    -0.072 A 
+ATOM     11  CAJ NF1 d   1      35.883   3.575  14.073  0.00  0.00     0.009 A 
+ATOM     12  CAK NF1 d   1      35.635   2.317  13.319  0.00  0.00     0.222 A 
+ATOM     13  NAL NF1 d   1      34.384   1.731  13.397  0.00  0.00    -0.009 N 
+ATOM     14  H   NF1 d   1      33.051   2.868  13.264  0.00  0.00     0.137 H 
+ATOM     15  H   NF1 d   1      31.517   3.667  15.766  0.00  0.00     0.084 H 
+ATOM     16  H   NF1 d   1      31.939   5.784  17.037  0.00  0.00     0.083 H 
+ATOM     17  H   NF1 d   1      34.183   6.884  16.937  0.00  0.00     0.084 H 
+ATOM     18  H   NF1 d   1      36.576   6.932  16.065  0.00  0.00     0.084 H 
+ATOM     19  H   NF1 d   1      38.401   5.895  14.693  0.00  0.00     0.083 H 
+ATOM     20  H   NF1 d   1      37.988   3.774  13.422  0.00  0.00     0.084 H 
+ATOM     21  H   NF1 d   1      35.312   2.901  12.445  0.00  0.00     0.137 H 
+ATOM     22  H   NF1 d   1      34.684   1.198  14.198  0.00  0.00     0.287 HD
+ENDROOT
+BRANCH  13  23
+ATOM     23  CAP NF1 d   1      34.113   0.478  12.642  0.00  0.00     0.112 C 
+ATOM     24  H   NF1 d   1      34.209   0.727  11.575  0.00  0.00     0.079 H 
+ATOM     25  H   NF1 d   1      33.072   0.198  12.861  0.00  0.00     0.079 H 
+BRANCH  23  26
+ATOM     26  CAQ NF1 d   1      34.948  -0.755  12.873  0.00  0.00     0.105 C 
+ATOM     27  H   NF1 d   1      34.302  -1.520  13.329  0.00  0.00     0.078 H 
+ATOM     28  H   NF1 d   1      35.755  -0.491  13.573  0.00  0.00     0.078 H 
+BRANCH  26  29
+ATOM     29  NAR NF1 d   1      35.572  -1.348  11.659  0.00  0.00    -0.068 N 
+ATOM     30  H   NF1 d   1      36.520  -1.014  11.579  0.00  0.00     0.277 HD
+ATOM     31  H   NF1 d   1      35.046  -1.066  10.847  0.00  0.00     0.277 HD
+BRANCH  29  32
+ATOM     32  CAS NF1 d   1      35.585  -2.775  11.734  0.00  0.00     0.129 C 
+ATOM     33  H   NF1 d   1      34.788  -3.159  11.079  0.00  0.00     0.086 H 
+ATOM     34  H   NF1 d   1      35.376  -3.064  12.774  0.00  0.00     0.086 H 
+BRANCH  32  35
+ATOM     35  CAT NF1 d   1      36.863  -3.413  11.327  0.00  0.00     0.124 A 
+ATOM     36  SAX NF1 d   1      37.205  -4.264   9.878  0.00  0.00    -0.055 SA
+ATOM     37  CAW NF1 d   1      38.876  -4.614  10.252  0.00  0.00     0.095 A 
+ATOM     38  NAV NF1 d   1      39.086  -4.057  11.460  0.00  0.00    -0.147 NA
+ATOM     39  NAU NF1 d   1      38.031  -3.423  12.037  0.00  0.00    -0.145 NA
+BRANCH  37  40
+ATOM     40  CAY NF1 d   1      39.879  -5.371   9.416  0.00  0.00    -0.028 C 
+ATOM     41  H   NF1 d   1      40.842  -5.411   9.946  0.00  0.00     0.036 H 
+ATOM     42  H   NF1 d   1      40.012  -4.860   8.451  0.00  0.00     0.036 H 
+ATOM     43  H   NF1 d   1      39.514  -6.394   9.242  0.00  0.00     0.036 H 
+ENDBRANCH  37  40
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH  13  23
+BRANCH   1  44
+ATOM     44  OAN NF1 d   1      32.142   1.644  14.168  0.00  0.00    -0.366 OA
+ATOM     45  H   NF1 d   1      31.544   2.137  14.717  0.00  0.00     0.212 HD
+ENDBRANCH   1  44
+BRANCH  12  46
+ATOM     46  OAO NF1 d   1      36.655   1.723  12.540  0.00  0.00    -0.366 OA
+ATOM     47  H   NF1 d   1      37.443   2.251  12.597  0.00  0.00     0.212 HD
+ENDBRANCH  12  46
+TORSDOF 8

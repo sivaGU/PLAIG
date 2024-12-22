@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_7  and  O3_14 
+REMARK    2  A    between atoms: C2_11  and  C1_10 
+ROOT
+ATOM      1  C4  GJP d   1      -6.873 -14.930  32.099  0.00  0.00     0.069 A 
+ATOM      2  C5  GJP d   1      -6.777 -15.934  31.110  0.00  0.00    -0.054 A 
+ATOM      3  C6  GJP d   1      -7.486 -15.813  29.925  0.00  0.00    -0.081 A 
+ATOM      4  C7  GJP d   1      -8.290 -14.697  29.700  0.00  0.00    -0.082 A 
+ATOM      5  C8  GJP d   1      -8.387 -13.706  30.671  0.00  0.00    -0.068 A 
+ATOM      6  C9  GJP d   1      -7.670 -13.832  31.878  0.00  0.00     0.027 A 
+ATOM      7  C10 GJP d   1      -7.749 -12.837  32.874  0.00  0.00     0.096 A 
+ATOM      8  C3  GJP d   1      -6.243 -14.146  34.204  0.00  0.00     0.022 A 
+ATOM      9  N   GJP d   1      -6.184 -15.058  33.247  0.00  0.00    -0.259 NA
+ATOM     10  C2  GJP d   1      -7.015 -12.997  34.057  0.00  0.00     0.092 A 
+ATOM     11  H1  GJP d   1      -6.148 -16.801  31.278  0.00  0.00     0.087 H 
+ATOM     12  H2  GJP d   1      -7.415 -16.589  29.171  0.00  0.00     0.083 H 
+ATOM     13  H3  GJP d   1      -8.839 -14.602  28.770  0.00  0.00     0.083 H 
+ATOM     14  H4  GJP d   1      -9.013 -12.838  30.500  0.00  0.00     0.085 H 
+ATOM     15  H5  GJP d   1      -5.680 -14.296  35.118  0.00  0.00     0.116 H 
+ENDROOT
+BRANCH  10  16
+ATOM     16  C1  GJP d   1      -7.075 -11.956  35.177  0.00  0.00     0.213 C 
+ATOM     17  O1  GJP d   1      -6.977 -12.303  36.394  0.00  0.00    -0.644 OA
+ATOM     18  O2  GJP d   1      -7.259 -10.750  34.885  0.00  0.00    -0.644 OA
+ENDBRANCH  10  16
+BRANCH   7  19
+ATOM     19  O3  GJP d   1      -8.554 -11.705  32.648  0.00  0.00    -0.359 OA
+ATOM     20  H6  GJP d   1      -9.220 -11.652  33.323  0.00  0.00     0.217 HD
+ENDBRANCH   7  19
+TORSDOF 2

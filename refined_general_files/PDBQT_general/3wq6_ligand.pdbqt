@@ -1,0 +1,138 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_6  and  C11_7 
+REMARK    2  A    between atoms: C11_7  and  N8_8 
+REMARK    3  A    between atoms: C6_14  and  S5_15 
+REMARK    4  A    between atoms: S5_15  and  C4_16 
+REMARK    5  A    between atoms: C4_16  and  C3_17 
+REMARK    6  A    between atoms: C3_17  and  C2_18 
+REMARK    7  A    between atoms: C2_18  and  C1_19 
+REMARK    8  A    between atoms: C1_19  and  N2_20 
+REMARK    9  A    between atoms: N1_21  and  C1'_22 
+REMARK   10  A    between atoms: C2'_24  and  O2'_25 
+REMARK   11  A    between atoms: C3'_26  and  O3'_27 
+REMARK   12  A    between atoms: C4'_28  and  O4'_29 
+REMARK   13  A    between atoms: C5'_30  and  C6'_31 
+REMARK   14  A    between atoms: C6'_31  and  O6'_32 
+REMARK   15  A    between atoms: O6'_32  and  C1A_33 
+REMARK   16  A    between atoms: C4A_36  and  O4A_37 
+REMARK   17  A    between atoms: C3A_38  and  O3A_39 
+REMARK   18  A    between atoms: C2A_40  and  O2A_41 
+ROOT
+ATOM      1  C1  ZPA d   1       0.332  33.720  21.508  0.00  0.00     0.072 C 
+ATOM      2  N1  ZPA d   1       1.197  32.928  22.114  0.00  0.00    -0.352 N 
+ATOM      3  H19 ZPA d   1       1.968  32.549  21.547  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   2   4
+ATOM      4  C1' ZPA d   1       1.150  32.548  23.514  0.00  0.00     0.132 C 
+ATOM      5  O5' ZPA d   1      -0.216  32.266  23.850  0.00  0.00    -0.354 OA
+ATOM      6  C5' ZPA d   1      -0.637  32.454  25.215  0.00  0.00     0.089 C 
+ATOM      7  C4' ZPA d   1      -0.192  33.849  25.633  0.00  0.00     0.089 C 
+ATOM      8  H27 ZPA d   1      -0.205  31.691  25.879  0.00  0.00     0.090 H 
+ATOM      9  C3' ZPA d   1       1.328  33.822  25.740  0.00  0.00     0.091 C 
+ATOM     10  H25 ZPA d   1      -0.493  34.577  24.866  0.00  0.00     0.091 H 
+ATOM     11  C2' ZPA d   1       1.907  33.625  24.338  0.00  0.00     0.104 C 
+ATOM     12  H23 ZPA d   1       1.633  32.987  26.388  0.00  0.00     0.091 H 
+ATOM     13  H21 ZPA d   1       1.830  34.580  23.798  0.00  0.00     0.093 H 
+ATOM     14  H20 ZPA d   1       1.706  31.608  23.642  0.00  0.00     0.122 H 
+BRANCH   6  15
+ATOM     15  C6' ZPA d   1      -2.144  32.374  25.211  0.00  0.00     0.049 C 
+ATOM     16  H28 ZPA d   1      -2.562  32.654  26.189  0.00  0.00     0.078 H 
+ATOM     17  H29 ZPA d   1      -2.490  31.366  24.939  0.00  0.00     0.078 H 
+BRANCH  15  18
+ATOM     18  O6' ZPA d   1      -2.487  33.330  24.207  0.00  0.00    -0.356 OA
+BRANCH  18  19
+ATOM     19  C1A ZPA d   1      -3.891  33.484  24.062  0.00  0.00     0.158 C 
+ATOM     20  O5A ZPA d   1      -4.357  32.570  23.047  0.00  0.00    -0.356 OA
+ATOM     21  C5A ZPA d   1      -5.752  32.776  22.701  0.00  0.00     0.049 C 
+ATOM     22  C4A ZPA d   1      -5.998  34.217  22.232  0.00  0.00     0.083 C 
+ATOM     23  H31 ZPA d   1      -6.375  32.575  23.585  0.00  0.00     0.078 H 
+ATOM     24  H32 ZPA d   1      -6.028  32.083  21.892  0.00  0.00     0.078 H 
+ATOM     25  C3A ZPA d   1      -5.551  35.191  23.322  0.00  0.00     0.091 C 
+ATOM     26  H33 ZPA d   1      -5.403  34.406  21.326  0.00  0.00     0.090 H 
+ATOM     27  C2A ZPA d   1      -4.078  34.929  23.605  0.00  0.00     0.110 C 
+ATOM     28  H35 ZPA d   1      -6.144  35.018  24.232  0.00  0.00     0.091 H 
+ATOM     29  H37 ZPA d   1      -3.508  35.082  22.677  0.00  0.00     0.094 H 
+ATOM     30  H30 ZPA d   1      -4.415  33.299  25.011  0.00  0.00     0.133 H 
+BRANCH  22  31
+ATOM     31  O4A ZPA d   1      -7.387  34.390  21.912  0.00  0.00    -0.391 OA
+ATOM     32  H34 ZPA d   1      -7.913  34.215  22.684  0.00  0.00     0.210 HD
+ENDBRANCH  22  31
+BRANCH  25  33
+ATOM     33  O3A ZPA d   1      -5.709  36.551  22.911  0.00  0.00    -0.390 OA
+ATOM     34  H36 ZPA d   1      -6.624  36.718  22.716  0.00  0.00     0.210 HD
+ENDBRANCH  25  33
+BRANCH  27  35
+ATOM     35  O2A ZPA d   1      -3.583  35.835  24.597  0.00  0.00    -0.388 OA
+ATOM     36  H38 ZPA d   1      -4.075  35.722  25.402  0.00  0.00     0.210 HD
+ENDBRANCH  27  35
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   7  37
+ATOM     37  O4' ZPA d   1      -0.788  34.219  26.877  0.00  0.00    -0.390 OA
+ATOM     38  H26 ZPA d   1      -1.733  34.228  26.784  0.00  0.00     0.210 HD
+ENDBRANCH   7  37
+BRANCH   9  39
+ATOM     39  O3' ZPA d   1       1.823  35.047  26.288  0.00  0.00    -0.390 OA
+ATOM     40  H24 ZPA d   1       1.464  35.171  27.159  0.00  0.00     0.210 HD
+ENDBRANCH   9  39
+BRANCH  11  41
+ATOM     41  O2' ZPA d   1       3.292  33.270  24.453  0.00  0.00    -0.389 OA
+ATOM     42  H22 ZPA d   1       3.367  32.430  24.891  0.00  0.00     0.210 HD
+ENDBRANCH  11  41
+ENDBRANCH   2   4
+BRANCH   1  43
+ATOM     43  C2  ZPA d   1       0.563  33.995  20.014  0.00  0.00    -0.012 C 
+ATOM     44  H15 ZPA d   1       1.646  33.949  19.828  0.00  0.00     0.044 H 
+ATOM     45  H16 ZPA d   1       0.059  33.200  19.444  0.00  0.00     0.044 H 
+BRANCH  43  46
+ATOM     46  C3  ZPA d   1       0.054  35.342  19.489  0.00  0.00    -0.051 C 
+ATOM     47  H13 ZPA d   1      -0.983  35.506  19.816  0.00  0.00     0.034 H 
+ATOM     48  H14 ZPA d   1       0.690  36.157  19.865  0.00  0.00     0.034 H 
+BRANCH  46  49
+ATOM     49  C4  ZPA d   1       0.119  35.290  17.951  0.00  0.00    -0.022 C 
+ATOM     50  H11 ZPA d   1       1.175  35.182  17.663  0.00  0.00     0.049 H 
+ATOM     51  H12 ZPA d   1      -0.443  34.404  17.621  0.00  0.00     0.049 H 
+BRANCH  49  52
+ATOM     52  S5  ZPA d   1      -0.556  36.742  17.063  0.00  0.00    -0.154 SA
+BRANCH  52  53
+ATOM     53  C6  ZPA d   1      -2.350  36.326  17.011  0.00  0.00     0.076 C 
+ATOM     54  C7  ZPA d   1      -2.603  34.826  16.735  0.00  0.00     0.241 C 
+ATOM     55  N8  ZPA d   1      -3.435  34.308  17.756  0.00  0.00    -0.283 N 
+ATOM     56  O7  ZPA d   1      -2.205  34.196  15.757  0.00  0.00    -0.272 OA
+ATOM     57  C9  ZPA d   1      -3.322  35.143  18.886  0.00  0.00     0.228 C 
+ATOM     58  O9  ZPA d   1      -3.426  34.810  20.067  0.00  0.00    -0.273 OA
+ATOM     59  C10 ZPA d   1      -3.022  36.560  18.381  0.00  0.00     0.029 C 
+ATOM     60  H8  ZPA d   1      -2.341  37.085  19.067  0.00  0.00     0.049 H 
+ATOM     61  H9  ZPA d   1      -3.949  37.141  18.269  0.00  0.00     0.049 H 
+ATOM     62  H10 ZPA d   1      -2.832  36.941  16.237  0.00  0.00     0.072 H 
+BRANCH  55  63
+ATOM     63  C11 ZPA d   1      -3.521  32.838  17.920  0.00  0.00     0.029 C 
+ATOM     64  H6  ZPA d   1      -4.469  32.629  18.438  0.00  0.00     0.072 H 
+ATOM     65  H7  ZPA d   1      -3.552  32.405  16.909  0.00  0.00     0.072 H 
+BRANCH  63  66
+ATOM     66  C12 ZPA d   1      -2.416  32.093  18.692  0.00  0.00    -0.040 A 
+ATOM     67  C13 ZPA d   1      -1.323  31.563  18.016  0.00  0.00    -0.075 A 
+ATOM     68  C14 ZPA d   1      -0.340  30.864  18.711  0.00  0.00    -0.082 A 
+ATOM     69  H1  ZPA d   1      -1.236  31.695  16.944  0.00  0.00     0.084 H 
+ATOM     70  C15 ZPA d   1      -0.452  30.675  20.084  0.00  0.00    -0.083 A 
+ATOM     71  H2  ZPA d   1       0.516  30.465  18.180  0.00  0.00     0.083 H 
+ATOM     72  C16 ZPA d   1      -1.554  31.184  20.764  0.00  0.00    -0.082 A 
+ATOM     73  H3  ZPA d   1       0.317  30.133  20.623  0.00  0.00     0.083 H 
+ATOM     74  C17 ZPA d   1      -2.529  31.890  20.066  0.00  0.00    -0.075 A 
+ATOM     75  H4  ZPA d   1      -1.653  31.031  21.833  0.00  0.00     0.083 H 
+ATOM     76  H5  ZPA d   1      -3.386  32.287  20.597  0.00  0.00     0.084 H 
+ENDBRANCH  63  66
+ENDBRANCH  55  63
+ENDBRANCH  52  53
+ENDBRANCH  49  52
+ENDBRANCH  46  49
+ENDBRANCH  43  46
+ENDBRANCH   1  43
+BRANCH   1  77
+ATOM     77  N2  ZPA d   1      -0.715  34.224  22.123  0.00  0.00    -0.389 N 
+ATOM     78  H17 ZPA d   1      -0.864  34.036  23.125  0.00  0.00     0.157 HD
+ATOM     79  H18 ZPA d   1      -1.386  34.807  21.603  0.00  0.00     0.157 HD
+ENDBRANCH   1  77
+TORSDOF 18

@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_7  and  CAO_8 
+REMARK       I    between atoms: CAO_8  and  NAN_10 
+REMARK    2  A    between atoms: NAM_11  and  CAG_12 
+REMARK    3  A    between atoms: CAG_12  and  CAT_13 
+REMARK    4  A    between atoms: CAR_17  and  OAB_18 
+REMARK    5  A    between atoms: CAS_21  and  OAC_22 
+ROOT
+ATOM      1  CAG 3BE d   1     -13.827  17.436  12.242  0.00  0.00     0.061 C 
+ATOM      2  H5  3BE d   1     -14.254  17.241  13.237  0.00  0.00     0.077 H 
+ATOM      3  H6  3BE d   1     -14.503  18.093  11.675  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  NAM 3BE d   1     -13.858  16.275  11.614  0.00  0.00    -0.185 NA
+ATOM      5  NAN 3BE d   1     -14.917  15.644  11.522  0.00  0.00    -0.111 NA
+ATOM      6  CAO 3BE d   1     -16.059  16.115  12.035  0.00  0.00     0.294 C 
+ATOM      7  OAA 3BE d   1     -16.125  17.150  12.689  0.00  0.00    -0.264 OA
+BRANCH   6   8
+ATOM      8  CAU 3BE d   1     -17.296  15.208  11.906  0.00  0.00     0.037 A 
+ATOM      9  CAK 3BE d   1     -18.604  15.699  11.859  0.00  0.00    -0.051 A 
+ATOM     10  CAP 3BE d   1     -19.689  14.821  11.780  0.00  0.00     0.011 A 
+ATOM     11  H1  3BE d   1     -18.778  16.769  11.884  0.00  0.00     0.087 H 
+ATOM     12 BRAD 3BE d   1     -21.467  15.418  11.683  0.00  0.00    -0.051 Br
+ATOM     13  CAI 3BE d   1     -19.472  13.460  11.764  0.00  0.00    -0.066 A 
+ATOM     14  CAH 3BE d   1     -18.177  12.968  11.828  0.00  0.00    -0.081 A 
+ATOM     15  H2  3BE d   1     -20.311  12.776  11.702  0.00  0.00     0.085 H 
+ATOM     16  CAJ 3BE d   1     -17.097  13.839  11.904  0.00  0.00    -0.068 A 
+ATOM     17  H3  3BE d   1     -18.006  11.898  11.819  0.00  0.00     0.083 H 
+ATOM     18  H4  3BE d   1     -16.090  13.442  11.962  0.00  0.00     0.085 H 
+ENDBRANCH   6   8
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  CAT 3BE d   1     -12.679  18.199  12.475  0.00  0.00    -0.001 A 
+ATOM     20  CAL 3BE d   1     -11.394  17.752  12.166  0.00  0.00    -0.053 A 
+ATOM     21  CAQ 3BE d   1     -10.283  18.549  12.456  0.00  0.00     0.046 A 
+ATOM     22  H7  3BE d   1     -11.257  16.783  11.699  0.00  0.00     0.086 H 
+ATOM     23 BRAE 3BE d   1      -8.514  18.003  12.044  0.00  0.00    -0.048 Br
+ATOM     24  CAR 3BE d   1     -10.468  19.783  13.063  0.00  0.00     0.103 A 
+ATOM     25  CAV 3BE d   1     -11.742  20.228  13.385  0.00  0.00     0.079 A 
+ATOM     26 BRAF 3BE d   1     -11.970  21.909  14.218  0.00  0.00    -0.045 Br
+ATOM     27  CAS 3BE d   1     -12.840  19.432  13.094  0.00  0.00     0.093 A 
+BRANCH  24  28
+ATOM     28  OAB 3BE d   1      -9.398  20.561  13.348  0.00  0.00    -0.358 OA
+ATOM     29  H8  3BE d   1      -9.693  21.366  13.758  0.00  0.00     0.217 HD
+ENDBRANCH  24  28
+BRANCH  27  30
+ATOM     30  OAC 3BE d   1     -14.082  19.863  13.410  0.00  0.00    -0.359 OA
+ATOM     31  H9  3BE d   1     -14.719  19.209  13.148  0.00  0.00     0.217 HD
+ENDBRANCH  27  30
+ENDBRANCH   1  19
+TORSDOF 5

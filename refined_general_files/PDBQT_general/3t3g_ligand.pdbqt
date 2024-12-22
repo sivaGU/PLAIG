@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_10 
+REMARK    2  A    between atoms: C2'_11  and  O2'_12 
+REMARK    3  A    between atoms: C3'_13  and  O3'_14 
+REMARK    4  A    between atoms: C4'_15  and  O4'_16 
+REMARK    5  A    between atoms: C5'_17  and  C6'_19 
+REMARK    6  A    between atoms: C6'_19  and  O6'_20 
+ROOT
+ATOM      1  C1' GPU d   1      33.241  22.771  27.941  0.00  0.00     0.141 C 
+ATOM      2  C2' GPU d   1      33.686  23.111  26.519  0.00  0.00     0.105 C 
+ATOM      3  C3' GPU d   1      32.667  22.449  25.577  0.00  0.00     0.091 C 
+ATOM      4  C4' GPU d   1      32.380  20.979  25.987  0.00  0.00     0.089 C 
+ATOM      5  C5' GPU d   1      32.134  20.786  27.491  0.00  0.00     0.088 C 
+ATOM      6  O5' GPU d   1      33.327  21.325  28.036  0.00  0.00    -0.353 OA
+ATOM      7  H3  GPU d   1      32.189  23.063  28.073  0.00  0.00     0.123 H 
+ATOM      8  H4  GPU d   1      34.673  22.664  26.328  0.00  0.00     0.093 H 
+ATOM      9  H6  GPU d   1      31.729  23.022  25.612  0.00  0.00     0.091 H 
+ATOM     10  H8  GPU d   1      33.265  20.382  25.722  0.00  0.00     0.091 H 
+ATOM     11  H10 GPU d   1      31.216  21.300  27.812  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  N1  GPU d   1      34.034  23.528  28.930  0.00  0.00    -0.278 N 
+ATOM     13  C2  GPU d   1      33.357  24.368  29.851  0.00  0.00     0.331 A 
+ATOM     14  O2  GPU d   1      32.130  24.492  29.832  0.00  0.00    -0.246 OA
+ATOM     15  N3  GPU d   1      34.131  25.102  30.803  0.00  0.00    -0.274 N 
+ATOM     16  C4  GPU d   1      35.531  24.976  30.827  0.00  0.00     0.268 A 
+ATOM     17  H1  GPU d   1      33.675  25.708  31.455  0.00  0.00     0.173 HD
+ATOM     18  O4  GPU d   1      36.148  25.652  31.637  0.00  0.00    -0.267 OA
+ATOM     19  C5  GPU d   1      36.183  24.142  29.910  0.00  0.00     0.094 A 
+ATOM     20 BR1  GPU d   1      38.086  23.948  29.923  0.00  0.00    -0.044 Br
+ATOM     21  C6  GPU d   1      35.441  23.427  28.963  0.00  0.00     0.009 A 
+ATOM     22  H2  GPU d   1      35.954  22.788  28.246  0.00  0.00     0.114 H 
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2' GPU d   1      33.820  24.551  26.378  0.00  0.00    -0.388 OA
+ATOM     24  H5  GPU d   1      34.097  24.757  25.493  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3' GPU d   1      33.171  22.448  24.251  0.00  0.00    -0.390 OA
+ATOM     26  H7  GPU d   1      33.324  23.343  23.971  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6' GPU d   1      32.172  19.362  28.013  0.00  0.00     0.043 C 
+ATOM     28  H11 GPU d   1      31.250  18.838  27.721  0.00  0.00     0.078 H 
+ATOM     29  H12 GPU d   1      32.256  19.374  29.110  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6' GPU d   1      33.305  18.685  27.453  0.00  0.00    -0.398 OA
+ATOM     31  H13 GPU d   1      34.100  19.139  27.705  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4' GPU d   1      31.285  20.498  25.242  0.00  0.00    -0.390 OA
+ATOM     33  H9  GPU d   1      30.522  21.035  25.420  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 6

@@ -1,0 +1,133 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PBD_2  and  CBC_5 
+REMARK    2  A    between atoms: CBC_5  and  PBE_6 
+REMARK    3  A    between atoms: CBC_5  and  OAD_10 
+REMARK    4  A    between atoms: CBC_5  and  CAZ_11 
+REMARK    5  A    between atoms: CAZ_11  and  NBB_12 
+REMARK    6  A    between atoms: NBA_16  and  CAY_17 
+REMARK    7  A    between atoms: CAY_17  and  CAX_18 
+REMARK    8  A    between atoms: CAX_18  and  CAW_19 
+REMARK    9  A    between atoms: CAW_19  and  CAV_20 
+REMARK   10  A    between atoms: CAV_20  and  CAU_21 
+REMARK   11  A    between atoms: CAU_21  and  CAT_22 
+REMARK   12  A    between atoms: CAT_22  and  CAS_23 
+REMARK   13  A    between atoms: CAS_23  and  CAR_24 
+REMARK   14  A    between atoms: CAR_24  and  CAQ_25 
+REMARK   15  A    between atoms: CAQ_25  and  CAP_26 
+REMARK   16  A    between atoms: CAP_26  and  CAO_27 
+REMARK   17  A    between atoms: CAO_27  and  CAN_28 
+REMARK   18  A    between atoms: CAN_28  and  CAM_29 
+REMARK   19  A    between atoms: CAM_29  and  CAL_30 
+REMARK   20  A    between atoms: CAL_30  and  CAA_31 
+ROOT
+ATOM      1  CAV BH5 d   1     -15.915  49.711 -48.768  0.00  0.00    -0.065 C 
+ATOM      2  H   BH5 d   1     -16.567  49.118 -48.110  0.00  0.00     0.033 H 
+ATOM      3  H   BH5 d   1     -15.965  50.770 -48.476  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAW BH5 d   1     -16.378  49.558 -50.218  0.00  0.00    -0.064 C 
+ATOM      5  H   BH5 d   1     -15.771  50.206 -50.868  0.00  0.00     0.033 H 
+ATOM      6  H   BH5 d   1     -16.261  48.510 -50.532  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  CAX BH5 d   1     -17.849  49.962 -50.325  0.00  0.00    -0.050 C 
+ATOM      8  H   BH5 d   1     -18.483  49.150 -49.940  0.00  0.00     0.035 H 
+ATOM      9  H   BH5 d   1     -18.024  50.874 -49.736  0.00  0.00     0.035 H 
+BRANCH   7  10
+ATOM     10  CAY BH5 d   1     -18.191  50.227 -51.793  0.00  0.00     0.000 C 
+ATOM     11  H   BH5 d   1     -19.280  50.351 -51.885  0.00  0.00     0.064 H 
+ATOM     12  H   BH5 d   1     -17.688  51.152 -52.111  0.00  0.00     0.064 H 
+BRANCH  10  13
+ATOM     13  NBA BH5 d   1     -17.761  49.122 -52.681  0.00  0.00    -0.352 N 
+ATOM     14  CAK BH5 d   1     -18.489  48.068 -53.037  0.00  0.00     0.044 A 
+ATOM     15  NBB BH5 d   1     -17.909  47.500 -54.094  0.00  0.00    -0.347 N 
+ATOM     16  H   BH5 d   1     -19.401  47.728 -52.549  0.00  0.00     0.141 H 
+ATOM     17  CAJ BH5 d   1     -16.807  48.190 -54.370  0.00  0.00    -0.004 A 
+ATOM     18  CAI BH5 d   1     -16.710  49.186 -53.495  0.00  0.00    -0.005 A 
+ATOM     19  H   BH5 d   1     -16.105  47.976 -55.174  0.00  0.00     0.113 H 
+ATOM     20  H   BH5 d   1     -15.911  49.925 -53.452  0.00  0.00     0.113 H 
+BRANCH  15  21
+ATOM     21  CAZ BH5 d   1     -18.323  46.331 -54.906  0.00  0.00     0.054 C 
+ATOM     22  H   BH5 d   1     -17.990  46.483 -55.943  0.00  0.00     0.071 H 
+ATOM     23  H   BH5 d   1     -17.847  45.428 -54.496  0.00  0.00     0.071 H 
+BRANCH  21  24
+ATOM     24  CBC BH5 d   1     -19.843  46.137 -54.898  0.00  0.00     0.301 C 
+BRANCH  24  25
+ATOM     25  PBD BH5 d   1     -20.227  45.376 -53.227  0.00  0.00     0.311 P 
+ATOM     26  OAE BH5 d   1     -20.863  43.919 -53.491  0.00  0.00    -0.637 OA
+ATOM     27  OAF BH5 d   1     -18.805  45.015 -52.564  0.00  0.00    -0.637 OA
+ATOM     28  OAB BH5 d   1     -21.025  46.246 -52.330  0.00  0.00    -0.637 OA
+ENDBRANCH  24  25
+BRANCH  24  29
+ATOM     29  PBE BH5 d   1     -20.184  44.978 -56.327  0.00  0.00     0.311 P 
+ATOM     30  OAG BH5 d   1     -19.593  45.771 -57.600  0.00  0.00    -0.637 OA
+ATOM     31  OAH BH5 d   1     -19.221  43.718 -56.044  0.00  0.00    -0.637 OA
+ATOM     32  OAC BH5 d   1     -21.604  44.598 -56.525  0.00  0.00    -0.637 OA
+ENDBRANCH  24  29
+BRANCH  24  33
+ATOM     33  OAD BH5 d   1     -20.385  47.441 -55.114  0.00  0.00    -0.364 OA
+ATOM     34  H   BH5 d   1     -20.041  48.038 -54.460  0.00  0.00     0.212 HD
+ENDBRANCH  24  33
+ENDBRANCH  21  24
+ENDBRANCH  15  21
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  35
+ATOM     35  CAU BH5 d   1     -14.474  49.214 -48.642  0.00  0.00    -0.065 C 
+ATOM     36  H   BH5 d   1     -14.032  49.598 -47.711  0.00  0.00     0.033 H 
+ATOM     37  H   BH5 d   1     -13.886  49.569 -49.501  0.00  0.00     0.033 H 
+BRANCH  35  38
+ATOM     38  CAT BH5 d   1     -14.471  47.685 -48.617  0.00  0.00    -0.065 C 
+ATOM     39  H   BH5 d   1     -14.995  47.302 -49.505  0.00  0.00     0.033 H 
+ATOM     40  H   BH5 d   1     -14.982  47.332 -47.709  0.00  0.00     0.033 H 
+BRANCH  38  41
+ATOM     41  CAS BH5 d   1     -13.027  47.180 -48.620  0.00  0.00    -0.065 C 
+ATOM     42  H   BH5 d   1     -12.424  47.792 -47.934  0.00  0.00     0.033 H 
+ATOM     43  H   BH5 d   1     -12.615  47.256 -49.637  0.00  0.00     0.033 H 
+BRANCH  41  44
+ATOM     44  CAR BH5 d   1     -12.991  45.720 -48.164  0.00  0.00    -0.065 C 
+ATOM     45  H   BH5 d   1     -11.970  45.323 -48.270  0.00  0.00     0.033 H 
+ATOM     46  H   BH5 d   1     -13.682  45.123 -48.777  0.00  0.00     0.033 H 
+BRANCH  44  47
+ATOM     47  CAQ BH5 d   1     -13.419  45.660 -46.696  0.00  0.00    -0.065 C 
+ATOM     48  H   BH5 d   1     -14.449  46.036 -46.605  0.00  0.00     0.033 H 
+ATOM     49  H   BH5 d   1     -12.744  46.290 -46.097  0.00  0.00     0.033 H 
+BRANCH  47  50
+ATOM     50  CAP BH5 d   1     -13.361  44.224 -46.173  0.00  0.00    -0.065 C 
+ATOM     51  H   BH5 d   1     -12.340  43.829 -46.281  0.00  0.00     0.033 H 
+ATOM     52  H   BH5 d   1     -14.061  43.592 -46.739  0.00  0.00     0.033 H 
+BRANCH  50  53
+ATOM     53  CAO BH5 d   1     -13.757  44.241 -44.695  0.00  0.00    -0.065 C 
+ATOM     54  H   BH5 d   1     -14.755  44.691 -44.594  0.00  0.00     0.033 H 
+ATOM     55  H   BH5 d   1     -13.026  44.840 -44.133  0.00  0.00     0.033 H 
+BRANCH  53  56
+ATOM     56  CAN BH5 d   1     -13.787  42.822 -44.125  0.00  0.00    -0.065 C 
+ATOM     57  H   BH5 d   1     -12.788  42.367 -44.203  0.00  0.00     0.033 H 
+ATOM     58  H   BH5 d   1     -14.512  42.211 -44.682  0.00  0.00     0.033 H 
+BRANCH  56  59
+ATOM     59  CAM BH5 d   1     -14.204  42.910 -42.655  0.00  0.00    -0.065 C 
+ATOM     60  H   BH5 d   1     -15.196  43.381 -42.588  0.00  0.00     0.033 H 
+ATOM     61  H   BH5 d   1     -13.471  43.520 -42.107  0.00  0.00     0.033 H 
+BRANCH  59  62
+ATOM     62  CAL BH5 d   1     -14.266  41.517 -42.028  0.00  0.00    -0.069 C 
+ATOM     63  H   BH5 d   1     -13.284  41.030 -42.113  0.00  0.00     0.032 H 
+ATOM     64  H   BH5 d   1     -15.022  40.911 -42.548  0.00  0.00     0.032 H 
+BRANCH  62  65
+ATOM     65  CAA BH5 d   1     -14.645  41.655 -40.552  0.00  0.00    -0.077 C 
+ATOM     66  H   BH5 d   1     -14.692  40.657 -40.091  0.00  0.00     0.027 H 
+ATOM     67  H   BH5 d   1     -15.627  42.144 -40.470  0.00  0.00     0.027 H 
+ATOM     68  H   BH5 d   1     -13.888  42.263 -40.034  0.00  0.00     0.027 H 
+ENDBRANCH  62  65
+ENDBRANCH  59  62
+ENDBRANCH  56  59
+ENDBRANCH  53  56
+ENDBRANCH  50  53
+ENDBRANCH  47  50
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 20

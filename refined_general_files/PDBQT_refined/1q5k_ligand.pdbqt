@@ -1,0 +1,58 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N4_4 
+REMARK       I    between atoms: N4_4  and  C7_7 
+REMARK    2  A    between atoms: C5_5  and  N8_8 
+REMARK       I    between atoms: C7_7  and  N9_9 
+REMARK    3  A    between atoms: N9_9  and  C13_13 
+REMARK    4  A    between atoms: C13_13  and  C14_14 
+REMARK    5  A    between atoms: C19_19  and  O20_20 
+REMARK    6  A    between atoms: O20_20  and  C21_21 
+ROOT
+ATOM      1  C13 TMU d   1      26.918  23.453   8.827  0.00  0.00     0.021 C 
+ATOM      2  H4  TMU d   1      26.643  24.406   9.302  0.00  0.00     0.071 H 
+ATOM      3  H5  TMU d   1      27.916  23.544   8.374  0.00  0.00     0.071 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N9  TMU d   1      25.933  23.123   7.783  0.00  0.00    -0.339 N 
+ATOM      5  C7  TMU d   1      24.641  23.545   7.840  0.00  0.00     0.322 C 
+ATOM      6  N4  TMU d   1      23.817  23.186   6.822  0.00  0.00    -0.287 N 
+ATOM      7  O10 TMU d   1      24.236  24.233   8.780  0.00  0.00    -0.247 OA
+ATOM      8  H1  TMU d   1      24.186  22.618   6.087  0.00  0.00     0.172 HD
+ATOM      9  H3  TMU d   1      26.225  22.568   7.004  0.00  0.00     0.164 HD
+BRANCH   6  10
+ATOM     10  C1  TMU d   1      22.489  23.571   6.756  0.00  0.00     0.176 A 
+ATOM     11  S2  TMU d   1      21.537  24.434   7.929  0.00  0.00    -0.026 SA
+ATOM     12  C5  TMU d   1      20.034  24.485   6.987  0.00  0.00     0.164 A 
+ATOM     13  C6  TMU d   1      20.405  23.824   5.860  0.00  0.00     0.044 A 
+ATOM     14  N3  TMU d   1      21.634  23.380   5.773  0.00  0.00    -0.234 NA
+ATOM     15  H2  TMU d   1      19.697  23.667   5.048  0.00  0.00     0.119 H 
+BRANCH  12  16
+ATOM     16  N8  TMU d   1      18.749  25.091   7.353  0.00  0.00    -0.107 N 
+ATOM     17  O11 TMU d   1      17.962  25.435   6.481  0.00  0.00    -0.531 OA
+ATOM     18  O12 TMU d   1      18.481  25.265   8.527  0.00  0.00    -0.531 OA
+ENDBRANCH  12  16
+ENDBRANCH   6  10
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  C14 TMU d   1      26.936  22.361   9.865  0.00  0.00    -0.040 A 
+ATOM     20  C15 TMU d   1      26.823  21.002   9.475  0.00  0.00    -0.073 A 
+ATOM     21  C17 TMU d   1      26.836  19.985  10.450  0.00  0.00    -0.050 A 
+ATOM     22  H6  TMU d   1      26.727  20.746   8.426  0.00  0.00     0.084 H 
+ATOM     23  C19 TMU d   1      26.964  20.324  11.825  0.00  0.00     0.068 A 
+ATOM     24  H8  TMU d   1      26.749  18.946  10.153  0.00  0.00     0.087 H 
+ATOM     25  C18 TMU d   1      27.076  21.691  12.207  0.00  0.00    -0.050 A 
+ATOM     26  C16 TMU d   1      27.062  22.701  11.227  0.00  0.00    -0.073 A 
+ATOM     27  H9  TMU d   1      27.172  21.954  13.254  0.00  0.00     0.087 H 
+ATOM     28  H7  TMU d   1      27.148  23.741  11.520  0.00  0.00     0.084 H 
+BRANCH  23  29
+ATOM     29  O20 TMU d   1      26.971  19.338  12.779  0.00  0.00    -0.356 OA
+BRANCH  29  30
+ATOM     30  C21 TMU d   1      28.334  18.943  13.022  0.00  0.00     0.010 C 
+ATOM     31  H10 TMU d   1      28.356  18.152  13.786  0.00  0.00     0.066 H 
+ATOM     32  H11 TMU d   1      28.910  19.811  13.376  0.00  0.00     0.066 H 
+ATOM     33  H12 TMU d   1      28.778  18.565  12.089  0.00  0.00     0.066 H 
+ENDBRANCH  29  30
+ENDBRANCH  23  29
+ENDBRANCH   1  19
+TORSDOF 6

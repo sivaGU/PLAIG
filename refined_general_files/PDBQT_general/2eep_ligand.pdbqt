@@ -1,0 +1,93 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_2  and  C4_3 
+REMARK       I    between atoms: C9_2  and  N3_14 
+REMARK    2  A    between atoms: C4_3  and  C5_4 
+REMARK    3  A    between atoms: C4_3  and  N2_8 
+REMARK    4  A    between atoms: C5_4  and  C7_5 
+REMARK    5  A    between atoms: C5_4  and  C6_7 
+REMARK    6  A    between atoms: C7_5  and  C8_6 
+REMARK       I    between atoms: N2_8  and  C3_9 
+REMARK    7  A    between atoms: C3_9  and  C1_11 
+REMARK    8  A    between atoms: C1_11  and  C2_12 
+REMARK    9  A    between atoms: C1_11  and  N1_13 
+REMARK   10  A    between atoms: C10_18  and  B_19 
+REMARK   11  A    between atoms: B_19  and  O4_20 
+REMARK   12  A    between atoms: B_19  and  O3_21 
+ROOT
+ATOM      1  C4  AIO d   1      -7.076  44.604  64.932  0.00  0.00     0.092 C 
+ATOM      2  H1  AIO d   1      -7.490  44.475  63.921  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C9  AIO d   1      -7.496  43.497  65.862  0.00  0.00     0.242 C 
+ATOM      4  O2  AIO d   1      -7.269  43.586  67.044  0.00  0.00    -0.271 OA
+ATOM      5  N3  AIO d   1      -8.117  42.426  65.431  0.00  0.00    -0.356 N 
+ATOM      6  C13 AIO d   1      -8.486  42.036  64.071  0.00  0.00    -0.003 C 
+ATOM      7  C10 AIO d   1      -8.539  41.471  66.472  0.00  0.00    -0.030 C 
+ATOM      8  C12 AIO d   1      -9.260  40.724  64.273  0.00  0.00    -0.049 C 
+ATOM      9  H19 AIO d   1      -7.591  41.874  63.452  0.00  0.00     0.064 H 
+ATOM     10  H20 AIO d   1      -9.123  42.800  63.602  0.00  0.00     0.064 H 
+ATOM     11  C11 AIO d   1      -9.593  40.650  65.755  0.00  0.00    -0.054 C 
+ATOM     12  H21 AIO d   1      -8.638  39.866  63.979  0.00  0.00     0.035 H 
+ATOM     13  H22 AIO d   1     -10.183  40.730  63.675  0.00  0.00     0.035 H 
+ATOM     14  H23 AIO d   1      -9.562  39.606  66.100  0.00  0.00     0.034 H 
+ATOM     15  H24 AIO d   1     -10.593  41.068  65.942  0.00  0.00     0.034 H 
+ATOM     16  H25 AIO d   1      -8.965  41.993  67.341  0.00  0.00     0.053 H 
+BRANCH   7  17
+ATOM     17  B   AIO d   1      -7.227  40.628  66.952  0.00  0.00     0.117 B 
+BRANCH  17  18
+ATOM     18  O4  AIO d   1      -6.274  41.111  68.060  0.00  0.00     0.000 OA
+ATOM     19  H27 AIO d   1      -5.899  40.359  68.504  0.00  0.00     0.000 HD
+ATOM     20  H28 AIO d   1      -5.899  40.359  68.504  0.00  0.00     0.000 HD
+ENDBRANCH  17  18
+BRANCH  17  21
+ATOM     21  O3  AIO d   1      -6.512  39.774  65.919  0.00  0.00     0.000 OA
+ATOM     22  H29 AIO d   1      -5.819  40.282  65.514  0.00  0.00     0.000 HD
+ATOM     23  H30 AIO d   1      -5.819  40.282  65.514  0.00  0.00     0.000 HD
+ENDBRANCH  17  21
+ENDBRANCH   7  17
+ENDBRANCH   1   3
+BRANCH   1  24
+ATOM     24  C5  AIO d   1      -5.537  44.569  64.942  0.00  0.00    -0.030 C 
+ATOM     25  H2  AIO d   1      -5.245  44.706  65.993  0.00  0.00     0.043 H 
+BRANCH  24  26
+ATOM     26  C7  AIO d   1      -4.860  45.698  64.167  0.00  0.00    -0.063 C 
+ATOM     27  H3  AIO d   1      -3.771  45.599  64.289  0.00  0.00     0.033 H 
+ATOM     28  H4  AIO d   1      -5.191  46.658  64.591  0.00  0.00     0.033 H 
+BRANCH  26  29
+ATOM     29  C8  AIO d   1      -5.174  45.694  62.707  0.00  0.00    -0.076 C 
+ATOM     30  H5  AIO d   1      -4.654  46.531  62.218  0.00  0.00     0.027 H 
+ATOM     31  H6  AIO d   1      -6.259  45.803  62.565  0.00  0.00     0.027 H 
+ATOM     32  H7  AIO d   1      -4.840  44.745  62.263  0.00  0.00     0.027 H 
+ENDBRANCH  26  29
+ENDBRANCH  24  26
+BRANCH  24  33
+ATOM     33  C6  AIO d   1      -4.980  43.206  64.510  0.00  0.00    -0.071 C 
+ATOM     34  H8  AIO d   1      -5.480  42.408  65.079  0.00  0.00     0.028 H 
+ATOM     35  H9  AIO d   1      -3.898  43.173  64.706  0.00  0.00     0.028 H 
+ATOM     36  H10 AIO d   1      -5.163  43.059  63.435  0.00  0.00     0.028 H 
+ENDBRANCH  24  33
+ENDBRANCH   1  24
+BRANCH   1  37
+ATOM     37  N2  AIO d   1      -7.478  45.855  65.515  0.00  0.00    -0.346 N 
+ATOM     38  C3  AIO d   1      -8.696  46.390  65.337  0.00  0.00     0.248 C 
+ATOM     39  O1  AIO d   1      -9.635  45.764  64.866  0.00  0.00    -0.271 OA
+ATOM     40  H11 AIO d   1      -6.819  46.350  66.080  0.00  0.00     0.163 HD
+BRANCH  38  41
+ATOM     41  C1  AIO d   1      -8.893  47.828  65.767  0.00  0.00     0.172 C 
+ATOM     42  H12 AIO d   1      -7.960  48.398  65.648  0.00  0.00     0.098 H 
+BRANCH  41  43
+ATOM     43  C2  AIO d   1      -9.303  47.763  67.248  0.00  0.00    -0.042 C 
+ATOM     44  H13 AIO d   1      -9.464  48.782  67.629  0.00  0.00     0.030 H 
+ATOM     45  H14 AIO d   1      -8.505  47.276  67.828  0.00  0.00     0.030 H 
+ATOM     46  H15 AIO d   1     -10.233  47.184  67.346  0.00  0.00     0.030 H 
+ENDBRANCH  41  43
+BRANCH  41  47
+ATOM     47  N1  AIO d   1      -9.968  48.459  64.970  0.00  0.00    -0.067 N 
+ATOM     48  H16 AIO d   1      -9.690  48.497  64.002  0.00  0.00     0.275 HD
+ATOM     49  H17 AIO d   1     -10.133  49.394  65.309  0.00  0.00     0.275 HD
+ATOM     50  H18 AIO d   1     -10.813  47.916  65.056  0.00  0.00     0.275 HD
+ENDBRANCH  41  47
+ENDBRANCH  38  41
+ENDBRANCH   1  37
+TORSDOF 12

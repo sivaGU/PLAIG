@@ -1,0 +1,73 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_13  and  C7_2 
+REMARK    2  A    between atoms: C3_4  and  C11_5 
+REMARK    3  A    between atoms: C2_8  and  C10_9 
+REMARK    4  A    between atoms: C2_8  and  C9_10 
+REMARK    5  A    between atoms: C5_12  and  C6_13 
+REMARK    6  A    between atoms: C6_13  and  N14_14 
+REMARK       I    between atoms: N14_14  and  C15_15 
+REMARK    7  A    between atoms: C15_15  and  C17_17 
+REMARK    8  A    between atoms: C17_17  and  C18_18 
+ROOT
+ATOM      1  C6  PNM d   1      25.962  27.178  87.607  0.00  0.00     0.098 C 
+ATOM      2  H12 PNM d   1      25.700  26.299  88.214  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C7  PNM d   1      25.104  27.308  86.289  0.00  0.00     0.112 C 
+ATOM      4  O8  PNM d   1      25.509  27.341  85.148  0.00  0.00    -0.305 OA
+ATOM      5  H1  PNM d   1      24.025  27.376  86.420  0.00  0.00     0.146 H 
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C5  PNM d   1      25.675  28.504  88.459  0.00  0.00     0.173 C 
+ATOM      7  N4  PNM d   1      25.331  29.557  87.430  0.00  0.00    -0.044 N 
+ATOM      8  C3  PNM d   1      26.317  30.575  87.089  0.00  0.00     0.201 C 
+ATOM      9  H2  PNM d   1      25.105  29.070  86.577  0.00  0.00     0.279 HD
+ATOM     10  H3  PNM d   1      24.514  30.041  87.768  0.00  0.00     0.279 HD
+ATOM     11  C2  PNM d   1      27.206  30.755  88.381  0.00  0.00     0.041 C 
+ATOM     12  H4  PNM d   1      26.957  30.200  86.276  0.00  0.00     0.104 H 
+ATOM     13  S1  PNM d   1      27.227  29.099  89.182  0.00  0.00    -0.122 SA
+ATOM     14  H11 PNM d   1      24.888  28.354  89.213  0.00  0.00     0.105 H 
+BRANCH   8  15
+ATOM     15  C11 PNM d   1      25.623  31.895  86.570  0.00  0.00     0.206 C 
+ATOM     16  O13 PNM d   1      24.467  32.144  86.919  0.00  0.00    -0.646 OA
+ATOM     17  O12 PNM d   1      26.295  32.620  85.843  0.00  0.00    -0.646 OA
+ENDBRANCH   8  15
+BRANCH  11  18
+ATOM     18  C10 PNM d   1      26.628  31.736  89.397  0.00  0.00    -0.058 C 
+ATOM     19  H5  PNM d   1      27.302  31.806  90.264  0.00  0.00     0.029 H 
+ATOM     20  H6  PNM d   1      25.641  31.382  89.728  0.00  0.00     0.029 H 
+ATOM     21  H7  PNM d   1      26.525  32.727  88.932  0.00  0.00     0.029 H 
+ENDBRANCH  11  18
+BRANCH  11  22
+ATOM     22  C9  PNM d   1      28.655  31.077  88.045  0.00  0.00    -0.058 C 
+ATOM     23  H8  PNM d   1      29.032  30.349  87.312  0.00  0.00     0.029 H 
+ATOM     24  H9  PNM d   1      29.264  31.025  88.960  0.00  0.00     0.029 H 
+ATOM     25  H10 PNM d   1      28.717  32.090  87.620  0.00  0.00     0.029 H 
+ENDBRANCH  11  22
+ENDBRANCH   1   6
+BRANCH   1  26
+ATOM     26  N14 PNM d   1      27.285  26.994  86.974  0.00  0.00    -0.347 N 
+ATOM     27  C15 PNM d   1      28.333  26.396  87.669  0.00  0.00     0.222 C 
+ATOM     28  O16 PNM d   1      28.200  25.978  88.836  0.00  0.00    -0.273 OA
+ATOM     29  H13 PNM d   1      27.429  27.303  86.034  0.00  0.00     0.163 HD
+BRANCH  27  30
+ATOM     30  C17 PNM d   1      29.710  26.303  86.997  0.00  0.00     0.033 C 
+ATOM     31  H14 PNM d   1      29.550  26.351  85.910  0.00  0.00     0.054 H 
+ATOM     32  H15 PNM d   1      30.140  25.326  87.261  0.00  0.00     0.054 H 
+BRANCH  30  33
+ATOM     33  C18 PNM d   1      30.745  27.372  87.356  0.00  0.00    -0.050 A 
+ATOM     34  C19 PNM d   1      31.078  27.575  88.712  0.00  0.00    -0.076 A 
+ATOM     35  C20 PNM d   1      32.011  28.534  89.086  0.00  0.00    -0.082 A 
+ATOM     36  H16 PNM d   1      30.598  26.973  89.475  0.00  0.00     0.084 H 
+ATOM     37  C21 PNM d   1      32.659  29.349  88.058  0.00  0.00    -0.083 A 
+ATOM     38  H17 PNM d   1      32.257  28.677  90.132  0.00  0.00     0.083 H 
+ATOM     39  C22 PNM d   1      32.325  29.141  86.728  0.00  0.00    -0.082 A 
+ATOM     40  H18 PNM d   1      33.388  30.103  88.331  0.00  0.00     0.083 H 
+ATOM     41  C23 PNM d   1      31.374  28.160  86.359  0.00  0.00    -0.076 A 
+ATOM     42  H19 PNM d   1      32.800  29.739  85.959  0.00  0.00     0.083 H 
+ATOM     43  H20 PNM d   1      31.127  28.011  85.314  0.00  0.00     0.084 H 
+ENDBRANCH  30  33
+ENDBRANCH  27  30
+ENDBRANCH   1  26
+TORSDOF 8

@@ -1,0 +1,89 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAJ_10  and  OAA_1 
+REMARK    2  A    between atoms: CAK_11  and  OAB_2 
+REMARK    3  A    between atoms: CAO_15  and  OAC_3 
+REMARK    4  A    between atoms: CAP_16  and  OAD_4 
+REMARK    5  A    between atoms: CAQ_17  and  OAE_5 
+REMARK    6  A    between atoms: CAR_18  and  OAF_6 
+REMARK    7  A    between atoms: CAO_15  and  CAJ_10 
+REMARK    8  A    between atoms: CAS_19  and  CAK_11 
+REMARK    9  A    between atoms: CAM_13  and  CAQ_17 
+REMARK   10  A    between atoms: SAU_21  and  CAM_13 
+REMARK   11  A    between atoms: CAT_20  and  OAN_14 
+REMARK   12  A    between atoms: OAN_14  and  SAV_22 
+REMARK   13  A    between atoms: CAT_20  and  CAO_15 
+REMARK   14  A    between atoms: CAQ_17  and  CAT_20 
+ROOT
+ATOM      1  CAM BJ1 d   1      44.750  90.685  34.382  0.00  0.00    -0.005 C 
+ATOM      2  H   BJ1 d   1      45.815  90.523  34.213  0.00  0.00     0.051 H 
+ATOM      3  H   BJ1 d   1      44.438  90.359  35.374  0.00  0.00     0.051 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAQ BJ1 d   1      43.981  89.879  33.356  0.00  0.00     0.072 C 
+ATOM      5  H   BJ1 d   1      43.002  90.321  33.169  0.00  0.00     0.088 H 
+BRANCH   4   6
+ATOM      6  OAE BJ1 d   1      44.657  89.896  32.064  0.00  0.00    -0.392 OA
+ATOM      7  H   BJ1 d   1      45.535  89.518  32.158  0.00  0.00     0.210 HD
+ENDBRANCH   4   6
+BRANCH   4   8
+ATOM      8  CAT BJ1 d   1      43.765  88.454  33.926  0.00  0.00     0.112 C 
+ATOM      9  H   BJ1 d   1      43.037  88.541  34.732  0.00  0.00     0.093 H 
+BRANCH   8  10
+ATOM     10  OAN BJ1 d   1      44.990  87.920  34.475  0.00  0.00    -0.246 OA
+BRANCH  10  11
+ATOM     11  SAV BJ1 d   1      45.017  87.459  35.883  0.00  0.00     0.252 S 
+ATOM     12  OAG BJ1 d   1      45.323  88.587  36.807  0.00  0.00    -0.572 OA
+ATOM     13  OAH BJ1 d   1      43.700  86.859  36.273  0.00  0.00    -0.572 OA
+ATOM     14  OAI BJ1 d   1      46.065  86.510  35.923  0.00  0.00    -0.572 OA
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  15
+ATOM     15  CAO BJ1 d   1      43.186  87.507  32.886  0.00  0.00     0.084 C 
+ATOM     16  H   BJ1 d   1      43.803  87.528  31.988  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  OAC BJ1 d   1      43.162  86.178  33.448  0.00  0.00    -0.391 OA
+ATOM     18  H   BJ1 d   1      44.054  85.918  33.690  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  CAJ BJ1 d   1      41.790  87.928  32.502  0.00  0.00     0.043 C 
+ATOM     20  H   BJ1 d   1      41.107  87.764  33.335  0.00  0.00     0.078 H 
+ATOM     21  H   BJ1 d   1      41.774  88.989  32.252  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  OAA BJ1 d   1      41.381  87.148  31.368  0.00  0.00    -0.398 OA
+ATOM     23  H   BJ1 d   1      41.985  87.304  30.639  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH   8  15
+ENDBRANCH   4   8
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  SAU BJ1 d   1      44.419  92.465  34.241  0.00  0.00    -0.206 SA
+ATOM     25  CAL BJ1 d   1      45.789  93.248  33.315  0.00  0.00    -0.005 C 
+ATOM     26  CAP BJ1 d   1      46.809  93.426  34.443  0.00  0.00     0.069 C 
+ATOM     27  H   BJ1 d   1      46.152  92.663  32.469  0.00  0.00     0.051 H 
+ATOM     28  H   BJ1 d   1      45.516  94.172  32.806  0.00  0.00     0.051 H 
+ATOM     29  CAR BJ1 d   1      45.991  94.099  35.580  0.00  0.00     0.074 C 
+ATOM     30  H   BJ1 d   1      47.266  92.479  34.729  0.00  0.00     0.088 H 
+ATOM     31  CAS BJ1 d   1      44.876  93.074  35.894  0.00  0.00     0.030 C 
+ATOM     32  H   BJ1 d   1      45.579  95.077  35.331  0.00  0.00     0.088 H 
+ATOM     33  H   BJ1 d   1      45.216  92.280  36.559  0.00  0.00     0.062 H 
+BRANCH  26  34
+ATOM     34  OAD BJ1 d   1      47.880  94.293  34.051  0.00  0.00    -0.392 OA
+ATOM     35  H   BJ1 d   1      48.330  93.919  33.290  0.00  0.00     0.210 HD
+ENDBRANCH  26  34
+BRANCH  29  36
+ATOM     36  OAF BJ1 d   1      46.869  94.240  36.697  0.00  0.00    -0.392 OA
+ATOM     37  H   BJ1 d   1      47.618  94.787  36.447  0.00  0.00     0.210 HD
+ENDBRANCH  29  36
+BRANCH  31  38
+ATOM     38  CAK BJ1 d   1      43.677  93.637  36.734  0.00  0.00     0.030 C 
+ATOM     39  H   BJ1 d   1      42.929  92.855  36.864  0.00  0.00     0.075 H 
+ATOM     40  H   BJ1 d   1      44.041  93.964  37.708  0.00  0.00     0.075 H 
+BRANCH  38  41
+ATOM     41  OAB BJ1 d   1      43.089  94.744  36.054  0.00  0.00    -0.400 OA
+ATOM     42  H   BJ1 d   1      42.769  94.457  35.195  0.00  0.00     0.209 HD
+ENDBRANCH  38  41
+ENDBRANCH  31  38
+ENDBRANCH   1  24
+TORSDOF 14

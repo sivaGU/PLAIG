@@ -1,0 +1,63 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_8  and  N2_9 
+REMARK    2  A    between atoms: N9_11  and  CAJ_12 
+REMARK    3  A    between atoms: CAJ_12  and  CAS_13 
+REMARK    4  A    between atoms: CAS_13  and  CAH_14 
+REMARK    5  A    between atoms: CAS_13  and  OAN_16 
+REMARK    6  A    between atoms: CAH_14  and  OAD_15 
+REMARK    7  A    between atoms: OAN_16  and  CAI_17 
+REMARK    8  A    between atoms: CAI_17  and  PAU_18 
+ROOT
+ATOM      1  CAJ 24H d   1      19.014  58.338   8.591  0.00  0.00     0.028 C 
+ATOM      2  H6  24H d   1      18.098  58.275   7.985  0.00  0.00     0.069 H 
+ATOM      3  H7  24H d   1      19.674  59.116   8.179  0.00  0.00     0.069 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N9  24H d   1      19.712  57.059   8.466  0.00  0.00    -0.323 N 
+ATOM      5  C4  24H d   1      19.242  55.940   7.879  0.00  0.00     0.159 A 
+ATOM      6  C5  24H d   1      20.242  54.974   7.957  0.00  0.00     0.171 A 
+ATOM      7  N3  24H d   1      18.052  55.616   7.302  0.00  0.00    -0.174 N 
+ATOM      8  C6  24H d   1      20.014  53.705   7.434  0.00  0.00     0.292 A 
+ATOM      9  N7  24H d   1      21.293  55.538   8.582  0.00  0.00    -0.234 NA
+ATOM     10  O6  24H d   1      20.900  52.824   7.497  0.00  0.00    -0.265 OA
+ATOM     11  N1  24H d   1      18.818  53.432   6.859  0.00  0.00    -0.154 N 
+ATOM     12  C2  24H d   1      17.845  54.376   6.795  0.00  0.00     0.680 A 
+ATOM     13  H2  24H d   1      18.650  52.523   6.477  0.00  0.00     0.187 HD
+ATOM     14  C8  24H d   1      20.963  56.816   8.871  0.00  0.00     0.068 A 
+ATOM     15  H1  24H d   1      21.616  57.538   9.359  0.00  0.00     0.143 H 
+ATOM     16  H5  24H d   1      17.302  56.320   7.250  0.00  0.00     0.186 HD
+BRANCH  12  17
+ATOM     17  N2  24H d   1      16.663  54.079   6.202  0.00  0.00    -0.234 N 
+ATOM     18  H3  24H d   1      15.920  54.790   6.150  0.00  0.00     0.174 HD
+ATOM     19  H4  24H d   1      16.508  53.142   5.804  0.00  0.00     0.174 HD
+ENDBRANCH  12  17
+ENDBRANCH   1   4
+BRANCH   1  20
+ATOM     20  CAS 24H d   1      18.603  58.782  10.002  0.00  0.00     0.075 C 
+ATOM     21  H8  24H d   1      18.449  59.870   9.941  0.00  0.00     0.089 H 
+BRANCH  20  22
+ATOM     22  CAH 24H d   1      17.251  58.159  10.298  0.00  0.00     0.042 C 
+ATOM     23  H9  24H d   1      17.272  57.633  11.264  0.00  0.00     0.077 H 
+ATOM     24  H10 24H d   1      16.969  57.454   9.502  0.00  0.00     0.077 H 
+BRANCH  22  25
+ATOM     25  OAD 24H d   1      16.332  59.259  10.344  0.00  0.00    -0.398 OA
+ATOM     26  H11 24H d   1      15.459  58.933  10.527  0.00  0.00     0.209 HD
+ENDBRANCH  22  25
+ENDBRANCH  20  22
+BRANCH  20  27
+ATOM     27  OAN 24H d   1      19.549  58.602  11.082  0.00  0.00    -0.369 OA
+BRANCH  27  28
+ATOM     28  CAI 24H d   1      19.310  59.606  12.082  0.00  0.00     0.122 C 
+ATOM     29  H12 24H d   1      18.546  59.218  12.771  0.00  0.00     0.095 H 
+ATOM     30  H13 24H d   1      18.924  60.501  11.573  0.00  0.00     0.095 H 
+BRANCH  28  31
+ATOM     31  PAU 24H d   1      20.751  60.112  13.079  0.00  0.00     0.283 P 
+ATOM     32  OAE 24H d   1      20.840  59.094  14.190  0.00  0.00    -0.638 OA
+ATOM     33  OAF 24H d   1      21.922  60.140  12.129  0.00  0.00    -0.638 OA
+ATOM     34  OAC 24H d   1      20.427  61.492  13.596  0.00  0.00    -0.638 OA
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH  20  27
+ENDBRANCH   1  20
+TORSDOF 8

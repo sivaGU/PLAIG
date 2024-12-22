@@ -1,0 +1,80 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  S1_3 
+REMARK    2  A    between atoms: C13_14  and  N1_1 
+REMARK    3  A    between atoms: S1_3  and  C8_11 
+REMARK    4  A    between atoms: O06_17  and  C2_4 
+REMARK    5  A    between atoms: C11_10  and  N2_5 
+REMARK    6  A    between atoms: N2_5  and  C17_16 
+REMARK    7  A    between atoms: N2_5  and  C19_18 
+REMARK    8  A    between atoms: C6_8  and  O06_17 
+REMARK    9  A    between atoms: C11_10  and  C13_14 
+REMARK   10  A    between atoms: C17_16  and  C16_15 
+REMARK   11  A    between atoms: C19_18  and  C20_19 
+ROOT
+ATOM      1  C13 B3V d   1      29.063  21.426  13.701  0.00  0.00     0.025 C 
+ATOM      2  H12 B3V d   1      28.418  21.665  12.843  0.00  0.00     0.067 H 
+ATOM      3  H13 B3V d   1      29.715  22.285  13.921  0.00  0.00     0.067 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N1  B3V d   1      29.926  20.260  13.333  0.00  0.00    -0.314 N 
+ATOM      5  H1  B3V d   1      30.661  19.949  13.935  0.00  0.00     0.172 HD
+BRANCH   4   6
+ATOM      6  S1  B3V d   1      29.619  19.503  11.891  0.00  0.00     0.258 S 
+ATOM      7  O1  B3V d   1      28.250  19.157  11.806  0.00  0.00    -0.201 OA
+ATOM      8  O2  B3V d   1      30.587  18.462  11.834  0.00  0.00    -0.201 OA
+BRANCH   6   9
+ATOM      9  C8  B3V d   1      29.967  20.650  10.708  0.00  0.00     0.082 A 
+ATOM     10  C7  B3V d   1      31.307  20.898  10.291  0.00  0.00    -0.028 A 
+ATOM     11  C6  B3V d   1      31.537  21.874   9.301  0.00  0.00     0.069 A 
+ATOM     12  H7  B3V d   1      32.133  20.347  10.727  0.00  0.00     0.090 H 
+ATOM     13  C5  B3V d   1      30.539  22.613   8.723  0.00  0.00    -0.051 A 
+ATOM     14  C10 B3V d   1      29.229  22.375   9.138  0.00  0.00    -0.079 A 
+ATOM     15  H6  B3V d   1      30.760  23.358   7.968  0.00  0.00     0.087 H 
+ATOM     16  C9  B3V d   1      28.974  21.419  10.106  0.00  0.00    -0.060 A 
+ATOM     17  H11 B3V d   1      28.411  22.938   8.703  0.00  0.00     0.083 H 
+ATOM     18  H10 B3V d   1      27.946  21.260  10.412  0.00  0.00     0.085 H 
+BRANCH  11  19
+ATOM     19  O06 B3V d   1      32.863  22.093   8.916  0.00  0.00    -0.356 OA
+BRANCH  19  20
+ATOM     20  C2  B3V d   1      33.653  20.943   8.826  0.00  0.00     0.010 C 
+ATOM     21  H2  B3V d   1      34.672  21.221   8.518  0.00  0.00     0.066 H 
+ATOM     22  H3  B3V d   1      33.220  20.258   8.083  0.00  0.00     0.066 H 
+ATOM     23  H4  B3V d   1      33.689  20.445   9.806  0.00  0.00     0.066 H 
+ENDBRANCH  19  20
+ENDBRANCH  11  19
+ENDBRANCH   6   9
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  C11 B3V d   1      28.160  21.169  14.935  0.00  0.00     0.098 C 
+ATOM     25  H8  B3V d   1      28.789  20.922  15.803  0.00  0.00     0.078 H 
+ATOM     26  H9  B3V d   1      27.573  22.074  15.153  0.00  0.00     0.078 H 
+BRANCH  24  27
+ATOM     27  N2  B3V d   1      27.219  20.015  14.650  0.00  0.00    -0.070 N 
+ATOM     28  H5  B3V d   1      27.664  19.380  14.007  0.00  0.00     0.279 HD
+BRANCH  27  29
+ATOM     29  C17 B3V d   1      26.859  19.264  15.929  0.00  0.00     0.080 C 
+ATOM     30  H17 B3V d   1      25.779  19.058  15.928  0.00  0.00     0.075 H 
+ATOM     31  H18 B3V d   1      27.111  19.895  16.794  0.00  0.00     0.075 H 
+BRANCH  29  32
+ATOM     32  C16 B3V d   1      27.612  17.942  16.048  0.00  0.00    -0.053 C 
+ATOM     33  H14 B3V d   1      27.322  17.438  16.982  0.00  0.00     0.029 H 
+ATOM     34  H15 B3V d   1      28.695  18.136  16.058  0.00  0.00     0.029 H 
+ATOM     35  H16 B3V d   1      27.362  17.299  15.191  0.00  0.00     0.029 H 
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  36
+ATOM     36  C19 B3V d   1      25.978  20.533  14.053  0.00  0.00     0.080 C 
+ATOM     37  H19 B3V d   1      26.197  20.986  13.075  0.00  0.00     0.075 H 
+ATOM     38  H20 B3V d   1      25.534  21.290  14.716  0.00  0.00     0.075 H 
+BRANCH  36  39
+ATOM     39  C20 B3V d   1      25.019  19.384  13.879  0.00  0.00    -0.053 C 
+ATOM     40  H21 B3V d   1      24.083  19.752  13.433  0.00  0.00     0.029 H 
+ATOM     41  H22 B3V d   1      24.805  18.933  14.859  0.00  0.00     0.029 H 
+ATOM     42  H23 B3V d   1      25.468  18.628  13.218  0.00  0.00     0.029 H 
+ENDBRANCH  36  39
+ENDBRANCH  27  36
+ENDBRANCH  24  27
+ENDBRANCH   1  24
+TORSDOF 11

@@ -1,0 +1,75 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAW_8  and  CAO_9 
+REMARK    2  A    between atoms: CAO_9  and  NAP_10 
+REMARK    3  A    between atoms: NAP_10  and  CAM_11 
+REMARK    4  A    between atoms: CAM_11  and  CAL_12 
+REMARK    5  A    between atoms: CAL_12  and  CAN_13 
+REMARK    6  A    between atoms: CAN_13  and  NAQ_14 
+REMARK       I    between atoms: NAQ_14  and  CAS_15 
+REMARK       I    between atoms: CAS_15  and  NAR_17 
+REMARK    7  A    between atoms: NAR_17  and  CAX_18 
+REMARK    8  A    between atoms: CAV_23  and  OAB_24 
+ROOT
+ATOM      1  CAL NON d   1     -44.019 -11.258  -9.992  0.00  0.00    -0.028 C 
+ATOM      2  H   NON d   1     -43.151 -10.975 -10.605  0.00  0.00     0.037 H 
+ATOM      3  H   NON d   1     -44.529 -10.350  -9.637  0.00  0.00     0.037 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAM NON d   1     -43.511 -12.019  -8.778  0.00  0.00     0.083 C 
+ATOM      5  H   NON d   1     -44.298 -12.024  -8.009  0.00  0.00     0.075 H 
+ATOM      6  H   NON d   1     -43.285 -13.053  -9.078  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  NAP NON d   1     -42.300 -11.418  -8.210  0.00  0.00    -0.071 N 
+ATOM      8  H   NON d   1     -41.541 -11.561  -8.857  0.00  0.00     0.277 HD
+ATOM      9  H   NON d   1     -42.460 -10.430  -8.093  0.00  0.00     0.277 HD
+BRANCH   7  10
+ATOM     10  CAO NON d   1     -41.913 -11.983  -6.909  0.00  0.00     0.105 C 
+ATOM     11  H   NON d   1     -41.228 -11.275  -6.420  0.00  0.00     0.083 H 
+ATOM     12  H   NON d   1     -42.823 -12.092  -6.301  0.00  0.00     0.083 H 
+BRANCH  10  13
+ATOM     13  CAW NON d   1     -41.228 -13.329  -6.974  0.00  0.00    -0.029 A 
+ATOM     14  CAJ NON d   1     -42.005 -14.479  -6.986  0.00  0.00    -0.054 A 
+ATOM     15  CAT NON d   1     -41.396 -15.715  -6.992  0.00  0.00     0.036 A 
+ATOM     16  H   NON d   1     -43.087 -14.405  -6.991  0.00  0.00     0.086 H 
+ATOM     17 CLC  NON d   1     -42.385 -17.136  -6.932  0.00  0.00    -0.084 Cl
+ATOM     18  CAI NON d   1     -40.023 -15.857  -6.999  0.00  0.00    -0.041 A 
+ATOM     19  CAU NON d   1     -39.257 -14.709  -6.974  0.00  0.00     0.036 A 
+ATOM     20  H   NON d   1     -39.562 -16.838  -7.023  0.00  0.00     0.088 H 
+ATOM     21 CLD  NON d   1     -37.502 -14.860  -6.897  0.00  0.00    -0.084 Cl
+ATOM     22  CAK NON d   1     -39.836 -13.450  -6.970  0.00  0.00    -0.054 A 
+ATOM     23  H   NON d   1     -39.212 -12.563  -6.964  0.00  0.00     0.086 H 
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  CAN NON d   1     -44.992 -12.032 -10.877  0.00  0.00    -0.002 C 
+ATOM     25  H   NON d   1     -45.670 -11.313 -11.359  0.00  0.00     0.064 H 
+ATOM     26  H   NON d   1     -45.574 -12.714 -10.240  0.00  0.00     0.064 H 
+BRANCH  24  27
+ATOM     27  NAQ NON d   1     -44.339 -12.818 -11.917  0.00  0.00    -0.343 N 
+ATOM     28  CAS NON d   1     -45.005 -13.744 -12.638  0.00  0.00     0.320 C 
+ATOM     29  OAA NON d   1     -46.216 -13.920 -12.517  0.00  0.00    -0.247 OA
+ATOM     30  NAR NON d   1     -44.233 -14.427 -13.550  0.00  0.00    -0.306 N 
+ATOM     31  H   NON d   1     -43.280 -14.135 -13.624  0.00  0.00     0.171 HD
+ATOM     32  H   NON d   1     -43.368 -12.666 -12.102  0.00  0.00     0.164 HD
+BRANCH  30  33
+ATOM     33  CAX NON d   1     -44.627 -15.500 -14.401  0.00  0.00     0.069 A 
+ATOM     34  CAH NON d   1     -43.706 -16.526 -14.613  0.00  0.00    -0.054 A 
+ATOM     35  CAF NON d   1     -44.052 -17.608 -15.408  0.00  0.00    -0.081 A 
+ATOM     36  H   NON d   1     -42.723 -16.478 -14.158  0.00  0.00     0.087 H 
+ATOM     37  CAE NON d   1     -45.307 -17.683 -15.982  0.00  0.00    -0.080 A 
+ATOM     38  H   NON d   1     -43.333 -18.401 -15.581  0.00  0.00     0.083 H 
+ATOM     39  CAG NON d   1     -46.226 -16.672 -15.781  0.00  0.00    -0.049 A 
+ATOM     40  H   NON d   1     -45.571 -18.539 -16.593  0.00  0.00     0.083 H 
+ATOM     41  CAV NON d   1     -45.892 -15.571 -15.000  0.00  0.00     0.092 A 
+ATOM     42  H   NON d   1     -47.209 -16.737 -16.233  0.00  0.00     0.087 H 
+BRANCH  41  43
+ATOM     43  OAB NON d   1     -46.836 -14.642 -14.688  0.00  0.00    -0.358 OA
+ATOM     44  H   NON d   1     -46.444 -13.962 -14.153  0.00  0.00     0.217 HD
+ENDBRANCH  41  43
+ENDBRANCH  30  33
+ENDBRANCH  24  27
+ENDBRANCH   1  24
+TORSDOF 8

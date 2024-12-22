@@ -1,0 +1,53 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK       I    between atoms: CAP_17  and  N_2 
+REMARK    2  A    between atoms: OAM_15  and  CAK_14 
+REMARK    3  A    between atoms: CAK_14  and  CAP_17 
+REMARK    4  A    between atoms: PAT_19  and  OAM_15 
+REMARK    5  A    between atoms: OAN_16  and  PAS_18 
+REMARK    6  A    between atoms: OAN_16  and  PAT_19 
+ROOT
+ATOM      1  N   2P0 d   1      14.354  22.913  19.764  0.00  0.00    -0.336 N 
+ATOM      2  CA  2P0 d   1      14.629  23.160  18.348  0.00  0.00     0.098 C 
+ATOM      3  CB  2P0 d   1      13.757  24.255  17.893  0.00  0.00    -0.035 C 
+ATOM      4  CD  2P0 d   1      13.602  24.024  20.276  0.00  0.00    -0.001 C 
+ATOM      5  CG  2P0 d   1      12.946  24.671  19.088  0.00  0.00    -0.048 C 
+ATOM      6  OAB 2P0 d   1      14.433  21.684  21.735  0.00  0.00    -0.271 OA
+ATOM      7  CAP 2P0 d   1      14.750  21.735  20.558  0.00  0.00     0.244 C 
+ATOM      8  H1  2P0 d   1      14.370  22.249  17.788  0.00  0.00     0.089 H 
+ATOM      9  H2  2P0 d   1      13.096  23.905  17.087  0.00  0.00     0.036 H 
+ATOM     10  H3  2P0 d   1      14.362  25.099  17.531  0.00  0.00     0.036 H 
+ATOM     11  H4  2P0 d   1      14.271  24.738  20.778  0.00  0.00     0.064 H 
+ATOM     12  H5  2P0 d   1      12.840  23.673  20.988  0.00  0.00     0.064 H 
+ATOM     13  H6  2P0 d   1      11.908  24.322  18.987  0.00  0.00     0.035 H 
+ATOM     14  H7  2P0 d   1      12.956  25.766  19.195  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   2  15
+ATOM     15  C   2P0 d   1      16.106  23.484  18.052  0.00  0.00     0.196 C 
+ATOM     16  O   2P0 d   1      16.951  23.654  18.992  0.00  0.00    -0.646 OA
+ATOM     17  OXT 2P0 d   1      16.504  23.600  16.836  0.00  0.00    -0.646 OA
+ENDBRANCH   2  15
+BRANCH   7  18
+ATOM     18  CAK 2P0 d   1      15.520  20.623  19.973  0.00  0.00     0.105 C 
+ATOM     19  H8  2P0 d   1      14.843  19.950  19.427  0.00  0.00     0.089 H 
+ATOM     20  H9  2P0 d   1      16.278  21.020  19.282  0.00  0.00     0.089 H 
+BRANCH  18  21
+ATOM     21  OAM 2P0 d   1      16.169  19.899  21.045  0.00  0.00    -0.280 OA
+BRANCH  21  22
+ATOM     22  PAT 2P0 d   1      17.147  18.675  20.777  0.00  0.00     0.418 P 
+ATOM     23  OAD 2P0 d   1      18.136  19.045  19.689  0.00  0.00    -0.624 OA
+ATOM     24  OAH 2P0 d   1      17.902  18.355  22.081  0.00  0.00    -0.624 OA
+BRANCH  22  25
+ATOM     25  OAN 2P0 d   1      16.300  17.413  20.356  0.00  0.00    -0.173 OA
+BRANCH  25  26
+ATOM     26  PAS 2P0 d   1      16.990  16.064  19.909  0.00  0.00     0.431 P 
+ATOM     27  OAC 2P0 d   1      18.266  15.872  20.716  0.00  0.00    -0.616 OA
+ATOM     28  OAF 2P0 d   1      16.025  14.925  20.131  0.00  0.00    -0.616 OA
+ATOM     29  OAG 2P0 d   1      17.381  16.137  18.421  0.00  0.00    -0.616 OA
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH   7  18
+TORSDOF 6

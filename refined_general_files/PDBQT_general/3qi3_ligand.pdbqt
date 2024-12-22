@@ -1,0 +1,62 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  CL1_24 
+REMARK    2  A    between atoms: N8_10  and  C7_8 
+REMARK    3  A    between atoms: C18_20  and  C14_16 
+REMARK    4  A    between atoms: C19_21  and  C18_20 
+REMARK    5  A    between atoms: C19_21  and  C20_22 
+REMARK    6  A    between atoms: C19_21  and  C21_23 
+ROOT
+ATOM      1  N8  PDB d   1      77.951  50.569  42.718  0.00  0.00    -0.214 N 
+ATOM      2  N9  PDB d   1      78.560  50.179  43.744  0.00  0.00    -0.177 NA
+ATOM      3  C10 PDB d   1      77.885  50.481  44.873  0.00  0.00     0.041 A 
+ATOM      4  C11 PDB d   1      76.788  51.160  43.081  0.00  0.00     0.170 A 
+ATOM      5  C12 PDB d   1      76.726  51.128  44.466  0.00  0.00     0.099 A 
+ATOM      6  N13 PDB d   1      75.780  51.745  42.381  0.00  0.00    -0.215 NA
+ATOM      7  C14 PDB d   1      74.717  52.301  43.027  0.00  0.00     0.109 A 
+ATOM      8  N15 PDB d   1      74.642  52.283  44.387  0.00  0.00    -0.311 N 
+ATOM      9  C16 PDB d   1      75.646  51.699  45.129  0.00  0.00     0.262 A 
+ATOM     10  O17 PDB d   1      75.608  51.739  46.359  0.00  0.00    -0.267 OA
+ATOM     11  H5  PDB d   1      78.188  50.262  45.896  0.00  0.00     0.119 H 
+ATOM     12  H6  PDB d   1      73.856  52.695  44.848  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  C7  PDB d   1      78.450  50.490  41.469  0.00  0.00     0.066 A 
+ATOM     14  C2  PDB d   1      77.753  49.872  40.433  0.00  0.00    -0.033 A 
+ATOM     15  C3  PDB d   1      78.320  49.777  39.167  0.00  0.00    -0.075 A 
+ATOM     16  C4  PDB d   1      79.586  50.298  38.924  0.00  0.00    -0.082 A 
+ATOM     17  H1  PDB d   1      77.772  49.294  38.366  0.00  0.00     0.084 H 
+ATOM     18  C5  PDB d   1      80.284  50.918  39.955  0.00  0.00    -0.081 A 
+ATOM     19  H2  PDB d   1      80.027  50.221  37.937  0.00  0.00     0.083 H 
+ATOM     20  C6  PDB d   1      79.716  51.013  41.220  0.00  0.00    -0.054 A 
+ATOM     21  H3  PDB d   1      81.271  51.327  39.772  0.00  0.00     0.083 H 
+ATOM     22  H4  PDB d   1      80.263  51.499  42.020  0.00  0.00     0.087 H 
+BRANCH  14  23
+ATOM     23  CL1 PDB d   1      76.186  49.217  40.695  0.00  0.00    -0.049 C 
+ATOM     24  H13 PDB d   1      75.811  48.777  39.759  0.00  0.00     0.033 H 
+ATOM     25  H14 PDB d   1      75.505  50.016  41.023  0.00  0.00     0.033 H 
+ATOM     26  H15 PDB d   1      76.239  48.438  41.470  0.00  0.00     0.033 H 
+ENDBRANCH  14  23
+ENDBRANCH   1  13
+BRANCH   7  27
+ATOM     27  C18 PDB d   1      73.624  52.993  42.232  0.00  0.00     0.001 C 
+ATOM     28  H7  PDB d   1      72.750  53.162  42.878  0.00  0.00     0.045 H 
+ATOM     29  H8  PDB d   1      73.333  52.362  41.379  0.00  0.00     0.045 H 
+BRANCH  27  30
+ATOM     30  C19 PDB d   1      74.151  54.336  41.720  0.00  0.00     0.043 C 
+ATOM     31  H9  PDB d   1      74.481  54.949  42.572  0.00  0.00     0.053 H 
+BRANCH  30  32
+ATOM     32  C20 PDB d   1      75.330  54.087  40.778  0.00  0.00    -0.064 C 
+ATOM     33  H10 PDB d   1      76.127  53.557  41.320  0.00  0.00     0.028 H 
+ATOM     34  H11 PDB d   1      75.715  55.049  40.410  0.00  0.00     0.028 H 
+ATOM     35  H12 PDB d   1      74.996  53.475  39.927  0.00  0.00     0.028 H 
+ENDBRANCH  30  32
+BRANCH  30  36
+ATOM     36  C21 PDB d   1      73.047  55.073  40.959  0.00  0.00     0.391 C 
+ATOM     37  F5  PDB d   1      71.938  55.150  41.741  0.00  0.00    -0.171 F 
+ATOM     38  F6  PDB d   1      72.755  54.399  39.815  0.00  0.00    -0.171 F 
+ATOM     39  F7  PDB d   1      73.475  56.328  40.649  0.00  0.00    -0.171 F 
+ENDBRANCH  30  36
+ENDBRANCH  27  30
+ENDBRANCH   7  27
+TORSDOF 6

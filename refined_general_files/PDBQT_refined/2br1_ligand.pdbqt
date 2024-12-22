@@ -1,0 +1,79 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  OAS_2 
+REMARK    2  A    between atoms: OAS_2  and  CAV_3 
+REMARK    3  A    between atoms: CAX_8  and  CBA_9 
+REMARK    4  A    between atoms: NAQ_12  and  CAN_13 
+REMARK    5  A    between atoms: CAN_13  and  CAM_14 
+REMARK    6  A    between atoms: CAM_14  and  OAC_15 
+REMARK    7  A    between atoms: CAU_25  and  OAR_26 
+REMARK    8  A    between atoms: OAR_26  and  CAA_27 
+ROOT
+ATOM      1  CBA PFP d   1      17.331  -2.495  10.054  0.00  0.00     0.027 A 
+ATOM      2  CBC PFP d   1      16.197  -1.806   9.929  0.00  0.00     0.077 A 
+ATOM      3  CAY PFP d   1      14.922  -1.956  10.467  0.00  0.00     0.140 A 
+ATOM      4  NAQ PFP d   1      14.619  -3.008  11.212  0.00  0.00    -0.372 N 
+ATOM      5  NAO PFP d   1      13.985  -1.033  10.209  0.00  0.00    -0.224 NA
+ATOM      6  CAL PFP d   1      14.279   0.038   9.470  0.00  0.00     0.091 A 
+ATOM      7  NAP PFP d   1      15.523   0.207   8.964  0.00  0.00    -0.217 NA
+ATOM      8  CBB PFP d   1      16.479  -0.701   9.189  0.00  0.00     0.186 A 
+ATOM      9  OAT PFP d   1      17.714  -0.739   8.838  0.00  0.00    -0.289 OA
+ATOM     10  CAZ PFP d   1      18.267  -1.818   9.274  0.00  0.00     0.100 A 
+ATOM     11  CAW PFP d   1      19.582  -2.157   9.070  0.00  0.00    -0.001 A 
+ATOM     12  CAH PFP d   1      20.451  -1.211   8.510  0.00  0.00    -0.068 A 
+ATOM     13  CAD PFP d   1      21.770  -1.537   8.265  0.00  0.00    -0.050 A 
+ATOM     14  CAU PFP d   1      22.232  -2.804   8.544  0.00  0.00     0.068 A 
+ATOM     15  CAE PFP d   1      21.361  -3.767   9.080  0.00  0.00    -0.050 A 
+ATOM     16  CAI PFP d   1      20.029  -3.440   9.321  0.00  0.00    -0.068 A 
+ATOM     17  H8  PFP d   1      15.360  -3.653  11.521  0.00  0.00     0.161 HD
+ATOM     18  H14 PFP d   1      13.514   0.780   9.273  0.00  0.00     0.146 H 
+ATOM     19  H15 PFP d   1      20.086  -0.219   8.268  0.00  0.00     0.085 H 
+ATOM     20  H16 PFP d   1      22.443  -0.794   7.852  0.00  0.00     0.087 H 
+ATOM     21  H20 PFP d   1      21.725  -4.763   9.306  0.00  0.00     0.087 H 
+ATOM     22  H21 PFP d   1      19.346  -4.189   9.704  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  23
+ATOM     23  CAX PFP d   1      17.481  -3.855  10.678  0.00  0.00    -0.022 A 
+ATOM     24  CAK PFP d   1      18.321  -4.044  11.795  0.00  0.00    -0.070 A 
+ATOM     25  CAG PFP d   1      18.394  -5.338  12.425  0.00  0.00    -0.050 A 
+ATOM     26  H5  PFP d   1      18.910  -3.219  12.178  0.00  0.00     0.085 H 
+ATOM     27  CAV PFP d   1      17.608  -6.409  11.928  0.00  0.00     0.068 A 
+ATOM     28  H4  PFP d   1      19.047  -5.492  13.276  0.00  0.00     0.087 H 
+ATOM     29  CAF PFP d   1      16.745  -6.196  10.844  0.00  0.00    -0.050 A 
+ATOM     30  CAJ PFP d   1      16.677  -4.925  10.220  0.00  0.00    -0.070 A 
+ATOM     31  H6  PFP d   1      16.126  -7.008  10.481  0.00  0.00     0.087 H 
+ATOM     32  H7  PFP d   1      16.003  -4.772   9.385  0.00  0.00     0.085 H 
+BRANCH  27  33
+ATOM     33  OAS PFP d   1      17.631  -7.667  12.568  0.00  0.00    -0.356 OA
+BRANCH  33  34
+ATOM     34  CAB PFP d   1      18.962  -8.007  12.918  0.00  0.00     0.010 C 
+ATOM     35  H1  PFP d   1      18.971  -8.988  13.416  0.00  0.00     0.066 H 
+ATOM     36  H2  PFP d   1      19.367  -7.246  13.601  0.00  0.00     0.066 H 
+ATOM     37  H3  PFP d   1      19.580  -8.051  12.009  0.00  0.00     0.066 H 
+ENDBRANCH  33  34
+ENDBRANCH  27  33
+ENDBRANCH   1  23
+BRANCH   4  38
+ATOM     38  CAN PFP d   1      13.203  -3.255  11.601  0.00  0.00     0.013 C 
+ATOM     39  H9  PFP d   1      13.144  -4.302  11.932  0.00  0.00     0.067 H 
+ATOM     40  H10 PFP d   1      12.598  -3.123  10.692  0.00  0.00     0.067 H 
+BRANCH  38  41
+ATOM     41  CAM PFP d   1      12.524  -2.381  12.731  0.00  0.00     0.031 C 
+ATOM     42  H11 PFP d   1      13.239  -2.332  13.566  0.00  0.00     0.076 H 
+ATOM     43  H12 PFP d   1      11.622  -2.923  13.052  0.00  0.00     0.076 H 
+BRANCH  41  44
+ATOM     44  OAC PFP d   1      12.104  -0.984  12.445  0.00  0.00    -0.399 OA
+ATOM     45  H13 PFP d   1      11.717  -0.605  13.225  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH   4  38
+BRANCH  14  46
+ATOM     46  OAR PFP d   1      23.529  -3.118   8.300  0.00  0.00    -0.356 OA
+BRANCH  46  47
+ATOM     47  CAA PFP d   1      24.529  -2.049   8.177  0.00  0.00     0.010 C 
+ATOM     48  H17 PFP d   1      25.517  -2.492   7.981  0.00  0.00     0.066 H 
+ATOM     49  H18 PFP d   1      24.565  -1.471   9.112  0.00  0.00     0.066 H 
+ATOM     50  H19 PFP d   1      24.254  -1.383   7.345  0.00  0.00     0.066 H 
+ENDBRANCH  46  47
+ENDBRANCH  14  46
+TORSDOF 8

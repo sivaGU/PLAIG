@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C2A_3 
+REMARK    2  A    between atoms: C3_4  and  O3_5 
+REMARK    3  A    between atoms: C4_6  and  C4A_7 
+REMARK    4  A    between atoms: C5_8  and  C5A_10 
+REMARK    5  A    between atoms: C5A_10  and  O4P_11 
+REMARK    6  A    between atoms: O4P_11  and  P_12 
+ROOT
+ATOM      1  N1  GLS d   1      24.632  25.690  30.214  0.00  0.00    -0.262 NA
+ATOM      2  C2  GLS d   1      23.527  24.943  30.457  0.00  0.00     0.064 A 
+ATOM      3  C3  GLS d   1      23.338  23.736  29.793  0.00  0.00     0.096 A 
+ATOM      4  C4  GLS d   1      24.291  23.314  28.862  0.00  0.00    -0.017 A 
+ATOM      5  C5  GLS d   1      25.431  24.117  28.627  0.00  0.00    -0.008 A 
+ATOM      6  C6  GLS d   1      25.579  25.288  29.328  0.00  0.00     0.011 A 
+ATOM      7  H8  GLS d   1      26.461  25.898  29.172  0.00  0.00     0.115 H 
+ENDROOT
+BRANCH   5   8
+ATOM      8  C5A GLS d   1      26.441  23.852  27.459  0.00  0.00     0.058 C 
+ATOM      9  H9  GLS d   1      26.445  22.783  27.199  0.00  0.00     0.082 H 
+ATOM     10  H10 GLS d   1      27.453  24.160  27.759  0.00  0.00     0.082 H 
+BRANCH   8  11
+ATOM     11  O4P GLS d   1      26.003  24.631  26.334  0.00  0.00    -0.278 OA
+BRANCH  11  12
+ATOM     12  P   GLS d   1      26.987  24.795  25.086  0.00  0.00     0.422 P 
+ATOM     13  O1P GLS d   1      26.070  25.354  24.079  0.00  0.00    -0.617 OA
+ATOM     14  O2P GLS d   1      28.110  25.910  25.549  0.00  0.00    -0.617 OA
+ATOM     15  O3P GLS d   1      27.766  23.503  24.852  0.00  0.00    -0.617 OA
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+BRANCH   4  16
+ATOM     16  C4A GLS d   1      23.996  22.019  28.018  0.00  0.00    -0.048 C 
+ATOM     17  H5  GLS d   1      23.063  21.556  28.372  0.00  0.00     0.033 H 
+ATOM     18  H6  GLS d   1      24.826  21.307  28.136  0.00  0.00     0.033 H 
+ATOM     19  H7  GLS d   1      23.892  22.289  26.957  0.00  0.00     0.033 H 
+ENDBRANCH   4  16
+BRANCH   3  20
+ATOM     20  O3  GLS d   1      22.162  23.009  29.972  0.00  0.00    -0.358 OA
+ATOM     21  H4  GLS d   1      22.198  22.217  29.449  0.00  0.00     0.217 HD
+ENDBRANCH   3  20
+BRANCH   2  22
+ATOM     22  C2A GLS d   1      22.553  25.466  31.508  0.00  0.00    -0.033 C 
+ATOM     23  H1  GLS d   1      21.708  24.768  31.604  0.00  0.00     0.035 H 
+ATOM     24  H2  GLS d   1      22.179  26.454  31.202  0.00  0.00     0.035 H 
+ATOM     25  H3  GLS d   1      23.069  25.552  32.475  0.00  0.00     0.035 H 
+ENDBRANCH   2  22
+TORSDOF 6

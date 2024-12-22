@@ -1,0 +1,98 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C36_1  and  C31_2 
+REMARK    2  A    between atoms: C34_5  and  C35_6 
+REMARK    3  A    between atoms: C16_7  and  C1_8 
+REMARK    4  A    between atoms: C2_10  and  C15_11 
+REMARK    5  A    between atoms: N3_12  and  C7_13 
+REMARK    6  A    between atoms: C5_22  and  C17_23 
+REMARK       I    between atoms: C17_23  and  N18_25 
+REMARK    7  A    between atoms: N18_25  and  C20_26 
+REMARK    8  A    between atoms: C20_26  and  C21_27 
+REMARK    9  A    between atoms: C24_30  and  S27_31 
+REMARK   10  A    between atoms: S27_31  and  C30_32 
+ROOT
+ATOM      1  C1  WQQ d   1      28.892 -21.371   3.568  0.00  0.00    -0.023 A 
+ATOM      2  C6  WQQ d   1      30.026 -22.092   3.985  0.00  0.00    -0.073 A 
+ATOM      3  C2  WQQ d   1      28.166 -21.894   2.500  0.00  0.00     0.042 A 
+ATOM      4  N3  WQQ d   1      28.584 -23.084   1.856  0.00  0.00    -0.308 N 
+ATOM      5  C4  WQQ d   1      29.708 -23.796   2.278  0.00  0.00     0.241 A 
+ATOM      6  O14 WQQ d   1      29.987 -24.840   1.657  0.00  0.00    -0.272 OA
+ATOM      7  C5  WQQ d   1      30.419 -23.308   3.388  0.00  0.00     0.118 A 
+ATOM      8  H7  WQQ d   1      30.625 -21.695   4.803  0.00  0.00     0.079 H 
+ATOM      9  H8  WQQ d   1      27.553 -22.475   3.204  0.00  0.00     0.080 H 
+ATOM     10  H16 WQQ d   1      29.804 -23.904   4.079  0.00  0.00     0.075 H 
+ENDROOT
+BRANCH   7  11
+ATOM     11  C17 WQQ d   1      31.696 -23.946   3.894  0.00  0.00     0.234 C 
+ATOM     12  O19 WQQ d   1      32.311 -23.449   4.857  0.00  0.00    -0.272 OA
+ATOM     13  N18 WQQ d   1      32.152 -24.986   3.202  0.00  0.00    -0.356 N 
+ATOM     14  H17 WQQ d   1      31.627 -25.370   2.443  0.00  0.00     0.162 HD
+BRANCH  13  15
+ATOM     15  C20 WQQ d   1      33.452 -25.553   3.588  0.00  0.00     0.019 C 
+ATOM     16  H18 WQQ d   1      34.059 -24.727   3.985  0.00  0.00     0.071 H 
+ATOM     17  H19 WQQ d   1      33.919 -25.944   2.672  0.00  0.00     0.071 H 
+BRANCH  15  18
+ATOM     18  C21 WQQ d   1      33.490 -26.670   4.619  0.00  0.00    -0.040 A 
+ATOM     19  C22 WQQ d   1      32.366 -27.153   5.254  0.00  0.00    -0.074 A 
+ATOM     20  C23 WQQ d   1      32.511 -28.199   6.165  0.00  0.00    -0.061 A 
+ATOM     21  H20 WQQ d   1      31.390 -26.729   5.050  0.00  0.00     0.084 H 
+ATOM     22  C24 WQQ d   1      33.768 -28.735   6.438  0.00  0.00     0.058 A 
+ATOM     23  H21 WQQ d   1      31.637 -28.599   6.666  0.00  0.00     0.085 H 
+ATOM     24  C25 WQQ d   1      34.896 -28.230   5.811  0.00  0.00    -0.061 A 
+ATOM     25  C26 WQQ d   1      34.757 -27.200   4.900  0.00  0.00    -0.074 A 
+ATOM     26  H25 WQQ d   1      35.876 -28.638   6.032  0.00  0.00     0.085 H 
+ATOM     27  H26 WQQ d   1      35.632 -26.800   4.400  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  S27 WQQ d   1      33.885 -30.063   7.594  0.00  0.00     0.171 S 
+ATOM     29  O29 WQQ d   1      35.303 -30.305   7.995  0.00  0.00    -0.223 OA
+ATOM     30  O28 WQQ d   1      33.303 -31.287   6.967  0.00  0.00    -0.223 OA
+BRANCH  28  31
+ATOM     31  C30 WQQ d   1      32.874 -29.596   8.966  0.00  0.00     0.020 C 
+ATOM     32  H22 WQQ d   1      32.903 -30.388   9.729  0.00  0.00     0.049 H 
+ATOM     33  H23 WQQ d   1      31.838 -29.453   8.626  0.00  0.00     0.049 H 
+ATOM     34  H24 WQQ d   1      33.252 -28.657   9.397  0.00  0.00     0.049 H 
+ENDBRANCH  28  31
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   7  11
+BRANCH   1  35
+ATOM     35  C16 WQQ d   1      28.521 -20.182   4.272  0.00  0.00     0.030 A 
+ATOM     36  C31 WQQ d   1      28.107 -20.150   5.608  0.00  0.00     0.087 A 
+ATOM     37  O32 WQQ d   1      27.805 -18.851   5.953  0.00  0.00    -0.217 OA
+ATOM     38  N33 WQQ d   1      28.066 -18.040   4.838  0.00  0.00    -0.133 NA
+ATOM     39  C34 WQQ d   1      28.460 -18.841   3.835  0.00  0.00     0.071 A 
+BRANCH  36  40
+ATOM     40  C36 WQQ d   1      27.972 -21.341   6.552  0.00  0.00    -0.028 C 
+ATOM     41  H1  WQQ d   1      28.277 -22.260   6.029  0.00  0.00     0.036 H 
+ATOM     42  H2  WQQ d   1      26.925 -21.434   6.877  0.00  0.00     0.036 H 
+ATOM     43  H3  WQQ d   1      28.617 -21.188   7.430  0.00  0.00     0.036 H 
+ENDBRANCH  36  40
+BRANCH  39  44
+ATOM     44  C35 WQQ d   1      28.789 -18.248   2.485  0.00  0.00    -0.033 C 
+ATOM     45  H4  WQQ d   1      29.090 -19.050   1.796  0.00  0.00     0.035 H 
+ATOM     46  H5  WQQ d   1      29.614 -17.528   2.592  0.00  0.00     0.035 H 
+ATOM     47  H6  WQQ d   1      27.903 -17.734   2.084  0.00  0.00     0.035 H 
+ENDBRANCH  39  44
+ENDBRANCH   1  35
+BRANCH   4  48
+ATOM     48  C7  WQQ d   1      27.862 -23.628   0.763  0.00  0.00     0.039 A 
+ATOM     49  C12 WQQ d   1      26.703 -24.334   1.009  0.00  0.00    -0.036 A 
+ATOM     50  C11 WQQ d   1      25.998 -24.868  -0.057  0.00  0.00     0.036 A 
+ATOM     51  H12 WQQ d   1      26.348 -24.469   2.024  0.00  0.00     0.089 H 
+ATOM     52 CL   WQQ d   1      24.558 -25.775   0.266  0.00  0.00    -0.084 Cl
+ATOM     53  C10 WQQ d   1      26.446 -24.735  -1.358  0.00  0.00    -0.062 A 
+ATOM     54  C9  WQQ d   1      27.642 -24.052  -1.611  0.00  0.00    -0.079 A 
+ATOM     55  H13 WQQ d   1      25.875 -25.157  -2.177  0.00  0.00     0.086 H 
+ATOM     56  C8  WQQ d   1      28.345 -23.491  -0.539  0.00  0.00    -0.057 A 
+ATOM     57  H14 WQQ d   1      28.018 -23.959  -2.623  0.00  0.00     0.083 H 
+ATOM     58  H15 WQQ d   1      29.266 -22.949  -0.720  0.00  0.00     0.086 H 
+ENDBRANCH   4  48
+BRANCH   3  59
+ATOM     59  C15 WQQ d   1      26.919 -21.201   1.967  0.00  0.00    -0.053 C 
+ATOM     60  H9  WQQ d   1      26.719 -20.298   2.562  0.00  0.00     0.030 H 
+ATOM     61  H10 WQQ d   1      26.060 -21.885   2.039  0.00  0.00     0.030 H 
+ATOM     62  H11 WQQ d   1      27.077 -20.920   0.915  0.00  0.00     0.030 H 
+ENDBRANCH   3  59
+TORSDOF 10

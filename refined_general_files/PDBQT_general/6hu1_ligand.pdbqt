@@ -1,0 +1,50 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_1  and  C2_2 
+REMARK    1  A    between atoms: C19_10  and  N1_1 
+REMARK    2  A    between atoms: C2_2  and  C6_5 
+REMARK    3  A    between atoms: C17_8  and  C25_13 
+REMARK       I    between atoms: C25_13  and  N26_16 
+REMARK    4  A    between atoms: N26_16  and  O27_18 
+ROOT
+ATOM      1  C16 GT2 d   1      44.843  33.630  84.596  0.00  0.00    -0.066 A 
+ATOM      2  C17 GT2 d   1      45.392  33.608  85.874  0.00  0.00     0.036 A 
+ATOM      3  C18 GT2 d   1      44.932  34.516  86.827  0.00  0.00    -0.040 A 
+ATOM      4  C19 GT2 d   1      43.929  35.437  86.519  0.00  0.00     0.057 A 
+ATOM      5  C20 GT2 d   1      43.413  35.440  85.220  0.00  0.00     0.060 A 
+ATOM      6  C21 GT2 d   1      43.861  34.544  84.269  0.00  0.00    -0.059 A 
+ATOM      7 CL3  GT2 d   1      42.209  36.606  84.767  0.00  0.00    -0.082 Cl
+ATOM      8  H3  GT2 d   1      45.189  32.923  83.850  0.00  0.00     0.085 H 
+ATOM      9  H4  GT2 d   1      45.360  34.507  87.823  0.00  0.00     0.088 H 
+ATOM     10  H5  GT2 d   1      43.443  34.558  83.269  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  N1  GT2 d   1      43.418  36.329  87.504  0.00  0.00    -0.321 N 
+ATOM     12  C2  GT2 d   1      44.062  37.413  88.011  0.00  0.00     0.257 C 
+ATOM     13  O14 GT2 d   1      45.016  37.945  87.452  0.00  0.00    -0.267 OA
+ATOM     14  H1  GT2 d   1      42.501  36.141  87.855  0.00  0.00     0.169 HD
+BRANCH  12  15
+ATOM     15  C6  GT2 d   1      43.557  37.927  89.330  0.00  0.00     0.054 A 
+ATOM     16  C5  GT2 d   1      44.324  38.686  90.215  0.00  0.00     0.051 A 
+ATOM     17  C4  GT2 d   1      43.810  39.132  91.418  0.00  0.00    -0.040 A 
+ATOM     18 CL1  GT2 d   1      45.966  39.102  89.843  0.00  0.00    -0.083 Cl
+ATOM     19  C3  GT2 d   1      42.509  38.812  91.741  0.00  0.00     0.035 A 
+ATOM     20  H6  GT2 d   1      44.418  39.722  92.094  0.00  0.00     0.088 H 
+ATOM     21  C8  GT2 d   1      41.725  38.059  90.902  0.00  0.00    -0.061 A 
+ATOM     22 CL2  GT2 d   1      41.839  39.394  93.241  0.00  0.00    -0.084 Cl
+ATOM     23  C7  GT2 d   1      42.252  37.621  89.703  0.00  0.00    -0.064 A 
+ATOM     24  H2  GT2 d   1      40.706  37.812  91.177  0.00  0.00     0.086 H 
+ATOM     25  H7  GT2 d   1      41.636  37.026  89.038  0.00  0.00     0.085 H 
+ENDBRANCH  12  15
+ENDBRANCH   4  11
+BRANCH   2  26
+ATOM     26  C25 GT2 d   1      46.454  32.614  86.239  0.00  0.00     0.275 C 
+ATOM     27  N26 GT2 d   1      46.545  31.528  85.476  0.00  0.00    -0.233 N 
+ATOM     28  H8  GT2 d   1      45.917  31.405  84.707  0.00  0.00     0.197 HD
+ATOM     29  O28 GT2 d   1      47.189  32.803  87.203  0.00  0.00    -0.265 OA
+BRANCH  27  30
+ATOM     30  O27 GT2 d   1      47.512  30.561  85.744  0.00  0.00    -0.287 OA
+ATOM     31  H9  GT2 d   1      47.440  29.858  85.109  0.00  0.00     0.244 HD
+ENDBRANCH  27  30
+ENDBRANCH   2  26
+TORSDOF 4

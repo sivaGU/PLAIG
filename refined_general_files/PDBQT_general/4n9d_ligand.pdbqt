@@ -1,0 +1,91 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C2_2  and  C4_4 
+REMARK    4  A    between atoms: C2_2  and  C5_5 
+REMARK    5  A    between atoms: C8_8  and  S11_11 
+REMARK    6  A    between atoms: S11_11  and  N14_14 
+REMARK    7  A    between atoms: N14_14  and  C15_15 
+REMARK    8  A    between atoms: C15_15  and  C16_16 
+REMARK    9  A    between atoms: C19_19  and  C22_22 
+REMARK       I    between atoms: C22_22  and  N24_24 
+REMARK   10  A    between atoms: N24_24  and  C25_25 
+ROOT
+ATOM      1  N14 2HJ d   1      14.874   4.368  -0.646  0.00  0.00    -0.311 N 
+ATOM      2  H   2HJ d   1      14.598   4.169   0.294  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  S11 2HJ d   1      14.275   3.450  -1.903  0.00  0.00     0.259 S 
+ATOM      4  O12 2HJ d   1      13.577   2.339  -1.346  0.00  0.00    -0.201 OA
+ATOM      5  O13 2HJ d   1      13.639   4.346  -2.828  0.00  0.00    -0.201 OA
+BRANCH   3   6
+ATOM      6  C8  2HJ d   1      15.699   2.778  -2.712  0.00  0.00     0.079 A 
+ATOM      7  C7  2HJ d   1      16.519   1.887  -2.038  0.00  0.00    -0.060 A 
+ATOM      8  C6  2HJ d   1      17.640   1.352  -2.649  0.00  0.00    -0.075 A 
+ATOM      9  H   2HJ d   1      16.279   1.605  -1.019  0.00  0.00     0.085 H 
+ATOM     10  C5  2HJ d   1      17.949   1.705  -3.956  0.00  0.00    -0.051 A 
+ATOM     11  H   2HJ d   1      18.275   0.659  -2.109  0.00  0.00     0.084 H 
+ATOM     12  C10 2HJ d   1      17.129   2.596  -4.636  0.00  0.00    -0.075 A 
+ATOM     13  C9  2HJ d   1      16.012   3.138  -4.015  0.00  0.00    -0.060 A 
+ATOM     14  H   2HJ d   1      17.363   2.870  -5.658  0.00  0.00     0.084 H 
+ATOM     15  H   2HJ d   1      15.384   3.843  -4.548  0.00  0.00     0.085 H 
+BRANCH  10  16
+ATOM     16  C2  2HJ d   1      19.175   1.103  -4.620  0.00  0.00    -0.024 C 
+BRANCH  16  17
+ATOM     17  C1  2HJ d   1      18.822  -0.295  -5.147  0.00  0.00    -0.066 C 
+ATOM     18  H   2HJ d   1      19.705  -0.739  -5.630  0.00  0.00     0.028 H 
+ATOM     19  H   2HJ d   1      18.005  -0.215  -5.879  0.00  0.00     0.028 H 
+ATOM     20  H   2HJ d   1      18.503  -0.933  -4.309  0.00  0.00     0.028 H 
+ENDBRANCH  16  17
+BRANCH  16  21
+ATOM     21  C3  2HJ d   1      19.665   1.983  -5.772  0.00  0.00    -0.066 C 
+ATOM     22  H   2HJ d   1      19.916   2.983  -5.388  0.00  0.00     0.028 H 
+ATOM     23  H   2HJ d   1      18.873   2.070  -6.530  0.00  0.00     0.028 H 
+ATOM     24  H   2HJ d   1      20.558   1.529  -6.226  0.00  0.00     0.028 H 
+ENDBRANCH  16  21
+BRANCH  16  25
+ATOM     25  C4  2HJ d   1      20.315   0.984  -3.613  0.00  0.00    -0.066 C 
+ATOM     26  H   2HJ d   1      19.995   0.355  -2.769  0.00  0.00     0.028 H 
+ATOM     27  H   2HJ d   1      20.584   1.985  -3.244  0.00  0.00     0.028 H 
+ATOM     28  H   2HJ d   1      21.188   0.526  -4.100  0.00  0.00     0.028 H 
+ENDBRANCH  16  25
+ENDBRANCH  10  16
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  29
+ATOM     29  C15 2HJ d   1      15.815   5.478  -0.921  0.00  0.00     0.026 C 
+ATOM     30  H   2HJ d   1      15.534   5.997  -1.849  0.00  0.00     0.072 H 
+ATOM     31  H   2HJ d   1      16.843   5.096  -1.011  0.00  0.00     0.072 H 
+BRANCH  29  32
+ATOM     32  C16 2HJ d   1      15.704   6.412   0.256  0.00  0.00    -0.040 A 
+ATOM     33  C17 2HJ d   1      14.551   7.156   0.358  0.00  0.00    -0.074 A 
+ATOM     34  C18 2HJ d   1      14.391   7.999   1.431  0.00  0.00    -0.067 A 
+ATOM     35  H   2HJ d   1      13.779   7.078  -0.399  0.00  0.00     0.084 H 
+ATOM     36  C19 2HJ d   1      15.400   8.130   2.384  0.00  0.00     0.032 A 
+ATOM     37  H   2HJ d   1      13.473   8.566   1.537  0.00  0.00     0.085 H 
+ATOM     38  C20 2HJ d   1      16.553   7.338   2.309  0.00  0.00    -0.067 A 
+ATOM     39  C21 2HJ d   1      16.702   6.493   1.221  0.00  0.00    -0.074 A 
+ATOM     40  H   2HJ d   1      17.310   7.385   3.083  0.00  0.00     0.085 H 
+ATOM     41  H   2HJ d   1      17.599   5.893   1.122  0.00  0.00     0.084 H 
+BRANCH  36  42
+ATOM     42  C22 2HJ d   1      15.065   8.978   3.535  0.00  0.00     0.256 C 
+ATOM     43  O23 2HJ d   1      14.301   9.917   3.450  0.00  0.00    -0.267 OA
+ATOM     44  N24 2HJ d   1      15.544   8.507   4.705  0.00  0.00    -0.322 N 
+ATOM     45  H   2HJ d   1      16.209   7.765   4.620  0.00  0.00     0.169 HD
+BRANCH  44  46
+ATOM     46  C25 2HJ d   1      15.258   8.892   6.016  0.00  0.00     0.052 A 
+ATOM     47  C26 2HJ d   1      16.001   8.367   7.068  0.00  0.00    -0.054 A 
+ATOM     48  C27 2HJ d   1      15.605   8.679   8.368  0.00  0.00    -0.064 A 
+ATOM     49  H   2HJ d   1      16.862   7.734   6.883  0.00  0.00     0.087 H 
+ATOM     50  C28 2HJ d   1      14.475   9.446   8.577  0.00  0.00     0.002 A 
+ATOM     51  H   2HJ d   1      16.182   8.321   9.213  0.00  0.00     0.085 H 
+ATOM     52  N29 2HJ d   1      13.760   9.897   7.555  0.00  0.00    -0.271 NA
+ATOM     53  H   2HJ d   1      14.169   9.682   9.590  0.00  0.00     0.114 H 
+ATOM     54  C30 2HJ d   1      14.102   9.616   6.310  0.00  0.00     0.028 A 
+ATOM     55  H   2HJ d   1      13.470   9.956   5.498  0.00  0.00     0.118 H 
+ENDBRANCH  44  46
+ENDBRANCH  36  42
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 10

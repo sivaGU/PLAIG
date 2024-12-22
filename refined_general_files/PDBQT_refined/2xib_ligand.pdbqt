@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_9 
+REMARK    2  A    between atoms: C3_3  and  O3_8 
+REMARK    3  A    between atoms: C4_4  and  O4_7 
+REMARK    4  A    between atoms: C5_5  and  C6_6 
+ROOT
+ATOM      1  C1  DFU d   1      32.588   2.536  42.594  0.00  0.00     0.108 C 
+ATOM      2  C2  DFU d   1      33.001   3.525  43.684  0.00  0.00     0.086 C 
+ATOM      3  C3  DFU d   1      32.232   4.791  43.503  0.00  0.00     0.088 C 
+ATOM      4  C4  DFU d   1      30.747   4.412  43.644  0.00  0.00     0.089 C 
+ATOM      5  C5  DFU d   1      30.346   3.344  42.606  0.00  0.00     0.125 C 
+ATOM      6  N5  DFU d   1      31.173   2.159  42.778  0.00  0.00    -0.066 N 
+ATOM      7  H1  DFU d   1      33.218   1.636  42.658  0.00  0.00     0.079 H 
+ATOM      8  H2  DFU d   1      32.717   3.004  41.607  0.00  0.00     0.079 H 
+ATOM      9  H3  DFU d   1      32.736   3.092  44.660  0.00  0.00     0.089 H 
+ATOM     10  H4  DFU d   1      32.425   5.218  42.508  0.00  0.00     0.091 H 
+ATOM     11  H5  DFU d   1      30.128   5.309  43.498  0.00  0.00     0.090 H 
+ATOM     12  H6  DFU d   1      30.494   3.754  41.596  0.00  0.00     0.087 H 
+ATOM     13  H13 DFU d   1      31.040   1.784  43.704  0.00  0.00     0.277 HD
+ATOM     14  H14 DFU d   1      30.916   1.464  42.094  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   5  15
+ATOM     15  C6  DFU d   1      28.886   2.926  42.772  0.00  0.00    -0.047 C 
+ATOM     16  H7  DFU d   1      28.634   2.166  42.018  0.00  0.00     0.030 H 
+ATOM     17  H8  DFU d   1      28.236   3.803  42.639  0.00  0.00     0.030 H 
+ATOM     18  H9  DFU d   1      28.736   2.508  43.778  0.00  0.00     0.030 H 
+ENDBRANCH   5  15
+BRANCH   4  19
+ATOM     19  O4  DFU d   1      30.528   3.876  44.978  0.00  0.00    -0.391 OA
+ATOM     20  H10 DFU d   1      30.773   4.528  45.624  0.00  0.00     0.210 HD
+ENDBRANCH   4  19
+BRANCH   3  21
+ATOM     21  O3  DFU d   1      32.604   5.743  44.517  0.00  0.00    -0.390 OA
+ATOM     22  H11 DFU d   1      32.074   6.526  44.425  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   2  23
+ATOM     23  O2  DFU d   1      34.419   3.781  43.685  0.00  0.00    -0.391 OA
+ATOM     24  H12 DFU d   1      34.632   4.373  44.397  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+TORSDOF 4

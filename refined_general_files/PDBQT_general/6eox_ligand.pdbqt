@@ -1,0 +1,70 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CZ_2  and  C34_4 
+REMARK    2  A    between atoms: C34_4  and  C29_5 
+REMARK    3  A    between atoms: C28_10  and  S1_11 
+REMARK    4  A    between atoms: S1_11  and  C1_14 
+REMARK    5  A    between atoms: C4_17  and  C7_20 
+REMARK    6  A    between atoms: C10_23  and  O13_24 
+REMARK    7  A    between atoms: O13_24  and  C14_25 
+ROOT
+ATOM      1  C1  BKW d   1       1.725 -14.268   5.301  0.00  0.00     0.064 A 
+ATOM      2  C6  BKW d   1       1.854 -13.677   6.523  0.00  0.00    -0.061 A 
+ATOM      3  C5  BKW d   1       2.936 -13.856   7.305  0.00  0.00    -0.071 A 
+ATOM      4  C4  BKW d   1       3.987 -14.627   6.851  0.00  0.00    -0.026 A 
+ATOM      5  C3  BKW d   1       3.864 -15.240   5.586  0.00  0.00    -0.071 A 
+ATOM      6  C2  BKW d   1       2.696 -15.050   4.825  0.00  0.00    -0.061 A 
+ATOM      7  H7  BKW d   1       1.054 -13.038   6.879  0.00  0.00     0.085 H 
+ATOM      8  H8  BKW d   1       2.981 -13.397   8.286  0.00  0.00     0.084 H 
+ATOM      9  H9  BKW d   1       4.668 -15.856   5.201  0.00  0.00     0.084 H 
+ATOM     10  H10 BKW d   1       2.586 -15.534   3.861  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  S1  BKW d   1       0.424 -14.172   4.414  0.00  0.00     0.207 S 
+ATOM     12  OS1 BKW d   1      -0.706 -13.600   5.115  0.00  0.00    -0.217 OA
+ATOM     13  OS2 BKW d   1       0.143 -15.519   4.051  0.00  0.00    -0.217 OA
+BRANCH  11  14
+ATOM     14  C28 BKW d   1       0.738 -13.321   3.073  0.00  0.00     0.071 A 
+ATOM     15  C29 BKW d   1       0.834 -11.946   3.009  0.00  0.00    -0.026 A 
+ATOM     16  C30 BKW d   1       1.126 -11.318   1.834  0.00  0.00    -0.075 A 
+ATOM     17  C31 BKW d   1       1.317 -12.061   0.710  0.00  0.00    -0.082 A 
+ATOM     18  H3  BKW d   1       1.205 -10.238   1.796  0.00  0.00     0.084 H 
+ATOM     19  C32 BKW d   1       1.188 -13.457   0.774  0.00  0.00    -0.082 A 
+ATOM     20  H4  BKW d   1       1.567 -11.578  -0.228  0.00  0.00     0.083 H 
+ATOM     21  C33 BKW d   1       0.909 -14.115   1.926  0.00  0.00    -0.061 A 
+ATOM     22  H5  BKW d   1       1.317 -14.033  -0.135  0.00  0.00     0.083 H 
+ATOM     23  H6  BKW d   1       0.823 -15.195   1.961  0.00  0.00     0.085 H 
+BRANCH  15  24
+ATOM     24  C34 BKW d   1       0.730 -11.022   4.231  0.00  0.00     0.041 C 
+ATOM     25  H1  BKW d   1       0.152 -10.125   3.965  0.00  0.00     0.056 H 
+ATOM     26  H2  BKW d   1       0.225 -11.553   5.051  0.00  0.00     0.056 H 
+BRANCH  24  27
+ATOM     27  CZ  BKW d   1       2.119 -10.615   4.673  0.00  0.00     0.177 C 
+ATOM     28  OP3 BKW d   1       2.255  -9.851   5.662  0.00  0.00    -0.648 OA
+ATOM     29  OP2 BKW d   1       3.113 -11.120   4.082  0.00  0.00    -0.648 OA
+ENDBRANCH  24  27
+ENDBRANCH  15  24
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   4  30
+ATOM     30  C7  BKW d   1       5.191 -14.896   7.623  0.00  0.00    -0.026 A 
+ATOM     31  C12 BKW d   1       5.167 -15.036   9.025  0.00  0.00    -0.070 A 
+ATOM     32  C11 BKW d   1       6.357 -15.384   9.695  0.00  0.00    -0.050 A 
+ATOM     33  H11 BKW d   1       4.249 -14.879   9.579  0.00  0.00     0.085 H 
+ATOM     34  C10 BKW d   1       7.538 -15.569   8.991  0.00  0.00     0.068 A 
+ATOM     35  H12 BKW d   1       6.349 -15.508  10.772  0.00  0.00     0.087 H 
+ATOM     36  C9  BKW d   1       7.551 -15.438   7.609  0.00  0.00    -0.050 A 
+ATOM     37  C8  BKW d   1       6.376 -15.108   6.955  0.00  0.00    -0.070 A 
+ATOM     38  H16 BKW d   1       8.467 -15.592   7.050  0.00  0.00     0.087 H 
+ATOM     39  H17 BKW d   1       6.390 -15.013   5.875  0.00  0.00     0.085 H 
+BRANCH  34  40
+ATOM     40  O13 BKW d   1       8.723 -15.822   9.632  0.00  0.00    -0.356 OA
+BRANCH  40  41
+ATOM     41  C14 BKW d   1       8.969 -17.004  10.410  0.00  0.00     0.010 C 
+ATOM     42  H13 BKW d   1       9.990 -16.969  10.818  0.00  0.00     0.066 H 
+ATOM     43  H14 BKW d   1       8.860 -17.893   9.771  0.00  0.00     0.066 H 
+ATOM     44  H15 BKW d   1       8.246 -17.056  11.237  0.00  0.00     0.066 H 
+ENDBRANCH  40  41
+ENDBRANCH  34  40
+ENDBRANCH   4  30
+TORSDOF 7

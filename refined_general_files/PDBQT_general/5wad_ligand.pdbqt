@@ -1,0 +1,60 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: B1_1  and  C2_2 
+REMARK    2  A    between atoms: B1_1  and  O4_4 
+REMARK    3  A    between atoms: B1_1  and  O5_5 
+REMARK    4  A    between atoms: C2_2  and  N3_3 
+REMARK    5  A    between atoms: N3_3  and  S7_6 
+REMARK    6  A    between atoms: O5_5  and  P1_20 
+REMARK    7  A    between atoms: S7_6  and  C10_9 
+REMARK    8  A    between atoms: C13_12  and  C16_15 
+ROOT
+ATOM      1  S7  QQZ d   1     -66.575  -9.728 -39.199  0.00  0.00     0.259 S 
+ATOM      2  O8  QQZ d   1     -67.050 -10.810 -38.364  0.00  0.00    -0.201 OA
+ATOM      3  O9  QQZ d   1     -67.231  -9.691 -40.466  0.00  0.00    -0.201 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N3  QQZ d   1     -64.993  -9.807 -39.531  0.00  0.00    -0.319 N 
+ATOM      5  H   QQZ d   1     -64.594  -9.066 -40.107  0.00  0.00     0.171 HD
+BRANCH   4   6
+ATOM      6  C2  QQZ d   1     -64.109 -10.844 -39.074  0.00  0.00     0.038 C 
+ATOM      7  H   QQZ d   1     -64.071 -10.841 -37.985  0.00  0.00     0.058 H 
+ATOM      8  H   QQZ d   1     -64.473 -11.813 -39.414  0.00  0.00     0.058 H 
+BRANCH   6   9
+ATOM      9  B1  QQZ d   1     -62.631 -10.577 -39.671  0.00  0.00     0.522 B 
+BRANCH   9  10
+ATOM     10  O4  QQZ d   1     -62.408  -9.080 -39.891  0.00  0.00    -0.436 OA
+ATOM     11  H   QQZ d   1     -63.010  -8.764 -40.569  0.00  0.00     0.184 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  O5  QQZ d   1     -62.392 -11.342 -40.893  0.00  0.00    -0.319 OA
+BRANCH  12  13
+ATOM     13  P1  QQZ d   1     -62.713 -10.710 -42.362  0.00  0.00     0.407 P 
+ATOM     14  O2  QQZ d   1     -63.940  -9.864 -42.022  0.00  0.00    -0.618 OA
+ATOM     15  O3  QQZ d   1     -62.925 -11.856 -43.336  0.00  0.00    -0.618 OA
+ATOM     16  O6  QQZ d   1     -61.550  -9.962 -42.945  0.00  0.00    -0.618 OA
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   6   9
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  17
+ATOM     17  C10 QQZ d   1     -66.798  -8.395 -38.351  0.00  0.00     0.097 A 
+ATOM     18  C11 QQZ d   1     -66.653  -8.432 -36.965  0.00  0.00    -0.057 A 
+ATOM     19  C12 QQZ d   1     -66.875  -7.284 -36.192  0.00  0.00    -0.050 A 
+ATOM     20  H   QQZ d   1     -66.364  -9.363 -36.477  0.00  0.00     0.086 H 
+ATOM     21  C13 QQZ d   1     -67.260  -6.117 -36.855  0.00  0.00     0.107 A 
+ATOM     22  H   QQZ d   1     -66.751  -7.302 -35.109  0.00  0.00     0.087 H 
+ATOM     23  N14 QQZ d   1     -67.387  -6.107 -38.202  0.00  0.00    -0.256 NA
+ATOM     24  C15 QQZ d   1     -67.168  -7.196 -38.965  0.00  0.00     0.025 A 
+ATOM     25  H   QQZ d   1     -67.278  -7.142 -40.048  0.00  0.00     0.117 H 
+BRANCH  21  26
+ATOM     26  C16 QQZ d   1     -67.510  -4.846 -36.135  0.00  0.00     0.216 A 
+ATOM     27  N17 QQZ d   1     -67.492  -3.556 -36.543  0.00  0.00    -0.134 NA
+ATOM     28  N18 QQZ d   1     -67.774  -2.798 -35.392  0.00  0.00     0.022 NA
+ATOM     29  N19 QQZ d   1     -67.983  -3.642 -34.303  0.00  0.00    -0.200 N 
+ATOM     30  N20 QQZ d   1     -67.793  -4.925 -34.839  0.00  0.00    -0.137 NA
+ATOM     31  H   QQZ d   1     -68.218  -3.388 -33.344  0.00  0.00     0.208 HD
+ENDBRANCH  21  26
+ENDBRANCH   1  17
+TORSDOF 8

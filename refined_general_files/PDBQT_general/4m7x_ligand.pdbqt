@@ -1,0 +1,118 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAX_2  and  OAS_5 
+REMARK    2  A    between atoms: OAS_5  and  CAP_6 
+REMARK    3  A    between atoms: CAP_6  and  CAW_7 
+REMARK    4  A    between atoms: CAW_7  and  CAB_8 
+REMARK    5  A    between atoms: CAW_7  and  CAC_9 
+REMARK    6  A    between atoms: CAW_7  and  CAV_10 
+REMARK    7  A    between atoms: CAV_10  and  OAG_11 
+REMARK    8  A    between atoms: CAV_10  and  CAU_12 
+REMARK       I    between atoms: CAU_12  and  NAR_14 
+REMARK    9  A    between atoms: NAR_14  and  CAN_15 
+REMARK   10  A    between atoms: CAN_15  and  CAO_16 
+REMARK   11  A    between atoms: CAO_16  and  CAT_17 
+REMARK       I    between atoms: CAT_17  and  NAQ_19 
+REMARK   12  A    between atoms: NAQ_19  and  CAM_20 
+REMARK   13  A    between atoms: CAM_20  and  CAL_21 
+REMARK   14  A    between atoms: CAL_21  and  CAK_22 
+REMARK   15  A    between atoms: CAK_22  and  CAJ_23 
+REMARK   16  A    between atoms: CAJ_23  and  CAA_24 
+REMARK   17  A    between atoms: CAA_24  and  CAY_25 
+REMARK   18  A    between atoms: CAY_25  and  CAZ_26 
+ROOT
+ATOM      1  CAO 27Q d   1      15.463   8.852   7.609  0.00  0.00     0.024 C 
+ATOM      2  H14 27Q d   1      14.756   9.651   7.878  0.00  0.00     0.049 H 
+ATOM      3  H15 27Q d   1      16.308   8.857   8.314  0.00  0.00     0.049 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAN 27Q d   1      15.997   9.094   6.149  0.00  0.00     0.003 C 
+ATOM      5  H12 27Q d   1      16.822   8.399   5.936  0.00  0.00     0.064 H 
+ATOM      6  H13 27Q d   1      15.184   8.931   5.426  0.00  0.00     0.064 H 
+BRANCH   4   7
+ATOM      7  NAR 27Q d   1      16.467  10.446   6.052  0.00  0.00    -0.358 N 
+ATOM      8  CAU 27Q d   1      15.650  11.487   5.886  0.00  0.00     0.247 C 
+ATOM      9  OAE 27Q d   1      14.413  11.371   5.846  0.00  0.00    -0.271 OA
+ATOM     10  H11 27Q d   1      17.451  10.615   6.112  0.00  0.00     0.162 HD
+BRANCH   8  11
+ATOM     11  CAV 27Q d   1      16.304  12.850   5.754  0.00  0.00     0.120 C 
+ATOM     12  H9  27Q d   1      15.895  13.357   4.868  0.00  0.00     0.099 H 
+BRANCH  11  13
+ATOM     13  CAW 27Q d   1      16.025  13.760   7.014  0.00  0.00     0.009 C 
+BRANCH  13  14
+ATOM     14  CAP 27Q d   1      16.879  15.051   6.937  0.00  0.00     0.042 C 
+ATOM     15  H1  27Q d   1      16.615  15.712   7.776  0.00  0.00     0.076 H 
+ATOM     16  H2  27Q d   1      17.945  14.786   7.001  0.00  0.00     0.076 H 
+BRANCH  14  17
+ATOM     17  OAS 27Q d   1      16.645  15.703   5.756  0.00  0.00    -0.282 OA
+BRANCH  17  18
+ATOM     18  PAX 27Q d   1      17.814  16.028   4.649  0.00  0.00     0.422 P 
+ATOM     19  OAH 27Q d   1      18.962  16.818   5.298  0.00  0.00    -0.617 OA
+ATOM     20  OAI 27Q d   1      18.166  14.577   3.902  0.00  0.00    -0.617 OA
+ATOM     21  OAF 27Q d   1      17.168  16.990   3.673  0.00  0.00    -0.617 OA
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+BRANCH  13  22
+ATOM     22  CAB 27Q d   1      14.527  14.122   7.120  0.00  0.00    -0.065 C 
+ATOM     23  H3  27Q d   1      13.930  13.200   7.174  0.00  0.00     0.028 H 
+ATOM     24  H4  27Q d   1      14.226  14.702   6.235  0.00  0.00     0.028 H 
+ATOM     25  H5  27Q d   1      14.358  14.722   8.026  0.00  0.00     0.028 H 
+ENDBRANCH  13  22
+BRANCH  13  26
+ATOM     26  CAC 27Q d   1      16.494  13.011   8.253  0.00  0.00    -0.065 C 
+ATOM     27  H6  27Q d   1      17.562  12.766   8.151  0.00  0.00     0.028 H 
+ATOM     28  H7  27Q d   1      15.914  12.083   8.362  0.00  0.00     0.028 H 
+ATOM     29  H8  27Q d   1      16.346  13.643   9.141  0.00  0.00     0.028 H 
+ENDBRANCH  13  26
+ENDBRANCH  11  13
+BRANCH  11  30
+ATOM     30  OAG 27Q d   1      17.726  12.634   5.561  0.00  0.00    -0.385 OA
+ATOM     31  H10 27Q d   1      18.157  13.470   5.431  0.00  0.00     0.210 HD
+ENDBRANCH  11  30
+ENDBRANCH   8  11
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  32
+ATOM     32  CAT 27Q d   1      14.760   7.514   7.674  0.00  0.00     0.219 C 
+ATOM     33  OAD 27Q d   1      13.588   7.403   7.370  0.00  0.00    -0.274 OA
+ATOM     34  NAQ 27Q d   1      15.494   6.465   7.997  0.00  0.00    -0.361 N 
+ATOM     35  H16 27Q d   1      16.457   6.585   8.240  0.00  0.00     0.162 HD
+BRANCH  34  36
+ATOM     36  CAM 27Q d   1      14.900   5.124   8.000  0.00  0.00    -0.005 C 
+ATOM     37  H17 27Q d   1      14.413   4.952   7.029  0.00  0.00     0.064 H 
+ATOM     38  H18 27Q d   1      14.148   5.073   8.801  0.00  0.00     0.064 H 
+BRANCH  36  39
+ATOM     39  CAL 27Q d   1      15.915   4.046   8.226  0.00  0.00    -0.050 C 
+ATOM     40  H19 27Q d   1      16.808   4.225   7.610  0.00  0.00     0.035 H 
+ATOM     41  H20 27Q d   1      15.491   3.061   7.980  0.00  0.00     0.035 H 
+BRANCH  39  42
+ATOM     42  CAK 27Q d   1      16.256   4.116   9.660  0.00  0.00    -0.064 C 
+ATOM     43  H21 27Q d   1      15.757   4.978  10.127  0.00  0.00     0.033 H 
+ATOM     44  H22 27Q d   1      17.345   4.210   9.787  0.00  0.00     0.033 H 
+BRANCH  42  45
+ATOM     45  CAJ 27Q d   1      15.770   2.835  10.284  0.00  0.00    -0.065 C 
+ATOM     46  H23 27Q d   1      15.423   2.119   9.524  0.00  0.00     0.033 H 
+ATOM     47  H24 27Q d   1      14.965   3.017  11.011  0.00  0.00     0.033 H 
+BRANCH  45  48
+ATOM     48  CAA 27Q d   1      17.019   2.366  10.952  0.00  0.00    -0.065 C 
+ATOM     49  H25 27Q d   1      17.648   3.228  11.219  0.00  0.00     0.033 H 
+ATOM     50  H26 27Q d   1      17.577   1.699  10.278  0.00  0.00     0.033 H 
+BRANCH  48  51
+ATOM     51  CAY 27Q d   1      16.618   1.623  12.189  0.00  0.00    -0.069 C 
+ATOM     52  H27 27Q d   1      16.595   0.539  12.001  0.00  0.00     0.032 H 
+ATOM     53  H28 27Q d   1      15.630   1.956  12.539  0.00  0.00     0.032 H 
+BRANCH  51  54
+ATOM     54  CAZ 27Q d   1      17.700   1.970  13.217  0.00  0.00    -0.077 C 
+ATOM     55  H29 27Q d   1      17.481   1.460  14.167  0.00  0.00     0.027 H 
+ATOM     56  H30 27Q d   1      17.715   3.058  13.380  0.00  0.00     0.027 H 
+ATOM     57  H31 27Q d   1      18.681   1.641  12.842  0.00  0.00     0.027 H 
+ENDBRANCH  51  54
+ENDBRANCH  48  51
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  34  36
+ENDBRANCH   1  32
+TORSDOF 18

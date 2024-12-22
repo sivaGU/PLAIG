@@ -1,0 +1,57 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_6  and  C8_7 
+REMARK    2  A    between atoms: C5_8  and  C9_11 
+REMARK    3  A    between atoms: C11_12  and  O2_13 
+REMARK    4  A    between atoms: O2_13  and  C15_14 
+REMARK    5  A    between atoms: C14_16  and  O1_17 
+ROOT
+ATOM      1 CL1  JAD d   1      23.641   5.021   4.081  0.00  0.00    -0.082 Cl
+ATOM      2  C3  JAD d   1      25.371   4.557   3.988  0.00  0.00     0.061 A 
+ATOM      3  C2  JAD d   1      26.314   5.559   3.810  0.00  0.00     0.067 A 
+ATOM      4  C7  JAD d   1      25.962   6.793   3.713  0.00  0.00     0.101 C 
+ATOM      5  N1  JAD d   1      25.664   7.912   3.662  0.00  0.00    -0.191 NA
+ATOM      6  C4  JAD d   1      25.749   3.216   4.098  0.00  0.00    -0.026 A 
+ATOM      7  C5  JAD d   1      27.108   2.879   4.019  0.00  0.00     0.000 A 
+ATOM      8  C6  JAD d   1      28.045   3.902   3.843  0.00  0.00    -0.069 A 
+ATOM      9  C1  JAD d   1      27.659   5.230   3.737  0.00  0.00    -0.060 A 
+ATOM     10  H4  JAD d   1      29.098   3.651   3.788  0.00  0.00     0.085 H 
+ATOM     11  H5  JAD d   1      28.404   6.005   3.598  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   6  12
+ATOM     12  C8  JAD d   1      24.655   2.188   4.291  0.00  0.00    -0.049 C 
+ATOM     13  H1  JAD d   1      23.678   2.693   4.322  0.00  0.00     0.033 H 
+ATOM     14  H2  JAD d   1      24.820   1.651   5.237  0.00  0.00     0.033 H 
+ATOM     15  H3  JAD d   1      24.672   1.473   3.455  0.00  0.00     0.033 H 
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C9  JAD d   1      27.649   1.472   4.124  0.00  0.00     0.090 C 
+ATOM     17  C11 JAD d   1      29.069   1.190   4.471  0.00  0.00     0.101 C 
+ATOM     18  C10 JAD d   1      29.107  -0.321   4.408  0.00  0.00     0.070 C 
+ATOM     19  H6  JAD d   1      29.772   1.643   3.757  0.00  0.00     0.096 H 
+ATOM     20  C14 JAD d   1      29.797  -0.883   3.169  0.00  0.00     0.056 C 
+ATOM     21  N3  JAD d   1      27.689  -0.707   4.343  0.00  0.00    -0.198 NA
+ATOM     22  H10 JAD d   1      29.593  -0.724   5.309  0.00  0.00     0.075 H 
+ATOM     23  C13 JAD d   1      28.799  -1.812   2.503  0.00  0.00    -0.027 C 
+ATOM     24  H11 JAD d   1      30.058  -0.061   2.486  0.00  0.00     0.085 H 
+ATOM     25  C12 JAD d   1      27.546  -1.803   3.371  0.00  0.00     0.002 C 
+ATOM     26  H13 JAD d   1      29.211  -2.830   2.442  0.00  0.00     0.038 H 
+ATOM     27  H14 JAD d   1      28.562  -1.451   1.491  0.00  0.00     0.038 H 
+ATOM     28  H15 JAD d   1      27.448  -2.763   3.899  0.00  0.00     0.058 H 
+ATOM     29  H16 JAD d   1      26.657  -1.636   2.745  0.00  0.00     0.058 H 
+ATOM     30  N2  JAD d   1      27.021   0.389   3.959  0.00  0.00    -0.200 NA
+BRANCH  17  31
+ATOM     31  O2  JAD d   1      29.319   1.676   5.785  0.00  0.00    -0.383 OA
+BRANCH  31  32
+ATOM     32  C15 JAD d   1      30.699   1.822   6.104  0.00  0.00     0.005 C 
+ATOM     33  H7  JAD d   1      30.800   2.200   7.132  0.00  0.00     0.066 H 
+ATOM     34  H8  JAD d   1      31.164   2.533   5.405  0.00  0.00     0.066 H 
+ATOM     35  H9  JAD d   1      31.200   0.846   6.022  0.00  0.00     0.066 H 
+ENDBRANCH  31  32
+ENDBRANCH  17  31
+BRANCH  20  36
+ATOM     36  O1  JAD d   1      30.987  -1.598   3.509  0.00  0.00    -0.394 OA
+ATOM     37  H12 JAD d   1      30.767  -2.321   4.085  0.00  0.00     0.210 HD
+ENDBRANCH  20  36
+ENDBRANCH   7  16
+TORSDOF 5

@@ -1,0 +1,70 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2'_2  and  O2'_1 
+REMARK    2  A    between atoms: C3'_5  and  O3'_6 
+REMARK    3  A    between atoms: C5'_8  and  C4'_7 
+REMARK    4  A    between atoms: O5'_9  and  C5'_8 
+REMARK    5  A    between atoms: C1'_18  and  O5'_9 
+REMARK    6  A    between atoms: C5'_11  and  O5'_10 
+REMARK    7  A    between atoms: C4'_12  and  C5'_11 
+REMARK    8  A    between atoms: C3'_14  and  O3'_15 
+REMARK    9  A    between atoms: C2'_16  and  O2'_17 
+ROOT
+ATOM      1  C5' EDG d   1      66.406  29.510  52.217  0.00  0.00     0.052 C 
+ATOM      2  H10 EDG d   1      67.108  30.074  52.849  0.00  0.00     0.077 H 
+ATOM      3  H11 EDG d   1      65.406  29.963  52.285  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4' EDG d   1      66.352  28.074  52.662  0.00  0.00     0.149 C 
+ATOM      5  N4' EDG d   1      65.246  27.331  52.069  0.00  0.00    -0.064 N 
+ATOM      6  C1' EDG d   1      65.073  26.103  52.856  0.00  0.00     0.108 C 
+ATOM      7  H5  EDG d   1      64.403  27.883  52.101  0.00  0.00     0.277 HD
+ATOM      8  H6  EDG d   1      65.460  27.100  51.111  0.00  0.00     0.277 HD
+ATOM      9  C2' EDG d   1      65.506  26.467  54.262  0.00  0.00     0.085 C 
+ATOM     10  H3  EDG d   1      64.020  25.784  52.847  0.00  0.00     0.079 H 
+ATOM     11  H4  EDG d   1      65.704  25.296  52.455  0.00  0.00     0.079 H 
+ATOM     12  C3' EDG d   1      66.163  27.851  54.174  0.00  0.00     0.091 C 
+ATOM     13  H2  EDG d   1      66.248  25.740  54.623  0.00  0.00     0.089 H 
+ATOM     14  H7  EDG d   1      65.487  28.610  54.595  0.00  0.00     0.090 H 
+ATOM     15  H9  EDG d   1      67.302  27.612  52.355  0.00  0.00     0.091 H 
+BRANCH   9  16
+ATOM     16  O2' EDG d   1      64.355  26.433  55.153  0.00  0.00    -0.391 OA
+ATOM     17  H1  EDG d   1      63.704  27.056  54.852  0.00  0.00     0.210 HD
+ENDBRANCH   9  16
+BRANCH  12  18
+ATOM     18  O3' EDG d   1      67.437  27.945  54.849  0.00  0.00    -0.391 OA
+ATOM     19  H8  EDG d   1      67.321  27.749  55.771  0.00  0.00     0.210 HD
+ENDBRANCH  12  18
+ENDBRANCH   1   4
+BRANCH   1  20
+ATOM     20  O5' EDG d   1      66.852  29.516  50.869  0.00  0.00    -0.356 OA
+BRANCH  20  21
+ATOM     21  C1' AHR d   1      67.076  30.792  50.265  0.00  0.00     0.158 C 
+ATOM     22  O4' AHR d   1      65.823  31.375  50.018  0.00  0.00    -0.348 OA
+ATOM     23  C4' AHR d   1      65.547  31.314  48.633  0.00  0.00     0.089 C 
+ATOM     24  C3' AHR d   1      66.948  31.487  48.017  0.00  0.00     0.092 C 
+ATOM     25  H15 EDG d   1      65.133  30.330  48.368  0.00  0.00     0.090 H 
+ATOM     26  C2' AHR d   1      67.790  30.649  48.948  0.00  0.00     0.110 C 
+ATOM     27  H16 EDG d   1      67.255  32.543  48.031  0.00  0.00     0.091 H 
+ATOM     28  H18 EDG d   1      67.768  29.601  48.615  0.00  0.00     0.094 H 
+ATOM     29  H20 EDG d   1      67.668  31.426  50.942  0.00  0.00     0.133 H 
+BRANCH  23  30
+ATOM     30  C5' AHR d   1      64.570  32.373  48.185  0.00  0.00     0.043 C 
+ATOM     31  H13 EDG d   1      64.966  33.362  48.458  0.00  0.00     0.078 H 
+ATOM     32  H14 EDG d   1      64.455  32.313  47.093  0.00  0.00     0.078 H 
+BRANCH  30  33
+ATOM     33  O5' AHR d   1      63.281  32.202  48.799  0.00  0.00    -0.398 OA
+ATOM     34  H12 EDG d   1      62.694  32.884  48.495  0.00  0.00     0.209 HD
+ENDBRANCH  30  33
+ENDBRANCH  23  30
+BRANCH  24  35
+ATOM     35  O3' AHR d   1      67.051  30.976  46.664  0.00  0.00    -0.390 OA
+ATOM     36  H17 EDG d   1      66.435  31.435  46.105  0.00  0.00     0.210 HD
+ENDBRANCH  24  35
+BRANCH  26  37
+ATOM     37  O2' AHR d   1      69.165  31.045  49.058  0.00  0.00    -0.388 OA
+ATOM     38  H19 EDG d   1      69.212  31.937  49.382  0.00  0.00     0.210 HD
+ENDBRANCH  26  37
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+TORSDOF 9

@@ -1,0 +1,80 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NRO_2  and  CZ3_4 
+REMARK    2  A    between atoms: NE1_10  and  C1'_13 
+REMARK    3  A    between atoms: C4'_15  and  C5'_19 
+REMARK    4  A    between atoms: C3'_16  and  O3'_17 
+REMARK    5  A    between atoms: C5'_19  and  O5'_20 
+REMARK    6  A    between atoms: O5'_20  and  PA_21 
+REMARK    7  A    between atoms: PA_21  and  O3A_24 
+REMARK    8  A    between atoms: O3A_24  and  PB_25 
+REMARK    9  A    between atoms: PB_25  and  O3B_28 
+REMARK   10  A    between atoms: O3B_28  and  PG_29 
+ROOT
+ATOM      1  C1' N5P d   1      -8.035  47.836  19.870  0.00  0.00     0.112 C 
+ATOM      2  O4' N5P d   1      -8.944  46.999  20.589  0.00  0.00    -0.356 OA
+ATOM      3  C4' N5P d   1      -8.266  46.407  21.704  0.00  0.00     0.087 C 
+ATOM      4  C3' N5P d   1      -6.887  47.062  21.738  0.00  0.00     0.066 C 
+ATOM      5  C2' N5P d   1      -7.053  48.335  20.921  0.00  0.00     0.002 C 
+ATOM      6  H6  N5P d   1      -7.490  47.240  19.123  0.00  0.00     0.118 H 
+ATOM      7  H7  N5P d   1      -8.152  45.327  21.531  0.00  0.00     0.090 H 
+ATOM      8  H8  N5P d   1      -6.567  47.285  22.767  0.00  0.00     0.087 H 
+ATOM      9  H10 N5P d   1      -7.476  49.155  21.521  0.00  0.00     0.043 H 
+ATOM     10  H11 N5P d   1      -6.103  48.661  20.472  0.00  0.00     0.043 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NE1 N5P d   1      -8.765  48.915  19.151  0.00  0.00    -0.329 N 
+ATOM     12  CE2 N5P d   1      -9.832  49.542  19.664  0.00  0.00     0.046 A 
+ATOM     13  CD2 N5P d   1     -10.223  50.513  18.640  0.00  0.00    -0.005 A 
+ATOM     14  CZ2 N5P d   1     -10.536  49.427  20.848  0.00  0.00    -0.054 A 
+ATOM     15  CE3 N5P d   1     -11.316  51.332  18.863  0.00  0.00    -0.039 A 
+ATOM     16  CG  N5P d   1      -9.336  50.430  17.525  0.00  0.00    -0.056 A 
+ATOM     17  CZ3 N5P d   1     -11.993  51.177  20.072  0.00  0.00     0.103 A 
+ATOM     18  H1  N5P d   1     -11.633  52.063  18.128  0.00  0.00     0.088 H 
+ATOM     19  CH2 N5P d   1     -11.620  50.254  21.044  0.00  0.00    -0.049 A 
+ATOM     20  H2  N5P d   1     -12.188  50.185  21.965  0.00  0.00     0.087 H 
+ATOM     21  CD1 N5P d   1      -8.463  49.417  17.919  0.00  0.00    -0.017 A 
+ATOM     22  H5  N5P d   1      -9.340  51.009  16.603  0.00  0.00     0.086 H 
+ATOM     23  H4  N5P d   1      -7.631  49.065  17.310  0.00  0.00     0.111 H 
+ATOM     24  H3  N5P d   1     -10.243  48.705  21.602  0.00  0.00     0.087 H 
+BRANCH  17  25
+ATOM     25  NRO N5P d   1     -13.108  51.951  20.359  0.00  0.00    -0.116 N 
+ATOM     26  OR2 N5P d   1     -13.582  52.860  19.418  0.00  0.00    -0.532 OA
+ATOM     27  OR1 N5P d   1     -13.659  51.789  21.444  0.00  0.00    -0.532 OA
+ENDBRANCH  17  25
+ENDBRANCH   1  11
+BRANCH   3  28
+ATOM     28  C5' N5P d   1      -9.035  46.598  23.012  0.00  0.00     0.058 C 
+ATOM     29  H12 N5P d   1      -8.595  45.957  23.790  0.00  0.00     0.079 H 
+ATOM     30  H13 N5P d   1     -10.088  46.318  22.859  0.00  0.00     0.079 H 
+BRANCH  28  31
+ATOM     31  O5' N5P d   1      -8.965  47.959  23.428  0.00  0.00    -0.287 OA
+BRANCH  31  32
+ATOM     32  PA  N5P d   1      -9.738  48.471  24.757  0.00  0.00     0.417 P 
+ATOM     33  O1A N5P d   1      -9.618  47.449  25.867  0.00  0.00    -0.624 OA
+ATOM     34  O2A N5P d   1      -9.329  49.881  25.077  0.00  0.00    -0.624 OA
+BRANCH  32  35
+ATOM     35  O3A N5P d   1     -11.215  48.514  24.107  0.00  0.00    -0.180 OA
+BRANCH  35  36
+ATOM     36  PB  N5P d   1     -12.592  48.490  24.949  0.00  0.00     0.428 P 
+ATOM     37  O1B N5P d   1     -12.365  49.328  26.181  0.00  0.00    -0.624 OA
+ATOM     38  O2B N5P d   1     -13.601  49.038  23.976  0.00  0.00    -0.624 OA
+BRANCH  36  39
+ATOM     39  O3B N5P d   1     -12.890  46.855  25.115  0.00  0.00    -0.173 OA
+BRANCH  39  40
+ATOM     40  PG  N5P d   1     -12.317  45.764  26.213  0.00  0.00     0.431 P 
+ATOM     41  O3G N5P d   1     -12.671  44.269  25.963  0.00  0.00    -0.616 OA
+ATOM     42  O2G N5P d   1     -12.896  46.618  27.335  0.00  0.00    -0.616 OA
+ATOM     43  O1G N5P d   1     -10.805  45.625  26.038  0.00  0.00    -0.616 OA
+ENDBRANCH  39  40
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH   3  28
+BRANCH   4  44
+ATOM     44  O3' N5P d   1      -5.947  46.179  21.096  0.00  0.00    -0.393 OA
+ATOM     45  H9  N5P d   1      -5.083  46.574  21.110  0.00  0.00     0.210 HD
+ENDBRANCH   4  44
+TORSDOF 10

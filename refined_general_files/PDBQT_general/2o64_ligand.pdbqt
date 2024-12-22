@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_3  and  O19_4 
+REMARK    2  A    between atoms: C13_6  and  O21_7 
+REMARK    3  A    between atoms: C15_10  and  O22_11 
+REMARK    4  A    between atoms: C14_12  and  O23_13 
+REMARK    5  A    between atoms: C7_15  and  C6_16 
+REMARK    6  A    between atoms: C4_18  and  O17_19 
+ROOT
+ATOM      1  O20 MYU d   1      74.029  38.919  -1.584  0.00  0.00    -0.284 OA
+ATOM      2  C11 MYU d   1      74.342  37.860  -1.044  0.00  0.00     0.223 A 
+ATOM      3  C12 MYU d   1      74.604  36.666  -1.829  0.00  0.00     0.152 A 
+ATOM      4  C10 MYU d   1      74.412  37.775   0.428  0.00  0.00     0.087 A 
+ATOM      5  C13 MYU d   1      74.145  38.943   1.288  0.00  0.00     0.118 A 
+ATOM      6  C9  MYU d   1      74.751  36.493   1.051  0.00  0.00     0.096 A 
+ATOM      7  C16 MYU d   1      74.811  36.347   2.431  0.00  0.00    -0.014 A 
+ATOM      8  C15 MYU d   1      74.568  37.419   3.287  0.00  0.00     0.104 A 
+ATOM      9  C14 MYU d   1      74.232  38.767   2.739  0.00  0.00     0.133 A 
+ATOM     10  O8  MYU d   1      74.989  35.431   0.254  0.00  0.00    -0.306 OA
+ATOM     11  C7  MYU d   1      74.894  35.520  -1.191  0.00  0.00     0.123 A 
+ATOM     12  H3  MYU d   1      75.052  35.377   2.851  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH  11  13
+ATOM     13  C6  MYU d   1      75.211  34.205  -1.828  0.00  0.00    -0.000 A 
+ATOM     14  C5  MYU d   1      75.717  33.228  -0.957  0.00  0.00    -0.057 A 
+ATOM     15  C4  MYU d   1      76.052  31.973  -1.439  0.00  0.00     0.102 A 
+ATOM     16  H6  MYU d   1      75.847  33.457   0.100  0.00  0.00     0.082 H 
+ATOM     17  C3  MYU d   1      75.856  31.712  -2.851  0.00  0.00     0.117 A 
+ATOM     18  H7  MYU d   1      77.076  32.326  -1.633  0.00  0.00     0.100 H 
+ATOM     19  O18 MYU d   1      76.186  30.523  -3.275  0.00  0.00    -0.194 OA
+ATOM     20  C2  MYU d   1      75.338  32.685  -3.697  0.00  0.00    -0.048 A 
+ATOM     21  C1  MYU d   1      75.014  33.939  -3.176  0.00  0.00    -0.068 A 
+ATOM     22  H9  MYU d   1      75.186  32.472  -4.754  0.00  0.00     0.087 H 
+ATOM     23  H10 MYU d   1      74.606  34.710  -3.828  0.00  0.00     0.085 H 
+BRANCH  15  24
+ATOM     24  O17 MYU d   1      76.539  31.008  -0.675  0.00  0.00    -0.385 OA
+ATOM     25  H8  MYU d   1      76.698  30.236  -1.205  0.00  0.00     0.210 HD
+ENDBRANCH  15  24
+ENDBRANCH  11  13
+BRANCH   3  26
+ATOM     26  O19 MYU d   1      74.522  36.796  -3.163  0.00  0.00    -0.355 OA
+ATOM     27  H1  MYU d   1      75.152  37.444  -3.456  0.00  0.00     0.218 HD
+ENDBRANCH   3  26
+BRANCH   5  28
+ATOM     28  O21 MYU d   1      73.854  40.135   0.786  0.00  0.00    -0.357 OA
+ATOM     29  H2  MYU d   1      73.716  40.751   1.496  0.00  0.00     0.217 HD
+ENDBRANCH   5  28
+BRANCH   8  30
+ATOM     30  O22 MYU d   1      74.623  37.207   4.604  0.00  0.00    -0.358 OA
+ATOM     31  H4  MYU d   1      74.438  38.018   5.062  0.00  0.00     0.217 HD
+ENDBRANCH   8  30
+BRANCH   9  32
+ATOM     32  O23 MYU d   1      73.991  39.821   3.509  0.00  0.00    -0.356 OA
+ATOM     33  H5  MYU d   1      73.799  40.574   2.962  0.00  0.00     0.218 HD
+ENDBRANCH   9  32
+TORSDOF 6

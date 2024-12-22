@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CT_3 
+REMARK       I    between atoms: C_1  and  N_4 
+REMARK    2  A    between atoms: N_4  and  CA_5 
+REMARK    3  A    between atoms: CA_5  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+ROOT
+ATOM      1  CA  AHN d   1     -13.059   3.554  22.520  0.00  0.00     0.000 C 
+ATOM      2  H5  AHN d   1     -13.030   4.488  21.940  0.00  0.00     0.064 H 
+ATOM      3  H6  AHN d   1     -13.458   3.758  23.524  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N   AHN d   1     -11.710   3.028  22.642  0.00  0.00    -0.361 N 
+ATOM      5  C   AHN d   1     -10.634   3.704  22.228  0.00  0.00     0.213 C 
+ATOM      6  O   AHN d   1      -9.445   3.268  22.336  0.00  0.00    -0.274 OA
+ATOM      7  H4  AHN d   1     -11.582   2.125  23.052  0.00  0.00     0.162 HD
+BRANCH   5   8
+ATOM      8  CT  AHN d   1     -10.925   5.050  21.586  0.00  0.00    -0.003 C 
+ATOM      9  H1  AHN d   1     -12.010   5.233  21.594  0.00  0.00     0.040 H 
+ATOM     10  H2  AHN d   1     -10.561   5.047  20.548  0.00  0.00     0.040 H 
+ATOM     11  H3  AHN d   1     -10.415   5.844  22.151  0.00  0.00     0.040 H 
+ENDBRANCH   5   8
+ENDBRANCH   1   4
+BRANCH   1  12
+ATOM     12  CB  AHN d   1     -13.984   2.539  21.803  0.00  0.00    -0.009 C 
+ATOM     13  H7  AHN d   1     -13.844   1.552  22.268  0.00  0.00     0.044 H 
+ATOM     14  H8  AHN d   1     -13.692   2.490  20.744  0.00  0.00     0.044 H 
+BRANCH  12  15
+ATOM     15  CG  AHN d   1     -15.440   2.898  21.879  0.00  0.00     0.052 A 
+ATOM     16  CD2 AHN d   1     -16.061   4.082  22.086  0.00  0.00     0.002 A 
+ATOM     17  NE2 AHN d   1     -17.418   3.848  22.027  0.00  0.00    -0.359 N 
+ATOM     18  H9  AHN d   1     -15.578   5.042  22.266  0.00  0.00     0.114 H 
+ATOM     19  CE1 AHN d   1     -17.621   2.561  21.805  0.00  0.00     0.064 A 
+ATOM     20  H11 AHN d   1     -18.154   4.560  22.138  0.00  0.00     0.166 HD
+ATOM     21  ND1 AHN d   1     -16.443   1.967  21.719  0.00  0.00    -0.247 NA
+ATOM     22  H10 AHN d   1     -18.590   2.074  21.709  0.00  0.00     0.143 H 
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 4

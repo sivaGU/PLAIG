@@ -1,0 +1,112 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: NAB_2  and  CAC_3 
+REMARK    1  A    between atoms: CAC_3  and  CAE_5 
+REMARK    2  A    between atoms: CAE_5  and  CAF_6 
+REMARK    3  A    between atoms: CAE_5  and  CAK_11 
+REMARK    4  A    between atoms: CAF_6  and  CAG_7 
+REMARK    5  A    between atoms: CAG_7  and  CAH_8 
+REMARK    6  A    between atoms: CAG_7  and  OAL_12 
+REMARK    7  A    between atoms: CAK_11  and  CAQ_17 
+REMARK    8  A    between atoms: OAL_12  and  CAR_18 
+REMARK    9  A    between atoms: CAQ_17  and  NAT_20 
+REMARK   10  A    between atoms: NAT_20  and  CAS_19 
+REMARK   11  A    between atoms: NAT_20  and  CAU_21 
+REMARK   12  A    between atoms: CAU_21  and  CAV_22 
+REMARK   13  A    between atoms: CAV_22  and  CAW_23 
+REMARK   14  A    between atoms: CAW_23  and  CAX_24 
+REMARK   15  A    between atoms: CAZ_26  and  CBA_27 
+ROOT
+ATOM      1  CAQ QI2 d   1      -8.281  35.604 -18.823  0.00  0.00     0.114 C 
+ATOM      2  H   QI2 d   1      -7.824  34.615 -18.793  0.00  0.00     0.079 H 
+ATOM      3  H   QI2 d   1      -7.597  36.440 -18.675  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAK QI2 d   1      -9.273  35.654 -17.691  0.00  0.00    -0.028 C 
+ATOM      5  H   QI2 d   1      -9.651  36.676 -17.727  0.00  0.00     0.036 H 
+ATOM      6  H   QI2 d   1      -9.915  34.792 -17.875  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  CAE QI2 d   1      -8.852  35.481 -16.240  0.00  0.00     0.032 C 
+ATOM      8  H   QI2 d   1      -8.003  34.844 -15.992  0.00  0.00     0.055 H 
+BRANCH   7   9
+ATOM      9  CAC QI2 d   1     -10.211  35.039 -15.773  0.00  0.00     0.274 C 
+ATOM     10  NAB QI2 d   1     -10.488  33.685 -15.416  0.00  0.00    -0.059 NA
+ATOM     11  OAA QI2 d   1     -11.674  33.332 -15.012  0.00  0.00    -0.058 OA
+ATOM     12  OAD QI2 d   1     -11.003  35.955 -15.727  0.00  0.00    -0.269 OA
+ENDBRANCH   7   9
+BRANCH   7  13
+ATOM     13  CAF QI2 d   1      -8.537  36.863 -15.694  0.00  0.00    -0.025 C 
+ATOM     14  H   QI2 d   1      -9.264  37.547 -16.132  0.00  0.00     0.038 H 
+ATOM     15  H   QI2 d   1      -7.497  37.071 -15.946  0.00  0.00     0.038 H 
+BRANCH  13  16
+ATOM     16  CAG QI2 d   1      -8.664  37.008 -14.111  0.00  0.00     0.064 C 
+ATOM     17  H   QI2 d   1      -9.725  37.053 -13.865  0.00  0.00     0.090 H 
+BRANCH  16  18
+ATOM     18  CAH QI2 d   1      -7.988  38.353 -13.650  0.00  0.00    -0.029 A 
+ATOM     19  CAI QI2 d   1      -8.703  39.501 -13.647  0.00  0.00    -0.071 A 
+ATOM     20  CAJ QI2 d   1      -8.049  40.679 -13.293  0.00  0.00    -0.045 A 
+ATOM     21  H   QI2 d   1      -9.760  39.504 -13.914  0.00  0.00     0.084 H 
+ATOM     22  CAO QI2 d   1      -6.692  40.643 -12.970  0.00  0.00     0.116 A 
+ATOM     23  H   QI2 d   1      -8.594  41.623 -13.268  0.00  0.00     0.088 H 
+ATOM     24  CAN QI2 d   1      -5.990  39.480 -12.987  0.00  0.00    -0.045 A 
+ATOM     25  FAP QI2 d   1      -6.066  41.774 -12.630  0.00  0.00    -0.206 F 
+ATOM     26  CAM QI2 d   1      -6.632  38.304 -13.351  0.00  0.00    -0.071 A 
+ATOM     27  H   QI2 d   1      -4.934  39.470 -12.718  0.00  0.00     0.088 H 
+ATOM     28  H   QI2 d   1      -6.084  37.363 -13.401  0.00  0.00     0.084 H 
+ENDBRANCH  16  18
+BRANCH  16  29
+ATOM     29  OAL QI2 d   1      -8.177  35.808 -13.350  0.00  0.00    -0.386 OA
+BRANCH  29  30
+ATOM     30  CAR QI2 d   1      -8.644  35.621 -12.036  0.00  0.00     0.005 C 
+ATOM     31  H   QI2 d   1      -8.359  36.478 -11.425  0.00  0.00     0.066 H 
+ATOM     32  H   QI2 d   1      -9.730  35.526 -12.048  0.00  0.00     0.066 H 
+ATOM     33  H   QI2 d   1      -8.204  34.715 -11.621  0.00  0.00     0.066 H 
+ENDBRANCH  29  30
+ENDBRANCH  16  29
+ENDBRANCH  13  16
+ENDBRANCH   7  13
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  34
+ATOM     34  NAT QI2 d   1      -8.852  35.762 -20.171  0.00  0.00     0.084 N 
+BRANCH  34  35
+ATOM     35  CAS QI2 d   1      -8.995  34.431 -20.756  0.00  0.00     0.095 C 
+ATOM     36  H   QI2 d   1      -8.017  33.954 -20.813  0.00  0.00     0.071 H 
+ATOM     37  H   QI2 d   1      -9.658  33.831 -20.133  0.00  0.00     0.071 H 
+ATOM     38  H   QI2 d   1      -9.417  34.519 -21.757  0.00  0.00     0.071 H 
+ENDBRANCH  34  35
+BRANCH  34  39
+ATOM     39  CAU QI2 d   1     -10.172  36.423 -20.121  0.00  0.00     0.113 C 
+ATOM     40  H   QI2 d   1     -10.573  36.148 -19.145  0.00  0.00     0.079 H 
+ATOM     41  H   QI2 d   1     -10.670  36.098 -21.035  0.00  0.00     0.079 H 
+BRANCH  39  42
+ATOM     42  CAV QI2 d   1     -10.277  37.947 -20.156  0.00  0.00    -0.036 C 
+ATOM     43  H   QI2 d   1     -10.939  38.207 -19.330  0.00  0.00     0.035 H 
+ATOM     44  H   QI2 d   1     -10.594  38.188 -21.171  0.00  0.00     0.035 H 
+BRANCH  42  45
+ATOM     45  CAW QI2 d   1      -9.029  38.756 -19.930  0.00  0.00    -0.039 C 
+ATOM     46  H   QI2 d   1      -8.652  38.933 -20.937  0.00  0.00     0.040 H 
+ATOM     47  H   QI2 d   1      -8.470  38.169 -19.201  0.00  0.00     0.040 H 
+BRANCH  45  48
+ATOM     48  CAX QI2 d   1      -9.074  40.160 -19.307  0.00  0.00    -0.057 A 
+ATOM     49  CAY QI2 d   1      -9.295  41.297 -20.116  0.00  0.00    -0.068 A 
+ATOM     50  CAZ QI2 d   1      -9.289  42.573 -19.562  0.00  0.00    -0.023 A 
+ATOM     51  H   QI2 d   1      -9.472  41.173 -21.184  0.00  0.00     0.085 H 
+ATOM     52  CBD QI2 d   1      -9.055  42.741 -18.177  0.00  0.00     0.122 A 
+ATOM     53  CBC QI2 d   1      -8.824  41.610 -17.373  0.00  0.00    -0.045 A 
+ATOM     54  FBE QI2 d   1      -9.033  43.961 -17.625  0.00  0.00    -0.206 F 
+ATOM     55  CBB QI2 d   1      -8.832  40.327 -17.939  0.00  0.00    -0.074 A 
+ATOM     56  H   QI2 d   1      -8.638  41.731 -16.306  0.00  0.00     0.088 H 
+ATOM     57  H   QI2 d   1      -8.649  39.456 -17.310  0.00  0.00     0.084 H 
+BRANCH  50  58
+ATOM     58  CBA QI2 d   1      -9.542  43.788 -20.433  0.00  0.00    -0.048 C 
+ATOM     59  H   QI2 d   1     -10.427  44.313 -20.074  0.00  0.00     0.033 H 
+ATOM     60  H   QI2 d   1      -8.680  44.453 -20.386  0.00  0.00     0.033 H 
+ATOM     61  H   QI2 d   1      -9.700  43.468 -21.463  0.00  0.00     0.033 H 
+ENDBRANCH  50  58
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  34  39
+ENDBRANCH   1  34
+TORSDOF 15

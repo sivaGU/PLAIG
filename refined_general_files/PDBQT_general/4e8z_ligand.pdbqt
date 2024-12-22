@@ -1,0 +1,68 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_6  and  C1_3 
+REMARK    2  A    between atoms: N1_4  and  C8_18 
+REMARK    3  A    between atoms: C9_19  and  N1_4 
+REMARK    4  A    between atoms: O3_11  and  C2_6 
+REMARK    5  A    between atoms: C3_9  and  O3_11 
+REMARK    6  A    between atoms: C8_18  and  C7_17 
+REMARK    7  A    between atoms: C12_22  and  C11_21 
+ROOT
+ATOM      1  C8  IHC d   1     -12.745   2.874  26.365  0.00  0.00     0.055 C 
+ATOM      2  H   IHC d   1     -12.505   3.912  26.596  0.00  0.00     0.075 H 
+ATOM      3  H   IHC d   1     -12.841   2.297  27.285  0.00  0.00     0.075 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N1  IHC d   1     -11.676   2.305  25.554  0.00  0.00    -0.215 N 
+ATOM      5  H   IHC d   1     -11.227   1.450  25.883  0.00  0.00     0.178 HD
+BRANCH   4   6
+ATOM      6  C9  IHC d   1     -11.242   2.848  24.384  0.00  0.00     0.741 A 
+ATOM      7  N2  IHC d   1     -10.028   2.489  23.911  0.00  0.00     0.043 NA
+ATOM      8  N3  IHC d   1      -9.552   3.021  22.706  0.00  0.00    -0.144 NA
+ATOM      9  C10 IHC d   1     -10.305   3.883  22.016  0.00  0.00     0.053 A 
+ATOM     10  C11 IHC d   1     -11.553   4.250  22.507  0.00  0.00     0.108 A 
+ATOM     11  H   IHC d   1      -9.943   4.296  21.074  0.00  0.00     0.121 H 
+ATOM     12  N4  IHC d   1     -12.000   3.719  23.671  0.00  0.00    -0.059 NA
+BRANCH  10  13
+ATOM     13  C12 IHC d   1     -12.401   5.208  21.739  0.00  0.00     0.038 A 
+ATOM     14  C13 IHC d   1     -13.560   4.769  21.113  0.00  0.00     0.048 A 
+ATOM     15 CL1  IHC d   1     -14.057   3.048  21.232  0.00  0.00    -0.083 Cl
+ATOM     16  C14 IHC d   1     -14.348   5.661  20.392  0.00  0.00    -0.061 A 
+ATOM     17  C15 IHC d   1     -13.979   6.995  20.289  0.00  0.00    -0.080 A 
+ATOM     18  H   IHC d   1     -15.259   5.311  19.906  0.00  0.00     0.086 H 
+ATOM     19  C16 IHC d   1     -12.817   7.432  20.912  0.00  0.00    -0.061 A 
+ATOM     20  H   IHC d   1     -14.596   7.694  19.724  0.00  0.00     0.083 H 
+ATOM     21  C17 IHC d   1     -12.027   6.541  21.630  0.00  0.00     0.048 A 
+ATOM     22  H   IHC d   1     -12.523   8.479  20.838  0.00  0.00     0.086 H 
+ATOM     23 CL2  IHC d   1     -10.533   7.143  22.425  0.00  0.00    -0.083 Cl
+ENDBRANCH  10  13
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  C7  IHC d   1     -14.055   2.825  25.609  0.00  0.00     0.094 A 
+ATOM     25  N5  IHC d   1     -15.080   3.709  25.430  0.00  0.00    -0.243 NA
+ATOM     26  C18 IHC d   1     -16.085   3.222  24.631  0.00  0.00     0.077 A 
+ATOM     27  C6  IHC d   1     -15.772   1.930  24.227  0.00  0.00     0.035 A 
+ATOM     28  C19 IHC d   1     -17.287   3.776  24.196  0.00  0.00    -0.022 A 
+ATOM     29  C5  IHC d   1     -16.614   1.183  23.414  0.00  0.00    -0.061 A 
+ATOM     30  S   IHC d   1     -14.354   1.394  24.794  0.00  0.00    -0.071 SA
+ATOM     31  C4  IHC d   1     -17.809   1.746  22.985  0.00  0.00    -0.049 A 
+ATOM     32  H   IHC d   1     -16.341   0.170  23.117  0.00  0.00     0.085 H 
+ATOM     33  C3  IHC d   1     -18.143   3.038  23.379  0.00  0.00     0.071 A 
+ATOM     34  H   IHC d   1     -18.482   1.178  22.343  0.00  0.00     0.087 H 
+ATOM     35  H   IHC d   1     -17.559   4.788  24.495  0.00  0.00     0.091 H 
+BRANCH  33  36
+ATOM     36  O3  IHC d   1     -19.323   3.583  22.948  0.00  0.00    -0.341 OA
+BRANCH  36  37
+ATOM     37  C2  IHC d   1     -20.069   2.959  21.905  0.00  0.00     0.105 C 
+ATOM     38  H   IHC d   1     -19.398   2.571  21.139  0.00  0.00     0.091 H 
+ATOM     39  H   IHC d   1     -20.643   2.121  22.299  0.00  0.00     0.091 H 
+BRANCH  37  40
+ATOM     40  C1  IHC d   1     -20.993   3.997  21.316  0.00  0.00     0.198 C 
+ATOM     41  O1  IHC d   1     -20.716   5.180  21.420  0.00  0.00    -0.646 OA
+ATOM     42  O2  IHC d   1     -22.107   3.645  20.679  0.00  0.00    -0.646 OA
+ENDBRANCH  37  40
+ENDBRANCH  36  37
+ENDBRANCH  33  36
+ENDBRANCH   1  24
+TORSDOF 7

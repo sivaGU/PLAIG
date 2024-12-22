@@ -1,0 +1,115 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_2  and  N12_1 
+REMARK    2  A    between atoms: N12_1  and  S10_17 
+REMARK    3  A    between atoms: C14_19  and  C13_2 
+REMARK    4  A    between atoms: C13_2  and  C27_27 
+REMARK    5  A    between atoms: O16_20  and  C15_3 
+REMARK    6  A    between atoms: C17_4  and  O16_20 
+REMARK    7  A    between atoms: C18_21  and  C17_4 
+REMARK    8  A    between atoms: C19_22  and  C20_5 
+REMARK    9  A    between atoms: S10_17  and  C09_16 
+REMARK   10  A    between atoms: C18_21  and  C19_22 
+REMARK       I    between atoms: C27_27  and  N28_28 
+REMARK   11  A    between atoms: N28_28  and  C29_29 
+REMARK   12  A    between atoms: N28_28  and  C33_33 
+REMARK   13  A    between atoms: C29_29  and  C30_30 
+REMARK   14  A    between atoms: C33_33  and  C34_34 
+ROOT
+ATOM      1  C13 JAJ d   1       0.917 -44.502  16.760  0.00  0.00     0.125 C 
+ATOM      2  H2  JAJ d   1       0.045 -43.963  16.361  0.00  0.00     0.096 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N12 JAJ d   1       2.133 -43.954  16.208  0.00  0.00    -0.297 N 
+ATOM      4  H1  JAJ d   1       2.985 -43.949  16.732  0.00  0.00     0.173 HD
+BRANCH   3   5
+ATOM      5  S10 JAJ d   1       2.062 -43.319  14.635  0.00  0.00     0.259 S 
+ATOM      6  O11 JAJ d   1       0.960 -42.363  14.509  0.00  0.00    -0.201 OA
+ATOM      7  O40 JAJ d   1       3.253 -42.541  14.298  0.00  0.00    -0.201 OA
+BRANCH   5   8
+ATOM      8  C09 JAJ d   1       1.824 -44.714  13.510  0.00  0.00     0.080 A 
+ATOM      9  C08 JAJ d   1       0.619 -44.850  12.823  0.00  0.00    -0.048 A 
+ATOM     10  C05 JAJ d   1       0.436 -45.934  11.965  0.00  0.00    -0.008 A 
+ATOM     11  H10 JAJ d   1      -0.170 -44.119  12.955  0.00  0.00     0.087 H 
+ATOM     12  C04 JAJ d   1       1.466 -46.883  11.817  0.00  0.00     0.045 A 
+ATOM     13  C06 JAJ d   1      -0.881 -46.099  11.200  0.00  0.00    -0.066 A 
+ATOM     14  N03 JAJ d   1       1.282 -48.075  10.892  0.00  0.00    -0.323 N 
+ATOM     15  C42 JAJ d   1       2.668 -46.746  12.513  0.00  0.00    -0.055 A 
+ATOM     16  C02 JAJ d   1       0.036 -48.240  10.160  0.00  0.00     0.245 A 
+ATOM     17  H7  JAJ d   1       2.017 -48.745  10.787  0.00  0.00     0.169 HD
+ATOM     18  O01 JAJ d   1      -0.085 -49.172   9.447  0.00  0.00    -0.268 OA
+ATOM     19  C07 JAJ d   1      -1.061 -47.250  10.311  0.00  0.00    -0.017 A 
+ATOM     20  H9  JAJ d   1      -1.994 -47.379   9.764  0.00  0.00     0.092 H 
+ATOM     21  C41 JAJ d   1       2.854 -45.659  13.362  0.00  0.00    -0.058 A 
+ATOM     22  H25 JAJ d   1       3.454 -47.483  12.393  0.00  0.00     0.087 H 
+ATOM     23  H24 JAJ d   1       3.785 -45.542  13.905  0.00  0.00     0.086 H 
+ATOM     24  H8  JAJ d   1      -1.678 -45.366  11.316  0.00  0.00     0.085 H 
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C14 JAJ d   1       0.981 -44.326  18.274  0.00  0.00     0.007 A 
+ATOM     26  C15 JAJ d   1       0.106 -43.454  18.897  0.00  0.00     0.077 A 
+ATOM     27  C23 JAJ d   1       0.171 -43.285  20.272  0.00  0.00    -0.050 A 
+ATOM     28  C24 JAJ d   1       1.109 -43.983  21.012  0.00  0.00    -0.080 A 
+ATOM     29  H15 JAJ d   1      -0.513 -42.606  20.767  0.00  0.00     0.087 H 
+ATOM     30  C25 JAJ d   1       1.987 -44.847  20.387  0.00  0.00    -0.082 A 
+ATOM     31  H5  JAJ d   1       1.155 -43.851  22.087  0.00  0.00     0.083 H 
+ATOM     32  C26 JAJ d   1       1.923 -45.020  19.011  0.00  0.00    -0.072 A 
+ATOM     33  H16 JAJ d   1       2.724 -45.388  20.969  0.00  0.00     0.083 H 
+ATOM     34  H6  JAJ d   1       2.610 -45.697  18.516  0.00  0.00     0.084 H 
+BRANCH  26  35
+ATOM     35  O16 JAJ d   1      -0.826 -42.763  18.112  0.00  0.00    -0.350 OA
+BRANCH  35  36
+ATOM     36  C17 JAJ d   1      -1.857 -42.110  18.794  0.00  0.00     0.026 C 
+ATOM     37  H3  JAJ d   1      -1.434 -41.389  19.509  0.00  0.00     0.075 H 
+ATOM     38  H4  JAJ d   1      -2.471 -42.845  19.335  0.00  0.00     0.075 H 
+BRANCH  36  39
+ATOM     39  C18 JAJ d   1      -2.712 -41.379  17.767  0.00  0.00    -0.036 C 
+ATOM     40  H11 JAJ d   1      -3.438 -40.749  18.302  0.00  0.00     0.036 H 
+ATOM     41  H12 JAJ d   1      -3.249 -42.126  17.164  0.00  0.00     0.036 H 
+BRANCH  39  42
+ATOM     42  C19 JAJ d   1      -1.899 -40.491  16.828  0.00  0.00     0.018 C 
+ATOM     43  H13 JAJ d   1      -1.326 -39.763  17.421  0.00  0.00     0.049 H 
+ATOM     44  H14 JAJ d   1      -1.206 -41.116  16.246  0.00  0.00     0.049 H 
+BRANCH  42  45
+ATOM     45  C20 JAJ d   1      -2.829 -39.746  15.875  0.00  0.00     0.172 C 
+ATOM     46  O21 JAJ d   1      -4.012 -40.160  15.730  0.00  0.00    -0.648 OA
+ATOM     47  O22 JAJ d   1      -2.431 -38.724  15.252  0.00  0.00    -0.648 OA
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  26  35
+ENDBRANCH   1  25
+BRANCH   1  48
+ATOM     48  C27 JAJ d   1       0.816 -45.986  16.378  0.00  0.00     0.248 C 
+ATOM     49  N28 JAJ d   1      -0.479 -46.661  16.303  0.00  0.00    -0.335 N 
+ATOM     50  O39 JAJ d   1       1.805 -46.591  16.135  0.00  0.00    -0.271 OA
+BRANCH  49  51
+ATOM     51  C29 JAJ d   1      -0.533 -48.065  15.926  0.00  0.00     0.078 C 
+ATOM     52  H17 JAJ d   1       0.202 -48.252  15.129  0.00  0.00     0.081 H 
+ATOM     53  H18 JAJ d   1      -1.542 -48.300  15.557  0.00  0.00     0.081 H 
+BRANCH  51  54
+ATOM     54  C30 JAJ d   1      -0.216 -48.965  17.119  0.00  0.00     0.191 C 
+ATOM     55  O31 JAJ d   1      -0.222 -48.494  18.286  0.00  0.00    -0.647 OA
+ATOM     56  O32 JAJ d   1       0.060 -50.178  16.924  0.00  0.00    -0.647 OA
+ENDBRANCH  51  54
+ENDBRANCH  49  51
+BRANCH  49  57
+ATOM     57  C33 JAJ d   1      -1.718 -45.956  16.589  0.00  0.00     0.028 C 
+ATOM     58  H19 JAJ d   1      -1.493 -45.078  17.212  0.00  0.00     0.072 H 
+ATOM     59  H20 JAJ d   1      -2.393 -46.630  17.136  0.00  0.00     0.072 H 
+BRANCH  57  60
+ATOM     60  C34 JAJ d   1      -2.412 -45.491  15.312  0.00  0.00     0.000 A 
+ATOM     61  C35 JAJ d   1      -2.539 -44.170  14.858  0.00  0.00    -0.068 A 
+ATOM     62  C36 JAJ d   1      -3.260 -44.064  13.623  0.00  0.00    -0.076 A 
+ATOM     63  H21 JAJ d   1      -2.131 -43.312  15.390  0.00  0.00     0.085 H 
+ATOM     64  C37 JAJ d   1      -3.711 -45.282  13.098  0.00  0.00    -0.044 A 
+ATOM     65  H22 JAJ d   1      -3.443 -43.110  13.131  0.00  0.00     0.084 H 
+ATOM     66  S38 JAJ d   1      -3.203 -46.471  14.183  0.00  0.00    -0.105 SA
+ATOM     67  H23 JAJ d   1      -4.274 -45.431  12.178  0.00  0.00     0.095 H 
+ENDBRANCH  57  60
+ENDBRANCH  49  57
+ENDBRANCH   1  48
+TORSDOF 14

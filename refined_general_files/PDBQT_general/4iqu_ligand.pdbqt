@@ -1,0 +1,69 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAS_19  and  OAE_5 
+REMARK    2  A    between atoms: CAH_8  and  CAG_7 
+REMARK    3  A    between atoms: CAG_7  and  CAQ_17 
+REMARK    4  A    between atoms: CAV_22  and  CAH_8 
+REMARK    5  A    between atoms: CAQ_17  and  CAI_9 
+REMARK    6  A    between atoms: CAI_9  and  CAS_19 
+REMARK    7  A    between atoms: CAS_19  and  CAR_18 
+REMARK    8  A    between atoms: CAT_20  and  CAW_23 
+REMARK    9  A    between atoms: CAT_20  and  CAX_24 
+ROOT
+ATOM      1  CAN 1FQ d   1      13.428   6.569  21.185  0.00  0.00     0.017 C 
+ATOM      2  CAO 1FQ d   1      13.701   7.569  19.271  0.00  0.00    -0.040 C 
+ATOM      3  NAP 1FQ d   1      14.352   5.961  20.422  0.00  0.00    -0.261 NA
+ATOM      4  CAV 1FQ d   1      14.800   6.875  19.578  0.00  0.00     0.054 C 
+ATOM      5  CAX 1FQ d   1      13.043   7.628  20.467  0.00  0.00     0.035 C 
+ATOM      6  H11 1FQ d   1      13.072   6.266  22.169  0.00  0.00     0.116 H 
+ATOM      7  H12 1FQ d   1      13.404   7.984  18.309  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   4   8
+ATOM      8  CAH 1FQ d   1      16.091   7.004  19.212  0.00  0.00    -0.069 C 
+ATOM      9  H4  1FQ d   1      16.844   6.321  19.603  0.00  0.00     0.081 H 
+BRANCH   8  10
+ATOM     10  CAG 1FQ d   1      16.488   8.116  18.245  0.00  0.00     0.008 C 
+ATOM     11  H2  1FQ d   1      16.060   9.036  18.669  0.00  0.00     0.050 H 
+ATOM     12  H3  1FQ d   1      15.977   7.876  17.301  0.00  0.00     0.050 H 
+BRANCH  10  13
+ATOM     13  CAQ 1FQ d   1      17.912   8.480  17.850  0.00  0.00     0.133 C 
+ATOM     14  OAA 1FQ d   1      18.840   8.670  18.605  0.00  0.00    -0.298 OA
+BRANCH  13  15
+ATOM     15  CAI 1FQ d   1      18.079   8.768  16.424  0.00  0.00     0.024 C 
+ATOM     16  H5  1FQ d   1      17.431   9.627  16.195  0.00  0.00     0.049 H 
+ATOM     17  H6  1FQ d   1      17.723   7.883  15.877  0.00  0.00     0.049 H 
+BRANCH  15  18
+ATOM     18  CAS 1FQ d   1      19.442   9.095  15.882  0.00  0.00     0.125 C 
+ATOM     19  H13 1FQ d   1      19.469  10.186  16.018  0.00  0.00     0.100 H 
+BRANCH  18  20
+ATOM     20  OAE 1FQ d   1      20.523   8.714  16.644  0.00  0.00    -0.384 OA
+ATOM     21  H1  1FQ d   1      20.476   9.138  17.493  0.00  0.00     0.210 HD
+ENDBRANCH  18  20
+BRANCH  18  22
+ATOM     22  CAR 1FQ d   1      19.584   8.982  14.332  0.00  0.00     0.203 C 
+ATOM     23  OAB 1FQ d   1      20.687   9.214  13.811  0.00  0.00    -0.646 OA
+ATOM     24  OAD 1FQ d   1      18.676   8.668  13.541  0.00  0.00    -0.646 OA
+ENDBRANCH  18  22
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH  10  13
+ENDBRANCH   8  10
+ENDBRANCH   4   8
+BRANCH   5  25
+ATOM     25  CAT 1FQ d   1      12.156   8.605  20.893  0.00  0.00     0.193 C 
+ATOM     26  OAC 1FQ d   1      12.522   9.380  21.836  0.00  0.00    -0.287 OA
+BRANCH  25  27
+ATOM     27  CAW 1FQ d   1      10.806   8.695  20.297  0.00  0.00     0.015 A 
+ATOM     28  CAL 1FQ d   1      10.345   7.737  19.324  0.00  0.00    -0.066 A 
+ATOM     29  CAJ 1FQ d   1       9.041   7.818  18.751  0.00  0.00    -0.045 A 
+ATOM     30  H9  1FQ d   1      11.006   6.934  19.020  0.00  0.00     0.085 H 
+ATOM     31  CAU 1FQ d   1       8.194   8.878  19.166  0.00  0.00     0.116 A 
+ATOM     32  H7  1FQ d   1       8.707   7.091  18.020  0.00  0.00     0.088 H 
+ATOM     33  FAF 1FQ d   1       6.950   8.956  18.620  0.00  0.00    -0.206 F 
+ATOM     34  CAK 1FQ d   1       8.593   9.850  20.119  0.00  0.00    -0.045 A 
+ATOM     35  CAM 1FQ d   1       9.898   9.761  20.686  0.00  0.00    -0.066 A 
+ATOM     36  H8  1FQ d   1       7.918  10.646  20.411  0.00  0.00     0.088 H 
+ATOM     37  H10 1FQ d   1      10.217  10.497  21.416  0.00  0.00     0.085 H 
+ENDBRANCH  25  27
+ENDBRANCH   5  25
+TORSDOF 9

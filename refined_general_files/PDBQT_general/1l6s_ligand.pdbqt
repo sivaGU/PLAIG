@@ -1,0 +1,62 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C1_1 
+REMARK    2  A    between atoms: C3_4  and  C2_3 
+REMARK    3  A    between atoms: C4_14  and  C3_4 
+REMARK    4  A    between atoms: C6_7  and  C5_5 
+REMARK    5  A    between atoms: C5_5  and  C4_14 
+REMARK    6  A    between atoms: C7_13  and  C6_7 
+REMARK    7  A    between atoms: C8_8  and  C9_9 
+REMARK    8  A    between atoms: C8_8  and  C7_13 
+REMARK    9  A    between atoms: C9_9  and  C10_10 
+ROOT
+ATOM      1  C5  DSB d   1      19.317  89.561  53.058  0.00  0.00    -0.065 C 
+ATOM      2  H5  DSB d   1      20.357  89.913  53.127  0.00  0.00     0.033 H 
+ATOM      3  H6  DSB d   1      18.638  90.354  53.406  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C6  DSB d   1      19.157  88.359  53.974  0.00  0.00    -0.065 C 
+ATOM      5  H7  DSB d   1      18.087  88.109  54.032  0.00  0.00     0.033 H 
+ATOM      6  H8  DSB d   1      19.524  88.635  54.973  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  C7  DSB d   1      19.928  87.094  53.504  0.00  0.00    -0.065 C 
+ATOM      8  H13 DSB d   1      19.269  86.611  52.768  0.00  0.00     0.033 H 
+ATOM      9  H14 DSB d   1      20.010  86.457  54.397  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  C8  DSB d   1      21.306  87.079  52.876  0.00  0.00    -0.056 C 
+ATOM     11  H9  DSB d   1      21.829  86.166  53.196  0.00  0.00     0.033 H 
+ATOM     12  H10 DSB d   1      21.195  87.073  51.782  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C9  DSB d   1      22.139  88.282  53.274  0.00  0.00     0.016 C 
+ATOM     14  H11 DSB d   1      21.744  88.709  54.208  0.00  0.00     0.049 H 
+ATOM     15  H12 DSB d   1      22.094  89.039  52.477  0.00  0.00     0.049 H 
+BRANCH  13  16
+ATOM     16  C10 DSB d   1      23.578  87.855  53.484  0.00  0.00     0.172 C 
+ATOM     17  O11 DSB d   1      23.836  86.624  53.450  0.00  0.00    -0.648 OA
+ATOM     18  O12 DSB d   1      24.411  88.770  53.703  0.00  0.00    -0.648 OA
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  C4  DSB d   1      19.006  89.271  51.599  0.00  0.00    -0.065 C 
+ATOM     20  H15 DSB d   1      19.568  88.374  51.300  0.00  0.00     0.033 H 
+ATOM     21  H16 DSB d   1      17.927  89.075  51.510  0.00  0.00     0.033 H 
+BRANCH  19  22
+ATOM     22  C3  DSB d   1      19.359  90.381  50.657  0.00  0.00    -0.056 C 
+ATOM     23  H3  DSB d   1      18.782  90.260  49.728  0.00  0.00     0.033 H 
+ATOM     24  H4  DSB d   1      19.103  91.343  51.125  0.00  0.00     0.033 H 
+BRANCH  22  25
+ATOM     25  C2  DSB d   1      20.845  90.372  50.323  0.00  0.00     0.016 C 
+ATOM     26  H1  DSB d   1      21.407  90.783  51.175  0.00  0.00     0.049 H 
+ATOM     27  H2  DSB d   1      21.165  89.336  50.138  0.00  0.00     0.049 H 
+BRANCH  25  28
+ATOM     28  C1  DSB d   1      21.133  91.205  49.093  0.00  0.00     0.172 C 
+ATOM     29  O2  DSB d   1      22.247  90.980  48.542  0.00  0.00    -0.648 OA
+ATOM     30  O1  DSB d   1      20.259  92.048  48.716  0.00  0.00    -0.648 OA
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+TORSDOF 9

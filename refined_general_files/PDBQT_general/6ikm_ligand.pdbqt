@@ -1,0 +1,64 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C3_3  and  C4_4 
+REMARK    4  A    between atoms: C4_4  and  C5_5 
+REMARK    5  A    between atoms: C5_5  and  N6_6 
+REMARK    6  A    between atoms: N6_6  and  C7_7 
+REMARK    7  A    between atoms: C7_7  and  C8_8 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  N10_10 
+ROOT
+ATOM      1  C5  SPD d   1     -18.692 -15.872 148.023  0.00  0.00     0.082 C 
+ATOM      2  H10 SPD d   1     -18.316 -15.590 147.028  0.00  0.00     0.075 H 
+ATOM      3  H11 SPD d   1     -19.265 -15.035 148.449  0.00  0.00     0.075 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4  SPD d   1     -17.498 -16.183 148.941  0.00  0.00    -0.041 C 
+ATOM      5  H8  SPD d   1     -17.503 -15.490 149.795  0.00  0.00     0.035 H 
+ATOM      6  H9  SPD d   1     -17.577 -17.217 149.307  0.00  0.00     0.035 H 
+BRANCH   4   7
+ATOM      7  C3  SPD d   1     -16.193 -16.018 148.158  0.00  0.00    -0.041 C 
+ATOM      8  H6  SPD d   1     -16.358 -16.308 147.110  0.00  0.00     0.035 H 
+ATOM      9  H7  SPD d   1     -15.873 -14.966 148.201  0.00  0.00     0.035 H 
+BRANCH   7  10
+ATOM     10  C2  SPD d   1     -15.107 -16.901 148.761  0.00  0.00     0.080 C 
+ATOM     11  H4  SPD d   1     -14.156 -16.349 148.785  0.00  0.00     0.075 H 
+ATOM     12  H5  SPD d   1     -15.391 -17.186 149.785  0.00  0.00     0.075 H 
+BRANCH  10  13
+ATOM     13  N1  SPD d   1     -14.958 -18.080 147.959  0.00  0.00    -0.079 N 
+ATOM     14  H1  SPD d   1     -14.240 -18.667 148.355  0.00  0.00     0.274 HD
+ATOM     15  H2  SPD d   1     -14.698 -17.818 147.021  0.00  0.00     0.274 HD
+ATOM     16  H3  SPD d   1     -15.831 -18.584 147.938  0.00  0.00     0.274 HD
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  17
+ATOM     17  N6  SPD d   1     -19.565 -17.025 147.891  0.00  0.00    -0.075 N 
+ATOM     18  H12 SPD d   1     -19.777 -17.394 148.805  0.00  0.00     0.277 HD
+ATOM     19  H13 SPD d   1     -19.106 -17.734 147.341  0.00  0.00     0.277 HD
+BRANCH  17  20
+ATOM     20  C7  SPD d   1     -20.793 -16.623 147.235  0.00  0.00     0.083 C 
+ATOM     21  H14 SPD d   1     -20.598 -15.730 146.623  0.00  0.00     0.075 H 
+ATOM     22  H15 SPD d   1     -21.548 -16.386 147.999  0.00  0.00     0.075 H 
+BRANCH  20  23
+ATOM     23  C8  SPD d   1     -21.326 -17.743 146.333  0.00  0.00    -0.020 C 
+ATOM     24  H16 SPD d   1     -21.723 -18.558 146.956  0.00  0.00     0.037 H 
+ATOM     25  H17 SPD d   1     -20.509 -18.127 145.704  0.00  0.00     0.037 H 
+BRANCH  23  26
+ATOM     26  C9  SPD d   1     -22.439 -17.194 145.443  0.00  0.00     0.081 C 
+ATOM     27  H18 SPD d   1     -22.006 -16.491 144.716  0.00  0.00     0.075 H 
+ATOM     28  H19 SPD d   1     -23.175 -16.668 146.069  0.00  0.00     0.075 H 
+BRANCH  26  29
+ATOM     29  N10 SPD d   1     -23.097 -18.258 144.735  0.00  0.00    -0.079 N 
+ATOM     30  H20 SPD d   1     -23.827 -17.875 144.155  0.00  0.00     0.274 HD
+ATOM     31  H21 SPD d   1     -23.498 -18.904 145.397  0.00  0.00     0.274 HD
+ATOM     32  H22 SPD d   1     -22.427 -18.742 144.157  0.00  0.00     0.274 HD
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+TORSDOF 9

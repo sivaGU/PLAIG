@@ -1,0 +1,95 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C5_3 
+REMARK    3  A    between atoms: C5_3  and  C15_7 
+REMARK    4  A    between atoms: C5_3  and  O7_4 
+REMARK    5  A    between atoms: O7_4  and  C8_5 
+REMARK    6  A    between atoms: C8_5  and  C11_6 
+REMARK    7  A    between atoms: C23_12  and  O28_15 
+REMARK    8  A    between atoms: O28_15  and  C29_16 
+REMARK    9  A    between atoms: C29_16  and  C32_17 
+REMARK   10  A    between atoms: C32_17  and  C35_18 
+REMARK   11  A    between atoms: C40_21  and  O45_24 
+REMARK   12  A    between atoms: O45_24  and  S46_25 
+REMARK   13  A    between atoms: S46_25  and  C47_26 
+ROOT
+ATOM      1  C1  AZ2 d   1      38.574  31.969  36.647  0.00  0.00    -0.055 A 
+ATOM      2  C19 AZ2 d   1      39.076  33.296  36.438  0.00  0.00    -0.074 A 
+ATOM      3  C21 AZ2 d   1      38.210  34.403  36.497  0.00  0.00    -0.050 A 
+ATOM      4  C23 AZ2 d   1      36.830  34.224  36.765  0.00  0.00     0.068 A 
+ATOM      5  C24 AZ2 d   1      36.325  32.899  36.967  0.00  0.00    -0.050 A 
+ATOM      6  C26 AZ2 d   1      37.185  31.790  36.909  0.00  0.00    -0.074 A 
+ATOM      7  H9  AZ2 d   1      40.130  33.447  36.233  0.00  0.00     0.084 H 
+ATOM      8  H10 AZ2 d   1      38.601  35.401  36.336  0.00  0.00     0.087 H 
+ATOM      9  H11 AZ2 d   1      35.270  32.751  37.166  0.00  0.00     0.087 H 
+ATOM     10  H12 AZ2 d   1      36.790  30.793  37.064  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  O28 AZ2 d   1      36.124  35.394  36.793  0.00  0.00    -0.351 OA
+BRANCH  11  12
+ATOM     12  C29 AZ2 d   1      34.872  35.413  37.475  0.00  0.00     0.030 C 
+ATOM     13  H13 AZ2 d   1      34.951  34.882  38.435  0.00  0.00     0.075 H 
+ATOM     14  H14 AZ2 d   1      34.093  34.941  36.858  0.00  0.00     0.075 H 
+BRANCH  12  15
+ATOM     15  C32 AZ2 d   1      34.544  36.883  37.709  0.00  0.00    -0.021 C 
+ATOM     16  H15 AZ2 d   1      33.467  37.035  37.542  0.00  0.00     0.043 H 
+ATOM     17  H16 AZ2 d   1      35.116  37.490  36.992  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  C35 AZ2 d   1      34.883  37.334  39.098  0.00  0.00    -0.056 A 
+ATOM     19  C43 AZ2 d   1      34.356  36.644  40.230  0.00  0.00    -0.074 A 
+ATOM     20  C41 AZ2 d   1      34.663  37.077  41.538  0.00  0.00    -0.049 A 
+ATOM     21  H20 AZ2 d   1      33.716  35.782  40.085  0.00  0.00     0.084 H 
+ATOM     22  C40 AZ2 d   1      35.493  38.195  41.734  0.00  0.00     0.089 A 
+ATOM     23  H19 AZ2 d   1      34.258  36.547  42.393  0.00  0.00     0.087 H 
+ATOM     24  C38 AZ2 d   1      36.029  38.890  40.608  0.00  0.00    -0.049 A 
+ATOM     25  C36 AZ2 d   1      35.726  38.461  39.300  0.00  0.00    -0.074 A 
+ATOM     26  H18 AZ2 d   1      36.671  39.750  40.759  0.00  0.00     0.087 H 
+ATOM     27  H17 AZ2 d   1      36.136  38.991  38.448  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  O45 AZ2 d   1      35.835  38.707  42.949  0.00  0.00    -0.233 OA
+BRANCH  28  29
+ATOM     29  S46 AZ2 d   1      34.803  39.718  43.704  0.00  0.00     0.266 S 
+ATOM     30  O52 AZ2 d   1      33.619  38.979  44.096  0.00  0.00    -0.199 OA
+ATOM     31  O51 AZ2 d   1      34.727  40.953  42.956  0.00  0.00    -0.199 OA
+BRANCH  29  32
+ATOM     32  C47 AZ2 d   1      35.783  39.998  45.158  0.00  0.00     0.038 C 
+ATOM     33  H21 AZ2 d   1      35.250  40.683  45.833  0.00  0.00     0.052 H 
+ATOM     34  H22 AZ2 d   1      36.747  40.443  44.870  0.00  0.00     0.052 H 
+ATOM     35  H23 AZ2 d   1      35.959  39.041  45.671  0.00  0.00     0.052 H 
+ENDBRANCH  29  32
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   4  11
+BRANCH   1  36
+ATOM     36  C2  AZ2 d   1      39.513  30.788  36.605  0.00  0.00    -0.007 C 
+ATOM     37  H1  AZ2 d   1      40.212  30.924  35.767  0.00  0.00     0.044 H 
+ATOM     38  H2  AZ2 d   1      38.922  29.874  36.445  0.00  0.00     0.044 H 
+BRANCH  36  39
+ATOM     39  C5  AZ2 d   1      40.330  30.626  37.909  0.00  0.00     0.125 C 
+ATOM     40  H3  AZ2 d   1      39.665  30.709  38.781  0.00  0.00     0.101 H 
+BRANCH  39  41
+ATOM     41  C15 AZ2 d   1      40.962  29.242  37.912  0.00  0.00     0.203 C 
+ATOM     42  O18 AZ2 d   1      42.114  28.956  37.627  0.00  0.00    -0.646 OA
+ATOM     43  O16 AZ2 d   1      40.091  28.278  38.283  0.00  0.00    -0.646 OA
+ENDBRANCH  39  41
+BRANCH  39  44
+ATOM     44  O7  AZ2 d   1      41.286  31.703  37.949  0.00  0.00    -0.375 OA
+BRANCH  44  45
+ATOM     45  C8  AZ2 d   1      41.691  32.105  39.253  0.00  0.00     0.017 C 
+ATOM     46  H4  AZ2 d   1      42.439  31.404  39.651  0.00  0.00     0.073 H 
+ATOM     47  H5  AZ2 d   1      40.822  32.136  39.927  0.00  0.00     0.073 H 
+BRANCH  45  48
+ATOM     48  C11 AZ2 d   1      42.294  33.488  39.114  0.00  0.00    -0.056 C 
+ATOM     49  H6  AZ2 d   1      42.624  33.845  40.101  0.00  0.00     0.030 H 
+ATOM     50  H7  AZ2 d   1      41.539  34.178  38.708  0.00  0.00     0.030 H 
+ATOM     51  H8  AZ2 d   1      43.156  33.445  38.432  0.00  0.00     0.030 H 
+ENDBRANCH  45  48
+ENDBRANCH  44  45
+ENDBRANCH  39  44
+ENDBRANCH  36  39
+ENDBRANCH   1  36
+TORSDOF 13

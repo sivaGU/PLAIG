@@ -1,0 +1,61 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2'_1  and  C2'_2 
+REMARK    2  A    between atoms: C3'_3  and  O3'_4 
+REMARK    3  A    between atoms: C1'_5  and  C1_10 
+REMARK    4  A    between atoms: C4'_7  and  C5'_8 
+REMARK    5  A    between atoms: C5'_8  and  O5'_9 
+REMARK    6  A    between atoms: C4_13  and  N4_17 
+REMARK    7  A    between atoms: C3_14  and  N3_15 
+ROOT
+ATOM      1  C2' DNB d   1      27.776   3.444  33.779  0.00  0.00     0.093 C 
+ATOM      2  C3' DNB d   1      27.587   2.267  34.742  0.00  0.00     0.092 C 
+ATOM      3  C1' DNB d   1      27.153   3.000  32.452  0.00  0.00     0.154 C 
+ATOM      4  N4' DNB d   1      26.735   1.638  32.726  0.00  0.00    -0.056 N 
+ATOM      5  C4' DNB d   1      26.548   1.348  34.127  0.00  0.00     0.149 C 
+ATOM      6  H   DNB d   1      27.301   4.342  34.173  0.00  0.00     0.090 H 
+ATOM      7  H   DNB d   1      27.307   2.662  35.719  0.00  0.00     0.090 H 
+ATOM      8  H   DNB d   1      27.876   3.198  31.660  0.00  0.00     0.096 H 
+ATOM      9  H   DNB d   1      27.474   1.022  32.387  0.00  0.00     0.278 HD
+ATOM     10  H   DNB d   1      25.834   1.501  32.267  0.00  0.00     0.278 HD
+ATOM     11  H   DNB d   1      26.656   0.288  34.358  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  C1  DNB d   1      25.882   3.657  32.097  0.00  0.00    -0.023 A 
+ATOM     13  C6  DNB d   1      25.312   3.305  30.870  0.00  0.00    -0.072 A 
+ATOM     14  C5  DNB d   1      24.087   3.848  30.477  0.00  0.00    -0.055 A 
+ATOM     15  H   DNB d   1      25.827   2.602  30.216  0.00  0.00     0.084 H 
+ATOM     16  C4  DNB d   1      23.430   4.745  31.325  0.00  0.00     0.052 A 
+ATOM     17  H   DNB d   1      23.647   3.575  29.518  0.00  0.00     0.087 H 
+ATOM     18  C3  DNB d   1      23.990   5.091  32.563  0.00  0.00     0.052 A 
+ATOM     19  C2  DNB d   1      25.220   4.545  32.956  0.00  0.00    -0.047 A 
+ATOM     20  H   DNB d   1      25.657   4.808  33.919  0.00  0.00     0.087 H 
+BRANCH  16  21
+ATOM     21  N4  DNB d   1      22.239   5.263  30.918  0.00  0.00    -0.397 N 
+ATOM     22  H   DNB d   1      21.848   4.995  30.015  0.00  0.00     0.156 HD
+ATOM     23  H   DNB d   1      21.737   5.920  31.516  0.00  0.00     0.156 HD
+ENDBRANCH  16  21
+BRANCH  18  24
+ATOM     24  N3  DNB d   1      23.351   5.970  33.388  0.00  0.00    -0.397 N 
+ATOM     25  H   DNB d   1      23.768   6.225  34.283  0.00  0.00     0.156 HD
+ATOM     26  H   DNB d   1      22.456   6.372  33.110  0.00  0.00     0.156 HD
+ENDBRANCH  18  24
+ENDBRANCH   3  12
+BRANCH   1  27
+ATOM     27  O2' DNB d   1      29.169   3.788  33.603  0.00  0.00    -0.390 OA
+ATOM     28  H   DNB d   1      29.547   4.032  34.451  0.00  0.00     0.210 HD
+ENDBRANCH   1  27
+BRANCH   2  29
+ATOM     29  O3' DNB d   1      28.783   1.484  34.864  0.00  0.00    -0.391 OA
+ATOM     30  H   DNB d   1      29.494   2.037  35.197  0.00  0.00     0.210 HD
+ENDBRANCH   2  29
+BRANCH   5  31
+ATOM     31  C5' DNB d   1      25.133   1.652  34.662  0.00  0.00     0.046 C 
+ATOM     32  H   DNB d   1      24.935   2.711  34.499  0.00  0.00     0.077 H 
+ATOM     33  H   DNB d   1      25.108   1.375  35.716  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O5' DNB d   1      24.112   0.905  33.987  0.00  0.00    -0.399 OA
+ATOM     35  H   DNB d   1      24.275  -0.034  34.103  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   5  31
+TORSDOF 7

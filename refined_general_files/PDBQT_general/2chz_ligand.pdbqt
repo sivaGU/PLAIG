@@ -1,0 +1,73 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SAN_2  and  NAU_4 
+REMARK    2  A    between atoms: SAN_2  and  CAF_8 
+REMARK    3  A    between atoms: NAU_4  and  CAV_5 
+REMARK    4  A    between atoms: CAV_5  and  CAW_6 
+REMARK    5  A    between atoms: CAW_6  and  OAX_7 
+REMARK    6  A    between atoms: CAH_14  and  CAI_15 
+REMARK    7  A    between atoms: CAJ_16  and  CAE_17 
+REMARK    8  A    between atoms: CAQ_20  and  NAR_21 
+REMARK       I    between atoms: NAR_21  and  CAS_22 
+REMARK    9  A    between atoms: CAS_22  and  CAT_24 
+ROOT
+ATOM      1  CAF 093 d   1      43.425  12.536  32.590  0.00  0.00     0.102 A 
+ATOM      2  CAB 093 d   1      42.420  11.841  31.914  0.00  0.00     0.057 A 
+ATOM      3 CL   093 d   1      40.813  11.779  32.539  0.00  0.00    -0.083 Cl
+ATOM      4  CAC 093 d   1      42.689  11.182  30.718  0.00  0.00    -0.060 A 
+ATOM      5  CAD 093 d   1      43.967  11.196  30.173  0.00  0.00    -0.070 A 
+ATOM      6  CAG 093 d   1      44.703  12.541  32.024  0.00  0.00    -0.047 A 
+ATOM      7  CAH 093 d   1      44.989  11.879  30.822  0.00  0.00    -0.015 A 
+ATOM      8  H7  093 d   1      41.893  10.652  30.206  0.00  0.00     0.086 H 
+ATOM      9  H8  093 d   1      44.167  10.675  29.244  0.00  0.00     0.084 H 
+ATOM     10  H9  093 d   1      45.499  13.074  32.531  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   7  11
+ATOM     11  CAI 093 d   1      46.286  11.911  30.293  0.00  0.00     0.043 A 
+ATOM     12  CAJ 093 d   1      46.724  11.298  29.119  0.00  0.00     0.051 A 
+ATOM     13  NAK 093 d   1      48.013  11.510  28.879  0.00  0.00    -0.228 NA
+ATOM     14  CAQ 093 d   1      48.584  12.260  29.818  0.00  0.00     0.174 A 
+ATOM     15  SAP 093 d   1      47.539  12.768  31.089  0.00  0.00    -0.049 SA
+BRANCH  12  16
+ATOM     16  CAE 093 d   1      45.885  10.465  28.149  0.00  0.00    -0.034 C 
+ATOM     17  H10 093 d   1      46.519  10.120  27.319  0.00  0.00     0.035 H 
+ATOM     18  H11 093 d   1      45.064  11.081  27.752  0.00  0.00     0.035 H 
+ATOM     19  H12 093 d   1      45.468   9.595  28.678  0.00  0.00     0.035 H 
+ENDBRANCH  12  16
+BRANCH  14  20
+ATOM     20  NAR 093 d   1      49.886  12.575  29.782  0.00  0.00    -0.306 N 
+ATOM     21  CAS 093 d   1      50.444  13.727  30.180  0.00  0.00     0.219 C 
+ATOM     22  OAL 093 d   1      49.821  14.677  30.622  0.00  0.00    -0.274 OA
+ATOM     23  H13 093 d   1      50.506  11.878  29.421  0.00  0.00     0.171 HD
+BRANCH  21  24
+ATOM     24  CAT 093 d   1      51.936  13.799  30.035  0.00  0.00    -0.002 C 
+ATOM     25  H14 093 d   1      52.292  14.778  30.387  0.00  0.00     0.040 H 
+ATOM     26  H15 093 d   1      52.208  13.669  28.977  0.00  0.00     0.040 H 
+ATOM     27  H16 093 d   1      52.401  13.003  30.634  0.00  0.00     0.040 H 
+ENDBRANCH  21  24
+ENDBRANCH  14  20
+ENDBRANCH   7  11
+BRANCH   1  28
+ATOM     28  SAN 093 d   1      43.112  13.365  34.117  0.00  0.00     0.260 S 
+ATOM     29  OAM 093 d   1      44.360  14.070  34.539  0.00  0.00    -0.200 OA
+ATOM     30  OAO 093 d   1      42.776  12.358  35.168  0.00  0.00    -0.200 OA
+BRANCH  28  31
+ATOM     31  NAU 093 d   1      41.956  14.353  34.023  0.00  0.00    -0.313 N 
+ATOM     32  H1  093 d   1      41.015  14.025  34.108  0.00  0.00     0.172 HD
+BRANCH  31  33
+ATOM     33  CAV 093 d   1      42.212  15.775  33.809  0.00  0.00     0.022 C 
+ATOM     34  H2  093 d   1      42.960  15.913  33.014  0.00  0.00     0.068 H 
+ATOM     35  H3  093 d   1      42.573  16.242  34.737  0.00  0.00     0.068 H 
+BRANCH  33  36
+ATOM     36  CAW 093 d   1      40.875  16.387  33.392  0.00  0.00     0.032 C 
+ATOM     37  H4  093 d   1      40.592  17.169  34.112  0.00  0.00     0.076 H 
+ATOM     38  H5  093 d   1      40.104  15.603  33.380  0.00  0.00     0.076 H 
+BRANCH  36  39
+ATOM     39  OAX 093 d   1      40.983  16.960  32.094  0.00  0.00    -0.399 OA
+ATOM     40  H6  093 d   1      40.147  17.337  31.845  0.00  0.00     0.209 HD
+ENDBRANCH  36  39
+ENDBRANCH  33  36
+ENDBRANCH  31  33
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+TORSDOF 9

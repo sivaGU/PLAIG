@@ -1,0 +1,73 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O13_4  and  C10_15 
+REMARK    2  A    between atoms: C14_18  and  O13_4 
+REMARK    3  A    between atoms: C15_19  and  N16_6 
+REMARK    4  A    between atoms: N16_6  and  C16_20 
+REMARK    5  A    between atoms: N16_6  and  C17_21 
+REMARK    6  A    between atoms: C6_11  and  C5_10 
+REMARK    7  A    between atoms: C7_12  and  C6_11 
+REMARK    8  A    between atoms: C14_18  and  C15_19 
+ROOT
+ATOM      1  C7  BRL d   1      18.454  61.818  16.125  0.00  0.00    -0.056 A 
+ATOM      2  C8  BRL d   1      17.117  61.907  15.742  0.00  0.00    -0.074 A 
+ATOM      3  C9  BRL d   1      16.749  61.866  14.406  0.00  0.00    -0.050 A 
+ATOM      4  C10 BRL d   1      17.739  61.740  13.438  0.00  0.00     0.068 A 
+ATOM      5  C11 BRL d   1      19.077  61.652  13.818  0.00  0.00    -0.050 A 
+ATOM      6  C12 BRL d   1      19.444  61.687  15.154  0.00  0.00    -0.074 A 
+ATOM      7  H5  BRL d   1      16.351  62.010  16.502  0.00  0.00     0.084 H 
+ATOM      8  H6  BRL d   1      15.705  61.931  14.120  0.00  0.00     0.087 H 
+ATOM      9  H7  BRL d   1      19.843  61.555  13.057  0.00  0.00     0.087 H 
+ATOM     10  H8  BRL d   1      20.487  61.613  15.439  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  O13 BRL d   1      17.406  61.688  12.074  0.00  0.00    -0.350 OA
+BRANCH  11  12
+ATOM     12  C14 BRL d   1      16.514  62.667  11.631  0.00  0.00     0.041 C 
+ATOM     13  H9  BRL d   1      16.799  63.644  12.049  0.00  0.00     0.077 H 
+ATOM     14  H10 BRL d   1      15.494  62.413  11.956  0.00  0.00     0.077 H 
+BRANCH  12  15
+ATOM     15  C15 BRL d   1      16.568  62.725  10.107  0.00  0.00     0.016 C 
+ATOM     16  H11 BRL d   1      16.756  61.713   9.719  0.00  0.00     0.067 H 
+ATOM     17  H12 BRL d   1      15.601  63.089   9.730  0.00  0.00     0.067 H 
+BRANCH  15  18
+ATOM     18  N16 BRL d   1      17.623  63.615   9.636  0.00  0.00    -0.368 N 
+BRANCH  18  19
+ATOM     19  C16 BRL d   1      18.945  63.058   9.436  0.00  0.00    -0.017 C 
+ATOM     20  H13 BRL d   1      19.625  63.847   9.082  0.00  0.00     0.056 H 
+ATOM     21  H14 BRL d   1      18.895  62.254   8.687  0.00  0.00     0.056 H 
+ATOM     22  H15 BRL d   1      19.319  62.651  10.387  0.00  0.00     0.056 H 
+ENDBRANCH  18  19
+BRANCH  18  23
+ATOM     23  C17 BRL d   1      17.338  65.024   9.326  0.00  0.00     0.124 A 
+ATOM     24  N18 BRL d   1      16.109  65.557   9.589  0.00  0.00    -0.244 NA
+ATOM     25  C19 BRL d   1      15.830  66.854   9.300  0.00  0.00     0.004 A 
+ATOM     26  C20 BRL d   1      16.789  67.672   8.724  0.00  0.00    -0.066 A 
+ATOM     27  H16 BRL d   1      14.847  67.254   9.522  0.00  0.00     0.114 H 
+ATOM     28  C21 BRL d   1      18.016  67.141   8.457  0.00  0.00    -0.078 A 
+ATOM     29  H17 BRL d   1      16.569  68.708   8.492  0.00  0.00     0.085 H 
+ATOM     30  C22 BRL d   1      18.309  65.833   8.740  0.00  0.00    -0.039 A 
+ATOM     31  H18 BRL d   1      18.778  67.769   8.010  0.00  0.00     0.083 H 
+ATOM     32  H19 BRL d   1      19.289  65.431   8.510  0.00  0.00     0.089 H 
+ENDBRANCH  18  23
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   4  11
+BRANCH   1  33
+ATOM     33  C6  BRL d   1      18.825  61.882  17.617  0.00  0.00    -0.021 C 
+ATOM     34  H3  BRL d   1      18.056  61.376  18.220  0.00  0.00     0.042 H 
+ATOM     35  H4  BRL d   1      19.799  61.400  17.785  0.00  0.00     0.042 H 
+BRANCH  33  36
+ATOM     36  C5  BRL d   1      18.899  63.365  17.996  0.00  0.00     0.081 C 
+ATOM     37  S1  BRL d   1      20.274  64.111  17.357  0.00  0.00    -0.054 SA
+ATOM     38  C2  BRL d   1      20.592  65.273  18.443  0.00  0.00     0.287 C 
+ATOM     39  O2  BRL d   1      21.139  66.305  18.237  0.00  0.00    -0.260 OA
+ATOM     40  N3  BRL d   1      20.032  64.824  19.827  0.00  0.00    -0.287 N 
+ATOM     41  C4  BRL d   1      18.977  63.646  19.602  0.00  0.00     0.239 C 
+ATOM     42  H1  BRL d   1      20.291  65.211  20.712  0.00  0.00     0.172 HD
+ATOM     43  O4  BRL d   1      18.378  63.120  20.475  0.00  0.00    -0.272 OA
+ATOM     44  H2  BRL d   1      18.000  63.854  17.594  0.00  0.00     0.072 H 
+ENDBRANCH  33  36
+ENDBRANCH   1  33
+TORSDOF 8

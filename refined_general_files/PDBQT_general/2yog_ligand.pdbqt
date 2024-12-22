@@ -1,0 +1,78 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_6  and  CAA_7 
+REMARK    2  A    between atoms: NBD_9  and  CBC_10 
+REMARK    3  A    between atoms: CBA_13  and  OAD_14 
+REMARK    4  A    between atoms: CBB_15  and  CAN_16 
+REMARK    5  A    between atoms: CAN_16  and  NAP_17 
+REMARK    6  A    between atoms: NAP_17  and  CAT_18 
+REMARK    7  A    between atoms: NAQ_20  and  CAV_21 
+REMARK    8  A    between atoms: CAX_27  and  CBE_28 
+ROOT
+ATOM      1  CBC 74X d   1      16.267   5.289   1.885  0.00  0.00     0.116 C 
+ATOM      2  OAS 74X d   1      15.267   5.363   0.847  0.00  0.00    -0.357 OA
+ATOM      3  CAO 74X d   1      16.791   6.665   2.135  0.00  0.00     0.002 C 
+ATOM      4  CBA 74X d   1      15.746   7.558   1.590  0.00  0.00     0.066 C 
+ATOM      5  CBB 74X d   1      15.219   6.735   0.405  0.00  0.00     0.081 C 
+ATOM      6  H6  74X d   1      17.103   4.646   1.573  0.00  0.00     0.118 H 
+ATOM      7  H7  74X d   1      17.747   6.819   1.613  0.00  0.00     0.043 H 
+ATOM      8  H8  74X d   1      16.930   6.840   3.212  0.00  0.00     0.043 H 
+ATOM      9  H9  74X d   1      16.145   8.535   1.279  0.00  0.00     0.087 H 
+ATOM     10  H11 74X d   1      14.182   7.023   0.178  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  CAN 74X d   1      16.099   6.950  -0.883  0.00  0.00     0.021 C 
+ATOM     12  H12 74X d   1      15.933   6.138  -1.606  0.00  0.00     0.068 H 
+ATOM     13  H13 74X d   1      17.166   6.995  -0.621  0.00  0.00     0.068 H 
+BRANCH  11  14
+ATOM     14  NAP 74X d   1      15.643   8.240  -1.435  0.00  0.00    -0.364 N 
+ATOM     15  H14 74X d   1      14.793   8.249  -1.962  0.00  0.00     0.162 HD
+BRANCH  14  16
+ATOM     16  CAT 74X d   1      16.285   9.385  -1.278  0.00  0.00     0.172 C 
+ATOM     17  SAE 74X d   1      17.836   9.390  -0.500  0.00  0.00    -0.041 SA
+ATOM     18  NAQ 74X d   1      15.706  10.493  -1.758  0.00  0.00    -0.333 N 
+ATOM     19  H15 74X d   1      14.820  10.435  -2.217  0.00  0.00     0.168 HD
+BRANCH  18  20
+ATOM     20  CAV 74X d   1      16.312  11.674  -1.623  0.00  0.00     0.035 A 
+ATOM     21  CAL 74X d   1      15.942  12.492  -0.559  0.00  0.00    -0.041 A 
+ATOM     22  CAX 74X d   1      16.549  13.727  -0.360  0.00  0.00     0.071 A 
+ATOM     23  H16 74X d   1      15.169  12.161   0.125  0.00  0.00     0.088 H 
+ATOM     24  CAW 74X d   1      17.550  14.141  -1.245  0.00  0.00     0.049 A 
+ATOM     25  CAK 74X d   1      17.925  13.319  -2.305  0.00  0.00    -0.059 A 
+ATOM     26 CLA  74X d   1      18.358  15.656  -1.067  0.00  0.00    -0.083 Cl
+ATOM     27  CAJ 74X d   1      17.309  12.087  -2.499  0.00  0.00    -0.056 A 
+ATOM     28  H18 74X d   1      18.704  13.643  -2.985  0.00  0.00     0.086 H 
+ATOM     29  H17 74X d   1      17.604  11.454  -3.328  0.00  0.00     0.087 H 
+BRANCH  22  30
+ATOM     30  CBE 74X d   1      16.082  14.581   0.831  0.00  0.00     0.419 C 
+ATOM     31  FAG 74X d   1      15.463  15.677   0.416  0.00  0.00    -0.166 F 
+ATOM     32  FAH 74X d   1      15.226  13.872   1.558  0.00  0.00    -0.166 F 
+ATOM     33  FAF 74X d   1      17.102  14.926   1.599  0.00  0.00    -0.166 F 
+ENDBRANCH  22  30
+ENDBRANCH  18  20
+ENDBRANCH  14  16
+ENDBRANCH  11  14
+ENDBRANCH   5  11
+BRANCH   4  34
+ATOM     34  OAD 74X d   1      14.713   7.714   2.560  0.00  0.00    -0.393 OA
+ATOM     35  H10 74X d   1      14.039   8.287   2.214  0.00  0.00     0.210 HD
+ENDBRANCH   4  34
+BRANCH   1  36
+ATOM     36  NBD 74X d   1      15.561   4.656   3.055  0.00  0.00    -0.282 N 
+ATOM     37  CAZ 74X d   1      16.329   4.073   4.046  0.00  0.00     0.331 A 
+ATOM     38  OAC 74X d   1      17.524   4.093   3.989  0.00  0.00    -0.246 OA
+ATOM     39  NAR 74X d   1      15.735   3.440   5.116  0.00  0.00    -0.275 N 
+ATOM     40  CAY 74X d   1      14.342   3.381   5.233  0.00  0.00     0.256 A 
+ATOM     41  H1  74X d   1      16.307   3.017   5.819  0.00  0.00     0.173 HD
+ATOM     42  OAB 74X d   1      13.844   2.782   6.177  0.00  0.00    -0.267 OA
+ATOM     43  CAU 74X d   1      13.550   3.949   4.249  0.00  0.00     0.022 A 
+ATOM     44  CAM 74X d   1      14.170   4.607   3.198  0.00  0.00    -0.002 A 
+ATOM     45  H5  74X d   1      13.550   5.105   2.454  0.00  0.00     0.113 H 
+BRANCH  43  46
+ATOM     46  CAA 74X d   1      12.020   3.934   4.352  0.00  0.00    -0.045 C 
+ATOM     47  H2  74X d   1      11.588   4.434   3.472  0.00  0.00     0.033 H 
+ATOM     48  H3  74X d   1      11.709   4.464   5.264  0.00  0.00     0.033 H 
+ATOM     49  H4  74X d   1      11.665   2.893   4.393  0.00  0.00     0.033 H 
+ENDBRANCH  43  46
+ENDBRANCH   1  36
+TORSDOF 8

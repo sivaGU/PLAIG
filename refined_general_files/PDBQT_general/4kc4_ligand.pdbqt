@@ -1,0 +1,75 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_8  and  C11_9 
+REMARK    2  A    between atoms: C22_11  and  O22_12 
+REMARK    3  A    between atoms: C33_13  and  O33_14 
+REMARK    4  A    between atoms: C44_15  and  C55_16 
+REMARK    5  A    between atoms: C55_16  and  N11_17 
+REMARK       I    between atoms: N11_17  and  C12_18 
+REMARK    6  A    between atoms: C12_18  and  C14_20 
+REMARK    7  A    between atoms: C18_24  and  C20_26 
+REMARK    8  A    between atoms: C20_26  and  O1'_27 
+ROOT
+ATOM      1  C11 WS3 d   1      16.000  23.388   6.159  0.00  0.00     0.141 C 
+ATOM      2  O44 WS3 d   1      14.680  22.830   6.112  0.00  0.00    -0.354 OA
+ATOM      3  C22 WS3 d   1      16.883  22.509   5.272  0.00  0.00     0.105 C 
+ATOM      4  C33 WS3 d   1      16.138  21.199   5.274  0.00  0.00     0.091 C 
+ATOM      5  C44 WS3 d   1      14.683  21.660   5.285  0.00  0.00     0.083 C 
+ATOM      6  H4  WS3 d   1      15.983  24.412   5.757  0.00  0.00     0.123 H 
+ATOM      7  H5  WS3 d   1      17.900  22.413   5.680  0.00  0.00     0.093 H 
+ATOM      8  H7  WS3 d   1      16.365  20.614   6.177  0.00  0.00     0.091 H 
+ATOM      9  H9  WS3 d   1      14.398  21.931   4.258  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  C55 WS3 d   1      13.648  20.654   5.794  0.00  0.00     0.022 C 
+ATOM     11  H10 WS3 d   1      13.438  19.928   4.995  0.00  0.00     0.068 H 
+ATOM     12  H11 WS3 d   1      12.725  21.195   6.049  0.00  0.00     0.068 H 
+BRANCH  10  13
+ATOM     13  N11 WS3 d   1      14.108  19.934   6.971  0.00  0.00    -0.353 N 
+ATOM     14  C12 WS3 d   1      14.707  18.748   6.862  0.00  0.00     0.270 C 
+ATOM     15  O13 WS3 d   1      15.127  18.330   5.781  0.00  0.00    -0.266 OA
+ATOM     16  H12 WS3 d   1      13.973  20.335   7.877  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  C14 WS3 d   1      14.880  17.901   8.090  0.00  0.00     0.124 A 
+ATOM     18  C15 WS3 d   1      14.429  18.341   9.339  0.00  0.00    -0.050 A 
+ATOM     19  C16 WS3 d   1      14.607  17.524  10.456  0.00  0.00    -0.079 A 
+ATOM     20  H13 WS3 d   1      13.946  19.306   9.438  0.00  0.00     0.087 H 
+ATOM     21  C17 WS3 d   1      15.232  16.286  10.301  0.00  0.00    -0.057 A 
+ATOM     22  H14 WS3 d   1      14.264  17.847  11.432  0.00  0.00     0.083 H 
+ATOM     23  C18 WS3 d   1      15.668  15.882   9.036  0.00  0.00     0.058 A 
+ATOM     24  H15 WS3 d   1      15.379  15.640  11.159  0.00  0.00     0.086 H 
+ATOM     25  N19 WS3 d   1      15.484  16.694   7.967  0.00  0.00    -0.246 NA
+BRANCH  23  26
+ATOM     26  C20 WS3 d   1      16.346  14.540   8.861  0.00  0.00     0.056 C 
+ATOM     27  H16 WS3 d   1      15.834  13.790   9.482  0.00  0.00     0.083 H 
+ATOM     28  H17 WS3 d   1      17.397  14.620   9.175  0.00  0.00     0.083 H 
+BRANCH  26  29
+ATOM     29  O1' WS3 d   1      16.292  14.135   7.490  0.00  0.00    -0.395 OA
+ATOM     30  H18 WS3 d   1      16.735  14.781   6.952  0.00  0.00     0.209 HD
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH  14  17
+ENDBRANCH  10  13
+ENDBRANCH   5  10
+BRANCH   4  31
+ATOM     31  O33 WS3 d   1      16.482  20.425   4.121  0.00  0.00    -0.390 OA
+ATOM     32  H8  WS3 d   1      16.004  19.604   4.138  0.00  0.00     0.210 HD
+ENDBRANCH   4  31
+BRANCH   1  33
+ATOM     33  N1  WS3 d   1      16.492  23.436   7.550  0.00  0.00    -0.280 N 
+ATOM     34  C2  WS3 d   1      17.681  24.146   7.842  0.00  0.00     0.331 A 
+ATOM     35  N3  WS3 d   1      18.152  24.220   9.096  0.00  0.00    -0.275 N 
+ATOM     36  O2  WS3 d   1      18.298  24.708   6.924  0.00  0.00    -0.246 OA
+ATOM     37  C4  WS3 d   1      17.504  23.630  10.112  0.00  0.00     0.250 A 
+ATOM     38  H1  WS3 d   1      18.998  24.722   9.276  0.00  0.00     0.173 HD
+ATOM     39  O4  WS3 d   1      17.971  23.719  11.272  0.00  0.00    -0.268 OA
+ATOM     40  C5  WS3 d   1      16.328  22.917   9.868  0.00  0.00    -0.002 A 
+ATOM     41  C6  WS3 d   1      15.832  22.840   8.565  0.00  0.00    -0.008 A 
+ATOM     42  H2  WS3 d   1      15.803  22.426  10.686  0.00  0.00     0.094 H 
+ATOM     43  H3  WS3 d   1      14.909  22.297   8.367  0.00  0.00     0.112 H 
+ENDBRANCH   1  33
+BRANCH   3  44
+ATOM     44  O22 WS3 d   1      16.927  22.999   3.917  0.00  0.00    -0.388 OA
+ATOM     45  H6  WS3 d   1      17.279  23.881   3.912  0.00  0.00     0.210 HD
+ENDBRANCH   3  44
+TORSDOF 8

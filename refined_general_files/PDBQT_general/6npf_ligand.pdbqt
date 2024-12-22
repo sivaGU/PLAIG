@@ -1,0 +1,27 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAF_5  and  PAG_2 
+REMARK    2  A    between atoms: NAC_9  and  OAD_10 
+ROOT
+ATOM      1  CAF KVM d   1     -36.757 -63.040  83.577  0.00  0.00     0.142 C 
+ATOM      2  CAE KVM d   1     -35.566 -62.168  83.896  0.00  0.00     0.035 C 
+ATOM      3  CAB KVM d   1     -34.884 -62.834  84.857  0.00  0.00     0.252 C 
+ATOM      4  OAA KVM d   1     -33.848 -62.346  85.302  0.00  0.00    -0.271 OA
+ATOM      5  NAC KVM d   1     -35.394 -64.080  85.050  0.00  0.00    -0.156 N 
+ATOM      6  CAK KVM d   1     -36.491 -64.238  84.320  0.00  0.00     0.268 C 
+ATOM      7  OAL KVM d   1     -37.081 -65.332  84.270  0.00  0.00    -0.270 OA
+ATOM      8  H1  KVM d   1     -36.898 -63.269  82.510  0.00  0.00     0.077 H 
+ATOM      9  H2  KVM d   1     -35.895 -61.186  84.267  0.00  0.00     0.049 H 
+ATOM     10  H3  KVM d   1     -34.939 -62.031  83.003  0.00  0.00     0.049 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  PAG KVM d   1     -38.041 -61.888  84.203  0.00  0.00     0.273 P 
+ATOM     12  OAH KVM d   1     -38.795 -62.712  85.363  0.00  0.00    -0.639 OA
+ATOM     13  OAI KVM d   1     -39.082 -61.609  83.041  0.00  0.00    -0.639 OA
+ATOM     14  OAJ KVM d   1     -37.628 -60.552  84.660  0.00  0.00    -0.639 OA
+ENDBRANCH   1  11
+BRANCH   5  15
+ATOM     15  OAD KVM d   1     -34.980 -65.270  85.894  0.00  0.00    -0.277 OA
+ATOM     16  H4  KVM d   1     -35.598 -65.980  85.764  0.00  0.00     0.245 HD
+ENDBRANCH   5  15
+TORSDOF 2

@@ -1,0 +1,69 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O9_1  and  C12_2 
+REMARK    2  A    between atoms: C12_2  and  C11_3 
+REMARK    3  A    between atoms: C10_4  and  O1_5 
+REMARK    4  A    between atoms: C9_6  and  O8_7 
+REMARK    5  A    between atoms: C8_8  and  O7_9 
+REMARK    6  A    between atoms: N1_10  and  C13_12 
+REMARK    7  A    between atoms: C13_12  and  C14_13 
+REMARK    8  A    between atoms: C14_13  and  C15_14 
+REMARK    9  A    between atoms: C15_14  and  C16_15 
+ROOT
+ATOM      1  C11 NBV d   1     107.791 530.820  70.187  0.00  0.00     0.150 C 
+ATOM      2  C10 NBV d   1     109.159 530.874  69.506  0.00  0.00     0.092 C 
+ATOM      3  C9  NBV d   1     109.441 532.252  68.935  0.00  0.00     0.088 C 
+ATOM      4  C8  NBV d   1     109.373 533.282  70.049  0.00  0.00     0.086 C 
+ATOM      5  N1  NBV d   1     107.488 531.956  71.095  0.00  0.00    -0.060 N 
+ATOM      6  C7  NBV d   1     107.988 533.281  70.682  0.00  0.00     0.110 C 
+ATOM      7  H4  NBV d   1     107.040 530.858  69.385  0.00  0.00     0.092 H 
+ATOM      8  H5  NBV d   1     109.936 530.622  70.242  0.00  0.00     0.090 H 
+ATOM      9  H7  NBV d   1     108.677 532.491  68.181  0.00  0.00     0.091 H 
+ATOM     10  H9  NBV d   1     110.104 533.004  70.823  0.00  0.00     0.089 H 
+ATOM     11  H11 NBV d   1     107.932 531.741  71.974  0.00  0.00     0.280 HD
+ATOM     12  H12 NBV d   1     107.280 533.700  69.952  0.00  0.00     0.080 H 
+ATOM     13  H13 NBV d   1     108.020 533.926  71.573  0.00  0.00     0.080 H 
+ENDROOT
+BRANCH   5  14
+ATOM     14  C13 NBV d   1     106.035 532.054  71.334  0.00  0.00     0.084 C 
+ATOM     15  H14 NBV d   1     105.534 531.354  70.649  0.00  0.00     0.076 H 
+ATOM     16  H15 NBV d   1     105.725 533.083  71.098  0.00  0.00     0.076 H 
+BRANCH  14  17
+ATOM     17  C14 NBV d   1     105.565 531.741  72.739  0.00  0.00    -0.043 C 
+ATOM     18  H16 NBV d   1     105.799 532.599  73.386  0.00  0.00     0.035 H 
+ATOM     19  H17 NBV d   1     106.105 530.853  73.099  0.00  0.00     0.035 H 
+BRANCH  17  20
+ATOM     20  C15 NBV d   1     104.064 531.465  72.822  0.00  0.00    -0.067 C 
+ATOM     21  H18 NBV d   1     103.773 531.410  73.881  0.00  0.00     0.032 H 
+ATOM     22  H19 NBV d   1     103.854 530.502  72.334  0.00  0.00     0.032 H 
+BRANCH  20  23
+ATOM     23  C16 NBV d   1     103.235 532.551  72.141  0.00  0.00    -0.076 C 
+ATOM     24  H20 NBV d   1     102.166 532.306  72.229  0.00  0.00     0.027 H 
+ATOM     25  H21 NBV d   1     103.511 532.611  71.078  0.00  0.00     0.027 H 
+ATOM     26  H22 NBV d   1     103.430 533.519  72.626  0.00  0.00     0.027 H 
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH   5  14
+BRANCH   1  27
+ATOM     27  C12 NBV d   1     107.627 529.488  70.900  0.00  0.00     0.046 C 
+ATOM     28  H2  NBV d   1     106.568 529.357  71.167  0.00  0.00     0.077 H 
+ATOM     29  H3  NBV d   1     107.936 528.681  70.219  0.00  0.00     0.077 H 
+BRANCH  27  30
+ATOM     30  O9  NBV d   1     108.404 529.416  72.073  0.00  0.00    -0.399 OA
+ATOM     31  H1  NBV d   1     108.139 530.106  72.670  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   1  27
+BRANCH   2  32
+ATOM     32  O1  NBV d   1     109.187 529.934  68.442  0.00  0.00    -0.391 OA
+ATOM     33  H6  NBV d   1     110.036 529.965  68.016  0.00  0.00     0.210 HD
+ENDBRANCH   2  32
+BRANCH   4  34
+ATOM     34  O7  NBV d   1     109.722 534.578  69.552  0.00  0.00    -0.391 OA
+ATOM     35  H10 NBV d   1     109.116 534.826  68.864  0.00  0.00     0.210 HD
+ENDBRANCH   4  34
+BRANCH   3  36
+ATOM     36  O8  NBV d   1     110.720 532.271  68.312  0.00  0.00    -0.390 OA
+ATOM     37  H8  NBV d   1     110.886 533.137  67.959  0.00  0.00     0.210 HD
+ENDBRANCH   3  36
+TORSDOF 9

@@ -1,0 +1,51 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_1  and  C16_2 
+REMARK    2  A    between atoms: C13_1  and  C10_4 
+REMARK    3  A    between atoms: C16_2  and  C19_3 
+REMARK    4  A    between atoms: C19_3  and  C22_5 
+REMARK    5  A    between atoms: C10_4  and  C02_7 
+REMARK    6  A    between atoms: C02_7  and  C04_9 
+REMARK    7  A    between atoms: C04_9  and  C07_12 
+ROOT
+ATOM      1  C13 8PF d   1       4.122  -6.882  19.135  0.00  0.00     0.384 C 
+ATOM      2  F14 8PF d   1       5.137  -6.063  18.829  0.00  0.00    -0.192 F 
+ATOM      3  F15 8PF d   1       3.591  -7.384  18.013  0.00  0.00    -0.192 F 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C16 8PF d   1       4.651  -8.022  19.977  0.00  0.00     0.387 C 
+ATOM      5  F17 8PF d   1       3.635  -8.646  20.586  0.00  0.00    -0.192 F 
+ATOM      6  F18 8PF d   1       5.507  -7.549  20.893  0.00  0.00    -0.192 F 
+BRANCH   4   7
+ATOM      7  C19 8PF d   1       5.405  -9.000  19.103  0.00  0.00     0.409 C 
+ATOM      8  F20 8PF d   1       6.148  -9.781  19.897  0.00  0.00    -0.189 F 
+ATOM      9  F21 8PF d   1       6.229  -8.302  18.312  0.00  0.00    -0.189 F 
+BRANCH   7  10
+ATOM     10  C22 8PF d   1       4.557  -9.894  18.225  0.00  0.00     0.461 C 
+ATOM     11  F23 8PF d   1       5.313 -10.882  17.731  0.00  0.00    -0.165 F 
+ATOM     12  F24 8PF d   1       4.047  -9.175  17.216  0.00  0.00    -0.165 F 
+ATOM     13  F25 8PF d   1       3.559 -10.415  18.950  0.00  0.00    -0.165 F 
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  14
+ATOM     14  C10 8PF d   1       3.065  -6.122  19.906  0.00  0.00     0.385 C 
+ATOM     15  F11 8PF d   1       1.923  -6.821  19.920  0.00  0.00    -0.192 F 
+ATOM     16  F12 8PF d   1       3.460  -5.958  21.175  0.00  0.00    -0.192 F 
+BRANCH  14  17
+ATOM     17  C02 8PF d   1       2.832  -4.772  19.263  0.00  0.00     0.389 C 
+ATOM     18  F01 8PF d   1       3.898  -4.000  19.509  0.00  0.00    -0.192 F 
+ATOM     19  F03 8PF d   1       2.734  -4.949  17.939  0.00  0.00    -0.192 F 
+BRANCH  17  20
+ATOM     20  C04 8PF d   1       1.596  -4.039  19.736  0.00  0.00     0.399 C 
+ATOM     21  F05 8PF d   1       1.490  -4.131  21.067  0.00  0.00    -0.187 F 
+ATOM     22  F06 8PF d   1       0.500  -4.608  19.217  0.00  0.00    -0.187 F 
+BRANCH  20  23
+ATOM     23  C07 8PF d   1       1.669  -2.556  19.314  0.00  0.00     0.255 C 
+ATOM     24  O08 8PF d   1       1.782  -1.732  20.259  0.00  0.00    -0.643 OA
+ATOM     25  O09 8PF d   1       1.619  -2.196  18.109  0.00  0.00    -0.643 OA
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH   1  14
+TORSDOF 7

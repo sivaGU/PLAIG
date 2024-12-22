@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_6  and  C1_1 
+REMARK    2  A    between atoms: C3_2  and  C4_3 
+REMARK    3  A    between atoms: C3_2  and  C2_6 
+REMARK    4  A    between atoms: C4_3  and  C5_5 
+ROOT
+ATOM      1  C3  PNH d   1       3.451 -33.326 -13.883  0.00  0.00    -0.010 C 
+ATOM      2  H4  PNH d   1       2.761 -33.247 -13.030  0.00  0.00     0.044 H 
+ATOM      3  H5  PNH d   1       3.373 -34.330 -14.326  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4  PNH d   1       4.851 -33.187 -13.339  0.00  0.00     0.123 C 
+ATOM      5  O6  PNH d   1       5.603 -32.334 -13.787  0.00  0.00    -0.298 OA
+BRANCH   4   6
+ATOM      6  C5  PNH d   1       5.268 -34.150 -12.245  0.00  0.00    -0.021 C 
+ATOM      7  H6  PNH d   1       6.304 -33.937 -11.944  0.00  0.00     0.037 H 
+ATOM      8  H7  PNH d   1       5.200 -35.182 -12.619  0.00  0.00     0.037 H 
+ATOM      9  H8  PNH d   1       4.603 -34.030 -11.377  0.00  0.00     0.037 H 
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  10
+ATOM     10  C2  PNH d   1       2.982 -32.335 -14.932  0.00  0.00    -0.062 C 
+ATOM     11  H9  PNH d   1       2.035 -32.736 -15.323  0.00  0.00     0.033 H 
+ATOM     12  H10 PNH d   1       2.788 -31.396 -14.393  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C1  PNH d   1       3.804 -31.954 -16.146  0.00  0.00    -0.076 C 
+ATOM     14  H1  PNH d   1       3.248 -31.222 -16.750  0.00  0.00     0.027 H 
+ATOM     15  H2  PNH d   1       4.005 -32.852 -16.750  0.00  0.00     0.027 H 
+ATOM     16  H3  PNH d   1       4.757 -31.511 -15.820  0.00  0.00     0.027 H 
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+TORSDOF 4

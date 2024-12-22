@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAM_13  and  CAA_1 
+REMARK    2  A    between atoms: CAJ_10  and  OAC_3 
+REMARK    3  A    between atoms: CAO_15  and  CAJ_10 
+REMARK    4  A    between atoms: CAP_16  and  OAM_13 
+REMARK    5  A    between atoms: CAQ_17  and  CAN_14 
+ROOT
+ATOM      1  CAE GRI d   1      -0.042  89.332  23.226  0.00  0.00    -0.080 A 
+ATOM      2  CAF GRI d   1       1.310  89.138  23.043  0.00  0.00    -0.064 A 
+ATOM      3  CAG GRI d   1      -0.196  83.025  26.702  0.00  0.00    -0.070 A 
+ATOM      4  CAH GRI d   1       1.181  82.855  26.485  0.00  0.00    -0.048 A 
+ATOM      5  CAI GRI d   1      -0.779  88.339  23.816  0.00  0.00    -0.053 A 
+ATOM      6  NAK GRI d   1      -0.816  86.189  24.885  0.00  0.00    -0.244 NA
+ATOM      7  NAL GRI d   1       1.851  85.835  24.504  0.00  0.00    -0.240 NA
+ATOM      8  CAO GRI d   1      -0.875  84.141  26.165  0.00  0.00    -0.004 A 
+ATOM      9  CAP GRI d   1       1.878  83.804  25.714  0.00  0.00     0.099 A 
+ATOM     10  CAQ GRI d   1       1.929  87.987  23.475  0.00  0.00     0.071 A 
+ATOM     11  CAR GRI d   1      -0.139  87.175  24.281  0.00  0.00     0.087 A 
+ATOM     12  CAS GRI d   1      -0.188  85.086  25.415  0.00  0.00     0.097 A 
+ATOM     13  CAT GRI d   1       1.231  86.979  24.084  0.00  0.00     0.103 A 
+ATOM     14  CAU GRI d   1       1.189  84.904  25.197  0.00  0.00     0.120 A 
+ATOM     15  H5  GRI d   1      -0.514  90.255  22.909  0.00  0.00     0.083 H 
+ATOM     16  H6  GRI d   1       1.896  89.905  22.550  0.00  0.00     0.085 H 
+ATOM     17  H7  GRI d   1      -0.742  82.294  27.287  0.00  0.00     0.084 H 
+ATOM     18  H8  GRI d   1       1.701  82.002  26.907  0.00  0.00     0.087 H 
+ATOM     19  H9  GRI d   1      -1.852  88.450  23.924  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   8  20
+ATOM     20  CAJ GRI d   1      -2.372  84.318  26.464  0.00  0.00     0.043 C 
+ATOM     21  H10 GRI d   1      -2.735  83.355  26.854  0.00  0.00     0.081 H 
+ATOM     22  H11 GRI d   1      -2.451  85.084  27.249  0.00  0.00     0.081 H 
+BRANCH  20  23
+ATOM     23  OAC GRI d   1      -3.306  84.721  25.372  0.00  0.00    -0.396 OA
+ATOM     24  H4  GRI d   1      -4.188  84.786  25.719  0.00  0.00     0.209 HD
+ENDBRANCH  20  23
+ENDBRANCH   8  20
+BRANCH   9  25
+ATOM     25  OAM GRI d   1       3.246  83.667  25.463  0.00  0.00    -0.353 OA
+BRANCH  25  26
+ATOM     26  CAA GRI d   1       4.167  82.645  25.979  0.00  0.00     0.010 C 
+ATOM     27  H1  GRI d   1       5.177  82.829  25.584  0.00  0.00     0.066 H 
+ATOM     28  H2  GRI d   1       3.825  81.649  25.662  0.00  0.00     0.066 H 
+ATOM     29  H3  GRI d   1       4.189  82.692  27.078  0.00  0.00     0.066 H 
+ENDBRANCH  25  26
+ENDBRANCH   9  25
+BRANCH  10  30
+ATOM     30  CAN GRI d   1       3.367  87.918  23.264  0.00  0.00     0.211 C 
+ATOM     31  OAB GRI d   1       3.924  88.894  22.601  0.00  0.00    -0.644 OA
+ATOM     32  OAD GRI d   1       4.082  86.957  23.798  0.00  0.00    -0.644 OA
+ENDBRANCH  10  30
+TORSDOF 5

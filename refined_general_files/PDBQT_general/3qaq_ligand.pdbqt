@@ -1,0 +1,64 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_5  and  N6_23 
+REMARK    2  A    between atoms: N6_23  and  C13_9 
+REMARK    3  A    between atoms: C17_11  and  O1_27 
+REMARK    4  A    between atoms: N7_15  and  C11_14 
+REMARK    5  A    between atoms: C1_16  and  N7_15 
+REMARK    6  A    between atoms: C2_19  and  N4_20 
+ROOT
+ATOM      1  N8  QAQ d   1      15.074  14.629  24.158  0.00  0.00    -0.196 NA
+ATOM      2  C12 QAQ d   1      16.213  14.580  23.976  0.00  0.00     0.079 C 
+ATOM      3  C11 QAQ d   1      17.666  14.693  23.693  0.00  0.00     0.088 C 
+ATOM      4  H   QAQ d   1      18.080  15.510  24.284  0.00  0.00     0.087 H 
+ATOM      5  H   QAQ d   1      17.806  14.883  22.629  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   3   6
+ATOM      6  N7  QAQ d   1      18.361  13.440  24.053  0.00  0.00    -0.210 N 
+ATOM      7  H   QAQ d   1      17.823  12.699  24.503  0.00  0.00     0.178 HD
+BRANCH   6   8
+ATOM      8  C1  QAQ d   1      19.659  13.229  23.819  0.00  0.00     0.740 A 
+ATOM      9  N1  QAQ d   1      20.397  14.049  23.047  0.00  0.00     0.131 NA
+ATOM     10  C2  QAQ d   1      21.702  13.788  22.839  0.00  0.00     0.765 A 
+ATOM     11  N2  QAQ d   1      22.239  12.700  23.418  0.00  0.00    -0.054 NA
+ATOM     12  C3  QAQ d   1      21.512  11.901  24.173  0.00  0.00     0.124 A 
+ATOM     13  N3  QAQ d   1      20.234  12.155  24.375  0.00  0.00    -0.055 NA
+ATOM     14  H   QAQ d   1      21.970  11.025  24.633  0.00  0.00     0.148 H 
+BRANCH  10  15
+ATOM     15  N4  QAQ d   1      22.477  14.575  22.071  0.00  0.00     0.031 N 
+ATOM     16  C4  QAQ d   1      22.176  15.790  21.601  0.00  0.00     0.104 A 
+ATOM     17  C5  QAQ d   1      23.283  16.214  20.861  0.00  0.00     0.104 A 
+ATOM     18  C7  QAQ d   1      21.060  16.629  21.710  0.00  0.00    -0.053 A 
+ATOM     19  C10 QAQ d   1      23.280  17.461  20.238  0.00  0.00    -0.052 A 
+ATOM     20  N5  QAQ d   1      24.199  15.253  20.910  0.00  0.00    -0.061 NA
+ATOM     21  C9  QAQ d   1      22.167  18.294  20.349  0.00  0.00    -0.081 A 
+ATOM     22  H   QAQ d   1      24.148  17.785  19.664  0.00  0.00     0.087 H 
+ATOM     23  C8  QAQ d   1      21.054  17.881  21.084  0.00  0.00    -0.081 A 
+ATOM     24  H   QAQ d   1      22.166  19.269  19.861  0.00  0.00     0.083 H 
+ATOM     25  H   QAQ d   1      20.183  18.531  21.170  0.00  0.00     0.083 H 
+ATOM     26  C6  QAQ d   1      23.707  14.260  21.647  0.00  0.00     0.727 A 
+ATOM     27  H   QAQ d   1      20.192  16.306  22.285  0.00  0.00     0.087 H 
+BRANCH  26  28
+ATOM     28  N6  QAQ d   1      24.337  13.106  21.927  0.00  0.00    -0.189 N 
+ATOM     29  H   QAQ d   1      23.768  12.360  22.329  0.00  0.00     0.184 HD
+BRANCH  28  30
+ATOM     30  C13 QAQ d   1      25.635  12.834  21.733  0.00  0.00     0.051 A 
+ATOM     31  C18 QAQ d   1      26.314  12.102  22.702  0.00  0.00    -0.025 A 
+ATOM     32  C17 QAQ d   1      27.660  11.785  22.525  0.00  0.00     0.067 A 
+ATOM     33  H   QAQ d   1      25.792  11.776  23.602  0.00  0.00     0.091 H 
+ATOM     34  C16 QAQ d   1      28.336  12.195  21.378  0.00  0.00    -0.051 A 
+ATOM     35  C15 QAQ d   1      27.663  12.922  20.402  0.00  0.00    -0.078 A 
+ATOM     36  H   QAQ d   1      29.389  11.947  21.246  0.00  0.00     0.087 H 
+ATOM     37  C14 QAQ d   1      26.316  13.231  20.579  0.00  0.00    -0.057 A 
+ATOM     38  H   QAQ d   1      28.186  13.248  19.503  0.00  0.00     0.083 H 
+ATOM     39  H   QAQ d   1      25.786  13.790  19.807  0.00  0.00     0.086 H 
+BRANCH  32  40
+ATOM     40  O1  QAQ d   1      28.321  11.080  23.480  0.00  0.00    -0.361 OA
+ATOM     41  H   QAQ d   1      27.719  10.876  24.199  0.00  0.00     0.217 HD
+ENDBRANCH  32  40
+ENDBRANCH  28  30
+ENDBRANCH  26  28
+ENDBRANCH  10  15
+ENDBRANCH   6   8
+ENDBRANCH   3   6
+TORSDOF 6

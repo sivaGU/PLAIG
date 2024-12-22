@@ -1,0 +1,82 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_7  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: C4'_16  and  O1_7 
+REMARK    8  A    between atoms: C1'_13  and  O1'_19 
+REMARK    9  A    between atoms: C2'_14  and  O2'_20 
+REMARK   10  A    between atoms: C3'_15  and  O3'_21 
+REMARK   11  A    between atoms: C5'_17  and  C6'_18 
+ROOT
+ATOM      1  C1  LAT d   1      34.344  65.281   1.314  0.00  0.00     0.159 C 
+ATOM      2  C2  LAT d   1      34.611  63.800   1.023  0.00  0.00     0.110 C 
+ATOM      3  C3  LAT d   1      33.670  63.287  -0.056  0.00  0.00     0.092 C 
+ATOM      4  C4  LAT d   1      32.198  63.655   0.329  0.00  0.00     0.090 C 
+ATOM      5  C5  LAT d   1      32.082  65.142   0.659  0.00  0.00     0.089 C 
+ATOM      6  O5  LAT d   1      32.989  65.462   1.713  0.00  0.00    -0.348 OA
+ATOM      7  H1  LAT d   1      34.542  65.877   0.411  0.00  0.00     0.133 H 
+ATOM      8  H2  LAT d   1      34.459  63.221   1.946  0.00  0.00     0.094 H 
+ATOM      9  H3  LAT d   1      33.931  63.757  -1.016  0.00  0.00     0.091 H 
+ATOM     10  H4  LAT d   1      31.537  63.426  -0.520  0.00  0.00     0.091 H 
+ATOM     11  H5  LAT d   1      32.492  65.665  -0.217  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  O1  LAT d   1      35.214  65.700   2.370  0.00  0.00    -0.348 OA
+BRANCH  12  13
+ATOM     13  C4' LAT d   1      35.210  67.116   2.528  0.00  0.00     0.093 C 
+ATOM     14  C3' LAT d   1      34.725  67.470   3.929  0.00  0.00     0.092 C 
+ATOM     15  C2' LAT d   1      34.877  68.965   4.181  0.00  0.00     0.110 C 
+ATOM     16  H14 LAT d   1      35.325  66.917   4.667  0.00  0.00     0.091 H 
+ATOM     17  C1' LAT d   1      36.299  69.417   3.848  0.00  0.00     0.156 C 
+ATOM     18  H13 LAT d   1      34.165  69.513   3.546  0.00  0.00     0.094 H 
+ATOM     19  O5' LAT d   1      36.605  69.078   2.497  0.00  0.00    -0.351 OA
+ATOM     20  H12 LAT d   1      37.009  68.911   4.519  0.00  0.00     0.133 H 
+ATOM     21  C5' LAT d   1      36.598  67.670   2.275  0.00  0.00     0.066 C 
+ATOM     22  H16 LAT d   1      37.297  67.197   2.981  0.00  0.00     0.086 H 
+ATOM     23  H15 LAT d   1      34.518  67.555   1.794  0.00  0.00     0.091 H 
+BRANCH  14  24
+ATOM     24  O3' LAT d   1      33.349  67.106   4.072  0.00  0.00    -0.390 OA
+ATOM     25  H22 LAT d   1      33.254  66.171   3.933  0.00  0.00     0.210 HD
+ENDBRANCH  14  24
+BRANCH  15  26
+ATOM     26  O2' LAT d   1      34.601  69.247   5.558  0.00  0.00    -0.388 OA
+ATOM     27  H21 LAT d   1      34.696  70.179   5.714  0.00  0.00     0.210 HD
+ENDBRANCH  15  26
+BRANCH  17  28
+ATOM     28  O1' LAT d   1      36.404  70.830   4.027  0.00  0.00    -0.369 OA
+ATOM     29  H20 LAT d   1      36.199  71.050   4.928  0.00  0.00     0.212 HD
+ENDBRANCH  17  28
+BRANCH  21  30
+ATOM     30  C6' LAT d   1      37.061  67.365   0.861  0.00  0.00    -0.050 C 
+ATOM     31  H17 LAT d   1      38.069  67.778   0.708  0.00  0.00     0.031 H 
+ATOM     32  H18 LAT d   1      36.365  67.820   0.141  0.00  0.00     0.031 H 
+ATOM     33  H19 LAT d   1      37.085  66.276   0.710  0.00  0.00     0.031 H 
+ENDBRANCH  21  30
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  34
+ATOM     34  O2  LAT d   1      35.944  63.623   0.567  0.00  0.00    -0.388 OA
+ATOM     35  H8  LAT d   1      36.548  63.938   1.229  0.00  0.00     0.210 HD
+ENDBRANCH   2  34
+BRANCH   3  36
+ATOM     36  O3  LAT d   1      33.757  61.886  -0.185  0.00  0.00    -0.390 OA
+ATOM     37  H9  LAT d   1      33.160  61.594  -0.864  0.00  0.00     0.210 HD
+ENDBRANCH   3  36
+BRANCH   5  38
+ATOM     38  C6  LAT d   1      30.703  65.631   0.727  0.00  0.00     0.043 C 
+ATOM     39  H6  LAT d   1      30.094  64.882   1.255  0.00  0.00     0.078 H 
+ATOM     40  H7  LAT d   1      30.326  65.753  -0.299  0.00  0.00     0.078 H 
+BRANCH  38  41
+ATOM     41  O6  LAT d   1      30.573  66.877   1.406  0.00  0.00    -0.398 OA
+ATOM     42  H11 LAT d   1      30.886  66.784   2.298  0.00  0.00     0.209 HD
+ENDBRANCH  38  41
+ENDBRANCH   5  38
+BRANCH   4  43
+ATOM     43  O4  LAT d   1      31.799  62.869   1.466  0.00  0.00    -0.390 OA
+ATOM     44  H10 LAT d   1      31.874  61.946   1.254  0.00  0.00     0.210 HD
+ENDBRANCH   4  43
+TORSDOF 11

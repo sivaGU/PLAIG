@@ -1,0 +1,90 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O7_1  and  C7_2 
+REMARK    2  A    between atoms: C7_2  and  C5_3 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C3_7  and  O3_8 
+REMARK    5  A    between atoms: C2_9  and  O2_10 
+REMARK    6  A    between atoms: C1_11  and  N1'_12 
+REMARK    7  A    between atoms: N1'_12  and  C1'_13 
+REMARK    8  A    between atoms: C2'_14  and  O2'_15 
+REMARK    9  A    between atoms: C5'_17  and  C7'_18 
+REMARK   10  A    between atoms: C7'_18  and  O7'_19 
+REMARK   11  A    between atoms: C4'_20  and  O4'_21 
+REMARK   12  A    between atoms: C3'_22  and  O3'_23 
+ROOT
+ATOM      1  N1' VDM d   1     -16.706 -14.985 120.992  0.00  0.00    -0.058 N 
+ATOM      2  H12 VDM d   1     -16.174 -15.399 120.242  0.00  0.00     0.278 HD
+ATOM      3  H13 VDM d   1     -17.007 -14.062 120.721  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  VDM d   1     -15.834 -14.863 122.168  0.00  0.00     0.146 C 
+ATOM      5  C6  VDM d   1     -15.777 -16.189 122.929  0.00  0.00    -0.064 C 
+ATOM      6  C5  VDM d   1     -14.936 -17.162 122.589  0.00  0.00    -0.027 C 
+ATOM      7  H4  VDM d   1     -16.445 -16.341 123.775  0.00  0.00     0.080 H 
+ATOM      8  C4  VDM d   1     -13.654 -16.855 121.809  0.00  0.00     0.086 C 
+ATOM      9  C3  VDM d   1     -13.760 -15.590 120.960  0.00  0.00     0.091 C 
+ATOM     10  H5  VDM d   1     -12.842 -16.710 122.537  0.00  0.00     0.094 H 
+ATOM     11  C2  VDM d   1     -14.397 -14.466 121.796  0.00  0.00     0.093 C 
+ATOM     12  H7  VDM d   1     -14.385 -15.780 120.075  0.00  0.00     0.091 H 
+ATOM     13  H9  VDM d   1     -13.814 -14.336 122.720  0.00  0.00     0.090 H 
+ATOM     14  H11 VDM d   1     -16.253 -14.088 122.827  0.00  0.00     0.095 H 
+BRANCH   6  15
+ATOM     15  C7  VDM d   1     -14.859 -18.357 123.543  0.00  0.00     0.039 C 
+ATOM     16  H2  VDM d   1     -15.841 -18.527 124.008  0.00  0.00     0.081 H 
+ATOM     17  H3  VDM d   1     -14.555 -19.257 122.989  0.00  0.00     0.081 H 
+BRANCH  15  18
+ATOM     18  O7  VDM d   1     -13.906 -18.062 124.535  0.00  0.00    -0.397 OA
+ATOM     19  H1  VDM d   1     -13.061 -17.913 124.127  0.00  0.00     0.209 HD
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   8  20
+ATOM     20  O4  VDM d   1     -13.323 -17.942 120.974  0.00  0.00    -0.388 OA
+ATOM     21  H6  VDM d   1     -13.187 -18.718 121.505  0.00  0.00     0.210 HD
+ENDBRANCH   8  20
+BRANCH   9  22
+ATOM     22  O3  VDM d   1     -12.456 -15.256 120.554  0.00  0.00    -0.390 OA
+ATOM     23  H8  VDM d   1     -12.483 -14.470 120.021  0.00  0.00     0.210 HD
+ENDBRANCH   9  22
+BRANCH  11  24
+ATOM     24  O2  VDM d   1     -14.385 -13.255 121.086  0.00  0.00    -0.390 OA
+ATOM     25  H10 VDM d   1     -14.877 -13.357 120.280  0.00  0.00     0.210 HD
+ENDBRANCH  11  24
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  C1' VDM d   1     -17.896 -15.811 121.229  0.00  0.00     0.130 C 
+ATOM     27  C2' VDM d   1     -18.267 -16.597 119.962  0.00  0.00     0.090 C 
+ATOM     28  C3' VDM d   1     -19.017 -15.707 118.969  0.00  0.00     0.087 C 
+ATOM     29  H15 VDM d   1     -18.921 -17.435 120.247  0.00  0.00     0.090 H 
+ATOM     30  C4' VDM d   1     -20.353 -15.304 119.583  0.00  0.00     0.068 C 
+ATOM     31  H25 VDM d   1     -18.420 -14.812 118.740  0.00  0.00     0.091 H 
+ATOM     32  C5' VDM d   1     -20.063 -14.379 120.756  0.00  0.00    -0.004 C 
+ATOM     33  H23 VDM d   1     -20.900 -16.197 119.921  0.00  0.00     0.087 H 
+ATOM     34  C6' VDM d   1     -19.098 -15.002 121.776  0.00  0.00    -0.028 C 
+ATOM     35  H19 VDM d   1     -19.596 -13.461 120.370  0.00  0.00     0.047 H 
+ATOM     36  H17 VDM d   1     -18.692 -14.182 122.387  0.00  0.00     0.036 H 
+ATOM     37  H18 VDM d   1     -19.686 -15.678 122.414  0.00  0.00     0.036 H 
+ATOM     38  H14 VDM d   1     -17.629 -16.546 122.003  0.00  0.00     0.088 H 
+BRANCH  27  39
+ATOM     39  O2' VDM d   1     -17.104 -17.113 119.359  0.00  0.00    -0.391 OA
+ATOM     40  H16 VDM d   1     -16.525 -16.397 119.125  0.00  0.00     0.210 HD
+ENDBRANCH  27  39
+BRANCH  28  41
+ATOM     41  O3' VDM d   1     -19.261 -16.429 117.802  0.00  0.00    -0.390 OA
+ATOM     42  H26 VDM d   1     -18.434 -16.685 117.411  0.00  0.00     0.210 HD
+ENDBRANCH  28  41
+BRANCH  30  43
+ATOM     43  O4' VDM d   1     -21.122 -14.594 118.643  0.00  0.00    -0.392 OA
+ATOM     44  H24 VDM d   1     -21.313 -15.157 117.902  0.00  0.00     0.210 HD
+ENDBRANCH  30  43
+BRANCH  32  45
+ATOM     45  C7' VDM d   1     -21.405 -14.017 121.401  0.00  0.00     0.022 C 
+ATOM     46  H20 VDM d   1     -21.827 -14.906 121.893  0.00  0.00     0.074 H 
+ATOM     47  H21 VDM d   1     -22.100 -13.662 120.626  0.00  0.00     0.074 H 
+BRANCH  45  48
+ATOM     48  O7' VDM d   1     -21.210 -13.003 122.354  0.00  0.00    -0.400 OA
+ATOM     49  H22 VDM d   1     -20.846 -12.236 121.928  0.00  0.00     0.209 HD
+ENDBRANCH  45  48
+ENDBRANCH  32  45
+ENDBRANCH   1  26
+TORSDOF 12

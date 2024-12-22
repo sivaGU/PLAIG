@@ -1,0 +1,94 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAD_1  and  NBD_2 
+REMARK    2  A    between atoms: CAW_3  and  CAC_4 
+REMARK    3  A    between atoms: CAV_5  and  CAB_6 
+REMARK    4  A    between atoms: CAS_12  and  NAP_13 
+REMARK    5  A    between atoms: NAP_13  and  C2_14 
+REMARK    6  A    between atoms: C4_19  and  NBE_20 
+REMARK    7  A    between atoms: CAT_23  and  CAA_24 
+REMARK    8  A    between atoms: CAU_25  and  CAL_26 
+REMARK    9  A    between atoms: CAL_26  and  NBC_27 
+REMARK   10  A    between atoms: CBB_30  and  OAE_31 
+ROOT
+ATOM      1  C2  4MG d   1     -16.065  -5.585 -15.132  0.00  0.00     0.728 A 
+ATOM      2  N3  4MG d   1     -16.022  -6.374 -14.035  0.00  0.00    -0.043 NA
+ATOM      3  N1  4MG d   1     -14.962  -5.372 -15.847  0.00  0.00    -0.075 NA
+ATOM      4  C6  4MG d   1     -13.823  -5.971 -15.559  0.00  0.00     0.025 A 
+ATOM      5  C5  4MG d   1     -13.748  -6.848 -14.460  0.00  0.00    -0.019 A 
+ATOM      6  C4  4MG d   1     -14.872  -7.006 -13.703  0.00  0.00     0.170 A 
+ATOM      7  H14 4MG d   1     -12.945  -5.788 -16.168  0.00  0.00     0.115 H 
+ATOM      8  H15 4MG d   1     -12.832  -7.378 -14.224  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  NAP 4MG d   1     -17.132  -4.904 -15.494  0.00  0.00    -0.188 N 
+ATOM     10  H13 4MG d   1     -17.012  -4.249 -16.280  0.00  0.00     0.184 HD
+BRANCH   9  11
+ATOM     11  CAS 4MG d   1     -18.370  -4.969 -14.948  0.00  0.00     0.050 A 
+ATOM     12  CAJ 4MG d   1     -18.777  -5.831 -13.919  0.00  0.00    -0.044 A 
+ATOM     13  CAZ 4MG d   1     -20.103  -5.797 -13.491  0.00  0.00     0.001 A 
+ATOM     14  H10 4MG d   1     -18.070  -6.514 -13.463  0.00  0.00     0.088 H 
+ATOM     15  CAV 4MG d   1     -20.814  -6.492 -12.525  0.00  0.00    -0.027 A 
+ATOM     16  CBA 4MG d   1     -21.022  -4.944 -14.072  0.00  0.00     0.045 A 
+ATOM     17  CAW 4MG d   1     -22.116  -6.042 -12.549  0.00  0.00     0.014 A 
+ATOM     18  NBD 4MG d   1     -22.207  -5.125 -13.487  0.00  0.00    -0.354 N 
+ATOM     19  CAI 4MG d   1     -20.629  -4.094 -15.098  0.00  0.00    -0.054 A 
+ATOM     20  CAH 4MG d   1     -19.319  -4.102 -15.529  0.00  0.00    -0.054 A 
+ATOM     21  H11 4MG d   1     -21.349  -3.427 -15.558  0.00  0.00     0.087 H 
+ATOM     22  H12 4MG d   1     -19.014  -3.433 -16.325  0.00  0.00     0.087 H 
+BRANCH  15  23
+ATOM     23  CAB 4MG d   1     -20.279  -7.571 -11.613  0.00  0.00    -0.049 C 
+ATOM     24  H7  4MG d   1     -21.086  -7.930 -10.957  0.00  0.00     0.033 H 
+ATOM     25  H8  4MG d   1     -19.462  -7.162 -11.000  0.00  0.00     0.033 H 
+ATOM     26  H9  4MG d   1     -19.899  -8.408 -12.218  0.00  0.00     0.033 H 
+ENDBRANCH  15  23
+BRANCH  17  27
+ATOM     27  CAC 4MG d   1     -23.258  -6.522 -11.666  0.00  0.00    -0.037 C 
+ATOM     28  H4  4MG d   1     -22.887  -7.293 -10.974  0.00  0.00     0.035 H 
+ATOM     29  H5  4MG d   1     -24.055  -6.946 -12.295  0.00  0.00     0.035 H 
+ATOM     30  H6  4MG d   1     -23.658  -5.674 -11.090  0.00  0.00     0.035 H 
+ENDBRANCH  17  27
+BRANCH  18  31
+ATOM     31  CAD 4MG d   1     -23.466  -4.373 -13.821  0.00  0.00    -0.014 C 
+ATOM     32  H1  4MG d   1     -24.287  -4.730 -13.181  0.00  0.00     0.057 H 
+ATOM     33  H2  4MG d   1     -23.724  -4.541 -14.877  0.00  0.00     0.057 H 
+ATOM     34  H3  4MG d   1     -23.308  -3.298 -13.649  0.00  0.00     0.057 H 
+ENDBRANCH  18  31
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   6  35
+ATOM     35  NBE 4MG d   1     -14.880  -7.892 -12.683  0.00  0.00    -0.225 N 
+ATOM     36  CAK 4MG d   1     -15.995  -8.296 -12.054  0.00  0.00     0.016 A 
+ATOM     37  CAU 4MG d   1     -15.650  -9.240 -11.173  0.00  0.00     0.011 A 
+ATOM     38  H16 4MG d   1     -17.002  -7.921 -12.230  0.00  0.00     0.115 H 
+ATOM     39  CAT 4MG d   1     -14.266  -9.376 -11.358  0.00  0.00     0.060 A 
+ATOM     40  NAO 4MG d   1     -13.881  -8.545 -12.329  0.00  0.00    -0.171 NA
+BRANCH  37  41
+ATOM     41  CAL 4MG d   1     -16.662  -9.973 -10.213  0.00  0.00     0.110 C 
+ATOM     42  H20 4MG d   1     -17.498  -9.309  -9.948  0.00  0.00     0.083 H 
+ATOM     43  H21 4MG d   1     -16.156 -10.309  -9.296  0.00  0.00     0.083 H 
+BRANCH  41  44
+ATOM     44  NBC 4MG d   1     -17.136 -11.117 -10.993  0.00  0.00    -0.062 N 
+ATOM     45  CAN 4MG d   1     -18.082 -10.949 -12.081  0.00  0.00     0.109 C 
+ATOM     46  CBB 4MG d   1     -18.768 -12.219 -11.691  0.00  0.00     0.082 C 
+ATOM     47  H23 4MG d   1     -17.624 -10.976 -13.081  0.00  0.00     0.080 H 
+ATOM     48  H24 4MG d   1     -18.714 -10.053 -11.991  0.00  0.00     0.080 H 
+ATOM     49  CAM 4MG d   1     -18.284 -11.843 -10.313  0.00  0.00     0.109 C 
+ATOM     50  H27 4MG d   1     -18.414 -13.176 -12.102  0.00  0.00     0.088 H 
+ATOM     51  H25 4MG d   1     -18.968 -11.193  -9.747  0.00  0.00     0.080 H 
+ATOM     52  H26 4MG d   1     -17.982 -12.693  -9.684  0.00  0.00     0.080 H 
+ATOM     53  H22 4MG d   1     -16.341 -11.688 -11.236  0.00  0.00     0.280 HD
+BRANCH  46  54
+ATOM     54  OAE 4MG d   1     -20.181 -11.983 -11.939  0.00  0.00    -0.392 OA
+ATOM     55  H28 4MG d   1     -20.394 -12.248 -12.826  0.00  0.00     0.210 HD
+ENDBRANCH  46  54
+ENDBRANCH  41  44
+ENDBRANCH  37  41
+BRANCH  39  56
+ATOM     56  CAA 4MG d   1     -13.297 -10.315 -10.646  0.00  0.00    -0.033 C 
+ATOM     57  H17 4MG d   1     -13.841 -10.899  -9.889  0.00  0.00     0.035 H 
+ATOM     58  H18 4MG d   1     -12.508  -9.725 -10.157  0.00  0.00     0.035 H 
+ATOM     59  H19 4MG d   1     -12.843 -10.998 -11.379  0.00  0.00     0.035 H 
+ENDBRANCH  39  56
+ENDBRANCH   6  35
+TORSDOF 10

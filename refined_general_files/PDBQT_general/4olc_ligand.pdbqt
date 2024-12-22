@@ -1,0 +1,42 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_1  and  C3_2 
+REMARK    2  A    between atoms: C3_2  and  N1_3 
+REMARK    3  A    between atoms: N1_3  and  C1_4 
+REMARK    4  A    between atoms: N1_3  and  C2_7 
+REMARK    5  A    between atoms: C1_4  and  S2_5 
+REMARK    6  A    between atoms: C2_7  and  C4_8 
+ROOT
+ATOM      1  N1  DCD d   1      61.494  64.679  61.104  0.00  0.00    -0.367 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  DCD d   1      62.222  63.594  61.759  0.00  0.00    -0.007 C 
+ATOM      3  H   DCD d   1      62.342  63.833  62.826  0.00  0.00     0.063 H 
+ATOM      4  H   DCD d   1      61.649  62.661  61.655  0.00  0.00     0.063 H 
+BRANCH   2   5
+ATOM      5  C5  DCD d   1      63.590  63.409  61.134  0.00  0.00    -0.061 C 
+ATOM      6  H   DCD d   1      64.118  62.589  61.643  0.00  0.00     0.029 H 
+ATOM      7  H   DCD d   1      64.169  64.338  61.238  0.00  0.00     0.029 H 
+ATOM      8  H   DCD d   1      63.476  63.166  60.067  0.00  0.00     0.029 H 
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C1  DCD d   1      60.168  64.832  61.231  0.00  0.00     0.133 C 
+ATOM     10  S1  DCD d   1      59.283  63.717  61.897  0.00  0.00    -0.053 SA
+BRANCH   9  11
+ATOM     11  S2  DCD d   1      59.398  66.222  60.653  0.00  0.00    -0.114 SA
+ATOM     12  H   DCD d   1      58.925  66.684  61.414  0.00  0.00     0.109 HD
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C2  DCD d   1      62.312  65.591  60.316  0.00  0.00    -0.007 C 
+ATOM     14  H   DCD d   1      61.818  65.784  59.352  0.00  0.00     0.063 H 
+ATOM     15  H   DCD d   1      63.297  65.135  60.138  0.00  0.00     0.063 H 
+BRANCH  13  16
+ATOM     16  C4  DCD d   1      62.491  66.899  61.058  0.00  0.00    -0.061 C 
+ATOM     17  H   DCD d   1      63.109  67.581  60.456  0.00  0.00     0.029 H 
+ATOM     18  H   DCD d   1      62.987  66.709  62.022  0.00  0.00     0.029 H 
+ATOM     19  H   DCD d   1      61.507  67.357  61.236  0.00  0.00     0.029 H 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6

@@ -1,0 +1,55 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O21_14  and  C22_5 
+REMARK    2  A    between atoms: C25_6  and  S26_15 
+REMARK    3  A    between atoms: C20_7  and  C2_9 
+REMARK    4  A    between atoms: C20_7  and  O21_14 
+REMARK    5  A    between atoms: C2_9  and  C3_8 
+REMARK    6  A    between atoms: C2_9  and  O1_13 
+REMARK    7  A    between atoms: S26_15  and  N28_10 
+ROOT
+ATOM      1  C23 OJ4 d   1      -7.070  11.094  77.680  0.00  0.00    -0.049 A 
+ATOM      2  C31 OJ4 d   1      -4.971  12.284  77.587  0.00  0.00    -0.049 A 
+ATOM      3  C24 OJ4 d   1      -6.391   9.927  77.911  0.00  0.00    -0.058 A 
+ATOM      4  C30 OJ4 d   1      -4.296  11.111  77.810  0.00  0.00    -0.058 A 
+ATOM      5  C22 OJ4 d   1      -6.353  12.264  77.521  0.00  0.00     0.069 A 
+ATOM      6  C25 OJ4 d   1      -5.020   9.941  77.961  0.00  0.00     0.079 A 
+ATOM      7  H1  OJ4 d   1      -8.152  11.099  77.623  0.00  0.00     0.087 H 
+ATOM      8  H2  OJ4 d   1      -4.429  13.215  77.464  0.00  0.00     0.087 H 
+ATOM      9  H3  OJ4 d   1      -6.933   8.999  78.053  0.00  0.00     0.086 H 
+ATOM     10  H4  OJ4 d   1      -3.213  11.100  77.867  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  O21 OJ4 d   1      -6.923  13.488  77.287  0.00  0.00    -0.349 OA
+BRANCH  11  12
+ATOM     12  C20 OJ4 d   1      -8.321  13.551  76.994  0.00  0.00     0.049 C 
+ATOM     13  H5  OJ4 d   1      -8.531  13.201  75.973  0.00  0.00     0.079 H 
+ATOM     14  H6  OJ4 d   1      -8.907  12.959  77.713  0.00  0.00     0.079 H 
+BRANCH  12  15
+ATOM     15  C2  OJ4 d   1      -8.607  15.025  77.137  0.00  0.00     0.053 C 
+ATOM     16  H10 OJ4 d   1      -8.145  15.585  76.310  0.00  0.00     0.085 H 
+BRANCH  15  17
+ATOM     17  C3  OJ4 d   1      -7.826  15.460  78.465  0.00  0.00    -0.050 C 
+ATOM     18 TE4  OJ4 d   1      -8.587  17.164  79.763  0.00  0.00     0.000 Te
+ATOM     19  H7  OJ4 d   1      -7.396  14.569  78.946  0.00  0.00     0.031 H 
+ATOM     20  H8  OJ4 d   1      -8.526  15.949  79.159  0.00  0.00     0.031 H 
+ATOM     21  H9  OJ4 d   1      -7.020  16.161  78.203  0.00  0.00     0.031 H 
+ENDBRANCH  15  17
+BRANCH  15  22
+ATOM     22  O1  OJ4 d   1     -10.051  15.148  76.956  0.00  0.00    -0.394 OA
+ATOM     23  H13 OJ4 d   1     -10.497  14.634  77.619  0.00  0.00     0.210 HD
+ENDBRANCH  15  22
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   5  11
+BRANCH   6  24
+ATOM     24  S26 OJ4 d   1      -4.185   8.382  78.256  0.00  0.00     0.256 S 
+ATOM     25  O27 OJ4 d   1      -3.098   8.685  79.180  0.00  0.00    -0.201 OA
+ATOM     26  O29 OJ4 d   1      -5.157   7.346  78.531  0.00  0.00    -0.201 OA
+BRANCH  24  27
+ATOM     27  N28 OJ4 d   1      -3.486   7.791  76.802  0.00  0.00    -0.324 N 
+ATOM     28  H11 OJ4 d   1      -2.983   6.926  76.804  0.00  0.00     0.169 HD
+ATOM     29  H12 OJ4 d   1      -3.582   8.312  75.954  0.00  0.00     0.169 HD
+ENDBRANCH  24  27
+ENDBRANCH   6  24
+TORSDOF 7

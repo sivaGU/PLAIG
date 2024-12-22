@@ -1,0 +1,79 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_4  and  N1_2 
+REMARK    2  A    between atoms: O1_3  and  C3_7 
+REMARK    3  A    between atoms: C7_14  and  O1_3 
+REMARK    4  A    between atoms: C15_22  and  N2_5 
+REMARK    5  A    between atoms: C16_23  and  N3_8 
+REMARK    6  A    between atoms: C16_23  and  O4_11 
+REMARK    7  A    between atoms: C5_12  and  C13_20 
+REMARK    8  A    between atoms: C14_21  and  C10_17 
+REMARK    9  A    between atoms: C15_22  and  C14_21 
+REMARK   10  A    between atoms: C15_22  and  C16_23 
+ROOT
+ATOM      1  C7  YWO d   1      21.801  69.944  25.188  0.00  0.00     0.076 A 
+ATOM      2  C8  YWO d   1      21.302  69.669  26.430  0.00  0.00    -0.050 A 
+ATOM      3  C9  YWO d   1      21.986  70.171  27.602  0.00  0.00    -0.074 A 
+ATOM      4  C10 YWO d   1      23.184  70.954  27.428  0.00  0.00    -0.056 A 
+ATOM      5  C11 YWO d   1      23.687  71.254  26.113  0.00  0.00    -0.074 A 
+ATOM      6  C12 YWO d   1      22.994  70.754  24.975  0.00  0.00    -0.050 A 
+ATOM      7  H   YWO d   1      20.399  69.078  26.537  0.00  0.00     0.087 H 
+ATOM      8  H   YWO d   1      21.604  69.962  28.595  0.00  0.00     0.084 H 
+ATOM      9  H   YWO d   1      24.582  71.853  25.991  0.00  0.00     0.084 H 
+ATOM     10  H   YWO d   1      23.345  70.971  23.973  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  O1  YWO d   1      21.098  69.364  24.153  0.00  0.00    -0.308 OA
+BRANCH  11  12
+ATOM     12  C3  YWO d   1      20.370  70.002  23.196  0.00  0.00     0.109 A 
+ATOM     13  C2  YWO d   1      19.873  69.213  22.115  0.00  0.00     0.136 A 
+ATOM     14  C1  YWO d   1      19.108  69.817  21.108  0.00  0.00    -0.048 A 
+ATOM     15  C6  YWO d   1      18.843  71.236  21.184  0.00  0.00    -0.075 A 
+ATOM     16  H   YWO d   1      18.721  69.229  20.284  0.00  0.00     0.087 H 
+ATOM     17  C5  YWO d   1      19.339  72.013  22.245  0.00  0.00    -0.059 A 
+ATOM     18  H   YWO d   1      18.251  71.709  20.409  0.00  0.00     0.084 H 
+ATOM     19  C4  YWO d   1      20.093  71.424  23.252  0.00  0.00    -0.042 A 
+ATOM     20  H   YWO d   1      20.471  72.023  24.073  0.00  0.00     0.088 H 
+BRANCH  13  21
+ATOM     21  N1  YWO d   1      20.180  67.717  22.068  0.00  0.00    -0.113 N 
+ATOM     22  O2  YWO d   1      19.820  67.122  21.014  0.00  0.00    -0.532 OA
+ATOM     23  O3  YWO d   1      20.782  67.147  23.045  0.00  0.00    -0.532 OA
+ENDBRANCH  13  21
+BRANCH  17  24
+ATOM     24  C13 YWO d   1      19.057  73.426  22.286  0.00  0.00    -0.051 C 
+ATOM     25  H   YWO d   1      19.522  73.867  23.180  0.00  0.00     0.033 H 
+ATOM     26  H   YWO d   1      17.969  73.582  22.324  0.00  0.00     0.033 H 
+ATOM     27  H   YWO d   1      19.465  73.908  21.385  0.00  0.00     0.033 H 
+ENDBRANCH  17  24
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   4  28
+ATOM     28  C14 YWO d   1      23.950  71.447  28.660  0.00  0.00    -0.011 C 
+ATOM     29  H   YWO d   1      24.531  72.331  28.359  0.00  0.00     0.043 H 
+ATOM     30  H   YWO d   1      24.636  70.645  28.968  0.00  0.00     0.043 H 
+BRANCH  28  31
+ATOM     31  C15 YWO d   1      23.103  71.841  29.897  0.00  0.00     0.152 C 
+ATOM     32  H   YWO d   1      22.474  72.703  29.632  0.00  0.00     0.091 H 
+BRANCH  31  33
+ATOM     33  N2  YWO d   1      22.209  70.724  30.355  0.00  0.00    -0.071 N 
+ATOM     34  H   YWO d   1      21.586  70.464  29.607  0.00  0.00     0.274 HD
+ATOM     35  H   YWO d   1      21.670  71.029  31.150  0.00  0.00     0.274 HD
+ATOM     36  H   YWO d   1      22.771  69.929  30.615  0.00  0.00     0.274 HD
+ENDBRANCH  31  33
+BRANCH  31  37
+ATOM     37  C16 YWO d   1      24.045  72.238  31.019  0.00  0.00     0.215 C 
+ATOM     38  H   YWO d   1      23.443  72.472  31.910  0.00  0.00     0.131 H 
+BRANCH  37  39
+ATOM     39  N3  YWO d   1      24.700  73.410  30.672  0.00  0.00    -0.051 N 
+ATOM     40  H   YWO d   1      24.021  74.125  30.463  0.00  0.00     0.277 HD
+ATOM     41  H   YWO d   1      25.276  73.246  29.861  0.00  0.00     0.277 HD
+ATOM     42  H   YWO d   1      25.279  73.711  31.440  0.00  0.00     0.277 HD
+ENDBRANCH  37  39
+BRANCH  37  43
+ATOM     43  O4  YWO d   1      24.752  71.228  31.315  0.00  0.00    -0.368 OA
+ATOM     44  H   YWO d   1      24.184  70.498  31.532  0.00  0.00     0.212 HD
+ENDBRANCH  37  43
+ENDBRANCH  31  37
+ENDBRANCH  28  31
+ENDBRANCH   4  28
+TORSDOF 10

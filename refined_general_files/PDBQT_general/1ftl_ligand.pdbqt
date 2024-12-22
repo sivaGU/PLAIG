@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_11  and  N3_13 
+REMARK    2  A    between atoms: C8_12  and  N4_14 
+ROOT
+ATOM      1  O1  NON d   1      28.146   4.082  43.283  0.00  0.00    -0.262 OA
+ATOM      2  O2  NON d   1      30.250   2.680  42.292  0.00  0.00    -0.262 OA
+ATOM      3  C1  NON d   1      28.508   4.270  42.147  0.00  0.00     0.314 A 
+ATOM      4  C2  NON d   1      29.678   3.474  41.589  0.00  0.00     0.314 A 
+ATOM      5  N1  NON d   1      27.930   5.180  41.318  0.00  0.00    -0.317 N 
+ATOM      6  N2  NON d   1      30.038   3.734  40.308  0.00  0.00    -0.317 N 
+ATOM      7  C3  NON d   1      28.328   5.414  40.025  0.00  0.00     0.064 A 
+ATOM      8  C4  NON d   1      29.408   4.679  39.498  0.00  0.00     0.064 A 
+ATOM      9  C5  NON d   1      27.772   6.462  39.314  0.00  0.00    -0.020 A 
+ATOM     10  C6  NON d   1      29.923   4.995  38.239  0.00  0.00    -0.020 A 
+ATOM     11  C7  NON d   1      28.287   6.772  38.072  0.00  0.00     0.138 A 
+ATOM     12  C8  NON d   1      29.355   6.044  37.535  0.00  0.00     0.138 A 
+ATOM     13  H1  NON d   1      27.164   5.715  41.674  0.00  0.00     0.169 HD
+ATOM     14  H2  NON d   1      30.801   3.217  39.920  0.00  0.00     0.169 HD
+ATOM     15  H3  NON d   1      26.946   7.030  39.725  0.00  0.00     0.091 H 
+ATOM     16  H4  NON d   1      30.750   4.431  37.822  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH  11  17
+ATOM     17  N3  NON d   1      27.704   7.915  37.356  0.00  0.00    -0.113 N 
+ATOM     18  O3  NON d   1      27.140   8.766  38.017  0.00  0.00    -0.532 OA
+ATOM     19  O5  NON d   1      27.752   7.885  36.140  0.00  0.00    -0.532 OA
+ENDBRANCH  11  17
+BRANCH  12  20
+ATOM     20  N4  NON d   1      29.876   6.330  36.188  0.00  0.00    -0.113 N 
+ATOM     21  O4  NON d   1      29.864   5.385  35.407  0.00  0.00    -0.532 OA
+ATOM     22  O6  NON d   1      30.258   7.481  35.915  0.00  0.00    -0.532 OA
+ENDBRANCH  12  20
+TORSDOF 2

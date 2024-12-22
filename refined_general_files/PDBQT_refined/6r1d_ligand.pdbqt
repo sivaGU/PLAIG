@@ -1,0 +1,48 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_7  and  N_8 
+REMARK       I    between atoms: N_8  and  CAI_9 
+REMARK    2  A    between atoms: CAI_9  and  OAJ_11 
+REMARK    3  A    between atoms: OAJ_11  and  CAL_12 
+REMARK    4  A    between atoms: CAL_12  and  CAM_13 
+ROOT
+ATOM      1  N   JP5 d   1       8.209   6.462   5.689  0.00  0.00    -0.323 N 
+ATOM      2  CAI JP5 d   1       8.892   7.505   5.406  0.00  0.00     0.361 C 
+ATOM      3  OAK JP5 d   1      10.045   7.519   4.925  0.00  0.00    -0.238 OA
+ATOM      4  H5  JP5 d   1       7.353   6.571   6.194  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  OAJ JP5 d   1       8.241   8.661   5.688  0.00  0.00    -0.299 OA
+BRANCH   5   6
+ATOM      6  CAL JP5 d   1       8.858   9.938   5.528  0.00  0.00     0.054 C 
+ATOM      7  H6  JP5 d   1       8.078  10.712   5.571  0.00  0.00     0.082 H 
+ATOM      8  H7  JP5 d   1       9.351   9.968   4.545  0.00  0.00     0.082 H 
+BRANCH   6   9
+ATOM      9  CAM JP5 d   1       9.865  10.227   6.568  0.00  0.00    -0.034 A 
+ATOM     10  CAN JP5 d   1      11.167  10.473   6.190  0.00  0.00    -0.075 A 
+ATOM     11  CAO JP5 d   1      12.087  10.720   7.060  0.00  0.00    -0.082 A 
+ATOM     12  H8  JP5 d   1      11.424  10.459   5.137  0.00  0.00     0.084 H 
+ATOM     13  CAP JP5 d   1      11.906  10.869   8.474  0.00  0.00    -0.083 A 
+ATOM     14  H9  JP5 d   1      13.098  10.825   6.684  0.00  0.00     0.083 H 
+ATOM     15  CAQ JP5 d   1      10.543  10.655   8.807  0.00  0.00    -0.082 A 
+ATOM     16  H10 JP5 d   1      12.691  11.109   9.182  0.00  0.00     0.083 H 
+ATOM     17  CAR JP5 d   1       9.618  10.277   7.907  0.00  0.00    -0.075 A 
+ATOM     18  H11 JP5 d   1      10.233  10.803   9.835  0.00  0.00     0.083 H 
+ATOM     19  H12 JP5 d   1       8.632  10.000   8.263  0.00  0.00     0.084 H 
+ENDBRANCH   6   9
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+BRANCH   1  20
+ATOM     20  CA  JP5 d   1       8.627   5.129   5.307  0.00  0.00     0.100 C 
+ATOM     21  C   JP5 d   1       8.083   4.715   3.988  0.00  0.00     0.247 C 
+ATOM     22  O   JP5 d   1       8.021   5.375   2.957  0.00  0.00    -0.271 OA
+ATOM     23  ND2 JP5 d   1       7.695   3.406   4.062  0.00  0.00    -0.296 N 
+ATOM     24  CG  JP5 d   1       7.781   2.914   5.328  0.00  0.00     0.226 C 
+ATOM     25  H1  JP5 d   1       7.384   2.872   3.276  0.00  0.00     0.171 HD
+ATOM     26  OD1 JP5 d   1       7.528   1.792   5.645  0.00  0.00    -0.273 OA
+ATOM     27  CB  JP5 d   1       8.248   4.009   6.275  0.00  0.00     0.037 C 
+ATOM     28  H2  JP5 d   1       9.116   3.682   6.867  0.00  0.00     0.051 H 
+ATOM     29  H3  JP5 d   1       7.440   4.323   6.952  0.00  0.00     0.051 H 
+ATOM     30  H4  JP5 d   1       9.725   5.156   5.238  0.00  0.00     0.088 H 
+ENDBRANCH   1  20
+TORSDOF 4

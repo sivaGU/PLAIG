@@ -1,0 +1,33 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAG_2 
+REMARK    2  A    between atoms: CAH_6  and  NAB_7 
+REMARK    3  A    between atoms: CAI_8  and  NAC_9 
+ROOT
+ATOM      1  CAG 2C9 d   1      11.701  -4.487  -0.391  0.00  0.00    -0.034 A 
+ATOM      2  CAE 2C9 d   1      12.308  -3.577  -1.270  0.00  0.00    -0.075 A 
+ATOM      3  CAD 2C9 d   1      11.598  -3.010  -2.335  0.00  0.00    -0.080 A 
+ATOM      4  CAF 2C9 d   1      10.243  -3.343  -2.560  0.00  0.00    -0.055 A 
+ATOM      5  CAH 2C9 d   1       9.645  -4.251  -1.669  0.00  0.00     0.052 A 
+ATOM      6  CAI 2C9 d   1      10.361  -4.813  -0.615  0.00  0.00     0.058 A 
+ATOM      7  H   2C9 d   1      13.347  -3.308  -1.121  0.00  0.00     0.084 H 
+ATOM      8  H   2C9 d   1      12.093  -2.307  -2.995  0.00  0.00     0.083 H 
+ATOM      9  H   2C9 d   1       9.687  -2.915  -3.387  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CAA 2C9 d   1      12.407  -5.050   0.687  0.00  0.00    -0.049 C 
+ATOM     11  H   2C9 d   1      13.439  -4.668   0.689  0.00  0.00     0.033 H 
+ATOM     12  H   2C9 d   1      12.421  -6.145   0.584  0.00  0.00     0.033 H 
+ATOM     13  H   2C9 d   1      11.913  -4.777   1.631  0.00  0.00     0.033 H 
+ENDBRANCH   1  10
+BRANCH   6  14
+ATOM     14  NAC 2C9 d   1       9.741  -5.679   0.235  0.00  0.00    -0.397 N 
+ATOM     15  H   2C9 d   1      10.265  -6.098   1.016  0.00  0.00     0.156 HD
+ATOM     16  H   2C9 d   1       8.748  -5.915   0.096  0.00  0.00     0.156 HD
+ENDBRANCH   6  14
+BRANCH   5  17
+ATOM     17  NAB 2C9 d   1       8.351  -4.614  -1.799  0.00  0.00    -0.397 N 
+ATOM     18  H   2C9 d   1       7.781  -4.224  -2.563  0.00  0.00     0.156 HD
+ATOM     19  H   2C9 d   1       7.934  -5.280  -1.134  0.00  0.00     0.156 HD
+ENDBRANCH   5  17
+TORSDOF 3

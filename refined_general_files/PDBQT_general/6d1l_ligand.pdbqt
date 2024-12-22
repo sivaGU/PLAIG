@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  C1_9 
+REMARK    2  A    between atoms: C4_10  and  C3_2 
+REMARK    3  A    between atoms: C9_7  and  S10_14 
+REMARK    4  A    between atoms: SE5_15  and  C6_8 
+REMARK    5  A    between atoms: C4_10  and  SE5_15 
+REMARK    6  A    between atoms: S10_14  and  N12_11 
+ROOT
+ATOM      1  C8  FQV d   1      -2.962   4.206  85.255  0.00  0.00    -0.059 A 
+ATOM      2  C14 FQV d   1      -0.807   3.181  85.224  0.00  0.00    -0.059 A 
+ATOM      3  C7  FQV d   1      -2.499   5.230  84.476  0.00  0.00    -0.071 A 
+ATOM      4  C15 FQV d   1      -0.339   4.211  84.443  0.00  0.00    -0.071 A 
+ATOM      5  C9  FQV d   1      -2.128   3.159  85.626  0.00  0.00     0.079 A 
+ATOM      6  C6  FQV d   1      -1.190   5.232  84.067  0.00  0.00    -0.026 A 
+ATOM      7  H1  FQV d   1      -3.994   4.211  85.588  0.00  0.00     0.085 H 
+ATOM      8  H2  FQV d   1      -0.137   2.384  85.525  0.00  0.00     0.085 H 
+ATOM      9  H3  FQV d   1      -3.163   6.035  84.183  0.00  0.00     0.084 H 
+ATOM     10  H4  FQV d   1       0.697   4.222  84.123  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11 SE5  FQV d   1      -0.630   6.682  82.941  0.00  0.00     0.000 Se
+BRANCH  11  12
+ATOM     12  C4  FQV d   1       1.193   6.749  83.463  0.00  0.00     0.000 C 
+ATOM     13  H8  FQV d   1       1.411   5.914  84.145  0.00  0.00     0.053 H 
+ATOM     14  H9  FQV d   1       1.833   6.671  82.572  0.00  0.00     0.053 H 
+BRANCH  12  15
+ATOM     15  C3  FQV d   1       1.458   8.032  84.151  0.00  0.00    -0.106 C 
+ATOM     16  C2  FQV d   1       1.696   9.077  84.702  0.00  0.00    -0.111 C 
+BRANCH  16  17
+ATOM     17  C1  FQV d   1       1.985  10.332  85.267  0.00  0.00    -0.021 C 
+ATOM     18  H5  FQV d   1       1.932  10.261  86.363  0.00  0.00     0.044 H 
+ATOM     19  H6  FQV d   1       1.253  11.072  84.911  0.00  0.00     0.044 H 
+ATOM     20  H7  FQV d   1       2.997  10.644  84.968  0.00  0.00     0.044 H 
+ENDBRANCH  16  17
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   6  11
+BRANCH   5  21
+ATOM     21  S10 FQV d   1      -2.776   1.869  86.626  0.00  0.00     0.256 S 
+ATOM     22  O11 FQV d   1      -2.192   2.048  87.947  0.00  0.00    -0.201 OA
+ATOM     23  O13 FQV d   1      -4.215   1.948  86.520  0.00  0.00    -0.201 OA
+BRANCH  21  24
+ATOM     24  N12 FQV d   1      -2.228   0.466  85.930  0.00  0.00    -0.324 N 
+ATOM     25  H10 FQV d   1      -2.471  -0.418  86.329  0.00  0.00     0.169 HD
+ATOM     26  H11 FQV d   1      -1.655   0.505  85.112  0.00  0.00     0.169 HD
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+TORSDOF 6

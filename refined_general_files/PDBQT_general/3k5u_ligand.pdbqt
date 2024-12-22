@@ -1,0 +1,65 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_2  and  C11_3 
+REMARK    2  A    between atoms: C4_18  and  N9_17 
+REMARK    3  A    between atoms: N9_17  and  C8_24 
+REMARK    4  A    between atoms: C1_21  and  C18_22 
+REMARK    5  A    between atoms: C8_24  and  C23_23 
+REMARK    6  A    between atoms: C23_23  and  O24_25 
+ROOT
+ATOM      1  C2  PFQ d   1      -4.437 -30.587   9.676  0.00  0.00     0.091 A 
+ATOM      2  C10 PFQ d   1      -3.487 -32.096   5.585  0.00  0.00     0.100 A 
+ATOM      3  N1  PFQ d   1      -3.824 -31.575   9.054  0.00  0.00    -0.217 NA
+ATOM      4  C6  PFQ d   1      -3.821 -31.601   7.719  0.00  0.00     0.186 A 
+ATOM      5  O6  PFQ d   1      -3.197 -32.468   6.872  0.00  0.00    -0.289 OA
+ATOM      6  C5  PFQ d   1      -4.520 -30.658   6.963  0.00  0.00     0.077 A 
+ATOM      7  C4  PFQ d   1      -5.220 -29.686   7.664  0.00  0.00     0.140 A 
+ATOM      8  N3  PFQ d   1      -5.114 -29.670   9.009  0.00  0.00    -0.224 NA
+ATOM      9  C1  PFQ d   1      -4.313 -30.998   5.625  0.00  0.00     0.027 A 
+ATOM     10  H1  PFQ d   1      -4.384 -30.526  10.757  0.00  0.00     0.146 H 
+ENDROOT
+BRANCH   2  11
+ATOM     11  C11 PFQ d   1      -2.870 -32.854   4.608  0.00  0.00    -0.001 C 
+ATOM     12  C12 PFQ d   1      -2.797 -32.512   3.267  0.00  0.00    -0.070 C 
+ATOM     13  C13 PFQ d   1      -2.085 -33.312   2.384  0.00  0.00    -0.082 C 
+ATOM     14  H2  PFQ d   1      -3.296 -31.619   2.908  0.00  0.00     0.084 H 
+ATOM     15  C14 PFQ d   1      -1.564 -34.536   2.810  0.00  0.00    -0.083 C 
+ATOM     16  H3  PFQ d   1      -1.933 -32.986   1.361  0.00  0.00     0.083 H 
+ATOM     17  C15 PFQ d   1      -1.494 -34.814   4.179  0.00  0.00    -0.082 C 
+ATOM     18  H4  PFQ d   1      -1.217 -35.264   2.086  0.00  0.00     0.083 H 
+ATOM     19  C16 PFQ d   1      -2.247 -34.030   5.054  0.00  0.00    -0.070 C 
+ATOM     20  H5  PFQ d   1      -0.870 -35.619   4.551  0.00  0.00     0.083 H 
+ATOM     21  H6  PFQ d   1      -2.352 -34.333   6.090  0.00  0.00     0.084 H 
+ENDBRANCH   2  11
+BRANCH   9  22
+ATOM     22  C18 PFQ d   1      -4.898 -30.318   4.567  0.00  0.00    -0.022 C 
+ATOM     23  C19 PFQ d   1      -4.764 -28.936   4.423  0.00  0.00    -0.072 C 
+ATOM     24  C20 PFQ d   1      -5.403 -28.251   3.406  0.00  0.00    -0.082 C 
+ATOM     25  H7  PFQ d   1      -4.145 -28.388   5.124  0.00  0.00     0.084 H 
+ATOM     26  C21 PFQ d   1      -6.107 -28.949   2.420  0.00  0.00    -0.083 C 
+ATOM     27  H8  PFQ d   1      -5.358 -27.168   3.373  0.00  0.00     0.083 H 
+ATOM     28  C22 PFQ d   1      -6.062 -30.343   2.435  0.00  0.00    -0.082 C 
+ATOM     29  H9  PFQ d   1      -6.674 -28.420   1.663  0.00  0.00     0.083 H 
+ATOM     30  C17 PFQ d   1      -5.649 -30.999   3.613  0.00  0.00    -0.072 C 
+ATOM     31  H10 PFQ d   1      -6.340 -30.913   1.556  0.00  0.00     0.083 H 
+ATOM     32  H12 PFQ d   1      -5.917 -32.037   3.776  0.00  0.00     0.084 H 
+ENDBRANCH   9  22
+BRANCH   7  33
+ATOM     33  N9  PFQ d   1      -5.987 -28.764   7.082  0.00  0.00    -0.372 N 
+ATOM     34  H11 PFQ d   1      -6.064 -28.751   6.055  0.00  0.00     0.161 HD
+BRANCH  33  35
+ATOM     35  C8  PFQ d   1      -6.729 -27.761   7.870  0.00  0.00     0.013 C 
+ATOM     36  H15 PFQ d   1      -6.990 -26.916   7.216  0.00  0.00     0.067 H 
+ATOM     37  H16 PFQ d   1      -6.087 -27.406   8.689  0.00  0.00     0.067 H 
+BRANCH  35  38
+ATOM     38  C23 PFQ d   1      -8.029 -28.350   8.471  0.00  0.00     0.031 C 
+ATOM     39  H13 PFQ d   1      -7.777 -29.227   9.085  0.00  0.00     0.076 H 
+ATOM     40  H14 PFQ d   1      -8.698 -28.655   7.653  0.00  0.00     0.076 H 
+BRANCH  38  41
+ATOM     41  O24 PFQ d   1      -8.700 -27.376   9.292  0.00  0.00    -0.399 OA
+ATOM     42  H17 PFQ d   1      -8.922 -26.618   8.764  0.00  0.00     0.209 HD
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  33  35
+ENDBRANCH   7  33
+TORSDOF 6

@@ -1,0 +1,62 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAO_3  and  SAP_4 
+REMARK    2  A    between atoms: SAP_4  and  NAA_7 
+REMARK    3  A    between atoms: CAN_10  and  OAM_11 
+REMARK    4  A    between atoms: OAM_11  and  CAL_12 
+REMARK    5  A    between atoms: CAL_12  and  CAK_13 
+REMARK    6  A    between atoms: CAK_13  and  CAJ_14 
+REMARK    7  A    between atoms: CAJ_14  and  CAI_15 
+REMARK    8  A    between atoms: CAI_15  and  NAB_16 
+ROOT
+ATOM      1  OAM 3O5 d   1      -0.403   8.175  83.841  0.00  0.00    -0.351 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAN 3O5 d   1      -0.884   7.077  84.521  0.00  0.00     0.068 A 
+ATOM      3  CAE 3O5 d   1      -2.208   7.068  84.931  0.00  0.00    -0.049 A 
+ATOM      4  CAG 3O5 d   1      -2.714   5.977  85.625  0.00  0.00    -0.058 A 
+ATOM      5  H1  3O5 d   1      -2.849   7.914  84.710  0.00  0.00     0.087 H 
+ATOM      6  CAO 3O5 d   1      -1.893   4.883  85.902  0.00  0.00     0.079 A 
+ATOM      7  H2  3O5 d   1      -3.748   5.975  85.952  0.00  0.00     0.086 H 
+ATOM      8  CAH 3O5 d   1      -0.565   4.885  85.490  0.00  0.00    -0.058 A 
+ATOM      9  CAF 3O5 d   1      -0.066   5.985  84.795  0.00  0.00    -0.049 A 
+ATOM     10  H5  3O5 d   1       0.076   4.039  85.707  0.00  0.00     0.086 H 
+ATOM     11  H6  3O5 d   1       0.967   5.990  84.466  0.00  0.00     0.087 H 
+BRANCH   6  12
+ATOM     12  SAP 3O5 d   1      -2.567   3.511  86.795  0.00  0.00     0.256 S 
+ATOM     13  OAC 3O5 d   1      -2.065   3.600  88.190  0.00  0.00    -0.201 OA
+ATOM     14  OAD 3O5 d   1      -4.037   3.619  86.666  0.00  0.00    -0.201 OA
+BRANCH  12  15
+ATOM     15  NAA 3O5 d   1      -2.019   2.121  86.121  0.00  0.00    -0.324 N 
+ATOM     16  H3  3O5 d   1      -2.299   1.238  86.498  0.00  0.00     0.169 HD
+ATOM     17  H4  3O5 d   1      -1.405   2.156  85.333  0.00  0.00     0.169 HD
+ENDBRANCH  12  15
+ENDBRANCH   6  12
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  CAL 3O5 d   1       0.926   8.257  83.507  0.00  0.00     0.026 C 
+ATOM     19  H7  3O5 d   1       1.098   7.561  82.673  0.00  0.00     0.075 H 
+ATOM     20  H8  3O5 d   1       1.505   7.929  84.383  0.00  0.00     0.075 H 
+BRANCH  18  21
+ATOM     21  CAK 3O5 d   1       1.461   9.587  83.093  0.00  0.00    -0.043 C 
+ATOM     22  H9  3O5 d   1       0.746  10.016  82.375  0.00  0.00     0.036 H 
+ATOM     23  H10 3O5 d   1       2.423   9.408  82.590  0.00  0.00     0.036 H 
+BRANCH  21  24
+ATOM     24  CAJ 3O5 d   1       1.698  10.613  84.143  0.00  0.00    -0.041 C 
+ATOM     25  H11 3O5 d   1       2.315  10.141  84.921  0.00  0.00     0.035 H 
+ATOM     26  H12 3O5 d   1       0.716  10.877  84.563  0.00  0.00     0.035 H 
+BRANCH  24  27
+ATOM     27  CAI 3O5 d   1       2.372  11.894  83.767  0.00  0.00     0.080 C 
+ATOM     28  H13 3O5 d   1       1.681  12.438  83.106  0.00  0.00     0.075 H 
+ATOM     29  H14 3O5 d   1       3.280  11.626  83.207  0.00  0.00     0.075 H 
+BRANCH  27  30
+ATOM     30  NAB 3O5 d   1       2.771  12.809  84.797  0.00  0.00    -0.079 N 
+ATOM     31  H15 3O5 d   1       3.207  13.616  84.379  0.00  0.00     0.274 HD
+ATOM     32  H16 3O5 d   1       3.426  12.355  85.414  0.00  0.00     0.274 HD
+ATOM     33  H17 3O5 d   1       1.960  13.099  85.321  0.00  0.00     0.274 HD
+ENDBRANCH  27  30
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH   1  18
+TORSDOF 8

@@ -1,0 +1,56 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_17  and  C3_3 
+REMARK    2  A    between atoms: B1_20  and  O3_9 
+REMARK    3  A    between atoms: N2_18  and  C9_15 
+REMARK       I    between atoms: C8_19  and  N1_17 
+REMARK       I    between atoms: N2_18  and  C8_19 
+REMARK    4  A    between atoms: B1_20  and  O2_21 
+ROOT
+ATOM      1  C5  KKH d   1      -6.423   4.580  15.455  0.00  0.00    -0.073 A 
+ATOM      2  C4  KKH d   1      -5.264   5.150  14.934  0.00  0.00    -0.057 A 
+ATOM      3  C3  KKH d   1      -4.093   4.415  14.929  0.00  0.00     0.036 A 
+ATOM      4  C2  KKH d   1      -4.084   3.116  15.440  0.00  0.00    -0.059 A 
+ATOM      5  C1  KKH d   1      -5.241   2.513  15.966  0.00  0.00    -0.061 A 
+ATOM      6  C6  KKH d   1      -6.409   3.304  15.959  0.00  0.00    -0.039 A 
+ATOM      7  C7  KKH d   1      -7.528   2.496  16.549  0.00  0.00     0.024 C 
+ATOM      8  O1  KKH d   1      -7.063   1.158  16.508  0.00  0.00    -0.448 OA
+ATOM      9  B1  KKH d   1      -5.592   1.089  16.620  0.00  0.00     0.363 B 
+ATOM     10  H1  KKH d   1      -7.345   5.150  15.462  0.00  0.00     0.084 H 
+ATOM     11  H2  KKH d   1      -5.280   6.159  14.537  0.00  0.00     0.086 H 
+ATOM     12  H3  KKH d   1      -3.157   2.554  15.431  0.00  0.00     0.086 H 
+ATOM     13  H5  KKH d   1      -8.444   2.607  15.951  0.00  0.00     0.078 H 
+ATOM     14  H6  KKH d   1      -7.727   2.806  17.585  0.00  0.00     0.078 H 
+ENDROOT
+BRANCH   3  15
+ATOM     15  N1  KKH d   1      -2.896   5.014  14.457  0.00  0.00    -0.309 N 
+ATOM     16  C8  KKH d   1      -2.561   6.346  14.520  0.00  0.00     0.325 C 
+ATOM     17  O4  KKH d   1      -3.304   7.206  15.006  0.00  0.00    -0.247 OA
+ATOM     18  N2  KKH d   1      -1.345   6.626  13.988  0.00  0.00    -0.309 N 
+ATOM     19  H16 KKH d   1      -0.839   5.852  13.606  0.00  0.00     0.170 HD
+ATOM     20  H15 KKH d   1      -2.226   4.403  14.034  0.00  0.00     0.170 HD
+BRANCH  18  21
+ATOM     21  C9  KKH d   1      -0.703   7.906  13.911  0.00  0.00     0.036 A 
+ATOM     22  C10 KKH d   1       0.163   8.188  12.881  0.00  0.00    -0.057 A 
+ATOM     23  C11 KKH d   1       0.868   9.391  12.874  0.00  0.00    -0.081 A 
+ATOM     24  H11 KKH d   1       0.298   7.476  12.075  0.00  0.00     0.086 H 
+ATOM     25  C12 KKH d   1       0.696  10.300  13.897  0.00  0.00    -0.083 A 
+ATOM     26  H10 KKH d   1       1.552   9.612  12.063  0.00  0.00     0.083 H 
+ATOM     27  C13 KKH d   1      -0.178  10.022  14.925  0.00  0.00    -0.081 A 
+ATOM     28  H12 KKH d   1       1.248  11.233  13.892  0.00  0.00     0.083 H 
+ATOM     29  C14 KKH d   1      -0.886   8.824  14.941  0.00  0.00    -0.057 A 
+ATOM     30  H13 KKH d   1      -0.315  10.740  15.726  0.00  0.00     0.083 H 
+ATOM     31  H14 KKH d   1      -1.575   8.607  15.749  0.00  0.00     0.086 H 
+ENDBRANCH  18  21
+ENDBRANCH   3  15
+BRANCH   9  32
+ATOM     32  O3  KKH d   1      -5.240   0.946  18.036  0.00  0.00     0.000 OA
+ATOM     33  H8  KKH d   1      -5.630   0.150  18.379  0.00  0.00     0.000 HD
+ATOM     34  H9  KKH d   1      -5.630   0.150  18.379  0.00  0.00     0.000 HD
+ENDBRANCH   9  32
+BRANCH   9  35
+ATOM     35  O2  KKH d   1      -5.146  -0.115  15.888  0.00  0.00     0.000 OA
+ATOM     36  H17 KKH d   1      -5.407  -0.045  14.977  0.00  0.00     0.000 HD
+ATOM     37  H18 KKH d   1      -5.407  -0.045  14.977  0.00  0.00     0.000 HD
+ENDBRANCH   9  35
+TORSDOF 4

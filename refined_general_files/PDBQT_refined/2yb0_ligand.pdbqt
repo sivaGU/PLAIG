@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9 
+REMARK    2  A    between atoms: C3'_11  and  O3'_13 
+REMARK    3  A    between atoms: C4'_12  and  C5'_15 
+REMARK    4  A    between atoms: C5'_15  and  O5'_16 
+ROOT
+ATOM      1  C1' DUR d   1     -17.806  35.336  -8.985  0.00  0.00     0.116 C 
+ATOM      2  C2' DUR d   1     -18.948  36.309  -8.759  0.00  0.00     0.002 C 
+ATOM      3  C3' DUR d   1     -19.118  36.983 -10.104  0.00  0.00     0.066 C 
+ATOM      4  C4' DUR d   1     -17.806  36.754 -10.822  0.00  0.00     0.086 C 
+ATOM      5  O4' DUR d   1     -16.992  35.975  -9.957  0.00  0.00    -0.356 OA
+ATOM      6  H4  DUR d   1     -18.180  34.387  -9.397  0.00  0.00     0.118 H 
+ATOM      7  H5  DUR d   1     -18.689  37.044  -7.982  0.00  0.00     0.043 H 
+ATOM      8  H6  DUR d   1     -19.866  35.776  -8.469  0.00  0.00     0.043 H 
+ATOM      9  H7  DUR d   1     -19.316  38.057  -9.971  0.00  0.00     0.087 H 
+ATOM     10  H8  DUR d   1     -17.999  36.186 -11.744  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  N1  DUR d   1     -17.176  35.059  -7.703  0.00  0.00    -0.282 N 
+ATOM     12  C2  DUR d   1     -17.838  34.248  -6.750  0.00  0.00     0.331 A 
+ATOM     13  N3  DUR d   1     -17.303  34.045  -5.552  0.00  0.00    -0.275 N 
+ATOM     14  O2  DUR d   1     -18.937  33.727  -6.992  0.00  0.00    -0.246 OA
+ATOM     15  C4  DUR d   1     -16.111  34.564  -5.250  0.00  0.00     0.250 A 
+ATOM     16  H1  DUR d   1     -17.795  33.501  -4.873  0.00  0.00     0.173 HD
+ATOM     17  C5  DUR d   1     -15.446  35.358  -6.161  0.00  0.00    -0.002 A 
+ATOM     18  O4  DUR d   1     -15.595  34.358  -4.134  0.00  0.00    -0.268 OA
+ATOM     19  C6  DUR d   1     -16.000  35.601  -7.402  0.00  0.00    -0.008 A 
+ATOM     20  H2  DUR d   1     -14.482  35.794  -5.901  0.00  0.00     0.094 H 
+ATOM     21  H3  DUR d   1     -15.480  36.228  -8.125  0.00  0.00     0.112 H 
+ENDBRANCH   1  11
+BRANCH   3  22
+ATOM     22  O3' DUR d   1     -20.166  36.394 -10.881  0.00  0.00    -0.393 OA
+ATOM     23  H9  DUR d   1     -20.189  36.800 -11.739  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   4  24
+ATOM     24  C5' DUR d   1     -17.115  38.063 -11.207  0.00  0.00     0.043 C 
+ATOM     25  H10 DUR d   1     -16.313  37.843 -11.926  0.00  0.00     0.078 H 
+ATOM     26  H11 DUR d   1     -16.682  38.515 -10.302  0.00  0.00     0.078 H 
+BRANCH  24  27
+ATOM     27  O5' DUR d   1     -18.032  39.005 -11.806  0.00  0.00    -0.398 OA
+ATOM     28  H12 DUR d   1     -18.726  39.206 -11.189  0.00  0.00     0.209 HD
+ENDBRANCH  24  27
+ENDBRANCH   4  24
+TORSDOF 4

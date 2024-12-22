@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_3  and  C_1 
+REMARK    2  A    between atoms: O2_17  and  C10_4 
+REMARK    3  A    between atoms: C7_13  and  C3_9 
+REMARK    4  A    between atoms: C9_15  and  O2_17 
+ROOT
+ATOM      1  C11 XEV d   1      95.592 243.600   4.165  0.00  0.00    -0.051 A 
+ATOM      2  C12 XEV d   1      96.692 244.434   4.261  0.00  0.00    -0.080 A 
+ATOM      3  C13 XEV d   1      96.636 245.583   5.029  0.00  0.00    -0.072 A 
+ATOM      4  C7  XEV d   1      95.474 245.927   5.717  0.00  0.00    -0.023 A 
+ATOM      5  C8  XEV d   1      94.367 245.084   5.617  0.00  0.00    -0.040 A 
+ATOM      6  C9  XEV d   1      94.436 243.931   4.850  0.00  0.00     0.069 A 
+ATOM      7  H4  XEV d   1      95.635 242.700   3.562  0.00  0.00     0.087 H 
+ATOM      8  H5  XEV d   1      97.604 244.185   3.731  0.00  0.00     0.083 H 
+ATOM      9  H6  XEV d   1      97.507 246.224   5.097  0.00  0.00     0.084 H 
+ATOM     10  H11 XEV d   1      93.450 245.331   6.140  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C3  XEV d   1      95.410 247.161   6.540  0.00  0.00    -0.025 A 
+ATOM     12  C2  XEV d   1      95.922 248.366   6.055  0.00  0.00    -0.056 A 
+ATOM     13  C1  XEV d   1      95.856 249.531   6.815  0.00  0.00     0.041 A 
+ATOM     14  H7  XEV d   1      96.378 248.395   5.072  0.00  0.00     0.086 H 
+ATOM     15  C6  XEV d   1      95.279 249.489   8.077  0.00  0.00    -0.066 A 
+ATOM     16  C5  XEV d   1      94.771 248.302   8.570  0.00  0.00    -0.081 A 
+ATOM     17  H10 XEV d   1      95.227 250.390   8.678  0.00  0.00     0.085 H 
+ATOM     18  C4  XEV d   1      94.834 247.148   7.810  0.00  0.00    -0.072 A 
+ATOM     19  H9  XEV d   1      94.322 248.275   9.556  0.00  0.00     0.083 H 
+ATOM     20  H8  XEV d   1      94.431 246.223   8.206  0.00  0.00     0.084 H 
+BRANCH  13  21
+ATOM     21  C   XEV d   1      96.397 250.826   6.261  0.00  0.00     0.209 C 
+ATOM     22  O   XEV d   1      97.382 251.344   6.841  0.00  0.00    -0.644 OA
+ATOM     23  O1  XEV d   1      95.830 251.310   5.254  0.00  0.00    -0.644 OA
+ENDBRANCH  13  21
+ENDBRANCH   4  11
+BRANCH   6  24
+ATOM     24  O2  XEV d   1      93.322 243.133   4.829  0.00  0.00    -0.356 OA
+BRANCH  24  25
+ATOM     25  C10 XEV d   1      93.379 241.922   4.077  0.00  0.00     0.010 C 
+ATOM     26  H1  XEV d   1      92.417 241.395   4.157  0.00  0.00     0.066 H 
+ATOM     27  H2  XEV d   1      94.181 241.282   4.473  0.00  0.00     0.066 H 
+ATOM     28  H3  XEV d   1      93.583 242.155   3.022  0.00  0.00     0.066 H 
+ENDBRANCH  24  25
+ENDBRANCH   6  24
+TORSDOF 4

@@ -1,0 +1,33 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_6 
+REMARK    3  A    between atoms: C3_6  and  C1'_7 
+ROOT
+ATOM      1  C1' PPY d   1      12.524 100.468 158.730  0.00  0.00    -0.051 A 
+ATOM      2  C2' PPY d   1      13.660 100.102 159.460  0.00  0.00    -0.076 A 
+ATOM      3  C3' PPY d   1      14.717  99.408 158.858  0.00  0.00    -0.082 A 
+ATOM      4  C4' PPY d   1      14.636  99.061 157.516  0.00  0.00    -0.083 A 
+ATOM      5  C5' PPY d   1      13.511  99.419 156.782  0.00  0.00    -0.082 A 
+ATOM      6  C6' PPY d   1      12.463 100.122 157.373  0.00  0.00    -0.076 A 
+ATOM      7  H   PPY d   1      13.723 100.360 160.511  0.00  0.00     0.084 H 
+ATOM      8  H   PPY d   1      15.594  99.143 159.437  0.00  0.00     0.083 H 
+ATOM      9  H   PPY d   1      15.444  98.515 157.044  0.00  0.00     0.083 H 
+ATOM     10  H   PPY d   1      13.448  99.147 155.734  0.00  0.00     0.083 H 
+ATOM     11  H   PPY d   1      11.598 100.402 156.782  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  C3  PPY d   1      11.458 101.212 159.500  0.00  0.00     0.025 C 
+ATOM     13  H   PPY d   1      11.398 100.727 160.486  0.00  0.00     0.052 H 
+ATOM     14  H   PPY d   1      11.828 102.241 159.619  0.00  0.00     0.052 H 
+BRANCH  12  15
+ATOM     15  C2  PPY d   1      10.035 101.332 159.003  0.00  0.00     0.229 C 
+ATOM     16  O3  PPY d   1       9.666 100.954 157.932  0.00  0.00    -0.285 OA
+BRANCH  15  17
+ATOM     17  C1  PPY d   1       9.097 101.934 159.954  0.00  0.00     0.247 C 
+ATOM     18  O1  PPY d   1       7.842 102.037 159.810  0.00  0.00    -0.642 OA
+ATOM     19  O2  PPY d   1       9.621 102.366 160.979  0.00  0.00    -0.642 OA
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 3

@@ -1,0 +1,43 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_9  and  C7_8 
+REMARK    2  A    between atoms: C10_10  and  C9_9 
+REMARK    3  A    between atoms: C3_20  and  N_21 
+ROOT
+ATOM      1  C9  FJE d   1      15.069  83.545   7.286  0.00  0.00     0.200 C 
+ATOM      2  O2  FJE d   1      15.668  84.277   8.035  0.00  0.00    -0.286 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C7  FJE d   1      14.220  84.122   6.205  0.00  0.00     0.094 A 
+ATOM      4  C8  FJE d   1      13.153  84.952   6.505  0.00  0.00     0.159 A 
+ATOM      5  F   FJE d   1      12.929  85.306   7.781  0.00  0.00    -0.203 F 
+ATOM      6  C3  FJE d   1      12.328  85.482   5.527  0.00  0.00     0.066 A 
+ATOM      7  C4  FJE d   1      12.577  85.202   4.190  0.00  0.00    -0.052 A 
+ATOM      8  C5  FJE d   1      13.644  84.393   3.857  0.00  0.00    -0.042 A 
+ATOM      9  H3  FJE d   1      11.940  85.615   3.416  0.00  0.00     0.087 H 
+ATOM     10  C6  FJE d   1      14.429  83.877   4.857  0.00  0.00     0.133 A 
+ATOM     11  H1  FJE d   1      13.859  84.168   2.819  0.00  0.00     0.088 H 
+ATOM     12  F1  FJE d   1      15.484  83.110   4.511  0.00  0.00    -0.205 F 
+BRANCH   6  13
+ATOM     13  N   FJE d   1      11.241  86.307   5.922  0.00  0.00    -0.397 N 
+ATOM     14  H7  FJE d   1      11.077  86.500   6.920  0.00  0.00     0.156 HD
+ATOM     15  H8  FJE d   1      10.617  86.712   5.210  0.00  0.00     0.156 HD
+ENDBRANCH   6  13
+ENDBRANCH   1   3
+BRANCH   1  16
+ATOM     16  C10 FJE d   1      15.146  82.087   7.436  0.00  0.00     0.044 A 
+ATOM     17  C16 FJE d   1      16.057  81.351   8.276  0.00  0.00     0.027 A 
+ATOM     18  C15 FJE d   1      17.066  81.680   9.174  0.00  0.00    -0.046 A 
+ATOM     19  C12 FJE d   1      15.789  79.990   8.081  0.00  0.00     0.138 A 
+ATOM     20  C14 FJE d   1      17.724  80.641   9.801  0.00  0.00     0.052 A 
+ATOM     21  H4  FJE d   1      17.326  82.713   9.374  0.00  0.00     0.087 H 
+ATOM     22 CL   FJE d   1      19.016  81.002  10.917  0.00  0.00    -0.083 Cl
+ATOM     23  C13 FJE d   1      17.384  79.323   9.533  0.00  0.00     0.025 A 
+ATOM     24  N2  FJE d   1      16.417  78.977   8.674  0.00  0.00    -0.241 NA
+ATOM     25  H5  FJE d   1      17.927  78.536  10.043  0.00  0.00     0.117 H 
+ATOM     26  N1  FJE d   1      14.768  79.891   7.176  0.00  0.00    -0.349 N 
+ATOM     27  C11 FJE d   1      14.383  81.143   6.793  0.00  0.00    -0.006 A 
+ATOM     28  H2  FJE d   1      14.355  79.010   6.837  0.00  0.00     0.167 HD
+ATOM     29  H6  FJE d   1      13.588  81.362   6.082  0.00  0.00     0.112 H 
+ENDBRANCH   1  16
+TORSDOF 3

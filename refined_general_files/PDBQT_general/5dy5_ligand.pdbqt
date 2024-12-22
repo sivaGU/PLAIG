@@ -1,0 +1,111 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_11  and  C1_1 
+REMARK    2  A    between atoms: C1_1  and  S_12 
+REMARK    3  A    between atoms: S_12  and  C2_2 
+REMARK    4  A    between atoms: C6_3  and  C7_14 
+REMARK    5  A    between atoms: C12_5  and  C11_24 
+REMARK    6  A    between atoms: C18_7  and  C17_29 
+REMARK    7  A    between atoms: C20_34  and  C21_8 
+REMARK       I    between atoms: N2_19  and  C_11 
+REMARK    8  A    between atoms: C3_16  and  C4_17 
+REMARK    9  A    between atoms: C8_20  and  N2_19 
+REMARK   10  A    between atoms: C11_24  and  C10_22 
+REMARK   11  A    between atoms: O1_28  and  C16_25 
+REMARK   12  A    between atoms: C17_29  and  O1_28 
+REMARK   13  A    between atoms: N4_32  and  C20_34 
+ROOT
+ATOM      1  C12 5GR d   1       8.440   0.804  19.121  0.00  0.00    -0.051 A 
+ATOM      2  C15 5GR d   1       8.141  -0.758  16.815  0.00  0.00    -0.051 A 
+ATOM      3  C27 5GR d   1       7.174   0.566  18.587  0.00  0.00    -0.044 A 
+ATOM      4  C16 5GR d   1       7.031  -0.212  17.447  0.00  0.00     0.069 A 
+ATOM      5  C14 5GR d   1       9.396  -0.534  17.356  0.00  0.00    -0.080 A 
+ATOM      6  C13 5GR d   1       9.543   0.235  18.499  0.00  0.00    -0.076 A 
+ATOM      7  H4  5GR d   1       8.027  -1.349  15.914  0.00  0.00     0.087 H 
+ATOM      8  H5  5GR d   1       6.298   0.990  19.064  0.00  0.00     0.088 H 
+ATOM      9  H16 5GR d   1      10.271  -0.964  16.881  0.00  0.00     0.083 H 
+ATOM     10  H17 5GR d   1      10.532   0.395  18.913  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C11 5GR d   1       8.611   1.711  20.321  0.00  0.00    -0.009 C 
+ATOM     12  H14 5GR d   1       8.539   2.752  19.973  0.00  0.00     0.048 H 
+ATOM     13  H15 5GR d   1       9.612   1.533  20.741  0.00  0.00     0.048 H 
+BRANCH  11  14
+ATOM     14  C10 5GR d   1       7.608   1.521  21.421  0.00  0.00     0.008 A 
+ATOM     15  C9  5GR d   1       7.643   0.651  22.452  0.00  0.00     0.018 A 
+ATOM     16  N3  5GR d   1       6.583   0.667  23.322  0.00  0.00    -0.235 NA
+ATOM     17  H3  5GR d   1       8.478  -0.035  22.587  0.00  0.00     0.116 H 
+ATOM     18  C8  5GR d   1       5.722   1.570  22.946  0.00  0.00     0.173 A 
+ATOM     19  S1  5GR d   1       6.154   2.451  21.521  0.00  0.00    -0.055 SA
+BRANCH  18  20
+ATOM     20  N2  5GR d   1       4.564   1.761  23.675  0.00  0.00    -0.305 N 
+ATOM     21  C   5GR d   1       3.593   2.673  23.371  0.00  0.00     0.233 C 
+ATOM     22  O   5GR d   1       3.750   3.588  22.568  0.00  0.00    -0.272 OA
+ATOM     23  H13 5GR d   1       4.426   1.190  24.484  0.00  0.00     0.171 HD
+BRANCH  21  24
+ATOM     24  C1  5GR d   1       2.309   2.526  24.162  0.00  0.00     0.058 C 
+ATOM     25  H1  5GR d   1       1.743   3.453  23.988  0.00  0.00     0.064 H 
+ATOM     26  H2  5GR d   1       2.613   2.475  25.218  0.00  0.00     0.064 H 
+BRANCH  24  27
+ATOM     27  S   5GR d   1       1.116   1.164  23.923  0.00  0.00    -0.081 SA
+BRANCH  27  28
+ATOM     28  C2  5GR d   1       1.915  -0.170  24.732  0.00  0.00     0.189 A 
+ATOM     29  N1  5GR d   1       1.086  -1.216  24.873  0.00  0.00    -0.228 NA
+ATOM     30  C6  5GR d   1       1.566  -2.247  25.591  0.00  0.00     0.035 A 
+ATOM     31  C5  5GR d   1       2.847  -2.221  26.118  0.00  0.00    -0.036 A 
+ATOM     32  C3  5GR d   1       3.629  -1.100  25.902  0.00  0.00     0.035 A 
+ATOM     33  H9  5GR d   1       3.228  -3.061  26.687  0.00  0.00     0.089 H 
+ATOM     34  N   5GR d   1       3.162  -0.044  25.214  0.00  0.00    -0.228 NA
+BRANCH  30  35
+ATOM     35  C7  5GR d   1       0.642  -3.406  25.810  0.00  0.00    -0.035 C 
+ATOM     36  H6  5GR d   1       1.154  -4.175  26.407  0.00  0.00     0.035 H 
+ATOM     37  H7  5GR d   1       0.350  -3.831  24.838  0.00  0.00     0.035 H 
+ATOM     38  H8  5GR d   1      -0.256  -3.063  26.345  0.00  0.00     0.035 H 
+ENDBRANCH  30  35
+BRANCH  32  39
+ATOM     39  C4  5GR d   1       5.048  -1.019  26.378  0.00  0.00    -0.035 C 
+ATOM     40  H10 5GR d   1       5.473  -0.044  26.098  0.00  0.00     0.035 H 
+ATOM     41  H11 5GR d   1       5.637  -1.823  25.913  0.00  0.00     0.035 H 
+ATOM     42  H12 5GR d   1       5.075  -1.130  27.472  0.00  0.00     0.035 H 
+ENDBRANCH  32  39
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  18  20
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   4  43
+ATOM     43  O1  5GR d   1       5.708  -0.265  17.083  0.00  0.00    -0.345 OA
+BRANCH  43  44
+ATOM     44  C17 5GR d   1       5.295  -0.842  15.846  0.00  0.00     0.069 C 
+ATOM     45  H18 5GR d   1       5.918  -1.718  15.612  0.00  0.00     0.085 H 
+ATOM     46  H19 5GR d   1       4.240  -1.147  15.906  0.00  0.00     0.085 H 
+BRANCH  44  47
+ATOM     47  C18 5GR d   1       5.466   0.201  14.798  0.00  0.00     0.099 A 
+ATOM     48  N6  5GR d   1       4.462   1.056  14.465  0.00  0.00    -0.133 NA
+ATOM     49  N5  5GR d   1       4.898   1.897  13.556  0.00  0.00    -0.066 NA
+ATOM     50  N4  5GR d   1       6.176   1.574  13.305  0.00  0.00    -0.256 N 
+ATOM     51  C19 5GR d   1       6.561   0.532  14.058  0.00  0.00     0.028 A 
+ATOM     52  H20 5GR d   1       7.539   0.053  14.074  0.00  0.00     0.117 H 
+BRANCH  50  53
+ATOM     53  C20 5GR d   1       6.942   2.311  12.290  0.00  0.00     0.042 C 
+ATOM     54  H21 5GR d   1       7.997   2.006  12.357  0.00  0.00     0.074 H 
+ATOM     55  H22 5GR d   1       6.548   2.052  11.296  0.00  0.00     0.074 H 
+BRANCH  53  56
+ATOM     56  C21 5GR d   1       6.861   3.809  12.466  0.00  0.00    -0.038 A 
+ATOM     57  C26 5GR d   1       6.308   4.614  11.477  0.00  0.00    -0.075 A 
+ATOM     58  C25 5GR d   1       6.227   5.987  11.644  0.00  0.00    -0.082 A 
+ATOM     59  H23 5GR d   1       5.936   4.162  10.565  0.00  0.00     0.084 H 
+ATOM     60  C24 5GR d   1       6.699   6.574  12.801  0.00  0.00    -0.083 A 
+ATOM     61  H24 5GR d   1       5.792   6.602  10.864  0.00  0.00     0.083 H 
+ATOM     62  C23 5GR d   1       7.251   5.786  13.791  0.00  0.00    -0.082 A 
+ATOM     63  H25 5GR d   1       6.636   7.648  12.931  0.00  0.00     0.083 H 
+ATOM     64  C22 5GR d   1       7.333   4.413  13.624  0.00  0.00    -0.075 A 
+ATOM     65  H26 5GR d   1       7.621   6.243  14.702  0.00  0.00     0.083 H 
+ATOM     66  H27 5GR d   1       7.771   3.803  14.406  0.00  0.00     0.084 H 
+ENDBRANCH  53  56
+ENDBRANCH  50  53
+ENDBRANCH  44  47
+ENDBRANCH  43  44
+ENDBRANCH   4  43
+TORSDOF 13

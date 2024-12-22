@@ -1,0 +1,90 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O51_1  and  C47_2 
+REMARK    2  A    between atoms: C47_2  and  C48_3 
+REMARK    3  A    between atoms: C40_7  and  C36_8 
+REMARK    4  A    between atoms: C32_13  and  N3_14 
+REMARK    5  A    between atoms: N3_14  and  C4_15 
+REMARK    6  A    between atoms: C13_20  and  O15_21 
+REMARK    7  A    between atoms: O15_21  and  C20_22 
+REMARK    8  A    between atoms: C20_22  and  C21_23 
+REMARK    9  A    between atoms: C16_27  and  O17_28 
+REMARK   10  A    between atoms: O17_28  and  C19_29 
+REMARK   11  A    between atoms: C19_29  and  C26_30 
+ROOT
+ATOM      1  C4  PFE d   1      46.297  83.954  19.951  0.00  0.00     0.142 A 
+ATOM      2  N2  PFE d   1      47.508  83.466  19.615  0.00  0.00    -0.224 NA
+ATOM      3  C7  PFE d   1      48.346  84.338  19.022  0.00  0.00     0.089 A 
+ATOM      4  C6  PFE d   1      45.908  85.304  19.757  0.00  0.00     0.042 A 
+ATOM      5  C9  PFE d   1      44.662  85.866  20.109  0.00  0.00    -0.032 A 
+ATOM      6  C13 PFE d   1      44.397  87.221  19.845  0.00  0.00     0.103 A 
+ATOM      7  C8  PFE d   1      46.889  86.103  19.135  0.00  0.00     0.075 A 
+ATOM      8  N5  PFE d   1      48.071  85.619  18.768  0.00  0.00    -0.241 NA
+ATOM      9  C18 PFE d   1      46.614  87.436  18.892  0.00  0.00    -0.019 A 
+ATOM     10  C16 PFE d   1      45.386  88.000  19.233  0.00  0.00     0.104 A 
+ATOM     11  H10 PFE d   1      49.322  83.970  18.727  0.00  0.00     0.146 H 
+ATOM     12  H11 PFE d   1      43.907  85.251  20.584  0.00  0.00     0.089 H 
+ATOM     13  H17 PFE d   1      47.371  88.056  18.426  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   1  14
+ATOM     14  N3  PFE d   1      45.381  83.070  20.552  0.00  0.00    -0.340 N 
+ATOM     15  H9  PFE d   1      44.417  83.430  20.587  0.00  0.00     0.167 HD
+BRANCH  14  16
+ATOM     16  C32 PFE d   1      45.530  81.792  21.113  0.00  0.00     0.034 A 
+ATOM     17  C35 PFE d   1      44.422  80.919  21.014  0.00  0.00    -0.045 A 
+ATOM     18  C36 PFE d   1      44.513  79.647  21.619  0.00  0.00    -0.005 A 
+ATOM     19  H5  PFE d   1      43.524  81.219  20.486  0.00  0.00     0.088 H 
+ATOM     20  C33 PFE d   1      45.692  79.261  22.258  0.00  0.00    -0.071 A 
+ATOM     21  C37 PFE d   1      46.808  80.110  22.335  0.00  0.00    -0.080 A 
+ATOM     22  H6  PFE d   1      45.748  78.277  22.708  0.00  0.00     0.084 H 
+ATOM     23  C34 PFE d   1      46.702  81.376  21.767  0.00  0.00    -0.057 A 
+ATOM     24  H7  PFE d   1      47.722  79.790  22.821  0.00  0.00     0.083 H 
+ATOM     25  H8  PFE d   1      47.543  82.057  21.831  0.00  0.00     0.086 H 
+BRANCH  18  26
+ATOM     26  C40 PFE d   1      43.393  78.720  21.592  0.00  0.00     0.074 A 
+ATOM     27  C43 PFE d   1      43.529  77.408  22.008  0.00  0.00    -0.015 A 
+ATOM     28  S45 PFE d   1      42.021  76.608  21.809  0.00  0.00    -0.082 SA
+ATOM     29  H4  PFE d   1      44.441  76.957  22.397  0.00  0.00     0.098 H 
+ATOM     30  C48 PFE d   1      41.295  78.045  21.270  0.00  0.00     0.099 A 
+ATOM     31  N44 PFE d   1      42.117  79.080  21.161  0.00  0.00    -0.243 NA
+BRANCH  30  32
+ATOM     32  C47 PFE d   1      39.811  77.970  20.997  0.00  0.00     0.063 C 
+ATOM     33  H2  PFE d   1      39.502  76.930  20.818  0.00  0.00     0.084 H 
+ATOM     34  H3  PFE d   1      39.240  78.382  21.842  0.00  0.00     0.084 H 
+BRANCH  32  35
+ATOM     35  O51 PFE d   1      39.620  78.755  19.834  0.00  0.00    -0.394 OA
+ATOM     36  H1  PFE d   1      38.699  78.754  19.600  0.00  0.00     0.209 HD
+ENDBRANCH  32  35
+ENDBRANCH  30  32
+ENDBRANCH  18  26
+ENDBRANCH  14  16
+ENDBRANCH   1  14
+BRANCH   6  37
+ATOM     37  O15 PFE d   1      43.245  87.908  20.170  0.00  0.00    -0.349 OA
+BRANCH  37  38
+ATOM     38  C20 PFE d   1      42.322  87.290  21.101  0.00  0.00     0.023 C 
+ATOM     39  H12 PFE d   1      42.779  87.205  22.098  0.00  0.00     0.074 H 
+ATOM     40  H13 PFE d   1      42.027  86.291  20.746  0.00  0.00     0.074 H 
+BRANCH  38  41
+ATOM     41  C21 PFE d   1      41.125  88.211  21.144  0.00  0.00    -0.056 C 
+ATOM     42  H14 PFE d   1      40.374  87.804  21.837  0.00  0.00     0.030 H 
+ATOM     43  H15 PFE d   1      40.689  88.293  20.137  0.00  0.00     0.030 H 
+ATOM     44  H16 PFE d   1      41.441  89.207  21.489  0.00  0.00     0.030 H 
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH   6  37
+BRANCH  10  45
+ATOM     45  O17 PFE d   1      45.038  89.309  19.015  0.00  0.00    -0.349 OA
+BRANCH  45  46
+ATOM     46  C19 PFE d   1      46.061  90.150  18.491  0.00  0.00     0.023 C 
+ATOM     47  H18 PFE d   1      46.197  89.963  17.416  0.00  0.00     0.074 H 
+ATOM     48  H19 PFE d   1      47.010  89.972  19.018  0.00  0.00     0.074 H 
+BRANCH  46  49
+ATOM     49  C26 PFE d   1      45.587  91.570  18.723  0.00  0.00    -0.056 C 
+ATOM     50  H20 PFE d   1      46.338  92.275  18.338  0.00  0.00     0.030 H 
+ATOM     51  H21 PFE d   1      45.446  91.738  19.801  0.00  0.00     0.030 H 
+ATOM     52  H22 PFE d   1      44.633  91.728  18.199  0.00  0.00     0.030 H 
+ENDBRANCH  46  49
+ENDBRANCH  45  46
+ENDBRANCH  10  45
+TORSDOF 11

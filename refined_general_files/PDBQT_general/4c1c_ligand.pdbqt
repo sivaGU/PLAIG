@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_2  and  C8_4 
+REMARK       I    between atoms: N_8  and  C4_9 
+REMARK    2  A    between atoms: C4_9  and  C2_11 
+REMARK    3  A    between atoms: C2_11  and  C3_12 
+REMARK    4  A    between atoms: C2_11  and  C1_13 
+REMARK    5  A    between atoms: C1_13  and  S_14 
+ROOT
+ATOM      1  C8  MCO d   1      10.764  13.115  42.026  0.00  0.00     0.098 C 
+ATOM      2  C7  MCO d   1       9.370  13.473  42.467  0.00  0.00    -0.035 C 
+ATOM      3  C6  MCO d   1       9.393  13.599  43.945  0.00  0.00    -0.048 C 
+ATOM      4  C5  MCO d   1      10.823  13.471  44.372  0.00  0.00    -0.001 C 
+ATOM      5  N   MCO d   1      11.600  13.279  43.175  0.00  0.00    -0.337 N 
+ATOM      6  C4  MCO d   1      13.041  13.227  43.131  0.00  0.00     0.225 C 
+ATOM      7  O1  MCO d   1      13.602  13.054  42.094  0.00  0.00    -0.273 OA
+ATOM      8  H1  MCO d   1      11.094  13.769  41.205  0.00  0.00     0.089 H 
+ATOM      9  H2  MCO d   1       8.666  12.683  42.168  0.00  0.00     0.036 H 
+ATOM     10  H3  MCO d   1       9.065  14.427  42.013  0.00  0.00     0.036 H 
+ATOM     11  H4  MCO d   1       8.789  12.801  44.402  0.00  0.00     0.035 H 
+ATOM     12  H5  MCO d   1       8.995  14.579  44.247  0.00  0.00     0.035 H 
+ATOM     13  H6  MCO d   1      10.942  12.607  45.043  0.00  0.00     0.064 H 
+ATOM     14  H7  MCO d   1      11.146  14.386  44.891  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  C9  MCO d   1      10.800  11.710  41.601  0.00  0.00     0.196 C 
+ATOM     16  O2  MCO d   1      11.016  10.779  42.450  0.00  0.00    -0.646 OA
+ATOM     17  O3  MCO d   1      10.625  11.445  40.415  0.00  0.00    -0.646 OA
+ENDBRANCH   1  15
+BRANCH   6  18
+ATOM     18  C2  MCO d   1      13.833  13.349  44.395  0.00  0.00     0.028 C 
+ATOM     19  H8  MCO d   1      13.156  13.200  45.249  0.00  0.00     0.055 H 
+BRANCH  18  20
+ATOM     20  C3  MCO d   1      14.486  14.710  44.533  0.00  0.00    -0.064 C 
+ATOM     21  H9  MCO d   1      15.054  14.750  45.474  0.00  0.00     0.028 H 
+ATOM     22  H10 MCO d   1      13.710  15.490  44.539  0.00  0.00     0.028 H 
+ATOM     23  H11 MCO d   1      15.167  14.877  43.686  0.00  0.00     0.028 H 
+ENDBRANCH  18  20
+BRANCH  18  24
+ATOM     24  C1  MCO d   1      14.890  12.278  44.412  0.00  0.00    -0.015 C 
+ATOM     25  H12 MCO d   1      15.423  12.319  45.373  0.00  0.00     0.049 H 
+ATOM     26  H13 MCO d   1      15.599  12.464  43.592  0.00  0.00     0.049 H 
+BRANCH  24  27
+ATOM     27  S   MCO d   1      14.175  10.620  44.206  0.00  0.00    -0.181 SA
+ATOM     28  H14 MCO d   1      14.912   9.933  44.223  0.00  0.00     0.101 HD
+ENDBRANCH  24  27
+ENDBRANCH  18  24
+ENDBRANCH   6  18
+TORSDOF 5

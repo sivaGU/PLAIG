@@ -1,0 +1,78 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  N11_11 
+REMARK    2  A    between atoms: C5_5  and  C12_12 
+REMARK    3  A    between atoms: C6_6  and  C28_28 
+REMARK    4  A    between atoms: C12_12  and  S13_13 
+REMARK    5  A    between atoms: S13_13  and  C14_14 
+REMARK    6  A    between atoms: C14_14  and  C15_15 
+REMARK    7  A    between atoms: C17_17  and  C21_21 
+REMARK    8  A    between atoms: C21_21  and  C22_22 
+REMARK    9  A    between atoms: C21_21  and  O26_26 
+ROOT
+ATOM      1  C12 FBQ d   1       1.329  68.254  64.125  0.00  0.00     0.005 C 
+ATOM      2  H6  FBQ d   1       1.032  68.248  63.066  0.00  0.00     0.056 H 
+ATOM      3  H7  FBQ d   1       0.595  68.829  64.709  0.00  0.00     0.056 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  FBQ d   1       2.732  68.866  64.281  0.00  0.00     0.003 A 
+ATOM      5  C4  FBQ d   1       3.135  69.457  65.532  0.00  0.00     0.050 A 
+ATOM      6  C3  FBQ d   1       4.425  69.998  65.689  0.00  0.00     0.058 A 
+ATOM      7  C2  FBQ d   1       5.328  69.958  64.584  0.00  0.00     0.072 A 
+ATOM      8  C7  FBQ d   1       4.892  70.609  66.936  0.00  0.00     0.131 A 
+ATOM      9  N1  FBQ d   1       4.933  69.410  63.417  0.00  0.00    -0.252 NA
+ATOM     10  C10 FBQ d   1       6.617  70.476  64.688  0.00  0.00    -0.054 A 
+ATOM     11  C6  FBQ d   1       3.680  68.860  63.206  0.00  0.00     0.040 A 
+ATOM     12  C9  FBQ d   1       7.057  71.051  65.935  0.00  0.00    -0.078 A 
+ATOM     13  H3  FBQ d   1       7.286  70.447  63.836  0.00  0.00     0.087 H 
+ATOM     14  C8  FBQ d   1       6.206  71.125  67.049  0.00  0.00    -0.045 A 
+ATOM     15  H2  FBQ d   1       8.068  71.435  66.014  0.00  0.00     0.083 H 
+ATOM     16  H1  FBQ d   1       6.548  71.568  67.977  0.00  0.00     0.088 H 
+ATOM     17  F27 FBQ d   1       4.082  70.713  68.041  0.00  0.00    -0.205 F 
+BRANCH   5  18
+ATOM     18  N11 FBQ d   1       2.214  69.459  66.574  0.00  0.00    -0.398 N 
+ATOM     19  H4  FBQ d   1       2.466  69.873  67.483  0.00  0.00     0.156 HD
+ATOM     20  H5  FBQ d   1       1.280  69.047  66.437  0.00  0.00     0.156 HD
+ENDBRANCH   5  18
+BRANCH  11  21
+ATOM     21  C28 FBQ d   1       3.362  68.252  61.825  0.00  0.00    -0.035 C 
+ATOM     22  H16 FBQ d   1       2.334  67.862  61.824  0.00  0.00     0.035 H 
+ATOM     23  H17 FBQ d   1       4.065  67.433  61.614  0.00  0.00     0.035 H 
+ATOM     24  H18 FBQ d   1       3.460  69.028  61.051  0.00  0.00     0.035 H 
+ENDBRANCH  11  21
+ENDBRANCH   1   4
+BRANCH   1  25
+ATOM     25  S13 FBQ d   1       1.447  66.484  64.783  0.00  0.00    -0.160 SA
+BRANCH  25  26
+ATOM     26  C14 FBQ d   1       3.071  66.107  65.503  0.00  0.00     0.001 C 
+ATOM     27  H8  FBQ d   1       2.959  65.197  66.111  0.00  0.00     0.056 H 
+ATOM     28  H9  FBQ d   1       3.348  66.950  66.153  0.00  0.00     0.056 H 
+BRANCH  26  29
+ATOM     29  C15 FBQ d   1       4.221  65.875  64.546  0.00  0.00    -0.048 A 
+ATOM     30  C16 FBQ d   1       4.120  65.072  63.407  0.00  0.00    -0.067 A 
+ATOM     31  C17 FBQ d   1       5.269  64.868  62.583  0.00  0.00    -0.021 A 
+ATOM     32  H10 FBQ d   1       3.175  64.607  63.150  0.00  0.00     0.085 H 
+ATOM     33  C18 FBQ d   1       6.541  65.525  62.885  0.00  0.00    -0.074 A 
+ATOM     34  C19 FBQ d   1       6.654  66.346  64.027  0.00  0.00    -0.082 A 
+ATOM     35  H11 FBQ d   1       7.395  65.381  62.233  0.00  0.00     0.084 H 
+ATOM     36  C20 FBQ d   1       5.483  66.515  64.872  0.00  0.00    -0.076 A 
+ATOM     37  H12 FBQ d   1       7.589  66.838  64.268  0.00  0.00     0.083 H 
+ATOM     38  H13 FBQ d   1       5.553  67.130  65.762  0.00  0.00     0.084 H 
+BRANCH  31  39
+ATOM     39  C21 FBQ d   1       5.257  63.971  61.406  0.00  0.00     0.154 C 
+ATOM     40  H14 FBQ d   1       6.117  64.253  60.781  0.00  0.00     0.104 H 
+BRANCH  39  41
+ATOM     41  C22 FBQ d   1       5.525  62.537  61.930  0.00  0.00     0.417 C 
+ATOM     42  F23 FBQ d   1       5.435  61.532  60.975  0.00  0.00    -0.168 F 
+ATOM     43  F24 FBQ d   1       4.553  62.290  62.930  0.00  0.00    -0.168 F 
+ATOM     44  F25 FBQ d   1       6.742  62.501  62.665  0.00  0.00    -0.168 F 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  O26 FBQ d   1       4.088  64.087  60.533  0.00  0.00    -0.382 OA
+ATOM     46  H15 FBQ d   1       4.206  63.531  59.772  0.00  0.00     0.210 HD
+ENDBRANCH  39  45
+ENDBRANCH  31  39
+ENDBRANCH  26  29
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 9

@@ -1,0 +1,85 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK       I    between atoms: C_1  and  NAQ_20 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK       I    between atoms: CAT_21  and  N_2 
+REMARK    3  A    between atoms: CA_4  and  CAX_25 
+REMARK    4  A    between atoms: CAM_16  and  CAA_5 
+REMARK    5  A    between atoms: CAW_24  and  OAF_9 
+REMARK    6  A    between atoms: BAY_26  and  OAG_10 
+REMARK    7  A    between atoms: BAY_26  and  OAH_11 
+REMARK    8  A    between atoms: NBA_27  and  CAM_16 
+REMARK    9  A    between atoms: NAQ_20  and  CAN_17 
+REMARK   10  A    between atoms: CAN_17  and  BAY_26 
+REMARK       I    between atoms: NBB_28  and  CAT_21 
+ROOT
+ATOM      1  CA  CZ7 d   1      31.903  67.043   4.537  0.00  0.00     0.116 C 
+ATOM      2  H   CZ7 d   1      32.406  66.982   5.502  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   CZ7 d   1      31.285  65.692   4.274  0.00  0.00     0.244 C 
+ATOM      4  O   CZ7 d   1      30.205  65.581   3.698  0.00  0.00    -0.271 OA
+ATOM      5  NAQ CZ7 d   1      31.974  64.646   4.709  0.00  0.00    -0.362 N 
+ATOM      6  H   CZ7 d   1      32.858  64.833   5.182  0.00  0.00     0.161 HD
+BRANCH   5   7
+ATOM      7  CAN CZ7 d   1      31.575  63.249   4.568  0.00  0.00     0.030 C 
+ATOM      8  H   CZ7 d   1      32.048  62.808   3.691  0.00  0.00     0.057 H 
+ATOM      9  H   CZ7 d   1      30.495  63.176   4.439  0.00  0.00     0.057 H 
+BRANCH   7  10
+ATOM     10  BAY CZ7 d   1      32.026  62.476   5.885  0.00  0.00     0.510 B 
+BRANCH  10  11
+ATOM     11  OAG CZ7 d   1      31.219  62.702   7.161  0.00  0.00    -0.436 OA
+ATOM     12  H   CZ7 d   1      30.291  62.532   6.985  0.00  0.00     0.184 HD
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  OAH CZ7 d   1      33.500  62.750   6.182  0.00  0.00    -0.436 OA
+ATOM     14  H   CZ7 d   1      33.602  63.658   6.477  0.00  0.00     0.184 HD
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+ENDBRANCH   1   3
+BRANCH   1  15
+ATOM     15  N   CZ7 d   1      30.882  68.089   4.610  0.00  0.00    -0.325 N 
+ATOM     16  CAT CZ7 d   1      30.943  69.103   5.487  0.00  0.00     0.330 C 
+ATOM     17  OAC CZ7 d   1      31.878  69.172   6.275  0.00  0.00    -0.246 OA
+ATOM     18  NBB CZ7 d   1      29.972  70.044   5.526  0.00  0.00    -0.236 N 
+ATOM     19  CAP CZ7 d   1      29.828  70.775   6.739  0.00  0.00     0.003 C 
+ATOM     20  CAV CZ7 d   1      28.922  70.067   4.685  0.00  0.00     0.318 C 
+ATOM     21  CAO CZ7 d   1      28.622  71.442   7.080  0.00  0.00    -0.019 C 
+ATOM     22  H   CZ7 d   1      30.671  70.824   7.428  0.00  0.00     0.114 H 
+ATOM     23  NBA CZ7 d   1      27.521  71.375   6.185  0.00  0.00    -0.221 NA
+ATOM     24  H   CZ7 d   1      28.542  71.997   8.015  0.00  0.00     0.105 H 
+ATOM     25  CAU CZ7 d   1      27.902  71.096   4.929  0.00  0.00     0.295 C 
+ATOM     26  OAD CZ7 d   1      27.383  71.659   3.970  0.00  0.00    -0.268 OA
+ATOM     27  OAE CZ7 d   1      28.765  69.312   3.741  0.00  0.00    -0.262 OA
+ATOM     28  H   CZ7 d   1      30.091  68.046   3.967  0.00  0.00     0.165 HD
+BRANCH  23  29
+ATOM     29  CAM CZ7 d   1      26.717  72.541   6.280  0.00  0.00    -0.013 C 
+ATOM     30  H   CZ7 d   1      27.054  73.158   7.113  0.00  0.00     0.056 H 
+ATOM     31  H   CZ7 d   1      26.797  73.123   5.362  0.00  0.00     0.056 H 
+BRANCH  29  32
+ATOM     32  CAA CZ7 d   1      25.292  72.122   6.498  0.00  0.00    -0.064 C 
+ATOM     33  H   CZ7 d   1      24.962  71.510   5.659  0.00  0.00     0.029 H 
+ATOM     34  H   CZ7 d   1      25.221  71.545   7.420  0.00  0.00     0.029 H 
+ATOM     35  H   CZ7 d   1      24.662  73.008   6.573  0.00  0.00     0.029 H 
+ENDBRANCH  29  32
+ENDBRANCH  23  29
+ENDBRANCH   1  15
+BRANCH   1  36
+ATOM     36  CAX CZ7 d   1      32.915  67.390   3.500  0.00  0.00    -0.026 A 
+ATOM     37  CAK CZ7 d   1      34.221  67.733   3.863  0.00  0.00    -0.072 A 
+ATOM     38  CAI CZ7 d   1      35.148  68.058   2.876  0.00  0.00    -0.050 A 
+ATOM     39  H   CZ7 d   1      34.512  67.746   4.913  0.00  0.00     0.084 H 
+ATOM     40  CAW CZ7 d   1      34.789  68.042   1.530  0.00  0.00     0.065 A 
+ATOM     41  H   CZ7 d   1      36.165  68.328   3.160  0.00  0.00     0.087 H 
+ATOM     42  CAJ CZ7 d   1      33.489  67.707   1.162  0.00  0.00    -0.050 A 
+ATOM     43  CAL CZ7 d   1      32.561  67.382   2.148  0.00  0.00    -0.072 A 
+ATOM     44  H   CZ7 d   1      33.200  67.699   0.111  0.00  0.00     0.087 H 
+ATOM     45  H   CZ7 d   1      31.543  67.117   1.861  0.00  0.00     0.084 H 
+BRANCH  40  46
+ATOM     46  OAF CZ7 d   1      35.707  68.362   0.570  0.00  0.00    -0.361 OA
+ATOM     47  H   CZ7 d   1      35.297  68.301  -0.296  0.00  0.00     0.217 HD
+ENDBRANCH  40  46
+ENDBRANCH   1  36
+TORSDOF 10

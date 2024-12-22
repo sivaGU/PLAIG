@@ -1,0 +1,82 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_22  and  CAA_1 
+REMARK    2  A    between atoms: CAW_23  and  CAB_2 
+REMARK    3  A    between atoms: OAR_18  and  CAO_15 
+REMARK    4  A    between atoms: CAO_15  and  CAU_21 
+REMARK    5  A    between atoms: CAP_16  and  SAS_19 
+REMARK    6  A    between atoms: CBB_28  and  CAP_16 
+REMARK    7  A    between atoms: CBA_27  and  OAR_18 
+REMARK    8  A    between atoms: SAS_19  and  CAX_24 
+REMARK    9  A    between atoms: CAZ_26  and  CBD_30 
+REMARK   10  A    between atoms: CBC_29  and  CBE_31 
+ROOT
+ATOM      1  CAP GW0 d   1       8.723   2.986  26.407  0.00  0.00     0.013 C 
+ATOM      2  H15 GW0 d   1       9.124   3.753  25.728  0.00  0.00     0.057 H 
+ATOM      3  H16 GW0 d   1       8.941   1.987  26.002  0.00  0.00     0.057 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  SAS GW0 d   1       6.919   3.182  26.468  0.00  0.00    -0.125 SA
+BRANCH   4   5
+ATOM      5  CAX GW0 d   1       6.696   4.876  26.725  0.00  0.00     0.001 A 
+ATOM      6  CAI GW0 d   1       7.219   5.844  25.916  0.00  0.00    -0.064 A 
+ATOM      7  CAK GW0 d   1       6.977   7.172  26.177  0.00  0.00    -0.049 A 
+ATOM      8  H7  GW0 d   1       7.828   5.564  25.064  0.00  0.00     0.085 H 
+ATOM      9  CBA GW0 d   1       6.217   7.546  27.243  0.00  0.00     0.075 A 
+ATOM     10  H9  GW0 d   1       7.396   7.931  25.526  0.00  0.00     0.087 H 
+ATOM     11  CAV GW0 d   1       5.710   6.597  28.057  0.00  0.00    -0.027 A 
+ATOM     12  CAM GW0 d   1       5.941   5.277  27.794  0.00  0.00    -0.058 A 
+ATOM     13  H11 GW0 d   1       5.515   4.526  28.450  0.00  0.00     0.086 H 
+BRANCH   9  14
+ATOM     14  OAR GW0 d   1       5.949   8.793  27.521  0.00  0.00    -0.340 OA
+BRANCH  14  15
+ATOM     15  CAO GW0 d   1       6.653   9.773  26.906  0.00  0.00     0.105 C 
+ATOM     16  H13 GW0 d   1       7.709   9.465  26.910  0.00  0.00     0.091 H 
+ATOM     17  H14 GW0 d   1       6.534  10.685  27.509  0.00  0.00     0.091 H 
+BRANCH  15  18
+ATOM     18  CAU GW0 d   1       6.303  10.130  25.493  0.00  0.00     0.198 C 
+ATOM     19  OAC GW0 d   1       7.012  10.935  24.967  0.00  0.00    -0.646 OA
+ATOM     20  OAD GW0 d   1       5.384   9.606  24.931  0.00  0.00    -0.646 OA
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+BRANCH  11  21
+ATOM     21  CAA GW0 d   1       4.867   6.983  29.239  0.00  0.00    -0.049 C 
+ATOM     22  H1  GW0 d   1       4.550   6.076  29.775  0.00  0.00     0.033 H 
+ATOM     23  H2  GW0 d   1       3.980   7.533  28.893  0.00  0.00     0.033 H 
+ATOM     24  H3  GW0 d   1       5.454   7.622  29.915  0.00  0.00     0.033 H 
+ENDBRANCH  11  21
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  25
+ATOM     25  CBB GW0 d   1       9.447   3.119  27.746  0.00  0.00     0.018 A 
+ATOM     26  SAT GW0 d   1       9.184   2.351  29.117  0.00  0.00    -0.071 SA
+ATOM     27  CBD GW0 d   1      10.405   3.116  29.994  0.00  0.00     0.108 A 
+ATOM     28  NAQ GW0 d   1      11.010   3.922  29.175  0.00  0.00    -0.245 NA
+ATOM     29  CAW GW0 d   1      10.494   3.924  27.964  0.00  0.00     0.046 A 
+BRANCH  27  30
+ATOM     30  CAZ GW0 d   1      10.659   2.916  31.347  0.00  0.00     0.003 A 
+ATOM     31  CAJ GW0 d   1       9.786   2.192  32.130  0.00  0.00    -0.069 A 
+ATOM     32  CAL GW0 d   1       9.932   2.003  33.483  0.00  0.00    -0.064 A 
+ATOM     33  H8  GW0 d   1       8.927   1.742  31.646  0.00  0.00     0.085 H 
+ATOM     34  CBC GW0 d   1      10.990   2.591  34.077  0.00  0.00     0.086 A 
+ATOM     35  H10 GW0 d   1       9.226   1.406  34.049  0.00  0.00     0.084 H 
+ATOM     36  CAY GW0 d   1      11.843   3.300  33.320  0.00  0.00     0.132 A 
+ATOM     37  FAE GW0 d   1      12.832   3.796  33.958  0.00  0.00    -0.205 F 
+ATOM     38  CAN GW0 d   1      11.707   3.505  31.984  0.00  0.00    -0.032 A 
+ATOM     39  H12 GW0 d   1      12.414   4.121  31.440  0.00  0.00     0.089 H 
+BRANCH  34  40
+ATOM     40  CBE GW0 d   1      11.303   2.444  35.562  0.00  0.00     0.420 C 
+ATOM     41  FAF GW0 d   1      11.484   3.492  36.125  0.00  0.00    -0.166 F 
+ATOM     42  FAG GW0 d   1      10.425   1.853  36.191  0.00  0.00    -0.166 F 
+ATOM     43  FAH GW0 d   1      12.315   1.762  35.721  0.00  0.00    -0.166 F 
+ENDBRANCH  34  40
+ENDBRANCH  27  30
+BRANCH  29  44
+ATOM     44  CAB GW0 d   1      10.962   4.730  26.794  0.00  0.00    -0.034 C 
+ATOM     45  H4  GW0 d   1      10.328   4.513  25.922  0.00  0.00     0.035 H 
+ATOM     46  H5  GW0 d   1      12.005   4.469  26.563  0.00  0.00     0.035 H 
+ATOM     47  H6  GW0 d   1      10.897   5.801  27.037  0.00  0.00     0.035 H 
+ENDBRANCH  29  44
+ENDBRANCH   1  25
+TORSDOF 10

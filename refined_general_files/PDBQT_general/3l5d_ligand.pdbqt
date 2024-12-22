@@ -1,0 +1,111 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C4_9 
+REMARK    2  A    between atoms: C1_1  and  C5_11 
+REMARK    3  A    between atoms: C2_4  and  N3_8 
+REMARK    4  A    between atoms: C9_16  and  N2_5 
+REMARK    5  A    between atoms: C16_23  and  N4_10 
+REMARK       I    between atoms: N4_10  and  C20_27 
+REMARK    6  A    between atoms: C5_11  and  C6_13 
+REMARK    7  A    between atoms: N5_12  and  C17_24 
+REMARK       I    between atoms: C20_27  and  N5_12 
+REMARK    8  A    between atoms: C6_13  and  C7_14 
+REMARK    9  A    between atoms: C6_13  and  C8_15 
+REMARK   10  A    between atoms: C10_17  and  C9_16 
+REMARK   11  A    between atoms: C13_20  and  C16_23 
+REMARK   12  A    between atoms: C17_24  and  C18_25 
+REMARK   13  A    between atoms: C18_25  and  C19_26 
+REMARK   14  A    between atoms: C19_26  and  C21_28 
+ROOT
+ATOM      1  C10 BDV d   1      23.121  13.130  24.553  0.00  0.00    -0.039 A 
+ATOM      2  C11 BDV d   1      23.186  14.441  25.112  0.00  0.00    -0.075 A 
+ATOM      3  C12 BDV d   1      24.273  15.307  24.781  0.00  0.00    -0.075 A 
+ATOM      4  C13 BDV d   1      25.297  14.865  23.890  0.00  0.00    -0.040 A 
+ATOM      5  C14 BDV d   1      25.231  13.555  23.332  0.00  0.00    -0.075 A 
+ATOM      6  C15 BDV d   1      24.149  12.692  23.663  0.00  0.00    -0.075 A 
+ATOM      7  H   BDV d   1      22.406  14.782  25.792  0.00  0.00     0.084 H 
+ATOM      8  H   BDV d   1      24.321  16.308  25.210  0.00  0.00     0.084 H 
+ATOM      9  H   BDV d   1      26.011  13.214  22.651  0.00  0.00     0.084 H 
+ATOM     10  H   BDV d   1      24.104  11.691  23.235  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C9  BDV d   1      21.965  12.205  24.904  0.00  0.00     0.043 C 
+ATOM     12  H   BDV d   1      22.291  11.536  25.700  0.00  0.00     0.073 H 
+ATOM     13  H   BDV d   1      21.117  12.817  25.212  0.00  0.00     0.073 H 
+BRANCH  11  14
+ATOM     14  N2  BDV d   1      21.553  11.391  23.757  0.00  0.00    -0.145 N 
+ATOM     15  C2  BDV d   1      21.763  10.066  23.608  0.00  0.00     0.678 A 
+ATOM     16  N1  BDV d   1      21.283   9.563  22.448  0.00  0.00    -0.208 N 
+ATOM     17  C1  BDV d   1      20.681  10.672  21.729  0.00  0.00     0.126 A 
+ATOM     18  H   BDV d   1      21.334   8.593  22.138  0.00  0.00     0.179 HD
+ATOM     19  C3  BDV d   1      20.907  11.854  22.675  0.00  0.00     0.267 A 
+ATOM     20  O1  BDV d   1      20.547  13.013  22.457  0.00  0.00    -0.270 OA
+BRANCH  15  21
+ATOM     21  N3  BDV d   1      22.388   9.337  24.531  0.00  0.00    -0.234 N 
+ATOM     22  H   BDV d   1      22.727   9.778  25.386  0.00  0.00     0.174 HD
+ATOM     23  H   BDV d   1      22.528   8.338  24.383  0.00  0.00     0.174 HD
+ENDBRANCH  15  21
+BRANCH  17  24
+ATOM     24  C4  BDV d   1      19.158  10.482  21.583  0.00  0.00    -0.044 C 
+ATOM     25  H   BDV d   1      18.723  10.277  22.561  0.00  0.00     0.031 H 
+ATOM     26  H   BDV d   1      18.718  11.390  21.172  0.00  0.00     0.031 H 
+ATOM     27  H   BDV d   1      18.960   9.645  20.913  0.00  0.00     0.031 H 
+ENDBRANCH  17  24
+BRANCH  17  28
+ATOM     28  C5  BDV d   1      21.390  10.918  20.392  0.00  0.00    -0.030 C 
+ATOM     29  H   BDV d   1      20.955  11.814  19.949  0.00  0.00     0.037 H 
+ATOM     30  H   BDV d   1      21.258  10.026  19.780  0.00  0.00     0.037 H 
+BRANCH  28  31
+ATOM     31  C6  BDV d   1      22.894  11.159  20.539  0.00  0.00    -0.059 C 
+ATOM     32  H   BDV d   1      23.040  11.694  21.477  0.00  0.00     0.039 H 
+BRANCH  31  33
+ATOM     33  C7  BDV d   1      23.434  12.052  19.421  0.00  0.00    -0.073 C 
+ATOM     34  H   BDV d   1      23.254  11.575  18.458  0.00  0.00     0.028 H 
+ATOM     35  H   BDV d   1      22.926  13.016  19.451  0.00  0.00     0.028 H 
+ATOM     36  H   BDV d   1      24.505  12.199  19.561  0.00  0.00     0.028 H 
+ENDBRANCH  31  33
+BRANCH  31  37
+ATOM     37  C8  BDV d   1      23.678   9.853  20.655  0.00  0.00    -0.073 C 
+ATOM     38  H   BDV d   1      23.335   9.302  21.530  0.00  0.00     0.028 H 
+ATOM     39  H   BDV d   1      23.516   9.253  19.760  0.00  0.00     0.028 H 
+ATOM     40  H   BDV d   1      24.740  10.076  20.757  0.00  0.00     0.028 H 
+ENDBRANCH  31  37
+ENDBRANCH  28  31
+ENDBRANCH  17  28
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   4  41
+ATOM     41  C16 BDV d   1      26.452  15.782  23.537  0.00  0.00     0.021 C 
+ATOM     42  H   BDV d   1      26.065  16.599  22.928  0.00  0.00     0.071 H 
+ATOM     43  H   BDV d   1      26.899  16.140  24.464  0.00  0.00     0.071 H 
+BRANCH  41  44
+ATOM     44  N4  BDV d   1      27.488  15.087  22.767  0.00  0.00    -0.339 N 
+ATOM     45  C20 BDV d   1      28.398  14.367  23.456  0.00  0.00     0.316 C 
+ATOM     46  O2  BDV d   1      28.381  14.282  24.684  0.00  0.00    -0.247 OA
+ATOM     47  N5  BDV d   1      29.324  13.747  22.695  0.00  0.00    -0.343 N 
+ATOM     48  H   BDV d   1      30.054  13.178  23.123  0.00  0.00     0.164 HD
+ATOM     49  H   BDV d   1      27.520  15.145  21.749  0.00  0.00     0.164 HD
+BRANCH  47  50
+ATOM     50  C17 BDV d   1      29.258  13.908  21.246  0.00  0.00    -0.003 C 
+ATOM     51  H   BDV d   1      30.270  13.867  20.843  0.00  0.00     0.064 H 
+ATOM     52  H   BDV d   1      28.787  14.865  21.021  0.00  0.00     0.064 H 
+BRANCH  50  53
+ATOM     53  C18 BDV d   1      28.430  12.791  20.608  0.00  0.00    -0.051 C 
+ATOM     54  H   BDV d   1      28.604  12.808  19.532  0.00  0.00     0.035 H 
+ATOM     55  H   BDV d   1      27.381  12.961  20.852  0.00  0.00     0.035 H 
+BRANCH  53  56
+ATOM     56  C19 BDV d   1      28.826  11.422  21.133  0.00  0.00    -0.067 C 
+ATOM     57  H   BDV d   1      28.436  11.323  22.146  0.00  0.00     0.032 H 
+ATOM     58  H   BDV d   1      29.913  11.348  21.098  0.00  0.00     0.032 H 
+BRANCH  56  59
+ATOM     59  C21 BDV d   1      28.252  10.295  20.296  0.00  0.00    -0.076 C 
+ATOM     60  H   BDV d   1      27.164  10.357  20.302  0.00  0.00     0.027 H 
+ATOM     61  H   BDV d   1      28.616  10.383  19.272  0.00  0.00     0.027 H 
+ATOM     62  H   BDV d   1      28.565   9.338  20.714  0.00  0.00     0.027 H 
+ENDBRANCH  56  59
+ENDBRANCH  53  56
+ENDBRANCH  50  53
+ENDBRANCH  47  50
+ENDBRANCH  41  44
+ENDBRANCH   4  41
+TORSDOF 14

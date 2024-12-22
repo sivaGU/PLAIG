@@ -1,0 +1,16 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_5 
+ROOT
+ATOM      1  F1  HLT d   1       0.025   0.436   0.449  0.00  0.00    -0.168 F 
+ATOM      2  C2  HLT d   1       0.432   0.685  -0.827  0.00  0.00     0.413 C 
+ATOM      3  F2  HLT d   1       1.007   1.920  -0.861  0.00  0.00    -0.168 F 
+ATOM      4  F3  HLT d   1       1.363  -0.242  -1.177  0.00  0.00    -0.168 F 
+ENDROOT
+BRANCH   2   5
+ATOM      5  C1  HLT d   1      -0.820   0.644  -1.812  0.00  0.00     0.165 C 
+ATOM      6 BR   HLT d   1      -0.279   1.046  -3.562  0.00  0.00    -0.065 Br
+ATOM      7 CL   HLT d   1      -1.592  -0.948  -1.687  0.00  0.00    -0.103 Cl
+ATOM      8  H1  HLT d   1      -1.546   1.407  -1.495  0.00  0.00     0.096 H 
+ENDBRANCH   2   5
+TORSDOF 1

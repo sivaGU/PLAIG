@@ -1,0 +1,69 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_11  and  N2_1 
+REMARK    2  A    between atoms: N7_5  and  C7_6 
+REMARK    3  A    between atoms: C1A_14  and  N9_8 
+REMARK    4  A    between atoms: C3A_16  and  O3A_13 
+REMARK    5  A    between atoms: C2A_15  and  O2A_20 
+REMARK    6  A    between atoms: C5A_18  and  C4A_17 
+REMARK    7  A    between atoms: O15_25  and  C5A_18 
+REMARK    8  A    between atoms: P1_21  and  O15_25 
+ROOT
+ATOM      1  C1A GTA d   1      28.645  24.694 -46.491  0.00  0.00     0.139 C 
+ATOM      2  C2A GTA d   1      29.550  23.648 -45.834  0.00  0.00     0.105 C 
+ATOM      3  C3A GTA d   1      29.583  24.144 -44.394  0.00  0.00     0.091 C 
+ATOM      4  C4A GTA d   1      28.170  24.670 -44.194  0.00  0.00     0.089 C 
+ATOM      5  O4A GTA d   1      27.816  25.241 -45.482  0.00  0.00    -0.353 OA
+ATOM      6  H10 GTA d   1      28.026  24.193 -47.250  0.00  0.00     0.122 H 
+ATOM      7  H11 GTA d   1      30.558  23.642 -46.275  0.00  0.00     0.093 H 
+ATOM      8  H12 GTA d   1      30.327  24.945 -44.269  0.00  0.00     0.091 H 
+ATOM      9  H13 GTA d   1      27.499  23.837 -43.936  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  N9  GTA d   1      29.364  25.792 -47.133  0.00  0.00    -0.295 N 
+ATOM     11  C8  GTA d   1      30.060  26.813 -46.520  0.00  0.00     0.049 A 
+ATOM     12  N7  GTA d   1      30.563  27.646 -47.384  0.00  0.00    -0.340 N 
+ATOM     13  H7  GTA d   1      30.175  26.910 -45.441  0.00  0.00     0.141 H 
+ATOM     14  C5  GTA d   1      30.203  27.168 -48.631  0.00  0.00     0.151 A 
+ATOM     15  C6  GTA d   1      30.468  27.669 -49.932  0.00  0.00     0.290 A 
+ATOM     16  C4  GTA d   1      29.463  26.013 -48.500  0.00  0.00     0.184 A 
+ATOM     17  O6  GTA d   1      31.107  28.680 -50.254  0.00  0.00    -0.265 OA
+ATOM     18  N1  GTA d   1      29.901  26.861 -50.913  0.00  0.00    -0.153 N 
+ATOM     19  C2  GTA d   1      29.175  25.719 -50.675  0.00  0.00     0.703 A 
+ATOM     20  H8  GTA d   1      30.032  27.133 -51.866  0.00  0.00     0.187 HD
+ATOM     21  N3  GTA d   1      28.925  25.243 -49.467  0.00  0.00    -0.044 NA
+BRANCH  12  22
+ATOM     22  C7  GTA d   1      31.356  28.860 -47.087  0.00  0.00    -0.013 C 
+ATOM     23  H4  GTA d   1      31.470  28.966 -45.998  0.00  0.00     0.057 H 
+ATOM     24  H5  GTA d   1      30.839  29.744 -47.489  0.00  0.00     0.057 H 
+ATOM     25  H6  GTA d   1      32.349  28.773 -47.553  0.00  0.00     0.057 H 
+ENDBRANCH  12  22
+BRANCH  19  26
+ATOM     26  N2  GTA d   1      28.705  25.073 -51.751  0.00  0.00    -0.233 N 
+ATOM     27  H1  GTA d   1      28.154  24.211 -51.634  0.00  0.00     0.174 HD
+ATOM     28  H2  GTA d   1      28.895  25.439 -52.695  0.00  0.00     0.174 HD
+ENDBRANCH  19  26
+ENDBRANCH   1  10
+BRANCH   2  29
+ATOM     29  O2A GTA d   1      28.968  22.368 -45.967  0.00  0.00    -0.388 OA
+ATOM     30  H16 GTA d   1      28.975  22.112 -46.882  0.00  0.00     0.210 HD
+ENDBRANCH   2  29
+BRANCH   3  31
+ATOM     31  O3A GTA d   1      29.865  23.091 -43.480  0.00  0.00    -0.390 OA
+ATOM     32  H9  GTA d   1      29.878  23.436 -42.595  0.00  0.00     0.210 HD
+ENDBRANCH   3  31
+BRANCH   4  33
+ATOM     33  C5A GTA d   1      28.040  25.742 -43.141  0.00  0.00     0.059 C 
+ATOM     34  H14 GTA d   1      28.255  25.311 -42.152  0.00  0.00     0.079 H 
+ATOM     35  H15 GTA d   1      27.015  26.142 -43.151  0.00  0.00     0.079 H 
+BRANCH  33  36
+ATOM     36  O15 GTA d   1      28.962  26.795 -43.409  0.00  0.00    -0.280 OA
+BRANCH  36  37
+ATOM     37  P1  GTA d   1      28.664  28.295 -42.907  0.00  0.00     0.422 P 
+ATOM     38  O11 GTA d   1      29.382  29.270 -43.968  0.00  0.00    -0.617 OA
+ATOM     39  O12 GTA d   1      27.224  28.602 -42.762  0.00  0.00    -0.617 OA
+ATOM     40  O13 GTA d   1      29.473  28.481 -41.528  0.00  0.00    -0.617 OA
+ENDBRANCH  36  37
+ENDBRANCH  33  36
+ENDBRANCH   4  33
+TORSDOF 8

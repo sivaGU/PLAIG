@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_1  and  C2_7 
+REMARK    2  A    between atoms: C2_7  and  C1_8 
+REMARK    3  A    between atoms: C1_8  and  N_9 
+ROOT
+ATOM      1  C1' PEA d   1      93.935  77.883 -16.731  0.00  0.00    -0.057 A 
+ATOM      2  C6' PEA d   1      94.812  78.233 -17.754  0.00  0.00    -0.077 A 
+ATOM      3  C5' PEA d   1      94.646  77.729 -19.043  0.00  0.00    -0.082 A 
+ATOM      4  C4' PEA d   1      93.585  76.864 -19.316  0.00  0.00    -0.083 A 
+ATOM      5  C3' PEA d   1      92.704  76.511 -18.300  0.00  0.00    -0.082 A 
+ATOM      6  C2' PEA d   1      92.883  77.021 -17.015  0.00  0.00    -0.077 A 
+ATOM      7  H1  PEA d   1      95.635  78.907 -17.545  0.00  0.00     0.084 H 
+ATOM      8  H2  PEA d   1      95.338  78.007 -19.830  0.00  0.00     0.083 H 
+ATOM      9  H3  PEA d   1      93.448  76.469 -20.316  0.00  0.00     0.083 H 
+ATOM     10  H4  PEA d   1      91.879  75.840 -18.507  0.00  0.00     0.083 H 
+ATOM     11  H5  PEA d   1      92.193  76.742 -16.227  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  C2  PEA d   1      94.127  78.420 -15.337  0.00  0.00    -0.019 C 
+ATOM     13  H6  PEA d   1      94.838  77.767 -14.809  0.00  0.00     0.042 H 
+ATOM     14  H7  PEA d   1      93.156  78.398 -14.821  0.00  0.00     0.042 H 
+BRANCH  12  15
+ATOM     15  C1  PEA d   1      94.660  79.840 -15.293  0.00  0.00     0.083 C 
+ATOM     16  H8  PEA d   1      93.928  80.513 -15.763  0.00  0.00     0.075 H 
+ATOM     17  H9  PEA d   1      95.609  79.885 -15.847  0.00  0.00     0.075 H 
+BRANCH  15  18
+ATOM     18  N   PEA d   1      94.893  80.277 -13.897  0.00  0.00    -0.079 N 
+ATOM     19  H10 PEA d   1      95.246  81.221 -13.895  0.00  0.00     0.274 HD
+ATOM     20  H11 PEA d   1      95.566  79.666 -13.461  0.00  0.00     0.274 HD
+ATOM     21  H12 PEA d   1      94.026  80.242 -13.385  0.00  0.00     0.274 HD
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 3

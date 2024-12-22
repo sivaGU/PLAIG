@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_2  and  C04_4 
+REMARK    2  A    between atoms: C05_5  and  C06_6 
+REMARK    3  A    between atoms: C10_10  and  B12_11 
+REMARK    4  A    between atoms: B12_11  and  O13_12 
+REMARK    5  A    between atoms: B12_11  and  O14_13 
+ROOT
+ATOM      1  C06 KRT d   1      79.447  43.535 122.986  0.00  0.00    -0.036 A 
+ATOM      2  C07 KRT d   1      79.545  44.736 123.626  0.00  0.00    -0.073 A 
+ATOM      3  C08 KRT d   1      78.717  44.982 124.721  0.00  0.00    -0.083 A 
+ATOM      4  C09 KRT d   1      77.765  44.035 125.110  0.00  0.00    -0.089 A 
+ATOM      5  C10 KRT d   1      77.651  42.827 124.474  0.00  0.00    -0.118 A 
+ATOM      6  C11 KRT d   1      78.509  42.586 123.416  0.00  0.00    -0.079 A 
+ATOM      7  H3  KRT d   1      80.253  45.485 123.290  0.00  0.00     0.084 H 
+ATOM      8  H4  KRT d   1      78.812  45.910 125.272  0.00  0.00     0.083 H 
+ATOM      9  H5  KRT d   1      77.100  44.262 125.936  0.00  0.00     0.082 H 
+ATOM     10  H11 KRT d   1      78.454  41.633 122.903  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C05 KRT d   1      80.359  43.273 121.784  0.00  0.00    -0.067 C 
+ATOM     12  C04 KRT d   1      79.804  42.682 120.753  0.00  0.00    -0.009 C 
+ATOM     13  H1  KRT d   1      78.757  42.393 120.835  0.00  0.00     0.094 H 
+ATOM     14  H2  KRT d   1      81.409  43.561 121.785  0.00  0.00     0.085 H 
+BRANCH  12  15
+ATOM     15  C02 KRT d   1      80.524  42.375 119.455  0.00  0.00     0.198 C 
+ATOM     16  O01 KRT d   1      80.224  41.314 118.818  0.00  0.00    -0.645 OA
+ATOM     17  O03 KRT d   1      81.348  43.201 119.003  0.00  0.00    -0.645 OA
+ENDBRANCH  12  15
+ENDBRANCH   1  11
+BRANCH   5  18
+ATOM     18  B12 KRT d   1      76.517  41.747 124.916  0.00  0.00     0.133 B 
+BRANCH  18  19
+ATOM     19  O13 KRT d   1      75.374  42.267 125.519  0.00  0.00     0.000 OA
+ATOM     20  H7  KRT d   1      74.901  41.568 125.955  0.00  0.00     0.000 HD
+ATOM     21  H8  KRT d   1      74.901  41.568 125.955  0.00  0.00     0.000 HD
+ENDBRANCH  18  19
+BRANCH  18  22
+ATOM     22  O14 KRT d   1      76.262  40.761 123.954  0.00  0.00     0.000 OA
+ATOM     23  H9  KRT d   1      77.084  40.456 123.589  0.00  0.00     0.000 HD
+ATOM     24  H10 KRT d   1      77.084  40.456 123.589  0.00  0.00     0.000 HD
+ENDBRANCH  18  22
+ENDBRANCH   5  18
+TORSDOF 5

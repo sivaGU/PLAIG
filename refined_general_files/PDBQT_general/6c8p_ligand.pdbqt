@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C04_4  and  C02_3 
+REMARK    2  A    between atoms: C06_5  and  C04_4 
+REMARK    3  A    between atoms: C09_7  and  C07_6 
+REMARK    4  A    between atoms: C07_6  and  O08_15 
+ROOT
+ATOM      1  C10 EQA d   1      34.743  76.263  63.303  0.00  0.00    -0.067 A 
+ATOM      2  C13 EQA d   1      32.357  75.937  61.853  0.00  0.00    -0.045 A 
+ATOM      3  C09 EQA d   1      34.352  77.279  62.421  0.00  0.00     0.036 A 
+ATOM      4  C11 EQA d   1      33.953  75.114  63.468  0.00  0.00    -0.082 A 
+ATOM      5  C12 EQA d   1      32.769  74.949  62.746  0.00  0.00    -0.080 A 
+ATOM      6  C14 EQA d   1      33.153  77.096  61.691  0.00  0.00     0.129 A 
+ATOM      7  F15 EQA d   1      32.748  78.008  60.847  0.00  0.00    -0.205 F 
+ATOM      8  H1  EQA d   1      35.665  76.365  63.864  0.00  0.00     0.085 H 
+ATOM      9  H2  EQA d   1      31.438  75.819  61.290  0.00  0.00     0.088 H 
+ATOM     10  H4  EQA d   1      34.266  74.345  64.165  0.00  0.00     0.083 H 
+ATOM     11  H5  EQA d   1      32.172  74.054  62.880  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  C07 EQA d   1      35.195  78.513  62.202  0.00  0.00     0.083 C 
+ATOM     13  C06 EQA d   1      35.653  79.343  63.154  0.00  0.00     0.005 C 
+ATOM     14  H3  EQA d   1      35.136  79.379  64.112  0.00  0.00     0.094 H 
+BRANCH  13  15
+ATOM     15  C04 EQA d   1      36.867  80.235  62.942  0.00  0.00     0.250 C 
+ATOM     16  O05 EQA d   1      36.917  80.951  61.944  0.00  0.00    -0.281 OA
+BRANCH  15  17
+ATOM     17  C02 EQA d   1      38.033  80.153  63.929  0.00  0.00     0.251 C 
+ATOM     18  O01 EQA d   1      39.118  80.208  63.349  0.00  0.00    -0.642 OA
+ATOM     19  O03 EQA d   1      37.783  80.015  65.171  0.00  0.00    -0.642 OA
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+BRANCH  12  20
+ATOM     20  O08 EQA d   1      35.610  78.649  60.881  0.00  0.00    -0.360 OA
+ATOM     21  H6  EQA d   1      36.129  77.893  60.634  0.00  0.00     0.217 HD
+ENDBRANCH  12  20
+ENDBRANCH   3  12
+TORSDOF 4

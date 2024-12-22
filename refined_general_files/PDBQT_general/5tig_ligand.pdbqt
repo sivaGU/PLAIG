@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C03_3  and  C04_4 
+REMARK    4  A    between atoms: C04_4  and  C05_5 
+ROOT
+ATOM      1  C03 7DH d   1      63.231  16.122  39.744  0.00  0.00     0.001 C 
+ATOM      2  H6  7DH d   1      62.674  16.721  39.009  0.00  0.00     0.045 H 
+ATOM      3  H7  7DH d   1      64.256  15.957  39.381  0.00  0.00     0.045 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C02 7DH d   1      62.637  14.905  39.770  0.00  0.00    -0.062 C 
+ATOM      5  H4  7DH d   1      61.569  15.088  39.962  0.00  0.00     0.033 H 
+ATOM      6  H5  7DH d   1      62.761  14.481  38.763  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  C01 7DH d   1      63.065  13.817  40.746  0.00  0.00    -0.076 C 
+ATOM      8  H1  7DH d   1      62.449  12.920  40.588  0.00  0.00     0.027 H 
+ATOM      9  H2  7DH d   1      62.932  14.176  41.777  0.00  0.00     0.027 H 
+ATOM     10  H3  7DH d   1      64.123  13.569  40.578  0.00  0.00     0.027 H 
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C04 7DH d   1      63.355  16.987  40.993  0.00  0.00     0.225 C 
+ATOM     12  O08 7DH d   1      63.486  16.513  42.110  0.00  0.00    -0.286 OA
+BRANCH  11  13
+ATOM     13  C05 7DH d   1      63.341  18.488  40.843  0.00  0.00     0.246 C 
+ATOM     14  O06 7DH d   1      62.450  19.019  40.124  0.00  0.00    -0.642 OA
+ATOM     15  O07 7DH d   1      64.224  19.179  41.432  0.00  0.00    -0.642 OA
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+TORSDOF 4

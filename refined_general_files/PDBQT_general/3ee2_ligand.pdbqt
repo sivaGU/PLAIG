@@ -1,0 +1,53 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_2  and  O3_3 
+REMARK       I    between atoms: C13_2  and  N3_5 
+REMARK    2  A    between atoms: O3_3  and  C14_4 
+REMARK    3  A    between atoms: N3_5  and  C12_6 
+REMARK    4  A    between atoms: C6_14  and  C5_15 
+REMARK    5  A    between atoms: C5_15  and  C4_17 
+ROOT
+ATOM      1  C12 NZO d   1      18.521  12.743  40.872  0.00  0.00     0.710 A 
+ATOM      2  N1  NZO d   1      17.824  12.509  42.005  0.00  0.00    -0.062 NA
+ATOM      3  C8  NZO d   1      18.498  11.517  42.642  0.00  0.00     0.104 A 
+ATOM      4  C7  NZO d   1      18.282  10.845  43.850  0.00  0.00    -0.038 A 
+ATOM      5  N2  NZO d   1      19.596  11.958  40.732  0.00  0.00    -0.187 N 
+ATOM      6  C9  NZO d   1      19.593  11.184  41.841  0.00  0.00     0.078 A 
+ATOM      7  C10 NZO d   1      20.463  10.190  42.243  0.00  0.00    -0.053 A 
+ATOM      8  C11 NZO d   1      20.246   9.526  43.438  0.00  0.00    -0.067 A 
+ATOM      9  C6  NZO d   1      19.163   9.835  44.246  0.00  0.00     0.018 A 
+ATOM     10  H5  NZO d   1      17.436  11.106  44.475  0.00  0.00     0.088 H 
+ATOM     11  H6  NZO d   1      20.273  11.946  39.955  0.00  0.00     0.184 HD
+ATOM     12  H7  NZO d   1      21.314   9.930  41.624  0.00  0.00     0.087 H 
+ATOM     13  H8  NZO d   1      20.936   8.750  43.748  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   9  14
+ATOM     14  C5  NZO d   1      18.981   9.074  45.541  0.00  0.00     0.199 C 
+ATOM     15  O1  NZO d   1      18.409   9.602  46.457  0.00  0.00    -0.286 OA
+BRANCH  14  16
+ATOM     16  C4  NZO d   1      19.466   7.687  45.777  0.00  0.00     0.055 A 
+ATOM     17  C3  NZO d   1      19.625   6.627  44.919  0.00  0.00    -0.062 A 
+ATOM     18  C2  NZO d   1      20.106   5.524  45.588  0.00  0.00    -0.075 A 
+ATOM     19  H9  NZO d   1      19.401   6.655  43.854  0.00  0.00     0.085 H 
+ATOM     20  C1  NZO d   1      20.291   5.710  46.948  0.00  0.00    -0.044 A 
+ATOM     21  H10 NZO d   1      20.323   4.581  45.088  0.00  0.00     0.084 H 
+ATOM     22  S   NZO d   1      19.888   7.324  47.434  0.00  0.00    -0.098 SA
+ATOM     23  H11 NZO d   1      20.646   4.937  47.628  0.00  0.00     0.095 H 
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH   1  24
+ATOM     24  N3  NZO d   1      18.199  13.680  39.914  0.00  0.00    -0.133 N 
+ATOM     25  C13 NZO d   1      17.213  14.573  40.060  0.00  0.00     0.378 C 
+ATOM     26  O2  NZO d   1      16.033  14.225  40.037  0.00  0.00    -0.238 OA
+ATOM     27  H4  NZO d   1      18.729  13.693  39.066  0.00  0.00     0.190 HD
+BRANCH  25  28
+ATOM     28  O3  NZO d   1      17.551  15.989  40.252  0.00  0.00    -0.308 OA
+BRANCH  28  29
+ATOM     29  C14 NZO d   1      16.787  17.056  39.673  0.00  0.00     0.015 C 
+ATOM     30  H1  NZO d   1      17.232  18.021  39.956  0.00  0.00     0.067 H 
+ATOM     31  H2  NZO d   1      15.752  17.007  40.041  0.00  0.00     0.067 H 
+ATOM     32  H3  NZO d   1      16.791  16.958  38.577  0.00  0.00     0.067 H 
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH   1  24
+TORSDOF 5

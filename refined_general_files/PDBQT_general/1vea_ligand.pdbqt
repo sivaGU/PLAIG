@@ -1,0 +1,59 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_11  and  C7_8 
+REMARK       I    between atoms: C_14  and  N1_11 
+REMARK    2  A    between atoms: CA_13  and  N_12 
+REMARK    3  A    between atoms: CA_13  and  C_14 
+REMARK    4  A    between atoms: CA_13  and  CB_16 
+REMARK    5  A    between atoms: CB_16  and  CG_17 
+ROOT
+ATOM      1  N1  HBN d   1      43.741-105.813  88.169  0.00  0.00    -0.325 N 
+ATOM      2  C   HBN d   1      43.092-106.767  89.046  0.00  0.00     0.253 C 
+ATOM      3  O   HBN d   1      43.462-107.092  90.156  0.00  0.00    -0.271 OA
+ATOM      4  H8  HBN d   1      43.241-105.722  87.308  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C7  HBN d   1      44.772-105.054  88.183  0.00  0.00     0.035 A 
+ATOM      6  C8  HBN d   1      45.615-104.993  87.038  0.00  0.00    -0.046 A 
+ATOM      7  C8A HBN d   1      46.752-104.193  86.996  0.00  0.00    -0.024 A 
+ATOM      8  H5  HBN d   1      45.362-105.590  86.169  0.00  0.00     0.088 H 
+ATOM      9  C1  HBN d   1      47.576-104.154  85.841  0.00  0.00    -0.072 A 
+ATOM     10  C4A HBN d   1      47.096-103.381  88.177  0.00  0.00    -0.026 A 
+ATOM     11  C2  HBN d   1      48.727-103.337  85.821  0.00  0.00    -0.082 A 
+ATOM     12  H1  HBN d   1      47.321-104.752  84.974  0.00  0.00     0.084 H 
+ATOM     13  C3  HBN d   1      49.069-102.549  86.954  0.00  0.00    -0.082 A 
+ATOM     14  H2  HBN d   1      49.354-103.310  84.937  0.00  0.00     0.083 H 
+ATOM     15  C4  HBN d   1      48.260-102.568  88.127  0.00  0.00    -0.072 A 
+ATOM     16  H3  HBN d   1      49.956-101.926  86.925  0.00  0.00     0.083 H 
+ATOM     17  H4  HBN d   1      48.533-101.961  88.983  0.00  0.00     0.084 H 
+ATOM     18  C5  HBN d   1      46.250-103.434  89.332  0.00  0.00    -0.070 A 
+ATOM     19  C6  HBN d   1      45.093-104.269  89.334  0.00  0.00    -0.056 A 
+ATOM     20  H7  HBN d   1      46.489-102.839  90.206  0.00  0.00     0.084 H 
+ATOM     21  H6  HBN d   1      44.456-104.308  90.210  0.00  0.00     0.086 H 
+ENDBRANCH   1   5
+BRANCH   2  22
+ATOM     22  CA  HBN d   1      41.884-107.420  88.392  0.00  0.00     0.181 C 
+ATOM     23  H12 HBN d   1      41.420-106.438  88.217  0.00  0.00     0.099 H 
+BRANCH  22  24
+ATOM     24  N   HBN d   1      40.701-107.819  89.132  0.00  0.00    -0.066 N 
+ATOM     25  H9  HBN d   1      40.031-108.228  88.499  0.00  0.00     0.275 HD
+ATOM     26  H10 HBN d   1      40.294-107.011  89.576  0.00  0.00     0.275 HD
+ATOM     27  H11 HBN d   1      40.956-108.495  89.835  0.00  0.00     0.275 HD
+ENDBRANCH  22  24
+BRANCH  22  28
+ATOM     28  CB  HBN d   1      42.038-107.609  87.073  0.00  0.00     0.009 C 
+ATOM     29  H13 HBN d   1      42.971-108.191  87.028  0.00  0.00     0.046 H 
+ATOM     30  H14 HBN d   1      42.225-106.587  86.712  0.00  0.00     0.046 H 
+BRANCH  28  31
+ATOM     31  CG  HBN d   1      41.244-108.199  85.955  0.00  0.00     0.030 A 
+ATOM     32  ND1 HBN d   1      41.672-108.077  84.649  0.00  0.00    -0.353 N 
+ATOM     33  CE1 HBN d   1      40.673-108.760  84.042  0.00  0.00     0.063 A 
+ATOM     34  H15 HBN d   1      42.500-107.608  84.255  0.00  0.00     0.166 HD
+ATOM     35  NE2 HBN d   1      39.659-109.301  84.786  0.00  0.00    -0.254 NA
+ATOM     36  H17 HBN d   1      40.676-108.879  82.960  0.00  0.00     0.143 H 
+ATOM     37  CD2 HBN d   1      40.060-108.918  86.051  0.00  0.00     0.025 A 
+ATOM     38  H16 HBN d   1      39.532-109.144  86.976  0.00  0.00     0.117 H 
+ENDBRANCH  28  31
+ENDBRANCH  22  28
+ENDBRANCH   2  22
+TORSDOF 5

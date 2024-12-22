@@ -1,0 +1,56 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  C8_8 
+REMARK    3  A    between atoms: C8_8  and  C9_9 
+REMARK    4  A    between atoms: C9_9  and  C10_10 
+REMARK    5  A    between atoms: C10_10  and  C12_11 
+REMARK    6  A    between atoms: C10_10  and  C11_14 
+REMARK    7  A    between atoms: C11_14  and  S1_15 
+ROOT
+ATOM      1  C8  M5P d   1      33.736   9.042 108.751  0.00  0.00    -0.060 C 
+ATOM      2  H8  M5P d   1      34.439   9.096 107.906  0.00  0.00     0.033 H 
+ATOM      3  H9  M5P d   1      34.160   9.575 109.615  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C7  M5P d   1      33.548   7.572 109.132  0.00  0.00    -0.041 C 
+ATOM      5  H6  M5P d   1      33.504   7.474 110.227  0.00  0.00     0.040 H 
+ATOM      6  H7  M5P d   1      32.615   7.190 108.692  0.00  0.00     0.040 H 
+BRANCH   4   7
+ATOM      7  C6  M5P d   1      34.740   6.778 108.589  0.00  0.00    -0.058 A 
+ATOM      8  C1  M5P d   1      34.526   5.825 107.598  0.00  0.00    -0.077 A 
+ATOM      9  C2  M5P d   1      35.608   5.218 106.967  0.00  0.00    -0.082 A 
+ATOM     10  H1  M5P d   1      33.515   5.555 107.317  0.00  0.00     0.084 H 
+ATOM     11  C3  M5P d   1      36.908   5.561 107.329  0.00  0.00    -0.083 A 
+ATOM     12  H2  M5P d   1      35.438   4.478 106.193  0.00  0.00     0.083 H 
+ATOM     13  C4  M5P d   1      37.123   6.506 108.330  0.00  0.00    -0.082 A 
+ATOM     14  H3  M5P d   1      37.751   5.094 106.833  0.00  0.00     0.083 H 
+ATOM     15  C5  M5P d   1      36.042   7.111 108.961  0.00  0.00    -0.077 A 
+ATOM     16  H4  M5P d   1      38.134   6.770 108.617  0.00  0.00     0.083 H 
+ATOM     17  H5  M5P d   1      36.211   7.842 109.743  0.00  0.00     0.084 H 
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  18
+ATOM     18  C9  M5P d   1      32.435   9.736 108.344  0.00  0.00    -0.051 C 
+ATOM     19  H10 M5P d   1      31.852   9.984 109.243  0.00  0.00     0.034 H 
+ATOM     20  H11 M5P d   1      31.847   9.068 107.698  0.00  0.00     0.034 H 
+BRANCH  18  21
+ATOM     21  C10 M5P d   1      32.774  11.019 107.582  0.00  0.00     0.038 C 
+ATOM     22  H12 M5P d   1      33.536  10.754 106.834  0.00  0.00     0.057 H 
+BRANCH  21  23
+ATOM     23  C12 M5P d   1      31.575  11.587 106.822  0.00  0.00     0.177 C 
+ATOM     24  O2  M5P d   1      31.466  11.377 105.613  0.00  0.00    -0.648 OA
+ATOM     25  O1  M5P d   1      30.733  12.274 107.393  0.00  0.00    -0.648 OA
+ENDBRANCH  21  23
+BRANCH  21  26
+ATOM     26  C11 M5P d   1      33.384  12.080 108.495  0.00  0.00    -0.013 C 
+ATOM     27  H13 M5P d   1      33.298  11.753 109.542  0.00  0.00     0.050 H 
+ATOM     28  H14 M5P d   1      32.844  13.029 108.362  0.00  0.00     0.050 H 
+BRANCH  26  29
+ATOM     29  S1  M5P d   1      35.149  12.323 108.079  0.00  0.00    -0.181 SA
+ATOM     30  H15 M5P d   1      35.543  13.024 108.686  0.00  0.00     0.101 HD
+ENDBRANCH  26  29
+ENDBRANCH  21  26
+ENDBRANCH  18  21
+ENDBRANCH   1  18
+TORSDOF 7

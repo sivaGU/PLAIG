@@ -1,0 +1,118 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_2  and  C18_22 
+REMARK    2  A    between atoms: C19_23  and  N2_2 
+REMARK    3  A    between atoms: N2_2  and  C23_29 
+REMARK    4  A    between atoms: C12_16  and  C1_3 
+REMARK    5  A    between atoms: C26_32  and  C2_4 
+REMARK    6  A    between atoms: C26_32  and  C3_5 
+REMARK    7  A    between atoms: C13_17  and  C12_16 
+REMARK    8  A    between atoms: C14_18  and  C13_17 
+REMARK    9  A    between atoms: C15_19  and  C14_18 
+REMARK   10  A    between atoms: C16_20  and  C15_19 
+REMARK   11  A    between atoms: C18_22  and  C16_20 
+REMARK   12  A    between atoms: C17_21  and  C19_23 
+REMARK   13  A    between atoms: C21_27  and  C17_21 
+REMARK   14  A    between atoms: O3_24  and  C22_28 
+REMARK   15  A    between atoms: C26_32  and  O3_24 
+REMARK   16  A    between atoms: C20_26  and  C26_32 
+ROOT
+ATOM      1  N2  XCX d   1      17.035   6.583  10.575  0.00  0.00    -0.345 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C18 XCX d   1      15.698   5.976  10.661  0.00  0.00    -0.002 C 
+ATOM      3  H   XCX d   1      15.058   6.600  11.302  0.00  0.00     0.064 H 
+ATOM      4  H   XCX d   1      15.785   4.970  11.098  0.00  0.00     0.064 H 
+BRANCH   2   5
+ATOM      5  C16 XCX d   1      15.066   5.868   9.272  0.00  0.00    -0.050 C 
+ATOM      6  H   XCX d   1      15.100   6.851   8.780  0.00  0.00     0.035 H 
+ATOM      7  H   XCX d   1      15.630   5.138   8.672  0.00  0.00     0.035 H 
+BRANCH   5   8
+ATOM      8  C15 XCX d   1      13.610   5.410   9.387  0.00  0.00    -0.064 C 
+ATOM      9  H   XCX d   1      13.172   5.332   8.381  0.00  0.00     0.033 H 
+ATOM     10  H   XCX d   1      13.575   4.427   9.879  0.00  0.00     0.033 H 
+BRANCH   8  11
+ATOM     11  C14 XCX d   1      12.810   6.419  10.212  0.00  0.00    -0.065 C 
+ATOM     12  H   XCX d   1      13.332   6.593  11.165  0.00  0.00     0.033 H 
+ATOM     13  H   XCX d   1      12.745   7.364   9.652  0.00  0.00     0.033 H 
+BRANCH  11  14
+ATOM     14  C13 XCX d   1      11.394   5.921  10.508  0.00  0.00    -0.065 C 
+ATOM     15  H   XCX d   1      11.460   4.945  11.012  0.00  0.00     0.033 H 
+ATOM     16  H   XCX d   1      10.896   6.643  11.172  0.00  0.00     0.033 H 
+BRANCH  14  17
+ATOM     17  C12 XCX d   1      10.558   5.763   9.237  0.00  0.00    -0.069 C 
+ATOM     18  H   XCX d   1      10.510   6.729   8.712  0.00  0.00     0.032 H 
+ATOM     19  H   XCX d   1      11.030   5.014   8.584  0.00  0.00     0.032 H 
+BRANCH  17  20
+ATOM     20  C1  XCX d   1       9.139   5.307   9.585  0.00  0.00    -0.077 C 
+ATOM     21  H   XCX d   1       8.552   5.198   8.661  0.00  0.00     0.027 H 
+ATOM     22  H   XCX d   1       8.663   6.055  10.236  0.00  0.00     0.027 H 
+ATOM     23  H   XCX d   1       9.182   4.340  10.108  0.00  0.00     0.027 H 
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C19 XCX d   1      18.169   5.966  11.278  0.00  0.00     0.002 C 
+ATOM     25  H   XCX d   1      18.755   6.745  11.789  0.00  0.00     0.064 H 
+ATOM     26  H   XCX d   1      18.810   5.440  10.555  0.00  0.00     0.064 H 
+BRANCH  24  27
+ATOM     27  C17 XCX d   1      17.631   4.969  12.308  0.00  0.00    -0.026 C 
+ATOM     28  H   XCX d   1      17.901   3.952  11.986  0.00  0.00     0.042 H 
+ATOM     29  H   XCX d   1      16.536   5.062  12.348  0.00  0.00     0.042 H 
+BRANCH  27  30
+ATOM     30  C21 XCX d   1      18.192   5.202  13.711  0.00  0.00    -0.057 A 
+ATOM     31  C6  XCX d   1      19.562   5.309  13.923  0.00  0.00    -0.074 A 
+ATOM     32  C8  XCX d   1      20.062   5.446  15.215  0.00  0.00    -0.050 A 
+ATOM     33  H   XCX d   1      20.243   5.286  13.080  0.00  0.00     0.084 H 
+ATOM     34  C22 XCX d   1      19.195   5.480  16.300  0.00  0.00     0.070 A 
+ATOM     35  H   XCX d   1      21.131   5.526  15.375  0.00  0.00     0.087 H 
+ATOM     36  C9  XCX d   1      17.824   5.383  16.087  0.00  0.00    -0.050 A 
+ATOM     37  C7  XCX d   1      17.323   5.245  14.799  0.00  0.00    -0.074 A 
+ATOM     38  H   XCX d   1      17.143   5.415  16.930  0.00  0.00     0.087 H 
+ATOM     39  H   XCX d   1      16.253   5.171  14.640  0.00  0.00     0.084 H 
+BRANCH  34  40
+ATOM     40  O3  XCX d   1      19.680   5.565  17.572  0.00  0.00    -0.330 OA
+BRANCH  40  41
+ATOM     41  C26 XCX d   1      19.940   6.904  18.010  0.00  0.00     0.148 C 
+BRANCH  41  42
+ATOM     42  C2  XCX d   1      21.262   7.388  17.411  0.00  0.00    -0.038 C 
+ATOM     43  H   XCX d   1      21.462   8.416  17.747  0.00  0.00     0.032 H 
+ATOM     44  H   XCX d   1      21.197   7.367  16.313  0.00  0.00     0.032 H 
+ATOM     45  H   XCX d   1      22.078   6.729  17.742  0.00  0.00     0.032 H 
+ENDBRANCH  41  42
+BRANCH  41  46
+ATOM     46  C3  XCX d   1      18.808   7.856  17.616  0.00  0.00    -0.038 C 
+ATOM     47  H   XCX d   1      17.862   7.501  18.051  0.00  0.00     0.032 H 
+ATOM     48  H   XCX d   1      18.719   7.886  16.520  0.00  0.00     0.032 H 
+ATOM     49  H   XCX d   1      19.029   8.865  17.994  0.00  0.00     0.032 H 
+ENDBRANCH  41  46
+BRANCH  41  50
+ATOM     50  C20 XCX d   1      20.061   6.896  19.536  0.00  0.00     0.209 C 
+ATOM     51  O1  XCX d   1      21.030   7.511  20.034  0.00  0.00    -0.646 OA
+ATOM     52  O2  XCX d   1      19.180   6.278  20.173  0.00  0.00    -0.646 OA
+ENDBRANCH  41  50
+ENDBRANCH  40  41
+ENDBRANCH  34  40
+ENDBRANCH  27  30
+ENDBRANCH  24  27
+ENDBRANCH   1  24
+BRANCH   1  53
+ATOM     53  C23 XCX d   1      17.202   7.713   9.894  0.00  0.00     0.250 A 
+ATOM     54  N1  XCX d   1      18.340   8.393   9.804  0.00  0.00    -0.206 NA
+ATOM     55  C24 XCX d   1      18.104   9.494   9.093  0.00  0.00     0.095 A 
+ATOM     56  C10 XCX d   1      18.918  10.561   8.728  0.00  0.00    -0.052 A 
+ATOM     57  C25 XCX d   1      16.765   9.493   8.718  0.00  0.00     0.108 A 
+ATOM     58  C4  XCX d   1      18.393  11.620   7.996  0.00  0.00    -0.081 A 
+ATOM     59  H   XCX d   1      19.963  10.567   9.015  0.00  0.00     0.087 H 
+ATOM     60  C5  XCX d   1      17.053  11.619   7.627  0.00  0.00    -0.080 A 
+ATOM     61  H   XCX d   1      19.031  12.449   7.712  0.00  0.00     0.083 H 
+ATOM     62  C11 XCX d   1      16.238  10.552   7.987  0.00  0.00    -0.048 A 
+ATOM     63  H   XCX d   1      16.645  12.448   7.060  0.00  0.00     0.083 H 
+ATOM     64  H   XCX d   1      15.193  10.546   7.698  0.00  0.00     0.087 H 
+ATOM     65  O4  XCX d   1      16.202   8.360   9.224  0.00  0.00    -0.276 OA
+ENDBRANCH   1  53
+TORSDOF 16

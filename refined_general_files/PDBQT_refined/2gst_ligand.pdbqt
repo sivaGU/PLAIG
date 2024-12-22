@@ -1,0 +1,107 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CA1_2 
+REMARK    2  A    between atoms: CA1_2  and  CB1_6 
+REMARK    3  A    between atoms: CA1_2  and  C1_3 
+REMARK    4  A    between atoms: CB1_6  and  CG1_7 
+REMARK    5  A    between atoms: CG1_7  and  CD1_8 
+REMARK       I    between atoms: CD1_8  and  N2_10 
+REMARK    6  A    between atoms: N2_10  and  CA2_11 
+REMARK    7  A    between atoms: CA2_11  and  CB2_14 
+REMARK    8  A    between atoms: CA2_11  and  C2_12 
+REMARK       I    between atoms: C2_12  and  N3_16 
+REMARK    9  A    between atoms: CB2_14  and  SG2_15 
+REMARK   10  A    between atoms: SG2_15  and  CA4_21 
+REMARK   11  A    between atoms: N3_16  and  CA3_17 
+REMARK   12  A    between atoms: CA3_17  and  C3_18 
+REMARK   13  A    between atoms: CA5_34  and  O5_35 
+ROOT
+ATOM      1  CA2 GPS d   1      17.407  17.029  31.287  0.00  0.00     0.097 C 
+ATOM      2  H10 GPS d   1      18.407  16.742  30.931  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N2  GPS d   1      16.304  16.508  30.459  0.00  0.00    -0.347 N 
+ATOM      4  CD1 GPS d   1      16.585  16.185  29.169  0.00  0.00     0.218 C 
+ATOM      5  OE1 GPS d   1      17.743  15.914  28.768  0.00  0.00    -0.274 OA
+ATOM      6  H9  GPS d   1      15.383  16.396  30.833  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CG1 GPS d   1      15.337  15.967  28.353  0.00  0.00     0.012 C 
+ATOM      8  H7  GPS d   1      14.759  15.145  28.801  0.00  0.00     0.047 H 
+ATOM      9  H8  GPS d   1      14.737  16.889  28.369  0.00  0.00     0.047 H 
+BRANCH   7  10
+ATOM     10  CB1 GPS d   1      15.660  15.609  26.893  0.00  0.00    -0.021 C 
+ATOM     11  H5  GPS d   1      16.119  16.460  26.367  0.00  0.00     0.037 H 
+ATOM     12  H6  GPS d   1      16.330  14.739  26.836  0.00  0.00     0.037 H 
+BRANCH  10  13
+ATOM     13  CA1 GPS d   1      14.236  15.272  26.299  0.00  0.00     0.183 C 
+ATOM     14  H4  GPS d   1      13.738  14.509  26.915  0.00  0.00     0.101 H 
+BRANCH  13  15
+ATOM     15  N1  GPS d   1      14.529  14.737  24.890  0.00  0.00    -0.065 N 
+ATOM     16  H1  GPS d   1      15.124  13.926  24.956  0.00  0.00     0.275 HD
+ATOM     17  H2  GPS d   1      14.992  15.451  24.349  0.00  0.00     0.275 HD
+ATOM     18  H3  GPS d   1      13.663  14.483  24.440  0.00  0.00     0.275 HD
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C1  GPS d   1      13.357  16.468  26.192  0.00  0.00     0.204 C 
+ATOM     20  OT1 GPS d   1      13.292  17.145  24.979  0.00  0.00    -0.646 OA
+ATOM     21  O1  GPS d   1      12.484  16.871  26.991  0.00  0.00    -0.646 OA
+ENDBRANCH  13  19
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  22
+ATOM     22  CB2 GPS d   1      17.172  18.574  31.329  0.00  0.00     0.004 C 
+ATOM     23  H11 GPS d   1      17.881  19.008  32.049  0.00  0.00     0.052 H 
+ATOM     24  H12 GPS d   1      16.143  18.754  31.674  0.00  0.00     0.052 H 
+BRANCH  22  25
+ATOM     25  SG2 GPS d   1      17.383  19.395  29.793  0.00  0.00    -0.154 SA
+BRANCH  25  26
+ATOM     26  CA4 GPS d   1      19.040  19.416  29.316  0.00  0.00     0.046 C 
+ATOM     27  CB4 GPS d   1      19.410  20.774  28.747  0.00  0.00    -0.030 A 
+ATOM     28  CH4 GPS d   1      19.868  21.853  29.516  0.00  0.00    -0.018 A 
+ATOM     29  CG4 GPS d   1      19.258  20.867  27.324  0.00  0.00    -0.075 A 
+ATOM     30  CH5 GPS d   1      19.944  21.673  30.925  0.00  0.00    -0.017 A 
+ATOM     31  CZ4 GPS d   1      20.169  23.053  28.873  0.00  0.00    -0.072 A 
+ATOM     32  CB5 GPS d   1      20.020  20.405  31.426  0.00  0.00    -0.017 A 
+ATOM     33  CZ5 GPS d   1      19.953  22.790  31.807  0.00  0.00    -0.072 A 
+ATOM     34  CA5 GPS d   1      20.038  19.223  30.489  0.00  0.00     0.077 C 
+ATOM     35  CG5 GPS d   1      20.168  20.176  32.832  0.00  0.00    -0.073 A 
+ATOM     36  H25 GPS d   1      19.758  18.311  31.038  0.00  0.00     0.092 H 
+ATOM     37  CD5 GPS d   1      20.188  21.270  33.694  0.00  0.00    -0.082 A 
+ATOM     38  H24 GPS d   1      20.263  19.168  33.219  0.00  0.00     0.084 H 
+ATOM     39  CE5 GPS d   1      20.077  22.587  33.192  0.00  0.00    -0.082 A 
+ATOM     40  H23 GPS d   1      20.290  21.110  34.761  0.00  0.00     0.083 H 
+ATOM     41  H22 GPS d   1      20.087  23.433  33.870  0.00  0.00     0.083 H 
+ATOM     42  H21 GPS d   1      19.864  23.795  31.411  0.00  0.00     0.084 H 
+ATOM     43  CE4 GPS d   1      20.065  23.150  27.481  0.00  0.00    -0.082 A 
+ATOM     44  H20 GPS d   1      20.484  23.913  29.453  0.00  0.00     0.084 H 
+ATOM     45  CD4 GPS d   1      19.605  22.052  26.735  0.00  0.00    -0.082 A 
+ATOM     46  H19 GPS d   1      20.339  24.071  26.979  0.00  0.00     0.083 H 
+ATOM     47  H18 GPS d   1      19.522  22.147  25.658  0.00  0.00     0.083 H 
+ATOM     48  H17 GPS d   1      18.884  20.034  26.740  0.00  0.00     0.084 H 
+ATOM     49  H16 GPS d   1      19.195  18.629  28.564  0.00  0.00     0.068 H 
+BRANCH  34  50
+ATOM     50  O5  GPS d   1      21.425  19.107  30.018  0.00  0.00    -0.389 OA
+ATOM     51  H26 GPS d   1      21.500  18.358  29.438  0.00  0.00     0.210 HD
+ENDBRANCH  34  50
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+BRANCH   1  52
+ATOM     52  C2  GPS d   1      17.080  16.522  32.742  0.00  0.00     0.241 C 
+ATOM     53  N3  GPS d   1      16.398  15.385  32.859  0.00  0.00    -0.349 N 
+ATOM     54  H13 GPS d   1      16.125  14.878  32.041  0.00  0.00     0.163 HD
+ATOM     55  O2  GPS d   1      17.845  17.055  33.535  0.00  0.00    -0.271 OA
+BRANCH  53  56
+ATOM     56  CA3 GPS d   1      16.046  14.875  34.192  0.00  0.00     0.075 C 
+ATOM     57  H14 GPS d   1      14.963  14.684  34.225  0.00  0.00     0.080 H 
+ATOM     58  H15 GPS d   1      16.307  15.634  34.944  0.00  0.00     0.080 H 
+BRANCH  56  59
+ATOM     59  C3  GPS d   1      16.769  13.610  34.513  0.00  0.00     0.191 C 
+ATOM     60  OT3 GPS d   1      16.402  13.005  35.638  0.00  0.00    -0.647 OA
+ATOM     61  O3  GPS d   1      17.658  13.147  33.747  0.00  0.00    -0.647 OA
+ENDBRANCH  56  59
+ENDBRANCH  53  56
+ENDBRANCH   1  52
+TORSDOF 13

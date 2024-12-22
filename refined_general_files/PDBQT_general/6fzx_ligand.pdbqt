@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_8  and  C10_1 
+REMARK       I    between atoms: C10_1  and  N11_11 
+REMARK    2  A    between atoms: N07_10  and  C06_6 
+REMARK    3  A    between atoms: C08_7  and  C09_8 
+REMARK       I    between atoms: C08_7  and  N07_10 
+REMARK    4  A    between atoms: N11_11  and  O12_12 
+ROOT
+ATOM      1  C08 EEK d   1      23.620  62.856  24.187  0.00  0.00     0.231 C 
+ATOM      2  N07 EEK d   1      24.208  62.231  25.327  0.00  0.00    -0.327 N 
+ATOM      3  O14 EEK d   1      23.281  64.020  24.260  0.00  0.00    -0.273 OA
+ATOM      4  H6  EEK d   1      24.486  61.275  25.229  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  C06 EEK d   1      24.444  62.869  26.641  0.00  0.00     0.036 A 
+ATOM      6  C15 EEK d   1      24.125  64.231  26.901  0.00  0.00    -0.055 A 
+ATOM      7  C16 EEK d   1      24.323  64.827  28.155  0.00  0.00    -0.058 A 
+ATOM      8  H1  EEK d   1      23.713  64.832  26.098  0.00  0.00     0.087 H 
+ATOM      9  C02 EEK d   1      24.844  64.085  29.211  0.00  0.00     0.055 A 
+ATOM     10  H5  EEK d   1      24.069  65.871  28.302  0.00  0.00     0.086 H 
+ATOM     11  C03 EEK d   1      25.154  62.751  28.991  0.00  0.00     0.058 A 
+ATOM     12 CL1  EEK d   1      25.089  64.824  30.759  0.00  0.00    -0.083 Cl
+ATOM     13  C05 EEK d   1      24.957  62.144  27.742  0.00  0.00    -0.035 A 
+ATOM     14 CL4  EEK d   1      25.802  61.834  30.319  0.00  0.00    -0.082 Cl
+ATOM     15  H2  EEK d   1      25.203  61.096  27.618  0.00  0.00     0.089 H 
+ENDBRANCH   2   5
+BRANCH   1  16
+ATOM     16  C09 EEK d   1      23.381  62.102  22.886  0.00  0.00     0.085 C 
+ATOM     17  H3  EEK d   1      23.789  62.698  22.056  0.00  0.00     0.061 H 
+ATOM     18  H4  EEK d   1      23.907  61.138  22.939  0.00  0.00     0.061 H 
+BRANCH  16  19
+ATOM     19  C10 EEK d   1      21.892  61.832  22.608  0.00  0.00     0.249 C 
+ATOM     20  N11 EEK d   1      21.320  62.225  21.359  0.00  0.00    -0.237 N 
+ATOM     21  H7  EEK d   1      21.857  62.686  20.653  0.00  0.00     0.197 HD
+ATOM     22  O13 EEK d   1      21.226  61.285  23.463  0.00  0.00    -0.271 OA
+BRANCH  20  23
+ATOM     23  O12 EEK d   1      20.011  61.937  21.188  0.00  0.00    -0.287 OA
+ATOM     24  H8  EEK d   1      19.731  62.238  20.331  0.00  0.00     0.244 HD
+ENDBRANCH  20  23
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 4

@@ -1,0 +1,56 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_15  and  C15_8 
+REMARK    2  A    between atoms: C17_9  and  O21_21 
+REMARK    3  A    between atoms: C11_13  and  C2_12 
+REMARK       I    between atoms: N13_18  and  C11_13 
+REMARK    4  A    between atoms: O21_21  and  C22_14 
+REMARK    5  A    between atoms: C14_15  and  N13_18 
+ROOT
+ATOM      1  C14 WLL d   1      43.171  -3.507 -12.946  0.00  0.00     0.019 C 
+ATOM      2  H   WLL d   1      42.107  -3.607 -12.686  0.00  0.00     0.071 H 
+ATOM      3  H   WLL d   1      43.384  -2.464 -13.224  0.00  0.00     0.071 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C15 WLL d   1      43.445  -4.378 -14.145  0.00  0.00    -0.038 A 
+ATOM      5  C20 WLL d   1      44.381  -5.390 -14.063  0.00  0.00    -0.075 A 
+ATOM      6  C19 WLL d   1      44.630  -6.185 -15.171  0.00  0.00    -0.080 A 
+ATOM      7  H   WLL d   1      44.918  -5.562 -13.137  0.00  0.00     0.084 H 
+ATOM      8  C18 WLL d   1      43.935  -5.961 -16.340  0.00  0.00    -0.051 A 
+ATOM      9  H   WLL d   1      45.367  -6.978 -15.118  0.00  0.00     0.083 H 
+ATOM     10  C17 WLL d   1      42.984  -4.960 -16.413  0.00  0.00     0.068 A 
+ATOM     11  H   WLL d   1      44.136  -6.575 -17.210  0.00  0.00     0.087 H 
+ATOM     12  C16 WLL d   1      42.739  -4.167 -15.313  0.00  0.00    -0.043 A 
+ATOM     13  H   WLL d   1      41.995  -3.381 -15.364  0.00  0.00     0.088 H 
+BRANCH  10  14
+ATOM     14  O21 WLL d   1      42.247  -4.682 -17.554  0.00  0.00    -0.356 OA
+BRANCH  14  15
+ATOM     15  C22 WLL d   1      42.707  -5.482 -18.637  0.00  0.00     0.010 C 
+ATOM     16  H   WLL d   1      42.117  -5.255 -19.537  0.00  0.00     0.066 H 
+ATOM     17  H   WLL d   1      42.592  -6.546 -18.382  0.00  0.00     0.066 H 
+ATOM     18  H   WLL d   1      43.768  -5.264 -18.829  0.00  0.00     0.066 H 
+ENDBRANCH  14  15
+ENDBRANCH  10  14
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  N13 WLL d   1      43.950  -3.827 -11.776  0.00  0.00    -0.350 N 
+ATOM     20  C11 WLL d   1      45.232  -3.381 -11.724  0.00  0.00     0.287 C 
+ATOM     21  O12 WLL d   1      45.805  -2.740 -12.595  0.00  0.00    -0.264 OA
+ATOM     22  H   WLL d   1      43.559  -4.361 -11.026  0.00  0.00     0.163 HD
+BRANCH  20  23
+ATOM     23  C2  WLL d   1      45.983  -3.877 -10.536  0.00  0.00     0.200 A 
+ATOM     24  N1  WLL d   1      45.375  -4.617  -9.643  0.00  0.00    -0.217 NA
+ATOM     25  C7  WLL d   1      46.190  -5.007  -8.656  0.00  0.00     0.115 A 
+ATOM     26  C6  WLL d   1      47.520  -4.696  -8.534  0.00  0.00     0.068 A 
+ATOM     27  S8  WLL d   1      45.661  -5.995  -7.337  0.00  0.00    -0.081 SA
+ATOM     28  C10 WLL d   1      48.115  -5.262  -7.373  0.00  0.00    -0.059 A 
+ATOM     29  C4  WLL d   1      48.157  -3.876  -9.533  0.00  0.00     0.260 A 
+ATOM     30  C9  WLL d   1      47.221  -5.996  -6.623  0.00  0.00    -0.042 A 
+ATOM     31  H   WLL d   1      49.162  -5.130  -7.106  0.00  0.00     0.086 H 
+ATOM     32  H   WLL d   1      47.473  -6.510  -5.697  0.00  0.00     0.095 H 
+ATOM     33  N3  WLL d   1      47.305  -3.501 -10.522  0.00  0.00    -0.303 N 
+ATOM     34  O5  WLL d   1      49.337  -3.560  -9.475  0.00  0.00    -0.267 OA
+ATOM     35  H   WLL d   1      47.652  -2.931 -11.267  0.00  0.00     0.171 HD
+ENDBRANCH  20  23
+ENDBRANCH   1  19
+TORSDOF 5

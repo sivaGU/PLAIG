@@ -1,0 +1,92 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C18_2  and  C19_3 
+REMARK       I    between atoms: C18_2  and  N1_12 
+REMARK    2  A    between atoms: C19_3  and  C20_4 
+REMARK    3  A    between atoms: C20_4  and  N2_5 
+REMARK    4  A    between atoms: N2_5  and  C21_6 
+REMARK    5  A    between atoms: N1_12  and  C2_13 
+REMARK    6  A    between atoms: C3_15  and  C10_24 
+REMARK    7  A    between atoms: C1_16  and  C4_17 
+REMARK       I    between atoms: C10_24  and  N_26 
+REMARK    8  A    between atoms: N_26  and  C11_27 
+REMARK    9  A    between atoms: C11_27  and  C12_28 
+ROOT
+ATOM      1  C2  IXV d   1      23.102   5.401  57.613  0.00  0.00     0.093 A 
+ATOM      2  S   IXV d   1      22.764   6.379  56.387  0.00  0.00    -0.082 SA
+ATOM      3  C3  IXV d   1      24.138   5.950  58.366  0.00  0.00     0.077 A 
+ATOM      4  C1  IXV d   1      24.551   7.183  57.845  0.00  0.00    -0.001 A 
+ATOM      5  C   IXV d   1      23.828   7.533  56.714  0.00  0.00    -0.031 A 
+ATOM      6  H17 IXV d   1      23.962   8.448  56.139  0.00  0.00     0.096 H 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N1  IXV d   1      22.419   4.180  57.797  0.00  0.00    -0.320 N 
+ATOM      8  C18 IXV d   1      22.660   3.016  57.106  0.00  0.00     0.224 C 
+ATOM      9  O1  IXV d   1      23.142   3.048  55.996  0.00  0.00    -0.273 OA
+ATOM     10  H11 IXV d   1      21.698   4.160  58.489  0.00  0.00     0.169 HD
+BRANCH   8  11
+ATOM     11  C19 IXV d   1      22.285   1.710  57.773  0.00  0.00     0.024 C 
+ATOM     12  H1  IXV d   1      21.207   1.722  57.992  0.00  0.00     0.049 H 
+ATOM     13  H2  IXV d   1      22.849   1.618  58.713  0.00  0.00     0.049 H 
+BRANCH  11  14
+ATOM     14  C20 IXV d   1      22.592   0.505  56.900  0.00  0.00     0.001 C 
+ATOM     15  H3  IXV d   1      23.673   0.470  56.700  0.00  0.00     0.064 H 
+ATOM     16  H4  IXV d   1      22.046   0.599  55.950  0.00  0.00     0.064 H 
+BRANCH  14  17
+ATOM     17  N2  IXV d   1      22.185  -0.735  57.569  0.00  0.00    -0.389 N 
+ATOM     18  H5  IXV d   1      22.849  -1.157  58.234  0.00  0.00     0.159 HD
+BRANCH  17  19
+ATOM     19  C21 IXV d   1      20.952  -1.393  57.370  0.00  0.00     0.027 A 
+ATOM     20  C23 IXV d   1      20.577  -2.486  58.141  0.00  0.00    -0.058 A 
+ATOM     21  C25 IXV d   1      19.356  -3.100  57.912  0.00  0.00    -0.081 A 
+ATOM     22  H6  IXV d   1      21.236  -2.857  58.918  0.00  0.00     0.086 H 
+ATOM     23  C26 IXV d   1      18.513  -2.626  56.920  0.00  0.00    -0.083 A 
+ATOM     24  H7  IXV d   1      19.060  -3.954  58.511  0.00  0.00     0.083 H 
+ATOM     25  C24 IXV d   1      18.887  -1.533  56.156  0.00  0.00    -0.081 A 
+ATOM     26  H8  IXV d   1      17.560  -3.111  56.742  0.00  0.00     0.083 H 
+ATOM     27  C22 IXV d   1      20.106  -0.917  56.382  0.00  0.00    -0.058 A 
+ATOM     28  H9  IXV d   1      18.226  -1.160  55.382  0.00  0.00     0.083 H 
+ATOM     29  H10 IXV d   1      20.399  -0.061  55.785  0.00  0.00     0.086 H 
+ENDBRANCH  17  19
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   1   7
+BRANCH   3  30
+ATOM     30  C10 IXV d   1      24.719   5.333  59.581  0.00  0.00     0.255 C 
+ATOM     31  O   IXV d   1      24.521   5.816  60.671  0.00  0.00    -0.268 OA
+ATOM     32  N   IXV d   1      25.498   4.194  59.452  0.00  0.00    -0.353 N 
+ATOM     33  H18 IXV d   1      25.809   3.940  58.536  0.00  0.00     0.163 HD
+BRANCH  32  34
+ATOM     34  C11 IXV d   1      25.898   3.332  60.584  0.00  0.00     0.019 C 
+ATOM     35  H19 IXV d   1      25.993   3.962  61.481  0.00  0.00     0.071 H 
+ATOM     36  H20 IXV d   1      26.873   2.882  60.347  0.00  0.00     0.071 H 
+BRANCH  34  37
+ATOM     37  C12 IXV d   1      24.924   2.219  60.888  0.00  0.00    -0.041 A 
+ATOM     38  C14 IXV d   1      25.304   0.893  60.809  0.00  0.00    -0.075 A 
+ATOM     39  C16 IXV d   1      24.381  -0.104  61.095  0.00  0.00    -0.082 A 
+ATOM     40  H21 IXV d   1      26.317   0.632  60.525  0.00  0.00     0.084 H 
+ATOM     41  C17 IXV d   1      23.084   0.219  61.462  0.00  0.00    -0.083 A 
+ATOM     42  H22 IXV d   1      24.677  -1.145  61.031  0.00  0.00     0.083 H 
+ATOM     43  C15 IXV d   1      22.702   1.550  61.539  0.00  0.00    -0.082 A 
+ATOM     44  H23 IXV d   1      22.371  -0.566  61.688  0.00  0.00     0.083 H 
+ATOM     45  C13 IXV d   1      23.625   2.543  61.252  0.00  0.00    -0.075 A 
+ATOM     46  H24 IXV d   1      21.689   1.812  61.822  0.00  0.00     0.083 H 
+ATOM     47  H25 IXV d   1      23.329   3.584  61.312  0.00  0.00     0.084 H 
+ENDBRANCH  34  37
+ENDBRANCH  32  34
+ENDBRANCH   3  30
+BRANCH   4  48
+ATOM     48  C4  IXV d   1      25.609   8.057  58.398  0.00  0.00    -0.024 A 
+ATOM     49  C6  IXV d   1      25.345   9.409  58.550  0.00  0.00    -0.072 A 
+ATOM     50  C8  IXV d   1      26.316  10.258  59.059  0.00  0.00    -0.082 A 
+ATOM     51  H12 IXV d   1      24.375   9.804  58.270  0.00  0.00     0.084 H 
+ATOM     52  C9  IXV d   1      27.554   9.758  59.425  0.00  0.00    -0.083 A 
+ATOM     53  H13 IXV d   1      26.105  11.316  59.171  0.00  0.00     0.083 H 
+ATOM     54  C7  IXV d   1      27.820   8.405  59.275  0.00  0.00    -0.082 A 
+ATOM     55  H14 IXV d   1      28.312  10.421  59.827  0.00  0.00     0.083 H 
+ATOM     56  C5  IXV d   1      26.850   7.553  58.760  0.00  0.00    -0.072 A 
+ATOM     57  H15 IXV d   1      28.788   8.010  59.561  0.00  0.00     0.083 H 
+ATOM     58  H16 IXV d   1      27.063   6.497  58.641  0.00  0.00     0.084 H 
+ENDBRANCH   4  48
+TORSDOF 9

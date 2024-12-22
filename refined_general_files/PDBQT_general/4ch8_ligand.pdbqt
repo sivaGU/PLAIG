@@ -1,0 +1,113 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD1_7 
+REMARK    6  A    between atoms: CG_6  and  CD2_8 
+REMARK    7  A    between atoms: N_9  and  CA_10 
+REMARK    8  A    between atoms: CA_10  and  C_11 
+REMARK    9  A    between atoms: CA_10  and  CB_13 
+REMARK       I    between atoms: C_11  and  N_25 
+REMARK   10  A    between atoms: CB_13  and  CG_14 
+REMARK   11  A    between atoms: CZ_19  and  OH_20 
+REMARK   12  A    between atoms: OH_20  and  P_21 
+REMARK   13  A    between atoms: N_25  and  CA_26 
+REMARK   14  A    between atoms: CA_26  and  C_27 
+REMARK   15  A    between atoms: CA_26  and  CB_29 
+REMARK   16  A    between atoms: CB_29  and  CG_30 
+ROOT
+ATOM      1  CA  PTR d   1      39.697  -5.352  64.391  0.00  0.00     0.093 C 
+ATOM      2  H15 PTR d   1      38.776  -5.255  63.797  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   PTR d   1      40.696  -4.402  63.884  0.00  0.00    -0.346 N 
+ATOM      4  C   LEU d   1      40.495  -3.710  62.766  0.00  0.00     0.249 C 
+ATOM      5  O   LEU d   1      39.562  -3.960  62.007  0.00  0.00    -0.271 OA
+ATOM      6  H14 PTR d   1      41.548  -4.272  64.392  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CA  LEU d   1      41.508  -2.570  62.405  0.00  0.00     0.176 C 
+ATOM      8  H4  LEU d   1      40.910  -1.655  62.288  0.00  0.00     0.099 H 
+BRANCH   7   9
+ATOM      9  N   LEU d   1      42.538  -2.268  63.435  0.00  0.00    -0.066 N 
+ATOM     10  H1  LEU d   1      43.135  -1.525  63.106  0.00  0.00     0.275 HD
+ATOM     11  H2  LEU d   1      43.092  -3.092  63.608  0.00  0.00     0.275 HD
+ATOM     12  H3  LEU d   1      42.085  -1.982  64.289  0.00  0.00     0.275 HD
+ENDBRANCH   7   9
+BRANCH   7  13
+ATOM     13  CB  LEU d   1      42.185  -2.849  61.058  0.00  0.00    -0.028 C 
+ATOM     14  H5  LEU d   1      42.745  -1.943  60.784  0.00  0.00     0.037 H 
+ATOM     15  H6  LEU d   1      41.384  -3.021  60.324  0.00  0.00     0.037 H 
+BRANCH  13  16
+ATOM     16  CG  LEU d   1      43.157  -4.028  60.948  0.00  0.00    -0.059 C 
+ATOM     17  H7  LEU d   1      42.803  -4.822  61.622  0.00  0.00     0.038 H 
+BRANCH  16  18
+ATOM     18  CD1 LEU d   1      43.122  -4.561  59.517  0.00  0.00    -0.073 C 
+ATOM     19  H8  LEU d   1      43.816  -5.409  59.425  0.00  0.00     0.028 H 
+ATOM     20  H9  LEU d   1      43.422  -3.764  58.821  0.00  0.00     0.028 H 
+ATOM     21  H10 LEU d   1      42.102  -4.894  59.275  0.00  0.00     0.028 H 
+ENDBRANCH  16  18
+BRANCH  16  22
+ATOM     22  CD2 LEU d   1      44.598  -3.674  61.367  0.00  0.00    -0.073 C 
+ATOM     23  H11 LEU d   1      44.597  -3.293  62.399  0.00  0.00     0.028 H 
+ATOM     24  H12 LEU d   1      44.997  -2.902  60.692  0.00  0.00     0.028 H 
+ATOM     25  H13 LEU d   1      45.228  -4.574  61.309  0.00  0.00     0.028 H 
+ENDBRANCH  16  22
+ENDBRANCH  13  16
+ENDBRANCH   7  13
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  26
+ATOM     26  C   PTR d   1      39.433  -4.964  65.804  0.00  0.00     0.241 C 
+ATOM     27  O   PTR d   1      40.356  -4.570  66.540  0.00  0.00    -0.271 OA
+ATOM     28  N   ASP d   1      38.176  -5.065  66.208  0.00  0.00    -0.344 N 
+ATOM     29  H22 ASP d   1      37.468  -5.281  65.535  0.00  0.00     0.163 HD
+BRANCH  28  30
+ATOM     30  CA  ASP d   1      37.798  -4.877  67.566  0.00  0.00     0.105 C 
+ATOM     31  H23 ASP d   1      37.926  -3.817  67.832  0.00  0.00     0.090 H 
+BRANCH  30  32
+ATOM     32  C   ASP d   1      38.617  -5.725  68.518  0.00  0.00     0.197 C 
+ATOM     33  O   ASP d   1      38.431  -6.971  68.492  0.00  0.00    -0.646 OA
+ATOM     34  O   ASP d   1      39.452  -5.204  69.305  0.00  0.00    -0.646 OA
+ENDBRANCH  30  32
+BRANCH  30  35
+ATOM     35  CB  ASP d   1      36.343  -5.269  67.701  0.00  0.00     0.044 C 
+ATOM     36  H24 ASP d   1      36.243  -6.336  67.453  0.00  0.00     0.053 H 
+ATOM     37  H25 ASP d   1      35.751  -4.670  66.993  0.00  0.00     0.053 H 
+BRANCH  35  38
+ATOM     38  CG  ASP d   1      35.826  -5.056  69.024  0.00  0.00     0.175 C 
+ATOM     39  OD1 ASP d   1      35.897  -3.918  69.534  0.00  0.00    -0.648 OA
+ATOM     40  OD2 ASP d   1      35.202  -5.982  69.551  0.00  0.00    -0.648 OA
+ENDBRANCH  35  38
+ENDBRANCH  30  35
+ENDBRANCH  28  30
+ENDBRANCH   1  26
+BRANCH   1  41
+ATOM     41  CB  PTR d   1      40.154  -6.814  64.340  0.00  0.00    -0.014 C 
+ATOM     42  H16 PTR d   1      39.473  -7.413  64.962  0.00  0.00     0.043 H 
+ATOM     43  H17 PTR d   1      41.173  -6.874  64.750  0.00  0.00     0.043 H 
+BRANCH  41  44
+ATOM     44  CG  PTR d   1      40.165  -7.406  62.923  0.00  0.00    -0.056 A 
+ATOM     45  CD1 PTR d   1      38.991  -7.842  62.279  0.00  0.00    -0.074 A 
+ATOM     46  CE1 PTR d   1      39.037  -8.410  60.999  0.00  0.00    -0.050 A 
+ATOM     47  H18 PTR d   1      38.036  -7.737  62.782  0.00  0.00     0.084 H 
+ATOM     48  CZ  PTR d   1      40.288  -8.518  60.367  0.00  0.00     0.082 A 
+ATOM     49  H20 PTR d   1      38.134  -8.756  60.510  0.00  0.00     0.087 H 
+ATOM     50  CE2 PTR d   1      41.466  -8.071  60.995  0.00  0.00    -0.050 A 
+ATOM     51  CD2 PTR d   1      41.397  -7.545  62.274  0.00  0.00    -0.074 A 
+ATOM     52  H21 PTR d   1      42.419  -8.138  60.482  0.00  0.00     0.087 H 
+ATOM     53  H19 PTR d   1      42.306  -7.238  62.778  0.00  0.00     0.084 H 
+BRANCH  48  54
+ATOM     54  OH  PTR d   1      40.328  -9.050  59.109  0.00  0.00    -0.240 OA
+BRANCH  54  55
+ATOM     55  P   PTR d   1      41.431 -10.088  58.553  0.00  0.00     0.427 P 
+ATOM     56  O1P PTR d   1      40.739 -10.705  57.369  0.00  0.00    -0.617 OA
+ATOM     57  O2P PTR d   1      41.811 -11.143  59.571  0.00  0.00    -0.617 OA
+ATOM     58  O3P PTR d   1      42.570  -9.130  58.291  0.00  0.00    -0.617 OA
+ENDBRANCH  54  55
+ENDBRANCH  48  54
+ENDBRANCH  41  44
+ENDBRANCH   1  41
+TORSDOF 16

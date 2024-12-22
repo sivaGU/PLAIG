@@ -1,0 +1,75 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_6  and  C8_7 
+REMARK    2  A    between atoms: C8_7  and  C9_8 
+REMARK    3  A    between atoms: C8_7  and  N7_10 
+REMARK    4  A    between atoms: C9_8  and  O9_9 
+REMARK    5  A    between atoms: N7_10  and  C6_11 
+REMARK    6  A    between atoms: C6_11  and  C5_12 
+REMARK    7  A    between atoms: C2_14  and  C21_19 
+REMARK    8  A    between atoms: C3_15  and  O3_16 
+REMARK    9  A    between atoms: C4_17  and  O4_18 
+ROOT
+ATOM      1  C6  GB3 d   1      30.032  66.368  10.222  0.00  0.00     0.111 C 
+ATOM      2  H12 GB3 d   1      30.158  67.461  10.228  0.00  0.00     0.079 H 
+ATOM      3  H13 GB3 d   1      29.080  66.112   9.734  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N7  GB3 d   1      29.936  65.934  11.616  0.00  0.00    -0.063 N 
+ATOM      5  H10 GB3 d   1      30.074  64.936  11.588  0.00  0.00     0.278 HD
+ATOM      6  H11 GB3 d   1      30.719  66.369  12.078  0.00  0.00     0.278 HD
+BRANCH   4   7
+ATOM      7  C8  GB3 d   1      28.802  66.133  12.526  0.00  0.00     0.147 C 
+ATOM      8  H6  GB3 d   1      27.899  65.705  12.066  0.00  0.00     0.095 H 
+BRANCH   7   9
+ATOM      9  C10 GB3 d   1      28.669  67.664  12.602  0.00  0.00    -0.026 A 
+ATOM     10  C15 GB3 d   1      27.481  68.306  12.096  0.00  0.00    -0.075 A 
+ATOM     11  C14 GB3 d   1      27.325  69.732  12.194  0.00  0.00    -0.082 A 
+ATOM     12  H1  GB3 d   1      26.700  67.709  11.639  0.00  0.00     0.084 H 
+ATOM     13  C13 GB3 d   1      28.319  70.548  12.778  0.00  0.00    -0.083 A 
+ATOM     14  H2  GB3 d   1      26.422  70.192  11.810  0.00  0.00     0.083 H 
+ATOM     15  C12 GB3 d   1      29.478  69.912  13.262  0.00  0.00    -0.082 A 
+ATOM     16  H3  GB3 d   1      28.194  71.622  12.851  0.00  0.00     0.083 H 
+ATOM     17  C11 GB3 d   1      29.691  68.501  13.198  0.00  0.00    -0.075 A 
+ATOM     18  H4  GB3 d   1      30.251  70.527  13.708  0.00  0.00     0.083 H 
+ATOM     19  H5  GB3 d   1      30.602  68.063  13.589  0.00  0.00     0.084 H 
+ENDBRANCH   7   9
+BRANCH   7  20
+ATOM     20  C9  GB3 d   1      28.944  65.502  13.928  0.00  0.00     0.047 C 
+ATOM     21  H7  GB3 d   1      28.085  65.785  14.554  0.00  0.00     0.077 H 
+ATOM     22  H8  GB3 d   1      29.873  65.850  14.402  0.00  0.00     0.077 H 
+BRANCH  20  23
+ATOM     23  O9  GB3 d   1      28.982  64.092  13.769  0.00  0.00    -0.398 OA
+ATOM     24  H9  GB3 d   1      28.178  63.799  13.356  0.00  0.00     0.209 HD
+ENDBRANCH  20  23
+ENDBRANCH   7  20
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  25
+ATOM     25  C5  GB3 d   1      31.152  65.787   9.365  0.00  0.00     0.152 C 
+ATOM     26  N1  GB3 d   1      30.795  65.912   7.940  0.00  0.00    -0.060 N 
+ATOM     27  C2  GB3 d   1      31.273  67.182   7.406  0.00  0.00     0.126 C 
+ATOM     28  H15 GB3 d   1      29.793  65.867   7.843  0.00  0.00     0.278 HD
+ATOM     29  H16 GB3 d   1      31.216  65.155   7.424  0.00  0.00     0.278 HD
+ATOM     30  C3  GB3 d   1      32.669  67.190   7.995  0.00  0.00     0.089 C 
+ATOM     31  H17 GB3 d   1      30.666  68.031   7.753  0.00  0.00     0.087 H 
+ATOM     32  C4  GB3 d   1      32.422  66.641   9.400  0.00  0.00     0.091 C 
+ATOM     33  H18 GB3 d   1      32.985  68.240   8.080  0.00  0.00     0.090 H 
+ATOM     34  H20 GB3 d   1      32.322  67.468  10.118  0.00  0.00     0.090 H 
+ATOM     35  H14 GB3 d   1      31.351  64.746   9.660  0.00  0.00     0.091 H 
+BRANCH  27  36
+ATOM     36  C21 GB3 d   1      31.338  67.179   5.899  0.00  0.00    -0.047 C 
+ATOM     37  H22 GB3 d   1      31.703  68.155   5.546  0.00  0.00     0.030 H 
+ATOM     38  H23 GB3 d   1      30.334  66.993   5.489  0.00  0.00     0.030 H 
+ATOM     39  H24 GB3 d   1      32.024  66.388   5.563  0.00  0.00     0.030 H 
+ENDBRANCH  27  36
+BRANCH  30  40
+ATOM     40  O3  GB3 d   1      33.724  66.539   7.296  0.00  0.00    -0.391 OA
+ATOM     41  H19 GB3 d   1      33.515  65.618   7.196  0.00  0.00     0.210 HD
+ENDBRANCH  30  40
+BRANCH  32  42
+ATOM     42  O4  GB3 d   1      33.474  65.768   9.786  0.00  0.00    -0.391 OA
+ATOM     43  H21 GB3 d   1      34.297  66.243   9.780  0.00  0.00     0.210 HD
+ENDBRANCH  32  42
+ENDBRANCH   1  25
+TORSDOF 9

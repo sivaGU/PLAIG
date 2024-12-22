@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAH_8  and  CAA_1 
+REMARK    2  A    between atoms: OAH_8  and  CAI_9 
+ROOT
+ATOM      1  CAB BZ3 d   1      15.154  10.664  -0.350  0.00  0.00    -0.022 A 
+ATOM      2  CAC BZ3 d   1      14.652   9.740  -4.773  0.00  0.00    -0.049 A 
+ATOM      3  CAD BZ3 d   1      13.892  10.531  -0.793  0.00  0.00    -0.056 A 
+ATOM      4  CAE BZ3 d   1      15.641   9.965  -3.811  0.00  0.00    -0.054 A 
+ATOM      5  CAF BZ3 d   1      12.936  10.022  -3.071  0.00  0.00    -0.039 A 
+ATOM      6  NAG BZ3 d   1      15.989  10.490  -1.384  0.00  0.00    -0.365 N 
+ATOM      7  CAI BZ3 d   1      13.296   9.758  -4.411  0.00  0.00     0.069 A 
+ATOM      8  CAJ BZ3 d   1      13.930  10.262  -2.107  0.00  0.00    -0.005 A 
+ATOM      9  CAK BZ3 d   1      15.277  10.235  -2.483  0.00  0.00     0.042 A 
+ATOM     10  H4  BZ3 d   1      15.449  10.877   0.676  0.00  0.00     0.111 H 
+ATOM     11  H5  BZ3 d   1      14.933   9.551  -5.803  0.00  0.00     0.087 H 
+ATOM     12  H6  BZ3 d   1      12.991  10.626  -0.188  0.00  0.00     0.086 H 
+ATOM     13  H7  BZ3 d   1      16.688   9.931  -4.091  0.00  0.00     0.087 H 
+ATOM     14  H8  BZ3 d   1      11.890  10.040  -2.785  0.00  0.00     0.089 H 
+ATOM     15  H9  BZ3 d   1      17.017  10.544  -1.337  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   7  16
+ATOM     16  OAH BZ3 d   1      12.353   9.530  -5.391  0.00  0.00    -0.356 OA
+BRANCH  16  17
+ATOM     17  CAA BZ3 d   1      11.013   9.248  -4.886  0.00  0.00     0.010 C 
+ATOM     18  H1  BZ3 d   1      10.330   9.080  -5.732  0.00  0.00     0.066 H 
+ATOM     19  H2  BZ3 d   1      10.658  10.103  -4.292  0.00  0.00     0.066 H 
+ATOM     20  H3  BZ3 d   1      11.041   8.349  -4.253  0.00  0.00     0.066 H 
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 2

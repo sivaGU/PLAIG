@@ -1,0 +1,66 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_14  and  C4_1 
+REMARK    2  A    between atoms: C11_5  and  C12_10 
+REMARK       I    between atoms: N2_13  and  C11_5 
+REMARK    3  A    between atoms: C9_8  and  O_26 
+REMARK    4  A    between atoms: O_26  and  C10_9 
+REMARK    5  A    between atoms: C2_22  and  N2_13 
+REMARK    6  A    between atoms: N_24  and  C_25 
+ROOT
+ATOM      1  N1  KEP d   1     -22.444   1.269  -0.766  0.00  0.00    -0.170 NA
+ATOM      2  C3  KEP d   1     -23.263   2.306  -0.955  0.00  0.00     0.118 A 
+ATOM      3  C2  KEP d   1     -24.584   2.003  -0.537  0.00  0.00     0.084 A 
+ATOM      4  C1  KEP d   1     -24.516   0.712  -0.089  0.00  0.00     0.026 A 
+ATOM      5  N   KEP d   1     -23.246   0.313  -0.228  0.00  0.00    -0.282 N 
+ATOM      6  H10 KEP d   1     -25.340   0.120   0.306  0.00  0.00     0.117 H 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N2  KEP d   1     -25.685   2.902  -0.559  0.00  0.00    -0.319 N 
+ATOM      8  C11 KEP d   1     -26.953   2.663  -0.086  0.00  0.00     0.261 C 
+ATOM      9  O1  KEP d   1     -27.274   1.647   0.533  0.00  0.00    -0.267 OA
+ATOM     10  H6  KEP d   1     -25.520   3.803  -0.961  0.00  0.00     0.169 HD
+BRANCH   8  11
+ATOM     11  C12 KEP d   1     -27.957   3.725  -0.365  0.00  0.00     0.099 A 
+ATOM     12  C14 KEP d   1     -27.789   4.952  -1.016  0.00  0.00     0.167 A 
+ATOM     13  N5  KEP d   1     -26.697   5.527  -1.583  0.00  0.00    -0.240 NA
+ATOM     14  N4  KEP d   1     -29.039   5.518  -1.082  0.00  0.00    -0.226 N 
+ATOM     15  C15 KEP d   1     -26.923   6.663  -2.232  0.00  0.00     0.006 A 
+ATOM     16  C16 KEP d   1     -28.198   7.278  -2.359  0.00  0.00    -0.049 A 
+ATOM     17  H7  KEP d   1     -26.073   7.158  -2.699  0.00  0.00     0.114 H 
+ATOM     18  C17 KEP d   1     -29.263   6.694  -1.764  0.00  0.00     0.007 A 
+ATOM     19  H8  KEP d   1     -28.315   8.201  -2.924  0.00  0.00     0.087 H 
+ATOM     20  H9  KEP d   1     -30.257   7.135  -1.822  0.00  0.00     0.115 H 
+ATOM     21  N3  KEP d   1     -29.990   4.737  -0.477  0.00  0.00    -0.178 NA
+ATOM     22  C13 KEP d   1     -29.328   3.669  -0.060  0.00  0.00     0.041 A 
+ATOM     23  H5  KEP d   1     -29.796   2.836   0.463  0.00  0.00     0.119 H 
+ENDBRANCH   8  11
+ENDBRANCH   3   7
+BRANCH   2  24
+ATOM     24  C4  KEP d   1     -22.739   3.548  -1.571  0.00  0.00     0.032 A 
+ATOM     25  C5  KEP d   1     -21.607   4.158  -1.012  0.00  0.00    -0.047 A 
+ATOM     26  C6  KEP d   1     -21.060   5.275  -1.614  0.00  0.00     0.035 A 
+ATOM     27  H1  KEP d   1     -21.162   3.754  -0.110  0.00  0.00     0.087 H 
+ATOM     28  C7  KEP d   1     -21.627   5.846  -2.740  0.00  0.00    -0.059 A 
+ATOM     29 CL   KEP d   1     -19.586   5.950  -0.969  0.00  0.00    -0.084 Cl
+ATOM     30  C8  KEP d   1     -22.762   5.276  -3.288  0.00  0.00    -0.048 A 
+ATOM     31  H2  KEP d   1     -21.187   6.730  -3.187  0.00  0.00     0.086 H 
+ATOM     32  C9  KEP d   1     -23.310   4.129  -2.720  0.00  0.00     0.087 A 
+ATOM     33  H3  KEP d   1     -23.225   5.723  -4.160  0.00  0.00     0.087 H 
+BRANCH  32  34
+ATOM     34  O   KEP d   1     -24.451   3.526  -3.207  0.00  0.00    -0.289 OA
+BRANCH  34  35
+ATOM     35  C10 KEP d   1     -24.467   3.087  -4.504  0.00  0.00     0.310 C 
+ATOM     36  F1  KEP d   1     -24.948   4.040  -5.303  0.00  0.00    -0.184 F 
+ATOM     37  F   KEP d   1     -25.250   2.028  -4.708  0.00  0.00    -0.184 F 
+ATOM     38  H4  KEP d   1     -23.437   2.836  -4.796  0.00  0.00     0.195 H 
+ENDBRANCH  34  35
+ENDBRANCH  32  34
+ENDBRANCH   2  24
+BRANCH   5  39
+ATOM     39  C   KEP d   1     -22.670  -0.968   0.165  0.00  0.00     0.002 C 
+ATOM     40  H11 KEP d   1     -23.459  -1.614   0.578  0.00  0.00     0.059 H 
+ATOM     41  H12 KEP d   1     -21.895  -0.803   0.928  0.00  0.00     0.059 H 
+ATOM     42  H13 KEP d   1     -22.221  -1.454  -0.714  0.00  0.00     0.059 H 
+ENDBRANCH   5  39
+TORSDOF 6

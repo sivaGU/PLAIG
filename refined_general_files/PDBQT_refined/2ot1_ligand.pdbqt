@@ -1,0 +1,54 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_15  and  CAR_11 
+REMARK       I    between atoms: CAR_11  and  NAP_18 
+REMARK    2  A    between atoms: NAP_18  and  CAT_13 
+REMARK    3  A    between atoms: OAQ_23  and  CAU_14 
+REMARK    4  A    between atoms: OAQ_23  and  PAY_25 
+ROOT
+ATOM      1  CAF N3P d   1      47.566  38.807  58.900  0.00  0.00    -0.082 A 
+ATOM      2  CAG N3P d   1      47.718  39.833  59.828  0.00  0.00    -0.082 A 
+ATOM      3  CAL N3P d   1      46.880  39.040  57.711  0.00  0.00    -0.072 A 
+ATOM      4  CAM N3P d   1      47.182  41.091  59.571  0.00  0.00    -0.072 A 
+ATOM      5  CAN N3P d   1      45.655  40.531  56.268  0.00  0.00    -0.038 A 
+ATOM      6  CAO N3P d   1      45.959  42.581  58.122  0.00  0.00    -0.054 A 
+ATOM      7  CAU N3P d   1      45.115  41.790  56.005  0.00  0.00     0.099 A 
+ATOM      8  CAV N3P d   1      45.267  42.812  56.933  0.00  0.00     0.067 A 
+ATOM      9  CAW N3P d   1      46.345  40.299  57.450  0.00  0.00    -0.023 A 
+ATOM     10  CAX N3P d   1      46.497  41.327  58.383  0.00  0.00    -0.025 A 
+ATOM     11  H1  N3P d   1      47.982  37.827  59.103  0.00  0.00     0.083 H 
+ATOM     12  H2  N3P d   1      48.255  39.652  60.752  0.00  0.00     0.083 H 
+ATOM     13  H7  N3P d   1      46.762  38.241  56.988  0.00  0.00     0.084 H 
+ATOM     14  H8  N3P d   1      47.298  41.888  60.297  0.00  0.00     0.084 H 
+ATOM     15  H9  N3P d   1      45.535  39.731  55.547  0.00  0.00     0.089 H 
+ATOM     16  H10 N3P d   1      46.077  43.381  58.843  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   8  17
+ATOM     17  CAR N3P d   1      44.696  44.238  56.746  0.00  0.00     0.259 C 
+ATOM     18  NAP N3P d   1      44.215  44.540  55.533  0.00  0.00    -0.323 N 
+ATOM     19  H11 N3P d   1      44.365  43.891  54.787  0.00  0.00     0.169 HD
+ATOM     20  OAA N3P d   1      44.699  45.051  57.690  0.00  0.00    -0.267 OA
+BRANCH  18  21
+ATOM     21  CAT N3P d   1      43.539  45.674  55.267  0.00  0.00     0.035 A 
+ATOM     22  CAJ N3P d   1      42.923  46.498  56.240  0.00  0.00    -0.056 A 
+ATOM     23  CAH N3P d   1      42.215  47.645  55.835  0.00  0.00    -0.060 A 
+ATOM     24  H5  N3P d   1      42.996  46.246  57.292  0.00  0.00     0.087 H 
+ATOM     25  CAS N3P d   1      42.137  47.953  54.466  0.00  0.00     0.034 A 
+ATOM     26  H3  N3P d   1      41.736  48.282  56.569  0.00  0.00     0.086 H 
+ATOM     27  CAI N3P d   1      42.748  47.146  53.485  0.00  0.00    -0.060 A 
+ATOM     28 CLA  N3P d   1      41.250  49.357  53.973  0.00  0.00    -0.084 Cl
+ATOM     29  CAK N3P d   1      43.456  45.999  53.889  0.00  0.00    -0.056 A 
+ATOM     30  H4  N3P d   1      42.674  47.405  52.435  0.00  0.00     0.086 H 
+ATOM     31  H6  N3P d   1      43.936  45.367  53.151  0.00  0.00     0.087 H 
+ENDBRANCH  18  21
+ENDBRANCH   8  17
+BRANCH   7  32
+ATOM     32  OAQ N3P d   1      44.503  42.069  54.821  0.00  0.00    -0.239 OA
+BRANCH  32  33
+ATOM     33  PAY N3P d   1      43.832  40.785  54.114  0.00  0.00     0.427 P 
+ATOM     34  OAB N3P d   1      43.015  39.985  55.053  0.00  0.00    -0.617 OA
+ATOM     35  OAC N3P d   1      42.955  41.351  52.888  0.00  0.00    -0.617 OA
+ATOM     36  OAD N3P d   1      45.040  39.943  53.462  0.00  0.00    -0.617 OA
+ENDBRANCH  32  33
+ENDBRANCH   7  32
+TORSDOF 4

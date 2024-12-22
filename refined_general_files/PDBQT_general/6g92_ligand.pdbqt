@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: N4_4  and  C3_3 
+REMARK    3  A    between atoms: C5_5  and  N4_4 
+REMARK    4  A    between atoms: C8_7  and  C9_12 
+REMARK    5  A    between atoms: N14_15  and  C15_10 
+ROOT
+ATOM      1  C2  ERZ d   1      14.679  10.364  41.195  0.00  0.00     0.055 A 
+ATOM      2  C3  ERZ d   1      13.723   9.420  41.436  0.00  0.00     0.092 A 
+ATOM      3  C12 ERZ d   1      12.641   9.866  40.663  0.00  0.00     0.050 A 
+ATOM      4  N13 ERZ d   1      12.917  10.989  40.022  0.00  0.00    -0.183 NA
+ATOM      5  N14 ERZ d   1      14.191  11.286  40.365  0.00  0.00    -0.277 N 
+ATOM      6  H7  ERZ d   1      11.685   9.348  40.598  0.00  0.00     0.121 H 
+ENDROOT
+BRANCH   2   7
+ATOM      7  N4  ERZ d   1      13.849   8.311  42.217  0.00  0.00    -0.185 N 
+ATOM      8  H4  ERZ d   1      14.786   7.885  42.242  0.00  0.00     0.184 HD
+BRANCH   7   9
+ATOM      9  C5  ERZ d   1      12.887   7.686  42.977  0.00  0.00     0.726 A 
+ATOM     10  N6  ERZ d   1      13.227   6.471  43.439  0.00  0.00    -0.074 NA
+ATOM     11  C7  ERZ d   1      12.299   5.863  44.184  0.00  0.00     0.028 A 
+ATOM     12  C8  ERZ d   1      11.063   6.409  44.487  0.00  0.00    -0.026 A 
+ATOM     13  H5  ERZ d   1      12.529   4.879  44.576  0.00  0.00     0.116 H 
+ATOM     14  C10 ERZ d   1      10.850   7.671  43.975  0.00  0.00     0.028 A 
+ATOM     15  N11 ERZ d   1      11.735   8.338  43.221  0.00  0.00    -0.074 NA
+ATOM     16  H6  ERZ d   1       9.906   8.155  44.197  0.00  0.00     0.116 H 
+BRANCH  12  17
+ATOM     17  C9  ERZ d   1      10.045   5.692  45.331  0.00  0.00    -0.049 C 
+ATOM     18  H11 ERZ d   1      10.438   4.706  45.621  0.00  0.00     0.033 H 
+ATOM     19  H12 ERZ d   1       9.117   5.562  44.755  0.00  0.00     0.033 H 
+ATOM     20  H13 ERZ d   1       9.836   6.283  46.234  0.00  0.00     0.033 H 
+ENDBRANCH  12  17
+ENDBRANCH   7   9
+ENDBRANCH   2   7
+BRANCH   1  21
+ATOM     21  C1  ERZ d   1      16.065  10.443  41.734  0.00  0.00    -0.034 C 
+ATOM     22  H1  ERZ d   1      16.252   9.583  42.394  0.00  0.00     0.035 H 
+ATOM     23  H2  ERZ d   1      16.184  11.376  42.305  0.00  0.00     0.035 H 
+ATOM     24  H3  ERZ d   1      16.784  10.429  40.901  0.00  0.00     0.035 H 
+ENDBRANCH   1  21
+BRANCH   5  25
+ATOM     25  C15 ERZ d   1      14.822  12.487  39.827  0.00  0.00     0.003 C 
+ATOM     26  H8  ERZ d   1      14.112  13.011  39.170  0.00  0.00     0.059 H 
+ATOM     27  H9  ERZ d   1      15.716  12.205  39.251  0.00  0.00     0.059 H 
+ATOM     28  H10 ERZ d   1      15.114  13.150  40.655  0.00  0.00     0.059 H 
+ENDBRANCH   5  25
+TORSDOF 5

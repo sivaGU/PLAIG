@@ -1,0 +1,61 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C4_4 
+REMARK    2  A    between atoms: C4_4  and  C5_5 
+REMARK    3  A    between atoms: C5_5  and  P6_6 
+REMARK    4  A    between atoms: P6_6  and  C1_9 
+REMARK    5  A    between atoms: C1_9  and  CA_10 
+REMARK    6  A    between atoms: CA_10  and  C_11 
+REMARK    7  A    between atoms: CA_10  and  CB_14 
+REMARK    8  A    between atoms: CB_14  and  CG_15 
+REMARK    9  A    between atoms: CG_15  and  CD_16 
+ROOT
+ATOM      1  C1  BHX d   1      16.317  44.920  42.999  0.00  0.00     0.020 C 
+ATOM      2  H5  BHX d   1      16.759  45.922  42.893  0.00  0.00     0.050 H 
+ATOM      3  H6  BHX d   1      15.413  44.982  43.622  0.00  0.00     0.050 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  P6  BHX d   1      17.514  43.858  43.840  0.00  0.00     0.107 P 
+ATOM      5  O61 BHX d   1      18.236  42.943  42.800  0.00  0.00    -0.667 OA
+ATOM      6  O6  BHX d   1      16.707  43.067  44.786  0.00  0.00    -0.667 OA
+BRANCH   4   7
+ATOM      7  C5  BHX d   1      18.677  44.751  44.852  0.00  0.00     0.016 C 
+ATOM      8  H3  BHX d   1      18.134  45.250  45.669  0.00  0.00     0.049 H 
+ATOM      9  H4  BHX d   1      19.404  44.042  45.275  0.00  0.00     0.049 H 
+BRANCH   7  10
+ATOM     10  C4  BHX d   1      19.397  45.767  44.059  0.00  0.00     0.024 C 
+ATOM     11  H1  BHX d   1      20.265  45.301  43.570  0.00  0.00     0.049 H 
+ATOM     12  H2  BHX d   1      18.722  46.179  43.294  0.00  0.00     0.049 H 
+BRANCH  10  13
+ATOM     13  C2  BHX d   1      19.882  46.911  44.988  0.00  0.00     0.173 C 
+ATOM     14  O3  BHX d   1      19.691  46.965  46.216  0.00  0.00    -0.648 OA
+ATOM     15  O2  BHX d   1      20.465  47.873  44.447  0.00  0.00    -0.648 OA
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  CA  BHX d   1      15.901  44.415  41.580  0.00  0.00     0.040 C 
+ATOM     17  H7  BHX d   1      15.619  43.356  41.680  0.00  0.00     0.057 H 
+BRANCH  16  18
+ATOM     18  C   BHX d   1      17.072  44.511  40.597  0.00  0.00     0.177 C 
+ATOM     19  O   BHX d   1      17.983  45.372  40.724  0.00  0.00    -0.648 OA
+ATOM     20  OC  BHX d   1      17.094  43.696  39.581  0.00  0.00    -0.648 OA
+ENDBRANCH  16  18
+BRANCH  16  21
+ATOM     21  CB  BHX d   1      14.672  45.184  40.965  0.00  0.00    -0.043 C 
+ATOM     22  H8  BHX d   1      13.763  44.962  41.543  0.00  0.00     0.035 H 
+ATOM     23  H9  BHX d   1      14.525  44.879  39.918  0.00  0.00     0.035 H 
+BRANCH  21  24
+ATOM     24  CG  BHX d   1      14.982  46.689  41.034  0.00  0.00     0.017 C 
+ATOM     25  H10 BHX d   1      15.944  46.880  40.535  0.00  0.00     0.049 H 
+ATOM     26  H11 BHX d   1      15.049  46.993  42.089  0.00  0.00     0.049 H 
+BRANCH  24  27
+ATOM     27  CD  BHX d   1      13.908  47.500  40.357  0.00  0.00     0.172 C 
+ATOM     28  OE2 BHX d   1      13.130  46.954  39.533  0.00  0.00    -0.648 OA
+ATOM     29  OE1 BHX d   1      13.903  48.733  40.589  0.00  0.00    -0.648 OA
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  16  21
+ENDBRANCH   1  16
+TORSDOF 9

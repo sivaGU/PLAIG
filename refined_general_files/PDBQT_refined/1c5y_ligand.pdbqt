@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C0_1 
+REMARK    2  A    between atoms: C0_1  and  N1_3 
+ROOT
+ATOM      1  C1  ESP d   1       8.490   0.331  25.435  0.00  0.00     0.051 A 
+ATOM      2  S2  ESP d   1       9.073   0.549  23.762  0.00  0.00    -0.066 SA
+ATOM      3  C3  ESP d   1       9.265   2.237  23.965  0.00  0.00     0.108 A 
+ATOM      4  C4  ESP d   1       8.896   2.590  25.254  0.00  0.00     0.001 A 
+ATOM      5  C5  ESP d   1       8.473   1.558  26.057  0.00  0.00    -0.050 A 
+ATOM      6  N6  ESP d   1       9.674   3.191  23.168  0.00  0.00    -0.253 NA
+ATOM      7  C7  ESP d   1       9.766   4.477  23.464  0.00  0.00     0.004 A 
+ATOM      8  C8  ESP d   1       9.397   4.844  24.756  0.00  0.00    -0.065 A 
+ATOM      9  C9  ESP d   1       8.957   3.901  25.653  0.00  0.00    -0.069 A 
+ATOM     10  H5  ESP d   1       8.154   1.698  27.089  0.00  0.00     0.087 H 
+ATOM     11  H6  ESP d   1      10.110   5.206  22.740  0.00  0.00     0.114 H 
+ATOM     12  H7  ESP d   1       9.458   5.884  25.057  0.00  0.00     0.085 H 
+ATOM     13  H8  ESP d   1       8.664   4.187  26.657  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  14
+ATOM     14  C0  ESP d   1       8.166  -0.927  25.865  0.00  0.00     0.109 C 
+ATOM     15  N2  ESP d   1       8.511  -1.910  25.098  0.00  0.00    -0.385 N 
+ATOM     16  H3  ESP d   1       8.998  -1.724  24.210  0.00  0.00     0.157 HD
+ATOM     17  H4  ESP d   1       8.299  -2.879  25.375  0.00  0.00     0.157 HD
+BRANCH  14  18
+ATOM     18  N1  ESP d   1       7.550  -1.033  27.004  0.00  0.00    -0.385 N 
+ATOM     19  H1  ESP d   1       7.288  -1.962  27.363  0.00  0.00     0.157 HD
+ATOM     20  H2  ESP d   1       7.323  -0.188  27.547  0.00  0.00     0.157 HD
+ENDBRANCH  14  18
+ENDBRANCH   1  14
+TORSDOF 2

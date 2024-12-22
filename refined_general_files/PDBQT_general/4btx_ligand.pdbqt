@@ -1,0 +1,61 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_6  and  NAV_7 
+REMARK    2  A    between atoms: CAR_12  and  NAN_13 
+REMARK    3  A    between atoms: NAN_13  and  CAU_14 
+REMARK    4  A    between atoms: CAU_14  and  CAB_15 
+REMARK    5  A    between atoms: CAU_14  and  CAA_16 
+REMARK    6  A    between atoms: CAS_17  and  CAQ_18 
+ROOT
+ATOM      1  NAV WF8 d   1      91.900  52.402  33.977  0.00  0.00    -0.197 N 
+ATOM      2  NAM WF8 d   1      92.306  51.346  34.548  0.00  0.00    -0.158 NA
+ATOM      3  CAT WF8 d   1      92.756  53.230  33.311  0.00  0.00     0.270 A 
+ATOM      4  OAC WF8 d   1      92.366  54.267  32.736  0.00  0.00    -0.266 OA
+ATOM      5  CAJ WF8 d   1      94.121  52.877  33.306  0.00  0.00     0.012 A 
+ATOM      6  CAR WF8 d   1      94.545  51.716  33.976  0.00  0.00     0.068 A 
+ATOM      7  CAS WF8 d   1      93.580  50.903  34.608  0.00  0.00     0.151 A 
+ATOM      8  H6  WF8 d   1      94.845  53.502  32.785  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   6   9
+ATOM      9  NAN WF8 d   1      95.816  51.292  33.986  0.00  0.00    -0.384 N 
+ATOM     10  H7  WF8 d   1      95.946  50.276  33.880  0.00  0.00     0.160 HD
+BRANCH   9  11
+ATOM     11  CAU WF8 d   1      97.063  52.086  34.129  0.00  0.00     0.003 C 
+ATOM     12  H8  WF8 d   1      97.833  51.429  34.560  0.00  0.00     0.071 H 
+BRANCH  11  13
+ATOM     13  CAB WF8 d   1      97.520  52.486  32.718  0.00  0.00    -0.058 C 
+ATOM     14  H9  WF8 d   1      98.445  53.078  32.786  0.00  0.00     0.030 H 
+ATOM     15  H10 WF8 d   1      96.735  53.087  32.235  0.00  0.00     0.030 H 
+ATOM     16  H11 WF8 d   1      97.707  51.580  32.123  0.00  0.00     0.030 H 
+ENDBRANCH  11  13
+BRANCH  11  17
+ATOM     17  CAA WF8 d   1      96.920  53.286  35.081  0.00  0.00    -0.058 C 
+ATOM     18  H12 WF8 d   1      97.877  53.825  35.138  0.00  0.00     0.030 H 
+ATOM     19  H13 WF8 d   1      96.641  52.928  36.083  0.00  0.00     0.030 H 
+ATOM     20  H14 WF8 d   1      96.140  53.963  34.703  0.00  0.00     0.030 H 
+ENDBRANCH  11  17
+ENDBRANCH   9  11
+ENDBRANCH   6   9
+BRANCH   7  21
+ATOM     21  CAQ WF8 d   1      93.786  49.735  35.288  0.00  0.00     0.183 A 
+ATOM     22  NAK WF8 d   1      92.816  48.873  35.580  0.00  0.00    -0.331 N 
+ATOM     23  CAI WF8 d   1      93.398  47.890  36.255  0.00  0.00     0.087 A 
+ATOM     24  H15 WF8 d   1      91.819  48.952  35.333  0.00  0.00     0.168 HD
+ATOM     25  NAO WF8 d   1      94.680  48.175  36.349  0.00  0.00    -0.143 NA
+ATOM     26  H16 WF8 d   1      92.904  47.007  36.658  0.00  0.00     0.146 H 
+ATOM     27  NAL WF8 d   1      94.908  49.230  35.801  0.00  0.00    -0.128 NA
+ENDBRANCH   7  21
+BRANCH   1  28
+ATOM     28  CAP WF8 d   1      90.568  52.580  34.008  0.00  0.00     0.062 A 
+ATOM     29  CAG WF8 d   1      89.897  52.734  32.777  0.00  0.00    -0.055 A 
+ATOM     30  CAE WF8 d   1      88.526  52.874  32.734  0.00  0.00    -0.081 A 
+ATOM     31  H1  WF8 d   1      90.466  52.742  31.854  0.00  0.00     0.087 H 
+ATOM     32  CAD WF8 d   1      87.811  52.829  33.936  0.00  0.00    -0.083 A 
+ATOM     33  H2  WF8 d   1      88.013  53.016  31.790  0.00  0.00     0.083 H 
+ATOM     34  CAF WF8 d   1      88.462  52.643  35.163  0.00  0.00    -0.081 A 
+ATOM     35  H3  WF8 d   1      86.733  52.940  33.918  0.00  0.00     0.083 H 
+ATOM     36  CAH WF8 d   1      89.850  52.503  35.201  0.00  0.00    -0.055 A 
+ATOM     37  H4  WF8 d   1      87.888  52.608  36.082  0.00  0.00     0.083 H 
+ATOM     38  H5  WF8 d   1      90.362  52.337  36.142  0.00  0.00     0.087 H 
+ENDBRANCH   1  28
+TORSDOF 6

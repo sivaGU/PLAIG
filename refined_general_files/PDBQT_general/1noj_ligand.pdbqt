@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_12  and  O2_21 
+REMARK    2  A    between atoms: C3_13  and  O3_22 
+REMARK    3  A    between atoms: C4_14  and  O4_23 
+REMARK    4  A    between atoms: C6_16  and  C5_15 
+REMARK    5  A    between atoms: C6_16  and  O6_24 
+ROOT
+ATOM      1  H1  NTZ d   1      35.087  22.727  25.560  0.00  0.00     0.099 H 
+ATOM      2  H2  NTZ d   1      32.071  23.275  25.727  0.00  0.00     0.091 H 
+ATOM      3  H3  NTZ d   1      33.514  20.591  25.528  0.00  0.00     0.090 H 
+ATOM      4  H4  NTZ d   1      31.466  21.492  27.618  0.00  0.00     0.082 H 
+ATOM      5  C1  NTZ d   1      34.296  22.768  27.525  0.00  0.00     0.168 A 
+ATOM      6  C2  NTZ d   1      34.231  23.182  26.080  0.00  0.00     0.122 C 
+ATOM      7  C3  NTZ d   1      32.922  22.643  25.433  0.00  0.00     0.094 C 
+ATOM      8  C4  NTZ d   1      32.648  21.201  25.826  0.00  0.00     0.086 C 
+ATOM      9  C5  NTZ d   1      32.442  21.055  27.360  0.00  0.00     0.080 C 
+ATOM     10  N1  NTZ d   1      33.467  21.786  28.039  0.00  0.00    -0.251 N 
+ATOM     11  N17 NTZ d   1      33.873  21.699  29.364  0.00  0.00    -0.003 NA
+ATOM     12  N18 NTZ d   1      34.908  22.606  29.614  0.00  0.00     0.018 NA
+ATOM     13  N21 NTZ d   1      35.184  23.294  28.446  0.00  0.00    -0.144 NA
+ENDROOT
+BRANCH   9  14
+ATOM     14  C6  NTZ d   1      32.445  19.613  27.820  0.00  0.00     0.040 C 
+ATOM     15  H5  NTZ d   1      31.458  19.170  27.622  0.00  0.00     0.077 H 
+ATOM     16  H6  NTZ d   1      32.652  19.580  28.900  0.00  0.00     0.077 H 
+BRANCH  14  17
+ATOM     17  O6  NTZ d   1      33.442  18.858  27.130  0.00  0.00    -0.399 OA
+ATOM     18  H10 NTZ d   1      34.297  19.235  27.300  0.00  0.00     0.209 HD
+ENDBRANCH  14  17
+ENDBRANCH   9  14
+BRANCH   8  19
+ATOM     19  O4  NTZ d   1      31.485  20.711  25.154  0.00  0.00    -0.391 OA
+ATOM     20  H9  NTZ d   1      30.727  21.215  25.426  0.00  0.00     0.210 HD
+ENDBRANCH   8  19
+BRANCH   7  21
+ATOM     21  O3  NTZ d   1      33.119  22.684  24.013  0.00  0.00    -0.390 OA
+ATOM     22  H8  NTZ d   1      33.292  23.578  23.744  0.00  0.00     0.210 HD
+ENDBRANCH   7  21
+BRANCH   6  23
+ATOM     23  O2  NTZ d   1      34.318  24.600  25.909  0.00  0.00    -0.385 OA
+ATOM     24  H7  NTZ d   1      34.321  24.806  24.982  0.00  0.00     0.210 HD
+ENDBRANCH   6  23
+TORSDOF 5

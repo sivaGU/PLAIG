@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_15  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  C_13 
+REMARK    3  A    between atoms: N1'_16  and  C1'_7 
+REMARK    4  A    between atoms: C3'_9  and  CM3_14 
+REMARK    5  A    between atoms: C4'_10  and  O4'_19 
+ROOT
+ATOM      1  C1' MHB d   1      31.740  14.165  -8.099  0.00  0.00     0.079 A 
+ATOM      2  C2' MHB d   1      32.478  15.351  -8.145  0.00  0.00    -0.045 A 
+ATOM      3  C3' MHB d   1      32.055  16.422  -8.924  0.00  0.00    -0.027 A 
+ATOM      4  C4' MHB d   1      30.862  16.298  -9.643  0.00  0.00     0.071 A 
+ATOM      5  C5' MHB d   1      30.022  15.204  -9.659  0.00  0.00    -0.048 A 
+ATOM      6  C6' MHB d   1      30.550  14.010  -8.775  0.00  0.00    -0.051 A 
+ATOM      7  H5  MHB d   1      33.391  15.437  -7.567  0.00  0.00     0.088 H 
+ATOM      8  H6  MHB d   1      29.096  15.169 -10.221  0.00  0.00     0.087 H 
+ATOM      9  H7  MHB d   1      29.988  13.086  -8.701  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  N1' MHB d   1      32.154  13.014  -7.274  0.00  0.00    -0.150 NA
+ATOM     11  N1  MHB d   1      33.045  13.266  -6.389  0.00  0.00    -0.149 NA
+BRANCH  11  12
+ATOM     12  C1  MHB d   1      33.351  12.183  -5.443  0.00  0.00     0.096 A 
+ATOM     13  C6  MHB d   1      32.358  11.207  -5.181  0.00  0.00    -0.052 A 
+ATOM     14  C5  MHB d   1      32.630  10.187  -4.264  0.00  0.00    -0.081 A 
+ATOM     15  H4  MHB d   1      31.399  11.250  -5.685  0.00  0.00     0.087 H 
+ATOM     16  C4  MHB d   1      33.879  10.144  -3.630  0.00  0.00    -0.082 A 
+ATOM     17  H3  MHB d   1      31.880   9.435  -4.045  0.00  0.00     0.083 H 
+ATOM     18  C3  MHB d   1      34.866  11.085  -3.901  0.00  0.00    -0.064 A 
+ATOM     19  H2  MHB d   1      34.081   9.358  -2.911  0.00  0.00     0.083 H 
+ATOM     20  C2  MHB d   1      34.589  12.105  -4.828  0.00  0.00     0.071 A 
+ATOM     21  H1  MHB d   1      35.830  11.033  -3.407  0.00  0.00     0.085 H 
+BRANCH  20  22
+ATOM     22  C   MHB d   1      35.659  13.182  -5.041  0.00  0.00     0.211 C 
+ATOM     23  OXT MHB d   1      36.822  13.041  -4.215  0.00  0.00    -0.644 OA
+ATOM     24  O   MHB d   1      35.496  14.161  -5.747  0.00  0.00    -0.644 OA
+ENDBRANCH  20  22
+ENDBRANCH  11  12
+ENDBRANCH   1  10
+BRANCH   3  25
+ATOM     25  CM3 MHB d   1      32.848  17.728  -8.948  0.00  0.00    -0.049 C 
+ATOM     26  H8  MHB d   1      33.748  17.622  -8.324  0.00  0.00     0.033 H 
+ATOM     27  H9  MHB d   1      32.223  18.544  -8.555  0.00  0.00     0.033 H 
+ATOM     28  H10 MHB d   1      33.144  17.958  -9.982  0.00  0.00     0.033 H 
+ENDBRANCH   3  25
+BRANCH   4  29
+ATOM     29  O4' MHB d   1      30.418  17.468 -10.476  0.00  0.00    -0.360 OA
+ATOM     30  H11 MHB d   1      31.082  17.661 -11.128  0.00  0.00     0.217 HD
+ENDBRANCH   4  29
+TORSDOF 5

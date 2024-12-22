@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S_11 
+REMARK    2  A    between atoms: S_11  and  N1'_14 
+REMARK    3  A    between atoms: N1'_14  and  C2'_15 
+REMARK    4  A    between atoms: C2'_15  and  C3'_16 
+REMARK    5  A    between atoms: C3'_16  and  N4'_17 
+REMARK    6  A    between atoms: N4'_17  and  C5'_18 
+ROOT
+ATOM      1  S   IQS d   1       8.447  10.374   3.993  0.00  0.00     0.259 S 
+ATOM      2  O1  IQS d   1       8.150  11.422   4.935  0.00  0.00    -0.201 OA
+ATOM      3  O2  IQS d   1       9.585  10.481   3.100  0.00  0.00    -0.201 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  IQS d   1       6.986  10.178   2.989  0.00  0.00     0.090 A 
+ATOM      5  C10 IQS d   1       5.687  10.019   3.534  0.00  0.00     0.000 A 
+ATOM      6  C5  IQS d   1       4.564   9.865   2.671  0.00  0.00    -0.007 A 
+ATOM      7  C9  IQS d   1       5.483  10.009   4.918  0.00  0.00    -0.054 A 
+ATOM      8  C4  IQS d   1       4.731   9.866   1.274  0.00  0.00    -0.071 A 
+ATOM      9  C6  IQS d   1       3.291   9.710   3.219  0.00  0.00     0.013 A 
+ATOM     10  C3  IQS d   1       6.016  10.021   0.752  0.00  0.00    -0.081 A 
+ATOM     11  H3  IQS d   1       3.878   9.749   0.616  0.00  0.00     0.084 H 
+ATOM     12  C2  IQS d   1       7.134  10.176   1.590  0.00  0.00    -0.059 A 
+ATOM     13  H2  IQS d   1       6.155  10.022  -0.323  0.00  0.00     0.083 H 
+ATOM     14  H1  IQS d   1       8.119  10.295   1.154  0.00  0.00     0.085 H 
+ATOM     15  N7  IQS d   1       3.128   9.707   4.575  0.00  0.00    -0.272 NA
+ATOM     16  H4  IQS d   1       2.432   9.592   2.569  0.00  0.00     0.116 H 
+ATOM     17  C8  IQS d   1       4.184   9.851   5.399  0.00  0.00     0.003 A 
+ATOM     18  H5  IQS d   1       4.018   9.844   6.470  0.00  0.00     0.114 H 
+ATOM     19  H6  IQS d   1       6.317  10.122   5.601  0.00  0.00     0.087 H 
+ENDBRANCH   1   4
+BRANCH   1  20
+ATOM     20  N1' IQS d   1       8.481   9.007   4.851  0.00  0.00    -0.314 N 
+ATOM     21  H7  IQS d   1       8.125   9.027   5.785  0.00  0.00     0.172 HD
+BRANCH  20  22
+ATOM     22  C2' IQS d   1       9.004   7.742   4.338  0.00  0.00     0.025 C 
+ATOM     23  H8  IQS d   1       8.161   7.127   3.990  0.00  0.00     0.067 H 
+ATOM     24  H9  IQS d   1       9.527   7.220   5.153  0.00  0.00     0.067 H 
+BRANCH  22  25
+ATOM     25  C3' IQS d   1       9.979   7.939   3.178  0.00  0.00     0.096 C 
+ATOM     26  H10 IQS d   1      10.279   8.996   3.129  0.00  0.00     0.078 H 
+ATOM     27  H11 IQS d   1       9.488   7.653   2.236  0.00  0.00     0.078 H 
+BRANCH  25  28
+ATOM     28  N4' IQS d   1      11.175   7.099   3.381  0.00  0.00    -0.077 N 
+ATOM     29  H12 IQS d   1      11.355   6.552   2.554  0.00  0.00     0.276 HD
+ATOM     30  H13 IQS d   1      11.033   6.483   4.166  0.00  0.00     0.276 HD
+BRANCH  28  31
+ATOM     31  C5' IQS d   1      12.310   7.996   3.646  0.00  0.00     0.065 C 
+ATOM     32  H14 IQS d   1      13.220   7.399   3.802  0.00  0.00     0.067 H 
+ATOM     33  H15 IQS d   1      12.104   8.592   4.547  0.00  0.00     0.067 H 
+ATOM     34  H16 IQS d   1      12.455   8.668   2.787  0.00  0.00     0.067 H 
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  20  22
+ENDBRANCH   1  20
+TORSDOF 6

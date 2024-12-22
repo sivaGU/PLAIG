@@ -1,0 +1,57 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C2_3  and  N2_4 
+REMARK       I    between atoms: N2_4  and  C7_5 
+REMARK    3  A    between atoms: C7_5  and  C8_7 
+REMARK    4  A    between atoms: C3_8  and  O3_9 
+REMARK    5  A    between atoms: C4_10  and  O4_11 
+REMARK    6  A    between atoms: C5_12  and  C6_13 
+REMARK    7  A    between atoms: C6_13  and  O6_14 
+ROOT
+ATOM      1  C1  BM3 d   1     -11.439  31.220  17.228  0.00  0.00     0.151 C 
+ATOM      2  C2  BM3 d   1     -10.832  30.161  16.299  0.00  0.00     0.086 C 
+ATOM      3  C3  BM3 d   1     -10.193  29.069  17.109  0.00  0.00     0.086 C 
+ATOM      4  C4  BM3 d   1      -9.192  29.634  18.069  0.00  0.00     0.089 C 
+ATOM      5  C5  BM3 d   1      -9.802  30.703  18.937  0.00  0.00     0.089 C 
+ATOM      6  O5  BM3 d   1     -10.408  31.722  18.100  0.00  0.00    -0.349 OA
+ATOM      7  H1  BM3 d   1     -11.835  32.051  16.626  0.00  0.00     0.132 H 
+ATOM      8  H3  BM3 d   1     -11.642  29.704  15.712  0.00  0.00     0.084 H 
+ATOM      9  H8  BM3 d   1     -10.983  28.567  17.687  0.00  0.00     0.090 H 
+ATOM     10  H10 BM3 d   1      -8.370  30.080  17.490  0.00  0.00     0.091 H 
+ATOM     11  H12 BM3 d   1     -10.576  30.221  19.552  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   2  12
+ATOM     12  N2  BM3 d   1      -9.905  30.843  15.343  0.00  0.00    -0.349 N 
+ATOM     13  C7  BM3 d   1      -9.892  30.619  14.041  0.00  0.00     0.214 C 
+ATOM     14  O7  BM3 d   1     -10.596  29.767  13.472  0.00  0.00    -0.274 OA
+ATOM     15  H4  BM3 d   1      -9.256  31.509  15.712  0.00  0.00     0.163 HD
+BRANCH  13  16
+ATOM     16  C8  BM3 d   1      -8.966  31.563  13.247  0.00  0.00    -0.003 C 
+ATOM     17  H5  BM3 d   1      -9.014  31.310  12.178  0.00  0.00     0.040 H 
+ATOM     18  H6  BM3 d   1      -7.932  31.449  13.605  0.00  0.00     0.040 H 
+ATOM     19  H7  BM3 d   1      -9.291  32.604  13.392  0.00  0.00     0.040 H 
+ENDBRANCH  13  16
+ENDBRANCH   2  12
+BRANCH   1  20
+ATOM     20  O1  BM3 d   1     -12.477  30.652  17.950  0.00  0.00    -0.369 OA
+ATOM     21  H2  BM3 d   1     -12.858  31.307  18.523  0.00  0.00     0.212 HD
+ENDBRANCH   1  20
+BRANCH   3  22
+ATOM     22  O3  BM3 d   1      -9.551  28.078  16.257  0.00  0.00    -0.391 OA
+ATOM     23  H9  BM3 d   1     -10.200  27.687  15.684  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   4  24
+ATOM     24  O4  BM3 d   1      -8.657  28.587  18.907  0.00  0.00    -0.390 OA
+ATOM     25  H11 BM3 d   1      -8.024  28.958  19.511  0.00  0.00     0.210 HD
+ENDBRANCH   4  24
+BRANCH   5  26
+ATOM     26  C6  BM3 d   1      -8.885  31.450  19.847  0.00  0.00     0.043 C 
+ATOM     27  H13 BM3 d   1      -8.453  30.736  20.564  0.00  0.00     0.078 H 
+ATOM     28  H14 BM3 d   1      -9.475  32.203  20.390  0.00  0.00     0.078 H 
+BRANCH  26  29
+ATOM     29  O6  BM3 d   1      -7.826  32.109  19.185  0.00  0.00    -0.398 OA
+ATOM     30  H15 BM3 d   1      -7.287  32.560  19.824  0.00  0.00     0.209 HD
+ENDBRANCH  26  29
+ENDBRANCH   5  26
+TORSDOF 7

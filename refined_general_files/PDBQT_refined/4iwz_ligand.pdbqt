@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N09_12  and  C10_1 
+REMARK    1  A    between atoms: C10_1  and  C12_14 
+REMARK    2  A    between atoms: C12_14  and  C13_2 
+REMARK    3  A    between atoms: S02_5  and  N01_4 
+REMARK    4  A    between atoms: C05_8  and  S02_5 
+REMARK    5  A    between atoms: C08_11  and  N09_12 
+ROOT
+ATOM      1  C10 1GO d   1      15.971   6.221  13.072  0.00  0.00     0.228 C 
+ATOM      2  N09 1GO d   1      17.059   5.503  13.613  0.00  0.00    -0.304 N 
+ATOM      3  O11 1GO d   1      14.811   5.900  13.279  0.00  0.00    -0.273 OA
+ATOM      4  H4  1GO d   1      17.997   5.799  13.431  0.00  0.00     0.171 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C12 1GO d   1      16.243   7.400  12.237  0.00  0.00     0.039 C 
+ATOM      6  H5  1GO d   1      17.193   7.245  11.704  0.00  0.00     0.055 H 
+ATOM      7  H6  1GO d   1      16.326   8.283  12.887  0.00  0.00     0.055 H 
+BRANCH   5   8
+ATOM      8  C13 1GO d   1      15.175   7.639  11.245  0.00  0.00    -0.009 A 
+ATOM      9  C14 1GO d   1      14.022   8.422  11.386  0.00  0.00    -0.069 A 
+ATOM     10  C15 1GO d   1      13.245   8.418  10.233  0.00  0.00    -0.076 A 
+ATOM     11  H7  1GO d   1      13.765   8.969  12.292  0.00  0.00     0.085 H 
+ATOM     12  C16 1GO d   1      13.718   7.656   9.174  0.00  0.00    -0.045 A 
+ATOM     13  H1  1GO d   1      12.316   8.982  10.165  0.00  0.00     0.084 H 
+ATOM     14  S17 1GO d   1      15.194   6.945   9.685  0.00  0.00    -0.106 SA
+ATOM     15  H8  1GO d   1      13.242   7.532   8.202  0.00  0.00     0.095 H 
+ENDBRANCH   5   8
+ENDBRANCH   1   5
+BRANCH   2  16
+ATOM     16  C08 1GO d   1      16.815   4.357  14.417  0.00  0.00     0.197 A 
+ATOM     17  N07 1GO d   1      17.803   3.607  14.902  0.00  0.00    -0.122 NA
+ATOM     18  N06 1GO d   1      17.418   2.552  15.645  0.00  0.00    -0.126 NA
+ATOM     19  C05 1GO d   1      16.092   2.419  15.770  0.00  0.00     0.237 A 
+ATOM     20  S18 1GO d   1      15.303   3.688  14.917  0.00  0.00    -0.015 SA
+BRANCH  19  21
+ATOM     21  S02 1GO d   1      15.336   1.136  16.671  0.00  0.00     0.282 S 
+ATOM     22  O03 1GO d   1      15.724   1.259  18.063  0.00  0.00    -0.199 OA
+ATOM     23  O04 1GO d   1      13.909   1.342  16.548  0.00  0.00    -0.199 OA
+BRANCH  21  24
+ATOM     24  N01 1GO d   1      15.818  -0.289  16.043  0.00  0.00    -0.323 N 
+ATOM     25  H2  1GO d   1      16.784  -0.545  16.069  0.00  0.00     0.169 HD
+ATOM     26  H3  1GO d   1      15.147  -0.907  15.632  0.00  0.00     0.169 HD
+ENDBRANCH  21  24
+ENDBRANCH  19  21
+ENDBRANCH   2  16
+TORSDOF 5

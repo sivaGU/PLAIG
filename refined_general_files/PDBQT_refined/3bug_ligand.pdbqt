@@ -1,0 +1,51 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  C8_4 
+REMARK    2  A    between atoms: C1_12  and  C4_1 
+REMARK    3  A    between atoms: C5_2  and  C10_5 
+REMARK    4  A    between atoms: C10_5  and  C11_10 
+REMARK    5  A    between atoms: C11_10  and  N12_6 
+REMARK    6  A    between atoms: C3_8  and  O7_7 
+ROOT
+ATOM      1  C5  AEH d   1     -18.976  40.459  91.136  0.00  0.00    -0.056 A 
+ATOM      2  C6  AEH d   1     -20.974  39.815  92.353  0.00  0.00    -0.050 A 
+ATOM      3  C3  AEH d   1     -21.689  40.755  91.616  0.00  0.00     0.071 A 
+ATOM      4  C9  AEH d   1     -19.609  39.669  92.107  0.00  0.00    -0.074 A 
+ATOM      5  C2  AEH d   1     -19.708  41.401  90.401  0.00  0.00    -0.068 A 
+ATOM      6  C1  AEH d   1     -21.078  41.556  90.636  0.00  0.00    -0.025 A 
+ATOM      7  H3  AEH d   1     -21.468  39.209  93.103  0.00  0.00     0.087 H 
+ATOM      8  H13 AEH d   1     -19.034  38.941  92.669  0.00  0.00     0.084 H 
+ATOM      9  H16 AEH d   1     -19.213  42.008  89.652  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C10 AEH d   1     -17.503  40.288  90.880  0.00  0.00    -0.019 C 
+ATOM     11  H7  AEH d   1     -17.229  40.852  89.977  0.00  0.00     0.042 H 
+ATOM     12  H8  AEH d   1     -17.288  39.220  90.725  0.00  0.00     0.042 H 
+BRANCH  10  13
+ATOM     13  C11 AEH d   1     -16.667  40.798  92.059  0.00  0.00     0.083 C 
+ATOM     14  H14 AEH d   1     -17.263  40.736  92.982  0.00  0.00     0.075 H 
+ATOM     15  H15 AEH d   1     -16.380  41.844  91.877  0.00  0.00     0.075 H 
+BRANCH  13  16
+ATOM     16  N12 AEH d   1     -15.422  39.958  92.211  0.00  0.00    -0.079 N 
+ATOM     17  H9  AEH d   1     -14.879  40.300  92.988  0.00  0.00     0.274 HD
+ATOM     18  H10 AEH d   1     -14.874  40.014  91.367  0.00  0.00     0.274 HD
+ATOM     19  H11 AEH d   1     -15.682  38.999  92.379  0.00  0.00     0.274 HD
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   6  20
+ATOM     20  C4  AEH d   1     -21.888  42.568  89.867  0.00  0.00    -0.042 C 
+ATOM     21  H1  AEH d   1     -22.910  42.580  90.273  0.00  0.00     0.039 H 
+ATOM     22  H2  AEH d   1     -21.429  43.559  90.000  0.00  0.00     0.039 H 
+BRANCH  20  23
+ATOM     23  C8  AEH d   1     -21.962  42.262  88.366  0.00  0.00    -0.073 C 
+ATOM     24  H4  AEH d   1     -22.564  43.033  87.864  0.00  0.00     0.028 H 
+ATOM     25  H5  AEH d   1     -22.428  41.277  88.215  0.00  0.00     0.028 H 
+ATOM     26  H6  AEH d   1     -20.947  42.256  87.942  0.00  0.00     0.028 H 
+ENDBRANCH  20  23
+ENDBRANCH   6  20
+BRANCH   3  27
+ATOM     27  O7  AEH d   1     -23.031  40.886  91.871  0.00  0.00    -0.360 OA
+ATOM     28  H12 AEH d   1     -23.157  41.135  92.779  0.00  0.00     0.217 HD
+ENDBRANCH   3  27
+TORSDOF 6

@@ -1,0 +1,67 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_13  and  NAA_1 
+REMARK       I    between atoms: NAC_3  and  CAP_16 
+REMARK    2  A    between atoms: NAD_4  and  NAE_5 
+REMARK    3  A    between atoms: CAZ_26  and  NAD_4 
+REMARK       I    between atoms: NAE_5  and  CBA_27 
+REMARK       I    between atoms: CBA_27  and  NAF_6 
+REMARK    4  A    between atoms: CAP_16  and  CAO_15 
+ROOT
+ATOM      1  NAC YIR d   1      47.139  14.660  -5.888  0.00  0.00    -0.333 N 
+ATOM      2  CAP YIR d   1      47.927  14.650  -6.971  0.00  0.00     0.206 C 
+ATOM      3  CAQ YIR d   1      47.266  13.898  -4.796  0.00  0.00     0.035 A 
+ATOM      4  CAR YIR d   1      48.269  12.926  -4.645  0.00  0.00    -0.046 A 
+ATOM      5  CAS YIR d   1      48.372  12.195  -3.453  0.00  0.00    -0.021 A 
+ATOM      6  CAT YIR d   1      47.481  12.441  -2.410  0.00  0.00     0.005 A 
+ATOM      7  CAU YIR d   1      46.495  13.432  -2.554  0.00  0.00    -0.068 A 
+ATOM      8  CAV YIR d   1      46.388  14.155  -3.740  0.00  0.00    -0.056 A 
+ATOM      9  CAW YIR d   1      49.475  11.128  -3.330  0.00  0.00    -0.072 C 
+ATOM     10  CAX YIR d   1      49.025   9.933  -2.480  0.00  0.00    -0.080 C 
+ATOM     11  CAY YIR d   1      48.402  10.353  -1.154  0.00  0.00    -0.053 C 
+ATOM     12  CAZ YIR d   1      47.642  11.691  -1.240  0.00  0.00     0.088 C 
+ATOM     13  OBD YIR d   1      48.892  13.748  -7.229  0.00  0.00    -0.170 OA
+ATOM     14  H   YIR d   1      46.360  15.318  -5.897  0.00  0.00     0.168 HD
+ATOM     15  H   YIR d   1      48.970  12.739  -5.458  0.00  0.00     0.088 H 
+ATOM     16  H   YIR d   1      45.809  13.636  -1.732  0.00  0.00     0.085 H 
+ATOM     17  H   YIR d   1      45.620  14.921  -3.844  0.00  0.00     0.086 H 
+ATOM     18  H   YIR d   1      50.459  11.212  -3.792  0.00  0.00     0.084 H 
+ATOM     19  H   YIR d   1      49.139   8.895  -2.791  0.00  0.00     0.083 H 
+ATOM     20  H   YIR d   1      48.485   9.767  -0.239  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   2  21
+ATOM     21  CAO YIR d   1      47.624  15.699  -8.028  0.00  0.00     0.088 A 
+ATOM     22  NAB YIR d   1      48.268  15.775  -9.198  0.00  0.00    -0.350 N 
+ATOM     23  CAL YIR d   1      47.821  16.840  -9.873  0.00  0.00     0.076 A 
+ATOM     24  H   YIR d   1      48.984  15.126  -9.523  0.00  0.00     0.166 HD
+ATOM     25  CAK YIR d   1      46.818  17.508  -9.168  0.00  0.00    -0.005 A 
+ATOM     26  CAM YIR d   1      48.176  17.342 -11.127  0.00  0.00     0.130 A 
+ATOM     27  CAJ YIR d   1      46.212  18.647  -9.695  0.00  0.00    -0.071 A 
+ATOM     28  CAN YIR d   1      46.591  16.774  -7.870  0.00  0.00    -0.041 A 
+ATOM     29  CAI YIR d   1      46.551  19.143 -10.947  0.00  0.00    -0.080 A 
+ATOM     30  H   YIR d   1      45.451  19.163  -9.109  0.00  0.00     0.084 H 
+ATOM     31  CAH YIR d   1      47.519  18.561 -11.764  0.00  0.00    -0.049 A 
+ATOM     32  H   YIR d   1      46.034  20.032 -11.309  0.00  0.00     0.083 H 
+ATOM     33  H   YIR d   1      47.779  18.938 -12.753  0.00  0.00     0.087 H 
+ATOM     34  H   YIR d   1      45.887  16.967  -7.060  0.00  0.00     0.088 H 
+BRANCH  26  35
+ATOM     35  NAA YIR d   1      49.117  16.744 -11.851  0.00  0.00    -0.113 N 
+ATOM     36  OBB YIR d   1      49.796  15.580 -11.423  0.00  0.00    -0.532 OA
+ATOM     37  OBC YIR d   1      49.444  17.253 -13.121  0.00  0.00    -0.532 OA
+ENDBRANCH  26  35
+ENDBRANCH   2  21
+BRANCH  12  38
+ATOM     38  NAD YIR d   1      47.191  12.211  -0.103  0.00  0.00    -0.160 NA
+BRANCH  38  39
+ATOM     39  NAE YIR d   1      47.288  11.659   1.007  0.00  0.00    -0.110 N 
+ATOM     40  CBA YIR d   1      46.826  12.301   2.079  0.00  0.00     0.685 C 
+ATOM     41  NAF YIR d   1      46.254  13.485   1.942  0.00  0.00    -0.234 N 
+ATOM     42  NAG YIR d   1      46.907  11.776   3.298  0.00  0.00    -0.234 N 
+ATOM     43  H   YIR d   1      45.888  13.972   2.760  0.00  0.00     0.174 HD
+ATOM     44  H   YIR d   1      46.178  13.911   1.018  0.00  0.00     0.174 HD
+ATOM     45  H   YIR d   1      46.533  12.285   4.099  0.00  0.00     0.174 HD
+ATOM     46  H   YIR d   1      47.343  10.864   3.433  0.00  0.00     0.174 HD
+ATOM     47  H   YIR d   1      47.712  10.735   1.095  0.00  0.00     0.208 HD
+ENDBRANCH  38  39
+ENDBRANCH  12  38
+TORSDOF 4

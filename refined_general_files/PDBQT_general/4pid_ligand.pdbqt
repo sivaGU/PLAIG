@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_14  and  C1_1 
+REMARK    2  A    between atoms: C10_17  and  C11_3 
+REMARK    3  A    between atoms: C4_11  and  C12_4 
+REMARK    4  A    between atoms: C12_4  and  N13_18 
+REMARK       I    between atoms: N9_16  and  C7_14 
+REMARK    5  A    between atoms: N9_16  and  C10_17 
+ROOT
+ATOM      1  C7  2UQ d   1     -25.893  49.548  39.265  0.00  0.00     0.254 C 
+ATOM      2  O8  2UQ d   1     -26.241  49.366  40.470  0.00  0.00    -0.268 OA
+ATOM      3  N9  2UQ d   1     -26.437  48.881  38.172  0.00  0.00    -0.353 N 
+ATOM      4  H   2UQ d   1     -26.044  49.056  37.269  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C10 2UQ d   1     -27.568  47.925  38.269  0.00  0.00     0.019 C 
+ATOM      6  H   2UQ d   1     -28.167  48.179  39.156  0.00  0.00     0.071 H 
+ATOM      7  H   2UQ d   1     -28.189  48.023  37.367  0.00  0.00     0.071 H 
+BRANCH   5   8
+ATOM      8  C11 2UQ d   1     -27.095  46.431  38.393  0.00  0.00    -0.041 A 
+ATOM      9  C14 2UQ d   1     -25.915  46.074  39.123  0.00  0.00    -0.075 A 
+ATOM     10  C15 2UQ d   1     -25.481  44.726  39.223  0.00  0.00    -0.082 A 
+ATOM     11  H   2UQ d   1     -25.340  46.852  39.611  0.00  0.00     0.084 H 
+ATOM     12  C16 2UQ d   1     -26.241  43.690  38.611  0.00  0.00    -0.083 A 
+ATOM     13  H   2UQ d   1     -24.573  44.486  39.764  0.00  0.00     0.083 H 
+ATOM     14  C17 2UQ d   1     -27.425  44.012  37.876  0.00  0.00    -0.082 A 
+ATOM     15  H   2UQ d   1     -25.923  42.658  38.702  0.00  0.00     0.083 H 
+ATOM     16  C18 2UQ d   1     -27.848  45.374  37.769  0.00  0.00    -0.075 A 
+ATOM     17  H   2UQ d   1     -28.000  43.225  37.401  0.00  0.00     0.083 H 
+ATOM     18  H   2UQ d   1     -28.746  45.614  37.212  0.00  0.00     0.084 H 
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  19
+ATOM     19  C1  2UQ d   1     -24.656  50.450  39.012  0.00  0.00     0.067 A 
+ATOM     20  C2  2UQ d   1     -23.785  50.651  40.110  0.00  0.00     0.021 A 
+ATOM     21  N3  2UQ d   1     -22.609  51.375  39.973  0.00  0.00    -0.239 NA
+ATOM     22  H   2UQ d   1     -24.042  50.231  41.076  0.00  0.00     0.116 H 
+ATOM     23  C4  2UQ d   1     -22.321  51.870  38.708  0.00  0.00     0.165 A 
+ATOM     24  N5  2UQ d   1     -23.170  51.721  37.619  0.00  0.00    -0.239 NA
+ATOM     25  C6  2UQ d   1     -24.339  51.023  37.737  0.00  0.00     0.021 A 
+ATOM     26  H   2UQ d   1     -25.007  50.906  36.891  0.00  0.00     0.116 H 
+BRANCH  23  27
+ATOM     27  C12 2UQ d   1     -21.157  52.717  38.604  0.00  0.00     0.040 C 
+ATOM     28  H   2UQ d   1     -20.967  53.300  37.704  0.00  0.00     0.119 H 
+BRANCH  27  29
+ATOM     29  N13 2UQ d   1     -20.369  52.762  39.582  0.00  0.00    -0.308 NA
+ATOM     30  H   2UQ d   1     -19.547  53.344  39.541  0.00  0.00     0.186 HD
+ENDBRANCH  27  29
+ENDBRANCH  23  27
+ENDBRANCH   1  19
+TORSDOF 5

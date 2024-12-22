@@ -1,0 +1,72 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_1  and  CAS_2 
+REMARK    2  A    between atoms: CAS_2  and  CAO_3 
+REMARK    3  A    between atoms: CAM_8  and  CAP_9 
+REMARK    4  A    between atoms: CAJ_11  and  NAI_12 
+REMARK    5  A    between atoms: NAI_12  and  SAH_13 
+REMARK    6  A    between atoms: SAH_13  and  CAG_16 
+REMARK    7  A    between atoms: CAG_16  and  CAE_17 
+REMARK    8  A    between atoms: CAB_20  and  CAW_21 
+ROOT
+ATOM      1  CAO 8KP d   1      -1.699 -10.341 -20.619  0.00  0.00    -0.035 A 
+ATOM      2  CAK 8KP d   1      -1.706 -11.214 -19.522  0.00  0.00    -0.049 A 
+ATOM      3  CAN 8KP d   1      -1.805 -10.847 -21.913  0.00  0.00     0.057 A 
+ATOM      4  CAQ 8KP d   1      -1.794  -9.938 -23.052  0.00  0.00     0.100 C 
+ATOM      5  NAR 8KP d   1      -1.791  -9.201 -23.979  0.00  0.00    -0.191 NA
+ATOM      6  CAM 8KP d   1      -1.911 -12.223 -22.111  0.00  0.00    -0.038 A 
+ATOM      7  CAL 8KP d   1      -1.915 -13.086 -21.018  0.00  0.00    -0.049 A 
+ATOM      8  CAJ 8KP d   1      -1.811 -12.596 -19.717  0.00  0.00     0.043 A 
+ATOM      9  H6  8KP d   1      -1.630 -10.816 -18.517  0.00  0.00     0.087 H 
+ATOM     10  H10 8KP d   1      -2.000 -14.154 -21.181  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  CAS 8KP d   1      -1.566  -8.835 -20.419  0.00  0.00    -0.043 C 
+ATOM     12  H4  8KP d   1      -1.072  -8.633 -19.457  0.00  0.00     0.039 H 
+ATOM     13  H5  8KP d   1      -0.967  -8.406 -21.236  0.00  0.00     0.039 H 
+BRANCH  11  14
+ATOM     14  CAT 8KP d   1      -2.950  -8.209 -20.421  0.00  0.00    -0.073 C 
+ATOM     15  H1  8KP d   1      -2.861  -7.122 -20.277  0.00  0.00     0.028 H 
+ATOM     16  H2  8KP d   1      -3.548  -8.639 -19.604  0.00  0.00     0.028 H 
+ATOM     17  H3  8KP d   1      -3.443  -8.412 -21.383  0.00  0.00     0.028 H 
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   6  18
+ATOM     18  CAP 8KP d   1      -2.027 -12.800 -23.515  0.00  0.00    -0.050 C 
+ATOM     19  H7  8KP d   1      -2.100 -13.896 -23.456  0.00  0.00     0.033 H 
+ATOM     20  H8  8KP d   1      -1.138 -12.523 -24.100  0.00  0.00     0.033 H 
+ATOM     21  H9  8KP d   1      -2.927 -12.399 -24.003  0.00  0.00     0.033 H 
+ENDBRANCH   6  18
+BRANCH   8  22
+ATOM     22  NAI 8KP d   1      -1.832 -13.568 -18.649  0.00  0.00    -0.284 N 
+ATOM     23  H11 8KP d   1      -2.371 -14.401 -18.776  0.00  0.00     0.178 HD
+BRANCH  22  24
+ATOM     24  SAH 8KP d   1      -1.003 -13.373 -17.215  0.00  0.00     0.234 S 
+ATOM     25  OAU 8KP d   1      -1.073 -12.017 -16.780  0.00  0.00    -0.205 OA
+ATOM     26  OAV 8KP d   1      -1.484 -14.386 -16.319  0.00  0.00    -0.205 OA
+BRANCH  24  27
+ATOM     27  CAG 8KP d   1       0.731 -13.756 -17.520  0.00  0.00     0.070 C 
+ATOM     28  H12 8KP d   1       0.812 -14.773 -17.932  0.00  0.00     0.066 H 
+ATOM     29  H13 8KP d   1       1.288 -13.699 -16.573  0.00  0.00     0.066 H 
+BRANCH  27  30
+ATOM     30  CAE 8KP d   1       1.322 -12.762 -18.513  0.00  0.00    -0.043 A 
+ATOM     31  CAD 8KP d   1       1.335 -13.041 -19.881  0.00  0.00    -0.075 A 
+ATOM     32  CAC 8KP d   1       1.872 -12.119 -20.778  0.00  0.00    -0.077 A 
+ATOM     33  H14 8KP d   1       0.927 -13.976 -20.246  0.00  0.00     0.084 H 
+ATOM     34  CAB 8KP d   1       2.410 -10.923 -20.299  0.00  0.00    -0.062 A 
+ATOM     35  H15 8KP d   1       1.872 -12.329 -21.841  0.00  0.00     0.084 H 
+ATOM     36  CAA 8KP d   1       2.402 -10.653 -18.941  0.00  0.00    -0.077 A 
+ATOM     37  CAF 8KP d   1       1.862 -11.570 -18.044  0.00  0.00    -0.075 A 
+ATOM     38  H19 8KP d   1       2.819  -9.722 -18.574  0.00  0.00     0.084 H 
+ATOM     39  H20 8KP d   1       1.863 -11.355 -16.982  0.00  0.00     0.084 H 
+BRANCH  34  40
+ATOM     40  CAW 8KP d   1       3.009  -9.895 -21.248  0.00  0.00    -0.051 C 
+ATOM     41  H16 8KP d   1       3.374  -9.032 -20.671  0.00  0.00     0.033 H 
+ATOM     42  H17 8KP d   1       2.240  -9.561 -21.960  0.00  0.00     0.033 H 
+ATOM     43  H18 8KP d   1       3.846 -10.348 -21.799  0.00  0.00     0.033 H 
+ENDBRANCH  34  40
+ENDBRANCH  27  30
+ENDBRANCH  24  27
+ENDBRANCH  22  24
+ENDBRANCH   8  22
+TORSDOF 8

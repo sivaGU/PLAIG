@@ -1,0 +1,51 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3_1  and  C4_2 
+REMARK    2  A    between atoms: C5_9  and  O_12 
+REMARK    3  A    between atoms: C1_10  and  C_11 
+REMARK    4  A    between atoms: O_12  and  C6_13 
+REMARK    5  A    between atoms: C6_13  and  C8_14 
+REMARK    6  A    between atoms: C6_13  and  C7_15 
+ROOT
+ATOM      1  C4  5U1 d   1     112.032  88.631  26.442  0.00  0.00     0.753 A 
+ATOM      2  N2  5U1 d   1     112.262  89.473  27.413  0.00  0.00     0.041 NA
+ATOM      3  N   5U1 d   1     111.840  90.711  26.945  0.00  0.00    -0.054 N 
+ATOM      4  C2  5U1 d   1     111.851  91.921  27.548  0.00  0.00     0.033 A 
+ATOM      5  N1  5U1 d   1     111.504  89.254  25.354  0.00  0.00     0.133 NA
+ATOM      6  C3  5U1 d   1     111.344  90.582  25.632  0.00  0.00     0.767 A 
+ATOM      7  N4  5U1 d   1     110.862  91.589  24.913  0.00  0.00    -0.035 NA
+ATOM      8  C5  5U1 d   1     110.884  92.773  25.513  0.00  0.00     0.191 A 
+ATOM      9  C1  5U1 d   1     111.381  93.000  26.817  0.00  0.00     0.010 A 
+ATOM     10  H3  5U1 d   1     112.215  92.043  28.567  0.00  0.00     0.116 H 
+ENDROOT
+BRANCH   8  11
+ATOM     11  O   5U1 d   1     110.407  93.860  24.869  0.00  0.00    -0.329 OA
+BRANCH  11  12
+ATOM     12  C6  5U1 d   1     109.825  93.877  23.522  0.00  0.00     0.040 C 
+ATOM     13  H7  5U1 d   1     110.547  93.481  22.793  0.00  0.00     0.083 H 
+BRANCH  12  14
+ATOM     14  C8  5U1 d   1     109.549  95.321  23.245  0.00  0.00    -0.052 C 
+ATOM     15  H8  5U1 d   1     109.106  95.424  22.243  0.00  0.00     0.030 H 
+ATOM     16  H9  5U1 d   1     110.490  95.889  23.290  0.00  0.00     0.030 H 
+ATOM     17  H10 5U1 d   1     108.848  95.711  23.997  0.00  0.00     0.030 H 
+ENDBRANCH  12  14
+BRANCH  12  18
+ATOM     18  C7  5U1 d   1     108.546  93.049  23.448  0.00  0.00    -0.052 C 
+ATOM     19  H11 5U1 d   1     108.143  93.088  22.425  0.00  0.00     0.030 H 
+ATOM     20  H12 5U1 d   1     107.804  93.457  24.150  0.00  0.00     0.030 H 
+ATOM     21  H13 5U1 d   1     108.769  92.005  23.715  0.00  0.00     0.030 H 
+ENDBRANCH  12  18
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+BRANCH   9  22
+ATOM     22  C   5U1 d   1     111.360  94.355  27.476  0.00  0.00    -0.046 C 
+ATOM     23  H4  5U1 d   1     111.798  94.280  28.482  0.00  0.00     0.033 H 
+ATOM     24  H5  5U1 d   1     110.321  94.709  27.554  0.00  0.00     0.033 H 
+ATOM     25  H6  5U1 d   1     111.945  95.065  26.873  0.00  0.00     0.033 H 
+ENDBRANCH   9  22
+BRANCH   1  26
+ATOM     26  N3  5U1 d   1     112.284  87.320  26.463  0.00  0.00    -0.229 N 
+ATOM     27  H1  5U1 d   1     112.684  86.886  27.307  0.00  0.00     0.174 HD
+ATOM     28  H2  5U1 d   1     112.078  86.743  25.635  0.00  0.00     0.174 HD
+ENDBRANCH   1  26
+TORSDOF 6

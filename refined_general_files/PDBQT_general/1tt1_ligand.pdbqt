@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG2_10  and  CD2_4 
+REMARK    2  A    between atoms: CA_5  and  C_11 
+REMARK    3  A    between atoms: CB_6  and  CB1_7 
+REMARK    4  A    between atoms: CB1_7  and  CG1_9 
+REMARK    5  A    between atoms: CG_8  and  CG2_10 
+ROOT
+ATOM      1  N   KAI d   1       2.169   0.504  24.198  0.00  0.00    -0.060 N 
+ATOM      2  CD  KAI d   1       0.889   0.004  24.885  0.00  0.00     0.090 C 
+ATOM      3  CA  KAI d   1       3.187   0.701  25.216  0.00  0.00     0.189 C 
+ATOM      4  CB  KAI d   1       2.436   0.921  26.505  0.00  0.00     0.001 C 
+ATOM      5  CG  KAI d   1       1.362  -0.119  26.407  0.00  0.00    -0.004 C 
+ATOM      6  H1  KAI d   1       1.985   1.376  23.727  0.00  0.00     0.278 HD
+ATOM      7  H2  KAI d   1       2.485  -0.179  23.528  0.00  0.00     0.278 HD
+ATOM      8  H3  KAI d   1       0.573  -0.970  24.484  0.00  0.00     0.076 H 
+ATOM      9  H4  KAI d   1       0.068   0.728  24.778  0.00  0.00     0.076 H 
+ATOM     10  H10 KAI d   1       3.737   1.624  24.981  0.00  0.00     0.102 H 
+ATOM     11  H11 KAI d   1       3.102   0.710  27.355  0.00  0.00     0.045 H 
+ATOM     12  H14 KAI d   1       1.863  -1.094  26.498  0.00  0.00     0.050 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  CG2 KAI d   1       0.261  -0.162  27.543  0.00  0.00    -0.087 C 
+ATOM     14  CD1 KAI d   1      -0.975  -0.087  27.182  0.00  0.00    -0.119 C 
+ATOM     15  H5  KAI d   1      -1.764  -0.113  27.932  0.00  0.00     0.067 H 
+ATOM     16  H6  KAI d   1      -1.230   0.002  26.127  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  CD2 KAI d   1       0.702  -0.288  28.952  0.00  0.00    -0.055 C 
+ATOM     18  H7  KAI d   1      -0.178  -0.303  29.612  0.00  0.00     0.033 H 
+ATOM     19  H8  KAI d   1       1.342   0.568  29.214  0.00  0.00     0.033 H 
+ATOM     20  H9  KAI d   1       1.270  -1.222  29.076  0.00  0.00     0.033 H 
+ENDBRANCH  13  17
+ENDBRANCH   5  13
+BRANCH   4  21
+ATOM     21  CB1 KAI d   1       1.805   2.382  26.735  0.00  0.00     0.022 C 
+ATOM     22  H12 KAI d   1       0.992   2.307  27.473  0.00  0.00     0.049 H 
+ATOM     23  H13 KAI d   1       1.401   2.750  25.780  0.00  0.00     0.049 H 
+BRANCH  21  24
+ATOM     24  CG1 KAI d   1       2.853   3.378  27.249  0.00  0.00     0.172 C 
+ATOM     25  OD1 KAI d   1       2.478   4.559  27.259  0.00  0.00    -0.648 OA
+ATOM     26  OD2 KAI d   1       3.975   2.961  27.613  0.00  0.00    -0.648 OA
+ENDBRANCH  21  24
+ENDBRANCH   4  21
+BRANCH   3  27
+ATOM     27  C   KAI d   1       4.255  -0.459  25.263  0.00  0.00     0.205 C 
+ATOM     28  O   KAI d   1       4.349  -1.140  24.218  0.00  0.00    -0.646 OA
+ATOM     29  OXT KAI d   1       4.932  -0.565  26.331  0.00  0.00    -0.646 OA
+ENDBRANCH   3  27
+TORSDOF 5

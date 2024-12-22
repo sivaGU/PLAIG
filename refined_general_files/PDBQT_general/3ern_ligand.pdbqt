@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_5 
+REMARK    2  A    between atoms: O5'_5  and  C5'_6 
+REMARK    3  A    between atoms: C5'_6  and  C4'_7 
+REMARK    4  A    between atoms: C3'_9  and  O3'_10 
+REMARK    5  A    between atoms: C2'_11  and  O2'_12 
+REMARK    6  A    between atoms: C1'_13  and  N1_14 
+ROOT
+ATOM      1  C4' CAR d   1      71.162 -71.621  43.893  0.00  0.00     0.089 C 
+ATOM      2  O4' CAR d   1      72.004 -71.111  42.840  0.00  0.00    -0.353 OA
+ATOM      3  C3' CAR d   1      71.366 -70.644  45.036  0.00  0.00     0.091 C 
+ATOM      4  C2' CAR d   1      72.861 -70.407  44.958  0.00  0.00     0.105 C 
+ATOM      5  C1' CAR d   1      73.140 -70.451  43.451  0.00  0.00     0.141 C 
+ATOM      6  H3  CAR d   1      71.472 -72.633  44.192  0.00  0.00     0.090 H 
+ATOM      7  H4  CAR d   1      70.788 -69.717  44.908  0.00  0.00     0.091 H 
+ATOM      8  H6  CAR d   1      73.419 -71.186  45.499  0.00  0.00     0.093 H 
+ATOM      9  H8  CAR d   1      74.050 -71.042  43.271  0.00  0.00     0.123 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  N1  CAR d   1      73.335 -69.094  42.854  0.00  0.00    -0.280 N 
+ATOM     11  C2  CAR d   1      74.627 -68.551  42.775  0.00  0.00     0.330 A 
+ATOM     12  O2  CAR d   1      75.582 -69.197  43.204  0.00  0.00    -0.246 OA
+ATOM     13  N3  CAR d   1      74.821 -67.283  42.211  0.00  0.00    -0.293 N 
+ATOM     14  C4  CAR d   1      73.721 -66.566  41.728  0.00  0.00     0.125 A 
+ATOM     15  H9  CAR d   1      75.740 -66.893  42.154  0.00  0.00     0.172 HD
+ATOM     16  N4  CAR d   1      73.885 -65.364  41.204  0.00  0.00    -0.284 NA
+ATOM     17  C5  CAR d   1      72.444 -67.092  41.814  0.00  0.00    -0.024 A 
+ATOM     18  H10 CAR d   1      73.089 -64.852  40.858  0.00  0.00     0.188 HD
+ATOM     19  C6  CAR d   1      72.246 -68.350  42.374  0.00  0.00    -0.009 A 
+ATOM     20  H11 CAR d   1      71.594 -66.521  41.443  0.00  0.00     0.091 H 
+ATOM     21  H12 CAR d   1      71.239 -68.760  42.440  0.00  0.00     0.112 H 
+ENDBRANCH   5  10
+BRANCH   4  22
+ATOM     22  O2' CAR d   1      73.205 -69.122  45.457  0.00  0.00    -0.388 OA
+ATOM     23  H7  CAR d   1      72.934 -69.053  46.365  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+BRANCH   1  24
+ATOM     24  C5' CAR d   1      69.703 -71.654  43.409  0.00  0.00     0.059 C 
+ATOM     25  H1  CAR d   1      69.598 -72.451  42.658  0.00  0.00     0.079 H 
+ATOM     26  H2  CAR d   1      69.051 -71.871  44.268  0.00  0.00     0.079 H 
+BRANCH  24  27
+ATOM     27  O5' CAR d   1      69.290 -70.402  42.818  0.00  0.00    -0.280 OA
+BRANCH  27  28
+ATOM     28  P   CAR d   1      68.049 -70.400  41.790  0.00  0.00     0.422 P 
+ATOM     29  OP1 CAR d   1      67.536 -69.037  41.461  0.00  0.00    -0.617 OA
+ATOM     30  OP2 CAR d   1      68.566 -71.191  40.476  0.00  0.00    -0.617 OA
+ATOM     31  OP3 CAR d   1      66.887 -71.329  42.446  0.00  0.00    -0.617 OA
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH   1  24
+BRANCH   3  32
+ATOM     32  O3' CAR d   1      71.031 -71.281  46.256  0.00  0.00    -0.390 OA
+ATOM     33  H5  CAR d   1      71.157 -70.673  46.975  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+TORSDOF 6

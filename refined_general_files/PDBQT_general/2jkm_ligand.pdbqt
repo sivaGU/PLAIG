@@ -1,0 +1,117 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAI_1  and  CAN_2 
+REMARK    2  A    between atoms: CAN_2  and  CAW_3 
+REMARK    3  A    between atoms: CAN_2  and  NAO_4 
+REMARK    4  A    between atoms: NAO_4  and  SAP_5 
+REMARK    5  A    between atoms: SAP_5  and  CAQ_8 
+REMARK    6  A    between atoms: CAK_13  and  NAE_14 
+REMARK    7  A    between atoms: NAE_14  and  C4_15 
+REMARK    8  A    between atoms: C2_21  and  NAH_22 
+REMARK    9  A    between atoms: NAH_22  and  CAM_23 
+REMARK   10  A    between atoms: CAT_24  and  OAU_26 
+REMARK   11  A    between atoms: OAU_26  and  CAV_27 
+REMARK   12  A    between atoms: CBD_30  and  NBE_31 
+REMARK   13  A    between atoms: CBI_35  and  NBJ_36 
+REMARK   14  A    between atoms: NBJ_36  and  CBK_37 
+ROOT
+ATOM      1  C4  BII d   1       7.504   3.959  26.649  0.00  0.00     0.170 A 
+ATOM      2  N3  BII d   1       7.199   2.768  27.217  0.00  0.00    -0.043 NA
+ATOM      3  C5  BII d   1       6.486   4.645  25.987  0.00  0.00     0.098 A 
+ATOM      4 CL5  BII d   1       6.831   6.187  25.266  0.00  0.00    -0.079 Cl
+ATOM      5  C6  BII d   1       5.208   4.080  25.909  0.00  0.00     0.046 A 
+ATOM      6  N1  BII d   1       4.973   2.893  26.469  0.00  0.00    -0.073 NA
+ATOM      7  C2  BII d   1       5.958   2.234  27.117  0.00  0.00     0.728 A 
+ATOM      8  H14 BII d   1       4.412   4.606  25.395  0.00  0.00     0.118 H 
+ENDROOT
+BRANCH   7   9
+ATOM      9  NAH BII d   1       5.680   1.049  27.668  0.00  0.00    -0.185 N 
+ATOM     10  H15 BII d   1       4.750   0.646  27.484  0.00  0.00     0.184 HD
+BRANCH   9  11
+ATOM     11  CAM BII d   1       6.518   0.344  28.442  0.00  0.00     0.082 A 
+ATOM     12  CAT BII d   1       6.009  -0.205  29.622  0.00  0.00     0.097 A 
+ATOM     13  CBB BII d   1       6.844  -0.966  30.445  0.00  0.00    -0.023 A 
+ATOM     14  CBD BII d   1       8.180  -1.204  30.113  0.00  0.00     0.033 A 
+ATOM     15  H16 BII d   1       6.445  -1.382  31.363  0.00  0.00     0.091 H 
+ATOM     16  CBA BII d   1       8.694  -0.658  28.926  0.00  0.00    -0.055 A 
+ATOM     17  CAS BII d   1       7.861   0.101  28.093  0.00  0.00    -0.052 A 
+ATOM     18  H21 BII d   1       9.731  -0.823  28.655  0.00  0.00     0.087 H 
+ATOM     19  H20 BII d   1       8.255   0.506  27.168  0.00  0.00     0.087 H 
+BRANCH  12  20
+ATOM     20  OAU BII d   1       4.699   0.017  29.935  0.00  0.00    -0.354 OA
+BRANCH  20  21
+ATOM     21  CAV BII d   1       4.280  -0.436  31.236  0.00  0.00     0.010 C 
+ATOM     22  H17 BII d   1       3.214  -0.206  31.378  0.00  0.00     0.066 H 
+ATOM     23  H18 BII d   1       4.872   0.075  32.010  0.00  0.00     0.066 H 
+ATOM     24  H19 BII d   1       4.434  -1.522  31.313  0.00  0.00     0.066 H 
+ENDBRANCH  20  21
+ENDBRANCH  12  20
+BRANCH  14  25
+ATOM     25  NBE BII d   1       8.921  -1.948  30.949  0.00  0.00    -0.379 N 
+ATOM     26  CBG BII d   1      10.339  -2.301  30.813  0.00  0.00     0.022 C 
+ATOM     27  CBI BII d   1      10.763  -2.125  32.268  0.00  0.00     0.118 C 
+ATOM     28  H22 BII d   1      10.873  -1.614  30.141  0.00  0.00     0.067 H 
+ATOM     29  H23 BII d   1      10.476  -3.335  30.465  0.00  0.00     0.067 H 
+ATOM     30  CBH BII d   1       9.634  -2.813  33.027  0.00  0.00    -0.022 C 
+ATOM     31  H28 BII d   1      10.794  -1.053  32.514  0.00  0.00     0.086 H 
+ATOM     32  CBF BII d   1       8.399  -2.556  32.173  0.00  0.00    -0.003 C 
+ATOM     33  H26 BII d   1       9.827  -3.892  33.119  0.00  0.00     0.038 H 
+ATOM     34  H27 BII d   1       9.514  -2.375  34.029  0.00  0.00     0.038 H 
+ATOM     35  H24 BII d   1       7.879  -3.499  31.948  0.00  0.00     0.064 H 
+ATOM     36  H25 BII d   1       7.708  -1.869  32.684  0.00  0.00     0.064 H 
+BRANCH  27  37
+ATOM     37  NBJ BII d   1      12.084  -2.715  32.626  0.00  0.00    -0.073 N 
+ATOM     38  H29 BII d   1      11.958  -3.304  33.434  0.00  0.00     0.277 HD
+ATOM     39  H30 BII d   1      12.715  -1.962  32.853  0.00  0.00     0.277 HD
+BRANCH  37  40
+ATOM     40  CBK BII d   1      12.705  -3.535  31.541  0.00  0.00     0.065 C 
+ATOM     41  H31 BII d   1      13.671  -3.930  31.887  0.00  0.00     0.067 H 
+ATOM     42  H32 BII d   1      12.863  -2.907  30.652  0.00  0.00     0.067 H 
+ATOM     43  H33 BII d   1      12.037  -4.371  31.286  0.00  0.00     0.067 H 
+ENDBRANCH  37  40
+ENDBRANCH  27  37
+ENDBRANCH  14  25
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+BRANCH   1  44
+ATOM     44  NAE BII d   1       8.739   4.515  26.699  0.00  0.00    -0.338 N 
+ATOM     45  H13 BII d   1       8.830   5.453  26.283  0.00  0.00     0.167 HD
+BRANCH  44  46
+ATOM     46  CAK BII d   1       9.869   3.987  27.230  0.00  0.00     0.057 A 
+ATOM     47  CAQ BII d   1      11.132   4.347  26.728  0.00  0.00     0.106 A 
+ATOM     48  CAY BII d   1      12.299   3.809  27.289  0.00  0.00    -0.058 A 
+ATOM     49  CBC BII d   1      12.238   2.914  28.356  0.00  0.00    -0.081 A 
+ATOM     50  H9  BII d   1      13.264   4.094  26.886  0.00  0.00     0.086 H 
+ATOM     51  CAZ BII d   1      10.994   2.553  28.863  0.00  0.00    -0.081 A 
+ATOM     52  H10 BII d   1      13.146   2.506  28.784  0.00  0.00     0.083 H 
+ATOM     53  CAR BII d   1       9.827   3.094  28.306  0.00  0.00    -0.056 A 
+ATOM     54  H11 BII d   1      10.927   1.854  29.689  0.00  0.00     0.083 H 
+ATOM     55  H12 BII d   1       8.866   2.813  28.720  0.00  0.00     0.087 H 
+BRANCH  47  56
+ATOM     56  SAP BII d   1      11.342   5.467  25.370  0.00  0.00     0.261 S 
+ATOM     57  OAX BII d   1      12.391   6.457  25.784  0.00  0.00    -0.200 OA
+ATOM     58  OAJ BII d   1      10.092   6.235  25.078  0.00  0.00    -0.200 OA
+BRANCH  56  59
+ATOM     59  NAO BII d   1      11.817   4.643  23.995  0.00  0.00    -0.311 N 
+ATOM     60  H8  BII d   1      12.488   5.048  23.374  0.00  0.00     0.172 HD
+BRANCH  59  61
+ATOM     61  CAN BII d   1      11.237   3.306  23.699  0.00  0.00     0.013 C 
+ATOM     62  H4  BII d   1      10.347   3.156  24.327  0.00  0.00     0.072 H 
+BRANCH  61  63
+ATOM     63  CAI BII d   1      10.843   3.219  22.224  0.00  0.00    -0.057 C 
+ATOM     64  H1  BII d   1      10.416   2.227  22.017  0.00  0.00     0.030 H 
+ATOM     65  H2  BII d   1      11.733   3.373  21.597  0.00  0.00     0.030 H 
+ATOM     66  H3  BII d   1      10.096   3.994  21.997  0.00  0.00     0.030 H 
+ENDBRANCH  61  63
+BRANCH  61  67
+ATOM     67  CAW BII d   1      12.250   2.194  23.981  0.00  0.00    -0.057 C 
+ATOM     68  H5  BII d   1      12.552   2.233  25.038  0.00  0.00     0.030 H 
+ATOM     69  H6  BII d   1      13.134   2.333  23.342  0.00  0.00     0.030 H 
+ATOM     70  H7  BII d   1      11.792   1.217  23.766  0.00  0.00     0.030 H 
+ENDBRANCH  61  67
+ENDBRANCH  59  61
+ENDBRANCH  56  59
+ENDBRANCH  47  56
+ENDBRANCH  44  46
+ENDBRANCH   1  44
+TORSDOF 14

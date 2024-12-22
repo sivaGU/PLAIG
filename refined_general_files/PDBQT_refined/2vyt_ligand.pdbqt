@@ -1,0 +1,57 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CA_2  and  C_9 
+REMARK    4  A    between atoms: CB_3  and  CG_4 
+REMARK    5  A    between atoms: CG_4  and  CD_5 
+REMARK    6  A    between atoms: CD_5  and  CE_6 
+REMARK    7  A    between atoms: CE_6  and  NZ_7 
+REMARK    8  A    between atoms: NZ_7  and  CM_8 
+ROOT
+ATOM      1  CG  MLZ d   1      16.725  43.064  51.430  0.00  0.00    -0.061 C 
+ATOM      2  H7  MLZ d   1      15.942  43.516  50.803  0.00  0.00     0.033 H 
+ATOM      3  H8  MLZ d   1      17.624  43.698  51.408  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CB  MLZ d   1      17.069  41.690  50.888  0.00  0.00    -0.029 C 
+ATOM      5  H5  MLZ d   1      17.956  41.321  51.425  0.00  0.00     0.036 H 
+ATOM      6  H6  MLZ d   1      16.218  41.021  51.082  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  CA  MLZ d   1      17.370  41.658  49.388  0.00  0.00     0.182 C 
+ATOM      8  H4  MLZ d   1      16.478  41.996  48.840  0.00  0.00     0.101 H 
+BRANCH   7   9
+ATOM      9  N   MLZ d   1      17.683  40.297  48.973  0.00  0.00    -0.065 N 
+ATOM     10  H1  MLZ d   1      16.907  39.692  49.192  0.00  0.00     0.275 HD
+ATOM     11  H2  MLZ d   1      18.506  39.978  49.460  0.00  0.00     0.275 HD
+ATOM     12  H3  MLZ d   1      17.852  40.279  47.980  0.00  0.00     0.275 HD
+ENDBRANCH   7   9
+BRANCH   7  13
+ATOM     13  C   MLZ d   1      18.523  42.601  49.071  0.00  0.00     0.204 C 
+ATOM     14  O   MLZ d   1      18.246  43.707  48.555  0.00  0.00    -0.646 OA
+ATOM     15  OXT MLZ d   1      19.686  42.224  49.341  0.00  0.00    -0.646 OA
+ENDBRANCH   7  13
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  CD  MLZ d   1      16.224  42.958  52.856  0.00  0.00    -0.043 C 
+ATOM     17  H9  MLZ d   1      17.008  42.502  53.478  0.00  0.00     0.035 H 
+ATOM     18  H10 MLZ d   1      15.326  42.323  52.874  0.00  0.00     0.035 H 
+BRANCH  16  19
+ATOM     19  CE  MLZ d   1      15.876  44.321  53.421  0.00  0.00     0.081 C 
+ATOM     20  H11 MLZ d   1      15.119  44.792  52.777  0.00  0.00     0.075 H 
+ATOM     21  H12 MLZ d   1      16.783  44.944  53.437  0.00  0.00     0.075 H 
+BRANCH  19  22
+ATOM     22  NZ  MLZ d   1      15.335  44.216  54.809  0.00  0.00    -0.079 N 
+ATOM     23  H13 MLZ d   1      15.996  43.748  55.409  0.00  0.00     0.276 HD
+ATOM     24  H14 MLZ d   1      14.464  43.709  54.809  0.00  0.00     0.276 HD
+BRANCH  22  25
+ATOM     25  CM  MLZ d   1      15.119  45.616  55.269  0.00  0.00     0.065 C 
+ATOM     26  H15 MLZ d   1      14.718  45.608  56.293  0.00  0.00     0.067 H 
+ATOM     27  H16 MLZ d   1      14.404  46.116  54.599  0.00  0.00     0.067 H 
+ATOM     28  H17 MLZ d   1      16.076  46.159  55.254  0.00  0.00     0.067 H 
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 8

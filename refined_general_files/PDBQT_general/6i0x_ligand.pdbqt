@@ -1,0 +1,75 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAU_2  and  NAA_3 
+REMARK    1  A    between atoms: CAU_2  and  CAZ_4 
+REMARK    2  A    between atoms: CAZ_4  and  CAO_5 
+REMARK    3  A    between atoms: CAZ_4  and  NAS_12 
+REMARK    4  A    between atoms: CAO_5  and  CAM_6 
+REMARK    5  A    between atoms: CAM_6  and  CAN_7 
+REMARK    6  A    between atoms: CAN_7  and  NAR_8 
+REMARK    7  A    between atoms: NAR_8  and  CAV_9 
+REMARK    8  A    between atoms: CAV_9  and  CAP_10 
+REMARK       I    between atoms: NAS_12  and  CAW_13 
+REMARK    9  A    between atoms: CAW_13  and  CAX_15 
+ROOT
+ATOM      1  CAZ BFB d   1     -37.136 -32.485  53.374  0.00  0.00     0.089 C 
+ATOM      2  H3  BFB d   1     -37.493 -31.638  53.979  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAU BFB d   1     -37.965 -32.491  52.102  0.00  0.00     0.238 C 
+ATOM      4  OAE BFB d   1     -38.698 -31.532  51.824  0.00  0.00    -0.271 OA
+ATOM      5  NAA BFB d   1     -37.801 -33.553  51.326  0.00  0.00    -0.368 N 
+ATOM      6  H1  BFB d   1     -37.192 -34.293  51.613  0.00  0.00     0.159 HD
+ATOM      7  H2  BFB d   1     -38.286 -33.614  50.454  0.00  0.00     0.159 HD
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  CAO BFB d   1     -35.649 -32.254  53.100  0.00  0.00    -0.036 C 
+ATOM      9  H4  BFB d   1     -35.240 -33.134  52.582  0.00  0.00     0.036 H 
+ATOM     10  H5  BFB d   1     -35.127 -32.117  54.058  0.00  0.00     0.036 H 
+BRANCH   8  11
+ATOM     11  CAM BFB d   1     -35.422 -31.016  52.229  0.00  0.00    -0.048 C 
+ATOM     12  H6  BFB d   1     -35.755 -30.114  52.764  0.00  0.00     0.035 H 
+ATOM     13  H7  BFB d   1     -35.983 -31.112  51.288  0.00  0.00     0.035 H 
+BRANCH  11  14
+ATOM     14  CAN BFB d   1     -33.930 -30.926  51.938  0.00  0.00    -0.006 C 
+ATOM     15  H8  BFB d   1     -33.584 -31.863  51.477  0.00  0.00     0.064 H 
+ATOM     16  H9  BFB d   1     -33.379 -30.752  52.874  0.00  0.00     0.064 H 
+BRANCH  14  17
+ATOM     17  NAR BFB d   1     -33.704 -29.802  51.011  0.00  0.00    -0.380 N 
+ATOM     18  H10 BFB d   1     -34.498 -29.168  50.840  0.00  0.00     0.160 HD
+BRANCH  17  19
+ATOM     19  CAV BFB d   1     -32.557 -29.531  50.371  0.00  0.00     0.066 C 
+ATOM     20  NAC BFB d   1     -32.372 -28.418  49.624  0.00  0.00    -0.389 N 
+ATOM     21  H14 BFB d   1     -31.470 -28.258  49.153  0.00  0.00     0.157 HD
+ATOM     22  H15 BFB d   1     -33.133 -27.731  49.527  0.00  0.00     0.157 HD
+BRANCH  19  23
+ATOM     23  CAP BFB d   1     -31.362 -30.479  50.517  0.00  0.00    -0.024 C 
+ATOM     24  H11 BFB d   1     -30.517 -30.097  49.925  0.00  0.00     0.037 H 
+ATOM     25  H12 BFB d   1     -31.641 -31.479  50.155  0.00  0.00     0.037 H 
+ATOM     26  H13 BFB d   1     -31.070 -30.541  51.576  0.00  0.00     0.037 H 
+ENDBRANCH  19  23
+ENDBRANCH  17  19
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+BRANCH   1  27
+ATOM     27  NAS BFB d   1     -37.308 -33.708  54.190  0.00  0.00    -0.344 N 
+ATOM     28  CAW BFB d   1     -38.516 -34.191  54.535  0.00  0.00     0.252 C 
+ATOM     29  OAF BFB d   1     -39.562 -33.729  54.087  0.00  0.00    -0.268 OA
+ATOM     30  H16 BFB d   1     -36.492 -34.196  54.498  0.00  0.00     0.163 HD
+BRANCH  28  31
+ATOM     31  CAX BFB d   1     -38.523 -35.303  55.413  0.00  0.00     0.032 A 
+ATOM     32  CAK BFB d   1     -39.530 -35.387  56.386  0.00  0.00    -0.068 A 
+ATOM     33  CAI BFB d   1     -39.540 -36.431  57.327  0.00  0.00    -0.082 A 
+ATOM     34  H17 BFB d   1     -40.311 -34.636  56.413  0.00  0.00     0.085 H 
+ATOM     35  CAH BFB d   1     -38.521 -37.411  57.287  0.00  0.00    -0.083 A 
+ATOM     36  H21 BFB d   1     -40.321 -36.485  58.076  0.00  0.00     0.083 H 
+ATOM     37  CAJ BFB d   1     -37.509 -37.346  56.322  0.00  0.00    -0.082 A 
+ATOM     38  H20 BFB d   1     -38.524 -38.219  58.010  0.00  0.00     0.083 H 
+ATOM     39  CAL BFB d   1     -37.508 -36.293  55.392  0.00  0.00    -0.068 A 
+ATOM     40  H19 BFB d   1     -36.733 -38.102  56.293  0.00  0.00     0.083 H 
+ATOM     41  H18 BFB d   1     -36.721 -36.237  54.649  0.00  0.00     0.085 H 
+ENDBRANCH  28  31
+ENDBRANCH   1  27
+TORSDOF 9

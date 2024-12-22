@@ -1,0 +1,161 @@
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAS_2 
+REMARK    2  A    between atoms: CAS_2  and  OBD_3 
+REMARK    3  A    between atoms: OBD_3  and  CBK_4 
+REMARK    4  A    between atoms: CBK_4  and  CBS_6 
+REMARK    5  A    between atoms: CBS_6  and  CBR_7 
+REMARK    6  A    between atoms: CBR_7  and  OAL_8 
+REMARK    7  A    between atoms: CBR_7  and  CBJ_9 
+REMARK       I    between atoms: CBJ_9  and  N_11 
+REMARK    8  A    between atoms: N_11  and  CA_12 
+REMARK    9  A    between atoms: CA_12  and  CB_13 
+REMARK   10  A    between atoms: CA_12  and  C_16 
+REMARK   11  A    between atoms: CB_13  and  CAM_14 
+REMARK   12  A    between atoms: CAM_14  and  CAA_15 
+REMARK       I    between atoms: C_16  and  NAZ_18 
+REMARK   13  A    between atoms: NAZ_18  and  CBP_19 
+REMARK   14  A    between atoms: CBP_19  and  CAW_20 
+REMARK   15  A    between atoms: CBP_19  and  CBI_27 
+REMARK   16  A    between atoms: CAW_20  and  CAT_21 
+REMARK   17  A    between atoms: CAT_21  and  CAU_22 
+REMARK   18  A    between atoms: CAU_22  and  NAY_23 
+REMARK       I    between atoms: NAY_23  and  CBF_24 
+REMARK       I    between atoms: CBF_24  and  NAE_25 
+REMARK       I    between atoms: CBI_27  and  NBB_29 
+REMARK   19  A    between atoms: NBB_29  and  CBQ_30 
+REMARK   20  A    between atoms: CBQ_30  and  CBG_31 
+REMARK   21  A    between atoms: CBQ_30  and  CAX_34 
+REMARK       I    between atoms: CBG_31  and  NAF_33 
+REMARK   22  A    between atoms: CAX_34  and  CBL_35 
+ROOT
+ATOM      1  CBP NQI d   1      16.539   8.547 -21.996  0.00  0.00     0.089 C 
+ATOM      2  H18 NQI d   1      15.773   8.193 -21.290  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  NAZ NQI d   1      16.682   7.556 -23.086  0.00  0.00    -0.346 N 
+ATOM      4  C   NQI d   1      16.270   6.277 -23.176  0.00  0.00     0.241 C 
+ATOM      5  O   NQI d   1      16.456   5.602 -24.185  0.00  0.00    -0.271 OA
+ATOM      6  H17 NQI d   1      17.167   7.894 -23.893  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CA  NQI d   1      15.573   5.605 -22.009  0.00  0.00     0.092 C 
+ATOM      8  H11 NQI d   1      15.643   6.230 -21.107  0.00  0.00     0.088 H 
+BRANCH   7   9
+ATOM      9  N   NQI d   1      14.155   5.442 -22.375  0.00  0.00    -0.345 N 
+ATOM     10  CBJ NQI d   1      13.198   6.131 -21.757  0.00  0.00     0.247 C 
+ATOM     11  OAJ NQI d   1      13.409   6.924 -20.839  0.00  0.00    -0.271 OA
+ATOM     12  H10 NQI d   1      13.907   4.801 -23.102  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CBR NQI d   1      11.784   5.882 -22.285  0.00  0.00     0.120 C 
+ATOM     14  H8  NQI d   1      11.820   5.127 -23.085  0.00  0.00     0.098 H 
+BRANCH  13  15
+ATOM     15  CBS NQI d   1      10.879   5.363 -21.158  0.00  0.00     0.048 C 
+ATOM     16  H6  NQI d   1      11.198   4.343 -20.896  0.00  0.00     0.052 H 
+ATOM     17  H7  NQI d   1      10.998   6.020 -20.284  0.00  0.00     0.052 H 
+BRANCH  15  18
+ATOM     18  CBK NQI d   1       9.396   5.326 -21.539  0.00  0.00     0.261 C 
+ATOM     19  OAK NQI d   1       8.584   5.775 -20.731  0.00  0.00    -0.265 OA
+BRANCH  18  20
+ATOM     20  OBD NQI d   1       8.939   4.774 -22.713  0.00  0.00    -0.322 OA
+BRANCH  20  21
+ATOM     21  CAS NQI d   1       7.592   5.384 -22.991  0.00  0.00     0.025 C 
+ATOM     22  H4  NQI d   1       7.492   6.267 -22.343  0.00  0.00     0.074 H 
+ATOM     23  H5  NQI d   1       7.585   5.699 -24.045  0.00  0.00     0.074 H 
+BRANCH  21  24
+ATOM     24  CAB NQI d   1       6.354   4.509 -22.767  0.00  0.00    -0.056 C 
+ATOM     25  H1  NQI d   1       5.449   5.085 -23.009  0.00  0.00     0.030 H 
+ATOM     26  H2  NQI d   1       6.315   4.191 -21.715  0.00  0.00     0.030 H 
+ATOM     27  H3  NQI d   1       6.409   3.623 -23.416  0.00  0.00     0.030 H 
+ENDBRANCH  21  24
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+BRANCH  13  28
+ATOM     28  OAL NQI d   1      11.290   7.117 -22.824  0.00  0.00    -0.386 OA
+ATOM     29  H9  NQI d   1      11.869   7.413 -23.517  0.00  0.00     0.210 HD
+ENDBRANCH  13  28
+ENDBRANCH  10  13
+ENDBRANCH   7   9
+BRANCH   7  30
+ATOM     30  CB  NQI d   1      16.297   4.280 -21.763  0.00  0.00    -0.023 C 
+ATOM     31  H12 NQI d   1      16.852   4.360 -20.817  0.00  0.00     0.042 H 
+ATOM     32  H13 NQI d   1      17.004   4.114 -22.589  0.00  0.00     0.042 H 
+BRANCH  30  33
+ATOM     33  CAM NQI d   1      15.458   3.187 -21.683  0.00  0.00    -0.110 C 
+ATOM     34  H14 NQI d   1      14.634   3.155 -20.971  0.00  0.00     0.075 H 
+BRANCH  33  35
+ATOM     35  CAA NQI d   1      15.705   2.140 -22.539  0.00  0.00    -0.125 C 
+ATOM     36  H15 NQI d   1      15.071   1.255 -22.514  0.00  0.00     0.066 H 
+ATOM     37  H16 NQI d   1      16.535   2.196 -23.242  0.00  0.00     0.066 H 
+ENDBRANCH  33  35
+ENDBRANCH  30  33
+ENDBRANCH   7  30
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  38
+ATOM     38  CAW NQI d   1      17.870   8.668 -21.193  0.00  0.00    -0.036 C 
+ATOM     39  H19 NQI d   1      18.294   7.658 -21.091  0.00  0.00     0.036 H 
+ATOM     40  H20 NQI d   1      17.626   9.066 -20.197  0.00  0.00     0.036 H 
+BRANCH  38  41
+ATOM     41  CAT NQI d   1      18.952   9.570 -21.805  0.00  0.00    -0.048 C 
+ATOM     42  H21 NQI d   1      18.555  10.051 -22.711  0.00  0.00     0.035 H 
+ATOM     43  H22 NQI d   1      19.828   8.959 -22.068  0.00  0.00     0.035 H 
+BRANCH  41  44
+ATOM     44  CAU NQI d   1      19.372  10.655 -20.795  0.00  0.00     0.009 C 
+ATOM     45  H23 NQI d   1      20.096  10.226 -20.087  0.00  0.00     0.064 H 
+ATOM     46  H24 NQI d   1      18.483  11.000 -20.247  0.00  0.00     0.064 H 
+BRANCH  44  47
+ATOM     47  NAY NQI d   1      19.995  11.812 -21.486  0.00  0.00    -0.227 N 
+ATOM     48  CBF NQI d   1      21.324  11.889 -21.707  0.00  0.00     0.665 C 
+ATOM     49  NAE NQI d   1      22.153  10.914 -21.309  0.00  0.00    -0.235 N 
+ATOM     50  NAD NQI d   1      21.838  12.947 -22.332  0.00  0.00    -0.235 N 
+ATOM     51  H26 NQI d   1      23.164  10.993 -21.488  0.00  0.00     0.174 HD
+ATOM     52  H27 NQI d   1      21.779  10.086 -20.824  0.00  0.00     0.174 HD
+ATOM     53  H28 NQI d   1      21.221  13.709 -22.647  0.00  0.00     0.174 HD
+ATOM     54  H29 NQI d   1      22.853  13.003 -22.500  0.00  0.00     0.174 HD
+ATOM     55  H25 NQI d   1      19.392  12.582 -21.808  0.00  0.00     0.177 HD
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH   1  38
+BRANCH   1  56
+ATOM     56  CBI NQI d   1      15.994   9.864 -22.669  0.00  0.00     0.241 C 
+ATOM     57  OAI NQI d   1      15.368   9.764 -23.738  0.00  0.00    -0.271 OA
+ATOM     58  NBB NQI d   1      16.226  11.048 -22.049  0.00  0.00    -0.346 N 
+ATOM     59  H30 NQI d   1      16.737  11.020 -21.190  0.00  0.00     0.163 HD
+BRANCH  58  60
+ATOM     60  CBQ NQI d   1      15.781  12.404 -22.542  0.00  0.00     0.093 C 
+ATOM     61  H31 NQI d   1      16.277  13.146 -21.899  0.00  0.00     0.088 H 
+BRANCH  60  62
+ATOM     62  CBG NQI d   1      14.250  12.605 -22.383  0.00  0.00     0.238 C 
+ATOM     63  OAG NQI d   1      13.440  11.871 -22.955  0.00  0.00    -0.271 OA
+ATOM     64  NAF NQI d   1      13.899  13.632 -21.600  0.00  0.00    -0.368 N 
+ATOM     65  H32 NQI d   1      12.932  13.833 -21.443  0.00  0.00     0.159 HD
+ATOM     66  H33 NQI d   1      14.604  14.198 -21.172  0.00  0.00     0.159 HD
+ENDBRANCH  60  62
+BRANCH  60  67
+ATOM     67  CAX NQI d   1      16.199  12.729 -24.013  0.00  0.00    -0.012 C 
+ATOM     68  H34 NQI d   1      15.361  12.466 -24.675  0.00  0.00     0.044 H 
+ATOM     69  H35 NQI d   1      17.074  12.113 -24.267  0.00  0.00     0.044 H 
+BRANCH  67  70
+ATOM     70  CBL NQI d   1      16.564  14.217 -24.259  0.00  0.00    -0.028 A 
+ATOM     71  CBN NQI d   1      15.799  15.200 -24.909  0.00  0.00    -0.002 A 
+ATOM     72  CAQ NQI d   1      14.528  15.210 -25.510  0.00  0.00    -0.070 A 
+ATOM     73  CBM NQI d   1      16.561  16.381 -24.887  0.00  0.00     0.042 A 
+ATOM     74  CAO NQI d   1      14.032  16.392 -26.083  0.00  0.00    -0.082 A 
+ATOM     75  H36 NQI d   1      13.931  14.305 -25.531  0.00  0.00     0.084 H 
+ATOM     76  CAN NQI d   1      14.801  17.568 -26.060  0.00  0.00    -0.081 A 
+ATOM     77  H37 NQI d   1      13.052  16.397 -26.545  0.00  0.00     0.083 H 
+ATOM     78  CAP NQI d   1      16.067  17.563 -25.463  0.00  0.00    -0.056 A 
+ATOM     79  H38 NQI d   1      14.414  18.478 -26.504  0.00  0.00     0.083 H 
+ATOM     80  H39 NQI d   1      16.664  18.468 -25.445  0.00  0.00     0.086 H 
+ATOM     81  NBC NQI d   1      17.709  16.095 -24.266  0.00  0.00    -0.365 N 
+ATOM     82  CAR NQI d   1      17.710  14.806 -23.891  0.00  0.00    -0.015 A 
+ATOM     83  H40 NQI d   1      18.476  16.762 -24.100  0.00  0.00     0.165 HD
+ATOM     84  H41 NQI d   1      18.524  14.311 -23.364  0.00  0.00     0.112 H 
+ENDBRANCH  67  70
+ENDBRANCH  60  67
+ENDBRANCH  58  60
+ENDBRANCH   1  56
+TORSDOF 22

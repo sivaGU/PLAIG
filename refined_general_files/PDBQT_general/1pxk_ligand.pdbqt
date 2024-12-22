@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7A_1  and  C3A_2 
+REMARK    2  A    between atoms: C1A_5  and  C6A_6 
+REMARK    3  A    between atoms: C2_13  and  N7_14 
+REMARK    4  A    between atoms: N7_14  and  C8_15 
+REMARK    5  A    between atoms: N9_16  and  O10_17 
+ROOT
+ATOM      1  C3A CK3 d   1      14.155  42.992  25.673  0.00  0.00     0.072 A 
+ATOM      2  S4A CK3 d   1      12.930  44.167  25.504  0.00  0.00    -0.071 SA
+ATOM      3  N2A CK3 d   1      14.927  42.801  24.605  0.00  0.00    -0.250 NA
+ATOM      4  C1A CK3 d   1      14.526  43.631  23.583  0.00  0.00     0.051 A 
+ATOM      5  C5A CK3 d   1      13.453  44.474  23.875  0.00  0.00     0.060 A 
+ATOM      6  C4  CK3 d   1      12.707  45.448  23.136  0.00  0.00     0.096 A 
+ATOM      7  N3  CK3 d   1      11.837  46.226  23.793  0.00  0.00    -0.061 NA
+ATOM      8  C5  CK3 d   1      12.857  45.625  21.735  0.00  0.00    -0.036 A 
+ATOM      9  C6  CK3 d   1      12.059  46.605  21.113  0.00  0.00     0.023 A 
+ATOM     10  N1  CK3 d   1      11.211  47.341  21.819  0.00  0.00    -0.075 NA
+ATOM     11  C2  CK3 d   1      11.151  47.132  23.128  0.00  0.00     0.727 A 
+ATOM     12  H7  CK3 d   1      13.560  45.028  21.165  0.00  0.00     0.089 H 
+ATOM     13  H8  CK3 d   1      12.139  46.760  20.043  0.00  0.00     0.115 H 
+ENDROOT
+BRANCH   4  14
+ATOM     14  C6A CK3 d   1      15.310  43.546  22.278  0.00  0.00    -0.034 C 
+ATOM     15  H4  CK3 d   1      14.889  44.256  21.551  0.00  0.00     0.035 H 
+ATOM     16  H5  CK3 d   1      15.242  42.525  21.875  0.00  0.00     0.035 H 
+ATOM     17  H6  CK3 d   1      16.364  43.796  22.467  0.00  0.00     0.035 H 
+ENDBRANCH   4  14
+BRANCH  11  18
+ATOM     18  N7  CK3 d   1      10.246  47.890  23.944  0.00  0.00    -0.180 N 
+ATOM     19  H9  CK3 d   1      10.366  48.912  23.906  0.00  0.00     0.185 HD
+BRANCH  18  20
+ATOM     20  C8  CK3 d   1       9.207  47.428  24.798  0.00  0.00     0.106 C 
+ATOM     21  N9  CK3 d   1       8.481  48.231  25.458  0.00  0.00    -0.131 NA
+ATOM     22  H10 CK3 d   1       9.030  46.357  24.887  0.00  0.00     0.147 H 
+BRANCH  21  23
+ATOM     23  O10 CK3 d   1       8.526  49.543  25.485  0.00  0.00    -0.265 OA
+ATOM     24  H11 CK3 d   1       8.374  49.882  24.611  0.00  0.00     0.247 HD
+ENDBRANCH  21  23
+ENDBRANCH  18  20
+ENDBRANCH  11  18
+BRANCH   1  25
+ATOM     25  C7A CK3 d   1      14.312  42.242  26.979  0.00  0.00    -0.029 C 
+ATOM     26  H1  CK3 d   1      15.148  41.532  26.896  0.00  0.00     0.036 H 
+ATOM     27  H2  CK3 d   1      13.385  41.692  27.200  0.00  0.00     0.036 H 
+ATOM     28  H3  CK3 d   1      14.517  42.956  27.790  0.00  0.00     0.036 H 
+ENDBRANCH   1  25
+TORSDOF 5

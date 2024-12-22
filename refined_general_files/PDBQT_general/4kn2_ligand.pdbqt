@@ -1,0 +1,87 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C4_4  and  C20_20 
+REMARK    3  A    between atoms: C7_7  and  C8_8 
+REMARK    4  A    between atoms: C8_8  and  C9_9 
+REMARK    5  A    between atoms: C17_17  and  N19_19 
+REMARK       I    between atoms: C20_20  and  N22_22 
+REMARK    6  A    between atoms: N22_22  and  C23_23 
+REMARK    7  A    between atoms: C23_23  and  C24_24 
+REMARK    8  A    between atoms: C23_23  and  C29_29 
+REMARK    9  A    between atoms: C24_24  and  C25_25 
+REMARK   10  A    between atoms: C25_25  and  C26_26 
+ROOT
+ATOM      1  C1  LYA d   1      39.640   5.037  39.223  0.00  0.00    -0.058 A 
+ATOM      2  C2  LYA d   1      39.047   4.526  40.370  0.00  0.00    -0.076 A 
+ATOM      3  C3  LYA d   1      39.808   3.855  41.312  0.00  0.00    -0.067 A 
+ATOM      4  C4  LYA d   1      41.167   3.700  41.088  0.00  0.00     0.032 A 
+ATOM      5  C5  LYA d   1      41.776   4.211  39.946  0.00  0.00    -0.067 A 
+ATOM      6  C6  LYA d   1      41.005   4.885  39.003  0.00  0.00    -0.076 A 
+ATOM      7  H1  LYA d   1      37.982   4.653  40.529  0.00  0.00     0.084 H 
+ATOM      8  H2  LYA d   1      39.349   3.458  42.210  0.00  0.00     0.085 H 
+ATOM      9  H3  LYA d   1      42.842   4.085  39.792  0.00  0.00     0.085 H 
+ATOM     10  H4  LYA d   1      41.464   5.287  38.107  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C7  LYA d   1      38.736   5.761  38.236  0.00  0.00    -0.037 C 
+ATOM     12  H5  LYA d   1      38.160   6.482  38.834  0.00  0.00     0.040 H 
+ATOM     13  H6  LYA d   1      38.058   4.993  37.834  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  C8  LYA d   1      39.234   6.525  37.047  0.00  0.00    -0.035 C 
+ATOM     15  H7  LYA d   1      39.689   5.818  36.338  0.00  0.00     0.040 H 
+ATOM     16  H8  LYA d   1      39.993   7.246  37.383  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  C9  LYA d   1      38.114   7.287  36.332  0.00  0.00    -0.023 A 
+ATOM     18  C10 LYA d   1      37.283   6.789  35.338  0.00  0.00    -0.014 A 
+ATOM     19  N11 LYA d   1      36.431   7.773  34.999  0.00  0.00    -0.350 N 
+ATOM     20  H9  LYA d   1      37.315   5.787  34.912  0.00  0.00     0.112 H 
+ATOM     21  C12 LYA d   1      36.680   8.870  35.735  0.00  0.00     0.137 A 
+ATOM     22  H10 LYA d   1      35.696   7.697  34.281  0.00  0.00     0.166 HD
+ATOM     23  C13 LYA d   1      37.730   8.600  36.590  0.00  0.00     0.085 A 
+ATOM     24  N18 LYA d   1      36.055  10.170  35.757  0.00  0.00    -0.176 N 
+ATOM     25  C14 LYA d   1      38.219   9.646  37.525  0.00  0.00     0.274 A 
+ATOM     26  O15 LYA d   1      39.146   9.392  38.278  0.00  0.00    -0.267 OA
+ATOM     27  N16 LYA d   1      37.608  10.933  37.548  0.00  0.00    -0.155 N 
+ATOM     28  C17 LYA d   1      36.513  11.193  36.662  0.00  0.00     0.680 A 
+ATOM     29  H11 LYA d   1      37.938  11.642  38.172  0.00  0.00     0.187 HD
+ATOM     30  H12 LYA d   1      35.272  10.369  35.118  0.00  0.00     0.186 HD
+BRANCH  28  31
+ATOM     31  N19 LYA d   1      35.869  12.478  36.647  0.00  0.00    -0.234 N 
+ATOM     32  H13 LYA d   1      36.185  13.220  37.288  0.00  0.00     0.174 HD
+ATOM     33  H14 LYA d   1      35.092  12.657  35.995  0.00  0.00     0.174 HD
+ENDBRANCH  28  31
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   4  34
+ATOM     34  C20 LYA d   1      41.977   2.950  42.126  0.00  0.00     0.252 C 
+ATOM     35  O21 LYA d   1      42.683   2.015  41.777  0.00  0.00    -0.268 OA
+ATOM     36  N22 LYA d   1      41.853   3.363  43.509  0.00  0.00    -0.342 N 
+ATOM     37  H15 LYA d   1      41.221   4.103  43.740  0.00  0.00     0.163 HD
+BRANCH  36  38
+ATOM     38  C23 LYA d   1      42.618   2.735  44.568  0.00  0.00     0.097 C 
+ATOM     39  H16 LYA d   1      43.150   1.860  44.167  0.00  0.00     0.089 H 
+BRANCH  38  40
+ATOM     40  C24 LYA d   1      43.627   3.686  45.156  0.00  0.00    -0.028 C 
+ATOM     41  H17 LYA d   1      44.413   3.085  45.636  0.00  0.00     0.037 H 
+ATOM     42  H18 LYA d   1      43.113   4.292  45.916  0.00  0.00     0.037 H 
+BRANCH  40  43
+ATOM     43  C25 LYA d   1      44.297   4.632  44.191  0.00  0.00     0.018 C 
+ATOM     44  H19 LYA d   1      43.555   5.397  43.919  0.00  0.00     0.049 H 
+ATOM     45  H20 LYA d   1      44.566   4.048  43.299  0.00  0.00     0.049 H 
+BRANCH  43  46
+ATOM     46  C26 LYA d   1      45.534   5.355  44.636  0.00  0.00     0.172 C 
+ATOM     47  O27 LYA d   1      46.599   4.708  44.854  0.00  0.00    -0.648 OA
+ATOM     48  O28 LYA d   1      45.510   6.609  44.785  0.00  0.00    -0.648 OA
+ENDBRANCH  43  46
+ENDBRANCH  40  43
+ENDBRANCH  38  40
+BRANCH  38  49
+ATOM     49  C29 LYA d   1      41.635   2.292  45.607  0.00  0.00     0.196 C 
+ATOM     50  O30 LYA d   1      40.667   1.554  45.246  0.00  0.00    -0.646 OA
+ATOM     51  O31 LYA d   1      41.778   2.655  46.822  0.00  0.00    -0.646 OA
+ENDBRANCH  38  49
+ENDBRANCH  36  38
+ENDBRANCH   4  34
+TORSDOF 10

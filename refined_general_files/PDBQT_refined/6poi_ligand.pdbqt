@@ -1,0 +1,48 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O11_1  and  C12_2 
+REMARK    2  A    between atoms: C10_12  and  O11_1 
+REMARK    3  A    between atoms: C04_7  and  C02_6 
+REMARK    4  A    between atoms: C05_8  and  C04_7 
+ROOT
+ATOM      1  C20 OVS d   1      38.800   9.182   2.234  0.00  0.00     0.006 A 
+ATOM      2  C05 OVS d   1      38.103   8.203   1.419  0.00  0.00    -0.013 A 
+ATOM      3  C06 OVS d   1      36.914   8.074   1.971  0.00  0.00     0.027 A 
+ATOM      4  C08 OVS d   1      37.865   9.540   3.242  0.00  0.00     0.088 A 
+ATOM      5  C09 OVS d   1      38.122  10.458   4.260  0.00  0.00    -0.017 A 
+ATOM      6  C10 OVS d   1      39.378  11.091   4.311  0.00  0.00     0.078 A 
+ATOM      7  C18 OVS d   1      40.331  10.744   3.331  0.00  0.00    -0.049 A 
+ATOM      8  C19 OVS d   1      40.028   9.830   2.339  0.00  0.00    -0.067 A 
+ATOM      9  O07 OVS d   1      36.676   8.839   3.071  0.00  0.00    -0.321 OA
+ATOM     10  H5  OVS d   1      36.164   7.394   1.570  0.00  0.00     0.124 H 
+ATOM     11  H6  OVS d   1      37.364  10.681   5.002  0.00  0.00     0.092 H 
+ATOM     12  H10 OVS d   1      41.314  11.200   3.356  0.00  0.00     0.087 H 
+ATOM     13  H11 OVS d   1      40.790   9.605   1.601  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   6  14
+ATOM     14  O11 OVS d   1      39.684  12.003   5.335  0.00  0.00    -0.311 OA
+BRANCH  14  15
+ATOM     15  C12 OVS d   1      40.342  13.158   5.103  0.00  0.00     0.076 A 
+ATOM     16  C13 OVS d   1      41.488  13.519   5.862  0.00  0.00    -0.050 A 
+ATOM     17  C14 OVS d   1      42.152  14.734   5.645  0.00  0.00    -0.080 A 
+ATOM     18  H1  OVS d   1      41.856  12.841   6.624  0.00  0.00     0.087 H 
+ATOM     19  C15 OVS d   1      41.712  15.632   4.689  0.00  0.00    -0.083 A 
+ATOM     20  H7  OVS d   1      43.027  14.975   6.238  0.00  0.00     0.083 H 
+ATOM     21  C16 OVS d   1      40.582  15.286   3.943  0.00  0.00    -0.080 A 
+ATOM     22  H2  OVS d   1      42.226  16.572   4.524  0.00  0.00     0.083 H 
+ATOM     23  C17 OVS d   1      39.913  14.091   4.149  0.00  0.00    -0.050 A 
+ATOM     24  H8  OVS d   1      40.220  15.970   3.184  0.00  0.00     0.083 H 
+ATOM     25  H9  OVS d   1      39.033  13.871   3.556  0.00  0.00     0.087 H 
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   2  26
+ATOM     26  C04 OVS d   1      38.573   7.477   0.220  0.00  0.00     0.042 C 
+ATOM     27  H3  OVS d   1      37.740   6.878  -0.176  0.00  0.00     0.056 H 
+ATOM     28  H4  OVS d   1      38.887   8.213  -0.535  0.00  0.00     0.056 H 
+BRANCH  26  29
+ATOM     29  C02 OVS d   1      39.760   6.535   0.512  0.00  0.00     0.177 C 
+ATOM     30  O01 OVS d   1      40.881   6.972   0.199  0.00  0.00    -0.648 OA
+ATOM     31  O03 OVS d   1      39.491   5.439   1.036  0.00  0.00    -0.648 OA
+ENDBRANCH  26  29
+ENDBRANCH   2  26
+TORSDOF 4

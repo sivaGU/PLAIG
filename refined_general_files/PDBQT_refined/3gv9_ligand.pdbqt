@@ -1,0 +1,30 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_2  and  C12_3 
+REMARK       I    between atoms: C10_2  and  N9_4 
+REMARK    2  A    between atoms: C2_9  and  C6_10 
+ROOT
+ATOM      1  O11 GV9 d   1     -34.770   5.414  13.171  0.00  0.00    -0.274 OA
+ATOM      2  C10 GV9 d   1     -35.109   4.399  13.754  0.00  0.00     0.218 C 
+ATOM      3  N9  GV9 d   1     -35.212   4.322  15.082  0.00  0.00    -0.326 N 
+ATOM      4  C3  GV9 d   1     -35.295   5.409  15.887  0.00  0.00     0.059 A 
+ATOM      5  C4  GV9 d   1     -35.562   6.771  15.667  0.00  0.00    -0.049 A 
+ATOM      6  C5  GV9 d   1     -35.553   7.564  16.821  0.00  0.00    -0.042 A 
+ATOM      7  S1  GV9 d   1     -35.202   6.561  18.203  0.00  0.00    -0.093 SA
+ATOM      8  C2  GV9 d   1     -35.062   5.096  17.314  0.00  0.00     0.108 A 
+ATOM      9  H4  GV9 d   1     -35.229   3.416  15.505  0.00  0.00     0.169 HD
+ATOM     10  H5  GV9 d   1     -35.760   7.178  14.677  0.00  0.00     0.087 H 
+ATOM     11  H6  GV9 d   1     -35.736   8.637  16.851  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   8  12
+ATOM     12  C6  GV9 d   1     -34.755   3.791  17.959  0.00  0.00     0.218 C 
+ATOM     13  O7  GV9 d   1     -34.568   2.811  17.216  0.00  0.00    -0.643 OA
+ATOM     14  O8  GV9 d   1     -34.696   3.705  19.204  0.00  0.00    -0.643 OA
+ENDBRANCH   8  12
+BRANCH   2  15
+ATOM     15  C12 GV9 d   1     -35.431   3.139  13.006  0.00  0.00    -0.003 C 
+ATOM     16  H1  GV9 d   1     -35.712   2.350  13.720  0.00  0.00     0.040 H 
+ATOM     17  H2  GV9 d   1     -34.549   2.817  12.433  0.00  0.00     0.040 H 
+ATOM     18  H3  GV9 d   1     -36.268   3.325  12.317  0.00  0.00     0.040 H 
+ENDBRANCH   2  15
+TORSDOF 2

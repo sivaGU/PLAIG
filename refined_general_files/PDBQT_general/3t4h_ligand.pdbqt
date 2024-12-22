@@ -1,0 +1,62 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CA_4 
+REMARK    2  A    between atoms: CA_4  and  N_2 
+REMARK       I    between atoms: N_2  and  CAB_7 
+REMARK    3  A    between atoms: CA_4  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  SAL_11 
+REMARK    5  A    between atoms: CAB_7  and  CAA_6 
+REMARK    6  A    between atoms: SAL_11  and  CAM_12 
+REMARK    7  A    between atoms: CAM_12  and  CAN_13 
+REMARK    8  A    between atoms: CAR_17  and  NAT_19 
+ROOT
+ATOM      1  SAL MD5 d   1      -1.677   2.987   2.278  0.00  0.00    -0.162 SA
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  MD5 d   1      -2.549   2.630   0.676  0.00  0.00     0.005 C 
+ATOM      3  H3  MD5 d   1      -2.909   3.594   0.286  0.00  0.00     0.052 H 
+ATOM      4  H4  MD5 d   1      -1.797   2.214  -0.011  0.00  0.00     0.052 H 
+BRANCH   2   5
+ATOM      5  CA  MD5 d   1      -3.756   1.661   0.662  0.00  0.00     0.104 C 
+ATOM      6  H2  MD5 d   1      -4.600   2.051   1.250  0.00  0.00     0.090 H 
+BRANCH   5   7
+ATOM      7  C   MD5 d   1      -4.158   1.392  -0.814  0.00  0.00     0.197 C 
+ATOM      8  OXT MD5 d   1      -4.476   2.371  -1.503  0.00  0.00    -0.646 OA
+ATOM      9  O   MD5 d   1      -4.106   0.219  -1.252  0.00  0.00    -0.646 OA
+ENDBRANCH   5   7
+BRANCH   5  10
+ATOM     10  N   MD5 d   1      -3.252   0.382   1.190  0.00  0.00    -0.337 N 
+ATOM     11  CAB MD5 d   1      -3.469   0.042   2.475  0.00  0.00     0.319 C 
+ATOM     12  OAH MD5 d   1      -4.098   0.711   3.278  0.00  0.00    -0.261 OA
+ATOM     13  H1  MD5 d   1      -2.745  -0.238   0.591  0.00  0.00     0.164 HD
+BRANCH  11  14
+ATOM     14  CAA MD5 d   1      -2.899  -1.287   2.884  0.00  0.00     0.270 C 
+ATOM     15  OAI MD5 d   1      -3.049  -1.693   4.063  0.00  0.00    -0.640 OA
+ATOM     16  OAJ MD5 d   1      -2.302  -1.990   2.041  0.00  0.00    -0.640 OA
+ENDBRANCH  11  14
+ENDBRANCH   5  10
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  CAM MD5 d   1      -2.715   4.082   3.262  0.00  0.00     0.001 C 
+ATOM     18  H5  MD5 d   1      -3.719   3.638   3.335  0.00  0.00     0.056 H 
+ATOM     19  H6  MD5 d   1      -2.780   5.053   2.750  0.00  0.00     0.056 H 
+BRANCH  17  20
+ATOM     20  CAN MD5 d   1      -2.225   4.298   4.569  0.00  0.00    -0.046 A 
+ATOM     21  CAO MD5 d   1      -1.106   3.662   5.110  0.00  0.00    -0.076 A 
+ATOM     22  CAP MD5 d   1      -0.714   3.929   6.433  0.00  0.00    -0.080 A 
+ATOM     23  H7  MD5 d   1      -0.539   2.961   4.509  0.00  0.00     0.084 H 
+ATOM     24  CAQ MD5 d   1      -1.441   4.821   7.237  0.00  0.00    -0.051 A 
+ATOM     25  H8  MD5 d   1       0.163   3.438   6.839  0.00  0.00     0.083 H 
+ATOM     26  CAR MD5 d   1      -2.562   5.453   6.685  0.00  0.00     0.103 A 
+ATOM     27  H9  MD5 d   1      -1.142   5.016   8.261  0.00  0.00     0.087 H 
+ATOM     28  CAS MD5 d   1      -2.933   5.174   5.379  0.00  0.00    -0.044 A 
+ATOM     29  H10 MD5 d   1      -3.813   5.660   4.974  0.00  0.00     0.088 H 
+BRANCH  26  30
+ATOM     30  NAT MD5 d   1      -3.361   6.327   7.304  0.00  0.00    -0.116 N 
+ATOM     31  OAU MD5 d   1      -3.152   6.682   8.505  0.00  0.00    -0.532 OA
+ATOM     32  OAV MD5 d   1      -4.463   6.851   6.551  0.00  0.00    -0.532 OA
+ENDBRANCH  26  30
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+TORSDOF 8

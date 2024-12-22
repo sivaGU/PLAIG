@@ -1,0 +1,126 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S11_8 
+REMARK    2  A    between atoms: C1_1  and  C2_2 
+REMARK    3  A    between atoms: C2_2  and  N21_22 
+REMARK    4  A    between atoms: C2_2  and  C3_3 
+REMARK    5  A    between atoms: C3_3  and  C31_4 
+REMARK    6  A    between atoms: C31_4  and  C32_5 
+REMARK    7  A    between atoms: S11_8  and  C11_9 
+REMARK    8  A    between atoms: C14_12  and  C17_15 
+REMARK    9  A    between atoms: C17_15  and  C18_16 
+REMARK       I    between atoms: N21_22  and  C21_23 
+REMARK   10  A    between atoms: C21_23  and  C22_25 
+REMARK   11  A    between atoms: C22_25  and  C23_26 
+REMARK   12  A    between atoms: C23_26  and  C24_27 
+REMARK   13  A    between atoms: C24_27  and  C25_28 
+REMARK   14  A    between atoms: C25_28  and  C26_29 
+REMARK   15  A    between atoms: C26_29  and  C27_30 
+REMARK   16  A    between atoms: C27_30  and  C28_31 
+ROOT
+ATOM      1  C2  OAP d   1     -38.512  66.148  30.673  0.00  0.00     0.021 C 
+ATOM      2  H3  OAP d   1     -38.197  66.527  31.657  0.00  0.00     0.073 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  OAP d   1     -40.042  65.930  30.728  0.00  0.00     0.000 C 
+ATOM      4  H1  OAP d   1     -40.488  66.826  31.184  0.00  0.00     0.052 H 
+ATOM      5  H2  OAP d   1     -40.400  65.829  29.693  0.00  0.00     0.052 H 
+BRANCH   3   6
+ATOM      6  S11 OAP d   1     -40.644  64.479  31.663  0.00  0.00    -0.128 SA
+BRANCH   6   7
+ATOM      7  C11 OAP d   1     -40.779  65.025  33.250  0.00  0.00     0.000 A 
+ATOM      8  C16 OAP d   1     -40.715  66.368  33.563  0.00  0.00    -0.066 A 
+ATOM      9  C15 OAP d   1     -40.838  66.770  34.892  0.00  0.00    -0.075 A 
+ATOM     10  H11 OAP d   1     -40.570  67.105  32.781  0.00  0.00     0.085 H 
+ATOM     11  C14 OAP d   1     -41.033  65.820  35.896  0.00  0.00    -0.054 A 
+ATOM     12  H10 OAP d   1     -40.782  67.822  35.146  0.00  0.00     0.084 H 
+ATOM     13  C13 OAP d   1     -41.088  64.476  35.546  0.00  0.00    -0.075 A 
+ATOM     14  C12 OAP d   1     -40.967  64.085  34.237  0.00  0.00    -0.066 A 
+ATOM     15  H9  OAP d   1     -41.228  63.727  36.317  0.00  0.00     0.084 H 
+ATOM     16  H8  OAP d   1     -41.020  63.033  33.980  0.00  0.00     0.085 H 
+BRANCH  11  17
+ATOM     17  C17 OAP d   1     -41.179  66.244  37.328  0.00  0.00    -0.017 C 
+ATOM     18  H12 OAP d   1     -41.933  67.043  37.376  0.00  0.00     0.047 H 
+ATOM     19  H13 OAP d   1     -40.210  66.633  37.673  0.00  0.00     0.047 H 
+BRANCH  17  20
+ATOM     20  C18 OAP d   1     -41.603  65.137  38.260  0.00  0.00    -0.054 A 
+ATOM     21  C43 OAP d   1     -42.944  64.863  38.472  0.00  0.00    -0.077 A 
+ATOM     22  C42 OAP d   1     -43.330  63.883  39.369  0.00  0.00    -0.082 A 
+ATOM     23  H18 OAP d   1     -43.698  65.422  37.930  0.00  0.00     0.084 H 
+ATOM     24  C41 OAP d   1     -42.374  63.166  40.061  0.00  0.00    -0.083 A 
+ATOM     25  H17 OAP d   1     -44.382  63.678  39.529  0.00  0.00     0.083 H 
+ATOM     26  C40 OAP d   1     -41.037  63.424  39.858  0.00  0.00    -0.082 A 
+ATOM     27  H16 OAP d   1     -42.677  62.399  40.765  0.00  0.00     0.083 H 
+ATOM     28  C19 OAP d   1     -40.655  64.401  38.962  0.00  0.00    -0.077 A 
+ATOM     29  H15 OAP d   1     -40.286  62.861  40.401  0.00  0.00     0.083 H 
+ATOM     30  H14 OAP d   1     -39.601  64.598  38.803  0.00  0.00     0.084 H 
+ENDBRANCH  17  20
+ENDBRANCH  11  17
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  31
+ATOM     31  N21 OAP d   1     -37.789  64.896  30.428  0.00  0.00    -0.356 N 
+ATOM     32  C21 OAP d   1     -36.817  64.519  31.258  0.00  0.00     0.217 C 
+ATOM     33  O21 OAP d   1     -36.488  65.202  32.226  0.00  0.00    -0.274 OA
+ATOM     34  H19 OAP d   1     -38.025  64.327  29.640  0.00  0.00     0.162 HD
+BRANCH  32  35
+ATOM     35  C22 OAP d   1     -36.091  63.215  30.961  0.00  0.00     0.009 C 
+ATOM     36  H20 OAP d   1     -35.131  63.220  31.498  0.00  0.00     0.047 H 
+ATOM     37  H21 OAP d   1     -35.905  63.158  29.878  0.00  0.00     0.047 H 
+BRANCH  35  38
+ATOM     38  C23 OAP d   1     -36.878  61.974  31.384  0.00  0.00    -0.057 C 
+ATOM     39  H22 OAP d   1     -36.248  61.083  31.246  0.00  0.00     0.033 H 
+ATOM     40  H23 OAP d   1     -37.779  61.887  30.758  0.00  0.00     0.033 H 
+BRANCH  38  41
+ATOM     41  C24 OAP d   1     -37.289  62.069  32.832  0.00  0.00    -0.065 C 
+ATOM     42  H24 OAP d   1     -37.822  63.017  32.996  0.00  0.00     0.033 H 
+ATOM     43  H25 OAP d   1     -36.391  62.038  33.467  0.00  0.00     0.033 H 
+BRANCH  41  44
+ATOM     44  C25 OAP d   1     -38.193  60.923  33.195  0.00  0.00    -0.065 C 
+ATOM     45  H26 OAP d   1     -37.605  59.994  33.214  0.00  0.00     0.033 H 
+ATOM     46  H27 OAP d   1     -38.988  60.839  32.439  0.00  0.00     0.033 H 
+BRANCH  44  47
+ATOM     47  C26 OAP d   1     -38.820  61.135  34.545  0.00  0.00    -0.061 C 
+ATOM     48  H28 OAP d   1     -39.455  62.033  34.516  0.00  0.00     0.033 H 
+ATOM     49  H29 OAP d   1     -38.029  61.270  35.297  0.00  0.00     0.033 H 
+BRANCH  47  50
+ATOM     50  C27 OAP d   1     -39.664  59.937  34.914  0.00  0.00    -0.041 C 
+ATOM     51  H30 OAP d   1     -39.268  59.502  35.844  0.00  0.00     0.040 H 
+ATOM     52  H31 OAP d   1     -39.594  59.196  34.104  0.00  0.00     0.040 H 
+BRANCH  50  53
+ATOM     53  C28 OAP d   1     -41.086  60.275  35.121  0.00  0.00    -0.058 A 
+ATOM     54  C54 OAP d   1     -41.998  60.168  34.076  0.00  0.00    -0.077 A 
+ATOM     55  C53 OAP d   1     -43.323  60.538  34.260  0.00  0.00    -0.082 A 
+ATOM     56  H36 OAP d   1     -41.672  59.794  33.112  0.00  0.00     0.084 H 
+ATOM     57  C52 OAP d   1     -43.746  61.021  35.505  0.00  0.00    -0.083 A 
+ATOM     58  H35 OAP d   1     -44.029  60.453  33.442  0.00  0.00     0.083 H 
+ATOM     59  C51 OAP d   1     -42.845  61.126  36.547  0.00  0.00    -0.082 A 
+ATOM     60  H34 OAP d   1     -44.780  61.312  35.651  0.00  0.00     0.083 H 
+ATOM     61  C50 OAP d   1     -41.518  60.748  36.351  0.00  0.00    -0.077 A 
+ATOM     62  H33 OAP d   1     -43.168  61.500  37.512  0.00  0.00     0.083 H 
+ATOM     63  H32 OAP d   1     -40.814  60.825  37.171  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  47  50
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH   1  31
+BRANCH   1  64
+ATOM     64  C3  OAP d   1     -38.136  67.203  29.625  0.00  0.00    -0.036 C 
+ATOM     65  H4  OAP d   1     -38.692  66.984  28.701  0.00  0.00     0.036 H 
+ATOM     66  H5  OAP d   1     -37.056  67.125  29.430  0.00  0.00     0.036 H 
+BRANCH  64  67
+ATOM     67  C31 OAP d   1     -38.442  68.630  30.037  0.00  0.00     0.018 C 
+ATOM     68  H6  OAP d   1     -39.518  68.713  30.250  0.00  0.00     0.049 H 
+ATOM     69  H7  OAP d   1     -38.179  69.301  29.206  0.00  0.00     0.049 H 
+BRANCH  67  70
+ATOM     70  C32 OAP d   1     -37.677  69.051  31.256  0.00  0.00     0.172 C 
+ATOM     71  O32 OAP d   1     -36.558  68.543  31.430  0.00  0.00    -0.648 OA
+ATOM     72  O31 OAP d   1     -38.193  69.860  32.060  0.00  0.00    -0.648 OA
+ENDBRANCH  67  70
+ENDBRANCH  64  67
+ENDBRANCH   1  64
+TORSDOF 16

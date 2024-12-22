@@ -1,0 +1,41 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAI_11  and  CAK_12 
+REMARK    2  A    between atoms: CAK_12  and  CAL_13 
+REMARK       I    between atoms: CAL_13  and  NAO_15 
+REMARK    3  A    between atoms: NAO_15  and  OAP_16 
+ROOT
+ATOM      1  OAM GNR d   1      56.263  52.227  37.826  0.00  0.00    -0.272 OA
+ATOM      2  CAH GNR d   1      56.140  51.303  37.029  0.00  0.00     0.236 C 
+ATOM      3  NAG GNR d   1      57.164  50.990  36.166  0.00  0.00    -0.325 N 
+ATOM      4  CAD GNR d   1      57.151  50.033  35.164  0.00  0.00     0.051 A 
+ATOM      5  CAC GNR d   1      58.347  49.751  34.479  0.00  0.00    -0.056 A 
+ATOM      6  CAB GNR d   1      58.385  48.738  33.502  0.00  0.00    -0.081 A 
+ATOM      7  CAA GNR d   1      57.230  47.995  33.202  0.00  0.00    -0.082 A 
+ATOM      8  CAF GNR d   1      56.028  48.260  33.879  0.00  0.00    -0.065 A 
+ATOM      9  CAE GNR d   1      55.994  49.271  34.845  0.00  0.00     0.028 A 
+ATOM     10  SAJ GNR d   1      54.432  49.714  35.628  0.00  0.00    -0.113 SA
+ATOM     11  CAI GNR d   1      55.003  50.299  37.247  0.00  0.00     0.081 C 
+ATOM     12  H1  GNR d   1      58.011  51.510  36.273  0.00  0.00     0.169 HD
+ATOM     13  H2  GNR d   1      59.244  50.316  34.705  0.00  0.00     0.087 H 
+ATOM     14  H3  GNR d   1      59.311  48.530  32.978  0.00  0.00     0.083 H 
+ATOM     15  H4  GNR d   1      57.267  47.217  32.448  0.00  0.00     0.083 H 
+ATOM     16  H5  GNR d   1      55.136  47.687  33.655  0.00  0.00     0.085 H 
+ATOM     17  H6  GNR d   1      55.407  49.438  37.799  0.00  0.00     0.072 H 
+ENDROOT
+BRANCH  11  18
+ATOM     18  CAK GNR d   1      53.870  50.889  38.084  0.00  0.00     0.031 C 
+ATOM     19  H7  GNR d   1      53.303  51.617  37.486  0.00  0.00     0.049 H 
+ATOM     20  H8  GNR d   1      54.283  51.387  38.974  0.00  0.00     0.049 H 
+BRANCH  18  21
+ATOM     21  CAL GNR d   1      52.944  49.729  38.514  0.00  0.00     0.242 C 
+ATOM     22  OAN GNR d   1      53.249  48.995  39.445  0.00  0.00    -0.271 OA
+ATOM     23  NAO GNR d   1      51.863  49.553  37.759  0.00  0.00    -0.237 N 
+ATOM     24  H9  GNR d   1      51.696  50.154  36.977  0.00  0.00     0.197 HD
+BRANCH  23  25
+ATOM     25  OAP GNR d   1      50.993  48.565  38.047  0.00  0.00    -0.287 OA
+ATOM     26  H10 GNR d   1      50.283  48.576  37.416  0.00  0.00     0.244 HD
+ENDBRANCH  23  25
+ENDBRANCH  18  21
+ENDBRANCH  11  18
+TORSDOF 3

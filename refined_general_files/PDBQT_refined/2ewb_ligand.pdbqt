@@ -1,0 +1,66 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SZ1_20  and  CZ2_2 
+REMARK    2  A    between atoms: CZ7_7  and  CZ8_8 
+REMARK    3  A    between atoms: CZ10_10  and  SZ1_20 
+REMARK    4  A    between atoms: CZ13_13  and  CZ12_12 
+REMARK    5  A    between atoms: CZ14_14  and  CZ13_13 
+REMARK    6  A    between atoms: CZ13_13  and  CZ15_15 
+REMARK       I    between atoms: CZ14_14  and  NZ1_19 
+REMARK    7  A    between atoms: CZ15_15  and  SZ2_21 
+ROOT
+ATOM      1  CZ7 ZED d   1      66.240  49.921  19.600  0.00  0.00     0.099 C 
+ATOM      2  CZ9 ZED d   1      67.742  49.984  19.307  0.00  0.00    -0.023 C 
+ATOM      3  CZ1 ZED d   1      68.106  51.410  19.700  0.00  0.00     0.013 C 
+ATOM      4  CZ1 ZED d   1      66.976  52.160  19.045  0.00  0.00     0.011 C 
+ATOM      5  CZ1 ZED d   1      64.492  51.510  19.041  0.00  0.00     0.225 C 
+ATOM      6  OZ3 ZED d   1      63.661  50.594  19.062  0.00  0.00    -0.273 OA
+ATOM      7  NZ1 ZED d   1      65.804  51.301  19.330  0.00  0.00    -0.336 N 
+ATOM      8  H6  ZED d   1      65.756  49.239  18.885  0.00  0.00     0.090 H 
+ATOM      9  H7  ZED d   1      67.945  49.803  18.241  0.00  0.00     0.038 H 
+ATOM     10  H8  ZED d   1      68.295  49.253  19.915  0.00  0.00     0.038 H 
+ATOM     11  H9  ZED d   1      69.068  51.681  19.240  0.00  0.00     0.059 H 
+ATOM     12  H10 ZED d   1      67.141  52.259  17.962  0.00  0.00     0.066 H 
+ATOM     13  H11 ZED d   1      66.853  53.159  19.490  0.00  0.00     0.066 H 
+ENDROOT
+BRANCH   3  14
+ATOM     14  SZ1 ZED d   1      68.235  51.789  21.479  0.00  0.00    -0.123 SA
+BRANCH  14  15
+ATOM     15  CZ2 ZED d   1      69.549  50.646  21.988  0.00  0.00     0.001 A 
+ATOM     16  CZ1 ZED d   1      70.892  50.934  21.691  0.00  0.00    -0.067 A 
+ATOM     17  CZ6 ZED d   1      71.933  50.041  22.075  0.00  0.00    -0.082 A 
+ATOM     18  H1  ZED d   1      71.139  51.848  21.163  0.00  0.00     0.085 H 
+ATOM     19  CZ5 ZED d   1      71.615  48.842  22.762  0.00  0.00    -0.083 A 
+ATOM     20  H5  ZED d   1      72.965  50.277  21.843  0.00  0.00     0.083 H 
+ATOM     21  CZ4 ZED d   1      70.263  48.546  23.064  0.00  0.00    -0.082 A 
+ATOM     22  H4  ZED d   1      72.402  48.156  23.054  0.00  0.00     0.083 H 
+ATOM     23  CZ3 ZED d   1      69.240  49.454  22.675  0.00  0.00    -0.067 A 
+ATOM     24  H3  ZED d   1      70.010  47.632  23.589  0.00  0.00     0.083 H 
+ATOM     25  H2  ZED d   1      68.207  49.226  22.910  0.00  0.00     0.085 H 
+ENDBRANCH  14  15
+ENDBRANCH   3  14
+BRANCH   1  26
+ATOM     26  CZ8 ZED d   1      65.897  49.413  21.015  0.00  0.00     0.197 C 
+ATOM     27  OZ1 ZED d   1      66.182  48.254  21.331  0.00  0.00    -0.646 OA
+ATOM     28  OZ2 ZED d   1      65.342  50.180  21.811  0.00  0.00    -0.646 OA
+ENDBRANCH   1  26
+BRANCH   5  29
+ATOM     29  CZ1 ZED d   1      64.038  52.936  18.694  0.00  0.00     0.028 C 
+ATOM     30  H15 ZED d   1      64.782  53.618  19.131  0.00  0.00     0.055 H 
+BRANCH  29  31
+ATOM     31  CZ1 ZED d   1      62.668  53.286  19.320  0.00  0.00    -0.064 C 
+ATOM     32  H12 ZED d   1      62.390  54.313  19.042  0.00  0.00     0.028 H 
+ATOM     33  H13 ZED d   1      62.734  53.207  20.415  0.00  0.00     0.028 H 
+ATOM     34  H14 ZED d   1      61.905  52.586  18.948  0.00  0.00     0.028 H 
+ENDBRANCH  29  31
+BRANCH  29  35
+ATOM     35  CZ1 ZED d   1      64.002  53.211  17.185  0.00  0.00    -0.015 C 
+ATOM     36  H16 ZED d   1      65.038  53.204  16.816  0.00  0.00     0.049 H 
+ATOM     37  H17 ZED d   1      63.566  54.209  17.035  0.00  0.00     0.049 H 
+BRANCH  35  38
+ATOM     38  SZ2 ZED d   1      63.065  52.051  16.204  0.00  0.00    -0.181 SA
+ATOM     39  H18 ZED d   1      63.106  52.322  15.234  0.00  0.00     0.101 HD
+ENDBRANCH  35  38
+ENDBRANCH  29  35
+ENDBRANCH   5  29
+TORSDOF 7

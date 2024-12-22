@@ -1,0 +1,50 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  C3_2 
+REMARK    2  A    between atoms: C2_1  and  C7_3 
+REMARK    3  A    between atoms: C3_2  and  N4_14 
+REMARK    4  A    between atoms: C7_3  and  C8_4 
+REMARK    5  A    between atoms: C8_4  and  P9_6 
+REMARK    6  A    between atoms: C8_4  and  P14_9 
+REMARK    7  A    between atoms: C8_4  and  O13_13 
+ROOT
+ATOM      1  C7  AHD d   1      47.850  49.969 203.447  0.00  0.00    -0.009 C 
+ATOM      2  H5  AHD d   1      48.625  49.954 202.666  0.00  0.00     0.039 H 
+ATOM      3  H6  AHD d   1      47.141  49.146 203.275  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C2  AHD d   1      47.023  51.270 203.158  0.00  0.00    -0.039 C 
+ATOM      5  H1  AHD d   1      47.744  52.098 203.092  0.00  0.00     0.035 H 
+ATOM      6  H2  AHD d   1      46.537  51.129 202.182  0.00  0.00     0.035 H 
+BRANCH   4   7
+ATOM      7  C3  AHD d   1      45.915  51.714 204.154  0.00  0.00     0.080 C 
+ATOM      8  H3  AHD d   1      46.389  52.157 205.042  0.00  0.00     0.075 H 
+ATOM      9  H4  AHD d   1      45.328  50.833 204.453  0.00  0.00     0.075 H 
+BRANCH   7  10
+ATOM     10  N4  AHD d   1      45.017  52.703 203.548  0.00  0.00    -0.079 N 
+ATOM     11  H8  AHD d   1      44.312  52.970 204.216  0.00  0.00     0.274 HD
+ATOM     12  H9  AHD d   1      44.575  52.302 202.735  0.00  0.00     0.274 HD
+ATOM     13  H10 AHD d   1      45.547  53.516 203.276  0.00  0.00     0.274 HD
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  14
+ATOM     14  C8  AHD d   1      48.562  49.593 204.683  0.00  0.00     0.285 C 
+BRANCH  14  15
+ATOM     15  P9  AHD d   1      49.764  48.313 204.140  0.00  0.00     0.310 P 
+ATOM     16  O12 AHD d   1      50.878  48.826 203.287  0.00  0.00    -0.637 OA
+ATOM     17  O10 AHD d   1      49.001  47.287 203.225  0.00  0.00    -0.637 OA
+ATOM     18  O11 AHD d   1      50.280  47.542 205.373  0.00  0.00    -0.637 OA
+ENDBRANCH  14  15
+BRANCH  14  19
+ATOM     19  P14 AHD d   1      49.494  50.886 205.595  0.00  0.00     0.310 P 
+ATOM     20  O15 AHD d   1      50.346  51.224 204.448  0.00  0.00    -0.637 OA
+ATOM     21  O16 AHD d   1      50.190  50.313 206.777  0.00  0.00    -0.637 OA
+ATOM     22  O17 AHD d   1      48.442  52.101 205.544  0.00  0.00    -0.637 OA
+ENDBRANCH  14  19
+BRANCH  14  23
+ATOM     23  O13 AHD d   1      47.781  49.006 205.500  0.00  0.00    -0.365 OA
+ATOM     24  H7  AHD d   1      48.285  48.671 206.232  0.00  0.00     0.212 HD
+ENDBRANCH  14  23
+ENDBRANCH   1  14
+TORSDOF 7

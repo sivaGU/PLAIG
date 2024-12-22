@@ -1,0 +1,82 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C20_2  and  C19_4 
+REMARK    2  A    between atoms: C19_4  and  C18_5 
+REMARK    3  A    between atoms: C18_5  and  C17_6 
+REMARK    4  A    between atoms: C17_6  and  C16_7 
+REMARK    5  A    between atoms: C16_7  and  N15_8 
+REMARK    6  A    between atoms: N15_8  and  C23_9 
+REMARK    7  A    between atoms: N15_8  and  C14_10 
+REMARK    8  A    between atoms: C11_15  and  C8_16 
+REMARK    9  A    between atoms: C7_17  and  C3_18 
+REMARK   10  A    between atoms: C6_22  and  N24_24 
+ROOT
+ATOM      1  C14 TNS d   1     -52.368  25.385  13.772  0.00  0.00     0.029 A 
+ATOM      2  C13 TNS d   1     -51.771  24.204  14.187  0.00  0.00    -0.057 A 
+ATOM      3  C12 TNS d   1     -51.116  24.163  15.407  0.00  0.00    -0.071 A 
+ATOM      4  C9  TNS d   1     -52.294  26.527  14.577  0.00  0.00    -0.057 A 
+ATOM      5  C10 TNS d   1     -51.635  26.488  15.794  0.00  0.00    -0.071 A 
+ATOM      6  C11 TNS d   1     -51.050  25.298  16.206  0.00  0.00    -0.036 A 
+ATOM      7  H12 TNS d   1     -51.817  23.320  13.562  0.00  0.00     0.086 H 
+ATOM      8  H13 TNS d   1     -50.653  23.241  15.740  0.00  0.00     0.084 H 
+ATOM      9  H14 TNS d   1     -52.756  27.450  14.245  0.00  0.00     0.086 H 
+ATOM     10  H15 TNS d   1     -51.577  27.374  16.416  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  N15 TNS d   1     -53.010  25.411  12.527  0.00  0.00    -0.385 N 
+BRANCH  11  12
+ATOM     12  C16 TNS d   1     -53.144  26.686  11.804  0.00  0.00    -0.005 C 
+ATOM     13  H7  TNS d   1     -52.553  27.468  12.303  0.00  0.00     0.064 H 
+ATOM     14  H8  TNS d   1     -52.798  26.571  10.766  0.00  0.00     0.064 H 
+BRANCH  12  15
+ATOM     15  C17 TNS d   1     -54.631  27.053  11.826  0.00  0.00    -0.050 C 
+ATOM     16  H5  TNS d   1     -55.121  26.521  10.997  0.00  0.00     0.035 H 
+ATOM     17  H6  TNS d   1     -55.049  26.706  12.782  0.00  0.00     0.035 H 
+BRANCH  15  18
+ATOM     18  C18 TNS d   1     -54.959  28.549  11.685  0.00  0.00    -0.055 C 
+ATOM     19  H3  TNS d   1     -54.605  29.074  12.584  0.00  0.00     0.033 H 
+ATOM     20  H4  TNS d   1     -54.437  28.943  10.801  0.00  0.00     0.033 H 
+BRANCH  18  21
+ATOM     21  C19 TNS d   1     -56.474  28.810  11.523  0.00  0.00     0.016 C 
+ATOM     22  H1  TNS d   1     -56.651  29.890  11.637  0.00  0.00     0.049 H 
+ATOM     23  H2  TNS d   1     -56.772  28.495  10.512  0.00  0.00     0.049 H 
+BRANCH  21  24
+ATOM     24  C20 TNS d   1     -57.357  28.067  12.538  0.00  0.00     0.172 C 
+ATOM     25  O22 TNS d   1     -58.354  27.437  12.097  0.00  0.00    -0.648 OA
+ATOM     26  O21 TNS d   1     -57.090  28.094  13.776  0.00  0.00    -0.648 OA
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+BRANCH  11  27
+ATOM     27  C23 TNS d   1     -53.500  24.155  11.969  0.00  0.00    -0.018 C 
+ATOM     28  H9  TNS d   1     -53.296  23.336  12.674  0.00  0.00     0.056 H 
+ATOM     29  H10 TNS d   1     -52.990  23.953  11.016  0.00  0.00     0.056 H 
+ATOM     30  H11 TNS d   1     -54.584  24.229  11.796  0.00  0.00     0.056 H 
+ENDBRANCH  11  27
+ENDBRANCH   1  11
+BRANCH   6  31
+ATOM     31  C8  TNS d   1     -50.339  25.187  17.504  0.00  0.00    -0.072 C 
+ATOM     32  C7  TNS d   1     -50.228  26.222  18.325  0.00  0.00    -0.072 C 
+ATOM     33  H17 TNS d   1     -50.670  27.172  18.029  0.00  0.00     0.084 H 
+ATOM     34  H16 TNS d   1     -49.898  24.233  17.789  0.00  0.00     0.084 H 
+BRANCH  32  35
+ATOM     35  C3  TNS d   1     -49.532  26.142  19.622  0.00  0.00    -0.036 A 
+ATOM     36  C2  TNS d   1     -49.484  27.302  20.389  0.00  0.00    -0.071 A 
+ATOM     37  C1  TNS d   1     -48.844  27.302  21.615  0.00  0.00    -0.050 A 
+ATOM     38  H18 TNS d   1     -49.950  28.210  20.024  0.00  0.00     0.084 H 
+ATOM     39  C6  TNS d   1     -48.250  26.132  22.070  0.00  0.00     0.102 A 
+ATOM     40  H21 TNS d   1     -48.806  28.205  22.214  0.00  0.00     0.087 H 
+ATOM     41  C5  TNS d   1     -48.289  24.965  21.305  0.00  0.00    -0.050 A 
+ATOM     42  C4  TNS d   1     -48.936  24.965  20.076  0.00  0.00    -0.071 A 
+ATOM     43  H20 TNS d   1     -47.815  24.061  21.669  0.00  0.00     0.087 H 
+ATOM     44  H19 TNS d   1     -48.977  24.062  19.477  0.00  0.00     0.084 H 
+BRANCH  39  45
+ATOM     45  N24 TNS d   1     -47.606  26.143  23.319  0.00  0.00    -0.116 N 
+ATOM     46  O26 TNS d   1     -47.075  25.127  23.740  0.00  0.00    -0.532 OA
+ATOM     47  O25 TNS d   1     -47.571  27.160  24.010  0.00  0.00    -0.532 OA
+ENDBRANCH  39  45
+ENDBRANCH  32  35
+ENDBRANCH   6  31
+TORSDOF 10

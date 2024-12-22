@@ -1,0 +1,100 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_11  and  CAA_1 
+REMARK    2  A    between atoms: CAW_23  and  OAE_5 
+REMARK    3  A    between atoms: CAF_6  and  CAL_12 
+REMARK    4  A    between atoms: CAM_13  and  CAG_7 
+REMARK    5  A    between atoms: CAV_22  and  CAJ_10 
+REMARK    6  A    between atoms: CAO_15  and  CAK_11 
+REMARK    7  A    between atoms: CAL_12  and  CAP_16 
+REMARK    8  A    between atoms: CAX_24  and  CAM_13 
+REMARK    9  A    between atoms: CAN_14  and  CAW_23 
+REMARK   10  A    between atoms: CAQ_17  and  CAO_15 
+REMARK   11  A    between atoms: CAP_16  and  CAR_18 
+REMARK   12  A    between atoms: CAS_19  and  CAQ_17 
+REMARK   13  A    between atoms: CAR_18  and  CAT_20 
+REMARK   14  A    between atoms: CAW_23  and  CAS_19 
+ROOT
+ATOM      1  OAC PJ2 d   1      31.437  33.197 -53.615  0.00  0.00    -0.293 OA
+ATOM      2  CAH PJ2 d   1      30.107  34.927 -53.992  0.00  0.00    -0.041 C 
+ATOM      3  CAI PJ2 d   1      29.311  35.402 -54.945  0.00  0.00    -0.094 C 
+ATOM      4  CAU PJ2 d   1      30.714  33.814 -54.346  0.00  0.00     0.157 C 
+ATOM      5  CAV PJ2 d   1      30.360  33.368 -55.578  0.00  0.00     0.031 C 
+ATOM      6  CAX PJ2 d   1      29.441  34.503 -56.171  0.00  0.00    -0.021 C 
+ATOM      7  H   PJ2 d   1      30.242  35.407 -53.023  0.00  0.00     0.088 H 
+ATOM      8  H   PJ2 d   1      28.674  36.283 -54.864  0.00  0.00     0.077 H 
+ATOM      9  H   PJ2 d   1      30.027  32.416 -55.990  0.00  0.00     0.059 H 
+ATOM     10  H   PJ2 d   1      29.908  34.863 -57.088  0.00  0.00     0.048 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  CAJ PJ2 d   1      30.935  32.226 -56.182  0.00  0.00    -0.092 C 
+ATOM     12  CAN PJ2 d   1      30.548  31.875 -57.462  0.00  0.00    -0.079 C 
+ATOM     13  H   PJ2 d   1      29.733  32.387 -57.974  0.00  0.00     0.080 H 
+ATOM     14  H   PJ2 d   1      31.674  31.630 -55.645  0.00  0.00     0.077 H 
+BRANCH  12  15
+ATOM     15  CAW PJ2 d   1      31.293  30.773 -58.099  0.00  0.00     0.051 C 
+ATOM     16  H   PJ2 d   1      32.375  30.872 -58.011  0.00  0.00     0.089 H 
+BRANCH  15  17
+ATOM     17  OAE PJ2 d   1      30.836  29.615 -57.486  0.00  0.00    -0.392 OA
+ATOM     18  H   PJ2 d   1      31.288  28.856 -57.861  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  CAS PJ2 d   1      30.890  30.753 -59.544  0.00  0.00    -0.038 C 
+ATOM     20  H   PJ2 d   1      30.131  31.527 -59.659  0.00  0.00     0.037 H 
+ATOM     21  H   PJ2 d   1      31.807  30.888 -60.117  0.00  0.00     0.037 H 
+BRANCH  19  22
+ATOM     22  CAQ PJ2 d   1      30.270  29.483 -60.041  0.00  0.00    -0.062 C 
+ATOM     23  H   PJ2 d   1      31.024  28.730 -60.270  0.00  0.00     0.033 H 
+ATOM     24  H   PJ2 d   1      29.630  29.025 -59.287  0.00  0.00     0.033 H 
+BRANCH  22  25
+ATOM     25  CAO PJ2 d   1      29.498  29.876 -61.253  0.00  0.00    -0.065 C 
+ATOM     26  H   PJ2 d   1      29.774  29.265 -62.112  0.00  0.00     0.033 H 
+ATOM     27  H   PJ2 d   1      28.429  29.723 -61.107  0.00  0.00     0.033 H 
+BRANCH  25  28
+ATOM     28  CAK PJ2 d   1      29.814  31.330 -61.493  0.00  0.00    -0.069 C 
+ATOM     29  H   PJ2 d   1      30.420  31.668 -60.652  0.00  0.00     0.032 H 
+ATOM     30  H   PJ2 d   1      30.310  31.393 -62.462  0.00  0.00     0.032 H 
+BRANCH  28  31
+ATOM     31  CAA PJ2 d   1      28.591  32.242 -61.557  0.00  0.00    -0.077 C 
+ATOM     32  H   PJ2 d   1      27.941  31.920 -62.371  0.00  0.00     0.027 H 
+ATOM     33  H   PJ2 d   1      28.048  32.187 -60.613  0.00  0.00     0.027 H 
+ATOM     34  H   PJ2 d   1      28.913  33.268 -61.733  0.00  0.00     0.027 H 
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  12  15
+ENDBRANCH   5  11
+BRANCH   6  35
+ATOM     35  CAM PJ2 d   1      28.012  34.209 -56.749  0.00  0.00    -0.043 C 
+ATOM     36  H   PJ2 d   1      28.082  33.407 -57.483  0.00  0.00     0.039 H 
+ATOM     37  H   PJ2 d   1      27.351  33.916 -55.934  0.00  0.00     0.039 H 
+BRANCH  35  38
+ATOM     38  CAG PJ2 d   1      27.500  35.345 -57.364  0.00  0.00    -0.106 C 
+ATOM     39  CAF PJ2 d   1      26.433  35.535 -58.260  0.00  0.00    -0.106 C 
+ATOM     40  H   PJ2 d   1      26.242  36.566 -58.559  0.00  0.00     0.076 H 
+ATOM     41  H   PJ2 d   1      28.025  36.263 -57.102  0.00  0.00     0.076 H 
+BRANCH  39  42
+ATOM     42  CAL PJ2 d   1      25.599  34.589 -58.808  0.00  0.00    -0.050 C 
+ATOM     43  H   PJ2 d   1      24.710  34.488 -58.186  0.00  0.00     0.038 H 
+ATOM     44  H   PJ2 d   1      26.122  33.634 -58.861  0.00  0.00     0.038 H 
+BRANCH  42  45
+ATOM     45  CAP PJ2 d   1      25.187  35.016 -60.209  0.00  0.00    -0.053 C 
+ATOM     46  H   PJ2 d   1      24.156  35.367 -60.167  0.00  0.00     0.034 H 
+ATOM     47  H   PJ2 d   1      25.304  34.159 -60.873  0.00  0.00     0.034 H 
+BRANCH  45  48
+ATOM     48  CAR PJ2 d   1      26.065  36.167 -60.750  0.00  0.00     0.016 C 
+ATOM     49  H   PJ2 d   1      26.983  36.219 -60.165  0.00  0.00     0.049 H 
+ATOM     50  H   PJ2 d   1      25.512  37.103 -60.671  0.00  0.00     0.049 H 
+BRANCH  48  51
+ATOM     51  CAT PJ2 d   1      26.423  35.918 -62.226  0.00  0.00     0.172 C 
+ATOM     52  OAB PJ2 d   1      27.569  35.457 -62.457  0.00  0.00    -0.648 OA
+ATOM     53  OAD PJ2 d   1      25.559  36.183 -63.098  0.00  0.00    -0.648 OA
+ENDBRANCH  48  51
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  35  38
+ENDBRANCH   6  35
+TORSDOF 14

@@ -1,0 +1,98 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3_2  and  C13_9 
+REMARK       I    between atoms: C18_25  and  N3_2 
+REMARK    2  A    between atoms: C15_10  and  O3_32 
+REMARK    3  A    between atoms: C17_11  and  O5_34 
+REMARK    4  A    between atoms: C22_14  and  C18_25 
+REMARK    5  A    between atoms: O3_32  and  C24_15 
+REMARK    6  A    between atoms: C26_16  and  C12_22 
+REMARK    7  A    between atoms: O4_33  and  C26_16 
+REMARK    8  A    between atoms: C14_23  and  O4_33 
+REMARK    9  A    between atoms: C19_26  and  C23_27 
+REMARK       I    between atoms: C19_26  and  N2_29 
+REMARK   10  A    between atoms: O5_34  and  C25_28 
+ROOT
+ATOM      1  N3  HOJ d   1       3.918  57.683  -7.161  0.00  0.00    -0.325 N 
+ATOM      2  C18 HOJ d   1       4.902  58.361  -7.844  0.00  0.00     0.249 C 
+ATOM      3  O1  HOJ d   1       5.937  57.867  -8.263  0.00  0.00    -0.270 OA
+ATOM      4  H1  HOJ d   1       3.026  58.131  -7.093  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C13 HOJ d   1       4.043  56.412  -6.544  0.00  0.00     0.035 A 
+ATOM      6  C5  HOJ d   1       3.133  56.137  -5.542  0.00  0.00    -0.054 A 
+ATOM      7  C8  HOJ d   1       3.172  54.924  -4.895  0.00  0.00    -0.049 A 
+ATOM      8  H3  HOJ d   1       2.389  56.876  -5.266  0.00  0.00     0.087 H 
+ATOM      9  C14 HOJ d   1       4.120  53.977  -5.242  0.00  0.00     0.069 A 
+ATOM     10  H6  HOJ d   1       2.457  54.709  -4.109  0.00  0.00     0.087 H 
+ATOM     11  C9  HOJ d   1       5.042  54.244  -6.239  0.00  0.00    -0.049 A 
+ATOM     12  C6  HOJ d   1       4.995  55.465  -6.890  0.00  0.00    -0.054 A 
+ATOM     13  H21 HOJ d   1       5.791  53.507  -6.506  0.00  0.00     0.087 H 
+ATOM     14  H4  HOJ d   1       5.708  55.682  -7.677  0.00  0.00     0.087 H 
+BRANCH   9  15
+ATOM     15  O4  HOJ d   1       4.056  52.788  -4.508  0.00  0.00    -0.347 OA
+BRANCH  15  16
+ATOM     16  C26 HOJ d   1       4.855  51.743  -5.056  0.00  0.00     0.052 C 
+ATOM     17  H16 HOJ d   1       4.309  50.792  -4.965  0.00  0.00     0.082 H 
+ATOM     18  H17 HOJ d   1       5.043  51.958  -6.118  0.00  0.00     0.082 H 
+BRANCH  16  19
+ATOM     19  C12 HOJ d   1       6.173  51.617  -4.345  0.00  0.00    -0.001 A 
+ATOM     20  C4  HOJ d   1       6.559  52.563  -3.411  0.00  0.00    -0.072 A 
+ATOM     21  C1  HOJ d   1       7.772  52.459  -2.762  0.00  0.00    -0.082 A 
+ATOM     22  H2  HOJ d   1       5.901  53.395  -3.187  0.00  0.00     0.084 H 
+ATOM     23  C2  HOJ d   1       8.609  51.395  -3.038  0.00  0.00    -0.080 A 
+ATOM     24  H18 HOJ d   1       8.067  53.210  -2.038  0.00  0.00     0.083 H 
+ATOM     25  C7  HOJ d   1       8.233  50.444  -3.976  0.00  0.00    -0.050 A 
+ATOM     26  H19 HOJ d   1       9.558  51.303  -2.522  0.00  0.00     0.083 H 
+ATOM     27  C15 HOJ d   1       7.019  50.557  -4.632  0.00  0.00     0.076 A 
+ATOM     28  H5  HOJ d   1       8.891  49.611  -4.196  0.00  0.00     0.087 H 
+BRANCH  27  29
+ATOM     29  O3  HOJ d   1       6.597  49.618  -5.578  0.00  0.00    -0.355 OA
+BRANCH  29  30
+ATOM     30  C24 HOJ d   1       7.692  48.982  -6.239  0.00  0.00     0.010 C 
+ATOM     31  H13 HOJ d   1       7.307  48.256  -6.970  0.00  0.00     0.066 H 
+ATOM     32  H14 HOJ d   1       8.315  48.461  -5.497  0.00  0.00     0.066 H 
+ATOM     33  H15 HOJ d   1       8.297  49.740  -6.759  0.00  0.00     0.066 H 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH   9  15
+ENDBRANCH   1   5
+BRANCH   2  34
+ATOM     34  C22 HOJ d   1       4.559  59.822  -8.010  0.00  0.00     0.119 C 
+ATOM     35  C11 HOJ d   1       5.226  60.447  -6.821  0.00  0.00    -0.001 A 
+ATOM     36  C3  HOJ d   1       4.612  60.523  -5.582  0.00  0.00    -0.068 A 
+ATOM     37  C16 HOJ d   1       6.513  60.937  -6.933  0.00  0.00     0.047 A 
+ATOM     38  C10 HOJ d   1       5.284  61.076  -4.509  0.00  0.00    -0.031 A 
+ATOM     39  H20 HOJ d   1       3.603  60.148  -5.454  0.00  0.00     0.084 H 
+ATOM     40  C17 HOJ d   1       6.568  61.539  -4.718  0.00  0.00     0.164 A 
+ATOM     41  H7  HOJ d   1       4.817  61.144  -3.533  0.00  0.00     0.090 H 
+ATOM     42  N1  HOJ d   1       7.182  61.487  -5.912  0.00  0.00    -0.229 NA
+ATOM     43  C20 HOJ d   1       7.208  60.877  -8.253  0.00  0.00    -0.009 C 
+ATOM     44  C21 HOJ d   1       6.196  61.130  -9.363  0.00  0.00     0.004 C 
+ATOM     45  H8  HOJ d   1       7.995  61.645  -8.290  0.00  0.00     0.044 H 
+ATOM     46  H9  HOJ d   1       7.660  59.883  -8.386  0.00  0.00     0.044 H 
+ATOM     47  N2  HOJ d   1       5.061  60.207  -9.330  0.00  0.00    -0.335 N 
+ATOM     48  H10 HOJ d   1       6.706  61.023 -10.332  0.00  0.00     0.065 H 
+ATOM     49  H11 HOJ d   1       5.815  62.157  -9.261  0.00  0.00     0.065 H 
+ATOM     50  C19 HOJ d   1       4.524  59.653 -10.510  0.00  0.00     0.216 C 
+ATOM     51  O2  HOJ d   1       3.687  58.763 -10.570  0.00  0.00    -0.274 OA
+ATOM     52  H12 HOJ d   1       3.475  60.002  -7.968  0.00  0.00     0.095 H 
+BRANCH  40  53
+ATOM     53  O5  HOJ d   1       7.241  62.110  -3.640  0.00  0.00    -0.339 OA
+BRANCH  53  54
+ATOM     54  C25 HOJ d   1       8.454  61.410  -3.401  0.00  0.00     0.012 C 
+ATOM     55  H25 HOJ d   1       8.979  61.867  -2.549  0.00  0.00     0.067 H 
+ATOM     56  H26 HOJ d   1       9.091  61.464  -4.296  0.00  0.00     0.067 H 
+ATOM     57  H27 HOJ d   1       8.231  60.357  -3.173  0.00  0.00     0.067 H 
+ENDBRANCH  53  54
+ENDBRANCH  40  53
+BRANCH  50  58
+ATOM     58  C23 HOJ d   1       5.047  60.208 -11.810  0.00  0.00    -0.003 C 
+ATOM     59  H22 HOJ d   1       4.554  59.698 -12.651  0.00  0.00     0.040 H 
+ATOM     60  H23 HOJ d   1       6.133  60.045 -11.868  0.00  0.00     0.040 H 
+ATOM     61  H24 HOJ d   1       4.835  61.286 -11.860  0.00  0.00     0.040 H 
+ENDBRANCH  50  58
+ENDBRANCH   2  34
+TORSDOF 10

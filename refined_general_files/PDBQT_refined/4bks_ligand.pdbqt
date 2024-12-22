@@ -1,0 +1,68 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAQ_2 
+REMARK       I    between atoms: CAQ_2  and  N_4 
+REMARK    2  A    between atoms: CG_6  and  OD1_7 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK       I    between atoms: C_10  and  NAO_12 
+REMARK    4  A    between atoms: NAO_12  and  CAK_13 
+REMARK    5  A    between atoms: CAK_13  and  CAS_14 
+REMARK    6  A    between atoms: CAT_19  and  CAU_20 
+ROOT
+ATOM      1  C   X6C d   1      -6.404  34.358   2.064  0.00  0.00     0.241 C 
+ATOM      2  O   X6C d   1      -5.292  33.918   1.738  0.00  0.00    -0.271 OA
+ATOM      3  NAO X6C d   1      -6.600  35.335   2.990  0.00  0.00    -0.355 N 
+ATOM      4  H11 X6C d   1      -7.526  35.691   3.113  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CAK X6C d   1      -5.514  35.901   3.827  0.00  0.00     0.019 C 
+ATOM      6  H12 X6C d   1      -5.824  36.894   4.186  0.00  0.00     0.071 H 
+ATOM      7  H13 X6C d   1      -4.607  35.999   3.212  0.00  0.00     0.071 H 
+BRANCH   5   8
+ATOM      8  CAS X6C d   1      -5.217  35.074   4.958  0.00  0.00    -0.040 A 
+ATOM      9  CAF X6C d   1      -6.112  34.079   5.426  0.00  0.00    -0.074 A 
+ATOM     10  CAH X6C d   1      -5.801  33.270   6.531  0.00  0.00    -0.070 A 
+ATOM     11  H14 X6C d   1      -7.060  33.939   4.918  0.00  0.00     0.084 H 
+ATOM     12  CAT X6C d   1      -4.607  33.468   7.244  0.00  0.00    -0.001 A 
+ATOM     13  H15 X6C d   1      -6.487  32.488   6.836  0.00  0.00     0.085 H 
+ATOM     14  CAG X6C d   1      -3.716  34.470   6.789  0.00  0.00    -0.070 A 
+ATOM     15  CAE X6C d   1      -4.017  35.265   5.664  0.00  0.00    -0.074 A 
+ATOM     16  H17 X6C d   1      -2.783  34.629   7.317  0.00  0.00     0.085 H 
+ATOM     17  H16 X6C d   1      -3.318  36.029   5.342  0.00  0.00     0.084 H 
+BRANCH  12  18
+ATOM     18  CAU X6C d   1      -4.326  32.689   8.312  0.00  0.00     0.104 A 
+ATOM     19  OAP X6C d   1      -4.892  31.450   8.572  0.00  0.00    -0.302 OA
+ATOM     20  CAI X6C d   1      -4.340  31.002   9.744  0.00  0.00     0.103 A 
+ATOM     21  NAN X6C d   1      -3.484  31.932  10.169  0.00  0.00    -0.246 NA
+ATOM     22  H18 X6C d   1      -4.561  30.057  10.239  0.00  0.00     0.155 H 
+ATOM     23  CAJ X6C d   1      -3.470  32.955   9.302  0.00  0.00     0.037 A 
+ATOM     24  H19 X6C d   1      -2.861  33.854   9.390  0.00  0.00     0.119 H 
+ENDBRANCH  12  18
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  25
+ATOM     25  CA  X6C d   1      -7.588  33.834   1.512  0.00  0.00     0.094 C 
+ATOM     26  N   X6C d   1      -7.448  33.382   0.062  0.00  0.00    -0.337 N 
+ATOM     27  CAQ X6C d   1      -7.104  34.222  -0.954  0.00  0.00     0.216 C 
+ATOM     28  CD2 X6C d   1      -7.815  31.932   0.000  0.00  0.00     0.022 C 
+ATOM     29  OAB X6C d   1      -6.853  35.417  -0.769  0.00  0.00    -0.274 OA
+ATOM     30  CG  X6C d   1      -8.617  31.667   1.255  0.00  0.00     0.053 C 
+ATOM     31  H4  X6C d   1      -6.910  31.306  -0.018  0.00  0.00     0.068 H 
+ATOM     32  H5  X6C d   1      -8.421  31.726  -0.895  0.00  0.00     0.068 H 
+ATOM     33  CB  X6C d   1      -7.982  32.561   2.292  0.00  0.00    -0.012 C 
+ATOM     34  H6  X6C d   1      -8.562  30.608   1.548  0.00  0.00     0.085 H 
+ATOM     35  H8  X6C d   1      -7.093  32.081   2.728  0.00  0.00     0.040 H 
+ATOM     36  H9  X6C d   1      -8.699  32.800   3.091  0.00  0.00     0.040 H 
+ATOM     37  H10 X6C d   1      -8.380  34.594   1.586  0.00  0.00     0.088 H 
+BRANCH  27  38
+ATOM     38  CAA X6C d   1      -6.961  33.619  -2.386  0.00  0.00    -0.003 C 
+ATOM     39  H1  X6C d   1      -7.223  32.551  -2.362  0.00  0.00     0.040 H 
+ATOM     40  H2  X6C d   1      -5.923  33.734  -2.730  0.00  0.00     0.040 H 
+ATOM     41  H3  X6C d   1      -7.636  34.147  -3.075  0.00  0.00     0.040 H 
+ENDBRANCH  27  38
+BRANCH  30  42
+ATOM     42  OD1 X6C d   1      -9.983  32.059   1.062  0.00  0.00    -0.394 OA
+ATOM     43  H7  X6C d   1     -10.355  31.561   0.344  0.00  0.00     0.210 HD
+ENDBRANCH  30  42
+ENDBRANCH   1  25
+TORSDOF 6

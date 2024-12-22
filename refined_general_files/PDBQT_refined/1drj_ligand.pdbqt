@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_6 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+ROOT
+ATOM      1  C1  RIP d   1      50.123  34.014  43.280  0.00  0.00     0.155 C 
+ATOM      2  C2  RIP d   1      49.407  33.466  44.517  0.00  0.00     0.110 C 
+ATOM      3  C3  RIP d   1      49.013  34.599  45.431  0.00  0.00     0.091 C 
+ATOM      4  C4  RIP d   1      50.229  35.474  45.760  0.00  0.00     0.083 C 
+ATOM      5  C5  RIP d   1      50.929  35.919  44.486  0.00  0.00     0.049 C 
+ATOM      6  O5  RIP d   1      51.251  34.794  43.666  0.00  0.00    -0.356 OA
+ATOM      7  H1  RIP d   1      49.421  34.654  42.725  0.00  0.00     0.133 H 
+ATOM      8  H2  RIP d   1      50.086  32.785  45.051  0.00  0.00     0.094 H 
+ATOM      9  H3  RIP d   1      48.604  34.190  46.367  0.00  0.00     0.091 H 
+ATOM     10  H4  RIP d   1      50.931  34.885  46.368  0.00  0.00     0.090 H 
+ATOM     11  H5  RIP d   1      51.855  36.450  44.750  0.00  0.00     0.078 H 
+ATOM     12  H6  RIP d   1      50.265  36.595  43.927  0.00  0.00     0.078 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  O1  RIP d   1      50.547  32.969  42.436  0.00  0.00    -0.369 OA
+ATOM     14  H7  RIP d   1      51.169  32.421  42.900  0.00  0.00     0.212 HD
+ENDBRANCH   1  13
+BRANCH   2  15
+ATOM     15  O2  RIP d   1      48.246  32.768  44.146  0.00  0.00    -0.388 OA
+ATOM     16  H8  RIP d   1      48.481  32.043  43.579  0.00  0.00     0.210 HD
+ENDBRANCH   2  15
+BRANCH   3  17
+ATOM     17  O3  RIP d   1      48.023  35.357  44.777  0.00  0.00    -0.390 OA
+ATOM     18  H9  RIP d   1      47.758  36.079  45.335  0.00  0.00     0.210 HD
+ENDBRANCH   3  17
+BRANCH   4  19
+ATOM     19  O4  RIP d   1      49.841  36.615  46.486  0.00  0.00    -0.391 OA
+ATOM     20  H10 RIP d   1      49.427  36.347  47.298  0.00  0.00     0.210 HD
+ENDBRANCH   4  19
+TORSDOF 4

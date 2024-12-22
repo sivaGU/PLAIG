@@ -1,0 +1,29 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAH_8  and  NAA_1 
+REMARK    2  A    between atoms: CAI_9  and  OAB_2 
+ROOT
+ATOM      1  CAC ES0 d   1      27.020  43.508  13.922  0.00  0.00    -0.078 A 
+ATOM      2  CAD ES0 d   1      27.168  42.438  14.795  0.00  0.00    -0.049 A 
+ATOM      3  CAE ES0 d   1      27.384  44.787  14.324  0.00  0.00    -0.054 A 
+ATOM      4  NAF ES0 d   1      28.316  46.087  16.235  0.00  0.00    -0.188 N 
+ATOM      5  NAG ES0 d   1      28.544  44.410  17.598  0.00  0.00    -0.060 NA
+ATOM      6  CAH ES0 d   1      28.711  45.724  17.459  0.00  0.00     0.699 A 
+ATOM      7  CAI ES0 d   1      27.679  42.653  16.070  0.00  0.00     0.097 A 
+ATOM      8  CAJ ES0 d   1      27.895  44.997  15.598  0.00  0.00     0.081 A 
+ATOM      9  CAK ES0 d   1      28.042  43.932  16.468  0.00  0.00     0.136 A 
+ATOM     10  H   ES0 d   1      26.619  43.344  12.922  0.00  0.00     0.083 H 
+ATOM     11  H   ES0 d   1      26.884  41.433  14.482  0.00  0.00     0.087 H 
+ATOM     12  H   ES0 d   1      27.268  45.627  13.639  0.00  0.00     0.087 H 
+ATOM     13  H   ES0 d   1      28.334  47.034  15.855  0.00  0.00     0.184 HD
+ENDROOT
+BRANCH   6  14
+ATOM     14  NAA ES0 d   1      29.191  46.541  18.396  0.00  0.00    -0.233 N 
+ATOM     15  H   ES0 d   1      29.464  46.169  19.306  0.00  0.00     0.174 HD
+ATOM     16  H   ES0 d   1      29.286  47.538  18.203  0.00  0.00     0.174 HD
+ENDBRANCH   6  14
+BRANCH   7  17
+ATOM     17  OAB ES0 d   1      27.828  41.608  16.925  0.00  0.00    -0.358 OA
+ATOM     18  H   ES0 d   1      28.190  41.925  17.756  0.00  0.00     0.217 HD
+ENDBRANCH   7  17
+TORSDOF 2

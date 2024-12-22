@@ -1,0 +1,81 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAX_2 
+REMARK    2  A    between atoms: CAX_2  and  CAB_3 
+REMARK    3  A    between atoms: CAX_2  and  CAC_4 
+REMARK    4  A    between atoms: CAX_2  and  OAQ_5 
+REMARK    5  A    between atoms: OAQ_5  and  CAR_6 
+REMARK       I    between atoms: CAR_6  and  N_8 
+REMARK    6  A    between atoms: N_8  and  CA_9 
+REMARK    7  A    between atoms: CA_9  and  C_10 
+REMARK    8  A    between atoms: CA_9  and  CAT_14 
+REMARK       I    between atoms: C_10  and  NAO_12 
+REMARK    9  A    between atoms: NAO_12  and  OAF_13 
+REMARK   10  A    between atoms: CAU_19  and  NAW_20 
+ROOT
+ATOM      1  CA  R5T d   1      87.076  72.047  30.581  0.00  0.00     0.119 C 
+ATOM      2  H   R5T d   1      87.222  71.406  29.699  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   R5T d   1      88.141  71.707  31.549  0.00  0.00    -0.319 N 
+ATOM      4  CAR R5T d   1      89.305  71.173  31.121  0.00  0.00     0.362 C 
+ATOM      5  OAD R5T d   1      89.467  70.996  29.915  0.00  0.00    -0.238 OA
+ATOM      6  H   R5T d   1      87.999  71.873  32.525  0.00  0.00     0.166 HD
+BRANCH   4   7
+ATOM      7  OAQ R5T d   1      90.281  70.836  32.023  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  CAX R5T d   1      91.566  70.358  31.550  0.00  0.00     0.061 C 
+BRANCH   8   9
+ATOM      9  CAA R5T d   1      92.288  71.432  30.730  0.00  0.00    -0.048 C 
+ATOM     10  H   R5T d   1      93.257  71.041  30.386  0.00  0.00     0.031 H 
+ATOM     11  H   R5T d   1      92.453  72.322  31.355  0.00  0.00     0.031 H 
+ATOM     12  H   R5T d   1      91.673  71.704  29.860  0.00  0.00     0.031 H 
+ENDBRANCH   8   9
+BRANCH   8  13
+ATOM     13  CAB R5T d   1      92.421  70.053  32.778  0.00  0.00    -0.048 C 
+ATOM     14  H   R5T d   1      91.926  69.283  33.387  0.00  0.00     0.031 H 
+ATOM     15  H   R5T d   1      92.546  70.969  33.375  0.00  0.00     0.031 H 
+ATOM     16  H   R5T d   1      93.408  69.688  32.456  0.00  0.00     0.031 H 
+ENDBRANCH   8  13
+BRANCH   8  17
+ATOM     17  CAC R5T d   1      91.451  69.050  30.753  0.00  0.00    -0.048 C 
+ATOM     18  H   R5T d   1      90.840  69.221  29.854  0.00  0.00     0.031 H 
+ATOM     19  H   R5T d   1      90.975  68.280  31.378  0.00  0.00     0.031 H 
+ATOM     20  H   R5T d   1      92.455  68.712  30.456  0.00  0.00     0.031 H 
+ENDBRANCH   8  17
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  21
+ATOM     21  C   R5T d   1      87.145  73.509  30.114  0.00  0.00     0.268 C 
+ATOM     22  O   R5T d   1      86.868  73.795  28.952  0.00  0.00    -0.269 OA
+ATOM     23  NAO R5T d   1      87.497  74.418  31.031  0.00  0.00    -0.235 N 
+ATOM     24  H   R5T d   1      87.712  74.162  31.974  0.00  0.00     0.197 HD
+BRANCH  23  25
+ATOM     25  OAF R5T d   1      87.550  75.814  30.574  0.00  0.00    -0.287 OA
+ATOM     26  H   R5T d   1      88.183  75.892  29.870  0.00  0.00     0.244 HD
+ENDBRANCH  23  25
+ENDBRANCH   1  21
+BRANCH   1  27
+ATOM     27  CAT R5T d   1      85.806  71.788  31.092  0.00  0.00    -0.026 A 
+ATOM     28  CAJ R5T d   1      85.163  70.630  30.679  0.00  0.00    -0.072 A 
+ATOM     29  CAL R5T d   1      83.891  70.334  31.143  0.00  0.00    -0.055 A 
+ATOM     30  H   R5T d   1      85.657  69.954  29.991  0.00  0.00     0.084 H 
+ATOM     31  CAU R5T d   1      83.254  71.200  32.023  0.00  0.00     0.058 A 
+ATOM     32  H   R5T d   1      83.393  69.427  30.819  0.00  0.00     0.087 H 
+ATOM     33  CAK R5T d   1      83.892  72.368  32.433  0.00  0.00    -0.055 A 
+ATOM     34  CAI R5T d   1      85.169  72.665  31.965  0.00  0.00    -0.072 A 
+ATOM     35  H   R5T d   1      83.394  73.046  33.117  0.00  0.00     0.087 H 
+ATOM     36  H   R5T d   1      85.665  73.576  32.279  0.00  0.00     0.084 H 
+BRANCH  31  37
+ATOM     37  NAW R5T d   1      82.031  70.916  32.462  0.00  0.00    -0.245 N 
+ATOM     38  NAN R5T d   1      81.489  71.402  33.424  0.00  0.00    -0.180 NA
+ATOM     39  CAH R5T d   1      80.267  70.890  33.561  0.00  0.00     0.023 A 
+ATOM     40  CAG R5T d   1      80.089  70.027  32.573  0.00  0.00    -0.048 A 
+ATOM     41  H   R5T d   1      79.548  71.136  34.341  0.00  0.00     0.117 H 
+ATOM     42  CAM R5T d   1      81.212  70.045  31.873  0.00  0.00     0.006 A 
+ATOM     43  H   R5T d   1      79.202  69.427  32.377  0.00  0.00     0.087 H 
+ATOM     44  H   R5T d   1      81.427  69.457  30.982  0.00  0.00     0.114 H 
+ENDBRANCH  31  37
+ENDBRANCH   1  27
+TORSDOF 10

@@ -1,0 +1,85 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_23  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_11 
+REMARK    7  A    between atoms: C3_14  and  O3_21 
+REMARK    8  A    between atoms: C4_15  and  O4_23 
+REMARK    9  A    between atoms: C5_16  and  C6_17 
+REMARK   10  A    between atoms: C6_17  and  O6_25 
+REMARK   11  A    between atoms: C2_24  and  O2_22 
+ROOT
+ATOM      1  H   BMA d   1     -10.863 -21.945  13.370  0.00  0.00     0.091 H 
+ATOM      2  H   BMA d   1     -11.151 -19.071  13.080  0.00  0.00     0.090 H 
+ATOM      3  H   BMA d   1     -13.182 -20.695  11.468  0.00  0.00     0.080 H 
+ATOM      4  H   BMA d   1     -10.135 -18.234   8.013  0.00  0.00     0.117 H 
+ATOM      5  H   BMA d   1     -12.265 -17.712   9.550  0.00  0.00     0.113 H 
+ATOM      6  H   BMA d   1     -11.418 -22.290  11.129  0.00  0.00     0.099 H 
+ATOM      7  C1  MVL d   1     -10.677 -20.445  10.336  0.00  0.00     0.138 A 
+ATOM      8  N10 MVL d   1     -11.649 -19.566  10.546  0.00  0.00    -0.332 N 
+ATOM      9  C3  MVL d   1     -10.615 -21.102  12.708  0.00  0.00     0.094 C 
+ATOM     10  C4  MVL d   1     -11.688 -20.010  12.879  0.00  0.00     0.091 C 
+ATOM     11  C5  MVL d   1     -12.596 -19.783  11.656  0.00  0.00     0.065 C 
+ATOM     12  C7  MVL d   1     -10.505 -18.842   8.837  0.00  0.00     0.019 A 
+ATOM     13  C8  MVL d   1     -11.591 -18.563   9.634  0.00  0.00    -0.001 A 
+ATOM     14  N1  MVL d   1      -9.979 -20.021   9.271  0.00  0.00    -0.243 NA
+ATOM     15  C2  MVL d   1     -10.559 -21.621  11.287  0.00  0.00     0.119 C 
+ENDROOT
+BRANCH  10  16
+ATOM     16  O4  MVL d   1     -12.565 -20.269  13.970  0.00  0.00    -0.348 OA
+BRANCH  16  17
+ATOM     17  C1  BMA d   1     -12.088 -20.313  15.234  0.00  0.00     0.159 C 
+ATOM     18  C2  BMA d   1     -13.204 -19.912  16.185  0.00  0.00     0.110 C 
+ATOM     19  C3  BMA d   1     -12.714 -20.038  17.625  0.00  0.00     0.092 C 
+ATOM     20  H   BMA d   1     -13.472 -18.863  15.991  0.00  0.00     0.094 H 
+ATOM     21  C4  BMA d   1     -12.247 -21.456  17.896  0.00  0.00     0.090 C 
+ATOM     22  H   BMA d   1     -11.868 -19.352  17.781  0.00  0.00     0.091 H 
+ATOM     23  C5  BMA d   1     -11.238 -21.891  16.830  0.00  0.00     0.089 C 
+ATOM     24  H   BMA d   1     -13.118 -22.125  17.843  0.00  0.00     0.091 H 
+ATOM     25  O5  BMA d   1     -11.744 -21.675  15.507  0.00  0.00    -0.348 OA
+ATOM     26  H   BMA d   1     -10.326 -21.291  16.963  0.00  0.00     0.090 H 
+ATOM     27  H   BMA d   1     -11.217 -19.652  15.351  0.00  0.00     0.133 H 
+BRANCH  18  28
+ATOM     28  O2  BMA d   1     -14.359 -20.718  15.987  0.00  0.00    -0.388 OA
+ATOM     29  H   BMA d   1     -15.047 -20.433  16.576  0.00  0.00     0.210 HD
+ENDBRANCH  18  28
+BRANCH  19  30
+ATOM     30  O3  BMA d   1     -13.785 -19.667  18.506  0.00  0.00    -0.390 OA
+ATOM     31  H   BMA d   1     -13.486 -19.721  19.406  0.00  0.00     0.210 HD
+ENDBRANCH  19  30
+BRANCH  21  32
+ATOM     32  O4  BMA d   1     -11.681 -21.559  19.203  0.00  0.00    -0.390 OA
+ATOM     33  H   BMA d   1     -10.915 -21.000  19.260  0.00  0.00     0.210 HD
+ENDBRANCH  21  32
+BRANCH  23  34
+ATOM     34  C6  BMA d   1     -10.872 -23.369  16.947  0.00  0.00     0.043 C 
+ATOM     35  H   BMA d   1     -10.434 -23.552  17.939  0.00  0.00     0.078 H 
+ATOM     36  H   BMA d   1     -10.135 -23.618  16.169  0.00  0.00     0.078 H 
+BRANCH  34  37
+ATOM     37  O6  BMA d   1     -12.015 -24.202  16.785  0.00  0.00    -0.398 OA
+ATOM     38  H   BMA d   1     -12.654 -23.995  17.457  0.00  0.00     0.209 HD
+ENDBRANCH  34  37
+ENDBRANCH  23  34
+ENDBRANCH  16  17
+ENDBRANCH  10  16
+BRANCH   9  39
+ATOM     39  O3  MVL d   1      -9.342 -20.554  13.110  0.00  0.00    -0.390 OA
+ATOM     40  H   BMA d   1      -8.668 -21.216  13.011  0.00  0.00     0.210 HD
+ENDBRANCH   9  39
+BRANCH  11  41
+ATOM     41  C6  MVL d   1     -13.573 -18.633  11.804  0.00  0.00     0.038 C 
+ATOM     42  H   BMA d   1     -14.308 -18.901  12.577  0.00  0.00     0.077 H 
+ATOM     43  H   BMA d   1     -14.088 -18.490  10.842  0.00  0.00     0.077 H 
+BRANCH  41  44
+ATOM     44  O6  MVL d   1     -12.958 -17.387  12.177  0.00  0.00    -0.399 OA
+ATOM     45  H   BMA d   1     -12.517 -17.490  13.012  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  11  41
+BRANCH  15  46
+ATOM     46  O2  MVL d   1      -9.366 -22.365  11.021  0.00  0.00    -0.385 OA
+ATOM     47  H   BMA d   1      -9.377 -22.668  10.121  0.00  0.00     0.210 HD
+ENDBRANCH  15  46
+TORSDOF 11

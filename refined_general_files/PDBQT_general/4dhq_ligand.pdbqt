@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAR_2  and  CAM_5 
+REMARK    2  A    between atoms: CAL_10  and  OAK_11 
+REMARK    3  A    between atoms: OAK_11  and  CAA_12 
+REMARK    4  A    between atoms: CAA_12  and  CAB_13 
+REMARK       I    between atoms: CAB_13  and  NAC_15 
+REMARK    5  A    between atoms: NAC_15  and  CAE_16 
+ROOT
+ATOM      1  CAA Y06 d   1      25.520  11.408 -10.883  0.00  0.00     0.100 C 
+ATOM      2  H5  Y06 d   1      26.133  11.678 -10.011  0.00  0.00     0.089 H 
+ATOM      3  H6  Y06 d   1      26.158  11.353 -11.777  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  OAK Y06 d   1      24.490  12.395 -11.079  0.00  0.00    -0.341 OA
+BRANCH   4   5
+ATOM      5  CAL Y06 d   1      24.746  13.714 -10.763  0.00  0.00     0.089 A 
+ATOM      6  CAM Y06 d   1      23.649  14.489 -10.424  0.00  0.00     0.101 A 
+ATOM      7  CAN Y06 d   1      23.783  15.845 -10.088  0.00  0.00    -0.061 A 
+ATOM      8  CAO Y06 d   1      25.094  16.386 -10.136  0.00  0.00    -0.082 A 
+ATOM      9  H1  Y06 d   1      22.928  16.449  -9.806  0.00  0.00     0.085 H 
+ATOM     10  CAP Y06 d   1      26.216  15.610 -10.484  0.00  0.00    -0.080 A 
+ATOM     11  H2  Y06 d   1      25.237  17.433  -9.896  0.00  0.00     0.083 H 
+ATOM     12  CAQ Y06 d   1      26.053  14.235 -10.801  0.00  0.00    -0.050 A 
+ATOM     13  H3  Y06 d   1      27.202  16.061 -10.510  0.00  0.00     0.083 H 
+ATOM     14  H4  Y06 d   1      26.901  13.612 -11.062  0.00  0.00     0.087 H 
+BRANCH   6  15
+ATOM     15  PAR Y06 d   1      21.960  13.700 -10.381  0.00  0.00     0.298 P 
+ATOM     16  OAS Y06 d   1      20.961  14.769  -9.822  0.00  0.00    -0.636 OA
+ATOM     17  OAU Y06 d   1      21.614  13.241 -11.806  0.00  0.00    -0.636 OA
+ATOM     18  OAT Y06 d   1      21.934  12.553  -9.400  0.00  0.00    -0.636 OA
+ENDBRANCH   6  15
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  CAB Y06 d   1      24.837  10.039 -10.641  0.00  0.00     0.246 C 
+ATOM     20  OAD Y06 d   1      25.499   9.002 -10.733  0.00  0.00    -0.271 OA
+ATOM     21  NAC Y06 d   1      23.526  10.116 -10.288  0.00  0.00    -0.325 N 
+ATOM     22  H7  Y06 d   1      23.094  11.017 -10.263  0.00  0.00     0.169 HD
+BRANCH  21  23
+ATOM     23  CAE Y06 d   1      22.779   9.040  -9.970  0.00  0.00     0.036 A 
+ATOM     24  CAF Y06 d   1      22.500   8.016 -10.877  0.00  0.00    -0.036 A 
+ATOM     25  CAG Y06 d   1      21.663   6.976 -10.428  0.00  0.00     0.036 A 
+ATOM     26  H8  Y06 d   1      22.909   8.021 -11.881  0.00  0.00     0.089 H 
+ATOM     27 CL1  Y06 d   1      21.361   5.710 -11.509  0.00  0.00    -0.084 Cl
+ATOM     28  CAH Y06 d   1      21.091   6.911  -9.152  0.00  0.00    -0.062 A 
+ATOM     29  CAI Y06 d   1      21.364   7.935  -8.271  0.00  0.00    -0.079 A 
+ATOM     30  H9  Y06 d   1      20.454   6.082  -8.866  0.00  0.00     0.086 H 
+ATOM     31  CAJ Y06 d   1      22.198   8.987  -8.697  0.00  0.00    -0.057 A 
+ATOM     32  H10 Y06 d   1      20.946   7.931  -7.271  0.00  0.00     0.083 H 
+ATOM     33  H11 Y06 d   1      22.400   9.796  -8.005  0.00  0.00     0.086 H 
+ENDBRANCH  21  23
+ENDBRANCH   1  19
+TORSDOF 5

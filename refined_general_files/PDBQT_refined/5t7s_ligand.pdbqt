@@ -1,0 +1,86 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_7  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: C4'_16  and  O1_7 
+REMARK    8  A    between atoms: C1'_13  and  O1'_19 
+REMARK    9  A    between atoms: C2'_14  and  O2'_20 
+REMARK   10  A    between atoms: C3'_15  and  O3'_21 
+REMARK   11  A    between atoms: C5'_17  and  C6'_18 
+REMARK   12  A    between atoms: C6'_18  and  O6'_23 
+ROOT
+ATOM      1  O1  LBT d   1      -7.074   0.309   7.899  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  LBT d   1      -5.757   0.419   7.350  0.00  0.00     0.159 C 
+ATOM      3  C2  LBT d   1      -5.334  -0.946   6.790  0.00  0.00     0.110 C 
+ATOM      4  C3  LBT d   1      -4.022  -0.845   6.003  0.00  0.00     0.092 C 
+ATOM      5  H2  LBT d   1      -6.125  -1.300   6.113  0.00  0.00     0.094 H 
+ATOM      6  C4  LBT d   1      -4.033   0.354   5.044  0.00  0.00     0.090 C 
+ATOM      7  H3  LBT d   1      -3.198  -0.699   6.717  0.00  0.00     0.091 H 
+ATOM      8  C5  LBT d   1      -4.449   1.619   5.797  0.00  0.00     0.089 C 
+ATOM      9  H4  LBT d   1      -3.021   0.494   4.636  0.00  0.00     0.091 H 
+ATOM     10  O5  LBT d   1      -5.761   1.423   6.328  0.00  0.00    -0.348 OA
+ATOM     11  H5  LBT d   1      -3.743   1.780   6.625  0.00  0.00     0.090 H 
+ATOM     12  H1  LBT d   1      -5.053   0.716   8.141  0.00  0.00     0.133 H 
+BRANCH   3  13
+ATOM     13  O2  LBT d   1      -5.164  -1.908   7.846  0.00  0.00    -0.388 OA
+ATOM     14  H8  LBT d   1      -4.946  -2.753   7.471  0.00  0.00     0.210 HD
+ENDBRANCH   3  13
+BRANCH   4  15
+ATOM     15  O3  LBT d   1      -3.803  -2.073   5.306  0.00  0.00    -0.390 OA
+ATOM     16  H9  LBT d   1      -2.965  -2.037   4.859  0.00  0.00     0.210 HD
+ENDBRANCH   4  15
+BRANCH   6  17
+ATOM     17  O4  LBT d   1      -4.947   0.116   3.959  0.00  0.00    -0.390 OA
+ATOM     18  H10 LBT d   1      -4.931   0.857   3.365  0.00  0.00     0.210 HD
+ENDBRANCH   6  17
+BRANCH   8  19
+ATOM     19  C6  LBT d   1      -4.446   2.861   4.915  0.00  0.00     0.043 C 
+ATOM     20  H6  LBT d   1      -5.101   2.699   4.046  0.00  0.00     0.078 H 
+ATOM     21  H7  LBT d   1      -3.422   3.067   4.569  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O6  LBT d   1      -4.927   3.970   5.679  0.00  0.00    -0.398 OA
+ATOM     23  H11 LBT d   1      -5.811   3.788   5.977  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH   8  19
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C4' LBT d   1      -7.505   1.458   8.630  0.00  0.00     0.096 C 
+ATOM     25  C3' LBT d   1      -8.901   1.812   8.138  0.00  0.00     0.092 C 
+ATOM     26  C2' LBT d   1      -9.519   2.946   8.961  0.00  0.00     0.110 C 
+ATOM     27  H14 LBT d   1      -9.542   0.925   8.250  0.00  0.00     0.091 H 
+ATOM     28  C1' LBT d   1      -9.404   2.667  10.462  0.00  0.00     0.156 C 
+ATOM     29  H13 LBT d   1      -8.984   3.879   8.731  0.00  0.00     0.094 H 
+ATOM     30  O5' LBT d   1      -8.070   2.283  10.827  0.00  0.00    -0.349 OA
+ATOM     31  H12 LBT d   1      -9.669   3.582  11.012  0.00  0.00     0.133 H 
+ATOM     32  C5' LBT d   1      -7.543   1.145  10.125  0.00  0.00     0.089 C 
+ATOM     33  H16 LBT d   1      -8.218   0.290  10.278  0.00  0.00     0.090 H 
+ATOM     34  H15 LBT d   1      -6.818   2.298   8.449  0.00  0.00     0.091 H 
+BRANCH  25  35
+ATOM     35  O3' LBT d   1      -8.840   2.153   6.748  0.00  0.00    -0.390 OA
+ATOM     36  H21 LBT d   1      -8.262   2.898   6.631  0.00  0.00     0.210 HD
+ENDBRANCH  25  35
+BRANCH  26  37
+ATOM     37  O2' LBT d   1     -10.903   3.102   8.619  0.00  0.00    -0.388 OA
+ATOM     38  H20 LBT d   1     -11.367   2.293   8.803  0.00  0.00     0.210 HD
+ENDBRANCH  26  37
+BRANCH  28  39
+ATOM     39  O1' LBT d   1     -10.318   1.624  10.819  0.00  0.00    -0.369 OA
+ATOM     40  H19 LBT d   1     -11.200   1.881  10.576  0.00  0.00     0.212 HD
+ENDBRANCH  28  39
+BRANCH  32  41
+ATOM     41  C6' LBT d   1      -6.175   0.775  10.701  0.00  0.00     0.043 C 
+ATOM     42  H17 LBT d   1      -5.808  -0.134  10.202  0.00  0.00     0.078 H 
+ATOM     43  H18 LBT d   1      -6.278   0.585  11.780  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  O6' LBT d   1      -5.228   1.839  10.498  0.00  0.00    -0.398 OA
+ATOM     45  H22 LBT d   1      -4.388   1.587  10.863  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  32  41
+ENDBRANCH   1  24
+TORSDOF 12

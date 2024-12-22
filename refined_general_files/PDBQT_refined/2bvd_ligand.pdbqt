@@ -1,0 +1,80 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_18  and  O6_1 
+REMARK    2  A    between atoms: C4_4  and  O4_5 
+REMARK    3  A    between atoms: O4_5  and  C1A_10 
+REMARK    4  A    between atoms: C3_6  and  O3_7 
+REMARK    5  A    between atoms: C2_8  and  C6_18 
+REMARK    6  A    between atoms: C2A_11  and  O2A_12 
+REMARK    7  A    between atoms: C3A_13  and  O3A_14 
+REMARK    8  A    between atoms: C4A_15  and  O4A_16 
+REMARK    9  A    between atoms: C5A_17  and  C6A_19 
+REMARK   10  A    between atoms: C6A_19  and  O6A_20 
+ROOT
+ATOM      1  O4  ISX d   1      20.350  34.228  16.743  0.00  0.00    -0.349 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C4  ISX d   1      19.290  33.605  16.002  0.00  0.00     0.090 C 
+ATOM      3  C5  ISX d   1      19.211  34.266  14.622  0.00  0.00     0.108 C 
+ATOM      4  N5  ISX d   1      17.955  33.988  13.934  0.00  0.00    -0.072 N 
+ATOM      5  H2  ISX d   1      19.310  35.354  14.747  0.00  0.00     0.079 H 
+ATOM      6  H3  ISX d   1      20.041  33.891  14.005  0.00  0.00     0.079 H 
+ATOM      7  C1  ISX d   1      16.715  34.139  14.697  0.00  0.00     0.089 C 
+ATOM      8  H4  ISX d   1      17.994  33.035  13.608  0.00  0.00     0.277 HD
+ATOM      9  H5  ISX d   1      17.900  34.611  13.143  0.00  0.00     0.277 HD
+ATOM     10  C2  ISX d   1      16.819  33.315  15.979  0.00  0.00     0.017 C 
+ATOM     11  H10 ISX d   1      15.866  33.781  14.096  0.00  0.00     0.076 H 
+ATOM     12  H11 ISX d   1      16.564  35.199  14.950  0.00  0.00     0.076 H 
+ATOM     13  C3  ISX d   1      18.016  33.777  16.818  0.00  0.00     0.069 C 
+ATOM     14  H9  ISX d   1      17.012  32.271  15.691  0.00  0.00     0.049 H 
+ATOM     15  H7  ISX d   1      17.882  34.841  17.063  0.00  0.00     0.087 H 
+ATOM     16  H6  ISX d   1      19.496  32.532  15.873  0.00  0.00     0.090 H 
+BRANCH  10  17
+ATOM     17  C6  ISX d   1      15.484  33.333  16.732  0.00  0.00     0.024 C 
+ATOM     18  H20 ISX d   1      14.692  32.951  16.071  0.00  0.00     0.074 H 
+ATOM     19  H21 ISX d   1      15.563  32.689  17.620  0.00  0.00     0.074 H 
+BRANCH  17  20
+ATOM     20  O6  ISX d   1      15.149  34.662  17.145  0.00  0.00    -0.400 OA
+ATOM     21  H1  ISX d   1      15.829  34.995  17.719  0.00  0.00     0.209 HD
+ENDBRANCH  17  20
+ENDBRANCH  10  17
+BRANCH  13  22
+ATOM     22  O3  ISX d   1      18.149  33.037  18.043  0.00  0.00    -0.392 OA
+ATOM     23  H8  ISX d   1      17.358  33.138  18.560  0.00  0.00     0.210 HD
+ENDBRANCH  13  22
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C1A ISX d   1      21.598  33.581  16.550  0.00  0.00     0.159 C 
+ATOM     25  C2A ISX d   1      22.695  34.565  16.946  0.00  0.00     0.110 C 
+ATOM     26  C3A ISX d   1      24.059  33.881  17.040  0.00  0.00     0.092 C 
+ATOM     27  H13 ISX d   1      22.448  34.957  17.944  0.00  0.00     0.094 H 
+ATOM     28  C4A ISX d   1      23.987  32.622  17.908  0.00  0.00     0.090 C 
+ATOM     29  H15 ISX d   1      24.378  33.588  16.029  0.00  0.00     0.091 H 
+ATOM     30  C5A ISX d   1      22.881  31.717  17.348  0.00  0.00     0.089 C 
+ATOM     31  H17 ISX d   1      23.732  32.907  18.940  0.00  0.00     0.091 H 
+ATOM     32  O5A ISX d   1      21.658  32.442  17.413  0.00  0.00    -0.348 OA
+ATOM     33  H19 ISX d   1      23.117  31.461  16.305  0.00  0.00     0.090 H 
+ATOM     34  H12 ISX d   1      21.717  33.273  15.501  0.00  0.00     0.133 H 
+BRANCH  25  35
+ATOM     35  O2A ISX d   1      22.742  35.676  16.037  0.00  0.00    -0.388 OA
+ATOM     36  H14 ISX d   1      22.919  35.358  15.159  0.00  0.00     0.210 HD
+ENDBRANCH  25  35
+BRANCH  26  37
+ATOM     37  O3A ISX d   1      25.009  34.810  17.573  0.00  0.00    -0.390 OA
+ATOM     38  H16 ISX d   1      24.728  35.087  18.437  0.00  0.00     0.210 HD
+ENDBRANCH  26  37
+BRANCH  28  39
+ATOM     39  O4A ISX d   1      25.250  31.945  17.917  0.00  0.00    -0.390 OA
+ATOM     40  H18 ISX d   1      25.916  32.524  18.268  0.00  0.00     0.210 HD
+ENDBRANCH  28  39
+BRANCH  30  41
+ATOM     41  C6A ISX d   1      22.702  30.437  18.149  0.00  0.00     0.043 C 
+ATOM     42  H22 ISX d   1      23.673  29.933  18.264  0.00  0.00     0.078 H 
+ATOM     43  H23 ISX d   1      22.001  29.768  17.628  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  O6A ISX d   1      22.178  30.776  19.439  0.00  0.00    -0.398 OA
+ATOM     45  H24 ISX d   1      22.061  29.984  19.950  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  30  41
+ENDBRANCH   1  24
+TORSDOF 10

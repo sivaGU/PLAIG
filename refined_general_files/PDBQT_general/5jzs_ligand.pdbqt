@@ -1,0 +1,26 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_2  and  C04_4 
+REMARK    2  A    between atoms: C08_8  and  O09_9 
+ROOT
+ATOM      1  C04 FGZ d   1     -20.746 -16.490 -33.066  0.00  0.00     0.044 A 
+ATOM      2  C05 FGZ d   1     -21.474 -17.603 -32.674  0.00  0.00    -0.043 A 
+ATOM      3  C06 FGZ d   1     -21.915 -17.686 -31.358  0.00  0.00     0.069 A 
+ATOM      4 CL1  FGZ d   1     -22.844 -19.081 -30.836  0.00  0.00    -0.081 Cl
+ATOM      5  C08 FGZ d   1     -21.621 -16.656 -30.456  0.00  0.00     0.109 A 
+ATOM      6  C10 FGZ d   1     -20.876 -15.553 -30.884  0.00  0.00     0.069 A 
+ATOM      7 CL2  FGZ d   1     -20.443 -14.198 -29.859  0.00  0.00    -0.081 Cl
+ATOM      8  C12 FGZ d   1     -20.447 -15.480 -32.190  0.00  0.00    -0.043 A 
+ATOM      9  H1  FGZ d   1     -21.695 -18.394 -33.381  0.00  0.00     0.087 H 
+ATOM     10  H3  FGZ d   1     -19.873 -14.624 -32.525  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C02 FGZ d   1     -20.234 -16.324 -34.461  0.00  0.00     0.209 C 
+ATOM     12  O01 FGZ d   1     -19.981 -17.358 -35.110  0.00  0.00    -0.644 OA
+ATOM     13  O03 FGZ d   1     -20.071 -15.168 -34.947  0.00  0.00    -0.644 OA
+ENDBRANCH   1  11
+BRANCH   5  14
+ATOM     14  O09 FGZ d   1     -22.071 -16.747 -29.115  0.00  0.00    -0.357 OA
+ATOM     15  H2  FGZ d   1     -21.792 -15.976 -28.636  0.00  0.00     0.217 HD
+ENDBRANCH   5  14
+TORSDOF 2

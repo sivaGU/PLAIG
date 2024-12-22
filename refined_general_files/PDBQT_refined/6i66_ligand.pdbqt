@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAK_3 
+REMARK    3  A    between atoms: CAK_3  and  CAB_4 
+REMARK    4  A    between atoms: CAK_3  and  CAJ_5 
+REMARK    5  A    between atoms: CAI_8  and  OAC_9 
+ROOT
+ATOM      1  CAK H4Q d   1     -17.094  -3.169 -27.169  0.00  0.00    -0.032 C 
+ATOM      2  H6  H4Q d   1     -18.192  -3.127 -27.231  0.00  0.00     0.046 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAH H4Q d   1     -16.571  -2.274 -26.041  0.00  0.00    -0.062 C 
+ATOM      4  H4  H4Q d   1     -16.984  -2.623 -25.083  0.00  0.00     0.033 H 
+ATOM      5  H5  H4Q d   1     -15.473  -2.336 -26.012  0.00  0.00     0.033 H 
+BRANCH   3   6
+ATOM      6  CAA H4Q d   1     -16.982  -0.831 -26.263  0.00  0.00    -0.076 C 
+ATOM      7  H1  H4Q d   1     -16.596  -0.209 -25.442  0.00  0.00     0.027 H 
+ATOM      8  H2  H4Q d   1     -18.079  -0.762 -26.290  0.00  0.00     0.027 H 
+ATOM      9  H3  H4Q d   1     -16.569  -0.475 -27.218  0.00  0.00     0.027 H 
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  10
+ATOM     10  CAB H4Q d   1     -16.475  -2.720 -28.497  0.00  0.00    -0.069 C 
+ATOM     11  H7  H4Q d   1     -16.848  -3.360 -29.310  0.00  0.00     0.028 H 
+ATOM     12  H8  H4Q d   1     -15.380  -2.803 -28.438  0.00  0.00     0.028 H 
+ATOM     13  H9  H4Q d   1     -16.753  -1.675 -28.696  0.00  0.00     0.028 H 
+ENDBRANCH   1  10
+BRANCH   1  14
+ATOM     14  CAJ H4Q d   1     -16.666  -4.447 -26.847  0.00  0.00    -0.054 A 
+ATOM     15  CAF H4Q d   1     -15.493  -4.936 -27.404  0.00  0.00    -0.074 A 
+ATOM     16  CAD H4Q d   1     -15.042  -6.200 -27.069  0.00  0.00    -0.051 A 
+ATOM     17  H10 H4Q d   1     -14.930  -4.327 -28.102  0.00  0.00     0.084 H 
+ATOM     18  CAI H4Q d   1     -15.758  -6.974 -26.170  0.00  0.00     0.065 A 
+ATOM     19  H11 H4Q d   1     -14.129  -6.585 -27.509  0.00  0.00     0.087 H 
+ATOM     20  CAE H4Q d   1     -16.934  -6.488 -25.601  0.00  0.00    -0.051 A 
+ATOM     21  CAG H4Q d   1     -17.389  -5.219 -25.938  0.00  0.00    -0.074 A 
+ATOM     22  H13 H4Q d   1     -17.491  -7.097 -24.899  0.00  0.00     0.087 H 
+ATOM     23  H14 H4Q d   1     -18.300  -4.832 -25.497  0.00  0.00     0.084 H 
+BRANCH  18  24
+ATOM     24  OAC H4Q d   1     -15.299  -8.213 -25.851  0.00  0.00    -0.361 OA
+ATOM     25  H12 H4Q d   1     -15.891  -8.618 -25.229  0.00  0.00     0.217 HD
+ENDBRANCH  18  24
+ENDBRANCH   1  14
+TORSDOF 5

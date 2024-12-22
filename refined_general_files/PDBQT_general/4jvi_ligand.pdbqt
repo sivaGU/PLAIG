@@ -1,0 +1,82 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAI_3 
+REMARK    3  A    between atoms: CAI_3  and  CAJ_4 
+REMARK    4  A    between atoms: CAJ_4  and  CAK_5 
+REMARK    5  A    between atoms: CAK_5  and  CAL_6 
+REMARK    6  A    between atoms: CAL_6  and  CAM_7 
+REMARK    7  A    between atoms: CAM_7  and  CAN_8 
+REMARK    8  A    between atoms: CAN_8  and  CAO_9 
+REMARK    9  A    between atoms: CAO_9  and  CAR_10 
+REMARK   10  A    between atoms: NAV_21  and  NAB_22 
+ROOT
+ATOM      1  CAN QZN d   1     -34.465  56.182  10.740  0.00  0.00    -0.059 C 
+ATOM      2  H16 QZN d   1     -34.783  57.218  10.930  0.00  0.00     0.033 H 
+ATOM      3  H17 QZN d   1     -34.506  55.977   9.660  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAM QZN d   1     -35.424  55.227  11.464  0.00  0.00    -0.065 C 
+ATOM      5  H14 QZN d   1     -34.898  54.736  12.296  0.00  0.00     0.033 H 
+ATOM      6  H15 QZN d   1     -36.282  55.793  11.856  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  CAL QZN d   1     -35.910  54.183  10.484  0.00  0.00    -0.065 C 
+ATOM      8  H12 QZN d   1     -35.297  54.220   9.571  0.00  0.00     0.033 H 
+ATOM      9  H13 QZN d   1     -35.831  53.184  10.939  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  CAK QZN d   1     -37.342  54.468  10.141  0.00  0.00    -0.065 C 
+ATOM     11  H10 QZN d   1     -37.992  53.698  10.582  0.00  0.00     0.033 H 
+ATOM     12  H11 QZN d   1     -37.630  55.457  10.528  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  CAJ QZN d   1     -37.470  54.448   8.642  0.00  0.00    -0.065 C 
+ATOM     14  H8  QZN d   1     -37.715  55.455   8.272  0.00  0.00     0.033 H 
+ATOM     15  H9  QZN d   1     -36.527  54.110   8.188  0.00  0.00     0.033 H 
+BRANCH  13  16
+ATOM     16  CAI QZN d   1     -38.573  53.495   8.300  0.00  0.00    -0.065 C 
+ATOM     17  H6  QZN d   1     -38.237  52.777   7.537  0.00  0.00     0.033 H 
+ATOM     18  H7  QZN d   1     -38.901  52.950   9.197  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  CAH QZN d   1     -39.702  54.353   7.759  0.00  0.00    -0.069 C 
+ATOM     20  H4  QZN d   1     -40.151  54.922   8.587  0.00  0.00     0.032 H 
+ATOM     21  H5  QZN d   1     -39.298  55.051   7.011  0.00  0.00     0.032 H 
+BRANCH  19  22
+ATOM     22  CAA QZN d   1     -40.771  53.492   7.110  0.00  0.00    -0.077 C 
+ATOM     23  H1  QZN d   1     -41.577  54.135   6.726  0.00  0.00     0.027 H 
+ATOM     24  H2  QZN d   1     -41.182  52.794   7.854  0.00  0.00     0.027 H 
+ATOM     25  H3  QZN d   1     -40.329  52.923   6.279  0.00  0.00     0.027 H 
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  CAO QZN d   1     -33.015  56.009  11.225  0.00  0.00    -0.008 C 
+ATOM     27  H18 QZN d   1     -32.743  54.944  11.266  0.00  0.00     0.044 H 
+ATOM     28  H19 QZN d   1     -32.881  56.460  12.219  0.00  0.00     0.044 H 
+BRANCH  26  29
+ATOM     29  CAR QZN d   1     -32.190  56.727  10.202  0.00  0.00     0.137 A 
+ATOM     30  NAP QZN d   1     -32.187  58.045  10.322  0.00  0.00    -0.233 NA
+ATOM     31  CAT QZN d   1     -31.506  58.796   9.445  0.00  0.00     0.076 A 
+ATOM     32  CAG QZN d   1     -31.517  60.170   9.598  0.00  0.00    -0.033 A 
+ATOM     33  CAU QZN d   1     -30.796  58.223   8.382  0.00  0.00     0.063 A 
+ATOM     34  CAQ QZN d   1     -30.830  60.993   8.700  0.00  0.00     0.036 A 
+ATOM     35  H20 QZN d   1     -32.064  60.614  10.422  0.00  0.00     0.089 H 
+ATOM     36 CL   QZN d   1     -30.883  62.746   8.887  0.00  0.00    -0.084 Cl
+ATOM     37  CAE QZN d   1     -30.122  60.402   7.661  0.00  0.00    -0.061 A 
+ATOM     38  CAF QZN d   1     -30.105  59.022   7.485  0.00  0.00    -0.064 A 
+ATOM     39  H21 QZN d   1     -29.570  61.031   6.971  0.00  0.00     0.086 H 
+ATOM     40  H22 QZN d   1     -29.560  58.579   6.659  0.00  0.00     0.085 H 
+ATOM     41  CAS QZN d   1     -30.805  56.846   8.227  0.00  0.00     0.285 A 
+ATOM     42  OAC QZN d   1     -30.202  56.303   7.315  0.00  0.00    -0.265 OA
+ATOM     43  NAV QZN d   1     -31.492  56.068   9.138  0.00  0.00    -0.126 N 
+BRANCH  43  44
+ATOM     44  NAB QZN d   1     -31.450  54.841   8.977  0.00  0.00     0.010 N 
+ATOM     45  H23 QZN d   1     -31.986  54.389   9.701  0.00  0.00     0.304 HD
+ATOM     46  H24 QZN d   1     -30.493  54.529   9.023  0.00  0.00     0.304 HD
+ATOM     47  H25 QZN d   1     -31.837  54.607   8.076  0.00  0.00     0.304 HD
+ENDBRANCH  43  44
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 10

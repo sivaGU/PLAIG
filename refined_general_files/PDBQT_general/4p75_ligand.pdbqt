@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O_16 
+REMARK    2  A    between atoms: C5_13  and  C7_4 
+REMARK    3  A    between atoms: C9_6  and  C10_7 
+REMARK    4  A    between atoms: O_16  and  C_17 
+ROOT
+ATOM      1  C1  2NM d   1      44.709  23.517  23.369  0.00  0.00     0.069 A 
+ATOM      2  C2  2NM d   1      43.404  23.555  23.854  0.00  0.00    -0.051 A 
+ATOM      3  C3  2NM d   1      42.358  23.252  22.996  0.00  0.00    -0.080 A 
+ATOM      4  C5  2NM d   1      43.914  22.814  21.208  0.00  0.00    -0.003 A 
+ATOM      5  C4  2NM d   1      42.608  22.892  21.681  0.00  0.00    -0.071 A 
+ATOM      6  C6  2NM d   1      44.969  23.141  22.058  0.00  0.00    -0.039 A 
+ATOM      7  H   2NM d   1      43.209  23.818  24.887  0.00  0.00     0.087 H 
+ATOM      8  H   2NM d   1      41.337  23.297  23.356  0.00  0.00     0.083 H 
+ATOM      9  H   2NM d   1      41.781  22.670  21.017  0.00  0.00     0.084 H 
+ATOM     10  H   2NM d   1      45.990  23.102  21.696  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C7  2NM d   1      44.194  22.361  19.831  0.00  0.00     0.089 A 
+ATOM     12  C8  2NM d   1      43.374  22.223  18.730  0.00  0.00    -0.021 A 
+ATOM     13  C9  2NM d   1      44.221  21.791  17.687  0.00  0.00     0.136 A 
+ATOM     14  H   2NM d   1      42.302  22.408  18.677  0.00  0.00     0.090 H 
+ATOM     15  N   2NM d   1      45.480  21.667  18.107  0.00  0.00    -0.273 N 
+ATOM     16  N1  2NM d   1      45.431  22.012  19.421  0.00  0.00    -0.174 NA
+ATOM     17  H   2NM d   1      46.303  21.376  17.560  0.00  0.00     0.189 HD
+BRANCH  13  18
+ATOM     18  C10 2NM d   1      43.872  21.491  16.276  0.00  0.00     0.434 C 
+ATOM     19  F2  2NM d   1      43.495  20.248  16.120  0.00  0.00    -0.165 F 
+ATOM     20  F   2NM d   1      42.875  22.238  15.850  0.00  0.00    -0.165 F 
+ATOM     21  F1  2NM d   1      44.906  21.654  15.449  0.00  0.00    -0.165 F 
+ENDBRANCH  13  18
+ENDBRANCH   4  11
+BRANCH   1  22
+ATOM     22  O   2NM d   1      45.830  23.903  24.058  0.00  0.00    -0.356 OA
+BRANCH  22  23
+ATOM     23  C   2NM d   1      45.659  24.438  25.371  0.00  0.00     0.010 C 
+ATOM     24  H   2NM d   1      46.641  24.699  25.791  0.00  0.00     0.066 H 
+ATOM     25  H   2NM d   1      45.174  23.688  26.012  0.00  0.00     0.066 H 
+ATOM     26  H   2NM d   1      45.030  25.339  25.321  0.00  0.00     0.066 H 
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+TORSDOF 4

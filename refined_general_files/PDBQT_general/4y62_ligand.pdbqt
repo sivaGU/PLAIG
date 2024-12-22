@@ -1,0 +1,91 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAD_8  and  CAI_9 
+REMARK    2  A    between atoms: CAK_11  and  OAN_12 
+REMARK    3  A    between atoms: CAJ_13  and  OAO_14 
+REMARK    4  A    between atoms: CAM_15  and  CAP_16 
+REMARK    5  A    between atoms: CAP_16  and  NAQ_17 
+REMARK       I    between atoms: NAQ_17  and  C_18 
+REMARK    6  A    between atoms: C_18  and  CA_20 
+REMARK    7  A    between atoms: CA_20  and  CB_21 
+REMARK    8  A    between atoms: CA_20  and  N_23 
+REMARK    9  A    between atoms: CB_21  and  OG_22 
+REMARK   10  A    between atoms: CBA_27  and  CBB_28 
+ROOT
+ATOM      1  NAQ 48E d   1      12.858  19.799   6.341  0.00  0.00    -0.357 N 
+ATOM      2  C   48E d   1      12.386  20.127   7.559  0.00  0.00     0.244 C 
+ATOM      3  O   48E d   1      13.105  20.445   8.502  0.00  0.00    -0.271 OA
+ATOM      4  H12 48E d   1      12.205  19.581   5.616  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CAP 48E d   1      14.299  19.749   6.033  0.00  0.00     0.022 C 
+ATOM      6  H10 48E d   1      14.846  19.556   6.968  0.00  0.00     0.068 H 
+ATOM      7  H11 48E d   1      14.473  18.922   5.329  0.00  0.00     0.068 H 
+BRANCH   5   8
+ATOM      8  CAM 48E d   1      14.850  21.038   5.409  0.00  0.00     0.083 C 
+ATOM      9  OAL 48E d   1      14.688  22.251   6.192  0.00  0.00    -0.354 OA
+ATOM     10  CAI 48E d   1      15.978  22.930   6.259  0.00  0.00     0.141 C 
+ATOM     11  CAK 48E d   1      16.872  22.244   5.236  0.00  0.00     0.105 C 
+ATOM     12  H4  48E d   1      15.839  23.981   5.965  0.00  0.00     0.123 H 
+ATOM     13  CAJ 48E d   1      16.345  20.858   5.249  0.00  0.00     0.091 C 
+ATOM     14  H5  48E d   1      17.930  22.277   5.534  0.00  0.00     0.093 H 
+ATOM     15  H7  48E d   1      16.764  20.288   6.091  0.00  0.00     0.091 H 
+ATOM     16  H9  48E d   1      14.370  21.182   4.430  0.00  0.00     0.090 H 
+BRANCH  10  17
+ATOM     17  NAD 48E d   1      16.585  22.921   7.627  0.00  0.00    -0.280 N 
+ATOM     18  CAB 48E d   1      17.674  23.675   7.891  0.00  0.00     0.331 A 
+ATOM     19  OAG 48E d   1      18.207  24.372   7.030  0.00  0.00    -0.246 OA
+ATOM     20  NAA 48E d   1      18.242  23.672   9.170  0.00  0.00    -0.275 N 
+ATOM     21  CAC 48E d   1      17.696  22.909  10.201  0.00  0.00     0.250 A 
+ATOM     22  H1  48E d   1      19.054  24.227   9.348  0.00  0.00     0.173 HD
+ATOM     23  OAH 48E d   1      18.231  22.936  11.306  0.00  0.00    -0.268 OA
+ATOM     24  CAE 48E d   1      16.575  22.128   9.951  0.00  0.00    -0.002 A 
+ATOM     25  CAF 48E d   1      16.023  22.139   8.671  0.00  0.00    -0.008 A 
+ATOM     26  H2  48E d   1      16.136  21.519  10.740  0.00  0.00     0.094 H 
+ATOM     27  H3  48E d   1      15.141  21.534   8.467  0.00  0.00     0.112 H 
+ENDBRANCH  10  17
+BRANCH  11  28
+ATOM     28  OAN 48E d   1      16.709  22.845   3.943  0.00  0.00    -0.388 OA
+ATOM     29  H6  48E d   1      16.943  23.765   3.991  0.00  0.00     0.210 HD
+ENDBRANCH  11  28
+BRANCH  13  30
+ATOM     30  OAO 48E d   1      16.644  20.185   4.021  0.00  0.00    -0.390 OA
+ATOM     31  H8  48E d   1      16.297  19.301   4.053  0.00  0.00     0.210 HD
+ENDBRANCH  13  30
+ENDBRANCH   5   8
+ENDBRANCH   1   5
+BRANCH   2  32
+ATOM     32  CA  48E d   1      10.861  20.042   7.740  0.00  0.00     0.132 C 
+ATOM     33  H13 48E d   1      10.366  20.215   6.773  0.00  0.00     0.094 H 
+BRANCH  32  34
+ATOM     34  CB  48E d   1      10.537  18.618   8.230  0.00  0.00     0.046 C 
+ATOM     35  H14 48E d   1      11.249  18.340   9.021  0.00  0.00     0.077 H 
+ATOM     36  H15 48E d   1      10.633  17.918   7.387  0.00  0.00     0.077 H 
+BRANCH  34  37
+ATOM     37  OG  48E d   1       9.205  18.542   8.751  0.00  0.00    -0.398 OA
+ATOM     38  H16 48E d   1       8.586  18.778   8.070  0.00  0.00     0.209 HD
+ENDBRANCH  34  37
+ENDBRANCH  32  34
+BRANCH  32  39
+ATOM     39  N   48E d   1      10.387  21.084   8.715  0.00  0.00    -0.244 N 
+ATOM     40  CAY 48E d   1      10.488  21.103  10.047  0.00  0.00     0.031 A 
+ATOM     41  CBA 48E d   1       9.913  22.238  10.402  0.00  0.00     0.108 A 
+ATOM     42  H17 48E d   1      10.941  20.353  10.693  0.00  0.00     0.118 H 
+ATOM     43  NAZ 48E d   1       9.507  22.823   9.288  0.00  0.00    -0.130 NA
+ATOM     44  NAX 48E d   1       9.809  22.106   8.348  0.00  0.00    -0.065 NA
+BRANCH  41  45
+ATOM     45  CBB 48E d   1       9.753  22.732  11.635  0.00  0.00    -0.004 A 
+ATOM     46  CBF 48E d   1      10.142  24.044  11.921  0.00  0.00    -0.071 A 
+ATOM     47  CBD 48E d   1       9.971  24.571  13.203  0.00  0.00    -0.082 A 
+ATOM     48  H18 48E d   1      10.580  24.657  11.142  0.00  0.00     0.084 H 
+ATOM     49  CBC 48E d   1       9.405  23.788  14.210  0.00  0.00    -0.083 A 
+ATOM     50  H19 48E d   1      10.278  25.589  13.416  0.00  0.00     0.083 H 
+ATOM     51  CBE 48E d   1       9.011  22.479  13.931  0.00  0.00    -0.082 A 
+ATOM     52  H20 48E d   1       9.272  24.195  15.206  0.00  0.00     0.083 H 
+ATOM     53  CBG 48E d   1       9.185  21.958  12.648  0.00  0.00    -0.071 A 
+ATOM     54  H21 48E d   1       8.570  21.867  14.710  0.00  0.00     0.083 H 
+ATOM     55  H22 48E d   1       8.876  20.941  12.436  0.00  0.00     0.084 H 
+ENDBRANCH  41  45
+ENDBRANCH  32  39
+ENDBRANCH   2  32
+TORSDOF 10

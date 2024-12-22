@@ -1,0 +1,30 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  N02_2 
+REMARK       I    between atoms: N02_2  and  C03_3 
+REMARK    2  A    between atoms: C03_3  and  C05_5 
+ROOT
+ATOM      1  C05 7MU d   1      60.172  41.217  -4.927  0.00  0.00     0.125 A 
+ATOM      2  N06 7MU d   1      58.878  40.940  -5.017  0.00  0.00    -0.255 NA
+ATOM      3  C07 7MU d   1      57.986  41.847  -5.375  0.00  0.00     0.005 A 
+ATOM      4  C08 7MU d   1      58.405  43.132  -5.667  0.00  0.00    -0.045 A 
+ATOM      5  C09 7MU d   1      59.774  43.473  -5.584  0.00  0.00     0.037 A 
+ATOM      6  C10 7MU d   1      60.688  42.473  -5.200  0.00  0.00    -0.029 A 
+ATOM      7 CL   7MU d   1      60.307  45.093  -5.951  0.00  0.00    -0.084 Cl
+ATOM      8  H5  7MU d   1      56.936  41.586  -5.439  0.00  0.00     0.114 H 
+ATOM      9  H6  7MU d   1      57.679  43.882  -5.961  0.00  0.00     0.088 H 
+ATOM     10  H7  7MU d   1      61.750  42.677  -5.121  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C03 7MU d   1      61.091  40.092  -4.507  0.00  0.00     0.269 C 
+ATOM     12  N02 7MU d   1      60.561  39.045  -3.669  0.00  0.00    -0.360 N 
+ATOM     13  H4  7MU d   1      59.606  39.069  -3.373  0.00  0.00     0.162 HD
+ATOM     14  O04 7MU d   1      62.264  40.053  -4.862  0.00  0.00    -0.266 OA
+BRANCH  12  15
+ATOM     15  C01 7MU d   1      61.405  37.985  -3.270  0.00  0.00    -0.018 C 
+ATOM     16  H1  7MU d   1      60.839  37.283  -2.640  0.00  0.00     0.056 H 
+ATOM     17  H2  7MU d   1      62.254  38.388  -2.699  0.00  0.00     0.056 H 
+ATOM     18  H3  7MU d   1      61.779  37.459  -4.161  0.00  0.00     0.056 H 
+ENDBRANCH  12  15
+ENDBRANCH   1  11
+TORSDOF 2

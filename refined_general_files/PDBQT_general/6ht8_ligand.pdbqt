@@ -1,0 +1,55 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_2  and  C16_3 
+REMARK       I    between atoms: C14_2  and  N13_9 
+REMARK    2  A    between atoms: N13_9  and  C12_10 
+REMARK    3  A    between atoms: C03_11  and  O02_12 
+REMARK    4  A    between atoms: O02_12  and  C01_13 
+REMARK    5  A    between atoms: C06_15  and  C07_18 
+REMARK       I    between atoms: C07_18  and  N09_20 
+ROOT
+ATOM      1  C12 GQE d   1      44.207  35.061  86.082  0.00  0.00     0.069 A 
+ATOM      2  C03 GQE d   1      43.815  35.229  84.769  0.00  0.00     0.095 A 
+ATOM      3  C11 GQE d   1      45.163  34.085  86.397  0.00  0.00    -0.039 A 
+ATOM      4  C06 GQE d   1      45.727  33.254  85.435  0.00  0.00     0.038 A 
+ATOM      5  C05 GQE d   1      45.313  33.427  84.117  0.00  0.00    -0.065 A 
+ATOM      6  C04 GQE d   1      44.368  34.405  83.796  0.00  0.00    -0.048 A 
+ATOM      7  H10 GQE d   1      45.474  33.974  87.429  0.00  0.00     0.088 H 
+ATOM      8  H11 GQE d   1      45.726  32.800  83.335  0.00  0.00     0.085 H 
+ATOM      9  H12 GQE d   1      44.059  34.524  82.764  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  N13 GQE d   1      43.763  35.813  87.218  0.00  0.00    -0.320 N 
+ATOM     11  C14 GQE d   1      44.322  37.109  87.481  0.00  0.00     0.256 C 
+ATOM     12  O15 GQE d   1      45.150  37.590  86.722  0.00  0.00    -0.267 OA
+ATOM     13  H6  GQE d   1      43.065  35.436  87.827  0.00  0.00     0.169 HD
+BRANCH  11  14
+ATOM     14  C16 GQE d   1      43.983  37.849  88.737  0.00  0.00     0.032 A 
+ATOM     15  C21 GQE d   1      44.886  38.812  89.184  0.00  0.00    -0.068 A 
+ATOM     16  C20 GQE d   1      44.650  39.486  90.372  0.00  0.00    -0.082 A 
+ATOM     17  H1  GQE d   1      45.773  39.034  88.602  0.00  0.00     0.085 H 
+ATOM     18  C19 GQE d   1      43.530  39.173  91.131  0.00  0.00    -0.083 A 
+ATOM     19  H2  GQE d   1      45.337  40.255  90.707  0.00  0.00     0.083 H 
+ATOM     20  C18 GQE d   1      42.651  38.189  90.708  0.00  0.00    -0.082 A 
+ATOM     21  H3  GQE d   1      43.343  39.701  92.059  0.00  0.00     0.083 H 
+ATOM     22  C17 GQE d   1      42.874  37.520  89.515  0.00  0.00    -0.068 A 
+ATOM     23  H4  GQE d   1      41.786  37.942  91.312  0.00  0.00     0.083 H 
+ATOM     24  H5  GQE d   1      42.190  36.745  89.189  0.00  0.00     0.085 H 
+ENDBRANCH  11  14
+ENDBRANCH   1  10
+BRANCH   2  25
+ATOM     25  O02 GQE d   1      42.892  36.182  84.412  0.00  0.00    -0.354 OA
+BRANCH  25  26
+ATOM     26  C01 GQE d   1      42.382  36.115  83.129  0.00  0.00     0.010 C 
+ATOM     27  H7  GQE d   1      41.660  36.931  82.978  0.00  0.00     0.066 H 
+ATOM     28  H8  GQE d   1      41.878  35.148  82.985  0.00  0.00     0.066 H 
+ATOM     29  H9  GQE d   1      43.202  36.213  82.403  0.00  0.00     0.066 H 
+ENDBRANCH  25  26
+ENDBRANCH   2  25
+BRANCH   4  30
+ATOM     30  C07 GQE d   1      46.739  32.209  85.838  0.00  0.00     0.302 C 
+ATOM     31  O08 GQE d   1      47.303  32.270  86.925  0.00  0.00    -0.263 OA
+ATOM     32  N09 GQE d   1      47.064  31.090  84.999  0.00  0.00    -0.054 NA
+ATOM     33  O10 GQE d   1      47.934  30.198  85.399  0.00  0.00    -0.058 OA
+ENDBRANCH   4  30
+TORSDOF 5

@@ -1,0 +1,54 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P4_4  and  O5_5 
+REMARK    2  A    between atoms: O5_5  and  P8_8 
+REMARK    3  A    between atoms: P8_8  and  O9_9 
+REMARK    4  A    between atoms: O9_9  and  C10_10 
+REMARK    5  A    between atoms: C10_10  and  C11_11 
+REMARK    6  A    between atoms: C11_11  and  N12_12 
+REMARK    7  A    between atoms: N12_12  and  C13_13 
+REMARK    8  A    between atoms: N12_12  and  C14_14 
+ROOT
+ATOM      1  C11 DED d   1       8.641   7.654  14.059  0.00  0.00     0.102 C 
+ATOM      2  H3  DED d   1       8.627   7.144  15.034  0.00  0.00     0.079 H 
+ATOM      3  H4  DED d   1       7.678   7.500  13.551  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C10 DED d   1       9.793   7.097  13.188  0.00  0.00     0.054 C 
+ATOM      5  H1  DED d   1       9.567   7.271  12.126  0.00  0.00     0.077 H 
+ATOM      6  H2  DED d   1      10.732   7.606  13.452  0.00  0.00     0.077 H 
+BRANCH   4   7
+ATOM      7  O9  DED d   1       9.930   5.696  13.422  0.00  0.00    -0.288 OA
+BRANCH   7   8
+ATOM      8  P8  DED d   1      10.844   4.996  12.435  0.00  0.00     0.418 P 
+ATOM      9  O7  DED d   1      11.547   3.889  13.184  0.00  0.00    -0.624 OA
+ATOM     10  O6  DED d   1      11.608   5.916  11.815  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  O5  DED d   1       9.923   4.267  11.444  0.00  0.00    -0.173 OA
+BRANCH  11  12
+ATOM     12  P4  DED d   1      10.196   2.764  11.282  0.00  0.00     0.431 P 
+ATOM     13  O1  DED d   1      11.084   2.494  10.328  0.00  0.00    -0.616 OA
+ATOM     14  O3  DED d   1       8.857   2.093  11.106  0.00  0.00    -0.616 OA
+ATOM     15  O2  DED d   1      10.723   2.289  12.621  0.00  0.00    -0.616 OA
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  N12 DED d   1       8.885   9.093  14.248  0.00  0.00    -0.077 N 
+ATOM     17  H5  DED d   1       8.077   9.616  13.949  0.00  0.00     0.279 HD
+BRANCH  16  18
+ATOM     18  C13 DED d   1       9.149   9.388  15.660  0.00  0.00     0.066 C 
+ATOM     19  H6  DED d   1       9.329  10.466  15.782  0.00  0.00     0.068 H 
+ATOM     20  H7  DED d   1      10.036   8.829  15.992  0.00  0.00     0.068 H 
+ATOM     21  H8  DED d   1       8.280   9.090  16.265  0.00  0.00     0.068 H 
+ENDBRANCH  16  18
+BRANCH  16  22
+ATOM     22  C14 DED d   1      10.047   9.456  13.413  0.00  0.00     0.066 C 
+ATOM     23  H9  DED d   1       9.828   9.227  12.360  0.00  0.00     0.068 H 
+ATOM     24  H10 DED d   1      10.926   8.880  13.738  0.00  0.00     0.068 H 
+ATOM     25  H11 DED d   1      10.253  10.531  13.519  0.00  0.00     0.068 H 
+ENDBRANCH  16  22
+ENDBRANCH   1  16
+TORSDOF 8

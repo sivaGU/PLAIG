@@ -1,0 +1,88 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBE_6  and  CAN_7 
+REMARK    2  A    between atoms: CAN_7  and  CAJ_8 
+REMARK    3  A    between atoms: CAJ_8  and  CAK_9 
+REMARK    4  A    between atoms: CAK_9  and  OAV_10 
+REMARK    5  A    between atoms: OAV_10  and  CBA_11 
+REMARK    6  A    between atoms: CAZ_12  and  OAT_14 
+REMARK    7  A    between atoms: OAT_14  and  CAA_15 
+REMARK    8  A    between atoms: C6_22  and  NAS_23 
+REMARK    9  A    between atoms: NAS_23  and  CAY_24 
+ROOT
+ATOM      1  CBA IRE d   1     -50.235   0.478 -19.000  0.00  0.00     0.103 A 
+ATOM      2  CAZ IRE d   1     -51.131   1.201 -18.216  0.00  0.00     0.103 A 
+ATOM      3  CAH IRE d   1     -52.195   1.859 -18.839  0.00  0.00    -0.019 A 
+ATOM      4  CAI IRE d   1     -50.399   0.437 -20.394  0.00  0.00    -0.032 A 
+ATOM      5  C5  IRE d   1     -51.458   1.101 -21.003  0.00  0.00     0.042 A 
+ATOM      6  C4  IRE d   1     -52.352   1.807 -20.222  0.00  0.00     0.075 A 
+ATOM      7  N3  IRE d   1     -53.370   2.446 -20.819  0.00  0.00    -0.241 NA
+ATOM      8  C2  IRE d   1     -53.559   2.411 -22.131  0.00  0.00     0.089 A 
+ATOM      9  N1  IRE d   1     -52.731   1.745 -22.905  0.00  0.00    -0.224 NA
+ATOM     10  C6  IRE d   1     -51.681   1.085 -22.378  0.00  0.00     0.142 A 
+ATOM     11  H16 IRE d   1     -52.906   2.416 -18.239  0.00  0.00     0.091 H 
+ATOM     12  H20 IRE d   1     -49.693  -0.118 -21.001  0.00  0.00     0.089 H 
+ATOM     13  H21 IRE d   1     -54.401   2.935 -22.568  0.00  0.00     0.146 H 
+ENDROOT
+BRANCH   1  14
+ATOM     14  OAV IRE d   1     -49.194  -0.154 -18.361  0.00  0.00    -0.348 OA
+BRANCH  14  15
+ATOM     15  CAK IRE d   1     -48.831  -1.483 -18.875  0.00  0.00     0.028 C 
+ATOM     16  H14 IRE d   1     -49.731  -1.933 -19.321  0.00  0.00     0.075 H 
+ATOM     17  H15 IRE d   1     -48.064  -1.349 -19.652  0.00  0.00     0.075 H 
+BRANCH  15  18
+ATOM     18  CAJ IRE d   1     -48.276  -2.469 -17.821  0.00  0.00    -0.022 C 
+ATOM     19  H12 IRE d   1     -48.731  -2.252 -16.843  0.00  0.00     0.038 H 
+ATOM     20  H13 IRE d   1     -48.522  -3.499 -18.120  0.00  0.00     0.038 H 
+BRANCH  18  21
+ATOM     21  CAN IRE d   1     -46.751  -2.319 -17.717  0.00  0.00     0.086 C 
+ATOM     22  H10 IRE d   1     -46.324  -2.345 -18.730  0.00  0.00     0.076 H 
+ATOM     23  H11 IRE d   1     -46.523  -1.351 -17.247  0.00  0.00     0.076 H 
+BRANCH  21  24
+ATOM     24  NBE IRE d   1     -46.131  -3.393 -16.914  0.00  0.00    -0.067 N 
+ATOM     25  CAO IRE d   1     -45.480  -2.716 -15.745  0.00  0.00     0.103 C 
+ATOM     26  CAL IRE d   1     -44.406  -3.592 -15.075  0.00  0.00     0.042 C 
+ATOM     27  H1  IRE d   1     -45.008  -1.786 -16.095  0.00  0.00     0.079 H 
+ATOM     28  H2  IRE d   1     -46.254  -2.477 -15.001  0.00  0.00     0.079 H 
+ATOM     29  OAU IRE d   1     -43.457  -4.022 -16.108  0.00  0.00    -0.388 OA
+ATOM     30  H3  IRE d   1     -44.878  -4.472 -14.613  0.00  0.00     0.076 H 
+ATOM     31  H4  IRE d   1     -43.879  -3.011 -14.304  0.00  0.00     0.076 H 
+ATOM     32  CAM IRE d   1     -44.075  -4.866 -17.134  0.00  0.00     0.042 C 
+ATOM     33  CAP IRE d   1     -45.255  -4.173 -17.846  0.00  0.00     0.103 C 
+ATOM     34  H5  IRE d   1     -44.444  -5.786 -16.657  0.00  0.00     0.076 H 
+ATOM     35  H6  IRE d   1     -43.313  -5.122 -17.885  0.00  0.00     0.076 H 
+ATOM     36  H7  IRE d   1     -45.867  -4.943 -18.339  0.00  0.00     0.079 H 
+ATOM     37  H8  IRE d   1     -44.851  -3.485 -18.604  0.00  0.00     0.079 H 
+ATOM     38  H9  IRE d   1     -46.839  -4.017 -16.558  0.00  0.00     0.280 HD
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   2  39
+ATOM     39  OAT IRE d   1     -50.948   1.228 -16.851  0.00  0.00    -0.353 OA
+BRANCH  39  40
+ATOM     40  CAA IRE d   1     -51.165   2.487 -16.195  0.00  0.00     0.010 C 
+ATOM     41  H17 IRE d   1     -50.987   2.373 -15.115  0.00  0.00     0.066 H 
+ATOM     42  H18 IRE d   1     -52.202   2.814 -16.363  0.00  0.00     0.066 H 
+ATOM     43  H19 IRE d   1     -50.472   3.238 -16.604  0.00  0.00     0.066 H 
+ENDBRANCH  39  40
+ENDBRANCH   2  39
+BRANCH  10  44
+ATOM     44  NAS IRE d   1     -50.876   0.406 -23.183  0.00  0.00    -0.340 N 
+ATOM     45  H22 IRE d   1     -50.147  -0.193 -22.769  0.00  0.00     0.167 HD
+BRANCH  44  46
+ATOM     46  CAY IRE d   1     -50.978   0.472 -24.509  0.00  0.00     0.035 A 
+ATOM     47  CAG IRE d   1     -50.925   1.714 -25.133  0.00  0.00    -0.033 A 
+ATOM     48  CAX IRE d   1     -51.007   1.806 -26.512  0.00  0.00     0.074 A 
+ATOM     49  H23 IRE d   1     -50.819   2.613 -24.537  0.00  0.00     0.089 H 
+ATOM     50 CL   IRE d   1     -50.943   3.360 -27.240  0.00  0.00    -0.081 Cl
+ATOM     51  CAW IRE d   1     -51.141   0.667 -27.293  0.00  0.00     0.138 A 
+ATOM     52  FAB IRE d   1     -51.218   0.793 -28.634  0.00  0.00    -0.204 F 
+ATOM     53  CAD IRE d   1     -51.189  -0.585 -26.674  0.00  0.00    -0.042 A 
+ATOM     54  CAE IRE d   1     -51.103  -0.682 -25.280  0.00  0.00    -0.054 A 
+ATOM     55  H24 IRE d   1     -51.293  -1.482 -27.274  0.00  0.00     0.088 H 
+ATOM     56  H25 IRE d   1     -51.134  -1.654 -24.801  0.00  0.00     0.087 H 
+ENDBRANCH  44  46
+ENDBRANCH  10  44
+TORSDOF 9

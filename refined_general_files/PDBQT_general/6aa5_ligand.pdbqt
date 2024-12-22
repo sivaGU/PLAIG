@@ -1,0 +1,96 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAR_2  and  CAK_4 
+REMARK    4  A    between atoms: CAK_4  and  CAN_5 
+REMARK    5  A    between atoms: CAN_5  and  CAW_6 
+REMARK    6  A    between atoms: CAT_11  and  OAH_12 
+REMARK    7  A    between atoms: CBD_16  and  CAD_17 
+REMARK    8  A    between atoms: CBD_16  and  CAE_18 
+REMARK    9  A    between atoms: CAS_26  and  OAG_27 
+REMARK   10  A    between atoms: CAX_28  and  OAO_29 
+REMARK   11  A    between atoms: OAO_29  and  CAA_30 
+ROOT
+ATOM      1  CAW MKU d   1      24.075 -12.151  17.573  0.00  0.00    -0.005 A 
+ATOM      2  CBC MKU d   1      25.050 -11.189  17.184  0.00  0.00     0.058 A 
+ATOM      3  CAY MKU d   1      26.391 -11.480  16.843  0.00  0.00     0.201 A 
+ATOM      4  OAF MKU d   1      26.836 -12.626  16.788  0.00  0.00    -0.286 OA
+ATOM      5  CBB MKU d   1      27.255 -10.436  16.523  0.00  0.00     0.083 A 
+ATOM      6  CAT MKU d   1      28.592 -10.688  16.233  0.00  0.00     0.091 A 
+ATOM      7  CAV MKU d   1      29.500  -9.684  15.923  0.00  0.00     0.010 A 
+ATOM      8  CAI MKU d   1      30.827 -10.034  15.653  0.00  0.00    -0.033 C 
+ATOM      9  CAJ MKU d   1      31.478  -8.988  14.775  0.00  0.00    -0.033 C 
+ATOM     10  CBD MKU d   1      31.326  -7.662  15.488  0.00  0.00     0.061 C 
+ATOM     11  OAP MKU d   1      29.907  -7.345  15.593  0.00  0.00    -0.340 OA
+ATOM     12  CAU MKU d   1      29.043  -8.360  15.911  0.00  0.00     0.081 A 
+ATOM     13  CAM MKU d   1      27.705  -8.081  16.187  0.00  0.00    -0.016 A 
+ATOM     14  CBA MKU d   1      26.830  -9.119  16.492  0.00  0.00     0.095 A 
+ATOM     15  OAQ MKU d   1      25.523  -8.860  16.760  0.00  0.00    -0.309 OA
+ATOM     16  CAZ MKU d   1      24.641  -9.847  17.115  0.00  0.00     0.093 A 
+ATOM     17  CAL MKU d   1      23.346  -9.440  17.408  0.00  0.00    -0.015 A 
+ATOM     18  CAS MKU d   1      22.411 -10.378  17.788  0.00  0.00     0.102 A 
+ATOM     19  CAX MKU d   1      22.778 -11.716  17.860  0.00  0.00     0.108 A 
+ATOM     20  H13 MKU d   1      30.848 -11.005  15.137  0.00  0.00     0.040 H 
+ATOM     21  H14 MKU d   1      31.382 -10.110  16.600  0.00  0.00     0.040 H 
+ATOM     22  H15 MKU d   1      30.978  -8.951  13.796  0.00  0.00     0.037 H 
+ATOM     23  H16 MKU d   1      32.544  -9.222  14.634  0.00  0.00     0.037 H 
+ATOM     24  H23 MKU d   1      27.347  -7.058  16.164  0.00  0.00     0.092 H 
+ATOM     25  H24 MKU d   1      23.073  -8.393  17.338  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   1  26
+ATOM     26  CAN MKU d   1      24.306 -13.530  17.724  0.00  0.00    -0.037 C 
+ATOM     27  H10 MKU d   1      25.372 -13.687  17.947  0.00  0.00     0.040 H 
+ATOM     28  H11 MKU d   1      23.698 -13.900  18.562  0.00  0.00     0.040 H 
+BRANCH  26  29
+ATOM     29  CAK MKU d   1      23.948 -14.321  16.476  0.00  0.00    -0.059 C 
+ATOM     30  H8  MKU d   1      23.345 -13.671  15.825  0.00  0.00     0.034 H 
+ATOM     31  H9  MKU d   1      24.885 -14.585  15.963  0.00  0.00     0.034 H 
+BRANCH  29  32
+ATOM     32  CAR MKU d   1      23.160 -15.612  16.712  0.00  0.00    -0.061 C 
+ATOM     33  H4  MKU d   1      22.218 -15.047  16.655  0.00  0.00     0.038 H 
+BRANCH  32  34
+ATOM     34  CAB MKU d   1      22.793 -16.076  18.128  0.00  0.00    -0.073 C 
+ATOM     35  H1  MKU d   1      22.231 -17.020  18.070  0.00  0.00     0.028 H 
+ATOM     36  H2  MKU d   1      22.173 -15.310  18.616  0.00  0.00     0.028 H 
+ATOM     37  H3  MKU d   1      23.712 -16.231  18.713  0.00  0.00     0.028 H 
+ENDBRANCH  32  34
+BRANCH  32  38
+ATOM     38  CAC MKU d   1      22.739 -16.454  15.514  0.00  0.00    -0.073 C 
+ATOM     39  H5  MKU d   1      23.085 -15.972  14.588  0.00  0.00     0.028 H 
+ATOM     40  H6  MKU d   1      21.643 -16.542  15.495  0.00  0.00     0.028 H 
+ATOM     41  H7  MKU d   1      23.186 -17.456  15.595  0.00  0.00     0.028 H 
+ENDBRANCH  32  38
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+BRANCH  19  42
+ATOM     42  OAO MKU d   1      21.851 -12.645  18.249  0.00  0.00    -0.353 OA
+BRANCH  42  43
+ATOM     43  CAA MKU d   1      20.858 -12.965  17.261  0.00  0.00     0.011 C 
+ATOM     44  H26 MKU d   1      20.165 -13.716  17.668  0.00  0.00     0.067 H 
+ATOM     45  H27 MKU d   1      21.350 -13.369  16.364  0.00  0.00     0.067 H 
+ATOM     46  H28 MKU d   1      20.299 -12.056  16.995  0.00  0.00     0.067 H 
+ENDBRANCH  42  43
+ENDBRANCH  19  42
+BRANCH  18  47
+ATOM     47  OAG MKU d   1      21.131 -10.014  18.080  0.00  0.00    -0.358 OA
+ATOM     48  H25 MKU d   1      20.631 -10.785  18.321  0.00  0.00     0.217 HD
+ENDBRANCH  18  47
+BRANCH   6  49
+ATOM     49  OAH MKU d   1      29.037 -11.973  16.260  0.00  0.00    -0.359 OA
+ATOM     50  H12 MKU d   1      28.552 -12.488  15.626  0.00  0.00     0.217 HD
+ENDBRANCH   6  49
+BRANCH  10  51
+ATOM     51  CAD MKU d   1      31.967  -7.745  16.884  0.00  0.00    -0.048 C 
+ATOM     52  H17 MKU d   1      31.854  -6.779  17.398  0.00  0.00     0.031 H 
+ATOM     53  H18 MKU d   1      33.036  -7.983  16.783  0.00  0.00     0.031 H 
+ATOM     54  H19 MKU d   1      31.470  -8.532  17.470  0.00  0.00     0.031 H 
+ENDBRANCH  10  51
+BRANCH  10  55
+ATOM     55  CAE MKU d   1      32.033  -6.558  14.692  0.00  0.00    -0.048 C 
+ATOM     56  H20 MKU d   1      31.586  -6.485  13.690  0.00  0.00     0.031 H 
+ATOM     57  H21 MKU d   1      33.102  -6.800  14.600  0.00  0.00     0.031 H 
+ATOM     58  H22 MKU d   1      31.918  -5.597  15.215  0.00  0.00     0.031 H 
+ENDBRANCH  10  55
+TORSDOF 11

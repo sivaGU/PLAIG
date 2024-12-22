@@ -1,0 +1,47 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C1_6 
+REMARK    3  A    between atoms: C1_6  and  C2_7 
+REMARK    4  A    between atoms: C2_7  and  S_8 
+ROOT
+ATOM      1  C3' NHE d   1      -7.833 -10.235  49.800  0.00  0.00    -0.063 C 
+ATOM      2  C2' NHE d   1      -9.047 -11.142  49.777  0.00  0.00    -0.038 C 
+ATOM      3  C1' NHE d   1      -8.850 -12.219  48.721  0.00  0.00     0.102 C 
+ATOM      4  C6' NHE d   1      -7.619 -13.045  49.080  0.00  0.00    -0.038 C 
+ATOM      5  C5' NHE d   1      -6.389 -12.150  49.146  0.00  0.00    -0.063 C 
+ATOM      6  C4' NHE d   1      -6.603 -11.045  50.172  0.00  0.00    -0.065 C 
+ATOM      7  H1  NHE d   1      -7.985  -9.438  50.542  0.00  0.00     0.033 H 
+ATOM      8  H2  NHE d   1      -7.690  -9.788  48.805  0.00  0.00     0.033 H 
+ATOM      9  H3  NHE d   1      -9.943 -10.551  49.536  0.00  0.00     0.036 H 
+ATOM     10  H4  NHE d   1      -9.173 -11.613  50.763  0.00  0.00     0.036 H 
+ATOM     11  H5  NHE d   1      -8.675 -11.728  47.752  0.00  0.00     0.084 H 
+ATOM     12  H6  NHE d   1      -7.465 -13.819  48.314  0.00  0.00     0.036 H 
+ATOM     13  H7  NHE d   1      -7.774 -13.523  50.059  0.00  0.00     0.036 H 
+ATOM     14  H14 NHE d   1      -6.212 -11.700  48.158  0.00  0.00     0.033 H 
+ATOM     15  H15 NHE d   1      -5.516 -12.752  49.436  0.00  0.00     0.033 H 
+ATOM     16  H16 NHE d   1      -6.746 -11.492  51.167  0.00  0.00     0.033 H 
+ATOM     17  H17 NHE d   1      -5.722 -10.386  50.189  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   3  18
+ATOM     18  N   NHE d   1     -10.034 -13.085  48.587  0.00  0.00    -0.070 N 
+ATOM     19  H8  NHE d   1     -10.014 -13.776  49.321  0.00  0.00     0.277 HD
+ATOM     20  H9  NHE d   1      -9.998 -13.546  47.691  0.00  0.00     0.277 HD
+BRANCH  18  21
+ATOM     21  C1  NHE d   1     -11.295 -12.332  48.681  0.00  0.00     0.097 C 
+ATOM     22  H10 NHE d   1     -11.853 -12.434  47.739  0.00  0.00     0.077 H 
+ATOM     23  H11 NHE d   1     -11.074 -11.270  48.863  0.00  0.00     0.077 H 
+BRANCH  21  24
+ATOM     24  C2  NHE d   1     -12.138 -12.881  49.834  0.00  0.00     0.068 C 
+ATOM     25  H12 NHE d   1     -13.047 -12.271  49.944  0.00  0.00     0.062 H 
+ATOM     26  H13 NHE d   1     -11.554 -12.840  50.765  0.00  0.00     0.062 H 
+BRANCH  24  27
+ATOM     27  S   NHE d   1     -12.609 -14.616  49.488  0.00  0.00     0.103 S 
+ATOM     28  O1  NHE d   1     -13.888 -14.622  48.650  0.00  0.00    -0.595 OA
+ATOM     29  O2  NHE d   1     -11.489 -15.334  48.723  0.00  0.00    -0.595 OA
+ATOM     30  O3  NHE d   1     -12.853 -15.331  50.816  0.00  0.00    -0.595 OA
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH   3  18
+TORSDOF 4

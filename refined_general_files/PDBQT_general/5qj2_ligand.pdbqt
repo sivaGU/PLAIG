@@ -1,0 +1,62 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_14  and  C16_5 
+REMARK    2  A    between atoms: C16_5  and  O24_24 
+REMARK    3  A    between atoms: N22_22  and  C15_6 
+REMARK    4  A    between atoms: O24_24  and  C11_7 
+REMARK    5  A    between atoms: C12_11  and  C08_13 
+REMARK    6  A    between atoms: C14_16  and  N23_23 
+ROOT
+ATOM      1  C05 JXS d   1     -21.635  15.738  34.419  0.00  0.00    -0.063 A 
+ATOM      2  C01 JXS d   1     -19.045  17.183  33.728  0.00  0.00    -0.082 A 
+ATOM      3  C02 JXS d   1     -20.163  17.088  32.729  0.00  0.00    -0.071 A 
+ATOM      4  C03 JXS d   1     -19.198  16.528  35.055  0.00  0.00    -0.075 A 
+ATOM      5  C08 JXS d   1     -21.465  16.370  33.094  0.00  0.00    -0.005 A 
+ATOM      6  C09 JXS d   1     -20.490  15.831  35.428  0.00  0.00    -0.033 A 
+ATOM      7  H1  JXS d   1     -22.553  15.219  34.670  0.00  0.00     0.085 H 
+ATOM      8  H3  JXS d   1     -18.137  17.723  33.485  0.00  0.00     0.083 H 
+ATOM      9  H9  JXS d   1     -20.047  17.530  31.746  0.00  0.00     0.084 H 
+ATOM     10  H10 JXS d   1     -18.377  16.550  35.762  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C16 JXS d   1     -20.655  15.222  36.772  0.00  0.00     0.050 C 
+ATOM     12  H4  JXS d   1     -21.597  14.656  36.807  0.00  0.00     0.082 H 
+ATOM     13  H5  JXS d   1     -20.674  16.013  37.536  0.00  0.00     0.082 H 
+BRANCH  11  14
+ATOM     14  O24 JXS d   1     -19.548  14.334  37.023  0.00  0.00    -0.344 OA
+BRANCH  14  15
+ATOM     15  C11 JXS d   1     -19.479  13.027  36.482  0.00  0.00     0.106 A 
+ATOM     16  C06 JXS d   1     -20.634  12.355  35.890  0.00  0.00    -0.004 A 
+ATOM     17  C14 JXS d   1     -20.505  11.011  35.380  0.00  0.00     0.126 A 
+ATOM     18  H2  JXS d   1     -21.588  12.866  35.834  0.00  0.00     0.093 H 
+ATOM     19  N19 JXS d   1     -19.210  10.336  35.455  0.00  0.00    -0.210 NA
+ATOM     20  C13 JXS d   1     -18.007  11.043  36.057  0.00  0.00     0.176 A 
+ATOM     21  C10 JXS d   1     -18.143  12.306  36.570  0.00  0.00     0.155 A 
+ATOM     22  N21 JXS d   1     -16.711  10.613  36.283  0.00  0.00    -0.264 N 
+ATOM     23  N17 JXS d   1     -16.916  12.695  37.067  0.00  0.00    -0.153 NA
+ATOM     24  N20 JXS d   1     -16.038  11.645  36.893  0.00  0.00     0.004 NA
+ATOM     25  H13 JXS d   1     -16.323   9.691  36.039  0.00  0.00     0.186 HD
+BRANCH  17  26
+ATOM     26  N23 JXS d   1     -21.612  10.359  34.790  0.00  0.00    -0.384 N 
+ATOM     27  H14 JXS d   1     -21.512   9.400  34.428  0.00  0.00     0.157 HD
+ATOM     28  H15 JXS d   1     -22.518  10.843  34.722  0.00  0.00     0.157 HD
+ENDBRANCH  17  26
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+BRANCH   5  29
+ATOM     29  C12 JXS d   1     -22.578  16.275  32.074  0.00  0.00     0.088 A 
+ATOM     30  C04 JXS d   1     -23.904  15.839  32.319  0.00  0.00    -0.036 A 
+ATOM     31  C07 JXS d   1     -24.577  15.892  31.123  0.00  0.00     0.000 A 
+ATOM     32  H11 JXS d   1     -24.313  15.521  33.277  0.00  0.00     0.089 H 
+ATOM     33  N22 JXS d   1     -23.698  16.335  30.151  0.00  0.00    -0.285 N 
+ATOM     34  H12 JXS d   1     -25.622  15.630  30.967  0.00  0.00     0.114 H 
+ATOM     35  N18 JXS d   1     -22.456  16.570  30.762  0.00  0.00    -0.173 NA
+BRANCH  33  36
+ATOM     36  C15 JXS d   1     -23.990  16.536  28.774  0.00  0.00     0.002 C 
+ATOM     37  H6  JXS d   1     -25.040  16.271  28.579  0.00  0.00     0.059 H 
+ATOM     38  H7  JXS d   1     -23.332  15.901  28.163  0.00  0.00     0.059 H 
+ATOM     39  H8  JXS d   1     -23.825  17.592  28.514  0.00  0.00     0.059 H 
+ENDBRANCH  33  36
+ENDBRANCH   5  29
+TORSDOF 6

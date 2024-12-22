@@ -1,0 +1,76 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_3  and  O5_4 
+REMARK    2  A    between atoms: C6_3  and  N1_16 
+REMARK    3  A    between atoms: O5_4  and  C14_5 
+REMARK    4  A    between atoms: C3_8  and  C4_9 
+REMARK    5  A    between atoms: C3_8  and  C5_10 
+REMARK    6  A    between atoms: C1_11  and  C2_12 
+REMARK       I    between atoms: N1_16  and  C7_17 
+REMARK    7  A    between atoms: C7_17  and  C8_19 
+REMARK    8  A    between atoms: C8_19  and  C9_20 
+REMARK    9  A    between atoms: C8_19  and  C10_23 
+ROOT
+ATOM      1  O7  TJ7 d   1       6.353  -4.361  15.487  0.00  0.00    -0.274 OA
+ATOM      2  C15 TJ7 d   1       6.489  -4.084  16.664  0.00  0.00     0.260 C 
+ATOM      3  C6  TJ7 d   1       6.585  -2.691  17.174  0.00  0.00     0.240 C 
+ATOM      4  C   TJ7 d   1       5.280  -2.387  17.942  0.00  0.00     0.104 C 
+ATOM      5  S   TJ7 d   1       4.641  -0.714  17.846  0.00  0.00    -0.132 SA
+ATOM      6  C3  TJ7 d   1       3.117  -1.136  17.042  0.00  0.00     0.029 C 
+ATOM      7  C1  TJ7 d   1       3.404  -2.543  16.465  0.00  0.00     0.102 C 
+ATOM      8  N   TJ7 d   1       4.234  -3.307  17.408  0.00  0.00    -0.213 NA
+ATOM      9  H4  TJ7 d   1       5.459  -2.611  19.004  0.00  0.00     0.090 H 
+ATOM     10  H11 TJ7 d   1       3.970  -2.407  15.532  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   3  11
+ATOM     11  O5  TJ7 d   1       7.625  -2.753  18.120  0.00  0.00    -0.356 OA
+BRANCH  11  12
+ATOM     12  C14 TJ7 d   1       8.948  -3.105  17.754  0.00  0.00     0.008 C 
+ATOM     13  H1  TJ7 d   1       9.591  -3.090  18.646  0.00  0.00     0.066 H 
+ATOM     14  H2  TJ7 d   1       9.328  -2.384  17.015  0.00  0.00     0.066 H 
+ATOM     15  H3  TJ7 d   1       8.951  -4.114  17.317  0.00  0.00     0.066 H 
+ENDBRANCH  11  12
+ENDBRANCH   3  11
+BRANCH   3  16
+ATOM     16  N1  TJ7 d   1       6.908  -1.778  16.088  0.00  0.00    -0.319 N 
+ATOM     17  C7  TJ7 d   1       7.434  -0.563  16.290  0.00  0.00     0.239 C 
+ATOM     18  O2  TJ7 d   1       7.661  -0.180  17.393  0.00  0.00    -0.272 OA
+ATOM     19  H12 TJ7 d   1       6.729  -2.071  15.149  0.00  0.00     0.166 HD
+BRANCH  17  20
+ATOM     20  C8  TJ7 d   1       7.799   0.326  15.156  0.00  0.00     0.133 C 
+ATOM     21  H13 TJ7 d   1       7.805  -0.362  14.298  0.00  0.00     0.079 H 
+BRANCH  20  22
+ATOM     22  C9  TJ7 d   1       9.203   0.777  15.224  0.00  0.00     0.191 C 
+ATOM     23  O4  TJ7 d   1      10.082  -0.113  15.212  0.00  0.00    -0.647 OA
+ATOM     24  O3  TJ7 d   1       9.404   1.998  15.303  0.00  0.00    -0.647 OA
+ENDBRANCH  20  22
+BRANCH  20  25
+ATOM     25  C10 TJ7 d   1       6.782   1.337  14.736  0.00  0.00    -0.028 A 
+ATOM     26  C13 TJ7 d   1       6.236   2.208  15.697  0.00  0.00    -0.069 A 
+ATOM     27  C12 TJ7 d   1       5.285   3.044  15.100  0.00  0.00    -0.045 A 
+ATOM     28  H14 TJ7 d   1       6.513   2.229  16.750  0.00  0.00     0.085 H 
+ATOM     29  S1  TJ7 d   1       5.099   2.645  13.438  0.00  0.00    -0.113 SA
+ATOM     30  H15 TJ7 d   1       4.741   3.834  15.615  0.00  0.00     0.095 H 
+ATOM     31  C11 TJ7 d   1       6.292   1.387  13.444  0.00  0.00    -0.038 A 
+ATOM     32  H16 TJ7 d   1       6.593   0.764  12.603  0.00  0.00     0.095 H 
+ENDBRANCH  20  25
+ENDBRANCH  17  20
+ENDBRANCH   3  16
+BRANCH   7  33
+ATOM     33  C2  TJ7 d   1       2.176  -3.342  16.138  0.00  0.00     0.193 C 
+ATOM     34  O1  TJ7 d   1       1.709  -3.203  15.009  0.00  0.00    -0.647 OA
+ATOM     35  O   TJ7 d   1       1.687  -4.127  16.970  0.00  0.00    -0.647 OA
+ENDBRANCH   7  33
+BRANCH   6  36
+ATOM     36  C4  TJ7 d   1       2.765  -0.118  15.971  0.00  0.00    -0.059 C 
+ATOM     37  H5  TJ7 d   1       1.818  -0.404  15.490  0.00  0.00     0.029 H 
+ATOM     38  H6  TJ7 d   1       3.565  -0.088  15.216  0.00  0.00     0.029 H 
+ATOM     39  H7  TJ7 d   1       2.657   0.875  16.431  0.00  0.00     0.029 H 
+ENDBRANCH   6  36
+BRANCH   6  40
+ATOM     40  C5  TJ7 d   1       1.974  -1.126  18.055  0.00  0.00    -0.059 C 
+ATOM     41  H8  TJ7 d   1       1.033  -1.389  17.549  0.00  0.00     0.029 H 
+ATOM     42  H9  TJ7 d   1       1.885  -0.123  18.497  0.00  0.00     0.029 H 
+ATOM     43  H10 TJ7 d   1       2.181  -1.859  18.848  0.00  0.00     0.029 H 
+ENDBRANCH   6  40
+TORSDOF 9

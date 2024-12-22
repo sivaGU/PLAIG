@@ -1,0 +1,94 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O11_7 
+REMARK    2  A    between atoms: C2_2  and  O12_8 
+REMARK    3  A    between atoms: C3_3  and  O13_9 
+REMARK    4  A    between atoms: C4_4  and  O14_10 
+REMARK    5  A    between atoms: O15_11  and  C5_5 
+REMARK    6  A    between atoms: C6_6  and  O16_12 
+REMARK    7  A    between atoms: O11_7  and  PA1_32 
+REMARK    8  A    between atoms: O12_8  and  PA2_33 
+REMARK    9  A    between atoms: O13_9  and  PA3_34 
+REMARK   10  A    between atoms: O14_10  and  PA4_35 
+REMARK   11  A    between atoms: CA5_36  and  O15_11 
+REMARK   12  A    between atoms: O16_12  and  PA6_37 
+REMARK   13  A    between atoms: CB5_38  and  CA5_36 
+REMARK   14  A    between atoms: CB5_38  and  PB5_39 
+ROOT
+ATOM      1  C1  0EJ d   1      -1.410  19.928  11.185  0.00  0.00     0.107 C 
+ATOM      2  C2  0EJ d   1      -0.609  20.009   9.870  0.00  0.00     0.107 C 
+ATOM      3  C3  0EJ d   1       0.842  19.699  10.190  0.00  0.00     0.107 C 
+ATOM      4  C4  0EJ d   1       1.398  20.765  11.154  0.00  0.00     0.107 C 
+ATOM      5  C5  0EJ d   1       0.539  20.903  12.459  0.00  0.00     0.104 C 
+ATOM      6  C6  0EJ d   1      -0.982  21.019  12.177  0.00  0.00     0.107 C 
+ATOM      7  H   0EJ d   1      -1.214  18.950  11.648  0.00  0.00     0.092 H 
+ATOM      8  H   0EJ d   1      -0.999  19.266   9.159  0.00  0.00     0.092 H 
+ATOM      9  H   0EJ d   1       0.900  18.714  10.676  0.00  0.00     0.092 H 
+ATOM     10  H   0EJ d   1       1.398  21.737  10.639  0.00  0.00     0.092 H 
+ATOM     11  H   0EJ d   1       0.705  20.005  13.072  0.00  0.00     0.092 H 
+ATOM     12  H   0EJ d   1      -1.182  22.004  11.731  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  O15 0EJ d   1       0.975  22.060  13.201  0.00  0.00    -0.310 OA
+BRANCH  13  14
+ATOM     14  CA5 0EJ d   1       1.485  21.748  14.436  0.00  0.00     0.272 C 
+ATOM     15  O25 0EJ d   1       1.650  20.606  14.866  0.00  0.00    -0.265 OA
+BRANCH  14  16
+ATOM     16  CB5 0EJ d   1       1.875  22.955  15.293  0.00  0.00     0.119 C 
+ATOM     17  H   0EJ d   1       2.221  22.612  16.279  0.00  0.00     0.069 H 
+ATOM     18  H   0EJ d   1       1.005  23.616  15.419  0.00  0.00     0.069 H 
+BRANCH  16  19
+ATOM     19  PB5 0EJ d   1       3.206  23.855  14.460  0.00  0.00     0.269 P 
+ATOM     20  O45 0EJ d   1       3.837  24.899  15.531  0.00  0.00    -0.639 OA
+ATOM     21  O55 0EJ d   1       4.384  22.787  14.197  0.00  0.00    -0.639 OA
+ATOM     22  O65 0EJ d   1       2.780  24.488  13.188  0.00  0.00    -0.639 OA
+ENDBRANCH  16  19
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  23
+ATOM     23  O14 0EJ d   1       2.747  20.411  11.482  0.00  0.00    -0.272 OA
+BRANCH  23  24
+ATOM     24  PA4 0EJ d   1       3.994  21.337  11.010  0.00  0.00     0.422 P 
+ATOM     25  O24 0EJ d   1       3.533  22.879  11.168  0.00  0.00    -0.617 OA
+ATOM     26  O34 0EJ d   1       5.105  21.075  12.150  0.00  0.00    -0.617 OA
+ATOM     27  O44 0EJ d   1       4.472  21.040   9.647  0.00  0.00    -0.617 OA
+ENDBRANCH  23  24
+ENDBRANCH   4  23
+BRANCH   6  28
+ATOM     28  O16 0EJ d   1      -1.756  20.899  13.404  0.00  0.00    -0.272 OA
+BRANCH  28  29
+ATOM     29  PA6 0EJ d   1      -2.982  21.937  13.792  0.00  0.00     0.422 P 
+ATOM     30  O26 0EJ d   1      -2.253  23.369  13.984  0.00  0.00    -0.617 OA
+ATOM     31  O36 0EJ d   1      -3.898  22.100  12.485  0.00  0.00    -0.617 OA
+ATOM     32  O46 0EJ d   1      -3.835  21.549  14.934  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH   6  28
+BRANCH   3  33
+ATOM     33  O13 0EJ d   1       1.618  19.666   8.975  0.00  0.00    -0.272 OA
+BRANCH  33  34
+ATOM     34  PA3 0EJ d   1       1.960  18.256   8.220  0.00  0.00     0.422 P 
+ATOM     35  O23 0EJ d   1       0.542  17.690   7.674  0.00  0.00    -0.617 OA
+ATOM     36  O33 0EJ d   1       2.433  17.222   9.373  0.00  0.00    -0.617 OA
+ATOM     37  O43 0EJ d   1       2.977  18.408   7.155  0.00  0.00    -0.617 OA
+ENDBRANCH  33  34
+ENDBRANCH   3  33
+BRANCH   1  38
+ATOM     38  O11 0EJ d   1      -2.802  20.025  10.907  0.00  0.00    -0.272 OA
+BRANCH  38  39
+ATOM     39  PA1 0EJ d   1      -3.765  18.760  11.207  0.00  0.00     0.422 P 
+ATOM     40  O21 0EJ d   1      -3.138  17.495  10.428  0.00  0.00    -0.617 OA
+ATOM     41  O31 0EJ d   1      -3.562  18.444  12.783  0.00  0.00    -0.617 OA
+ATOM     42  O41 0EJ d   1      -5.177  19.035  10.849  0.00  0.00    -0.617 OA
+ENDBRANCH  38  39
+ENDBRANCH   1  38
+BRANCH   2  43
+ATOM     43  O12 0EJ d   1      -0.704  21.325   9.275  0.00  0.00    -0.272 OA
+BRANCH  43  44
+ATOM     44  PA2 0EJ d   1      -1.136  21.541   7.737  0.00  0.00     0.422 P 
+ATOM     45  O22 0EJ d   1      -0.643  20.276   6.865  0.00  0.00    -0.617 OA
+ATOM     46  O32 0EJ d   1      -2.752  21.403   7.730  0.00  0.00    -0.617 OA
+ATOM     47  O42 0EJ d   1      -0.641  22.814   7.177  0.00  0.00    -0.617 OA
+ENDBRANCH  43  44
+ENDBRANCH   2  43
+TORSDOF 14

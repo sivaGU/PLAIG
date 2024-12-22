@@ -1,0 +1,117 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_2  and  C1_1 
+REMARK    2  A    between atoms: P1_3  and  O1_2 
+REMARK    3  A    between atoms: O13_18  and  P1_3 
+REMARK    4  A    between atoms: C2_4  and  O2_5 
+REMARK    5  A    between atoms: C3_6  and  O3_7 
+REMARK    6  A    between atoms: C4_8  and  O4_9 
+REMARK    7  A    between atoms: O4_9  and  P4_10 
+REMARK    8  A    between atoms: C5_11  and  O5_12 
+REMARK    9  A    between atoms: O5_12  and  P5_13 
+REMARK   10  A    between atoms: C6_14  and  O6_15 
+REMARK   11  A    between atoms: C1C_23  and  O13_18 
+REMARK   12  A    between atoms: C1A_19  and  C2A_24 
+REMARK   13  A    between atoms: O2C_27  and  C1A_19 
+REMARK   14  A    between atoms: C1B_21  and  C2B_25 
+REMARK   15  A    between atoms: O3C_29  and  C1B_21 
+REMARK   16  A    between atoms: C2C_26  and  C1C_23 
+REMARK   17  A    between atoms: C2C_26  and  O2C_27 
+REMARK   18  A    between atoms: C3C_28  and  C2C_26 
+REMARK   19  A    between atoms: C3C_28  and  O3C_29 
+ROOT
+ATOM      1  C1  PIO d   1      42.962  27.850  33.197  0.00  0.00     0.105 C 
+ATOM      2  C2  PIO d   1      44.292  27.312  33.722  0.00  0.00     0.090 C 
+ATOM      3  C3  PIO d   1      45.326  27.239  32.603  0.00  0.00     0.091 C 
+ATOM      4  C4  PIO d   1      45.562  28.621  32.001  0.00  0.00     0.106 C 
+ATOM      5  C5  PIO d   1      44.276  29.287  31.526  0.00  0.00     0.106 C 
+ATOM      6  C6  PIO d   1      43.119  29.219  32.528  0.00  0.00     0.091 C 
+ATOM      7  H1  PIO d   1      42.564  27.138  32.459  0.00  0.00     0.092 H 
+ATOM      8  H2  PIO d   1      44.112  26.285  34.072  0.00  0.00     0.091 H 
+ATOM      9  H4  PIO d   1      44.950  26.570  31.815  0.00  0.00     0.091 H 
+ATOM     10  H6  PIO d   1      46.043  29.267  32.751  0.00  0.00     0.092 H 
+ATOM     11  H7  PIO d   1      43.960  28.818  30.583  0.00  0.00     0.092 H 
+ATOM     12  H8  PIO d   1      43.290  29.971  33.312  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  O1  PIO d   1      42.021  27.981  34.288  0.00  0.00    -0.279 OA
+BRANCH  13  14
+ATOM     14  P1  PIO d   1      40.421  28.279  34.097  0.00  0.00     0.408 P 
+ATOM     15  O11 PIO d   1      40.491  29.807  34.096  0.00  0.00    -0.624 OA
+ATOM     16  O12 PIO d   1      39.880  27.624  32.883  0.00  0.00    -0.624 OA
+BRANCH  14  17
+ATOM     17  O13 PIO d   1      39.488  28.170  35.441  0.00  0.00    -0.287 OA
+BRANCH  17  18
+ATOM     18  C1C PIO d   1      38.040  28.039  35.373  0.00  0.00     0.058 C 
+ATOM     19  H10 PIO d   1      37.687  27.698  36.357  0.00  0.00     0.079 H 
+ATOM     20  H11 PIO d   1      37.807  27.276  34.615  0.00  0.00     0.079 H 
+BRANCH  18  21
+ATOM     21  C2C PIO d   1      37.271  29.296  35.016  0.00  0.00     0.090 C 
+ATOM     22  H18 PIO d   1      37.800  30.178  35.406  0.00  0.00     0.090 H 
+BRANCH  21  23
+ATOM     23  O2C PIO d   1      35.937  29.192  35.623  0.00  0.00    -0.312 OA
+BRANCH  23  24
+ATOM     24  C1A PIO d   1      35.237  30.306  35.940  0.00  0.00     0.255 C 
+ATOM     25  O1A PIO d   1      35.640  31.427  35.782  0.00  0.00    -0.266 OA
+BRANCH  24  26
+ATOM     26  C2A PIO d   1      33.900  29.959  36.524  0.00  0.00     0.004 C 
+ATOM     27  H12 PIO d   1      33.357  30.883  36.771  0.00  0.00     0.041 H 
+ATOM     28  H13 PIO d   1      34.042  29.363  37.437  0.00  0.00     0.041 H 
+ATOM     29  H14 PIO d   1      33.320  29.377  35.792  0.00  0.00     0.041 H 
+ENDBRANCH  24  26
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+BRANCH  21  30
+ATOM     30  C3C PIO d   1      37.101  29.426  33.518  0.00  0.00     0.055 C 
+ATOM     31  H19 PIO d   1      36.233  28.827  33.207  0.00  0.00     0.079 H 
+ATOM     32  H20 PIO d   1      38.006  29.043  33.024  0.00  0.00     0.079 H 
+BRANCH  30  33
+ATOM     33  O3C PIO d   1      36.891  30.800  33.107  0.00  0.00    -0.319 OA
+BRANCH  33  34
+ATOM     34  C1B PIO d   1      37.371  31.197  31.914  0.00  0.00     0.254 C 
+ATOM     35  O1B PIO d   1      38.033  30.504  31.185  0.00  0.00    -0.266 OA
+BRANCH  34  36
+ATOM     36  C2B PIO d   1      36.968  32.610  31.612  0.00  0.00     0.004 C 
+ATOM     37  H15 PIO d   1      37.374  32.906  30.633  0.00  0.00     0.041 H 
+ATOM     38  H16 PIO d   1      37.364  33.279  32.390  0.00  0.00     0.041 H 
+ATOM     39  H17 PIO d   1      35.871  32.682  31.591  0.00  0.00     0.041 H 
+ENDBRANCH  34  36
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  21  30
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   2  40
+ATOM     40  O2  PIO d   1      44.784  28.055  34.836  0.00  0.00    -0.390 OA
+ATOM     41  H3  PIO d   1      45.609  27.683  35.124  0.00  0.00     0.210 HD
+ENDBRANCH   2  40
+BRANCH   6  42
+ATOM     42  O6  PIO d   1      41.917  29.522  31.830  0.00  0.00    -0.390 OA
+ATOM     43  H9  PIO d   1      41.184  29.486  32.433  0.00  0.00     0.210 HD
+ENDBRANCH   6  42
+BRANCH   3  44
+ATOM     44  O3  PIO d   1      46.546  26.713  33.110  0.00  0.00    -0.390 OA
+ATOM     45  H5  PIO d   1      47.186  26.670  32.410  0.00  0.00     0.210 HD
+ENDBRANCH   3  44
+BRANCH   5  46
+ATOM     46  O5  PIO d   1      44.568  30.689  31.319  0.00  0.00    -0.272 OA
+BRANCH  46  47
+ATOM     47  P5  PIO d   1      43.713  32.092  31.083  0.00  0.00     0.422 P 
+ATOM     48  O51 PIO d   1      42.382  31.745  30.400  0.00  0.00    -0.617 OA
+ATOM     49  O52 PIO d   1      43.427  32.467  32.542  0.00  0.00    -0.617 OA
+ATOM     50  O53 PIO d   1      44.447  33.179  30.370  0.00  0.00    -0.617 OA
+ENDBRANCH  46  47
+ENDBRANCH   5  46
+BRANCH   4  51
+ATOM     51  O4  PIO d   1      46.437  28.441  30.865  0.00  0.00    -0.272 OA
+BRANCH  51  52
+ATOM     52  P4  PIO d   1      48.062  28.349  30.702  0.00  0.00     0.422 P 
+ATOM     53  O41 PIO d   1      48.521  29.807  30.753  0.00  0.00    -0.617 OA
+ATOM     54  O42 PIO d   1      48.819  27.480  31.640  0.00  0.00    -0.617 OA
+ATOM     55  O43 PIO d   1      48.145  27.876  29.247  0.00  0.00    -0.617 OA
+ENDBRANCH  51  52
+ENDBRANCH   4  51
+TORSDOF 19

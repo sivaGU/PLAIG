@@ -1,0 +1,90 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C44_2  and  C41_4 
+REMARK    2  A    between atoms: C41_4  and  O46_5 
+REMARK    3  A    between atoms: C41_4  and  C40_8 
+REMARK    4  A    between atoms: O46_5  and  C48_6 
+REMARK    5  A    between atoms: C48_6  and  C49_7 
+REMARK    6  A    between atoms: C40_8  and  C33_9 
+REMARK    7  A    between atoms: C30_12  and  O27_13 
+REMARK    8  A    between atoms: O27_13  and  C24_14 
+REMARK    9  A    between atoms: C24_14  and  C23_15 
+REMARK   10  A    between atoms: C23_15  and  N22_16 
+ROOT
+ATOM      1  C24 DRF d   1      16.243  62.096  12.324  0.00  0.00     0.041 C 
+ATOM      2  H11 DRF d   1      16.961  62.906  12.520  0.00  0.00     0.077 H 
+ATOM      3  H12 DRF d   1      15.266  62.360  12.755  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  O27 DRF d   1      16.712  60.901  12.932  0.00  0.00    -0.350 OA
+BRANCH   4   5
+ATOM      5  C30 DRF d   1      17.082  61.200  14.237  0.00  0.00     0.068 A 
+ATOM      6  C35 DRF d   1      18.450  61.254  14.586  0.00  0.00    -0.050 A 
+ATOM      7  C34 DRF d   1      18.824  61.567  15.908  0.00  0.00    -0.074 A 
+ATOM      8  H10 DRF d   1      19.210  61.055  13.839  0.00  0.00     0.087 H 
+ATOM      9  C33 DRF d   1      17.829  61.827  16.880  0.00  0.00    -0.055 A 
+ATOM     10  H9  DRF d   1      19.872  61.609  16.180  0.00  0.00     0.084 H 
+ATOM     11  C32 DRF d   1      16.469  61.768  16.533  0.00  0.00    -0.074 A 
+ATOM     12  C31 DRF d   1      16.090  61.457  15.221  0.00  0.00    -0.050 A 
+ATOM     13  H24 DRF d   1      15.711  61.964  17.283  0.00  0.00     0.084 H 
+ATOM     14  H23 DRF d   1      15.040  61.412  14.956  0.00  0.00     0.087 H 
+BRANCH   9  15
+ATOM     15  C40 DRF d   1      18.296  62.151  18.162  0.00  0.00    -0.007 C 
+ATOM     16  H7  DRF d   1      17.479  61.754  18.782  0.00  0.00     0.044 H 
+ATOM     17  H8  DRF d   1      19.168  61.484  18.234  0.00  0.00     0.044 H 
+BRANCH  15  18
+ATOM     18  C41 DRF d   1      18.730  63.237  18.967  0.00  0.00     0.125 C 
+ATOM     19  H1  DRF d   1      17.957  64.014  18.879  0.00  0.00     0.101 H 
+BRANCH  18  20
+ATOM     20  C44 DRF d   1      18.901  63.053  20.251  0.00  0.00     0.203 C 
+ATOM     21  O45 DRF d   1      18.129  63.153  21.231  0.00  0.00    -0.646 OA
+ATOM     22  O55 DRF d   1      19.975  62.722  20.899  0.00  0.00    -0.646 OA
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  O46 DRF d   1      20.037  63.780  18.321  0.00  0.00    -0.375 OA
+BRANCH  23  24
+ATOM     24  C48 DRF d   1      19.848  65.035  17.723  0.00  0.00     0.017 C 
+ATOM     25  H2  DRF d   1      19.520  65.756  18.486  0.00  0.00     0.073 H 
+ATOM     26  H3  DRF d   1      19.078  64.953  16.941  0.00  0.00     0.073 H 
+BRANCH  24  27
+ATOM     27  C49 DRF d   1      21.132  65.514  17.107  0.00  0.00    -0.056 C 
+ATOM     28  H4  DRF d   1      20.971  66.498  16.642  0.00  0.00     0.030 H 
+ATOM     29  H5  DRF d   1      21.462  64.796  16.341  0.00  0.00     0.030 H 
+ATOM     30  H6  DRF d   1      21.903  65.599  17.887  0.00  0.00     0.030 H 
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  31
+ATOM     31  C23 DRF d   1      16.092  61.916  10.816  0.00  0.00     0.021 C 
+ATOM     32  H13 DRF d   1      15.236  61.257  10.610  0.00  0.00     0.068 H 
+ATOM     33  H14 DRF d   1      17.009  61.466  10.407  0.00  0.00     0.068 H 
+BRANCH  31  34
+ATOM     34  N22 DRF d   1      15.865  63.226  10.184  0.00  0.00    -0.340 N 
+ATOM     35  C11 DRF d   1      14.587  63.711   9.991  0.00  0.00     0.069 A 
+ATOM     36  C16 DRF d   1      14.406  65.138   9.851  0.00  0.00     0.103 A 
+ATOM     37  C12 DRF d   1      13.440  62.866   9.932  0.00  0.00    -0.054 A 
+ATOM     38  O21 DRF d   1      15.499  65.945   9.910  0.00  0.00    -0.306 OA
+ATOM     39  C15 DRF d   1      13.114  65.676   9.660  0.00  0.00    -0.048 A 
+ATOM     40  C4  DRF d   1      16.729  65.417   9.644  0.00  0.00     0.103 A 
+ATOM     41  C3  DRF d   1      16.926  63.995   9.785  0.00  0.00     0.069 A 
+ATOM     42  C5  DRF d   1      17.802  66.237   9.238  0.00  0.00    -0.048 A 
+ATOM     43  C2  DRF d   1      18.212  63.448   9.510  0.00  0.00    -0.054 A 
+ATOM     44  C1  DRF d   1      19.272  64.282   9.105  0.00  0.00    -0.081 A 
+ATOM     45  H15 DRF d   1      18.376  62.382   9.613  0.00  0.00     0.087 H 
+ATOM     46  C6  DRF d   1      19.068  65.674   8.970  0.00  0.00    -0.080 A 
+ATOM     47  H16 DRF d   1      20.247  63.855   8.896  0.00  0.00     0.083 H 
+ATOM     48  H17 DRF d   1      19.887  66.312   8.659  0.00  0.00     0.083 H 
+ATOM     49  H18 DRF d   1      17.654  67.305   9.131  0.00  0.00     0.087 H 
+ATOM     50  C14 DRF d   1      11.992  64.818   9.607  0.00  0.00    -0.080 A 
+ATOM     51  H19 DRF d   1      12.983  66.747   9.554  0.00  0.00     0.087 H 
+ATOM     52  C13 DRF d   1      12.155  63.417   9.741  0.00  0.00    -0.081 A 
+ATOM     53  H20 DRF d   1      11.002  65.234   9.463  0.00  0.00     0.083 H 
+ATOM     54  H21 DRF d   1      11.289  62.766   9.697  0.00  0.00     0.083 H 
+ATOM     55  H22 DRF d   1      13.556  61.793  10.035  0.00  0.00     0.087 H 
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+TORSDOF 10

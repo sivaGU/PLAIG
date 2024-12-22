@@ -1,0 +1,58 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_5 
+REMARK    2  A    between atoms: O5'_5  and  C5'_6 
+REMARK    3  A    between atoms: C5'_6  and  C4'_7 
+REMARK    4  A    between atoms: C3'_9  and  O3'_10 
+REMARK    5  A    between atoms: C2'_11  and  O2'_12 
+REMARK    6  A    between atoms: C1'_13  and  N9_14 
+ROOT
+ATOM      1  C4' AMP d   1     -27.303 -17.659  36.529  0.00  0.00     0.089 C 
+ATOM      2  O4' AMP d   1     -28.605 -17.071  36.570  0.00  0.00    -0.353 OA
+ATOM      3  C3' AMP d   1     -26.988 -17.871  35.060  0.00  0.00     0.091 C 
+ATOM      4  C2' AMP d   1     -28.347 -18.095  34.450  0.00  0.00     0.105 C 
+ATOM      5  C1' AMP d   1     -29.254 -17.216  35.301  0.00  0.00     0.139 C 
+ATOM      6  H3  AMP d   1     -27.332 -18.638  37.030  0.00  0.00     0.090 H 
+ATOM      7  H4  AMP d   1     -26.526 -16.966  34.638  0.00  0.00     0.091 H 
+ATOM      8  H6  AMP d   1     -28.358 -17.768  33.400  0.00  0.00     0.093 H 
+ATOM      9  H8  AMP d   1     -30.245 -17.675  35.431  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  N9  AMP d   1     -29.382 -15.910  34.595  0.00  0.00    -0.294 N 
+ATOM     11  C8  AMP d   1     -28.733 -14.760  34.883  0.00  0.00     0.071 A 
+ATOM     12  N7  AMP d   1     -29.083 -13.776  34.027  0.00  0.00    -0.236 NA
+ATOM     13  H9  AMP d   1     -28.021 -14.642  35.699  0.00  0.00     0.144 H 
+ATOM     14  C5  AMP d   1     -29.963 -14.294  33.168  0.00  0.00     0.149 A 
+ATOM     15  C6  AMP d   1     -30.707 -13.787  32.009  0.00  0.00     0.155 A 
+ATOM     16  C4  AMP d   1     -30.155 -15.702  33.530  0.00  0.00     0.167 A 
+ATOM     17  N6  AMP d   1     -30.560 -12.507  31.632  0.00  0.00    -0.382 N 
+ATOM     18  N1  AMP d   1     -31.529 -14.641  31.364  0.00  0.00    -0.222 NA
+ATOM     19  H10 AMP d   1     -31.080 -12.146  30.819  0.00  0.00     0.157 HD
+ATOM     20  H11 AMP d   1     -29.927 -11.885  32.156  0.00  0.00     0.157 HD
+ATOM     21  C2  AMP d   1     -31.677 -15.929  31.750  0.00  0.00     0.091 A 
+ATOM     22  N3  AMP d   1     -31.014 -16.458  32.799  0.00  0.00    -0.222 NA
+ATOM     23  H12 AMP d   1     -32.357 -16.563  31.193  0.00  0.00     0.146 H 
+ENDBRANCH   5  10
+BRANCH   4  24
+ATOM     24  O2' AMP d   1     -28.749 -19.464  34.515  0.00  0.00    -0.388 OA
+ATOM     25  H7  AMP d   1     -28.122 -20.000  34.044  0.00  0.00     0.210 HD
+ENDBRANCH   4  24
+BRANCH   1  26
+ATOM     26  C5' AMP d   1     -26.276 -16.797  37.254  0.00  0.00     0.059 C 
+ATOM     27  H1  AMP d   1     -26.527 -16.766  38.325  0.00  0.00     0.079 H 
+ATOM     28  H2  AMP d   1     -25.279 -17.243  37.124  0.00  0.00     0.079 H 
+BRANCH  26  29
+ATOM     29  O5' AMP d   1     -26.260 -15.469  36.743  0.00  0.00    -0.280 OA
+BRANCH  29  30
+ATOM     30  P   AMP d   1     -25.037 -14.480  37.045  0.00  0.00     0.422 P 
+ATOM     31  O1P AMP d   1     -25.408 -13.272  36.226  0.00  0.00    -0.617 OA
+ATOM     32  O2P AMP d   1     -23.759 -15.160  36.624  0.00  0.00    -0.617 OA
+ATOM     33  O3P AMP d   1     -25.122 -14.286  38.541  0.00  0.00    -0.617 OA
+ENDBRANCH  29  30
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+BRANCH   3  34
+ATOM     34  O3' AMP d   1     -26.108 -18.967  34.837  0.00  0.00    -0.390 OA
+ATOM     35  H5  AMP d   1     -25.288 -18.811  35.291  0.00  0.00     0.210 HD
+ENDBRANCH   3  34
+TORSDOF 6

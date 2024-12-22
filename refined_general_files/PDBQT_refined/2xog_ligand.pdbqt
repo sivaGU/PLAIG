@@ -1,0 +1,113 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1B_2  and  N9A_39 
+REMARK    2  A    between atoms: C1C_3  and  N1D_4 
+REMARK    3  A    between atoms: C1S_5  and  C3C_18 
+REMARK    4  A    between atoms: SAS_40  and  C1S_5 
+REMARK    5  A    between atoms: C2B_8  and  O2B_9 
+REMARK    6  A    between atoms: C2C_10  and  O2C_11 
+REMARK    7  A    between atoms: C3B_16  and  O3B_17 
+REMARK    8  A    between atoms: C5B_29  and  N3S_20 
+REMARK    9  A    between atoms: N3S_20  and  SAS_40 
+REMARK   10  A    between atoms: C4B_22  and  C5B_29 
+REMARK   11  A    between atoms: C4C_24  and  C5C_31 
+REMARK   12  A    between atoms: C5B_29  and  O5B_30 
+REMARK   13  A    between atoms: C5C_31  and  O5C_32 
+REMARK   14  A    between atoms: C6A_34  and  N6A_35 
+ROOT
+ATOM      1  N3S SFB d   1      40.543   4.013  16.373  0.00  0.00    -0.290 N 
+ATOM      2  H14 SFB d   1      40.641   3.976  17.367  0.00  0.00     0.174 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C5B SFB d   1      40.526   5.304  15.689  0.00  0.00     0.137 C 
+ATOM      4  H17 SFB d   1      39.777   5.249  14.885  0.00  0.00     0.122 H 
+BRANCH   3   5
+ATOM      5  C4B SFB d   1      40.145   6.462  16.610  0.00  0.00     0.110 C 
+ATOM      6  C3B SFB d   1      41.214   6.773  17.656  0.00  0.00     0.093 C 
+ATOM      7  C2B SFB d   1      40.481   6.895  18.977  0.00  0.00     0.105 C 
+ATOM      8  H10 SFB d   1      41.950   5.957  17.702  0.00  0.00     0.091 H 
+ATOM      9  C1B SFB d   1      39.007   6.692  18.644  0.00  0.00     0.140 C 
+ATOM     10  H6  SFB d   1      40.830   6.126  19.682  0.00  0.00     0.093 H 
+ATOM     11  O4B SFB d   1      38.950   6.119  17.336  0.00  0.00    -0.351 OA
+ATOM     12  H1  SFB d   1      38.508   7.672  18.612  0.00  0.00     0.122 H 
+ATOM     13  H15 SFB d   1      39.968   7.357  15.996  0.00  0.00     0.094 H 
+BRANCH   6  14
+ATOM     14  O3B SFB d   1      41.883   7.997  17.342  0.00  0.00    -0.390 OA
+ATOM     15  H11 SFB d   1      42.510   8.199  18.027  0.00  0.00     0.210 HD
+ENDBRANCH   6  14
+BRANCH   7  16
+ATOM     16  O2B SFB d   1      40.670   8.194  19.550  0.00  0.00    -0.388 OA
+ATOM     17  H7  SFB d   1      40.154   8.267  20.344  0.00  0.00     0.210 HD
+ENDBRANCH   7  16
+BRANCH   9  18
+ATOM     18  N9A SFB d   1      38.341   5.884  19.705  0.00  0.00    -0.294 N 
+ATOM     19  C4A SFB d   1      37.402   6.373  20.519  0.00  0.00     0.167 A 
+ATOM     20  N3A SFB d   1      36.824   7.598  20.616  0.00  0.00    -0.222 NA
+ATOM     21  C5A SFB d   1      37.020   5.363  21.386  0.00  0.00     0.149 A 
+ATOM     22  C2A SFB d   1      35.881   7.837  21.543  0.00  0.00     0.091 A 
+ATOM     23  N1A SFB d   1      35.491   6.877  22.396  0.00  0.00    -0.222 NA
+ATOM     24  H5  SFB d   1      35.428   8.820  21.603  0.00  0.00     0.146 H 
+ATOM     25  C6A SFB d   1      36.044   5.640  22.341  0.00  0.00     0.155 A 
+ATOM     26  N7A SFB d   1      37.744   4.268  21.073  0.00  0.00    -0.236 NA
+ATOM     27  C8A SFB d   1      38.557   4.597  20.037  0.00  0.00     0.071 A 
+ATOM     28  H26 SFB d   1      39.268   3.929  19.553  0.00  0.00     0.144 H 
+BRANCH  25  29
+ATOM     29  N6A SFB d   1      35.636   4.687  23.206  0.00  0.00    -0.382 N 
+ATOM     30  H23 SFB d   1      36.052   3.746  23.169  0.00  0.00     0.157 HD
+ATOM     31  H24 SFB d   1      34.908   4.901  23.903  0.00  0.00     0.157 HD
+ENDBRANCH  25  29
+ENDBRANCH   9  18
+ENDBRANCH   3   5
+BRANCH   3  32
+ATOM     32  O5B SFB d   1      41.807   5.566  15.102  0.00  0.00    -0.373 OA
+ATOM     33  H18 SFB d   1      41.786   6.407  14.660  0.00  0.00     0.212 HD
+ENDBRANCH   3  32
+ENDBRANCH   1   3
+BRANCH   1  34
+ATOM     34  SAS SFB d   1      40.405   2.651  15.527  0.00  0.00     0.229 S 
+ATOM     35  O1S SFB d   1      41.689   2.380  14.943  0.00  0.00    -0.206 OA
+ATOM     36  O2S SFB d   1      40.044   1.574  16.408  0.00  0.00    -0.206 OA
+BRANCH  34  37
+ATOM     37  C1S SFB d   1      39.221   2.902  14.358  0.00  0.00     0.054 C 
+ATOM     38  H3  SFB d   1      38.289   3.210  14.855  0.00  0.00     0.059 H 
+ATOM     39  H4  SFB d   1      39.555   3.699  13.678  0.00  0.00     0.059 H 
+BRANCH  37  40
+ATOM     40  C3C SFB d   1      38.956   1.645  13.551  0.00  0.00     0.016 C 
+ATOM     41  C2C SFB d   1      37.524   1.185  13.268  0.00  0.00     0.085 C 
+ATOM     42  C1C SFB d   1      37.605   0.422  11.955  0.00  0.00     0.139 C 
+ATOM     43  H8  SFB d   1      37.194   0.514  14.075  0.00  0.00     0.090 H 
+ATOM     44  O4C SFB d   1      38.997   0.251  11.643  0.00  0.00    -0.356 OA
+ATOM     45  H2  SFB d   1      37.140   0.994  11.138  0.00  0.00     0.122 H 
+ATOM     46  C4C SFB d   1      39.808   1.182  12.370  0.00  0.00     0.068 C 
+ATOM     47  H16 SFB d   1      40.102   2.038  11.745  0.00  0.00     0.087 H 
+ATOM     48  H12 SFB d   1      39.264   0.914  14.313  0.00  0.00     0.049 H 
+BRANCH  41  49
+ATOM     49  O2C SFB d   1      36.573   2.251  13.154  0.00  0.00    -0.391 OA
+ATOM     50  H9  SFB d   1      36.528   2.723  13.977  0.00  0.00     0.210 HD
+ENDBRANCH  41  49
+BRANCH  42  51
+ATOM     51  N1D SFB d   1      36.784  -0.811  12.211  0.00  0.00    -0.280 N 
+ATOM     52  C2D SFB d   1      35.636  -0.808  11.316  0.00  0.00     0.331 A 
+ATOM     53  O2D SFB d   1      35.318   0.109  10.554  0.00  0.00    -0.246 OA
+ATOM     54  N3D SFB d   1      34.872  -2.004  11.395  0.00  0.00    -0.275 N 
+ATOM     55  C4D SFB d   1      35.128  -3.151  12.244  0.00  0.00     0.250 A 
+ATOM     56  H13 SFB d   1      34.070  -2.061  10.800  0.00  0.00     0.173 HD
+ATOM     57  O4D SFB d   1      34.381  -4.093  12.195  0.00  0.00    -0.268 OA
+ATOM     58  C5D SFB d   1      36.303  -3.063  13.111  0.00  0.00    -0.002 A 
+ATOM     59  C6D SFB d   1      37.057  -1.933  13.060  0.00  0.00    -0.008 A 
+ATOM     60  H22 SFB d   1      36.567  -3.881  13.780  0.00  0.00     0.094 H 
+ATOM     61  H25 SFB d   1      37.929  -1.876  13.710  0.00  0.00     0.112 H 
+ENDBRANCH  42  51
+BRANCH  46  62
+ATOM     62  C5C SFB d   1      41.039   0.418  12.839  0.00  0.00     0.041 C 
+ATOM     63  H19 SFB d   1      41.749   1.117  13.304  0.00  0.00     0.077 H 
+ATOM     64  H20 SFB d   1      41.517  -0.071  11.978  0.00  0.00     0.077 H 
+BRANCH  62  65
+ATOM     65  O5C SFB d   1      40.649  -0.576  13.798  0.00  0.00    -0.398 OA
+ATOM     66  H21 SFB d   1      40.036  -1.179  13.395  0.00  0.00     0.209 HD
+ENDBRANCH  62  65
+ENDBRANCH  46  62
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH   1  34
+TORSDOF 14

@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_7  and  CAO_8 
+REMARK       I    between atoms: CAO_8  and  NAN_10 
+REMARK    2  A    between atoms: NAM_11  and  CAG_12 
+REMARK    3  A    between atoms: CAG_12  and  CAU_13 
+REMARK    4  A    between atoms: CAQ_17  and  OAB_18 
+REMARK    5  A    between atoms: CAR_21  and  OAC_22 
+ROOT
+ATOM      1  CAG 2BE d   1     -13.575 -17.683 -12.470  0.00  0.00     0.061 C 
+ATOM      2  H5  2BE d   1     -13.817 -17.181 -13.418  0.00  0.00     0.077 H 
+ATOM      3  H6  2BE d   1     -14.343 -18.439 -12.249  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  NAM 2BE d   1     -13.724 -16.760 -11.543  0.00  0.00    -0.185 NA
+ATOM      5  NAN 2BE d   1     -14.810 -16.181 -11.458  0.00  0.00    -0.111 NA
+ATOM      6  CAO 2BE d   1     -15.802 -16.471 -12.307  0.00  0.00     0.294 C 
+ATOM      7  OAA 2BE d   1     -15.707 -17.280 -13.224  0.00  0.00    -0.264 OA
+BRANCH   6   8
+ATOM      8  CAT 2BE d   1     -17.109 -15.696 -12.184  0.00  0.00     0.035 A 
+ATOM      9  CAJ 2BE d   1     -18.301 -16.378 -11.978  0.00  0.00    -0.066 A 
+ATOM     10  CAH 2BE d   1     -19.503 -15.697 -11.901  0.00  0.00    -0.061 A 
+ATOM     11  H1  2BE d   1     -18.290 -17.457 -11.876  0.00  0.00     0.085 H 
+ATOM     12  CAP 2BE d   1     -19.511 -14.324 -12.052  0.00  0.00     0.034 A 
+ATOM     13  H2  2BE d   1     -20.427 -16.235 -11.724  0.00  0.00     0.086 H 
+ATOM     14 CLAD 2BE d   1     -20.990 -13.454 -11.960  0.00  0.00    -0.084 Cl
+ATOM     15  CAI 2BE d   1     -18.327 -13.641 -12.274  0.00  0.00    -0.061 A 
+ATOM     16  CAK 2BE d   1     -17.122 -14.325 -12.342  0.00  0.00    -0.066 A 
+ATOM     17  H3  2BE d   1     -18.342 -12.564 -12.396  0.00  0.00     0.086 H 
+ATOM     18  H4  2BE d   1     -16.198 -13.787 -12.518  0.00  0.00     0.085 H 
+ENDBRANCH   6   8
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  CAU 2BE d   1     -12.415 -18.406 -12.727  0.00  0.00    -0.001 A 
+ATOM     20  CAL 2BE d   1     -11.171 -17.960 -12.292  0.00  0.00    -0.053 A 
+ATOM     21  CAS 2BE d   1     -10.025 -18.691 -12.592  0.00  0.00     0.046 A 
+ATOM     22  H7  2BE d   1     -11.094 -17.043 -11.719  0.00  0.00     0.086 H 
+ATOM     23 BRAE 2BE d   1      -8.333 -18.107 -12.001  0.00  0.00    -0.048 Br
+ATOM     24  CAQ 2BE d   1     -10.130 -19.862 -13.334  0.00  0.00     0.103 A 
+ATOM     25  CAV 2BE d   1     -11.367 -20.311 -13.779  0.00  0.00     0.079 A 
+ATOM     26 BRAF 2BE d   1     -11.490 -21.910 -14.789  0.00  0.00    -0.045 Br
+ATOM     27  CAR 2BE d   1     -12.503 -19.578 -13.478  0.00  0.00     0.093 A 
+BRANCH  24  28
+ATOM     28  OAB 2BE d   1      -9.022 -20.579 -13.634  0.00  0.00    -0.358 OA
+ATOM     29  H8  2BE d   1      -9.268 -21.343 -14.142  0.00  0.00     0.217 HD
+ENDBRANCH  24  28
+BRANCH  27  30
+ATOM     30  OAC 2BE d   1     -13.706 -20.023 -13.917  0.00  0.00    -0.359 OA
+ATOM     31  H9  2BE d   1     -14.386 -19.422 -13.636  0.00  0.00     0.217 HD
+ENDBRANCH  27  30
+ENDBRANCH   1  19
+TORSDOF 5

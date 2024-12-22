@@ -1,0 +1,66 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  O1_15 
+REMARK    2  A    between atoms: N8_16  and  C3_2 
+REMARK       I    between atoms: N10_8  and  C9_7 
+REMARK       I    between atoms: C9_7  and  N8_16 
+REMARK    3  A    between atoms: C12_18  and  N10_8 
+REMARK    4  A    between atoms: C14_9  and  S19_21 
+REMARK    5  A    between atoms: C17_12  and  O18_20 
+REMARK    6  A    between atoms: O1_15  and  C1_14 
+REMARK    7  A    between atoms: S19_21  and  N22_23 
+ROOT
+ATOM      1  C9  EON d   1      13.637  34.996  14.783  0.00  0.00     0.325 C 
+ATOM      2  N10 EON d   1      14.397  34.703  15.884  0.00  0.00    -0.306 N 
+ATOM      3  N8  EON d   1      12.364  35.392  15.112  0.00  0.00    -0.306 N 
+ATOM      4  O11 EON d   1      14.055  34.907  13.630  0.00  0.00    -0.247 OA
+ATOM      5  H5  EON d   1      15.376  34.572  15.727  0.00  0.00     0.171 HD
+ATOM      6  H11 EON d   1      12.224  35.671  16.062  0.00  0.00     0.171 HD
+ENDROOT
+BRANCH   2   7
+ATOM      7  C12 EON d   1      13.951  34.566  17.215  0.00  0.00     0.071 A 
+ATOM      8  C17 EON d   1      13.140  33.478  17.566  0.00  0.00     0.092 A 
+ATOM      9  C16 EON d   1      12.796  33.277  18.898  0.00  0.00    -0.047 A 
+ATOM     10  C15 EON d   1      13.236  34.150  19.877  0.00  0.00    -0.058 A 
+ATOM     11  H7  EON d   1      12.178  32.429  19.172  0.00  0.00     0.087 H 
+ATOM     12  C14 EON d   1      14.019  35.240  19.518  0.00  0.00     0.081 A 
+ATOM     13  H6  EON d   1      12.972  33.985  20.915  0.00  0.00     0.086 H 
+ATOM     14  C13 EON d   1      14.375  35.464  18.196  0.00  0.00    -0.032 A 
+ATOM     15  H12 EON d   1      14.975  36.326  17.928  0.00  0.00     0.089 H 
+BRANCH   8  16
+ATOM     16  O18 EON d   1      12.978  32.474  16.663  0.00  0.00    -0.358 OA
+ATOM     17  H13 EON d   1      13.824  32.092  16.460  0.00  0.00     0.217 HD
+ENDBRANCH   8  16
+BRANCH  12  18
+ATOM     18  S19 EON d   1      14.635  36.301  20.787  0.00  0.00     0.256 S 
+ATOM     19  O20 EON d   1      14.853  35.474  21.930  0.00  0.00    -0.201 OA
+ATOM     20  O21 EON d   1      13.739  37.416  20.910  0.00  0.00    -0.201 OA
+BRANCH  18  21
+ATOM     21  N22 EON d   1      16.066  36.906  20.335  0.00  0.00    -0.324 N 
+ATOM     22  H14 EON d   1      16.559  37.531  20.941  0.00  0.00     0.169 HD
+ATOM     23  H15 EON d   1      16.458  36.655  19.450  0.00  0.00     0.169 HD
+ENDBRANCH  18  21
+ENDBRANCH  12  18
+ENDBRANCH   2   7
+BRANCH   3  24
+ATOM     24  C3  EON d   1      11.222  35.455  14.272  0.00  0.00     0.069 A 
+ATOM     25  C2  EON d   1      10.015  34.952  14.795  0.00  0.00     0.095 A 
+ATOM     26  C7  EON d   1       8.842  35.029  14.054  0.00  0.00    -0.049 A 
+ATOM     27  C6  EON d   1       8.878  35.573  12.777  0.00  0.00    -0.080 A 
+ATOM     28  H4  EON d   1       7.908  34.668  14.469  0.00  0.00     0.087 H 
+ATOM     29  C5  EON d   1      10.066  36.042  12.245  0.00  0.00    -0.081 A 
+ATOM     30  H3  EON d   1       7.967  35.631  12.192  0.00  0.00     0.083 H 
+ATOM     31  C4  EON d   1      11.236  35.998  12.988  0.00  0.00    -0.054 A 
+ATOM     32  H2  EON d   1      10.082  36.447  11.240  0.00  0.00     0.083 H 
+ATOM     33  H1  EON d   1      12.159  36.385  12.572  0.00  0.00     0.087 H 
+BRANCH  25  34
+ATOM     34  O1  EON d   1      10.128  34.348  16.017  0.00  0.00    -0.354 OA
+BRANCH  34  35
+ATOM     35  C1  EON d   1       8.933  33.992  16.702  0.00  0.00     0.010 C 
+ATOM     36  H8  EON d   1       9.188  33.520  17.662  0.00  0.00     0.066 H 
+ATOM     37  H9  EON d   1       8.355  33.286  16.088  0.00  0.00     0.066 H 
+ATOM     38  H10 EON d   1       8.333  34.895  16.886  0.00  0.00     0.066 H 
+ENDBRANCH  34  35
+ENDBRANCH  25  34
+ENDBRANCH   3  24
+TORSDOF 7

@@ -1,0 +1,55 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C03_3  and  S11_11 
+REMARK    2  A    between atoms: C06_6  and  C07_7 
+REMARK       I    between atoms: C07_7  and  N09_9 
+REMARK    3  A    between atoms: N09_9  and  C10_10 
+REMARK    4  A    between atoms: C10_10  and  C15_15 
+REMARK    5  A    between atoms: S11_11  and  NP2_12 
+ROOT
+ATOM      1  C07 IOE d   1      -4.464   3.827  13.564  0.00  0.00     0.251 C 
+ATOM      2  O08 IOE d   1      -5.418   4.603  13.297  0.00  0.00    -0.268 OA
+ATOM      3  N09 IOE d   1      -3.129   4.166  13.066  0.00  0.00    -0.352 N 
+ATOM      4  H5  IOE d   1      -2.800   3.847  12.177  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C06 IOE d   1      -4.831   2.576  14.392  0.00  0.00     0.032 A 
+ATOM      6  C01 IOE d   1      -3.851   1.617  14.743  0.00  0.00    -0.066 A 
+ATOM      7  C02 IOE d   1      -4.180   0.463  15.489  0.00  0.00    -0.059 A 
+ATOM      8  H1  IOE d   1      -2.824   1.772  14.432  0.00  0.00     0.085 H 
+ATOM      9  C03 IOE d   1      -5.554   0.241  15.911  0.00  0.00     0.079 A 
+ATOM     10  H2  IOE d   1      -3.410  -0.255  15.746  0.00  0.00     0.085 H 
+ATOM     11  C04 IOE d   1      -6.505   1.204  15.558  0.00  0.00    -0.059 A 
+ATOM     12  C05 IOE d   1      -6.137   2.352  14.810  0.00  0.00    -0.066 A 
+ATOM     13  H3  IOE d   1      -7.538   1.071  15.860  0.00  0.00     0.085 H 
+ATOM     14  H4  IOE d   1      -6.900   3.079  14.556  0.00  0.00     0.085 H 
+BRANCH   9  15
+ATOM     15  S11 IOE d   1      -5.944  -1.263  16.865  0.00  0.00     0.256 S 
+ATOM     16  O14 IOE d   1      -5.324  -0.927  18.185  0.00  0.00    -0.201 OA
+ATOM     17  O13 IOE d   1      -7.409  -1.091  17.027  0.00  0.00    -0.201 OA
+BRANCH  15  18
+ATOM     18  NP2 IOE d   1      -5.391  -2.719  16.119  0.00  0.00    -0.324 N 
+ATOM     19  H8  IOE d   1      -5.554  -3.601  16.561  0.00  0.00     0.169 HD
+ATOM     20  H9  IOE d   1      -4.907  -2.680  15.245  0.00  0.00     0.169 HD
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+ENDBRANCH   1   5
+BRANCH   3  21
+ATOM     21  C10 IOE d   1      -2.308   4.994  13.939  0.00  0.00     0.025 C 
+ATOM     22  H6  IOE d   1      -1.280   4.915  13.555  0.00  0.00     0.071 H 
+ATOM     23  H7  IOE d   1      -2.364   4.532  14.936  0.00  0.00     0.071 H 
+BRANCH  21  24
+ATOM     24  C15 IOE d   1      -2.547   6.376  14.134  0.00  0.00     0.037 A 
+ATOM     25  C20 IOE d   1      -1.853   7.076  15.235  0.00  0.00     0.130 A 
+ATOM     26  C19 IOE d   1      -2.084   8.492  15.451  0.00  0.00    -0.008 A 
+ATOM     27  F21 IOE d   1      -0.993   6.394  16.051  0.00  0.00    -0.205 F 
+ATOM     28  C18 IOE d   1      -3.003   9.239  14.591  0.00  0.00     0.122 A 
+ATOM     29  H11 IOE d   1      -1.571   9.002  16.258  0.00  0.00     0.093 H 
+ATOM     30  C17 IOE d   1      -3.696   8.547  13.492  0.00  0.00    -0.008 A 
+ATOM     31  F22 IOE d   1      -3.214  10.574  14.805  0.00  0.00    -0.206 F 
+ATOM     32  C16 IOE d   1      -3.481   7.105  13.243  0.00  0.00     0.130 A 
+ATOM     33  H10 IOE d   1      -4.375   9.103  12.855  0.00  0.00     0.093 H 
+ATOM     34  F23 IOE d   1      -4.128   6.478  12.216  0.00  0.00    -0.205 F 
+ENDBRANCH  21  24
+ENDBRANCH   3  21
+TORSDOF 5

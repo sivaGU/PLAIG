@@ -1,0 +1,130 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  CAM_28 
+REMARK    2  A    between atoms: C4_2  and  CBI_20 
+REMARK    3  A    between atoms: C5_3  and  CBF_19 
+REMARK    4  A    between atoms: NAR_17  and  C6_4 
+REMARK    5  A    between atoms: OBC_6  and  CBD_5 
+REMARK    6  A    between atoms: CBA_7  and  OBC_6 
+REMARK       I    between atoms: NAX_9  and  CBA_7 
+REMARK    7  A    between atoms: CBJ_21  and  CBK_22 
+REMARK    8  A    between atoms: CBN_25  and  CBO_26 
+REMARK    9  A    between atoms: CAH_34  and  OAG_35 
+REMARK   10  A    between atoms: OAG_35  and  CAF_36 
+REMARK   11  A    between atoms: CAF_36  and  CAD_37 
+REMARK   12  A    between atoms: CAD_37  and  OAE_38 
+REMARK   13  A    between atoms: CAD_37  and  CAC_39 
+REMARK   14  A    between atoms: CAC_39  and  NAB_40 
+REMARK   15  A    between atoms: NAB_40  and  CAA_41 
+ROOT
+ATOM      1  C2  BW4 d   1      -7.759  20.919  24.442  0.00  0.00     0.164 A 
+ATOM      2  C4  BW4 d   1      -7.026  23.072  23.735  0.00  0.00     0.083 A 
+ATOM      3  C5  BW4 d   1      -5.692  22.658  23.869  0.00  0.00     0.014 A 
+ATOM      4  C6  BW4 d   1      -5.448  21.333  24.284  0.00  0.00     0.136 A 
+ATOM      5  N1  BW4 d   1      -6.488  20.519  24.555  0.00  0.00    -0.210 NA
+ATOM      6  N3  BW4 d   1      -8.015  22.182  24.024  0.00  0.00    -0.227 NA
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAM BW4 d   1      -8.781  19.982  24.720  0.00  0.00     0.036 A 
+ATOM      8  CAN BW4 d   1      -9.748  19.729  23.748  0.00  0.00    -0.035 A 
+ATOM      9  CAH BW4 d   1     -10.757  18.789  23.999  0.00  0.00     0.069 A 
+ATOM     10  H25 BW4 d   1      -9.720  20.257  22.802  0.00  0.00     0.089 H 
+ATOM     11  CAI BW4 d   1     -10.819  18.092  25.194  0.00  0.00    -0.049 A 
+ATOM     12  CAJ BW4 d   1      -9.853  18.329  26.154  0.00  0.00    -0.058 A 
+ATOM     13  H27 BW4 d   1     -11.611  17.374  25.373  0.00  0.00     0.087 H 
+ATOM     14  CAK BW4 d   1      -8.843  19.261  25.920  0.00  0.00     0.048 A 
+ATOM     15  H26 BW4 d   1      -9.881  17.788  27.093  0.00  0.00     0.086 H 
+ATOM     16 CLAL BW4 d   1      -7.724  19.466  27.190  0.00  0.00    -0.083 Cl
+BRANCH   9  17
+ATOM     17  OAG BW4 d   1     -11.729  18.519  23.122  0.00  0.00    -0.349 OA
+BRANCH  17  18
+ATOM     18  CAF BW4 d   1     -11.732  19.200  21.852  0.00  0.00     0.051 C 
+ATOM     19  H28 BW4 d   1     -10.826  18.943  21.284  0.00  0.00     0.079 H 
+ATOM     20  H29 BW4 d   1     -11.771  20.288  22.007  0.00  0.00     0.079 H 
+BRANCH  18  21
+ATOM     21  CAD BW4 d   1     -12.982  18.730  21.093  0.00  0.00     0.079 C 
+ATOM     22  H30 BW4 d   1     -13.858  18.818  21.752  0.00  0.00     0.088 H 
+BRANCH  21  23
+ATOM     23  OAE BW4 d   1     -12.804  17.363  20.725  0.00  0.00    -0.392 OA
+ATOM     24  H31 BW4 d   1     -13.572  17.060  20.254  0.00  0.00     0.210 HD
+ENDBRANCH  21  23
+BRANCH  21  25
+ATOM     25  CAC BW4 d   1     -13.219  19.590  19.830  0.00  0.00     0.106 C 
+ATOM     26  H32 BW4 d   1     -13.911  19.066  19.154  0.00  0.00     0.079 H 
+ATOM     27  H33 BW4 d   1     -12.261  19.758  19.316  0.00  0.00     0.079 H 
+BRANCH  25  28
+ATOM     28  NAB BW4 d   1     -13.806  20.896  20.223  0.00  0.00    -0.077 N 
+ATOM     29  H34 BW4 d   1     -13.126  21.425  20.745  0.00  0.00     0.276 HD
+ATOM     30  H35 BW4 d   1     -14.621  20.738  20.795  0.00  0.00     0.276 HD
+BRANCH  28  31
+ATOM     31  CAA BW4 d   1     -14.190  21.645  19.029  0.00  0.00     0.065 C 
+ATOM     32  H36 BW4 d   1     -14.624  22.611  19.326  0.00  0.00     0.067 H 
+ATOM     33  H37 BW4 d   1     -14.933  21.069  18.458  0.00  0.00     0.067 H 
+ATOM     34  H38 BW4 d   1     -13.302  21.819  18.404  0.00  0.00     0.067 H 
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH  21  25
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH   9  17
+ENDBRANCH   1   7
+BRANCH   4  35
+ATOM     35  NAR BW4 d   1      -4.228  20.791  24.494  0.00  0.00    -0.364 N 
+ATOM     36  CAU BW4 d   1      -2.817  21.273  24.664  0.00  0.00     0.005 A 
+ATOM     37  CAT BW4 d   1      -2.382  19.852  25.016  0.00  0.00    -0.005 A 
+ATOM     38  H12 BW4 d   1      -2.362  21.668  23.744  0.00  0.00     0.065 H 
+ATOM     39  H13 BW4 d   1      -2.685  21.999  25.479  0.00  0.00     0.065 H 
+ATOM     40  CAZ BW4 d   1      -1.751  19.750  26.410  0.00  0.00    -0.040 C 
+ATOM     41  CAV BW4 d   1      -1.527  19.228  23.928  0.00  0.00    -0.040 C 
+ATOM     42  CAS BW4 d   1      -3.826  19.421  24.942  0.00  0.00     0.005 A 
+ATOM     43  CAY BW4 d   1      -1.481  18.297  26.775  0.00  0.00     0.001 C 
+ATOM     44  H6  BW4 d   1      -0.802  20.306  26.418  0.00  0.00     0.036 H 
+ATOM     45  H7  BW4 d   1      -2.438  20.186  27.150  0.00  0.00     0.036 H 
+ATOM     46  NAX BW4 d   1      -0.804  17.568  25.671  0.00  0.00    -0.328 N 
+ATOM     47  H4  BW4 d   1      -0.839  18.267  27.668  0.00  0.00     0.064 H 
+ATOM     48  H5  BW4 d   1      -2.438  17.801  26.995  0.00  0.00     0.064 H 
+ATOM     49  CBA BW4 d   1       0.214  16.724  25.923  0.00  0.00     0.362 C 
+ATOM     50  CAW BW4 d   1      -1.248  17.758  24.264  0.00  0.00     0.001 C 
+ATOM     51  OBB BW4 d   1       0.606  16.541  27.076  0.00  0.00    -0.238 OA
+ATOM     52  H8  BW4 d   1      -2.169  17.179  24.104  0.00  0.00     0.064 H 
+ATOM     53  H9  BW4 d   1      -0.460  17.386  23.593  0.00  0.00     0.064 H 
+ATOM     54  H10 BW4 d   1      -2.058  19.288  22.967  0.00  0.00     0.036 H 
+ATOM     55  H11 BW4 d   1      -0.574  19.773  23.855  0.00  0.00     0.036 H 
+ATOM     56  H14 BW4 d   1      -4.254  19.124  25.911  0.00  0.00     0.065 H 
+ATOM     57  H15 BW4 d   1      -4.020  18.633  24.199  0.00  0.00     0.065 H 
+BRANCH  49  58
+ATOM     58  OBC BW4 d   1       0.827  16.065  24.898  0.00  0.00    -0.309 OA
+BRANCH  58  59
+ATOM     59  CBD BW4 d   1       0.714  16.763  23.641  0.00  0.00     0.015 C 
+ATOM     60  H1  BW4 d   1       1.224  16.187  22.855  0.00  0.00     0.067 H 
+ATOM     61  H2  BW4 d   1       1.180  17.756  23.730  0.00  0.00     0.067 H 
+ATOM     62  H3  BW4 d   1      -0.348  16.878  23.380  0.00  0.00     0.067 H 
+ENDBRANCH  58  59
+ENDBRANCH  49  58
+ENDBRANCH   4  35
+BRANCH   2  63
+ATOM     63  CBI BW4 d   1      -7.394  24.322  23.351  0.00  0.00     0.051 A 
+ATOM     64  CBJ BW4 d   1      -7.140  25.484  23.989  0.00  0.00     0.089 A 
+ATOM     65  OBL BW4 d   1      -7.694  26.515  23.317  0.00  0.00    -0.217 OA
+ATOM     66  NBM BW4 d   1      -8.345  25.915  22.158  0.00  0.00    -0.132 NA
+ATOM     67  CBN BW4 d   1      -8.125  24.603  22.264  0.00  0.00     0.073 A 
+BRANCH  64  68
+ATOM     68  CBK BW4 d   1      -6.343  25.697  25.281  0.00  0.00    -0.028 C 
+ATOM     69  H19 BW4 d   1      -6.326  26.769  25.529  0.00  0.00     0.036 H 
+ATOM     70  H20 BW4 d   1      -5.313  25.337  25.140  0.00  0.00     0.036 H 
+ATOM     71  H21 BW4 d   1      -6.818  25.138  26.101  0.00  0.00     0.036 H 
+ENDBRANCH  64  68
+BRANCH  67  72
+ATOM     72  CBO BW4 d   1      -8.636  23.596  21.247  0.00  0.00    -0.033 C 
+ATOM     73  H22 BW4 d   1      -9.205  24.121  20.466  0.00  0.00     0.035 H 
+ATOM     74  H23 BW4 d   1      -9.289  22.867  21.749  0.00  0.00     0.035 H 
+ATOM     75  H24 BW4 d   1      -7.784  23.072  20.790  0.00  0.00     0.035 H 
+ENDBRANCH  67  72
+ENDBRANCH   2  63
+BRANCH   3  76
+ATOM     76  CBF BW4 d   1      -4.613  23.524  23.579  0.00  0.00    -0.045 C 
+ATOM     77  H16 BW4 d   1      -5.003  24.506  23.274  0.00  0.00     0.033 H 
+ATOM     78  H17 BW4 d   1      -4.011  23.099  22.762  0.00  0.00     0.033 H 
+ATOM     79  H18 BW4 d   1      -3.985  23.640  24.475  0.00  0.00     0.033 H 
+ENDBRANCH   3  76
+TORSDOF 15

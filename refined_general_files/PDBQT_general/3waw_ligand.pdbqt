@@ -1,0 +1,65 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBB_1  and  CAV_2 
+REMARK    2  A    between atoms: CAV_2  and  NAS_3 
+REMARK    3  A    between atoms: NAP_8  and  CAJ_9 
+REMARK    4  A    between atoms: CAL_12  and  OAO_13 
+REMARK    5  A    between atoms: CAH_14  and  CAG_15 
+REMARK    6  A    between atoms: CAG_15  and  CAF_16 
+ROOT
+ATOM      1  NAS DWW d   1      18.158  39.942  18.297  0.00  0.00    -0.410 N 
+ATOM      2  CAT DWW d   1      17.717  40.086  16.756  0.00  0.00     0.005 C 
+ATOM      3  CAU DWW d   1      17.402  39.381  16.446  0.00  0.00     0.011 C 
+ATOM      4  CAR DWW d   1      16.965  39.353  19.214  0.00  0.00     0.005 C 
+ATOM      5  CAQ DWW d   1      16.514  38.721  18.883  0.00  0.00     0.011 C 
+ATOM      6  NAP DWW d   1      16.162  38.837  17.311  0.00  0.00    -0.357 N 
+ATOM      7  H6  DWW d   1      18.599  40.369  16.162  0.00  0.00     0.066 H 
+ATOM      8  H7  DWW d   1      16.955  40.876  16.680  0.00  0.00     0.066 H 
+ATOM      9  H8  DWW d   1      18.191  38.614  16.437  0.00  0.00     0.066 H 
+ATOM     10  H9  DWW d   1      17.061  39.568  15.417  0.00  0.00     0.066 H 
+ATOM     11  H10 DWW d   1      16.273  40.179  19.433  0.00  0.00     0.066 H 
+ATOM     12  H11 DWW d   1      17.412  38.990  20.151  0.00  0.00     0.066 H 
+ATOM     13  H12 DWW d   1      15.564  38.662  19.435  0.00  0.00     0.066 H 
+ATOM     14  H13 DWW d   1      17.082  37.791  19.031  0.00  0.00     0.066 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  CAJ DWW d   1      14.819  38.373  17.031  0.00  0.00     0.172 A 
+ATOM     16  SAI DWW d   1      14.134  38.206  15.491  0.00  0.00    -0.052 SA
+ATOM     17  CAH DWW d   1      12.637  37.603  16.009  0.00  0.00     0.043 A 
+ATOM     18  CAL DWW d   1      12.699  37.539  17.403  0.00  0.00     0.178 A 
+ATOM     19  NAK DWW d   1      13.898  37.961  17.946  0.00  0.00    -0.199 NA
+BRANCH  17  20
+ATOM     20  CAG DWW d   1      11.417  37.195  15.249  0.00  0.00    -0.007 C 
+ATOM     21  H15 DWW d   1      10.610  37.883  15.542  0.00  0.00     0.048 H 
+ATOM     22  H16 DWW d   1      11.164  36.174  15.570  0.00  0.00     0.048 H 
+BRANCH  20  23
+ATOM     23  CAF DWW d   1      11.462  37.185  13.756  0.00  0.00    -0.052 A 
+ATOM     24  CAA DWW d   1      11.040  36.019  13.146  0.00  0.00    -0.054 A 
+ATOM     25  CAB DWW d   1      11.016  35.911  11.769  0.00  0.00     0.056 A 
+ATOM     26  H17 DWW d   1      10.724  35.180  13.755  0.00  0.00     0.087 H 
+ATOM     27 CLN  DWW d   1      10.495  34.423  11.052  0.00  0.00    -0.083 Cl
+ATOM     28  CAC DWW d   1      11.414  36.988  10.981  0.00  0.00     0.055 A 
+ATOM     29 CLM  DWW d   1      11.378  36.825   9.253  0.00  0.00    -0.083 Cl
+ATOM     30  CAD DWW d   1      11.828  38.174  11.590  0.00  0.00    -0.060 A 
+ATOM     31  CAE DWW d   1      11.845  38.281  12.981  0.00  0.00    -0.075 A 
+ATOM     32  H18 DWW d   1      12.137  39.015  10.980  0.00  0.00     0.086 H 
+ATOM     33  H19 DWW d   1      12.153  39.206  13.455  0.00  0.00     0.084 H 
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+BRANCH  18  34
+ATOM     34  OAO DWW d   1      11.626  37.075  18.129  0.00  0.00    -0.344 OA
+ATOM     35  H14 DWW d   1      11.332  37.753  18.726  0.00  0.00     0.219 HD
+ENDBRANCH  18  34
+ENDBRANCH   6  15
+BRANCH   1  36
+ATOM     36  CAV DWW d   1      19.481  40.384  18.612  0.00  0.00    -0.013 C 
+ATOM     37  H4  DWW d   1      20.162  39.759  18.016  0.00  0.00     0.063 H 
+ATOM     38  H5  DWW d   1      19.545  41.427  18.268  0.00  0.00     0.063 H 
+BRANCH  36  39
+ATOM     39  CBB DWW d   1      19.971  40.373  19.883  0.00  0.00    -0.061 C 
+ATOM     40  H1  DWW d   1      21.003  40.755  19.882  0.00  0.00     0.029 H 
+ATOM     41  H2  DWW d   1      19.962  39.344  20.271  0.00  0.00     0.029 H 
+ATOM     42  H3  DWW d   1      19.345  41.011  20.523  0.00  0.00     0.029 H 
+ENDBRANCH  36  39
+ENDBRANCH   1  36
+TORSDOF 6

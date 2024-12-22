@@ -1,0 +1,116 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_1  and  C2_2 
+REMARK    2  A    between atoms: N9_11  and  C1D_12 
+REMARK    3  A    between atoms: C2D_13  and  O2D_14 
+REMARK    4  A    between atoms: C3D_15  and  O3D_16 
+REMARK    5  A    between atoms: C4D_17  and  C5D_19 
+REMARK    6  A    between atoms: C5D_19  and  O5D_20 
+REMARK    7  A    between atoms: O5D_20  and  PA_21 
+REMARK    8  A    between atoms: PA_21  and  O3A_24 
+REMARK    9  A    between atoms: O3A_24  and  PB_25 
+REMARK   10  A    between atoms: PB_25  and  O1B_28 
+REMARK   11  A    between atoms: O1B_28  and  C1'_29 
+REMARK   12  A    between atoms: C5'_31  and  C6'_32 
+REMARK   13  A    between atoms: C6'_32  and  O6A_33 
+REMARK   14  A    between atoms: C2'_34  and  O2'_35 
+REMARK   15  A    between atoms: C3'_36  and  O3'_37 
+REMARK   16  A    between atoms: C4'_38  and  O4'_39 
+ROOT
+ATOM      1  C5D GDX d   1      46.618 -35.278  62.730  0.00  0.00     0.058 C 
+ATOM      2  H   GDX d   1      45.999 -36.117  62.413  0.00  0.00     0.079 H 
+ATOM      3  H   GDX d   1      47.374 -35.693  63.397  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4D GDX d   1      45.786 -34.219  63.436  0.00  0.00     0.089 C 
+ATOM      5  C3D GDX d   1      45.036 -33.331  62.481  0.00  0.00     0.091 C 
+ATOM      6  C2D GDX d   1      45.902 -32.081  62.349  0.00  0.00     0.105 C 
+ATOM      7  H   GDX d   1      44.841 -33.728  61.485  0.00  0.00     0.091 H 
+ATOM      8  C1D GDX d   1      46.409 -31.961  63.740  0.00  0.00     0.139 C 
+ATOM      9  H   GDX d   1      46.602 -32.197  61.522  0.00  0.00     0.093 H 
+ATOM     10  O4D GDX d   1      46.599 -33.307  64.169  0.00  0.00    -0.353 OA
+ATOM     11  H   GDX d   1      45.724 -31.373  64.350  0.00  0.00     0.122 H 
+ATOM     12  H   GDX d   1      45.114 -34.798  64.070  0.00  0.00     0.090 H 
+BRANCH   5  13
+ATOM     13  O3D GDX d   1      43.792 -33.079  63.149  0.00  0.00    -0.390 OA
+ATOM     14  H   GDX d   1      43.966 -32.748  64.033  0.00  0.00     0.210 HD
+ENDBRANCH   5  13
+BRANCH   6  15
+ATOM     15  O2D GDX d   1      45.215 -30.862  62.084  0.00  0.00    -0.388 OA
+ATOM     16  H   GDX d   1      44.863 -30.882  61.191  0.00  0.00     0.210 HD
+ENDBRANCH   6  15
+BRANCH   8  17
+ATOM     17  N9  GDX d   1      47.736 -31.332  63.764  0.00  0.00    -0.295 N 
+ATOM     18  C4  GDX d   1      48.078 -30.373  64.612  0.00  0.00     0.161 A 
+ATOM     19  N3  GDX d   1      47.376 -29.732  65.550  0.00  0.00    -0.174 N 
+ATOM     20  C5  GDX d   1      49.404 -30.068  64.397  0.00  0.00     0.171 A 
+ATOM     21  C2  GDX d   1      47.944 -28.798  66.315  0.00  0.00     0.680 A 
+ATOM     22  H   GDX d   1      46.391 -29.960  65.684  0.00  0.00     0.186 HD
+ATOM     23  N1  GDX d   1      49.305 -28.404  66.169  0.00  0.00    -0.154 N 
+ATOM     24  C6  GDX d   1      50.011 -29.081  65.160  0.00  0.00     0.292 A 
+ATOM     25  H   GDX d   1      49.734 -27.686  66.752  0.00  0.00     0.187 HD
+ATOM     26  O6  GDX d   1      51.207 -28.811  64.924  0.00  0.00    -0.265 OA
+ATOM     27  N7  GDX d   1      49.852 -30.873  63.396  0.00  0.00    -0.234 NA
+ATOM     28  C8  GDX d   1      48.807 -31.651  63.017  0.00  0.00     0.071 A 
+ATOM     29  H   GDX d   1      48.832 -32.410  62.235  0.00  0.00     0.144 H 
+BRANCH  21  30
+ATOM     30  N2  GDX d   1      47.132 -28.221  67.235  0.00  0.00    -0.234 N 
+ATOM     31  H   GDX d   1      46.156 -28.510  67.306  0.00  0.00     0.174 HD
+ATOM     32  H   GDX d   1      47.497 -27.498  67.856  0.00  0.00     0.174 HD
+ENDBRANCH  21  30
+ENDBRANCH   8  17
+ENDBRANCH   1   4
+BRANCH   1  33
+ATOM     33  O5D GDX d   1      47.213 -34.637  61.621  0.00  0.00    -0.287 OA
+BRANCH  33  34
+ATOM     34  PA  GDX d   1      47.236 -35.314  60.173  0.00  0.00     0.417 P 
+ATOM     35  O1A GDX d   1      45.834 -35.747  59.857  0.00  0.00    -0.624 OA
+ATOM     36  O2A GDX d   1      47.977 -34.365  59.261  0.00  0.00    -0.624 OA
+BRANCH  34  37
+ATOM     37  O3A GDX d   1      48.127 -36.620  60.451  0.00  0.00    -0.180 OA
+BRANCH  37  38
+ATOM     38  PB  GDX d   1      47.851 -38.164  60.087  0.00  0.00     0.420 P 
+ATOM     39  O2B GDX d   1      48.788 -38.467  58.963  0.00  0.00    -0.624 OA
+ATOM     40  O3B GDX d   1      46.389 -38.497  59.980  0.00  0.00    -0.624 OA
+BRANCH  38  41
+ATOM     41  O1B GDX d   1      48.408 -38.904  61.411  0.00  0.00    -0.255 OA
+BRANCH  41  42
+ATOM     42  C1' GDX d   1      48.053 -40.128  62.093  0.00  0.00     0.170 C 
+ATOM     43  O5' GDX d   1      49.196 -40.620  62.839  0.00  0.00    -0.348 OA
+ATOM     44  C5' GDX d   1      49.882 -39.634  63.651  0.00  0.00     0.089 C 
+ATOM     45  C4' GDX d   1      48.899 -39.054  64.697  0.00  0.00     0.090 C 
+ATOM     46  H   GDX d   1      50.215 -38.788  63.050  0.00  0.00     0.090 H 
+ATOM     47  C3' GDX d   1      47.584 -38.652  64.034  0.00  0.00     0.092 C 
+ATOM     48  H   GDX d   1      48.761 -39.856  65.422  0.00  0.00     0.091 H 
+ATOM     49  C2' GDX d   1      47.035 -39.811  63.191  0.00  0.00     0.110 C 
+ATOM     50  H   GDX d   1      47.773 -37.817  63.360  0.00  0.00     0.091 H 
+ATOM     51  H   GDX d   1      46.085 -39.540  62.731  0.00  0.00     0.094 H 
+ATOM     52  H   GDX d   1      47.690 -40.832  61.344  0.00  0.00     0.134 H 
+BRANCH  44  53
+ATOM     53  C6' GDX d   1      51.139 -40.243  64.237  0.00  0.00     0.043 C 
+ATOM     54  H   GDX d   1      51.955 -39.962  63.554  0.00  0.00     0.078 H 
+ATOM     55  H   GDX d   1      50.989 -41.332  64.201  0.00  0.00     0.078 H 
+BRANCH  53  56
+ATOM     56  O6A GDX d   1      51.561 -39.991  65.400  0.00  0.00    -0.398 OA
+ATOM     57  H   GDX d   1      50.903 -40.244  66.036  0.00  0.00     0.209 HD
+ENDBRANCH  53  56
+ENDBRANCH  44  53
+BRANCH  45  58
+ATOM     58  O4' GDX d   1      49.397 -37.894  65.395  0.00  0.00    -0.390 OA
+ATOM     59  H   GDX d   1      50.227 -38.113  65.825  0.00  0.00     0.210 HD
+ENDBRANCH  45  58
+BRANCH  47  60
+ATOM     60  O3' GDX d   1      46.632 -38.188  65.008  0.00  0.00    -0.390 OA
+ATOM     61  H   GDX d   1      45.840 -37.882  64.559  0.00  0.00     0.210 HD
+ENDBRANCH  47  60
+BRANCH  49  62
+ATOM     62  O2' GDX d   1      46.804 -40.963  64.041  0.00  0.00    -0.388 OA
+ATOM     63  H   GDX d   1      47.630 -41.225  64.455  0.00  0.00     0.210 HD
+ENDBRANCH  49  62
+ENDBRANCH  41  42
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH  34  37
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 16

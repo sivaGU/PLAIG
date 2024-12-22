@@ -1,0 +1,62 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P1_1  and  O1_5 
+REMARK    2  A    between atoms: O1_5  and  C1_6 
+REMARK    3  A    between atoms: C1_6  and  C2_7 
+REMARK    4  A    between atoms: C2_7  and  O2_8 
+REMARK    5  A    between atoms: C3_9  and  O3_10 
+REMARK    6  A    between atoms: C4_11  and  O4_12 
+REMARK    7  A    between atoms: C5_13  and  C6_15 
+REMARK    8  A    between atoms: C6_15  and  O6_16 
+REMARK    9  A    between atoms: O6_16  and  P2_17 
+ROOT
+ATOM      1  C2  FBP d   1      33.125  21.697 119.697  0.00  0.00     0.213 C 
+ATOM      2  C3  FBP d   1      32.733  22.764 118.675  0.00  0.00     0.118 C 
+ATOM      3  C4  FBP d   1      31.278  22.468 118.385  0.00  0.00     0.092 C 
+ATOM      4  C5  FBP d   1      30.802  21.924 119.718  0.00  0.00     0.090 C 
+ATOM      5  O5  FBP d   1      31.918  21.289 120.321  0.00  0.00    -0.341 OA
+ATOM      6  H4  FBP d   1      32.836  23.765 119.119  0.00  0.00     0.095 H 
+ATOM      7  H6  FBP d   1      31.176  21.720 117.585  0.00  0.00     0.091 H 
+ATOM      8  H8  FBP d   1      30.475  22.760 120.353  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C1  FBP d   1      34.096  22.234 120.742  0.00  0.00     0.086 C 
+ATOM     10  H1  FBP d   1      34.283  21.459 121.500  0.00  0.00     0.083 H 
+ATOM     11  H2  FBP d   1      35.044  22.506 120.255  0.00  0.00     0.083 H 
+BRANCH   9  12
+ATOM     12  O1  FBP d   1      33.543  23.373 121.362  0.00  0.00    -0.277 OA
+BRANCH  12  13
+ATOM     13  P1  FBP d   1      33.899  23.743 122.886  0.00  0.00     0.422 P 
+ATOM     14  O1P FBP d   1      35.320  24.257 122.939  0.00  0.00    -0.617 OA
+ATOM     15  O2P FBP d   1      33.776  22.516 123.759  0.00  0.00    -0.617 OA
+ATOM     16  O3P FBP d   1      32.941  24.812 123.359  0.00  0.00    -0.617 OA
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+BRANCH   1  17
+ATOM     17  O2  FBP d   1      33.729  20.553 119.036  0.00  0.00    -0.362 OA
+ATOM     18  H3  FBP d   1      34.538  20.822 118.617  0.00  0.00     0.213 HD
+ENDBRANCH   1  17
+BRANCH   2  19
+ATOM     19  O3  FBP d   1      33.515  22.712 117.507  0.00  0.00    -0.387 OA
+ATOM     20  H5  FBP d   1      33.411  21.862 117.095  0.00  0.00     0.210 HD
+ENDBRANCH   2  19
+BRANCH   3  21
+ATOM     21  O4  FBP d   1      30.563  23.628 118.034  0.00  0.00    -0.390 OA
+ATOM     22  H7  FBP d   1      30.602  24.252 118.750  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   4  23
+ATOM     23  C6  FBP d   1      29.633  20.970 119.554  0.00  0.00     0.059 C 
+ATOM     24  H9  FBP d   1      29.963  19.936 119.735  0.00  0.00     0.079 H 
+ATOM     25  H10 FBP d   1      29.221  21.051 118.537  0.00  0.00     0.079 H 
+BRANCH  23  26
+ATOM     26  O6  FBP d   1      28.657  21.336 120.498  0.00  0.00    -0.280 OA
+BRANCH  26  27
+ATOM     27  P2  FBP d   1      27.121  21.487 120.066  0.00  0.00     0.422 P 
+ATOM     28  O4P FBP d   1      27.032  22.371 118.847  0.00  0.00    -0.617 OA
+ATOM     29  O5P FBP d   1      26.347  22.109 121.201  0.00  0.00    -0.617 OA
+ATOM     30  O6P FBP d   1      26.563  20.125 119.745  0.00  0.00    -0.617 OA
+ENDBRANCH  26  27
+ENDBRANCH  23  26
+ENDBRANCH   4  23
+TORSDOF 9

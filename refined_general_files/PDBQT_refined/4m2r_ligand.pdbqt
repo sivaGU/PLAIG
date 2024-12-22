@@ -1,0 +1,80 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  C4_7 
+REMARK    2  A    between atoms: C2_21  and  C3_1 
+REMARK    3  A    between atoms: C11_4  and  N1_20 
+REMARK    4  A    between atoms: S1_6  and  N2_11 
+REMARK    5  A    between atoms: C7_14  and  S1_6 
+REMARK    6  A    between atoms: C4_7  and  O1_22 
+REMARK    7  A    between atoms: C6_9  and  C5_8 
+REMARK    8  A    between atoms: N1_20  and  C6_9 
+REMARK    9  A    between atoms: N3_19  and  C2_21 
+REMARK   10  A    between atoms: O1_22  and  C1_23 
+ROOT
+ATOM      1  C9  BZ1 d   1      17.076   3.369  14.487  0.00  0.00     0.006 A 
+ATOM      2  C10 BZ1 d   1      16.034   4.213  14.756  0.00  0.00     0.130 A 
+ATOM      3  C11 BZ1 d   1      18.301   3.516  13.645  0.00  0.00     0.145 C 
+ATOM      4  C12 BZ1 d   1      18.611   4.965  13.482  0.00  0.00     0.036 C 
+ATOM      5  S2  BZ1 d   1      14.996   3.467  15.786  0.00  0.00    -0.062 SA
+ATOM      6  C7  BZ1 d   1      15.880   2.025  15.872  0.00  0.00     0.121 A 
+ATOM      7  C8  BZ1 d   1      17.058   2.107  15.091  0.00  0.00    -0.043 A 
+ATOM      8  S3  BZ1 d   1      16.080   5.806  14.071  0.00  0.00     0.268 S 
+ATOM      9  O2  BZ1 d   1      15.847   6.569  15.288  0.00  0.00    -0.200 OA
+ATOM     10  O5  BZ1 d   1      15.024   5.990  13.076  0.00  0.00    -0.200 OA
+ATOM     11  N3  BZ1 d   1      17.614   5.999  13.468  0.00  0.00    -0.304 N 
+ATOM     12  H3  BZ1 d   1      19.129   3.084  14.226  0.00  0.00     0.094 H 
+ATOM     13  H4  BZ1 d   1      19.144   5.051  12.524  0.00  0.00     0.069 H 
+ATOM     14  H5  BZ1 d   1      19.294   5.219  14.306  0.00  0.00     0.069 H 
+ATOM     15  H15 BZ1 d   1      17.813   1.330  14.980  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH  11  16
+ATOM     16  C2  BZ1 d   1      18.185   7.254  13.120  0.00  0.00     0.007 C 
+ATOM     17  H18 BZ1 d   1      18.525   7.170  12.077  0.00  0.00     0.065 H 
+ATOM     18  H19 BZ1 d   1      17.378   7.999  13.184  0.00  0.00     0.065 H 
+BRANCH  16  19
+ATOM     19  C3  BZ1 d   1      19.332   7.793  13.905  0.00  0.00    -0.030 C 
+ATOM     20  H1  BZ1 d   1      19.017   7.869  14.956  0.00  0.00     0.038 H 
+ATOM     21  H2  BZ1 d   1      20.165   7.079  13.822  0.00  0.00     0.038 H 
+BRANCH  19  22
+ATOM     22  C4  BZ1 d   1      19.830   9.133  13.476  0.00  0.00     0.020 C 
+ATOM     23  H6  BZ1 d   1      19.105   9.514  12.742  0.00  0.00     0.074 H 
+ATOM     24  H7  BZ1 d   1      20.798   8.962  12.982  0.00  0.00     0.074 H 
+BRANCH  22  25
+ATOM     25  O1  BZ1 d   1      20.032  10.149  14.389  0.00  0.00    -0.396 OA
+BRANCH  25  26
+ATOM     26  C1  BZ1 d   1      21.189  10.172  15.150  0.00  0.00     0.004 C 
+ATOM     27  H20 BZ1 d   1      21.173  11.048  15.815  0.00  0.00     0.066 H 
+ATOM     28  H21 BZ1 d   1      22.064  10.232  14.486  0.00  0.00     0.066 H 
+ATOM     29  H22 BZ1 d   1      21.249   9.254  15.754  0.00  0.00     0.066 H 
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  11  16
+BRANCH   3  30
+ATOM     30  N1  BZ1 d   1      18.277   2.776  12.407  0.00  0.00    -0.066 N 
+ATOM     31  H16 BZ1 d   1      17.619   3.211  11.779  0.00  0.00     0.278 HD
+ATOM     32  H17 BZ1 d   1      17.985   1.830  12.597  0.00  0.00     0.278 HD
+BRANCH  30  33
+ATOM     33  C6  BZ1 d   1      19.576   2.747  11.777  0.00  0.00     0.079 C 
+ATOM     34  H11 BZ1 d   1      19.827   3.788  11.524  0.00  0.00     0.075 H 
+ATOM     35  H12 BZ1 d   1      20.284   2.372  12.531  0.00  0.00     0.075 H 
+BRANCH  33  36
+ATOM     36  C5  BZ1 d   1      19.803   1.932  10.529  0.00  0.00    -0.053 C 
+ATOM     37  H8  BZ1 d   1      20.849   2.040  10.206  0.00  0.00     0.029 H 
+ATOM     38  H9  BZ1 d   1      19.134   2.288   9.732  0.00  0.00     0.029 H 
+ATOM     39  H10 BZ1 d   1      19.591   0.873  10.739  0.00  0.00     0.029 H 
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH   3  30
+BRANCH   6  40
+ATOM     40  S1  BZ1 d   1      15.348   0.685  16.854  0.00  0.00     0.263 S 
+ATOM     41  O3  BZ1 d   1      13.890   0.785  16.853  0.00  0.00    -0.200 OA
+ATOM     42  O4  BZ1 d   1      15.825   0.875  18.229  0.00  0.00    -0.200 OA
+BRANCH  40  43
+ATOM     43  N2  BZ1 d   1      15.947  -0.685  16.208  0.00  0.00    -0.324 N 
+ATOM     44  H13 BZ1 d   1      15.706  -0.944  15.273  0.00  0.00     0.169 HD
+ATOM     45  H14 BZ1 d   1      16.556  -1.267  16.747  0.00  0.00     0.169 HD
+ENDBRANCH  40  43
+ENDBRANCH   6  40
+TORSDOF 10

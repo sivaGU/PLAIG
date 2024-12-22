@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+ROOT
+ATOM      1  CG  TRP d   1     178.393  47.824 167.527  0.00  0.00    -0.028 A 
+ATOM      2  CD1 TRP d   1     179.321  47.388 166.626  0.00  0.00    -0.015 A 
+ATOM      3  CD2 TRP d   1     178.376  49.251 167.423  0.00  0.00    -0.002 A 
+ATOM      4  NE1 TRP d   1     179.882  48.454 165.970  0.00  0.00    -0.365 N 
+ATOM      5  CE2 TRP d   1     179.312  49.614 166.431  0.00  0.00     0.042 A 
+ATOM      6  CE3 TRP d   1     177.671  50.269 168.083  0.00  0.00    -0.070 A 
+ATOM      7  CZ2 TRP d   1     179.551  50.947 166.070  0.00  0.00    -0.056 A 
+ATOM      8  CZ3 TRP d   1     177.907  51.591 167.723  0.00  0.00    -0.082 A 
+ATOM      9  CH2 TRP d   1     178.849  51.919 166.742  0.00  0.00    -0.081 A 
+ATOM     10  H7  TRP d   1     179.579  46.344 166.453  0.00  0.00     0.112 H 
+ATOM     11  H8  TRP d   1     180.614  48.394 165.248  0.00  0.00     0.165 HD
+ATOM     12  H9  TRP d   1     176.955  50.029 168.860  0.00  0.00     0.084 H 
+ATOM     13  H10 TRP d   1     180.261  51.201 165.292  0.00  0.00     0.086 H 
+ATOM     14  H11 TRP d   1     177.351  52.383 168.212  0.00  0.00     0.083 H 
+ATOM     15  H12 TRP d   1     179.029  52.962 166.507  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   1  16
+ATOM     16  CB  TRP d   1     177.535  46.975 168.435  0.00  0.00    -0.003 C 
+ATOM     17  H5  TRP d   1     177.465  47.474 169.413  0.00  0.00     0.044 H 
+ATOM     18  H6  TRP d   1     176.532  46.897 167.991  0.00  0.00     0.044 H 
+BRANCH  16  19
+ATOM     19  CA  TRP d   1     178.085  45.547 168.653  0.00  0.00     0.186 C 
+ATOM     20  H4  TRP d   1     178.831  45.609 169.459  0.00  0.00     0.101 H 
+BRANCH  19  21
+ATOM     21  N   TRP d   1     178.813  45.041 167.448  0.00  0.00    -0.065 N 
+ATOM     22  H1  TRP d   1     179.524  45.705 167.181  0.00  0.00     0.275 HD
+ATOM     23  H2  TRP d   1     178.162  44.922 166.688  0.00  0.00     0.275 HD
+ATOM     24  H3  TRP d   1     179.244  44.156 167.663  0.00  0.00     0.275 HD
+ENDBRANCH  19  21
+BRANCH  19  25
+ATOM     25  C   TRP d   1     176.964  44.614 169.163  0.00  0.00     0.204 C 
+ATOM     26  O   TRP d   1     176.527  44.730 170.323  0.00  0.00    -0.646 OA
+ATOM     27  OXT TRP d   1     176.508  43.765 168.399  0.00  0.00    -0.646 OA
+ENDBRANCH  19  25
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 4

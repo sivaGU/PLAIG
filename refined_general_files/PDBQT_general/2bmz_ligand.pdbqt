@@ -1,0 +1,82 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3'_19  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_6 
+REMARK    3  A    between atoms: C3_3  and  O3_7 
+REMARK    4  A    between atoms: C4_4  and  O4_8 
+REMARK    5  A    between atoms: C1'_10  and  O1'_17 
+REMARK    6  A    between atoms: C2'_11  and  O2'_18 
+REMARK    7  A    between atoms: C3'_12  and  O3'_19 
+REMARK    8  A    between atoms: C4'_13  and  O4'_20 
+REMARK    9  A    between atoms: C5'_14  and  C6'_15 
+REMARK   10  A    between atoms: C6'_15  and  O6'_22 
+REMARK   11  A    between atoms: O1'_17  and  C7'_16 
+ROOT
+ATOM      1  C1' XLM d   1       6.801  32.938  44.095  0.00  0.00     0.158 C 
+ATOM      2  C2' XLM d   1       7.614  31.622  44.260  0.00  0.00     0.110 C 
+ATOM      3  C3' XLM d   1       9.112  31.851  43.919  0.00  0.00     0.098 C 
+ATOM      4  C4' XLM d   1       9.230  32.396  42.506  0.00  0.00     0.090 C 
+ATOM      5  C5' XLM d   1       8.401  33.703  42.363  0.00  0.00     0.089 C 
+ATOM      6  O5' XLM d   1       6.996  33.442  42.733  0.00  0.00    -0.349 OA
+ATOM      7  H10 XLM d   1       5.732  32.743  44.266  0.00  0.00     0.133 H 
+ATOM      8  H11 XLM d   1       7.518  31.260  45.294  0.00  0.00     0.094 H 
+ATOM      9  H12 XLM d   1       9.565  32.551  44.636  0.00  0.00     0.091 H 
+ATOM     10  H13 XLM d   1       8.825  31.649  41.808  0.00  0.00     0.091 H 
+ATOM     11  H14 XLM d   1       8.819  34.459  43.044  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  O3' XLM d   1       9.782  30.560  43.972  0.00  0.00    -0.348 OA
+BRANCH  12  13
+ATOM     13  C1  XLM d   1      10.764  30.430  44.938  0.00  0.00     0.158 C 
+ATOM     14  C2  XLM d   1      11.252  28.974  44.961  0.00  0.00     0.110 C 
+ATOM     15  C3  XLM d   1      12.354  28.831  46.018  0.00  0.00     0.091 C 
+ATOM     16  H2  XLM d   1      11.663  28.716  43.974  0.00  0.00     0.094 H 
+ATOM     17  C4  XLM d   1      13.504  29.796  45.676  0.00  0.00     0.083 C 
+ATOM     18  H3  XLM d   1      11.945  29.095  47.004  0.00  0.00     0.091 H 
+ATOM     19  C5  XLM d   1      12.958  31.257  45.630  0.00  0.00     0.049 C 
+ATOM     20  H4  XLM d   1      13.908  29.534  44.687  0.00  0.00     0.090 H 
+ATOM     21  O5  XLM d   1      11.863  31.350  44.635  0.00  0.00    -0.356 OA
+ATOM     22  H5  XLM d   1      13.770  31.942  45.345  0.00  0.00     0.078 H 
+ATOM     23  H6  XLM d   1      12.575  31.535  46.623  0.00  0.00     0.078 H 
+ATOM     24  H1  XLM d   1      10.345  30.684  45.923  0.00  0.00     0.133 H 
+BRANCH  14  25
+ATOM     25  O2  XLM d   1      10.167  28.091  45.256  0.00  0.00    -0.388 OA
+ATOM     26  H7  XLM d   1       9.492  28.189  44.595  0.00  0.00     0.210 HD
+ENDBRANCH  14  25
+BRANCH  15  27
+ATOM     27  O3  XLM d   1      12.823  27.481  46.060  0.00  0.00    -0.390 OA
+ATOM     28  H8  XLM d   1      12.100  26.902  46.272  0.00  0.00     0.210 HD
+ENDBRANCH  15  27
+BRANCH  17  29
+ATOM     29  O4  XLM d   1      14.543  29.687  46.636  0.00  0.00    -0.391 OA
+ATOM     30  H9  XLM d   1      14.865  28.793  46.653  0.00  0.00     0.210 HD
+ENDBRANCH  17  29
+ENDBRANCH  12  13
+ENDBRANCH   3  12
+BRANCH   2  31
+ATOM     31  O2' XLM d   1       7.117  30.646  43.351  0.00  0.00    -0.388 OA
+ATOM     32  H20 XLM d   1       7.610  29.840  43.453  0.00  0.00     0.210 HD
+ENDBRANCH   2  31
+BRANCH   4  33
+ATOM     33  O4' XLM d   1      10.590  32.625  42.177  0.00  0.00    -0.390 OA
+ATOM     34  H21 XLM d   1      10.650  32.930  41.279  0.00  0.00     0.210 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  O1' XLM d   1       7.271  33.884  45.046  0.00  0.00    -0.363 OA
+BRANCH  35  36
+ATOM     36  C7' XLM d   1       6.571  35.169  45.010  0.00  0.00     0.007 C 
+ATOM     37  H17 XLM d   1       6.994  35.839  45.773  0.00  0.00     0.066 H 
+ATOM     38  H18 XLM d   1       5.502  35.010  45.214  0.00  0.00     0.066 H 
+ATOM     39  H19 XLM d   1       6.691  35.624  44.016  0.00  0.00     0.066 H 
+ENDBRANCH  35  36
+ENDBRANCH   1  35
+BRANCH   5  40
+ATOM     40  C6' XLM d   1       8.442  34.248  40.942  0.00  0.00     0.043 C 
+ATOM     41  H15 XLM d   1       9.472  34.550  40.702  0.00  0.00     0.078 H 
+ATOM     42  H16 XLM d   1       7.778  35.122  40.873  0.00  0.00     0.078 H 
+BRANCH  40  43
+ATOM     43  O6' XLM d   1       8.015  33.262  40.004  0.00  0.00    -0.398 OA
+ATOM     44  H22 XLM d   1       8.588  32.506  40.058  0.00  0.00     0.209 HD
+ENDBRANCH  40  43
+ENDBRANCH   5  40
+TORSDOF 11

@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAC_2  and  CAF_4 
+REMARK    2  A    between atoms: CAH_6  and  OAI_7 
+REMARK    3  A    between atoms: CAK_10  and  OAN_11 
+REMARK    4  A    between atoms: CAE_13  and  CAB_14 
+ROOT
+ATOM      1  CAF HKD d   1     -19.879  18.287  16.424  0.00  0.00     0.049 A 
+ATOM      2  CAG HKD d   1     -18.907  17.399  15.993  0.00  0.00    -0.051 A 
+ATOM      3  CAH HKD d   1     -18.634  16.921  14.730  0.00  0.00     0.117 A 
+ATOM      4  CAL HKD d   1     -19.294  17.160  13.516  0.00  0.00     0.214 A 
+ATOM      5  OAM HKD d   1     -18.893  16.598  12.508  0.00  0.00    -0.287 OA
+ATOM      6  CAK HKD d   1     -20.437  17.962  13.355  0.00  0.00     0.115 A 
+ATOM      7  CAJ HKD d   1     -21.136  18.707  14.315  0.00  0.00    -0.037 A 
+ATOM      8  CAE HKD d   1     -20.892  18.897  15.678  0.00  0.00    -0.026 A 
+ATOM      9  H1  HKD d   1     -18.255  17.018  16.777  0.00  0.00     0.083 H 
+ATOM     10  H2  HKD d   1     -18.000  17.799  14.537  0.00  0.00     0.102 H 
+ATOM     11  H5  HKD d   1     -22.016  19.224  13.935  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  CAC HKD d   1     -19.767  18.611  17.779  0.00  0.00     0.210 C 
+ATOM     13  OAA HKD d   1     -20.582  18.183  18.623  0.00  0.00    -0.644 OA
+ATOM     14  OAD HKD d   1     -18.857  19.400  18.131  0.00  0.00    -0.644 OA
+ENDBRANCH   1  12
+BRANCH   8  15
+ATOM     15  CAB HKD d   1     -21.799  19.763  16.365  0.00  0.00    -0.111 C 
+ATOM     16  H6  HKD d   1     -21.668  19.956  17.429  0.00  0.00     0.068 H 
+ATOM     17  H7  HKD d   1     -22.621  20.230  15.824  0.00  0.00     0.068 H 
+ENDBRANCH   8  15
+BRANCH   3  18
+ATOM     18  OAI HKD d   1     -17.573  16.075  14.705  0.00  0.00    -0.384 OA
+ATOM     19  H3  HKD d   1     -17.429  15.776  13.815  0.00  0.00     0.211 HD
+ENDBRANCH   3  18
+BRANCH   6  20
+ATOM     20  OAN HKD d   1     -20.942  18.014  12.068  0.00  0.00    -0.357 OA
+ATOM     21  H4  HKD d   1     -21.709  18.575  12.052  0.00  0.00     0.217 HD
+ENDBRANCH   6  20
+TORSDOF 4

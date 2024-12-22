@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C3'_5  and  O3'_6 
+REMARK    4  A    between atoms: C2'_7  and  O2'_8 
+REMARK    5  A    between atoms: C1'_9  and  N9_10 
+ROOT
+ATOM      1  C4' ADN d   1     -29.704  11.574 -23.867  0.00  0.00     0.088 C 
+ATOM      2  O4' ADN d   1     -30.665  10.527 -23.691  0.00  0.00    -0.353 OA
+ATOM      3  C3' ADN d   1     -28.467  11.151 -23.084  0.00  0.00     0.091 C 
+ATOM      4  C2' ADN d   1     -29.050  10.298 -21.985  0.00  0.00     0.105 C 
+ATOM      5  C1' ADN d   1     -30.312   9.700 -22.584  0.00  0.00     0.139 C 
+ATOM      6  H   ADN d   1     -30.041  12.537 -23.485  0.00  0.00     0.090 H 
+ATOM      7  H   ADN d   1     -27.744  10.647 -23.725  0.00  0.00     0.091 H 
+ATOM      8  H   ADN d   1     -28.357   9.531 -21.640  0.00  0.00     0.093 H 
+ATOM      9  H   ADN d   1     -31.139   9.662 -21.874  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  N9  ADN d   1     -30.022   8.307 -23.009  0.00  0.00    -0.294 N 
+ATOM     11  C8  ADN d   1     -29.663   7.886 -24.242  0.00  0.00     0.071 A 
+ATOM     12  N7  ADN d   1     -29.463   6.542 -24.256  0.00  0.00    -0.236 NA
+ATOM     13  H   ADN d   1     -29.549   8.537 -25.109  0.00  0.00     0.144 H 
+ATOM     14  C5  ADN d   1     -29.684   6.087 -23.011  0.00  0.00     0.149 A 
+ATOM     15  C6  ADN d   1     -29.657   4.773 -22.334  0.00  0.00     0.155 A 
+ATOM     16  C4  ADN d   1     -30.053   7.254 -22.194  0.00  0.00     0.167 A 
+ATOM     17  N6  ADN d   1     -29.334   3.642 -23.008  0.00  0.00    -0.382 N 
+ATOM     18  N1  ADN d   1     -29.968   4.745 -21.019  0.00  0.00    -0.222 NA
+ATOM     19  H   ADN d   1     -29.104   3.688 -24.001  0.00  0.00     0.157 HD
+ATOM     20  H   ADN d   1     -29.321   2.745 -22.523  0.00  0.00     0.157 HD
+ATOM     21  C2  ADN d   1     -30.295   5.854 -20.327  0.00  0.00     0.091 A 
+ATOM     22  N3  ADN d   1     -30.341   7.079 -20.884  0.00  0.00    -0.222 NA
+ATOM     23  H   ADN d   1     -30.533   5.755 -19.268  0.00  0.00     0.146 H 
+ENDBRANCH   5  10
+BRANCH   4  24
+ATOM     24  O2' ADN d   1     -29.376  11.115 -20.857  0.00  0.00    -0.388 OA
+ATOM     25  H   ADN d   1     -29.746  10.566 -20.162  0.00  0.00     0.210 HD
+ENDBRANCH   4  24
+BRANCH   1  26
+ATOM     26  C5' ADN d   1     -29.464  11.813 -25.353  0.00  0.00     0.043 C 
+ATOM     27  H   ADN d   1     -30.343  12.292 -25.784  0.00  0.00     0.078 H 
+ATOM     28  H   ADN d   1     -28.589  12.452 -25.475  0.00  0.00     0.078 H 
+BRANCH  26  29
+ATOM     29  O5' ADN d   1     -29.233  10.570 -26.022  0.00  0.00    -0.398 OA
+ATOM     30  H   ADN d   1     -29.083  10.734 -26.956  0.00  0.00     0.209 HD
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+BRANCH   3  31
+ATOM     31  O3' ADN d   1     -27.725  12.245 -22.526  0.00  0.00    -0.390 OA
+ATOM     32  H   ADN d   1     -26.964  11.904 -22.050  0.00  0.00     0.210 HD
+ENDBRANCH   3  31
+TORSDOF 5

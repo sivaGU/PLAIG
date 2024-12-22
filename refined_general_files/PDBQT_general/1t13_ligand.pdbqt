@@ -1,0 +1,73 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_7  and  N5_8 
+REMARK    2  A    between atoms: C6_11  and  N7_12 
+REMARK    3  A    between atoms: N7_12  and  C8_13 
+REMARK    4  A    between atoms: C8_13  and  C9_14 
+REMARK    5  A    between atoms: C9_14  and  O9_15 
+REMARK    6  A    between atoms: C9_14  and  C10_16 
+REMARK    7  A    between atoms: C10_16  and  O10_17 
+REMARK    8  A    between atoms: C10_16  and  C11_18 
+REMARK    9  A    between atoms: C11_18  and  O11_19 
+REMARK   10  A    between atoms: C11_18  and  C12_20 
+REMARK   11  A    between atoms: C12_20  and  O12_21 
+ROOT
+ATOM      1  C8  INI d   1      78.521  58.355   7.106  0.00  0.00     0.020 C 
+ATOM      2  H4  INI d   1      78.124  59.375   7.213  0.00  0.00     0.068 H 
+ATOM      3  H5  INI d   1      78.772  57.953   8.099  0.00  0.00     0.068 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  N7  INI d   1      79.774  58.430   6.310  0.00  0.00    -0.371 N 
+ATOM      5  H3  INI d   1      79.859  58.998   5.455  0.00  0.00     0.161 HD
+BRANCH   4   6
+ATOM      6  C6  INI d   1      80.841  57.655   6.827  0.00  0.00     0.144 A 
+ATOM      7  N1  INI d   1      80.778  56.286   6.536  0.00  0.00    -0.292 N 
+ATOM      8  C2  INI d   1      81.687  55.310   6.910  0.00  0.00     0.328 A 
+ATOM      9  H1  INI d   1      79.991  55.980   6.000  0.00  0.00     0.172 HD
+ATOM     10  O2  INI d   1      81.421  54.177   6.539  0.00  0.00    -0.247 OA
+ATOM     11  N3  INI d   1      82.778  55.709   7.642  0.00  0.00    -0.273 N 
+ATOM     12  C4  INI d   1      83.039  57.019   8.043  0.00  0.00     0.286 A 
+ATOM     13  H2  INI d   1      83.437  55.005   7.908  0.00  0.00     0.173 HD
+ATOM     14  O4  INI d   1      84.107  57.154   8.710  0.00  0.00    -0.265 OA
+ATOM     15  C5  INI d   1      81.994  58.115   7.618  0.00  0.00     0.214 A 
+BRANCH  15  16
+ATOM     16  N5  INI d   1      82.237  59.485   8.029  0.00  0.00    -0.106 N 
+ATOM     17  O51 INI d   1      83.193  59.775   8.672  0.00  0.00    -0.531 OA
+ATOM     18  O52 INI d   1      81.440  60.344   7.709  0.00  0.00    -0.531 OA
+ENDBRANCH  15  16
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  C9  INI d   1      77.387  57.454   6.489  0.00  0.00     0.078 C 
+ATOM     20  H6  INI d   1      76.517  57.486   7.161  0.00  0.00     0.089 H 
+BRANCH  19  21
+ATOM     21  O9  INI d   1      77.977  56.181   6.458  0.00  0.00    -0.391 OA
+ATOM     22  H7  INI d   1      78.757  56.208   5.917  0.00  0.00     0.210 HD
+ENDBRANCH  19  21
+BRANCH  19  23
+ATOM     23  C10 INI d   1      76.864  57.685   4.983  0.00  0.00     0.088 C 
+ATOM     24  H8  INI d   1      76.171  56.857   4.774  0.00  0.00     0.091 H 
+BRANCH  23  25
+ATOM     25  O10 INI d   1      77.924  57.618   4.089  0.00  0.00    -0.390 OA
+ATOM     26  H9  INI d   1      78.333  56.763   4.148  0.00  0.00     0.210 HD
+ENDBRANCH  23  25
+BRANCH  23  27
+ATOM     27  C11 INI d   1      76.055  59.114   4.590  0.00  0.00     0.083 C 
+ATOM     28  H10 INI d   1      76.638  59.637   3.817  0.00  0.00     0.090 H 
+BRANCH  27  29
+ATOM     29  O11 INI d   1      76.054  59.773   5.893  0.00  0.00    -0.391 OA
+ATOM     30  H11 INI d   1      75.618  60.614   5.821  0.00  0.00     0.210 HD
+ENDBRANCH  27  29
+BRANCH  27  31
+ATOM     31  C12 INI d   1      74.513  59.277   4.254  0.00  0.00     0.043 C 
+ATOM     32  H12 INI d   1      74.322  59.036   3.198  0.00  0.00     0.078 H 
+ATOM     33  H13 INI d   1      74.181  60.305   4.461  0.00  0.00     0.078 H 
+BRANCH  31  34
+ATOM     34  O12 INI d   1      73.853  58.376   5.086  0.00  0.00    -0.398 OA
+ATOM     35  H14 INI d   1      74.157  57.495   4.902  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH  27  31
+ENDBRANCH  23  27
+ENDBRANCH  19  23
+ENDBRANCH   1  19
+TORSDOF 11

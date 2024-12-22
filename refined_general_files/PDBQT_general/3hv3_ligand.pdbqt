@@ -1,0 +1,109 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CBA_2 
+REMARK    2  A    between atoms: CBE_7  and  NBK_8 
+REMARK    3  A    between atoms: CBG_10  and  CBL_11 
+REMARK    4  A    between atoms: CBL_11  and  CAC_12 
+REMARK    5  A    between atoms: CBL_11  and  CAD_13 
+REMARK    6  A    between atoms: CBL_11  and  CAB_14 
+REMARK    7  A    between atoms: CBH_16  and  NAX_17 
+REMARK       I    between atoms: NAX_17  and  CAZ_18 
+REMARK       I    between atoms: CAZ_18  and  NAW_20 
+REMARK    8  A    between atoms: NAW_20  and  CBC_21 
+REMARK    9  A    between atoms: CBD_26  and  NAY_27 
+REMARK   10  A    between atoms: NAY_27  and  CBF_28 
+REMARK   11  A    between atoms: CBB_31  and  NAE_32 
+ROOT
+ATOM      1  NAX R49 d   1      -0.825  -4.285 -14.311  0.00  0.00    -0.293 N 
+ATOM      2  CAZ R49 d   1      -1.073  -3.583 -15.476  0.00  0.00     0.326 C 
+ATOM      3  OAF R49 d   1      -0.232  -2.843 -15.975  0.00  0.00    -0.247 OA
+ATOM      4  NAW R49 d   1      -2.293  -3.675 -16.041  0.00  0.00    -0.309 N 
+ATOM      5  H   R49 d   1      -1.579  -4.883 -13.972  0.00  0.00     0.172 HD
+ATOM      6  H   R49 d   1      -2.994  -4.156 -15.478  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  CBH R49 d   1       0.330  -4.266 -13.556  0.00  0.00     0.135 A 
+ATOM      8  NBK R49 d   1       0.813  -5.342 -12.893  0.00  0.00    -0.217 N 
+ATOM      9  NAV R49 d   1       1.890  -5.052 -12.307  0.00  0.00    -0.169 NA
+ATOM     10  CBG R49 d   1       2.205  -3.750 -12.571  0.00  0.00     0.066 A 
+ATOM     11  CAS R49 d   1       1.230  -3.241 -13.360  0.00  0.00    -0.012 A 
+ATOM     12  H   R49 d   1       1.169  -2.228 -13.758  0.00  0.00     0.092 H 
+BRANCH   8  13
+ATOM     13  CBE R49 d   1       0.223  -6.562 -12.827  0.00  0.00     0.061 A 
+ATOM     14  CAR R49 d   1      -0.253  -7.253 -13.961  0.00  0.00    -0.049 A 
+ATOM     15  CBA R49 d   1      -0.824  -8.527 -13.797  0.00  0.00    -0.060 A 
+ATOM     16  H   R49 d   1      -0.179  -6.805 -14.952  0.00  0.00     0.087 H 
+ATOM     17  CAI R49 d   1      -0.928  -9.135 -12.538  0.00  0.00    -0.077 A 
+ATOM     18  CAG R49 d   1      -0.418  -8.473 -11.423  0.00  0.00    -0.080 A 
+ATOM     19  H   R49 d   1      -1.401 -10.111 -12.433  0.00  0.00     0.084 H 
+ATOM     20  CAJ R49 d   1       0.130  -7.187 -11.582  0.00  0.00    -0.055 A 
+ATOM     21  H   R49 d   1      -0.443  -8.945 -10.441  0.00  0.00     0.083 H 
+ATOM     22  H   R49 d   1       0.495  -6.659 -10.701  0.00  0.00     0.087 H 
+BRANCH  15  23
+ATOM     23  CAA R49 d   1      -1.372  -9.263 -14.990  0.00  0.00    -0.051 C 
+ATOM     24  H   R49 d   1      -2.167  -8.673 -15.446  0.00  0.00     0.033 H 
+ATOM     25  H   R49 d   1      -0.574  -9.421 -15.716  0.00  0.00     0.033 H 
+ATOM     26  H   R49 d   1      -1.770 -10.226 -14.670  0.00  0.00     0.033 H 
+ENDBRANCH  15  23
+ENDBRANCH   8  13
+BRANCH  10  27
+ATOM     27  CBL R49 d   1       3.457  -3.003 -12.013  0.00  0.00    -0.005 C 
+BRANCH  27  28
+ATOM     28  CAC R49 d   1       4.468  -3.975 -11.390  0.00  0.00    -0.064 C 
+ATOM     29  H   R49 d   1       3.994  -4.513 -10.569  0.00  0.00     0.028 H 
+ATOM     30  H   R49 d   1       4.801  -4.685 -12.147  0.00  0.00     0.028 H 
+ATOM     31  H   R49 d   1       5.324  -3.415 -11.014  0.00  0.00     0.028 H 
+ENDBRANCH  27  28
+BRANCH  27  32
+ATOM     32  CAD R49 d   1       4.184  -2.134 -13.066  0.00  0.00    -0.064 C 
+ATOM     33  H   R49 d   1       4.522  -2.767 -13.887  0.00  0.00     0.028 H 
+ATOM     34  H   R49 d   1       3.498  -1.378 -13.448  0.00  0.00     0.028 H 
+ATOM     35  H   R49 d   1       5.043  -1.647 -12.603  0.00  0.00     0.028 H 
+ENDBRANCH  27  32
+BRANCH  27  36
+ATOM     36  CAB R49 d   1       2.962  -2.073 -10.886  0.00  0.00    -0.064 C 
+ATOM     37  H   R49 d   1       2.240  -1.365 -11.292  0.00  0.00     0.028 H 
+ATOM     38  H   R49 d   1       2.489  -2.670 -10.106  0.00  0.00     0.028 H 
+ATOM     39  H   R49 d   1       3.809  -1.530 -10.467  0.00  0.00     0.028 H 
+ENDBRANCH  27  36
+ENDBRANCH  10  27
+ENDBRANCH   1   7
+BRANCH   4  40
+ATOM     40  CBC R49 d   1      -2.729  -3.228 -17.238  0.00  0.00     0.036 A 
+ATOM     41  CAM R49 d   1      -1.836  -3.295 -18.323  0.00  0.00    -0.055 A 
+ATOM     42  CAO R49 d   1      -2.208  -2.941 -19.647  0.00  0.00    -0.055 A 
+ATOM     43  H   R49 d   1      -0.816  -3.633 -18.140  0.00  0.00     0.087 H 
+ATOM     44  CBD R49 d   1      -3.537  -2.560 -19.907  0.00  0.00     0.032 A 
+ATOM     45  H   R49 d   1      -1.473  -2.964 -20.452  0.00  0.00     0.087 H 
+ATOM     46  CAN R49 d   1      -4.434  -2.541 -18.835  0.00  0.00    -0.055 A 
+ATOM     47  CAL R49 d   1      -4.044  -2.875 -17.506  0.00  0.00    -0.055 A 
+ATOM     48  H   R49 d   1      -5.470  -2.260 -19.023  0.00  0.00     0.087 H 
+ATOM     49  H   R49 d   1      -4.778  -2.853 -16.700  0.00  0.00     0.087 H 
+BRANCH  44  50
+ATOM     50  NAY R49 d   1      -3.943  -2.240 -21.187  0.00  0.00    -0.355 N 
+ATOM     51  H   R49 d   1      -4.245  -3.009 -21.785  0.00  0.00     0.166 HD
+BRANCH  50  52
+ATOM     52  CBF R49 d   1      -3.975  -1.010 -21.713  0.00  0.00     0.046 A 
+ATOM     53  CBJ R49 d   1      -4.168  -0.832 -23.088  0.00  0.00     0.021 A 
+ATOM     54  CAT R49 d   1      -4.352  -1.932 -23.947  0.00  0.00    -0.043 A 
+ATOM     55  CBI R49 d   1      -4.202   0.484 -23.591  0.00  0.00     0.069 A 
+ATOM     56  CBB R49 d   1      -4.556  -1.698 -25.314  0.00  0.00     0.026 A 
+ATOM     57  H   R49 d   1      -4.336  -2.949 -23.555  0.00  0.00     0.088 H 
+ATOM     58  CAP R49 d   1      -4.577  -0.395 -25.799  0.00  0.00    -0.056 A 
+ATOM     59  CAQ R49 d   1      -4.415   0.695 -24.949  0.00  0.00    -0.052 A 
+ATOM     60  H   R49 d   1      -4.723  -0.224 -26.866  0.00  0.00     0.087 H 
+ATOM     61  H   R49 d   1      -4.455   1.709 -25.346  0.00  0.00     0.087 H 
+ATOM     62  NAU R49 d   1      -4.051   1.562 -22.792  0.00  0.00    -0.260 NA
+ATOM     63  CAH R49 d   1      -3.854   1.413 -21.488  0.00  0.00     0.005 A 
+ATOM     64  CAK R49 d   1      -3.820   0.136 -20.925  0.00  0.00    -0.039 A 
+ATOM     65  H   R49 d   1      -3.718   2.290 -20.855  0.00  0.00     0.114 H 
+ATOM     66  H   R49 d   1      -3.670   0.029 -19.851  0.00  0.00     0.089 H 
+BRANCH  56  67
+ATOM     67  NAE R49 d   1      -4.724  -2.726 -26.168  0.00  0.00    -0.399 N 
+ATOM     68  H   R49 d   1      -4.703  -3.685 -25.822  0.00  0.00     0.156 HD
+ATOM     69  H   R49 d   1      -4.872  -2.545 -27.161  0.00  0.00     0.156 HD
+ENDBRANCH  56  67
+ENDBRANCH  50  52
+ENDBRANCH  44  50
+ENDBRANCH   4  40
+TORSDOF 11

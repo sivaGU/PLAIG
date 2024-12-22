@@ -1,0 +1,78 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C2A_3 
+REMARK    2  A    between atoms: C3_4  and  O3_5 
+REMARK    3  A    between atoms: C4_6  and  C4A_7 
+REMARK    4  A    between atoms: C4A_7  and  N4A_16 
+REMARK    5  A    between atoms: C5_8  and  C5A_10 
+REMARK    6  A    between atoms: C5A_10  and  OP4_11 
+REMARK    7  A    between atoms: OP4_11  and  P_12 
+REMARK    8  A    between atoms: CAI_17  and  CBC_18 
+REMARK    9  A    between atoms: CAI_17  and  CBI_21 
+REMARK   10  A    between atoms: CGI_22  and  CEI_23 
+REMARK   11  A    between atoms: CEI_23  and  PG_24 
+ROOT
+ATOM      1  N1  HEN d   1      97.604 -50.191  82.524  0.00  0.00    -0.262 NA
+ATOM      2  C2  HEN d   1      96.757 -50.619  83.560  0.00  0.00     0.064 A 
+ATOM      3  C3  HEN d   1      95.478 -51.159  83.202  0.00  0.00     0.098 A 
+ATOM      4  C4  HEN d   1      95.149 -51.217  81.760  0.00  0.00     0.007 A 
+ATOM      5  C5  HEN d   1      96.144 -50.727  80.762  0.00  0.00    -0.006 A 
+ATOM      6  C6  HEN d   1      97.344 -50.227  81.180  0.00  0.00     0.011 A 
+ATOM      7  H7  HEN d   1      98.074 -49.867  80.464  0.00  0.00     0.115 H 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C4A HEN d   1      93.775 -51.749  81.293  0.00  0.00     0.043 C 
+ATOM      9  H5  HEN d   1      94.017 -52.606  80.647  0.00  0.00     0.074 H 
+ATOM     10  H6  HEN d   1      93.358 -50.935  80.682  0.00  0.00     0.074 H 
+BRANCH   8  11
+ATOM     11  N4A HEN d   1      92.710 -52.185  82.060  0.00  0.00    -0.278 NA
+ATOM     12  CAI HEN d   1      91.590 -52.631  81.864  0.00  0.00     0.127 C 
+BRANCH  12  13
+ATOM     13  CBC HEN d   1      90.663 -52.974  83.062  0.00  0.00     0.228 C 
+ATOM     14  O2B HEN d   1      91.105 -53.842  83.962  0.00  0.00    -0.643 OA
+ATOM     15  O3B HEN d   1      89.535 -52.471  83.234  0.00  0.00    -0.643 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  CBI HEN d   1      91.070 -52.841  80.469  0.00  0.00    -0.052 C 
+ATOM     17  CGI HEN d   1      90.842 -54.089  80.091  0.00  0.00    -0.088 C 
+ATOM     18  H11 HEN d   1      91.073 -54.888  80.794  0.00  0.00     0.077 H 
+ATOM     19  H10 HEN d   1      90.889 -52.002  79.798  0.00  0.00     0.086 H 
+BRANCH  17  20
+ATOM     20  CEI HEN d   1      90.289 -54.465  78.762  0.00  0.00     0.054 C 
+ATOM     21  H12 HEN d   1      91.087 -54.791  78.079  0.00  0.00     0.059 H 
+ATOM     22  H13 HEN d   1      89.739 -53.626  78.310  0.00  0.00     0.059 H 
+BRANCH  20  23
+ATOM     23  PG  HEN d   1      89.143 -55.874  79.174  0.00  0.00     0.263 P 
+ATOM     24  OG1 HEN d   1      89.942 -57.025  79.980  0.00  0.00    -0.639 OA
+ATOM     25  OG2 HEN d   1      88.655 -56.485  77.913  0.00  0.00    -0.639 OA
+ATOM     26  OG3 HEN d   1      88.140 -55.298  80.109  0.00  0.00    -0.639 OA
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  12  16
+ENDBRANCH   8  11
+ENDBRANCH   4   8
+BRANCH   3  27
+ATOM     27  O3  HEN d   1      94.671 -51.571  84.152  0.00  0.00    -0.358 OA
+ATOM     28  H4  HEN d   1      93.869 -51.900  83.764  0.00  0.00     0.217 HD
+ENDBRANCH   3  27
+BRANCH   5  29
+ATOM     29  C5A HEN d   1      95.794 -50.798  79.254  0.00  0.00     0.058 C 
+ATOM     30  H8  HEN d   1      94.905 -51.433  79.125  0.00  0.00     0.082 H 
+ATOM     31  H9  HEN d   1      96.643 -51.241  78.713  0.00  0.00     0.082 H 
+BRANCH  29  32
+ATOM     32  OP4 HEN d   1      95.524 -49.519  78.713  0.00  0.00    -0.278 OA
+BRANCH  32  33
+ATOM     33  P   HEN d   1      94.508 -49.397  77.422  0.00  0.00     0.422 P 
+ATOM     34  OP1 HEN d   1      94.240 -47.941  77.241  0.00  0.00    -0.617 OA
+ATOM     35  OP2 HEN d   1      93.271 -50.104  77.710  0.00  0.00    -0.617 OA
+ATOM     36  OP3 HEN d   1      95.226 -50.050  76.297  0.00  0.00    -0.617 OA
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH   5  29
+BRANCH   2  37
+ATOM     37  C2A HEN d   1      97.322 -50.438  84.936  0.00  0.00    -0.033 C 
+ATOM     38  H1  HEN d   1      96.596 -50.797  85.680  0.00  0.00     0.035 H 
+ATOM     39  H2  HEN d   1      97.528 -49.372  85.110  0.00  0.00     0.035 H 
+ATOM     40  H3  HEN d   1      98.256 -51.012  85.027  0.00  0.00     0.035 H 
+ENDBRANCH   2  37
+TORSDOF 11

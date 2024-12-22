@@ -1,0 +1,71 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAW_6  and  CAX_7 
+REMARK    2  A    between atoms: CAY_12  and  CAZ_13 
+REMARK    3  A    between atoms: CAV_18  and  CAU_19 
+REMARK    4  A    between atoms: CAU_19  and  CBA_20 
+REMARK    5  A    between atoms: CBA_20  and  PBB_21 
+REMARK    6  A    between atoms: CBA_20  and  PBC_25 
+REMARK    7  A    between atoms: CBA_20  and  OAC_29 
+ROOT
+ATOM      1  CAZ B28 d   1      40.151  38.004  56.856  0.00  0.00    -0.025 A 
+ATOM      2  CAT B28 d   1      40.303  39.385  56.774  0.00  0.00    -0.066 A 
+ATOM      3  CAO B28 d   1      39.043  37.394  56.278  0.00  0.00    -0.072 A 
+ATOM      4  CAK B28 d   1      38.094  38.167  55.618  0.00  0.00    -0.082 A 
+ATOM      5  CAL B28 d   1      38.252  39.547  55.533  0.00  0.00    -0.077 A 
+ATOM      6  CAV B28 d   1      39.361  40.159  56.108  0.00  0.00    -0.053 A 
+ATOM      7  H10 B28 d   1      41.163  39.860  57.233  0.00  0.00     0.085 H 
+ATOM      8  H11 B28 d   1      38.919  36.319  56.342  0.00  0.00     0.084 H 
+ATOM      9  H12 B28 d   1      37.229  37.693  55.169  0.00  0.00     0.083 H 
+ATOM     10  H13 B28 d   1      37.510  40.146  55.018  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  CAY B28 d   1      41.146  37.205  57.411  0.00  0.00    -0.026 A 
+ATOM     12  CAS B28 d   1      41.919  37.649  58.478  0.00  0.00    -0.071 A 
+ATOM     13  CAQ B28 d   1      42.950  36.853  58.968  0.00  0.00    -0.071 A 
+ATOM     14  H7  B28 d   1      41.719  38.615  58.928  0.00  0.00     0.084 H 
+ATOM     15  CAX B28 d   1      43.217  35.610  58.399  0.00  0.00    -0.026 A 
+ATOM     16  H6  B28 d   1      43.550  37.203  59.800  0.00  0.00     0.084 H 
+ATOM     17  CAP B28 d   1      42.435  35.166  57.338  0.00  0.00    -0.071 A 
+ATOM     18  CAR B28 d   1      41.406  35.961  56.848  0.00  0.00    -0.071 A 
+ATOM     19  H8  B28 d   1      42.629  34.197  56.892  0.00  0.00     0.084 H 
+ATOM     20  H9  B28 d   1      40.801  35.608  56.020  0.00  0.00     0.084 H 
+BRANCH  15  21
+ATOM     21  CAW B28 d   1      44.261  34.815  58.862  0.00  0.00    -0.026 A 
+ATOM     22  CAM B28 d   1      44.263  33.448  58.596  0.00  0.00    -0.072 A 
+ATOM     23  CAI B28 d   1      45.309  32.645  59.041  0.00  0.00    -0.082 A 
+ATOM     24  H1  B28 d   1      43.445  33.007  58.039  0.00  0.00     0.084 H 
+ATOM     25  CAH B28 d   1      46.360  33.213  59.752  0.00  0.00    -0.083 A 
+ATOM     26  H2  B28 d   1      45.304  31.581  58.834  0.00  0.00     0.083 H 
+ATOM     27  CAJ B28 d   1      46.366  34.578  60.017  0.00  0.00    -0.082 A 
+ATOM     28  H3  B28 d   1      47.176  32.591  60.100  0.00  0.00     0.083 H 
+ATOM     29  CAN B28 d   1      45.317  35.376  59.573  0.00  0.00    -0.072 A 
+ATOM     30  H4  B28 d   1      47.188  35.020  60.569  0.00  0.00     0.083 H 
+ATOM     31  H5  B28 d   1      45.322  36.440  59.782  0.00  0.00     0.084 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  11
+BRANCH   6  32
+ATOM     32  CAU B28 d   1      39.608  41.653  55.881  0.00  0.00     0.014 C 
+ATOM     33  H14 B28 d   1      39.168  41.939  54.914  0.00  0.00     0.046 H 
+ATOM     34  H15 B28 d   1      40.693  41.830  55.857  0.00  0.00     0.046 H 
+BRANCH  32  35
+ATOM     35  CBA B28 d   1      38.994  42.528  56.975  0.00  0.00     0.289 C 
+BRANCH  35  36
+ATOM     36  PBB B28 d   1      39.736  44.233  56.878  0.00  0.00     0.310 P 
+ATOM     37  OAD B28 d   1      39.268  45.001  58.214  0.00  0.00    -0.637 OA
+ATOM     38  OAE B28 d   1      41.328  44.004  56.969  0.00  0.00    -0.637 OA
+ATOM     39  OAA B28 d   1      39.311  44.928  55.641  0.00  0.00    -0.637 OA
+ENDBRANCH  35  36
+BRANCH  35  40
+ATOM     40  PBC B28 d   1      37.148  42.714  56.759  0.00  0.00     0.310 P 
+ATOM     41  OAF B28 d   1      36.497  41.259  56.997  0.00  0.00    -0.637 OA
+ATOM     42  OAG B28 d   1      36.645  43.640  57.978  0.00  0.00    -0.637 OA
+ATOM     43  OAB B28 d   1      36.785  43.316  55.455  0.00  0.00    -0.637 OA
+ENDBRANCH  35  40
+BRANCH  35  44
+ATOM     44  OAC B28 d   1      39.353  41.970  58.242  0.00  0.00    -0.365 OA
+ATOM     45  H16 B28 d   1      40.299  41.924  58.310  0.00  0.00     0.212 HD
+ENDBRANCH  35  44
+ENDBRANCH  32  35
+ENDBRANCH   6  32
+TORSDOF 7

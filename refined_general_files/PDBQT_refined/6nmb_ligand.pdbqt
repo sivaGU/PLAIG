@@ -1,0 +1,40 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C8_8 
+REMARK    2  A    between atoms: C4_4  and  C7_7 
+REMARK    3  A    between atoms: C7_7  and  N_9 
+ROOT
+ATOM      1  C1  AMH d   1      56.814  -4.974 109.118  0.00  0.00     0.030 C 
+ATOM      2  C2  AMH d   1      55.690  -5.074 108.056  0.00  0.00    -0.052 C 
+ATOM      3  C3  AMH d   1      55.602  -6.490 107.448  0.00  0.00    -0.059 C 
+ATOM      4  C4  AMH d   1      56.794  -7.451 107.820  0.00  0.00    -0.031 C 
+ATOM      5  C5  AMH d   1      57.180  -7.492 109.307  0.00  0.00    -0.059 C 
+ATOM      6  C6  AMH d   1      56.820  -6.190 110.072  0.00  0.00    -0.052 C 
+ATOM      7  H1  AMH d   1      57.770  -5.002 108.574  0.00  0.00     0.056 H 
+ATOM      8  H2  AMH d   1      55.895  -4.353 107.251  0.00  0.00     0.034 H 
+ATOM      9  H3  AMH d   1      54.728  -4.830 108.531  0.00  0.00     0.034 H 
+ATOM     10  H4  AMH d   1      55.574  -6.390 106.353  0.00  0.00     0.033 H 
+ATOM     11  H5  AMH d   1      54.668  -6.954 107.798  0.00  0.00     0.033 H 
+ATOM     12  H6  AMH d   1      57.671  -7.073 107.274  0.00  0.00     0.042 H 
+ATOM     13  H7  AMH d   1      58.266  -7.652 109.381  0.00  0.00     0.033 H 
+ATOM     14  H8  AMH d   1      56.653  -8.333 109.781  0.00  0.00     0.033 H 
+ATOM     15  H9  AMH d   1      55.822  -6.300 110.521  0.00  0.00     0.034 H 
+ATOM     16  H10 AMH d   1      57.563  -6.021 110.866  0.00  0.00     0.034 H 
+ENDROOT
+BRANCH   4  17
+ATOM     17  C7  AMH d   1      56.545  -8.872 107.357  0.00  0.00     0.083 C 
+ATOM     18  H11 AMH d   1      56.291  -9.486 108.234  0.00  0.00     0.075 H 
+ATOM     19  H12 AMH d   1      57.467  -9.256 106.896  0.00  0.00     0.075 H 
+BRANCH  17  20
+ATOM     20  N   AMH d   1      55.449  -8.982 106.375  0.00  0.00    -0.079 N 
+ATOM     21  H13 AMH d   1      55.333  -9.947 106.107  0.00  0.00     0.274 HD
+ATOM     22  H14 AMH d   1      55.671  -8.432 105.560  0.00  0.00     0.274 HD
+ATOM     23  H15 AMH d   1      54.594  -8.643 106.787  0.00  0.00     0.274 HD
+ENDBRANCH  17  20
+ENDBRANCH   4  17
+BRANCH   1  24
+ATOM     24  C8  AMH d   1      56.767  -3.619 109.855  0.00  0.00     0.177 C 
+ATOM     25  O1  AMH d   1      56.912  -2.601 109.139  0.00  0.00    -0.648 OA
+ATOM     26  O2  AMH d   1      56.568  -3.616 111.093  0.00  0.00    -0.648 OA
+ENDBRANCH   1  24
+TORSDOF 3

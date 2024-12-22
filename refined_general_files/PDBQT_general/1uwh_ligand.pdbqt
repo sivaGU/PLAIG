@@ -1,0 +1,77 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_26  and  C2_2 
+REMARK       I    between atoms: C13_5  and  N12_26 
+REMARK       I    between atoms: N14_27  and  C13_5 
+REMARK    2  A    between atoms: C16_6  and  N14_27 
+REMARK    3  A    between atoms: O22_12  and  C19_9 
+REMARK    4  A    between atoms: C23_29  and  O22_12 
+REMARK    5  A    between atoms: C29_31  and  C27_15 
+REMARK    6  A    between atoms: N30_17  and  C31_18 
+REMARK       I    between atoms: N30_17  and  C29_31 
+REMARK    7  A    between atoms: C6_20  and  C7_21 
+ROOT
+ATOM      1  C16 BAX d   1      75.308  46.205  63.349  0.00  0.00     0.036 A 
+ATOM      2  C17 BAX d   1      75.703  45.867  61.980  0.00  0.00    -0.054 A 
+ATOM      3  C18 BAX d   1      74.973  44.903  61.295  0.00  0.00    -0.048 A 
+ATOM      4  C19 BAX d   1      73.896  44.258  61.887  0.00  0.00     0.076 A 
+ATOM      5  C20 BAX d   1      73.517  44.567  63.207  0.00  0.00    -0.048 A 
+ATOM      6  C21 BAX d   1      74.213  45.542  63.943  0.00  0.00    -0.054 A 
+ATOM      7  H4  BAX d   1      76.547  46.359  61.511  0.00  0.00     0.087 H 
+ATOM      8  H5  BAX d   1      75.250  44.650  60.278  0.00  0.00     0.087 H 
+ATOM      9  H6  BAX d   1      72.680  44.048  63.660  0.00  0.00     0.087 H 
+ATOM     10  H7  BAX d   1      73.912  45.782  64.956  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  N14 BAX d   1      76.065  47.355  64.145  0.00  0.00    -0.309 N 
+ATOM     12  C13 BAX d   1      76.169  47.355  65.528  0.00  0.00     0.325 C 
+ATOM     13  N12 BAX d   1      76.919  48.400  66.358  0.00  0.00    -0.309 N 
+ATOM     14  O15 BAX d   1      76.250  46.299  66.055  0.00  0.00    -0.247 OA
+ATOM     15  H15 BAX d   1      77.389  49.018  65.728  0.00  0.00     0.170 HD
+ATOM     16  H16 BAX d   1      76.481  48.105  63.630  0.00  0.00     0.170 HD
+BRANCH  13  17
+ATOM     17  C2  BAX d   1      77.199  48.823  67.677  0.00  0.00     0.037 A 
+ATOM     18  C1  BAX d   1      77.625  47.853  68.561  0.00  0.00    -0.041 A 
+ATOM     19  C6  BAX d   1      77.905  48.158  69.867  0.00  0.00     0.071 A 
+ATOM     20  H1  BAX d   1      77.740  46.832  68.216  0.00  0.00     0.088 H 
+ATOM     21  C5  BAX d   1      77.737  49.545  70.265  0.00  0.00     0.049 A 
+ATOM     22  C4  BAX d   1      77.307  50.506  69.356  0.00  0.00    -0.059 A 
+ATOM     23 CL11 BAX d   1      78.046  50.140  71.917  0.00  0.00    -0.083 Cl
+ATOM     24  C3  BAX d   1      77.041  50.152  68.065  0.00  0.00    -0.055 A 
+ATOM     25  H3  BAX d   1      77.183  51.535  69.673  0.00  0.00     0.086 H 
+ATOM     26  H2  BAX d   1      76.710  50.896  67.350  0.00  0.00     0.087 H 
+BRANCH  19  27
+ATOM     27  C7  BAX d   1      78.334  47.148  70.727  0.00  0.00     0.419 C 
+ATOM     28  F8  BAX d   1      79.563  47.394  71.138  0.00  0.00    -0.166 F 
+ATOM     29  F9  BAX d   1      77.504  47.070  71.771  0.00  0.00    -0.166 F 
+ATOM     30  F10 BAX d   1      78.372  45.937  70.183  0.00  0.00    -0.166 F 
+ENDBRANCH  19  27
+ENDBRANCH  13  17
+ENDBRANCH   1  11
+BRANCH   4  31
+ATOM     31  O22 BAX d   1      73.213  43.332  61.148  0.00  0.00    -0.311 OA
+BRANCH  31  32
+ATOM     32  C23 BAX d   1      73.416  41.976  61.384  0.00  0.00     0.079 A 
+ATOM     33  C24 BAX d   1      74.622  41.333  61.899  0.00  0.00    -0.033 A 
+ATOM     34  C25 BAX d   1      74.601  39.959  62.058  0.00  0.00     0.006 A 
+ATOM     35  H8  BAX d   1      75.504  41.913  62.148  0.00  0.00     0.090 H 
+ATOM     36  N26 BAX d   1      73.393  39.243  61.707  0.00  0.00    -0.255 NA
+ATOM     37  H9  BAX d   1      75.469  39.431  62.437  0.00  0.00     0.114 H 
+ATOM     38  C27 BAX d   1      72.273  39.927  61.215  0.00  0.00     0.126 A 
+ATOM     39  C28 BAX d   1      72.330  41.255  61.077  0.00  0.00    -0.017 A 
+ATOM     40  H10 BAX d   1      71.456  41.773  60.699  0.00  0.00     0.091 H 
+BRANCH  38  41
+ATOM     41  C29 BAX d   1      70.926  39.222  60.821  0.00  0.00     0.269 C 
+ATOM     42  N30 BAX d   1      70.507  37.914  61.352  0.00  0.00    -0.360 N 
+ATOM     43  H11 BAX d   1      70.530  37.673  62.322  0.00  0.00     0.162 HD
+ATOM     44  O32 BAX d   1      69.916  39.977  60.567  0.00  0.00    -0.266 OA
+BRANCH  42  45
+ATOM     45  C31 BAX d   1      70.064  37.028  60.322  0.00  0.00    -0.018 C 
+ATOM     46  H12 BAX d   1      69.763  36.069  60.768  0.00  0.00     0.056 H 
+ATOM     47  H13 BAX d   1      70.882  36.859  59.607  0.00  0.00     0.056 H 
+ATOM     48  H14 BAX d   1      69.206  37.474  59.799  0.00  0.00     0.056 H 
+ENDBRANCH  42  45
+ENDBRANCH  38  41
+ENDBRANCH  31  32
+ENDBRANCH   4  31
+TORSDOF 7

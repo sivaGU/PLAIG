@@ -1,0 +1,72 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  N1_10 
+REMARK    3  A    between atoms: C7_7  and  N2_11 
+REMARK    4  A    between atoms: C9_9  and  C8_8 
+REMARK    5  A    between atoms: C8'_21  and  C9_9 
+REMARK    6  A    between atoms: C1'_14  and  C7'_20 
+REMARK    7  A    between atoms: C7'_20  and  N1'_22 
+REMARK    8  A    between atoms: C7'_20  and  N2'_23 
+ROOT
+ATOM      1  C9  BAB d   1       9.332  -1.739  25.477  0.00  0.00     0.045 C 
+ATOM      2  H4  BAB d   1       8.268  -1.738  25.757  0.00  0.00     0.056 H 
+ATOM      3  H5  BAB d   1       9.726  -2.764  25.535  0.00  0.00     0.056 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C8  BAB d   1      10.110  -0.836  26.415  0.00  0.00     0.112 A 
+ATOM      5  N3  BAB d   1      10.065   0.645  26.444  0.00  0.00    -0.342 N 
+ATOM      6  C4  BAB d   1      11.003   1.059  27.518  0.00  0.00     0.062 A 
+ATOM      7  H10 BAB d   1       9.499   1.261  25.843  0.00  0.00     0.167 HD
+ATOM      8  C3  BAB d   1      11.314   2.341  27.931  0.00  0.00    -0.054 A 
+ATOM      9  C5  BAB d   1      11.571  -0.041  28.094  0.00  0.00     0.086 A 
+ATOM     10  C2  BAB d   1      12.250   2.484  28.979  0.00  0.00    -0.067 A 
+ATOM     11  H2  BAB d   1      10.855   3.207  27.467  0.00  0.00     0.087 H 
+ATOM     12  C1  BAB d   1      12.841   1.341  29.574  0.00  0.00     0.009 A 
+ATOM     13  H1  BAB d   1      12.518   3.474  29.331  0.00  0.00     0.085 H 
+ATOM     14  C6  BAB d   1      12.488   0.058  29.120  0.00  0.00    -0.039 A 
+ATOM     15  H3  BAB d   1      12.925  -0.829  29.564  0.00  0.00     0.088 H 
+ATOM     16  N4  BAB d   1      11.059  -1.277  27.457  0.00  0.00    -0.233 NA
+BRANCH  12  17
+ATOM     17  C7  BAB d   1      13.856   1.490  30.695  0.00  0.00     0.102 C 
+BRANCH  17  18
+ATOM     18  N1  BAB d   1      13.680   0.730  31.979  0.00  0.00    -0.385 N 
+ATOM     19  H6  BAB d   1      14.370   0.833  32.737  0.00  0.00     0.157 HD
+ATOM     20  H7  BAB d   1      12.870   0.106  32.101  0.00  0.00     0.157 HD
+ENDBRANCH  17  18
+BRANCH  17  21
+ATOM     21  N2  BAB d   1      15.056   2.368  30.507  0.00  0.00    -0.385 N 
+ATOM     22  H8  BAB d   1      15.179   2.890  29.628  0.00  0.00     0.157 HD
+ATOM     23  H9  BAB d   1      15.757   2.449  31.257  0.00  0.00     0.157 HD
+ENDBRANCH  17  21
+ENDBRANCH  12  17
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  C8' BAB d   1       9.492  -1.206  24.061  0.00  0.00     0.112 A 
+ATOM     25  N3' BAB d   1      10.735  -0.686  23.441  0.00  0.00    -0.233 NA
+ATOM     26  C4' BAB d   1      10.366  -0.277  22.066  0.00  0.00     0.085 A 
+ATOM     27  C3' BAB d   1      11.174   0.275  21.089  0.00  0.00    -0.052 A 
+ATOM     28  C5' BAB d   1       9.042  -0.517  21.853  0.00  0.00     0.063 A 
+ATOM     29  C2' BAB d   1      10.576   0.593  19.847  0.00  0.00    -0.067 A 
+ATOM     30  H12 BAB d   1      12.227   0.457  21.268  0.00  0.00     0.087 H 
+ATOM     31  C1' BAB d   1       9.190   0.338  19.643  0.00  0.00     0.009 A 
+ATOM     32  H11 BAB d   1      11.171   1.030  19.053  0.00  0.00     0.085 H 
+ATOM     33  C6' BAB d   1       8.428  -0.226  20.668  0.00  0.00    -0.041 A 
+ATOM     34  H13 BAB d   1       7.372  -0.428  20.527  0.00  0.00     0.088 H 
+ATOM     35  N4' BAB d   1       8.423  -1.102  23.054  0.00  0.00    -0.342 N 
+ATOM     36  H18 BAB d   1       7.438  -1.383  23.167  0.00  0.00     0.167 HD
+BRANCH  31  37
+ATOM     37  C7' BAB d   1       8.506   0.684  18.345  0.00  0.00     0.102 C 
+BRANCH  37  38
+ATOM     38  N1' BAB d   1       7.513  -0.228  17.727  0.00  0.00    -0.385 N 
+ATOM     39  H14 BAB d   1       7.059   0.030  16.839  0.00  0.00     0.157 HD
+ATOM     40  H15 BAB d   1       7.278  -1.120  18.185  0.00  0.00     0.157 HD
+ENDBRANCH  37  38
+BRANCH  37  41
+ATOM     41  N2' BAB d   1       8.715   2.006  17.717  0.00  0.00    -0.385 N 
+ATOM     42  H16 BAB d   1       9.397   2.665  18.119  0.00  0.00     0.157 HD
+ATOM     43  H17 BAB d   1       8.179   2.268  16.877  0.00  0.00     0.157 HD
+ENDBRANCH  37  41
+ENDBRANCH  31  37
+ENDBRANCH   1  24
+TORSDOF 8

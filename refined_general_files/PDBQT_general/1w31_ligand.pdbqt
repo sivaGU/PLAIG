@@ -1,0 +1,37 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CB_2 
+REMARK    2  A    between atoms: CA_1  and  C_5 
+REMARK    3  A    between atoms: CB_2  and  CG_3 
+REMARK    4  A    between atoms: CG_3  and  CD_4 
+REMARK    5  A    between atoms: CD_4  and  OE1_7 
+ROOT
+ATOM      1  CB  SHO d   1      19.894  26.186  15.627  0.00  0.00    -0.054 C 
+ATOM      2  H3  SHO d   1      19.127  26.226  14.840  0.00  0.00     0.033 H 
+ATOM      3  H4  SHO d   1      19.800  27.070  16.275  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  SHO d   1      21.269  26.191  14.979  0.00  0.00     0.016 C 
+ATOM      5  H1  SHO d   1      21.426  25.231  14.465  0.00  0.00     0.049 H 
+ATOM      6  H2  SHO d   1      22.033  26.318  15.760  0.00  0.00     0.049 H 
+BRANCH   4   7
+ATOM      7  C   SHO d   1      21.400  27.319  13.971  0.00  0.00     0.172 C 
+ATOM      8  O   SHO d   1      20.371  27.943  13.642  0.00  0.00    -0.648 OA
+ATOM      9  OXT SHO d   1      22.529  27.577  13.511  0.00  0.00    -0.648 OA
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  10
+ATOM     10  CG  SHO d   1      19.681  24.939  16.460  0.00  0.00    -0.045 C 
+ATOM     11  H5  SHO d   1      20.451  24.212  16.164  0.00  0.00     0.036 H 
+ATOM     12  H6  SHO d   1      18.686  24.543  16.208  0.00  0.00     0.036 H 
+BRANCH  10  13
+ATOM     13  CD  SHO d   1      19.744  25.073  17.972  0.00  0.00     0.017 C 
+ATOM     14  H7  SHO d   1      19.954  26.121  18.231  0.00  0.00     0.073 H 
+ATOM     15  H8  SHO d   1      20.551  24.431  18.356  0.00  0.00     0.073 H 
+BRANCH  13  16
+ATOM     16  OE1 SHO d   1      18.519  24.685  18.571  0.00  0.00    -0.401 OA
+ATOM     17  H9  SHO d   1      18.585  24.778  19.514  0.00  0.00     0.209 HD
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+TORSDOF 5

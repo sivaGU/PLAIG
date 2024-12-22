@@ -1,0 +1,50 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_18  and  C3_2 
+REMARK    2  A    between atoms: C4_19  and  C5_4 
+REMARK    3  A    between atoms: C8_20  and  C11_8 
+REMARK    4  A    between atoms: N2_18  and  C4_19 
+ROOT
+ATOM      1  C12 CZV d   1      29.420  -5.847  15.238  0.00  0.00    -0.069 A 
+ATOM      2  C13 CZV d   1      28.206  -5.097  14.812  0.00  0.00    -0.069 A 
+ATOM      3  C4  CZV d   1      29.556  -4.718  14.235  0.00  0.00     0.095 A 
+ATOM      4  H4  CZV d   1      29.878  -6.634  15.835  0.00  0.00     0.081 H 
+ATOM      5  H5  CZV d   1      27.131  -4.937  14.872  0.00  0.00     0.081 H 
+ENDROOT
+BRANCH   3   6
+ATOM      6  C5  CZV d   1      30.101  -3.354  14.618  0.00  0.00    -0.022 A 
+ATOM      7  C10 CZV d   1      30.641  -2.498  13.662  0.00  0.00    -0.073 A 
+ATOM      8  C9  CZV d   1      31.097  -1.235  14.014  0.00  0.00    -0.068 A 
+ATOM      9  H3  CZV d   1      30.706  -2.822  12.630  0.00  0.00     0.084 H 
+ATOM     10  C8  CZV d   1      31.018  -0.792  15.331  0.00  0.00     0.047 A 
+ATOM     11  H2  CZV d   1      31.519  -0.587  13.255  0.00  0.00     0.084 H 
+ATOM     12  C7  CZV d   1      30.485  -1.648  16.287  0.00  0.00    -0.068 A 
+ATOM     13  C6  CZV d   1      30.041  -2.911  15.938  0.00  0.00    -0.073 A 
+ATOM     14  H1  CZV d   1      30.416  -1.322  17.319  0.00  0.00     0.084 H 
+ATOM     15  H9  CZV d   1      29.640  -3.566  16.703  0.00  0.00     0.084 H 
+BRANCH  10  16
+ATOM     16  C11 CZV d   1      31.468   0.583  15.711  0.00  0.00     0.417 C 
+ATOM     17  F2  CZV d   1      32.498   1.019  14.977  0.00  0.00    -0.166 F 
+ATOM     18  F1  CZV d   1      30.487   1.492  15.609  0.00  0.00    -0.166 F 
+ATOM     19  F   CZV d   1      31.895   0.656  16.968  0.00  0.00    -0.166 F 
+ENDBRANCH  10  16
+ENDBRANCH   3   6
+BRANCH   3  20
+ATOM     20  N2  CZV d   1      29.813  -5.082  12.837  0.00  0.00    -0.354 N 
+ATOM     21  H8  CZV d   1      29.066  -4.832  12.174  0.00  0.00     0.163 HD
+BRANCH  20  22
+ATOM     22  C3  CZV d   1      30.889  -5.699  12.289  0.00  0.00     0.143 A 
+ATOM     23  C2  CZV d   1      32.030  -6.063  13.084  0.00  0.00     0.076 A 
+ATOM     24  C1  CZV d   1      33.061  -6.871  12.365  0.00  0.00     0.187 A 
+ATOM     25  C14 CZV d   1      32.616  -5.925  14.363  0.00  0.00     0.013 A 
+ATOM     26  N4  CZV d   1      34.039  -7.092  13.263  0.00  0.00    -0.154 NA
+ATOM     27  N1  CZV d   1      32.897  -7.188  11.072  0.00  0.00    -0.196 NA
+ATOM     28  N3  CZV d   1      33.786  -6.524  14.477  0.00  0.00    -0.286 N 
+ATOM     29  H6  CZV d   1      34.387  -6.556  15.313  0.00  0.00     0.188 HD
+ATOM     30  C   CZV d   1      31.807  -6.731  10.490  0.00  0.00     0.227 A 
+ATOM     31 CL   CZV d   1      31.699  -7.052   8.798  0.00  0.00    -0.041 Cl
+ATOM     32  N   CZV d   1      30.806  -6.029  10.990  0.00  0.00    -0.200 NA
+ATOM     33  H7  CZV d   1      32.146  -5.376  15.178  0.00  0.00     0.115 H 
+ENDBRANCH  20  22
+ENDBRANCH   3  20
+TORSDOF 4

@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C4_2 
+REMARK    2  A    between atoms: C3_3  and  O1_4 
+REMARK    3  A    between atoms: C5_7  and  C6_8 
+REMARK    4  A    between atoms: C6_8  and  O_9 
+ROOT
+ATOM      1  C4  LDU d   1      78.942  88.854  20.348  0.00  0.00     0.091 C 
+ATOM      2  C3  LDU d   1      77.774  89.807  20.560  0.00  0.00     0.085 C 
+ATOM      3  C2  LDU d   1      76.869  89.477  19.388  0.00  0.00     0.108 C 
+ATOM      4  N   LDU d   1      77.817  89.157  18.286  0.00  0.00    -0.064 N 
+ATOM      5  C5  LDU d   1      79.178  89.094  18.855  0.00  0.00     0.148 C 
+ATOM      6  H2  LDU d   1      79.819  89.111  20.961  0.00  0.00     0.090 H 
+ATOM      7  H3  LDU d   1      78.110  90.853  20.512  0.00  0.00     0.089 H 
+ATOM      8  H5  LDU d   1      76.239  90.339  19.125  0.00  0.00     0.079 H 
+ATOM      9  H6  LDU d   1      76.230  88.612  19.618  0.00  0.00     0.079 H 
+ATOM     10  H7  LDU d   1      77.775  89.875  17.580  0.00  0.00     0.277 HD
+ATOM     11  H8  LDU d   1      77.577  88.268  17.876  0.00  0.00     0.277 HD
+ATOM     12  H9  LDU d   1      79.698  90.052  18.709  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  C6  LDU d   1      79.993  88.001  18.195  0.00  0.00     0.046 C 
+ATOM     14  H10 LDU d   1      79.370  87.101  18.087  0.00  0.00     0.077 H 
+ATOM     15  H11 LDU d   1      80.865  87.770  18.824  0.00  0.00     0.077 H 
+BRANCH  13  16
+ATOM     16  O   LDU d   1      80.439  88.416  16.914  0.00  0.00    -0.399 OA
+ATOM     17  H12 LDU d   1      80.979  89.192  17.004  0.00  0.00     0.209 HD
+ENDBRANCH  13  16
+ENDBRANCH   5  13
+BRANCH   1  18
+ATOM     18  O2  LDU d   1      78.540  87.519  20.600  0.00  0.00    -0.391 OA
+ATOM     19  H1  LDU d   1      78.237  87.445  21.497  0.00  0.00     0.210 HD
+ENDBRANCH   1  18
+BRANCH   2  20
+ATOM     20  O1  LDU d   1      77.125  89.586  21.813  0.00  0.00    -0.391 OA
+ATOM     21  H4  LDU d   1      77.748  89.717  22.518  0.00  0.00     0.210 HD
+ENDBRANCH   2  20
+TORSDOF 4

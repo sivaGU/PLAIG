@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3 
+REMARK    2  A    between atoms: C6_6  and  C8_7 
+REMARK    3  A    between atoms: C_14  and  N_15 
+ROOT
+ATOM      1  N2  5TZ d   1      12.999-108.861  53.341  0.00  0.00    -0.259 NA
+ATOM      2  C3  5TZ d   1      12.619-107.781  52.635  0.00  0.00     0.086 A 
+ATOM      3  C4  5TZ d   1      14.120-108.749  54.074  0.00  0.00     0.004 A 
+ATOM      4  C5  5TZ d   1      14.877-107.596  54.149  0.00  0.00    -0.049 A 
+ATOM      5  C6  5TZ d   1      14.447-106.468  53.454  0.00  0.00     0.044 A 
+ATOM      6  C7  5TZ d   1      13.300-106.564  52.674  0.00  0.00    -0.036 A 
+ATOM      7  H1  5TZ d   1      14.449-109.614  54.639  0.00  0.00     0.114 H 
+ATOM      8  H2  5TZ d   1      15.787-107.570  54.737  0.00  0.00     0.087 H 
+ATOM      9  H3  5TZ d   1      12.943-105.711  52.108  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   2  10
+ATOM     10  C1  5TZ d   1      11.482-107.969  51.721  0.00  0.00     0.095 A 
+ATOM     11  N1  5TZ d   1      11.104-109.267  51.349  0.00  0.00    -0.222 NA
+ATOM     12  C   5TZ d   1      10.112-109.222  50.483  0.00  0.00     0.164 A 
+ATOM     13  S   5TZ d   1       9.570-107.614  50.072  0.00  0.00    -0.062 SA
+ATOM     14  C2  5TZ d   1      10.760-106.979  51.137  0.00  0.00    -0.011 A 
+ATOM     15  H4  5TZ d   1      10.915-105.917  51.320  0.00  0.00     0.098 H 
+BRANCH  12  16
+ATOM     16  N   5TZ d   1       9.545-110.301  49.932  0.00  0.00    -0.378 N 
+ATOM     17  H5  5TZ d   1       9.876-111.243  50.185  0.00  0.00     0.158 HD
+ATOM     18  H6  5TZ d   1       8.777-110.190  49.255  0.00  0.00     0.158 HD
+ENDBRANCH  12  16
+ENDBRANCH   2  10
+BRANCH   5  19
+ATOM     19  C8  5TZ d   1      15.209-105.187  53.502  0.00  0.00     0.209 C 
+ATOM     20  O1  5TZ d   1      14.677-104.123  53.246  0.00  0.00    -0.644 OA
+ATOM     21  O   5TZ d   1      16.387-105.264  54.019  0.00  0.00    -0.644 OA
+ENDBRANCH   5  19
+TORSDOF 3

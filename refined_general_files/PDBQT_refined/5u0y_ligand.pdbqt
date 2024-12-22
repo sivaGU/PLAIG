@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  N12_12 
+REMARK    2  A    between atoms: S16_16  and  C5_5 
+REMARK    3  A    between atoms: C7_7  and  C6_6 
+REMARK    4  A    between atoms: C7_7  and  S16_16 
+ROOT
+ATOM      1  C1  7PJ d   1       9.002   0.054  24.340  0.00  0.00     0.160 A 
+ATOM      2  C2  7PJ d   1       9.258  -0.389  25.613  0.00  0.00     0.182 A 
+ATOM      3  C3  7PJ d   1       9.853   0.945  23.745  0.00  0.00     0.226 A 
+ATOM      4  C4  7PJ d   1      11.093   0.906  25.692  0.00  0.00     0.702 A 
+ATOM      5  C5  7PJ d   1       7.483  -1.366  25.010  0.00  0.00     0.169 A 
+ATOM      6  N8  7PJ d   1      10.312   0.028  26.332  0.00  0.00    -0.044 NA
+ATOM      7  N9  7PJ d   1       8.310  -1.277  26.024  0.00  0.00    -0.317 N 
+ATOM      8  N10 7PJ d   1      10.910   1.373  24.444  0.00  0.00    -0.164 N 
+ATOM      9  N11 7PJ d   1       7.860  -0.584  23.956  0.00  0.00    -0.216 NA
+ATOM     10  O15 7PJ d   1       9.644   1.424  22.497  0.00  0.00    -0.169 OA
+ATOM     11  H3  7PJ d   1       8.255  -1.768  26.928  0.00  0.00     0.169 HD
+ATOM     12  H4  7PJ d   1      11.552   2.028  24.046  0.00  0.00     0.186 HD
+ENDROOT
+BRANCH   5  13
+ATOM     13  S16 7PJ d   1       6.053  -2.372  24.991  0.00  0.00    -0.081 SA
+BRANCH  13  14
+ATOM     14  C7  7PJ d   1       5.254  -2.150  23.361  0.00  0.00     0.064 C 
+ATOM     15  H1  7PJ d   1       4.170  -2.291  23.489  0.00  0.00     0.066 H 
+ATOM     16  H2  7PJ d   1       5.453  -1.124  23.019  0.00  0.00     0.066 H 
+BRANCH  14  17
+ATOM     17  C6  7PJ d   1       5.743  -3.131  22.259  0.00  0.00     0.182 C 
+ATOM     18  O13 7PJ d   1       5.019  -3.064  21.222  0.00  0.00    -0.647 OA
+ATOM     19  O14 7PJ d   1       6.758  -3.869  22.425  0.00  0.00    -0.647 OA
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  20
+ATOM     20  N12 7PJ d   1      12.197   1.370  26.414  0.00  0.00    -0.233 N 
+ATOM     21  H5  7PJ d   1      12.365   1.032  27.372  0.00  0.00     0.174 HD
+ATOM     22  H6  7PJ d   1      12.842   2.050  25.988  0.00  0.00     0.174 HD
+ENDBRANCH   4  20
+TORSDOF 4

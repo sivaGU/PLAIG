@@ -1,0 +1,79 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAO_29  and  CB0_1 
+REMARK    2  A    between atoms: CBB_3  and  NBC_2 
+REMARK    3  A    between atoms: CBA_4  and  CBB_3 
+REMARK    4  A    between atoms: CAY_5  and  CBA_4 
+REMARK    5  A    between atoms: NAH_6  and  CAY_5 
+REMARK    6  A    between atoms: CAI_15  and  CAG_14 
+REMARK    7  A    between atoms: CAK_22  and  CAJ_21 
+ROOT
+ATOM      1  NAH BI8 d   1      81.396  18.896  10.771  0.00  0.00    -0.355 N 
+ATOM      2  CAW BI8 d   1      82.179  17.882  11.154  0.00  0.00    -0.008 A 
+ATOM      3  CAE BI8 d   1      80.101  18.629  10.950  0.00  0.00     0.045 A 
+ATOM      4  CAF BI8 d   1      78.921  19.319  10.688  0.00  0.00    -0.056 A 
+ATOM      5  CAA BI8 d   1      77.696  18.714  10.955  0.00  0.00    -0.081 A 
+ATOM      6  CAB BI8 d   1      77.661  17.429  11.488  0.00  0.00    -0.082 A 
+ATOM      7  CAC BI8 d   1      78.847  16.749  11.757  0.00  0.00    -0.070 A 
+ATOM      8  CAD BI8 d   1      80.075  17.348  11.484  0.00  0.00     0.003 A 
+ATOM      9  CAG BI8 d   1      81.386  16.908  11.600  0.00  0.00     0.009 A 
+ATOM     10  H13 BI8 d   1      83.267  17.857  11.110  0.00  0.00     0.113 H 
+ATOM     11  H14 BI8 d   1      78.956  20.322  10.278  0.00  0.00     0.087 H 
+ATOM     12  H15 BI8 d   1      76.772  19.242  10.748  0.00  0.00     0.083 H 
+ATOM     13  H16 BI8 d   1      76.708  16.956  11.695  0.00  0.00     0.083 H 
+ATOM     14  H17 BI8 d   1      78.814  15.751  12.180  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   9  15
+ATOM     15  CAI BI8 d   1      81.892  15.635  11.857  0.00  0.00     0.061 A 
+ATOM     16  CAT BI8 d   1      81.261  14.468  11.441  0.00  0.00     0.260 A 
+ATOM     17  OAZ BI8 d   1      80.211  14.369  10.808  0.00  0.00    -0.267 OA
+ATOM     18  NAU BI8 d   1      82.045  13.466  11.834  0.00  0.00    -0.289 N 
+ATOM     19  CAV BI8 d   1      83.143  13.871  12.469  0.00  0.00     0.260 A 
+ATOM     20  H18 BI8 d   1      81.830  12.504  11.668  0.00  0.00     0.172 HD
+ATOM     21  OAX BI8 d   1      84.032  13.150  12.920  0.00  0.00    -0.267 OA
+ATOM     22  CAJ BI8 d   1      83.070  15.261  12.497  0.00  0.00     0.061 A 
+BRANCH  22  23
+ATOM     23  CAK BI8 d   1      84.019  16.086  13.094  0.00  0.00     0.009 A 
+ATOM     24  CAM BI8 d   1      83.942  17.339  13.686  0.00  0.00     0.003 A 
+ATOM     25  CAP BI8 d   1      82.891  18.227  13.892  0.00  0.00    -0.070 A 
+ATOM     26  CAN BI8 d   1      85.212  17.666  14.145  0.00  0.00     0.045 A 
+ATOM     27  CAQ BI8 d   1      83.114  19.435  14.546  0.00  0.00    -0.082 A 
+ATOM     28  H19 BI8 d   1      81.896  17.977  13.542  0.00  0.00     0.084 H 
+ATOM     29  CAR BI8 d   1      84.393  19.757  14.993  0.00  0.00    -0.081 A 
+ATOM     30  H20 BI8 d   1      82.293  20.124  14.707  0.00  0.00     0.083 H 
+ATOM     31  CAS BI8 d   1      85.448  18.873  14.794  0.00  0.00    -0.056 A 
+ATOM     32  H21 BI8 d   1      84.567  20.700  15.498  0.00  0.00     0.083 H 
+ATOM     33  H22 BI8 d   1      86.444  19.122  15.141  0.00  0.00     0.087 H 
+ATOM     34  NAO BI8 d   1      85.968  16.614  13.829  0.00  0.00    -0.360 N 
+ATOM     35  CAL BI8 d   1      85.277  15.662  13.200  0.00  0.00    -0.009 A 
+ATOM     36  H23 BI8 d   1      85.669  14.712  12.839  0.00  0.00     0.113 H 
+BRANCH  34  37
+ATOM     37  CB0 BI8 d   1      87.404  16.490  14.167  0.00  0.00    -0.014 C 
+ATOM     38  H1  BI8 d   1      87.787  15.529  13.793  0.00  0.00     0.057 H 
+ATOM     39  H2  BI8 d   1      87.529  16.534  15.259  0.00  0.00     0.057 H 
+ATOM     40  H3  BI8 d   1      87.963  17.314  13.700  0.00  0.00     0.057 H 
+ENDBRANCH  34  37
+ENDBRANCH  22  23
+ENDBRANCH   9  15
+BRANCH   1  41
+ATOM     41  CAY BI8 d   1      81.849  20.128  10.104  0.00  0.00     0.001 C 
+ATOM     42  H11 BI8 d   1      81.904  19.929   9.024  0.00  0.00     0.065 H 
+ATOM     43  H12 BI8 d   1      81.102  20.913  10.295  0.00  0.00     0.065 H 
+BRANCH  41  44
+ATOM     44  CBA BI8 d   1      83.212  20.652  10.559  0.00  0.00    -0.028 C 
+ATOM     45  H9  BI8 d   1      83.959  19.852  10.451  0.00  0.00     0.037 H 
+ATOM     46  H10 BI8 d   1      83.497  21.507   9.928  0.00  0.00     0.037 H 
+BRANCH  44  47
+ATOM     47  CBB BI8 d   1      83.169  21.102  12.020  0.00  0.00     0.081 C 
+ATOM     48  H7  BI8 d   1      82.318  21.782  12.169  0.00  0.00     0.075 H 
+ATOM     49  H8  BI8 d   1      83.054  20.223  12.671  0.00  0.00     0.075 H 
+BRANCH  47  50
+ATOM     50  NBC BI8 d   1      84.418  21.800  12.356  0.00  0.00    -0.079 N 
+ATOM     51  H4  BI8 d   1      84.389  22.096  13.319  0.00  0.00     0.274 HD
+ATOM     52  H5  BI8 d   1      84.523  22.606  11.760  0.00  0.00     0.274 HD
+ATOM     53  H6  BI8 d   1      85.198  21.177  12.220  0.00  0.00     0.274 HD
+ENDBRANCH  47  50
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH   1  41
+TORSDOF 7

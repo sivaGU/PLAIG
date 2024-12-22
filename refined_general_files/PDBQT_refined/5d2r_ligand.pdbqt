@@ -1,0 +1,99 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C_16  and  C1_1 
+REMARK    3  A    between atoms: C2_2  and  C3_3 
+REMARK    4  A    between atoms: C3_3  and  C4_4 
+REMARK    5  A    between atoms: C4_4  and  C5_5 
+REMARK    6  A    between atoms: C4_4  and  C6_6 
+REMARK    7  A    between atoms: C6_6  and  P_19 
+REMARK    8  A    between atoms: C7_7  and  C8_8 
+REMARK    9  A    between atoms: P_19  and  C7_7 
+REMARK   10  A    between atoms: C8_8  and  C9_11 
+REMARK   11  A    between atoms: C9_11  and  C12_21 
+REMARK   12  A    between atoms: C9_11  and  N1_24 
+REMARK       I    between atoms: N1_24  and  C10_12 
+REMARK   13  A    between atoms: C10_12  and  C11_26 
+REMARK   14  A    between atoms: C13_14  and  C_16 
+REMARK   15  A    between atoms: C_16  and  N_17 
+ROOT
+ATOM      1  C6  56W d   1       0.272  24.290  -6.910  0.00  0.00     0.020 C 
+ATOM      2  H8  56W d   1       1.245  24.542  -7.357  0.00  0.00     0.050 H 
+ATOM      3  H9  56W d   1      -0.142  23.401  -7.409  0.00  0.00     0.050 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4  56W d   1      -0.684  25.467  -7.226  0.00  0.00     0.039 C 
+ATOM      5  H7  56W d   1      -0.957  25.355  -8.286  0.00  0.00     0.057 H 
+BRANCH   4   6
+ATOM      6  C3  56W d   1      -0.023  26.826  -7.110  0.00  0.00    -0.052 C 
+ATOM      7  H5  56W d   1       0.176  27.029  -6.048  0.00  0.00     0.034 H 
+ATOM      8  H6  56W d   1       0.927  26.802  -7.663  0.00  0.00     0.034 H 
+BRANCH   6   9
+ATOM      9  C2  56W d   1      -0.884  27.956  -7.669  0.00  0.00    -0.062 C 
+ATOM     10  H3  56W d   1      -1.511  27.558  -8.481  0.00  0.00     0.033 H 
+ATOM     11  H4  56W d   1      -1.527  28.344  -6.866  0.00  0.00     0.033 H 
+BRANCH   9  12
+ATOM     12  C1  56W d   1      -0.031  29.100  -8.217  0.00  0.00    -0.029 C 
+ATOM     13  H1  56W d   1       0.372  28.789  -9.192  0.00  0.00     0.036 H 
+ATOM     14  H2  56W d   1       0.798  29.274  -7.516  0.00  0.00     0.036 H 
+BRANCH  12  15
+ATOM     15  C   56W d   1      -0.782  30.435  -8.413  0.00  0.00     0.182 C 
+ATOM     16  H15 56W d   1      -0.064  31.186  -8.774  0.00  0.00     0.101 H 
+BRANCH  15  17
+ATOM     17  C13 56W d   1      -1.377  30.887  -7.128  0.00  0.00     0.204 C 
+ATOM     18  O8  56W d   1      -2.572  31.184  -7.034  0.00  0.00    -0.646 OA
+ATOM     19  O7  56W d   1      -0.564  31.002  -6.086  0.00  0.00    -0.646 OA
+ENDBRANCH  15  17
+BRANCH  15  20
+ATOM     20  N   56W d   1      -1.899  30.333  -9.373  0.00  0.00    -0.065 N 
+ATOM     21  H16 56W d   1      -2.350  31.230  -9.460  0.00  0.00     0.275 HD
+ATOM     22  H17 56W d   1      -2.565  29.653  -9.042  0.00  0.00     0.275 HD
+ATOM     23  H18 56W d   1      -1.544  30.047 -10.272  0.00  0.00     0.275 HD
+ENDBRANCH  15  20
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   9
+ENDBRANCH   4   6
+BRANCH   4  24
+ATOM     24  C5  56W d   1      -1.973  25.388  -6.455  0.00  0.00     0.177 C 
+ATOM     25  O1  56W d   1      -2.342  26.187  -5.610  0.00  0.00    -0.648 OA
+ATOM     26  O   56W d   1      -2.773  24.389  -6.759  0.00  0.00    -0.648 OA
+ENDBRANCH   4  24
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  P   56W d   1       0.595  23.819  -5.179  0.00  0.00     0.107 P 
+ATOM     28  O2  56W d   1      -0.756  23.926  -4.364  0.00  0.00    -0.667 OA
+ATOM     29  O6  56W d   1       1.744  24.574  -4.655  0.00  0.00    -0.667 OA
+BRANCH  27  30
+ATOM     30  C7  56W d   1       1.185  22.108  -5.245  0.00  0.00     0.009 C 
+ATOM     31  H10 56W d   1       1.974  22.036  -6.008  0.00  0.00     0.048 H 
+ATOM     32  H11 56W d   1       1.600  21.840  -4.262  0.00  0.00     0.048 H 
+BRANCH  30  33
+ATOM     33  C8  56W d   1       0.078  21.126  -5.592  0.00  0.00    -0.028 C 
+ATOM     34  H12 56W d   1       0.089  20.913  -6.671  0.00  0.00     0.037 H 
+ATOM     35  H13 56W d   1      -0.899  21.546  -5.311  0.00  0.00     0.037 H 
+BRANCH  33  36
+ATOM     36  C9  56W d   1       0.341  19.844  -4.805  0.00  0.00     0.096 C 
+ATOM     37  H14 56W d   1       0.387  20.112  -3.739  0.00  0.00     0.089 H 
+BRANCH  36  38
+ATOM     38  C12 56W d   1       1.689  19.294  -5.184  0.00  0.00     0.196 C 
+ATOM     39  O5  56W d   1       1.919  18.822  -6.290  0.00  0.00    -0.646 OA
+ATOM     40  O4  56W d   1       2.670  19.339  -4.299  0.00  0.00    -0.646 OA
+ENDBRANCH  36  38
+BRANCH  36  41
+ATOM     41  N1  56W d   1      -0.747  18.885  -4.948  0.00  0.00    -0.347 N 
+ATOM     42  C10 56W d   1      -0.898  17.868  -4.088  0.00  0.00     0.214 C 
+ATOM     43  O3  56W d   1      -0.091  17.647  -3.193  0.00  0.00    -0.274 OA
+ATOM     44  H19 56W d   1      -1.394  18.988  -5.703  0.00  0.00     0.163 HD
+BRANCH  42  45
+ATOM     45  C11 56W d   1      -2.136  17.033  -4.270  0.00  0.00    -0.003 C 
+ATOM     46  H20 56W d   1      -2.154  16.234  -3.514  0.00  0.00     0.040 H 
+ATOM     47  H21 56W d   1      -2.133  16.587  -5.275  0.00  0.00     0.040 H 
+ATOM     48  H22 56W d   1      -3.027  17.668  -4.154  0.00  0.00     0.040 H 
+ENDBRANCH  42  45
+ENDBRANCH  36  41
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH  27  30
+ENDBRANCH   1  27
+TORSDOF 15

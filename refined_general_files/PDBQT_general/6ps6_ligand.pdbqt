@@ -1,0 +1,84 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_6  and  C7_7 
+REMARK    2  A    between atoms: C11_11  and  O12_12 
+REMARK    3  A    between atoms: O12_12  and  C13_13 
+REMARK    4  A    between atoms: C13_13  and  C14_14 
+REMARK    5  A    between atoms: C14_14  and  O15_15 
+REMARK    6  A    between atoms: C14_14  and  C16_16 
+REMARK    7  A    between atoms: C16_16  and  N17_17 
+REMARK    8  A    between atoms: N17_17  and  C18_18 
+REMARK    9  A    between atoms: C18_18  and  C19_19 
+REMARK   10  A    between atoms: C18_18  and  C20_20 
+REMARK   11  A    between atoms: C18_18  and  C21_21 
+ROOT
+ATOM      1  C13 TIM d   1       2.865   4.529  48.568  0.00  0.00     0.053 C 
+ATOM      2  H9  TIM d   1       2.545   4.911  47.587  0.00  0.00     0.079 H 
+ATOM      3  H10 TIM d   1       3.702   3.828  48.433  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  O12 TIM d   1       1.764   3.835  49.185  0.00  0.00    -0.329 OA
+BRANCH   4   5
+ATOM      5  C11 TIM d   1       1.363   2.695  48.545  0.00  0.00     0.221 A 
+ATOM      6  C7  TIM d   1       1.441   1.337  49.055  0.00  0.00     0.189 A 
+ATOM      7  N8  TIM d   1       0.949   0.443  48.180  0.00  0.00    -0.171 NA
+ATOM      8  S9  TIM d   1       0.418   1.308  46.854  0.00  0.00     0.120 SA
+ATOM      9  N10 TIM d   1       0.804   2.847  47.336  0.00  0.00    -0.164 NA
+BRANCH   6  10
+ATOM     10  N4  TIM d   1       1.974   0.951  50.273  0.00  0.00    -0.358 N 
+ATOM     11  C5  TIM d   1       3.219   1.514  50.804  0.00  0.00     0.016 C 
+ATOM     12  C6  TIM d   1       3.140   1.737  52.304  0.00  0.00     0.034 C 
+ATOM     13  H1  TIM d   1       4.044   0.819  50.590  0.00  0.00     0.067 H 
+ATOM     14  H2  TIM d   1       3.414   2.477  50.310  0.00  0.00     0.067 H 
+ATOM     15  O1  TIM d   1       2.751   0.510  52.955  0.00  0.00    -0.388 OA
+ATOM     16  H3  TIM d   1       2.396   2.518  52.520  0.00  0.00     0.076 H 
+ATOM     17  H4  TIM d   1       4.124   2.055  52.679  0.00  0.00     0.076 H 
+ATOM     18  C2  TIM d   1       1.439   0.075  52.550  0.00  0.00     0.034 C 
+ATOM     19  C3  TIM d   1       1.344  -0.131  51.042  0.00  0.00     0.016 C 
+ATOM     20  H5  TIM d   1       0.704   0.836  52.851  0.00  0.00     0.076 H 
+ATOM     21  H6  TIM d   1       1.209  -0.876  53.053  0.00  0.00     0.076 H 
+ATOM     22  H7  TIM d   1       0.282  -0.187  50.762  0.00  0.00     0.067 H 
+ATOM     23  H8  TIM d   1       1.841  -1.078  50.786  0.00  0.00     0.067 H 
+ENDBRANCH   6  10
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  C14 TIM d   1       3.328   5.700  49.434  0.00  0.00     0.079 C 
+ATOM     25  H11 TIM d   1       4.290   5.414  49.883  0.00  0.00     0.088 H 
+BRANCH  24  26
+ATOM     26  O15 TIM d   1       3.557   6.819  48.581  0.00  0.00    -0.392 OA
+ATOM     27  H12 TIM d   1       2.751   7.043  48.131  0.00  0.00     0.210 HD
+ENDBRANCH  24  26
+BRANCH  24  28
+ATOM     28  C16 TIM d   1       2.383   6.059  50.605  0.00  0.00     0.108 C 
+ATOM     29  H13 TIM d   1       2.308   5.192  51.278  0.00  0.00     0.079 H 
+ATOM     30  H14 TIM d   1       1.389   6.295  50.198  0.00  0.00     0.079 H 
+BRANCH  28  31
+ATOM     31  N17 TIM d   1       2.872   7.229  51.383  0.00  0.00    -0.065 N 
+ATOM     32  H15 TIM d   1       2.506   8.052  50.930  0.00  0.00     0.278 HD
+ATOM     33  H16 TIM d   1       3.877   7.225  51.310  0.00  0.00     0.278 HD
+BRANCH  31  34
+ATOM     34  C18 TIM d   1       2.546   7.359  52.841  0.00  0.00     0.115 C 
+BRANCH  34  35
+ATOM     35  C19 TIM d   1       1.065   7.290  53.244  0.00  0.00    -0.046 C 
+ATOM     36  H17 TIM d   1       0.976   7.399  54.335  0.00  0.00     0.030 H 
+ATOM     37  H18 TIM d   1       0.646   6.320  52.937  0.00  0.00     0.030 H 
+ATOM     38  H19 TIM d   1       0.512   8.101  52.748  0.00  0.00     0.030 H 
+ENDBRANCH  34  35
+BRANCH  34  39
+ATOM     39  C20 TIM d   1       3.277   6.324  53.664  0.00  0.00    -0.046 C 
+ATOM     40  H20 TIM d   1       3.015   6.448  54.725  0.00  0.00     0.030 H 
+ATOM     41  H21 TIM d   1       4.362   6.453  53.536  0.00  0.00     0.030 H 
+ATOM     42  H22 TIM d   1       2.986   5.317  53.330  0.00  0.00     0.030 H 
+ENDBRANCH  34  39
+BRANCH  34  43
+ATOM     43  C21 TIM d   1       3.064   8.732  53.294  0.00  0.00    -0.046 C 
+ATOM     44  H23 TIM d   1       2.846   8.872  54.363  0.00  0.00     0.030 H 
+ATOM     45  H24 TIM d   1       2.567   9.522  52.712  0.00  0.00     0.030 H 
+ATOM     46  H25 TIM d   1       4.151   8.786  53.132  0.00  0.00     0.030 H 
+ENDBRANCH  34  43
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH  24  28
+ENDBRANCH   1  24
+TORSDOF 11

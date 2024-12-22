@@ -1,0 +1,76 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_2  and  N4_22 
+REMARK    2  A    between atoms: C2_3  and  N16_23 
+REMARK    3  A    between atoms: C5_5  and  C5A_8 
+REMARK    4  A    between atoms: C9_9  and  C6_6 
+REMARK    5  A    between atoms: C1'_10  and  C10_16 
+REMARK    6  A    between atoms: C2'_11  and  O2'_24 
+REMARK    7  A    between atoms: C5'_14  and  O5'_25 
+REMARK    8  A    between atoms: O2'_24  and  C2A'_17 
+REMARK    9  A    between atoms: O5'_25  and  C5A'_18 
+ROOT
+ATOM      1  C9  LII d   1      11.092  25.900  34.463  0.00  0.00    -0.070 C 
+ATOM      2  C10 LII d   1      10.165  25.506  35.387  0.00  0.00    -0.069 C 
+ATOM      3  H5  LII d   1      11.290  26.968  34.377  0.00  0.00     0.084 H 
+ATOM      4  H9  LII d   1       9.668  26.330  35.897  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1   5
+ATOM      5  C6  LII d   1      11.879  24.959  33.535  0.00  0.00    -0.012 C 
+ATOM      6  C5  LII d   1      13.190  24.947  33.379  0.00  0.00    -0.032 C 
+ATOM      7  C4A LII d   1      13.732  24.177  32.244  0.00  0.00     0.065 C 
+ATOM      8  C4  LII d   1      15.059  24.274  31.718  0.00  0.00     0.155 C 
+ATOM      9  C8A LII d   1      12.878  23.329  31.575  0.00  0.00     0.182 C 
+ATOM     10  N3  LII d   1      15.504  23.437  30.774  0.00  0.00    -0.045 NA
+ATOM     11  C2  LII d   1      14.682  22.523  30.263  0.00  0.00     0.724 C 
+ATOM     12  N1  LII d   1      13.399  22.442  30.608  0.00  0.00    -0.042 NA
+ATOM     13  N8  LII d   1      11.555  23.224  31.813  0.00  0.00    -0.239 NA
+ATOM     14  C7  LII d   1      11.005  23.987  32.767  0.00  0.00     0.015 C 
+ATOM     15  H1  LII d   1       9.946  23.910  32.987  0.00  0.00     0.116 H 
+BRANCH   6  16
+ATOM     16  C5A LII d   1      14.054  25.640  34.365  0.00  0.00    -0.049 C 
+ATOM     17  H2  LII d   1      15.108  25.524  34.074  0.00  0.00     0.033 H 
+ATOM     18  H3  LII d   1      13.898  25.201  35.361  0.00  0.00     0.033 H 
+ATOM     19  H4  LII d   1      13.796  26.709  34.391  0.00  0.00     0.033 H 
+ENDBRANCH   6  16
+BRANCH   8  20
+ATOM     20  N4  LII d   1      15.954  25.152  32.123  0.00  0.00    -0.383 N 
+ATOM     21  H16 LII d   1      16.892  25.164  31.698  0.00  0.00     0.157 HD
+ATOM     22  H17 LII d   1      15.715  25.826  32.864  0.00  0.00     0.157 HD
+ENDBRANCH   8  20
+BRANCH  11  23
+ATOM     23  N16 LII d   1      15.143  21.662  29.373  0.00  0.00    -0.231 N 
+ATOM     24  H18 LII d   1      16.131  21.698  29.085  0.00  0.00     0.174 HD
+ATOM     25  H19 LII d   1      14.514  20.954  28.967  0.00  0.00     0.174 HD
+ENDBRANCH  11  23
+ENDBRANCH   1   5
+BRANCH   2  26
+ATOM     26  C1' LII d   1       9.699  24.126  35.835  0.00  0.00    -0.000 A 
+ATOM     27  C2' LII d   1      10.575  23.102  36.178  0.00  0.00     0.078 A 
+ATOM     28  C3' LII d   1      10.087  21.883  36.578  0.00  0.00    -0.047 A 
+ATOM     29  C4' LII d   1       8.706  21.677  36.627  0.00  0.00    -0.048 A 
+ATOM     30  H6  LII d   1      10.768  21.086  36.854  0.00  0.00     0.087 H 
+ATOM     31  C5' LII d   1       7.814  22.679  36.289  0.00  0.00     0.069 A 
+ATOM     32  H7  LII d   1       8.325  20.711  36.937  0.00  0.00     0.087 H 
+ATOM     33  C6' LII d   1       8.330  23.899  35.895  0.00  0.00    -0.038 A 
+ATOM     34  H8  LII d   1       7.649  24.699  35.626  0.00  0.00     0.089 H 
+BRANCH  27  35
+ATOM     35  O2' LII d   1      11.903  23.425  36.089  0.00  0.00    -0.355 OA
+BRANCH  35  36
+ATOM     36  C2A LII d   1      12.697  22.242  36.002  0.00  0.00     0.010 C 
+ATOM     37  H10 LII d   1      13.759  22.518  35.931  0.00  0.00     0.066 H 
+ATOM     38  H11 LII d   1      12.406  21.670  35.108  0.00  0.00     0.066 H 
+ATOM     39  H12 LII d   1      12.537  21.626  36.899  0.00  0.00     0.066 H 
+ENDBRANCH  35  36
+ENDBRANCH  27  35
+BRANCH  31  40
+ATOM     40  O5' LII d   1       6.451  22.566  36.312  0.00  0.00    -0.356 OA
+BRANCH  40  41
+ATOM     41  C5A LII d   1       5.627  23.694  36.215  0.00  0.00     0.010 C 
+ATOM     42  H13 LII d   1       4.573  23.382  36.254  0.00  0.00     0.066 H 
+ATOM     43  H14 LII d   1       5.822  24.210  35.263  0.00  0.00     0.066 H 
+ATOM     44  H15 LII d   1       5.839  24.376  37.052  0.00  0.00     0.066 H 
+ENDBRANCH  40  41
+ENDBRANCH  31  40
+ENDBRANCH   2  26
+TORSDOF 9

@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_5  and  N1_1 
+REMARK    2  A    between atoms: N1_1  and  C7_9 
+REMARK    3  A    between atoms: C7_9  and  N2_2 
+ROOT
+ATOM      1  C1  URS d   1      21.903 100.559   1.753  0.00  0.00    -0.081 A 
+ATOM      2  C2  URS d   1      20.945  99.911   2.531  0.00  0.00    -0.057 A 
+ATOM      3  C3  URS d   1      20.894 100.128   3.932  0.00  0.00     0.034 A 
+ATOM      4  C4  URS d   1      21.833 101.002   4.515  0.00  0.00    -0.057 A 
+ATOM      5  C5  URS d   1      22.783 101.639   3.724  0.00  0.00    -0.081 A 
+ATOM      6  C6  URS d   1      22.819 101.423   2.346  0.00  0.00    -0.083 A 
+ATOM      7  H4  URS d   1      21.935 100.389   0.683  0.00  0.00     0.083 H 
+ATOM      8  H5  URS d   1      20.235  99.238   2.063  0.00  0.00     0.086 H 
+ATOM      9  H6  URS d   1      21.815 101.179   5.584  0.00  0.00     0.086 H 
+ATOM     10  H7  URS d   1      23.502 102.309   4.182  0.00  0.00     0.083 H 
+ATOM     11  H8  URS d   1      23.560 101.928   1.737  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   3  12
+ATOM     12  N1  URS d   1      19.998  99.559   4.687  0.00  0.00    -0.334 N 
+ATOM     13  H1  URS d   1      19.082  99.545   4.285  0.00  0.00     0.168 HD
+BRANCH  12  14
+ATOM     14  C7  URS d   1      20.070  98.943   5.995  0.00  0.00     0.169 C 
+ATOM     15  S1  URS d   1      18.832  98.909   7.022  0.00  0.00    -0.041 SA
+BRANCH  14  16
+ATOM     16  N2  URS d   1      21.192  98.365   6.339  0.00  0.00    -0.376 N 
+ATOM     17  H2  URS d   1      21.276  97.930   7.235  0.00  0.00     0.158 HD
+ATOM     18  H3  URS d   1      21.966  98.358   5.706  0.00  0.00     0.158 HD
+ENDBRANCH  14  16
+ENDBRANCH  12  14
+ENDBRANCH   3  12
+TORSDOF 3

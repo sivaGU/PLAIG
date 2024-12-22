@@ -1,0 +1,50 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S2_2  and  N3_4 
+REMARK    2  A    between atoms: S2_2  and  C5_5 
+REMARK    3  A    between atoms: C8_8  and  S11_11 
+REMARK    4  A    between atoms: S11_11  and  C12_12 
+REMARK    5  A    between atoms: C12_12  and  C13_13 
+REMARK    6  A    between atoms: C13_13  and  C14_14 
+ROOT
+ATOM      1  C5  VD9 d   1      24.541   3.890  10.292  0.00  0.00     0.079 C 
+ATOM      2  C10 VD9 d   1      25.926   3.926  10.227  0.00  0.00    -0.059 C 
+ATOM      3  C9  VD9 d   1      26.642   5.126  10.409  0.00  0.00    -0.065 C 
+ATOM      4  C8  VD9 d   1      25.888   6.249  10.742  0.00  0.00     0.000 C 
+ATOM      5  C7  VD9 d   1      24.493   6.282  10.858  0.00  0.00    -0.065 C 
+ATOM      6  C6  VD9 d   1      23.866   5.031  10.687  0.00  0.00    -0.059 C 
+ATOM      7  H3  VD9 d   1      26.471   3.009  10.032  0.00  0.00     0.086 H 
+ATOM      8  H4  VD9 d   1      27.719   5.173  10.296  0.00  0.00     0.085 H 
+ATOM      9  H5  VD9 d   1      23.942   7.193  11.062  0.00  0.00     0.085 H 
+ATOM     10  H6  VD9 d   1      22.801   4.960  10.875  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  S11 VD9 d   1      26.643   7.858  10.960  0.00  0.00    -0.130 SA
+BRANCH  11  12
+ATOM     12  C12 VD9 d   1      28.381   7.643  10.399  0.00  0.00    -0.019 C 
+ATOM     13  H7  VD9 d   1      28.808   6.757  10.892  0.00  0.00     0.049 H 
+ATOM     14  H8  VD9 d   1      28.960   8.534  10.682  0.00  0.00     0.049 H 
+BRANCH  12  15
+ATOM     15  C13 VD9 d   1      28.465   7.459   8.903  0.00  0.00    -0.060 C 
+ATOM     16  H9  VD9 d   1      28.082   8.360   8.402  0.00  0.00     0.033 H 
+ATOM     17  H10 VD9 d   1      27.860   6.589   8.607  0.00  0.00     0.033 H 
+BRANCH  15  18
+ATOM     18  C14 VD9 d   1      29.909   7.231   8.497  0.00  0.00    -0.076 C 
+ATOM     19  H11 VD9 d   1      29.967   7.097   7.407  0.00  0.00     0.027 H 
+ATOM     20  H12 VD9 d   1      30.293   6.330   8.998  0.00  0.00     0.027 H 
+ATOM     21  H13 VD9 d   1      30.515   8.101   8.792  0.00  0.00     0.027 H 
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   4  11
+BRANCH   1  22
+ATOM     22  S2  VD9 d   1      23.683   2.401  10.007  0.00  0.00     0.256 S 
+ATOM     23  O4  VD9 d   1      23.021   2.585   8.708  0.00  0.00    -0.201 OA
+ATOM     24  O1  VD9 d   1      24.724   1.322  10.015  0.00  0.00    -0.201 OA
+BRANCH  22  25
+ATOM     25  N3  VD9 d   1      22.615   2.141  11.164  0.00  0.00    -0.324 N 
+ATOM     26  H1  VD9 d   1      21.852   2.775  11.292  0.00  0.00     0.169 HD
+ATOM     27  H2  VD9 d   1      22.709   1.344  11.761  0.00  0.00     0.169 HD
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+TORSDOF 6

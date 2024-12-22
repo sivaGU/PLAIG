@@ -1,0 +1,68 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_8  and  C12_4 
+REMARK    2  A    between atoms: N2_9  and  C1_8 
+REMARK    3  A    between atoms: C1_8  and  B9_15 
+REMARK       I    between atoms: N2_9  and  C3_10 
+REMARK    4  A    between atoms: C3_10  and  C5_11 
+REMARK    5  A    between atoms: C5_11  and  C6_12 
+REMARK    6  A    between atoms: C5_11  and  C8_14 
+REMARK    7  A    between atoms: C6_12  and  S7_13 
+REMARK    8  A    between atoms: B9_15  and  O10_16 
+REMARK    9  A    between atoms: B9_15  and  O11_17 
+ROOT
+ATOM      1  C1  BXU d   1     -73.205   3.784 124.443  0.00  0.00    -0.008 C 
+ATOM      2  H5  BXU d   1     -73.751   4.713 124.662  0.00  0.00     0.060 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 BXU d   1     -73.524   3.331 122.996  0.00  0.00    -0.046 A 
+ATOM      4  C13 BXU d   1     -74.363   4.133 122.223  0.00  0.00    -0.073 A 
+ATOM      5  C14 BXU d   1     -74.717   3.778 120.933  0.00  0.00    -0.045 A 
+ATOM      6  H1  BXU d   1     -74.747   5.056 122.642  0.00  0.00     0.084 H 
+ATOM      7  C15 BXU d   1     -74.228   2.607 120.400  0.00  0.00     0.116 A 
+ATOM      8  H4  BXU d   1     -75.372   4.415 120.349  0.00  0.00     0.088 H 
+ATOM      9  C16 BXU d   1     -73.400   1.791 121.164  0.00  0.00    -0.045 A 
+ATOM     10  F18 BXU d   1     -74.594   2.263 119.133  0.00  0.00    -0.206 F 
+ATOM     11  C17 BXU d   1     -73.043   2.151 122.460  0.00  0.00    -0.073 A 
+ATOM     12  H2  BXU d   1     -73.028   0.863 120.745  0.00  0.00     0.088 H 
+ATOM     13  H3  BXU d   1     -72.392   1.511 123.045  0.00  0.00     0.084 H 
+ENDBRANCH   1   3
+BRANCH   1  14
+ATOM     14  N2  BXU d   1     -73.606   2.762 125.379  0.00  0.00    -0.363 N 
+ATOM     15  C3  BXU d   1     -74.958   2.721 125.891  0.00  0.00     0.222 C 
+ATOM     16  O4  BXU d   1     -75.197   1.866 126.667  0.00  0.00    -0.273 OA
+ATOM     17  H7  BXU d   1     -72.943   2.075 125.677  0.00  0.00     0.162 HD
+BRANCH  15  18
+ATOM     18  C5  BXU d   1     -76.047   3.760 125.574  0.00  0.00     0.028 C 
+ATOM     19  H8  BXU d   1     -75.564   4.740 125.449  0.00  0.00     0.055 H 
+BRANCH  18  20
+ATOM     20  C6  BXU d   1     -76.965   3.530 124.368  0.00  0.00    -0.015 C 
+ATOM     21  H9  BXU d   1     -77.622   2.667 124.554  0.00  0.00     0.049 H 
+ATOM     22  H10 BXU d   1     -76.363   3.345 123.466  0.00  0.00     0.049 H 
+BRANCH  20  23
+ATOM     23  S7  BXU d   1     -77.969   5.047 124.151  0.00  0.00    -0.181 SA
+ATOM     24  H11 BXU d   1     -78.587   4.930 123.363  0.00  0.00     0.101 HD
+ENDBRANCH  20  23
+ENDBRANCH  18  20
+BRANCH  18  25
+ATOM     25  C8  BXU d   1     -76.934   3.748 126.797  0.00  0.00    -0.064 C 
+ATOM     26  H12 BXU d   1     -76.321   3.910 127.696  0.00  0.00     0.028 H 
+ATOM     27  H13 BXU d   1     -77.444   2.776 126.871  0.00  0.00     0.028 H 
+ATOM     28  H14 BXU d   1     -77.683   4.550 126.715  0.00  0.00     0.028 H 
+ENDBRANCH  18  25
+ENDBRANCH  15  18
+ENDBRANCH   1  14
+BRANCH   1  29
+ATOM     29  B9  BXU d   1     -71.715   4.232 124.628  0.00  0.00     0.123 B 
+BRANCH  29  30
+ATOM     30  O10 BXU d   1     -71.547   5.454 124.155  0.00  0.00     0.000 OA
+ATOM     31  H15 BXU d   1     -70.633   5.582 123.928  0.00  0.00     0.000 HD
+ATOM     32  H16 BXU d   1     -70.633   5.582 123.928  0.00  0.00     0.000 HD
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  O11 BXU d   1     -70.976   3.998 125.733  0.00  0.00     0.000 OA
+ATOM     34  H17 BXU d   1     -71.224   4.612 126.414  0.00  0.00     0.000 HD
+ATOM     35  H18 BXU d   1     -71.224   4.612 126.414  0.00  0.00     0.000 HD
+ENDBRANCH  29  33
+ENDBRANCH   1  29
+TORSDOF 9

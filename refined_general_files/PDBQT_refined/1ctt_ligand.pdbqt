@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_8 
+REMARK    2  A    between atoms: C2'_9  and  O2'_10 
+REMARK    3  A    between atoms: C3'_11  and  O3'_12 
+REMARK    4  A    between atoms: C4'_13  and  C5'_15 
+REMARK    5  A    between atoms: C5'_15  and  O5'_16 
+ROOT
+ATOM      1  C1' DHZ d   1      35.886  50.309   9.632  0.00  0.00     0.141 C 
+ATOM      2  C2' DHZ d   1      35.829  51.729   9.230  0.00  0.00     0.105 C 
+ATOM      3  C3' DHZ d   1      36.052  52.533  10.468  0.00  0.00     0.091 C 
+ATOM      4  C4' DHZ d   1      35.479  51.522  11.605  0.00  0.00     0.088 C 
+ATOM      5  O4' DHZ d   1      35.615  50.169  11.025  0.00  0.00    -0.353 OA
+ATOM      6  H6  DHZ d   1      36.967  50.138   9.525  0.00  0.00     0.123 H 
+ATOM      7  H7  DHZ d   1      34.808  51.954   8.888  0.00  0.00     0.093 H 
+ATOM      8  H9  DHZ d   1      35.548  53.511  10.472  0.00  0.00     0.091 H 
+ATOM      9  H11 DHZ d   1      36.094  51.637  12.510  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  N1  DHZ d   1      35.303  48.928   9.009  0.00  0.00    -0.280 N 
+ATOM     11  C2  DHZ d   1      36.215  48.043   8.440  0.00  0.00     0.324 C 
+ATOM     12  O2  DHZ d   1      37.377  48.361   8.186  0.00  0.00    -0.247 OA
+ATOM     13  N3  DHZ d   1      35.726  46.783   8.107  0.00  0.00    -0.339 N 
+ATOM     14  C4  DHZ d   1      34.352  46.246   8.584  0.00  0.00     0.013 C 
+ATOM     15  H1  DHZ d   1      36.291  46.193   7.530  0.00  0.00     0.164 HD
+ATOM     16  C5  DHZ d   1      33.473  47.416   9.032  0.00  0.00    -0.071 C 
+ATOM     17  H2  DHZ d   1      34.501  45.556   9.427  0.00  0.00     0.070 H 
+ATOM     18  H3  DHZ d   1      33.860  45.714   7.757  0.00  0.00     0.070 H 
+ATOM     19  C6  DHZ d   1      33.994  48.644   9.256  0.00  0.00    -0.015 C 
+ATOM     20  H4  DHZ d   1      32.405  47.256   9.174  0.00  0.00     0.081 H 
+ATOM     21  H5  DHZ d   1      33.347  49.429   9.646  0.00  0.00     0.111 H 
+ENDBRANCH   1  10
+BRANCH   2  22
+ATOM     22  O2' DHZ d   1      36.694  51.952   8.085  0.00  0.00    -0.388 OA
+ATOM     23  H8  DHZ d   1      37.587  51.726   8.316  0.00  0.00     0.210 HD
+ENDBRANCH   2  22
+BRANCH   3  24
+ATOM     24  O3' DHZ d   1      37.451  52.654  10.553  0.00  0.00    -0.390 OA
+ATOM     25  H10 DHZ d   1      37.678  53.159  11.325  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  C5' DHZ d   1      34.069  51.592  11.988  0.00  0.00     0.043 C 
+ATOM     27  H12 DHZ d   1      33.916  52.365  12.756  0.00  0.00     0.078 H 
+ATOM     28  H13 DHZ d   1      33.725  50.620  12.372  0.00  0.00     0.078 H 
+BRANCH  26  29
+ATOM     29  O5' DHZ d   1      33.357  51.939  10.765  0.00  0.00    -0.398 OA
+ATOM     30  H14 DHZ d   1      32.427  52.001  10.948  0.00  0.00     0.209 HD
+ENDBRANCH  26  29
+ENDBRANCH   4  26
+TORSDOF 5

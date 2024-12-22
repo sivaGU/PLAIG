@@ -1,0 +1,65 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_13  and  NAO_14 
+REMARK       I    between atoms: NAO_14  and  CAS_15 
+REMARK    2  A    between atoms: CAS_15  and  CBA_17 
+REMARK    3  A    between atoms: CBA_17  and  OAQ_18 
+REMARK    4  A    between atoms: CBA_17  and  CAT_22 
+REMARK    5  A    between atoms: OAQ_18  and  CAR_19 
+REMARK    6  A    between atoms: CAR_19  and  CAA_21 
+ROOT
+ATOM      1  NAO RXB d   1     -47.513  15.702 -22.800  0.00  0.00    -0.324 N 
+ATOM      2  CAS RXB d   1     -46.438  14.905 -23.010  0.00  0.00     0.256 C 
+ATOM      3  OAC RXB d   1     -46.377  13.782 -22.497  0.00  0.00    -0.270 OA
+ATOM      4  H5  RXB d   1     -47.442  16.689 -22.945  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  CBA RXB d   1     -45.188  15.274 -23.796  0.00  0.00     0.150 C 
+ATOM      6  H6  RXB d   1     -44.855  14.356 -24.303  0.00  0.00     0.107 H 
+BRANCH   5   7
+ATOM      7  OAQ RXB d   1     -45.451  16.175 -24.904  0.00  0.00    -0.302 OA
+BRANCH   7   8
+ATOM      8  CAR RXB d   1     -44.681  17.423 -25.242  0.00  0.00     0.255 C 
+ATOM      9  OAB RXB d   1     -44.768  17.827 -26.421  0.00  0.00    -0.266 OA
+BRANCH   8  10
+ATOM     10  CAA RXB d   1     -43.846  18.247 -24.269  0.00  0.00     0.004 C 
+ATOM     11  H7  RXB d   1     -43.401  19.101 -24.800  0.00  0.00     0.041 H 
+ATOM     12  H8  RXB d   1     -43.046  17.619 -23.849  0.00  0.00     0.041 H 
+ATOM     13  H9  RXB d   1     -44.488  18.615 -23.456  0.00  0.00     0.041 H 
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   5  14
+ATOM     14  CAT RXB d   1     -44.130  15.523 -22.735  0.00  0.00    -0.020 A 
+ATOM     15  CAL RXB d   1     -42.744  15.529 -23.035  0.00  0.00    -0.074 A 
+ATOM     16  CAI RXB d   1     -41.766  15.709 -22.030  0.00  0.00    -0.082 A 
+ATOM     17  H10 RXB d   1     -42.426  15.392 -24.062  0.00  0.00     0.084 H 
+ATOM     18  CAG RXB d   1     -42.189  15.849 -20.699  0.00  0.00    -0.083 A 
+ATOM     19  H11 RXB d   1     -40.712  15.738 -22.282  0.00  0.00     0.083 H 
+ATOM     20  CAH RXB d   1     -43.564  15.819 -20.388  0.00  0.00    -0.082 A 
+ATOM     21  H12 RXB d   1     -41.458  15.980 -19.909  0.00  0.00     0.083 H 
+ATOM     22  CAK RXB d   1     -44.522  15.661 -21.390  0.00  0.00    -0.074 A 
+ATOM     23  H13 RXB d   1     -43.881  15.920 -19.356  0.00  0.00     0.083 H 
+ATOM     24  H14 RXB d   1     -45.575  15.644 -21.131  0.00  0.00     0.084 H 
+ENDBRANCH   5  14
+ENDBRANCH   2   5
+BRANCH   1  25
+ATOM     25  CAU RXB d   1     -48.714  15.143 -22.382  0.00  0.00     0.050 A 
+ATOM     26  CAZ RXB d   1     -48.868  14.425 -21.176  0.00  0.00     0.062 A 
+ATOM     27  CAY RXB d   1     -50.145  13.872 -20.851  0.00  0.00     0.049 A 
+ATOM     28  CAX RXB d   1     -47.778  14.246 -20.281  0.00  0.00     0.253 A 
+ATOM     29  CAW RXB d   1     -50.328  13.154 -19.661  0.00  0.00     0.259 A 
+ATOM     30  CAN RXB d   1     -51.268  14.009 -21.671  0.00  0.00    -0.067 A 
+ATOM     31  OAE RXB d   1     -51.473  12.646 -19.344  0.00  0.00    -0.267 OA
+ATOM     32  NAP RXB d   1     -49.235  13.018 -18.839  0.00  0.00    -0.286 N 
+ATOM     33  CAV RXB d   1     -47.997  13.538 -19.121  0.00  0.00     0.299 A 
+ATOM     34  H1  RXB d   1     -49.349  12.510 -17.985  0.00  0.00     0.172 HD
+ATOM     35  OAD RXB d   1     -47.016  13.387 -18.343  0.00  0.00    -0.264 OA
+ATOM     36  CAJ RXB d   1     -51.103  14.723 -22.834  0.00  0.00    -0.080 A 
+ATOM     37  H2  RXB d   1     -52.224  13.573 -21.403  0.00  0.00     0.085 H 
+ATOM     38  CAM RXB d   1     -49.855  15.270 -23.184  0.00  0.00    -0.056 A 
+ATOM     39  H3  RXB d   1     -51.951  14.867 -23.494  0.00  0.00     0.083 H 
+ATOM     40  H4  RXB d   1     -49.773  15.815 -24.117  0.00  0.00     0.086 H 
+ATOM     41  OAF RXB d   1     -46.590  14.684 -20.433  0.00  0.00    -0.281 OA
+ENDBRANCH   1  25
+TORSDOF 6

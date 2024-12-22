@@ -1,0 +1,89 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_11  and  CAA_1 
+REMARK    2  A    between atoms: CAL_12  and  CAB_2 
+REMARK    3  A    between atoms: NBB_28  and  CAC_3 
+REMARK    4  A    between atoms: CAM_13  and  CAK_11 
+REMARK    5  A    between atoms: CAW_23  and  CAL_12 
+REMARK    6  A    between atoms: OAT_20  and  CAM_13 
+REMARK    7  A    between atoms: CAV_22  and  OAT_20 
+REMARK    8  A    between atoms: SBD_30  and  CAU_21 
+REMARK    9  A    between atoms: NBC_29  and  SBD_30 
+ROOT
+ATOM      1  OAD 5CO d   1      46.226 -18.993  38.709  0.00  0.00    -0.266 OA
+ATOM      2 CLAG 5CO d   1      44.826 -17.504  36.532  0.00  0.00    -0.076 Cl
+ATOM      3  CAH 5CO d   1      45.608 -15.038  44.726  0.00  0.00    -0.058 C 
+ATOM      4  CAI 5CO d   1      46.606 -15.867  44.222  0.00  0.00    -0.048 C 
+ATOM      5  CAJ 5CO d   1      44.475 -15.114  42.619  0.00  0.00    -0.044 C 
+ATOM      6  NAR 5CO d   1      44.633 -15.558  39.971  0.00  0.00    -0.233 NA
+ATOM      7  NAS 5CO d   1      45.902 -17.516  40.367  0.00  0.00    -0.306 N 
+ATOM      8  CAU 5CO d   1      44.501 -14.730  43.940  0.00  0.00     0.075 C 
+ATOM      9  CAV 5CO d   1      46.524 -16.330  42.910  0.00  0.00     0.082 C 
+ATOM     10  CAW 5CO d   1      44.481 -15.886  38.684  0.00  0.00     0.064 C 
+ATOM     11  CAX 5CO d   1      45.031 -17.081  38.203  0.00  0.00     0.126 C 
+ATOM     12  CAY 5CO d   1      45.414 -15.999  42.141  0.00  0.00     0.045 C 
+ATOM     13  CAZ 5CO d   1      45.256 -16.382  40.825  0.00  0.00     0.143 C 
+ATOM     14  CBA 5CO d   1      45.724 -17.928  39.069  0.00  0.00     0.270 C 
+ATOM     15  H   5CO d   1      45.693 -14.631  45.734  0.00  0.00     0.086 H 
+ATOM     16  H   5CO d   1      47.449 -16.153  44.851  0.00  0.00     0.087 H 
+ATOM     17  H   5CO d   1      43.711 -14.717  41.951  0.00  0.00     0.087 H 
+ATOM     18  H   5CO d   1      46.510 -18.045  40.992  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   8  19
+ATOM     19  SBD 5CO d   1      43.242 -13.666  44.515  0.00  0.00     0.243 S 
+ATOM     20  OAE 5CO d   1      42.942 -13.976  45.957  0.00  0.00    -0.206 OA
+ATOM     21  OAF 5CO d   1      41.991 -13.811  43.696  0.00  0.00    -0.206 OA
+BRANCH  19  22
+ATOM     22  NBC 5CO d   1      43.980 -12.150  44.300  0.00  0.00    -0.203 NA
+ATOM     23  CAP 5CO d   1      43.275 -11.065  45.015  0.00  0.00     0.018 C 
+ATOM     24  CAN 5CO d   1      43.978  -9.711  44.785  0.00  0.00     0.124 C 
+ATOM     25  H   5CO d   1      42.255 -11.000  44.637  0.00  0.00     0.060 H 
+ATOM     26  H   5CO d   1      43.279 -11.287  46.082  0.00  0.00     0.060 H 
+ATOM     27  NBB 5CO d   1      43.997  -9.383  43.343  0.00  0.00     0.086 N 
+ATOM     28  H   5CO d   1      45.003  -9.775  45.150  0.00  0.00     0.081 H 
+ATOM     29  H   5CO d   1      43.435  -8.932  45.321  0.00  0.00     0.081 H 
+ATOM     30  CAO 5CO d   1      44.725 -10.447  42.648  0.00  0.00     0.124 C 
+ATOM     31  CAQ 5CO d   1      44.038 -11.810  42.856  0.00  0.00     0.018 C 
+ATOM     32  H   5CO d   1      44.741 -10.222  41.582  0.00  0.00     0.081 H 
+ATOM     33  H   5CO d   1      45.737 -10.500  43.050  0.00  0.00     0.081 H 
+ATOM     34  H   5CO d   1      44.610 -12.578  42.335  0.00  0.00     0.060 H 
+ATOM     35  H   5CO d   1      43.022 -11.757  42.464  0.00  0.00     0.060 H 
+BRANCH  27  36
+ATOM     36  CAC 5CO d   1      44.745  -8.129  43.168  0.00  0.00     0.095 C 
+ATOM     37  H   5CO d   1      44.254  -7.333  43.728  0.00  0.00     0.071 H 
+ATOM     38  H   5CO d   1      45.762  -8.260  43.537  0.00  0.00     0.071 H 
+ATOM     39  H   5CO d   1      44.772  -7.868  42.110  0.00  0.00     0.071 H 
+ENDBRANCH  27  36
+ENDBRANCH  19  22
+ENDBRANCH   8  19
+BRANCH   9  40
+ATOM     40  OAT 5CO d   1      47.500 -17.110  42.376  0.00  0.00    -0.350 OA
+BRANCH  40  41
+ATOM     41  CAM 5CO d   1      48.809 -16.871  42.985  0.00  0.00     0.026 C 
+ATOM     42  H   5CO d   1      49.024 -15.803  43.007  0.00  0.00     0.075 H 
+ATOM     43  H   5CO d   1      48.819 -17.239  44.011  0.00  0.00     0.075 H 
+BRANCH  41  44
+ATOM     44  CAK 5CO d   1      49.865 -17.607  42.147  0.00  0.00    -0.048 C 
+ATOM     45  H   5CO d   1      49.870 -17.185  41.142  0.00  0.00     0.035 H 
+ATOM     46  H   5CO d   1      50.837 -17.488  42.626  0.00  0.00     0.035 H 
+BRANCH  44  47
+ATOM     47  CAA 5CO d   1      49.546 -19.098  42.051  0.00  0.00    -0.075 C 
+ATOM     48  H   5CO d   1      49.530 -19.530  43.052  0.00  0.00     0.027 H 
+ATOM     49  H   5CO d   1      48.572 -19.230  41.581  0.00  0.00     0.027 H 
+ATOM     50  H   5CO d   1      50.310 -19.594  41.452  0.00  0.00     0.027 H 
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  40  41
+ENDBRANCH   9  40
+BRANCH  10  51
+ATOM     51  CAL 5CO d   1      43.703 -14.888  37.823  0.00  0.00    -0.026 C 
+ATOM     52  H   5CO d   1      43.283 -15.405  36.961  0.00  0.00     0.041 H 
+ATOM     53  H   5CO d   1      42.900 -14.449  38.415  0.00  0.00     0.041 H 
+BRANCH  51  54
+ATOM     54  CAB 5CO d   1      44.648 -13.774  37.339  0.00  0.00    -0.071 C 
+ATOM     55  H   5CO d   1      45.070 -13.257  38.201  0.00  0.00     0.028 H 
+ATOM     56  H   5CO d   1      45.452 -14.213  36.748  0.00  0.00     0.028 H 
+ATOM     57  H   5CO d   1      44.090 -13.066  36.727  0.00  0.00     0.028 H 
+ENDBRANCH  51  54
+ENDBRANCH  10  51
+TORSDOF 9

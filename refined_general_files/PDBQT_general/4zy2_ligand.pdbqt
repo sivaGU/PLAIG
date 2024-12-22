@@ -1,0 +1,80 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CBA_2 
+REMARK    2  A    between atoms: CBA_2  and  CAB_3 
+REMARK    3  A    between atoms: CBA_2  and  CAC_4 
+REMARK    4  A    between atoms: CBA_2  and  CAS_5 
+REMARK       I    between atoms: CAS_5  and  N_7 
+REMARK    5  A    between atoms: N_7  and  CA_8 
+REMARK    6  A    between atoms: CA_8  and  C_9 
+REMARK    7  A    between atoms: CA_8  and  CAY_13 
+REMARK       I    between atoms: C_9  and  NAP_11 
+REMARK    8  A    between atoms: NAP_11  and  OAF_12 
+REMARK    9  A    between atoms: CAV_18  and  CAW_19 
+ROOT
+ATOM      1  CA  4TL d   1      87.819  73.583  30.950  0.00  0.00     0.117 C 
+ATOM      2  H11 4TL d   1      88.051  74.023  31.931  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   4TL d   1      88.922  72.766  30.572  0.00  0.00    -0.343 N 
+ATOM      4  CAS 4TL d   1      89.598  72.046  31.478  0.00  0.00     0.226 C 
+ATOM      5  OAE 4TL d   1      89.252  72.060  32.660  0.00  0.00    -0.273 OA
+ATOM      6  H10 4TL d   1      89.198  72.729  29.611  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CBA 4TL d   1      90.795  71.227  31.039  0.00  0.00     0.030 C 
+BRANCH   7   8
+ATOM      8  CAA 4TL d   1      91.804  71.191  32.166  0.00  0.00    -0.061 C 
+ATOM      9  H1  4TL d   1      92.678  70.598  31.857  0.00  0.00     0.029 H 
+ATOM     10  H2  4TL d   1      91.345  70.732  33.054  0.00  0.00     0.029 H 
+ATOM     11  H3  4TL d   1      92.123  72.216  32.406  0.00  0.00     0.029 H 
+ENDBRANCH   7   8
+BRANCH   7  12
+ATOM     12  CAB 4TL d   1      90.385  69.815  30.685  0.00  0.00    -0.061 C 
+ATOM     13  H4  4TL d   1      89.651  69.841  29.866  0.00  0.00     0.029 H 
+ATOM     14  H5  4TL d   1      89.935  69.332  31.565  0.00  0.00     0.029 H 
+ATOM     15  H6  4TL d   1      91.270  69.245  30.367  0.00  0.00     0.029 H 
+ENDBRANCH   7  12
+BRANCH   7  16
+ATOM     16  CAC 4TL d   1      91.434  71.889  29.837  0.00  0.00    -0.061 C 
+ATOM     17  H7  4TL d   1      91.731  72.915  30.098  0.00  0.00     0.029 H 
+ATOM     18  H8  4TL d   1      90.713  71.916  29.007  0.00  0.00     0.029 H 
+ATOM     19  H9  4TL d   1      92.323  71.317  29.532  0.00  0.00     0.029 H 
+ENDBRANCH   7  16
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  C   4TL d   1      87.713  74.697  29.931  0.00  0.00     0.268 C 
+ATOM     21  O   4TL d   1      87.395  74.463  28.763  0.00  0.00    -0.269 OA
+ATOM     22  NAP 4TL d   1      87.988  75.947  30.311  0.00  0.00    -0.235 N 
+ATOM     23  H12 4TL d   1      88.253  76.144  31.255  0.00  0.00     0.197 HD
+BRANCH  22  24
+ATOM     24  OAF 4TL d   1      87.897  77.019  29.331  0.00  0.00    -0.287 OA
+ATOM     25  H13 4TL d   1      87.011  77.062  28.992  0.00  0.00     0.244 HD
+ENDBRANCH  22  24
+ENDBRANCH   1  20
+BRANCH   1  26
+ATOM     26  CAY 4TL d   1      86.491  72.870  31.086  0.00  0.00    -0.026 A 
+ATOM     27  CAM 4TL d   1      85.432  73.565  31.653  0.00  0.00    -0.074 A 
+ATOM     28  CAK 4TL d   1      84.194  72.963  31.803  0.00  0.00    -0.072 A 
+ATOM     29  H14 4TL d   1      85.575  74.588  31.981  0.00  0.00     0.084 H 
+ATOM     30  CAV 4TL d   1      84.024  71.654  31.383  0.00  0.00    -0.026 A 
+ATOM     31  H15 4TL d   1      83.368  73.509  32.244  0.00  0.00     0.084 H 
+ATOM     32  CAJ 4TL d   1      85.084  70.955  30.821  0.00  0.00    -0.072 A 
+ATOM     33  CAL 4TL d   1      86.321  71.559  30.670  0.00  0.00    -0.074 A 
+ATOM     34  H17 4TL d   1      84.942  69.930  30.498  0.00  0.00     0.084 H 
+ATOM     35  H16 4TL d   1      87.148  71.012  30.231  0.00  0.00     0.084 H 
+BRANCH  30  36
+ATOM     36  CAW 4TL d   1      82.684  70.970  31.539  0.00  0.00    -0.020 A 
+ATOM     37  CAN 4TL d   1      82.367  69.950  30.719  0.00  0.00    -0.032 A 
+ATOM     38  CAT 4TL d   1      81.037  69.248  30.862  0.00  0.00     0.158 A 
+ATOM     39  H18 4TL d   1      83.067  69.632  29.955  0.00  0.00     0.089 H 
+ATOM     40  FAG 4TL d   1      80.722  68.234  30.048  0.00  0.00    -0.203 F 
+ATOM     41  CAX 4TL d   1      80.168  69.645  31.809  0.00  0.00     0.193 A 
+ATOM     42  FAI 4TL d   1      78.994  69.019  31.933  0.00  0.00    -0.200 F 
+ATOM     43  CAU 4TL d   1      80.520  70.789  32.731  0.00  0.00     0.158 A 
+ATOM     44  FAH 4TL d   1      79.646  71.174  33.669  0.00  0.00    -0.203 F 
+ATOM     45  CAO 4TL d   1      81.708  71.417  32.606  0.00  0.00    -0.032 A 
+ATOM     46  H19 4TL d   1      81.962  72.238  33.267  0.00  0.00     0.089 H 
+ENDBRANCH  30  36
+ENDBRANCH   1  26
+TORSDOF 9

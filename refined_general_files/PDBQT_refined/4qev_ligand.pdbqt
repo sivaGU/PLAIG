@@ -1,0 +1,83 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAW_1  and  OAU_2 
+REMARK    2  A    between atoms: OAU_2  and  CAT_3 
+REMARK    3  A    between atoms: CAT_3  and  CAS_5 
+REMARK    4  A    between atoms: CAS_5  and  CBD_6 
+REMARK    5  A    between atoms: CAS_5  and  CAI_7 
+REMARK    6  A    between atoms: CAP_12  and  CAR_13 
+REMARK    7  A    between atoms: CAB_18  and  OAL_19 
+REMARK    8  A    between atoms: OAL_19  and  CAM_20 
+REMARK    9  A    between atoms: CAG_23  and  CAQ_24 
+ROOT
+ATOM      1  CAI 31O d   1      69.927  -7.056  71.869  0.00  0.00     0.104 C 
+ATOM      2  NAH 31O d   1      69.848  -6.529  73.274  0.00  0.00    -0.274 NA
+ATOM      3  CAJ 31O d   1      68.987  -6.304  71.127  0.00  0.00     0.161 A 
+ATOM      4  NAN 31O d   1      67.834  -6.755  70.603  0.00  0.00    -0.132 NA
+ATOM      5  NAO 31O d   1      67.260  -5.825  70.055  0.00  0.00    -0.135 NA
+ATOM      6  CAP 31O d   1      68.010  -4.716  70.187  0.00  0.00     0.131 A 
+ATOM      7  NAK 31O d   1      69.112  -4.997  70.880  0.00  0.00    -0.282 N 
+ATOM      8  CAE 31O d   1      70.205  -4.317  71.317  0.00  0.00     0.055 A 
+ATOM      9  CAF 31O d   1      70.823  -3.466  70.394  0.00  0.00    -0.053 A 
+ATOM     10  CAA 31O d   1      71.979  -2.759  70.748  0.00  0.00    -0.049 A 
+ATOM     11  CAB 31O d   1      72.556  -2.908  72.014  0.00  0.00     0.069 A 
+ATOM     12  CAC 31O d   1      71.953  -3.766  72.928  0.00  0.00    -0.036 A 
+ATOM     13  CAD 31O d   1      70.794  -4.463  72.587  0.00  0.00     0.023 A 
+ATOM     14  CAG 31O d   1      70.301  -5.298  73.594  0.00  0.00     0.074 C 
+ATOM     15  H8  31O d   1      70.926  -6.809  71.480  0.00  0.00     0.089 H 
+ATOM     16  H12 31O d   1      70.405  -3.353  69.400  0.00  0.00     0.087 H 
+ATOM     17  H13 31O d   1      72.434  -2.086  70.030  0.00  0.00     0.087 H 
+ATOM     18  H17 31O d   1      72.387  -3.894  73.913  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1  19
+ATOM     19  CAS 31O d   1      69.801  -8.565  71.741  0.00  0.00     0.055 C 
+ATOM     20  H4  31O d   1      68.785  -8.882  72.019  0.00  0.00     0.058 H 
+BRANCH  19  21
+ATOM     21  CAT 31O d   1      70.833  -9.259  72.676  0.00  0.00     0.264 C 
+ATOM     22  OAV 31O d   1      71.655  -8.620  73.341  0.00  0.00    -0.265 OA
+BRANCH  21  23
+ATOM     23  OAU 31O d   1      70.747 -10.615  72.718  0.00  0.00    -0.326 OA
+BRANCH  23  24
+ATOM     24  CAW 31O d   1      71.958 -11.265  73.107  0.00  0.00     0.013 C 
+ATOM     25  H1  31O d   1      71.803 -12.354  73.115  0.00  0.00     0.067 H 
+ATOM     26  H2  31O d   1      72.248 -10.928  74.113  0.00  0.00     0.067 H 
+ATOM     27  H3  31O d   1      72.755 -11.014  72.392  0.00  0.00     0.067 H 
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH  19  21
+BRANCH  19  28
+ATOM     28  CBD 31O d   1      70.078  -8.929  70.270  0.00  0.00    -0.062 C 
+ATOM     29  H5  31O d   1      69.995 -10.018  70.140  0.00  0.00     0.028 H 
+ATOM     30  H6  31O d   1      71.092  -8.603  69.996  0.00  0.00     0.028 H 
+ATOM     31  H7  31O d   1      69.344  -8.426  69.623  0.00  0.00     0.028 H 
+ENDBRANCH  19  28
+ENDBRANCH   1  19
+BRANCH  14  32
+ATOM     32  CAQ 31O d   1      70.174  -4.838  74.916  0.00  0.00    -0.007 A 
+ATOM     33  CAX 31O d   1      70.300  -5.726  75.993  0.00  0.00    -0.069 A 
+ATOM     34  CAY 31O d   1      70.163  -5.268  77.304  0.00  0.00    -0.061 A 
+ATOM     35  H18 31O d   1      70.505  -6.774  75.807  0.00  0.00     0.085 H 
+ATOM     36  CAZ 31O d   1      69.895  -3.922  77.555  0.00  0.00     0.034 A 
+ATOM     37  H19 31O d   1      70.265  -5.961  78.131  0.00  0.00     0.086 H 
+ATOM     38 CL1  31O d   1      69.721  -3.356  79.188  0.00  0.00    -0.084 Cl
+ATOM     39  CBA 31O d   1      69.768  -3.036  76.495  0.00  0.00    -0.061 A 
+ATOM     40  CBB 31O d   1      69.906  -3.491  75.185  0.00  0.00    -0.069 A 
+ATOM     41  H20 31O d   1      69.561  -1.989  76.686  0.00  0.00     0.086 H 
+ATOM     42  H21 31O d   1      69.804  -2.792  74.363  0.00  0.00     0.085 H 
+ENDBRANCH  14  32
+BRANCH   6  43
+ATOM     43  CAR 31O d   1      67.634  -3.349  69.623  0.00  0.00    -0.019 C 
+ATOM     44  H9  31O d   1      66.670  -3.421  69.099  0.00  0.00     0.037 H 
+ATOM     45  H10 31O d   1      68.411  -3.017  68.918  0.00  0.00     0.037 H 
+ATOM     46  H11 31O d   1      67.550  -2.623  70.445  0.00  0.00     0.037 H 
+ENDBRANCH   6  43
+BRANCH  11  47
+ATOM     47  OAL 31O d   1      73.690  -2.249  72.433  0.00  0.00    -0.356 OA
+BRANCH  47  48
+ATOM     48  CAM 31O d   1      74.485  -1.512  71.487  0.00  0.00     0.010 C 
+ATOM     49  H14 31O d   1      75.343  -1.058  72.004  0.00  0.00     0.066 H 
+ATOM     50  H15 31O d   1      73.872  -0.721  71.030  0.00  0.00     0.066 H 
+ATOM     51  H16 31O d   1      74.848  -2.193  70.704  0.00  0.00     0.066 H 
+ENDBRANCH  47  48
+ENDBRANCH  11  47
+TORSDOF 9

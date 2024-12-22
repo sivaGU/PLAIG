@@ -1,0 +1,40 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C6_2  and  N_3 
+REMARK    1  A    between atoms: C6_2  and  C5_8 
+REMARK    2  A    between atoms: C5_8  and  C4_9 
+REMARK    3  A    between atoms: C4_9  and  C3_10 
+ROOT
+ATOM      1  C5  6FG d   1      28.931  13.530  14.393  0.00  0.00     0.014 C 
+ATOM      2  H5  6FG d   1      29.934  13.255  14.036  0.00  0.00     0.047 H 
+ATOM      3  H6  6FG d   1      28.327  13.890  13.547  0.00  0.00     0.047 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C6  6FG d   1      29.020  14.576  15.459  0.00  0.00     0.228 C 
+ATOM      5  O1  6FG d   1      28.465  14.275  16.529  0.00  0.00    -0.273 OA
+ATOM      6  N   6FG d   1      29.725  15.777  15.301  0.00  0.00    -0.304 N 
+ATOM      7  C10 6FG d   1      30.198  16.630  16.404  0.00  0.00    -0.013 A 
+ATOM      8  C7  6FG d   1      30.053  16.228  14.000  0.00  0.00    -0.013 A 
+ATOM      9  C9  6FG d   1      31.083  17.707  15.792  0.00  0.00    -0.066 A 
+ATOM     10  H1  6FG d   1      29.959  16.512  17.460  0.00  0.00     0.112 H 
+ATOM     11  C8  6FG d   1      30.941  17.430  14.326  0.00  0.00    -0.066 A 
+ATOM     12  H2  6FG d   1      31.668  18.479  16.290  0.00  0.00     0.085 H 
+ATOM     13  H3  6FG d   1      31.427  18.032  13.560  0.00  0.00     0.085 H 
+ATOM     14  H4  6FG d   1      29.755  15.829  13.032  0.00  0.00     0.112 H 
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  C4  6FG d   1      28.261  12.347  15.060  0.00  0.00    -0.031 C 
+ATOM     16  H7  6FG d   1      27.238  12.604  15.371  0.00  0.00     0.040 H 
+ATOM     17  H8  6FG d   1      28.838  12.016  15.936  0.00  0.00     0.040 H 
+BRANCH  15  18
+ATOM     18  C3  6FG d   1      28.244  11.324  14.045  0.00  0.00    -0.034 A 
+ATOM     19  C   6FG d   1      27.809  10.045  14.236  0.00  0.00    -0.053 A 
+ATOM     20  C1  6FG d   1      27.938   9.411  13.017  0.00  0.00     0.019 A 
+ATOM     21  H9  6FG d   1      27.436   9.612  15.163  0.00  0.00     0.087 H 
+ATOM     22  O   6FG d   1      28.468  10.351  12.138  0.00  0.00    -0.334 OA
+ATOM     23  H11 6FG d   1      27.677   8.379  12.788  0.00  0.00     0.123 H 
+ATOM     24  C2  6FG d   1      28.683  11.564  12.747  0.00  0.00     0.024 A 
+ATOM     25  H10 6FG d   1      29.092  12.479  12.322  0.00  0.00     0.124 H 
+ENDBRANCH  15  18
+ENDBRANCH   1  15
+TORSDOF 3

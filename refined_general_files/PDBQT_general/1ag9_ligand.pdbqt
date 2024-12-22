@@ -1,0 +1,93 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_11  and  C7M_12 
+REMARK    2  A    between atoms: C8_13  and  C8M_14 
+REMARK    3  A    between atoms: N10_17  and  C1_19 
+REMARK    4  A    between atoms: C1_19  and  C2_20 
+REMARK    5  A    between atoms: C2_20  and  O2_21 
+REMARK    6  A    between atoms: C2_20  and  C3_22 
+REMARK    7  A    between atoms: C3_22  and  O3_23 
+REMARK    8  A    between atoms: C3_22  and  C4_24 
+REMARK    9  A    between atoms: C4_24  and  O4_25 
+REMARK   10  A    between atoms: C4_24  and  C5_26 
+REMARK   11  A    between atoms: C5_26  and  O5_27 
+REMARK   12  A    between atoms: O5_27  and  P_28 
+ROOT
+ATOM      1  N1  FMN d   1      -0.043  61.543  24.775  0.00  0.00    -0.292 N 
+ATOM      2  C2  FMN d   1      -0.190  62.276  25.927  0.00  0.00     0.328 A 
+ATOM      3  O2  FMN d   1       0.736  62.420  26.683  0.00  0.00    -0.247 OA
+ATOM      4  N3  FMN d   1      -1.426  62.866  26.236  0.00  0.00    -0.273 N 
+ATOM      5  C4  FMN d   1      -2.526  62.734  25.412  0.00  0.00     0.280 A 
+ATOM      6  O4  FMN d   1      -3.577  63.258  25.680  0.00  0.00    -0.265 OA
+ATOM      7  C4A FMN d   1      -2.378  61.919  24.154  0.00  0.00     0.146 A 
+ATOM      8  N5  FMN d   1      -3.410  61.741  23.336  0.00  0.00    -0.347 N 
+ATOM      9  C5A FMN d   1      -3.204  61.056  22.139  0.00  0.00     0.060 A 
+ATOM     10  C6  FMN d   1      -4.262  60.987  21.163  0.00  0.00    -0.049 A 
+ATOM     11  C7  FMN d   1      -4.028  60.408  19.918  0.00  0.00    -0.054 A 
+ATOM     12  C8  FMN d   1      -2.778  59.763  19.632  0.00  0.00    -0.054 A 
+ATOM     13  C9  FMN d   1      -1.755  59.792  20.579  0.00  0.00    -0.049 A 
+ATOM     14  C9A FMN d   1      -1.944  60.445  21.832  0.00  0.00     0.063 A 
+ATOM     15  N10 FMN d   1      -0.934  60.562  22.795  0.00  0.00    -0.327 N 
+ATOM     16  C10 FMN d   1      -1.057  61.352  23.927  0.00  0.00     0.145 A 
+ATOM     17  H1  FMN d   1       0.848  61.141  24.565  0.00  0.00     0.172 HD
+ATOM     18  H2  FMN d   1      -1.512  63.398  27.078  0.00  0.00     0.173 HD
+ATOM     19  H3  FMN d   1      -4.343  62.102  23.581  0.00  0.00     0.166 HD
+ATOM     20  H4  FMN d   1      -5.242  61.386  21.398  0.00  0.00     0.087 H 
+ATOM     21  H11 FMN d   1      -0.807  59.314  20.360  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH  15  22
+ATOM     22  C1  FMN d   1       0.282  59.813  22.553  0.00  0.00     0.028 C 
+ATOM     23  H12 FMN d   1       1.115  60.338  23.043  0.00  0.00     0.069 H 
+ATOM     24  H13 FMN d   1       0.457  59.779  21.468  0.00  0.00     0.069 H 
+BRANCH  22  25
+ATOM     25  C2  FMN d   1       0.242  58.375  23.080  0.00  0.00     0.078 C 
+ATOM     26  H14 FMN d   1      -0.575  57.839  22.575  0.00  0.00     0.089 H 
+BRANCH  25  27
+ATOM     27  O2  FMN d   1       0.023  58.315  24.491  0.00  0.00    -0.391 OA
+ATOM     28  H15 FMN d   1      -0.807  58.727  24.699  0.00  0.00     0.210 HD
+ENDBRANCH  25  27
+BRANCH  25  29
+ATOM     29  C3  FMN d   1       1.573  57.690  22.757  0.00  0.00     0.088 C 
+ATOM     30  H16 FMN d   1       2.350  58.403  23.069  0.00  0.00     0.091 H 
+BRANCH  29  31
+ATOM     31  O3  FMN d   1       1.703  57.524  21.338  0.00  0.00    -0.390 OA
+ATOM     32  H17 FMN d   1       0.987  56.988  21.016  0.00  0.00     0.210 HD
+ENDBRANCH  29  31
+BRANCH  29  33
+ATOM     33  C4  FMN d   1       1.913  56.379  23.482  0.00  0.00     0.084 C 
+ATOM     34  H18 FMN d   1       1.875  56.575  24.564  0.00  0.00     0.090 H 
+BRANCH  33  35
+ATOM     35  O4  FMN d   1       3.248  55.987  23.163  0.00  0.00    -0.391 OA
+ATOM     36  H19 FMN d   1       3.851  56.667  23.440  0.00  0.00     0.210 HD
+ENDBRANCH  33  35
+BRANCH  33  37
+ATOM     37  C5  FMN d   1       0.890  55.285  23.187  0.00  0.00     0.059 C 
+ATOM     38  H20 FMN d   1       0.980  54.962  22.139  0.00  0.00     0.079 H 
+ATOM     39  H21 FMN d   1      -0.126  55.665  23.368  0.00  0.00     0.079 H 
+BRANCH  37  40
+ATOM     40  O5  FMN d   1       1.159  54.179  24.062  0.00  0.00    -0.280 OA
+BRANCH  40  41
+ATOM     41  P   FMN d   1       0.559  52.883  23.794  0.00  0.00     0.422 P 
+ATOM     42  O1P FMN d   1       1.246  52.319  22.633  0.00  0.00    -0.617 OA
+ATOM     43  O2P FMN d   1      -0.914  52.930  23.738  0.00  0.00    -0.617 OA
+ATOM     44  O3P FMN d   1       0.977  52.067  24.916  0.00  0.00    -0.617 OA
+ENDBRANCH  40  41
+ENDBRANCH  37  40
+ENDBRANCH  33  37
+ENDBRANCH  29  33
+ENDBRANCH  25  29
+ENDBRANCH  22  25
+ENDBRANCH  15  22
+BRANCH  12  45
+ATOM     45  C8M FMN d   1      -2.570  59.088  18.304  0.00  0.00    -0.051 C 
+ATOM     46  H8  FMN d   1      -1.560  58.653  18.268  0.00  0.00     0.033 H 
+ATOM     47  H9  FMN d   1      -2.680  59.826  17.496  0.00  0.00     0.033 H 
+ATOM     48  H10 FMN d   1      -3.317  58.291  18.177  0.00  0.00     0.033 H 
+ENDBRANCH  12  45
+BRANCH  11  49
+ATOM     49  C7M FMN d   1      -5.058  60.477  18.849  0.00  0.00    -0.051 C 
+ATOM     50  H5  FMN d   1      -5.948  60.999  19.230  0.00  0.00     0.033 H 
+ATOM     51  H6  FMN d   1      -5.335  59.458  18.540  0.00  0.00     0.033 H 
+ATOM     52  H7  FMN d   1      -4.654  61.025  17.985  0.00  0.00     0.033 H 
+ENDBRANCH  11  49
+TORSDOF 12

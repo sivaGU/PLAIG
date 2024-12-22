@@ -1,0 +1,29 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CB_2 
+REMARK    2  A    between atoms: CB_2  and  CG_3 
+ROOT
+ATOM      1  CG  NON d   1      51.964  22.206  29.599  0.00  0.00    -0.033 A 
+ATOM      2  CD1 NON d   1      50.782  22.892  29.266  0.00  0.00    -0.074 A 
+ATOM      3  CE1 NON d   1      49.938  23.460  30.237  0.00  0.00    -0.061 A 
+ATOM      4  CZ  NON d   1      50.260  23.364  31.611  0.00  0.00     0.034 A 
+ATOM      5  CE2 NON d   1      51.406  22.726  32.004  0.00  0.00    -0.061 A 
+ATOM      6  CD2 NON d   1      52.332  22.108  30.925  0.00  0.00    -0.074 A 
+ATOM      7 CL   NON d   1      49.257  24.097  32.778  0.00  0.00    -0.084 Cl
+ATOM      8  H6  NON d   1      50.511  22.986  28.221  0.00  0.00     0.084 H 
+ATOM      9  H7  NON d   1      49.035  23.975  29.930  0.00  0.00     0.086 H 
+ATOM     10  H8  NON d   1      51.662  22.654  33.055  0.00  0.00     0.086 H 
+ATOM     11  H9  NON d   1      53.252  21.608  31.207  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  CB  NON d   1      52.881  21.654  28.566  0.00  0.00     0.103 C 
+ATOM     13  H4  NON d   1      53.051  20.597  28.819  0.00  0.00     0.082 H 
+ATOM     14  H5  NON d   1      52.356  21.720  27.602  0.00  0.00     0.082 H 
+BRANCH  12  15
+ATOM     15  N1  NON d   1      54.217  22.275  28.376  0.00  0.00    -0.075 N 
+ATOM     16  H1  NON d   1      54.712  21.789  27.645  0.00  0.00     0.274 HD
+ATOM     17  H2  NON d   1      54.741  22.214  29.235  0.00  0.00     0.274 HD
+ATOM     18  H3  NON d   1      54.104  23.243  28.119  0.00  0.00     0.274 HD
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 2

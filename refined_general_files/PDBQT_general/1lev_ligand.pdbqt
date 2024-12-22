@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_2  and  C12_4 
+REMARK    2  A    between atoms: C12_4  and  C6_5 
+REMARK    3  A    between atoms: C6_5  and  C2_6 
+REMARK    4  A    between atoms: C5_8  and  C11_9 
+ROOT
+ATOM      1  C2  CLI d   1       8.572 -29.450   4.672  0.00  0.00    -0.010 A 
+ATOM      2  C1  CLI d   1       9.344 -28.207   4.530  0.00  0.00     0.021 A 
+ATOM      3  C5  CLI d   1       7.384 -29.195   4.110  0.00  0.00     0.117 A 
+ATOM      4  N7  CLI d   1       7.323 -27.913   3.646  0.00  0.00    -0.349 N 
+ATOM      5  C3  CLI d   1       8.529 -27.269   3.894  0.00  0.00     0.047 A 
+ATOM      6  C8  CLI d   1       8.930 -25.942   3.658  0.00  0.00    -0.035 A 
+ATOM      7  C13 CLI d   1      10.219 -25.598   4.038  0.00  0.00     0.037 A 
+ATOM      8 CL17 CLI d   1      10.777 -23.981   3.789  0.00  0.00    -0.084 Cl
+ATOM      9  C9  CLI d   1      11.070 -26.512   4.705  0.00  0.00    -0.040 A 
+ATOM     10  C4  CLI d   1      10.611 -27.805   4.954  0.00  0.00     0.048 A 
+ATOM     11 CL10 CLI d   1      11.612 -28.976   5.751  0.00  0.00    -0.083 Cl
+ATOM     12  H5  CLI d   1       6.507 -27.488   3.183  0.00  0.00     0.166 HD
+ATOM     13  H6  CLI d   1       8.262 -25.221   3.200  0.00  0.00     0.089 H 
+ATOM     14  H7  CLI d   1      12.063 -26.211   5.017  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  C6  CLI d   1       9.070 -30.722   5.316  0.00  0.00    -0.029 C 
+ATOM     16  H3  CLI d   1      10.036 -30.996   4.866  0.00  0.00     0.041 H 
+ATOM     17  H4  CLI d   1       9.203 -30.548   6.394  0.00  0.00     0.041 H 
+BRANCH  15  18
+ATOM     18  C12 CLI d   1       8.098 -31.858   5.119  0.00  0.00     0.019 C 
+ATOM     19  H1  CLI d   1       7.096 -31.462   5.342  0.00  0.00     0.049 H 
+ATOM     20  H2  CLI d   1       8.152 -32.143   4.058  0.00  0.00     0.049 H 
+BRANCH  18  21
+ATOM     21  C16 CLI d   1       8.258 -33.160   5.941  0.00  0.00     0.172 C 
+ATOM     22  O19 CLI d   1       9.336 -33.758   6.159  0.00  0.00    -0.648 OA
+ATOM     23  O18 CLI d   1       7.144 -33.730   6.442  0.00  0.00    -0.648 OA
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   1  15
+BRANCH   3  24
+ATOM     24  C11 CLI d   1       6.179 -30.040   3.915  0.00  0.00     0.227 C 
+ATOM     25  O14 CLI d   1       6.060 -31.279   4.350  0.00  0.00    -0.643 OA
+ATOM     26  O15 CLI d   1       5.205 -29.504   3.386  0.00  0.00    -0.643 OA
+ENDBRANCH   3  24
+TORSDOF 4

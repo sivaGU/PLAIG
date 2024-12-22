@@ -1,0 +1,82 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C5_7  and  C6_8 
+REMARK    5  A    between atoms: C6_8  and  O6_9 
+REMARK    6  A    between atoms: C1_11  and  SAY_12 
+REMARK    7  A    between atoms: SAY_12  and  NAW_15 
+REMARK    8  A    between atoms: CAQ_20  and  OAP_21 
+REMARK    9  A    between atoms: OAP_21  and  SAX_22 
+REMARK   10  A    between atoms: SAX_22  and  NAA_25 
+ROOT
+ATOM      1  SAY 3J3 d   1      -0.349   7.633  84.187  0.00  0.00     0.258 S 
+ATOM      2  OAD 3J3 d   1      -1.324   8.222  85.107  0.00  0.00    -0.203 OA
+ATOM      3  OAE 3J3 d   1       0.947   7.712  84.758  0.00  0.00    -0.203 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  3J3 d   1      -0.552   8.976  83.128  0.00  0.00     0.180 C 
+ATOM      5  C2  3J3 d   1      -1.416   8.697  81.983  0.00  0.00     0.102 C 
+ATOM      6  C3  3J3 d   1      -0.933   9.169  80.716  0.00  0.00     0.091 C 
+ATOM      7  H   3J3 d   1      -2.296   9.334  82.154  0.00  0.00     0.092 H 
+ATOM      8  C4  3J3 d   1       0.069  10.270  80.664  0.00  0.00     0.089 C 
+ATOM      9  H   3J3 d   1      -0.470   8.300  80.226  0.00  0.00     0.091 H 
+ATOM     10  C5  3J3 d   1       0.975  10.501  81.892  0.00  0.00     0.087 C 
+ATOM     11  H   3J3 d   1       0.799   9.831  79.969  0.00  0.00     0.091 H 
+ATOM     12  O5  3J3 d   1       0.708   9.653  83.090  0.00  0.00    -0.356 OA
+ATOM     13  H   3J3 d   1       1.941  10.132  81.517  0.00  0.00     0.090 H 
+ATOM     14  H   3J3 d   1      -1.178   9.683  83.692  0.00  0.00     0.115 H 
+BRANCH   5  15
+ATOM     15  O2  3J3 d   1      -1.958   7.350  82.056  0.00  0.00    -0.389 OA
+ATOM     16  H   3J3 d   1      -2.238   7.170  82.946  0.00  0.00     0.210 HD
+ENDBRANCH   5  15
+BRANCH   6  17
+ATOM     17  O3  3J3 d   1      -2.042   9.609  79.923  0.00  0.00    -0.390 OA
+ATOM     18  H   3J3 d   1      -2.640   8.883  79.787  0.00  0.00     0.210 HD
+ENDBRANCH   6  17
+BRANCH   8  19
+ATOM     19  O4  3J3 d   1      -0.304  11.402  79.955  0.00  0.00    -0.390 OA
+ATOM     20  H   3J3 d   1      -1.086  11.775  80.345  0.00  0.00     0.210 HD
+ENDBRANCH   8  19
+BRANCH  10  21
+ATOM     21  C6  3J3 d   1       1.286  11.776  82.343  0.00  0.00     0.043 C 
+ATOM     22  H   3J3 d   1       0.501  12.209  82.981  0.00  0.00     0.078 H 
+ATOM     23  H   3J3 d   1       1.522  12.474  81.526  0.00  0.00     0.078 H 
+BRANCH  21  24
+ATOM     24  O6  3J3 d   1       2.426  11.375  83.070  0.00  0.00    -0.398 OA
+ATOM     25  H   3J3 d   1       2.171  10.746  83.735  0.00  0.00     0.209 HD
+ENDBRANCH  21  24
+ENDBRANCH  10  21
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  NAW 3J3 d   1      -0.763   6.274  83.915  0.00  0.00    -0.308 N 
+ATOM     27  CAN 3J3 d   1      -2.026   5.768  84.315  0.00  0.00     0.007 C 
+ATOM     28  CAL 3J3 d   1      -2.117   4.486  85.141  0.00  0.00    -0.024 C 
+ATOM     29  H   3J3 d   1      -2.602   5.592  83.394  0.00  0.00     0.065 H 
+ATOM     30  H   3J3 d   1      -2.511   6.559  84.906  0.00  0.00     0.065 H 
+ATOM     31  CAQ 3J3 d   1      -0.895   3.964  85.512  0.00  0.00     0.062 C 
+ATOM     32  H   3J3 d   1      -2.649   3.729  84.546  0.00  0.00     0.039 H 
+ATOM     33  H   3J3 d   1      -2.690   4.704  86.054  0.00  0.00     0.039 H 
+ATOM     34  CAK 3J3 d   1       0.190   4.033  84.593  0.00  0.00    -0.024 C 
+ATOM     35  H   3J3 d   1      -0.604   4.688  86.287  0.00  0.00     0.085 H 
+ATOM     36  CAM 3J3 d   1       0.253   5.295  83.772  0.00  0.00     0.007 C 
+ATOM     37  H   3J3 d   1       1.126   3.951  85.165  0.00  0.00     0.039 H 
+ATOM     38  H   3J3 d   1       0.106   3.181  83.902  0.00  0.00     0.039 H 
+ATOM     39  H   3J3 d   1       1.207   5.787  84.014  0.00  0.00     0.065 H 
+ATOM     40  H   3J3 d   1       0.256   4.989  82.715  0.00  0.00     0.065 H 
+BRANCH  31  41
+ATOM     41  OAP 3J3 d   1      -0.783   2.658  86.240  0.00  0.00    -0.254 OA
+BRANCH  41  42
+ATOM     42  SAX 3J3 d   1      -1.574   1.565  86.707  0.00  0.00     0.355 S 
+ATOM     43  OAB 3J3 d   1      -1.521   1.433  87.943  0.00  0.00    -0.176 OA
+ATOM     44  OAC 3J3 d   1      -2.894   1.708  86.335  0.00  0.00    -0.176 OA
+BRANCH  42  45
+ATOM     45  NAA 3J3 d   1      -1.066   0.363  86.030  0.00  0.00    -0.306 N 
+ATOM     46  H   3J3 d   1      -1.482  -0.528  86.213  0.00  0.00     0.171 HD
+ATOM     47  H   3J3 d   1      -0.304   0.436  85.386  0.00  0.00     0.171 HD
+ENDBRANCH  42  45
+ENDBRANCH  41  42
+ENDBRANCH  31  41
+ENDBRANCH   1  26
+TORSDOF 10

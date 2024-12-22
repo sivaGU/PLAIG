@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK       I    between atoms: C1_1  and  N2_3 
+REMARK    2  A    between atoms: C2_2  and  O1P_6 
+REMARK    3  A    between atoms: N2_3  and  O2_4 
+REMARK    4  A    between atoms: O1P_6  and  P_10 
+ROOT
+ATOM      1  C2  PGH d   1       1.977   2.725   5.967  0.00  0.00     0.107 C 
+ATOM      2  H1  PGH d   1       2.681   2.973   6.775  0.00  0.00     0.090 H 
+ATOM      3  H2  PGH d   1       1.026   2.384   6.402  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  PGH d   1       2.570   1.610   5.097  0.00  0.00     0.265 C 
+ATOM      5  N2  PGH d   1       2.948   0.338   5.700  0.00  0.00    -0.236 N 
+ATOM      6  H3  PGH d   1       2.349  -0.093   6.374  0.00  0.00     0.197 HD
+ATOM      7  O1  PGH d   1       2.721   1.783   3.932  0.00  0.00    -0.269 OA
+BRANCH   5   8
+ATOM      8  O2  PGH d   1       4.154  -0.282   5.334  0.00  0.00    -0.287 OA
+ATOM      9  H4  PGH d   1       4.249  -1.096   5.815  0.00  0.00     0.244 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   4
+BRANCH   1  10
+ATOM     10  O1P PGH d   1       1.749   3.865   5.178  0.00  0.00    -0.273 OA
+BRANCH  10  11
+ATOM     11  P   PGH d   1       1.187   5.251   5.887  0.00  0.00     0.422 P 
+ATOM     12  O2P PGH d   1       0.231   6.068   4.818  0.00  0.00    -0.617 OA
+ATOM     13  O3P PGH d   1       0.306   4.864   7.228  0.00  0.00    -0.617 OA
+ATOM     14  O4P PGH d   1       2.318   6.095   6.273  0.00  0.00    -0.617 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 4

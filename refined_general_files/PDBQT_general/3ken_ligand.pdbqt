@@ -1,0 +1,76 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CB_3  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  C_4 
+REMARK    4  A    between atoms: SG_7  and  CB_3 
+REMARK    5  A    between atoms: CAZ_14  and  SG_7 
+REMARK    6  A    between atoms: CAV_13  and  CAZ_14 
+REMARK    7  A    between atoms: CAZ_14  and  CAX_15 
+REMARK    8  A    between atoms: CAZ_14  and  CAW_21 
+ROOT
+ATOM      1  CAZ ZZD d   1     -24.203 -12.665  72.258  0.00  0.00     0.089 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  SG  ZZD d   1     -23.038 -11.449  71.530  0.00  0.00    -0.141 SA
+BRANCH   2   3
+ATOM      3  CB  ZZD d   1     -21.408 -11.912  72.226  0.00  0.00     0.014 C 
+ATOM      4  H   ZZD d   1     -21.518 -11.982  73.308  0.00  0.00     0.052 H 
+ATOM      5  H   ZZD d   1     -21.106 -12.852  71.765  0.00  0.00     0.052 H 
+BRANCH   3   6
+ATOM      6  CA  ZZD d   1     -20.315 -10.879  71.935  0.00  0.00     0.190 C 
+ATOM      7  H   ZZD d   1     -20.632  -9.912  72.325  0.00  0.00     0.102 H 
+BRANCH   6   8
+ATOM      8  N   ZZD d   1     -20.106 -10.783  70.483  0.00  0.00    -0.065 N 
+ATOM      9  H   ZZD d   1     -20.982 -10.518  70.031  0.00  0.00     0.275 HD
+ATOM     10  H   ZZD d   1     -19.395 -10.078  70.289  0.00  0.00     0.275 HD
+ATOM     11  H   ZZD d   1     -19.797 -11.687  70.125  0.00  0.00     0.275 HD
+ENDBRANCH   6   8
+BRANCH   6  12
+ATOM     12  C   ZZD d   1     -19.005 -11.276  72.620  0.00  0.00     0.205 C 
+ATOM     13  O   ZZD d   1     -19.022 -11.395  73.865  0.00  0.00    -0.646 OA
+ATOM     14  OXT ZZD d   1     -18.006 -11.442  71.888  0.00  0.00    -0.646 OA
+ENDBRANCH   6  12
+ENDBRANCH   3   6
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  CAV ZZD d   1     -24.406 -12.368  73.754  0.00  0.00    -0.030 A 
+ATOM     16  CAM ZZD d   1     -25.131 -13.222  74.577  0.00  0.00    -0.075 A 
+ATOM     17  CAG ZZD d   1     -25.372 -12.893  75.911  0.00  0.00    -0.082 A 
+ATOM     18  H   ZZD d   1     -25.516 -14.159  74.175  0.00  0.00     0.084 H 
+ATOM     19  CAD ZZD d   1     -24.885 -11.701  76.427  0.00  0.00    -0.083 A 
+ATOM     20  H   ZZD d   1     -25.942 -13.571  76.546  0.00  0.00     0.083 H 
+ATOM     21  CAH ZZD d   1     -24.157 -10.835  75.613  0.00  0.00    -0.082 A 
+ATOM     22  H   ZZD d   1     -25.072 -11.442  77.469  0.00  0.00     0.083 H 
+ATOM     23  CAN ZZD d   1     -23.923 -11.172  74.286  0.00  0.00    -0.075 A 
+ATOM     24  H   ZZD d   1     -23.773  -9.898  76.016  0.00  0.00     0.083 H 
+ATOM     25  H   ZZD d   1     -23.354 -10.493  73.651  0.00  0.00     0.084 H 
+ENDBRANCH   1  15
+BRANCH   1  26
+ATOM     26  CAX ZZD d   1     -23.629 -14.059  71.963  0.00  0.00    -0.030 A 
+ATOM     27  CAQ ZZD d   1     -23.627 -14.544  70.655  0.00  0.00    -0.075 A 
+ATOM     28  CAK ZZD d   1     -23.047 -15.771  70.349  0.00  0.00    -0.082 A 
+ATOM     29  H   ZZD d   1     -24.086 -13.954  69.862  0.00  0.00     0.084 H 
+ATOM     30  CAF ZZD d   1     -22.459 -16.532  71.355  0.00  0.00    -0.083 A 
+ATOM     31  H   ZZD d   1     -23.053 -16.136  69.322  0.00  0.00     0.083 H 
+ATOM     32  CAL ZZD d   1     -22.453 -16.059  72.663  0.00  0.00    -0.082 A 
+ATOM     33  H   ZZD d   1     -22.005 -17.494  71.119  0.00  0.00     0.083 H 
+ATOM     34  CAR ZZD d   1     -23.036 -14.831  72.960  0.00  0.00    -0.075 A 
+ATOM     35  H   ZZD d   1     -21.992 -16.650  73.455  0.00  0.00     0.083 H 
+ATOM     36  H   ZZD d   1     -23.029 -14.468  73.988  0.00  0.00     0.084 H 
+ENDBRANCH   1  26
+BRANCH   1  37
+ATOM     37  CAW ZZD d   1     -25.569 -12.459  71.586  0.00  0.00    -0.030 A 
+ATOM     38  CAO ZZD d   1     -26.560 -13.441  71.628  0.00  0.00    -0.075 A 
+ATOM     39  CAI ZZD d   1     -27.817 -13.207  71.085  0.00  0.00    -0.082 A 
+ATOM     40  H   ZZD d   1     -26.345 -14.403  72.093  0.00  0.00     0.084 H 
+ATOM     41  CAE ZZD d   1     -28.102 -11.982  70.485  0.00  0.00    -0.083 A 
+ATOM     42  H   ZZD d   1     -28.581 -13.983  71.128  0.00  0.00     0.083 H 
+ATOM     43  CAJ ZZD d   1     -27.122 -11.000  70.434  0.00  0.00    -0.082 A 
+ATOM     44  H   ZZD d   1     -29.088 -11.796  70.059  0.00  0.00     0.083 H 
+ATOM     45  CAP ZZD d   1     -25.863 -11.241  70.982  0.00  0.00    -0.075 A 
+ATOM     46  H   ZZD d   1     -27.337 -10.040  69.965  0.00  0.00     0.083 H 
+ATOM     47  H   ZZD d   1     -25.099 -10.465  70.937  0.00  0.00     0.084 H 
+ENDBRANCH   1  37
+TORSDOF 8

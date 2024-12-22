@@ -1,0 +1,72 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_4  and  N17_20 
+REMARK    2  A    between atoms: C20_8  and  C21_9 
+REMARK    3  A    between atoms: C20_8  and  C22_10 
+REMARK    4  A    between atoms: C20_8  and  C23_11 
+REMARK    5  A    between atoms: C19_12  and  C20_8 
+REMARK    6  A    between atoms: C18_13  and  C19_12 
+REMARK    7  A    between atoms: C12_14  and  C18_13 
+REMARK    8  A    between atoms: C11_17  and  C1_18 
+ROOT
+ATOM      1  C13 RTH d   1      72.558  49.858  12.971  0.00  0.00    -0.064 A 
+ATOM      2  C15 RTH d   1      70.807  51.100  14.101  0.00  0.00    -0.082 A 
+ATOM      3  C12 RTH d   1      71.742  49.779  11.836  0.00  0.00     0.028 A 
+ATOM      4  C14 RTH d   1      72.079  50.520  14.106  0.00  0.00    -0.082 A 
+ATOM      5  C16 RTH d   1      69.992  51.032  12.967  0.00  0.00    -0.071 A 
+ATOM      6  C11 RTH d   1      70.467  50.364  11.829  0.00  0.00    -0.007 A 
+ATOM      7  H   RTH d   1      73.552  49.410  12.970  0.00  0.00     0.085 H 
+ATOM      8  H   RTH d   1      70.446  51.612  14.993  0.00  0.00     0.083 H 
+ATOM      9  H   RTH d   1      72.701  50.584  14.999  0.00  0.00     0.083 H 
+ATOM     10  H   RTH d   1      69.003  51.491  12.967  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C1  RTH d   1      69.701  50.239  10.659  0.00  0.00    -0.024 A 
+ATOM     12  C4  RTH d   1      69.235  48.980  10.275  0.00  0.00    -0.060 A 
+ATOM     13  C5  RTH d   1      68.508  48.810   9.112  0.00  0.00    -0.006 A 
+ATOM     14  H   RTH d   1      69.448  48.116  10.904  0.00  0.00     0.086 H 
+ATOM     15  C6  RTH d   1      68.204  49.915   8.322  0.00  0.00     0.069 A 
+ATOM     16  C10 RTH d   1      68.046  47.547   8.734  0.00  0.00    -0.067 A 
+ATOM     17  N7  RTH d   1      67.476  49.772   7.195  0.00  0.00    -0.231 NA
+ATOM     18  C3  RTH d   1      68.651  51.171   8.709  0.00  0.00    -0.053 A 
+ATOM     19  C8  RTH d   1      67.010  48.560   6.811  0.00  0.00     0.121 A 
+ATOM     20  C9  RTH d   1      67.285  47.417   7.570  0.00  0.00    -0.038 A 
+ATOM     21  H   RTH d   1      66.912  46.442   7.258  0.00  0.00     0.089 H 
+ATOM     22  C2  RTH d   1      69.403  51.343   9.870  0.00  0.00    -0.070 A 
+ATOM     23  H   RTH d   1      68.410  52.038   8.094  0.00  0.00     0.087 H 
+ATOM     24  H   RTH d   1      69.754  52.334  10.156  0.00  0.00     0.084 H 
+ATOM     25  H   RTH d   1      68.277  46.672   9.341  0.00  0.00     0.085 H 
+BRANCH  19  26
+ATOM     26  N17 RTH d   1      66.295  48.454   5.692  0.00  0.00    -0.384 N 
+ATOM     27  H   RTH d   1      66.102  49.283   5.130  0.00  0.00     0.157 HD
+ATOM     28  H   RTH d   1      65.941  47.544   5.397  0.00  0.00     0.157 HD
+ENDBRANCH  19  26
+ENDBRANCH   6  11
+BRANCH   3  29
+ATOM     29  C18 RTH d   1      72.122  49.135  10.604  0.00  0.00    -0.065 C 
+BRANCH  29  30
+ATOM     30  C19 RTH d   1      72.412  48.578   9.504  0.00  0.00    -0.092 C 
+BRANCH  30  31
+ATOM     31  C20 RTH d   1      72.787  47.917   8.225  0.00  0.00     0.013 C 
+BRANCH  31  32
+ATOM     32  C21 RTH d   1      72.234  48.755   7.054  0.00  0.00    -0.059 C 
+ATOM     33  H   RTH d   1      72.486  48.270   6.111  0.00  0.00     0.029 H 
+ATOM     34  H   RTH d   1      71.151  48.834   7.146  0.00  0.00     0.029 H 
+ATOM     35  H   RTH d   1      72.676  49.751   7.081  0.00  0.00     0.029 H 
+ENDBRANCH  31  32
+BRANCH  31  36
+ATOM     36  C22 RTH d   1      72.157  46.529   8.170  0.00  0.00    -0.059 C 
+ATOM     37  H   RTH d   1      71.074  46.619   8.256  0.00  0.00     0.029 H 
+ATOM     38  H   RTH d   1      72.409  46.054   7.222  0.00  0.00     0.029 H 
+ATOM     39  H   RTH d   1      72.539  45.925   8.993  0.00  0.00     0.029 H 
+ENDBRANCH  31  36
+BRANCH  31  40
+ATOM     40  C23 RTH d   1      74.322  47.877   8.190  0.00  0.00    -0.059 C 
+ATOM     41  H   RTH d   1      74.651  47.431   7.252  0.00  0.00     0.029 H 
+ATOM     42  H   RTH d   1      74.713  48.892   8.268  0.00  0.00     0.029 H 
+ATOM     43  H   RTH d   1      74.688  47.280   9.026  0.00  0.00     0.029 H 
+ENDBRANCH  31  40
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   3  29
+TORSDOF 8

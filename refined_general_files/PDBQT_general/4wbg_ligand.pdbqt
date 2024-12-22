@@ -1,0 +1,93 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C18_12  and  C7_1 
+REMARK    2  A    between atoms: N14_8  and  O11_5 
+REMARK    3  A    between atoms: O11_5  and  C23_17 
+REMARK    4  A    between atoms: N12_6  and  S17_11 
+REMARK    5  A    between atoms: C18_12  and  N12_6 
+REMARK    6  A    between atoms: N13_7  and  C19_13 
+REMARK       I    between atoms: C21_15  and  N13_7 
+REMARK    7  A    between atoms: C26_20  and  N16_10 
+REMARK    8  A    between atoms: C19_13  and  C18_12 
+REMARK    9  A    between atoms: C19_13  and  C20_14 
+REMARK   10  A    between atoms: C22_16  and  C21_15 
+REMARK   11  A    between atoms: C22_16  and  C24_18 
+REMARK   12  A    between atoms: C23_17  and  C27_21 
+REMARK   13  A    between atoms: C23_17  and  C28_22 
+REMARK   14  A    between atoms: C23_17  and  C29_23 
+ROOT
+ATOM      1  N14 AZR d   1      19.570 -10.519  21.242  0.00  0.00    -0.125 NA
+ATOM      2  C22 AZR d   1      19.771 -10.133  20.039  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C21 AZR d   1      18.756  -9.377  19.316  0.00  0.00     0.275 C 
+ATOM      4  O10 AZR d   1      18.173  -9.928  18.411  0.00  0.00    -0.266 OA
+ATOM      5  N13 AZR d   1      18.527  -8.127  19.728  0.00  0.00    -0.343 N 
+ATOM      6  H5  AZR d   1      19.151  -7.770  20.423  0.00  0.00     0.163 HD
+BRANCH   5   7
+ATOM      7  C19 AZR d   1      17.476  -7.224  19.284  0.00  0.00     0.082 C 
+ATOM      8  H9  AZR d   1      16.832  -7.736  18.554  0.00  0.00     0.086 H 
+BRANCH   7   9
+ATOM      9  C18 AZR d   1      16.693  -6.730  20.504  0.00  0.00     0.044 C 
+ATOM     10  H8  AZR d   1      17.395  -6.613  21.342  0.00  0.00     0.076 H 
+BRANCH   9  11
+ATOM     11  C7  AZR d   1      15.595  -7.693  20.969  0.00  0.00    -0.054 C 
+ATOM     12  H1  AZR d   1      16.044  -8.664  21.226  0.00  0.00     0.030 H 
+ATOM     13  H2  AZR d   1      14.861  -7.830  20.161  0.00  0.00     0.030 H 
+ATOM     14  H3  AZR d   1      15.092  -7.276  21.854  0.00  0.00     0.030 H 
+ENDBRANCH   9  11
+BRANCH   9  15
+ATOM     15  N12 AZR d   1      16.170  -5.401  20.140  0.00  0.00    -0.294 N 
+ATOM     16  H4  AZR d   1      15.907  -5.183  19.200  0.00  0.00     0.175 HD
+BRANCH  15  17
+ATOM     17  S17 AZR d   1      16.045  -4.351  21.283  0.00  0.00     0.204 S 
+ATOM     18  O32 AZR d   1      15.169  -3.297  20.876  0.00  0.00    -0.578 OA
+ATOM     19  O33 AZR d   1      15.430  -5.099  22.607  0.00  0.00    -0.578 OA
+ATOM     20  O34 AZR d   1      17.355  -3.845  21.645  0.00  0.00    -0.578 OA
+ENDBRANCH  15  17
+ENDBRANCH   9  15
+ENDBRANCH   7   9
+BRANCH   7  21
+ATOM     21  C20 AZR d   1      17.980  -5.939  18.748  0.00  0.00     0.112 C 
+ATOM     22  O9  AZR d   1      19.027  -5.428  19.162  0.00  0.00    -0.305 OA
+ATOM     23  H10 AZR d   1      17.414  -5.431  17.969  0.00  0.00     0.146 H 
+ENDBRANCH   7  21
+ENDBRANCH   5   7
+ENDBRANCH   2   3
+BRANCH   2  24
+ATOM     24  C24 AZR d   1      21.081 -10.408  19.396  0.00  0.00     0.102 A 
+ATOM     25  N15 AZR d   1      22.086 -11.086  20.022  0.00  0.00    -0.222 NA
+ATOM     26  C26 AZR d   1      23.186 -11.194  19.248  0.00  0.00     0.164 A 
+ATOM     27  S8  AZR d   1      23.084 -10.443  17.692  0.00  0.00    -0.062 SA
+ATOM     28  C25 AZR d   1      21.458  -9.971  18.127  0.00  0.00    -0.011 A 
+ATOM     29  H11 AZR d   1      20.806  -9.394  17.473  0.00  0.00     0.098 H 
+BRANCH  26  30
+ATOM     30  N16 AZR d   1      24.307 -11.839  19.669  0.00  0.00    -0.378 N 
+ATOM     31  H6  AZR d   1      24.331 -12.274  20.602  0.00  0.00     0.158 HD
+ATOM     32  H7  AZR d   1      25.132 -11.892  19.055  0.00  0.00     0.158 HD
+ENDBRANCH  26  30
+ENDBRANCH   2  24
+BRANCH   1  33
+ATOM     33  O11 AZR d   1      18.524 -10.347  21.948  0.00  0.00    -0.234 OA
+BRANCH  33  34
+ATOM     34  C23 AZR d   1      18.404 -10.868  23.302  0.00  0.00     0.171 C 
+BRANCH  34  35
+ATOM     35  C27 AZR d   1      19.464 -10.240  24.224  0.00  0.00    -0.036 C 
+ATOM     36  H12 AZR d   1      19.354 -10.648  25.240  0.00  0.00     0.032 H 
+ATOM     37  H13 AZR d   1      19.327  -9.149  24.250  0.00  0.00     0.032 H 
+ATOM     38  H14 AZR d   1      20.468 -10.475  23.841  0.00  0.00     0.032 H 
+ENDBRANCH  34  35
+BRANCH  34  39
+ATOM     39  C28 AZR d   1      17.005 -10.512  23.831  0.00  0.00    -0.036 C 
+ATOM     40  H15 AZR d   1      16.892 -10.897  24.855  0.00  0.00     0.032 H 
+ATOM     41  H16 AZR d   1      16.241 -10.966  23.182  0.00  0.00     0.032 H 
+ATOM     42  H17 AZR d   1      16.881  -9.419  23.834  0.00  0.00     0.032 H 
+ENDBRANCH  34  39
+BRANCH  34  43
+ATOM     43  C29 AZR d   1      18.538 -12.396  23.258  0.00  0.00     0.211 C 
+ATOM     44  O30 AZR d   1      17.585 -13.060  22.775  0.00  0.00    -0.646 OA
+ATOM     45  O31 AZR d   1      19.578 -12.968  23.685  0.00  0.00    -0.646 OA
+ENDBRANCH  34  43
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 14

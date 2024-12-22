@@ -1,0 +1,81 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAN_9  and  NAM_10 
+REMARK    2  A    between atoms: NAM_10  and  CAL_11 
+REMARK    3  A    between atoms: CAL_11  and  CAI_12 
+REMARK    4  A    between atoms: CAI_12  and  OAH_13 
+REMARK    5  A    between atoms: CAI_12  and  CAJ_14 
+REMARK    6  A    between atoms: CAJ_14  and  OAK_15 
+REMARK    7  A    between atoms: OAK_15  and  CAF_16 
+REMARK    8  A    between atoms: CAB_18  and  CAA_19 
+REMARK    9  A    between atoms: CAC_20  and  CAW_21 
+ROOT
+ATOM      1  CAI 38F d   1      37.724  20.624  23.188  0.00  0.00     0.079 C 
+ATOM      2  H   38F d   1      37.350  21.356  22.457  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAL 38F d   1      38.647  21.433  24.105  0.00  0.00     0.107 C 
+ATOM      4  H   38F d   1      39.517  20.806  24.350  0.00  0.00     0.079 H 
+ATOM      5  H   38F d   1      38.981  22.323  23.551  0.00  0.00     0.079 H 
+BRANCH   3   6
+ATOM      6  NAM 38F d   1      38.037  21.889  25.381  0.00  0.00    -0.068 N 
+ATOM      7  H   38F d   1      37.160  22.357  25.213  0.00  0.00     0.277 HD
+ATOM      8  H   38F d   1      37.889  21.112  26.006  0.00  0.00     0.277 HD
+BRANCH   6   9
+ATOM      9  CAN 38F d   1      39.041  22.831  25.938  0.00  0.00     0.109 C 
+ATOM     10  CAO 38F d   1      38.588  23.402  27.277  0.00  0.00    -0.014 C 
+ATOM     11  CAP 38F d   1      39.293  24.761  27.381  0.00  0.00    -0.050 A 
+ATOM     12  H   38F d   1      37.496  23.530  27.294  0.00  0.00     0.043 H 
+ATOM     13  H   38F d   1      38.893  22.743  28.103  0.00  0.00     0.043 H 
+ATOM     14  CAS 38F d   1      39.546  25.594  28.460  0.00  0.00    -0.076 A 
+ATOM     15  CAQ 38F d   1      39.702  25.152  26.119  0.00  0.00    -0.050 A 
+ATOM     16  CAT 38F d   1      40.230  26.819  28.280  0.00  0.00    -0.082 A 
+ATOM     17  H   38F d   1      39.217  25.304  29.451  0.00  0.00     0.084 H 
+ATOM     18  CAU 38F d   1      40.691  27.168  27.034  0.00  0.00    -0.082 A 
+ATOM     19  H   38F d   1      40.390  27.481  29.123  0.00  0.00     0.083 H 
+ATOM     20  CAV 38F d   1      40.400  26.341  25.956  0.00  0.00    -0.076 A 
+ATOM     21  H   38F d   1      41.272  28.073  26.894  0.00  0.00     0.083 H 
+ATOM     22  H   38F d   1      40.726  26.631  24.964  0.00  0.00     0.084 H 
+ATOM     23  CAR 38F d   1      39.268  24.079  25.122  0.00  0.00    -0.014 C 
+ATOM     24  H   38F d   1      40.056  23.910  24.374  0.00  0.00     0.043 H 
+ATOM     25  H   38F d   1      38.339  24.380  24.615  0.00  0.00     0.043 H 
+ATOM     26  H   38F d   1      39.989  22.286  26.053  0.00  0.00     0.085 H 
+ENDBRANCH   6   9
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  27
+ATOM     27  OAH 38F d   1      36.613  20.079  23.748  0.00  0.00    -0.392 OA
+ATOM     28  H   38F d   1      36.070  20.770  24.109  0.00  0.00     0.210 HD
+ENDBRANCH   1  27
+BRANCH   1  29
+ATOM     29  CAJ 38F d   1      38.477  19.544  22.367  0.00  0.00     0.051 C 
+ATOM     30  H   38F d   1      39.530  19.551  22.686  0.00  0.00     0.079 H 
+ATOM     31  H   38F d   1      38.413  19.822  21.305  0.00  0.00     0.079 H 
+BRANCH  29  32
+ATOM     32  OAK 38F d   1      37.967  18.152  22.506  0.00  0.00    -0.349 OA
+BRANCH  32  33
+ATOM     33  CAF 38F d   1      38.509  17.349  21.463  0.00  0.00     0.069 A 
+ATOM     34  CAG 38F d   1      38.092  16.027  21.313  0.00  0.00    -0.045 A 
+ATOM     35  CAB 38F d   1      38.617  15.246  20.254  0.00  0.00    -0.053 A 
+ATOM     36  H   38F d   1      37.372  15.600  22.001  0.00  0.00     0.088 H 
+ATOM     37  CAC 38F d   1      39.594  15.756  19.359  0.00  0.00    -0.056 A 
+ATOM     38  CAD 38F d   1      40.014  17.072  19.505  0.00  0.00    -0.074 A 
+ATOM     39  CAE 38F d   1      39.465  17.843  20.531  0.00  0.00    -0.050 A 
+ATOM     40  H   38F d   1      40.755  17.493  18.834  0.00  0.00     0.084 H 
+ATOM     41  H   38F d   1      39.784  18.875  20.623  0.00  0.00     0.087 H 
+BRANCH  35  42
+ATOM     42  CAA 38F d   1      38.131  13.799  20.134  0.00  0.00    -0.051 C 
+ATOM     43  H   38F d   1      37.380  13.599  20.913  0.00  0.00     0.033 H 
+ATOM     44  H   38F d   1      38.983  13.114  20.261  0.00  0.00     0.033 H 
+ATOM     45  H   38F d   1      37.681  13.644  19.142  0.00  0.00     0.033 H 
+ENDBRANCH  35  42
+BRANCH  37  46
+ATOM     46  CAW 38F d   1      40.195  14.927  18.211  0.00  0.00    -0.051 C 
+ATOM     47  H   38F d   1      40.926  15.538  17.661  0.00  0.00     0.033 H 
+ATOM     48  H   38F d   1      39.393  14.612  17.527  0.00  0.00     0.033 H 
+ATOM     49  H   38F d   1      40.696  14.039  18.623  0.00  0.00     0.033 H 
+ENDBRANCH  37  46
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 9

@@ -1,0 +1,56 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C13_2  and  N4_3 
+REMARK    1  A    between atoms: C13_2  and  C11_4 
+REMARK    2  A    between atoms: C11_4  and  C12_5 
+REMARK    3  A    between atoms: C11_4  and  S_6 
+REMARK    4  A    between atoms: S_6  and  C6_7 
+REMARK    5  A    between atoms: N3_10  and  C2_17 
+ROOT
+ATOM      1  C6  DUK d   1     -27.698 -10.117  52.785  0.00  0.00     0.172 A 
+ATOM      2  N1  DUK d   1     -26.463 -10.222  53.201  0.00  0.00    -0.204 NA
+ATOM      3  C9  DUK d   1     -25.425  -9.605  52.360  0.00  0.00     0.171 A 
+ATOM      4  N3  DUK d   1     -24.097  -9.565  52.484  0.00  0.00    -0.215 N 
+ATOM      5  N2  DUK d   1     -23.597  -8.911  51.517  0.00  0.00    -0.177 NA
+ATOM      6  C10 DUK d   1     -24.553  -8.498  50.655  0.00  0.00     0.041 A 
+ATOM      7  C8  DUK d   1     -25.725  -8.955  51.197  0.00  0.00     0.099 A 
+ATOM      8  C7  DUK d   1     -27.110  -8.832  50.739  0.00  0.00     0.263 A 
+ATOM      9  O   DUK d   1     -27.458  -8.243  49.712  0.00  0.00    -0.267 OA
+ATOM     10  N   DUK d   1     -28.034  -9.445  51.592  0.00  0.00    -0.301 N 
+ATOM     11  H7  DUK d   1     -24.421  -7.929  49.736  0.00  0.00     0.119 H 
+ATOM     12  H8  DUK d   1     -29.000  -9.404  51.338  0.00  0.00     0.171 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  S   DUK d   1     -28.995 -10.803  53.682  0.00  0.00    -0.078 SA
+BRANCH  13  14
+ATOM     14  C11 DUK d   1     -28.399 -11.905  55.027  0.00  0.00     0.072 C 
+ATOM     15  H3  DUK d   1     -27.893 -12.757  54.549  0.00  0.00     0.071 H 
+BRANCH  14  16
+ATOM     16  C13 DUK d   1     -27.415 -11.253  55.987  0.00  0.00     0.229 C 
+ATOM     17  O1  DUK d   1     -26.727 -11.961  56.679  0.00  0.00    -0.272 OA
+ATOM     18  N4  DUK d   1     -27.281  -9.881  56.101  0.00  0.00    -0.369 N 
+ATOM     19  H1  DUK d   1     -27.842  -9.275  55.537  0.00  0.00     0.159 HD
+ATOM     20  H2  DUK d   1     -26.623  -9.495  56.748  0.00  0.00     0.159 HD
+ENDBRANCH  14  16
+BRANCH  14  21
+ATOM     21  C12 DUK d   1     -29.576 -12.440  55.873  0.00  0.00    -0.056 C 
+ATOM     22  H4  DUK d   1     -30.313 -12.921  55.213  0.00  0.00     0.029 H 
+ATOM     23  H5  DUK d   1     -30.052 -11.605  56.408  0.00  0.00     0.029 H 
+ATOM     24  H6  DUK d   1     -29.201 -13.175  56.600  0.00  0.00     0.029 H 
+ENDBRANCH  14  21
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   4  25
+ATOM     25  C2  DUK d   1     -23.256 -10.013  53.582  0.00  0.00     0.062 A 
+ATOM     26  C   DUK d   1     -21.893  -9.811  53.493  0.00  0.00    -0.034 A 
+ATOM     27  C1  DUK d   1     -21.070 -10.131  54.549  0.00  0.00     0.036 A 
+ATOM     28  H9  DUK d   1     -21.468  -9.398  52.585  0.00  0.00     0.089 H 
+ATOM     29  C3  DUK d   1     -21.570 -10.625  55.732  0.00  0.00    -0.062 A 
+ATOM     30 CL   DUK d   1     -19.398  -9.936  54.338  0.00  0.00    -0.084 Cl
+ATOM     31  C5  DUK d   1     -22.939 -10.793  55.847  0.00  0.00    -0.079 A 
+ATOM     32  H12 DUK d   1     -20.908 -10.876  56.553  0.00  0.00     0.086 H 
+ATOM     33  C4  DUK d   1     -23.783 -10.449  54.783  0.00  0.00    -0.055 A 
+ATOM     34  H11 DUK d   1     -23.359 -11.192  56.763  0.00  0.00     0.083 H 
+ATOM     35  H10 DUK d   1     -24.858 -10.525  54.903  0.00  0.00     0.087 H 
+ENDBRANCH   4  25
+TORSDOF 5

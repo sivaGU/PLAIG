@@ -1,0 +1,77 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_5  and  C1_1 
+REMARK       I    between atoms: C1_1  and  N3_6 
+REMARK    2  A    between atoms: C2_5  and  C6_2 
+REMARK    3  A    between atoms: N7_9  and  C2_5 
+REMARK    4  A    between atoms: N3_6  and  O5_8 
+REMARK    5  A    between atoms: N7_9  and  S8_10 
+REMARK    6  A    between atoms: C11_13  and  N7_9 
+REMARK    7  A    between atoms: S8_10  and  C18_18 
+REMARK    8  A    between atoms: C11_13  and  C12_14 
+REMARK    9  A    between atoms: C20_20  and  C25_25 
+ROOT
+ATOM      1  N7  2ZL d   1       9.386  19.967  26.776  0.00  0.00    -0.289 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  2ZL d   1      10.833  19.819  26.613  0.00  0.00     0.098 C 
+ATOM      3  H   2ZL d   1      11.171  20.593  25.909  0.00  0.00     0.088 H 
+BRANCH   2   4
+ATOM      4  C1  2ZL d   1      11.550  20.022  27.921  0.00  0.00     0.264 C 
+ATOM      5  N3  2ZL d   1      12.287  21.123  28.048  0.00  0.00    -0.236 N 
+ATOM      6  H   2ZL d   1      12.044  21.950  27.541  0.00  0.00     0.197 HD
+ATOM      7  O4  2ZL d   1      11.443  19.202  28.818  0.00  0.00    -0.269 OA
+BRANCH   5   8
+ATOM      8  O5  2ZL d   1      13.398  21.121  28.889  0.00  0.00    -0.287 OA
+ATOM      9  H   2ZL d   1      13.812  21.976  28.867  0.00  0.00     0.244 HD
+ENDBRANCH   5   8
+ENDBRANCH   2   4
+BRANCH   2  10
+ATOM     10  C6  2ZL d   1      11.218  18.457  26.042  0.00  0.00    -0.048 C 
+ATOM     11  H   2ZL d   1      12.312  18.398  25.940  0.00  0.00     0.030 H 
+ATOM     12  H   2ZL d   1      10.750  18.328  25.055  0.00  0.00     0.030 H 
+ATOM     13  H   2ZL d   1      10.870  17.664  26.720  0.00  0.00     0.030 H 
+ENDBRANCH   2  10
+ENDBRANCH   1   2
+BRANCH   1  14
+ATOM     14  S8  2ZL d   1       8.691  21.313  26.593  0.00  0.00     0.261 S 
+ATOM     15  O9  2ZL d   1       9.530  22.191  25.823  0.00  0.00    -0.200 OA
+ATOM     16  O10 2ZL d   1       7.430  21.143  25.928  0.00  0.00    -0.200 OA
+BRANCH  14  17
+ATOM     17  C18 2ZL d   1       8.466  21.951  28.043  0.00  0.00     0.080 A 
+ATOM     18  C19 2ZL d   1       7.401  21.537  28.836  0.00  0.00    -0.052 A 
+ATOM     19  C20 2ZL d   1       7.205  22.094  30.095  0.00  0.00    -0.022 A 
+ATOM     20  H   2ZL d   1       6.720  20.776  28.471  0.00  0.00     0.086 H 
+ATOM     21  C21 2ZL d   1       8.070  23.065  30.566  0.00  0.00     0.122 A 
+ATOM     22  C22 2ZL d   1       9.133  23.485  29.777  0.00  0.00    -0.044 A 
+ATOM     23  F24 2ZL d   1       7.881  23.601  31.785  0.00  0.00    -0.206 F 
+ATOM     24  C23 2ZL d   1       9.328  22.932  28.517  0.00  0.00    -0.057 A 
+ATOM     25  H   2ZL d   1       9.812  24.246  30.145  0.00  0.00     0.088 H 
+ATOM     26  H   2ZL d   1      10.155  23.267  27.902  0.00  0.00     0.086 H 
+BRANCH  19  27
+ATOM     27  C25 2ZL d   1       6.053  21.638  30.951  0.00  0.00    -0.048 C 
+ATOM     28  H   2ZL d   1       5.480  20.868  30.414  0.00  0.00     0.033 H 
+ATOM     29  H   2ZL d   1       5.399  22.494  31.172  0.00  0.00     0.033 H 
+ATOM     30  H   2ZL d   1       6.439  21.219  31.892  0.00  0.00     0.033 H 
+ENDBRANCH  19  27
+ENDBRANCH  14  17
+ENDBRANCH   1  14
+BRANCH   1  31
+ATOM     31  C11 2ZL d   1       8.679  18.770  27.224  0.00  0.00     0.030 C 
+ATOM     32  H   2ZL d   1       8.074  19.049  28.099  0.00  0.00     0.072 H 
+ATOM     33  H   2ZL d   1       9.436  18.029  27.522  0.00  0.00     0.072 H 
+BRANCH  31  34
+ATOM     34  C12 2ZL d   1       7.757  18.105  26.225  0.00  0.00    -0.040 A 
+ATOM     35  C13 2ZL d   1       6.578  17.540  26.703  0.00  0.00    -0.075 A 
+ATOM     36  C14 2ZL d   1       5.693  16.917  25.833  0.00  0.00    -0.082 A 
+ATOM     37  H   2ZL d   1       6.349  17.587  27.762  0.00  0.00     0.084 H 
+ATOM     38  C15 2ZL d   1       5.990  16.862  24.476  0.00  0.00    -0.083 A 
+ATOM     39  H   2ZL d   1       4.777  16.477  26.209  0.00  0.00     0.083 H 
+ATOM     40  C16 2ZL d   1       7.167  17.428  23.995  0.00  0.00    -0.082 A 
+ATOM     41  H   2ZL d   1       5.303  16.377  23.791  0.00  0.00     0.083 H 
+ATOM     42  C17 2ZL d   1       8.051  18.053  24.867  0.00  0.00    -0.075 A 
+ATOM     43  H   2ZL d   1       7.395  17.381  22.936  0.00  0.00     0.083 H 
+ATOM     44  H   2ZL d   1       8.965  18.498  24.490  0.00  0.00     0.084 H 
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+TORSDOF 9

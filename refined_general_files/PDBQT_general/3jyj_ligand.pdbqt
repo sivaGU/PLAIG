@@ -1,0 +1,68 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C8_8  and  C9_9 
+REMARK    3  A    between atoms: C8_8  and  C10_10 
+REMARK    4  A    between atoms: N25_25  and  C8_8 
+REMARK    5  A    between atoms: C9_9  and  C13_13 
+REMARK    6  A    between atoms: C24_24  and  C22_22 
+REMARK       I    between atoms: C24_24  and  N25_25 
+ROOT
+ATOM      1  C8  JZI d   1      14.823   1.224   0.633  0.00  0.00     0.099 C 
+ATOM      2  H   JZI d   1      14.853   0.851   1.657  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C9  JZI d   1      15.910   2.276   0.319  0.00  0.00    -0.021 C 
+ATOM      4  H   JZI d   1      15.767   2.630  -0.702  0.00  0.00     0.042 H 
+ATOM      5  H   JZI d   1      16.889   1.812   0.441  0.00  0.00     0.042 H 
+BRANCH   3   6
+ATOM      6  C13 JZI d   1      15.816   3.449   1.251  0.00  0.00    -0.100 C 
+ATOM      7  C1  JZI d   1      15.184   4.559   0.884  0.00  0.00    -0.077 C 
+ATOM      8  H   JZI d   1      14.730   4.593  -0.106  0.00  0.00     0.084 H 
+ATOM      9  H   JZI d   1      16.271   3.390   2.240  0.00  0.00     0.076 H 
+BRANCH   7  10
+ATOM     10  C2  JZI d   1      15.066   5.745   1.748  0.00  0.00    -0.036 A 
+ATOM     11  C3  JZI d   1      15.889   5.899   2.859  0.00  0.00    -0.073 A 
+ATOM     12  C4  JZI d   1      15.742   7.035   3.645  0.00  0.00    -0.082 A 
+ATOM     13  H   JZI d   1      16.634   5.144   3.108  0.00  0.00     0.084 H 
+ATOM     14  C5  JZI d   1      14.817   8.015   3.367  0.00  0.00    -0.083 A 
+ATOM     15  H   JZI d   1      16.385   7.155   4.517  0.00  0.00     0.083 H 
+ATOM     16  C6  JZI d   1      13.994   7.869   2.261  0.00  0.00    -0.082 A 
+ATOM     17  H   JZI d   1      14.733   8.893   4.007  0.00  0.00     0.083 H 
+ATOM     18  C7  JZI d   1      14.130   6.744   1.474  0.00  0.00    -0.073 A 
+ATOM     19  H   JZI d   1      13.252   8.630   2.017  0.00  0.00     0.083 H 
+ATOM     20  H   JZI d   1      13.482   6.631   0.605  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  21
+ATOM     21  C10 JZI d   1      15.017   0.123  -0.390  0.00  0.00     0.197 C 
+ATOM     22  O11 JZI d   1      14.133   0.075  -1.400  0.00  0.00    -0.646 OA
+ATOM     23  O12 JZI d   1      15.934  -0.647  -0.279  0.00  0.00    -0.646 OA
+ENDBRANCH   1  21
+BRANCH   1  24
+ATOM     24  N25 JZI d   1      13.548   1.886   0.297  0.00  0.00    -0.342 N 
+ATOM     25  C24 JZI d   1      12.711   2.242   1.300  0.00  0.00     0.252 C 
+ATOM     26  O26 JZI d   1      13.085   2.050   2.437  0.00  0.00    -0.268 OA
+ATOM     27  H   JZI d   1      13.301   2.072  -0.675  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C22 JZI d   1      11.469   2.958   0.932  0.00  0.00     0.032 A 
+ATOM     29  C21 JZI d   1      10.912   3.875   1.853  0.00  0.00    -0.067 A 
+ATOM     30  C20 JZI d   1       9.778   4.564   1.563  0.00  0.00    -0.071 A 
+ATOM     31  H   JZI d   1      11.402   4.032   2.814  0.00  0.00     0.085 H 
+ATOM     32  C19 JZI d   1       9.136   4.372   0.322  0.00  0.00    -0.026 A 
+ATOM     33  H   JZI d   1       9.365   5.264   2.289  0.00  0.00     0.084 H 
+ATOM     34  C16 JZI d   1       7.961   5.078   0.002  0.00  0.00    -0.072 A 
+ATOM     35  C18 JZI d   1       9.684   3.453  -0.618  0.00  0.00    -0.025 A 
+ATOM     36  C15 JZI d   1       7.374   4.860  -1.211  0.00  0.00    -0.082 A 
+ATOM     37  H   JZI d   1       7.528   5.785   0.709  0.00  0.00     0.084 H 
+ATOM     38  C14 JZI d   1       7.900   3.959  -2.142  0.00  0.00    -0.082 A 
+ATOM     39  H   JZI d   1       6.465   5.407  -1.462  0.00  0.00     0.083 H 
+ATOM     40  C17 JZI d   1       9.040   3.262  -1.855  0.00  0.00    -0.072 A 
+ATOM     41  H   JZI d   1       7.399   3.812  -3.099  0.00  0.00     0.083 H 
+ATOM     42  H   JZI d   1       9.449   2.560  -2.582  0.00  0.00     0.084 H 
+ATOM     43  C23 JZI d   1      10.857   2.746  -0.298  0.00  0.00    -0.057 A 
+ATOM     44  H   JZI d   1      11.283   2.038  -1.009  0.00  0.00     0.086 H 
+ENDBRANCH  25  28
+ENDBRANCH   1  24
+TORSDOF 6

@@ -1,0 +1,98 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CBC_2 
+REMARK    2  A    between atoms: CBC_2  and  CAC_3 
+REMARK    3  A    between atoms: CBC_2  and  CAD_4 
+REMARK    4  A    between atoms: CBC_2  and  CAN_5 
+REMARK    5  A    between atoms: CAN_5  and  CAT_6 
+REMARK       I    between atoms: CAT_6  and  N_8 
+REMARK    6  A    between atoms: CG_10  and  OD1_11 
+REMARK    7  A    between atoms: CA_13  and  C_14 
+REMARK       I    between atoms: C_14  and  NAR_16 
+REMARK    8  A    between atoms: NAR_16  and  CAM_17 
+REMARK    9  A    between atoms: CAM_17  and  CAW_18 
+REMARK   10  A    between atoms: CAV_20  and  CAA_21 
+REMARK   11  A    between atoms: CAY_24  and  CAX_25 
+ROOT
+ATOM      1  CAT 3JV d   1      12.149  53.862  91.769  0.00  0.00     0.221 C 
+ATOM      2  OAE 3JV d   1      10.979  53.625  91.466  0.00  0.00    -0.273 OA
+ATOM      3  N   3JV d   1      13.094  54.146  90.838  0.00  0.00    -0.336 N 
+ATOM      4  CD2 3JV d   1      14.544  54.515  90.984  0.00  0.00     0.022 C 
+ATOM      5  CG  3JV d   1      14.919  55.249  89.717  0.00  0.00     0.053 C 
+ATOM      6  CB  3JV d   1      14.043  54.621  88.662  0.00  0.00    -0.012 C 
+ATOM      7  CA  3JV d   1      12.751  54.204  89.370  0.00  0.00     0.094 C 
+ATOM      8  H   3JV d   1      15.159  53.610  91.097  0.00  0.00     0.068 H 
+ATOM      9  H   3JV d   1      14.686  55.166  91.859  0.00  0.00     0.068 H 
+ATOM     10  H   3JV d   1      15.986  55.118  89.481  0.00  0.00     0.085 H 
+ATOM     11  H   3JV d   1      14.540  53.741  88.228  0.00  0.00     0.040 H 
+ATOM     12  H   3JV d   1      13.824  55.348  87.866  0.00  0.00     0.040 H 
+ATOM     13  H   3JV d   1      11.968  54.961  89.215  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   7  14
+ATOM     14  C   3JV d   1      12.317  52.998  88.818  0.00  0.00     0.241 C 
+ATOM     15  O   3JV d   1      12.807  51.932  89.187  0.00  0.00    -0.271 OA
+ATOM     16  NAR 3JV d   1      11.387  53.103  87.841  0.00  0.00    -0.355 N 
+ATOM     17  H   3JV d   1      11.031  54.006  87.602  0.00  0.00     0.162 HD
+BRANCH  16  18
+ATOM     18  CAM 3JV d   1      10.891  51.931  87.127  0.00  0.00     0.019 C 
+ATOM     19  H   3JV d   1       9.838  52.080  86.846  0.00  0.00     0.071 H 
+ATOM     20  H   3JV d   1      10.978  51.039  87.764  0.00  0.00     0.071 H 
+BRANCH  18  21
+ATOM     21  CAW 3JV d   1      11.685  51.773  85.962  0.00  0.00    -0.040 A 
+ATOM     22  CAL 3JV d   1      11.705  50.526  85.341  0.00  0.00    -0.069 A 
+ATOM     23  CAV 3JV d   1      12.473  50.286  84.201  0.00  0.00    -0.050 A 
+ATOM     24  H   3JV d   1      11.108  49.721  85.754  0.00  0.00     0.085 H 
+ATOM     25  CAY 3JV d   1      13.249  51.327  83.641  0.00  0.00    -0.012 A 
+ATOM     26  CAI 3JV d   1      13.230  52.573  84.264  0.00  0.00    -0.071 A 
+ATOM     27  CAH 3JV d   1      12.462  52.798  85.405  0.00  0.00    -0.074 A 
+ATOM     28  H   3JV d   1      13.823  53.382  83.854  0.00  0.00     0.084 H 
+ATOM     29  H   3JV d   1      12.466  53.778  85.868  0.00  0.00     0.084 H 
+BRANCH  23  30
+ATOM     30  CAA 3JV d   1      12.419  48.993  83.662  0.00  0.00    -0.050 C 
+ATOM     31  H   3JV d   1      11.751  48.369  84.273  0.00  0.00     0.033 H 
+ATOM     32  H   3JV d   1      13.428  48.555  83.658  0.00  0.00     0.033 H 
+ATOM     33  H   3JV d   1      12.036  49.041  82.632  0.00  0.00     0.033 H 
+ENDBRANCH  23  30
+BRANCH  25  34
+ATOM     34  CAX 3JV d   1      14.018  51.180  82.544  0.00  0.00     0.034 A 
+ATOM     35  SAS 3JV d   1      15.602  51.661  82.415  0.00  0.00    -0.081 SA
+ATOM     36  CAJ 3JV d   1      15.805  51.148  80.863  0.00  0.00     0.040 A 
+ATOM     37  NAQ 3JV d   1      14.642  50.619  80.464  0.00  0.00    -0.265 NA
+ATOM     38  H   3JV d   1      16.716  51.225  80.272  0.00  0.00     0.126 H 
+ATOM     39  CAK 3JV d   1      13.648  50.634  81.377  0.00  0.00     0.020 A 
+ATOM     40  H   3JV d   1      12.650  50.243  81.186  0.00  0.00     0.116 H 
+ENDBRANCH  25  34
+ENDBRANCH  18  21
+ENDBRANCH  16  18
+ENDBRANCH   7  14
+BRANCH   1  41
+ATOM     41  CAN 3JV d   1      12.537  53.923  93.272  0.00  0.00     0.015 C 
+ATOM     42  H   3JV d   1      13.435  54.548  93.386  0.00  0.00     0.048 H 
+ATOM     43  H   3JV d   1      11.706  54.367  93.840  0.00  0.00     0.048 H 
+BRANCH  41  44
+ATOM     44  CBC 3JV d   1      12.826  52.533  93.818  0.00  0.00    -0.043 C 
+BRANCH  44  45
+ATOM     45  CAB 3JV d   1      11.514  51.765  94.014  0.00  0.00    -0.069 C 
+ATOM     46  H   3JV d   1      11.732  50.762  94.409  0.00  0.00     0.028 H 
+ATOM     47  H   3JV d   1      10.995  51.674  93.049  0.00  0.00     0.028 H 
+ATOM     48  H   3JV d   1      10.874  52.308  94.725  0.00  0.00     0.028 H 
+ENDBRANCH  44  45
+BRANCH  44  49
+ATOM     49  CAC 3JV d   1      13.765  51.717  92.915  0.00  0.00    -0.069 C 
+ATOM     50  H   3JV d   1      14.707  52.267  92.773  0.00  0.00     0.028 H 
+ATOM     51  H   3JV d   1      13.285  51.554  91.939  0.00  0.00     0.028 H 
+ATOM     52  H   3JV d   1      13.975  50.746  93.387  0.00  0.00     0.028 H 
+ENDBRANCH  44  49
+BRANCH  44  53
+ATOM     53  CAD 3JV d   1      13.465  52.716  95.197  0.00  0.00    -0.069 C 
+ATOM     54  H   3JV d   1      12.790  53.300  95.839  0.00  0.00     0.028 H 
+ATOM     55  H   3JV d   1      14.421  53.249  95.090  0.00  0.00     0.028 H 
+ATOM     56  H   3JV d   1      13.643  51.731  95.652  0.00  0.00     0.028 H 
+ENDBRANCH  44  53
+ENDBRANCH  41  44
+ENDBRANCH   1  41
+BRANCH   5  57
+ATOM     57  OD1 3JV d   1      14.610  56.642  89.839  0.00  0.00    -0.394 OA
+ATOM     58  H   3JV d   1      15.097  57.011  90.567  0.00  0.00     0.210 HD
+ENDBRANCH   5  57
+TORSDOF 11

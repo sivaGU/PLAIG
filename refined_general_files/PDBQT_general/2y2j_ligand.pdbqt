@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_7  and  C5_8 
+REMARK       I    between atoms: C5_8  and  N4_10 
+REMARK    2  A    between atoms: N4_10  and  C3_11 
+REMARK    3  A    between atoms: C3_11  and  B_12 
+REMARK    4  A    between atoms: B_12  and  O1_13 
+REMARK    5  A    between atoms: B_12  and  O2_14 
+ROOT
+ATOM      1  C5  ZA4 d   1       8.894   8.139  40.759  0.00  0.00     0.254 C 
+ATOM      2  O6  ZA4 d   1       8.009   7.323  40.784  0.00  0.00    -0.268 OA
+ATOM      3  N4  ZA4 d   1       9.387   8.816  39.573  0.00  0.00    -0.360 N 
+ATOM      4  H   ZA4 d   1      10.303   9.259  39.648  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C7  ZA4 d   1       9.790   8.245  41.912  0.00  0.00     0.070 A 
+ATOM      6  C8  ZA4 d   1      10.101   9.483  42.486  0.00  0.00     0.132 A 
+ATOM      7  F9  ZA4 d   1       9.871  10.658  41.875  0.00  0.00    -0.205 F 
+ATOM      8  C11 ZA4 d   1      10.736   9.510  43.714  0.00  0.00    -0.045 A 
+ATOM      9  C12 ZA4 d   1      11.016   8.325  44.376  0.00  0.00    -0.080 A 
+ATOM     10  H   ZA4 d   1      11.016  10.463  44.161  0.00  0.00     0.088 H 
+ATOM     11  C13 ZA4 d   1      10.669   7.094  43.819  0.00  0.00    -0.082 A 
+ATOM     12  H   ZA4 d   1      11.514   8.355  45.345  0.00  0.00     0.083 H 
+ATOM     13  C14 ZA4 d   1      10.030   7.064  42.590  0.00  0.00    -0.065 A 
+ATOM     14  H   ZA4 d   1      10.898   6.167  44.344  0.00  0.00     0.083 H 
+ATOM     15  H   ZA4 d   1       9.718   6.113  42.159  0.00  0.00     0.085 H 
+ENDBRANCH   1   5
+BRANCH   3  16
+ATOM     16  C3  ZA4 d   1       8.716   8.928  38.295  0.00  0.00     0.030 C 
+ATOM     17  H   ZA4 d   1       7.642   8.966  38.476  0.00  0.00     0.057 H 
+ATOM     18  H   ZA4 d   1       8.997   8.069  37.686  0.00  0.00     0.057 H 
+BRANCH  16  19
+ATOM     19  B   ZA4 d   1       9.130  10.229  37.527  0.00  0.00     0.510 B 
+BRANCH  19  20
+ATOM     20  O1  ZA4 d   1       9.018  11.419  38.489  0.00  0.00    -0.436 OA
+ATOM     21  H   ZA4 d   1       8.111  11.499  38.793  0.00  0.00     0.184 HD
+ENDBRANCH  19  20
+BRANCH  19  22
+ATOM     22  O2  ZA4 d   1       8.226  10.394  36.298  0.00  0.00    -0.436 OA
+ATOM     23  H   ZA4 d   1       8.326   9.631  35.724  0.00  0.00     0.184 HD
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH   3  16
+TORSDOF 5

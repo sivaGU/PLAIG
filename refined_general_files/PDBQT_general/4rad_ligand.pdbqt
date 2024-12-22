@@ -1,0 +1,94 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PBB_2  and  CAP_5 
+REMARK    2  A    between atoms: CAP_5  and  CAK_6 
+REMARK    3  A    between atoms: CAK_6  and  OAU_7 
+REMARK    4  A    between atoms: OAU_7  and  CAJ_8 
+REMARK    5  A    between atoms: CAJ_8  and  CAL_9 
+REMARK    6  A    between atoms: CAL_9  and  NAZ_10 
+REMARK    7  A    between atoms: NAZ_10  and  CAN_11 
+REMARK    8  A    between atoms: NAZ_10  and  CAM_17 
+REMARK    9  A    between atoms: CAN_11  and  CAQ_12 
+REMARK   10  A    between atoms: CAQ_12  and  PBC_13 
+REMARK   11  A    between atoms: CAM_17  and  CAO_18 
+REMARK   12  A    between atoms: CAO_18  and  N9_19 
+REMARK   13  A    between atoms: C2_22  and  N2_23 
+ROOT
+ATOM      1  NAZ 3L5 d   1      66.572 -19.167   7.418  0.00  0.00    -0.067 N 
+ATOM      2  H9  3L5 d   1      66.194 -18.897   8.313  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAL 3L5 d   1      67.749 -18.347   7.183  0.00  0.00     0.103 C 
+ATOM      4  H7  3L5 d   1      68.510 -18.955   6.671  0.00  0.00     0.079 H 
+ATOM      5  H8  3L5 d   1      67.469 -17.497   6.544  0.00  0.00     0.079 H 
+BRANCH   3   6
+ATOM      6  CAJ 3L5 d   1      68.341 -17.810   8.493  0.00  0.00     0.042 C 
+ATOM      7  H5  3L5 d   1      68.910 -18.614   8.982  0.00  0.00     0.076 H 
+ATOM      8  H6  3L5 d   1      69.015 -16.972   8.262  0.00  0.00     0.076 H 
+BRANCH   6   9
+ATOM      9  OAU 3L5 d   1      67.312 -17.348   9.397  0.00  0.00    -0.389 OA
+BRANCH   9  10
+ATOM     10  CAK 3L5 d   1      67.803 -16.333  10.301  0.00  0.00     0.031 C 
+ATOM     11  H3  3L5 d   1      68.838 -16.569  10.589  0.00  0.00     0.075 H 
+ATOM     12  H4  3L5 d   1      67.776 -15.354   9.801  0.00  0.00     0.075 H 
+BRANCH  10  13
+ATOM     13  CAP 3L5 d   1      66.921 -16.290  11.557  0.00  0.00     0.059 C 
+ATOM     14  H1  3L5 d   1      66.519 -15.272  11.670  0.00  0.00     0.057 H 
+ATOM     15  H2  3L5 d   1      66.091 -17.000  11.428  0.00  0.00     0.057 H 
+BRANCH  13  16
+ATOM     16  PBB 3L5 d   1      67.838 -16.732  13.086  0.00  0.00     0.261 P 
+ATOM     17  OAE 3L5 d   1      69.077 -17.527  12.748  0.00  0.00    -0.640 OA
+ATOM     18  OAF 3L5 d   1      68.239 -15.468  13.820  0.00  0.00    -0.640 OA
+ATOM     19  OAC 3L5 d   1      66.947 -17.567  13.979  0.00  0.00    -0.640 OA
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  CAN 3L5 d   1      65.530 -18.899   6.432  0.00  0.00     0.095 C 
+ATOM     21  H10 3L5 d   1      65.302 -17.823   6.454  0.00  0.00     0.077 H 
+ATOM     22  H11 3L5 d   1      64.633 -19.469   6.714  0.00  0.00     0.077 H 
+BRANCH  20  23
+ATOM     23  CAQ 3L5 d   1      65.913 -19.282   4.996  0.00  0.00     0.061 C 
+ATOM     24  H12 3L5 d   1      66.144 -20.357   4.963  0.00  0.00     0.056 H 
+ATOM     25  H13 3L5 d   1      66.802 -18.707   4.698  0.00  0.00     0.056 H 
+BRANCH  23  26
+ATOM     26  PBC 3L5 d   1      64.537 -18.924   3.804  0.00  0.00     0.261 P 
+ATOM     27  OAG 3L5 d   1      64.158 -17.459   3.883  0.00  0.00    -0.640 OA
+ATOM     28  OAH 3L5 d   1      63.339 -19.778   4.168  0.00  0.00    -0.640 OA
+ATOM     29  OAD 3L5 d   1      64.974 -19.264   2.384  0.00  0.00    -0.640 OA
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+BRANCH   1  30
+ATOM     30  CAM 3L5 d   1      66.951 -20.600   7.532  0.00  0.00     0.099 C 
+ATOM     31  H14 3L5 d   1      67.873 -20.678   8.127  0.00  0.00     0.078 H 
+ATOM     32  H15 3L5 d   1      67.131 -21.001   6.524  0.00  0.00     0.078 H 
+BRANCH  30  33
+ATOM     33  CAO 3L5 d   1      65.836 -21.444   8.218  0.00  0.00     0.025 C 
+ATOM     34  H16 3L5 d   1      64.849 -21.135   7.842  0.00  0.00     0.067 H 
+ATOM     35  H17 3L5 d   1      65.875 -21.299   9.308  0.00  0.00     0.067 H 
+BRANCH  33  36
+ATOM     36  N9  3L5 d   1      66.075 -22.863   7.892  0.00  0.00    -0.322 N 
+ATOM     37  C4  3L5 d   1      67.033 -23.632   8.471  0.00  0.00     0.183 A 
+ATOM     38  N3  3L5 d   1      67.971 -23.444   9.415  0.00  0.00    -0.044 NA
+ATOM     39  C5  3L5 d   1      66.939 -24.917   7.871  0.00  0.00     0.159 A 
+ATOM     40  C2  3L5 d   1      68.791 -24.433   9.785  0.00  0.00     0.702 A 
+ATOM     41  N1  3L5 d   1      68.730 -25.658   9.243  0.00  0.00    -0.164 N 
+ATOM     42  C6  3L5 d   1      67.836 -25.946   8.295  0.00  0.00     0.226 A 
+ATOM     43  H20 3L5 d   1      69.364 -26.366   9.554  0.00  0.00     0.186 HD
+ATOM     44  O6  3L5 d   1      67.774 -27.250   7.719  0.00  0.00    -0.169 OA
+ATOM     45  N7  3L5 d   1      65.921 -24.842   6.955  0.00  0.00    -0.235 NA
+ATOM     46  C8  3L5 d   1      65.411 -23.605   6.968  0.00  0.00     0.068 A 
+ATOM     47  H21 3L5 d   1      64.596 -23.250   6.339  0.00  0.00     0.143 H 
+BRANCH  40  48
+ATOM     48  N2  3L5 d   1      69.768 -24.184  10.794  0.00  0.00    -0.233 N 
+ATOM     49  H18 3L5 d   1      69.836 -23.252  11.226  0.00  0.00     0.174 HD
+ATOM     50  H19 3L5 d   1      70.406 -24.937  11.090  0.00  0.00     0.174 HD
+ENDBRANCH  40  48
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH   1  30
+TORSDOF 13

@@ -1,0 +1,71 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C20_8  and  C50_1 
+REMARK    2  A    between atoms: C19_6  and  C20_8 
+REMARK       I    between atoms: N18_11  and  C19_6 
+REMARK    3  A    between atoms: C9_21  and  C24_7 
+REMARK    4  A    between atoms: C20_8  and  C1_16 
+REMARK    5  A    between atoms: N17_10  and  N18_11 
+REMARK    6  A    between atoms: C15_22  and  N17_10 
+REMARK    7  A    between atoms: C4_17  and  O22_14 
+ROOT
+ATOM      1  N17 6XP d   1      20.121  10.408   5.588  0.00  0.00     0.024 N 
+ATOM      2  H13 6XP d   1      19.145  10.171   5.499  0.00  0.00     0.307 HD
+ATOM      3  H14 6XP d   1      20.685   9.628   5.287  0.00  0.00     0.307 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  N18 6XP d   1      20.373  10.583   6.972  0.00  0.00    -0.187 N 
+ATOM      5  C19 6XP d   1      19.956   9.588   7.830  0.00  0.00     0.249 C 
+ATOM      6  O21 6XP d   1      19.971   9.773   9.051  0.00  0.00    -0.271 OA
+ATOM      7  H15 6XP d   1      20.837  11.400   7.314  0.00  0.00     0.196 HD
+BRANCH   5   8
+ATOM      8  C20 6XP d   1      19.456   8.253   7.243  0.00  0.00     0.047 C 
+ATOM      9  H11 6XP d   1      20.037   8.050   6.331  0.00  0.00     0.061 H 
+BRANCH   8  10
+ATOM     10  C50 6XP d   1      19.713   7.121   8.255  0.00  0.00    -0.061 C 
+ATOM     11  H1  6XP d   1      20.777   7.114   8.535  0.00  0.00     0.029 H 
+ATOM     12  H2  6XP d   1      19.447   6.155   7.800  0.00  0.00     0.029 H 
+ATOM     13  H3  6XP d   1      19.099   7.285   9.152  0.00  0.00     0.029 H 
+ENDBRANCH   8  10
+BRANCH   8  14
+ATOM     14  C1  6XP d   1      17.961   8.251   6.859  0.00  0.00    -0.045 A 
+ATOM     15  C2  6XP d   1      16.929   8.104   7.877  0.00  0.00    -0.073 A 
+ATOM     16  C3  6XP d   1      15.525   8.110   7.512  0.00  0.00    -0.051 A 
+ATOM     17  H4  6XP d   1      17.213   7.989   8.917  0.00  0.00     0.084 H 
+ATOM     18  C4  6XP d   1      15.155   8.265   6.133  0.00  0.00     0.065 A 
+ATOM     19  H6  6XP d   1      14.762   7.998   8.274  0.00  0.00     0.087 H 
+ATOM     20  C5  6XP d   1      16.148   8.412   5.122  0.00  0.00    -0.051 A 
+ATOM     21  C6  6XP d   1      17.531   8.405   5.487  0.00  0.00    -0.073 A 
+ATOM     22  H7  6XP d   1      15.858   8.528   4.084  0.00  0.00     0.087 H 
+ATOM     23  H5  6XP d   1      18.280   8.519   4.711  0.00  0.00     0.084 H 
+BRANCH  18  24
+ATOM     24  O22 6XP d   1      13.835   8.271   5.794  0.00  0.00    -0.361 OA
+ATOM     25  H16 6XP d   1      13.620   9.097   5.377  0.00  0.00     0.217 HD
+ENDBRANCH  18  24
+ENDBRANCH   8  14
+ENDBRANCH   5   8
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  C15 6XP d   1      20.361  11.434   4.702  0.00  0.00     0.228 A 
+ATOM     27  C11 6XP d   1      20.347  11.496   3.359  0.00  0.00     0.033 A 
+ATOM     28  C10 6XP d   1      20.088  10.564   2.235  0.00  0.00     0.045 A 
+ATOM     29  C12 6XP d   1      20.703  12.923   3.070  0.00  0.00     0.051 A 
+ATOM     30 CL2  6XP d   1      19.681   8.915   2.514  0.00  0.00    -0.084 Cl
+ATOM     31  C7  6XP d   1      20.174  11.011   0.930  0.00  0.00    -0.061 A 
+ATOM     32  C8  6XP d   1      20.525  12.429   0.613  0.00  0.00    -0.073 A 
+ATOM     33  H18 6XP d   1      19.983  10.318   0.119  0.00  0.00     0.086 H 
+ATOM     34  C9  6XP d   1      20.786  13.376   1.600  0.00  0.00    -0.035 A 
+ATOM     35  H17 6XP d   1      20.578  12.732  -0.426  0.00  0.00     0.084 H 
+ATOM     36  N13 6XP d   1      20.909  13.636   4.129  0.00  0.00    -0.324 N 
+ATOM     37  C14 6XP d   1      20.723  12.808   5.202  0.00  0.00     0.260 A 
+ATOM     38  H12 6XP d   1      21.156  14.604   4.158  0.00  0.00     0.169 HD
+ATOM     39  O16 6XP d   1      20.830  13.116   6.396  0.00  0.00    -0.270 OA
+ATOM     40  H19 6XP d   1      19.282  11.649   4.728  0.00  0.00     0.111 H 
+BRANCH  34  41
+ATOM     41  C24 6XP d   1      21.143  14.809   1.327  0.00  0.00    -0.049 C 
+ATOM     42  H8  6XP d   1      21.163  14.981   0.241  0.00  0.00     0.033 H 
+ATOM     43  H9  6XP d   1      22.134  15.027   1.751  0.00  0.00     0.033 H 
+ATOM     44  H10 6XP d   1      20.393  15.468   1.789  0.00  0.00     0.033 H 
+ENDBRANCH  34  41
+ENDBRANCH   1  26
+TORSDOF 7

@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C2_2 
+REMARK    2  A    between atoms: C7_7  and  N8_8 
+REMARK    3  A    between atoms: N8_8  and  C9_9 
+REMARK    4  A    between atoms: C9_9  and  C10_10 
+ROOT
+ATOM      1  N8  8AP d   1      67.395  49.821   8.190  0.00  0.00    -0.383 N 
+ATOM      2  H6  8AP d   1      66.778  50.474   7.686  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C7  8AP d   1      67.116  48.448   8.202  0.00  0.00     0.074 A 
+ATOM      4  C2  8AP d   1      66.287  47.866   7.232  0.00  0.00     0.147 A 
+ATOM      5  N3  8AP d   1      66.058  46.557   7.270  0.00  0.00    -0.241 NA
+ATOM      6  C4  8AP d   1      66.591  45.755   8.184  0.00  0.00     0.005 A 
+ATOM      7  C5  8AP d   1      67.434  46.265   9.159  0.00  0.00    -0.064 A 
+ATOM      8  H3  8AP d   1      66.365  44.695   8.168  0.00  0.00     0.114 H 
+ATOM      9  C6  8AP d   1      67.706  47.627   9.166  0.00  0.00    -0.052 A 
+ATOM     10  H4  8AP d   1      67.874  45.612   9.904  0.00  0.00     0.085 H 
+ATOM     11  H5  8AP d   1      68.370  48.049   9.912  0.00  0.00     0.087 H 
+BRANCH   4  12
+ATOM     12  N1  8AP d   1      65.688  48.631   6.231  0.00  0.00    -0.382 N 
+ATOM     13  H1  8AP d   1      65.856  49.646   6.189  0.00  0.00     0.157 HD
+ATOM     14  H2  8AP d   1      65.078  48.181   5.534  0.00  0.00     0.157 HD
+ENDBRANCH   4  12
+ENDBRANCH   1   3
+BRANCH   1  15
+ATOM     15  C9  8AP d   1      68.580  50.320   8.906  0.00  0.00     0.017 C 
+ATOM     16  H7  8AP d   1      68.534  49.981   9.952  0.00  0.00     0.071 H 
+ATOM     17  H8  8AP d   1      68.578  51.420   8.876  0.00  0.00     0.071 H 
+BRANCH  15  18
+ATOM     18  C10 8AP d   1      69.869  49.813   8.281  0.00  0.00    -0.041 A 
+ATOM     19  C11 8AP d   1      69.865  49.038   7.118  0.00  0.00    -0.075 A 
+ATOM     20  C12 8AP d   1      71.052  48.588   6.559  0.00  0.00    -0.082 A 
+ATOM     21  H9  8AP d   1      68.922  48.785   6.647  0.00  0.00     0.084 H 
+ATOM     22  C13 8AP d   1      72.257  48.916   7.162  0.00  0.00    -0.083 A 
+ATOM     23  H10 8AP d   1      71.038  47.985   5.658  0.00  0.00     0.083 H 
+ATOM     24  C14 8AP d   1      72.266  49.688   8.318  0.00  0.00    -0.082 A 
+ATOM     25  H11 8AP d   1      73.191  48.571   6.732  0.00  0.00     0.083 H 
+ATOM     26  C15 8AP d   1      71.077  50.134   8.880  0.00  0.00    -0.075 A 
+ATOM     27  H12 8AP d   1      73.210  49.944   8.785  0.00  0.00     0.083 H 
+ATOM     28  H13 8AP d   1      71.094  50.731   9.784  0.00  0.00     0.084 H 
+ENDBRANCH  15  18
+ENDBRANCH   1  15
+TORSDOF 4

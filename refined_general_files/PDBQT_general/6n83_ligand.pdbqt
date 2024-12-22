@@ -1,0 +1,70 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAR_4  and  CAW_5 
+REMARK    2  A    between atoms: CAO_8  and  CAM_9 
+REMARK    3  A    between atoms: NAB_18  and  CAC_19 
+REMARK    4  A    between atoms: CAC_19  and  PAA_20 
+REMARK    5  A    between atoms: CAC_19  and  CAV_24 
+REMARK    6  A    between atoms: CAV_24  and  CAX_25 
+ROOT
+ATOM      1  CAM YL6 d   1       4.737  75.687  27.798  0.00  0.00     0.018 A 
+ATOM      2  SAN YL6 d   1       6.362  75.777  27.239  0.00  0.00    -0.069 SA
+ATOM      3  CAL YL6 d   1       4.415  74.391  28.010  0.00  0.00    -0.049 A 
+ATOM      4  C5  YL6 d   1       5.429  73.498  27.743  0.00  0.00     0.047 A 
+ATOM      5  C6  YL6 d   1       6.609  74.091  27.317  0.00  0.00     0.113 A 
+ATOM      6  N1  YL6 d   1       7.737  73.385  27.017  0.00  0.00    -0.234 NA
+ATOM      7  C2  YL6 d   1       7.725  71.975  27.125  0.00  0.00     0.090 A 
+ATOM      8  N3  YL6 d   1       6.528  71.373  27.570  0.00  0.00    -0.224 NA
+ATOM      9  C4  YL6 d   1       5.433  72.143  27.855  0.00  0.00     0.139 A 
+ATOM     10  NAB YL6 d   1       4.319  71.554  28.279  0.00  0.00    -0.357 N 
+ATOM     11  H7  YL6 d   1       3.433  74.079  28.363  0.00  0.00     0.087 H 
+ATOM     12  H8  YL6 d   1       8.598  71.382  26.877  0.00  0.00     0.146 H 
+ATOM     13  H9  YL6 d   1       3.436  72.083  28.308  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH  10  14
+ATOM     14  CAC YL6 d   1       4.348  70.131  28.711  0.00  0.00     0.123 C 
+ATOM     15  H10 YL6 d   1       5.374  69.750  28.597  0.00  0.00     0.095 H 
+BRANCH  14  16
+ATOM     16  PAA YL6 d   1       3.261  69.229  27.621  0.00  0.00     0.283 P 
+ATOM     17  OAD YL6 d   1       3.708  69.833  26.121  0.00  0.00    -0.638 OA
+ATOM     18  OAU YL6 d   1       1.689  69.715  28.052  0.00  0.00    -0.638 OA
+ATOM     19  OAE YL6 d   1       3.527  67.782  27.745  0.00  0.00    -0.638 OA
+ENDBRANCH  14  16
+BRANCH  14  20
+ATOM     20  CAV YL6 d   1       3.924  69.927  30.182  0.00  0.00    -0.010 C 
+ATOM     21  H11 YL6 d   1       3.936  68.855  30.430  0.00  0.00     0.044 H 
+ATOM     22  H12 YL6 d   1       2.912  70.329  30.339  0.00  0.00     0.044 H 
+BRANCH  20  23
+ATOM     23  CAX YL6 d   1       4.837  70.611  30.987  0.00  0.00    -0.053 A 
+ATOM     24  CAY YL6 d   1       4.348  71.488  31.948  0.00  0.00    -0.040 A 
+ATOM     25  CAZ YL6 d   1       5.224  72.204  32.762  0.00  0.00     0.116 A 
+ATOM     26  H13 YL6 d   1       3.278  71.616  32.065  0.00  0.00     0.089 H 
+ATOM     27  FBD YL6 d   1       4.684  73.055  33.708  0.00  0.00    -0.206 F 
+ATOM     28  CBA YL6 d   1       6.610  72.059  32.630  0.00  0.00    -0.046 A 
+ATOM     29  CBB YL6 d   1       7.099  71.197  31.638  0.00  0.00    -0.080 A 
+ATOM     30  H14 YL6 d   1       7.289  72.600  33.279  0.00  0.00     0.088 H 
+ATOM     31  CBC YL6 d   1       6.224  70.469  30.822  0.00  0.00    -0.077 A 
+ATOM     32  H15 YL6 d   1       8.169  71.093  31.501  0.00  0.00     0.083 H 
+ATOM     33  H16 YL6 d   1       6.616  69.799  30.066  0.00  0.00     0.084 H 
+ENDBRANCH  20  23
+ENDBRANCH  14  20
+ENDBRANCH  10  14
+BRANCH   1  34
+ATOM     34  CAO YL6 d   1       3.988  76.794  27.983  0.00  0.00    -0.017 A 
+ATOM     35  CAP YL6 d   1       2.660  76.798  28.417  0.00  0.00    -0.050 A 
+ATOM     36  CAQ YL6 d   1       1.996  78.018  28.575  0.00  0.00     0.040 A 
+ATOM     37  H1  YL6 d   1       2.150  75.865  28.629  0.00  0.00     0.087 H 
+ATOM     38 CL   YL6 d   1       0.297  78.044  29.142  0.00  0.00    -0.084 Cl
+ATOM     39  CAR YL6 d   1       2.647  79.225  28.333  0.00  0.00    -0.040 A 
+ATOM     40  CAS YL6 d   1       3.951  79.217  27.920  0.00  0.00    -0.075 A 
+ATOM     41  CAT YL6 d   1       4.612  78.020  27.771  0.00  0.00    -0.071 A 
+ATOM     42  H5  YL6 d   1       4.461  80.150  27.711  0.00  0.00     0.084 H 
+ATOM     43  H6  YL6 d   1       5.656  78.032  27.478  0.00  0.00     0.084 H 
+BRANCH  39  44
+ATOM     44  CAW YL6 d   1       2.000  80.453  28.490  0.00  0.00    -0.050 C 
+ATOM     45  H2  YL6 d   1       2.697  81.268  28.247  0.00  0.00     0.033 H 
+ATOM     46  H3  YL6 d   1       1.661  80.558  29.531  0.00  0.00     0.033 H 
+ATOM     47  H4  YL6 d   1       1.133  80.499  27.815  0.00  0.00     0.033 H 
+ENDBRANCH  39  44
+ENDBRANCH   1  34
+TORSDOF 6

@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CA_3 
+REMARK    2  A    between atoms: CA_3  and  CB_4 
+REMARK    3  A    between atoms: CB_4  and  CD_5 
+REMARK    4  A    between atoms: CD_5  and  NE_6 
+REMARK       I    between atoms: NE_6  and  CZ_7 
+REMARK       I    between atoms: CZ_7  and  NH1_8 
+ROOT
+ATOM      1  CD  ALG d   1      -1.863 -13.904  15.513  0.00  0.00     0.010 C 
+ATOM      2  H5  ALG d   1      -2.690 -14.619  15.391  0.00  0.00     0.064 H 
+ATOM      3  H6  ALG d   1      -1.942 -13.118  14.747  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CB  ALG d   1      -0.547 -14.644  15.319  0.00  0.00    -0.041 C 
+ATOM      5  H3  ALG d   1       0.251 -13.910  15.131  0.00  0.00     0.036 H 
+ATOM      6  H4  ALG d   1      -0.317 -15.209  16.234  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  CA  ALG d   1      -0.616 -15.613  14.143  0.00  0.00     0.017 C 
+ATOM      8  H1  ALG d   1      -1.007 -15.079  13.264  0.00  0.00     0.049 H 
+ATOM      9  H2  ALG d   1       0.397 -15.983  13.927  0.00  0.00     0.049 H 
+BRANCH   7  10
+ATOM     10  C   ALG d   1      -1.515 -16.793  14.438  0.00  0.00     0.172 C 
+ATOM     11  O   ALG d   1      -1.867 -17.073  15.574  0.00  0.00    -0.648 OA
+ATOM     12  OXT ALG d   1      -1.946 -17.556  13.445  0.00  0.00    -0.648 OA
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  NE  ALG d   1      -1.970 -13.289  16.821  0.00  0.00    -0.227 N 
+ATOM     14  CZ  ALG d   1      -2.260 -13.952  17.949  0.00  0.00     0.665 C 
+ATOM     15  NH1 ALG d   1      -2.411 -15.207  17.995  0.00  0.00    -0.235 N 
+ATOM     16  NH2 ALG d   1      -2.409 -13.267  19.076  0.00  0.00    -0.235 N 
+ATOM     17  H8  ALG d   1      -2.634 -15.666  18.890  0.00  0.00     0.174 HD
+ATOM     18  H9  ALG d   1      -2.312 -15.770  17.138  0.00  0.00     0.174 HD
+ATOM     19  H10 ALG d   1      -2.293 -12.243  19.076  0.00  0.00     0.174 HD
+ATOM     20  H11 ALG d   1      -2.640 -13.759  19.951  0.00  0.00     0.174 HD
+ATOM     21  H7  ALG d   1      -1.812 -12.273  16.888  0.00  0.00     0.177 HD
+ENDBRANCH   1  13
+TORSDOF 4

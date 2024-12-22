@@ -1,0 +1,108 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAV_22  and  CAA_1 
+REMARK    2  A    between atoms: CAX_24  and  O02_2 
+REMARK    3  A    between atoms: O02_2  and  C01_36 
+REMARK    4  A    between atoms: CAM_13  and  CAC_3 
+REMARK    5  A    between atoms: CAC_3  and  NBH_34 
+REMARK    6  A    between atoms: CAN_14  and  CAM_13 
+REMARK    7  A    between atoms: OAW_23  and  CAN_14 
+REMARK    8  A    between atoms: NBI_35  and  CAO_15 
+REMARK    9  A    between atoms: NAU_21  and  CBB_28 
+REMARK   10  A    between atoms: CBE_31  and  NAU_21 
+REMARK   11  A    between atoms: CBC_29  and  OAV_22 
+REMARK   12  A    between atoms: CBD_30  and  OAW_23 
+ROOT
+ATOM      1  NAD DB8 d   1     -19.562   1.335  -1.662  0.00  0.00    -0.191 NA
+ATOM      2  CAG DB8 d   1     -18.623   0.876  -1.640  0.00  0.00     0.103 C 
+ATOM      3  CAH DB8 d   1     -16.123   0.967  -1.624  0.00  0.00     0.025 A 
+ATOM      4  CAK DB8 d   1     -13.272  -1.332  -1.597  0.00  0.00    -0.019 A 
+ATOM      5  CAL DB8 d   1     -15.409  -3.189  -1.814  0.00  0.00    -0.034 A 
+ATOM      6  NAT DB8 d   1     -14.838   0.479  -1.612  0.00  0.00    -0.259 NA
+ATOM      7  CBA DB8 d   1     -17.253   0.161  -1.694  0.00  0.00     0.089 A 
+ATOM      8  CBC DB8 d   1     -14.107  -3.644  -1.760  0.00  0.00     0.102 A 
+ATOM      9  CBD DB8 d   1     -13.050  -2.716  -1.655  0.00  0.00     0.104 A 
+ATOM     10  CBE DB8 d   1     -17.059  -1.246  -1.769  0.00  0.00     0.068 A 
+ATOM     11  CBF DB8 d   1     -14.630  -0.877  -1.660  0.00  0.00     0.071 A 
+ATOM     12  CBG DB8 d   1     -15.706  -1.773  -1.763  0.00  0.00     0.024 A 
+ATOM     13  H6  DB8 d   1     -16.263   2.041  -1.576  0.00  0.00     0.117 H 
+ATOM     14  H9  DB8 d   1     -12.448  -0.633  -1.508  0.00  0.00     0.091 H 
+ATOM     15  H10 DB8 d   1     -16.221  -3.902  -1.896  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH  10  16
+ATOM     16  NAU DB8 d   1     -18.170  -2.241  -1.909  0.00  0.00    -0.353 N 
+ATOM     17  H26 DB8 d   1     -18.054  -3.218  -1.605  0.00  0.00     0.166 HD
+BRANCH  16  18
+ATOM     18  CBB DB8 d   1     -19.405  -1.781  -2.484  0.00  0.00     0.057 A 
+ATOM     19  CAJ DB8 d   1     -19.482  -1.034  -3.634  0.00  0.00    -0.022 A 
+ATOM     20  CAX DB8 d   1     -20.745  -0.498  -4.114  0.00  0.00     0.092 A 
+ATOM     21  H8  DB8 d   1     -18.577  -0.839  -4.198  0.00  0.00     0.091 H 
+ATOM     22  CAY DB8 d   1     -21.873  -0.769  -3.378  0.00  0.00     0.069 A 
+ATOM     23 CL1  DB8 d   1     -23.379  -0.162  -3.895  0.00  0.00    -0.081 Cl
+ATOM     24  CAI DB8 d   1     -21.802  -1.522  -2.210  0.00  0.00    -0.036 A 
+ATOM     25  CAZ DB8 d   1     -20.592  -2.029  -1.748  0.00  0.00     0.062 A 
+ATOM     26  H7  DB8 d   1     -22.708  -1.718  -1.649  0.00  0.00     0.088 H 
+ATOM     27 CL2  DB8 d   1     -20.527  -2.928  -0.299  0.00  0.00    -0.082 Cl
+BRANCH  20  28
+ATOM     28  O02 DB8 d   1     -20.819   0.252  -5.257  0.00  0.00    -0.354 OA
+BRANCH  28  29
+ATOM     29  C01 DB8 d   1     -19.634   0.617  -5.998  0.00  0.00     0.010 C 
+ATOM     30  H29 DB8 d   1     -19.920   1.215  -6.875  0.00  0.00     0.066 H 
+ATOM     31  H30 DB8 d   1     -19.113  -0.294  -6.329  0.00  0.00     0.066 H 
+ATOM     32  H31 DB8 d   1     -18.966   1.207  -5.354  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH  20  28
+ENDBRANCH  16  18
+ENDBRANCH  10  16
+BRANCH   8  33
+ATOM     33  OAV DB8 d   1     -13.885  -5.033  -1.785  0.00  0.00    -0.353 OA
+BRANCH  33  34
+ATOM     34  CAA DB8 d   1     -14.928  -5.922  -1.636  0.00  0.00     0.010 C 
+ATOM     35  H1  DB8 d   1     -14.543  -6.951  -1.685  0.00  0.00     0.066 H 
+ATOM     36  H2  DB8 d   1     -15.661  -5.766  -2.442  0.00  0.00     0.066 H 
+ATOM     37  H3  DB8 d   1     -15.413  -5.758  -0.662  0.00  0.00     0.066 H 
+ENDBRANCH  33  34
+ENDBRANCH   8  33
+BRANCH   9  38
+ATOM     38  OAW DB8 d   1     -11.703  -3.248  -1.587  0.00  0.00    -0.348 OA
+BRANCH  38  39
+ATOM     39  CAN DB8 d   1     -10.694  -2.407  -1.175  0.00  0.00     0.028 C 
+ATOM     40  H13 DB8 d   1     -10.462  -1.675  -1.962  0.00  0.00     0.075 H 
+ATOM     41  H14 DB8 d   1     -10.989  -1.878  -0.257  0.00  0.00     0.075 H 
+BRANCH  39  42
+ATOM     42  CAM DB8 d   1      -9.480  -3.299  -0.906  0.00  0.00    -0.022 C 
+ATOM     43  H11 DB8 d   1      -8.567  -2.685  -0.914  0.00  0.00     0.038 H 
+ATOM     44  H12 DB8 d   1      -9.591  -3.779   0.077  0.00  0.00     0.038 H 
+BRANCH  42  45
+ATOM     45  CAC DB8 d   1      -9.377  -4.376  -1.988  0.00  0.00     0.086 C 
+ATOM     46  H4  DB8 d   1      -9.516  -3.909  -2.974  0.00  0.00     0.076 H 
+ATOM     47  H5  DB8 d   1     -10.163  -5.128  -1.823  0.00  0.00     0.076 H 
+BRANCH  45  48
+ATOM     48  NBH DB8 d   1      -8.065  -5.037  -1.950  0.00  0.00    -0.068 N 
+ATOM     49  CAP DB8 d   1      -8.128  -6.240  -2.781  0.00  0.00     0.106 C 
+ATOM     50  CAR DB8 d   1      -6.829  -7.017  -2.833  0.00  0.00     0.105 C 
+ATOM     51  H18 DB8 d   1      -8.910  -6.899  -2.377  0.00  0.00     0.078 H 
+ATOM     52  H19 DB8 d   1      -8.394  -5.940  -3.805  0.00  0.00     0.078 H 
+ATOM     53  NBI DB8 d   1      -6.356  -7.327  -1.514  0.00  0.00    -0.072 N 
+ATOM     54  H22 DB8 d   1      -6.071  -6.414  -3.353  0.00  0.00     0.078 H 
+ATOM     55  H23 DB8 d   1      -6.994  -7.954  -3.385  0.00  0.00     0.078 H 
+ATOM     56  CAS DB8 d   1      -6.281  -6.113  -0.760  0.00  0.00     0.105 C 
+ATOM     57  H28 DB8 d   1      -7.017  -7.942  -1.066  0.00  0.00     0.279 HD
+ATOM     58  CAQ DB8 d   1      -7.583  -5.348  -0.641  0.00  0.00     0.106 C 
+ATOM     59  H24 DB8 d   1      -5.939  -6.363   0.255  0.00  0.00     0.078 H 
+ATOM     60  H25 DB8 d   1      -5.543  -5.456  -1.244  0.00  0.00     0.078 H 
+ATOM     61  H20 DB8 d   1      -7.413  -4.417  -0.080  0.00  0.00     0.078 H 
+ATOM     62  H21 DB8 d   1      -8.325  -5.964  -0.112  0.00  0.00     0.078 H 
+ATOM     63  H27 DB8 d   1      -7.398  -4.404  -2.364  0.00  0.00     0.280 HD
+BRANCH  53  64
+ATOM     64  CAO DB8 d   1      -5.065  -8.018  -1.587  0.00  0.00     0.066 C 
+ATOM     65  H15 DB8 d   1      -5.176  -8.941  -2.175  0.00  0.00     0.068 H 
+ATOM     66  H16 DB8 d   1      -4.725  -8.269  -0.571  0.00  0.00     0.068 H 
+ATOM     67  H17 DB8 d   1      -4.325  -7.363  -2.070  0.00  0.00     0.068 H 
+ENDBRANCH  53  64
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  38  39
+ENDBRANCH   9  38
+TORSDOF 12

@@ -1,0 +1,30 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+ROOT
+ATOM      1  C1  DHB d   1      33.345  39.632  23.262  0.00  0.00     0.043 A 
+ATOM      2  C2  DHB d   1      32.343  40.307  22.584  0.00  0.00    -0.032 A 
+ATOM      3  C3  DHB d   1      32.497  41.647  22.264  0.00  0.00     0.099 A 
+ATOM      4  C4  DHB d   1      33.654  42.317  22.627  0.00  0.00     0.098 A 
+ATOM      5  C5  DHB d   1      34.662  41.647  23.309  0.00  0.00    -0.047 A 
+ATOM      6  C6  DHB d   1      34.508  40.302  23.627  0.00  0.00    -0.064 A 
+ATOM      7  H1  DHB d   1      31.435  39.785  22.303  0.00  0.00     0.089 H 
+ATOM      8  H4  DHB d   1      35.567  42.172  23.593  0.00  0.00     0.087 H 
+ATOM      9  H5  DHB d   1      35.293  39.776  24.159  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C   DHB d   1      33.164  38.191  23.607  0.00  0.00     0.209 C 
+ATOM     11  O1  DHB d   1      32.390  37.469  22.924  0.00  0.00    -0.644 OA
+ATOM     12  O2  DHB d   1      33.718  37.718  24.632  0.00  0.00    -0.644 OA
+ENDBRANCH   1  10
+BRANCH   3  13
+ATOM     13  O3  DHB d   1      31.503  42.309  21.579  0.00  0.00    -0.358 OA
+ATOM     14  H2  DHB d   1      31.763  43.212  21.440  0.00  0.00     0.217 HD
+ENDBRANCH   3  13
+BRANCH   4  15
+ATOM     15  O4  DHB d   1      33.797  43.647  22.308  0.00  0.00    -0.358 OA
+ATOM     16  H3  DHB d   1      34.637  43.958  22.623  0.00  0.00     0.217 HD
+ENDBRANCH   4  15
+TORSDOF 3

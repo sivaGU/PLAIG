@@ -1,0 +1,91 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C18_2  and  C20_3 
+REMARK       I    between atoms: C18_2  and  N9_12 
+REMARK    2  A    between atoms: C20_3  and  C21_4 
+REMARK    3  A    between atoms: C20_3  and  S26_11 
+REMARK    4  A    between atoms: C21_4  and  C23_5 
+REMARK    5  A    between atoms: N9_12  and  C2_13 
+REMARK    6  A    between atoms: C2_13  and  C11_14 
+REMARK    7  A    between atoms: C2_13  and  C1_22 
+REMARK       I    between atoms: C11_14  and  N13_16 
+REMARK    8  A    between atoms: N13_16  and  C14_17 
+REMARK    9  A    between atoms: C14_17  and  C15_18 
+REMARK   10  A    between atoms: C14_17  and  C19_21 
+REMARK   11  A    between atoms: C1_22  and  C3_23 
+ROOT
+ATOM      1  C2  OIR d   1      30.114  44.386  33.158  0.00  0.00     0.093 C 
+ATOM      2  H11 OIR d   1      31.076  44.602  32.670  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N9  OIR d   1      29.175  43.941  32.137  0.00  0.00    -0.346 N 
+ATOM      4  C18 OIR d   1      29.684  43.069  31.277  0.00  0.00     0.232 C 
+ATOM      5  O19 OIR d   1      30.852  42.722  31.325  0.00  0.00    -0.272 OA
+ATOM      6  H10 OIR d   1      28.230  44.264  32.089  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  C20 OIR d   1      28.821  42.520  30.190  0.00  0.00     0.069 C 
+ATOM      8  H1  OIR d   1      29.132  41.491  29.958  0.00  0.00     0.071 H 
+BRANCH   7   9
+ATOM      9  C21 OIR d   1      27.349  42.503  30.575  0.00  0.00    -0.021 C 
+ATOM     10  H2  OIR d   1      26.737  42.864  29.735  0.00  0.00     0.042 H 
+ATOM     11  H3  OIR d   1      27.183  43.146  31.452  0.00  0.00     0.042 H 
+BRANCH   9  12
+ATOM     12  C23 OIR d   1      26.981  41.075  30.905  0.00  0.00    -0.057 A 
+ATOM     13  C24 OIR d   1      25.765  40.780  31.507  0.00  0.00    -0.077 A 
+ATOM     14  C25 OIR d   1      25.443  39.464  31.813  0.00  0.00    -0.082 A 
+ATOM     15  H4  OIR d   1      25.067  41.577  31.738  0.00  0.00     0.084 H 
+ATOM     16  C26 OIR d   1      26.336  38.440  31.515  0.00  0.00    -0.083 A 
+ATOM     17  H5  OIR d   1      24.494  39.235  32.285  0.00  0.00     0.083 H 
+ATOM     18  C27 OIR d   1      27.550  38.735  30.911  0.00  0.00    -0.082 A 
+ATOM     19  H6  OIR d   1      26.084  37.413  31.754  0.00  0.00     0.083 H 
+ATOM     20  C28 OIR d   1      27.873  40.053  30.608  0.00  0.00    -0.077 A 
+ATOM     21  H7  OIR d   1      28.246  37.938  30.675  0.00  0.00     0.083 H 
+ATOM     22  H8  OIR d   1      28.823  40.283  30.139  0.00  0.00     0.084 H 
+ENDBRANCH   9  12
+ENDBRANCH   7   9
+BRANCH   7  23
+ATOM     23  S26 OIR d   1      29.104  43.579  28.762  0.00  0.00    -0.168 SA
+ATOM     24  H9  OIR d   1      30.085  43.572  28.529  0.00  0.00     0.102 HD
+ENDBRANCH   7  23
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C11 OIR d   1      30.343  43.305  34.183  0.00  0.00     0.241 C 
+ATOM     26  O12 OIR d   1      31.478  43.015  34.498  0.00  0.00    -0.271 OA
+ATOM     27  N13 OIR d   1      29.279  42.699  34.691  0.00  0.00    -0.345 N 
+ATOM     28  H12 OIR d   1      28.380  42.868  34.287  0.00  0.00     0.163 HD
+BRANCH  27  29
+ATOM     29  C14 OIR d   1      29.392  41.793  35.825  0.00  0.00     0.093 C 
+ATOM     30  H13 OIR d   1      30.426  41.422  35.882  0.00  0.00     0.089 H 
+BRANCH  29  31
+ATOM     31  C15 OIR d   1      28.464  40.623  35.667  0.00  0.00     0.196 C 
+ATOM     32  O16 OIR d   1      27.503  40.732  34.924  0.00  0.00    -0.646 OA
+ATOM     33  O17 OIR d   1      28.662  39.570  36.262  0.00  0.00    -0.646 OA
+ENDBRANCH  29  31
+BRANCH  29  34
+ATOM     34  C19 OIR d   1      29.057  42.540  37.114  0.00  0.00    -0.048 C 
+ATOM     35  H14 OIR d   1      29.143  41.853  37.969  0.00  0.00     0.030 H 
+ATOM     36  H15 OIR d   1      28.029  42.927  37.057  0.00  0.00     0.030 H 
+ATOM     37  H16 OIR d   1      29.758  43.378  37.245  0.00  0.00     0.030 H 
+ENDBRANCH  29  34
+ENDBRANCH  27  29
+ENDBRANCH   1  25
+BRANCH   1  38
+ATOM     38  C1  OIR d   1      29.613  45.673  33.811  0.00  0.00    -0.014 C 
+ATOM     39  H17 OIR d   1      28.768  45.460  34.482  0.00  0.00     0.043 H 
+ATOM     40  H18 OIR d   1      29.299  46.396  33.044  0.00  0.00     0.043 H 
+BRANCH  38  41
+ATOM     41  C3  OIR d   1      30.788  46.213  34.597  0.00  0.00    -0.056 A 
+ATOM     42  C4  OIR d   1      30.710  46.379  35.977  0.00  0.00    -0.077 A 
+ATOM     43  C5  OIR d   1      31.803  46.866  36.687  0.00  0.00    -0.082 A 
+ATOM     44  H19 OIR d   1      29.794  46.128  36.500  0.00  0.00     0.084 H 
+ATOM     45  C6  OIR d   1      32.982  47.177  36.020  0.00  0.00    -0.083 A 
+ATOM     46  H20 OIR d   1      31.735  47.003  37.760  0.00  0.00     0.083 H 
+ATOM     47  C7  OIR d   1      33.062  47.007  34.647  0.00  0.00    -0.082 A 
+ATOM     48  H21 OIR d   1      33.836  47.551  36.572  0.00  0.00     0.083 H 
+ATOM     49  C8  OIR d   1      31.970  46.527  33.936  0.00  0.00    -0.077 A 
+ATOM     50  H22 OIR d   1      33.981  47.250  34.126  0.00  0.00     0.083 H 
+ATOM     51  H23 OIR d   1      32.039  46.397  32.862  0.00  0.00     0.084 H 
+ENDBRANCH  38  41
+ENDBRANCH   1  38
+TORSDOF 11

@@ -1,0 +1,162 @@
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1A_1  and  N4B_18 
+REMARK    2  A    between atoms: C2A_2  and  O2A_8 
+REMARK    3  A    between atoms: C3A_3  and  O3A_9 
+REMARK    4  A    between atoms: C4A_4  and  O4A_10 
+REMARK    5  A    between atoms: C5A_5  and  C6A_6 
+REMARK    6  A    between atoms: C6A_6  and  O6A_11 
+REMARK    7  A    between atoms: C1B_12  and  O4C_30 
+REMARK    8  A    between atoms: C2B_13  and  O2B_19 
+REMARK    9  A    between atoms: C3B_14  and  O3B_20 
+REMARK   10  A    between atoms: N4B_18  and  C4B_15 
+REMARK   11  A    between atoms: C5B_16  and  C6B_17 
+REMARK   12  A    between atoms: C1C_22  and  O4D_42 
+REMARK   13  A    between atoms: C2C_23  and  O2C_28 
+REMARK   14  A    between atoms: C3C_24  and  O3C_29 
+REMARK   15  A    between atoms: O4C_30  and  C4C_25 
+REMARK   16  A    between atoms: C5C_26  and  C6C_27 
+REMARK   17  A    between atoms: C6C_27  and  O6C_32 
+REMARK   18  A    between atoms: C1D_33  and  O1D_39 
+REMARK   19  A    between atoms: C2D_34  and  O2D_40 
+REMARK   20  A    between atoms: C3D_35  and  O3D_41 
+REMARK   21  A    between atoms: O4D_42  and  C4D_36 
+REMARK   22  A    between atoms: C5D_37  and  C6D_38 
+REMARK   23  A    between atoms: C6D_38  and  O6D_44 
+ROOT
+ATOM      1  C1B ACR d   1      31.650  18.108   3.428  0.00  0.00     0.159 C 
+ATOM      2  C2B ACR d   1      33.157  18.400   3.678  0.00  0.00     0.110 C 
+ATOM      3  C3B ACR d   1      33.491  18.284   5.182  0.00  0.00     0.094 C 
+ATOM      4  C4B ACR d   1      32.543  19.185   5.983  0.00  0.00     0.154 C 
+ATOM      5  C5B ACR d   1      31.081  18.736   5.694  0.00  0.00     0.068 C 
+ATOM      6  O5B ACR d   1      30.843  18.866   4.303  0.00  0.00    -0.351 OA
+ATOM      7  H12 ACR d   1      31.407  18.416   2.400  0.00  0.00     0.133 H 
+ATOM      8  H13 ACR d   1      33.357  19.431   3.350  0.00  0.00     0.094 H 
+ATOM      9  H14 ACR d   1      33.330  17.241   5.491  0.00  0.00     0.090 H 
+ATOM     10  H15 ACR d   1      32.675  20.221   5.639  0.00  0.00     0.092 H 
+ATOM     11  H16 ACR d   1      30.947  17.694   6.019  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  O4C ACR d   1      31.410  16.743   3.531  0.00  0.00    -0.348 OA
+BRANCH  12  13
+ATOM     13  C4C ACR d   1      30.165  16.132   3.448  0.00  0.00     0.096 C 
+ATOM     14  C5C ACR d   1      30.312  14.663   3.885  0.00  0.00     0.089 C 
+ATOM     15  O5C ACR d   1      29.042  14.031   3.851  0.00  0.00    -0.348 OA
+ATOM     16  H28 ACR d   1      31.029  14.147   3.229  0.00  0.00     0.090 H 
+ATOM     17  C1C ACR d   1      28.396  13.948   2.586  0.00  0.00     0.159 C 
+ATOM     18  C2C ACR d   1      28.146  15.416   2.123  0.00  0.00     0.110 C 
+ATOM     19  H24 ACR d   1      27.429  13.438   2.708  0.00  0.00     0.133 H 
+ATOM     20  C3C ACR d   1      29.498  16.211   2.060  0.00  0.00     0.092 C 
+ATOM     21  H25 ACR d   1      27.526  15.885   2.902  0.00  0.00     0.094 H 
+ATOM     22  H26 ACR d   1      30.162  15.773   1.301  0.00  0.00     0.091 H 
+ATOM     23  H27 ACR d   1      29.498  16.642   4.159  0.00  0.00     0.091 H 
+BRANCH  14  24
+ATOM     24  C6C ACR d   1      30.757  14.573   5.368  0.00  0.00     0.043 C 
+ATOM     25  H29 ACR d   1      29.958  14.943   6.027  0.00  0.00     0.078 H 
+ATOM     26  H30 ACR d   1      31.669  15.167   5.528  0.00  0.00     0.078 H 
+BRANCH  24  27
+ATOM     27  O6C ACR d   1      31.011  13.214   5.628  0.00  0.00    -0.398 OA
+ATOM     28  H33 ACR d   1      31.697  12.905   5.048  0.00  0.00     0.209 HD
+ENDBRANCH  24  27
+ENDBRANCH  14  24
+BRANCH  17  29
+ATOM     29  O4D ACR d   1      29.153  13.226   1.656  0.00  0.00    -0.348 OA
+BRANCH  29  30
+ATOM     30  C4D ACR d   1      28.832  11.828   1.505  0.00  0.00     0.096 C 
+ATOM     31  C5D ACR d   1      30.150  11.058   1.360  0.00  0.00     0.089 C 
+ATOM     32  O5D ACR d   1      29.989   9.744   0.848  0.00  0.00    -0.349 OA
+ATOM     33  H38 ACR d   1      30.783  11.625   0.661  0.00  0.00     0.090 H 
+ATOM     34  C1D ACR d   1      29.245   9.591  -0.354  0.00  0.00     0.156 C 
+ATOM     35  C2D ACR d   1      27.862  10.287  -0.262  0.00  0.00     0.110 C 
+ATOM     36  H34 ACR d   1      29.814  10.003  -1.200  0.00  0.00     0.133 H 
+ATOM     37  C3D ACR d   1      28.024  11.747   0.199  0.00  0.00     0.092 C 
+ATOM     38  H35 ACR d   1      27.263   9.741   0.481  0.00  0.00     0.094 H 
+ATOM     39  H36 ACR d   1      28.616  12.256  -0.576  0.00  0.00     0.091 H 
+ATOM     40  H37 ACR d   1      28.251  11.448   2.358  0.00  0.00     0.091 H 
+BRANCH  31  41
+ATOM     41  C6D ACR d   1      30.902  10.926   2.714  0.00  0.00     0.043 C 
+ATOM     42  H39 ACR d   1      30.716   9.935   3.155  0.00  0.00     0.078 H 
+ATOM     43  H40 ACR d   1      30.565  11.707   3.412  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  O6D ACR d   1      32.311  11.088   2.430  0.00  0.00    -0.398 OA
+ATOM     45  H44 ACR d   1      32.590  10.413   1.822  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  31  41
+BRANCH  34  46
+ATOM     46  O1D ACR d   1      29.015   8.222  -0.534  0.00  0.00    -0.369 OA
+ATOM     47  H41 ACR d   1      28.518   8.088  -1.332  0.00  0.00     0.212 HD
+ENDBRANCH  34  46
+BRANCH  35  48
+ATOM     48  O2D ACR d   1      27.124  10.312  -1.513  0.00  0.00    -0.388 OA
+ATOM     49  H42 ACR d   1      26.275  10.714  -1.371  0.00  0.00     0.210 HD
+ENDBRANCH  35  48
+BRANCH  37  50
+ATOM     50  O3D ACR d   1      26.772  12.472   0.301  0.00  0.00    -0.390 OA
+ATOM     51  H43 ACR d   1      26.951  13.386   0.488  0.00  0.00     0.210 HD
+ENDBRANCH  37  50
+ENDBRANCH  29  30
+ENDBRANCH  17  29
+BRANCH  18  52
+ATOM     52  O2C ACR d   1      27.426  15.558   0.896  0.00  0.00    -0.388 OA
+ATOM     53  H31 ACR d   1      26.612  15.072   0.950  0.00  0.00     0.210 HD
+ENDBRANCH  18  52
+BRANCH  20  54
+ATOM     54  O3C ACR d   1      29.205  17.584   1.719  0.00  0.00    -0.390 OA
+ATOM     55  H32 ACR d   1      28.616  17.951   2.367  0.00  0.00     0.210 HD
+ENDBRANCH  20  54
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  56
+ATOM     56  O2B ACR d   1      34.041  17.515   2.949  0.00  0.00    -0.388 OA
+ATOM     57  H22 ACR d   1      34.943  17.771   3.105  0.00  0.00     0.210 HD
+ENDBRANCH   2  56
+BRANCH   3  58
+ATOM     58  O3B ACR d   1      34.841  18.622   5.460  0.00  0.00    -0.391 OA
+ATOM     59  H23 ACR d   1      35.011  18.506   6.388  0.00  0.00     0.210 HD
+ENDBRANCH   3  58
+BRANCH   5  60
+ATOM     60  C6B ACR d   1      30.040  19.635   6.375  0.00  0.00    -0.050 C 
+ATOM     61  H17 ACR d   1      29.029  19.271   6.137  0.00  0.00     0.031 H 
+ATOM     62  H18 ACR d   1      30.153  20.667   6.012  0.00  0.00     0.031 H 
+ATOM     63  H19 ACR d   1      30.191  19.611   7.464  0.00  0.00     0.031 H 
+ENDBRANCH   5  60
+BRANCH   4  64
+ATOM     64  N4B ACR d   1      32.798  19.147   7.413  0.00  0.00    -0.056 N 
+ATOM     65  H20 ACR d   1      32.011  18.707   7.863  0.00  0.00     0.278 HD
+ATOM     66  H21 ACR d   1      33.627  18.596   7.572  0.00  0.00     0.278 HD
+BRANCH  64  67
+ATOM     67  C1A ACR d   1      32.999  20.472   8.025  0.00  0.00     0.146 C 
+ATOM     68  C7A ACR d   1      31.832  20.961   8.815  0.00  0.00    -0.064 C 
+ATOM     69  C5A ACR d   1      31.657  20.775  10.159  0.00  0.00    -0.027 C 
+ATOM     70  H7  ACR d   1      31.058  21.509   8.280  0.00  0.00     0.080 H 
+ATOM     71  C4A ACR d   1      32.816  20.299  11.031  0.00  0.00     0.086 C 
+ATOM     72  C3A ACR d   1      33.879  19.541  10.201  0.00  0.00     0.091 C 
+ATOM     73  H4  ACR d   1      33.280  21.171  11.515  0.00  0.00     0.094 H 
+ATOM     74  C2A ACR d   1      34.252  20.335   8.934  0.00  0.00     0.093 C 
+ATOM     75  H3  ACR d   1      33.450  18.575   9.898  0.00  0.00     0.091 H 
+ATOM     76  H2  ACR d   1      34.592  21.337   9.234  0.00  0.00     0.090 H 
+ATOM     77  H1  ACR d   1      33.200  21.204   7.229  0.00  0.00     0.095 H 
+BRANCH  69  78
+ATOM     78  C6A ACR d   1      30.511  21.473  10.874  0.00  0.00     0.039 C 
+ATOM     79  H5  ACR d   1      30.095  20.814  11.650  0.00  0.00     0.081 H 
+ATOM     80  H6  ACR d   1      29.722  21.736  10.154  0.00  0.00     0.081 H 
+BRANCH  78  81
+ATOM     81  O6A ACR d   1      31.051  22.676  11.480  0.00  0.00    -0.397 OA
+ATOM     82  H11 ACR d   1      31.735  22.440  12.096  0.00  0.00     0.209 HD
+ENDBRANCH  78  81
+ENDBRANCH  69  78
+BRANCH  71  83
+ATOM     83  O4A ACR d   1      32.338  19.382  12.029  0.00  0.00    -0.388 OA
+ATOM     84  H10 ACR d   1      31.680  19.811  12.563  0.00  0.00     0.210 HD
+ENDBRANCH  71  83
+BRANCH  72  85
+ATOM     85  O3A ACR d   1      35.067  19.293  10.952  0.00  0.00    -0.390 OA
+ATOM     86  H9  ACR d   1      35.675  18.791  10.423  0.00  0.00     0.210 HD
+ENDBRANCH  72  85
+BRANCH  74  87
+ATOM     87  O2A ACR d   1      35.321  19.684   8.187  0.00  0.00    -0.390 OA
+ATOM     88  H8  ACR d   1      36.088  19.600   8.742  0.00  0.00     0.210 HD
+ENDBRANCH  74  87
+ENDBRANCH  64  67
+ENDBRANCH   4  64
+TORSDOF 23

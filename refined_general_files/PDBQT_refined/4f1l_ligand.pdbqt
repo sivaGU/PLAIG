@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_2  and  CAF_4 
+REMARK    2  A    between atoms: CAG_5  and  CAO_6 
+REMARK       I    between atoms: CAO_6  and  NAL_8 
+REMARK    3  A    between atoms: NAL_8  and  CAP_9 
+REMARK    4  A    between atoms: CAQ_14  and  CAN_15 
+REMARK       I    between atoms: CAN_15  and  NAA_17 
+ROOT
+ATOM      1  CAP 0RY d   1       2.233  10.419   2.369  0.00  0.00     0.035 A 
+ATOM      2  CAK 0RY d   1       1.868   9.963   1.095  0.00  0.00    -0.042 A 
+ATOM      3  CAI 0RY d   1       1.826   9.685   3.489  0.00  0.00    -0.057 A 
+ATOM      4  CAH 0RY d   1       1.097   8.532   3.315  0.00  0.00    -0.080 A 
+ATOM      5  CAJ 0RY d   1       0.731   8.089   2.038  0.00  0.00    -0.068 A 
+ATOM      6  CAQ 0RY d   1       1.105   8.799   0.914  0.00  0.00     0.034 A 
+ATOM      7  H4  0RY d   1       2.184  10.526   0.224  0.00  0.00     0.088 H 
+ATOM      8  H5  0RY d   1       2.083  10.023   4.486  0.00  0.00     0.086 H 
+ATOM      9  H6  0RY d   1       0.800   7.955   4.183  0.00  0.00     0.083 H 
+ATOM     10  H7  0RY d   1       0.149   7.181   1.931  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NAL 0RY d   1       3.000  11.466   2.695  0.00  0.00    -0.324 N 
+ATOM     12  CAO 0RY d   1       4.144  11.839   2.107  0.00  0.00     0.245 C 
+ATOM     13  OAD 0RY d   1       4.528  11.405   1.026  0.00  0.00    -0.268 OA
+ATOM     14  H3  0RY d   1       2.686  12.030   3.459  0.00  0.00     0.169 HD
+BRANCH  12  15
+ATOM     15  CAG 0RY d   1       4.978  12.821   2.697  0.00  0.00    -0.011 C 
+ATOM     16  CAF 0RY d   1       4.946  13.441   3.965  0.00  0.00    -0.004 C 
+ATOM     17  H1  0RY d   1       5.760  14.145   4.131  0.00  0.00     0.094 H 
+ATOM     18  H2  0RY d   1       5.791  13.159   2.056  0.00  0.00     0.092 H 
+BRANCH  16  19
+ATOM     19  CAM 0RY d   1       4.058  13.323   5.063  0.00  0.00     0.198 C 
+ATOM     20  OAB 0RY d   1       2.976  12.689   4.976  0.00  0.00    -0.645 OA
+ATOM     21  OAE 0RY d   1       4.345  14.016   6.068  0.00  0.00    -0.645 OA
+ENDBRANCH  16  19
+ENDBRANCH  12  15
+ENDBRANCH   1  11
+BRANCH   6  22
+ATOM     22  CAN 0RY d   1       0.668   8.248  -0.492  0.00  0.00     0.249 C 
+ATOM     23  OAC 0RY d   1      -0.472   7.799  -0.640  0.00  0.00    -0.268 OA
+ATOM     24  NAA 0RY d   1       1.487   8.440  -1.518  0.00  0.00    -0.366 N 
+ATOM     25  H8  0RY d   1       1.239   8.102  -2.426  0.00  0.00     0.159 HD
+ATOM     26  H9  0RY d   1       2.352   8.923  -1.383  0.00  0.00     0.159 HD
+ENDBRANCH   6  22
+TORSDOF 4

@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_1  and  C4_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C5_8  and  C6_9 
+REMARK    4  A    between atoms: C6_9  and  O6_10 
+ROOT
+ATOM      1  C4  IFL d   1      27.866  48.560  -0.665  0.00  0.00     0.075 C 
+ATOM      2  C3  IFL d   1      28.082  47.349   0.277  0.00  0.00     0.137 C 
+ATOM      3  C2  IFL d   1      27.850  45.950  -0.365  0.00  0.00     0.249 C 
+ATOM      4  N   IFL d   1      27.461  45.906  -1.655  0.00  0.00    -0.358 N 
+ATOM      5  C7  IFL d   1      27.143  47.050  -2.523  0.00  0.00     0.003 C 
+ATOM      6  C5  IFL d   1      26.746  48.278  -1.672  0.00  0.00     0.009 C 
+ATOM      7  O2  IFL d   1      28.035  44.903   0.269  0.00  0.00    -0.271 OA
+ATOM      8  H2  IFL d   1      28.797  48.781  -1.208  0.00  0.00     0.088 H 
+ATOM      9  H3  IFL d   1      27.407  47.453   1.139  0.00  0.00     0.102 H 
+ATOM     10  H5  IFL d   1      27.380  44.998  -2.066  0.00  0.00     0.162 HD
+ATOM     11  H6  IFL d   1      26.306  46.782  -3.184  0.00  0.00     0.064 H 
+ATOM     12  H7  IFL d   1      28.025  47.300  -3.131  0.00  0.00     0.064 H 
+ATOM     13  H8  IFL d   1      25.843  48.009  -1.105  0.00  0.00     0.049 H 
+ENDROOT
+BRANCH   6  14
+ATOM     14  C6  IFL d   1      26.393  49.535  -2.510  0.00  0.00     0.024 C 
+ATOM     15  H9  IFL d   1      26.216  50.383  -1.832  0.00  0.00     0.074 H 
+ATOM     16  H10 IFL d   1      25.482  49.336  -3.094  0.00  0.00     0.074 H 
+BRANCH  14  17
+ATOM     17  O6  IFL d   1      27.455  49.862  -3.399  0.00  0.00    -0.400 OA
+ATOM     18  H11 IFL d   1      27.220  50.633  -3.902  0.00  0.00     0.209 HD
+ENDBRANCH  14  17
+ENDBRANCH   6  14
+BRANCH   1  19
+ATOM     19  O4  IFL d   1      27.499  49.676   0.160  0.00  0.00    -0.392 OA
+ATOM     20  H1  IFL d   1      27.358  50.440  -0.387  0.00  0.00     0.210 HD
+ENDBRANCH   1  19
+BRANCH   2  21
+ATOM     21  O3  IFL d   1      29.437  47.389   0.707  0.00  0.00    -0.384 OA
+ATOM     22  H4  IFL d   1      29.605  46.657   1.289  0.00  0.00     0.210 HD
+ENDBRANCH   2  21
+TORSDOF 4

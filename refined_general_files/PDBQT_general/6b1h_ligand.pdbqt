@@ -1,0 +1,42 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SAP_2  and  OAL_5 
+REMARK    2  A    between atoms: OAL_5  and  NAK_6 
+REMARK    3  A    between atoms: NAK_6  and  CAN_7 
+REMARK       I    between atoms: NAO_13  and  CAG_14 
+ROOT
+ATOM      1  CAN C8Y d   1      11.527  -2.069  -2.476  0.00  0.00     0.147 C 
+ATOM      2  CAI C8Y d   1      12.713  -1.108  -2.214  0.00  0.00    -0.031 C 
+ATOM      3  CAH C8Y d   1      12.410   0.416  -2.037  0.00  0.00    -0.032 C 
+ATOM      4  CAM C8Y d   1      11.476   0.894  -3.102  0.00  0.00     0.098 C 
+ATOM      5  CAF C8Y d   1      12.131   0.865  -4.400  0.00  0.00     0.084 C 
+ATOM      6  NAA C8Y d   1      12.630   0.839  -5.398  0.00  0.00    -0.195 NA
+ATOM      7  NAO C8Y d   1      10.335  -0.026  -3.159  0.00  0.00    -0.340 N 
+ATOM      8  CAG C8Y d   1       9.090   0.475  -2.977  0.00  0.00     0.172 C 
+ATOM      9  OAB C8Y d   1       8.800   1.459  -2.313  0.00  0.00    -0.283 OA
+ATOM     10  CAJ C8Y d   1      10.539  -1.474  -3.401  0.00  0.00     0.028 C 
+ATOM     11  H3  C8Y d   1      11.946  -2.941  -3.000  0.00  0.00     0.091 H 
+ATOM     12  H4  C8Y d   1      13.405  -1.206  -3.064  0.00  0.00     0.036 H 
+ATOM     13  H5  C8Y d   1      13.211  -1.449  -1.295  0.00  0.00     0.036 H 
+ATOM     14  H6  C8Y d   1      13.351   0.982  -2.101  0.00  0.00     0.037 H 
+ATOM     15  H7  C8Y d   1      11.950   0.581  -1.052  0.00  0.00     0.037 H 
+ATOM     16  H8  C8Y d   1      11.137   1.915  -2.873  0.00  0.00     0.096 H 
+ATOM     17  H9  C8Y d   1       8.271  -0.048  -3.468  0.00  0.00     0.180 H 
+ATOM     18  H10 C8Y d   1       9.577  -1.992  -3.271  0.00  0.00     0.067 H 
+ATOM     19  H11 C8Y d   1      10.894  -1.613  -4.433  0.00  0.00     0.067 H 
+ENDROOT
+BRANCH   1  20
+ATOM     20  NAK C8Y d   1      10.927  -2.605  -1.204  0.00  0.00     0.061 N 
+ATOM     21  H1  C8Y d   1      10.046  -3.036  -1.437  0.00  0.00     0.316 HD
+ATOM     22  H2  C8Y d   1      11.556  -3.302  -0.837  0.00  0.00     0.316 HD
+BRANCH  20  23
+ATOM     23  OAL C8Y d   1      10.684  -1.643  -0.165  0.00  0.00    -0.054 OA
+BRANCH  23  24
+ATOM     24  SAP C8Y d   1       9.300  -1.679   0.504  0.00  0.00     0.279 S 
+ATOM     25  OAE C8Y d   1       9.174  -2.963   1.109  0.00  0.00    -0.571 OA
+ATOM     26  OAC C8Y d   1       8.201  -1.432  -0.316  0.00  0.00    -0.571 OA
+ATOM     27  OAD C8Y d   1       9.247  -0.549   1.452  0.00  0.00    -0.571 OA
+ENDBRANCH  23  24
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+TORSDOF 3

@@ -1,0 +1,75 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_9  and  C08_8 
+REMARK    2  A    between atoms: C11_11  and  C22_22 
+REMARK    3  A    between atoms: N24_24  and  C12_12 
+REMARK    4  A    between atoms: C13_13  and  O27_27 
+REMARK    5  A    between atoms: C17_17  and  C20_20 
+REMARK    6  A    between atoms: O27_27  and  C21_21 
+REMARK    7  A    between atoms: C22_22  and  N25_25 
+ROOT
+ATOM      1  C09 KXA d   1      47.943  50.506  35.524  0.00  0.00    -0.004 A 
+ATOM      2  C10 KXA d   1      49.161  50.282  34.959  0.00  0.00     0.006 A 
+ATOM      3  C11 KXA d   1      47.042  51.261  34.787  0.00  0.00     0.003 A 
+ATOM      4  C16 KXA d   1      49.446  50.779  33.705  0.00  0.00     0.134 A 
+ATOM      5  C17 KXA d   1      47.417  51.719  33.524  0.00  0.00     0.040 A 
+ATOM      6  C18 KXA d   1      50.826  50.390  33.331  0.00  0.00     0.278 A 
+ATOM      7  C19 KXA d   1      50.306  49.546  35.502  0.00  0.00     0.030 A 
+ATOM      8  N23 KXA d   1      48.637  51.492  32.936  0.00  0.00    -0.247 NA
+ATOM      9  N24 KXA d   1      51.267  49.673  34.443  0.00  0.00    -0.305 N 
+ATOM     10  O26 KXA d   1      51.442  50.627  32.321  0.00  0.00    -0.265 OA
+ATOM     11  H   KXA d   1      50.075  48.511  35.755  0.00  0.00     0.072 H 
+ATOM     12  H   KXA d   1      50.659  49.937  36.456  0.00  0.00     0.072 H 
+ENDROOT
+BRANCH   9  13
+ATOM     13  C12 KXA d   1      52.514  49.127  34.491  0.00  0.00     0.071 A 
+ATOM     14  C04 KXA d   1      53.509  49.726  35.248  0.00  0.00    -0.054 A 
+ATOM     15  C01 KXA d   1      54.761  49.145  35.279  0.00  0.00    -0.081 A 
+ATOM     16  H   KXA d   1      53.307  50.639  35.808  0.00  0.00     0.087 H 
+ATOM     17  C02 KXA d   1      55.024  47.975  34.573  0.00  0.00    -0.080 A 
+ATOM     18  H   KXA d   1      55.554  49.609  35.865  0.00  0.00     0.083 H 
+ATOM     19  C05 KXA d   1      54.035  47.379  33.831  0.00  0.00    -0.049 A 
+ATOM     20  H   KXA d   1      56.019  47.531  34.609  0.00  0.00     0.083 H 
+ATOM     21  C13 KXA d   1      52.775  47.961  33.791  0.00  0.00     0.095 A 
+ATOM     22  H   KXA d   1      54.236  46.460  33.280  0.00  0.00     0.087 H 
+BRANCH  21  23
+ATOM     23  O27 KXA d   1      51.748  47.431  33.078  0.00  0.00    -0.354 OA
+BRANCH  23  24
+ATOM     24  C21 KXA d   1      52.109  46.294  32.336  0.00  0.00     0.010 C 
+ATOM     25  H   KXA d   1      52.896  46.558  31.629  0.00  0.00     0.066 H 
+ATOM     26  H   KXA d   1      52.471  45.520  33.013  0.00  0.00     0.066 H 
+ATOM     27  H   KXA d   1      51.239  45.925  31.792  0.00  0.00     0.066 H 
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   9  13
+BRANCH   1  28
+ATOM     28  C08 KXA d   1      47.720  49.983  36.844  0.00  0.00    -0.003 A 
+ATOM     29  C03 KXA d   1      47.129  48.744  36.982  0.00  0.00    -0.069 A 
+ATOM     30  C06 KXA d   1      46.950  48.230  38.258  0.00  0.00    -0.061 A 
+ATOM     31  H   KXA d   1      46.809  48.180  36.106  0.00  0.00     0.085 H 
+ATOM     32  C14 KXA d   1      47.390  48.979  39.341  0.00  0.00     0.035 A 
+ATOM     33  H   KXA d   1      46.475  47.260  38.407  0.00  0.00     0.086 H 
+ATOM     34  C07 KXA d   1      47.992  50.201  39.227  0.00  0.00    -0.040 A 
+ATOM     35 CL1  KXA d   1      47.179  48.360  40.880  0.00  0.00    -0.084 Cl
+ATOM     36  C15 KXA d   1      48.163  50.690  37.954  0.00  0.00     0.046 A 
+ATOM     37  H   KXA d   1      48.320  50.760  40.103  0.00  0.00     0.088 H 
+ATOM     38 CL2  KXA d   1      48.907  52.208  37.752  0.00  0.00    -0.083 Cl
+ENDBRANCH   1  28
+BRANCH   5  39
+ATOM     39  C20 KXA d   1      46.494  52.514  32.687  0.00  0.00    -0.035 C 
+ATOM     40  H   KXA d   1      46.941  53.486  32.478  0.00  0.00     0.035 H 
+ATOM     41  H   KXA d   1      46.311  51.988  31.750  0.00  0.00     0.035 H 
+ATOM     42  H   KXA d   1      45.552  52.652  33.218  0.00  0.00     0.035 H 
+ENDBRANCH   5  39
+BRANCH   3  43
+ATOM     43  C22 KXA d   1      45.675  51.554  35.316  0.00  0.00     0.106 C 
+ATOM     44  H   KXA d   1      45.110  50.626  35.407  0.00  0.00     0.082 H 
+ATOM     45  H   KXA d   1      45.153  52.224  34.633  0.00  0.00     0.082 H 
+BRANCH  43  46
+ATOM     46  N25 KXA d   1      45.792  52.169  36.592  0.00  0.00    -0.075 N 
+ATOM     47  H   KXA d   1      44.861  52.371  36.957  0.00  0.00     0.274 HD
+ATOM     48  H   KXA d   1      46.279  51.538  37.229  0.00  0.00     0.274 HD
+ATOM     49  H   KXA d   1      46.319  53.038  36.502  0.00  0.00     0.274 HD
+ENDBRANCH  43  46
+ENDBRANCH   3  43
+TORSDOF 7

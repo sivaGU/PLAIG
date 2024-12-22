@@ -1,0 +1,65 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_6  and  CAU_7 
+REMARK    2  A    between atoms: CAU_7  and  NAN_8 
+REMARK    3  A    between atoms: CAO_9  and  NAP_10 
+REMARK    4  A    between atoms: CAF_16  and  NAG_17 
+REMARK    5  A    between atoms: NAG_17  and  SAH_18 
+REMARK    6  A    between atoms: SAH_18  and  CAI_21 
+ROOT
+ATOM      1  NAN Y46 d   1      38.135   3.391  10.188  0.00  0.00    -0.281 N 
+ATOM      2  CAO Y46 d   1      37.226   3.136   9.215  0.00  0.00     0.135 A 
+ATOM      3  CAM Y46 d   1      38.370   2.457  11.135  0.00  0.00     0.330 A 
+ATOM      4  OAL Y46 d   1      39.223   2.655  11.993  0.00  0.00    -0.246 OA
+ATOM      5  NAD Y46 d   1      37.683   1.245  11.158  0.00  0.00    -0.277 N 
+ATOM      6  CAE Y46 d   1      36.726   0.956  10.205  0.00  0.00     0.256 A 
+ATOM      7  OAA Y46 d   1      36.146  -0.129  10.248  0.00  0.00    -0.270 OA
+ATOM      8  CAF Y46 d   1      36.491   1.928   9.218  0.00  0.00     0.153 A 
+ATOM      9  H9  Y46 d   1      37.885   0.576  11.873  0.00  0.00     0.173 HD
+ATOM     10  H10 Y46 d   1      35.692   2.388   9.818  0.00  0.00     0.101 H 
+ENDROOT
+BRANCH   8  11
+ATOM     11  NAG Y46 d   1      35.632   1.645   8.225  0.00  0.00    -0.294 N 
+ATOM     12  H11 Y46 d   1      36.002   1.172   7.425  0.00  0.00     0.173 HD
+BRANCH  11  13
+ATOM     13  SAH Y46 d   1      34.026   2.006   8.204  0.00  0.00     0.260 S 
+ATOM     14  OAC Y46 d   1      33.791   3.516   8.217  0.00  0.00    -0.201 OA
+ATOM     15  OAQ Y46 d   1      33.421   1.368   6.951  0.00  0.00    -0.201 OA
+BRANCH  13  16
+ATOM     16  CAI Y46 d   1      33.262   1.279   9.685  0.00  0.00     0.079 A 
+ATOM     17  CAJ Y46 d   1      33.493   1.852  10.936  0.00  0.00    -0.060 A 
+ATOM     18  CAK Y46 d   1      32.887   1.303  12.079  0.00  0.00    -0.082 A 
+ATOM     19  H12 Y46 d   1      34.138   2.718  11.026  0.00  0.00     0.085 H 
+ATOM     20  CAT Y46 d   1      32.071   0.183  11.955  0.00  0.00    -0.083 A 
+ATOM     21  H13 Y46 d   1      33.054   1.750  13.052  0.00  0.00     0.083 H 
+ATOM     22  CAS Y46 d   1      31.869  -0.396  10.709  0.00  0.00    -0.082 A 
+ATOM     23  H14 Y46 d   1      31.593  -0.238  12.832  0.00  0.00     0.083 H 
+ATOM     24  CAR Y46 d   1      32.449   0.163   9.572  0.00  0.00    -0.060 A 
+ATOM     25  H15 Y46 d   1      31.258  -1.287  10.620  0.00  0.00     0.083 H 
+ATOM     26  H16 Y46 d   1      32.264  -0.276   8.598  0.00  0.00     0.085 H 
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+BRANCH   2  27
+ATOM     27  NAP Y46 d   1      36.972   4.048   8.260  0.00  0.00    -0.285 NA
+ATOM     28  H8  Y46 d   1      36.294   3.849   7.541  0.00  0.00     0.188 HD
+ENDBRANCH   2  27
+BRANCH   1  29
+ATOM     29  CAU Y46 d   1      38.919   4.689  10.198  0.00  0.00     0.029 C 
+ATOM     30  H6  Y46 d   1      39.927   4.471  10.582  0.00  0.00     0.072 H 
+ATOM     31  H7  Y46 d   1      38.991   5.047   9.161  0.00  0.00     0.072 H 
+BRANCH  29  32
+ATOM     32  CAV Y46 d   1      38.375   5.730  10.978  0.00  0.00    -0.040 A 
+ATOM     33  CAW Y46 d   1      38.014   6.948  10.373  0.00  0.00    -0.075 A 
+ATOM     34  CAX Y46 d   1      37.477   8.000  11.128  0.00  0.00    -0.082 A 
+ATOM     35  H1  Y46 d   1      38.153   7.075   9.306  0.00  0.00     0.084 H 
+ATOM     36  CBA Y46 d   1      37.316   7.852  12.511  0.00  0.00    -0.083 A 
+ATOM     37  H2  Y46 d   1      37.187   8.925  10.643  0.00  0.00     0.083 H 
+ATOM     38  CAZ Y46 d   1      37.697   6.657  13.116  0.00  0.00    -0.082 A 
+ATOM     39  H3  Y46 d   1      36.900   8.658  13.104  0.00  0.00     0.083 H 
+ATOM     40  CAY Y46 d   1      38.234   5.614  12.365  0.00  0.00    -0.075 A 
+ATOM     41  H4  Y46 d   1      37.574   6.537  14.186  0.00  0.00     0.083 H 
+ATOM     42  H5  Y46 d   1      38.546   4.702  12.861  0.00  0.00     0.084 H 
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 6

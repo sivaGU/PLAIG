@@ -1,0 +1,41 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_6  and  CAK_7 
+REMARK    2  A    between atoms: CA_14  and  CB_15 
+REMARK    3  A    between atoms: CB_15  and  CAA_16 
+ROOT
+ATOM      1  O   5GV d   1      14.733   0.808  -8.624  0.00  0.00    -0.271 OA
+ATOM      2  C   5GV d   1      14.809   1.399  -7.550  0.00  0.00     0.244 C 
+ATOM      3  NAI 5GV d   1      13.619   1.697  -6.876  0.00  0.00    -0.323 N 
+ATOM      4  CAO 5GV d   1      13.625   2.373  -5.652  0.00  0.00     0.062 A 
+ATOM      5  CAG 5GV d   1      12.436   2.628  -4.981  0.00  0.00    -0.038 A 
+ATOM      6  CAM 5GV d   1      12.466   3.306  -3.766  0.00  0.00     0.043 A 
+ATOM      7  CAE 5GV d   1      13.677   3.725  -3.225  0.00  0.00    -0.064 A 
+ATOM      8  CAF 5GV d   1      14.866   3.468  -3.898  0.00  0.00    -0.054 A 
+ATOM      9  CAN 5GV d   1      14.832   2.788  -5.109  0.00  0.00     0.056 A 
+ATOM     10  N   5GV d   1      16.022   2.535  -5.791  0.00  0.00    -0.375 N 
+ATOM     11  CA  5GV d   1      16.069   1.724  -7.030  0.00  0.00     0.087 C 
+ATOM     12  H1  5GV d   1      12.746   1.421  -7.278  0.00  0.00     0.169 HD
+ATOM     13  H2  5GV d   1      11.491   2.301  -5.401  0.00  0.00     0.088 H 
+ATOM     14  H3  5GV d   1      13.694   4.252  -2.278  0.00  0.00     0.085 H 
+ATOM     15  H4  5GV d   1      15.812   3.795  -3.481  0.00  0.00     0.087 H 
+ATOM     16  H5  5GV d   1      16.900   2.926  -5.420  0.00  0.00     0.160 HD
+ATOM     17  H6  5GV d   1      16.583   0.782  -6.790  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH  11  18
+ATOM     18  CB  5GV d   1      16.879   2.461  -8.096  0.00  0.00    -0.041 C 
+ATOM     19  H7  5GV d   1      16.888   1.875  -9.027  0.00  0.00     0.036 H 
+ATOM     20  H8  5GV d   1      17.911   2.606  -7.744  0.00  0.00     0.036 H 
+BRANCH  18  21
+ATOM     21  CAA 5GV d   1      16.223   3.820  -8.348  0.00  0.00    -0.074 C 
+ATOM     22  H9  5GV d   1      16.793   4.366  -9.114  0.00  0.00     0.027 H 
+ATOM     23  H10 5GV d   1      16.213   4.401  -7.414  0.00  0.00     0.027 H 
+ATOM     24  H11 5GV d   1      15.191   3.670  -8.697  0.00  0.00     0.027 H 
+ENDBRANCH  18  21
+ENDBRANCH  11  18
+BRANCH   6  25
+ATOM     25  CAK 5GV d   1      11.286   3.577  -3.083  0.00  0.00     0.209 C 
+ATOM     26  OAD 5GV d   1      11.323   4.244  -2.025  0.00  0.00    -0.644 OA
+ATOM     27  OAB 5GV d   1      10.191   3.178  -3.536  0.00  0.00    -0.644 OA
+ENDBRANCH   6  25
+TORSDOF 3

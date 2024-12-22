@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C1'_5  and  N1_6 
+REMARK    4  A    between atoms: C4_9  and  N4_13 
+REMARK    5  A    between atoms: C3'_17  and  O3'_18 
+ROOT
+ATOM      1  C4' GEO d   1      58.798  20.971   9.850  0.00  0.00     0.092 C 
+ATOM      2  O4' GEO d   1      59.859  20.273  10.522  0.00  0.00    -0.350 OA
+ATOM      3  C1' GEO d   1      59.946  18.927  10.004  0.00  0.00     0.178 C 
+ATOM      4  C2' GEO d   1      58.511  18.577   9.625  0.00  0.00     0.314 C 
+ATOM      5  F1  GEO d   1      58.526  17.737   8.600  0.00  0.00    -0.198 F 
+ATOM      6  F2  GEO d   1      57.893  18.086  10.678  0.00  0.00    -0.198 F 
+ATOM      7  C3' GEO d   1      57.879  19.906   9.257  0.00  0.00     0.129 C 
+ATOM      8  H4  GEO d   1      59.207  21.600   9.046  0.00  0.00     0.091 H 
+ATOM      9  H5  GEO d   1      60.569  18.917   9.098  0.00  0.00     0.128 H 
+ATOM     10  H10 GEO d   1      56.859  19.992   9.660  0.00  0.00     0.096 H 
+ENDROOT
+BRANCH   3  11
+ATOM     11  N1  GEO d   1      60.563  18.017  10.982  0.00  0.00    -0.286 N 
+ATOM     12  C6  GEO d   1      60.274  18.104  12.284  0.00  0.00    -0.010 A 
+ATOM     13  C5  GEO d   1      60.883  17.263  13.198  0.00  0.00    -0.024 A 
+ATOM     14  H6  GEO d   1      59.553  18.844  12.628  0.00  0.00     0.112 H 
+ATOM     15  C4  GEO d   1      61.826  16.350  12.721  0.00  0.00     0.126 A 
+ATOM     16  H7  GEO d   1      60.635  17.311  14.257  0.00  0.00     0.091 H 
+ATOM     17  N3  GEO d   1      62.101  16.307  11.406  0.00  0.00    -0.189 NA
+ATOM     18  C2  GEO d   1      61.474  17.139  10.552  0.00  0.00     0.284 A 
+ATOM     19  O2  GEO d   1      61.774  17.049   9.234  0.00  0.00    -0.149 OA
+BRANCH  15  20
+ATOM     20  N4  GEO d   1      62.473  15.493  13.545  0.00  0.00    -0.384 N 
+ATOM     21  H8  GEO d   1      63.163  14.832  13.161  0.00  0.00     0.157 HD
+ATOM     22  H9  GEO d   1      62.275  15.502  14.556  0.00  0.00     0.157 HD
+ENDBRANCH  15  20
+ENDBRANCH   3  11
+BRANCH   1  23
+ATOM     23  C5' GEO d   1      58.057  21.850  10.845  0.00  0.00     0.043 C 
+ATOM     24  H2  GEO d   1      58.778  22.430  11.440  0.00  0.00     0.078 H 
+ATOM     25  H3  GEO d   1      57.387  22.538  10.308  0.00  0.00     0.078 H 
+BRANCH  23  26
+ATOM     26  O5' GEO d   1      57.289  20.997  11.707  0.00  0.00    -0.398 OA
+ATOM     27  H1  GEO d   1      56.817  21.528  12.338  0.00  0.00     0.209 HD
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+BRANCH   7  28
+ATOM     28  O3' GEO d   1      57.867  20.019   7.839  0.00  0.00    -0.387 OA
+ATOM     29  H11 GEO d   1      57.474  20.848   7.592  0.00  0.00     0.210 HD
+ENDBRANCH   7  28
+TORSDOF 5

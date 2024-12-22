@@ -1,0 +1,103 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAY_2  and  CAX_5 
+REMARK    2  A    between atoms: CAX_5  and  PAZ_6 
+REMARK    3  A    between atoms: CAX_5  and  OAD_10 
+REMARK    4  A    between atoms: CAX_5  and  CAU_11 
+REMARK    5  A    between atoms: CAU_11  and  NAW_12 
+REMARK    6  A    between atoms: NAV_16  and  CAT_17 
+REMARK    7  A    between atoms: CAT_17  and  CAS_18 
+REMARK    8  A    between atoms: CAS_18  and  CAR_19 
+REMARK    9  A    between atoms: CAR_19  and  CAQ_20 
+REMARK   10  A    between atoms: CAQ_20  and  CAP_21 
+REMARK   11  A    between atoms: CAP_21  and  CAO_22 
+REMARK   12  A    between atoms: CAO_22  and  CAN_23 
+REMARK   13  A    between atoms: CAN_23  and  CAM_24 
+REMARK   14  A    between atoms: CAM_24  and  CAL_25 
+REMARK   15  A    between atoms: CAL_25  and  CAA_26 
+ROOT
+ATOM      1  CAS 8PH d   1     -13.687  46.709 -47.807  0.00  0.00    -0.050 C 
+ATOM      2  H   8PH d   1     -14.672  47.142 -48.038  0.00  0.00     0.035 H 
+ATOM      3  H   8PH d   1     -13.071  47.457 -47.287  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAT 8PH d   1     -12.996  46.328 -49.119  0.00  0.00     0.000 C 
+ATOM      5  H   8PH d   1     -11.973  45.988 -48.900  0.00  0.00     0.064 H 
+ATOM      6  H   8PH d   1     -13.559  45.513 -49.597  0.00  0.00     0.064 H 
+BRANCH   4   7
+ATOM      7  NAV 8PH d   1     -12.934  47.482 -50.048  0.00  0.00    -0.352 N 
+ATOM      8  CAK 8PH d   1     -13.806  47.754 -51.017  0.00  0.00     0.044 A 
+ATOM      9  NAW 8PH d   1     -13.384  48.836 -51.667  0.00  0.00    -0.347 N 
+ATOM     10  H   8PH d   1     -14.710  47.188 -51.239  0.00  0.00     0.141 H 
+ATOM     11  CAJ 8PH d   1     -12.257  49.240 -51.089  0.00  0.00    -0.004 A 
+ATOM     12  CAI 8PH d   1     -11.979  48.407 -50.090  0.00  0.00    -0.005 A 
+ATOM     13  H   8PH d   1     -11.663  50.104 -51.383  0.00  0.00     0.113 H 
+ATOM     14  H   8PH d   1     -11.120  48.471 -49.423  0.00  0.00     0.113 H 
+BRANCH   9  15
+ATOM     15  CAU 8PH d   1     -14.082  49.555 -52.761  0.00  0.00     0.054 C 
+ATOM     16  H   8PH d   1     -15.084  49.845 -52.413  0.00  0.00     0.071 H 
+ATOM     17  H   8PH d   1     -13.507  50.457 -53.017  0.00  0.00     0.071 H 
+BRANCH  15  18
+ATOM     18  CAX 8PH d   1     -14.225  48.686 -54.014  0.00  0.00     0.301 C 
+BRANCH  18  19
+ATOM     19  PAY 8PH d   1     -12.523  48.056 -54.443  0.00  0.00     0.311 P 
+ATOM     20  OAE 8PH d   1     -12.512  47.844 -56.039  0.00  0.00    -0.637 OA
+ATOM     21  OAF 8PH d   1     -11.510  49.274 -54.158  0.00  0.00    -0.637 OA
+ATOM     22  OAB 8PH d   1     -12.161  46.826 -53.705  0.00  0.00    -0.637 OA
+ENDBRANCH  18  19
+BRANCH  18  23
+ATOM     23  PAZ 8PH d   1     -14.793  49.795 -55.407  0.00  0.00     0.311 P 
+ATOM     24  OAG 8PH d   1     -16.073  50.609 -54.866  0.00  0.00    -0.637 OA
+ATOM     25  OAH 8PH d   1     -13.627  50.888 -55.608  0.00  0.00    -0.637 OA
+ATOM     26  OAC 8PH d   1     -15.090  49.048 -56.647  0.00  0.00    -0.637 OA
+ENDBRANCH  18  23
+BRANCH  18  27
+ATOM     27  OAD 8PH d   1     -15.155  47.645 -53.708  0.00  0.00    -0.364 OA
+ATOM     28  H   8PH d   1     -14.838  47.148 -52.963  0.00  0.00     0.212 HD
+ENDBRANCH  18  27
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  29
+ATOM     29  CAR 8PH d   1     -13.883  45.503 -46.883  0.00  0.00    -0.064 C 
+ATOM     30  H   8PH d   1     -14.616  44.818 -47.333  0.00  0.00     0.033 H 
+ATOM     31  H   8PH d   1     -14.255  45.850 -45.908  0.00  0.00     0.033 H 
+BRANCH  29  32
+ATOM     32  CAQ 8PH d   1     -12.559  44.763 -46.682  0.00  0.00    -0.065 C 
+ATOM     33  H   8PH d   1     -11.735  45.418 -47.001  0.00  0.00     0.033 H 
+ATOM     34  H   8PH d   1     -12.564  43.852 -47.299  0.00  0.00     0.033 H 
+BRANCH  32  35
+ATOM     35  CAP 8PH d   1     -12.338  44.367 -45.218  0.00  0.00    -0.065 C 
+ATOM     36  H   8PH d   1     -12.281  45.285 -44.615  0.00  0.00     0.033 H 
+ATOM     37  H   8PH d   1     -11.386  43.821 -45.146  0.00  0.00     0.033 H 
+BRANCH  35  38
+ATOM     38  CAO 8PH d   1     -13.448  43.481 -44.645  0.00  0.00    -0.065 C 
+ATOM     39  H   8PH d   1     -13.618  42.621 -45.310  0.00  0.00     0.033 H 
+ATOM     40  H   8PH d   1     -14.377  44.062 -44.552  0.00  0.00     0.033 H 
+BRANCH  38  41
+ATOM     41  CAN 8PH d   1     -13.004  42.989 -43.265  0.00  0.00    -0.065 C 
+ATOM     42  H   8PH d   1     -12.761  43.861 -42.641  0.00  0.00     0.033 H 
+ATOM     43  H   8PH d   1     -12.108  42.363 -43.385  0.00  0.00     0.033 H 
+BRANCH  41  44
+ATOM     44  CAM 8PH d   1     -14.087  42.167 -42.561  0.00  0.00    -0.065 C 
+ATOM     45  H   8PH d   1     -14.392  41.326 -43.201  0.00  0.00     0.033 H 
+ATOM     46  H   8PH d   1     -14.960  42.803 -42.350  0.00  0.00     0.033 H 
+BRANCH  44  47
+ATOM     47  CAL 8PH d   1     -13.502  41.635 -41.249  0.00  0.00    -0.069 C 
+ATOM     48  H   8PH d   1     -12.968  42.449 -40.737  0.00  0.00     0.032 H 
+ATOM     49  H   8PH d   1     -12.799  40.819 -41.473  0.00  0.00     0.032 H 
+BRANCH  47  50
+ATOM     50  CAA 8PH d   1     -14.608  41.107 -40.333  0.00  0.00    -0.077 C 
+ATOM     51  H   8PH d   1     -14.163  40.731 -39.400  0.00  0.00     0.027 H 
+ATOM     52  H   8PH d   1     -15.144  40.290 -40.838  0.00  0.00     0.027 H 
+ATOM     53  H   8PH d   1     -15.312  41.920 -40.102  0.00  0.00     0.027 H 
+ENDBRANCH  47  50
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 15

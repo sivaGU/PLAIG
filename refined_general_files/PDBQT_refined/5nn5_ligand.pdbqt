@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_3 
+REMARK    2  A    between atoms: C3_4  and  O3_5 
+REMARK    3  A    between atoms: C4_6  and  O4_7 
+REMARK    4  A    between atoms: C5_8  and  C6_10 
+REMARK    5  A    between atoms: C6_10  and  O6_11 
+ROOT
+ATOM      1  C1  NOJ d   1     -13.551 -32.649  95.021  0.00  0.00     0.108 C 
+ATOM      2  C2  NOJ d   1     -12.414 -31.706  95.428  0.00  0.00     0.086 C 
+ATOM      3  C3  NOJ d   1     -12.334 -31.583  96.953  0.00  0.00     0.088 C 
+ATOM      4  C4  NOJ d   1     -13.653 -31.054  97.496  0.00  0.00     0.092 C 
+ATOM      5  C5  NOJ d   1     -14.819 -31.940  97.076  0.00  0.00     0.149 C 
+ATOM      6  N5  NOJ d   1     -14.761 -32.169  95.643  0.00  0.00    -0.064 N 
+ATOM      7  H1  NOJ d   1     -13.332 -33.670  95.365  0.00  0.00     0.079 H 
+ATOM      8  H2  NOJ d   1     -13.666 -32.648  93.927  0.00  0.00     0.079 H 
+ATOM      9  H3  NOJ d   1     -12.596 -30.708  95.003  0.00  0.00     0.089 H 
+ATOM     10  H5  NOJ d   1     -12.129 -32.572  97.390  0.00  0.00     0.091 H 
+ATOM     11  H7  NOJ d   1     -13.819 -30.044  97.093  0.00  0.00     0.090 H 
+ATOM     12  H9  NOJ d   1     -14.708 -32.908  97.586  0.00  0.00     0.091 H 
+ATOM     13  H10 NOJ d   1     -15.480 -32.842  95.430  0.00  0.00     0.277 HD
+ATOM     14  H11 NOJ d   1     -14.982 -31.290  95.202  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   5  15
+ATOM     15  C6  NOJ d   1     -16.179 -31.359  97.474  0.00  0.00     0.046 C 
+ATOM     16  H12 NOJ d   1     -16.222 -31.259  98.569  0.00  0.00     0.077 H 
+ATOM     17  H13 NOJ d   1     -16.974 -32.039  97.136  0.00  0.00     0.077 H 
+BRANCH  15  18
+ATOM     18  O6  NOJ d   1     -16.377 -30.075  96.879  0.00  0.00    -0.399 OA
+ATOM     19  H14 NOJ d   1     -16.344 -30.157  95.933  0.00  0.00     0.209 HD
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+BRANCH   4  20
+ATOM     20  O4  NOJ d   1     -13.583 -30.978  98.919  0.00  0.00    -0.391 OA
+ATOM     21  H8  NOJ d   1     -12.878 -30.392  99.169  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   3  22
+ATOM     22  O3  NOJ d   1     -11.275 -30.677  97.300  0.00  0.00    -0.390 OA
+ATOM     23  H6  NOJ d   1     -10.452 -31.010  96.963  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   2  24
+ATOM     24  O2  NOJ d   1     -11.211 -32.234  94.889  0.00  0.00    -0.391 OA
+ATOM     25  H4  NOJ d   1     -11.063 -33.105  95.240  0.00  0.00     0.210 HD
+ENDBRANCH   2  24
+TORSDOF 5

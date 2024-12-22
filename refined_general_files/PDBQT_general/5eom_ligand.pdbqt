@@ -1,0 +1,76 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9 
+REMARK    2  A    between atoms: C2'_10  and  O2'_11 
+REMARK    3  A    between atoms: C3'_12  and  O3'_15 
+REMARK    4  A    between atoms: C4'_13  and  C5'_16 
+REMARK    5  A    between atoms: C5'_16  and  O5'_17 
+REMARK    6  A    between atoms: O5'_17  and  PA_18 
+REMARK    7  A    between atoms: PA_18  and  O3A_21 
+REMARK    8  A    between atoms: O3A_21  and  PB_22 
+REMARK    9  A    between atoms: PB_22  and  O3B_25 
+REMARK   10  A    between atoms: O3B_25  and  PG_26 
+ROOT
+ATOM      1  C1' CTP d   1     168.848  59.086  -4.618  0.00  0.00     0.141 C 
+ATOM      2  C2' CTP d   1     168.301  59.647  -3.319  0.00  0.00     0.105 C 
+ATOM      3  C3' CTP d   1     168.840  58.740  -2.230  0.00  0.00     0.091 C 
+ATOM      4  C4' CTP d   1     170.025  58.056  -2.884  0.00  0.00     0.089 C 
+ATOM      5  O4' CTP d   1     169.774  58.070  -4.279  0.00  0.00    -0.353 OA
+ATOM      6  H5  CTP d   1     169.348  59.877  -5.197  0.00  0.00     0.123 H 
+ATOM      7  H6  CTP d   1     167.201  59.643  -3.323  0.00  0.00     0.093 H 
+ATOM      8  H8  CTP d   1     168.082  58.000  -1.935  0.00  0.00     0.091 H 
+ATOM      9  H9  CTP d   1     170.944  58.620  -2.666  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   4  10
+ATOM     10  C5' CTP d   1     170.193  56.632  -2.378  0.00  0.00     0.058 C 
+ATOM     11  H11 CTP d   1     170.479  56.649  -1.316  0.00  0.00     0.079 H 
+ATOM     12  H12 CTP d   1     170.975  56.123  -2.960  0.00  0.00     0.079 H 
+BRANCH  10  13
+ATOM     13  O5' CTP d   1     168.973  55.949  -2.528  0.00  0.00    -0.287 OA
+BRANCH  13  14
+ATOM     14  PA  CTP d   1     168.694  54.623  -1.676  0.00  0.00     0.417 P 
+ATOM     15  O1A CTP d   1     169.584  53.527  -2.194  0.00  0.00    -0.624 OA
+ATOM     16  O2A CTP d   1     167.241  54.220  -1.753  0.00  0.00    -0.624 OA
+BRANCH  14  17
+ATOM     17  O3A CTP d   1     169.181  54.974  -0.178  0.00  0.00    -0.180 OA
+BRANCH  17  18
+ATOM     18  PB  CTP d   1     168.195  55.574   0.942  0.00  0.00     0.428 P 
+ATOM     19  O1B CTP d   1     166.963  54.720   1.107  0.00  0.00    -0.624 OA
+ATOM     20  O2B CTP d   1     168.968  55.673   2.225  0.00  0.00    -0.624 OA
+BRANCH  18  21
+ATOM     21  O3B CTP d   1     167.788  57.047   0.445  0.00  0.00    -0.173 OA
+BRANCH  21  22
+ATOM     22  PG  CTP d   1     166.381  57.708   0.869  0.00  0.00     0.431 P 
+ATOM     23  O1G CTP d   1     165.268  56.957   0.179  0.00  0.00    -0.616 OA
+ATOM     24  O2G CTP d   1     166.183  57.653   2.365  0.00  0.00    -0.616 OA
+ATOM     25  O3G CTP d   1     166.355  59.148   0.424  0.00  0.00    -0.616 OA
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   4  10
+BRANCH   3  26
+ATOM     26  O3' CTP d   1     169.232  59.473  -1.094  0.00  0.00    -0.390 OA
+ATOM     27  H10 CTP d   1     169.861  60.138  -1.349  0.00  0.00     0.210 HD
+ENDBRANCH   3  26
+BRANCH   2  28
+ATOM     28  O2' CTP d   1     168.776  60.957  -3.126  0.00  0.00    -0.388 OA
+ATOM     29  H7  CTP d   1     168.429  61.301  -2.311  0.00  0.00     0.210 HD
+ENDBRANCH   2  28
+BRANCH   1  30
+ATOM     30  N1  CTP d   1     167.731  58.518  -5.404  0.00  0.00    -0.280 N 
+ATOM     31  C2  CTP d   1     167.092  59.284  -6.356  0.00  0.00     0.330 C 
+ATOM     32  N3  CTP d   1     166.003  58.777  -7.039  0.00  0.00    -0.293 N 
+ATOM     33  O2  CTP d   1     167.483  60.425  -6.604  0.00  0.00    -0.246 OA
+ATOM     34  C4  CTP d   1     165.547  57.504  -6.768  0.00  0.00     0.125 C 
+ATOM     35  H1  CTP d   1     165.545  59.334  -7.731  0.00  0.00     0.172 HD
+ATOM     36  C5  CTP d   1     166.177  56.744  -5.787  0.00  0.00    -0.024 C 
+ATOM     37  N4  CTP d   1     164.513  57.011  -7.444  0.00  0.00    -0.284 NA
+ATOM     38  C6  CTP d   1     167.334  57.226  -5.186  0.00  0.00    -0.009 C 
+ATOM     39  H2  CTP d   1     165.767  55.779  -5.492  0.00  0.00     0.091 H 
+ATOM     40  H3  CTP d   1     167.924  56.576  -4.542  0.00  0.00     0.112 H 
+ATOM     41  H4  CTP d   1     164.179  56.081  -7.247  0.00  0.00     0.188 HD
+ENDBRANCH   1  30
+TORSDOF 10

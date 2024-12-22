@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  N03_3 
+REMARK    3  A    between atoms: C04_4  and  O05_5 
+REMARK    4  A    between atoms: N09_9  and  C10_10 
+REMARK    5  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  N03 1U6 d   1      22.596   6.767  15.237  0.00  0.00    -0.304 N 
+ATOM      2  C04 1U6 d   1      21.253   6.882  15.350  0.00  0.00     0.149 A 
+ATOM      3  C06 1U6 d   1      20.442   6.336  14.377  0.00  0.00     0.032 A 
+ATOM      4  C07 1U6 d   1      21.013   5.687  13.305  0.00  0.00     0.253 A 
+ATOM      5  O08 1U6 d   1      20.275   5.209  12.450  0.00  0.00    -0.268 OA
+ATOM      6  N09 1U6 d   1      22.355   5.581  13.203  0.00  0.00    -0.291 N 
+ATOM      7  C12 1U6 d   1      23.163   6.123  14.170  0.00  0.00     0.185 A 
+ATOM      8  S13 1U6 d   1      24.834   6.013  14.084  0.00  0.00    -0.040 SA
+ATOM      9  H   1U6 d   1      19.359   6.418  14.456  0.00  0.00     0.098 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C02 1U6 d   1      23.404   7.354  16.282  0.00  0.00     0.001 C 
+ATOM     11  H   1U6 d   1      22.813   7.324  17.209  0.00  0.00     0.064 H 
+ATOM     12  H   1U6 d   1      24.299   6.724  16.397  0.00  0.00     0.064 H 
+BRANCH  10  13
+ATOM     13  C01 1U6 d   1      23.870   8.759  16.097  0.00  0.00    -0.061 C 
+ATOM     14  H   1U6 d   1      24.469   9.064  16.968  0.00  0.00     0.029 H 
+ATOM     15  H   1U6 d   1      22.999   9.424  15.999  0.00  0.00     0.029 H 
+ATOM     16  H   1U6 d   1      24.485   8.825  15.188  0.00  0.00     0.029 H 
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   2  17
+ATOM     17  O05 1U6 d   1      20.677   7.532  16.423  0.00  0.00    -0.346 OA
+ATOM     18  H   1U6 d   1      19.732   7.513  16.333  0.00  0.00     0.219 HD
+ENDBRANCH   2  17
+BRANCH   6  19
+ATOM     19  C10 1U6 d   1      22.872   4.883  12.045  0.00  0.00     0.002 C 
+ATOM     20  H   1U6 d   1      22.151   4.094  11.784  0.00  0.00     0.064 H 
+ATOM     21  H   1U6 d   1      23.829   4.424  12.334  0.00  0.00     0.064 H 
+BRANCH  19  22
+ATOM     22  C11 1U6 d   1      23.116   5.695  10.813  0.00  0.00    -0.060 C 
+ATOM     23  H   1U6 d   1      23.505   5.044  10.016  0.00  0.00     0.029 H 
+ATOM     24  H   1U6 d   1      23.850   6.484  11.033  0.00  0.00     0.029 H 
+ATOM     25  H   1U6 d   1      22.172   6.154  10.483  0.00  0.00     0.029 H 
+ENDBRANCH  19  22
+ENDBRANCH   6  19
+TORSDOF 5

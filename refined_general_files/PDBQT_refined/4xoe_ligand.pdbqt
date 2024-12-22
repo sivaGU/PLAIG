@@ -1,0 +1,89 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_2  and  O6_1 
+REMARK    2  A    between atoms: C5_3  and  C6_2 
+REMARK    3  A    between atoms: C10_4  and  C9_16 
+REMARK    4  A    between atoms: C11_19  and  C10_4 
+REMARK    5  A    between atoms: C4_6  and  O4_7 
+REMARK    6  A    between atoms: C3_8  and  O3_9 
+REMARK    7  A    between atoms: C2_10  and  O2_11 
+REMARK    8  A    between atoms: O1_13  and  C1_12 
+REMARK    9  A    between atoms: C7_14  and  O1_13 
+REMARK   10  A    between atoms: C8_15  and  C7_14 
+REMARK   11  A    between atoms: C9_16  and  C8_15 
+REMARK   12  A    between atoms: C12_18  and  C13_17 
+REMARK   13  A    between atoms: C12_18  and  C11_19 
+ROOT
+ATOM      1  O1  KGM d   1      -8.444 -58.121  -7.640  0.00  0.00    -0.359 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  KGM d   1      -8.359 -56.812  -7.098  0.00  0.00     0.158 C 
+ATOM      3  O5  KGM d   1      -9.629 -56.315  -6.858  0.00  0.00    -0.348 OA
+ATOM      4  C5  KGM d   1     -10.458 -57.049  -6.006  0.00  0.00     0.089 C 
+ATOM      5  C4  KGM d   1      -9.790 -57.222  -4.647  0.00  0.00     0.090 C 
+ATOM      6  H4  KGM d   1     -10.633 -58.042  -6.444  0.00  0.00     0.090 H 
+ATOM      7  C3  KGM d   1      -8.370 -57.767  -4.827  0.00  0.00     0.092 C 
+ATOM      8  H7  KGM d   1      -9.746 -56.249  -4.135  0.00  0.00     0.091 H 
+ATOM      9  C2  KGM d   1      -7.606 -56.888  -5.796  0.00  0.00     0.110 C 
+ATOM     10  H9  KGM d   1      -8.423 -58.791  -5.226  0.00  0.00     0.091 H 
+ATOM     11  H11 KGM d   1      -6.611 -57.324  -5.972  0.00  0.00     0.094 H 
+ATOM     12  H13 KGM d   1      -7.830 -56.151  -7.801  0.00  0.00     0.133 H 
+BRANCH   4  13
+ATOM     13  C6  KGM d   1     -11.792 -56.332  -5.856  0.00  0.00     0.043 C 
+ATOM     14  H2  KGM d   1     -12.258 -56.227  -6.847  0.00  0.00     0.078 H 
+ATOM     15  H3  KGM d   1     -12.449 -56.925  -5.203  0.00  0.00     0.078 H 
+BRANCH  13  16
+ATOM     16  O6  KGM d   1     -11.613 -55.051  -5.291  0.00  0.00    -0.398 OA
+ATOM     17  H1  KGM d   1     -12.457 -54.623  -5.207  0.00  0.00     0.209 HD
+ENDBRANCH  13  16
+ENDBRANCH   4  13
+BRANCH   5  18
+ATOM     18  O4  KGM d   1     -10.536 -58.122  -3.878  0.00  0.00    -0.390 OA
+ATOM     19  H8  KGM d   1     -11.416 -57.783  -3.760  0.00  0.00     0.210 HD
+ENDBRANCH   5  18
+BRANCH   7  20
+ATOM     20  O3  KGM d   1      -7.701 -57.782  -3.597  0.00  0.00    -0.390 OA
+ATOM     21  H10 KGM d   1      -6.822 -58.121  -3.720  0.00  0.00     0.210 HD
+ENDBRANCH   7  20
+BRANCH   9  22
+ATOM     22  O2  KGM d   1      -7.457 -55.587  -5.272  0.00  0.00    -0.388 OA
+ATOM     23  H12 KGM d   1      -6.980 -55.630  -4.452  0.00  0.00     0.210 HD
+ENDBRANCH   9  22
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C7  KGM d   1      -9.148 -58.197  -8.859  0.00  0.00     0.023 C 
+ATOM     25  H14 KGM d   1      -8.771 -57.426  -9.547  0.00  0.00     0.074 H 
+ATOM     26  H15 KGM d   1     -10.219 -58.030  -8.673  0.00  0.00     0.074 H 
+BRANCH  24  27
+ATOM     27  C8  KGM d   1      -8.954 -59.563  -9.481  0.00  0.00    -0.045 C 
+ATOM     28  H16 KGM d   1      -9.257 -60.345  -8.769  0.00  0.00     0.036 H 
+ATOM     29  H17 KGM d   1      -7.897 -59.704  -9.752  0.00  0.00     0.036 H 
+BRANCH  27  30
+ATOM     30  C9  KGM d   1      -9.819 -59.635 -10.724  0.00  0.00    -0.063 C 
+ATOM     31  H18 KGM d   1     -10.173 -58.623 -10.970  0.00  0.00     0.033 H 
+ATOM     32  H19 KGM d   1      -9.214 -60.024 -11.556  0.00  0.00     0.033 H 
+BRANCH  30  33
+ATOM     33  C10 KGM d   1     -11.018 -60.539 -10.526  0.00  0.00    -0.065 C 
+ATOM     34  H5  KGM d   1     -11.271 -60.579  -9.456  0.00  0.00     0.033 H 
+ATOM     35  H6  KGM d   1     -10.775 -61.550 -10.884  0.00  0.00     0.033 H 
+BRANCH  33  36
+ATOM     36  C11 KGM d   1     -12.204 -60.003 -11.303  0.00  0.00    -0.065 C 
+ATOM     37  H25 KGM d   1     -11.844 -59.350 -12.112  0.00  0.00     0.033 H 
+ATOM     38  H26 KGM d   1     -12.851 -59.426 -10.627  0.00  0.00     0.033 H 
+BRANCH  36  39
+ATOM     39  C12 KGM d   1     -12.996 -61.147 -11.898  0.00  0.00    -0.069 C 
+ATOM     40  H23 KGM d   1     -12.523 -61.471 -12.837  0.00  0.00     0.032 H 
+ATOM     41  H24 KGM d   1     -13.015 -61.987 -11.188  0.00  0.00     0.032 H 
+BRANCH  39  42
+ATOM     42  C13 KGM d   1     -14.412 -60.691 -12.178  0.00  0.00    -0.077 C 
+ATOM     43  H20 KGM d   1     -14.986 -61.523 -12.610  0.00  0.00     0.027 H 
+ATOM     44  H21 KGM d   1     -14.393 -59.851 -12.888  0.00  0.00     0.027 H 
+ATOM     45  H22 KGM d   1     -14.885 -60.367 -11.239  0.00  0.00     0.027 H 
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH  27  30
+ENDBRANCH  24  27
+ENDBRANCH   1  24
+TORSDOF 13

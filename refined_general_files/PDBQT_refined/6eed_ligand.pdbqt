@@ -1,0 +1,81 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBC_6  and  CAR_7 
+REMARK    2  A    between atoms: CAR_7  and  CAU_8 
+REMARK       I    between atoms: CAU_8  and  N_10 
+REMARK    3  A    between atoms: N_10  and  CA_11 
+REMARK    4  A    between atoms: CA_11  and  C_12 
+REMARK    5  A    between atoms: CA_11  and  CBA_16 
+REMARK       I    between atoms: C_12  and  NAS_14 
+REMARK    6  A    between atoms: NAS_14  and  OAC_15 
+REMARK    7  A    between atoms: CAY_21  and  CAZ_22 
+ROOT
+ATOM      1  CA  J6A d   1      14.610  10.731  12.285  0.00  0.00     0.117 C 
+ATOM      2  H15 J6A d   1      15.543  11.304  12.175  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   J6A d   1      14.927   9.288  12.115  0.00  0.00    -0.344 N 
+ATOM      4  CAU J6A d   1      16.114   8.742  12.334  0.00  0.00     0.218 C 
+ATOM      5  OAA J6A d   1      17.117   9.345  12.740  0.00  0.00    -0.274 OA
+ATOM      6  H14 J6A d   1      14.189   8.685  11.813  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CAR J6A d   1      16.108   7.186  12.070  0.00  0.00     0.013 C 
+ATOM      8  H12 J6A d   1      15.588   6.987  11.121  0.00  0.00     0.047 H 
+ATOM      9  H13 J6A d   1      17.147   6.832  12.000  0.00  0.00     0.047 H 
+BRANCH   7  10
+ATOM     10  CBC J6A d   1      15.378   6.404  13.228  0.00  0.00    -0.046 C 
+ATOM     11  CAP J6A d   1      16.034   6.675  14.602  0.00  0.00    -0.061 C 
+ATOM     12  CAN J6A d   1      15.308   5.839  15.711  0.00  0.00    -0.065 C 
+ATOM     13  H1  J6A d   1      17.095   6.387  14.563  0.00  0.00     0.033 H 
+ATOM     14  H2  J6A d   1      15.953   7.746  14.840  0.00  0.00     0.033 H 
+ATOM     15  CAM J6A d   1      15.357   4.340  15.309  0.00  0.00    -0.065 C 
+ATOM     16  H3  J6A d   1      14.261   6.166  15.797  0.00  0.00     0.033 H 
+ATOM     17  H4  J6A d   1      15.817   5.981  16.676  0.00  0.00     0.033 H 
+ATOM     18  CAO J6A d   1      14.657   4.138  13.959  0.00  0.00    -0.065 C 
+ATOM     19  H5  J6A d   1      14.848   3.740  16.077  0.00  0.00     0.033 H 
+ATOM     20  H6  J6A d   1      16.406   4.018  15.228  0.00  0.00     0.033 H 
+ATOM     21  CAQ J6A d   1      15.415   4.902  12.903  0.00  0.00    -0.061 C 
+ATOM     22  H7  J6A d   1      13.624   4.513  14.018  0.00  0.00     0.033 H 
+ATOM     23  H8  J6A d   1      14.645   3.068  13.705  0.00  0.00     0.033 H 
+ATOM     24  H9  J6A d   1      14.951   4.728  11.921  0.00  0.00     0.033 H 
+ATOM     25  H10 J6A d   1      16.459   4.558  12.881  0.00  0.00     0.033 H 
+ATOM     26  H11 J6A d   1      14.330   6.735  13.272  0.00  0.00     0.040 H 
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  27
+ATOM     27  C   J6A d   1      13.689  11.144  11.161  0.00  0.00     0.268 C 
+ATOM     28  O   J6A d   1      12.758  10.431  10.761  0.00  0.00    -0.269 OA
+ATOM     29  NAS J6A d   1      14.022  12.300  10.602  0.00  0.00    -0.235 N 
+ATOM     30  H16 J6A d   1      14.832  12.814  10.883  0.00  0.00     0.197 HD
+BRANCH  29  31
+ATOM     31  OAC J6A d   1      13.155  12.757   9.583  0.00  0.00    -0.287 OA
+ATOM     32  H17 J6A d   1      13.474  13.586   9.246  0.00  0.00     0.244 HD
+ENDBRANCH  29  31
+ENDBRANCH   1  27
+BRANCH   1  33
+ATOM     33  CBA J6A d   1      14.104  11.001  13.617  0.00  0.00    -0.026 A 
+ATOM     34  CAJ J6A d   1      13.797   9.970  14.498  0.00  0.00    -0.074 A 
+ATOM     35  CAH J6A d   1      13.375  10.285  15.806  0.00  0.00    -0.072 A 
+ATOM     36  H18 J6A d   1      13.881   8.936  14.183  0.00  0.00     0.084 H 
+ATOM     37  CAY J6A d   1      13.244  11.609  16.236  0.00  0.00    -0.026 A 
+ATOM     38  H19 J6A d   1      13.146   9.480  16.496  0.00  0.00     0.084 H 
+ATOM     39  CAG J6A d   1      13.559  12.641  15.340  0.00  0.00    -0.072 A 
+ATOM     40  CAI J6A d   1      13.979  12.326  14.040  0.00  0.00    -0.074 A 
+ATOM     41  H21 J6A d   1      13.478  13.676  15.651  0.00  0.00     0.084 H 
+ATOM     42  H20 J6A d   1      14.212  13.128  13.349  0.00  0.00     0.084 H 
+BRANCH  37  43
+ATOM     43  CAZ J6A d   1      12.893  11.875  17.592  0.00  0.00    -0.020 A 
+ATOM     44  CAK J6A d   1      11.763  11.370  18.247  0.00  0.00    -0.032 A 
+ATOM     45  CAW J6A d   1      11.567  11.656  19.596  0.00  0.00     0.158 A 
+ATOM     46  H22 J6A d   1      11.046  10.761  17.708  0.00  0.00     0.089 H 
+ATOM     47  FAD J6A d   1      10.511  11.232  20.252  0.00  0.00    -0.203 F 
+ATOM     48  CBB J6A d   1      12.480  12.403  20.302  0.00  0.00     0.193 A 
+ATOM     49  FAF J6A d   1      12.244  12.699  21.626  0.00  0.00    -0.200 F 
+ATOM     50  CAX J6A d   1      13.597  12.912  19.689  0.00  0.00     0.158 A 
+ATOM     51  FAE J6A d   1      14.531  13.626  20.448  0.00  0.00    -0.203 F 
+ATOM     52  CAL J6A d   1      13.825  12.620  18.347  0.00  0.00    -0.032 A 
+ATOM     53  H23 J6A d   1      14.735  12.971  17.873  0.00  0.00     0.089 H 
+ENDBRANCH  37  43
+ENDBRANCH   1  33
+TORSDOF 7

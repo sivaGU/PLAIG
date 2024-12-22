@@ -1,0 +1,99 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_13  and  CAO_15 
+REMARK    2  A    between atoms: SAY_25  and  CAM_13 
+REMARK    3  A    between atoms: CAP_16  and  CAN_14 
+REMARK    4  A    between atoms: CAN_14  and  SAY_25 
+REMARK    5  A    between atoms: CAO_15  and  CBF_32 
+REMARK    6  A    between atoms: CBG_33  and  CAP_16 
+REMARK    7  A    between atoms: CBB_28  and  CAQ_17 
+REMARK    8  A    between atoms: CAQ_17  and  CBD_30 
+REMARK    9  A    between atoms: CBC_29  and  CAR_18 
+REMARK   10  A    between atoms: CAR_18  and  CBE_31 
+REMARK       I    between atoms: NAW_23  and  CBB_28 
+REMARK   11  A    between atoms: CBH_34  and  NAW_23 
+REMARK       I    between atoms: NAX_24  and  CBC_29 
+ROOT
+ATOM      1  SAY 04A d   1       1.160  13.086  43.531  0.00  0.00    -0.168 SA
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAM 04A d   1       0.533  14.495  42.562  0.00  0.00    -0.018 C 
+ATOM      3  H   04A d   1       0.928  15.392  43.040  0.00  0.00     0.049 H 
+ATOM      4  H   04A d   1       0.846  14.319  41.533  0.00  0.00     0.049 H 
+BRANCH   2   5
+ATOM      5  CAO 04A d   1      -0.983  14.667  42.522  0.00  0.00    -0.009 C 
+ATOM      6  H   04A d   1      -1.348  14.266  41.577  0.00  0.00     0.044 H 
+ATOM      7  H   04A d   1      -1.210  15.728  42.627  0.00  0.00     0.044 H 
+BRANCH   5   8
+ATOM      8  CBF 04A d   1      -1.666  13.920  43.651  0.00  0.00     0.101 A 
+ATOM      9  NAS 04A d   1      -1.503  14.160  44.989  0.00  0.00    -0.145 NA
+ATOM     10  NAU 04A d   1      -2.211  13.355  45.790  0.00  0.00    -0.123 NA
+ATOM     11  CBH 04A d   1      -2.947  12.482  45.081  0.00  0.00     0.196 A 
+ATOM     12  SAZ 04A d   1      -2.680  12.719  43.350  0.00  0.00    -0.033 SA
+BRANCH  11  13
+ATOM     13  NAW 04A d   1      -3.741  11.588  45.663  0.00  0.00    -0.304 N 
+ATOM     14  CBB 04A d   1      -4.561  10.792  44.955  0.00  0.00     0.227 C 
+ATOM     15  OAA 04A d   1      -4.704  10.811  43.727  0.00  0.00    -0.273 OA
+ATOM     16  H   04A d   1      -3.727  11.504  46.679  0.00  0.00     0.171 HD
+BRANCH  14  17
+ATOM     17  CAQ 04A d   1      -5.400   9.887  45.870  0.00  0.00     0.033 C 
+ATOM     18  H   04A d   1      -6.320  10.430  46.087  0.00  0.00     0.054 H 
+ATOM     19  H   04A d   1      -4.779   9.657  46.736  0.00  0.00     0.054 H 
+BRANCH  17  20
+ATOM     20  CBD 04A d   1      -5.776   8.674  45.319  0.00  0.00    -0.050 A 
+ATOM     21  CAI 04A d   1      -5.007   7.535  45.585  0.00  0.00    -0.076 A 
+ATOM     22  CAE 04A d   1      -5.386   6.300  45.050  0.00  0.00    -0.082 A 
+ATOM     23  H   04A d   1      -4.115   7.611  46.207  0.00  0.00     0.084 H 
+ATOM     24  CAC 04A d   1      -6.542   6.211  44.260  0.00  0.00    -0.083 A 
+ATOM     25  H   04A d   1      -4.786   5.411  45.246  0.00  0.00     0.083 H 
+ATOM     26  CAF 04A d   1      -7.322   7.352  44.006  0.00  0.00    -0.082 A 
+ATOM     27  H   04A d   1      -6.837   5.250  43.840  0.00  0.00     0.083 H 
+ATOM     28  CAJ 04A d   1      -6.942   8.591  44.541  0.00  0.00    -0.076 A 
+ATOM     29  H   04A d   1      -8.221   7.274  43.394  0.00  0.00     0.083 H 
+ATOM     30  H   04A d   1      -7.545   9.480  44.355  0.00  0.00     0.084 H 
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  13
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  CAN 04A d   1       2.173  14.046  44.709  0.00  0.00    -0.018 C 
+ATOM     32  H   04A d   1       1.539  14.819  45.143  0.00  0.00     0.049 H 
+ATOM     33  H   04A d   1       2.564  13.354  45.455  0.00  0.00     0.049 H 
+BRANCH  31  34
+ATOM     34  CAP 04A d   1       3.362  14.735  44.040  0.00  0.00    -0.009 C 
+ATOM     35  H   04A d   1       3.959  15.230  44.806  0.00  0.00     0.044 H 
+ATOM     36  H   04A d   1       2.989  15.459  43.316  0.00  0.00     0.044 H 
+BRANCH  34  37
+ATOM     37  CBG 04A d   1       4.241  13.710  43.310  0.00  0.00     0.101 A 
+ATOM     38  NAT 04A d   1       4.281  13.550  41.960  0.00  0.00    -0.145 NA
+ATOM     39  NAV 04A d   1       5.178  12.519  41.509  0.00  0.00    -0.123 NA
+ATOM     40  CBI 04A d   1       5.834  11.892  42.504  0.00  0.00     0.196 A 
+ATOM     41  NAX 04A d   1       6.716  10.898  42.275  0.00  0.00    -0.304 N 
+ATOM     42  SBA 04A d   1       5.295  12.623  44.098  0.00  0.00    -0.033 SA
+ATOM     43  CBC 04A d   1       7.261  10.144  43.278  0.00  0.00     0.227 C 
+ATOM     44  H   04A d   1       6.989  10.700  41.312  0.00  0.00     0.171 HD
+ATOM     45  OAB 04A d   1       7.044  10.288  44.494  0.00  0.00    -0.273 OA
+BRANCH  43  46
+ATOM     46  CAR 04A d   1       8.199   9.003  42.774  0.00  0.00     0.033 C 
+ATOM     47  H   04A d   1       8.220   9.054  41.685  0.00  0.00     0.054 H 
+ATOM     48  H   04A d   1       7.805   8.062  43.159  0.00  0.00     0.054 H 
+BRANCH  46  49
+ATOM     49  CBE 04A d   1       9.532   9.123  43.230  0.00  0.00    -0.050 A 
+ATOM     50  CAK 04A d   1      10.286   7.957  43.465  0.00  0.00    -0.076 A 
+ATOM     51  CAG 04A d   1      11.625   8.054  43.911  0.00  0.00    -0.082 A 
+ATOM     52  H   04A d   1       9.837   6.977  43.303  0.00  0.00     0.084 H 
+ATOM     53  CAD 04A d   1      12.229   9.312  44.134  0.00  0.00    -0.083 A 
+ATOM     54  H   04A d   1      12.200   7.144  44.085  0.00  0.00     0.083 H 
+ATOM     55  CAH 04A d   1      11.484  10.480  43.899  0.00  0.00    -0.082 A 
+ATOM     56  H   04A d   1      13.259   9.375  44.484  0.00  0.00     0.083 H 
+ATOM     57  CAL 04A d   1      10.148  10.377  43.448  0.00  0.00    -0.076 A 
+ATOM     58  H   04A d   1      11.933  11.459  44.063  0.00  0.00     0.083 H 
+ATOM     59  H   04A d   1       9.578  11.288  43.264  0.00  0.00     0.084 H 
+ENDBRANCH  46  49
+ENDBRANCH  43  46
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+TORSDOF 11

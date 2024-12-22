@@ -1,0 +1,57 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_16  and  CAA_1 
+REMARK    2  A    between atoms: CAS_19  and  OAC_3 
+REMARK    3  A    between atoms: NAL_12  and  CAP_16 
+REMARK       I    between atoms: CAQ_17  and  NAN_14 
+REMARK    4  A    between atoms: CAP_16  and  CAU_21 
+REMARK    5  A    between atoms: CAQ_17  and  CAT_20 
+ROOT
+ATOM      1  CAP I30 d   1      27.083   0.687 -13.577  0.00  0.00     0.106 C 
+ATOM      2  H   I30 d   1      27.062   0.485 -12.506  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAA I30 d   1      27.184   0.645 -12.050  0.00  0.00    -0.047 C 
+ATOM      4  H   I30 d   1      26.892  -0.343 -11.695  0.00  0.00     0.030 H 
+ATOM      5  H   I30 d   1      28.211   0.852 -11.749  0.00  0.00     0.030 H 
+ATOM      6  H   I30 d   1      26.520   1.397 -11.622  0.00  0.00     0.030 H 
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  NAL I30 d   1      27.781  -0.118 -14.351  0.00  0.00    -0.177 NA
+ATOM      8  NAN I30 d   1      28.565  -0.942 -13.894  0.00  0.00    -0.111 NA
+ATOM      9  CAQ I30 d   1      29.276  -1.704 -14.743  0.00  0.00     0.297 C 
+ATOM     10  OAB I30 d   1      29.160  -1.604 -15.972  0.00  0.00    -0.264 OA
+BRANCH   9  11
+ATOM     11  CAT I30 d   1      30.228  -2.748 -14.050  0.00  0.00     0.070 A 
+ATOM     12  CAK I30 d   1      31.047  -3.653 -14.742  0.00  0.00    -0.048 A 
+ATOM     13  CAR I30 d   1      31.851  -4.558 -14.031  0.00  0.00     0.012 A 
+ATOM     14  H   I30 d   1      31.059  -3.653 -15.832  0.00  0.00     0.087 H 
+ATOM     15 BRAD I30 d   1      33.009  -5.846 -14.823  0.00  0.00    -0.051 Br
+ATOM     16  CAG I30 d   1      31.842  -4.562 -12.656  0.00  0.00    -0.064 A 
+ATOM     17  CAH I30 d   1      31.040  -3.676 -11.980  0.00  0.00    -0.049 A 
+ATOM     18  H   I30 d   1      32.468  -5.264 -12.106  0.00  0.00     0.085 H 
+ATOM     19  CAS I30 d   1      30.242  -2.781 -12.658  0.00  0.00     0.081 A 
+ATOM     20  H   I30 d   1      31.035  -3.681 -10.890  0.00  0.00     0.087 H 
+BRANCH  19  21
+ATOM     21  OAC I30 d   1      29.463  -1.930 -11.933  0.00  0.00    -0.360 OA
+ATOM     22  H   I30 d   1      28.964  -1.368 -12.530  0.00  0.00     0.217 HD
+ENDBRANCH  19  21
+ENDBRANCH   9  11
+ENDBRANCH   1   7
+BRANCH   1  23
+ATOM     23  CAU I30 d   1      26.262   1.585 -14.229  0.00  0.00     0.131 A 
+ATOM     24  NAM I30 d   1      26.178   1.694 -15.555  0.00  0.00    -0.231 NA
+ATOM     25  CAV I30 d   1      25.301   2.656 -15.850  0.00  0.00     0.085 A 
+ATOM     26  CAI I30 d   1      24.831   3.170 -17.060  0.00  0.00    -0.053 A 
+ATOM     27  CAW I30 d   1      24.831   3.155 -14.641  0.00  0.00     0.062 A 
+ATOM     28  CAE I30 d   1      23.895   4.186 -17.078  0.00  0.00    -0.081 A 
+ATOM     29  H   I30 d   1      25.206   2.766 -18.000  0.00  0.00     0.087 H 
+ATOM     30  CAF I30 d   1      23.428   4.690 -15.869  0.00  0.00    -0.081 A 
+ATOM     31  H   I30 d   1      23.529   4.586 -18.024  0.00  0.00     0.083 H 
+ATOM     32  CAJ I30 d   1      23.890   4.184 -14.649  0.00  0.00    -0.055 A 
+ATOM     33  H   I30 d   1      22.690   5.492 -15.872  0.00  0.00     0.083 H 
+ATOM     34  H   I30 d   1      23.516   4.592 -13.710  0.00  0.00     0.087 H 
+ATOM     35  NAO I30 d   1      25.443   2.476 -13.667  0.00  0.00    -0.341 N 
+ATOM     36  H   I30 d   1      25.308   2.615 -12.666  0.00  0.00     0.167 HD
+ENDBRANCH   1  23
+TORSDOF 5

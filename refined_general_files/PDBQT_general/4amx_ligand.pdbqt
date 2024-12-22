@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_4  and  O2_5 
+REMARK    2  A    between atoms: C3_6  and  O3_7 
+REMARK    3  A    between atoms: C4_8  and  O4_9 
+REMARK    4  A    between atoms: C6_10  and  O6_11 
+REMARK    5  A    between atoms: C6_10  and  C5_12 
+ROOT
+ATOM      1  O5  5GF d   1      -0.910 -22.308 -22.038  0.00  0.00    -0.345 OA
+ATOM      2  C1  5GF d   1      -0.142 -23.095 -21.093  0.00  0.00     0.050 C 
+ATOM      3  F   5GF d   1      -1.563 -20.153 -21.920  0.00  0.00    -0.206 F 
+ATOM      4  C2  5GF d   1      -0.037 -22.428 -19.694  0.00  0.00     0.083 C 
+ATOM      5  C3  5GF d   1       0.076 -20.910 -19.800  0.00  0.00     0.092 C 
+ATOM      6  C4  5GF d   1       0.568 -20.542 -21.196  0.00  0.00     0.123 C 
+ATOM      7  C5  5GF d   1      -0.519 -20.925 -22.191  0.00  0.00     0.254 C 
+ATOM      8  H1  5GF d   1       0.873 -23.232 -21.494  0.00  0.00     0.078 H 
+ATOM      9  H2  5GF d   1      -0.626 -24.076 -20.978  0.00  0.00     0.078 H 
+ATOM     10  H3  5GF d   1       0.896 -22.793 -19.240  0.00  0.00     0.090 H 
+ATOM     11  H5  5GF d   1      -0.917 -20.463 -19.646  0.00  0.00     0.091 H 
+ATOM     12  H7  5GF d   1       1.481 -21.113 -21.419  0.00  0.00     0.096 H 
+ENDROOT
+BRANCH   7  13
+ATOM     13  C6  5GF d   1      -0.072 -20.644 -23.625  0.00  0.00     0.075 C 
+ATOM     14  H9  5GF d   1      -0.946 -20.709 -24.291  0.00  0.00     0.082 H 
+ATOM     15  H10 5GF d   1       0.353 -19.631 -23.675  0.00  0.00     0.082 H 
+BRANCH  13  16
+ATOM     16  O6  5GF d   1       0.914 -21.582 -24.061  0.00  0.00    -0.395 OA
+ATOM     17  H11 5GF d   1       1.674 -21.528 -23.493  0.00  0.00     0.209 HD
+ENDBRANCH  13  16
+ENDBRANCH   7  13
+BRANCH   6  18
+ATOM     18  O4  5GF d   1       0.869 -19.144 -21.287  0.00  0.00    -0.387 OA
+ATOM     19  H8  5GF d   1       1.172 -18.943 -22.165  0.00  0.00     0.210 HD
+ENDBRANCH   6  18
+BRANCH   5  20
+ATOM     20  O3  5GF d   1       0.962 -20.419 -18.785  0.00  0.00    -0.390 OA
+ATOM     21  H6  5GF d   1       0.621 -20.651 -17.929  0.00  0.00     0.210 HD
+ENDBRANCH   5  20
+BRANCH   4  22
+ATOM     22  O2  5GF d   1      -1.109 -22.794 -18.801  0.00  0.00    -0.391 OA
+ATOM     23  H4  5GF d   1      -0.988 -22.356 -17.967  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+TORSDOF 5

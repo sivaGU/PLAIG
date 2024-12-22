@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3_6  and  C11_13 
+REMARK    2  A    between atoms: N1_8  and  C10_12 
+REMARK    3  A    between atoms: C11_13  and  C12_14 
+REMARK    4  A    between atoms: C12_14  and  C13_15 
+REMARK    5  A    between atoms: C12_14  and  C14_16 
+ROOT
+ATOM      1  N9  IBM d   1      74.112  52.547  40.818  0.00  0.00    -0.224 NA
+ATOM      2  C8  IBM d   1      73.311  53.228  41.703  0.00  0.00     0.067 A 
+ATOM      3  N7  IBM d   1      73.713  53.147  42.948  0.00  0.00    -0.343 N 
+ATOM      4  C5  IBM d   1      74.855  52.361  42.878  0.00  0.00     0.149 A 
+ATOM      5  C4  IBM d   1      75.116  51.986  41.572  0.00  0.00     0.167 A 
+ATOM      6  N3  IBM d   1      76.150  51.238  41.122  0.00  0.00    -0.281 N 
+ATOM      7  C2  IBM d   1      77.005  50.812  42.095  0.00  0.00     0.333 A 
+ATOM      8  N1  IBM d   1      76.824  51.142  43.449  0.00  0.00    -0.269 N 
+ATOM      9  C6  IBM d   1      75.751  51.914  43.841  0.00  0.00     0.281 A 
+ATOM     10  O6  IBM d   1      75.581  52.199  45.032  0.00  0.00    -0.265 OA
+ATOM     11  O2  IBM d   1      77.968  50.126  41.771  0.00  0.00    -0.246 OA
+ATOM     12  H1  IBM d   1      72.425  53.783  41.398  0.00  0.00     0.143 H 
+ATOM     13  H2  IBM d   1      73.282  53.568  43.783  0.00  0.00     0.167 HD
+ENDROOT
+BRANCH   6  14
+ATOM     14  C11 IBM d   1      76.385  50.956  39.701  0.00  0.00     0.009 C 
+ATOM     15  H6  IBM d   1      77.110  50.133  39.614  0.00  0.00     0.065 H 
+ATOM     16  H7  IBM d   1      76.793  51.857  39.219  0.00  0.00     0.065 H 
+BRANCH  14  17
+ATOM     17  C12 IBM d   1      75.087  50.555  38.993  0.00  0.00    -0.045 C 
+ATOM     18  H8  IBM d   1      74.357  50.208  39.739  0.00  0.00     0.041 H 
+BRANCH  17  19
+ATOM     19  C13 IBM d   1      75.404  49.424  38.014  0.00  0.00    -0.072 C 
+ATOM     20  H9  IBM d   1      74.484  49.120  37.494  0.00  0.00     0.028 H 
+ATOM     21  H10 IBM d   1      75.813  48.565  38.566  0.00  0.00     0.028 H 
+ATOM     22  H11 IBM d   1      76.143  49.773  37.278  0.00  0.00     0.028 H 
+ENDBRANCH  17  19
+BRANCH  17  23
+ATOM     23  C14 IBM d   1      74.495  51.732  38.222  0.00  0.00    -0.072 C 
+ATOM     24  H12 IBM d   1      74.265  52.550  38.921  0.00  0.00     0.028 H 
+ATOM     25  H13 IBM d   1      73.573  51.412  37.715  0.00  0.00     0.028 H 
+ATOM     26  H14 IBM d   1      75.221  52.083  37.474  0.00  0.00     0.028 H 
+ENDBRANCH  17  23
+ENDBRANCH  14  17
+ENDBRANCH   6  14
+BRANCH   8  27
+ATOM     27  C10 IBM d   1      77.784  50.672  44.446  0.00  0.00    -0.007 C 
+ATOM     28  H3  IBM d   1      78.565  50.076  43.951  0.00  0.00     0.057 H 
+ATOM     29  H4  IBM d   1      77.265  50.050  45.190  0.00  0.00     0.057 H 
+ATOM     30  H5  IBM d   1      78.245  51.536  44.947  0.00  0.00     0.057 H 
+ENDBRANCH   8  27
+TORSDOF 5

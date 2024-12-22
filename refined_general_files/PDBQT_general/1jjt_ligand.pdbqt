@@ -1,0 +1,70 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_9  and  C15_23 
+REMARK    2  A    between atoms: C5_13  and  C1_9 
+REMARK    3  A    between atoms: C1_9  and  C2_10 
+REMARK    4  A    between atoms: C6_14  and  C5_13 
+REMARK    5  A    between atoms: C15_23  and  C19_27 
+REMARK    6  A    between atoms: C15_23  and  C16_24 
+REMARK    7  A    between atoms: C19_27  and  C20_28 
+ROOT
+ATOM      1  H1  BDS d   1      57.044  24.807  32.865  0.00  0.00     0.058 H 
+ATOM      2  C1  BDS d   1      58.126  24.942  33.013  0.00  0.00     0.047 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C15 BDS d   1      58.454  25.010  34.534  0.00  0.00     0.047 C 
+ATOM      4  H9  BDS d   1      59.440  24.563  34.729  0.00  0.00     0.058 H 
+BRANCH   3   5
+ATOM      5  C19 BDS d   1      57.335  24.193  35.249  0.00  0.00    -0.028 C 
+ATOM      6  H10 BDS d   1      57.286  23.187  34.807  0.00  0.00     0.041 H 
+ATOM      7  H11 BDS d   1      56.371  24.703  35.107  0.00  0.00     0.041 H 
+BRANCH   5   8
+ATOM      8  C20 BDS d   1      57.616  24.069  36.734  0.00  0.00    -0.054 A 
+ATOM      9  C28 BDS d   1      57.078  24.994  37.657  0.00  0.00    -0.042 A 
+ATOM     10  C27 BDS d   1      57.359  24.835  39.003  0.00  0.00     0.105 A 
+ATOM     11  H16 BDS d   1      56.456  25.814  37.317  0.00  0.00     0.088 H 
+ATOM     12  C23 BDS d   1      58.148  23.779  39.455  0.00  0.00     0.105 A 
+ATOM     13  O26 BDS d   1      57.074  25.642  40.038  0.00  0.00    -0.323 OA
+ATOM     14  C22 BDS d   1      58.670  22.847  38.569  0.00  0.00    -0.047 A 
+ATOM     15  O24 BDS d   1      58.324  23.881  40.777  0.00  0.00    -0.323 OA
+ATOM     16  C21 BDS d   1      58.383  22.991  37.201  0.00  0.00    -0.074 A 
+ATOM     17  H13 BDS d   1      59.285  22.027  38.924  0.00  0.00     0.087 H 
+ATOM     18  H12 BDS d   1      58.760  22.259  36.496  0.00  0.00     0.084 H 
+ATOM     19  C25 BDS d   1      57.601  25.036  41.232  0.00  0.00     0.115 A 
+ATOM     20  H14 BDS d   1      58.274  25.732  41.754  0.00  0.00     0.118 H 
+ATOM     21  H15 BDS d   1      56.785  24.740  41.907  0.00  0.00     0.118 H 
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   3  22
+ATOM     22  C16 BDS d   1      58.442  26.447  35.036  0.00  0.00     0.178 C 
+ATOM     23  O18 BDS d   1      59.306  26.833  35.876  0.00  0.00    -0.648 OA
+ATOM     24  O17 BDS d   1      57.567  27.245  34.630  0.00  0.00    -0.648 OA
+ENDBRANCH   3  22
+ENDBRANCH   2   3
+BRANCH   2  25
+ATOM     25  C5  BDS d   1      58.937  23.731  32.445  0.00  0.00    -0.028 C 
+ATOM     26  H2  BDS d   1      59.123  23.012  33.257  0.00  0.00     0.041 H 
+ATOM     27  H3  BDS d   1      59.897  24.096  32.051  0.00  0.00     0.041 H 
+BRANCH  25  28
+ATOM     28  C6  BDS d   1      58.178  23.033  31.331  0.00  0.00    -0.054 C 
+ATOM     29  C14 BDS d   1      58.363  23.402  29.985  0.00  0.00    -0.042 C 
+ATOM     30  C13 BDS d   1      57.625  22.700  29.031  0.00  0.00     0.105 A 
+ATOM     31  H8  BDS d   1      59.047  24.194  29.703  0.00  0.00     0.088 H 
+ATOM     32  C9  BDS d   1      56.765  21.665  29.374  0.00  0.00     0.105 A 
+ATOM     33  O12 BDS d   1      57.610  22.845  27.698  0.00  0.00    -0.323 OA
+ATOM     34  C8  BDS d   1      56.480  21.372  30.713  0.00  0.00    -0.047 C 
+ATOM     35  O10 BDS d   1      56.173  21.163  28.286  0.00  0.00    -0.323 OA
+ATOM     36  H5  BDS d   1      55.692  20.680  30.988  0.00  0.00     0.087 H 
+ATOM     37  C7  BDS d   1      57.259  22.013  31.675  0.00  0.00    -0.074 C 
+ATOM     38  H4  BDS d   1      57.158  21.723  32.715  0.00  0.00     0.084 H 
+ATOM     39  C11 BDS d   1      56.715  21.857  27.160  0.00  0.00     0.115 A 
+ATOM     40  H6  BDS d   1      55.911  22.341  26.586  0.00  0.00     0.118 H 
+ATOM     41  H7  BDS d   1      57.262  21.160  26.508  0.00  0.00     0.118 H 
+ENDBRANCH  25  28
+ENDBRANCH   2  25
+BRANCH   2  42
+ATOM     42  C2  BDS d   1      58.607  26.161  32.254  0.00  0.00     0.178 C 
+ATOM     43  O4  BDS d   1      59.848  26.379  32.234  0.00  0.00    -0.648 OA
+ATOM     44  O3  BDS d   1      57.803  26.900  31.636  0.00  0.00    -0.648 OA
+ENDBRANCH   2  42
+TORSDOF 7

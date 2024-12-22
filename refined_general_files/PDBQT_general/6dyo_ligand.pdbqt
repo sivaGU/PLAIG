@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C7_1 
+REMARK    2  A    between atoms: C7_1  and  C8_10 
+REMARK    3  A    between atoms: C4_3  and  O2_9 
+REMARK    4  A    between atoms: C3_7  and  O1_8 
+REMARK    5  A    between atoms: C8_10  and  N1_11 
+ROOT
+ATOM      1  C1  LDP d   1       7.208  -2.786  13.581  0.00  0.00    -0.054 A 
+ATOM      2  C4  LDP d   1       4.811  -1.943  12.473  0.00  0.00     0.098 A 
+ATOM      3  C2  LDP d   1       6.008  -3.107  14.197  0.00  0.00    -0.042 A 
+ATOM      4  C6  LDP d   1       7.209  -2.042  12.411  0.00  0.00    -0.074 A 
+ATOM      5  C5  LDP d   1       6.010  -1.621  11.857  0.00  0.00    -0.048 A 
+ATOM      6  C3  LDP d   1       4.809  -2.687  13.645  0.00  0.00     0.099 A 
+ATOM      7  H3  LDP d   1       6.008  -3.688  15.112  0.00  0.00     0.088 H 
+ATOM      8  H4  LDP d   1       8.147  -1.790  11.930  0.00  0.00     0.084 H 
+ATOM      9  H5  LDP d   1       6.010  -1.040  10.942  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C7  LDP d   1       8.529  -3.251  14.195  0.00  0.00    -0.019 C 
+ATOM     11  H1  LDP d   1       9.209  -3.582  13.396  0.00  0.00     0.042 H 
+ATOM     12  H2  LDP d   1       8.339  -4.087  14.884  0.00  0.00     0.042 H 
+BRANCH  10  13
+ATOM     13  C8  LDP d   1       9.166  -2.094  14.960  0.00  0.00     0.083 C 
+ATOM     14  H8  LDP d   1       9.623  -2.475  15.885  0.00  0.00     0.075 H 
+ATOM     15  H9  LDP d   1       8.393  -1.353  15.212  0.00  0.00     0.075 H 
+BRANCH  13  16
+ATOM     16  N1  LDP d   1      10.188  -1.465  14.140  0.00  0.00    -0.079 N 
+ATOM     17  H10 LDP d   1      10.605  -0.702  14.650  0.00  0.00     0.274 HD
+ATOM     18  H11 LDP d   1       9.770  -1.114  13.293  0.00  0.00     0.274 HD
+ATOM     19  H12 LDP d   1      10.898  -2.143  13.909  0.00  0.00     0.274 HD
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   6  20
+ATOM     20  O1  LDP d   1       3.600  -3.015  14.273  0.00  0.00    -0.358 OA
+ATOM     21  H6  LDP d   1       2.877  -2.655  13.773  0.00  0.00     0.217 HD
+ENDBRANCH   6  20
+BRANCH   2  22
+ATOM     22  O2  LDP d   1       3.601  -1.516  11.908  0.00  0.00    -0.358 OA
+ATOM     23  H7  LDP d   1       3.066  -2.273  11.698  0.00  0.00     0.217 HD
+ENDBRANCH   2  22
+TORSDOF 5

@@ -1,0 +1,78 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_3  and  CAQ_2 
+REMARK    2  A    between atoms: CAM_4  and  CAK_3 
+REMARK    3  A    between atoms: CAU_5  and  CAM_4 
+REMARK    4  A    between atoms: CAU_5  and  CAS_8 
+REMARK    5  A    between atoms: N_11  and  CAU_5 
+REMARK    6  A    between atoms: CA_12  and  N_11 
+REMARK    7  A    between atoms: CA_12  and  C_13 
+REMARK    8  A    between atoms: CA_12  and  CB_15 
+REMARK    9  A    between atoms: CB_15  and  CG_16 
+REMARK   10  A    between atoms: CG_16  and  CD_17 
+REMARK   11  A    between atoms: CD_17  and  NE_18 
+REMARK       I    between atoms: NE_18  and  CZ_19 
+REMARK       I    between atoms: CZ_19  and  NH2_20 
+ROOT
+ATOM      1  CA  2W2 d   1      18.056  -6.241  -1.957  0.00  0.00     0.188 C 
+ATOM      2  H   2W2 d   1      17.895  -5.304  -1.403  0.00  0.00     0.102 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   2W2 d   1      18.822  -7.139  -1.051  0.00  0.00    -0.047 N 
+ATOM      4  H   2W2 d   1      18.300  -7.188  -0.190  0.00  0.00     0.279 HD
+ATOM      5  H   2W2 d   1      18.832  -8.046  -1.490  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CAU 2W2 d   1      20.208  -6.842  -0.680  0.00  0.00     0.186 C 
+ATOM      7  H   2W2 d   1      20.814  -6.978  -1.588  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  CAM 2W2 d   1      20.697  -7.850   0.340  0.00  0.00    -0.020 C 
+ATOM      9  H   2W2 d   1      20.394  -8.845  -0.017  0.00  0.00     0.037 H 
+ATOM     10  H   2W2 d   1      21.795  -7.786   0.358  0.00  0.00     0.037 H 
+BRANCH   8  11
+ATOM     11  CAK 2W2 d   1      20.223  -7.725   1.757  0.00  0.00     0.018 C 
+ATOM     12  H   2W2 d   1      20.939  -8.285   2.377  0.00  0.00     0.049 H 
+ATOM     13  H   2W2 d   1      20.276  -6.656   2.011  0.00  0.00     0.049 H 
+BRANCH  11  14
+ATOM     14  CAQ 2W2 d   1      18.852  -8.192   2.160  0.00  0.00     0.172 C 
+ATOM     15  OAC 2W2 d   1      17.857  -8.102   1.389  0.00  0.00    -0.648 OA
+ATOM     16  OAF 2W2 d   1      18.687  -8.666   3.317  0.00  0.00    -0.648 OA
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   6  17
+ATOM     17  CAS 2W2 d   1      20.438  -5.436  -0.229  0.00  0.00     0.204 C 
+ATOM     18  OAH 2W2 d   1      19.497  -4.784   0.299  0.00  0.00    -0.646 OA
+ATOM     19  OAE 2W2 d   1      21.578  -4.893  -0.375  0.00  0.00    -0.646 OA
+ENDBRANCH   6  17
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  C   2W2 d   1      16.686  -6.865  -2.222  0.00  0.00     0.205 C 
+ATOM     21  OXT 2W2 d   1      16.478  -8.039  -1.830  0.00  0.00    -0.646 OA
+ATOM     22  O   2W2 d   1      15.798  -6.211  -2.826  0.00  0.00    -0.646 OA
+ENDBRANCH   1  20
+BRANCH   1  23
+ATOM     23  CB  2W2 d   1      18.728  -5.847  -3.266  0.00  0.00    -0.012 C 
+ATOM     24  H   2W2 d   1      19.470  -5.067  -3.040  0.00  0.00     0.042 H 
+ATOM     25  H   2W2 d   1      17.953  -5.436  -3.930  0.00  0.00     0.042 H 
+BRANCH  23  26
+ATOM     26  CG  2W2 d   1      19.430  -6.943  -4.008  0.00  0.00    -0.085 C 
+ATOM     27  H   2W2 d   1      19.970  -7.715  -3.461  0.00  0.00     0.079 H 
+BRANCH  26  28
+ATOM     28  CD  2W2 d   1      19.387  -6.973  -5.496  0.00  0.00    -0.009 C 
+ATOM     29  H   2W2 d   1      18.853  -6.244  -6.103  0.00  0.00     0.111 H 
+BRANCH  28  30
+ATOM     30  NE  2W2 d   1      20.139  -8.086  -6.043  0.00  0.00    -0.203 N 
+ATOM     31  CZ  2W2 d   1      20.948  -7.968  -7.240  0.00  0.00     0.669 C 
+ATOM     32  NH2 2W2 d   1      21.601  -9.023  -7.646  0.00  0.00    -0.235 N 
+ATOM     33  NH1 2W2 d   1      21.033  -6.867  -7.916  0.00  0.00    -0.235 N 
+ATOM     34  H   2W2 d   1      22.185  -8.973  -8.493  0.00  0.00     0.174 HD
+ATOM     35  H   2W2 d   1      21.532  -9.905  -7.119  0.00  0.00     0.174 HD
+ATOM     36  H   2W2 d   1      20.521  -6.030  -7.603  0.00  0.00     0.174 HD
+ATOM     37  H   2W2 d   1      21.612  -6.828  -8.767  0.00  0.00     0.174 HD
+ATOM     38  H   2W2 d   1      20.096  -8.996  -5.562  0.00  0.00     0.183 HD
+ENDBRANCH  28  30
+ENDBRANCH  26  28
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+TORSDOF 11

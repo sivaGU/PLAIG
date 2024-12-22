@@ -1,0 +1,46 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  O03_3 
+REMARK    3  A    between atoms: O03_3  and  C04_4 
+REMARK    4  A    between atoms: C04_4  and  C06_6 
+REMARK    5  A    between atoms: N08_8  and  C09_9 
+ROOT
+ATOM      1  C06 7MX d   1      36.666 -40.415  28.580  0.00  0.00     0.053 A 
+ATOM      2  C07 7MX d   1      36.061 -39.129  29.078  0.00  0.00     0.028 A 
+ATOM      3  N08 7MX d   1      34.640 -38.861  28.878  0.00  0.00    -0.352 N 
+ATOM      4  C10 7MX d   1      33.788 -39.827  28.184  0.00  0.00     0.224 A 
+ATOM      5  O11 7MX d   1      32.610 -39.588  28.022  0.00  0.00    -0.273 OA
+ATOM      6  C12 7MX d   1      34.378 -41.117  27.677  0.00  0.00     0.044 A 
+ATOM      7  C13 7MX d   1      35.815 -41.400  27.876  0.00  0.00     0.034 A 
+ATOM      8 CL   7MX d   1      36.472 -42.906  27.279  0.00  0.00    -0.088 Cl
+ATOM      9  H6  7MX d   1      36.609 -38.311  28.589  0.00  0.00     0.072 H 
+ATOM     10  H7  7MX d   1      36.240 -39.094  30.163  0.00  0.00     0.072 H 
+ATOM     11  H11 7MX d   1      34.196 -41.145  26.593  0.00  0.00     0.055 H 
+ATOM     12  H12 7MX d   1      33.823 -41.933  28.163  0.00  0.00     0.055 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  C04 7MX d   1      38.154 -40.631  28.813  0.00  0.00     0.292 C 
+ATOM     14  O05 7MX d   1      38.774 -41.513  28.269  0.00  0.00    -0.259 OA
+BRANCH  13  15
+ATOM     15  O03 7MX d   1      38.855 -39.782  29.670  0.00  0.00    -0.318 OA
+BRANCH  15  16
+ATOM     16  C02 7MX d   1      40.242 -39.755  29.431  0.00  0.00     0.026 C 
+ATOM     17  H4  7MX d   1      40.686 -40.730  29.680  0.00  0.00     0.074 H 
+ATOM     18  H5  7MX d   1      40.437 -39.522  28.374  0.00  0.00     0.074 H 
+BRANCH  16  19
+ATOM     19  C01 7MX d   1      40.826 -38.685  30.310  0.00  0.00    -0.056 C 
+ATOM     20  H1  7MX d   1      41.913 -38.633  30.151  0.00  0.00     0.030 H 
+ATOM     21  H2  7MX d   1      40.620 -38.924  31.364  0.00  0.00     0.030 H 
+ATOM     22  H3  7MX d   1      40.372 -37.715  30.058  0.00  0.00     0.030 H 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+BRANCH   3  23
+ATOM     23  C09 7MX d   1      34.090 -37.644  29.352  0.00  0.00    -0.016 C 
+ATOM     24  H8  7MX d   1      33.016 -37.611  29.117  0.00  0.00     0.056 H 
+ATOM     25  H9  7MX d   1      34.598 -36.798  28.866  0.00  0.00     0.056 H 
+ATOM     26  H10 7MX d   1      34.229 -37.578  30.441  0.00  0.00     0.056 H 
+ENDBRANCH   3  23
+TORSDOF 5

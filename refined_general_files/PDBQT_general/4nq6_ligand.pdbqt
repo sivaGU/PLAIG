@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  CA_5 
+REMARK    2  A    between atoms: CAJ_11  and  CAD_12 
+REMARK    3  A    between atoms: CAD_12  and  SAC_13 
+ROOT
+ATOM      1  N   3R9 d   1      10.102   9.470  25.384  0.00  0.00    -0.029 N 
+ATOM      2  CA  3R9 d   1      11.108   9.515  26.498  0.00  0.00     0.197 C 
+ATOM      3  CB  3R9 d   1      12.292  10.483  26.173  0.00  0.00     0.015 C 
+ATOM      4  SAH 3R9 d   1      12.021  10.999  24.477  0.00  0.00    -0.133 SA
+ATOM      5  CAM 3R9 d   1      10.343  10.445  24.246  0.00  0.00     0.158 C 
+ATOM      6  CAF 3R9 d   1       9.450  11.649  24.367  0.00  0.00     0.014 C 
+ATOM      7  SAG 3R9 d   1       8.998  11.461  26.098  0.00  0.00    -0.132 SA
+ATOM      8  CAJ 3R9 d   1       8.783   9.706  25.996  0.00  0.00     0.158 C 
+ATOM      9  H1  3R9 d   1      10.118   8.543  24.989  0.00  0.00     0.283 HD
+ATOM     10  H2  3R9 d   1      10.598   9.929  27.381  0.00  0.00     0.103 H 
+ATOM     11  H3  3R9 d   1      13.255   9.961  26.268  0.00  0.00     0.052 H 
+ATOM     12  H4  3R9 d   1      12.277  11.351  26.848  0.00  0.00     0.052 H 
+ATOM     13  H5  3R9 d   1      10.203   9.957  23.270  0.00  0.00     0.103 H 
+ATOM     14  H6  3R9 d   1       8.577  11.588  23.700  0.00  0.00     0.053 H 
+ATOM     15  H7  3R9 d   1       9.991  12.588  24.178  0.00  0.00     0.053 H 
+ATOM     16  H8  3R9 d   1       8.666   9.229  26.980  0.00  0.00     0.103 H 
+ENDROOT
+BRANCH   8  17
+ATOM     17  CAD 3R9 d   1       7.662   9.288  25.100  0.00  0.00     0.010 C 
+ATOM     18  H9  3R9 d   1       7.513  10.033  24.305  0.00  0.00     0.052 H 
+ATOM     19  H10 3R9 d   1       6.733   9.179  25.679  0.00  0.00     0.052 H 
+BRANCH  17  20
+ATOM     20  SAC 3R9 d   1       8.146   7.681  24.376  0.00  0.00    -0.179 SA
+ATOM     21  H11 3R9 d   1       7.416   7.357  23.761  0.00  0.00     0.101 HD
+ENDBRANCH  17  20
+ENDBRANCH   8  17
+BRANCH   2  22
+ATOM     22  C   3R9 d   1      11.570   8.051  26.880  0.00  0.00     0.205 C 
+ATOM     23  O   3R9 d   1      12.155   7.959  27.957  0.00  0.00    -0.646 OA
+ATOM     24  OXT 3R9 d   1      11.297   7.069  26.120  0.00  0.00    -0.646 OA
+ENDBRANCH   2  22
+TORSDOF 3

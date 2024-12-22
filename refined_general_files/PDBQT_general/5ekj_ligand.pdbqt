@@ -1,0 +1,84 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C04_4 
+REMARK       I    between atoms: N14_14  and  C01_1 
+REMARK    2  A    between atoms: C04_4  and  N03_3 
+REMARK    3  A    between atoms: N03_3  and  C18_18 
+REMARK    4  A    between atoms: C10_10  and  S05_5 
+REMARK    5  A    between atoms: S05_5  and  N17_17 
+REMARK    6  A    between atoms: C12_12  and  C07_7 
+REMARK    7  A    between atoms: C13_13  and  C12_12 
+REMARK    8  A    between atoms: C13_13  and  N14_14 
+REMARK    9  A    between atoms: C18_18  and  C19_19 
+REMARK   10  A    between atoms: C19_19  and  C20_20 
+REMARK   11  A    between atoms: C20_20  and  C21_21 
+ROOT
+ATOM      1  C01 TG4 d   1       2.186   8.288  83.739  0.00  0.00     0.243 C 
+ATOM      2  O02 TG4 d   1       2.616   8.288  84.887  0.00  0.00    -0.272 OA
+ATOM      3  N14 TG4 d   1       1.185   7.311  83.338  0.00  0.00    -0.359 N 
+ATOM      4  H13 TG4 d   1       0.832   7.318  82.402  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C13 TG4 d   1       0.691   6.319  84.293  0.00  0.00    -0.001 C 
+ATOM      6  H11 TG4 d   1       1.529   5.786  84.766  0.00  0.00     0.064 H 
+ATOM      7  H12 TG4 d   1       0.078   6.800  85.069  0.00  0.00     0.064 H 
+BRANCH   5   8
+ATOM      8  C12 TG4 d   1      -0.155   5.359  83.457  0.00  0.00    -0.026 C 
+ATOM      9  H9  TG4 d   1      -1.000   5.912  83.022  0.00  0.00     0.042 H 
+ATOM     10  H10 TG4 d   1       0.466   4.944  82.650  0.00  0.00     0.042 H 
+BRANCH   8  11
+ATOM     11  C07 TG4 d   1      -0.699   4.206  84.314  0.00  0.00    -0.057 A 
+ATOM     12  C06 TG4 d   1       0.144   3.149  84.697  0.00  0.00    -0.075 A 
+ATOM     13  C11 TG4 d   1      -0.364   2.112  85.437  0.00  0.00    -0.060 A 
+ATOM     14  H5  TG4 d   1       1.189   3.153  84.409  0.00  0.00     0.084 H 
+ATOM     15  C10 TG4 d   1      -1.692   2.109  85.804  0.00  0.00     0.079 A 
+ATOM     16  H8  TG4 d   1       0.281   1.293  85.734  0.00  0.00     0.085 H 
+ATOM     17  C09 TG4 d   1      -2.538   3.185  85.404  0.00  0.00    -0.060 A 
+ATOM     18  C08 TG4 d   1      -2.043   4.199  84.687  0.00  0.00    -0.075 A 
+ATOM     19  H7  TG4 d   1      -3.586   3.181  85.682  0.00  0.00     0.085 H 
+ATOM     20  H6  TG4 d   1      -2.689   5.019  84.394  0.00  0.00     0.084 H 
+BRANCH  15  21
+ATOM     21  S05 TG4 d   1      -2.359   0.773  86.766  0.00  0.00     0.256 S 
+ATOM     22  O15 TG4 d   1      -1.824   0.931  88.100  0.00  0.00    -0.201 OA
+ATOM     23  O16 TG4 d   1      -3.806   0.877  86.673  0.00  0.00    -0.201 OA
+BRANCH  21  24
+ATOM     24  N17 TG4 d   1      -1.849  -0.612  86.120  0.00  0.00    -0.324 N 
+ATOM     25  H14 TG4 d   1      -2.122  -1.484  86.526  0.00  0.00     0.169 HD
+ATOM     26  H15 TG4 d   1      -1.259  -0.600  85.313  0.00  0.00     0.169 HD
+ENDBRANCH  21  24
+ENDBRANCH  15  21
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   1  27
+ATOM     27  C04 TG4 d   1       2.658   9.278  82.706  0.00  0.00     0.154 C 
+ATOM     28  H3  TG4 d   1       1.851   9.446  81.978  0.00  0.00     0.090 H 
+ATOM     29  H4  TG4 d   1       3.537   8.865  82.190  0.00  0.00     0.090 H 
+BRANCH  27  30
+ATOM     30  N03 TG4 d   1       3.028  10.577  83.325  0.00  0.00    -0.067 N 
+ATOM     31  H1  TG4 d   1       3.857  10.459  83.886  0.00  0.00     0.277 HD
+ATOM     32  H2  TG4 d   1       2.272  10.900  83.908  0.00  0.00     0.277 HD
+BRANCH  30  33
+ATOM     33  C18 TG4 d   1       3.279  11.530  82.300  0.00  0.00     0.082 C 
+ATOM     34  H16 TG4 d   1       2.357  11.694  81.723  0.00  0.00     0.075 H 
+ATOM     35  H17 TG4 d   1       4.066  11.147  81.633  0.00  0.00     0.075 H 
+BRANCH  33  36
+ATOM     36  C19 TG4 d   1       3.746  12.888  82.922  0.00  0.00    -0.043 C 
+ATOM     37  H18 TG4 d   1       4.728  13.161  82.508  0.00  0.00     0.035 H 
+ATOM     38  H19 TG4 d   1       3.826  12.782  84.014  0.00  0.00     0.035 H 
+BRANCH  36  39
+ATOM     39  C20 TG4 d   1       2.735  13.981  82.592  0.00  0.00    -0.067 C 
+ATOM     40  H20 TG4 d   1       1.806  13.802  83.153  0.00  0.00     0.032 H 
+ATOM     41  H21 TG4 d   1       2.520  13.967  81.513  0.00  0.00     0.032 H 
+BRANCH  39  42
+ATOM     42  C21 TG4 d   1       3.310  15.352  82.980  0.00  0.00    -0.076 C 
+ATOM     43  H22 TG4 d   1       2.578  16.138  82.741  0.00  0.00     0.027 H 
+ATOM     44  H23 TG4 d   1       4.239  15.533  82.418  0.00  0.00     0.027 H 
+ATOM     45  H24 TG4 d   1       3.525  15.368  84.059  0.00  0.00     0.027 H 
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH  27  30
+ENDBRANCH   1  27
+TORSDOF 11

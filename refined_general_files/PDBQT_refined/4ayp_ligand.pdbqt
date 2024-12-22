@@ -1,0 +1,92 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O12_1  and  C12_2 
+REMARK    2  A    between atoms: C13_3  and  O13_4 
+REMARK    3  A    between atoms: C14_5  and  O14_6 
+REMARK    4  A    between atoms: C15_7  and  C16_8 
+REMARK    5  A    between atoms: C16_8  and  O16_9 
+REMARK    6  A    between atoms: C11_11  and  S22_12 
+REMARK    7  A    between atoms: S22_12  and  C22_13 
+REMARK    8  A    between atoms: C21_14  and  O21_15 
+REMARK    9  A    between atoms: O21_15  and  C27_16 
+REMARK   10  A    between atoms: C23_18  and  O23_19 
+REMARK   11  A    between atoms: C24_20  and  O24_21 
+REMARK   12  A    between atoms: C25_22  and  C26_23 
+REMARK   13  A    between atoms: C26_23  and  O26_24 
+ROOT
+ATOM      1  C22 SMD d   1     -30.259 -13.322 -10.656  0.00  0.00     0.068 C 
+ATOM      2  C21 SMD d   1     -30.331 -12.508  -9.364  0.00  0.00     0.145 C 
+ATOM      3  O25 SMD d   1     -29.374 -12.978  -8.415  0.00  0.00    -0.350 OA
+ATOM      4  C23 SMD d   1     -30.414 -14.812 -10.312  0.00  0.00     0.079 C 
+ATOM      5  C24 SMD d   1     -29.439 -15.259  -9.228  0.00  0.00     0.088 C 
+ATOM      6  C25 SMD d   1     -29.559 -14.343  -8.015  0.00  0.00     0.089 C 
+ATOM      7  H12 SMD d   1     -31.090 -13.035 -11.317  0.00  0.00     0.068 H 
+ATOM      8  H13 SMD d   1     -30.110 -11.454  -9.590  0.00  0.00     0.131 H 
+ATOM      9  H17 SMD d   1     -31.436 -14.972  -9.938  0.00  0.00     0.089 H 
+ATOM     10  H19 SMD d   1     -28.413 -15.217  -9.624  0.00  0.00     0.091 H 
+ATOM     11  H21 SMD d   1     -30.561 -14.471  -7.580  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S22 SMD d   1     -28.702 -12.906 -11.482  0.00  0.00    -0.122 SA
+BRANCH  12  13
+ATOM     13  C11 SMD d   1     -29.020 -13.411 -13.205  0.00  0.00     0.111 C 
+ATOM     14  C12 SMD d   1     -27.643 -13.511 -13.912  0.00  0.00     0.096 C 
+ATOM     15  C13 SMD d   1     -27.558 -12.620 -15.135  0.00  0.00     0.090 C 
+ATOM     16  H2  SMD d   1     -26.869 -13.203 -13.194  0.00  0.00     0.092 H 
+ATOM     17  C14 SMD d   1     -28.089 -11.229 -14.810  0.00  0.00     0.089 C 
+ATOM     18  H3  SMD d   1     -26.505 -12.531 -15.441  0.00  0.00     0.091 H 
+ATOM     19  C15 SMD d   1     -29.551 -11.292 -14.345  0.00  0.00     0.087 C 
+ATOM     20  H5  SMD d   1     -28.032 -10.611 -15.719  0.00  0.00     0.091 H 
+ATOM     21  O15 SMD d   1     -29.966 -12.603 -13.910  0.00  0.00    -0.363 OA
+ATOM     22  H7  SMD d   1     -29.689 -10.574 -13.523  0.00  0.00     0.090 H 
+ATOM     23  H11 SMD d   1     -29.451 -14.423 -13.173  0.00  0.00     0.104 H 
+BRANCH  14  24
+ATOM     24  O12 SMD d   1     -27.373 -14.844 -14.344  0.00  0.00    -0.389 OA
+ATOM     25  H1  SMD d   1     -27.418 -15.432 -13.599  0.00  0.00     0.210 HD
+ENDBRANCH  14  24
+BRANCH  15  26
+ATOM     26  O13 SMD d   1     -28.301 -13.216 -16.205  0.00  0.00    -0.390 OA
+ATOM     27  H4  SMD d   1     -28.250 -12.659 -16.973  0.00  0.00     0.210 HD
+ENDBRANCH  15  26
+BRANCH  17  28
+ATOM     28  O14 SMD d   1     -27.298 -10.622 -13.786  0.00  0.00    -0.390 OA
+ATOM     29  H6  SMD d   1     -26.399 -10.549 -14.083  0.00  0.00     0.210 HD
+ENDBRANCH  17  28
+BRANCH  19  30
+ATOM     30  C16 SMD d   1     -30.472 -10.943 -15.513  0.00  0.00     0.043 C 
+ATOM     31  H8  SMD d   1     -30.236 -11.610 -16.355  0.00  0.00     0.078 H 
+ATOM     32  H9  SMD d   1     -30.282  -9.900 -15.807  0.00  0.00     0.078 H 
+BRANCH  30  33
+ATOM     33  O16 SMD d   1     -31.853 -11.080 -15.203  0.00  0.00    -0.398 OA
+ATOM     34  H10 SMD d   1     -32.033 -11.979 -14.956  0.00  0.00     0.209 HD
+ENDBRANCH  30  33
+ENDBRANCH  19  30
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  35
+ATOM     35  O21 SMD d   1     -31.646 -12.603  -8.851  0.00  0.00    -0.365 OA
+BRANCH  35  36
+ATOM     36  C27 SMD d   1     -31.804 -11.893  -7.614  0.00  0.00     0.007 C 
+ATOM     37  H14 SMD d   1     -32.840 -11.999  -7.260  0.00  0.00     0.066 H 
+ATOM     38  H15 SMD d   1     -31.577 -10.828  -7.771  0.00  0.00     0.066 H 
+ATOM     39  H16 SMD d   1     -31.116 -12.308  -6.863  0.00  0.00     0.066 H 
+ENDBRANCH  35  36
+ENDBRANCH   2  35
+BRANCH   4  40
+ATOM     40  O23 SMD d   1     -30.234 -15.600 -11.488  0.00  0.00    -0.392 OA
+ATOM     41  H18 SMD d   1     -30.331 -16.520 -11.270  0.00  0.00     0.210 HD
+ENDBRANCH   4  40
+BRANCH   5  42
+ATOM     42  O24 SMD d   1     -29.736 -16.590  -8.810  0.00  0.00    -0.390 OA
+ATOM     43  H20 SMD d   1     -29.664 -17.178  -9.553  0.00  0.00     0.210 HD
+ENDBRANCH   5  42
+BRANCH   6  44
+ATOM     44  C26 SMD d   1     -28.519 -14.621  -6.955  0.00  0.00     0.043 C 
+ATOM     45  H22 SMD d   1     -27.513 -14.447  -7.364  0.00  0.00     0.078 H 
+ATOM     46  H23 SMD d   1     -28.601 -15.664  -6.615  0.00  0.00     0.078 H 
+BRANCH  44  47
+ATOM     47  O26 SMD d   1     -28.758 -13.734  -5.860  0.00  0.00    -0.398 OA
+ATOM     48  H24 SMD d   1     -28.689 -12.836  -6.161  0.00  0.00     0.209 HD
+ENDBRANCH  44  47
+ENDBRANCH   6  44
+TORSDOF 13

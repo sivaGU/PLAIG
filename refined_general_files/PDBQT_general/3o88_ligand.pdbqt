@@ -1,0 +1,77 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: BOR_25  and  OAE_5 
+REMARK    2  A    between atoms: BOR_25  and  OAF_6 
+REMARK    3  A    between atoms: CAQ_16  and  CAV_21 
+REMARK    4  A    between atoms: CAX_23  and  CAQ_16 
+REMARK    5  A    between atoms: CAR_17  and  CAU_20 
+REMARK    6  A    between atoms: SAZ_24  and  CAR_17 
+REMARK    7  A    between atoms: CAX_23  and  NAS_18 
+REMARK    8  A    between atoms: NAS_18  and  SAZ_24 
+REMARK    9  A    between atoms: CAW_22  and  CAT_19 
+REMARK   10  A    between atoms: CAX_23  and  BOR_25 
+ROOT
+ATOM      1  CAX BSH d   1      25.979   6.808  15.795  0.00  0.00     0.057 C 
+ATOM      2  H   BSH d   1      26.887   7.083  15.258  0.00  0.00     0.066 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAQ BSH d   1      25.434   8.214  16.128  0.00  0.00    -0.024 C 
+ATOM      4  H   BSH d   1      24.663   8.088  16.888  0.00  0.00     0.042 H 
+ATOM      5  H   BSH d   1      26.282   8.820  16.448  0.00  0.00     0.042 H 
+BRANCH   3   6
+ATOM      6  CAV BSH d   1      24.799   8.920  14.965  0.00  0.00    -0.056 A 
+ATOM      7  CAN BSH d   1      25.552   9.092  13.805  0.00  0.00    -0.077 A 
+ATOM      8  CAK BSH d   1      25.025   9.700  12.657  0.00  0.00    -0.081 A 
+ATOM      9  H   BSH d   1      26.584   8.742  13.790  0.00  0.00     0.084 H 
+ATOM     10  CAO BSH d   1      23.707  10.143  12.673  0.00  0.00    -0.066 A 
+ATOM     11  H   BSH d   1      25.639   9.824  11.765  0.00  0.00     0.083 H 
+ATOM     12  CAW BSH d   1      22.924   9.976  13.814  0.00  0.00     0.041 A 
+ATOM     13  H   BSH d   1      23.285  10.623  11.790  0.00  0.00     0.085 H 
+ATOM     14  CAP BSH d   1      23.466   9.365  14.953  0.00  0.00    -0.060 A 
+ATOM     15  H   BSH d   1      22.846   9.233  15.840  0.00  0.00     0.086 H 
+BRANCH  12  16
+ATOM     16  CAT BSH d   1      21.498  10.504  13.727  0.00  0.00     0.209 C 
+ATOM     17  OAA BSH d   1      20.950  10.928  14.793  0.00  0.00    -0.644 OA
+ATOM     18  OAD BSH d   1      20.950  10.516  12.598  0.00  0.00    -0.644 OA
+ENDBRANCH  12  16
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  19
+ATOM     19  NAS BSH d   1      25.022   6.037  15.031  0.00  0.00    -0.318 N 
+ATOM     20  H   BSH d   1      24.107   5.883  15.455  0.00  0.00     0.171 HD
+BRANCH  19  21
+ATOM     21  SAZ BSH d   1      25.268   5.401  13.577  0.00  0.00     0.230 S 
+ATOM     22  OAB BSH d   1      26.975   5.430  13.383  0.00  0.00    -0.206 OA
+ATOM     23  OAC BSH d   1      25.035   3.725  13.689  0.00  0.00    -0.206 OA
+BRANCH  21  24
+ATOM     24  CAR BSH d   1      24.531   6.038  12.035  0.00  0.00     0.070 C 
+ATOM     25  H   BSH d   1      24.698   7.115  12.047  0.00  0.00     0.066 H 
+ATOM     26  H   BSH d   1      24.998   5.476  11.226  0.00  0.00     0.066 H 
+BRANCH  24  27
+ATOM     27  CAU BSH d   1      23.068   5.855  11.865  0.00  0.00    -0.043 A 
+ATOM     28  CAL BSH d   1      22.178   6.529  12.717  0.00  0.00    -0.076 A 
+ATOM     29  CAI BSH d   1      20.799   6.382  12.584  0.00  0.00    -0.082 A 
+ATOM     30  H   BSH d   1      22.574   7.179  13.497  0.00  0.00     0.084 H 
+ATOM     31  CAH BSH d   1      20.272   5.549  11.601  0.00  0.00    -0.083 A 
+ATOM     32  H   BSH d   1      20.129   6.922  13.253  0.00  0.00     0.083 H 
+ATOM     33  CAJ BSH d   1      21.151   4.869  10.759  0.00  0.00    -0.082 A 
+ATOM     34  H   BSH d   1      19.194   5.431  11.492  0.00  0.00     0.083 H 
+ATOM     35  CAM BSH d   1      22.530   5.028  10.885  0.00  0.00    -0.076 A 
+ATOM     36  H   BSH d   1      20.754   4.204   9.992  0.00  0.00     0.083 H 
+ATOM     37  H   BSH d   1      23.196   4.496  10.206  0.00  0.00     0.084 H 
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  19  21
+ENDBRANCH   1  19
+BRANCH   1  38
+ATOM     38  BOR BSH d   1      26.416   5.854  16.983  0.00  0.00     0.515 B 
+BRANCH  38  39
+ATOM     39  OAE BSH d   1      25.371   4.828  17.376  0.00  0.00    -0.436 OA
+ATOM     40  H   BSH d   1      24.993   4.439  16.584  0.00  0.00     0.184 HD
+ENDBRANCH  38  39
+BRANCH  38  41
+ATOM     41  OAF BSH d   1      27.104   6.556  18.136  0.00  0.00    -0.436 OA
+ATOM     42  H   BSH d   1      27.744   7.183  17.791  0.00  0.00     0.184 HD
+ENDBRANCH  38  41
+ENDBRANCH   1  38
+TORSDOF 10

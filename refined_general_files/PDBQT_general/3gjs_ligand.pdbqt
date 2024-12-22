@@ -1,0 +1,134 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: C_1  and  N_4 
+REMARK    2  A    between atoms: N_4  and  CA_5 
+REMARK    3  A    between atoms: CA_5  and  C1_6 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: C1_6  and  N1_16 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: N1_16  and  CA1_17 
+REMARK    8  A    between atoms: CA1_17  and  C2_18 
+REMARK    9  A    between atoms: CA1_17  and  CB1_20 
+REMARK       I    between atoms: C2_18  and  N2_23 
+REMARK   10  A    between atoms: CB1_20  and  CG1_21 
+REMARK   11  A    between atoms: CB1_20  and  CG2_22 
+REMARK   12  A    between atoms: N2_23  and  CA2_24 
+REMARK   13  A    between atoms: CA2_24  and  C3_25 
+REMARK   14  A    between atoms: CA2_24  and  CB2_27 
+REMARK       I    between atoms: C3_25  and  N3_28 
+REMARK   15  A    between atoms: N3_28  and  CA3_29 
+REMARK   16  A    between atoms: CA3_29  and  C4_30 
+REMARK   17  A    between atoms: CA3_29  and  CB3_32 
+REMARK   18  A    between atoms: C4_30  and  O4_31 
+REMARK   19  A    between atoms: CB3_32  and  CG3_33 
+ROOT
+ATOM      1  CA1 VAL d   1      24.565   6.375  41.038  0.00  0.00     0.092 C 
+ATOM      2  H14 VAL d   1      25.389   7.095  40.930  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N1  VAL d   1      23.515   6.978  41.844  0.00  0.00    -0.346 N 
+ATOM      4  C1  TYR d   1      23.722   8.099  42.524  0.00  0.00     0.241 C 
+ATOM      5  O1  TYR d   1      24.796   8.699  42.509  0.00  0.00    -0.271 OA
+ATOM      6  H13 VAL d   1      22.618   6.538  41.887  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CA  TYR d   1      22.543   8.623  43.337  0.00  0.00     0.093 C 
+ATOM      8  H5  TYR d   1      21.772   7.840  43.387  0.00  0.00     0.088 H 
+BRANCH   7   9
+ATOM      9  N   TYR d   1      22.966   8.946  44.701  0.00  0.00    -0.348 N 
+ATOM     10  C   ACE d   1      22.736   8.122  45.722  0.00  0.00     0.214 C 
+ATOM     11  O   ACE d   1      22.142   7.047  45.599  0.00  0.00    -0.274 OA
+ATOM     12  H4  TYR d   1      23.441   9.809  44.871  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CH3 ACE d   1      23.237   8.573  47.076  0.00  0.00    -0.003 C 
+ATOM     14  H1  ACE d   1      23.735   9.549  46.976  0.00  0.00     0.040 H 
+ATOM     15  H2  ACE d   1      23.952   7.834  47.467  0.00  0.00     0.040 H 
+ATOM     16  H3  ACE d   1      22.388   8.664  47.769  0.00  0.00     0.040 H 
+ENDBRANCH  10  13
+ENDBRANCH   7   9
+BRANCH   7  17
+ATOM     17  CB  TYR d   1      21.947   9.853  42.642  0.00  0.00    -0.014 C 
+ATOM     18  H6  TYR d   1      21.782   9.604  41.584  0.00  0.00     0.043 H 
+ATOM     19  H7  TYR d   1      22.674  10.676  42.716  0.00  0.00     0.043 H 
+BRANCH  17  20
+ATOM     20  CG  TYR d   1      20.632  10.328  43.228  0.00  0.00    -0.056 A 
+ATOM     21  CD1 TYR d   1      20.601  11.214  44.307  0.00  0.00    -0.074 A 
+ATOM     22  CE1 TYR d   1      19.394  11.648  44.847  0.00  0.00    -0.051 A 
+ATOM     23  H8  TYR d   1      21.533  11.570  44.731  0.00  0.00     0.084 H 
+ATOM     24  CZ  TYR d   1      18.198  11.195  44.308  0.00  0.00     0.065 A 
+ATOM     25  H10 TYR d   1      19.388  12.336  45.684  0.00  0.00     0.087 H 
+ATOM     26  CE2 TYR d   1      18.205  10.313  43.241  0.00  0.00    -0.051 A 
+ATOM     27  CD2 TYR d   1      19.419   9.885  42.708  0.00  0.00    -0.074 A 
+ATOM     28  H11 TYR d   1      17.271   9.957  42.822  0.00  0.00     0.087 H 
+ATOM     29  H9  TYR d   1      19.419   9.194  41.873  0.00  0.00     0.084 H 
+BRANCH  24  30
+ATOM     30  OH  TYR d   1      16.995  11.634  44.821  0.00  0.00    -0.361 OA
+ATOM     31  H12 TYR d   1      17.158  12.229  45.543  0.00  0.00     0.217 HD
+ENDBRANCH  24  30
+ENDBRANCH  17  20
+ENDBRANCH   7  17
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  32
+ATOM     32  C2  VAL d   1      24.021   6.025  39.662  0.00  0.00     0.241 C 
+ATOM     33  O2  VAL d   1      22.862   5.634  39.528  0.00  0.00    -0.271 OA
+ATOM     34  N2  ALA d   1      24.860   6.171  38.640  0.00  0.00    -0.346 N 
+ATOM     35  H22 ALA d   1      25.785   6.508  38.813  0.00  0.00     0.163 HD
+BRANCH  34  36
+ATOM     36  CA2 ALA d   1      24.464   5.852  37.272  0.00  0.00     0.086 C 
+ATOM     37  H23 ALA d   1      23.371   5.936  37.181  0.00  0.00     0.086 H 
+BRANCH  36  38
+ATOM     38  C3  ALA d   1      24.885   4.417  36.959  0.00  0.00     0.240 C 
+ATOM     39  O3  ALA d   1      25.949   3.969  37.387  0.00  0.00    -0.271 OA
+ATOM     40  N3  ASJ d   1      24.051   3.703  36.208  0.00  0.00    -0.352 N 
+ATOM     41  H27 ASJ d   1      23.212   4.132  35.873  0.00  0.00     0.163 HD
+BRANCH  40  42
+ATOM     42  CA3 ASJ d   1      24.322   2.312  35.857  0.00  0.00     0.041 C 
+ATOM     43  H28 ASJ d   1      25.061   1.925  36.574  0.00  0.00     0.076 H 
+BRANCH  42  44
+ATOM     44  C4  ASJ d   1      24.890   2.128  34.450  0.00  0.00     0.036 C 
+ATOM     45  H29 ASJ d   1      25.883   2.599  34.398  0.00  0.00     0.077 H 
+ATOM     46  H30 ASJ d   1      24.217   2.608  33.724  0.00  0.00     0.077 H 
+BRANCH  44  47
+ATOM     47  O4  ASJ d   1      25.013   0.740  34.127  0.00  0.00    -0.399 OA
+ATOM     48  H31 ASJ d   1      25.367   0.650  33.250  0.00  0.00     0.209 HD
+ENDBRANCH  44  47
+ENDBRANCH  42  44
+BRANCH  42  49
+ATOM     49  CB3 ASJ d   1      23.038   1.485  35.980  0.00  0.00     0.036 C 
+ATOM     50  H32 ASJ d   1      23.006   0.758  35.155  0.00  0.00     0.052 H 
+ATOM     51  H33 ASJ d   1      22.174   2.162  35.906  0.00  0.00     0.052 H 
+BRANCH  49  52
+ATOM     52  CG3 ASJ d   1      22.953   0.732  37.294  0.00  0.00     0.174 C 
+ATOM     53  OD1 ASJ d   1      24.009   0.499  37.922  0.00  0.00    -0.648 OA
+ATOM     54  OD2 ASJ d   1      21.829   0.368  37.697  0.00  0.00    -0.648 OA
+ENDBRANCH  49  52
+ENDBRANCH  42  49
+ENDBRANCH  40  42
+ENDBRANCH  36  38
+BRANCH  36  55
+ATOM     55  CB2 ALA d   1      25.115   6.821  36.300  0.00  0.00    -0.049 C 
+ATOM     56  H24 ALA d   1      24.810   6.571  35.273  0.00  0.00     0.030 H 
+ATOM     57  H25 ALA d   1      26.209   6.747  36.385  0.00  0.00     0.030 H 
+ATOM     58  H26 ALA d   1      24.798   7.847  36.537  0.00  0.00     0.030 H 
+ENDBRANCH  36  55
+ENDBRANCH  34  36
+ENDBRANCH   1  32
+BRANCH   1  59
+ATOM     59  CB1 VAL d   1      25.103   5.088  41.706  0.00  0.00    -0.033 C 
+ATOM     60  H15 VAL d   1      24.317   4.319  41.673  0.00  0.00     0.042 H 
+BRANCH  59  61
+ATOM     61  CG1 VAL d   1      26.317   4.572  40.948  0.00  0.00    -0.071 C 
+ATOM     62  H16 VAL d   1      26.690   3.658  41.432  0.00  0.00     0.028 H 
+ATOM     63  H17 VAL d   1      27.106   5.338  40.954  0.00  0.00     0.028 H 
+ATOM     64  H18 VAL d   1      26.032   4.347  39.910  0.00  0.00     0.028 H 
+ENDBRANCH  59  61
+BRANCH  59  65
+ATOM     65  CG2 VAL d   1      25.452   5.363  43.165  0.00  0.00    -0.071 C 
+ATOM     66  H19 VAL d   1      24.560   5.734  43.691  0.00  0.00     0.028 H 
+ATOM     67  H20 VAL d   1      26.249   6.120  43.215  0.00  0.00     0.028 H 
+ATOM     68  H21 VAL d   1      25.798   4.434  43.641  0.00  0.00     0.028 H 
+ENDBRANCH  59  65
+ENDBRANCH   1  59
+TORSDOF 19

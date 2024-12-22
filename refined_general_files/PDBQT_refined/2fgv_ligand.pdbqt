@@ -1,0 +1,160 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C2_4 
+REMARK       I    between atoms: N_13  and  C_2 
+REMARK    2  A    between atoms: CA_14  and  N_13 
+REMARK    3  A    between atoms: C_15  and  CA_14 
+REMARK    4  A    between atoms: CA_14  and  CB_17 
+REMARK       I    between atoms: N_24  and  C_15 
+REMARK    5  A    between atoms: CB_17  and  CG_18 
+REMARK       I    between atoms: CG_18  and  ND2_20 
+REMARK    6  A    between atoms: C_21  and  O_22 
+REMARK    7  A    between atoms: CA_23  and  C_21 
+REMARK    8  A    between atoms: C_21  and  CM_33 
+REMARK    9  A    between atoms: CA_23  and  N_24 
+REMARK   10  A    between atoms: CA_23  and  CB_25 
+REMARK   11  A    between atoms: CB_25  and  CG_26 
+REMARK   12  A    between atoms: CM_33  and  N1_32 
+REMARK   13  A    between atoms: C2_34  and  C_35 
+REMARK       I    between atoms: C_35  and  N_45 
+REMARK   14  A    between atoms: N_45  and  C_46 
+REMARK   15  A    between atoms: C_46  and  C1_47 
+REMARK   16  A    between atoms: C_46  and  C2_48 
+REMARK   17  A    between atoms: C_46  and  C3_49 
+ROOT
+ATOM      1  H13 QNC d   1      18.699  -0.317  14.943  0.00  0.00     0.088 H 
+ATOM      2  C   HPH d   1      19.796  -0.262  14.882  0.00  0.00     0.078 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  O   HPH d   1      19.975   0.113  13.610  0.00  0.00    -0.392 OA
+ATOM      4  H14 QNC d   1      20.893   0.029  13.382  0.00  0.00     0.210 HD
+ENDBRANCH   2   3
+BRANCH   2   5
+ATOM      5  CA  HPH d   1      20.183  -1.679  15.203  0.00  0.00     0.042 C 
+ATOM      6  H15 QNC d   1      20.102  -1.823  16.291  0.00  0.00     0.077 H 
+BRANCH   5   7
+ATOM      7  N   HPH d   1      19.330  -2.665  14.561  0.00  0.00    -0.352 N 
+ATOM      8  C   ASN d   1      18.610  -3.583  15.221  0.00  0.00     0.241 C 
+ATOM      9  O   ASN d   1      18.582  -3.706  16.427  0.00  0.00    -0.271 OA
+ATOM     10  H16 QNC d   1      19.277  -2.658  13.562  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CA  ASN d   1      17.770  -4.479  14.354  0.00  0.00     0.097 C 
+ATOM     12  H8  QNC d   1      17.513  -3.865  13.478  0.00  0.00     0.088 H 
+BRANCH  11  13
+ATOM     13  N   ASN d   1      18.541  -5.575  13.843  0.00  0.00    -0.342 N 
+ATOM     14  C   QNC d   1      19.111  -6.271  12.863  0.00  0.00     0.271 C 
+ATOM     15  O   QNC d   1      18.870  -5.758  11.780  0.00  0.00    -0.266 OA
+ATOM     16  H7  QNC d   1      18.776  -6.095  14.664  0.00  0.00     0.163 HD
+BRANCH  14  17
+ATOM     17  C2  QNC d   1      19.934  -7.515  12.970  0.00  0.00     0.125 A 
+ATOM     18  N1  QNC d   1      20.167  -8.098  14.168  0.00  0.00    -0.243 NA
+ATOM     19  C8A QNC d   1      20.914  -9.224  14.256  0.00  0.00     0.068 A 
+ATOM     20  C4A QNC d   1      21.446  -9.806  13.113  0.00  0.00    -0.007 A 
+ATOM     21  C8  QNC d   1      21.166  -9.834  15.480  0.00  0.00    -0.054 A 
+ATOM     22  C4  QNC d   1      21.208  -9.221  11.883  0.00  0.00    -0.068 A 
+ATOM     23  C5  QNC d   1      22.211 -10.966  13.175  0.00  0.00    -0.071 A 
+ATOM     24  C3  QNC d   1      20.448  -8.064  11.805  0.00  0.00    -0.049 A 
+ATOM     25  H2  QNC d   1      21.615  -9.666  10.982  0.00  0.00     0.085 H 
+ATOM     26  H1  QNC d   1      20.258  -7.595  10.846  0.00  0.00     0.087 H 
+ATOM     27  C6  QNC d   1      22.458 -11.570  14.398  0.00  0.00    -0.082 A 
+ATOM     28  H3  QNC d   1      22.614 -11.398  12.266  0.00  0.00     0.084 H 
+ATOM     29  C7  QNC d   1      21.933 -10.994  15.547  0.00  0.00    -0.081 A 
+ATOM     30  H4  QNC d   1      23.050 -12.476  14.456  0.00  0.00     0.083 H 
+ATOM     31  H5  QNC d   1      22.123 -11.454  16.510  0.00  0.00     0.083 H 
+ATOM     32  H6  QNC d   1      20.762  -9.403  16.389  0.00  0.00     0.087 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  13
+BRANCH  11  33
+ATOM     33  CB  ASN d   1      16.434  -4.906  14.925  0.00  0.00     0.036 C 
+ATOM     34  H9  QNC d   1      15.870  -4.033  15.285  0.00  0.00     0.051 H 
+ATOM     35  H10 QNC d   1      16.576  -5.617  15.752  0.00  0.00     0.051 H 
+BRANCH  33  36
+ATOM     36  CG  ASN d   1      15.712  -5.566  13.776  0.00  0.00     0.217 C 
+ATOM     37  OD1 ASN d   1      15.351  -4.903  12.821  0.00  0.00    -0.274 OA
+ATOM     38  ND2 ASN d   1      15.522  -6.882  13.857  0.00  0.00    -0.370 N 
+ATOM     39  H11 QNC d   1      15.049  -7.365  13.120  0.00  0.00     0.159 HD
+ATOM     40  H12 QNC d   1      15.853  -7.387  14.654  0.00  0.00     0.159 HD
+ENDBRANCH  33  36
+ENDBRANCH  11  33
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  41
+ATOM     41  CB  HPH d   1      21.641  -1.864  14.787  0.00  0.00    -0.020 C 
+ATOM     42  H17 QNC d   1      22.274  -1.254  15.448  0.00  0.00     0.043 H 
+ATOM     43  H18 QNC d   1      21.756  -1.519  13.749  0.00  0.00     0.043 H 
+BRANCH  41  44
+ATOM     44  CG  HPH d   1      22.101  -3.300  14.871  0.00  0.00    -0.056 A 
+ATOM     45  CD1 HPH d   1      22.490  -3.838  16.092  0.00  0.00    -0.077 A 
+ATOM     46  CE1 HPH d   1      22.910  -5.164  16.166  0.00  0.00    -0.082 A 
+ATOM     47  H19 QNC d   1      22.467  -3.226  16.986  0.00  0.00     0.084 H 
+ATOM     48  CZ  HPH d   1      22.949  -5.936  15.013  0.00  0.00    -0.083 A 
+ATOM     49  H21 QNC d   1      23.205  -5.590  17.118  0.00  0.00     0.083 H 
+ATOM     50  CE2 HPH d   1      22.568  -5.393  13.792  0.00  0.00    -0.082 A 
+ATOM     51  H23 QNC d   1      23.278  -6.968  15.065  0.00  0.00     0.083 H 
+ATOM     52  CD2 HPH d   1      22.145  -4.069  13.714  0.00  0.00    -0.077 A 
+ATOM     53  H22 QNC d   1      22.600  -6.003  12.896  0.00  0.00     0.083 H 
+ATOM     54  H20 QNC d   1      21.853  -3.642  12.761  0.00  0.00     0.084 H 
+ENDBRANCH  41  44
+ENDBRANCH   5  41
+ENDBRANCH   2   5
+BRANCH   2  55
+ATOM     55  CM  DIQ d   1      20.066   0.671  15.819  0.00  0.00     0.110 C 
+ATOM     56  H25 QNC d   1      19.979   1.648  15.321  0.00  0.00     0.080 H 
+ATOM     57  H26 QNC d   1      21.109   0.509  16.129  0.00  0.00     0.080 H 
+BRANCH  55  58
+ATOM     58  N1  DIQ d   1      19.301   0.758  17.012  0.00  0.00    -0.055 N 
+ATOM     59  C2  DIQ d   1      20.068   1.442  18.062  0.00  0.00     0.180 C 
+ATOM     60  C3  DIQ d   1      19.285   1.531  19.371  0.00  0.00    -0.026 C 
+ATOM     61  H27 QNC d   1      20.285   2.461  17.708  0.00  0.00     0.100 H 
+ATOM     62  C3A DIQ d   1      17.975   2.290  19.209  0.00  0.00    -0.047 C 
+ATOM     63  H28 QNC d   1      19.904   2.048  20.119  0.00  0.00     0.037 H 
+ATOM     64  H29 QNC d   1      19.063   0.512  19.721  0.00  0.00     0.037 H 
+ATOM     65  C4  DIQ d   1      17.159   2.274  20.501  0.00  0.00    -0.061 C 
+ATOM     66  C7A DIQ d   1      17.221   1.714  18.018  0.00  0.00    -0.027 C 
+ATOM     67  H30 QNC d   1      18.211   3.340  18.983  0.00  0.00     0.040 H 
+ATOM     68  C5  DIQ d   1      16.476   0.942  20.785  0.00  0.00    -0.065 C 
+ATOM     69  H31 QNC d   1      16.384   3.052  20.431  0.00  0.00     0.033 H 
+ATOM     70  H32 QNC d   1      17.834   2.503  21.339  0.00  0.00     0.033 H 
+ATOM     71  C6  DIQ d   1      15.661   0.500  19.578  0.00  0.00    -0.065 C 
+ATOM     72  H33 QNC d   1      15.809   1.054  21.652  0.00  0.00     0.033 H 
+ATOM     73  H34 QNC d   1      17.240   0.182  21.005  0.00  0.00     0.033 H 
+ATOM     74  C7  DIQ d   1      16.584   0.368  18.372  0.00  0.00    -0.060 C 
+ATOM     75  H35 QNC d   1      14.883   1.248  19.366  0.00  0.00     0.033 H 
+ATOM     76  H36 QNC d   1      15.189  -0.471  19.788  0.00  0.00     0.033 H 
+ATOM     77  H37 QNC d   1      16.002   0.008  17.511  0.00  0.00     0.033 H 
+ATOM     78  H38 QNC d   1      17.379  -0.356  18.605  0.00  0.00     0.033 H 
+ATOM     79  C8  DIQ d   1      18.079   1.541  16.769  0.00  0.00     0.088 C 
+ATOM     80  H39 QNC d   1      16.415   2.421  17.772  0.00  0.00     0.043 H 
+ATOM     81  H40 QNC d   1      17.481   1.028  16.002  0.00  0.00     0.076 H 
+ATOM     82  H41 QNC d   1      18.368   2.537  16.402  0.00  0.00     0.076 H 
+ATOM     83  H24 QNC d   1      19.056  -0.170  17.319  0.00  0.00     0.281 HD
+BRANCH  59  84
+ATOM     84  C   DIQ d   1      21.369   0.755  18.377  0.00  0.00     0.249 C 
+ATOM     85  O   DIQ d   1      21.412  -0.462  18.507  0.00  0.00    -0.271 OA
+ATOM     86  N   QNC d   1      22.405   1.587  18.542  0.00  0.00    -0.351 N 
+ATOM     87  H42 QNC d   1      22.227   2.560  18.396  0.00  0.00     0.163 HD
+BRANCH  86  88
+ATOM     88  C   QNC d   1      23.760   1.222  18.911  0.00  0.00     0.022 C 
+BRANCH  88  89
+ATOM     89  C1  QNC d   1      24.614   2.491  19.012  0.00  0.00    -0.054 C 
+ATOM     90  H43 QNC d   1      25.643   2.219  19.292  0.00  0.00     0.030 H 
+ATOM     91  H44 QNC d   1      24.190   3.158  19.777  0.00  0.00     0.030 H 
+ATOM     92  H45 QNC d   1      24.622   3.006  18.040  0.00  0.00     0.030 H 
+ENDBRANCH  88  89
+BRANCH  88  93
+ATOM     93  C2  QNC d   1      23.756   0.516  20.262  0.00  0.00    -0.054 C 
+ATOM     94  H46 QNC d   1      24.786   0.242  20.536  0.00  0.00     0.030 H 
+ATOM     95  H47 QNC d   1      23.139  -0.393  20.199  0.00  0.00     0.030 H 
+ATOM     96  H48 QNC d   1      23.340   1.189  21.026  0.00  0.00     0.030 H 
+ENDBRANCH  88  93
+BRANCH  88  97
+ATOM     97  C3  QNC d   1      24.310   0.313  17.810  0.00  0.00    -0.054 C 
+ATOM     98  H49 QNC d   1      25.340   0.017  18.059  0.00  0.00     0.030 H 
+ATOM     99  H50 QNC d   1      24.306   0.854  16.852  0.00  0.00     0.030 H 
+ATOM    100  H51 QNC d   1      23.680  -0.585  17.727  0.00  0.00     0.030 H 
+ENDBRANCH  88  97
+ENDBRANCH  86  88
+ENDBRANCH  59  84
+ENDBRANCH  55  58
+ENDBRANCH   2  55
+TORSDOF 17

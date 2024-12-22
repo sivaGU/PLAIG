@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_2  and  C15_4 
+REMARK    2  A    between atoms: C15_4  and  N14_5 
+REMARK       I    between atoms: N14_5  and  C12_6 
+REMARK    3  A    between atoms: C12_6  and  C9_8 
+REMARK    4  A    between atoms: C10_13  and  O19_14 
+ROOT
+ATOM      1  C9  UN9 d   1      40.036 -19.330  -4.364  0.00  0.00     0.160 A 
+ATOM      2  N8  UN9 d   1      40.726 -20.456  -4.596  0.00  0.00    -0.227 NA
+ATOM      3  C7  UN9 d   1      41.976 -20.640  -4.147  0.00  0.00     0.138 A 
+ATOM      4 CL1  UN9 d   1      42.729 -22.163  -4.507  0.00  0.00    -0.061 Cl
+ATOM      5  C2  UN9 d   1      42.603 -19.627  -3.425  0.00  0.00     0.018 A 
+ATOM      6  C10 UN9 d   1      40.608 -18.287  -3.644  0.00  0.00     0.111 A 
+ATOM      7  C3  UN9 d   1      41.913 -18.442  -3.181  0.00  0.00     0.013 A 
+ATOM      8  C4  UN9 d   1      42.514 -17.414  -2.460  0.00  0.00    -0.069 A 
+ATOM      9  C5  UN9 d   1      43.811 -17.569  -1.979  0.00  0.00    -0.082 A 
+ATOM     10  C6  UN9 d   1      44.504 -18.753  -2.220  0.00  0.00    -0.082 A 
+ATOM     11  C1  UN9 d   1      43.900 -19.780  -2.938  0.00  0.00    -0.069 A 
+ATOM     12  H5  UN9 d   1      41.972 -16.494  -2.273  0.00  0.00     0.085 H 
+ATOM     13  H6  UN9 d   1      44.281 -16.770  -1.418  0.00  0.00     0.083 H 
+ATOM     14  H7  UN9 d   1      45.515 -18.874  -1.848  0.00  0.00     0.083 H 
+ATOM     15  H8  UN9 d   1      44.440 -20.702  -3.119  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  16
+ATOM     16  C12 UN9 d   1      38.601 -19.299  -4.889  0.00  0.00     0.273 C 
+ATOM     17  N14 UN9 d   1      37.807 -18.352  -4.393  0.00  0.00    -0.346 N 
+ATOM     18  H3  UN9 d   1      38.158 -17.706  -3.715  0.00  0.00     0.163 HD
+ATOM     19  O13 UN9 d   1      38.243 -20.138  -5.710  0.00  0.00    -0.266 OA
+BRANCH  17  20
+ATOM     20  C15 UN9 d   1      36.413 -18.261  -4.847  0.00  0.00     0.075 C 
+ATOM     21  H1  UN9 d   1      36.395 -17.990  -5.913  0.00  0.00     0.080 H 
+ATOM     22  H2  UN9 d   1      35.921 -19.235  -4.708  0.00  0.00     0.080 H 
+BRANCH  20  23
+ATOM     23  C16 UN9 d   1      35.665 -17.197  -4.042  0.00  0.00     0.191 C 
+ATOM     24  O18 UN9 d   1      36.303 -16.591  -3.155  0.00  0.00    -0.647 OA
+ATOM     25  O17 UN9 d   1      34.467 -17.016  -4.346  0.00  0.00    -0.647 OA
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH   1  16
+BRANCH   6  26
+ATOM     26  O19 UN9 d   1      39.907 -17.161  -3.339  0.00  0.00    -0.357 OA
+ATOM     27  H4  UN9 d   1      39.148 -17.393  -2.816  0.00  0.00     0.217 HD
+ENDBRANCH   6  26
+TORSDOF 4

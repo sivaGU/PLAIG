@@ -1,0 +1,112 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_10  and  C2_2 
+REMARK    2  A    between atoms: C5_3  and  N9_24 
+REMARK    3  A    between atoms: C14_6  and  O19_33 
+REMARK    4  A    between atoms: C10_15  and  C11_7 
+REMARK    5  A    between atoms: C22_19  and  C23_9 
+REMARK    6  A    between atoms: C20_12  and  C6_10 
+REMARK    7  A    between atoms: C29_11  and  C34_13 
+REMARK    8  A    between atoms: C29_11  and  C30_16 
+REMARK       I    between atoms: N21_25  and  C20_12 
+REMARK    9  A    between atoms: C31_17  and  C32_14 
+REMARK   10  A    between atoms: O8_35  and  C10_15 
+REMARK   11  A    between atoms: C30_16  and  C31_17 
+REMARK   12  A    between atoms: C26_18  and  C22_19 
+REMARK   13  A    between atoms: O25_36  and  C26_18 
+REMARK   14  A    between atoms: C22_19  and  N21_25 
+REMARK   15  A    between atoms: N7_21  and  O8_35 
+REMARK   16  A    between atoms: N24_22  and  O25_36 
+REMARK   17  A    between atoms: N16_23  and  O18_34 
+ROOT
+ATOM      1  C6  2U2 d   1      25.832   2.222  15.377  0.00  0.00     0.180 C 
+ATOM      2  N7  2U2 d   1      25.991   1.053  14.815  0.00  0.00    -0.126 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C2  2U2 d   1      24.896   3.182  14.726  0.00  0.00     0.102 A 
+ATOM      4  C3  2U2 d   1      24.350   4.214  15.410  0.00  0.00    -0.011 A 
+ATOM      5  S4  2U2 d   1      23.203   5.040  14.366  0.00  0.00    -0.062 SA
+ATOM      6  H1  2U2 d   1      24.583   4.488  16.438  0.00  0.00     0.098 H 
+ATOM      7  C5  2U2 d   1      23.512   3.871  13.094  0.00  0.00     0.164 A 
+ATOM      8  N1  2U2 d   1      24.381   2.999  13.505  0.00  0.00    -0.222 NA
+BRANCH   7   9
+ATOM      9  N9  2U2 d   1      22.896   3.887  11.855  0.00  0.00    -0.378 N 
+ATOM     10  H14 2U2 d   1      23.127   3.167  11.156  0.00  0.00     0.158 HD
+ATOM     11  H15 2U2 d   1      22.206   4.619  11.632  0.00  0.00     0.158 HD
+ENDBRANCH   7   9
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  C20 2U2 d   1      26.489   2.601  16.662  0.00  0.00     0.275 C 
+ATOM     13  N21 2U2 d   1      27.453   3.548  16.618  0.00  0.00    -0.343 N 
+ATOM     14  H16 2U2 d   1      27.717   3.892  15.717  0.00  0.00     0.163 HD
+ATOM     15  O28 2U2 d   1      26.145   2.085  17.712  0.00  0.00    -0.266 OA
+BRANCH  13  16
+ATOM     16  C22 2U2 d   1      28.147   4.116  17.789  0.00  0.00     0.086 C 
+ATOM     17  H13 2U2 d   1      27.353   4.323  18.521  0.00  0.00     0.087 H 
+BRANCH  16  18
+ATOM     18  C23 2U2 d   1      28.748   5.457  17.435  0.00  0.00     0.112 C 
+ATOM     19  O27 2U2 d   1      28.840   5.801  16.281  0.00  0.00    -0.305 OA
+ATOM     20  H4  2U2 d   1      29.100   6.117  18.226  0.00  0.00     0.146 H 
+ENDBRANCH  16  18
+BRANCH  16  21
+ATOM     21  C26 2U2 d   1      29.128   3.203  18.531  0.00  0.00     0.072 C 
+ATOM     22  H11 2U2 d   1      28.598   2.305  18.882  0.00  0.00     0.082 H 
+ATOM     23  H12 2U2 d   1      29.549   3.742  19.393  0.00  0.00     0.082 H 
+BRANCH  21  24
+ATOM     24  O25 2U2 d   1      30.181   2.818  17.654  0.00  0.00    -0.254 OA
+BRANCH  24  25
+ATOM     25  N24 2U2 d   1      31.125   3.817  17.322  0.00  0.00    -0.132 NA
+ATOM     26  C29 2U2 d   1      32.336   3.567  16.958  0.00  0.00     0.138 C 
+BRANCH  26  27
+ATOM     27  C34 2U2 d   1      33.154   4.739  16.639  0.00  0.00     0.226 C 
+ATOM     28  O36 2U2 d   1      33.755   4.806  15.572  0.00  0.00    -0.643 OA
+ATOM     29  O35 2U2 d   1      33.203   5.643  17.458  0.00  0.00    -0.643 OA
+ENDBRANCH  26  27
+BRANCH  26  30
+ATOM     30  C30 2U2 d   1      32.900   2.163  16.867  0.00  0.00    -0.007 C 
+ATOM     31  H7  2U2 d   1      33.034   1.897  15.808  0.00  0.00     0.043 H 
+ATOM     32  H8  2U2 d   1      32.194   1.461  17.334  0.00  0.00     0.043 H 
+BRANCH  30  33
+ATOM     33  C31 2U2 d   1      34.255   2.065  17.585  0.00  0.00     0.021 C 
+ATOM     34  H9  2U2 d   1      34.921   1.412  17.002  0.00  0.00     0.049 H 
+ATOM     35  H10 2U2 d   1      34.696   3.071  17.654  0.00  0.00     0.049 H 
+BRANCH  33  36
+ATOM     36  C32 2U2 d   1      34.108   1.498  18.977  0.00  0.00     0.172 C 
+ATOM     37  O33 2U2 d   1      34.464   0.352  19.214  0.00  0.00    -0.648 OA
+ATOM     38  O37 2U2 d   1      33.631   2.186  19.869  0.00  0.00    -0.648 OA
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  24  25
+ENDBRANCH  21  24
+ENDBRANCH  16  21
+ENDBRANCH  13  16
+ENDBRANCH   1  12
+BRANCH   2  39
+ATOM     39  O8  2U2 d   1      26.731  -0.017  15.372  0.00  0.00    -0.250 OA
+BRANCH  39  40
+ATOM     40  C10 2U2 d   1      25.907  -1.190  15.596  0.00  0.00     0.088 C 
+ATOM     41  H5  2U2 d   1      25.546  -1.550  14.621  0.00  0.00     0.088 H 
+ATOM     42  H6  2U2 d   1      26.530  -1.966  16.065  0.00  0.00     0.088 H 
+BRANCH  40  43
+ATOM     43  C11 2U2 d   1      24.692  -0.939  16.497  0.00  0.00     0.070 A 
+ATOM     44  C12 2U2 d   1      23.594  -0.279  15.997  0.00  0.00    -0.005 A 
+ATOM     45  C13 2U2 d   1      22.469   0.009  16.824  0.00  0.00     0.208 A 
+ATOM     46  H2  2U2 d   1      23.584   0.029  14.952  0.00  0.00     0.093 H 
+ATOM     47  C14 2U2 d   1      22.510  -0.409  18.193  0.00  0.00     0.134 A 
+ATOM     48  O17 2U2 d   1      21.511   0.620  16.363  0.00  0.00    -0.285 OA
+ATOM     49  C15 2U2 d   1      23.609  -1.088  18.631  0.00  0.00     0.044 A 
+ATOM     50  N16 2U2 d   1      24.666  -1.383  17.802  0.00  0.00    -0.235 N 
+ATOM     51  H3  2U2 d   1      23.651  -1.407  19.671  0.00  0.00     0.120 H 
+BRANCH  47  52
+ATOM     52  O19 2U2 d   1      21.484  -0.153  19.061  0.00  0.00    -0.356 OA
+ATOM     53  H17 2U2 d   1      21.698  -0.507  19.916  0.00  0.00     0.218 HD
+ENDBRANCH  47  52
+BRANCH  50  54
+ATOM     54  O18 2U2 d   1      25.721  -2.186  18.328  0.00  0.00    -0.283 OA
+ATOM     55  H18 2U2 d   1      25.535  -2.396  19.235  0.00  0.00     0.245 HD
+ENDBRANCH  50  54
+ENDBRANCH  40  43
+ENDBRANCH  39  40
+ENDBRANCH   2  39
+TORSDOF 17

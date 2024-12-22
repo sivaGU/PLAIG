@@ -1,0 +1,132 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_29  and  C15_1 
+REMARK    2  A    between atoms: C17_3  and  C34_11 
+REMARK    3  A    between atoms: C19_5  and  N4_7 
+REMARK    4  A    between atoms: N4_7  and  S1_8 
+REMARK    5  A    between atoms: N4_7  and  C29_10 
+REMARK    6  A    between atoms: S1_8  and  C22_17 
+REMARK       I    between atoms: C34_11  and  N35_12 
+REMARK    7  A    between atoms: N35_12  and  C36_13 
+REMARK    8  A    between atoms: C36_13  and  C28_14 
+REMARK    9  A    between atoms: C36_13  and  C56_15 
+REMARK   10  A    between atoms: C28_14  and  C8_24 
+REMARK   11  A    between atoms: C28_14  and  N1_25 
+REMARK   12  A    between atoms: C56_15  and  C62_20 
+REMARK   13  A    between atoms: C8_24  and  C10_26 
+REMARK   14  A    between atoms: C10_26  and  C11_27 
+REMARK   15  A    between atoms: C11_27  and  C13_28 
+REMARK   16  A    between atoms: C5_30  and  N2_29 
+REMARK   17  A    between atoms: C3_33  and  C5_30 
+REMARK   18  A    between atoms: C2_32  and  C4_34 
+ROOT
+ATOM      1  C15 QIN d   1      30.194  43.635   1.658  0.00  0.00     0.126 A 
+ATOM      2  C16 QIN d   1      30.720  42.312   1.509  0.00  0.00    -0.024 A 
+ATOM      3  C17 QIN d   1      29.829  41.305   1.013  0.00  0.00     0.039 A 
+ATOM      4  C18 QIN d   1      28.486  41.592   0.654  0.00  0.00    -0.022 A 
+ATOM      5  C19 QIN d   1      27.994  42.931   0.821  0.00  0.00     0.141 A 
+ATOM      6  N3  QIN d   1      28.872  43.865   1.324  0.00  0.00    -0.213 NA
+ATOM      7  H1  QIN d   1      31.749  42.081   1.761  0.00  0.00     0.090 H 
+ATOM      8  H2  QIN d   1      27.843  40.814   0.260  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   3   9
+ATOM      9  C34 QIN d   1      30.278  39.919   0.851  0.00  0.00     0.252 C 
+ATOM     10  N35 QIN d   1      30.886  39.401   1.937  0.00  0.00    -0.350 N 
+ATOM     11  H6  QIN d   1      30.765  39.879   2.807  0.00  0.00     0.163 HD
+ATOM     12  O4  QIN d   1      30.117  39.280  -0.171  0.00  0.00    -0.268 OA
+BRANCH  10  13
+ATOM     13  C36 QIN d   1      31.712  38.189   1.937  0.00  0.00     0.043 C 
+ATOM     14  H7  QIN d   1      31.783  37.779   0.919  0.00  0.00     0.076 H 
+BRANCH  13  15
+ATOM     15  C28 QIN d   1      31.043  37.152   2.874  0.00  0.00     0.119 C 
+ATOM     16  H8  QIN d   1      31.697  36.276   2.998  0.00  0.00     0.087 H 
+BRANCH  15  17
+ATOM     17  C8  QIN d   1      29.673  36.723   2.335  0.00  0.00    -0.037 C 
+ATOM     18  H17 QIN d   1      29.082  37.629   2.135  0.00  0.00     0.036 H 
+ATOM     19  H18 QIN d   1      29.172  36.122   3.108  0.00  0.00     0.036 H 
+BRANCH  17  20
+ATOM     20  C10 QIN d   1      29.732  35.902   1.058  0.00  0.00    -0.063 C 
+ATOM     21  H22 QIN d   1      30.427  35.060   1.192  0.00  0.00     0.033 H 
+ATOM     22  H23 QIN d   1      30.079  36.535   0.228  0.00  0.00     0.033 H 
+BRANCH  20  23
+ATOM     23  C11 QIN d   1      28.331  35.367   0.745  0.00  0.00    -0.068 C 
+ATOM     24  H24 QIN d   1      27.693  36.192   0.395  0.00  0.00     0.032 H 
+ATOM     25  H25 QIN d   1      27.895  34.927   1.654  0.00  0.00     0.032 H 
+BRANCH  23  26
+ATOM     26  C13 QIN d   1      28.424  34.305  -0.337  0.00  0.00    -0.077 C 
+ATOM     27  H26 QIN d   1      27.418  33.921  -0.561  0.00  0.00     0.027 H 
+ATOM     28  H27 QIN d   1      29.062  33.480   0.013  0.00  0.00     0.027 H 
+ATOM     29  H28 QIN d   1      28.860  34.745  -1.246  0.00  0.00     0.027 H 
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  15  17
+BRANCH  15  30
+ATOM     30  N1  QIN d   1      30.793  37.810   4.161  0.00  0.00    -0.073 N 
+ATOM     31  H19 QIN d   1      31.668  38.113   4.559  0.00  0.00     0.274 HD
+ATOM     32  H20 QIN d   1      30.345  37.161   4.789  0.00  0.00     0.274 HD
+ATOM     33  H21 QIN d   1      30.194  38.608   4.019  0.00  0.00     0.274 HD
+ENDBRANCH  15  30
+ENDBRANCH  13  15
+BRANCH  13  34
+ATOM     34  C56 QIN d   1      33.115  38.552   2.446  0.00  0.00    -0.020 C 
+ATOM     35  H9  QIN d   1      33.760  37.666   2.349  0.00  0.00     0.043 H 
+ATOM     36  H10 QIN d   1      33.037  38.834   3.506  0.00  0.00     0.043 H 
+BRANCH  34  37
+ATOM     37  C62 QIN d   1      33.770  39.716   1.680  0.00  0.00    -0.049 A 
+ATOM     38  C61 QIN d   1      34.019  39.765   0.236  0.00  0.00    -0.070 A 
+ATOM     39  C64 QIN d   1      34.565  40.945  -0.238  0.00  0.00    -0.045 A 
+ATOM     40  H14 QIN d   1      33.789  38.927  -0.421  0.00  0.00     0.085 H 
+ATOM     41  S2  QIN d   1      34.807  42.019   1.061  0.00  0.00    -0.113 SA
+ATOM     42  H16 QIN d   1      34.803  41.154  -1.280  0.00  0.00     0.095 H 
+ATOM     43  C63 QIN d   1      34.175  40.976   2.285  0.00  0.00    -0.039 A 
+ATOM     44  H15 QIN d   1      34.093  41.223   3.342  0.00  0.00     0.095 H 
+ENDBRANCH  34  37
+ENDBRANCH  13  34
+ENDBRANCH  10  13
+ENDBRANCH   3   9
+BRANCH   1  45
+ATOM     45  N2  QIN d   1      30.988  44.751   2.073  0.00  0.00    -0.374 N 
+ATOM     46  H29 QIN d   1      30.550  45.683   2.100  0.00  0.00     0.161 HD
+BRANCH  45  47
+ATOM     47  C5  QIN d   1      32.419  44.625   2.468  0.00  0.00    -0.002 C 
+ATOM     48  H30 QIN d   1      32.873  45.625   2.529  0.00  0.00     0.064 H 
+ATOM     49  H31 QIN d   1      32.956  44.024   1.719  0.00  0.00     0.064 H 
+BRANCH  47  50
+ATOM     50  C3  QIN d   1      32.504  43.955   3.801  0.00  0.00    -0.035 A 
+ATOM     51  C1  QIN d   1      33.823  44.017   4.513  0.00  0.00    -0.057 A 
+ATOM     52  C2  QIN d   1      32.622  44.790   5.044  0.00  0.00    -0.052 A 
+ATOM     53  H32 QIN d   1      34.197  43.138   5.058  0.00  0.00     0.034 H 
+ATOM     54  H33 QIN d   1      34.669  44.555   4.061  0.00  0.00     0.034 H 
+ATOM     55  H34 QIN d   1      32.566  45.887   4.989  0.00  0.00     0.040 H 
+ATOM     56  H35 QIN d   1      31.900  43.036   3.807  0.00  0.00     0.043 H 
+BRANCH  52  57
+ATOM     57  C4  QIN d   1      32.048  44.291   6.327  0.00  0.00    -0.072 C 
+ATOM     58  H36 QIN d   1      32.228  45.030   7.121  0.00  0.00     0.028 H 
+ATOM     59  H37 QIN d   1      32.527  43.338   6.597  0.00  0.00     0.028 H 
+ATOM     60  H38 QIN d   1      30.965  44.137   6.209  0.00  0.00     0.028 H 
+ENDBRANCH  52  57
+ENDBRANCH  47  50
+ENDBRANCH  45  47
+ENDBRANCH   1  45
+BRANCH   5  61
+ATOM     61  N4  QIN d   1      26.674  43.265   0.524  0.00  0.00    -0.264 N 
+BRANCH  61  62
+ATOM     62  S1  QIN d   1      25.951  44.606   1.138  0.00  0.00     0.229 S 
+ATOM     63  O1  QIN d   1      24.570  44.492   0.761  0.00  0.00    -0.206 OA
+ATOM     64  O2  QIN d   1      26.280  44.688   2.514  0.00  0.00    -0.206 OA
+BRANCH  62  65
+ATOM     65  C22 QIN d   1      26.628  46.061   0.327  0.00  0.00     0.033 C 
+ATOM     66  H11 QIN d   1      26.148  46.964   0.733  0.00  0.00     0.051 H 
+ATOM     67  H12 QIN d   1      26.438  46.000  -0.755  0.00  0.00     0.051 H 
+ATOM     68  H13 QIN d   1      27.712  46.110   0.506  0.00  0.00     0.051 H 
+ENDBRANCH  62  65
+ENDBRANCH  61  62
+BRANCH  61  69
+ATOM     69  C29 QIN d   1      25.950  42.571  -0.563  0.00  0.00    -0.002 C 
+ATOM     70  H3  QIN d   1      26.530  41.695  -0.889  0.00  0.00     0.058 H 
+ATOM     71  H4  QIN d   1      25.816  43.258  -1.411  0.00  0.00     0.058 H 
+ATOM     72  H5  QIN d   1      24.966  42.244  -0.197  0.00  0.00     0.058 H 
+ENDBRANCH  61  69
+ENDBRANCH   5  61
+TORSDOF 18

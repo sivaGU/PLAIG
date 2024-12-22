@@ -1,0 +1,107 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAK_11  and  NAB_2 
+REMARK    1  A    between atoms: NAB_2  and  OBE_31 
+REMARK    2  A    between atoms: NAD_4  and  NAC_3 
+REMARK       I    between atoms: NAC_3  and  CAK_11 
+REMARK    3  A    between atoms: CAL_12  and  NAD_4 
+REMARK    4  A    between atoms: NAE_5  and  CAQ_17 
+REMARK       I    between atoms: CAT_20  and  NAE_5 
+REMARK       I    between atoms: NAF_6  and  CAT_20 
+REMARK    5  A    between atoms: CAU_21  and  NAF_6 
+REMARK    6  A    between atoms: NAG_7  and  NAH_8 
+REMARK    7  A    between atoms: CBA_27  and  NAG_7 
+REMARK       I    between atoms: NAH_8  and  CBC_29 
+REMARK       I    between atoms: CBC_29  and  NAI_9 
+REMARK    8  A    between atoms: NAI_9  and  OBF_32 
+REMARK    9  A    between atoms: CAL_12  and  CAM_13 
+REMARK   10  A    between atoms: CAN_14  and  CAL_12 
+REMARK   11  A    between atoms: CAX_24  and  CBA_27 
+REMARK   12  A    between atoms: CBA_27  and  CBB_28 
+ROOT
+ATOM      1  NAE YCF d   1      45.905  16.312  -7.975  0.00  0.00    -0.309 N 
+ATOM      2  NAF YCF d   1      45.854  14.947  -6.184  0.00  0.00    -0.309 N 
+ATOM      3  CAT YCF d   1      46.487  15.283  -7.327  0.00  0.00     0.325 C 
+ATOM      4  OBD YCF d   1      47.450  14.657  -7.772  0.00  0.00    -0.247 OA
+ATOM      5  H   YCF d   1      45.098  16.721  -7.505  0.00  0.00     0.170 HD
+ATOM      6  H   YCF d   1      44.947  15.392  -6.045  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAQ YCF d   1      46.235  16.883  -9.160  0.00  0.00     0.036 A 
+ATOM      8  CAP YCF d   1      45.734  18.168  -9.378  0.00  0.00    -0.057 A 
+ATOM      9  CAO YCF d   1      46.011  18.834 -10.568  0.00  0.00    -0.073 A 
+ATOM     10  H   YCF d   1      45.124  18.651  -8.614  0.00  0.00     0.086 H 
+ATOM     11  CAN YCF d   1      46.796  18.241 -11.565  0.00  0.00    -0.032 A 
+ATOM     12  H   YCF d   1      45.610  19.835 -10.727  0.00  0.00     0.084 H 
+ATOM     13  CAS YCF d   1      47.319  16.969 -11.350  0.00  0.00    -0.073 A 
+ATOM     14  CAR YCF d   1      47.028  16.289 -10.151  0.00  0.00    -0.057 A 
+ATOM     15  H   YCF d   1      47.950  16.502 -12.105  0.00  0.00     0.084 H 
+ATOM     16  H   YCF d   1      47.425  15.287  -9.992  0.00  0.00     0.086 H 
+BRANCH  11  17
+ATOM     17  CAL YCF d   1      47.069  18.982 -12.722  0.00  0.00     0.073 C 
+ATOM     18  H   YCF d   1      46.417  18.506 -13.454  0.00  0.00     0.085 H 
+BRANCH  17  19
+ATOM     19  NAD YCF d   1      46.994  20.311 -12.601  0.00  0.00    -0.193 NA
+BRANCH  19  20
+ATOM     20  NAC YCF d   1      47.231  21.107 -13.516  0.00  0.00    -0.112 N 
+ATOM     21  CAK YCF d   1      47.111  22.423 -13.301  0.00  0.00     0.711 C 
+ATOM     22  NAA YCF d   1      46.727  22.907 -12.118  0.00  0.00    -0.232 N 
+ATOM     23  NAB YCF d   1      47.366  23.268 -14.288  0.00  0.00    -0.098 N 
+ATOM     24  H   YCF d   1      46.517  22.270 -11.350  0.00  0.00     0.174 HD
+ATOM     25  H   YCF d   1      46.644  23.914 -11.982  0.00  0.00     0.174 HD
+ATOM     26  H   YCF d   1      47.654  22.921 -15.203  0.00  0.00     0.213 HD
+ATOM     27  H   YCF d   1      47.517  20.762 -14.432  0.00  0.00     0.207 HD
+BRANCH  23  28
+ATOM     28  OBE YCF d   1      47.240  24.603 -14.067  0.00  0.00    -0.276 OA
+ATOM     29  H   YCF d   1      47.457  25.081 -14.871  0.00  0.00     0.245 HD
+ENDBRANCH  23  28
+ENDBRANCH  19  20
+ENDBRANCH  17  19
+BRANCH  17  30
+ATOM     30  CAM YCF d   1      47.542  18.333 -14.028  0.00  0.00    -0.050 C 
+ATOM     31  H   YCF d   1      48.483  17.811 -13.853  0.00  0.00     0.030 H 
+ATOM     32  H   YCF d   1      46.790  17.623 -14.373  0.00  0.00     0.030 H 
+ATOM     33  H   YCF d   1      47.688  19.105 -14.784  0.00  0.00     0.030 H 
+ENDBRANCH  17  30
+ENDBRANCH  11  17
+ENDBRANCH   1   7
+BRANCH   2  34
+ATOM     34  CAU YCF d   1      46.241  14.106  -5.190  0.00  0.00     0.036 A 
+ATOM     35  CAV YCF d   1      45.470  14.136  -4.017  0.00  0.00    -0.057 A 
+ATOM     36  CAW YCF d   1      45.778  13.342  -2.915  0.00  0.00    -0.073 A 
+ATOM     37  H   YCF d   1      44.606  14.799  -3.967  0.00  0.00     0.086 H 
+ATOM     38  CAX YCF d   1      46.897  12.500  -2.936  0.00  0.00    -0.032 A 
+ATOM     39  H   YCF d   1      45.143  13.376  -2.030  0.00  0.00     0.084 H 
+ATOM     40  CAY YCF d   1      47.691  12.474  -4.102  0.00  0.00    -0.073 A 
+ATOM     41  CAZ YCF d   1      47.370  13.274  -5.214  0.00  0.00    -0.057 A 
+ATOM     42  H   YCF d   1      48.566  11.825  -4.142  0.00  0.00     0.084 H 
+ATOM     43  H   YCF d   1      48.003  13.247  -6.101  0.00  0.00     0.086 H 
+BRANCH  38  44
+ATOM     44  CBA YCF d   1      47.204  11.719  -1.805  0.00  0.00     0.073 C 
+ATOM     45  H   YCF d   1      46.362  11.074  -2.057  0.00  0.00     0.085 H 
+BRANCH  44  46
+ATOM     46  NAG YCF d   1      46.819  12.142  -0.579  0.00  0.00    -0.193 NA
+BRANCH  46  47
+ATOM     47  NAH YCF d   1      47.056  11.538   0.483  0.00  0.00    -0.112 N 
+ATOM     48  CBC YCF d   1      46.648  12.081   1.642  0.00  0.00     0.711 C 
+ATOM     49  NAI YCF d   1      45.974  13.218   1.626  0.00  0.00    -0.098 N 
+ATOM     50  NAJ YCF d   1      46.850  11.474   2.818  0.00  0.00    -0.232 N 
+ATOM     51  H   YCF d   1      45.796  13.691   0.740  0.00  0.00     0.213 HD
+ATOM     52  H   YCF d   1      47.326  10.572   2.852  0.00  0.00     0.174 HD
+ATOM     53  H   YCF d   1      46.528  11.913   3.680  0.00  0.00     0.174 HD
+ATOM     54  H   YCF d   1      47.551  10.646   0.474  0.00  0.00     0.207 HD
+BRANCH  49  55
+ATOM     55  OBF YCF d   1      45.515  13.763   2.793  0.00  0.00    -0.276 OA
+ATOM     56  H   YCF d   1      44.916  13.146   3.219  0.00  0.00     0.245 HD
+ENDBRANCH  49  55
+ENDBRANCH  46  47
+ENDBRANCH  44  46
+BRANCH  44  57
+ATOM     57  CBB YCF d   1      48.054  10.447  -1.940  0.00  0.00    -0.050 C 
+ATOM     58  H   YCF d   1      48.990  10.578  -1.397  0.00  0.00     0.030 H 
+ATOM     59  H   YCF d   1      47.507   9.600  -1.525  0.00  0.00     0.030 H 
+ATOM     60  H   YCF d   1      48.266  10.264  -2.993  0.00  0.00     0.030 H 
+ENDBRANCH  44  57
+ENDBRANCH  38  44
+ENDBRANCH   2  34
+TORSDOF 12

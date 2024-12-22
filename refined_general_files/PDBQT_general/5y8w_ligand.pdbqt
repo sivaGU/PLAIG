@@ -1,0 +1,63 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAW_1  and  OAV_2 
+REMARK    2  A    between atoms: OAV_2  and  CAQ_3 
+REMARK    3  A    between atoms: CAP_9  and  SAM_10 
+REMARK    4  A    between atoms: SAM_10  and  NAH_13 
+REMARK    5  A    between atoms: NAH_13  and  CAC_14 
+REMARK    6  A    between atoms: CAJ_17  and  CAK_18 
+REMARK    7  A    between atoms: CAD_23  and  OAI_24 
+ROOT
+ATOM      1  NAH 8PU d   1      -6.085  11.552   1.812  0.00  0.00    -0.278 N 
+ATOM      2  H7  8PU d   1      -6.215  12.529   1.980  0.00  0.00     0.179 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  SAM 8PU d   1      -4.570  10.949   1.601  0.00  0.00     0.266 S 
+ATOM      4  OAN 8PU d   1      -4.312   9.795   2.533  0.00  0.00    -0.200 OA
+ATOM      5  OAO 8PU d   1      -3.622  12.076   1.758  0.00  0.00    -0.200 OA
+BRANCH   3   6
+ATOM      6  CAP 8PU d   1      -4.458  10.452  -0.048  0.00  0.00     0.114 A 
+ATOM      7  CAQ 8PU d   1      -4.623  11.311  -1.136  0.00  0.00     0.091 A 
+ATOM      8  CAR 8PU d   1      -4.489  10.807  -2.439  0.00  0.00    -0.048 A 
+ATOM      9  CAS 8PU d   1      -4.245   9.457  -2.619  0.00  0.00    -0.063 A 
+ATOM     10  H4  8PU d   1      -4.576  11.467  -3.294  0.00  0.00     0.087 H 
+ATOM     11  CAT 8PU d   1      -4.064   8.618  -1.558  0.00  0.00     0.012 A 
+ATOM     12  H5  8PU d   1      -4.197   9.057  -3.625  0.00  0.00     0.085 H 
+ATOM     13 BRAX 8PU d   1      -3.707   6.782  -1.837  0.00  0.00    -0.051 Br
+ATOM     14  CAU 8PU d   1      -4.192   9.132  -0.256  0.00  0.00    -0.041 A 
+ATOM     15  H6  8PU d   1      -4.077   8.469   0.594  0.00  0.00     0.088 H 
+BRANCH   7  16
+ATOM     16  OAV 8PU d   1      -4.842  12.633  -0.927  0.00  0.00    -0.354 OA
+BRANCH  16  17
+ATOM     17  CAW 8PU d   1      -5.446  13.458  -1.991  0.00  0.00     0.010 C 
+ATOM     18  H1  8PU d   1      -5.544  14.496  -1.639  0.00  0.00     0.066 H 
+ATOM     19  H2  8PU d   1      -6.440  13.061  -2.243  0.00  0.00     0.066 H 
+ATOM     20  H3  8PU d   1      -4.804  13.433  -2.884  0.00  0.00     0.066 H 
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  21
+ATOM     21  CAC 8PU d   1      -7.137  10.742   1.759  0.00  0.00     0.076 A 
+ATOM     22  CAB 8PU d   1      -7.404   9.695   2.648  0.00  0.00    -0.039 A 
+ATOM     23  CAA 8PU d   1      -8.558   8.931   2.534  0.00  0.00     0.029 A 
+ATOM     24  H8  8PU d   1      -6.697   9.476   3.440  0.00  0.00     0.088 H 
+ATOM     25  CAJ 8PU d   1      -9.055   7.881   3.212  0.00  0.00     0.071 A 
+ATOM     26  CAF 8PU d   1      -9.436   9.218   1.514  0.00  0.00     0.116 A 
+ATOM     27  NAL 8PU d   1     -10.248   7.446   2.743  0.00  0.00    -0.132 NA
+ATOM     28  OAG 8PU d   1     -10.514   8.324   1.598  0.00  0.00    -0.212 OA
+ATOM     29  CAE 8PU d   1      -9.217  10.235   0.659  0.00  0.00    -0.013 A 
+ATOM     30  CAD 8PU d   1      -8.072  10.999   0.740  0.00  0.00     0.095 A 
+ATOM     31  H12 8PU d   1      -9.953  10.457  -0.105  0.00  0.00     0.092 H 
+BRANCH  25  32
+ATOM     32  CAK 8PU d   1      -8.436   7.184   4.417  0.00  0.00    -0.033 C 
+ATOM     33  H9  8PU d   1      -9.089   6.360   4.740  0.00  0.00     0.035 H 
+ATOM     34  H10 8PU d   1      -8.322   7.905   5.240  0.00  0.00     0.035 H 
+ATOM     35  H11 8PU d   1      -7.449   6.783   4.142  0.00  0.00     0.035 H 
+ENDBRANCH  25  32
+BRANCH  30  36
+ATOM     36  OAI 8PU d   1      -7.814  11.995  -0.120  0.00  0.00    -0.358 OA
+ATOM     37  H13 8PU d   1      -8.505  12.645  -0.067  0.00  0.00     0.217 HD
+ENDBRANCH  30  36
+ENDBRANCH   1  21
+TORSDOF 7

@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: C3_3  and  C8_13 
+REMARK    3  A    between atoms: C12_5  and  O15_16 
+REMARK    4  A    between atoms: C7_12  and  C13_6 
+REMARK    5  A    between atoms: O15_16  and  C17_8 
+ROOT
+ATOM      1  C1  CWG d   1    -100.009  38.575 192.073  0.00  0.00     0.096 A 
+ATOM      2  C3  CWG d   1     -99.157  38.804 193.152  0.00  0.00    -0.020 A 
+ATOM      3  C12 CWG d   1    -100.177  40.926 193.471  0.00  0.00     0.192 A 
+ATOM      4  C7  CWG d   1     -99.226  39.987 193.874  0.00  0.00     0.001 A 
+ATOM      5  N4  CWG d   1    -100.916  39.505 191.721  0.00  0.00    -0.147 NA
+ATOM      6  N9  CWG d   1    -100.989  40.660 192.418  0.00  0.00    -0.124 NA
+ENDROOT
+BRANCH   1   7
+ATOM      7  C2  CWG d   1     -99.853  37.280 191.366  0.00  0.00    -0.005 A 
+ATOM      8  C5  CWG d   1    -100.656  36.196 191.722  0.00  0.00    -0.069 A 
+ATOM      9  C10 CWG d   1    -100.472  34.974 191.075  0.00  0.00    -0.061 A 
+ATOM     10  H9  CWG d   1    -101.413  36.302 192.491  0.00  0.00     0.085 H 
+ATOM     11  C14 CWG d   1     -99.494  34.809 190.096  0.00  0.00     0.034 A 
+ATOM     12  H8  CWG d   1    -101.104  34.134 191.340  0.00  0.00     0.086 H 
+ATOM     13  C11 CWG d   1     -98.674  35.887 189.748  0.00  0.00    -0.061 A 
+ATOM     14 CL1  CWG d   1     -99.316  33.244 189.328  0.00  0.00    -0.084 Cl
+ATOM     15  C6  CWG d   1     -98.857  37.118 190.387  0.00  0.00    -0.069 A 
+ATOM     16  H1  CWG d   1     -97.906  35.770 188.992  0.00  0.00     0.086 H 
+ATOM     17  H10 CWG d   1     -98.223  37.957 190.124  0.00  0.00     0.085 H 
+ENDBRANCH   1   7
+BRANCH   2  18
+ATOM     18  C8  CWG d   1     -98.159  37.706 193.501  0.00  0.00    -0.048 C 
+ATOM     19  H11 CWG d   1     -98.280  36.865 192.802  0.00  0.00     0.033 H 
+ATOM     20  H12 CWG d   1     -98.341  37.358 194.529  0.00  0.00     0.033 H 
+ATOM     21  H13 CWG d   1     -97.136  38.102 193.424  0.00  0.00     0.033 H 
+ENDBRANCH   2  18
+BRANCH   4  22
+ATOM     22  C13 CWG d   1     -98.291  40.270 195.068  0.00  0.00    -0.046 C 
+ATOM     23  H2  CWG d   1     -97.621  39.411 195.221  0.00  0.00     0.033 H 
+ATOM     24  H3  CWG d   1     -98.893  40.432 195.975  0.00  0.00     0.033 H 
+ATOM     25  H4  CWG d   1     -97.692  41.169 194.860  0.00  0.00     0.033 H 
+ENDBRANCH   4  22
+BRANCH   3  26
+ATOM     26  O15 CWG d   1    -100.283  42.127 194.169  0.00  0.00    -0.338 OA
+BRANCH  26  27
+ATOM     27  C17 CWG d   1    -101.066  42.071 195.366  0.00  0.00     0.012 C 
+ATOM     28  H5  CWG d   1    -101.086  43.065 195.838  0.00  0.00     0.067 H 
+ATOM     29  H6  CWG d   1    -100.621  41.344 196.061  0.00  0.00     0.067 H 
+ATOM     30  H7  CWG d   1    -102.092  41.762 195.119  0.00  0.00     0.067 H 
+ENDBRANCH  26  27
+ENDBRANCH   3  26
+TORSDOF 5

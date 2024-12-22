@@ -1,0 +1,128 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBH_1  and  CBJ_3 
+REMARK       I    between atoms: NAZ_10  and  CBH_1 
+REMARK    2  A    between atoms: CBL_11  and  NAZ_10 
+REMARK    3  A    between atoms: CBL_11  and  CBE_12 
+REMARK    4  A    between atoms: CAX_14  and  CBL_11 
+REMARK    5  A    between atoms: CAU_15  and  CAX_14 
+REMARK    6  A    between atoms: CBG_16  and  CAU_15 
+REMARK       I    between atoms: N_30  and  CBG_16 
+REMARK    7  A    between atoms: OBB_22  and  PBN_19 
+REMARK    8  A    between atoms: PBN_19  and  NBA_31 
+REMARK    9  A    between atoms: CAS_23  and  OBB_22 
+REMARK   10  A    between atoms: CAR_24  and  CAS_23 
+REMARK   11  A    between atoms: CB_25  and  CAR_24 
+REMARK   12  A    between atoms: CA_26  and  CB_25 
+REMARK   13  A    between atoms: CA_26  and  C_27 
+REMARK   14  A    between atoms: CA_26  and  N_30 
+REMARK   15  A    between atoms: NBA_31  and  CBM_32 
+REMARK   16  A    between atoms: CBM_32  and  CBF_33 
+REMARK   17  A    between atoms: CBM_32  and  CAW_35 
+REMARK   18  A    between atoms: CAW_35  and  CAT_36 
+REMARK   19  A    between atoms: CAT_36  and  CBC_37 
+ROOT
+ATOM      1  CA  CTW d   1      21.804  48.558  43.842  0.00  0.00     0.096 C 
+ATOM      2  H17 CTW d   1      20.980  49.285  43.782  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  CTW d   1      21.400  47.261  43.221  0.00  0.00    -0.035 C 
+ATOM      4  H15 CTW d   1      21.217  47.384  42.143  0.00  0.00     0.036 H 
+ATOM      5  H16 CTW d   1      22.174  46.495  43.377  0.00  0.00     0.036 H 
+BRANCH   3   6
+ATOM      6  CAR CTW d   1      20.090  46.880  43.963  0.00  0.00    -0.042 C 
+ATOM      7  H13 CTW d   1      20.309  46.637  45.013  0.00  0.00     0.036 H 
+ATOM      8  H14 CTW d   1      19.377  47.716  43.921  0.00  0.00     0.036 H 
+BRANCH   6   9
+ATOM      9  CAS CTW d   1      19.517  45.681  43.268  0.00  0.00     0.031 C 
+ATOM     10  H11 CTW d   1      18.951  46.016  42.386  0.00  0.00     0.075 H 
+ATOM     11  H12 CTW d   1      20.341  45.027  42.948  0.00  0.00     0.075 H 
+BRANCH   9  12
+ATOM     12  OBB CTW d   1      18.638  44.936  44.131  0.00  0.00    -0.295 OA
+BRANCH  12  13
+ATOM     13  PBN CTW d   1      17.594  43.995  43.515  0.00  0.00     0.360 P 
+ATOM     14  OAL CTW d   1      18.275  42.991  42.464  0.00  0.00    -0.630 OA
+ATOM     15  OAG CTW d   1      16.930  43.319  44.641  0.00  0.00    -0.630 OA
+BRANCH  13  16
+ATOM     16  NBA CTW d   1      16.501  44.921  42.629  0.00  0.00    -0.311 N 
+ATOM     17  H19 CTW d   1      16.174  45.802  42.971  0.00  0.00     0.166 HD
+BRANCH  16  18
+ATOM     18  CBM CTW d   1      16.042  44.386  41.328  0.00  0.00     0.100 C 
+ATOM     19  H20 CTW d   1      15.815  43.316  41.446  0.00  0.00     0.089 H 
+BRANCH  18  20
+ATOM     20  CBF CTW d   1      17.130  44.553  40.244  0.00  0.00     0.196 C 
+ATOM     21  OAK CTW d   1      17.022  43.790  39.237  0.00  0.00    -0.646 OA
+ATOM     22  OAD CTW d   1      18.015  45.449  40.413  0.00  0.00    -0.646 OA
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CAW CTW d   1      14.747  45.139  40.860  0.00  0.00    -0.028 C 
+ATOM     24  H21 CTW d   1      13.926  44.926  41.560  0.00  0.00     0.037 H 
+ATOM     25  H22 CTW d   1      14.468  44.797  39.853  0.00  0.00     0.037 H 
+BRANCH  23  26
+ATOM     26  CAT CTW d   1      15.022  46.689  40.830  0.00  0.00     0.018 C 
+ATOM     27  H23 CTW d   1      15.970  46.868  40.302  0.00  0.00     0.049 H 
+ATOM     28  H24 CTW d   1      15.104  47.052  41.865  0.00  0.00     0.049 H 
+BRANCH  26  29
+ATOM     29  CBC CTW d   1      13.880  47.493  40.102  0.00  0.00     0.172 C 
+ATOM     30  OAA CTW d   1      13.083  46.880  39.386  0.00  0.00    -0.648 OA
+ATOM     31  OAH CTW d   1      13.834  48.729  40.279  0.00  0.00    -0.648 OA
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH  18  23
+ENDBRANCH  16  18
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   6   9
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  32
+ATOM     32  C   CTW d   1      22.216  48.283  45.332  0.00  0.00     0.196 C 
+ATOM     33  OXT CTW d   1      21.473  48.749  46.221  0.00  0.00    -0.646 OA
+ATOM     34  O   CTW d   1      23.292  47.674  45.541  0.00  0.00    -0.646 OA
+ENDBRANCH   1  32
+BRANCH   1  35
+ATOM     35  N   CTW d   1      22.983  49.066  43.202  0.00  0.00    -0.347 N 
+ATOM     36  CBG CTW d   1      23.526  50.189  43.677  0.00  0.00     0.218 C 
+ATOM     37  OAE CTW d   1      23.043  50.889  44.592  0.00  0.00    -0.274 OA
+ATOM     38  H18 CTW d   1      23.387  48.591  42.420  0.00  0.00     0.163 HD
+BRANCH  36  39
+ATOM     39  CAU CTW d   1      24.850  50.540  43.027  0.00  0.00     0.011 C 
+ATOM     40  H9  CTW d   1      25.664  50.396  43.752  0.00  0.00     0.047 H 
+ATOM     41  H10 CTW d   1      25.015  49.888  42.156  0.00  0.00     0.047 H 
+BRANCH  39  42
+ATOM     42  CAX CTW d   1      24.824  51.991  42.576  0.00  0.00    -0.029 C 
+ATOM     43  H7  CTW d   1      24.379  52.049  41.572  0.00  0.00     0.037 H 
+ATOM     44  H8  CTW d   1      24.216  52.577  43.281  0.00  0.00     0.037 H 
+BRANCH  42  45
+ATOM     45  CBL CTW d   1      26.256  52.578  42.531  0.00  0.00     0.097 C 
+ATOM     46  H6  CTW d   1      26.878  51.970  41.858  0.00  0.00     0.089 H 
+BRANCH  45  47
+ATOM     47  NAZ CTW d   1      26.879  52.569  43.886  0.00  0.00    -0.342 N 
+ATOM     48  CBH CTW d   1      27.660  51.553  44.316  0.00  0.00     0.252 C 
+ATOM     49  OAF CTW d   1      27.945  50.617  43.565  0.00  0.00    -0.268 OA
+ATOM     50  H5  CTW d   1      26.713  53.342  44.498  0.00  0.00     0.163 HD
+BRANCH  48  51
+ATOM     51  CBJ CTW d   1      28.222  51.652  45.625  0.00  0.00     0.032 A 
+ATOM     52  CAP CTW d   1      29.130  50.658  46.052  0.00  0.00    -0.065 A 
+ATOM     53  CAN CTW d   1      29.740  50.691  47.317  0.00  0.00    -0.045 A 
+ATOM     54  H1  CTW d   1      29.364  49.841  45.380  0.00  0.00     0.085 H 
+ATOM     55  CBI CTW d   1      29.459  51.746  48.202  0.00  0.00     0.116 A 
+ATOM     56  H2  CTW d   1      30.426  49.904  47.610  0.00  0.00     0.088 H 
+ATOM     57  FAM CTW d   1      30.171  51.772  49.647  0.00  0.00    -0.206 F 
+ATOM     58  CAO CTW d   1      28.554  52.755  47.801  0.00  0.00    -0.045 A 
+ATOM     59  CAQ CTW d   1      27.943  52.709  46.529  0.00  0.00    -0.065 A 
+ATOM     60  H3  CTW d   1      28.327  53.572  48.477  0.00  0.00     0.088 H 
+ATOM     61  H4  CTW d   1      27.251  53.492  46.239  0.00  0.00     0.085 H 
+ENDBRANCH  48  51
+ENDBRANCH  45  47
+BRANCH  45  62
+ATOM     62  CBE CTW d   1      26.140  54.016  41.958  0.00  0.00     0.196 C 
+ATOM     63  OAC CTW d   1      26.372  54.145  40.721  0.00  0.00    -0.646 OA
+ATOM     64  OAJ CTW d   1      25.795  54.937  42.759  0.00  0.00    -0.646 OA
+ENDBRANCH  45  62
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH   1  35
+TORSDOF 19

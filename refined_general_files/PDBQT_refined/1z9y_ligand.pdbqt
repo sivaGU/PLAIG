@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  S1_2 
+REMARK    2  A    between atoms: S1_2  and  C1_5 
+REMARK    3  A    between atoms: C4_9  and  N2_10 
+REMARK    4  A    between atoms: N2_10  and  C5_11 
+REMARK    5  A    between atoms: C5_11  and  C6_12 
+REMARK    6  A    between atoms: C10_17  and  C12_19 
+ROOT
+ATOM      1  C1  FUN d   1      15.610   3.973  15.675  0.00  0.00     0.102 A 
+ATOM      2  C2  FUN d   1      15.293   5.320  15.885  0.00  0.00     0.059 A 
+ATOM      3 CL1  FUN d   1      14.452   5.808  17.337  0.00  0.00    -0.083 Cl
+ATOM      4  C3  FUN d   1      15.637   6.352  15.001  0.00  0.00    -0.034 A 
+ATOM      5  C4  FUN d   1      16.404   6.027  13.888  0.00  0.00     0.047 A 
+ATOM      6  C10 FUN d   1      16.695   4.674  13.652  0.00  0.00     0.068 A 
+ATOM      7  C11 FUN d   1      16.316   3.648  14.514  0.00  0.00    -0.040 A 
+ATOM      8  H3  FUN d   1      15.315   7.372  15.180  0.00  0.00     0.089 H 
+ATOM      9  H10 FUN d   1      16.564   2.617  14.289  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  N2  FUN d   1      16.779   6.993  12.936  0.00  0.00    -0.383 N 
+ATOM     11  H4  FUN d   1      17.302   6.712  12.094  0.00  0.00     0.160 HD
+BRANCH  10  12
+ATOM     12  C5  FUN d   1      16.423   8.403  13.146  0.00  0.00     0.037 C 
+ATOM     13  H5  FUN d   1      15.415   8.469  13.582  0.00  0.00     0.074 H 
+ATOM     14  H6  FUN d   1      16.441   8.936  12.184  0.00  0.00     0.074 H 
+BRANCH  12  15
+ATOM     15  C6  FUN d   1      17.421   9.022  14.085  0.00  0.00     0.070 A 
+ATOM     16  C7  FUN d   1      18.622   9.482  13.738  0.00  0.00    -0.051 A 
+ATOM     17  C8  FUN d   1      19.145   9.967  15.019  0.00  0.00    -0.059 A 
+ATOM     18  H7  FUN d   1      19.094   9.495  12.757  0.00  0.00     0.087 H 
+ATOM     19  C9  FUN d   1      18.145   9.721  15.870  0.00  0.00     0.019 A 
+ATOM     20  H8  FUN d   1      20.114  10.418  15.226  0.00  0.00     0.086 H 
+ATOM     21  O3  FUN d   1      17.077   9.080  15.378  0.00  0.00    -0.325 OA
+ATOM     22  H9  FUN d   1      18.196  10.027  16.914  0.00  0.00     0.123 H 
+ENDBRANCH  12  15
+ENDBRANCH  10  12
+ENDBRANCH   5  10
+BRANCH   6  23
+ATOM     23  C12 FUN d   1      17.499   4.232  12.448  0.00  0.00     0.211 C 
+ATOM     24  O4  FUN d   1      17.872   5.050  11.641  0.00  0.00    -0.644 OA
+ATOM     25  O5  FUN d   1      17.776   2.949  12.324  0.00  0.00    -0.644 OA
+ENDBRANCH   6  23
+BRANCH   1  26
+ATOM     26  S1  FUN d   1      15.137   2.679  16.784  0.00  0.00     0.258 S 
+ATOM     27  O1  FUN d   1      13.659   2.616  16.733  0.00  0.00    -0.201 OA
+ATOM     28  O2  FUN d   1      15.713   2.917  18.087  0.00  0.00    -0.201 OA
+BRANCH  26  29
+ATOM     29  N1  FUN d   1      15.638   1.427  16.184  0.00  0.00    -0.324 N 
+ATOM     30  H1  FUN d   1      15.318   1.143  15.280  0.00  0.00     0.169 HD
+ATOM     31  H2  FUN d   1      16.297   0.863  16.681  0.00  0.00     0.169 HD
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 6

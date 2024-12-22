@@ -1,0 +1,194 @@
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  OBI_2 
+REMARK    2  A    between atoms: OBI_2  and  CBK_3 
+REMARK       I    between atoms: CBK_3  and  N_5 
+REMARK    3  A    between atoms: N_5  and  CA_6 
+REMARK    4  A    between atoms: CA_6  and  CB_7 
+REMARK    5  A    between atoms: CA_6  and  C_11 
+REMARK    6  A    between atoms: CB_7  and  CAE_8 
+REMARK    7  A    between atoms: CB_7  and  CG2_9 
+REMARK    8  A    between atoms: CB_7  and  CG1_10 
+REMARK       I    between atoms: C_11  and  NBG_13 
+REMARK    9  A    between atoms: NBG_13  and  CBT_14 
+REMARK   10  A    between atoms: CBT_14  and  CBA_15 
+REMARK   11  A    between atoms: CBT_14  and  CBS_22 
+REMARK   12  A    between atoms: CBA_15  and  CBO_16 
+REMARK   13  A    between atoms: CBS_22  and  OAM_23 
+REMARK   14  A    between atoms: CBS_22  and  CBC_24 
+REMARK   15  A    between atoms: CBC_24  and  NBW_25 
+REMARK   16  A    between atoms: NBW_25  and  NBH_26 
+REMARK   17  A    between atoms: NBW_25  and  CBB_39 
+REMARK       I    between atoms: NBH_26  and  CBN_27 
+REMARK   18  A    between atoms: CBN_27  and  CBV_29 
+REMARK   19  A    between atoms: CBV_29  and  CBY_30 
+REMARK   20  A    between atoms: CBV_29  and  NBF_34 
+REMARK   21  A    between atoms: CBY_30  and  CAH_31 
+REMARK   22  A    between atoms: CBY_30  and  CAF_32 
+REMARK   23  A    between atoms: CBY_30  and  CAG_33 
+REMARK       I    between atoms: NBF_34  and  CBL_35 
+REMARK   24  A    between atoms: CBL_35  and  OBJ_37 
+REMARK   25  A    between atoms: OBJ_37  and  CAB_38 
+REMARK   26  A    between atoms: CBB_39  and  CBP_40 
+REMARK   27  A    between atoms: CBQ_45  and  CBR_46 
+ROOT
+ATOM      1  NBW DR7 d   1      20.956  31.553  15.413  0.00  0.00     0.017 N 
+ATOM      2  H28 DR7 d   1      20.770  31.718  14.436  0.00  0.00     0.309 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  CBC DR7 d   1      21.178  30.126  15.595  0.00  0.00     0.130 C 
+ATOM      4  H26 DR7 d   1      21.912  29.791  14.847  0.00  0.00     0.083 H 
+ATOM      5  H27 DR7 d   1      21.583  29.964  16.605  0.00  0.00     0.083 H 
+BRANCH   3   6
+ATOM      6  CBS DR7 d   1      19.916  29.284  15.442  0.00  0.00     0.080 C 
+ATOM      7  H24 DR7 d   1      19.067  29.811  15.902  0.00  0.00     0.088 H 
+BRANCH   6   8
+ATOM      8  CBT DR7 d   1      19.557  28.983  13.982  0.00  0.00     0.042 C 
+ATOM      9  H16 DR7 d   1      19.479  29.923  13.416  0.00  0.00     0.077 H 
+BRANCH   8  10
+ATOM     10  NBG DR7 d   1      20.618  28.141  13.434  0.00  0.00    -0.352 N 
+ATOM     11  C   DR7 d   1      21.268  28.447  12.305  0.00  0.00     0.241 C 
+ATOM     12  O   DR7 d   1      21.045  29.447  11.624  0.00  0.00    -0.271 OA
+ATOM     13  H15 DR7 d   1      20.868  27.304  13.921  0.00  0.00     0.163 HD
+BRANCH  11  14
+ATOM     14  CA  DR7 d   1      22.314  27.444  11.890  0.00  0.00     0.097 C 
+ATOM     15  H5  DR7 d   1      22.413  26.709  12.703  0.00  0.00     0.088 H 
+BRANCH  14  16
+ATOM     16  N   DR7 d   1      21.779  26.772  10.730  0.00  0.00    -0.323 N 
+ATOM     17  CBK DR7 d   1      21.617  25.458  10.644  0.00  0.00     0.360 C 
+ATOM     18  OAI DR7 d   1      21.896  24.652  11.521  0.00  0.00    -0.239 OA
+ATOM     19  H4  DR7 d   1      21.515  27.331   9.944  0.00  0.00     0.165 HD
+BRANCH  17  20
+ATOM     20  OBI DR7 d   1      21.111  24.997   9.369  0.00  0.00    -0.309 OA
+BRANCH  20  21
+ATOM     21  CAA DR7 d   1      20.816  23.611   9.196  0.00  0.00     0.015 C 
+ATOM     22  H1  DR7 d   1      20.445  23.440   8.175  0.00  0.00     0.067 H 
+ATOM     23  H2  DR7 d   1      20.047  23.306   9.921  0.00  0.00     0.067 H 
+ATOM     24  H3  DR7 d   1      21.729  23.019   9.358  0.00  0.00     0.067 H 
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH  14  16
+BRANCH  14  25
+ATOM     25  CB  DR7 d   1      23.712  28.004  11.639  0.00  0.00    -0.022 C 
+BRANCH  25  26
+ATOM     26  CAE DR7 d   1      24.029  28.862  12.856  0.00  0.00    -0.067 C 
+ATOM     27  H6  DR7 d   1      25.031  29.302  12.743  0.00  0.00     0.028 H 
+ATOM     28  H7  DR7 d   1      24.002  28.238  13.762  0.00  0.00     0.028 H 
+ATOM     29  H8  DR7 d   1      23.283  29.666  12.942  0.00  0.00     0.028 H 
+ENDBRANCH  25  26
+BRANCH  25  30
+ATOM     30  CG2 DR7 d   1      23.774  28.812  10.347  0.00  0.00    -0.067 C 
+ATOM     31  H9  DR7 d   1      23.540  28.158   9.494  0.00  0.00     0.028 H 
+ATOM     32  H10 DR7 d   1      24.785  29.228  10.223  0.00  0.00     0.028 H 
+ATOM     33  H11 DR7 d   1      23.043  29.632  10.392  0.00  0.00     0.028 H 
+ENDBRANCH  25  30
+BRANCH  25  34
+ATOM     34  CG1 DR7 d   1      24.730  26.871  11.528  0.00  0.00    -0.067 C 
+ATOM     35  H12 DR7 d   1      24.709  26.268  12.448  0.00  0.00     0.028 H 
+ATOM     36  H13 DR7 d   1      25.736  27.294  11.390  0.00  0.00     0.028 H 
+ATOM     37  H14 DR7 d   1      24.478  26.235  10.667  0.00  0.00     0.028 H 
+ENDBRANCH  25  34
+ENDBRANCH  14  25
+ENDBRANCH  11  14
+ENDBRANCH   8  10
+BRANCH   8  38
+ATOM     38  CBA DR7 d   1      18.245  28.209  13.881  0.00  0.00    -0.020 C 
+ATOM     39  H17 DR7 d   1      17.427  28.843  14.254  0.00  0.00     0.043 H 
+ATOM     40  H18 DR7 d   1      18.317  27.302  14.500  0.00  0.00     0.043 H 
+BRANCH  38  41
+ATOM     41  CBO DR7 d   1      17.944  27.808  12.459  0.00  0.00    -0.056 A 
+ATOM     42  CAT DR7 d   1      18.334  26.551  12.021  0.00  0.00    -0.077 A 
+ATOM     43  CAP DR7 d   1      18.083  26.143  10.717  0.00  0.00    -0.082 A 
+ATOM     44  H19 DR7 d   1      18.841  25.879  12.704  0.00  0.00     0.084 H 
+ATOM     45  CAN DR7 d   1      17.415  26.991   9.844  0.00  0.00    -0.083 A 
+ATOM     46  H20 DR7 d   1      18.408  25.165  10.382  0.00  0.00     0.083 H 
+ATOM     47  CAQ DR7 d   1      17.008  28.252  10.287  0.00  0.00    -0.082 A 
+ATOM     48  H21 DR7 d   1      17.211  26.677   8.827  0.00  0.00     0.083 H 
+ATOM     49  CAU DR7 d   1      17.260  28.658  11.595  0.00  0.00    -0.077 A 
+ATOM     50  H22 DR7 d   1      16.492  28.920   9.607  0.00  0.00     0.083 H 
+ATOM     51  H23 DR7 d   1      16.925  29.630  11.938  0.00  0.00     0.084 H 
+ENDBRANCH  38  41
+ENDBRANCH   8  38
+ENDBRANCH   6   8
+BRANCH   6  52
+ATOM     52  OAM DR7 d   1      20.187  28.087  16.159  0.00  0.00    -0.392 OA
+ATOM     53  H25 DR7 d   1      20.406  28.301  17.058  0.00  0.00     0.210 HD
+ENDBRANCH   6  52
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  54
+ATOM     54  NBH DR7 d   1      19.908  32.038  16.094  0.00  0.00    -0.184 N 
+ATOM     55  CBN DR7 d   1      18.978  32.768  15.459  0.00  0.00     0.265 C 
+ATOM     56  OAL DR7 d   1      18.946  32.954  14.245  0.00  0.00    -0.269 OA
+ATOM     57  H29 DR7 d   1      19.819  31.856  17.073  0.00  0.00     0.197 HD
+BRANCH  55  58
+ATOM     58  CBV DR7 d   1      17.996  33.465  16.359  0.00  0.00     0.099 C 
+ATOM     59  H30 DR7 d   1      18.062  32.987  17.348  0.00  0.00     0.088 H 
+BRANCH  58  60
+ATOM     60  CBY DR7 d   1      16.522  33.408  15.946  0.00  0.00    -0.022 C 
+BRANCH  60  61
+ATOM     61  CAH DR7 d   1      15.639  33.947  17.070  0.00  0.00    -0.067 C 
+ATOM     62  H31 DR7 d   1      14.584  33.901  16.762  0.00  0.00     0.028 H 
+ATOM     63  H32 DR7 d   1      15.913  34.991  17.283  0.00  0.00     0.028 H 
+ATOM     64  H33 DR7 d   1      15.784  33.338  17.974  0.00  0.00     0.028 H 
+ENDBRANCH  60  61
+BRANCH  60  65
+ATOM     65  CAF DR7 d   1      16.137  31.948  15.730  0.00  0.00    -0.067 C 
+ATOM     66  H34 DR7 d   1      16.753  31.522  14.925  0.00  0.00     0.028 H 
+ATOM     67  H35 DR7 d   1      15.075  31.886  15.451  0.00  0.00     0.028 H 
+ATOM     68  H36 DR7 d   1      16.305  31.383  16.659  0.00  0.00     0.028 H 
+ENDBRANCH  60  65
+BRANCH  60  69
+ATOM     69  CAG DR7 d   1      16.216  34.225  14.694  0.00  0.00    -0.067 C 
+ATOM     70  H37 DR7 d   1      16.498  35.275  14.863  0.00  0.00     0.028 H 
+ATOM     71  H38 DR7 d   1      15.140  34.166  14.471  0.00  0.00     0.028 H 
+ATOM     72  H39 DR7 d   1      16.789  33.824  13.845  0.00  0.00     0.028 H 
+ENDBRANCH  60  69
+ENDBRANCH  58  60
+BRANCH  58  73
+ATOM     73  NBF DR7 d   1      18.447  34.833  16.481  0.00  0.00    -0.323 N 
+ATOM     74  CBL DR7 d   1      18.609  35.436  17.660  0.00  0.00     0.360 C 
+ATOM     75  OAJ DR7 d   1      18.425  34.881  18.734  0.00  0.00    -0.239 OA
+ATOM     76  H40 DR7 d   1      18.646  35.349  15.648  0.00  0.00     0.165 HD
+BRANCH  74  77
+ATOM     77  OBJ DR7 d   1      19.012  36.831  17.623  0.00  0.00    -0.309 OA
+BRANCH  77  78
+ATOM     78  CAB DR7 d   1      19.308  37.511  18.846  0.00  0.00     0.015 C 
+ATOM     79  H41 DR7 d   1      19.593  38.551  18.628  0.00  0.00     0.067 H 
+ATOM     80  H42 DR7 d   1      20.139  37.002  19.357  0.00  0.00     0.067 H 
+ATOM     81  H43 DR7 d   1      18.419  37.503  19.494  0.00  0.00     0.067 H 
+ENDBRANCH  77  78
+ENDBRANCH  74  77
+ENDBRANCH  58  73
+ENDBRANCH  55  58
+ENDBRANCH   1  54
+BRANCH   1  82
+ATOM     82  CBB DR7 d   1      22.224  32.219  15.761  0.00  0.00     0.128 C 
+ATOM     83  H44 DR7 d   1      22.983  31.930  15.019  0.00  0.00     0.086 H 
+ATOM     84  H45 DR7 d   1      22.536  31.874  16.758  0.00  0.00     0.086 H 
+BRANCH  82  85
+ATOM     85  CBP DR7 d   1      22.130  33.732  15.786  0.00  0.00    -0.030 A 
+ATOM     86  CAW DR7 d   1      22.046  34.424  14.632  0.00  0.00    -0.074 A 
+ATOM     87  CAY DR7 d   1      21.960  35.753  14.704  0.00  0.00    -0.070 A 
+ATOM     88  H46 DR7 d   1      22.048  33.916  13.675  0.00  0.00     0.084 H 
+ATOM     89  CBQ DR7 d   1      21.973  36.349  15.912  0.00  0.00    -0.007 A 
+ATOM     90  H47 DR7 d   1      21.881  36.347  13.801  0.00  0.00     0.084 H 
+ATOM     91  CAZ DR7 d   1      22.066  35.588  16.926  0.00  0.00    -0.070 A 
+ATOM     92  CAX DR7 d   1      22.142  34.391  16.868  0.00  0.00    -0.074 A 
+ATOM     93  H49 DR7 d   1      22.077  36.050  17.907  0.00  0.00     0.084 H 
+ATOM     94  H48 DR7 d   1      22.226  33.841  17.798  0.00  0.00     0.084 H 
+BRANCH  89  95
+ATOM     95  CBR DR7 d   1      21.867  37.858  16.040  0.00  0.00     0.066 A 
+ATOM     96  CAV DR7 d   1      21.016  38.591  15.212  0.00  0.00    -0.054 A 
+ATOM     97  CAR DR7 d   1      20.913  39.977  15.319  0.00  0.00    -0.079 A 
+ATOM     98  H50 DR7 d   1      20.422  38.071  14.469  0.00  0.00     0.087 H 
+ATOM     99  CAO DR7 d   1      21.663  40.641  16.287  0.00  0.00    -0.066 A 
+ATOM    100  H51 DR7 d   1      20.257  40.531  14.657  0.00  0.00     0.083 H 
+ATOM    101  CAS DR7 d   1      22.493  39.883  17.112  0.00  0.00     0.003 A 
+ATOM    102  H52 DR7 d   1      21.603  41.718  16.396  0.00  0.00     0.085 H 
+ATOM    103  NBD DR7 d   1      22.568  38.547  16.972  0.00  0.00    -0.260 NA
+ATOM    104  H53 DR7 d   1      23.085  40.376  17.875  0.00  0.00     0.114 H 
+ENDBRANCH  89  95
+ENDBRANCH  82  85
+ENDBRANCH   1  82
+TORSDOF 27

@@ -1,0 +1,120 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_3  and  C22_26 
+REMARK    1  A    between atoms: C2_4  and  O2_6 
+REMARK    2  A    between atoms: C3_5  and  C6_9 
+REMARK    3  A    between atoms: C17_21  and  C5_8 
+REMARK    4  A    between atoms: C6_9  and  C7_10 
+REMARK    5  A    between atoms: C7_10  and  C15_19 
+REMARK    6  A    between atoms: C8_12  and  C9_13 
+REMARK    7  A    between atoms: C10_14  and  C11_15 
+REMARK    8  A    between atoms: C10_14  and  C16_20 
+REMARK    9  A    between atoms: C11_15  and  C12_16 
+REMARK   10  A    between atoms: C12_16  and  C13_17 
+REMARK   11  A    between atoms: C13_17  and  C14_18 
+REMARK   12  A    between atoms: C18_22  and  C17_21 
+REMARK   13  A    between atoms: C19_23  and  C18_22 
+REMARK   14  A    between atoms: C20_24  and  C19_23 
+REMARK   15  A    between atoms: C20_24  and  C21_25 
+REMARK   16  A    between atoms: C22_26  and  O5_29 
+REMARK   17  A    between atoms: O5_29  and  C23_27 
+ROOT
+ATOM      1  O1  MXP d   1     -11.715  57.237   2.841  0.00  0.00    -0.311 OA
+ATOM      2  C1  MXP d   1      -9.346  57.716   2.535  0.00  0.00    -0.046 A 
+ATOM      3  C2  MXP d   1      -9.625  59.097   2.560  0.00  0.00     0.063 A 
+ATOM      4  C3  MXP d   1     -10.986  59.582   2.687  0.00  0.00     0.137 A 
+ATOM      5  C4  MXP d   1     -12.013  58.608   2.814  0.00  0.00     0.277 A 
+ATOM      6  C5  MXP d   1     -10.374  56.768   2.686  0.00  0.00     0.067 A 
+ATOM      7  O3  MXP d   1     -13.170  58.977   2.884  0.00  0.00    -0.264 OA
+ATOM      8  H1  MXP d   1      -8.320  57.378   2.397  0.00  0.00     0.084 H 
+ATOM      9  H2  MXP d   1     -11.126  59.565   1.596  0.00  0.00     0.078 H 
+ATOM     10  H4  MXP d   1     -10.227  56.779   3.776  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C6  MXP d   1     -11.158  61.164   2.671  0.00  0.00     0.175 C 
+ATOM     12  O4  MXP d   1     -10.751  61.698   1.653  0.00  0.00    -0.291 OA
+BRANCH  11  13
+ATOM     13  C7  MXP d   1     -11.849  61.595   3.967  0.00  0.00    -0.015 C 
+ATOM     14  C8  MXP d   1     -11.048  61.292   5.098  0.00  0.00    -0.073 C 
+ATOM     15  H5  MXP d   1     -10.073  60.814   5.013  0.00  0.00     0.084 H 
+BRANCH  14  16
+ATOM     16  C9  MXP d   1     -11.666  61.693   6.471  0.00  0.00    -0.080 C 
+ATOM     17  C10 MXP d   1     -11.067  61.154   7.619  0.00  0.00    -0.084 C 
+ATOM     18  H6  MXP d   1     -12.524  62.361   6.536  0.00  0.00     0.083 H 
+BRANCH  17  19
+ATOM     19  C11 MXP d   1     -11.550  61.472   9.006  0.00  0.00    -0.045 C 
+ATOM     20  H7  MXP d   1     -11.065  60.756   9.686  0.00  0.00     0.039 H 
+ATOM     21  H8  MXP d   1     -12.637  61.306   9.012  0.00  0.00     0.039 H 
+BRANCH  19  22
+ATOM     22  C12 MXP d   1     -11.311  62.861   9.582  0.00  0.00    -0.062 C 
+ATOM     23  H9  MXP d   1     -10.423  63.288   9.093  0.00  0.00     0.033 H 
+ATOM     24  H10 MXP d   1     -11.122  62.758  10.661  0.00  0.00     0.033 H 
+BRANCH  22  25
+ATOM     25  C13 MXP d   1     -12.471  63.829   9.392  0.00  0.00    -0.068 C 
+ATOM     26  H11 MXP d   1     -13.340  63.374   9.889  0.00  0.00     0.032 H 
+ATOM     27  H12 MXP d   1     -12.655  63.884   8.309  0.00  0.00     0.032 H 
+BRANCH  25  28
+ATOM     28  C14 MXP d   1     -12.396  65.265   9.888  0.00  0.00    -0.077 C 
+ATOM     29  H13 MXP d   1     -13.335  65.785   9.649  0.00  0.00     0.027 H 
+ATOM     30  H14 MXP d   1     -11.557  65.779   9.397  0.00  0.00     0.027 H 
+ATOM     31  H15 MXP d   1     -12.242  65.269  10.977  0.00  0.00     0.027 H 
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  17  19
+BRANCH  17  32
+ATOM     32  C16 MXP d   1      -9.887  60.175   7.526  0.00  0.00    -0.055 C 
+ATOM     33  H19 MXP d   1      -9.622  60.019   6.470  0.00  0.00     0.033 H 
+ATOM     34  H20 MXP d   1     -10.172  59.214   7.979  0.00  0.00     0.033 H 
+ATOM     35  H21 MXP d   1      -9.022  60.591   8.063  0.00  0.00     0.033 H 
+ENDBRANCH  17  32
+ENDBRANCH  14  16
+BRANCH  13  36
+ATOM     36  C15 MXP d   1     -13.192  62.283   4.015  0.00  0.00    -0.048 C 
+ATOM     37  H16 MXP d   1     -13.586  62.389   2.994  0.00  0.00     0.033 H 
+ATOM     38  H17 MXP d   1     -13.078  63.278   4.469  0.00  0.00     0.033 H 
+ATOM     39  H18 MXP d   1     -13.890  61.683   4.617  0.00  0.00     0.033 H 
+ENDBRANCH  13  36
+ENDBRANCH  11  13
+ENDBRANCH   4  11
+BRANCH   3  40
+ATOM     40  O2  MXP d   1      -8.578  59.997   2.423  0.00  0.00    -0.364 OA
+ATOM     41  H3  MXP d   1      -8.711  60.519   1.640  0.00  0.00     0.217 HD
+ENDBRANCH   3  40
+BRANCH   6  42
+ATOM     42  C17 MXP d   1     -10.110  55.251   2.667  0.00  0.00    -0.037 C 
+ATOM     43  H22 MXP d   1      -9.887  54.934   1.638  0.00  0.00     0.037 H 
+ATOM     44  H23 MXP d   1     -11.004  54.722   3.029  0.00  0.00     0.037 H 
+BRANCH  42  45
+ATOM     45  C18 MXP d   1      -8.915  54.910   3.574  0.00  0.00    -0.062 C 
+ATOM     46  H24 MXP d   1      -8.223  55.765   3.570  0.00  0.00     0.033 H 
+ATOM     47  H25 MXP d   1      -8.408  54.025   3.161  0.00  0.00     0.033 H 
+BRANCH  45  48
+ATOM     48  C19 MXP d   1      -9.300  54.610   5.025  0.00  0.00    -0.061 C 
+ATOM     49  H26 MXP d   1      -9.980  53.746   5.055  0.00  0.00     0.033 H 
+ATOM     50  H27 MXP d   1      -9.801  55.486   5.462  0.00  0.00     0.033 H 
+BRANCH  48  51
+ATOM     51  C20 MXP d   1      -8.046  54.297   5.813  0.00  0.00    -0.034 C 
+ATOM     52  H28 MXP d   1      -7.376  55.169   5.768  0.00  0.00     0.041 H 
+ATOM     53  H29 MXP d   1      -7.550  53.429   5.353  0.00  0.00     0.041 H 
+BRANCH  51  54
+ATOM     54  C21 MXP d   1      -8.301  54.008   7.134  0.00  0.00    -0.012 C 
+ATOM     55  N1  MXP d   1      -7.306  53.701   7.988  0.00  0.00    -0.204 NA
+ATOM     56  C22 MXP d   1      -7.486  53.401   9.284  0.00  0.00     0.385 C 
+ATOM     57  O6  MXP d   1      -8.672  53.404   9.794  0.00  0.00    -0.236 OA
+ATOM     58  H30 MXP d   1      -9.328  54.028   7.496  0.00  0.00     0.108 H 
+BRANCH  56  59
+ATOM     59  O5  MXP d   1      -6.411  53.131   9.922  0.00  0.00    -0.307 OA
+BRANCH  59  60
+ATOM     60  C23 MXP d   1      -6.400  52.784  11.255  0.00  0.00     0.015 C 
+ATOM     61  H31 MXP d   1      -5.365  52.600  11.577  0.00  0.00     0.067 H 
+ATOM     62  H32 MXP d   1      -6.997  51.872  11.402  0.00  0.00     0.067 H 
+ATOM     63  H33 MXP d   1      -6.829  53.603  11.851  0.00  0.00     0.067 H 
+ENDBRANCH  59  60
+ENDBRANCH  56  59
+ENDBRANCH  51  54
+ENDBRANCH  48  51
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH   6  42
+TORSDOF 17

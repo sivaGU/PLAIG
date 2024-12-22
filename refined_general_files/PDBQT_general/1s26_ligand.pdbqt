@@ -1,0 +1,80 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_8  and  PG_1 
+REMARK    2  A    between atoms: PB_5  and  O3B_8 
+REMARK    3  A    between atoms: C3A_12  and  PB_5 
+REMARK    4  A    between atoms: PA_9  and  C3A_12 
+REMARK    5  A    between atoms: PA_9  and  O5_13 
+REMARK    6  A    between atoms: O5_13  and  C5_14 
+REMARK    7  A    between atoms: C5_14  and  C4_15 
+REMARK    8  A    between atoms: C3_17  and  O3_18 
+REMARK    9  A    between atoms: C2_19  and  O2_20 
+REMARK   10  A    between atoms: C1_21  and  N9_22 
+ROOT
+ATOM      1  C4  APC d   1      35.152  66.329  42.054  0.00  0.00     0.089 A 
+ATOM      2  O4  APC d   1      34.657  65.576  43.200  0.00  0.00    -0.353 OA
+ATOM      3  C3  APC d   1      35.392  65.313  40.915  0.00  0.00     0.091 A 
+ATOM      4  C2  APC d   1      34.927  63.963  41.507  0.00  0.00     0.105 A 
+ATOM      5  C1  APC d   1      34.533  64.221  42.944  0.00  0.00     0.139 A 
+ATOM      6  H5  APC d   1      36.107  66.819  42.294  0.00  0.00     0.090 H 
+ATOM      7  H6  APC d   1      34.740  65.567  40.066  0.00  0.00     0.091 H 
+ATOM      8  H8  APC d   1      34.065  63.588  40.935  0.00  0.00     0.093 H 
+ATOM      9  H10 APC d   1      35.244  63.668  43.576  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5  APC d   1      34.104  67.400  41.783  0.00  0.00     0.056 C 
+ATOM     11  H3  APC d   1      34.030  67.561  40.697  0.00  0.00     0.079 H 
+ATOM     12  H4  APC d   1      33.133  67.057  42.170  0.00  0.00     0.079 H 
+BRANCH  10  13
+ATOM     13  O5  APC d   1      34.451  68.655  42.424  0.00  0.00    -0.309 OA
+BRANCH  13  14
+ATOM     14  PA  APC d   1      34.139  68.766  43.993  0.00  0.00     0.261 P 
+ATOM     15  O1A APC d   1      35.320  68.277  44.771  0.00  0.00    -0.646 OA
+ATOM     16  O2A APC d   1      32.975  67.881  44.366  0.00  0.00    -0.646 OA
+BRANCH  14  17
+ATOM     17  C3A APC d   1      33.731  70.453  44.521  0.00  0.00     0.127 C 
+ATOM     18  H1  APC d   1      32.730  70.382  44.971  0.00  0.00     0.072 H 
+ATOM     19  H2  APC d   1      34.467  70.699  45.300  0.00  0.00     0.072 H 
+BRANCH  17  20
+ATOM     20  PB  APC d   1      33.669  71.920  43.435  0.00  0.00     0.272 P 
+ATOM     21  O1B APC d   1      33.893  71.541  41.996  0.00  0.00    -0.646 OA
+ATOM     22  O2B APC d   1      34.735  72.877  43.855  0.00  0.00    -0.646 OA
+BRANCH  20  23
+ATOM     23  O3B APC d   1      32.173  72.587  43.597  0.00  0.00    -0.196 OA
+BRANCH  23  24
+ATOM     24  PG  APC d   1      31.497  73.417  44.792  0.00  0.00     0.430 P 
+ATOM     25  O1G APC d   1      31.757  74.866  44.625  0.00  0.00    -0.616 OA
+ATOM     26  O2G APC d   1      30.067  73.165  44.742  0.00  0.00    -0.616 OA
+ATOM     27  O3G APC d   1      32.027  72.932  46.197  0.00  0.00    -0.616 OA
+ENDBRANCH  23  24
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   3  28
+ATOM     28  O3  APC d   1      36.773  65.325  40.412  0.00  0.00    -0.390 OA
+ATOM     29  H7  APC d   1      37.369  65.110  41.120  0.00  0.00     0.210 HD
+ENDBRANCH   3  28
+BRANCH   5  30
+ATOM     30  N9  APC d   1      33.159  63.822  43.370  0.00  0.00    -0.294 N 
+ATOM     31  C8  APC d   1      32.012  64.609  43.391  0.00  0.00     0.071 A 
+ATOM     32  N7  APC d   1      30.931  63.989  43.841  0.00  0.00    -0.236 NA
+ATOM     33  H11 APC d   1      32.003  65.648  43.065  0.00  0.00     0.144 H 
+ATOM     34  C5  APC d   1      31.373  62.684  44.145  0.00  0.00     0.149 A 
+ATOM     35  C6  APC d   1      30.683  61.531  44.685  0.00  0.00     0.155 A 
+ATOM     36  C4  APC d   1      32.741  62.566  43.865  0.00  0.00     0.167 A 
+ATOM     37  N6  APC d   1      29.503  61.470  44.985  0.00  0.00    -0.382 N 
+ATOM     38  N1  APC d   1      31.535  60.462  44.818  0.00  0.00    -0.222 NA
+ATOM     39  H12 APC d   1      29.112  60.595  45.363  0.00  0.00     0.157 HD
+ATOM     40  H13 APC d   1      28.897  62.293  44.860  0.00  0.00     0.157 HD
+ATOM     41  C2  APC d   1      32.887  60.412  44.512  0.00  0.00     0.091 A 
+ATOM     42  N3  APC d   1      33.524  61.437  44.032  0.00  0.00    -0.222 NA
+ATOM     43  H14 APC d   1      33.429  59.488  44.679  0.00  0.00     0.146 H 
+ENDBRANCH   5  30
+BRANCH   4  44
+ATOM     44  O2  APC d   1      35.972  62.973  41.496  0.00  0.00    -0.388 OA
+ATOM     45  H9  APC d   1      36.254  62.821  40.602  0.00  0.00     0.210 HD
+ENDBRANCH   4  44
+TORSDOF 10

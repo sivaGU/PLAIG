@@ -1,0 +1,67 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_1  and  C10_2 
+REMARK    2  A    between atoms: C5_6  and  C6_7 
+REMARK    3  A    between atoms: C4_8  and  C3_9 
+REMARK    4  A    between atoms: C1_11  and  S_12 
+REMARK    5  A    between atoms: S_12  and  C_13 
+REMARK    6  A    between atoms: C2_15  and  N3_17 
+ROOT
+ATOM      1  C3  DXO d   1      44.425  39.717  77.881  0.00  0.00     0.182 A 
+ATOM      2  N2  DXO d   1      43.185  39.721  78.388  0.00  0.00    -0.201 NA
+ATOM      3  C1  DXO d   1      43.106  39.193  79.619  0.00  0.00     0.208 A 
+ATOM      4  N1  DXO d   1      45.521  39.246  78.495  0.00  0.00    -0.042 NA
+ATOM      5  C2  DXO d   1      45.303  38.729  79.722  0.00  0.00     0.729 A 
+ATOM      6  N   DXO d   1      44.108  38.676  80.342  0.00  0.00    -0.036 NA
+ENDROOT
+BRANCH   1   7
+ATOM      7  C4  DXO d   1      44.659  40.289  76.527  0.00  0.00     0.024 A 
+ATOM      8  C10 DXO d   1      45.312  41.537  76.416  0.00  0.00    -0.047 A 
+ATOM      9  C9  DXO d   1      45.572  42.050  75.141  0.00  0.00    -0.076 A 
+ATOM     10  C8  DXO d   1      45.232  41.345  74.000  0.00  0.00    -0.082 A 
+ATOM     11  H4  DXO d   1      46.049  43.019  75.045  0.00  0.00     0.084 H 
+ATOM     12  C7  DXO d   1      44.612  40.112  74.113  0.00  0.00    -0.076 A 
+ATOM     13  H5  DXO d   1      45.450  41.756  73.021  0.00  0.00     0.083 H 
+ATOM     14  C5  DXO d   1      44.298  39.572  75.365  0.00  0.00    -0.047 A 
+ATOM     15  H6  DXO d   1      44.366  39.556  73.216  0.00  0.00     0.084 H 
+BRANCH   8  16
+ATOM     16  C11 DXO d   1      45.681  42.341  77.638  0.00  0.00    -0.050 C 
+ATOM     17  H1  DXO d   1      46.177  43.272  77.328  0.00  0.00     0.033 H 
+ATOM     18  H2  DXO d   1      46.364  41.755  78.270  0.00  0.00     0.033 H 
+ATOM     19  H3  DXO d   1      44.771  42.582  78.207  0.00  0.00     0.033 H 
+ENDBRANCH   8  16
+BRANCH  14  20
+ATOM     20  C6  DXO d   1      43.610  38.235  75.449  0.00  0.00    -0.050 C 
+ATOM     21  H7  DXO d   1      43.422  37.855  74.434  0.00  0.00     0.033 H 
+ATOM     22  H8  DXO d   1      42.654  38.347  75.982  0.00  0.00     0.033 H 
+ATOM     23  H9  DXO d   1      44.252  37.526  75.992  0.00  0.00     0.033 H 
+ENDBRANCH  14  20
+ENDBRANCH   1   7
+BRANCH   3  24
+ATOM     24  S   DXO d   1      41.541  39.064  80.400  0.00  0.00    -0.094 SA
+BRANCH  24  25
+ATOM     25  C   DXO d   1      40.464  39.916  79.257  0.00  0.00    -0.027 C 
+ATOM     26  H10 DXO d   1      39.434  39.902  79.644  0.00  0.00     0.042 H 
+ATOM     27  H11 DXO d   1      40.495  39.413  78.279  0.00  0.00     0.042 H 
+ATOM     28  H12 DXO d   1      40.799  40.958  79.144  0.00  0.00     0.042 H 
+ENDBRANCH  24  25
+ENDBRANCH   3  24
+BRANCH   5  29
+ATOM     29  N3  DXO d   1      46.388  38.295  80.415  0.00  0.00    -0.211 N 
+ATOM     30  C15 DXO d   1      47.695  38.932  80.217  0.00  0.00     0.034 C 
+ATOM     31  C14 DXO d   1      48.814  37.964  80.506  0.00  0.00     0.097 C 
+ATOM     32  H13 DXO d   1      47.781  39.795  80.894  0.00  0.00     0.067 H 
+ATOM     33  H14 DXO d   1      47.775  39.274  79.175  0.00  0.00     0.067 H 
+ATOM     34  N4  DXO d   1      48.694  37.461  81.886  0.00  0.00    -0.072 N 
+ATOM     35  H15 DXO d   1      49.780  38.476  80.387  0.00  0.00     0.078 H 
+ATOM     36  H16 DXO d   1      48.757  37.120  79.803  0.00  0.00     0.078 H 
+ATOM     37  C13 DXO d   1      47.396  36.803  82.095  0.00  0.00     0.097 C 
+ATOM     38  H17 DXO d   1      48.779  38.234  82.527  0.00  0.00     0.277 HD
+ATOM     39  H18 DXO d   1      49.432  36.797  82.060  0.00  0.00     0.277 HD
+ATOM     40  C12 DXO d   1      46.256  37.743  81.768  0.00  0.00     0.034 C 
+ATOM     41  H19 DXO d   1      47.315  36.491  83.147  0.00  0.00     0.078 H 
+ATOM     42  H20 DXO d   1      47.331  35.919  81.444  0.00  0.00     0.078 H 
+ATOM     43  H21 DXO d   1      45.307  37.192  81.839  0.00  0.00     0.067 H 
+ATOM     44  H22 DXO d   1      46.255  38.570  82.493  0.00  0.00     0.067 H 
+ENDBRANCH   5  29
+TORSDOF 6

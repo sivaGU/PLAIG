@@ -1,0 +1,87 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C7_7 
+REMARK    2  A    between atoms: C3_3  and  N26_26 
+REMARK    3  A    between atoms: C5_5  and  N27_27 
+REMARK    4  A    between atoms: C7_7  and  C8_8 
+REMARK    5  A    between atoms: C11_11  and  O16_16 
+REMARK    6  A    between atoms: C13_13  and  O14_14 
+REMARK    7  A    between atoms: O14_14  and  C15_15 
+REMARK    8  A    between atoms: O16_16  and  C17_17 
+REMARK    9  A    between atoms: C17_17  and  C18_18 
+REMARK   10  A    between atoms: C21_21  and  O24_24 
+REMARK   11  A    between atoms: O24_24  and  C25_25 
+ROOT
+ATOM      1  C8  MUJ d   1     -10.317  27.980 -17.775  0.00  0.00    -0.051 A 
+ATOM      2  C9  MUJ d   1     -12.036  29.468 -18.587  0.00  0.00    -0.047 A 
+ATOM      3  C10 MUJ d   1     -10.735  29.238 -18.182  0.00  0.00    -0.074 A 
+ATOM      4  C11 MUJ d   1     -12.945  28.426 -18.589  0.00  0.00     0.102 A 
+ATOM      5  C12 MUJ d   1     -11.235  26.937 -17.778  0.00  0.00    -0.042 A 
+ATOM      6  C13 MUJ d   1     -12.538  27.148 -18.180  0.00  0.00     0.102 A 
+ATOM      7  H   MUJ d   1     -12.344  30.465 -18.903  0.00  0.00     0.087 H 
+ATOM      8  H   MUJ d   1     -10.022  30.063 -18.183  0.00  0.00     0.084 H 
+ATOM      9  H   MUJ d   1     -10.923  25.942 -17.460  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   4  10
+ATOM     10  O16 MUJ d   1     -14.254  28.546 -18.970  0.00  0.00    -0.344 OA
+BRANCH  10  11
+ATOM     11  C17 MUJ d   1     -14.734  29.859 -19.285  0.00  0.00     0.050 C 
+ATOM     12  H   MUJ d   1     -14.303  30.191 -20.230  0.00  0.00     0.082 H 
+ATOM     13  H   MUJ d   1     -14.443  30.555 -18.498  0.00  0.00     0.082 H 
+BRANCH  11  14
+ATOM     14  C18 MUJ d   1     -16.229  29.819 -19.397  0.00  0.00    -0.034 A 
+ATOM     15  C20 MUJ d   1     -16.844  29.423 -20.574  0.00  0.00    -0.072 A 
+ATOM     16  C19 MUJ d   1     -18.221  29.383 -20.683  0.00  0.00    -0.050 A 
+ATOM     17  H   MUJ d   1     -16.231  29.138 -21.429  0.00  0.00     0.084 H 
+ATOM     18  C21 MUJ d   1     -19.005  29.742 -19.603  0.00  0.00     0.068 A 
+ATOM     19  H   MUJ d   1     -18.687  29.070 -21.617  0.00  0.00     0.087 H 
+ATOM     20  C23 MUJ d   1     -18.410  30.140 -18.421  0.00  0.00    -0.050 A 
+ATOM     21  C22 MUJ d   1     -17.032  30.176 -18.325  0.00  0.00    -0.072 A 
+ATOM     22  H   MUJ d   1     -19.025  30.424 -17.567  0.00  0.00     0.087 H 
+ATOM     23  H   MUJ d   1     -16.568  30.491 -17.390  0.00  0.00     0.084 H 
+BRANCH  18  24
+ATOM     24  O24 MUJ d   1     -20.369  29.705 -19.704  0.00  0.00    -0.356 OA
+BRANCH  24  25
+ATOM     25  C25 MUJ d   1     -20.927  29.287 -20.946  0.00  0.00     0.010 C 
+ATOM     26  H   MUJ d   1     -20.598  29.962 -21.736  0.00  0.00     0.066 H 
+ATOM     27  H   MUJ d   1     -20.594  28.273 -21.170  0.00  0.00     0.066 H 
+ATOM     28  H   MUJ d   1     -22.015  29.307 -20.879  0.00  0.00     0.066 H 
+ENDBRANCH  24  25
+ENDBRANCH  18  24
+ENDBRANCH  11  14
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+BRANCH   6  29
+ATOM     29  O14 MUJ d   1     -13.506  26.183 -18.215  0.00  0.00    -0.353 OA
+BRANCH  29  30
+ATOM     30  C15 MUJ d   1     -13.142  24.868 -17.809  0.00  0.00     0.010 C 
+ATOM     31  H   MUJ d   1     -12.344  24.498 -18.453  0.00  0.00     0.066 H 
+ATOM     32  H   MUJ d   1     -12.796  24.891 -16.776  0.00  0.00     0.066 H 
+ATOM     33  H   MUJ d   1     -14.008  24.212 -17.889  0.00  0.00     0.066 H 
+ENDBRANCH  29  30
+ENDBRANCH   6  29
+BRANCH   1  34
+ATOM     34  C7  MUJ d   1      -8.886  27.742 -17.333  0.00  0.00    -0.012 C 
+ATOM     35  H   MUJ d   1      -8.454  27.028 -18.034  0.00  0.00     0.047 H 
+ATOM     36  H   MUJ d   1      -8.397  28.716 -17.309  0.00  0.00     0.047 H 
+BRANCH  34  37
+ATOM     37  C2  MUJ d   1      -8.737  27.142 -15.948  0.00  0.00     0.010 A 
+ATOM     38  C3  MUJ d   1      -9.416  27.667 -14.807  0.00  0.00     0.148 A 
+ATOM     39  N1  MUJ d   1      -9.266  27.116 -13.587  0.00  0.00    -0.045 NA
+ATOM     40  C5  MUJ d   1      -8.447  26.047 -13.493  0.00  0.00     0.721 A 
+ATOM     41  N6  MUJ d   1      -7.764  25.482 -14.513  0.00  0.00    -0.075 NA
+ATOM     42  C4  MUJ d   1      -7.934  26.053 -15.710  0.00  0.00     0.031 A 
+ATOM     43  H   MUJ d   1      -7.398  25.624 -16.557  0.00  0.00     0.116 H 
+BRANCH  38  44
+ATOM     44  N26 MUJ d   1     -10.227  28.723 -14.893  0.00  0.00    -0.383 N 
+ATOM     45  H   MUJ d   1     -10.697  29.074 -14.059  0.00  0.00     0.157 HD
+ATOM     46  H   MUJ d   1     -10.377  29.179 -15.793  0.00  0.00     0.157 HD
+ENDBRANCH  38  44
+BRANCH  40  47
+ATOM     47  N27 MUJ d   1      -8.301  25.504 -12.283  0.00  0.00    -0.231 N 
+ATOM     48  H   MUJ d   1      -7.693  24.695 -12.157  0.00  0.00     0.174 HD
+ATOM     49  H   MUJ d   1      -8.798  25.898 -11.484  0.00  0.00     0.174 HD
+ENDBRANCH  40  47
+ENDBRANCH  34  37
+ENDBRANCH   1  34
+TORSDOF 11

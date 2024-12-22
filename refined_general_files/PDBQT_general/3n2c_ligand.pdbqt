@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_8  and  C_1 
+REMARK    2  A    between atoms: N_2  and  P_4 
+REMARK    3  A    between atoms: P_4  and  C1_5 
+ROOT
+ATOM      1  N   LWY d   1      51.729 -60.061  18.142  0.00  0.00    -0.326 N 
+ATOM      2  CA  LWY d   1      52.957 -59.620  18.802  0.00  0.00     0.100 C 
+ATOM      3  CB  LWY d   1      54.010 -59.696  17.702  0.00  0.00    -0.035 C 
+ATOM      4  CD  LWY d   1      51.795 -60.061  16.680  0.00  0.00    -0.000 C 
+ATOM      5  CG  LWY d   1      53.286 -59.953  16.387  0.00  0.00    -0.048 C 
+ATOM      6  H   LWY d   1      53.191 -60.234  19.672  0.00  0.00     0.089 H 
+ATOM      7  H   LWY d   1      54.718 -60.498  17.909  0.00  0.00     0.036 H 
+ATOM      8  H   LWY d   1      54.573 -58.764  17.650  0.00  0.00     0.036 H 
+ATOM      9  H   LWY d   1      51.224 -59.245  16.238  0.00  0.00     0.064 H 
+ATOM     10  H   LWY d   1      51.349 -60.954  16.243  0.00  0.00     0.064 H 
+ATOM     11  H   LWY d   1      53.647 -60.876  15.934  0.00  0.00     0.035 H 
+ATOM     12  H   LWY d   1      53.473 -59.137  15.690  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  P   LWY d   1      50.375 -60.523  19.010  0.00  0.00     0.204 P 
+ATOM     14  O1  LWY d   1      49.772 -59.208  19.705  0.00  0.00    -0.652 OA
+ATOM     15  O2  LWY d   1      50.769 -61.673  19.900  0.00  0.00    -0.652 OA
+BRANCH  13  16
+ATOM     16  C1  LWY d   1      49.185 -61.098  17.924  0.00  0.00     0.013 C 
+ATOM     17  H   LWY d   1      48.275 -61.334  18.476  0.00  0.00     0.044 H 
+ATOM     18  H   LWY d   1      48.972 -60.330  17.181  0.00  0.00     0.044 H 
+ATOM     19  H   LWY d   1      49.553 -61.995  17.426  0.00  0.00     0.044 H 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+BRANCH   2  20
+ATOM     20  C   LWY d   1      52.846 -58.213  19.322  0.00  0.00     0.197 C 
+ATOM     21  OXT LWY d   1      53.455 -57.898  20.365  0.00  0.00    -0.646 OA
+ATOM     22  O   LWY d   1      52.138 -57.396  18.700  0.00  0.00    -0.646 OA
+ENDBRANCH   2  20
+TORSDOF 3

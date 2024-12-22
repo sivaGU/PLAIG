@@ -1,0 +1,28 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SAH_1  and  CAF_2 
+REMARK    2  A    between atoms: CAE_8  and  OAI_9 
+ROOT
+ATOM      1  CAF 7CZ d   1      -5.862   1.678  16.202  0.00  0.00     0.007 A 
+ATOM      2  CAG 7CZ d   1      -6.274   2.980  16.620  0.00  0.00    -0.068 A 
+ATOM      3  CAD 7CZ d   1      -6.058   4.239  15.958  0.00  0.00    -0.082 A 
+ATOM      4  CAC 7CZ d   1      -5.403   4.524  14.755  0.00  0.00    -0.083 A 
+ATOM      5  CAB 7CZ d   1      -4.791   3.594  13.904  0.00  0.00    -0.084 A 
+ATOM      6  CAA 7CZ d   1      -4.669   2.230  14.003  0.00  0.00    -0.071 A 
+ATOM      7  CAE 7CZ d   1      -5.135   1.411  14.999  0.00  0.00     0.083 A 
+ATOM      8  H2  7CZ d   1      -6.822   3.026  17.560  0.00  0.00     0.085 H 
+ATOM      9  H3  7CZ d   1      -6.468   5.106  16.474  0.00  0.00     0.083 H 
+ATOM     10  H4  7CZ d   1      -5.365   5.569  14.451  0.00  0.00     0.083 H 
+ATOM     11  H5  7CZ d   1      -4.335   4.026  13.014  0.00  0.00     0.083 H 
+ATOM     12  H6  7CZ d   1      -4.136   1.738  13.190  0.00  0.00     0.081 H 
+ATOM     13  H7  7CZ d   1      -6.100   1.333  14.476  0.00  0.00     0.097 H 
+ENDROOT
+BRANCH   7  14
+ATOM     14  OAI 7CZ d   1      -4.808   0.130  14.724  0.00  0.00    -0.387 OA
+ATOM     15  H8  7CZ d   1      -5.199  -0.125  13.897  0.00  0.00     0.210 HD
+ENDBRANCH   7  14
+BRANCH   1  16
+ATOM     16  SAH 7CZ d   1      -6.232   0.319  17.154  0.00  0.00    -0.144 SA
+ATOM     17  H1  7CZ d   1      -5.868  -0.510  16.711  0.00  0.00     0.107 HD
+ENDBRANCH   1  16
+TORSDOF 2

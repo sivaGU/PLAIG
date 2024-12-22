@@ -1,0 +1,50 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAD_3  and  CAB_4 
+REMARK       I    between atoms: CAB_4  and  NAA_6 
+REMARK    2  A    between atoms: CAG_9  and  OAH_10 
+REMARK    3  A    between atoms: OAH_10  and  CAI_11 
+REMARK    4  A    between atoms: CAL_14  and  CAO_15 
+REMARK       I    between atoms: CAO_15  and  NAP_17 
+ROOT
+ATOM      1  OAH OUL d   1     -32.436  13.841 169.628  0.00  0.00    -0.311 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAG OUL d   1     -33.511  14.616 169.182  0.00  0.00     0.076 A 
+ATOM      3  CAF OUL d   1     -33.358  15.520 168.118  0.00  0.00    -0.049 A 
+ATOM      4  CAE OUL d   1     -34.468  16.235 167.639  0.00  0.00    -0.065 A 
+ATOM      5  H1  OUL d   1     -32.383  15.666 167.667  0.00  0.00     0.087 H 
+ATOM      6  CAD OUL d   1     -35.739  16.056 168.207  0.00  0.00     0.032 A 
+ATOM      7  H2  OUL d   1     -34.342  16.934 166.820  0.00  0.00     0.085 H 
+ATOM      8  CAS OUL d   1     -35.896  15.141 169.254  0.00  0.00    -0.065 A 
+ATOM      9  CAR OUL d   1     -34.792  14.421 169.741  0.00  0.00    -0.049 A 
+ATOM     10  H5  OUL d   1     -36.875  14.987 169.692  0.00  0.00     0.085 H 
+ATOM     11  H6  OUL d   1     -34.925  13.712 170.550  0.00  0.00     0.087 H 
+BRANCH   6  12
+ATOM     12  CAB OUL d   1     -36.842  16.790 167.696  0.00  0.00     0.249 C 
+ATOM     13  OAC OUL d   1     -36.685  17.681 166.853  0.00  0.00    -0.268 OA
+ATOM     14  NAA OUL d   1     -38.054  16.364 168.064  0.00  0.00    -0.366 N 
+ATOM     15  H3  OUL d   1     -38.871  16.839 167.738  0.00  0.00     0.159 HD
+ATOM     16  H4  OUL d   1     -38.144  15.570 168.666  0.00  0.00     0.159 HD
+ENDBRANCH   6  12
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  CAI OUL d   1     -31.327  14.277 170.281  0.00  0.00     0.076 A 
+ATOM     18  CAJ OUL d   1     -31.429  15.272 171.232  0.00  0.00    -0.049 A 
+ATOM     19  CAK OUL d   1     -30.311  15.673 171.938  0.00  0.00    -0.065 A 
+ATOM     20  H7  OUL d   1     -32.388  15.740 171.425  0.00  0.00     0.087 H 
+ATOM     21  CAL OUL d   1     -29.070  15.087 171.706  0.00  0.00     0.032 A 
+ATOM     22  H8  OUL d   1     -30.402  16.455 172.683  0.00  0.00     0.085 H 
+ATOM     23  CAM OUL d   1     -28.978  14.074 170.742  0.00  0.00    -0.065 A 
+ATOM     24  CAN OUL d   1     -30.114  13.638 170.021  0.00  0.00    -0.049 A 
+ATOM     25  H11 OUL d   1     -28.016  13.615 170.545  0.00  0.00     0.085 H 
+ATOM     26  H12 OUL d   1     -30.045  12.837 169.294  0.00  0.00     0.087 H 
+BRANCH  21  27
+ATOM     27  CAO OUL d   1     -27.918  15.544 172.388  0.00  0.00     0.249 C 
+ATOM     28  OAQ OUL d   1     -26.812  15.512 171.839  0.00  0.00    -0.268 OA
+ATOM     29  NAP OUL d   1     -28.069  16.026 173.617  0.00  0.00    -0.366 N 
+ATOM     30  H9  OUL d   1     -27.274  16.357 174.125  0.00  0.00     0.159 HD
+ATOM     31  H10 OUL d   1     -28.978  16.058 174.034  0.00  0.00     0.159 HD
+ENDBRANCH  21  27
+ENDBRANCH   1  17
+TORSDOF 4

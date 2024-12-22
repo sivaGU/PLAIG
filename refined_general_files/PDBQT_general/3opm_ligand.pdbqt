@@ -1,0 +1,90 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  O24_16 
+REMARK    2  A    between atoms: C11_25  and  C10_5 
+REMARK    3  A    between atoms: C9_19  and  C17_8 
+REMARK    4  A    between atoms: C17_8  and  N18_20 
+REMARK    5  A    between atoms: C20_9  and  C21_10 
+REMARK    6  A    between atoms: C20_9  and  C22_11 
+REMARK    7  A    between atoms: C19_22  and  C20_9 
+REMARK       I    between atoms: C26_12  and  N27_14 
+REMARK    8  A    between atoms: C25_15  and  C26_12 
+REMARK    9  A    between atoms: O24_16  and  C25_15 
+REMARK   10  A    between atoms: N8_21  and  C19_22 
+ROOT
+ATOM      1  C4  LUI d   1      18.350 -32.851  13.690  0.00  0.00    -0.039 A 
+ATOM      2  C5  LUI d   1      17.794 -31.679  13.188  0.00  0.00     0.070 A 
+ATOM      3  C6  LUI d   1      16.667 -31.130  13.818  0.00  0.00    -0.050 A 
+ATOM      4  C7  LUI d   1      16.103 -33.631  16.628  0.00  0.00     0.259 A 
+ATOM      5  C10 LUI d   1      18.343 -34.713  15.353  0.00  0.00     0.010 A 
+ATOM      6  C1  LUI d   1      16.112 -31.760  14.931  0.00  0.00    -0.064 A 
+ATOM      7  C3  LUI d   1      17.782 -33.466  14.809  0.00  0.00    -0.005 A 
+ATOM      8  C9  LUI d   1      17.718 -35.325  16.549  0.00  0.00     0.052 A 
+ATOM      9  N8  LUI d   1      16.632 -34.761  17.118  0.00  0.00    -0.315 N 
+ATOM     10  O23 LUI d   1      15.104 -33.142  17.193  0.00  0.00    -0.267 OA
+ATOM     11  C2  LUI d   1      16.670 -32.934  15.434  0.00  0.00     0.043 A 
+ATOM     12  H   LUI d   1      19.226 -33.289  13.212  0.00  0.00     0.089 H 
+ATOM     13  H   LUI d   1      16.225 -30.210  13.437  0.00  0.00     0.087 H 
+ATOM     14  H   LUI d   1      15.233 -31.330  15.412  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   9  15
+ATOM     15  C19 LUI d   1      15.964 -35.352  18.292  0.00  0.00     0.006 C 
+ATOM     16  H   LUI d   1      16.622 -36.110  18.716  0.00  0.00     0.065 H 
+ATOM     17  H   LUI d   1      15.755 -34.555  19.005  0.00  0.00     0.065 H 
+BRANCH  15  18
+ATOM     18  C20 LUI d   1      14.630 -36.025  17.911  0.00  0.00    -0.045 C 
+ATOM     19  H   LUI d   1      13.892 -35.227  17.998  0.00  0.00     0.041 H 
+BRANCH  18  20
+ATOM     20  C21 LUI d   1      14.280 -37.171  18.844  0.00  0.00    -0.072 C 
+ATOM     21  H   LUI d   1      13.289 -37.551  18.595  0.00  0.00     0.028 H 
+ATOM     22  H   LUI d   1      15.015 -37.968  18.731  0.00  0.00     0.028 H 
+ATOM     23  H   LUI d   1      14.285 -36.814  19.874  0.00  0.00     0.028 H 
+ENDBRANCH  18  20
+BRANCH  18  24
+ATOM     24  C22 LUI d   1      14.612 -36.564  16.491  0.00  0.00    -0.072 C 
+ATOM     25  H   LUI d   1      15.344 -37.366  16.399  0.00  0.00     0.028 H 
+ATOM     26  H   LUI d   1      13.618 -36.950  16.263  0.00  0.00     0.028 H 
+ATOM     27  H   LUI d   1      14.860 -35.762  15.796  0.00  0.00     0.028 H 
+ENDBRANCH  18  24
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+BRANCH   8  28
+ATOM     28  C17 LUI d   1      18.345 -36.598  17.062  0.00  0.00     0.118 C 
+ATOM     29  H   LUI d   1      18.667 -37.217  16.224  0.00  0.00     0.085 H 
+ATOM     30  H   LUI d   1      17.618 -37.159  17.650  0.00  0.00     0.085 H 
+BRANCH  28  31
+ATOM     31  N18 LUI d   1      19.480 -36.254  17.883  0.00  0.00    -0.074 N 
+ATOM     32  H   LUI d   1      19.913 -37.107  18.236  0.00  0.00     0.274 HD
+ATOM     33  H   LUI d   1      20.157 -35.734  17.325  0.00  0.00     0.274 HD
+ATOM     34  H   LUI d   1      19.170 -35.679  18.666  0.00  0.00     0.274 HD
+ENDBRANCH  28  31
+ENDBRANCH   8  28
+BRANCH   5  35
+ATOM     35  C11 LUI d   1      19.560 -35.289  14.742  0.00  0.00    -0.023 A 
+ATOM     36  C16 LUI d   1      19.548 -36.168  13.676  0.00  0.00    -0.072 A 
+ATOM     37  C15 LUI d   1      20.756 -36.658  13.192  0.00  0.00    -0.082 A 
+ATOM     38  H   LUI d   1      18.605 -36.473  13.221  0.00  0.00     0.084 H 
+ATOM     39  C14 LUI d   1      21.963 -36.264  13.763  0.00  0.00    -0.083 A 
+ATOM     40  H   LUI d   1      20.758 -37.358  12.357  0.00  0.00     0.083 H 
+ATOM     41  C13 LUI d   1      21.973 -35.377  14.828  0.00  0.00    -0.082 A 
+ATOM     42  H   LUI d   1      22.902 -36.654  13.371  0.00  0.00     0.083 H 
+ATOM     43  C12 LUI d   1      20.769 -34.890  15.310  0.00  0.00    -0.072 A 
+ATOM     44  H   LUI d   1      22.915 -35.067  15.280  0.00  0.00     0.083 H 
+ATOM     45  H   LUI d   1      20.767 -34.187  16.143  0.00  0.00     0.084 H 
+ENDBRANCH   5  35
+BRANCH   2  46
+ATOM     46  O24 LUI d   1      18.380 -31.105  12.083  0.00  0.00    -0.342 OA
+BRANCH  46  47
+ATOM     47  C25 LUI d   1      17.575 -30.285  11.239  0.00  0.00     0.099 C 
+ATOM     48  H   LUI d   1      16.658 -30.828  11.011  0.00  0.00     0.089 H 
+ATOM     49  H   LUI d   1      17.376 -29.349  11.761  0.00  0.00     0.089 H 
+BRANCH  47  50
+ATOM     50  C26 LUI d   1      18.263 -29.964   9.949  0.00  0.00     0.239 C 
+ATOM     51  O28 LUI d   1      17.719 -29.157   9.194  0.00  0.00    -0.271 OA
+ATOM     52  N27 LUI d   1      19.427 -30.581   9.723  0.00  0.00    -0.368 N 
+ATOM     53  H   LUI d   1      19.943 -30.397   8.863  0.00  0.00     0.159 HD
+ATOM     54  H   LUI d   1      19.799 -31.236  10.411  0.00  0.00     0.159 HD
+ENDBRANCH  47  50
+ENDBRANCH  46  47
+ENDBRANCH   2  46
+TORSDOF 10

@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_2  and  CAR_4 
+REMARK    2  A    between atoms: CAP_6  and  OAE_7 
+REMARK    3  A    between atoms: CAO_11  and  CAQ_12 
+REMARK    4  A    between atoms: CAN_17  and  CAK_18 
+REMARK    5  A    between atoms: CAK_18  and  CAA_19 
+ROOT
+ATOM      1  CAQ HNY d   1     -21.946  18.090 136.019  0.00  0.00    -0.001 A 
+ATOM      2  CAI HNY d   1     -21.348  18.849 137.035  0.00  0.00    -0.070 A 
+ATOM      3  CAG HNY d   1     -22.112  19.311 138.109  0.00  0.00    -0.082 A 
+ATOM      4  CAF HNY d   1     -23.477  19.006 138.172  0.00  0.00    -0.082 A 
+ATOM      5  CAH HNY d   1     -24.073  18.243 137.164  0.00  0.00    -0.076 A 
+ATOM      6  CAN HNY d   1     -23.322  17.759 136.084  0.00  0.00    -0.046 A 
+ATOM      7  H4  HNY d   1     -20.290  19.078 136.987  0.00  0.00     0.084 H 
+ATOM      8  H5  HNY d   1     -21.650  19.903 138.891  0.00  0.00     0.083 H 
+ATOM      9  H6  HNY d   1     -24.073  19.362 139.004  0.00  0.00     0.083 H 
+ATOM     10  H7  HNY d   1     -25.133  18.022 137.218  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  CAO HNY d   1     -21.134  17.680 134.971  0.00  0.00     0.071 A 
+ATOM     12  NAL HNY d   1     -20.026  16.929 135.261  0.00  0.00    -0.242 NA
+ATOM     13  CAR HNY d   1     -19.197  16.497 134.237  0.00  0.00     0.147 A 
+ATOM     14  CAP HNY d   1     -19.495  16.849 132.907  0.00  0.00     0.145 A 
+ATOM     15  CAS HNY d   1     -20.615  17.627 132.598  0.00  0.00     0.186 A 
+ATOM     16  H1  HNY d   1     -18.891  17.761 133.018  0.00  0.00     0.106 H 
+ATOM     17  OAC HNY d   1     -20.924  17.950 131.442  0.00  0.00    -0.290 OA
+ATOM     18  CAJ HNY d   1     -21.417  18.042 133.653  0.00  0.00    -0.007 A 
+ATOM     19  H3  HNY d   1     -22.287  18.664 133.447  0.00  0.00     0.092 H 
+BRANCH  13  20
+ATOM     20  CAM HNY d   1     -18.097  15.737 134.620  0.00  0.00     0.227 C 
+ATOM     21  OAB HNY d   1     -17.220  15.469 133.775  0.00  0.00    -0.643 OA
+ATOM     22  OAD HNY d   1     -17.966  15.349 135.817  0.00  0.00    -0.643 OA
+ENDBRANCH  13  20
+BRANCH  14  23
+ATOM     23  OAE HNY d   1     -18.683  16.429 131.883  0.00  0.00    -0.381 OA
+ATOM     24  H2  HNY d   1     -18.659  15.479 131.868  0.00  0.00     0.211 HD
+ENDBRANCH  14  23
+ENDBRANCH   1  11
+BRANCH   6  25
+ATOM     25  CAK HNY d   1     -24.003  17.027 135.120  0.00  0.00    -0.043 C 
+ATOM     26  H8  HNY d   1     -24.054  17.614 134.191  0.00  0.00     0.039 H 
+ATOM     27  H9  HNY d   1     -25.022  16.819 135.478  0.00  0.00     0.039 H 
+BRANCH  25  28
+ATOM     28  CAA HNY d   1     -23.283  15.688 134.835  0.00  0.00    -0.073 C 
+ATOM     29  H10 HNY d   1     -23.840  15.128 134.070  0.00  0.00     0.028 H 
+ATOM     30  H11 HNY d   1     -23.233  15.095 135.760  0.00  0.00     0.028 H 
+ATOM     31  H12 HNY d   1     -22.264  15.889 134.472  0.00  0.00     0.028 H 
+ENDBRANCH  25  28
+ENDBRANCH   6  25
+TORSDOF 5

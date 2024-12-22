@@ -1,0 +1,92 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CC_2 
+REMARK    2  A    between atoms: N1_1  and  CA_3 
+REMARK    3  A    between atoms: N1_1  and  S4_4 
+REMARK    4  A    between atoms: CC_2  and  C5_5 
+REMARK    5  A    between atoms: CA_3  and  C34_21 
+REMARK    6  A    between atoms: CA_3  and  CB_23 
+REMARK    7  A    between atoms: S4_4  and  C17_11 
+REMARK    8  A    between atoms: C20_14  and  O27_17 
+REMARK    9  A    between atoms: O27_17  and  COM_18 
+REMARK       I    between atoms: C34_21  and  N35_22 
+REMARK   10  A    between atoms: N35_22  and  O48_27 
+REMARK   11  A    between atoms: CB_23  and  CG2_24 
+REMARK   12  A    between atoms: CB_23  and  CG1_25 
+ROOT
+ATOM      1  N1  CGS d   1     -13.523  26.067 -24.324  0.00  0.00    -0.288 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CC  CGS d   1     -12.765  26.288 -25.589  0.00  0.00     0.031 C 
+ATOM      3  H1  CGS d   1     -13.017  25.469 -26.278  0.00  0.00     0.072 H 
+ATOM      4  H2  CGS d   1     -11.692  26.248 -25.349  0.00  0.00     0.072 H 
+BRANCH   2   5
+ATOM      5  C5  CGS d   1     -13.030  27.600 -26.312  0.00  0.00    -0.022 A 
+ATOM      6  CD  CGS d   1     -13.985  27.654 -27.334  0.00  0.00    -0.072 A 
+ATOM      7  CE  CGS d   1     -14.239  28.862 -27.993  0.00  0.00    -0.065 A 
+ATOM      8  H4  CGS d   1     -14.528  26.759 -27.615  0.00  0.00     0.084 H 
+ATOM      9  CZ  CGS d   1     -13.519  30.007 -27.650  0.00  0.00     0.002 A 
+ATOM     10  H5  CGS d   1     -14.994  28.908 -28.769  0.00  0.00     0.085 H 
+ATOM     11  N11 CGS d   1     -12.571  29.961 -26.642  0.00  0.00    -0.273 NA
+ATOM     12  H6  CGS d   1     -13.703  30.937 -28.175  0.00  0.00     0.114 H 
+ATOM     13  CY  CGS d   1     -12.318  28.761 -25.989  0.00  0.00     0.009 A 
+ATOM     14  H7  CGS d   1     -11.557  28.723 -25.218  0.00  0.00     0.115 H 
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  CA  CGS d   1     -12.727  25.998 -23.072  0.00  0.00     0.104 C 
+ATOM     16  H3  CGS d   1     -13.433  26.064 -22.231  0.00  0.00     0.089 H 
+BRANCH  15  17
+ATOM     17  C34 CGS d   1     -12.002  24.673 -22.974  0.00  0.00     0.265 C 
+ATOM     18  N35 CGS d   1     -12.137  23.974 -21.854  0.00  0.00    -0.236 N 
+ATOM     19  H15 CGS d   1     -12.609  24.374 -21.069  0.00  0.00     0.197 HD
+ATOM     20  O47 CGS d   1     -11.321  24.282 -23.905  0.00  0.00    -0.269 OA
+BRANCH  18  21
+ATOM     21  O48 CGS d   1     -11.618  22.677 -21.773  0.00  0.00    -0.287 OA
+ATOM     22  H23 CGS d   1     -11.798  22.318 -20.912  0.00  0.00     0.244 HD
+ENDBRANCH  18  21
+ENDBRANCH  15  17
+BRANCH  15  23
+ATOM     23  CB  CGS d   1     -11.720  27.150 -22.920  0.00  0.00    -0.032 C 
+ATOM     24  H16 CGS d   1     -11.175  27.231 -23.872  0.00  0.00     0.042 H 
+BRANCH  23  25
+ATOM     25  CG2 CGS d   1     -12.388  28.500 -22.649  0.00  0.00    -0.071 C 
+ATOM     26  H17 CGS d   1     -11.616  29.278 -22.551  0.00  0.00     0.028 H 
+ATOM     27  H18 CGS d   1     -12.969  28.441 -21.717  0.00  0.00     0.028 H 
+ATOM     28  H19 CGS d   1     -13.058  28.752 -23.484  0.00  0.00     0.028 H 
+ENDBRANCH  23  25
+BRANCH  23  29
+ATOM     29  CG1 CGS d   1     -10.696  26.877 -21.811  0.00  0.00    -0.071 C 
+ATOM     30  H20 CGS d   1     -10.207  25.908 -21.993  0.00  0.00     0.028 H 
+ATOM     31  H21 CGS d   1     -11.208  26.852 -20.837  0.00  0.00     0.028 H 
+ATOM     32  H22 CGS d   1      -9.938  27.675 -21.807  0.00  0.00     0.028 H 
+ENDBRANCH  23  29
+ENDBRANCH  15  23
+ENDBRANCH   1  15
+BRANCH   1  33
+ATOM     33  S4  CGS d   1     -15.129  25.766 -24.243  0.00  0.00     0.261 S 
+ATOM     34  O32 CGS d   1     -15.808  26.470 -25.283  0.00  0.00    -0.200 OA
+ATOM     35  O33 CGS d   1     -15.538  26.037 -22.895  0.00  0.00    -0.200 OA
+BRANCH  33  36
+ATOM     36  C17 CGS d   1     -15.335  24.043 -24.513  0.00  0.00     0.079 A 
+ATOM     37  CE2 CGS d   1     -15.555  23.538 -25.788  0.00  0.00    -0.058 A 
+ATOM     38  CD2 CGS d   1     -15.717  22.163 -25.959  0.00  0.00    -0.049 A 
+ATOM     39  H8  CGS d   1     -15.600  24.205 -26.641  0.00  0.00     0.086 H 
+ATOM     40  C20 CGS d   1     -15.658  21.302 -24.858  0.00  0.00     0.068 A 
+ATOM     41  H9  CGS d   1     -15.889  21.760 -26.950  0.00  0.00     0.087 H 
+ATOM     42  CD1 CGS d   1     -15.430  21.810 -23.591  0.00  0.00    -0.049 A 
+ATOM     43  CE1 CGS d   1     -15.272  23.181 -23.422  0.00  0.00    -0.058 A 
+ATOM     44  H10 CGS d   1     -15.375  21.144 -22.737  0.00  0.00     0.087 H 
+ATOM     45  H11 CGS d   1     -15.098  23.583 -22.430  0.00  0.00     0.086 H 
+BRANCH  40  46
+ATOM     46  O27 CGS d   1     -15.813  19.949 -25.019  0.00  0.00    -0.356 OA
+BRANCH  46  47
+ATOM     47  COM CGS d   1     -16.050  19.393 -26.318  0.00  0.00     0.010 C 
+ATOM     48  H12 CGS d   1     -16.146  18.300 -26.237  0.00  0.00     0.066 H 
+ATOM     49  H13 CGS d   1     -15.208  19.639 -26.982  0.00  0.00     0.066 H 
+ATOM     50  H14 CGS d   1     -16.979  19.812 -26.733  0.00  0.00     0.066 H 
+ENDBRANCH  46  47
+ENDBRANCH  40  46
+ENDBRANCH  33  36
+ENDBRANCH   1  33
+TORSDOF 12

@@ -1,0 +1,35 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CP1_4  and  B_1 
+REMARK    2  A    between atoms: B_1  and  OB2_3 
+REMARK    3  A    between atoms: B_1  and  OB1_2 
+REMARK    4  A    between atoms: CP4_7  and  CX_8 
+ROOT
+ATOM      1  CP1 4CB d   1      26.349   5.966  15.270  0.00  0.00    -0.032 A 
+ATOM      2  CP2 4CB d   1      25.976   5.262  14.130  0.00  0.00    -0.081 A 
+ATOM      3  CP3 4CB d   1      25.433   5.907  13.025  0.00  0.00    -0.067 A 
+ATOM      4  CP4 4CB d   1      25.257   7.321  13.076  0.00  0.00     0.040 A 
+ATOM      5  CP5 4CB d   1      25.665   8.025  14.248  0.00  0.00    -0.067 A 
+ATOM      6  CP6 4CB d   1      26.196   7.347  15.312  0.00  0.00    -0.081 A 
+ATOM      7  H3  4CB d   1      26.112   4.187  14.103  0.00  0.00     0.083 H 
+ATOM      8  H4  4CB d   1      25.149   5.346  12.142  0.00  0.00     0.085 H 
+ATOM      9  H5  4CB d   1      25.554   9.102  14.296  0.00  0.00     0.085 H 
+ATOM     10  H6  4CB d   1      26.501   7.893  16.197  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  B   4CB d   1      26.851   5.173  16.518  0.00  0.00     0.529 B 
+BRANCH  11  12
+ATOM     12  OB2 4CB d   1      26.884   6.052  17.715  0.00  0.00    -0.433 OA
+ATOM     13  H2  4CB d   1      27.189   5.554  18.464  0.00  0.00     0.185 HD
+ENDBRANCH  11  12
+BRANCH  11  14
+ATOM     14  OB1 4CB d   1      25.927   4.031  16.763  0.00  0.00    -0.433 OA
+ATOM     15  H1  4CB d   1      25.054   4.363  16.936  0.00  0.00     0.185 HD
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   4  16
+ATOM     16  CX  4CB d   1      24.545   8.049  11.953  0.00  0.00     0.209 C 
+ATOM     17  OX1 4CB d   1      24.117   9.310  12.151  0.00  0.00    -0.644 OA
+ATOM     18  OX2 4CB d   1      24.331   7.484  10.871  0.00  0.00    -0.644 OA
+ENDBRANCH   4  16
+TORSDOF 4

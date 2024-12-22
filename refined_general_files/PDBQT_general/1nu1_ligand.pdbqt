@@ -1,0 +1,81 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C29_1  and  C28_2 
+REMARK    2  A    between atoms: C28_2  and  C27_3 
+REMARK    3  A    between atoms: C27_3  and  C26_4 
+REMARK    4  A    between atoms: C26_4  and  C25_5 
+REMARK    5  A    between atoms: C25_5  and  C24_6 
+REMARK    6  A    between atoms: C24_6  and  C23_7 
+REMARK    7  A    between atoms: C23_7  and  C22_8 
+REMARK    8  A    between atoms: C22_8  and  C21_9 
+REMARK    9  A    between atoms: C21_9  and  C2_10 
+REMARK   10  A    between atoms: C4_12  and  O41_13 
+ROOT
+ATOM      1  C22 QNO d   1      63.090  72.496 142.289  0.00  0.00    -0.060 C 
+ATOM      2  H16 QNO d   1      64.006  73.021 142.598  0.00  0.00     0.033 H 
+ATOM      3  H17 QNO d   1      62.844  72.767 141.252  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C23 QNO d   1      61.946  72.950 143.191  0.00  0.00    -0.065 C 
+ATOM      5  H14 QNO d   1      61.183  73.449 142.576  0.00  0.00     0.033 H 
+ATOM      6  H15 QNO d   1      61.505  72.068 143.679  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  C24 QNO d   1      62.427  73.918 144.263  0.00  0.00    -0.065 C 
+ATOM      8  H12 QNO d   1      63.386  74.358 143.951  0.00  0.00     0.033 H 
+ATOM      9  H13 QNO d   1      61.681  74.716 144.392  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  C25 QNO d   1      62.617  73.183 145.594  0.00  0.00    -0.065 C 
+ATOM     11  H10 QNO d   1      62.334  72.129 145.460  0.00  0.00     0.033 H 
+ATOM     12  H11 QNO d   1      63.676  73.244 145.884  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C26 QNO d   1      61.762  73.785 146.715  0.00  0.00    -0.065 C 
+ATOM     14  H8  QNO d   1      61.059  73.016 147.067  0.00  0.00     0.033 H 
+ATOM     15  H9  QNO d   1      62.428  74.079 147.540  0.00  0.00     0.033 H 
+BRANCH  13  16
+ATOM     16  C27 QNO d   1      60.956  75.015 146.282  0.00  0.00    -0.065 C 
+ATOM     17  H6  QNO d   1      61.494  75.531 145.473  0.00  0.00     0.033 H 
+ATOM     18  H7  QNO d   1      59.971  74.689 145.917  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  C28 QNO d   1      60.762  75.982 147.450  0.00  0.00    -0.069 C 
+ATOM     20  H4  QNO d   1      61.017  75.470 148.389  0.00  0.00     0.032 H 
+ATOM     21  H5  QNO d   1      61.423  76.850 147.314  0.00  0.00     0.032 H 
+BRANCH  19  22
+ATOM     22  C29 QNO d   1      59.311  76.461 147.517  0.00  0.00    -0.077 C 
+ATOM     23  H1  QNO d   1      59.193  77.155 148.363  0.00  0.00     0.027 H 
+ATOM     24  H2  QNO d   1      58.645  75.596 147.656  0.00  0.00     0.027 H 
+ATOM     25  H3  QNO d   1      59.051  76.977 146.581  0.00  0.00     0.027 H 
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  C21 QNO d   1      63.351  70.997 142.346  0.00  0.00    -0.024 C 
+ATOM     27  H18 QNO d   1      62.964  70.612 143.301  0.00  0.00     0.042 H 
+ATOM     28  H19 QNO d   1      64.437  70.830 142.296  0.00  0.00     0.042 H 
+BRANCH  26  29
+ATOM     29  C2  QNO d   1      62.693  70.229 141.215  0.00  0.00     0.046 A 
+ATOM     30  C3  QNO d   1      63.497  69.548 140.323  0.00  0.00    -0.026 A 
+ATOM     31  C4  QNO d   1      62.957  68.846 139.276  0.00  0.00     0.080 A 
+ATOM     32  H20 QNO d   1      64.573  69.569 140.452  0.00  0.00     0.090 H 
+ATOM     33  C5  QNO d   1      61.507  68.785 139.173  0.00  0.00     0.026 A 
+ATOM     34  C51 QNO d   1      60.877  68.078 138.170  0.00  0.00    -0.068 A 
+ATOM     35  C6  QNO d   1      60.738  69.479 140.190  0.00  0.00     0.078 A 
+ATOM     36  C52 QNO d   1      59.500  68.081 138.122  0.00  0.00    -0.082 A 
+ATOM     37  H22 QNO d   1      61.454  67.531 137.434  0.00  0.00     0.085 H 
+ATOM     38  C62 QNO d   1      58.759  68.738 139.088  0.00  0.00    -0.081 A 
+ATOM     39  H23 QNO d   1      58.991  67.562 137.318  0.00  0.00     0.083 H 
+ATOM     40  C61 QNO d   1      59.365  69.423 140.126  0.00  0.00    -0.054 A 
+ATOM     41  H24 QNO d   1      57.677  68.716 139.030  0.00  0.00     0.083 H 
+ATOM     42  H25 QNO d   1      58.763  69.912 140.883  0.00  0.00     0.087 H 
+ATOM     43  N1  QNO d   1      61.356  70.179 141.137  0.00  0.00    -0.192 N 
+ATOM     44  OH  QNO d   1      60.674  70.770 141.989  0.00  0.00    -0.080 OA
+BRANCH  31  45
+ATOM     45  O41 QNO d   1      63.682  68.271 138.436  0.00  0.00    -0.360 OA
+ATOM     46  H21 QNO d   1      64.237  68.912 138.006  0.00  0.00     0.217 HD
+ENDBRANCH  31  45
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 10

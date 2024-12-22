@@ -1,0 +1,87 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_8  and  CE_1 
+REMARK    2  A    between atoms: CE_1  and  NZ_12 
+REMARK    3  A    between atoms: CD_9  and  CB_2 
+REMARK    4  A    between atoms: CB_2  and  CA_10 
+REMARK    5  A    between atoms: SI_18  and  C1_3 
+REMARK    6  A    between atoms: SI_18  and  C3_4 
+REMARK    7  A    between atoms: SI_18  and  C4_5 
+REMARK    8  A    between atoms: O6_14  and  C5_6 
+REMARK    9  A    between atoms: C5_6  and  SI_18 
+REMARK       I    between atoms: NZ_12  and  C7_7 
+REMARK   10  A    between atoms: C7_7  and  O6_14 
+REMARK   11  A    between atoms: CG_8  and  CD_9 
+REMARK   12  A    between atoms: CA_10  and  C_11 
+REMARK   13  A    between atoms: CA_10  and  N_13 
+ROOT
+ATOM      1  CE  9VF d   1     125.390  32.498  14.320  0.00  0.00    -0.003 C 
+ATOM      2  H1  9VF d   1     124.719  33.077  13.668  0.00  0.00     0.064 H 
+ATOM      3  H2  9VF d   1     125.293  31.427  14.088  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CG  9VF d   1     125.045  32.751  15.784  0.00  0.00    -0.050 C 
+ATOM      5  H16 9VF d   1     125.385  33.763  16.050  0.00  0.00     0.035 H 
+ATOM      6  H17 9VF d   1     125.579  32.011  16.399  0.00  0.00     0.035 H 
+BRANCH   4   7
+ATOM      7  CD  9VF d   1     123.537  32.646  16.096  0.00  0.00    -0.061 C 
+ATOM      8  H18 9VF d   1     123.002  33.131  15.266  0.00  0.00     0.033 H 
+ATOM      9  H19 9VF d   1     123.287  31.575  16.118  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  CB  9VF d   1     122.995  33.264  17.406  0.00  0.00    -0.029 C 
+ATOM     11  H3  9VF d   1     123.476  32.739  18.244  0.00  0.00     0.036 H 
+ATOM     12  H4  9VF d   1     121.910  33.084  17.434  0.00  0.00     0.036 H 
+BRANCH  10  13
+ATOM     13  CA  9VF d   1     123.221  34.778  17.614  0.00  0.00     0.182 C 
+ATOM     14  H20 9VF d   1     123.902  35.050  16.794  0.00  0.00     0.101 H 
+BRANCH  13  15
+ATOM     15  C   9VF d   1     122.070  35.846  17.539  0.00  0.00     0.204 C 
+ATOM     16  OXT 9VF d   1     122.349  37.020  18.180  0.00  0.00    -0.646 OA
+ATOM     17  O   9VF d   1     120.853  35.764  16.877  0.00  0.00    -0.646 OA
+ENDBRANCH  13  15
+BRANCH  13  18
+ATOM     18  N   9VF d   1     123.917  35.038  18.836  0.00  0.00    -0.065 N 
+ATOM     19  H22 9VF d   1     124.049  36.032  18.943  0.00  0.00     0.275 HD
+ATOM     20  H23 9VF d   1     124.815  34.580  18.815  0.00  0.00     0.275 HD
+ATOM     21  H24 9VF d   1     123.378  34.685  19.611  0.00  0.00     0.275 HD
+ENDBRANCH  13  18
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  22
+ATOM     22  NZ  9VF d   1     126.754  32.924  14.130  0.00  0.00    -0.337 N 
+ATOM     23  C7  9VF d   1     127.684  31.857  14.342  0.00  0.00     0.360 C 
+ATOM     24  O8  9VF d   1     127.172  30.794  14.310  0.00  0.00    -0.239 OA
+ATOM     25  H21 9VF d   1     127.019  33.855  13.880  0.00  0.00     0.164 HD
+BRANCH  23  26
+ATOM     26  O6  9VF d   1     129.089  31.940  14.610  0.00  0.00    -0.302 OA
+BRANCH  26  27
+ATOM     27  C5  9VF d   1     129.963  32.776  13.812  0.00  0.00     0.051 C 
+ATOM     28  H14 9VF d   1     130.978  32.353  13.834  0.00  0.00     0.078 H 
+ATOM     29  H15 9VF d   1     129.979  33.788  14.243  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30 SI   9VF d   1     129.384  32.884  12.019  0.00  0.00     0.000 Si
+BRANCH  30  31
+ATOM     31  C1  9VF d   1     128.012  34.175  11.853  0.00  0.00    -0.080 C 
+ATOM     32  H5  9VF d   1     127.684  34.228  10.805  0.00  0.00     0.027 H 
+ATOM     33  H6  9VF d   1     128.393  35.158  12.168  0.00  0.00     0.027 H 
+ATOM     34  H7  9VF d   1     127.161  33.890  12.490  0.00  0.00     0.027 H 
+ENDBRANCH  30  31
+BRANCH  30  35
+ATOM     35  C3  9VF d   1     130.606  33.484  10.712  0.00  0.00    -0.080 C 
+ATOM     36  H8  9VF d   1     131.479  32.815  10.691  0.00  0.00     0.027 H 
+ATOM     37  H9  9VF d   1     130.933  34.505  10.957  0.00  0.00     0.027 H 
+ATOM     38  H10 9VF d   1     130.119  33.482   9.726  0.00  0.00     0.027 H 
+ENDBRANCH  30  35
+BRANCH  30  39
+ATOM     39  C4  9VF d   1     129.189  31.111  11.448  0.00  0.00    -0.080 C 
+ATOM     40  H11 9VF d   1     128.488  30.586  12.114  0.00  0.00     0.027 H 
+ATOM     41  H12 9VF d   1     130.167  30.608  11.475  0.00  0.00     0.027 H 
+ATOM     42  H13 9VF d   1     128.798  31.098  10.420  0.00  0.00     0.027 H 
+ENDBRANCH  30  39
+ENDBRANCH  27  30
+ENDBRANCH  26  27
+ENDBRANCH  23  26
+ENDBRANCH   1  22
+TORSDOF 13

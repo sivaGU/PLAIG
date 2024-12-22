@@ -1,0 +1,37 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_14  and  CAM_11 
+REMARK    2  A    between atoms: CAQ_15  and  CAR_16 
+ROOT
+ATOM      1  CAE 3MI d   1       0.214  -0.480  -1.894  0.00  0.00    -0.064 A 
+ATOM      2  CAF 3MI d   1       0.647  -1.025  -3.091  0.00  0.00    -0.051 A 
+ATOM      3  CAJ 3MI d   1      -1.005   1.178  -3.123  0.00  0.00    -0.031 A 
+ATOM      4  NAK 3MI d   1       0.555  -0.823  -5.496  0.00  0.00    -0.221 NA
+ATOM      5  OAL 3MI d   1      -0.724   0.940  -5.587  0.00  0.00    -0.289 OA
+ATOM      6  CAP 3MI d   1      -0.636   0.619  -1.893  0.00  0.00     0.043 A 
+ATOM      7  CAR 3MI d   1      -0.034   0.041  -6.313  0.00  0.00     0.181 A 
+ATOM      8  CAS 3MI d   1       0.267  -0.470  -4.240  0.00  0.00     0.093 A 
+ATOM      9  CAT 3MI d   1      -0.539   0.613  -4.257  0.00  0.00     0.107 A 
+ATOM     10  H1  3MI d   1       0.539  -0.912  -0.955  0.00  0.00     0.085 H 
+ATOM     11  H2  3MI d   1       1.291  -1.897  -3.093  0.00  0.00     0.087 H 
+ATOM     12  H6  3MI d   1      -1.652   2.047  -3.164  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   7  13
+ATOM     13  CAQ 3MI d   1      -0.001   0.022  -7.645  0.00  0.00     0.020 A 
+ATOM     14  CAH 3MI d   1       0.370  -1.120  -8.348  0.00  0.00    -0.048 A 
+ATOM     15  CAN 3MI d   1       0.362  -1.118  -9.746  0.00  0.00     0.036 A 
+ATOM     16  H4  3MI d   1       0.666  -2.014  -7.810  0.00  0.00     0.087 H 
+ATOM     17  CAG 3MI d   1       0.002   0.013 -10.479  0.00  0.00    -0.041 A 
+ATOM     18 CLC  3MI d   1       0.796  -2.570 -10.606  0.00  0.00    -0.084 Cl
+ATOM     19  CAO 3MI d   1      -0.361   1.141  -9.750  0.00  0.00     0.036 A 
+ATOM     20  H3  3MI d   1       0.005   0.013 -11.563  0.00  0.00     0.088 H 
+ATOM     21  CAI 3MI d   1      -0.383   1.150  -8.357  0.00  0.00    -0.048 A 
+ATOM     22 CLD  3MI d   1      -0.789   2.577 -10.607  0.00  0.00    -0.084 Cl
+ATOM     23  H5  3MI d   1      -0.700   2.041  -7.828  0.00  0.00     0.087 H 
+ENDBRANCH   7  13
+BRANCH   6  24
+ATOM     24  CAM 3MI d   1      -1.061   1.138  -0.659  0.00  0.00     0.209 C 
+ATOM     25  OAA 3MI d   1      -0.496   0.786   0.406  0.00  0.00    -0.644 OA
+ATOM     26  OAB 3MI d   1      -2.039   1.923  -0.597  0.00  0.00    -0.644 OA
+ENDBRANCH   6  24
+TORSDOF 2

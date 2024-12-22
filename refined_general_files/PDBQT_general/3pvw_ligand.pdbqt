@@ -1,0 +1,93 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C10_10  and  C15_15 
+REMARK    3  A    between atoms: N11_11  and  C12_12 
+REMARK    4  A    between atoms: C12_12  and  C13_13 
+REMARK    5  A    between atoms: C13_13  and  C14_14 
+REMARK    6  A    between atoms: C15_15  and  N16_16 
+REMARK    7  A    between atoms: N16_16  and  C17_17 
+REMARK    8  A    between atoms: C19_19  and  C23_23 
+REMARK       I    between atoms: C23_23  and  N24_24 
+REMARK    9  A    between atoms: N24_24  and  C26_26 
+REMARK   10  A    between atoms: C26_26  and  C27_27 
+ROOT
+ATOM      1  N16 QRX d   1      38.524  -8.090  52.343  0.00  0.00    -0.383 N 
+ATOM      2  H13 QRX d   1      39.474  -8.451  52.176  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C15 QRX d   1      37.814  -7.448  51.222  0.00  0.00     0.049 C 
+ATOM      4  H11 QRX d   1      38.345  -7.673  50.285  0.00  0.00     0.075 H 
+ATOM      5  H12 QRX d   1      36.791  -7.849  51.169  0.00  0.00     0.075 H 
+BRANCH   3   6
+ATOM      6  C10 QRX d   1      37.745  -5.926  51.404  0.00  0.00     0.148 A 
+ATOM      7  N9  QRX d   1      38.441  -5.183  52.260  0.00  0.00    -0.133 NA
+ATOM      8  N8  QRX d   1      38.126  -3.994  52.135  0.00  0.00    -0.128 NA
+ATOM      9  C7  QRX d   1      37.197  -3.858  51.190  0.00  0.00     0.182 A 
+ATOM     10  N11 QRX d   1      36.975  -5.092  50.738  0.00  0.00    -0.314 N 
+BRANCH   9  11
+ATOM     11  C1  QRX d   1      36.636  -2.639  50.784  0.00  0.00     0.107 A 
+ATOM     12  C2  QRX d   1      35.349  -2.514  50.269  0.00  0.00    -0.034 A 
+ATOM     13  C3  QRX d   1      34.892  -1.258  49.884  0.00  0.00     0.006 A 
+ATOM     14  H1  QRX d   1      34.711  -3.385  50.169  0.00  0.00     0.089 H 
+ATOM     15  N4  QRX d   1      35.674  -0.199  50.028  0.00  0.00    -0.254 NA
+ATOM     16  H2  QRX d   1      33.898  -1.146  49.467  0.00  0.00     0.114 H 
+ATOM     17  C5  QRX d   1      36.900  -0.335  50.517  0.00  0.00     0.087 A 
+ATOM     18  N6  QRX d   1      37.375  -1.523  50.881  0.00  0.00    -0.238 NA
+ATOM     19  H3  QRX d   1      37.529   0.542  50.622  0.00  0.00     0.146 H 
+ENDBRANCH   9  11
+BRANCH  10  20
+ATOM     20  C12 QRX d   1      36.032  -5.498  49.691  0.00  0.00     0.003 C 
+ATOM     21  H4  QRX d   1      36.259  -6.524  49.367  0.00  0.00     0.065 H 
+ATOM     22  H5  QRX d   1      36.116  -4.815  48.833  0.00  0.00     0.065 H 
+BRANCH  20  23
+ATOM     23  C13 QRX d   1      34.607  -5.439  50.260  0.00  0.00    -0.053 C 
+ATOM     24  H6  QRX d   1      34.571  -4.683  51.058  0.00  0.00     0.034 H 
+ATOM     25  H7  QRX d   1      34.347  -6.424  50.676  0.00  0.00     0.034 H 
+BRANCH  23  26
+ATOM     26  C14 QRX d   1      33.586  -5.069  49.176  0.00  0.00    -0.075 C 
+ATOM     27  H8  QRX d   1      32.579  -5.036  49.617  0.00  0.00     0.027 H 
+ATOM     28  H9  QRX d   1      33.611  -5.823  48.376  0.00  0.00     0.027 H 
+ATOM     29  H10 QRX d   1      33.836  -4.083  48.758  0.00  0.00     0.027 H 
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  10  20
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  30
+ATOM     30  C17 QRX d   1      37.999  -8.229  53.569  0.00  0.00     0.029 A 
+ATOM     31  C18 QRX d   1      38.719  -8.967  54.496  0.00  0.00    -0.042 A 
+ATOM     32  C19 QRX d   1      38.252  -9.160  55.798  0.00  0.00     0.034 A 
+ATOM     33  H14 QRX d   1      39.667  -9.405  54.203  0.00  0.00     0.088 H 
+ATOM     34  C20 QRX d   1      37.025  -8.602  56.166  0.00  0.00    -0.068 A 
+ATOM     35  C21 QRX d   1      36.285  -7.858  55.238  0.00  0.00    -0.080 A 
+ATOM     36  H15 QRX d   1      36.645  -8.745  57.171  0.00  0.00     0.085 H 
+ATOM     37  C22 QRX d   1      36.770  -7.674  53.944  0.00  0.00    -0.058 A 
+ATOM     38  H16 QRX d   1      35.334  -7.425  55.526  0.00  0.00     0.083 H 
+ATOM     39  H17 QRX d   1      36.194  -7.100  53.227  0.00  0.00     0.086 H 
+BRANCH  32  40
+ATOM     40  C23 QRX d   1      39.097 -10.002  56.784  0.00  0.00     0.252 C 
+ATOM     41  N24 QRX d   1      40.390 -10.091  56.472  0.00  0.00    -0.352 N 
+ATOM     42  H18 QRX d   1      40.713  -9.600  55.663  0.00  0.00     0.163 HD
+ATOM     43  O25 QRX d   1      38.586 -10.569  57.750  0.00  0.00    -0.268 OA
+BRANCH  41  44
+ATOM     44  C26 QRX d   1      41.364 -10.864  57.241  0.00  0.00     0.025 C 
+ATOM     45  H19 QRX d   1      40.860 -11.694  57.758  0.00  0.00     0.071 H 
+ATOM     46  H20 QRX d   1      41.857 -10.216  57.981  0.00  0.00     0.071 H 
+BRANCH  44  47
+ATOM     47  C27 QRX d   1      42.402 -11.416  56.256  0.00  0.00     0.037 A 
+ATOM     48  C28 QRX d   1      43.611 -10.746  56.061  0.00  0.00     0.127 A 
+ATOM     49  C29 QRX d   1      44.578 -11.221  55.171  0.00  0.00    -0.045 A 
+ATOM     50  F34 QRX d   1      43.854  -9.619  56.760  0.00  0.00    -0.205 F 
+ATOM     51  C30 QRX d   1      44.347 -12.386  54.443  0.00  0.00    -0.077 A 
+ATOM     52  H21 QRX d   1      45.510 -10.682  55.047  0.00  0.00     0.088 H 
+ATOM     53  C31 QRX d   1      43.145 -13.069  54.620  0.00  0.00    -0.045 A 
+ATOM     54  H22 QRX d   1      45.092 -12.756  53.748  0.00  0.00     0.083 H 
+ATOM     55  C32 QRX d   1      42.183 -12.586  55.514  0.00  0.00     0.127 A 
+ATOM     56  H23 QRX d   1      42.955 -13.979  54.062  0.00  0.00     0.088 H 
+ATOM     57  F33 QRX d   1      41.027 -13.268  55.660  0.00  0.00    -0.205 F 
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  32  40
+ENDBRANCH   1  30
+TORSDOF 10

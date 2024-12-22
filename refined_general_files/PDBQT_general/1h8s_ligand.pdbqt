@@ -1,0 +1,70 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_7  and  C5_2 
+REMARK    2  A    between atoms: C6_3  and  C16_18 
+REMARK    3  A    between atoms: C6_3  and  C1_8 
+REMARK    4  A    between atoms: N1_4  and  C14_16 
+REMARK       I    between atoms: C3_9  and  N1_4 
+REMARK    5  A    between atoms: C12_14  and  C2_5 
+REMARK    6  A    between atoms: C3_9  and  C4_7 
+REMARK    7  A    between atoms: C4_7  and  N2_19 
+ROOT
+ATOM      1  C6  AIC d   1      15.486  36.115  10.473  0.00  0.00     0.029 C 
+ATOM      2  N3  AIC d   1      16.952  34.413  11.617  0.00  0.00    -0.219 NA
+ATOM      3  C12 AIC d   1      15.876  34.606  10.549  0.00  0.00     0.102 C 
+ATOM      4  C13 AIC d   1      16.822  35.355  12.736  0.00  0.00     0.075 C 
+ATOM      5  C14 AIC d   1      18.326  35.336  12.802  0.00  0.00     0.109 C 
+ATOM      6  C15 AIC d   1      18.321  34.767  11.494  0.00  0.00     0.227 C 
+ATOM      7  O4  AIC d   1      19.164  34.665  10.584  0.00  0.00    -0.277 OA
+ATOM      8  S1  AIC d   1      15.848  36.708  12.089  0.00  0.00    -0.135 SA
+ATOM      9  H11 AIC d   1      16.295  34.315   9.575  0.00  0.00     0.084 H 
+ATOM     10  H12 AIC d   1      16.355  34.980  13.659  0.00  0.00     0.085 H 
+ATOM     11  H13 AIC d   1      18.780  34.735  13.604  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  12
+ATOM     12  N1  AIC d   1      18.839  36.650  12.759  0.00  0.00    -0.344 N 
+ATOM     13  C3  AIC d   1      20.035  36.854  13.514  0.00  0.00     0.253 C 
+ATOM     14  O3  AIC d   1      20.713  35.886  13.949  0.00  0.00    -0.271 OA
+ATOM     15  H2  AIC d   1      18.399  37.383  12.240  0.00  0.00     0.163 HD
+BRANCH  13  16
+ATOM     16  C4  AIC d   1      20.506  38.219  13.765  0.00  0.00     0.201 C 
+ATOM     17  H3  AIC d   1      20.991  38.237  14.752  0.00  0.00     0.107 H 
+BRANCH  16  18
+ATOM     18  C5  AIC d   1      21.478  38.652  12.770  0.00  0.00    -0.019 A 
+ATOM     19  C7  AIC d   1      21.081  38.944  11.437  0.00  0.00    -0.074 A 
+ATOM     20  C8  AIC d   1      22.038  39.358  10.486  0.00  0.00    -0.082 A 
+ATOM     21  H7  AIC d   1      20.040  38.848  11.150  0.00  0.00     0.084 H 
+ATOM     22  C9  AIC d   1      23.385  39.503  10.871  0.00  0.00    -0.083 A 
+ATOM     23  H1  AIC d   1      21.738  39.563   9.465  0.00  0.00     0.083 H 
+ATOM     24  C10 AIC d   1      23.769  39.251  12.209  0.00  0.00    -0.082 A 
+ATOM     25  H8  AIC d   1      24.127  39.808  10.142  0.00  0.00     0.083 H 
+ATOM     26  C11 AIC d   1      22.827  38.790  13.146  0.00  0.00    -0.074 A 
+ATOM     27  H9  AIC d   1      24.796  39.414  12.514  0.00  0.00     0.083 H 
+ATOM     28  H10 AIC d   1      23.139  38.542  14.154  0.00  0.00     0.084 H 
+ENDBRANCH  16  18
+BRANCH  16  29
+ATOM     29  N2  AIC d   1      19.430  39.109  13.782  0.00  0.00    -0.062 N 
+ATOM     30  H17 AIC d   1      19.769  40.042  13.955  0.00  0.00     0.275 HD
+ATOM     31  H18 AIC d   1      18.786  38.844  14.511  0.00  0.00     0.275 HD
+ATOM     32  H19 AIC d   1      18.958  39.083  12.892  0.00  0.00     0.275 HD
+ENDBRANCH  16  29
+ENDBRANCH  13  16
+ENDBRANCH   5  12
+BRANCH   1  33
+ATOM     33  C16 AIC d   1      16.351  36.801   9.418  0.00  0.00    -0.059 C 
+ATOM     34  H14 AIC d   1      16.098  36.406   8.423  0.00  0.00     0.029 H 
+ATOM     35  H15 AIC d   1      17.412  36.606   9.631  0.00  0.00     0.029 H 
+ATOM     36  H16 AIC d   1      16.166  37.885   9.440  0.00  0.00     0.029 H 
+ENDBRANCH   1  33
+BRANCH   1  37
+ATOM     37  C1  AIC d   1      13.996  36.400  10.172  0.00  0.00    -0.059 C 
+ATOM     38  H4  AIC d   1      13.749  36.036   9.164  0.00  0.00     0.029 H 
+ATOM     39  H5  AIC d   1      13.812  37.483  10.226  0.00  0.00     0.029 H 
+ATOM     40  H6  AIC d   1      13.367  35.884  10.912  0.00  0.00     0.029 H 
+ENDBRANCH   1  37
+BRANCH   3  41
+ATOM     41  C2  AIC d   1      14.720  33.727  10.825  0.00  0.00     0.193 C 
+ATOM     42  O2  AIC d   1      13.885  33.457   9.908  0.00  0.00    -0.647 OA
+ATOM     43  O1  AIC d   1      14.559  33.250  11.975  0.00  0.00    -0.647 OA
+ENDBRANCH   3  41
+TORSDOF 7

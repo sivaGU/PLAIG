@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAS_2  and  CAR_5 
+REMARK    2  A    between atoms: CAR_5  and  NAJ_6 
+REMARK    3  A    between atoms: NAJ_6  and  C4_7 
+REMARK    4  A    between atoms: CAD_15  and  CAK_16 
+REMARK    5  A    between atoms: CAN_19  and  CAQ_20 
+ROOT
+ATOM      1  C4  YL3 d   1       5.122  71.374  27.991  0.00  0.00     0.138 A 
+ATOM      2  N3  YL3 d   1       4.741  70.095  28.178  0.00  0.00    -0.224 NA
+ATOM      3  C2  YL3 d   1       3.436  69.821  28.549  0.00  0.00     0.090 A 
+ATOM      4  N1  YL3 d   1       2.599  70.920  28.698  0.00  0.00    -0.234 NA
+ATOM      5  C6  YL3 d   1       3.060  72.178  28.494  0.00  0.00     0.113 A 
+ATOM      6  SAE YL3 d   1       2.285  73.543  28.634  0.00  0.00    -0.069 SA
+ATOM      7  C5  YL3 d   1       4.328  72.464  28.128  0.00  0.00     0.047 A 
+ATOM      8  CAC YL3 d   1       4.583  73.832  27.977  0.00  0.00    -0.049 A 
+ATOM      9  CAD YL3 d   1       3.517  74.660  28.222  0.00  0.00     0.018 A 
+ATOM     10  H   YL3 d   1       3.087  68.808  28.714  0.00  0.00     0.146 H 
+ATOM     11  H   YL3 d   1       5.561  74.213  27.685  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   9  12
+ATOM     12  CAK YL3 d   1       3.355  76.057  28.169  0.00  0.00    -0.019 A 
+ATOM     13  CAL YL3 d   1       4.392  77.030  28.218  0.00  0.00    -0.071 A 
+ATOM     14  CAM YL3 d   1       4.138  78.417  28.124  0.00  0.00    -0.076 A 
+ATOM     15  H   YL3 d   1       5.416  76.694  28.332  0.00  0.00     0.084 H 
+ATOM     16  CAN YL3 d   1       2.840  78.915  28.019  0.00  0.00    -0.062 A 
+ATOM     17  H   YL3 d   1       4.972  79.110  28.134  0.00  0.00     0.084 H 
+ATOM     18  CAO YL3 d   1       1.803  77.987  27.974  0.00  0.00    -0.076 A 
+ATOM     19  CAP YL3 d   1       2.064  76.613  28.067  0.00  0.00    -0.071 A 
+ATOM     20  H   YL3 d   1       0.781  78.332  27.866  0.00  0.00     0.084 H 
+ATOM     21  H   YL3 d   1       1.219  75.934  28.060  0.00  0.00     0.084 H 
+BRANCH  16  22
+ATOM     22  CAQ YL3 d   1       2.566  80.308  27.967  0.00  0.00    -0.051 C 
+ATOM     23  H   YL3 d   1       1.480  80.465  27.885  0.00  0.00     0.033 H 
+ATOM     24  H   YL3 d   1       3.067  80.748  27.092  0.00  0.00     0.033 H 
+ATOM     25  H   YL3 d   1       2.938  80.789  28.883  0.00  0.00     0.033 H 
+ENDBRANCH  16  22
+ENDBRANCH   9  12
+BRANCH   1  26
+ATOM     26  NAJ YL3 d   1       6.372  71.565  27.657  0.00  0.00    -0.361 N 
+ATOM     27  H   YL3 d   1       6.924  72.289  28.138  0.00  0.00     0.161 HD
+BRANCH  26  28
+ATOM     28  CAR YL3 d   1       6.996  70.754  26.599  0.00  0.00     0.097 C 
+ATOM     29  H   YL3 d   1       7.509  69.871  27.007  0.00  0.00     0.085 H 
+ATOM     30  H   YL3 d   1       6.266  70.436  25.840  0.00  0.00     0.085 H 
+BRANCH  28  31
+ATOM     31  PAS YL3 d   1       8.102  71.909  25.981  0.00  0.00     0.277 P 
+ATOM     32  OAT YL3 d   1       9.464  71.508  26.823  0.00  0.00    -0.638 OA
+ATOM     33  OAU YL3 d   1       7.667  73.309  26.404  0.00  0.00    -0.638 OA
+ATOM     34  OAV YL3 d   1       8.208  71.519  24.546  0.00  0.00    -0.638 OA
+ENDBRANCH  28  31
+ENDBRANCH  26  28
+ENDBRANCH   1  26
+TORSDOF 5

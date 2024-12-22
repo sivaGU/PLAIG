@@ -1,0 +1,88 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_1  and  C1_2 
+REMARK    2  A    between atoms: C1_2  and  C6_3 
+REMARK    3  A    between atoms: C1_2  and  C2_10 
+REMARK    4  A    between atoms: C6_3  and  C7_4 
+REMARK    5  A    between atoms: C2_10  and  O2_11 
+REMARK    6  A    between atoms: C2_10  and  C3_12 
+REMARK       I    between atoms: C3_12  and  N1_14 
+REMARK    7  A    between atoms: N1_14  and  C4_15 
+REMARK    8  A    between atoms: C4_15  and  C13_16 
+REMARK    9  A    between atoms: C4_15  and  C5_20 
+REMARK   10  A    between atoms: C13_16  and  C14_17 
+REMARK   11  A    between atoms: C14_17  and  C15_18 
+REMARK   12  A    between atoms: C14_17  and  C16_19 
+ROOT
+ATOM      1  C2  BES d   1      39.364  17.832 -14.323  0.00  0.00     0.139 C 
+ATOM      2  H12 BES d   1      40.267  18.214 -14.821  0.00  0.00     0.101 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  BES d   1      38.784  16.677 -15.171  0.00  0.00     0.136 C 
+ATOM      4  H4  BES d   1      37.692  16.618 -15.051  0.00  0.00     0.089 H 
+BRANCH   3   5
+ATOM      5  N2  BES d   1      39.368  15.458 -14.791  0.00  0.00    -0.072 N 
+ATOM      6  H1  BES d   1      38.983  14.713 -15.350  0.00  0.00     0.274 HD
+ATOM      7  H2  BES d   1      39.175  15.282 -13.817  0.00  0.00     0.274 HD
+ATOM      8  H3  BES d   1      40.365  15.504 -14.933  0.00  0.00     0.274 HD
+ENDBRANCH   3   5
+BRANCH   3   9
+ATOM      9  C6  BES d   1      39.151  17.015 -16.620  0.00  0.00    -0.012 C 
+ATOM     10  H5  BES d   1      40.194  16.703 -16.776  0.00  0.00     0.043 H 
+ATOM     11  H6  BES d   1      39.074  18.107 -16.733  0.00  0.00     0.043 H 
+BRANCH   9  12
+ATOM     12  C7  BES d   1      38.263  16.343 -17.796  0.00  0.00    -0.056 A 
+ATOM     13  C8  BES d   1      37.114  16.988 -18.267  0.00  0.00    -0.077 A 
+ATOM     14  C9  BES d   1      36.353  16.425 -19.298  0.00  0.00    -0.082 A 
+ATOM     15  H7  BES d   1      36.810  17.932 -17.829  0.00  0.00     0.084 H 
+ATOM     16  C10 BES d   1      36.741  15.228 -19.866  0.00  0.00    -0.083 A 
+ATOM     17  H9  BES d   1      35.460  16.928 -19.650  0.00  0.00     0.083 H 
+ATOM     18  C11 BES d   1      37.887  14.578 -19.405  0.00  0.00    -0.082 A 
+ATOM     19  H11 BES d   1      36.157  14.793 -20.669  0.00  0.00     0.083 H 
+ATOM     20  C12 BES d   1      38.654  15.146 -18.371  0.00  0.00    -0.077 A 
+ATOM     21  H10 BES d   1      38.187  13.633 -19.845  0.00  0.00     0.083 H 
+ATOM     22  H8  BES d   1      39.551  14.646 -18.025  0.00  0.00     0.084 H 
+ENDBRANCH   9  12
+ENDBRANCH   3   9
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  O2  BES d   1      39.703  17.490 -13.030  0.00  0.00    -0.384 OA
+ATOM     24  H13 BES d   1      38.931  17.177 -12.574  0.00  0.00     0.210 HD
+ENDBRANCH   1  23
+BRANCH   1  25
+ATOM     25  C3  BES d   1      38.278  18.934 -14.294  0.00  0.00     0.249 C 
+ATOM     26  O3  BES d   1      37.160  18.661 -13.822  0.00  0.00    -0.271 OA
+ATOM     27  N1  BES d   1      38.583  20.274 -14.869  0.00  0.00    -0.344 N 
+ATOM     28  H14 BES d   1      39.490  20.429 -15.260  0.00  0.00     0.163 HD
+BRANCH  27  29
+ATOM     29  C4  BES d   1      37.636  21.355 -14.889  0.00  0.00     0.096 C 
+ATOM     30  H15 BES d   1      36.788  21.114 -14.231  0.00  0.00     0.089 H 
+BRANCH  29  31
+ATOM     31  C13 BES d   1      38.383  22.630 -14.339  0.00  0.00    -0.034 C 
+ATOM     32  H16 BES d   1      39.033  23.033 -15.130  0.00  0.00     0.037 H 
+ATOM     33  H17 BES d   1      38.996  22.340 -13.473  0.00  0.00     0.037 H 
+BRANCH  31  34
+ATOM     34  C14 BES d   1      37.394  23.711 -13.909  0.00  0.00    -0.059 C 
+ATOM     35  H18 BES d   1      36.669  23.888 -14.717  0.00  0.00     0.038 H 
+BRANCH  34  36
+ATOM     36  C15 BES d   1      36.663  23.304 -12.666  0.00  0.00    -0.073 C 
+ATOM     37  H19 BES d   1      35.959  24.098 -12.378  0.00  0.00     0.028 H 
+ATOM     38  H20 BES d   1      37.385  23.142 -11.852  0.00  0.00     0.028 H 
+ATOM     39  H21 BES d   1      36.109  22.373 -12.855  0.00  0.00     0.028 H 
+ENDBRANCH  34  36
+BRANCH  34  40
+ATOM     40  C16 BES d   1      38.187  25.000 -13.624  0.00  0.00    -0.073 C 
+ATOM     41  H22 BES d   1      38.727  25.306 -14.532  0.00  0.00     0.028 H 
+ATOM     42  H23 BES d   1      38.907  24.816 -12.813  0.00  0.00     0.028 H 
+ATOM     43  H24 BES d   1      37.493  25.799 -13.323  0.00  0.00     0.028 H 
+ENDBRANCH  34  40
+ENDBRANCH  31  34
+ENDBRANCH  29  31
+BRANCH  29  44
+ATOM     44  C5  BES d   1      37.134  21.581 -16.229  0.00  0.00     0.196 C 
+ATOM     45  O1  BES d   1      35.912  21.576 -16.446  0.00  0.00    -0.646 OA
+ATOM     46  O4  BES d   1      37.885  21.775 -17.160  0.00  0.00    -0.646 OA
+ENDBRANCH  29  44
+ENDBRANCH  27  29
+ENDBRANCH   1  25
+TORSDOF 12

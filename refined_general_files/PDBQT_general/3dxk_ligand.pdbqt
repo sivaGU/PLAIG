@@ -1,0 +1,57 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAO_1  and  CAB_2 
+REMARK    2  A    between atoms: CAC_10  and  CAN_11 
+REMARK    3  A    between atoms: CAN_11  and  CAP_12 
+REMARK    4  A    between atoms: CAP_12  and  NAM_13 
+REMARK       I    between atoms: NAM_13  and  CAG_14 
+REMARK    5  A    between atoms: CAG_14  and  CAF_16 
+ROOT
+ATOM      1  CAB N23 d   1       0.847  15.696  37.151  0.00  0.00     0.013 A 
+ATOM      2  NAA N23 d   1       0.283  14.703  36.460  0.00  0.00    -0.359 N 
+ATOM      3  CAE N23 d   1      -0.758  15.193  35.794  0.00  0.00     0.043 A 
+ATOM      4  CAR N23 d   1      -1.663  14.568  34.940  0.00  0.00    -0.056 A 
+ATOM      5  CAT N23 d   1      -2.687  15.302  34.357  0.00  0.00    -0.081 A 
+ATOM      6  CAS N23 d   1      -2.818  16.659  34.655  0.00  0.00    -0.082 A 
+ATOM      7  CAQ N23 d   1      -1.928  17.289  35.513  0.00  0.00    -0.070 A 
+ATOM      8  CAD N23 d   1      -0.887  16.552  36.072  0.00  0.00    -0.001 A 
+ATOM      9  CAC N23 d   1       0.146  16.876  36.944  0.00  0.00    -0.022 A 
+ATOM     10  H4  N23 d   1       0.601  13.723  36.445  0.00  0.00     0.166 HD
+ATOM     11  H5  N23 d   1      -1.568  13.509  34.730  0.00  0.00     0.086 H 
+ATOM     12  H6  N23 d   1      -3.381  14.824  33.675  0.00  0.00     0.083 H 
+ATOM     13  H7  N23 d   1      -3.626  17.229  34.210  0.00  0.00     0.083 H 
+ATOM     14  H8  N23 d   1      -2.042  18.342  35.745  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   9  15
+ATOM     15  CAN N23 d   1       0.506  18.274  37.452  0.00  0.00    -0.024 C 
+ATOM     16  H9  N23 d   1       0.233  19.019  36.690  0.00  0.00     0.042 H 
+ATOM     17  H10 N23 d   1       1.588  18.324  37.642  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CAP N23 d   1      -0.248  18.577  38.747  0.00  0.00    -0.001 C 
+ATOM     19  H11 N23 d   1      -1.332  18.562  38.559  0.00  0.00     0.064 H 
+ATOM     20  H12 N23 d   1       0.045  19.567  39.125  0.00  0.00     0.064 H 
+BRANCH  18  21
+ATOM     21  NAM N23 d   1       0.099  17.544  39.736  0.00  0.00    -0.356 N 
+ATOM     22  CAG N23 d   1       0.963  17.787  40.710  0.00  0.00     0.258 C 
+ATOM     23  OAK N23 d   1       1.526  18.872  40.885  0.00  0.00    -0.267 OA
+ATOM     24  H13 N23 d   1      -0.326  16.641  39.671  0.00  0.00     0.162 HD
+BRANCH  22  25
+ATOM     25  CAF N23 d   1       1.204  16.597  41.640  0.00  0.00     0.072 A 
+ATOM     26  CAI N23 d   1       0.527  15.455  41.575  0.00  0.00    -0.060 A 
+ATOM     27  CAL N23 d   1       0.797  14.592  42.562  0.00  0.00    -0.075 A 
+ATOM     28  H14 N23 d   1      -0.189  15.239  40.783  0.00  0.00     0.085 H 
+ATOM     29  CAJ N23 d   1       1.704  14.966  43.465  0.00  0.00    -0.044 A 
+ATOM     30  H15 N23 d   1       0.297  13.626  42.625  0.00  0.00     0.084 H 
+ATOM     31  SAH N23 d   1       2.228  16.525  43.009  0.00  0.00    -0.097 SA
+ATOM     32  H16 N23 d   1       2.044  14.390  44.325  0.00  0.00     0.095 H 
+ENDBRANCH  22  25
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+BRANCH   1  33
+ATOM     33  CAO N23 d   1       2.017  15.541  38.123  0.00  0.00    -0.037 C 
+ATOM     34  H1  N23 d   1       2.273  16.523  38.548  0.00  0.00     0.035 H 
+ATOM     35  H2  N23 d   1       2.888  15.135  37.587  0.00  0.00     0.035 H 
+ATOM     36  H3  N23 d   1       1.732  14.854  38.934  0.00  0.00     0.035 H 
+ENDBRANCH   1  33
+TORSDOF 5

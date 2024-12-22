@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_12  and  C4_1 
+REMARK    2  A    between atoms: C8_5  and  N4_13 
+REMARK    3  A    between atoms: C2_12  and  C3_8 
+REMARK    4  A    between atoms: S1_11  and  C1_10 
+REMARK    5  A    between atoms: S1_11  and  C2_12 
+ROOT
+ATOM      1  C5  GO8 d   1     -12.963   3.563   7.250  0.00  0.00     0.128 A 
+ATOM      2  C6  GO8 d   1     -13.243   2.237   7.545  0.00  0.00     0.184 A 
+ATOM      3  C7  GO8 d   1     -10.921   1.817   7.616  0.00  0.00     0.091 A 
+ATOM      4  C8  GO8 d   1     -11.635   4.008   7.148  0.00  0.00     0.153 A 
+ATOM      5  N1  GO8 d   1     -14.159   4.183   7.111  0.00  0.00    -0.329 N 
+ATOM      6  N2  GO8 d   1     -12.213   1.382   7.717  0.00  0.00    -0.220 NA
+ATOM      7  N3  GO8 d   1     -10.621   3.099   7.349  0.00  0.00    -0.222 NA
+ATOM      8  C1  GO8 d   1     -15.136   3.280   7.286  0.00  0.00     0.169 A 
+ATOM      9  N5  GO8 d   1     -14.571   2.110   7.566  0.00  0.00    -0.202 NA
+ATOM     10  H4  GO8 d   1     -10.114   1.106   7.755  0.00  0.00     0.146 H 
+ATOM     11  H5  GO8 d   1     -14.296   5.183   6.905  0.00  0.00     0.168 HD
+ENDROOT
+BRANCH   8  12
+ATOM     12  S1  GO8 d   1     -16.866   3.608   7.232  0.00  0.00    -0.088 SA
+BRANCH  12  13
+ATOM     13  C2  GO8 d   1     -17.326   5.290   6.938  0.00  0.00    -0.009 C 
+ATOM     14  H9  GO8 d   1     -18.392   5.382   7.196  0.00  0.00     0.056 H 
+BRANCH  13  15
+ATOM     15  C4  GO8 d   1     -17.137   5.579   5.480  0.00  0.00    -0.064 C 
+ATOM     16  H1  GO8 d   1     -17.418   6.622   5.274  0.00  0.00     0.028 H 
+ATOM     17  H2  GO8 d   1     -17.772   4.904   4.887  0.00  0.00     0.028 H 
+ATOM     18  H3  GO8 d   1     -16.082   5.423   5.209  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3  GO8 d   1     -16.576   6.394   7.690  0.00  0.00    -0.064 C 
+ATOM     20  H6  GO8 d   1     -16.679   6.235   8.774  0.00  0.00     0.028 H 
+ATOM     21  H7  GO8 d   1     -16.999   7.373   7.422  0.00  0.00     0.028 H 
+ATOM     22  H8  GO8 d   1     -15.511   6.367   7.415  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+BRANCH   4  23
+ATOM     23  N4  GO8 d   1     -11.387   5.333   6.863  0.00  0.00    -0.382 N 
+ATOM     24  H10 GO8 d   1     -10.417   5.670   6.786  0.00  0.00     0.157 HD
+ATOM     25  H11 GO8 d   1     -12.172   5.986   6.727  0.00  0.00     0.157 HD
+ENDBRANCH   4  23
+TORSDOF 5

@@ -1,0 +1,80 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C5_2 
+REMARK       I    between atoms: C4_3  and  N1_1 
+REMARK    2  A    between atoms: N1_1  and  C12_8 
+REMARK    3  A    between atoms: C5_2  and  C6_20 
+REMARK       I    between atoms: N_11  and  C4_3 
+REMARK    4  A    between atoms: C3_12  and  C2_5 
+REMARK    5  A    between atoms: C2_5  and  O_14 
+REMARK    6  A    between atoms: C12_8  and  C13_7 
+REMARK    7  A    between atoms: N_11  and  C3_12 
+REMARK    8  A    between atoms: O_14  and  C1_15 
+REMARK    9  A    between atoms: C1_15  and  C_16 
+REMARK   10  A    between atoms: C9_21  and  N2_22 
+ROOT
+ATOM      1  N1  F1Q d   1      -0.829  18.849  -6.348  0.00  0.00    -0.323 N 
+ATOM      2  C4  F1Q d   1      -0.606  17.781  -5.605  0.00  0.00     0.319 C 
+ATOM      3  O2  F1Q d   1       0.154  16.882  -5.987  0.00  0.00    -0.247 OA
+ATOM      4  N   F1Q d   1      -1.196  17.630  -4.418  0.00  0.00    -0.334 N 
+ATOM      5  H7  F1Q d   1      -1.789  18.349  -4.054  0.00  0.00     0.164 HD
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5  F1Q d   1      -1.739  19.951  -6.119  0.00  0.00     0.023 C 
+ATOM      7  H1  F1Q d   1      -1.220  20.883  -6.388  0.00  0.00     0.071 H 
+ATOM      8  H2  F1Q d   1      -1.990  19.968  -5.048  0.00  0.00     0.071 H 
+BRANCH   6   9
+ATOM      9  C6  F1Q d   1      -3.053  19.892  -6.915  0.00  0.00    -0.040 A 
+ATOM     10  C11 F1Q d   1      -3.656  18.672  -7.257  0.00  0.00    -0.073 A 
+ATOM     11  C10 F1Q d   1      -4.894  18.684  -7.923  0.00  0.00    -0.057 A 
+ATOM     12  H6  F1Q d   1      -3.174  17.733  -7.011  0.00  0.00     0.084 H 
+ATOM     13  C9  F1Q d   1      -5.541  19.854  -8.262  0.00  0.00     0.025 A 
+ATOM     14  H3  F1Q d   1      -5.357  17.738  -8.180  0.00  0.00     0.086 H 
+ATOM     15  C8  F1Q d   1      -4.926  21.078  -7.957  0.00  0.00    -0.057 A 
+ATOM     16  C7  F1Q d   1      -3.696  21.077  -7.290  0.00  0.00    -0.073 A 
+ATOM     17  H18 F1Q d   1      -5.398  22.013  -8.235  0.00  0.00     0.086 H 
+ATOM     18  H19 F1Q d   1      -3.226  22.025  -7.056  0.00  0.00     0.084 H 
+BRANCH  13  19
+ATOM     19  N2  F1Q d   1      -6.741  19.794  -8.931  0.00  0.00    -0.399 N 
+ATOM     20  H16 F1Q d   1      -7.231  20.663  -9.188  0.00  0.00     0.156 HD
+ATOM     21  H17 F1Q d   1      -7.149  18.881  -9.175  0.00  0.00     0.156 HD
+ENDBRANCH  13  19
+ENDBRANCH   6   9
+ENDBRANCH   1   6
+BRANCH   1  22
+ATOM     22  C12 F1Q d   1      -0.159  18.999  -7.651  0.00  0.00     0.059 C 
+ATOM     23  H4  F1Q d   1      -0.528  19.924  -8.119  0.00  0.00     0.076 H 
+ATOM     24  H5  F1Q d   1      -0.433  18.137  -8.276  0.00  0.00     0.076 H 
+BRANCH  22  25
+ATOM     25  C13 F1Q d   1       1.354  19.074  -7.591  0.00  0.00     0.182 A 
+ATOM     26  N3  F1Q d   1       2.171  18.759  -8.605  0.00  0.00    -0.140 NA
+ATOM     27  N4  F1Q d   1       3.492  18.974  -8.149  0.00  0.00     0.021 NA
+ATOM     28  N5  F1Q d   1       3.414  19.398  -6.821  0.00  0.00    -0.200 N 
+ATOM     29  N6  F1Q d   1       2.102  19.422  -6.531  0.00  0.00    -0.142 NA
+ATOM     30  H15 F1Q d   1       4.196  19.641  -6.196  0.00  0.00     0.208 HD
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+BRANCH   4  31
+ATOM     31  C3  F1Q d   1      -0.970  16.413  -3.659  0.00  0.00     0.077 C 
+ATOM     32  H8  F1Q d   1       0.110  16.303  -3.481  0.00  0.00     0.079 H 
+ATOM     33  H9  F1Q d   1      -1.494  16.495  -2.696  0.00  0.00     0.079 H 
+BRANCH  31  34
+ATOM     34  C2  F1Q d   1      -1.470  15.184  -4.381  0.00  0.00     0.276 C 
+ATOM     35  O1  F1Q d   1      -2.478  15.153  -5.031  0.00  0.00    -0.263 OA
+BRANCH  34  36
+ATOM     36  O   F1Q d   1      -0.734  14.095  -4.201  0.00  0.00    -0.321 OA
+BRANCH  36  37
+ATOM     37  C1  F1Q d   1      -1.080  12.878  -4.904  0.00  0.00     0.025 C 
+ATOM     38  H10 F1Q d   1      -1.083  13.072  -5.987  0.00  0.00     0.074 H 
+ATOM     39  H11 F1Q d   1      -2.081  12.548  -4.588  0.00  0.00     0.074 H 
+BRANCH  37  40
+ATOM     40  C   F1Q d   1      -0.071  11.786  -4.593  0.00  0.00    -0.056 C 
+ATOM     41  H12 F1Q d   1      -0.346  10.868  -5.133  0.00  0.00     0.030 H 
+ATOM     42  H13 F1Q d   1      -0.067  11.588  -3.511  0.00  0.00     0.030 H 
+ATOM     43  H14 F1Q d   1       0.931  12.111  -4.910  0.00  0.00     0.030 H 
+ENDBRANCH  37  40
+ENDBRANCH  36  37
+ENDBRANCH  34  36
+ENDBRANCH  31  34
+ENDBRANCH   4  31
+TORSDOF 10

@@ -1,0 +1,108 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAY_32  and  C6_3 
+REMARK    2  A    between atoms: CBA_7  and  CAA_6 
+REMARK    3  A    between atoms: NBK_13  and  CBE_12 
+REMARK    4  A    between atoms: CBF_15  and  CBL_16 
+REMARK    5  A    between atoms: CBL_16  and  CAC_17 
+REMARK    6  A    between atoms: CBL_16  and  CAD_18 
+REMARK    7  A    between atoms: CBL_16  and  CAB_19 
+REMARK    8  A    between atoms: NAX_22  and  CBG_21 
+REMARK       I    between atoms: CAZ_23  and  NAX_22 
+REMARK       I    between atoms: NAW_25  and  CAZ_23 
+REMARK    9  A    between atoms: CBC_26  and  NAW_25 
+REMARK   10  A    between atoms: CBD_31  and  NAY_32 
+REMARK   11  A    between atoms: CBB_34  and  NAE_35 
+ROOT
+ATOM      1  NAX 1BU d   1      -0.762  -4.258 -14.460  0.00  0.00    -0.293 N 
+ATOM      2  CAZ 1BU d   1      -0.993  -3.540 -15.600  0.00  0.00     0.326 C 
+ATOM      3  OAF 1BU d   1      -0.168  -2.752 -16.089  0.00  0.00    -0.247 OA
+ATOM      4  NAW 1BU d   1      -2.216  -3.655 -16.125  0.00  0.00    -0.309 N 
+ATOM      5  H18 1BU d   1      -1.511  -4.829 -14.125  0.00  0.00     0.172 HD
+ATOM      6  H19 1BU d   1      -2.856  -4.204 -15.587  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  CBG 1BU d   1       0.385  -4.269 -13.742  0.00  0.00     0.135 A 
+ATOM      8  NBK 1BU d   1       0.878  -5.345 -13.105  0.00  0.00    -0.217 N 
+ATOM      9  NAV 1BU d   1       1.949  -5.046 -12.535  0.00  0.00    -0.169 NA
+ATOM     10  CBF 1BU d   1       2.237  -3.765 -12.748  0.00  0.00     0.066 A 
+ATOM     11  CAR 1BU d   1       1.256  -3.241 -13.517  0.00  0.00    -0.012 A 
+ATOM     12  H17 1BU d   1       1.177  -2.217 -13.880  0.00  0.00     0.092 H 
+BRANCH   8  13
+ATOM     13  CBE 1BU d   1       0.338  -6.558 -13.044  0.00  0.00     0.061 A 
+ATOM     14  CAQ 1BU d   1      -0.186  -7.198 -14.168  0.00  0.00    -0.049 A 
+ATOM     15  CBA 1BU d   1      -0.752  -8.474 -14.043  0.00  0.00    -0.060 A 
+ATOM     16  H4  1BU d   1      -0.155  -6.710 -15.135  0.00  0.00     0.087 H 
+ATOM     17  CAI 1BU d   1      -0.796  -9.121 -12.808  0.00  0.00    -0.077 A 
+ATOM     18  CAG 1BU d   1      -0.261  -8.487 -11.684  0.00  0.00    -0.080 A 
+ATOM     19  H5  1BU d   1      -1.241 -10.106 -12.721  0.00  0.00     0.084 H 
+ATOM     20  CAJ 1BU d   1       0.285  -7.198 -11.806  0.00  0.00    -0.055 A 
+ATOM     21  H6  1BU d   1      -0.267  -8.987 -10.722  0.00  0.00     0.083 H 
+ATOM     22  H7  1BU d   1       0.670  -6.695 -10.927  0.00  0.00     0.087 H 
+BRANCH  15  23
+ATOM     23  CAA 1BU d   1      -1.325  -9.145 -15.280  0.00  0.00    -0.051 C 
+ATOM     24  H1  1BU d   1      -1.197  -8.483 -16.149  0.00  0.00     0.033 H 
+ATOM     25  H2  1BU d   1      -2.396  -9.345 -15.126  0.00  0.00     0.033 H 
+ATOM     26  H3  1BU d   1      -0.797 -10.093 -15.461  0.00  0.00     0.033 H 
+ENDBRANCH  15  23
+ENDBRANCH   8  13
+BRANCH  10  27
+ATOM     27  CBL 1BU d   1       3.490  -3.033 -12.150  0.00  0.00    -0.005 C 
+BRANCH  27  28
+ATOM     28  CAC 1BU d   1       4.182  -2.163 -13.229  0.00  0.00    -0.064 C 
+ATOM     29  H8  1BU d   1       5.056  -1.660 -12.789  0.00  0.00     0.028 H 
+ATOM     30  H9  1BU d   1       3.474  -1.409 -13.601  0.00  0.00     0.028 H 
+ATOM     31  H10 1BU d   1       4.508  -2.803 -14.062  0.00  0.00     0.028 H 
+ENDBRANCH  27  28
+BRANCH  27  32
+ATOM     32  CAD 1BU d   1       4.512  -3.977 -11.499  0.00  0.00    -0.064 C 
+ATOM     33  H11 1BU d   1       4.011  -4.590 -10.735  0.00  0.00     0.028 H 
+ATOM     34  H12 1BU d   1       5.310  -3.385 -11.028  0.00  0.00     0.028 H 
+ATOM     35  H13 1BU d   1       4.947  -4.633 -12.268  0.00  0.00     0.028 H 
+ENDBRANCH  27  32
+BRANCH  27  36
+ATOM     36  CAB 1BU d   1       2.934  -2.176 -11.010  0.00  0.00    -0.064 C 
+ATOM     37  H14 1BU d   1       2.190  -1.472 -11.410  0.00  0.00     0.028 H 
+ATOM     38  H15 1BU d   1       3.755  -1.614 -10.540  0.00  0.00     0.028 H 
+ATOM     39  H16 1BU d   1       2.458  -2.826 -10.261  0.00  0.00     0.028 H 
+ENDBRANCH  27  36
+ENDBRANCH  10  27
+ENDBRANCH   1   7
+BRANCH   4  40
+ATOM     40  CBC 1BU d   1      -2.722  -3.148 -17.264  0.00  0.00     0.036 A 
+ATOM     41  CAL 1BU d   1      -1.895  -2.990 -18.374  0.00  0.00    -0.055 A 
+ATOM     42  CAN 1BU d   1      -2.393  -2.560 -19.612  0.00  0.00    -0.055 A 
+ATOM     43  H20 1BU d   1      -0.837  -3.205 -18.278  0.00  0.00     0.087 H 
+ATOM     44  CBD 1BU d   1      -3.755  -2.280 -19.795  0.00  0.00     0.033 A 
+ATOM     45  H21 1BU d   1      -1.711  -2.441 -20.446  0.00  0.00     0.087 H 
+ATOM     46  CAM 1BU d   1      -4.591  -2.475 -18.696  0.00  0.00    -0.055 A 
+ATOM     47  CAK 1BU d   1      -4.094  -2.916 -17.441  0.00  0.00    -0.055 A 
+ATOM     48  H23 1BU d   1      -5.653  -2.284 -18.803  0.00  0.00     0.087 H 
+ATOM     49  H22 1BU d   1      -4.779  -3.074 -16.615  0.00  0.00     0.087 H 
+BRANCH  44  50
+ATOM     50  NAY 1BU d   1      -4.244  -1.902 -21.037  0.00  0.00    -0.340 N 
+ATOM     51  H24 1BU d   1      -4.703  -2.655 -21.570  0.00  0.00     0.167 HD
+BRANCH  50  52
+ATOM     52  C6  1BU d   1      -4.213  -0.705 -21.657  0.00  0.00     0.142 A 
+ATOM     53  C5  1BU d   1      -4.351  -0.620 -23.069  0.00  0.00     0.041 A 
+ATOM     54  C4  1BU d   1      -4.318   0.649 -23.654  0.00  0.00     0.072 A 
+ATOM     55  CAS 1BU d   1      -4.507  -1.767 -23.881  0.00  0.00    -0.042 A 
+ATOM     56  N3  1BU d   1      -4.168   1.750 -22.878  0.00  0.00    -0.241 NA
+ATOM     57  CAP 1BU d   1      -4.448   0.790 -25.045  0.00  0.00    -0.052 A 
+ATOM     58  C2  1BU d   1      -4.039   1.624 -21.565  0.00  0.00     0.089 A 
+ATOM     59  N1  1BU d   1      -4.079   0.436 -20.957  0.00  0.00    -0.224 NA
+ATOM     60  H30 1BU d   1      -3.896   2.515 -20.965  0.00  0.00     0.146 H 
+ATOM     61  CAO 1BU d   1      -4.604  -0.346 -25.845  0.00  0.00    -0.056 A 
+ATOM     62  H29 1BU d   1      -4.428   1.775 -25.497  0.00  0.00     0.087 H 
+ATOM     63  CBB 1BU d   1      -4.637  -1.620 -25.278  0.00  0.00     0.026 A 
+ATOM     64  H28 1BU d   1      -4.700  -0.235 -26.919  0.00  0.00     0.087 H 
+ATOM     65  H25 1BU d   1      -4.527  -2.754 -23.433  0.00  0.00     0.088 H 
+BRANCH  63  66
+ATOM     66  NAE 1BU d   1      -4.784  -2.693 -26.080  0.00  0.00    -0.399 N 
+ATOM     67  H26 1BU d   1      -4.878  -2.566 -27.098  0.00  0.00     0.156 HD
+ATOM     68  H27 1BU d   1      -4.803  -3.640 -25.675  0.00  0.00     0.156 HD
+ENDBRANCH  63  66
+ENDBRANCH  50  52
+ENDBRANCH  44  50
+ENDBRANCH   4  40
+TORSDOF 11

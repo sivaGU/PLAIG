@@ -1,0 +1,76 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_16  and  C17_3 
+REMARK    2  A    between atoms: C17_3  and  C18_17 
+REMARK    3  A    between atoms: O21_22  and  C22_4 
+REMARK    4  A    between atoms: S15_23  and  C01_5 
+REMARK    5  A    between atoms: C09_12  and  O20_21 
+REMARK    6  A    between atoms: C12_14  and  O21_22 
+REMARK    7  A    between atoms: C16_16  and  S15_23 
+REMARK    8  A    between atoms: C18_17  and  N19_20 
+REMARK    9  A    between atoms: O20_21  and  C23_18 
+ROOT
+ATOM      1  C10 CQO d   1      81.073 144.291  18.603  0.00  0.00    -0.037 A 
+ATOM      2  C13 CQO d   1      84.408 142.090  13.712  0.00  0.00    -0.049 A 
+ATOM      3  C01 CQO d   1      81.922 142.808  16.935  0.00  0.00     0.025 A 
+ATOM      4  C02 CQO d   1      82.742 142.577  15.875  0.00  0.00     0.013 A 
+ATOM      5  C03 CQO d   1      83.554 143.585  15.382  0.00  0.00     0.069 A 
+ATOM      6  C05 CQO d   1      82.721 145.045  17.013  0.00  0.00     0.069 A 
+ATOM      7  C06 CQO d   1      81.907 144.042  17.514  0.00  0.00     0.013 A 
+ATOM      8  C07 CQO d   1      82.709 146.313  17.578  0.00  0.00    -0.052 A 
+ATOM      9  C08 CQO d   1      81.880 146.559  18.664  0.00  0.00    -0.049 A 
+ATOM     10  C09 CQO d   1      81.064 145.558  19.174  0.00  0.00     0.069 A 
+ATOM     11  C11 CQO d   1      82.756 141.324  15.283  0.00  0.00    -0.037 A 
+ATOM     12  C12 CQO d   1      83.589 141.079  14.203  0.00  0.00     0.069 A 
+ATOM     13  C14 CQO d   1      84.383 143.348  14.297  0.00  0.00    -0.052 A 
+ATOM     14  N04 CQO d   1      83.535 144.810  15.960  0.00  0.00    -0.247 NA
+ATOM     15  H1  CQO d   1      80.439 143.506  19.000  0.00  0.00     0.089 H 
+ATOM     16  H2  CQO d   1      85.066 141.895  12.873  0.00  0.00     0.087 H 
+ATOM     17  H8  CQO d   1      83.338 147.100  17.177  0.00  0.00     0.087 H 
+ATOM     18  H9  CQO d   1      81.870 147.543  19.119  0.00  0.00     0.087 H 
+ATOM     19  H10 CQO d   1      82.116 140.536  15.664  0.00  0.00     0.089 H 
+ATOM     20  H11 CQO d   1      85.009 144.142  13.907  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   3  21
+ATOM     21  S15 CQO d   1      80.887 141.445  17.550  0.00  0.00    -0.128 SA
+BRANCH  21  22
+ATOM     22  C16 CQO d   1      79.101 141.790  17.337  0.00  0.00    -0.017 C 
+ATOM     23  H12 CQO d   1      78.581 141.615  18.290  0.00  0.00     0.049 H 
+ATOM     24  H13 CQO d   1      78.967 142.839  17.033  0.00  0.00     0.049 H 
+BRANCH  22  25
+ATOM     25  C17 CQO d   1      78.513 140.874  16.265  0.00  0.00    -0.035 C 
+ATOM     26  H3  CQO d   1      77.757 140.220  16.723  0.00  0.00     0.036 H 
+ATOM     27  H4  CQO d   1      79.316 140.260  15.833  0.00  0.00     0.036 H 
+BRANCH  25  28
+ATOM     28  C18 CQO d   1      77.858 141.704  15.154  0.00  0.00     0.081 C 
+ATOM     29  H14 CQO d   1      78.041 142.773  15.341  0.00  0.00     0.075 H 
+ATOM     30  H15 CQO d   1      76.775 141.514  15.147  0.00  0.00     0.075 H 
+BRANCH  28  31
+ATOM     31  N19 CQO d   1      78.424 141.334  13.858  0.00  0.00    -0.079 N 
+ATOM     32  H19 CQO d   1      77.990 141.883  13.133  0.00  0.00     0.274 HD
+ATOM     33  H20 CQO d   1      78.256 140.355  13.685  0.00  0.00     0.274 HD
+ATOM     34  H21 CQO d   1      79.417 141.509  13.863  0.00  0.00     0.274 HD
+ENDBRANCH  28  31
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+BRANCH  12  35
+ATOM     35  O21 CQO d   1      83.612 139.805  13.611  0.00  0.00    -0.356 OA
+BRANCH  35  36
+ATOM     36  C22 CQO d   1      84.103 139.839  12.300  0.00  0.00     0.010 C 
+ATOM     37  H5  CQO d   1      84.101 138.822  11.881  0.00  0.00     0.066 H 
+ATOM     38  H6  CQO d   1      85.130 140.232  12.303  0.00  0.00     0.066 H 
+ATOM     39  H7  CQO d   1      83.463 140.489  11.685  0.00  0.00     0.066 H 
+ENDBRANCH  35  36
+ENDBRANCH  12  35
+BRANCH  10  40
+ATOM     40  O20 CQO d   1      80.240 145.863  20.262  0.00  0.00    -0.356 OA
+BRANCH  40  41
+ATOM     41  C23 CQO d   1      79.301 144.880  20.622  0.00  0.00     0.010 C 
+ATOM     42  H16 CQO d   1      78.715 145.231  21.484  0.00  0.00     0.066 H 
+ATOM     43  H17 CQO d   1      79.826 143.951  20.889  0.00  0.00     0.066 H 
+ATOM     44  H18 CQO d   1      78.627 144.689  19.774  0.00  0.00     0.066 H 
+ENDBRANCH  40  41
+ENDBRANCH  10  40
+TORSDOF 9

@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C2_2 
+REMARK    2  A    between atoms: C3_7  and  O3_8 
+REMARK    3  A    between atoms: C4_9  and  O4_10 
+REMARK    4  A    between atoms: C5_11  and  O5_12 
+ROOT
+ATOM      1  C2  CGB d   1       0.047  11.645   9.945  0.00  0.00     0.253 C 
+ATOM      2  N1  CGB d   1      -1.044  11.199  10.787  0.00  0.00    -0.034 N 
+ATOM      3  C8  CGB d   1       1.012  10.468  10.059  0.00  0.00    -0.006 C 
+ATOM      4  C7  CGB d   1       0.116   9.246  10.283  0.00  0.00    -0.031 C 
+ATOM      5  C6  CGB d   1      -1.300   9.828  10.447  0.00  0.00     0.132 C 
+ATOM      6  C3  CGB d   1      -0.454  11.763   8.488  0.00  0.00     0.118 C 
+ATOM      7  C4  CGB d   1      -1.187  10.468   8.034  0.00  0.00     0.091 C 
+ATOM      8  C5  CGB d   1      -2.092   9.896   9.128  0.00  0.00     0.090 C 
+ATOM      9  H2  CGB d   1      -1.865  11.758  10.615  0.00  0.00     0.281 HD
+ATOM     10  H3  CGB d   1      -0.785  11.273  11.758  0.00  0.00     0.281 HD
+ATOM     11  H4  CGB d   1       1.695  10.608  10.910  0.00  0.00     0.040 H 
+ATOM     12  H5  CGB d   1       1.596  10.355   9.134  0.00  0.00     0.040 H 
+ATOM     13  H6  CGB d   1       0.420   8.703  11.190  0.00  0.00     0.036 H 
+ATOM     14  H7  CGB d   1       0.160   8.569   9.418  0.00  0.00     0.036 H 
+ATOM     15  H8  CGB d   1      -1.867   9.289  11.220  0.00  0.00     0.088 H 
+ATOM     16  H9  CGB d   1      -1.164  12.600   8.420  0.00  0.00     0.094 H 
+ATOM     17  H11 CGB d   1      -0.418   9.714   7.810  0.00  0.00     0.091 H 
+ATOM     18  H13 CGB d   1      -2.957  10.563   9.256  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   6  19
+ATOM     19  O3  CGB d   1       0.686  12.052   7.664  0.00  0.00    -0.388 OA
+ATOM     20  H10 CGB d   1       1.081  12.868   7.947  0.00  0.00     0.210 HD
+ENDBRANCH   6  19
+BRANCH   1  21
+ATOM     21  O2  CGB d   1       0.589  12.877  10.418  0.00  0.00    -0.363 OA
+ATOM     22  H1  CGB d   1      -0.089  13.542  10.415  0.00  0.00     0.212 HD
+ENDBRANCH   1  21
+BRANCH   7  23
+ATOM     23  O4  CGB d   1      -1.936  10.699   6.843  0.00  0.00    -0.390 OA
+ATOM     24  H12 CGB d   1      -2.374   9.896   6.585  0.00  0.00     0.210 HD
+ENDBRANCH   7  23
+BRANCH   8  25
+ATOM     25  O5  CGB d   1      -2.569   8.576   8.799  0.00  0.00    -0.391 OA
+ATOM     26  H14 CGB d   1      -1.829   7.991   8.690  0.00  0.00     0.210 HD
+ENDBRANCH   8  25
+TORSDOF 4

@@ -1,0 +1,51 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C02_2  and  N06_6 
+REMARK    4  A    between atoms: N06_6  and  C07_7 
+REMARK    5  A    between atoms: N06_6  and  S13_13 
+REMARK    6  A    between atoms: S13_13  and  C14_14 
+ROOT
+ATOM      1  N06 NZ2 d   1      23.143   6.828  15.284  0.00  0.00    -0.262 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C02 NZ2 d   1      23.881   6.890  16.511  0.00  0.00     0.108 C 
+ATOM      3  H   NZ2 d   1      24.950   6.870  16.251  0.00  0.00     0.090 H 
+BRANCH   2   4
+ATOM      4  C01 NZ2 d   1      23.638   8.175  17.229  0.00  0.00    -0.047 C 
+ATOM      5  H   NZ2 d   1      24.218   8.188  18.163  0.00  0.00     0.031 H 
+ATOM      6  H   NZ2 d   1      22.567   8.268  17.461  0.00  0.00     0.031 H 
+ATOM      7  H   NZ2 d   1      23.950   9.016  16.592  0.00  0.00     0.031 H 
+ENDBRANCH   2   4
+BRANCH   2   8
+ATOM      8  C03 NZ2 d   1      23.614   5.675  17.352  0.00  0.00     0.197 C 
+ATOM      9  O04 NZ2 d   1      22.803   5.738  18.320  0.00  0.00    -0.646 OA
+ATOM     10  O05 NZ2 d   1      24.173   4.575  17.097  0.00  0.00    -0.646 OA
+ENDBRANCH   2   8
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C07 NZ2 d   1      21.702   6.837  15.274  0.00  0.00     0.045 A 
+ATOM     12  C08 NZ2 d   1      20.964   5.669  15.485  0.00  0.00    -0.056 A 
+ATOM     13  C09 NZ2 d   1      19.584   5.709  15.462  0.00  0.00    -0.081 A 
+ATOM     14  H   NZ2 d   1      21.476   4.731  15.667  0.00  0.00     0.086 H 
+ATOM     15  C10 NZ2 d   1      18.924   6.910  15.243  0.00  0.00    -0.083 A 
+ATOM     16  H   NZ2 d   1      19.014   4.800  15.616  0.00  0.00     0.083 H 
+ATOM     17  C11 NZ2 d   1      19.658   8.066  15.050  0.00  0.00    -0.081 A 
+ATOM     18  H   NZ2 d   1      17.841   6.942  15.223  0.00  0.00     0.083 H 
+ATOM     19  C12 NZ2 d   1      21.043   8.040  15.051  0.00  0.00    -0.056 A 
+ATOM     20  H   NZ2 d   1      19.142   9.007  14.896  0.00  0.00     0.083 H 
+ATOM     21  H   NZ2 d   1      21.607   8.949  14.880  0.00  0.00     0.086 H 
+ENDBRANCH   1  11
+BRANCH   1  22
+ATOM     22  S13 NZ2 d   1      23.887   6.432  13.906  0.00  0.00     0.230 S 
+ATOM     23  O15 NZ2 d   1      25.249   6.905  14.064  0.00  0.00    -0.206 OA
+ATOM     24  O16 NZ2 d   1      23.216   7.038  12.788  0.00  0.00    -0.206 OA
+BRANCH  22  25
+ATOM     25  C14 NZ2 d   1      23.911   4.679  13.681  0.00  0.00     0.033 C 
+ATOM     26  H   NZ2 d   1      24.422   4.437  12.737  0.00  0.00     0.051 H 
+ATOM     27  H   NZ2 d   1      22.879   4.300  13.646  0.00  0.00     0.051 H 
+ATOM     28  H   NZ2 d   1      24.447   4.209  14.519  0.00  0.00     0.051 H 
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+TORSDOF 6

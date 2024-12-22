@@ -1,0 +1,95 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_10  and  CAR_11 
+REMARK    2  A    between atoms: CAR_11  and  CAQ_12 
+REMARK    3  A    between atoms: CAQ_12  and  CAS_13 
+REMARK    4  A    between atoms: CAQ_12  and  NAB_18 
+REMARK    5  A    between atoms: CAS_13  and  CBD_14 
+REMARK       I    between atoms: CBD_14  and  NBF_15 
+REMARK    6  A    between atoms: NBF_15  and  OBG_16 
+REMARK    7  A    between atoms: CAD_22  and  CAF_23 
+REMARK    8  A    between atoms: CAF_23  and  NAG_24 
+REMARK       I    between atoms: NAG_24  and  CAH_25 
+REMARK    9  A    between atoms: CAH_25  and  CAI_27 
+REMARK   10  A    between atoms: CAM_30  and  CAP_31 
+ROOT
+ATOM      1  CAQ 1EF d   1     100.097  -0.544  41.404  0.00  0.00     0.047 C 
+ATOM      2  H10 1EF d   1      99.390  -0.699  40.575  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAR 1EF d   1     100.745  -1.906  41.763  0.00  0.00    -0.020 C 
+ATOM      4  H8  1EF d   1     101.839  -1.791  41.756  0.00  0.00     0.043 H 
+ATOM      5  H9  1EF d   1     100.414  -2.202  42.770  0.00  0.00     0.043 H 
+BRANCH   3   6
+ATOM      6  CAT 1EF d   1     100.351  -3.027  40.755  0.00  0.00    -0.055 A 
+ATOM      7  CAU 1EF d   1      99.995  -4.302  41.240  0.00  0.00    -0.066 A 
+ATOM      8  CAV 1EF d   1      99.636  -5.328  40.327  0.00  0.00    -0.025 A 
+ATOM      9  H1  1EF d   1      99.995  -4.498  42.306  0.00  0.00     0.085 H 
+ATOM     10  CAZ 1EF d   1      99.272  -6.633  40.817  0.00  0.00    -0.072 A 
+ATOM     11  CAW 1EF d   1      99.637  -5.067  38.952  0.00  0.00    -0.026 A 
+ATOM     12  CBA 1EF d   1      98.911  -7.659  39.894  0.00  0.00    -0.082 A 
+ATOM     13  H2  1EF d   1      99.272  -6.834  41.882  0.00  0.00     0.084 H 
+ATOM     14  CBB 1EF d   1      98.913  -7.392  38.499  0.00  0.00    -0.082 A 
+ATOM     15  H3  1EF d   1      98.635  -8.642  40.257  0.00  0.00     0.083 H 
+ATOM     16  CBC 1EF d   1      99.271  -6.112  38.021  0.00  0.00    -0.072 A 
+ATOM     17  H4  1EF d   1      98.639  -8.173  37.799  0.00  0.00     0.083 H 
+ATOM     18  H5  1EF d   1      99.272  -5.912  36.956  0.00  0.00     0.084 H 
+ATOM     19  CAX 1EF d   1     100.002  -3.762  38.459  0.00  0.00    -0.072 A 
+ATOM     20  CAY 1EF d   1     100.353  -2.763  39.345  0.00  0.00    -0.076 A 
+ATOM     21  H6  1EF d   1     100.001  -3.565  37.393  0.00  0.00     0.084 H 
+ATOM     22  H7  1EF d   1     100.629  -1.782  38.976  0.00  0.00     0.084 H 
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  CAS 1EF d   1     101.123   0.443  40.941  0.00  0.00     0.032 C 
+ATOM     24  H11 1EF d   1     100.640   1.431  40.934  0.00  0.00     0.050 H 
+ATOM     25  H12 1EF d   1     101.400   0.163  39.914  0.00  0.00     0.050 H 
+BRANCH  23  26
+ATOM     26  CBD 1EF d   1     102.450   0.588  41.749  0.00  0.00     0.242 C 
+ATOM     27  NBF 1EF d   1     102.657   1.736  42.553  0.00  0.00    -0.237 N 
+ATOM     28  H13 1EF d   1     101.956   2.446  42.615  0.00  0.00     0.197 HD
+ATOM     29  OBE 1EF d   1     103.346  -0.265  41.680  0.00  0.00    -0.271 OA
+BRANCH  27  30
+ATOM     30  OBG 1EF d   1     103.802   1.854  43.226  0.00  0.00    -0.287 OA
+ATOM     31  H14 1EF d   1     103.893   1.122  43.825  0.00  0.00     0.244 HD
+ENDBRANCH  27  30
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+BRANCH   1  32
+ATOM     32  NAB 1EF d   1      99.372  -0.109  42.522  0.00  0.00    -0.255 N 
+ATOM     33  CAC 1EF d   1      98.233  -0.737  42.988  0.00  0.00     0.028 A 
+ATOM     34  CAD 1EF d   1      97.813   0.020  44.144  0.00  0.00     0.093 A 
+ATOM     35  H15 1EF d   1      97.752  -1.620  42.570  0.00  0.00     0.117 H 
+ATOM     36  NAE 1EF d   1      98.731   1.018  44.266  0.00  0.00    -0.134 NA
+ATOM     37  NAA 1EF d   1      99.648   0.914  43.287  0.00  0.00    -0.066 NA
+BRANCH  34  38
+ATOM     38  CAF 1EF d   1      96.624  -0.225  45.021  0.00  0.00     0.038 C 
+ATOM     39  H16 1EF d   1      96.054   0.712  45.106  0.00  0.00     0.073 H 
+ATOM     40  H17 1EF d   1      96.981  -0.528  46.016  0.00  0.00     0.073 H 
+BRANCH  38  41
+ATOM     41  NAG 1EF d   1      95.748  -1.246  44.522  0.00  0.00    -0.351 N 
+ATOM     42  CAH 1EF d   1      95.132  -1.134  43.230  0.00  0.00     0.251 C 
+ATOM     43  OAJ 1EF d   1      95.354  -0.165  42.526  0.00  0.00    -0.268 OA
+ATOM     44  H18 1EF d   1      95.563  -2.051  45.085  0.00  0.00     0.163 HD
+BRANCH  42  45
+ATOM     45  CAI 1EF d   1      94.167  -2.260  42.707  0.00  0.00     0.032 A 
+ATOM     46  CAK 1EF d   1      94.250  -2.735  41.374  0.00  0.00    -0.067 A 
+ATOM     47  CAL 1EF d   1      93.372  -3.744  40.933  0.00  0.00    -0.076 A 
+ATOM     48  H19 1EF d   1      94.988  -2.322  40.695  0.00  0.00     0.085 H 
+ATOM     49  CAM 1EF d   1      92.418  -4.270  41.799  0.00  0.00    -0.062 A 
+ATOM     50  H20 1EF d   1      93.439  -4.112  39.916  0.00  0.00     0.084 H 
+ATOM     51  CAN 1EF d   1      92.332  -3.797  43.118  0.00  0.00    -0.076 A 
+ATOM     52  CAO 1EF d   1      93.216  -2.789  43.563  0.00  0.00    -0.067 A 
+ATOM     53  H24 1EF d   1      91.589  -4.205  43.794  0.00  0.00     0.084 H 
+ATOM     54  H25 1EF d   1      93.149  -2.427  44.583  0.00  0.00     0.085 H 
+BRANCH  49  55
+ATOM     55  CAP 1EF d   1      91.448  -5.378  41.316  0.00  0.00    -0.051 C 
+ATOM     56  H21 1EF d   1      90.775  -5.660  42.139  0.00  0.00     0.033 H 
+ATOM     57  H22 1EF d   1      92.026  -6.258  40.997  0.00  0.00     0.033 H 
+ATOM     58  H23 1EF d   1      90.855  -5.002  40.469  0.00  0.00     0.033 H 
+ENDBRANCH  49  55
+ENDBRANCH  42  45
+ENDBRANCH  38  41
+ENDBRANCH  34  38
+ENDBRANCH   1  32
+TORSDOF 10

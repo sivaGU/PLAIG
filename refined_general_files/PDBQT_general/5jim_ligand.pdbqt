@@ -1,0 +1,58 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_2  and  C7_5 
+REMARK    2  A    between atoms: C7_5  and  C6_8 
+REMARK    3  A    between atoms: C6_8  and  C5_11 
+REMARK    4  A    between atoms: C5_11  and  C4_14 
+REMARK    5  A    between atoms: C4_14  and  C3_17 
+REMARK    6  A    between atoms: C3_17  and  C2_20 
+REMARK    7  A    between atoms: C2_20  and  C1_23 
+REMARK    8  A    between atoms: C1_23  and  S1_26 
+ROOT
+ATOM      1  C4  P8S d   1      -0.102  -0.631   7.209  0.00  0.00     0.384 C 
+ATOM      2  F4A P8S d   1      -0.653  -1.767   7.590  0.00  0.00    -0.192 F 
+ATOM      3  F4B P8S d   1       1.208  -0.810   7.089  0.00  0.00    -0.192 F 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  P8S d   1      -0.486   0.413   8.249  0.00  0.00     0.384 C 
+ATOM      5  F5B P8S d   1      -1.662   0.049   8.730  0.00  0.00    -0.192 F 
+ATOM      6  F5A P8S d   1      -0.596   1.597   7.676  0.00  0.00    -0.192 F 
+BRANCH   4   7
+ATOM      7  C6  P8S d   1       0.491   0.544   9.409  0.00  0.00     0.387 C 
+ATOM      8  F6A P8S d   1       1.728   0.359   8.996  0.00  0.00    -0.192 F 
+ATOM      9  F6B P8S d   1       0.389   1.775   9.873  0.00  0.00    -0.192 F 
+BRANCH   7  10
+ATOM     10  C7  P8S d   1       0.165  -0.397  10.563  0.00  0.00     0.409 C 
+ATOM     11  F7A P8S d   1       0.972  -0.131  11.566  0.00  0.00    -0.189 F 
+ATOM     12  F7B P8S d   1      -1.068  -0.151  10.955  0.00  0.00    -0.189 F 
+BRANCH  10  13
+ATOM     13  C8  P8S d   1       0.264  -1.884  10.240  0.00  0.00     0.461 C 
+ATOM     14  F8C P8S d   1      -0.968  -2.366  10.143  0.00  0.00    -0.165 F 
+ATOM     15  F8A P8S d   1       0.897  -2.487  11.211  0.00  0.00    -0.165 F 
+ATOM     16  F8B P8S d   1       0.963  -2.133   9.154  0.00  0.00    -0.165 F 
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  17
+ATOM     17  C3  P8S d   1      -0.743  -0.280   5.884  0.00  0.00     0.385 C 
+ATOM     18  F3B P8S d   1      -1.505  -1.296   5.542  0.00  0.00    -0.192 F 
+ATOM     19  F3A P8S d   1      -1.475   0.811   6.027  0.00  0.00    -0.192 F 
+BRANCH  17  20
+ATOM     20  C2  P8S d   1       0.248   0.001   4.778  0.00  0.00     0.395 C 
+ATOM     21  F2A P8S d   1       0.887   1.109   5.101  0.00  0.00    -0.191 F 
+ATOM     22  F2B P8S d   1       1.095  -1.012   4.716  0.00  0.00    -0.191 F 
+BRANCH  20  23
+ATOM     23  C1  P8S d   1      -0.445   0.176   3.430  0.00  0.00     0.431 C 
+ATOM     24  F1B P8S d   1      -1.448   1.014   3.588  0.00  0.00    -0.178 F 
+ATOM     25  F1A P8S d   1      -0.916  -0.991   3.034  0.00  0.00    -0.178 F 
+BRANCH  23  26
+ATOM     26  S1  P8S d   1       0.673   0.846   2.140  0.00  0.00     0.182 S 
+ATOM     27  O3  P8S d   1       0.540   2.277   2.214  0.00  0.00    -0.591 OA
+ATOM     28  O1  P8S d   1       2.034   0.374   2.446  0.00  0.00    -0.591 OA
+ATOM     29  O2  P8S d   1       0.189   0.332   0.887  0.00  0.00    -0.591 OA
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+TORSDOF 8

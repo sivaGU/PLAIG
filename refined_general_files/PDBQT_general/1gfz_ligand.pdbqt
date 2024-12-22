@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C10_3 
+REMARK    2  A    between atoms: N3_5  and  C12_7 
+REMARK    3  A    between atoms: N7_12  and  C14_14 
+ROOT
+ATOM      1  N1  CFF d   1      38.984  37.034  29.965  0.00  0.00    -0.269 N 
+ATOM      2  C2  CFF d   1      38.490  35.880  29.075  0.00  0.00     0.332 A 
+ATOM      3  C6  CFF d   1      38.608  37.207  31.325  0.00  0.00     0.282 A 
+ATOM      4  N3  CFF d   1      37.635  35.065  29.712  0.00  0.00    -0.286 N 
+ATOM      5  O11 CFF d   1      38.888  35.820  27.943  0.00  0.00    -0.246 OA
+ATOM      6  C4  CFF d   1      37.218  35.206  31.062  0.00  0.00     0.167 A 
+ATOM      7  C5  CFF d   1      37.648  36.244  31.844  0.00  0.00     0.151 A 
+ATOM      8  N9  CFF d   1      36.375  34.424  31.700  0.00  0.00    -0.223 NA
+ATOM      9  O13 CFF d   1      39.056  38.200  32.006  0.00  0.00    -0.265 OA
+ATOM     10  N7  CFF d   1      37.055  36.065  33.097  0.00  0.00    -0.338 N 
+ATOM     11  C8  CFF d   1      36.296  34.968  32.926  0.00  0.00     0.068 A 
+ATOM     12  H7  CFF d   1      35.670  34.555  33.715  0.00  0.00     0.143 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  C10 CFF d   1      39.954  37.990  29.308  0.00  0.00    -0.007 C 
+ATOM     14  H1  CFF d   1      40.115  37.688  28.263  0.00  0.00     0.057 H 
+ATOM     15  H2  CFF d   1      40.912  37.968  29.848  0.00  0.00     0.057 H 
+ATOM     16  H3  CFF d   1      39.540  39.009  29.336  0.00  0.00     0.057 H 
+ENDBRANCH   1  13
+BRANCH   4  17
+ATOM     17  C12 CFF d   1      37.080  33.905  28.968  0.00  0.00    -0.008 C 
+ATOM     18  H4  CFF d   1      37.475  33.905  27.941  0.00  0.00     0.057 H 
+ATOM     19  H5  CFF d   1      35.983  33.979  28.939  0.00  0.00     0.057 H 
+ATOM     20  H6  CFF d   1      37.371  32.972  29.473  0.00  0.00     0.057 H 
+ENDBRANCH   4  17
+BRANCH  10  21
+ATOM     21  C14 CFF d   1      37.201  36.929  34.306  0.00  0.00    -0.013 C 
+ATOM     22  H8  CFF d   1      37.908  37.744  34.091  0.00  0.00     0.057 H 
+ATOM     23  H9  CFF d   1      37.580  36.326  35.144  0.00  0.00     0.057 H 
+ATOM     24  H10 CFF d   1      36.222  37.354  34.573  0.00  0.00     0.057 H 
+ENDBRANCH  10  21
+TORSDOF 3

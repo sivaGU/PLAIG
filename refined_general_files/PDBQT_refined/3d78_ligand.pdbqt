@@ -1,0 +1,52 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N10_4 
+REMARK    2  A    between atoms: S_2  and  C4_9 
+REMARK    3  A    between atoms: N10_4  and  C11_5 
+REMARK    4  A    between atoms: C11_5  and  C12_6 
+REMARK    5  A    between atoms: C12_6  and  C13_7 
+REMARK    6  A    between atoms: C13_7  and  C14_8 
+ROOT
+ATOM      1  N10 NBB d   1      14.603  18.687   3.104  0.00  0.00    -0.315 N 
+ATOM      2  H1  NBB d   1      15.471  19.016   3.476  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  S   NBB d   1      14.690  17.537   2.029  0.00  0.00     0.258 S 
+ATOM      4  O1S NBB d   1      15.764  16.582   2.282  0.00  0.00    -0.201 OA
+ATOM      5  O2S NBB d   1      14.950  17.975   0.614  0.00  0.00    -0.201 OA
+BRANCH   3   6
+ATOM      6  C4  NBB d   1      13.284  16.742   2.163  0.00  0.00     0.079 A 
+ATOM      7  C5  NBB d   1      12.377  16.684   1.119  0.00  0.00    -0.060 A 
+ATOM      8  C6  NBB d   1      11.163  16.025   1.188  0.00  0.00    -0.082 A 
+ATOM      9  H11 NBB d   1      12.633  17.185   0.192  0.00  0.00     0.085 H 
+ATOM     10  C1  NBB d   1      10.828  15.398   2.369  0.00  0.00    -0.083 A 
+ATOM     11  H12 NBB d   1      10.493  16.002   0.336  0.00  0.00     0.083 H 
+ATOM     12  C2  NBB d   1      11.704  15.468   3.448  0.00  0.00    -0.082 A 
+ATOM     13  H13 NBB d   1       9.893  14.857   2.456  0.00  0.00     0.083 H 
+ATOM     14  C3  NBB d   1      12.932  16.127   3.355  0.00  0.00    -0.060 A 
+ATOM     15  H14 NBB d   1      11.426  14.999   4.385  0.00  0.00     0.083 H 
+ATOM     16  H15 NBB d   1      13.603  16.157   4.206  0.00  0.00     0.085 H 
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  17
+ATOM     17  C11 NBB d   1      13.337  19.354   3.640  0.00  0.00     0.003 C 
+ATOM     18  H2  NBB d   1      12.520  18.626   3.534  0.00  0.00     0.065 H 
+ATOM     19  H3  NBB d   1      13.137  20.226   3.000  0.00  0.00     0.065 H 
+BRANCH  17  20
+ATOM     20  C12 NBB d   1      13.313  19.858   5.123  0.00  0.00    -0.050 C 
+ATOM     21  H4  NBB d   1      13.899  20.788   5.155  0.00  0.00     0.035 H 
+ATOM     22  H5  NBB d   1      13.812  19.089   5.731  0.00  0.00     0.035 H 
+BRANCH  20  23
+ATOM     23  C13 NBB d   1      11.949  20.158   5.802  0.00  0.00    -0.067 C 
+ATOM     24  H6  NBB d   1      11.661  19.245   6.343  0.00  0.00     0.032 H 
+ATOM     25  H7  NBB d   1      11.230  20.346   4.991  0.00  0.00     0.032 H 
+BRANCH  23  26
+ATOM     26  C14 NBB d   1      11.801  21.315   6.791  0.00  0.00    -0.076 C 
+ATOM     27  H8  NBB d   1      10.764  21.356   7.155  0.00  0.00     0.027 H 
+ATOM     28  H9  NBB d   1      12.051  22.261   6.289  0.00  0.00     0.027 H 
+ATOM     29  H10 NBB d   1      12.482  21.160   7.641  0.00  0.00     0.027 H 
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+TORSDOF 6

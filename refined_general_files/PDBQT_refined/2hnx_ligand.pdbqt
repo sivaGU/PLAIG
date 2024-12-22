@@ -1,0 +1,99 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  C6_8 
+REMARK    6  A    between atoms: C6_8  and  C7_9 
+REMARK    7  A    between atoms: C7_9  and  C8_10 
+REMARK    8  A    between atoms: C8_10  and  C9_11 
+REMARK    9  A    between atoms: C9_11  and  CA_12 
+REMARK   10  A    between atoms: CA_12  and  CB_13 
+REMARK   11  A    between atoms: CB_13  and  CC_14 
+REMARK   12  A    between atoms: CC_14  and  CD_15 
+REMARK   13  A    between atoms: CD_15  and  CE_16 
+REMARK   14  A    between atoms: CE_16  and  CF_17 
+REMARK   15  A    between atoms: CF_17  and  CG_18 
+ROOT
+ATOM      1  C9  PLM d   1      27.986  47.389  23.628  0.00  0.00    -0.065 C 
+ATOM      2  H15 PLM d   1      28.203  46.603  24.367  0.00  0.00     0.033 H 
+ATOM      3  H16 PLM d   1      27.840  48.349  24.145  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C8  PLM d   1      26.671  47.028  22.937  0.00  0.00    -0.065 C 
+ATOM      5  H13 PLM d   1      25.917  46.850  23.718  0.00  0.00     0.033 H 
+ATOM      6  H14 PLM d   1      26.366  47.887  22.322  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  C7  PLM d   1      26.711  45.796  22.035  0.00  0.00    -0.065 C 
+ATOM      8  H11 PLM d   1      27.677  45.752  21.510  0.00  0.00     0.033 H 
+ATOM      9  H12 PLM d   1      26.583  44.888  22.642  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  C6  PLM d   1      25.574  45.900  21.016  0.00  0.00    -0.065 C 
+ATOM     11  H9  PLM d   1      24.913  45.031  21.144  0.00  0.00     0.033 H 
+ATOM     12  H10 PLM d   1      25.010  46.823  21.218  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C5  PLM d   1      26.051  45.934  19.564  0.00  0.00    -0.065 C 
+ATOM     14  H7  PLM d   1      27.038  46.418  19.518  0.00  0.00     0.033 H 
+ATOM     15  H8  PLM d   1      26.129  44.905  19.184  0.00  0.00     0.033 H 
+BRANCH  13  16
+ATOM     16  C4  PLM d   1      25.065  46.717  18.700  0.00  0.00    -0.065 C 
+ATOM     17  H5  PLM d   1      24.062  46.286  18.835  0.00  0.00     0.033 H 
+ATOM     18  H6  PLM d   1      25.062  47.765  19.034  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  C3  PLM d   1      25.414  46.681  17.212  0.00  0.00    -0.056 C 
+ATOM     20  H3  PLM d   1      26.459  46.360  17.093  0.00  0.00     0.033 H 
+ATOM     21  H4  PLM d   1      24.751  45.967  16.702  0.00  0.00     0.033 H 
+BRANCH  19  22
+ATOM     22  C2  PLM d   1      25.238  48.067  16.586  0.00  0.00     0.016 C 
+ATOM     23  H1  PLM d   1      24.222  48.135  16.169  0.00  0.00     0.049 H 
+ATOM     24  H2  PLM d   1      25.362  48.824  17.375  0.00  0.00     0.049 H 
+BRANCH  22  25
+ATOM     25  C1  PLM d   1      26.233  48.359  15.478  0.00  0.00     0.172 C 
+ATOM     26  O1  PLM d   1      26.405  49.532  15.082  0.00  0.00    -0.648 OA
+ATOM     27  O2  PLM d   1      26.917  47.461  14.933  0.00  0.00    -0.648 OA
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  28
+ATOM     28  CA  PLM d   1      29.211  47.529  22.724  0.00  0.00    -0.065 C 
+ATOM     29  H17 PLM d   1      29.478  46.535  22.336  0.00  0.00     0.033 H 
+ATOM     30  H18 PLM d   1      30.045  47.926  23.321  0.00  0.00     0.033 H 
+BRANCH  28  31
+ATOM     31  CB  PLM d   1      28.968  48.464  21.543  0.00  0.00    -0.065 C 
+ATOM     32  H19 PLM d   1      28.797  49.484  21.916  0.00  0.00     0.033 H 
+ATOM     33  H20 PLM d   1      28.082  48.124  20.986  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CC  PLM d   1      30.173  48.463  20.619  0.00  0.00    -0.065 C 
+ATOM     35  H21 PLM d   1      30.154  47.554  19.999  0.00  0.00     0.033 H 
+ATOM     36  H22 PLM d   1      31.093  48.476  21.222  0.00  0.00     0.033 H 
+BRANCH  34  37
+ATOM     37  CD  PLM d   1      30.148  49.691  19.713  0.00  0.00    -0.065 C 
+ATOM     38  H23 PLM d   1      30.529  50.556  20.276  0.00  0.00     0.033 H 
+ATOM     39  H24 PLM d   1      29.110  49.883  19.402  0.00  0.00     0.033 H 
+BRANCH  37  40
+ATOM     40  CE  PLM d   1      31.007  49.495  18.469  0.00  0.00    -0.065 C 
+ATOM     41  H25 PLM d   1      32.047  49.322  18.782  0.00  0.00     0.033 H 
+ATOM     42  H26 PLM d   1      30.955  50.407  17.857  0.00  0.00     0.033 H 
+BRANCH  40  43
+ATOM     43  CF  PLM d   1      30.545  48.309  17.623  0.00  0.00    -0.069 C 
+ATOM     44  H27 PLM d   1      30.576  47.398  18.239  0.00  0.00     0.032 H 
+ATOM     45  H28 PLM d   1      31.225  48.196  16.766  0.00  0.00     0.032 H 
+BRANCH  43  46
+ATOM     46  CG  PLM d   1      29.126  48.505  17.104  0.00  0.00    -0.077 C 
+ATOM     47  H29 PLM d   1      28.832  47.633  16.502  0.00  0.00     0.027 H 
+ATOM     48  H30 PLM d   1      29.085  49.411  16.481  0.00  0.00     0.027 H 
+ATOM     49  H31 PLM d   1      28.436  48.613  17.954  0.00  0.00     0.027 H 
+ENDBRANCH  43  46
+ENDBRANCH  40  43
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+TORSDOF 15

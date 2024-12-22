@@ -1,0 +1,68 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_2  and  N1_6 
+REMARK    2  A    between atoms: C1_5  and  C2_10 
+REMARK    3  A    between atoms: C1_5  and  N_23 
+REMARK       I    between atoms: N1_6  and  C8_12 
+REMARK    4  A    between atoms: C5_7  and  C4_8 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C13_15  and  O5_16 
+REMARK    7  A    between atoms: O5_16  and  C15_17 
+ROOT
+ATOM      1  C7  CWY d   1     -12.353  94.504  10.711  0.00  0.00     0.020 C 
+ATOM      2  C6  CWY d   1     -10.986  95.051  10.928  0.00  0.00    -0.014 A 
+ATOM      3  C1  CWY d   1     -11.111  94.452   8.615  0.00  0.00     0.217 C 
+ATOM      4  C4  CWY d   1      -9.835  94.144  10.694  0.00  0.00     0.043 A 
+ATOM      5  C3  CWY d   1     -10.287  95.086   9.620  0.00  0.00     0.008 A 
+ATOM      6  C   CWY d   1     -12.271  93.878   9.355  0.00  0.00    -0.004 C 
+ATOM      7  H1  CWY d   1     -12.664  93.774  11.473  0.00  0.00     0.073 H 
+ATOM      8  H2  CWY d   1     -10.947  95.851  11.682  0.00  0.00     0.045 H 
+ATOM      9  H4  CWY d   1      -9.961  93.054  10.620  0.00  0.00     0.058 H 
+ATOM     10  H5  CWY d   1      -9.681  95.927   9.253  0.00  0.00     0.046 H 
+ATOM     11  H13 CWY d   1     -13.198  94.082   8.800  0.00  0.00     0.040 H 
+ATOM     12  H14 CWY d   1     -12.138  92.791   9.460  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  N1  CWY d   1     -13.169  95.686  10.745  0.00  0.00    -0.352 N 
+ATOM     14  C8  CWY d   1     -13.661  96.139  11.911  0.00  0.00     0.252 C 
+ATOM     15  O4  CWY d   1     -13.506  95.566  12.895  0.00  0.00    -0.268 OA
+ATOM     16  H3  CWY d   1     -13.372  96.174   9.896  0.00  0.00     0.163 HD
+BRANCH  14  17
+ATOM     17  C9  CWY d   1     -14.401  97.345  11.873  0.00  0.00     0.034 A 
+ATOM     18  C14 CWY d   1     -14.620  98.009  13.035  0.00  0.00    -0.036 A 
+ATOM     19  C13 CWY d   1     -15.187  99.232  12.987  0.00  0.00     0.069 A 
+ATOM     20  H6  CWY d   1     -14.345  97.565  13.985  0.00  0.00     0.089 H 
+ATOM     21  C12 CWY d   1     -15.577  99.766  11.829  0.00  0.00    -0.051 A 
+ATOM     22  C11 CWY d   1     -15.374  99.081  10.685  0.00  0.00    -0.079 A 
+ATOM     23  H10 CWY d   1     -16.052 100.740  11.807  0.00  0.00     0.087 H 
+ATOM     24  C10 CWY d   1     -14.775  97.860  10.704  0.00  0.00    -0.068 A 
+ATOM     25  H11 CWY d   1     -15.691  99.508   9.741  0.00  0.00     0.083 H 
+ATOM     26  H12 CWY d   1     -14.605  97.315   9.782  0.00  0.00     0.085 H 
+BRANCH  19  27
+ATOM     27  O5  CWY d   1     -15.339 100.016  14.028  0.00  0.00    -0.356 OA
+BRANCH  27  28
+ATOM     28  C15 CWY d   1     -14.835  99.561  15.217  0.00  0.00     0.010 C 
+ATOM     29  H7  CWY d   1     -15.026 100.305  16.005  0.00  0.00     0.066 H 
+ATOM     30  H8  CWY d   1     -13.751  99.401  15.119  0.00  0.00     0.066 H 
+ATOM     31  H9  CWY d   1     -15.323  98.612  15.483  0.00  0.00     0.066 H 
+ENDBRANCH  27  28
+ENDBRANCH  19  27
+ENDBRANCH  14  17
+ENDBRANCH   1  13
+BRANCH   4  32
+ATOM     32  C5  CWY d   1      -8.588  94.506  11.307  0.00  0.00     0.177 C 
+ATOM     33  O2  CWY d   1      -7.644  93.697  11.833  0.00  0.00    -0.648 OA
+ATOM     34  O3  CWY d   1      -8.350  95.833  11.334  0.00  0.00    -0.648 OA
+ENDBRANCH   4  32
+BRANCH   3  35
+ATOM     35  C2  CWY d   1     -11.654  95.407   7.643  0.00  0.00     0.211 C 
+ATOM     36  O1  CWY d   1     -12.426  96.451   8.006  0.00  0.00    -0.646 OA
+ATOM     37  O   CWY d   1     -11.426  95.302   6.317  0.00  0.00    -0.646 OA
+ENDBRANCH   3  35
+BRANCH   3  38
+ATOM     38  N   CWY d   1     -10.373  93.461   7.982  0.00  0.00    -0.060 N 
+ATOM     39  H15 CWY d   1      -9.598  93.880   7.492  0.00  0.00     0.275 HD
+ATOM     40  H16 CWY d   1     -10.961  92.972   7.325  0.00  0.00     0.275 HD
+ATOM     41  H17 CWY d   1     -10.024  92.811   8.669  0.00  0.00     0.275 HD
+ENDBRANCH   3  38
+TORSDOF 7

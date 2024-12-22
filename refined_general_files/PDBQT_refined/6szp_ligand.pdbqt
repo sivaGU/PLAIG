@@ -1,0 +1,80 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C02_2 
+REMARK    2  A    between atoms: N06_10  and  C01_1 
+REMARK    3  A    between atoms: C02_2  and  C03_3 
+REMARK    4  A    between atoms: C03_3  and  C04_4 
+REMARK    5  A    between atoms: C04_4  and  N05_9 
+REMARK    6  A    between atoms: C07_5  and  N06_10 
+REMARK    7  A    between atoms: C07_5  and  N08_11 
+REMARK    8  A    between atoms: N10_12  and  C07_5 
+REMARK    9  A    between atoms: C11_6  and  C12_7 
+REMARK   10  A    between atoms: C11_6  and  N10_12 
+REMARK   11  A    between atoms: C12_7  and  O13_13 
+REMARK   12  A    between atoms: O13_13  and  C14_8 
+ROOT
+ATOM      1  C07 M3B d   1      -3.524  21.885   2.897  0.00  0.00     0.400 C 
+ATOM      2  H9  M3B d   1      -2.776  22.312   3.581  0.00  0.00     0.178 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N06 M3B d   1      -4.686  21.376   3.634  0.00  0.00    -0.022 N 
+ATOM      4  H20 M3B d   1      -4.904  22.028   4.372  0.00  0.00     0.281 HD
+ATOM      5  H21 M3B d   1      -5.465  21.317   2.997  0.00  0.00     0.281 HD
+BRANCH   3   6
+ATOM      6  C01 M3B d   1      -4.481  20.060   4.230  0.00  0.00     0.086 C 
+ATOM      7  H1  M3B d   1      -3.401  19.856   4.265  0.00  0.00     0.075 H 
+ATOM      8  H2  M3B d   1      -4.885  20.072   5.253  0.00  0.00     0.075 H 
+BRANCH   6   9
+ATOM      9  C02 M3B d   1      -5.168  18.928   3.445  0.00  0.00    -0.041 C 
+ATOM     10  H3  M3B d   1      -4.650  17.982   3.663  0.00  0.00     0.035 H 
+ATOM     11  H4  M3B d   1      -5.094  19.148   2.370  0.00  0.00     0.035 H 
+BRANCH   9  12
+ATOM     12  C03 M3B d   1      -6.645  18.775   3.814  0.00  0.00    -0.041 C 
+ATOM     13  H5  M3B d   1      -7.170  19.721   3.618  0.00  0.00     0.035 H 
+ATOM     14  H6  M3B d   1      -6.730  18.522   4.881  0.00  0.00     0.035 H 
+BRANCH  12  15
+ATOM     15  C04 M3B d   1      -7.278  17.659   2.975  0.00  0.00     0.080 C 
+ATOM     16  H7  M3B d   1      -6.904  17.729   1.943  0.00  0.00     0.075 H 
+ATOM     17  H8  M3B d   1      -8.371  17.782   2.978  0.00  0.00     0.075 H 
+BRANCH  15  18
+ATOM     18  N05 M3B d   1      -6.945  16.347   3.515  0.00  0.00    -0.079 N 
+ATOM     19  H17 M3B d   1      -7.372  15.632   2.947  0.00  0.00     0.274 HD
+ATOM     20  H18 M3B d   1      -7.289  16.276   4.460  0.00  0.00     0.274 HD
+ATOM     21  H19 M3B d   1      -5.944  16.226   3.511  0.00  0.00     0.274 HD
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   9
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  22
+ATOM     22  N08 M3B d   1      -3.950  22.766   2.090  0.00  0.00    -0.026 N 
+ATOM     23  H22 M3B d   1      -3.177  23.141   1.563  0.00  0.00     0.278 HD
+ATOM     24  H23 M3B d   1      -4.395  23.508   2.607  0.00  0.00     0.278 HD
+ATOM     25  H24 M3B d   1      -4.616  22.349   1.459  0.00  0.00     0.278 HD
+ENDBRANCH   1  22
+BRANCH   1  26
+ATOM     26  N10 M3B d   1      -2.962  20.776   2.149  0.00  0.00    -0.020 N 
+ATOM     27  H25 M3B d   1      -3.729  20.232   1.786  0.00  0.00     0.281 HD
+ATOM     28  H26 M3B d   1      -2.427  20.214   2.792  0.00  0.00     0.281 HD
+BRANCH  26  29
+ATOM     29  C11 M3B d   1      -2.088  21.118   1.024  0.00  0.00     0.105 C 
+ATOM     30  H10 M3B d   1      -1.718  20.184   0.575  0.00  0.00     0.079 H 
+ATOM     31  H11 M3B d   1      -2.679  21.673   0.281  0.00  0.00     0.079 H 
+BRANCH  29  32
+ATOM     32  C12 M3B d   1      -0.880  21.977   1.423  0.00  0.00     0.041 C 
+ATOM     33  H12 M3B d   1      -0.225  22.117   0.550  0.00  0.00     0.076 H 
+ATOM     34  H13 M3B d   1      -0.320  21.473   2.224  0.00  0.00     0.076 H 
+BRANCH  32  35
+ATOM     35  O13 M3B d   1      -1.323  23.225   1.878  0.00  0.00    -0.394 OA
+BRANCH  35  36
+ATOM     36  C14 M3B d   1      -0.312  23.971   2.511  0.00  0.00     0.004 C 
+ATOM     37  H14 M3B d   1      -0.722  24.936   2.844  0.00  0.00     0.066 H 
+ATOM     38  H15 M3B d   1       0.511  24.147   1.803  0.00  0.00     0.066 H 
+ATOM     39  H16 M3B d   1       0.065  23.413   3.381  0.00  0.00     0.066 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 12

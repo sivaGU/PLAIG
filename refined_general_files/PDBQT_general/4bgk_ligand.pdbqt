@@ -1,0 +1,52 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P5_2  and  C6_4 
+REMARK    2  A    between atoms: C6_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C2_6 
+REMARK    4  A    between atoms: C2_6  and  N1_7 
+REMARK    5  A    between atoms: N1_7  and  C28_8 
+REMARK    6  A    between atoms: N1_7  and  C9_9 
+REMARK    7  A    between atoms: N1_7  and  C8_10 
+ROOT
+ATOM      1  C2  RTK d   1      21.937  30.920  87.661  0.00  0.00     0.085 C 
+ATOM      2  H   RTK d   1      20.881  31.185  87.814  0.00  0.00     0.076 H 
+ATOM      3  H   RTK d   1      22.032  30.299  86.758  0.00  0.00     0.076 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C3  RTK d   1      22.392  30.091  88.853  0.00  0.00    -0.034 C 
+ATOM      5  H   RTK d   1      23.401  29.699  88.659  0.00  0.00     0.036 H 
+ATOM      6  H   RTK d   1      22.412  30.726  89.751  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  C6  RTK d   1      21.433  28.926  89.080  0.00  0.00     0.006 C 
+ATOM      8  H   RTK d   1      21.669  28.454  90.045  0.00  0.00     0.048 H 
+ATOM      9  H   RTK d   1      20.403  29.312  89.103  0.00  0.00     0.048 H 
+BRANCH   7  10
+ATOM     10  P5  RTK d   1      21.561  27.681  87.773  0.00  0.00     0.097 P 
+ATOM     11  O7  RTK d   1      20.695  26.519  88.161  0.00  0.00    -0.669 OA
+ATOM     12  O4  RTK d   1      22.995  27.271  87.495  0.00  0.00    -0.669 OA
+ATOM     13  H   RTK d   1      21.193  28.078  86.923  0.00  0.00     0.130 HD
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  14
+ATOM     14  N1  RTK d   1      22.700  32.178  87.437  0.00  0.00    -0.079 N 
+BRANCH  14  15
+ATOM     15  C28 RTK d   1      24.122  31.936  87.090  0.00  0.00     0.067 C 
+ATOM     16  H   RTK d   1      24.631  32.899  86.937  0.00  0.00     0.068 H 
+ATOM     17  H   RTK d   1      24.178  31.341  86.166  0.00  0.00     0.068 H 
+ATOM     18  H   RTK d   1      24.611  31.389  87.909  0.00  0.00     0.068 H 
+ENDBRANCH  14  15
+BRANCH  14  19
+ATOM     19  C9  RTK d   1      22.627  33.090  88.603  0.00  0.00     0.067 C 
+ATOM     20  H   RTK d   1      21.573  33.271  88.862  0.00  0.00     0.068 H 
+ATOM     21  H   RTK d   1      23.112  34.045  88.353  0.00  0.00     0.068 H 
+ATOM     22  H   RTK d   1      23.142  32.631  89.460  0.00  0.00     0.068 H 
+ENDBRANCH  14  19
+BRANCH  14  23
+ATOM     23  C8  RTK d   1      22.042  32.819  86.277  0.00  0.00     0.067 C 
+ATOM     24  H   RTK d   1      22.093  32.146  85.408  0.00  0.00     0.068 H 
+ATOM     25  H   RTK d   1      22.555  33.763  86.040  0.00  0.00     0.068 H 
+ATOM     26  H   RTK d   1      20.989  33.024  86.520  0.00  0.00     0.068 H 
+ENDBRANCH  14  23
+ENDBRANCH   1  14
+TORSDOF 7

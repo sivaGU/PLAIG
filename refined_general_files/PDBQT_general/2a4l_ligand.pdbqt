@@ -1,0 +1,90 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAP_1  and  CAQ_2 
+REMARK    2  A    between atoms: CAQ_2  and  CAR_3 
+REMARK    3  A    between atoms: CAR_3  and  CAK_4 
+REMARK    4  A    between atoms: CAR_3  and  NAS_6 
+REMARK    5  A    between atoms: CAK_4  and  CAI_5 
+REMARK    6  A    between atoms: NAS_6  and  CAT_7 
+REMARK    7  A    between atoms: NAW_10  and  CAZ_11 
+REMARK    8  A    between atoms: CAZ_11  and  CAY_12 
+REMARK    9  A    between atoms: CAZ_11  and  CBA_13 
+REMARK   10  A    between atoms: NAJ_19  and  CAD_20 
+REMARK   11  A    between atoms: CAD_20  and  CAE_21 
+ROOT
+ATOM      1  CAT RRC d   1     100.605 100.579  80.397  0.00  0.00     0.726 A 
+ATOM      2  NAU RRC d   1     101.580 100.731  81.285  0.00  0.00    -0.042 NA
+ATOM      3  CAV RRC d   1     102.566 101.608  81.000  0.00  0.00     0.183 A 
+ATOM      4  NAW RRC d   1     103.671 101.870  81.769  0.00  0.00    -0.320 N 
+ATOM      5  CAX RRC d   1     104.385 102.795  81.053  0.00  0.00     0.069 A 
+ATOM      6  CAN RRC d   1     102.627 102.352  79.851  0.00  0.00     0.151 A 
+ATOM      7  NAO RRC d   1     103.798 103.097  79.918  0.00  0.00    -0.236 NA
+ATOM      8  NAL RRC d   1     100.613 101.293  79.240  0.00  0.00    -0.043 NA
+ATOM      9  CAM RRC d   1     101.582 102.198  78.895  0.00  0.00     0.176 A 
+ATOM     10  NAJ RRC d   1     101.479 102.793  77.721  0.00  0.00    -0.368 N 
+ATOM     11  H18 RRC d   1     105.327 103.228  81.386  0.00  0.00     0.143 H 
+ATOM     12  H19 RRC d   1     102.206 103.422  77.350  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  NAS RRC d   1      99.689  99.675  80.771  0.00  0.00    -0.216 N 
+ATOM     14  H10 RRC d   1      99.126  99.318  79.986  0.00  0.00     0.178 HD
+BRANCH  13  15
+ATOM     15  CAR RRC d   1      99.303  99.060  82.125  0.00  0.00     0.046 C 
+ATOM     16  H4  RRC d   1      99.903  99.529  82.919  0.00  0.00     0.076 H 
+BRANCH  15  17
+ATOM     17  CAQ RRC d   1      97.820  99.316  82.399  0.00  0.00     0.036 C 
+ATOM     18  H2  RRC d   1      97.642  99.216  83.480  0.00  0.00     0.077 H 
+ATOM     19  H3  RRC d   1      97.578 100.341  82.081  0.00  0.00     0.077 H 
+BRANCH  17  20
+ATOM     20  OAP RRC d   1      96.941  98.398  81.701  0.00  0.00    -0.399 OA
+ATOM     21  H1  RRC d   1      96.038  98.606  81.910  0.00  0.00     0.209 HD
+ENDBRANCH  17  20
+ENDBRANCH  15  17
+BRANCH  15  22
+ATOM     22  CAK RRC d   1      99.580  97.539  82.113  0.00  0.00    -0.047 C 
+ATOM     23  H5  RRC d   1      99.634  97.217  81.062  0.00  0.00     0.035 H 
+ATOM     24  H6  RRC d   1      98.732  97.041  82.606  0.00  0.00     0.035 H 
+BRANCH  22  25
+ATOM     25  CAI RRC d   1     100.869  97.070  82.813  0.00  0.00    -0.075 C 
+ATOM     26  H7  RRC d   1     100.951  95.976  82.736  0.00  0.00     0.027 H 
+ATOM     27  H8  RRC d   1     100.837  97.361  83.873  0.00  0.00     0.027 H 
+ATOM     28  H9  RRC d   1     101.740  97.538  82.330  0.00  0.00     0.027 H 
+ENDBRANCH  22  25
+ENDBRANCH  15  22
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+BRANCH   4  29
+ATOM     29  CAZ RRC d   1     103.942 101.208  83.053  0.00  0.00     0.012 C 
+ATOM     30  H11 RRC d   1     104.856 101.629  83.496  0.00  0.00     0.072 H 
+BRANCH  29  31
+ATOM     31  CAY RRC d   1     104.143  99.692  82.820  0.00  0.00    -0.057 C 
+ATOM     32  H12 RRC d   1     104.346  99.197  83.781  0.00  0.00     0.030 H 
+ATOM     33  H13 RRC d   1     104.993  99.535  82.140  0.00  0.00     0.030 H 
+ATOM     34  H14 RRC d   1     103.233  99.266  82.373  0.00  0.00     0.030 H 
+ENDBRANCH  29  31
+BRANCH  29  35
+ATOM     35  CBA RRC d   1     102.750 101.454  84.012  0.00  0.00    -0.057 C 
+ATOM     36  H15 RRC d   1     102.947 100.961  84.975  0.00  0.00     0.030 H 
+ATOM     37  H16 RRC d   1     101.832 101.041  83.569  0.00  0.00     0.030 H 
+ATOM     38  H17 RRC d   1     102.625 102.535  84.172  0.00  0.00     0.030 H 
+ENDBRANCH  29  35
+ENDBRANCH   4  29
+BRANCH  10  39
+ATOM     39  CAD RRC d   1     100.239 102.485  76.983  0.00  0.00     0.018 C 
+ATOM     40  H20 RRC d   1      99.547 101.921  77.626  0.00  0.00     0.071 H 
+ATOM     41  H21 RRC d   1     100.471 101.894  76.085  0.00  0.00     0.071 H 
+BRANCH  39  42
+ATOM     42  CAE RRC d   1      99.608 103.832  76.581  0.00  0.00    -0.041 A 
+ATOM     43  CAG RRC d   1     100.439 104.891  76.236  0.00  0.00    -0.075 A 
+ATOM     44  CAH RRC d   1      99.883 106.112  75.870  0.00  0.00    -0.082 A 
+ATOM     45  H22 RRC d   1     101.516 104.766  76.252  0.00  0.00     0.084 H 
+ATOM     46  CAF RRC d   1      98.498 106.229  75.864  0.00  0.00    -0.083 A 
+ATOM     47  H23 RRC d   1     100.513 106.951  75.597  0.00  0.00     0.083 H 
+ATOM     48  CAC RRC d   1      97.648 105.173  76.188  0.00  0.00    -0.082 A 
+ATOM     49  H24 RRC d   1      98.060 107.183  75.596  0.00  0.00     0.083 H 
+ATOM     50  CAB RRC d   1      98.224 103.961  76.550  0.00  0.00    -0.075 A 
+ATOM     51  H25 RRC d   1      96.571 105.293  76.159  0.00  0.00     0.083 H 
+ATOM     52  H26 RRC d   1      97.595 103.117  76.808  0.00  0.00     0.084 H 
+ENDBRANCH  39  42
+ENDBRANCH  10  39
+TORSDOF 11

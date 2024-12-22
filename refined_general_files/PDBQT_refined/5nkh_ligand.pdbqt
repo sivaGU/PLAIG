@@ -1,0 +1,103 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAY_6  and  NAX_7 
+REMARK       I    between atoms: NAX_7  and  CAW_8 
+REMARK    2  A    between atoms: CAW_8  and  CAV_10 
+REMARK    3  A    between atoms: CAM_13  and  CAN_14 
+REMARK    4  A    between atoms: CAS_19  and  NAT_20 
+REMARK    5  A    between atoms: CAK_22  and  NAJ_23 
+REMARK    6  A    between atoms: NAJ_23  and  CAI_24 
+REMARK    7  A    between atoms: CAF_28  and  CAE_29 
+REMARK       I    between atoms: CAE_29  and  NAD_31 
+REMARK    8  A    between atoms: NAD_31  and  CAC_32 
+REMARK    9  A    between atoms: CBI_38  and  CBJ_39 
+ROOT
+ATOM      1  CAV 8ZQ d   1     120.242  14.911  44.403  0.00  0.00     0.035 A 
+ATOM      2  CBF 8ZQ d   1     121.606  14.684  44.290  0.00  0.00    -0.042 A 
+ATOM      3  CAU 8ZQ d   1     119.762  15.322  45.608  0.00  0.00    -0.057 A 
+ATOM      4  CAM 8ZQ d   1     120.612  15.515  46.678  0.00  0.00    -0.021 A 
+ATOM      5  CAL 8ZQ d   1     121.967  15.253  46.503  0.00  0.00    -0.046 A 
+ATOM      6  CAK 8ZQ d   1     122.512  14.849  45.305  0.00  0.00     0.035 A 
+ATOM      7  H13 8ZQ d   1     121.983  14.352  43.329  0.00  0.00     0.088 H 
+ATOM      8  H14 8ZQ d   1     118.700  15.500  45.729  0.00  0.00     0.086 H 
+ATOM      9  H21 8ZQ d   1     122.628  15.373  47.354  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6  10
+ATOM     10  NAJ 8ZQ d   1     123.836  14.598  45.029  0.00  0.00    -0.335 N 
+ATOM     11  H22 8ZQ d   1     124.046  13.980  44.232  0.00  0.00     0.168 HD
+BRANCH  10  12
+ATOM     12  CAI 8ZQ d   1     124.884  15.100  45.724  0.00  0.00     0.171 A 
+ATOM     13  SBG 8ZQ d   1     124.849  15.891  47.279  0.00  0.00    -0.045 SA
+ATOM     14  CAF 8ZQ d   1     126.610  16.159  47.272  0.00  0.00     0.094 A 
+ATOM     15  CAG 8ZQ d   1     127.076  15.651  46.119  0.00  0.00     0.027 A 
+ATOM     16  NAH 8ZQ d   1     126.152  15.108  45.300  0.00  0.00    -0.235 NA
+ATOM     17  H23 8ZQ d   1     128.134  15.676  45.862  0.00  0.00     0.117 H 
+BRANCH  14  18
+ATOM     18  CAE 8ZQ d   1     127.207  16.741  48.314  0.00  0.00     0.264 C 
+ATOM     19  OBH 8ZQ d   1     126.546  16.956  49.287  0.00  0.00    -0.267 OA
+ATOM     20  NAD 8ZQ d   1     128.517  17.049  48.285  0.00  0.00    -0.320 N 
+ATOM     21  H24 8ZQ d   1     129.053  16.844  47.466  0.00  0.00     0.169 HD
+BRANCH  20  22
+ATOM     22  CAC 8ZQ d   1     129.131  17.643  49.368  0.00  0.00     0.062 A 
+ATOM     23  CAB 8ZQ d   1     129.516  16.845  50.429  0.00  0.00     0.061 A 
+ATOM     24 CL   8ZQ d   1     129.269  15.136  50.399  0.00  0.00    -0.082 Cl
+ATOM     25  CBM 8ZQ d   1     130.137  17.391  51.523  0.00  0.00    -0.060 A 
+ATOM     26  CBL 8ZQ d   1     130.415  18.729  51.520  0.00  0.00    -0.081 A 
+ATOM     27  H25 8ZQ d   1     130.402  16.773  52.373  0.00  0.00     0.086 H 
+ATOM     28  CBK 8ZQ d   1     130.011  19.530  50.472  0.00  0.00    -0.075 A 
+ATOM     29  H26 8ZQ d   1     130.959  19.166  52.350  0.00  0.00     0.083 H 
+ATOM     30  CBI 8ZQ d   1     129.383  19.013  49.366  0.00  0.00    -0.034 A 
+ATOM     31  H27 8ZQ d   1     130.195  20.597  50.523  0.00  0.00     0.084 H 
+BRANCH  30  32
+ATOM     32  CBJ 8ZQ d   1     129.011  19.908  48.244  0.00  0.00    -0.049 C 
+ATOM     33  H28 8ZQ d   1     128.521  19.321  47.453  0.00  0.00     0.033 H 
+ATOM     34  H29 8ZQ d   1     129.916  20.385  47.840  0.00  0.00     0.033 H 
+ATOM     35  H30 8ZQ d   1     128.320  20.683  48.607  0.00  0.00     0.033 H 
+ENDBRANCH  30  32
+ENDBRANCH  20  22
+ENDBRANCH  14  18
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+BRANCH   1  36
+ATOM     36  CAW 8ZQ d   1     119.425  14.682  43.284  0.00  0.00     0.252 C 
+ATOM     37  NAX 8ZQ d   1     118.934  13.519  43.312  0.00  0.00    -0.352 N 
+ATOM     38  H12 8ZQ d   1     119.093  12.973  44.134  0.00  0.00     0.163 HD
+ATOM     39  OBE 8ZQ d   1     119.456  15.333  42.270  0.00  0.00    -0.268 OA
+BRANCH  37  40
+ATOM     40  CAY 8ZQ d   1     118.194  12.940  42.297  0.00  0.00     0.015 C 
+ATOM     41  CAZ 8ZQ d   1     117.002  13.757  42.174  0.00  0.00    -0.024 C 
+ATOM     42  CBA 8ZQ d   1     115.945  12.919  41.605  0.00  0.00     0.083 C 
+ATOM     43  H1  8ZQ d   1     116.696  14.125  43.164  0.00  0.00     0.038 H 
+ATOM     44  H2  8ZQ d   1     117.201  14.612  41.511  0.00  0.00     0.038 H 
+ATOM     45  NBB 8ZQ d   1     115.758  11.686  42.375  0.00  0.00    -0.075 N 
+ATOM     46  H3  8ZQ d   1     116.216  12.656  40.572  0.00  0.00     0.075 H 
+ATOM     47  H4  8ZQ d   1     115.002  13.486  41.605  0.00  0.00     0.075 H 
+ATOM     48  CBC 8ZQ d   1     116.914  10.917  42.160  0.00  0.00     0.083 C 
+ATOM     49  H5  8ZQ d   1     114.942  11.191  42.050  0.00  0.00     0.277 HD
+ATOM     50  H6  8ZQ d   1     115.655  11.897  43.355  0.00  0.00     0.277 HD
+ATOM     51  CBD 8ZQ d   1     117.948  11.657  42.932  0.00  0.00    -0.024 C 
+ATOM     52  H7  8ZQ d   1     117.170  10.877  41.091  0.00  0.00     0.075 H 
+ATOM     53  H8  8ZQ d   1     116.787   9.895  42.545  0.00  0.00     0.075 H 
+ATOM     54  H9  8ZQ d   1     118.880  11.072  42.953  0.00  0.00     0.038 H 
+ATOM     55  H10 8ZQ d   1     117.593  11.818  43.961  0.00  0.00     0.038 H 
+ATOM     56  H11 8ZQ d   1     118.723  12.850  41.337  0.00  0.00     0.072 H 
+ENDBRANCH  37  40
+ENDBRANCH   1  36
+BRANCH   4  57
+ATOM     57  CAN 8ZQ d   1     120.141  15.994  47.931  0.00  0.00     0.000 A 
+ATOM     58  CAO 8ZQ d   1     120.858  17.006  48.590  0.00  0.00    -0.070 A 
+ATOM     59  CAP 8ZQ d   1     120.422  17.507  49.806  0.00  0.00    -0.082 A 
+ATOM     60  H15 8ZQ d   1     121.763  17.400  48.142  0.00  0.00     0.084 H 
+ATOM     61  CAQ 8ZQ d   1     119.271  17.051  50.393  0.00  0.00    -0.081 A 
+ATOM     62  H16 8ZQ d   1     121.003  18.275  50.303  0.00  0.00     0.083 H 
+ATOM     63  CAR 8ZQ d   1     118.576  16.105  49.760  0.00  0.00    -0.057 A 
+ATOM     64  H17 8ZQ d   1     118.935  17.448  51.344  0.00  0.00     0.083 H 
+ATOM     65  CAS 8ZQ d   1     118.971  15.601  48.564  0.00  0.00     0.036 A 
+ATOM     66  H18 8ZQ d   1     117.668  15.727  50.215  0.00  0.00     0.086 H 
+BRANCH  65  67
+ATOM     67  NAT 8ZQ d   1     118.246  14.705  47.986  0.00  0.00    -0.398 N 
+ATOM     68  H19 8ZQ d   1     118.536  14.315  47.078  0.00  0.00     0.156 HD
+ATOM     69  H20 8ZQ d   1     117.377  14.379  48.432  0.00  0.00     0.156 HD
+ENDBRANCH  65  67
+ENDBRANCH   4  57
+TORSDOF 9

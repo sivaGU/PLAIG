@@ -1,0 +1,62 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_5  and  O23_23 
+REMARK    2  A    between atoms: C5_6  and  O21_21 
+REMARK    3  A    between atoms: C13_14  and  C7_8 
+REMARK    4  A    between atoms: N9_10  and  C20_20 
+REMARK    5  A    between atoms: O21_21  and  C22_22 
+REMARK    6  A    between atoms: O23_23  and  C24_24 
+ROOT
+ATOM      1  C1  PDR d   1       2.617  52.681  12.782  0.00  0.00     0.100 A 
+ATOM      2  C2  PDR d   1       2.876  51.666  11.881  0.00  0.00     0.066 A 
+ATOM      3  C3  PDR d   1       2.805  50.328  12.329  0.00  0.00    -0.018 A 
+ATOM      4  C4  PDR d   1       2.467  50.028  13.685  0.00  0.00     0.123 A 
+ATOM      5  C5  PDR d   1       2.211  51.122  14.569  0.00  0.00     0.199 A 
+ATOM      6  N6  PDR d   1       2.281  52.426  14.131  0.00  0.00    -0.219 NA
+ATOM      7  C7  PDR d   1       2.736  53.929  12.141  0.00  0.00     0.037 A 
+ATOM      8  C8  PDR d   1       3.087  53.576  10.814  0.00  0.00    -0.006 A 
+ATOM      9  N9  PDR d   1       3.174  52.193  10.655  0.00  0.00    -0.358 N 
+ATOM     10  H   PDR d   1       3.010  49.515  11.633  0.00  0.00     0.091 H 
+ATOM     11  H   PDR d   1       3.267  54.297  10.016  0.00  0.00     0.113 H 
+ENDROOT
+BRANCH   7  12
+ATOM     12  C13 PDR d   1       2.538  55.290  12.745  0.00  0.00     0.048 A 
+ATOM     13  N12 PDR d   1       2.699  56.414  11.950  0.00  0.00    -0.339 N 
+ATOM     14  C11 PDR d   1       2.439  57.425  12.844  0.00  0.00     0.139 A 
+ATOM     15  H   PDR d   1       2.945  56.475  10.962  0.00  0.00     0.167 HD
+ATOM     16  C10 PDR d   1       2.137  56.905  14.115  0.00  0.00     0.034 A 
+ATOM     17  N17 PDR d   1       2.468  58.787  12.548  0.00  0.00    -0.242 NA
+ATOM     18  C14 PDR d   1       2.184  55.502  14.115  0.00  0.00    -0.041 A 
+ATOM     19  C18 PDR d   1       1.846  57.883  15.164  0.00  0.00     0.049 A 
+ATOM     20  H   PDR d   1       2.005  54.788  14.918  0.00  0.00     0.088 H 
+ATOM     21 CL   PDR d   1       1.465  57.350  16.791  0.00  0.00    -0.083 Cl
+ATOM     22  C15 PDR d   1       1.873  59.282  14.871  0.00  0.00    -0.044 A 
+ATOM     23  C16 PDR d   1       2.194  59.682  13.532  0.00  0.00     0.006 A 
+ATOM     24  H   PDR d   1       1.656  60.022  15.642  0.00  0.00     0.088 H 
+ATOM     25  H   PDR d   1       2.219  60.746  13.295  0.00  0.00     0.114 H 
+ENDBRANCH   7  12
+BRANCH   9  26
+ATOM     26  C20 PDR d   1       3.515  51.462   9.416  0.00  0.00    -0.014 C 
+ATOM     27  H   PDR d   1       2.785  51.701   8.642  0.00  0.00     0.057 H 
+ATOM     28  H   PDR d   1       4.510  51.758   9.083  0.00  0.00     0.057 H 
+ATOM     29  H   PDR d   1       3.501  50.390   9.613  0.00  0.00     0.057 H 
+ENDBRANCH   9  26
+BRANCH   5  30
+ATOM     30  O21 PDR d   1       1.881  50.838  15.913  0.00  0.00    -0.337 OA
+BRANCH  30  31
+ATOM     31  C22 PDR d   1       1.322  51.950  16.621  0.00  0.00     0.012 C 
+ATOM     32  H   PDR d   1       2.039  52.770  16.631  0.00  0.00     0.067 H 
+ATOM     33  H   PDR d   1       0.407  52.272  16.125  0.00  0.00     0.067 H 
+ATOM     34  H   PDR d   1       1.096  51.651  17.645  0.00  0.00     0.067 H 
+ENDBRANCH  30  31
+ENDBRANCH   5  30
+BRANCH   4  35
+ATOM     35  O23 PDR d   1       2.380  48.727  14.192  0.00  0.00    -0.352 OA
+BRANCH  35  36
+ATOM     36  C24 PDR d   1       1.540  47.792  13.499  0.00  0.00     0.011 C 
+ATOM     37  H   PDR d   1       0.515  48.164  13.490  0.00  0.00     0.067 H 
+ATOM     38  H   PDR d   1       1.895  47.676  12.475  0.00  0.00     0.067 H 
+ATOM     39  H   PDR d   1       1.574  46.829  14.008  0.00  0.00     0.067 H 
+ENDBRANCH  35  36
+ENDBRANCH   4  35
+TORSDOF 6

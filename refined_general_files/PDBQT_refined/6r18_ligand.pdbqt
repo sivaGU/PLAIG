@@ -1,0 +1,60 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N2_12  and  C5_2 
+REMARK    1  A    between atoms: C5_2  and  O3_19 
+REMARK    2  A    between atoms: C6_3  and  C7_5 
+REMARK    3  A    between atoms: O3_19  and  C6_3 
+REMARK    4  A    between atoms: C10_8  and  C13_10 
+REMARK    5  A    between atoms: C13_10  and  N3_14 
+REMARK    6  A    between atoms: C3_13  and  N2_12 
+ROOT
+ATOM      1  C6  JOQ d   1      25.512  16.884  29.979  0.00  0.00     0.054 C 
+ATOM      2  H1  JOQ d   1      25.134  17.591  29.226  0.00  0.00     0.082 H 
+ATOM      3  H2  JOQ d   1      25.035  17.091  30.948  0.00  0.00     0.082 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C7  JOQ d   1      26.999  17.040  30.110  0.00  0.00    -0.034 A 
+ATOM      5  C8  JOQ d   1      27.630  16.811  31.321  0.00  0.00    -0.074 A 
+ATOM      6  C9  JOQ d   1      29.001  16.955  31.441  0.00  0.00    -0.075 A 
+ATOM      7  H4  JOQ d   1      27.044  16.516  32.184  0.00  0.00     0.084 H 
+ATOM      8  C10 JOQ d   1      29.774  17.331  30.354  0.00  0.00    -0.033 A 
+ATOM      9  H5  JOQ d   1      29.477  16.771  32.398  0.00  0.00     0.084 H 
+ATOM     10  C11 JOQ d   1      29.140  17.560  29.143  0.00  0.00    -0.075 A 
+ATOM     11  C12 JOQ d   1      27.769  17.416  29.023  0.00  0.00    -0.074 A 
+ATOM     12  H3  JOQ d   1      29.725  17.855  28.280  0.00  0.00     0.084 H 
+ATOM     13  H6  JOQ d   1      27.293  17.600  28.067  0.00  0.00     0.084 H 
+BRANCH   8  14
+ATOM     14  C13 JOQ d   1      31.270  17.488  30.486  0.00  0.00     0.103 C 
+ATOM     15  H7  JOQ d   1      31.659  17.955  29.569  0.00  0.00     0.082 H 
+ATOM     16  H8  JOQ d   1      31.720  16.492  30.610  0.00  0.00     0.082 H 
+BRANCH  14  17
+ATOM     17  N3  JOQ d   1      31.645  18.321  31.634  0.00  0.00    -0.075 N 
+ATOM     18  H12 JOQ d   1      32.649  18.396  31.681  0.00  0.00     0.274 HD
+ATOM     19  H13 JOQ d   1      31.300  17.899  32.482  0.00  0.00     0.274 HD
+ATOM     20  H14 JOQ d   1      31.244  19.239  31.528  0.00  0.00     0.274 HD
+ENDBRANCH  14  17
+ENDBRANCH   8  14
+ENDBRANCH   1   4
+BRANCH   1  21
+ATOM     21  O3  JOQ d   1      25.201  15.529  29.568  0.00  0.00    -0.299 OA
+BRANCH  21  22
+ATOM     22  C5  JOQ d   1      25.078  15.342  28.246  0.00  0.00     0.361 C 
+ATOM     23  N2  JOQ d   1      24.508  14.152  28.012  0.00  0.00    -0.323 N 
+ATOM     24  H10 JOQ d   1      24.306  13.553  28.787  0.00  0.00     0.165 HD
+ATOM     25  O4  JOQ d   1      25.428  16.126  27.394  0.00  0.00    -0.238 OA
+BRANCH  23  26
+ATOM     26  C3  JOQ d   1      24.177  13.708  26.686  0.00  0.00     0.100 C 
+ATOM     27  C4  JOQ d   1      22.715  13.958  26.383  0.00  0.00     0.247 C 
+ATOM     28  N1  JOQ d   1      22.182  12.810  25.866  0.00  0.00    -0.296 N 
+ATOM     29  O2  JOQ d   1      22.116  15.001  26.566  0.00  0.00    -0.271 OA
+ATOM     30  C1  JOQ d   1      23.078  11.770  25.815  0.00  0.00     0.226 C 
+ATOM     31  H9  JOQ d   1      21.234  12.735  25.556  0.00  0.00     0.171 HD
+ATOM     32  C2  JOQ d   1      24.335  12.192  26.522  0.00  0.00     0.037 C 
+ATOM     33  O1  JOQ d   1      22.855  10.699  25.277  0.00  0.00    -0.273 OA
+ATOM     34  H15 JOQ d   1      24.417  11.699  27.502  0.00  0.00     0.051 H 
+ATOM     35  H16 JOQ d   1      25.222  11.954  25.917  0.00  0.00     0.051 H 
+ATOM     36  H11 JOQ d   1      24.816  14.237  25.964  0.00  0.00     0.088 H 
+ENDBRANCH  23  26
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+TORSDOF 6

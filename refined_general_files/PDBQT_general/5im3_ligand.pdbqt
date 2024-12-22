@@ -1,0 +1,77 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_8  and  PG_1 
+REMARK    2  A    between atoms: PB_5  and  O3B_8 
+REMARK    3  A    between atoms: O3A_12  and  PB_5 
+REMARK    4  A    between atoms: PA_9  and  O3A_12 
+REMARK    5  A    between atoms: PA_9  and  O5'_13 
+REMARK    6  A    between atoms: O5'_13  and  C5'_14 
+REMARK    7  A    between atoms: C5'_14  and  C4'_15 
+REMARK    8  A    between atoms: C3'_17  and  O3'_18 
+REMARK    9  A    between atoms: C1'_20  and  N9_21 
+REMARK   10  A    between atoms: C6_25  and  N6_26 
+ROOT
+ATOM      1  C4' DTP d   1      51.317  26.126   3.721  0.00  0.00     0.087 C 
+ATOM      2  O4' DTP d   1      50.294  26.876   4.403  0.00  0.00    -0.356 OA
+ATOM      3  C3' DTP d   1      50.633  25.600   2.468  0.00  0.00     0.066 C 
+ATOM      4  C2' DTP d   1      49.688  26.741   2.114  0.00  0.00     0.002 C 
+ATOM      5  C1' DTP d   1      49.388  27.416   3.448  0.00  0.00     0.115 C 
+ATOM      6  H3  DTP d   1      51.666  25.286   4.340  0.00  0.00     0.090 H 
+ATOM      7  H4  DTP d   1      51.363  25.425   1.664  0.00  0.00     0.087 H 
+ATOM      8  H6  DTP d   1      48.765  26.354   1.658  0.00  0.00     0.043 H 
+ATOM      9  H7  DTP d   1      50.172  27.446   1.422  0.00  0.00     0.043 H 
+ATOM     10  H8  DTP d   1      48.354  27.179   3.739  0.00  0.00     0.118 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C5' DTP d   1      52.478  27.035   3.424  0.00  0.00     0.058 C 
+ATOM     12  H1  DTP d   1      52.556  27.173   2.335  0.00  0.00     0.079 H 
+ATOM     13  H2  DTP d   1      52.303  28.009   3.905  0.00  0.00     0.079 H 
+BRANCH  11  14
+ATOM     14  O5' DTP d   1      53.706  26.488   3.913  0.00  0.00    -0.287 OA
+BRANCH  14  15
+ATOM     15  PA  DTP d   1      54.891  27.484   3.946  0.00  0.00     0.417 P 
+ATOM     16  O1A DTP d   1      55.092  28.158   2.650  0.00  0.00    -0.624 OA
+ATOM     17  O2A DTP d   1      56.125  26.749   4.479  0.00  0.00    -0.624 OA
+BRANCH  15  18
+ATOM     18  O3A DTP d   1      54.334  28.507   5.028  0.00  0.00    -0.180 OA
+BRANCH  18  19
+ATOM     19  PB  DTP d   1      54.444  28.330   6.602  0.00  0.00     0.428 P 
+ATOM     20  O1B DTP d   1      54.737  26.910   6.890  0.00  0.00    -0.624 OA
+ATOM     21  O2B DTP d   1      53.199  28.810   7.325  0.00  0.00    -0.624 OA
+BRANCH  19  22
+ATOM     22  O3B DTP d   1      55.708  29.238   6.926  0.00  0.00    -0.173 OA
+BRANCH  22  23
+ATOM     23  PG  DTP d   1      57.192  28.990   6.407  0.00  0.00     0.431 P 
+ATOM     24  O1G DTP d   1      57.618  30.014   5.425  0.00  0.00    -0.616 OA
+ATOM     25  O2G DTP d   1      57.136  27.574   5.805  0.00  0.00    -0.616 OA
+ATOM     26  O3G DTP d   1      58.085  28.944   7.631  0.00  0.00    -0.616 OA
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   3  27
+ATOM     27  O3' DTP d   1      49.914  24.393   2.722  0.00  0.00    -0.393 OA
+ATOM     28  H5  DTP d   1      50.515  23.728   3.035  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   5  29
+ATOM     29  N9  DTP d   1      49.540  28.869   3.429  0.00  0.00    -0.296 N 
+ATOM     30  C8  DTP d   1      50.676  29.614   3.601  0.00  0.00     0.070 A 
+ATOM     31  N7  DTP d   1      50.503  30.903   3.435  0.00  0.00    -0.236 NA
+ATOM     32  H9  DTP d   1      51.640  29.174   3.854  0.00  0.00     0.144 H 
+ATOM     33  C5  DTP d   1      49.154  31.016   3.137  0.00  0.00     0.149 A 
+ATOM     34  C6  DTP d   1      48.338  32.125   2.849  0.00  0.00     0.155 A 
+ATOM     35  C4  DTP d   1      48.546  29.772   3.140  0.00  0.00     0.167 A 
+ATOM     36  N1  DTP d   1      47.023  31.895   2.637  0.00  0.00    -0.222 NA
+ATOM     37  C2  DTP d   1      46.574  30.637   2.692  0.00  0.00     0.091 A 
+ATOM     38  N3  DTP d   1      47.256  29.514   2.918  0.00  0.00    -0.222 NA
+ATOM     39  H12 DTP d   1      45.509  30.513   2.531  0.00  0.00     0.146 H 
+BRANCH  34  40
+ATOM     40  N6  DTP d   1      48.808  33.369   2.695  0.00  0.00    -0.382 N 
+ATOM     41  H10 DTP d   1      48.160  34.142   2.485  0.00  0.00     0.157 HD
+ATOM     42  H11 DTP d   1      49.817  33.553   2.787  0.00  0.00     0.157 HD
+ENDBRANCH  34  40
+ENDBRANCH   5  29
+TORSDOF 10

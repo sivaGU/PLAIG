@@ -1,0 +1,111 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_7  and  C5_5 
+REMARK    2  A    between atoms: C8_8  and  C7_7 
+REMARK    3  A    between atoms: C9_9  and  C8_8 
+REMARK    4  A    between atoms: C8_8  and  N12_12 
+REMARK       I    between atoms: N10_10  and  C9_9 
+REMARK    5  A    between atoms: C14_14  and  N10_10 
+REMARK    6  A    between atoms: C17_17  and  C13_13 
+REMARK    7  A    between atoms: C13_13  and  N18_18 
+REMARK    8  A    between atoms: C15_15  and  C14_14 
+REMARK    9  A    between atoms: C14_14  and  C30_29 
+REMARK   10  A    between atoms: C16_16  and  C15_15 
+REMARK   11  A    between atoms: C16_16  and  C17_17 
+REMARK       I    between atoms: N18_18  and  C20_19 
+REMARK   12  A    between atoms: C20_19  and  O21_20 
+REMARK   13  A    between atoms: O21_20  and  C23_22 
+REMARK   14  A    between atoms: C23_22  and  C24_23 
+REMARK       I    between atoms: C30_29  and  N32_31 
+ROOT
+ATOM      1  C15 FBO d   1      34.900 -69.173 -38.193  0.00  0.00    -0.038 C 
+ATOM      2  H   FBO d   1      34.162 -68.686 -38.830  0.00  0.00     0.036 H 
+ATOM      3  H   FBO d   1      35.128 -68.693 -37.241  0.00  0.00     0.036 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C14 FBO d   1      36.216 -69.164 -38.993  0.00  0.00     0.093 C 
+ATOM      5  H   FBO d   1      36.979 -69.455 -38.272  0.00  0.00     0.087 H 
+BRANCH   4   6
+ATOM      6  N10 FBO d   1      36.594 -67.866 -39.483  0.00  0.00    -0.346 N 
+ATOM      7  C9  FBO d   1      37.285 -67.067 -38.630  0.00  0.00     0.249 C 
+ATOM      8  O11 FBO d   1      37.539 -67.424 -37.498  0.00  0.00    -0.271 OA
+ATOM      9  H   FBO d   1      36.355 -67.560 -40.426  0.00  0.00     0.163 HD
+BRANCH   7  10
+ATOM     10  C8  FBO d   1      37.716 -65.709 -39.160  0.00  0.00     0.179 C 
+ATOM     11  H   FBO d   1      38.480 -65.953 -39.898  0.00  0.00     0.099 H 
+BRANCH  10  12
+ATOM     12  C7  FBO d   1      38.382 -64.815 -38.121  0.00  0.00    -0.006 C 
+ATOM     13  H   FBO d   1      38.542 -63.878 -38.654  0.00  0.00     0.043 H 
+ATOM     14  H   FBO d   1      37.717 -64.882 -37.260  0.00  0.00     0.043 H 
+BRANCH  12  15
+ATOM     15  C5  FBO d   1      39.760 -65.139 -37.538  0.00  0.00    -0.056 A 
+ATOM     16  C4  FBO d   1      40.382 -66.382 -37.738  0.00  0.00    -0.077 A 
+ATOM     17  C3  FBO d   1      41.649 -66.600 -37.134  0.00  0.00    -0.082 A 
+ATOM     18  H   FBO d   1      39.906 -67.157 -38.339  0.00  0.00     0.084 H 
+ATOM     19  C2  FBO d   1      42.276 -65.604 -36.358  0.00  0.00    -0.083 A 
+ATOM     20  H   FBO d   1      42.148 -67.559 -37.274  0.00  0.00     0.083 H 
+ATOM     21  C1  FBO d   1      41.662 -64.364 -36.156  0.00  0.00    -0.082 A 
+ATOM     22  H   FBO d   1      43.250 -65.803 -35.911  0.00  0.00     0.083 H 
+ATOM     23  C6  FBO d   1      40.410 -64.156 -36.749  0.00  0.00    -0.077 A 
+ATOM     24  H   FBO d   1      42.140 -63.587 -35.559  0.00  0.00     0.083 H 
+ATOM     25  H   FBO d   1      39.914 -63.197 -36.597  0.00  0.00     0.084 H 
+ENDBRANCH  12  15
+ENDBRANCH  10  12
+BRANCH  10  26
+ATOM     26  N12 FBO d   1      36.662 -65.002 -39.839  0.00  0.00    -0.066 N 
+ATOM     27  H   FBO d   1      36.231 -65.618 -40.529  0.00  0.00     0.275 HD
+ATOM     28  H   FBO d   1      35.961 -64.706 -39.160  0.00  0.00     0.275 HD
+ATOM     29  H   FBO d   1      37.050 -64.184 -40.308  0.00  0.00     0.275 HD
+ENDBRANCH  10  26
+ENDBRANCH   7  10
+ENDBRANCH   4   6
+BRANCH   4  30
+ATOM     30  C30 FBO d   1      36.207 -70.154 -40.094  0.00  0.00     0.292 C 
+ATOM     31  O31 FBO d   1      35.274 -70.298 -40.878  0.00  0.00    -0.267 OA
+ATOM     32  N32 FBO d   1      37.450 -70.883 -40.182  0.00  0.00    -0.057 NA
+ATOM     33  O33 FBO d   1      37.732 -71.809 -41.074  0.00  0.00    -0.058 OA
+ENDBRANCH   4  30
+ENDBRANCH   1   4
+BRANCH   1  34
+ATOM     34  C16 FBO d   1      34.295 -70.572 -37.832  0.00  0.00    -0.061 C 
+ATOM     35  H   FBO d   1      34.294 -70.613 -36.743  0.00  0.00     0.033 H 
+ATOM     36  H   FBO d   1      34.903 -71.297 -38.372  0.00  0.00     0.033 H 
+BRANCH  34  37
+ATOM     37  C17 FBO d   1      32.831 -70.867 -38.256  0.00  0.00    -0.050 C 
+ATOM     38  H   FBO d   1      32.831 -70.891 -39.346  0.00  0.00     0.035 H 
+ATOM     39  H   FBO d   1      32.550 -71.791 -37.750  0.00  0.00     0.035 H 
+BRANCH  37  40
+ATOM     40  C13 FBO d   1      31.780 -69.826 -37.854  0.00  0.00    -0.003 C 
+ATOM     41  H   FBO d   1      31.166 -69.705 -38.746  0.00  0.00     0.064 H 
+ATOM     42  H   FBO d   1      32.363 -68.990 -37.468  0.00  0.00     0.064 H 
+BRANCH  40  43
+ATOM     43  N18 FBO d   1      30.815 -70.118 -36.787  0.00  0.00    -0.337 N 
+ATOM     44  C20 FBO d   1      31.134 -71.115 -35.942  0.00  0.00     0.360 C 
+ATOM     45  O22 FBO d   1      32.299 -71.203 -35.506  0.00  0.00    -0.239 OA
+ATOM     46  H   FBO d   1      29.947 -69.592 -36.691  0.00  0.00     0.164 HD
+BRANCH  44  47
+ATOM     47  O21 FBO d   1      30.093 -71.944 -35.435  0.00  0.00    -0.299 OA
+BRANCH  47  48
+ATOM     48  C23 FBO d   1      30.046 -72.278 -34.048  0.00  0.00     0.054 C 
+ATOM     49  H   FBO d   1      29.002 -72.526 -33.856  0.00  0.00     0.082 H 
+ATOM     50  H   FBO d   1      30.491 -71.423 -33.539  0.00  0.00     0.082 H 
+BRANCH  48  51
+ATOM     51  C24 FBO d   1      30.830 -73.479 -33.549  0.00  0.00    -0.034 A 
+ATOM     52  C25 FBO d   1      32.200 -73.588 -33.785  0.00  0.00    -0.075 A 
+ATOM     53  C26 FBO d   1      32.891 -74.723 -33.340  0.00  0.00    -0.082 A 
+ATOM     54  H   FBO d   1      32.730 -72.795 -34.312  0.00  0.00     0.084 H 
+ATOM     55  C27 FBO d   1      32.240 -75.746 -32.663  0.00  0.00    -0.083 A 
+ATOM     56  H   FBO d   1      33.961 -74.805 -33.529  0.00  0.00     0.083 H 
+ATOM     57  C28 FBO d   1      30.874 -75.634 -32.434  0.00  0.00    -0.082 A 
+ATOM     58  H   FBO d   1      32.791 -76.621 -32.318  0.00  0.00     0.083 H 
+ATOM     59  C29 FBO d   1      30.170 -74.505 -32.872  0.00  0.00    -0.075 A 
+ATOM     60  H   FBO d   1      30.346 -76.431 -31.910  0.00  0.00     0.083 H 
+ATOM     61  H   FBO d   1      29.099 -74.427 -32.683  0.00  0.00     0.084 H 
+ENDBRANCH  48  51
+ENDBRANCH  47  48
+ENDBRANCH  44  47
+ENDBRANCH  40  43
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH   1  34
+TORSDOF 14

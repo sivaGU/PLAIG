@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5_5 
+REMARK    2  A    between atoms: O5_5  and  C5_6 
+REMARK    3  A    between atoms: C5_6  and  C4_7 
+REMARK    4  A    between atoms: C3_9  and  O3_10 
+REMARK    5  A    between atoms: C2_11  and  O2_12 
+REMARK    6  A    between atoms: C1_13  and  N9_14 
+ROOT
+ATOM      1  C4  IMP d   1       8.565  39.838  -8.541  0.00  0.00     0.089 C 
+ATOM      2  O4  IMP d   1       7.849  41.100  -8.481  0.00  0.00    -0.353 OA
+ATOM      3  C3  IMP d   1       7.505  38.817  -8.175  0.00  0.00     0.091 C 
+ATOM      4  C2  IMP d   1       6.744  39.539  -7.058  0.00  0.00     0.105 C 
+ATOM      5  C1  IMP d   1       6.807  41.001  -7.519  0.00  0.00     0.139 C 
+ATOM      6  H3  IMP d   1       9.354  39.819  -7.775  0.00  0.00     0.090 H 
+ATOM      7  H4  IMP d   1       6.845  38.606  -9.029  0.00  0.00     0.091 H 
+ATOM      8  H6  IMP d   1       5.709  39.174  -6.988  0.00  0.00     0.093 H 
+ATOM      9  H8  IMP d   1       7.060  41.621  -6.646  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  N9  IMP d   1       5.570  41.530  -8.094  0.00  0.00    -0.294 N 
+ATOM     11  C8  IMP d   1       5.196  41.510  -9.415  0.00  0.00     0.071 A 
+ATOM     12  N7  IMP d   1       4.040  42.077  -9.630  0.00  0.00    -0.234 NA
+ATOM     13  H9  IMP d   1       5.802  41.066 -10.203  0.00  0.00     0.144 H 
+ATOM     14  C5  IMP d   1       3.620  42.492  -8.375  0.00  0.00     0.172 A 
+ATOM     15  C6  IMP d   1       2.441  43.164  -7.984  0.00  0.00     0.279 A 
+ATOM     16  C4  IMP d   1       4.548  42.161  -7.414  0.00  0.00     0.169 A 
+ATOM     17  O6  IMP d   1       1.496  43.529  -8.691  0.00  0.00    -0.265 OA
+ATOM     18  N1  IMP d   1       2.416  43.400  -6.615  0.00  0.00    -0.316 N 
+ATOM     19  C2  IMP d   1       3.395  43.032  -5.736  0.00  0.00     0.069 A 
+ATOM     20  H10 IMP d   1       1.619  43.877  -6.244  0.00  0.00     0.170 HD
+ATOM     21  N3  IMP d   1       4.501  42.397  -6.087  0.00  0.00    -0.223 NA
+ATOM     22  H11 IMP d   1       3.257  43.276  -4.684  0.00  0.00     0.143 H 
+ENDBRANCH   5  10
+BRANCH   4  23
+ATOM     23  O2  IMP d   1       7.372  39.439  -5.793  0.00  0.00    -0.388 OA
+ATOM     24  H7  IMP d   1       7.441  38.524  -5.546  0.00  0.00     0.210 HD
+ENDBRANCH   4  23
+BRANCH   1  25
+ATOM     25  C5  IMP d   1       9.239  39.658  -9.886  0.00  0.00     0.059 C 
+ATOM     26  H1  IMP d   1       9.723  40.602 -10.176  0.00  0.00     0.079 H 
+ATOM     27  H2  IMP d   1       9.999  38.867  -9.805  0.00  0.00     0.079 H 
+BRANCH  25  28
+ATOM     28  O5  IMP d   1       8.287  39.293 -10.887  0.00  0.00    -0.280 OA
+BRANCH  28  29
+ATOM     29  P   IMP d   1       8.556  38.061 -11.873  0.00  0.00     0.422 P 
+ATOM     30  O1P IMP d   1       7.693  38.318 -13.049  0.00  0.00    -0.617 OA
+ATOM     31  O2P IMP d   1       8.306  36.830 -11.079  0.00  0.00    -0.617 OA
+ATOM     32  O3P IMP d   1       9.992  38.145 -12.269  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH   1  25
+BRANCH   3  33
+ATOM     33  O3  IMP d   1       8.093  37.598  -7.726  0.00  0.00    -0.390 OA
+ATOM     34  H5  IMP d   1       7.407  36.980  -7.505  0.00  0.00     0.210 HD
+ENDBRANCH   3  33
+TORSDOF 6

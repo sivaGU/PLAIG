@@ -1,0 +1,155 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBH_1  and  CAX_2 
+REMARK       I    between atoms: N_10  and  CBH_1 
+REMARK    2  A    between atoms: CAX_2  and  CBL_3 
+REMARK    3  A    between atoms: CA_11  and  N_10 
+REMARK    4  A    between atoms: CA_11  and  CB_12 
+REMARK    5  A    between atoms: C_15  and  CA_11 
+REMARK    6  A    between atoms: CB_12  and  SBF_13 
+REMARK    7  A    between atoms: SBF_13  and  CAA_14 
+REMARK       I    between atoms: NBD_18  and  C_15 
+REMARK    8  A    between atoms: CBK_17  and  CBR_20 
+REMARK       I    between atoms: NBV_31  and  CBK_17 
+REMARK    9  A    between atoms: CBS_24  and  NBD_18 
+REMARK   10  A    between atoms: CBR_20  and  CBS_24 
+REMARK   11  A    between atoms: CBR_20  and  OAI_25 
+REMARK   12  A    between atoms: CBB_22  and  CBM_21 
+REMARK   13  A    between atoms: CBS_24  and  CBB_22 
+REMARK   14  A    between atoms: CBJ_30  and  CBU_33 
+REMARK       I    between atoms: NBE_39  and  CBJ_30 
+REMARK   15  A    between atoms: CBW_34  and  CAC_36 
+REMARK   16  A    between atoms: CBW_34  and  CAB_37 
+REMARK   17  A    between atoms: CBT_41  and  NBE_39 
+REMARK   18  A    between atoms: CBP_45  and  OAH_40 
+ROOT
+ATOM      1  CBS K95 d   1     -26.180  18.199 -11.728  0.00  0.00     0.049 C 
+ATOM      2  H20 K95 d   1     -25.337  18.254 -12.433  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  NBD K95 d   1     -26.037  19.246 -10.731  0.00  0.00    -0.351 N 
+ATOM      4  C   K95 d   1     -25.252  20.438 -11.001  0.00  0.00     0.241 C 
+ATOM      5  O   K95 d   1     -24.751  20.578 -12.060  0.00  0.00    -0.271 OA
+ATOM      6  H15 K95 d   1     -26.487  19.144  -9.844  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CA  K95 d   1     -25.115  21.492  -9.899  0.00  0.00     0.097 C 
+ATOM      8  H9  K95 d   1     -25.763  21.202  -9.059  0.00  0.00     0.088 H 
+BRANCH   7   9
+ATOM      9  N   K95 d   1     -23.737  21.599  -9.426  0.00  0.00    -0.347 N 
+ATOM     10  CBH K95 d   1     -23.279  20.921  -8.206  0.00  0.00     0.222 C 
+ATOM     11  OAD K95 d   1     -24.033  20.255  -7.585  0.00  0.00    -0.273 OA
+ATOM     12  H8  K95 d   1     -23.086  22.150  -9.948  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CAX K95 d   1     -21.811  21.082  -7.731  0.00  0.00     0.033 C 
+ATOM     14  H1  K95 d   1     -21.782  21.861  -6.955  0.00  0.00     0.054 H 
+ATOM     15  H2  K95 d   1     -21.202  21.398  -8.591  0.00  0.00     0.054 H 
+BRANCH  13  16
+ATOM     16  CBL K95 d   1     -21.194  19.786  -7.145  0.00  0.00    -0.050 A 
+ATOM     17  CAR K95 d   1     -20.216  19.084  -7.863  0.00  0.00    -0.076 A 
+ATOM     18  CAL K95 d   1     -19.657  17.912  -7.334  0.00  0.00    -0.082 A 
+ATOM     19  H3  K95 d   1     -19.891  19.448  -8.831  0.00  0.00     0.084 H 
+ATOM     20  CAJ K95 d   1     -20.070  17.447  -6.088  0.00  0.00    -0.083 A 
+ATOM     21  H4  K95 d   1     -18.904  17.369  -7.894  0.00  0.00     0.083 H 
+ATOM     22  CAM K95 d   1     -21.039  18.154  -5.371  0.00  0.00    -0.082 A 
+ATOM     23  H5  K95 d   1     -19.642  16.540  -5.676  0.00  0.00     0.083 H 
+ATOM     24  CAS K95 d   1     -21.602  19.321  -5.897  0.00  0.00    -0.076 A 
+ATOM     25  H6  K95 d   1     -21.357  17.795  -4.399  0.00  0.00     0.083 H 
+ATOM     26  H7  K95 d   1     -22.354  19.863  -5.335  0.00  0.00     0.084 H 
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7   9
+BRANCH   7  27
+ATOM     27  CB  K95 d   1     -25.536  22.875 -10.406  0.00  0.00     0.003 C 
+ATOM     28  H10 K95 d   1     -25.033  23.095 -11.359  0.00  0.00     0.052 H 
+ATOM     29  H11 K95 d   1     -25.270  23.643  -9.665  0.00  0.00     0.052 H 
+BRANCH  27  30
+ATOM     30  SBF K95 d   1     -27.339  22.844 -10.648  0.00  0.00    -0.171 SA
+BRANCH  30  31
+ATOM     31  CAA K95 d   1     -28.106  23.200  -9.039  0.00  0.00    -0.035 C 
+ATOM     32  H12 K95 d   1     -29.201  23.190  -9.145  0.00  0.00     0.041 H 
+ATOM     33  H13 K95 d   1     -27.780  24.191  -8.689  0.00  0.00     0.041 H 
+ATOM     34  H14 K95 d   1     -27.801  22.435  -8.310  0.00  0.00     0.041 H 
+ENDBRANCH  30  31
+ENDBRANCH  27  30
+ENDBRANCH   7  27
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  35
+ATOM     35  CBR K95 d   1     -27.483  18.410 -12.533  0.00  0.00     0.132 C 
+ATOM     36  H16 K95 d   1     -27.606  19.476 -12.773  0.00  0.00     0.101 H 
+BRANCH  35  37
+ATOM     37  CBK K95 d   1     -27.379  17.576 -13.797  0.00  0.00     0.255 C 
+ATOM     38  OAG K95 d   1     -27.805  16.465 -13.819  0.00  0.00    -0.270 OA
+ATOM     39  NBV K95 d   1     -26.753  18.054 -14.999  0.00  0.00    -0.305 N 
+ATOM     40  CBU K95 d   1     -26.656  17.089 -16.384  0.00  0.00     0.112 C 
+ATOM     41  CAZ K95 d   1     -26.133  19.415 -15.424  0.00  0.00     0.018 C 
+ATOM     42  CBW K95 d   1     -27.066  17.988 -17.327  0.00  0.00     0.036 C 
+ATOM     43  H26 K95 d   1     -27.365  16.249 -16.342  0.00  0.00     0.090 H 
+ATOM     44  SBG K95 d   1     -26.424  19.551 -16.869  0.00  0.00    -0.112 SA
+ATOM     45  H27 K95 d   1     -25.597  20.121 -14.791  0.00  0.00     0.123 H 
+BRANCH  40  46
+ATOM     46  CBJ K95 d   1     -25.275  16.518 -16.496  0.00  0.00     0.243 C 
+ATOM     47  OAF K95 d   1     -24.310  17.157 -16.267  0.00  0.00    -0.271 OA
+ATOM     48  NBE K95 d   1     -25.141  15.140 -16.929  0.00  0.00    -0.348 N 
+ATOM     49  H34 K95 d   1     -25.977  14.607 -17.062  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CBT K95 d   1     -23.868  14.486 -17.181  0.00  0.00     0.063 C 
+ATOM     51  CBO K95 d   1     -23.196  13.793 -15.970  0.00  0.00    -0.027 A 
+ATOM     52  CAW K95 d   1     -22.962  14.223 -14.671  0.00  0.00    -0.074 A 
+ATOM     53  CBN K95 d   1     -22.761  12.490 -16.389  0.00  0.00    -0.047 A 
+ATOM     54  CAQ K95 d   1     -22.312  13.358 -13.768  0.00  0.00    -0.082 A 
+ATOM     55  H37 K95 d   1     -23.275  15.211 -14.355  0.00  0.00     0.084 H 
+ATOM     56  CAP K95 d   1     -21.876  12.062 -14.185  0.00  0.00    -0.082 A 
+ATOM     57  H38 K95 d   1     -22.141  13.679 -12.747  0.00  0.00     0.083 H 
+ATOM     58  CAV K95 d   1     -22.105  11.639 -15.494  0.00  0.00    -0.076 A 
+ATOM     59  H41 K95 d   1     -21.368  11.409 -13.485  0.00  0.00     0.083 H 
+ATOM     60  H40 K95 d   1     -21.777  10.657 -15.816  0.00  0.00     0.084 H 
+ATOM     61  CBA K95 d   1     -23.131  12.313 -17.879  0.00  0.00    -0.014 C 
+ATOM     62  CBP K95 d   1     -24.166  13.377 -18.142  0.00  0.00     0.063 C 
+ATOM     63  H42 K95 d   1     -22.249  12.463 -18.519  0.00  0.00     0.044 H 
+ATOM     64  H43 K95 d   1     -23.549  11.312 -18.059  0.00  0.00     0.044 H 
+ATOM     65  H39 K95 d   1     -24.114  13.737 -19.180  0.00  0.00     0.087 H 
+ATOM     66  H36 K95 d   1     -23.169  15.216 -17.614  0.00  0.00     0.084 H 
+BRANCH  62  67
+ATOM     67  OAH K95 d   1     -25.435  12.819 -17.880  0.00  0.00    -0.393 OA
+ATOM     68  H35 K95 d   1     -25.606  12.119 -18.499  0.00  0.00     0.210 HD
+ENDBRANCH  62  67
+ENDBRANCH  48  50
+ENDBRANCH  40  46
+BRANCH  42  69
+ATOM     69  CAC K95 d   1     -28.603  18.114 -17.302  0.00  0.00    -0.058 C 
+ATOM     70  H28 K95 d   1     -28.924  18.840 -18.064  0.00  0.00     0.029 H 
+ATOM     71  H29 K95 d   1     -28.927  18.458 -16.309  0.00  0.00     0.029 H 
+ATOM     72  H30 K95 d   1     -29.055  17.134 -17.515  0.00  0.00     0.029 H 
+ENDBRANCH  42  69
+BRANCH  42  73
+ATOM     73  CAB K95 d   1     -26.627  17.609 -18.751  0.00  0.00    -0.058 C 
+ATOM     74  H31 K95 d   1     -25.532  17.515 -18.784  0.00  0.00     0.029 H 
+ATOM     75  H32 K95 d   1     -26.950  18.391 -19.454  0.00  0.00     0.029 H 
+ATOM     76  H33 K95 d   1     -27.086  16.650 -19.033  0.00  0.00     0.029 H 
+ENDBRANCH  42  73
+ENDBRANCH  35  37
+BRANCH  35  77
+ATOM     77  OAI K95 d   1     -28.609  17.937 -11.840  0.00  0.00    -0.384 OA
+ATOM     78  H21 K95 d   1     -29.387  18.084 -12.365  0.00  0.00     0.210 HD
+ENDBRANCH  35  77
+ENDBRANCH   1  35
+BRANCH   1  79
+ATOM     79  CBB K95 d   1     -26.104  16.846 -10.986  0.00  0.00    -0.019 C 
+ATOM     80  H17 K95 d   1     -26.864  16.837 -10.191  0.00  0.00     0.043 H 
+ATOM     81  H18 K95 d   1     -26.314  16.039 -11.703  0.00  0.00     0.043 H 
+BRANCH  79  82
+ATOM     82  CBM K95 d   1     -24.714  16.591 -10.346  0.00  0.00    -0.056 A 
+ATOM     83  CAU K95 d   1     -23.785  15.779 -11.004  0.00  0.00    -0.077 A 
+ATOM     84  CAO K95 d   1     -22.529  15.548 -10.431  0.00  0.00    -0.082 A 
+ATOM     85  H22 K95 d   1     -24.037  15.329 -11.957  0.00  0.00     0.084 H 
+ATOM     86  CAK K95 d   1     -22.202  16.132  -9.209  0.00  0.00    -0.083 A 
+ATOM     87  H24 K95 d   1     -21.810  14.915 -10.938  0.00  0.00     0.083 H 
+ATOM     88  CAN K95 d   1     -23.120  16.939  -8.549  0.00  0.00    -0.082 A 
+ATOM     89  H19 K95 d   1     -21.226  15.956  -8.771  0.00  0.00     0.083 H 
+ATOM     90  CAT K95 d   1     -24.379  17.171  -9.118  0.00  0.00    -0.077 A 
+ATOM     91  H25 K95 d   1     -22.863  17.388  -7.596  0.00  0.00     0.083 H 
+ATOM     92  H23 K95 d   1     -25.096  17.802  -8.605  0.00  0.00     0.084 H 
+ENDBRANCH  79  82
+ENDBRANCH   1  79
+TORSDOF 18

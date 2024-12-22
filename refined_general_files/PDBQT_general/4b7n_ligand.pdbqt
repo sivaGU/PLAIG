@@ -1,0 +1,81 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C4_6  and  NE_20 
+REMARK    3  A    between atoms: C5_7  and  N5_8 
+REMARK       I    between atoms: N5_8  and  C10_9 
+REMARK    4  A    between atoms: C10_9  and  C11_11 
+REMARK    5  A    between atoms: C6_12  and  C7_14 
+REMARK    6  A    between atoms: C7_14  and  O7_15 
+REMARK    7  A    between atoms: C7_14  and  C8_16 
+REMARK    8  A    between atoms: C8_16  and  O8_17 
+REMARK    9  A    between atoms: C8_16  and  C9_18 
+REMARK   10  A    between atoms: C9_18  and  O9_19 
+REMARK       I    between atoms: NE_20  and  CZ_21 
+REMARK       I    between atoms: CZ_21  and  NH1_22 
+ROOT
+ATOM      1  C2  ZMR d   1      29.441  -6.838  12.717  0.00  0.00     0.144 C 
+ATOM      2  C3  ZMR d   1      30.714  -7.104  13.079  0.00  0.00    -0.040 C 
+ATOM      3  C4  ZMR d   1      31.010  -8.111  14.176  0.00  0.00     0.068 C 
+ATOM      4  C5  ZMR d   1      29.942  -9.211  14.166  0.00  0.00     0.063 C 
+ATOM      5  C6  ZMR d   1      28.549  -8.573  14.162  0.00  0.00     0.094 C 
+ATOM      6  O6  ZMR d   1      28.390  -7.817  12.958  0.00  0.00    -0.335 OA
+ATOM      7  H   ZMR d   1      31.536  -6.591  12.580  0.00  0.00     0.084 H 
+ATOM      8  H   ZMR d   1      31.020  -7.565  15.119  0.00  0.00     0.083 H 
+ATOM      9  H   ZMR d   1      30.055  -9.803  13.258  0.00  0.00     0.080 H 
+ATOM     10  H   ZMR d   1      28.495  -7.954  15.057  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  ZMR d   1      27.403  -9.579  14.236  0.00  0.00     0.089 C 
+ATOM     12  H   ZMR d   1      27.531 -10.194  15.127  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  ZMR d   1      27.429 -10.403  13.063  0.00  0.00    -0.390 OA
+ATOM     14  H   ZMR d   1      27.327  -9.852  12.284  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  ZMR d   1      26.050  -8.867  14.345  0.00  0.00     0.083 C 
+ATOM     16  H   ZMR d   1      26.052  -8.093  13.578  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  ZMR d   1      25.890  -8.291  15.646  0.00  0.00    -0.391 OA
+ATOM     18  H   ZMR d   1      25.933  -8.984  16.309  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  ZMR d   1      24.872  -9.800  14.087  0.00  0.00     0.043 C 
+ATOM     20  H   ZMR d   1      24.940 -10.200  13.075  0.00  0.00     0.078 H 
+ATOM     21  H   ZMR d   1      23.939  -9.246  14.197  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  ZMR d   1      24.901 -10.878  15.030  0.00  0.00    -0.398 OA
+ATOM     23  H   ZMR d   1      24.841 -10.524  15.921  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  ZMR d   1      30.112 -10.133  15.282  0.00  0.00    -0.352 N 
+ATOM     25  C10 ZMR d   1      30.542 -11.393  15.136  0.00  0.00     0.214 C 
+ATOM     26  O10 ZMR d   1      30.742 -11.913  14.049  0.00  0.00    -0.274 OA
+ATOM     27  H   ZMR d   1      29.892  -9.802  16.221  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 ZMR d   1      30.769 -12.154  16.410  0.00  0.00    -0.003 C 
+ATOM     29  H   ZMR d   1      30.125 -13.033  16.426  0.00  0.00     0.040 H 
+ATOM     30  H   ZMR d   1      31.812 -12.465  16.465  0.00  0.00     0.040 H 
+ATOM     31  H   ZMR d   1      30.534 -11.514  17.261  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  NE  ZMR d   1      32.300  -8.768  13.971  0.00  0.00    -0.217 N 
+ATOM     33  CZ  ZMR d   1      33.096  -9.075  14.912  0.00  0.00     0.665 C 
+ATOM     34  NH1 ZMR d   1      34.251  -9.672  14.617  0.00  0.00    -0.235 N 
+ATOM     35  NH2 ZMR d   1      32.801  -8.821  16.191  0.00  0.00    -0.235 N 
+ATOM     36  H   ZMR d   1      34.486  -9.877  13.646  0.00  0.00     0.174 HD
+ATOM     37  H   ZMR d   1      34.900  -9.924  15.363  0.00  0.00     0.174 HD
+ATOM     38  H   ZMR d   1      31.918  -8.370  16.431  0.00  0.00     0.174 HD
+ATOM     39  H   ZMR d   1      33.459  -9.078  16.927  0.00  0.00     0.174 HD
+ATOM     40  H   ZMR d   1      32.577  -8.993  13.016  0.00  0.00     0.178 HD
+ENDBRANCH   3  32
+BRANCH   1  41
+ATOM     41  C1  ZMR d   1      29.060  -5.579  12.076  0.00  0.00     0.233 C 
+ATOM     42  O1A ZMR d   1      29.937  -4.796  11.648  0.00  0.00    -0.642 OA
+ATOM     43  O1B ZMR d   1      27.840  -5.320  11.973  0.00  0.00    -0.642 OA
+ENDBRANCH   1  41
+TORSDOF 10

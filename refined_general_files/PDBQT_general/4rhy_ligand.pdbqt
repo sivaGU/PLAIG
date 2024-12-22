@@ -1,0 +1,109 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PBG_2  and  CAU_5 
+REMARK    2  A    between atoms: CAU_5  and  CAQ_6 
+REMARK    3  A    between atoms: CAQ_6  and  NBD_7 
+REMARK    4  A    between atoms: NBD_7  and  CAR_8 
+REMARK    5  A    between atoms: NBD_7  and  CAN_14 
+REMARK    6  A    between atoms: CAR_8  and  CAV_9 
+REMARK    7  A    between atoms: CAV_9  and  PBH_10 
+REMARK    8  A    between atoms: CAN_14  and  CAM_15 
+REMARK    9  A    between atoms: CAM_15  and  NBC_16 
+REMARK   10  A    between atoms: NBC_16  and  CAP_17 
+REMARK   11  A    between atoms: NBC_16  and  CAO_23 
+REMARK   12  A    between atoms: CAP_17  and  CAT_18 
+REMARK   13  A    between atoms: CAT_18  and  PBF_19 
+REMARK   14  A    between atoms: CAO_23  and  CAS_24 
+REMARK   15  A    between atoms: CAS_24  and  N9_25 
+ROOT
+ATOM      1  NBC 3QG d   1     -31.963  14.997 -22.061  0.00  0.00    -0.067 N 
+ATOM      2  H14 3QG d   1     -32.811  14.881 -21.529  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAM 3QG d   1     -31.122  13.808 -21.876  0.00  0.00     0.106 C 
+ATOM      4  H12 3QG d   1     -31.564  12.976 -22.443  0.00  0.00     0.078 H 
+ATOM      5  H13 3QG d   1     -30.117  14.026 -22.268  0.00  0.00     0.078 H 
+BRANCH   3   6
+ATOM      6  CAN 3QG d   1     -30.990  13.379 -20.397  0.00  0.00     0.106 C 
+ATOM      7  H10 3QG d   1     -29.913  13.344 -20.175  0.00  0.00     0.078 H 
+ATOM      8  H11 3QG d   1     -31.463  14.171 -19.797  0.00  0.00     0.078 H 
+BRANCH   6   9
+ATOM      9  NBD 3QG d   1     -31.561  12.093 -19.927  0.00  0.00    -0.068 N 
+ATOM     10  H5  3QG d   1     -30.783  11.573 -19.552  0.00  0.00     0.280 HD
+BRANCH   9  11
+ATOM     11  CAQ 3QG d   1     -32.470  12.341 -18.783  0.00  0.00     0.095 C 
+ATOM     12  H3  3QG d   1     -32.223  11.595 -18.013  0.00  0.00     0.077 H 
+ATOM     13  H4  3QG d   1     -32.239  13.348 -18.406  0.00  0.00     0.077 H 
+BRANCH  11  14
+ATOM     14  CAU 3QG d   1     -34.006  12.281 -18.988  0.00  0.00     0.061 C 
+ATOM     15  H1  3QG d   1     -34.284  13.031 -19.743  0.00  0.00     0.056 H 
+ATOM     16  H2  3QG d   1     -34.267  11.277 -19.355  0.00  0.00     0.056 H 
+BRANCH  14  17
+ATOM     17  PBG 3QG d   1     -34.960  12.605 -17.485  0.00  0.00     0.261 P 
+ATOM     18  OAG 3QG d   1     -36.495  12.264 -17.780  0.00  0.00    -0.640 OA
+ATOM     19  OAH 3QG d   1     -34.412  11.521 -16.430  0.00  0.00    -0.640 OA
+ATOM     20  OAC 3QG d   1     -34.733  13.953 -16.927  0.00  0.00    -0.640 OA
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+BRANCH   9  21
+ATOM     21  CAR 3QG d   1     -32.124  11.217 -20.980  0.00  0.00     0.095 C 
+ATOM     22  H6  3QG d   1     -31.597  11.428 -21.922  0.00  0.00     0.077 H 
+ATOM     23  H7  3QG d   1     -33.191  11.459 -21.095  0.00  0.00     0.077 H 
+BRANCH  21  24
+ATOM     24  CAV 3QG d   1     -32.000   9.708 -20.686  0.00  0.00     0.061 C 
+ATOM     25  H8  3QG d   1     -32.786   9.422 -19.971  0.00  0.00     0.056 H 
+ATOM     26  H9  3QG d   1     -31.012   9.515 -20.242  0.00  0.00     0.056 H 
+BRANCH  24  27
+ATOM     27  PBH 3QG d   1     -32.175   8.693 -22.183  0.00  0.00     0.261 P 
+ATOM     28  OAI 3QG d   1     -32.518   7.248 -21.586  0.00  0.00    -0.640 OA
+ATOM     29  OAJ 3QG d   1     -33.540   9.188 -22.874  0.00  0.00    -0.640 OA
+ATOM     30  OAD 3QG d   1     -30.986   8.709 -23.072  0.00  0.00    -0.640 OA
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   9  21
+ENDBRANCH   6   9
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  31
+ATOM     31  CAP 3QG d   1     -31.228  16.149 -21.517  0.00  0.00     0.095 C 
+ATOM     32  H15 3QG d   1     -30.862  15.883 -20.514  0.00  0.00     0.077 H 
+ATOM     33  H16 3QG d   1     -31.923  16.998 -21.441  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  CAT 3QG d   1     -30.026  16.585 -22.369  0.00  0.00     0.061 C 
+ATOM     35  H17 3QG d   1     -30.310  16.651 -23.430  0.00  0.00     0.056 H 
+ATOM     36  H18 3QG d   1     -29.196  15.872 -22.256  0.00  0.00     0.056 H 
+BRANCH  34  37
+ATOM     37  PBF 3QG d   1     -29.553  18.208 -21.741  0.00  0.00     0.261 P 
+ATOM     38  OAE 3QG d   1     -28.586  18.861 -22.839  0.00  0.00    -0.640 OA
+ATOM     39  OAF 3QG d   1     -30.927  19.036 -21.670  0.00  0.00    -0.640 OA
+ATOM     40  OAB 3QG d   1     -28.906  18.056 -20.419  0.00  0.00    -0.640 OA
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   1  41
+ATOM     41  CAO 3QG d   1     -32.342  15.167 -23.479  0.00  0.00     0.099 C 
+ATOM     42  H19 3QG d   1     -32.119  14.245 -24.036  0.00  0.00     0.078 H 
+ATOM     43  H20 3QG d   1     -31.779  16.005 -23.916  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  CAS 3QG d   1     -33.845  15.462 -23.548  0.00  0.00     0.025 C 
+ATOM     45  H21 3QG d   1     -34.097  16.147 -22.725  0.00  0.00     0.067 H 
+ATOM     46  H22 3QG d   1     -34.386  14.514 -23.414  0.00  0.00     0.067 H 
+BRANCH  44  47
+ATOM     47  N9  3QG d   1     -34.301  16.074 -24.809  0.00  0.00    -0.324 N 
+ATOM     48  C4  3QG d   1     -34.885  15.384 -25.785  0.00  0.00     0.144 A 
+ATOM     49  N3  3QG d   1     -35.168  14.061 -25.875  0.00  0.00    -0.335 N 
+ATOM     50  C5  3QG d   1     -35.187  16.238 -26.772  0.00  0.00     0.172 A 
+ATOM     51  C2  3QG d   1     -35.794  13.532 -27.029  0.00  0.00     0.069 A 
+ATOM     52  H23 3QG d   1     -34.925  13.434 -25.095  0.00  0.00     0.168 HD
+ATOM     53  N1  3QG d   1     -36.095  14.382 -28.014  0.00  0.00    -0.203 NA
+ATOM     54  H24 3QG d   1     -36.022  12.470 -27.111  0.00  0.00     0.143 H 
+ATOM     55  C6  3QG d   1     -35.791  15.764 -27.886  0.00  0.00     0.300 A 
+ATOM     56  O6  3QG d   1     -36.091  16.506 -28.824  0.00  0.00    -0.263 OA
+ATOM     57  N7  3QG d   1     -34.785  17.456 -26.387  0.00  0.00    -0.234 NA
+ATOM     58  C8  3QG d   1     -34.243  17.347 -25.169  0.00  0.00     0.068 A 
+ATOM     59  H25 3QG d   1     -33.827  18.162 -24.578  0.00  0.00     0.143 H 
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH   1  41
+TORSDOF 15

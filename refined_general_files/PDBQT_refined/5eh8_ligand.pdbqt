@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  O02_2 
+REMARK    2  A    between atoms: O02_2  and  C03_3 
+REMARK    3  A    between atoms: C06_6  and  C07_7 
+REMARK    4  A    between atoms: C07_7  and  C08_8 
+REMARK    5  A    between atoms: C09_9  and  C10_10 
+ROOT
+ATOM      1  C03 5O6 d   1      19.742   8.125  13.886  0.00  0.00     0.068 A 
+ATOM      2  C04 5O6 d   1      18.653   8.393  14.704  0.00  0.00    -0.050 A 
+ATOM      3  C05 5O6 d   1      17.785   7.371  15.059  0.00  0.00    -0.070 A 
+ATOM      4  C06 5O6 d   1      18.014   6.113  14.554  0.00  0.00    -0.030 A 
+ATOM      5  C13 5O6 d   1      19.113   5.836  13.750  0.00  0.00    -0.070 A 
+ATOM      6  C14 5O6 d   1      19.966   6.860  13.395  0.00  0.00    -0.050 A 
+ATOM      7  H4  5O6 d   1      18.481   9.400  15.065  0.00  0.00     0.087 H 
+ATOM      8  H5  5O6 d   1      16.946   7.560  15.719  0.00  0.00     0.084 H 
+ATOM      9  H10 5O6 d   1      19.298   4.825  13.405  0.00  0.00     0.084 H 
+ATOM     10  H11 5O6 d   1      20.805   6.670  12.735  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C07 5O6 d   1      17.075   5.015  14.961  0.00  0.00    -0.045 C 
+ATOM     12  C09 5O6 d   1      17.684   3.841  15.245  0.00  0.00    -0.003 C 
+ATOM     13  H9  5O6 d   1      18.765   3.797  15.122  0.00  0.00     0.095 H 
+BRANCH  11  14
+ATOM     14  C08 5O6 d   1      15.581   5.284  15.029  0.00  0.00    -0.050 C 
+ATOM     15  H6  5O6 d   1      15.058   4.369  15.343  0.00  0.00     0.033 H 
+ATOM     16  H7  5O6 d   1      15.218   5.592  14.037  0.00  0.00     0.033 H 
+ATOM     17  H8  5O6 d   1      15.386   6.086  15.756  0.00  0.00     0.033 H 
+ENDBRANCH  11  14
+BRANCH  12  18
+ATOM     18  C10 5O6 d   1      16.990   2.585  15.718  0.00  0.00     0.199 C 
+ATOM     19  O11 5O6 d   1      17.533   1.901  16.629  0.00  0.00    -0.644 OA
+ATOM     20  O12 5O6 d   1      15.875   2.244  15.262  0.00  0.00    -0.644 OA
+ENDBRANCH  12  18
+ENDBRANCH   4  11
+BRANCH   1  21
+ATOM     21  O02 5O6 d   1      20.613   9.171  13.520  0.00  0.00    -0.356 OA
+BRANCH  21  22
+ATOM     22  C01 5O6 d   1      20.927  10.059  14.566  0.00  0.00     0.010 C 
+ATOM     23  H1  5O6 d   1      21.608  10.839  14.193  0.00  0.00     0.066 H 
+ATOM     24  H2  5O6 d   1      21.415   9.506  15.382  0.00  0.00     0.066 H 
+ATOM     25  H3  5O6 d   1      20.004  10.526  14.940  0.00  0.00     0.066 H 
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+TORSDOF 5

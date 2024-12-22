@@ -1,0 +1,39 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  C7_4 
+REMARK    2  A    between atoms: S1_2  and  N1_5 
+REMARK    3  A    between atoms: N1_5  and  C3_6 
+ROOT
+ATOM      1  C3  QMS d   1      -4.400  -0.685   8.103  0.00  0.00     0.071 A 
+ATOM      2  C2  QMS d   1      -5.723  -0.257   7.908  0.00  0.00    -0.054 A 
+ATOM      3  C4  QMS d   1      -3.847  -1.705   7.317  0.00  0.00     0.093 A 
+ATOM      4  N2  QMS d   1      -2.557  -2.150   7.483  0.00  0.00    -0.258 NA
+ATOM      5  C8  QMS d   1      -2.047  -3.118   6.706  0.00  0.00     0.003 A 
+ATOM      6  C9  QMS d   1      -2.809  -3.712   5.691  0.00  0.00    -0.065 A 
+ATOM      7  C10 QMS d   1      -4.115  -3.283   5.494  0.00  0.00    -0.069 A 
+ATOM      8  C5  QMS d   1      -4.643  -2.279   6.308  0.00  0.00    -0.005 A 
+ATOM      9  C6  QMS d   1      -5.956  -1.843   6.121  0.00  0.00    -0.071 A 
+ATOM     10  C1  QMS d   1      -6.502  -0.851   6.920  0.00  0.00    -0.080 A 
+ATOM     11  H5  QMS d   1      -6.136   0.533   8.525  0.00  0.00     0.087 H 
+ATOM     12  H6  QMS d   1      -1.026  -3.447   6.867  0.00  0.00     0.114 H 
+ATOM     13  H7  QMS d   1      -2.386  -4.493   5.070  0.00  0.00     0.085 H 
+ATOM     14  H8  QMS d   1      -4.721  -3.725   4.712  0.00  0.00     0.085 H 
+ATOM     15  H9  QMS d   1      -6.559  -2.288   5.338  0.00  0.00     0.084 H 
+ATOM     16  H10 QMS d   1      -7.530  -0.540   6.776  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  N1  QMS d   1      -3.640  -0.129   9.077  0.00  0.00    -0.283 N 
+ATOM     18  H4  QMS d   1      -2.722  -0.505   9.203  0.00  0.00     0.178 HD
+BRANCH  17  19
+ATOM     19  S1  QMS d   1      -4.067   1.068  10.043  0.00  0.00     0.227 S 
+ATOM     20  O2  QMS d   1      -2.835   1.510  10.703  0.00  0.00    -0.206 OA
+ATOM     21  O1  QMS d   1      -4.979   0.644  11.099  0.00  0.00    -0.206 OA
+BRANCH  19  22
+ATOM     22  C7  QMS d   1      -4.792   2.289   9.269  0.00  0.00     0.033 C 
+ATOM     23  H1  QMS d   1      -4.141   2.647   8.458  0.00  0.00     0.051 H 
+ATOM     24  H2  QMS d   1      -4.982   3.110   9.976  0.00  0.00     0.051 H 
+ATOM     25  H3  QMS d   1      -5.746   1.940   8.847  0.00  0.00     0.051 H 
+ENDBRANCH  19  22
+ENDBRANCH  17  19
+ENDBRANCH   1  17
+TORSDOF 3

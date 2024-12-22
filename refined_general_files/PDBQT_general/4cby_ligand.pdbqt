@@ -1,0 +1,61 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK       I    between atoms: C1_1  and  N23_23 
+REMARK    2  A    between atoms: C3_3  and  C5_5 
+REMARK    3  A    between atoms: C4_4  and  C11_11 
+REMARK    4  A    between atoms: C8_8  and  C17_17 
+REMARK    5  A    between atoms: N23_23  and  O24_24 
+ROOT
+ATOM      1  C2  KEE d   1      24.991   0.671  34.161  0.00  0.00     0.042 A 
+ATOM      2  C3  KEE d   1      26.369   1.315  33.904  0.00  0.00    -0.008 A 
+ATOM      3  C4  KEE d   1      26.173   0.358  35.085  0.00  0.00    -0.008 A 
+ATOM      4  H1  KEE d   1      24.632  -0.088  33.451  0.00  0.00     0.057 H 
+ATOM      5  H2  KEE d   1      26.576   2.381  34.079  0.00  0.00     0.049 H 
+ATOM      6  H3  KEE d   1      26.590  -0.660  35.087  0.00  0.00     0.049 H 
+ENDROOT
+BRANCH   2   7
+ATOM      7  C5  KEE d   1      26.995   0.834  32.630  0.00  0.00    -0.052 A 
+ATOM      8  C6  KEE d   1      26.928   1.714  31.553  0.00  0.00    -0.076 A 
+ATOM      9  C7  KEE d   1      27.464   1.391  30.316  0.00  0.00    -0.070 A 
+ATOM     10  H4  KEE d   1      26.445   2.675  31.685  0.00  0.00     0.084 H 
+ATOM     11  C8  KEE d   1      28.092   0.172  30.133  0.00  0.00    -0.001 A 
+ATOM     12  H5  KEE d   1      27.391   2.093  29.493  0.00  0.00     0.085 H 
+ATOM     13  C9  KEE d   1      28.159  -0.736  31.194  0.00  0.00    -0.070 A 
+ATOM     14  C10 KEE d   1      27.619  -0.406  32.446  0.00  0.00    -0.076 A 
+ATOM     15  H6  KEE d   1      28.631  -1.701  31.048  0.00  0.00     0.085 H 
+ATOM     16  H7  KEE d   1      27.685  -1.109  33.269  0.00  0.00     0.084 H 
+BRANCH  11  17
+ATOM     17  C17 KEE d   1      28.624  -0.107  28.768  0.00  0.00     0.104 A 
+ATOM     18  O18 KEE d   1      28.545  -1.299  28.090  0.00  0.00    -0.302 OA
+ATOM     19  C19 KEE d   1      29.125  -1.115  26.845  0.00  0.00     0.103 A 
+ATOM     20  N20 KEE d   1      29.542   0.173  26.763  0.00  0.00    -0.246 NA
+ATOM     21  H13 KEE d   1      29.228  -1.872  26.069  0.00  0.00     0.155 H 
+ATOM     22  C21 KEE d   1      29.239   0.809  27.920  0.00  0.00     0.037 A 
+ATOM     23  H14 KEE d   1      29.441   1.855  28.147  0.00  0.00     0.119 H 
+ENDBRANCH  11  17
+ENDBRANCH   2   7
+BRANCH   1  24
+ATOM     24  C1  KEE d   1      23.781   1.404  34.731  0.00  0.00     0.246 C 
+ATOM     25  O22 KEE d   1      23.730   2.573  35.124  0.00  0.00    -0.271 OA
+ATOM     26  N23 KEE d   1      22.715   0.599  34.704  0.00  0.00    -0.237 N 
+ATOM     27  H15 KEE d   1      22.838  -0.351  34.417  0.00  0.00     0.197 HD
+BRANCH  26  28
+ATOM     28  O24 KEE d   1      21.441   1.029  35.059  0.00  0.00    -0.287 OA
+ATOM     29  H16 KEE d   1      20.829   0.308  34.971  0.00  0.00     0.244 HD
+ENDBRANCH  26  28
+ENDBRANCH   1  24
+BRANCH   3  30
+ATOM     30  C11 KEE d   1      26.378   0.992  36.403  0.00  0.00    -0.052 A 
+ATOM     31  C12 KEE d   1      25.560   0.642  37.465  0.00  0.00    -0.076 A 
+ATOM     32  C13 KEE d   1      25.790   1.202  38.725  0.00  0.00    -0.082 A 
+ATOM     33  H8  KEE d   1      24.748  -0.061  37.320  0.00  0.00     0.084 H 
+ATOM     34  C14 KEE d   1      26.845   2.098  38.923  0.00  0.00    -0.083 A 
+ATOM     35  H9  KEE d   1      25.145   0.939  39.556  0.00  0.00     0.083 H 
+ATOM     36  C15 KEE d   1      27.680   2.421  37.848  0.00  0.00    -0.082 A 
+ATOM     37  H10 KEE d   1      27.014   2.538  39.899  0.00  0.00     0.083 H 
+ATOM     38  C16 KEE d   1      27.450   1.858  36.595  0.00  0.00    -0.076 A 
+ATOM     39  H11 KEE d   1      28.506   3.109  37.990  0.00  0.00     0.083 H 
+ATOM     40  H12 KEE d   1      28.108   2.095  35.767  0.00  0.00     0.084 H 
+ENDBRANCH   3  30
+TORSDOF 5

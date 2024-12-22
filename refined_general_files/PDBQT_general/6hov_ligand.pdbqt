@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  O4_13 
+REMARK    2  A    between atoms: C3_4  and  O3_14 
+REMARK    3  A    between atoms: C1_6  and  C7_8 
+REMARK    4  A    between atoms: O3_14  and  C10_7 
+REMARK    5  A    between atoms: C8_9  and  C9_10 
+ROOT
+ATOM      1  C4  FER d   1      13.496   4.732   0.013  0.00  0.00     0.099 A 
+ATOM      2  C5  FER d   1      12.763   4.024  -0.925  0.00  0.00    -0.047 A 
+ATOM      3  C6  FER d   1      11.459   4.412  -1.192  0.00  0.00    -0.070 A 
+ATOM      4  C3  FER d   1      12.931   5.815   0.681  0.00  0.00     0.102 A 
+ATOM      5  C2  FER d   1      11.620   6.200   0.409  0.00  0.00    -0.038 A 
+ATOM      6  C1  FER d   1      10.887   5.487  -0.524  0.00  0.00    -0.033 A 
+ATOM      7  H1  FER d   1      13.202   3.179  -1.443  0.00  0.00     0.087 H 
+ATOM      8  H2  FER d   1      10.879   3.870  -1.931  0.00  0.00     0.084 H 
+ATOM      9  H3  FER d   1      11.179   7.047   0.922  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   6  10
+ATOM     10  C7  FER d   1       9.453   5.895  -0.872  0.00  0.00    -0.067 C 
+ATOM     11  C8  FER d   1       8.805   6.796  -0.168  0.00  0.00    -0.009 C 
+ATOM     12  H8  FER d   1       9.275   7.254   0.701  0.00  0.00     0.094 H 
+ATOM     13  H7  FER d   1       8.959   5.428  -1.722  0.00  0.00     0.085 H 
+BRANCH  11  14
+ATOM     14  C9  FER d   1       7.380   7.199  -0.579  0.00  0.00     0.198 C 
+ATOM     15  O1  FER d   1       6.787   6.722  -1.598  0.00  0.00    -0.645 OA
+ATOM     16  O2  FER d   1       6.789   8.060   0.108  0.00  0.00    -0.645 OA
+ENDBRANCH  11  14
+ENDBRANCH   6  10
+BRANCH   4  17
+ATOM     17  O3  FER d   1      13.679   6.517   1.635  0.00  0.00    -0.353 OA
+BRANCH  17  18
+ATOM     18  C10 FER d   1      13.064   6.623   2.893  0.00  0.00     0.010 C 
+ATOM     19  H4  FER d   1      13.718   7.186   3.575  0.00  0.00     0.066 H 
+ATOM     20  H5  FER d   1      12.888   5.617   3.301  0.00  0.00     0.066 H 
+ATOM     21  H6  FER d   1      12.104   7.149   2.789  0.00  0.00     0.066 H 
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+BRANCH   1  22
+ATOM     22  O4  FER d   1      14.809   4.348   0.283  0.00  0.00    -0.358 OA
+ATOM     23  H9  FER d   1      15.035   3.598  -0.255  0.00  0.00     0.217 HD
+ENDBRANCH   1  22
+TORSDOF 5

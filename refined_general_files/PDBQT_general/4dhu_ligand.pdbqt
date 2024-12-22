@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAW_2  and  CAV_5 
+REMARK    2  A    between atoms: CAU_10  and  OAP_11 
+REMARK    3  A    between atoms: OAP_11  and  CAN_12 
+REMARK    4  A    between atoms: CAN_12  and  CAQ_13 
+REMARK       I    between atoms: CAQ_13  and  NAO_15 
+REMARK    5  A    between atoms: NAO_15  and  CAS_16 
+ROOT
+ATOM      1  CAN 0KH d   1      25.500  11.508 -10.658  0.00  0.00     0.100 C 
+ATOM      2  H5  0KH d   1      26.120  11.798  -9.797  0.00  0.00     0.089 H 
+ATOM      3  H6  0KH d   1      26.131  11.436 -11.556  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  OAP 0KH d   1      24.453  12.498 -10.868  0.00  0.00    -0.341 OA
+BRANCH   4   5
+ATOM      5  CAU 0KH d   1      24.696  13.809 -10.584  0.00  0.00     0.089 A 
+ATOM      6  CAV 0KH d   1      23.567  14.547 -10.270  0.00  0.00     0.101 A 
+ATOM      7  CAM 0KH d   1      23.687  15.943 -10.034  0.00  0.00    -0.061 A 
+ATOM      8  CAH 0KH d   1      24.986  16.526 -10.039  0.00  0.00    -0.082 A 
+ATOM      9  H1  0KH d   1      22.808  16.551  -9.854  0.00  0.00     0.085 H 
+ATOM     10  CAG 0KH d   1      26.144  15.769 -10.327  0.00  0.00    -0.080 A 
+ATOM     11  H2  0KH d   1      25.090  17.582  -9.815  0.00  0.00     0.083 H 
+ATOM     12  CAL 0KH d   1      25.980  14.382 -10.598  0.00  0.00    -0.050 A 
+ATOM     13  H3  0KH d   1      27.125  16.230 -10.341  0.00  0.00     0.083 H 
+ATOM     14  H4  0KH d   1      26.846  13.767 -10.815  0.00  0.00     0.087 H 
+BRANCH   6  15
+ATOM     15  PAW 0KH d   1      21.918  13.719 -10.290  0.00  0.00     0.298 P 
+ATOM     16  OAC 0KH d   1      21.960  12.537  -9.222  0.00  0.00    -0.636 OA
+ATOM     17  OAD 0KH d   1      20.918  14.795  -9.693  0.00  0.00    -0.636 OA
+ATOM     18  OAB 0KH d   1      21.610  13.257 -11.679  0.00  0.00    -0.636 OA
+ENDBRANCH   6  15
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  CAQ 0KH d   1      24.822  10.143 -10.381  0.00  0.00     0.246 C 
+ATOM     20  OAA 0KH d   1      25.490   9.110 -10.468  0.00  0.00    -0.271 OA
+ATOM     21  NAO 0KH d   1      23.510  10.199 -10.048  0.00  0.00    -0.324 N 
+ATOM     22  H7  0KH d   1      23.061  11.092 -10.033  0.00  0.00     0.169 HD
+BRANCH  21  23
+ATOM     23  CAS 0KH d   1      22.768   9.093  -9.731  0.00  0.00     0.058 A 
+ATOM     24  CAT 0KH d   1      22.362   8.271 -10.759  0.00  0.00     0.082 A 
+ATOM     25 CL1  0KH d   1      22.900   8.592 -12.347  0.00  0.00    -0.080 Cl
+ATOM     26  CAR 0KH d   1      21.582   7.136 -10.483  0.00  0.00     0.058 A 
+ATOM     27 CL2  0KH d   1      21.168   6.071 -11.753  0.00  0.00    -0.082 Cl
+ATOM     28  CAJ 0KH d   1      21.138   6.862  -9.187  0.00  0.00    -0.060 A 
+ATOM     29  CAI 0KH d   1      21.518   7.694  -8.150  0.00  0.00    -0.079 A 
+ATOM     30  H8  0KH d   1      20.502   6.005  -8.996  0.00  0.00     0.086 H 
+ATOM     31  CAK 0KH d   1      22.317   8.816  -8.430  0.00  0.00    -0.055 A 
+ATOM     32  H9  0KH d   1      21.204   7.484  -7.134  0.00  0.00     0.083 H 
+ATOM     33  H10 0KH d   1      22.592   9.484  -7.622  0.00  0.00     0.087 H 
+ENDBRANCH  21  23
+ENDBRANCH   1  19
+TORSDOF 5

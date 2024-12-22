@@ -1,0 +1,53 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  S10_10 
+REMARK    2  A    between atoms: C5_5  and  N14_14 
+REMARK    3  A    between atoms: C7_7  and  C15_15 
+REMARK    4  A    between atoms: S10_10  and  N13_13 
+REMARK    5  A    between atoms: N14_14  and  C18_18 
+ROOT
+ATOM      1  S1  MTS d   1      -6.122   3.602  15.518  0.00  0.00    -0.064 SA
+ATOM      2  C2  MTS d   1      -5.297   2.128  15.651  0.00  0.00     0.121 A 
+ATOM      3  C3  MTS d   1      -4.024   2.163  15.051  0.00  0.00    -0.043 A 
+ATOM      4  C4  MTS d   1      -3.795   3.434  14.435  0.00  0.00     0.003 A 
+ATOM      5  C5  MTS d   1      -2.548   3.807  13.701  0.00  0.00     0.130 C 
+ATOM      6  C6  MTS d   1      -2.456   5.347  13.455  0.00  0.00    -0.018 C 
+ATOM      7  C7  MTS d   1      -3.710   5.944  12.836  0.00  0.00     0.048 C 
+ATOM      8  S8  MTS d   1      -4.969   5.907  14.073  0.00  0.00     0.186 S 
+ATOM      9  C9  MTS d   1      -4.922   4.282  14.557  0.00  0.00     0.110 A 
+ATOM     10  O16 MTS d   1      -6.216   6.223  13.432  0.00  0.00    -0.222 OA
+ATOM     11  O17 MTS d   1      -4.592   6.694  15.223  0.00  0.00    -0.222 OA
+ATOM     12  H1  MTS d   1      -3.313   1.338  15.055  0.00  0.00     0.087 H 
+ATOM     13  H2  MTS d   1      -1.680   3.496  14.300  0.00  0.00     0.092 H 
+ATOM     14  H3  MTS d   1      -1.610   5.541  12.780  0.00  0.00     0.038 H 
+ATOM     15  H4  MTS d   1      -2.276   5.843  14.420  0.00  0.00     0.038 H 
+ATOM     16  H5  MTS d   1      -4.005   5.357  11.954  0.00  0.00     0.064 H 
+ENDROOT
+BRANCH   5  17
+ATOM     17  N14 MTS d   1      -2.524   3.091  12.403  0.00  0.00    -0.071 N 
+ATOM     18  H8  MTS d   1      -3.196   3.501  11.774  0.00  0.00     0.277 HD
+ATOM     19  H9  MTS d   1      -2.746   2.118  12.545  0.00  0.00     0.277 HD
+BRANCH  17  20
+ATOM     20  C18 MTS d   1      -1.172   3.217  11.839  0.00  0.00     0.065 C 
+ATOM     21  H13 MTS d   1      -1.127   2.693  10.873  0.00  0.00     0.067 H 
+ATOM     22  H14 MTS d   1      -0.443   2.772  12.532  0.00  0.00     0.067 H 
+ATOM     23  H15 MTS d   1      -0.934   4.281  11.690  0.00  0.00     0.067 H 
+ENDBRANCH  17  20
+ENDBRANCH   5  17
+BRANCH   7  24
+ATOM     24  C15 MTS d   1      -3.537   7.416  12.450  0.00  0.00    -0.060 C 
+ATOM     25  H10 MTS d   1      -2.760   7.503  11.677  0.00  0.00     0.029 H 
+ATOM     26  H11 MTS d   1      -3.239   7.995  13.336  0.00  0.00     0.029 H 
+ATOM     27  H12 MTS d   1      -4.488   7.807  12.059  0.00  0.00     0.029 H 
+ENDBRANCH   7  24
+BRANCH   2  28
+ATOM     28  S10 MTS d   1      -5.863   0.903  16.714  0.00  0.00     0.263 S 
+ATOM     29  O12 MTS d   1      -5.286   1.035  18.014  0.00  0.00    -0.200 OA
+ATOM     30  O11 MTS d   1      -7.296   0.883  16.651  0.00  0.00    -0.200 OA
+BRANCH  28  31
+ATOM     31  N13 MTS d   1      -5.326  -0.653  16.127  0.00  0.00    -0.324 N 
+ATOM     32  H6  MTS d   1      -5.566  -1.486  16.626  0.00  0.00     0.169 HD
+ATOM     33  H7  MTS d   1      -4.779  -0.711  15.292  0.00  0.00     0.169 HD
+ENDBRANCH  28  31
+ENDBRANCH   2  28
+TORSDOF 5

@@ -1,0 +1,43 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_8 
+REMARK    2  A    between atoms: C3_3  and  O3_9 
+REMARK    3  A    between atoms: C4_4  and  C5_5 
+REMARK    4  A    between atoms: C5_5  and  O5_11 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+ROOT
+ATOM      1  C1  ASC d   1       9.252 -10.807  32.300  0.00  0.00     0.320 A 
+ATOM      2  C2  ASC d   1      10.350  -9.783  32.573  0.00  0.00     0.173 A 
+ATOM      3  C3  ASC d   1       9.806  -8.582  32.843  0.00  0.00     0.114 A 
+ATOM      4  C4  ASC d   1       8.305  -8.737  32.754  0.00  0.00     0.123 A 
+ATOM      5  O1  ASC d   1       9.329 -12.014  32.038  0.00  0.00    -0.257 OA
+ATOM      6  O4  ASC d   1       8.037 -10.147  32.412  0.00  0.00    -0.301 OA
+ATOM      7  H1  ASC d   1       7.918  -8.601  33.775  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C5  ASC d   1       7.593  -7.633  31.926  0.00  0.00     0.087 C 
+ATOM      9  H2  ASC d   1       8.139  -7.689  30.973  0.00  0.00     0.090 H 
+BRANCH   8  10
+ATOM     10  O5  ASC d   1       7.894  -6.313  32.442  0.00  0.00    -0.390 OA
+ATOM     11  H7  ASC d   1       8.832  -6.165  32.402  0.00  0.00     0.210 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  C6  ASC d   1       6.117  -7.677  31.447  0.00  0.00     0.043 C 
+ATOM     13  H3  ASC d   1       5.468  -7.068  32.093  0.00  0.00     0.078 H 
+ATOM     14  H4  ASC d   1       5.737  -8.709  31.414  0.00  0.00     0.078 H 
+BRANCH  12  15
+ATOM     15  O6  ASC d   1       6.223  -7.089  30.069  0.00  0.00    -0.398 OA
+ATOM     16  H8  ASC d   1       5.362  -7.065  29.669  0.00  0.00     0.209 HD
+ENDBRANCH  12  15
+ENDBRANCH   8  12
+ENDBRANCH   4   8
+BRANCH   3  17
+ATOM     17  O3  ASC d   1      10.207  -7.680  33.614  0.00  0.00    -0.359 OA
+ATOM     18  H6  ASC d   1       9.601  -6.949  33.586  0.00  0.00     0.217 HD
+ENDBRANCH   3  17
+BRANCH   2  19
+ATOM     19  O2  ASC d   1      11.704  -9.998  32.567  0.00  0.00    -0.353 OA
+ATOM     20  H5  ASC d   1      11.922 -10.653  33.219  0.00  0.00     0.218 HD
+ENDBRANCH   2  19
+TORSDOF 6

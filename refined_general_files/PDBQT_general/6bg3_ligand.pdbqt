@@ -1,0 +1,92 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBB_2  and  CAZ_5 
+REMARK    2  A    between atoms: CAV_10  and  NAU_11 
+REMARK       I    between atoms: NAU_11  and  CAS_12 
+REMARK       I    between atoms: CAS_12  and  NAR_14 
+REMARK    3  A    between atoms: NAR_14  and  CAQ_15 
+REMARK    4  A    between atoms: CAE_16  and  OAD_18 
+REMARK    5  A    between atoms: OAD_18  and  CAB_19 
+REMARK    6  A    between atoms: CAB_19  and  OAC_20 
+REMARK    7  A    between atoms: CAB_19  and  CAA_21 
+REMARK    8  A    between atoms: NAG_24  and  CAH_25 
+REMARK    9  A    between atoms: CAH_25  and  CAI_26 
+ROOT
+ATOM      1  CAQ DOJ d   1      14.913 -10.662  -9.817  0.00  0.00     0.042 C 
+ATOM      2  CAE DOJ d   1      15.135 -11.330 -11.022  0.00  0.00     0.084 C 
+ATOM      3  CAF DOJ d   1      14.447 -10.978 -12.318  0.00  0.00     0.109 C 
+ATOM      4  CAP DOJ d   1      14.516  -9.260 -10.038  0.00  0.00    -0.021 C 
+ATOM      5  CAO DOJ d   1      13.346  -9.202 -11.034  0.00  0.00     0.086 C 
+ATOM      6  NAG DOJ d   1      13.758  -9.683 -12.321  0.00  0.00    -0.065 N 
+ATOM      7  H7  DOJ d   1      14.079 -11.184  -9.326  0.00  0.00     0.076 H 
+ATOM      8  H8  DOJ d   1      16.116 -10.892 -11.259  0.00  0.00     0.089 H 
+ATOM      9  H9  DOJ d   1      13.704 -11.760 -12.534  0.00  0.00     0.080 H 
+ATOM     10  H10 DOJ d   1      15.206 -10.963 -13.114  0.00  0.00     0.080 H 
+ATOM     11  H16 DOJ d   1      15.370  -8.698 -10.444  0.00  0.00     0.038 H 
+ATOM     12  H17 DOJ d   1      14.205  -8.813  -9.082  0.00  0.00     0.038 H 
+ATOM     13  H18 DOJ d   1      13.003  -8.161 -11.129  0.00  0.00     0.076 H 
+ATOM     14  H19 DOJ d   1      12.521  -9.827 -10.661  0.00  0.00     0.076 H 
+ATOM     15  H20 DOJ d   1      14.466  -9.028 -12.614  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1  16
+ATOM     16  NAR DOJ d   1      16.044 -10.628  -8.848  0.00  0.00    -0.336 N 
+ATOM     17  CAS DOJ d   1      15.683 -10.726  -7.494  0.00  0.00     0.321 C 
+ATOM     18  NAU DOJ d   1      16.798 -10.482  -6.658  0.00  0.00    -0.309 N 
+ATOM     19  OAT DOJ d   1      14.594 -11.004  -7.114  0.00  0.00    -0.247 OA
+ATOM     20  H5  DOJ d   1      17.663 -10.216  -7.084  0.00  0.00     0.170 HD
+ATOM     21  H6  DOJ d   1      16.996 -10.541  -9.142  0.00  0.00     0.164 HD
+BRANCH  18  22
+ATOM     22  CAV DOJ d   1      16.749 -10.596  -5.243  0.00  0.00     0.037 A 
+ATOM     23  CBA DOJ d   1      15.758 -11.307  -4.594  0.00  0.00    -0.043 A 
+ATOM     24  CAZ DOJ d   1      15.778 -11.381  -3.195  0.00  0.00     0.050 A 
+ATOM     25  H1  DOJ d   1      14.976 -11.801  -5.159  0.00  0.00     0.088 H 
+ATOM     26  CAY DOJ d   1      16.772 -10.785  -2.460  0.00  0.00    -0.068 A 
+ATOM     27  CAX DOJ d   1      17.772 -10.084  -3.146  0.00  0.00    -0.080 A 
+ATOM     28  H2  DOJ d   1      16.783 -10.855  -1.378  0.00  0.00     0.084 H 
+ATOM     29  CAW DOJ d   1      17.757  -9.992  -4.543  0.00  0.00    -0.057 A 
+ATOM     30  H3  DOJ d   1      18.569  -9.606  -2.587  0.00  0.00     0.083 H 
+ATOM     31  H4  DOJ d   1      18.536  -9.448  -5.064  0.00  0.00     0.086 H 
+BRANCH  24  32
+ATOM     32  CBB DOJ d   1      14.694 -12.144  -2.490  0.00  0.00     0.417 C 
+ATOM     33  FBC DOJ d   1      14.826 -13.461  -2.699  0.00  0.00    -0.166 F 
+ATOM     34  FBD DOJ d   1      14.711 -11.956  -1.150  0.00  0.00    -0.166 F 
+ATOM     35  FBE DOJ d   1      13.465 -11.801  -2.897  0.00  0.00    -0.166 F 
+ENDBRANCH  24  32
+ENDBRANCH  18  22
+ENDBRANCH   1  16
+BRANCH   2  36
+ATOM     36  OAD DOJ d   1      15.527 -12.709 -10.859  0.00  0.00    -0.353 OA
+BRANCH  36  37
+ATOM     37  CAB DOJ d   1      16.742 -13.306 -11.236  0.00  0.00     0.125 C 
+ATOM     38  H11 DOJ d   1      16.911 -13.158 -12.313  0.00  0.00     0.128 H 
+BRANCH  37  39
+ATOM     39  OAC DOJ d   1      16.694 -14.667 -10.972  0.00  0.00    -0.372 OA
+ATOM     40  H12 DOJ d   1      16.550 -14.803 -10.043  0.00  0.00     0.212 HD
+ENDBRANCH  37  39
+BRANCH  37  41
+ATOM     41  CAA DOJ d   1      17.859 -12.612 -10.448  0.00  0.00    -0.031 C 
+ATOM     42  H13 DOJ d   1      17.862 -11.538 -10.685  0.00  0.00     0.034 H 
+ATOM     43  H14 DOJ d   1      18.829 -13.051 -10.723  0.00  0.00     0.034 H 
+ATOM     44  H15 DOJ d   1      17.687 -12.749  -9.370  0.00  0.00     0.034 H 
+ENDBRANCH  37  41
+ENDBRANCH  36  37
+ENDBRANCH   2  36
+BRANCH   6  45
+ATOM     45  CAH DOJ d   1      12.840  -9.589 -13.218  0.00  0.00     0.107 C 
+ATOM     46  H21 DOJ d   1      12.055 -10.322 -12.980  0.00  0.00     0.083 H 
+ATOM     47  H22 DOJ d   1      13.289  -9.836 -14.191  0.00  0.00     0.083 H 
+BRANCH  45  48
+ATOM     48  CAI DOJ d   1      12.178  -8.206 -13.337  0.00  0.00    -0.033 A 
+ATOM     49  CAJ DOJ d   1      10.881  -7.953 -12.800  0.00  0.00    -0.075 A 
+ATOM     50  CAK DOJ d   1      10.312  -6.677 -12.903  0.00  0.00    -0.082 A 
+ATOM     51  H23 DOJ d   1      10.334  -8.751 -12.311  0.00  0.00     0.084 H 
+ATOM     52  CAL DOJ d   1      11.007  -5.661 -13.503  0.00  0.00    -0.083 A 
+ATOM     53  H24 DOJ d   1       9.320  -6.494 -12.507  0.00  0.00     0.083 H 
+ATOM     54  CAM DOJ d   1      12.309  -5.904 -14.042  0.00  0.00    -0.082 A 
+ATOM     55  H25 DOJ d   1      10.570  -4.671 -13.569  0.00  0.00     0.083 H 
+ATOM     56  CAN DOJ d   1      12.858  -7.156 -13.951  0.00  0.00    -0.075 A 
+ATOM     57  H26 DOJ d   1      12.859  -5.102 -14.520  0.00  0.00     0.083 H 
+ATOM     58  H27 DOJ d   1      13.844  -7.334 -14.366  0.00  0.00     0.084 H 
+ENDBRANCH  45  48
+ENDBRANCH   6  45
+TORSDOF 9

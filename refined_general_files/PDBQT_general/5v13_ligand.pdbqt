@@ -1,0 +1,89 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_3 
+REMARK    2  A    between atoms: C1_1  and  C2_5 
+REMARK    3  A    between atoms: O1_3  and  CM_4 
+REMARK    4  A    between atoms: C3_6  and  C3'_7 
+REMARK    5  A    between atoms: C3_6  and  C4_8 
+REMARK    6  A    between atoms: C4_8  and  C5_9 
+REMARK    7  A    between atoms: C5_9  and  C6_10 
+REMARK    8  A    between atoms: C7_11  and  C7'_12 
+REMARK    9  A    between atoms: C7_11  and  C8_13 
+REMARK   10  A    between atoms: C8_13  and  C9_14 
+REMARK   11  A    between atoms: C9_14  and  CA_15 
+REMARK   12  A    between atoms: CB_17  and  CB'_18 
+REMARK   13  A    between atoms: CB_17  and  CC_19 
+ROOT
+ATOM      1  C6  JH3 d   1     239.005 -27.377 352.493  0.00  0.00    -0.101 C 
+ATOM      2  C7  JH3 d   1     238.858 -28.241 351.475  0.00  0.00    -0.087 C 
+ATOM      3  H12 JH3 d   1     238.534 -27.624 353.443  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   2   4
+ATOM      4  C7' JH3 d   1     239.529 -27.998 350.151  0.00  0.00    -0.055 C 
+ATOM      5  H13 JH3 d   1     239.283 -28.817 349.459  0.00  0.00     0.033 H 
+ATOM      6  H14 JH3 d   1     240.619 -27.955 350.295  0.00  0.00     0.033 H 
+ATOM      7  H15 JH3 d   1     239.176 -27.045 349.731  0.00  0.00     0.033 H 
+ENDBRANCH   2   4
+BRANCH   2   8
+ATOM      8  C8  JH3 d   1     238.045 -29.515 351.683  0.00  0.00    -0.043 C 
+ATOM      9  H16 JH3 d   1     237.673 -29.540 352.718  0.00  0.00     0.039 H 
+ATOM     10  H17 JH3 d   1     238.691 -30.387 351.505  0.00  0.00     0.039 H 
+BRANCH   8  11
+ATOM     11  C9  JH3 d   1     236.855 -29.568 350.721  0.00  0.00    -0.035 C 
+ATOM     12  H18 JH3 d   1     236.247 -30.459 350.938  0.00  0.00     0.037 H 
+ATOM     13  H19 JH3 d   1     237.222 -29.618 349.685  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CA  JH3 d   1     236.002 -28.313 350.899  0.00  0.00     0.069 A 
+ATOM     15  O3  JH3 d   1     234.741 -28.378 350.220  0.00  0.00    -0.370 OA
+ATOM     16  CB  JH3 d   1     234.675 -28.448 351.649  0.00  0.00     0.080 A 
+ATOM     17  H20 JH3 d   1     236.612 -27.400 350.957  0.00  0.00     0.088 H 
+BRANCH  16  18
+ATOM     18  CB' JH3 d   1     234.176 -27.159 352.311  0.00  0.00    -0.046 C 
+ATOM     19  H21 JH3 d   1     233.222 -27.355 352.822  0.00  0.00     0.031 H 
+ATOM     20  H22 JH3 d   1     234.028 -26.386 351.543  0.00  0.00     0.031 H 
+ATOM     21  H23 JH3 d   1     234.920 -26.811 353.043  0.00  0.00     0.031 H 
+ENDBRANCH  16  18
+BRANCH  16  22
+ATOM     22  CC  JH3 d   1     234.064 -29.782 352.068  0.00  0.00    -0.046 C 
+ATOM     23  H24 JH3 d   1     233.113 -29.602 352.590  0.00  0.00     0.031 H 
+ATOM     24  H25 JH3 d   1     234.757 -30.308 352.741  0.00  0.00     0.031 H 
+ATOM     25  H26 JH3 d   1     233.882 -30.398 351.175  0.00  0.00     0.031 H 
+ENDBRANCH  16  22
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   2   8
+BRANCH   1  26
+ATOM     26  C5  JH3 d   1     239.786 -26.078 352.404  0.00  0.00    -0.046 C 
+ATOM     27  H10 JH3 d   1     239.821 -25.754 351.353  0.00  0.00     0.039 H 
+ATOM     28  H11 JH3 d   1     239.276 -25.313 353.007  0.00  0.00     0.039 H 
+BRANCH  26  29
+ATOM     29  C4  JH3 d   1     241.210 -26.244 352.918  0.00  0.00    -0.042 C 
+ATOM     30  H8  JH3 d   1     241.196 -26.887 353.810  0.00  0.00     0.040 H 
+ATOM     31  H9  JH3 d   1     241.821 -26.717 352.135  0.00  0.00     0.040 H 
+BRANCH  29  32
+ATOM     32  C3  JH3 d   1     241.820 -24.915 353.280  0.00  0.00    -0.078 C 
+ATOM     33  C2  JH3 d   1     242.512 -24.866 354.429  0.00  0.00    -0.009 C 
+ATOM     34  H4  JH3 d   1     242.583 -25.802 354.981  0.00  0.00     0.093 H 
+BRANCH  33  35
+ATOM     35  C1  JH3 d   1     243.190 -23.702 355.040  0.00  0.00     0.282 C 
+ATOM     36  O2  JH3 d   1     243.165 -22.569 354.583  0.00  0.00    -0.260 OA
+BRANCH  35  37
+ATOM     37  O1  JH3 d   1     243.903 -23.903 356.278  0.00  0.00    -0.323 OA
+BRANCH  37  38
+ATOM     38  CM  JH3 d   1     244.291 -22.737 357.010  0.00  0.00     0.013 C 
+ATOM     39  H1  JH3 d   1     244.822 -23.038 357.925  0.00  0.00     0.067 H 
+ATOM     40  H2  JH3 d   1     243.395 -22.158 357.280  0.00  0.00     0.067 H 
+ATOM     41  H3  JH3 d   1     244.954 -22.118 356.388  0.00  0.00     0.067 H 
+ENDBRANCH  37  38
+ENDBRANCH  35  37
+ENDBRANCH  33  35
+BRANCH  32  42
+ATOM     42  C3' JH3 d   1     241.622 -23.745 352.356  0.00  0.00    -0.054 C 
+ATOM     43  H5  JH3 d   1     241.019 -24.059 351.491  0.00  0.00     0.033 H 
+ATOM     44  H6  JH3 d   1     242.601 -23.383 352.009  0.00  0.00     0.033 H 
+ATOM     45  H7  JH3 d   1     241.101 -22.938 352.892  0.00  0.00     0.033 H 
+ENDBRANCH  32  42
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 13

@@ -1,0 +1,82 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_6  and  CAU_7 
+REMARK    2  A    between atoms: CAU_7  and  NAN_8 
+REMARK    3  A    between atoms: CAO_9  and  NAP_10 
+REMARK    4  A    between atoms: CAF_16  and  NAG_17 
+REMARK    5  A    between atoms: NAG_17  and  CAB_18 
+REMARK    6  A    between atoms: NAG_17  and  SAH_19 
+REMARK    7  A    between atoms: SAH_19  and  CAI_22 
+REMARK    8  A    between atoms: CAI_22  and  CAJ_23 
+REMARK    9  A    between atoms: CAJ_23  and  CAK_24 
+REMARK   10  A    between atoms: CAK_24  and  CAT_25 
+ROOT
+ATOM      1  NAN KKT d   1      38.119   3.429  10.172  0.00  0.00    -0.281 N 
+ATOM      2  CAO KKT d   1      37.174   3.183   9.233  0.00  0.00     0.136 A 
+ATOM      3  CAM KKT d   1      38.291   2.552  11.172  0.00  0.00     0.330 A 
+ATOM      4  OAL KKT d   1      39.148   2.794  12.018  0.00  0.00    -0.246 OA
+ATOM      5  NAD KKT d   1      37.520   1.372  11.264  0.00  0.00    -0.277 N 
+ATOM      6  CAE KKT d   1      36.529   1.121  10.332  0.00  0.00     0.256 A 
+ATOM      7  OAA KKT d   1      35.862   0.091  10.456  0.00  0.00    -0.270 OA
+ATOM      8  CAF KKT d   1      36.355   2.056   9.298  0.00  0.00     0.155 A 
+ATOM      9  H9  KKT d   1      37.690   0.719  12.002  0.00  0.00     0.173 HD
+ATOM     10  H10 KKT d   1      35.587   2.599   9.868  0.00  0.00     0.101 H 
+ENDROOT
+BRANCH   8  11
+ATOM     11  NAG KKT d   1      35.485   1.795   8.284  0.00  0.00    -0.294 N 
+BRANCH  11  12
+ATOM     12  CAB KKT d   1      35.996   0.898   7.237  0.00  0.00    -0.007 C 
+ATOM     13  H11 KKT d   1      37.077   0.751   7.376  0.00  0.00     0.057 H 
+ATOM     14  H12 KKT d   1      35.811   1.345   6.249  0.00  0.00     0.057 H 
+ATOM     15  H13 KKT d   1      35.482  -0.072   7.303  0.00  0.00     0.057 H 
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  SAH KKT d   1      33.944   2.159   8.293  0.00  0.00     0.229 S 
+ATOM     17  OAC KKT d   1      33.724   3.603   8.683  0.00  0.00    -0.206 OA
+ATOM     18  OAQ KKT d   1      33.410   1.971   6.891  0.00  0.00    -0.206 OA
+BRANCH  16  19
+ATOM     19  CAI KKT d   1      33.150   0.925   9.412  0.00  0.00     0.046 C 
+ATOM     20  H14 KKT d   1      33.757   0.837  10.325  0.00  0.00     0.058 H 
+ATOM     21  H15 KKT d   1      33.119  -0.047   8.898  0.00  0.00     0.058 H 
+BRANCH  19  22
+ATOM     22  CAJ KKT d   1      31.734   1.311   9.806  0.00  0.00    -0.052 C 
+ATOM     23  H16 KKT d   1      31.021   0.764   9.171  0.00  0.00     0.034 H 
+ATOM     24  H17 KKT d   1      31.601   2.393   9.659  0.00  0.00     0.034 H 
+BRANCH  22  25
+ATOM     25  CAK KKT d   1      31.465   0.964  11.285  0.00  0.00    -0.068 C 
+ATOM     26  H18 KKT d   1      30.427   1.219  11.547  0.00  0.00     0.032 H 
+ATOM     27  H19 KKT d   1      32.155   1.524  11.933  0.00  0.00     0.032 H 
+BRANCH  25  28
+ATOM     28  CAT KKT d   1      31.687  -0.504  11.453  0.00  0.00    -0.076 C 
+ATOM     29  H20 KKT d   1      31.503  -0.785  12.500  0.00  0.00     0.027 H 
+ATOM     30  H21 KKT d   1      32.725  -0.751  11.184  0.00  0.00     0.027 H 
+ATOM     31  H22 KKT d   1      30.997  -1.056  10.798  0.00  0.00     0.027 H 
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  11  16
+ENDBRANCH   8  11
+BRANCH   2  32
+ATOM     32  NAP KKT d   1      36.958   4.008   8.230  0.00  0.00    -0.285 NA
+ATOM     33  H8  KKT d   1      36.247   3.796   7.547  0.00  0.00     0.188 HD
+ENDBRANCH   2  32
+BRANCH   1  34
+ATOM     34  CAU KKT d   1      38.978   4.653  10.151  0.00  0.00     0.029 C 
+ATOM     35  H6  KKT d   1      39.967   4.410  10.567  0.00  0.00     0.072 H 
+ATOM     36  H7  KKT d   1      39.092   5.000   9.113  0.00  0.00     0.072 H 
+BRANCH  34  37
+ATOM     37  CAV KKT d   1      38.389   5.668  10.917  0.00  0.00    -0.040 A 
+ATOM     38  CAW KKT d   1      37.817   6.779  10.284  0.00  0.00    -0.075 A 
+ATOM     39  CAX KKT d   1      37.214   7.782  11.050  0.00  0.00    -0.082 A 
+ATOM     40  H1  KKT d   1      37.842   6.861   9.203  0.00  0.00     0.084 H 
+ATOM     41  CBA KKT d   1      37.174   7.668  12.446  0.00  0.00    -0.083 A 
+ATOM     42  H2  KKT d   1      36.778   8.647  10.564  0.00  0.00     0.083 H 
+ATOM     43  CAZ KKT d   1      37.728   6.562  13.081  0.00  0.00    -0.082 A 
+ATOM     44  H3  KKT d   1      36.707   8.449  13.036  0.00  0.00     0.083 H 
+ATOM     45  CAY KKT d   1      38.333   5.568  12.310  0.00  0.00    -0.075 A 
+ATOM     46  H4  KKT d   1      37.691   6.473  14.161  0.00  0.00     0.083 H 
+ATOM     47  H5  KKT d   1      38.767   4.704  12.800  0.00  0.00     0.084 H 
+ENDBRANCH  34  37
+ENDBRANCH   1  34
+TORSDOF 10

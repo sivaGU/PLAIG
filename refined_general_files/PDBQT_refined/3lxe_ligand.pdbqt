@@ -1,0 +1,72 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_1  and  CAU_2 
+REMARK    2  A    between atoms: CAU_2  and  CAV_3 
+REMARK    3  A    between atoms: CAE_9  and  CAD_10 
+REMARK    4  A    between atoms: CAE_9  and  CAJ_11 
+REMARK    5  A    between atoms: CAL_16  and  CAM_17 
+REMARK    6  A    between atoms: CAM_17  and  OAN_18 
+REMARK    7  A    between atoms: OAN_18  and  SAO_19 
+REMARK    8  A    between atoms: SAO_19  and  NAP_22 
+ROOT
+ATOM      1  CAU TOR d   1     -18.775  36.769  43.823  0.00  0.00     0.161 C 
+ATOM      2  OAR TOR d   1     -18.459  35.375  43.564  0.00  0.00    -0.315 OA
+ATOM      3  OAQ TOR d   1     -17.548  37.221  44.439  0.00  0.00    -0.342 OA
+ATOM      4  CAK TOR d   1     -16.453  36.500  43.862  0.00  0.00     0.125 C 
+ATOM      5  CAG TOR d   1     -15.249  36.555  44.813  0.00  0.00     0.099 C 
+ATOM      6  OAF TOR d   1     -14.110  36.206  44.039  0.00  0.00    -0.345 OA
+ATOM      7  CAE TOR d   1     -13.197  35.378  44.774  0.00  0.00     0.158 C 
+ATOM      8  OAA TOR d   1     -13.962  34.942  45.907  0.00  0.00    -0.346 OA
+ATOM      9  CAB TOR d   1     -15.221  35.593  46.032  0.00  0.00     0.090 C 
+ATOM     10  CAC TOR d   1     -16.280  34.500  46.033  0.00  0.00     0.050 C 
+ATOM     11  OAH TOR d   1     -16.734  34.149  44.702  0.00  0.00    -0.348 OA
+ATOM     12  CAL TOR d   1     -17.071  35.081  43.681  0.00  0.00     0.219 C 
+ATOM     13  H7  TOR d   1     -16.160  36.920  42.888  0.00  0.00     0.096 H 
+ATOM     14  H8  TOR d   1     -15.162  37.585  45.188  0.00  0.00     0.091 H 
+ATOM     15  H15 TOR d   1     -15.292  36.169  46.966  0.00  0.00     0.090 H 
+ATOM     16  H16 TOR d   1     -17.144  34.850  46.617  0.00  0.00     0.078 H 
+ATOM     17  H17 TOR d   1     -15.856  33.602  46.507  0.00  0.00     0.078 H 
+ENDROOT
+BRANCH  12  18
+ATOM     18  CAM TOR d   1     -16.596  34.296  42.482  0.00  0.00     0.094 C 
+ATOM     19  H18 TOR d   1     -17.169  33.359  42.417  0.00  0.00     0.085 H 
+ATOM     20  H19 TOR d   1     -15.528  34.065  42.605  0.00  0.00     0.085 H 
+BRANCH  18  21
+ATOM     21  OAN TOR d   1     -16.779  35.052  41.248  0.00  0.00    -0.254 OA
+BRANCH  21  22
+ATOM     22  SAO TOR d   1     -16.305  34.469  39.867  0.00  0.00     0.355 S 
+ATOM     23  OAS TOR d   1     -17.324  33.543  39.535  0.00  0.00    -0.176 OA
+ATOM     24  OAI TOR d   1     -16.108  35.654  39.106  0.00  0.00    -0.176 OA
+BRANCH  22  25
+ATOM     25  NAP TOR d   1     -14.931  33.702  40.082  0.00  0.00    -0.306 N 
+ATOM     26  H20 TOR d   1     -14.477  33.263  39.307  0.00  0.00     0.171 HD
+ATOM     27  H21 TOR d   1     -14.520  33.658  40.993  0.00  0.00     0.171 HD
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH  12  18
+BRANCH   1  28
+ATOM     28  CAT TOR d   1     -19.908  36.812  44.822  0.00  0.00    -0.025 C 
+ATOM     29  H1  TOR d   1     -20.835  36.466  44.341  0.00  0.00     0.035 H 
+ATOM     30  H2  TOR d   1     -20.043  37.844  45.179  0.00  0.00     0.035 H 
+ATOM     31  H3  TOR d   1     -19.671  36.158  45.674  0.00  0.00     0.035 H 
+ENDBRANCH   1  28
+BRANCH   1  32
+ATOM     32  CAV TOR d   1     -19.142  37.472  42.523  0.00  0.00    -0.025 C 
+ATOM     33  H4  TOR d   1     -18.294  37.419  41.825  0.00  0.00     0.035 H 
+ATOM     34  H5  TOR d   1     -19.380  38.526  42.730  0.00  0.00     0.035 H 
+ATOM     35  H6  TOR d   1     -20.017  36.980  42.074  0.00  0.00     0.035 H 
+ENDBRANCH   1  32
+BRANCH   7  36
+ATOM     36  CAD TOR d   1     -11.974  36.153  45.270  0.00  0.00    -0.025 C 
+ATOM     37  H9  TOR d   1     -11.380  36.492  44.408  0.00  0.00     0.035 H 
+ATOM     38  H10 TOR d   1     -11.358  35.499  45.905  0.00  0.00     0.035 H 
+ATOM     39  H11 TOR d   1     -12.304  37.025  45.853  0.00  0.00     0.035 H 
+ENDBRANCH   7  36
+BRANCH   7  40
+ATOM     40  CAJ TOR d   1     -12.889  34.170  43.937  0.00  0.00    -0.025 C 
+ATOM     41  H12 TOR d   1     -12.189  33.517  44.479  0.00  0.00     0.035 H 
+ATOM     42  H13 TOR d   1     -12.433  34.488  42.988  0.00  0.00     0.035 H 
+ATOM     43  H14 TOR d   1     -13.819  33.620  43.731  0.00  0.00     0.035 H 
+ENDBRANCH   7  40
+TORSDOF 8

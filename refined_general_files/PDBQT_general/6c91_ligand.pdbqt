@@ -1,0 +1,66 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAD_3  and  CAC_2 
+REMARK    2  A    between atoms: CAE_4  and  CAD_3 
+REMARK    3  A    between atoms: CAF_5  and  CAE_4 
+REMARK    4  A    between atoms: CAK_8  and  CAL_9 
+REMARK    5  A    between atoms: CAK_8  and  NAJ_20 
+REMARK    6  A    between atoms: CAT_16  and  OAU_21 
+REMARK    7  A    between atoms: CAW_18  and  OAX_22 
+ROOT
+ATOM      1  CAF EQD d   1      21.046 -10.080  23.419  0.00  0.00     0.106 A 
+ATOM      2  CAH EQD d   1      22.628 -10.243  24.847  0.00  0.00     0.019 A 
+ATOM      3  CAI EQD d   1      22.123 -11.472  24.668  0.00  0.00    -0.002 A 
+ATOM      4  NAG EQD d   1      21.962  -9.369  24.085  0.00  0.00    -0.246 NA
+ATOM      5  NAJ EQD d   1      21.147 -11.379  23.765  0.00  0.00    -0.340 N 
+ATOM      6  H5  EQD d   1      23.454  -9.995  25.511  0.00  0.00     0.117 H 
+ATOM      7  H6  EQD d   1      22.451 -12.381  25.169  0.00  0.00     0.113 H 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CAE EQD d   1      20.045  -9.439  22.426  0.00  0.00    -0.006 C 
+ATOM      9  H3  EQD d   1      19.029  -9.778  22.675  0.00  0.00     0.045 H 
+ATOM     10  H4  EQD d   1      20.099  -8.345  22.521  0.00  0.00     0.045 H 
+BRANCH   8  11
+ATOM     11  CAD EQD d   1      20.356  -9.825  20.993  0.00  0.00    -0.031 C 
+ATOM     12  H1  EQD d   1      21.449  -9.818  20.866  0.00  0.00     0.040 H 
+ATOM     13  H2  EQD d   1      19.973 -10.842  20.822  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAC EQD d   1      19.791  -8.968  20.010  0.00  0.00    -0.009 A 
+ATOM     15  CAB EQD d   1      18.596  -9.344  19.381  0.00  0.00     0.075 A 
+ATOM     16  CAW EQD d   1      18.046  -8.541  18.397  0.00  0.00     0.090 A 
+ATOM     17 CLB  EQD d   1      17.771 -10.803  19.822  0.00  0.00    -0.081 Cl
+ATOM     18  CAV EQD d   1      18.645  -7.365  18.007  0.00  0.00    -0.016 A 
+ATOM     19  CAT EQD d   1      19.830  -7.005  18.607  0.00  0.00     0.090 A 
+ATOM     20  H14 EQD d   1      18.195  -6.738  17.246  0.00  0.00     0.092 H 
+ATOM     21  CAR EQD d   1      20.418  -7.775  19.597  0.00  0.00     0.075 A 
+ATOM     22 CLR  EQD d   1      21.938  -7.179  20.302  0.00  0.00    -0.081 Cl
+BRANCH  16  23
+ATOM     23  OAX EQD d   1      16.882  -8.957  17.844  0.00  0.00    -0.359 OA
+ATOM     24  H16 EQD d   1      16.624  -9.783  18.236  0.00  0.00     0.217 HD
+ENDBRANCH  16  23
+BRANCH  19  25
+ATOM     25  OAU EQD d   1      20.475  -5.863  18.272  0.00  0.00    -0.359 OA
+ATOM     26  H15 EQD d   1      20.698  -5.886  17.349  0.00  0.00     0.217 HD
+ENDBRANCH  19  25
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+BRANCH   5  27
+ATOM     27  CAK EQD d   1      20.347 -12.532  23.339  0.00  0.00     0.024 C 
+ATOM     28  H7  EQD d   1      20.168 -13.164  24.221  0.00  0.00     0.072 H 
+ATOM     29  H8  EQD d   1      19.387 -12.155  22.957  0.00  0.00     0.072 H 
+BRANCH  27  30
+ATOM     30  CAL EQD d   1      20.920 -13.328  22.350  0.00  0.00    -0.040 A 
+ATOM     31  CAM EQD d   1      22.290 -13.495  22.232  0.00  0.00    -0.075 A 
+ATOM     32  CAN EQD d   1      22.790 -14.320  21.223  0.00  0.00    -0.082 A 
+ATOM     33  H9  EQD d   1      22.965 -12.992  22.914  0.00  0.00     0.084 H 
+ATOM     34  CAO EQD d   1      21.946 -14.988  20.340  0.00  0.00    -0.083 A 
+ATOM     35  H10 EQD d   1      23.862 -14.444  21.125  0.00  0.00     0.083 H 
+ATOM     36  CAP EQD d   1      20.576 -14.821  20.461  0.00  0.00    -0.082 A 
+ATOM     37  H11 EQD d   1      22.355 -15.630  19.568  0.00  0.00     0.083 H 
+ATOM     38  CAQ EQD d   1      20.079 -14.000  21.465  0.00  0.00    -0.075 A 
+ATOM     39  H12 EQD d   1      19.900 -15.325  19.780  0.00  0.00     0.083 H 
+ATOM     40  H13 EQD d   1      19.006 -13.879  21.563  0.00  0.00     0.084 H 
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+TORSDOF 7

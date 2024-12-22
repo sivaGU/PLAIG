@@ -1,0 +1,61 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N1_2 
+REMARK    2  A    between atoms: C4_7  and  O3P_10 
+REMARK    3  A    between atoms: O3P_10  and  P_11 
+REMARK    4  A    between atoms: P_11  and  C7_14 
+REMARK    5  A    between atoms: C7_14  and  C8_15 
+REMARK    6  A    between atoms: C8_15  and  C9_16 
+REMARK    7  A    between atoms: C9_16  and  C10_17 
+REMARK    8  A    between atoms: C10_17  and  C11_18 
+ROOT
+ATOM      1  P   NPE d   1      60.121  -7.601  11.120  0.00  0.00     0.254 P 
+ATOM      2  O1P NPE d   1      60.015  -7.319   9.728  0.00  0.00    -0.646 OA
+ATOM      3  O2P NPE d   1      59.922  -6.384  11.845  0.00  0.00    -0.646 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O3P NPE d   1      58.999  -8.568  11.452  0.00  0.00    -0.270 OA
+BRANCH   4   5
+ATOM      5  C4  NPE d   1      58.220  -8.622  12.623  0.00  0.00     0.079 A 
+ATOM      6  C3  NPE d   1      58.561  -9.575  13.602  0.00  0.00    -0.048 A 
+ATOM      7  C2  NPE d   1      57.769  -9.705  14.761  0.00  0.00    -0.048 A 
+ATOM      8  H2  NPE d   1      59.431 -10.207  13.465  0.00  0.00     0.087 H 
+ATOM      9  C1  NPE d   1      56.627  -8.876  14.951  0.00  0.00     0.103 A 
+ATOM     10  H1  NPE d   1      58.031 -10.441  15.512  0.00  0.00     0.087 H 
+ATOM     11  C6  NPE d   1      56.294  -7.911  13.950  0.00  0.00    -0.048 A 
+ATOM     12  C5  NPE d   1      57.088  -7.790  12.792  0.00  0.00    -0.048 A 
+ATOM     13  H4  NPE d   1      55.429  -7.271  14.082  0.00  0.00     0.087 H 
+ATOM     14  H3  NPE d   1      56.832  -7.061  12.032  0.00  0.00     0.087 H 
+BRANCH   9  15
+ATOM     15  N1  NPE d   1      55.822  -9.034  16.133  0.00  0.00    -0.116 N 
+ATOM     16  O2N NPE d   1      56.228 -10.026  17.034  0.00  0.00    -0.532 OA
+ATOM     17  O1N NPE d   1      54.728  -8.171  16.252  0.00  0.00    -0.532 OA
+ENDBRANCH   9  15
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  18
+ATOM     18  C7  NPE d   1      61.685  -8.303  11.603  0.00  0.00     0.032 C 
+ATOM     19  H5  NPE d   1      61.741  -8.350  12.701  0.00  0.00     0.052 H 
+ATOM     20  H6  NPE d   1      62.502  -7.673  11.221  0.00  0.00     0.052 H 
+BRANCH  18  21
+ATOM     21  C8  NPE d   1      61.818  -9.705  11.030  0.00  0.00    -0.054 C 
+ATOM     22  H7  NPE d   1      61.561  -9.689   9.960  0.00  0.00     0.033 H 
+ATOM     23  H8  NPE d   1      61.135 -10.384  11.561  0.00  0.00     0.033 H 
+BRANCH  21  24
+ATOM     24  C9  NPE d   1      63.258 -10.196  11.201  0.00  0.00    -0.056 C 
+ATOM     25  H9  NPE d   1      63.760  -9.594  11.973  0.00  0.00     0.033 H 
+ATOM     26  H10 NPE d   1      63.795 -10.091  10.247  0.00  0.00     0.033 H 
+BRANCH  24  27
+ATOM     27  C10 NPE d   1      63.259 -11.666  11.624  0.00  0.00     0.016 C 
+ATOM     28  H11 NPE d   1      62.840 -12.285  10.817  0.00  0.00     0.049 H 
+ATOM     29  H12 NPE d   1      62.654 -11.791  12.534  0.00  0.00     0.049 H 
+BRANCH  27  30
+ATOM     30  C11 NPE d   1      64.700 -12.087  11.902  0.00  0.00     0.172 C 
+ATOM     31  O2  NPE d   1      65.334 -12.273  10.720  0.00  0.00    -0.648 OA
+ATOM     32  O1  NPE d   1      65.166 -12.223  12.996  0.00  0.00    -0.648 OA
+ENDBRANCH  27  30
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH   1  18
+TORSDOF 8

@@ -1,0 +1,91 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_2  and  N1_3 
+REMARK    2  A    between atoms: C4_5  and  O4_6 
+REMARK    3  A    between atoms: C3_7  and  O3_8 
+REMARK    4  A    between atoms: C2_9  and  O2_10 
+REMARK    5  A    between atoms: N2_14  and  C8_15 
+REMARK    6  A    between atoms: C8_15  and  C9_16 
+REMARK    7  A    between atoms: C9_16  and  C10_17 
+REMARK    8  A    between atoms: C10_17  and  C11_18 
+REMARK    9  A    between atoms: C11_18  and  C12_19 
+REMARK   10  A    between atoms: C12_19  and  C13_20 
+REMARK   11  A    between atoms: C13_20  and  C14_21 
+REMARK   12  A    between atoms: C14_21  and  C15_22 
+ROOT
+ATOM      1  S1  NCW d   1       0.242   7.864  11.428  0.00  0.00    -0.041 SA
+ATOM      2  C7  NCW d   1      -0.611   7.965  10.087  0.00  0.00     0.172 C 
+ATOM      3  N2  NCW d   1      -0.677   6.883   9.303  0.00  0.00    -0.367 N 
+ATOM      4  H11 NCW d   1      -1.433   6.812   8.652  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C8  NCW d   1       0.301   5.801   9.351  0.00  0.00    -0.005 C 
+ATOM      6  H12 NCW d   1       0.533   5.570  10.401  0.00  0.00     0.064 H 
+ATOM      7  H13 NCW d   1       1.218   6.119   8.834  0.00  0.00     0.064 H 
+BRANCH   5   8
+ATOM      8  C9  NCW d   1      -0.249   4.553   8.673  0.00  0.00    -0.050 C 
+ATOM      9  H14 NCW d   1      -1.001   4.090   9.328  0.00  0.00     0.035 H 
+ATOM     10  H15 NCW d   1       0.575   3.844   8.502  0.00  0.00     0.035 H 
+BRANCH   8  11
+ATOM     11  C10 NCW d   1      -0.899   4.897   7.331  0.00  0.00    -0.064 C 
+ATOM     12  H16 NCW d   1      -0.700   5.955   7.107  0.00  0.00     0.033 H 
+ATOM     13  H17 NCW d   1      -1.984   4.738   7.417  0.00  0.00     0.033 H 
+BRANCH  11  14
+ATOM     14  C11 NCW d   1      -0.378   4.057   6.187  0.00  0.00    -0.065 C 
+ATOM     15  H18 NCW d   1      -0.809   4.407   5.238  0.00  0.00     0.033 H 
+ATOM     16  H19 NCW d   1      -0.646   3.002   6.344  0.00  0.00     0.033 H 
+BRANCH  14  17
+ATOM     17  C12 NCW d   1       1.157   4.211   6.156  0.00  0.00    -0.065 C 
+ATOM     18  H20 NCW d   1       1.459   5.026   6.830  0.00  0.00     0.033 H 
+ATOM     19  H21 NCW d   1       1.483   4.443   5.131  0.00  0.00     0.033 H 
+BRANCH  17  20
+ATOM     20  C13 NCW d   1       1.770   2.970   6.591  0.00  0.00    -0.065 C 
+ATOM     21  H22 NCW d   1       2.085   3.049   7.642  0.00  0.00     0.033 H 
+ATOM     22  H23 NCW d   1       2.643   2.736   5.964  0.00  0.00     0.033 H 
+BRANCH  20  23
+ATOM     23  C14 NCW d   1       0.689   1.873   6.436  0.00  0.00    -0.069 C 
+ATOM     24  H24 NCW d   1       0.674   1.508   5.399  0.00  0.00     0.032 H 
+ATOM     25  H25 NCW d   1      -0.298   2.283   6.695  0.00  0.00     0.032 H 
+BRANCH  23  26
+ATOM     26  C15 NCW d   1       1.031   0.755   7.361  0.00  0.00    -0.077 C 
+ATOM     27  H26 NCW d   1       0.276  -0.040   7.270  0.00  0.00     0.027 H 
+ATOM     28  H27 NCW d   1       1.048   1.127   8.396  0.00  0.00     0.027 H 
+ATOM     29  H28 NCW d   1       2.021   0.352   7.099  0.00  0.00     0.027 H 
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  30
+ATOM     30  N1  NCW d   1      -1.262   9.093   9.730  0.00  0.00    -0.320 N 
+ATOM     31  C5  NCW d   1      -2.064   9.239   8.531  0.00  0.00     0.064 C 
+ATOM     32  C4  NCW d   1      -1.145  10.062   7.644  0.00  0.00     0.084 C 
+ATOM     33  C6  NCW d   1      -3.174  10.124   9.059  0.00  0.00     0.043 C 
+ATOM     34  H1  NCW d   1      -2.412   8.304   8.068  0.00  0.00     0.080 H 
+ATOM     35  C3  NCW d   1      -0.597  11.348   8.316  0.00  0.00     0.091 C 
+ATOM     36  H2  NCW d   1      -0.284   9.441   7.357  0.00  0.00     0.090 H 
+ATOM     37  C2  NCW d   1      -0.219  11.167   9.792  0.00  0.00     0.104 C 
+ATOM     38  H4  NCW d   1      -1.383  12.114   8.242  0.00  0.00     0.091 H 
+ATOM     39  C1  NCW d   1      -1.289  10.323  10.491  0.00  0.00     0.135 C 
+ATOM     40  H6  NCW d   1       0.726  10.605   9.839  0.00  0.00     0.093 H 
+ATOM     41  O1  NCW d   1      -2.606  10.813  10.192  0.00  0.00    -0.362 OA
+ATOM     42  H10 NCW d   1      -1.106  10.206  11.569  0.00  0.00     0.122 H 
+ATOM     43  H8  NCW d   1      -4.036   9.516   9.371  0.00  0.00     0.077 H 
+ATOM     44  H9  NCW d   1      -3.491  10.844   8.290  0.00  0.00     0.077 H 
+BRANCH  32  45
+ATOM     45  O4  NCW d   1      -1.910  10.386   6.473  0.00  0.00    -0.391 OA
+ATOM     46  H3  NCW d   1      -2.178   9.584   6.040  0.00  0.00     0.210 HD
+ENDBRANCH  32  45
+BRANCH  35  47
+ATOM     47  O3  NCW d   1       0.591  11.839   7.695  0.00  0.00    -0.390 OA
+ATOM     48  H5  NCW d   1       0.410  12.043   6.785  0.00  0.00     0.210 HD
+ENDBRANCH  35  47
+BRANCH  37  49
+ATOM     49  O2  NCW d   1       0.016  12.453  10.404  0.00  0.00    -0.388 OA
+ATOM     50  H7  NCW d   1      -0.773  12.979  10.345  0.00  0.00     0.210 HD
+ENDBRANCH  37  49
+ENDBRANCH   2  30
+TORSDOF 12

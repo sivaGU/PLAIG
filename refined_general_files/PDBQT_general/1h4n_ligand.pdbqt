@@ -1,0 +1,46 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2 
+REMARK    2  A    between atoms: C_1  and  C2_3 
+REMARK    3  A    between atoms: C_1  and  C3_4 
+REMARK    4  A    between atoms: C_1  and  N_5 
+REMARK    5  A    between atoms: C1_2  and  O1_6 
+REMARK    6  A    between atoms: C2_3  and  O2_7 
+REMARK    7  A    between atoms: C3_4  and  O3_8 
+ROOT
+ATOM      1  C   TRS d   1      -5.784   1.030  15.851  0.00  0.00     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  TRS d   1      -4.516   1.907  15.784  0.00  0.00     0.052 C 
+ATOM      3  H1  TRS d   1      -3.790   1.587  16.546  0.00  0.00     0.078 H 
+ATOM      4  H2  TRS d   1      -4.774   2.964  15.944  0.00  0.00     0.078 H 
+BRANCH   2   5
+ATOM      5  O1  TRS d   1      -3.979   1.721  14.481  0.00  0.00    -0.398 OA
+ATOM      6  H10 TRS d   1      -3.191   2.243  14.387  0.00  0.00     0.209 HD
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C2  TRS d   1      -6.877   1.626  14.971  0.00  0.00     0.052 C 
+ATOM      8  H3  TRS d   1      -6.497   1.780  13.950  0.00  0.00     0.078 H 
+ATOM      9  H4  TRS d   1      -7.213   2.587  15.387  0.00  0.00     0.078 H 
+BRANCH   7  10
+ATOM     10  O2  TRS d   1      -7.952   0.702  14.954  0.00  0.00    -0.398 OA
+ATOM     11  H11 TRS d   1      -7.651  -0.126  14.599  0.00  0.00     0.209 HD
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   1  12
+ATOM     12  C3  TRS d   1      -6.332   0.909  17.310  0.00  0.00     0.052 C 
+ATOM     13  H5  TRS d   1      -7.273   0.340  17.291  0.00  0.00     0.078 H 
+ATOM     14  H6  TRS d   1      -6.521   1.918  17.704  0.00  0.00     0.078 H 
+BRANCH  12  15
+ATOM     15  O3  TRS d   1      -5.414   0.248  18.163  0.00  0.00    -0.398 OA
+ATOM     16  H12 TRS d   1      -5.249  -0.627  17.832  0.00  0.00     0.209 HD
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+BRANCH   1  17
+ATOM     17  N   TRS d   1      -5.423  -0.269  15.307  0.00  0.00    -0.064 N 
+ATOM     18  H7  TRS d   1      -5.074  -0.155  14.368  0.00  0.00     0.275 HD
+ATOM     19  H8  TRS d   1      -6.236  -0.865  15.294  0.00  0.00     0.275 HD
+ATOM     20  H9  TRS d   1      -4.709  -0.687  15.882  0.00  0.00     0.275 HD
+ENDBRANCH   1  17
+TORSDOF 7

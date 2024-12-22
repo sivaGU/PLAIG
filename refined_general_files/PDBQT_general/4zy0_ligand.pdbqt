@@ -1,0 +1,77 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAW_2 
+REMARK    2  A    between atoms: CAW_2  and  CAB_3 
+REMARK    3  A    between atoms: CAW_2  and  CAC_4 
+REMARK    4  A    between atoms: CAW_2  and  CAR_5 
+REMARK       I    between atoms: CAR_5  and  N_7 
+REMARK    5  A    between atoms: N_7  and  CA_8 
+REMARK    6  A    between atoms: CA_8  and  C_9 
+REMARK    7  A    between atoms: CA_8  and  CAU_13 
+REMARK       I    between atoms: C_9  and  NAN_11 
+REMARK    8  A    between atoms: NAN_11  and  OAF_12 
+REMARK    9  A    between atoms: CAS_18  and  CAT_19 
+ROOT
+ATOM      1  CA  4TM d   1     174.303 248.951  31.101  0.00  0.00     0.117 C 
+ATOM      2  H11 4TM d   1     174.591 249.404  32.061  0.00  0.00     0.095 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   4TM d   1     175.348 247.990  30.710  0.00  0.00    -0.343 N 
+ATOM      4  CAR 4TM d   1     176.125 247.378  31.606  0.00  0.00     0.226 C 
+ATOM      5  OAE 4TM d   1     175.996 247.517  32.822  0.00  0.00    -0.273 OA
+ATOM      6  H10 4TM d   1     175.480 247.789  29.739  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  CAW 4TM d   1     177.223 246.485  30.999  0.00  0.00     0.030 C 
+BRANCH   7   8
+ATOM      8  CAA 4TM d   1     176.598 245.425  30.090  0.00  0.00    -0.061 C 
+ATOM      9  H1  4TM d   1     177.392 244.794  29.663  0.00  0.00     0.029 H 
+ATOM     10  H2  4TM d   1     176.045 245.919  29.277  0.00  0.00     0.029 H 
+ATOM     11  H3  4TM d   1     175.908 244.800  30.676  0.00  0.00     0.029 H 
+ENDBRANCH   7   8
+BRANCH   7  12
+ATOM     12  CAB 4TM d   1     178.168 247.366  30.180  0.00  0.00    -0.061 C 
+ATOM     13  H4  4TM d   1     178.617 248.128  30.834  0.00  0.00     0.029 H 
+ATOM     14  H5  4TM d   1     177.604 247.860  29.375  0.00  0.00     0.029 H 
+ATOM     15  H6  4TM d   1     178.963 246.744  29.742  0.00  0.00     0.029 H 
+ENDBRANCH   7  12
+BRANCH   7  16
+ATOM     16  CAC 4TM d   1     178.022 245.805  32.109  0.00  0.00    -0.061 C 
+ATOM     17  H7  4TM d   1     177.352 245.168  32.705  0.00  0.00     0.029 H 
+ATOM     18  H8  4TM d   1     178.474 246.570  32.757  0.00  0.00     0.029 H 
+ATOM     19  H9  4TM d   1     178.815 245.187  31.664  0.00  0.00     0.029 H 
+ENDBRANCH   7  16
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  C   4TM d   1     174.307 250.033  30.022  0.00  0.00     0.268 C 
+ATOM     21  O   4TM d   1     174.050 249.761  28.852  0.00  0.00    -0.269 OA
+ATOM     22  NAN 4TM d   1     174.682 251.247  30.445  0.00  0.00    -0.235 N 
+ATOM     23  H12 4TM d   1     174.905 251.424  31.404  0.00  0.00     0.197 HD
+BRANCH  22  24
+ATOM     24  OAF 4TM d   1     174.744 252.227  29.503  0.00  0.00    -0.287 OA
+ATOM     25  H13 4TM d   1     175.370 251.981  28.832  0.00  0.00     0.244 HD
+ENDBRANCH  22  24
+ENDBRANCH   1  20
+BRANCH   1  26
+ATOM     26  CAU 4TM d   1     173.027 248.393  31.272  0.00  0.00    -0.026 A 
+ATOM     27  CAL 4TM d   1     172.633 247.208  30.650  0.00  0.00    -0.074 A 
+ATOM     28  CAJ 4TM d   1     171.346 246.707  30.859  0.00  0.00    -0.072 A 
+ATOM     29  H14 4TM d   1     173.324 246.677  30.006  0.00  0.00     0.084 H 
+ATOM     30  CAS 4TM d   1     170.445 247.374  31.690  0.00  0.00    -0.025 A 
+ATOM     31  H15 4TM d   1     171.043 245.788  30.369  0.00  0.00     0.084 H 
+ATOM     32  CAI 4TM d   1     170.850 248.552  32.312  0.00  0.00    -0.072 A 
+ATOM     33  CAK 4TM d   1     172.129 249.055  32.102  0.00  0.00    -0.074 A 
+ATOM     34  H17 4TM d   1     170.164 249.080  32.964  0.00  0.00     0.084 H 
+ATOM     35  H16 4TM d   1     172.430 249.974  32.591  0.00  0.00     0.084 H 
+BRANCH  30  36
+ATOM     36  CAT 4TM d   1     169.209 246.899  31.902  0.00  0.00    -0.019 A 
+ATOM     37  CAH 4TM d   1     168.488 247.233  32.996  0.00  0.00    -0.066 A 
+ATOM     38  CAG 4TM d   1     167.268 246.674  33.072  0.00  0.00    -0.044 A 
+ATOM     39  H18 4TM d   1     168.869 247.907  33.762  0.00  0.00     0.085 H 
+ATOM     40  SAP 4TM d   1     167.095 245.740  31.723  0.00  0.00    -0.113 SA
+ATOM     41  H19 4TM d   1     166.537 246.811  33.868  0.00  0.00     0.095 H 
+ATOM     42  CAM 4TM d   1     168.598 246.062  31.055  0.00  0.00    -0.034 A 
+ATOM     43  H20 4TM d   1     168.997 245.670  30.121  0.00  0.00     0.096 H 
+ENDBRANCH  30  36
+ENDBRANCH   1  26
+TORSDOF 9

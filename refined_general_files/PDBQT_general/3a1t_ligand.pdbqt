@@ -1,0 +1,73 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PB_1  and  O3A_5 
+REMARK    2  A    between atoms: O3A_5  and  PA_6 
+REMARK    3  A    between atoms: PA_6  and  O5'_9 
+REMARK    4  A    between atoms: O5'_9  and  C5'_10 
+REMARK    5  A    between atoms: C5'_10  and  C4'_11 
+REMARK    6  A    between atoms: C3'_13  and  O3'_14 
+REMARK    7  A    between atoms: C2'_15  and  O2'_16 
+REMARK    8  A    between atoms: C1'_17  and  N9_18 
+REMARK    9  A    between atoms: C2_25  and  N2_26 
+ROOT
+ATOM      1  C4' GDP d   1      30.471  19.812  24.495  0.00  0.00     0.089 C 
+ATOM      2  O4' GDP d   1      30.296  20.701  23.387  0.00  0.00    -0.353 OA
+ATOM      3  C3' GDP d   1      30.543  20.673  25.734  0.00  0.00     0.091 C 
+ATOM      4  C2' GDP d   1      29.995  22.017  25.311  0.00  0.00     0.105 C 
+ATOM      5  C1' GDP d   1      30.309  22.069  23.831  0.00  0.00     0.139 C 
+ATOM      6  H3  GDP d   1      31.406  19.245  24.376  0.00  0.00     0.090 H 
+ATOM      7  H4  GDP d   1      30.000  20.240  26.587  0.00  0.00     0.091 H 
+ATOM      8  H6  GDP d   1      28.912  22.087  25.493  0.00  0.00     0.093 H 
+ATOM      9  H8  GDP d   1      31.292  22.534  23.666  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  N9  GDP d   1      29.268  22.797  23.058  0.00  0.00    -0.295 N 
+ATOM     11  C8  GDP d   1      27.937  22.580  23.103  0.00  0.00     0.071 A 
+ATOM     12  N7  GDP d   1      27.277  23.404  22.240  0.00  0.00    -0.234 NA
+ATOM     13  H9  GDP d   1      27.454  21.844  23.744  0.00  0.00     0.144 H 
+ATOM     14  C5  GDP d   1      28.215  24.140  21.622  0.00  0.00     0.171 A 
+ATOM     15  C6  GDP d   1      28.213  25.199  20.598  0.00  0.00     0.292 A 
+ATOM     16  C4  GDP d   1      29.524  23.732  22.150  0.00  0.00     0.161 A 
+ATOM     17  O6  GDP d   1      27.116  25.555  20.115  0.00  0.00    -0.265 OA
+ATOM     18  N1  GDP d   1      29.380  25.722  20.207  0.00  0.00    -0.154 N 
+ATOM     19  C2  GDP d   1      30.561  25.314  20.727  0.00  0.00     0.680 A 
+ATOM     20  H10 GDP d   1      29.380  26.437  19.508  0.00  0.00     0.187 HD
+ATOM     21  N3  GDP d   1      30.638  24.342  21.676  0.00  0.00    -0.174 N 
+ATOM     22  H13 GDP d   1      31.560  24.064  22.041  0.00  0.00     0.186 HD
+BRANCH  19  23
+ATOM     23  N2  GDP d   1      31.711  25.881  20.286  0.00  0.00    -0.234 N 
+ATOM     24  H11 GDP d   1      32.616  25.579  20.674  0.00  0.00     0.174 HD
+ATOM     25  H12 GDP d   1      31.680  26.614  19.563  0.00  0.00     0.174 HD
+ENDBRANCH  19  23
+ENDBRANCH   5  10
+BRANCH   4  26
+ATOM     26  O2' GDP d   1      30.674  23.057  26.008  0.00  0.00    -0.388 OA
+ATOM     27  H7  GDP d   1      31.602  23.018  25.807  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   1  28
+ATOM     28  C5' GDP d   1      29.309  18.842  24.597  0.00  0.00     0.058 C 
+ATOM     29  H1  GDP d   1      29.241  18.251  23.672  0.00  0.00     0.079 H 
+ATOM     30  H2  GDP d   1      29.466  18.168  25.452  0.00  0.00     0.079 H 
+BRANCH  28  31
+ATOM     31  O5' GDP d   1      28.099  19.578  24.785  0.00  0.00    -0.287 OA
+BRANCH  31  32
+ATOM     32  PA  GDP d   1      26.856  18.899  25.500  0.00  0.00     0.418 P 
+ATOM     33  O1A GDP d   1      27.163  18.416  26.897  0.00  0.00    -0.624 OA
+ATOM     34  O2A GDP d   1      25.660  19.846  25.487  0.00  0.00    -0.624 OA
+BRANCH  32  35
+ATOM     35  O3A GDP d   1      26.605  17.694  24.446  0.00  0.00    -0.173 OA
+BRANCH  35  36
+ATOM     36  PB  GDP d   1      25.716  16.359  24.628  0.00  0.00     0.431 P 
+ATOM     37  O1B GDP d   1      24.545  16.482  25.569  0.00  0.00    -0.616 OA
+ATOM     38  O2B GDP d   1      26.617  15.230  25.092  0.00  0.00    -0.616 OA
+ATOM     39  O3B GDP d   1      25.217  16.031  23.248  0.00  0.00    -0.616 OA
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   3  40
+ATOM     40  O3' GDP d   1      31.923  20.867  26.010  0.00  0.00    -0.390 OA
+ATOM     41  H5  GDP d   1      32.017  21.407  26.786  0.00  0.00     0.210 HD
+ENDBRANCH   3  40
+TORSDOF 9

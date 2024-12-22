@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N05_9  and  C04_4 
+REMARK    2  A    between atoms: C06_5  and  C07_6 
+REMARK       I    between atoms: C06_5  and  N05_9 
+REMARK    3  A    between atoms: C07_6  and  S08_11 
+ROOT
+ATOM      1  C10 CXH d   1       9.240   7.013 -20.898  0.00  0.00    -0.055 A 
+ATOM      2  C02 CXH d   1       8.267   5.129 -22.682  0.00  0.00     0.058 A 
+ATOM      3  C03 CXH d   1       7.361   5.831 -21.881  0.00  0.00    -0.035 A 
+ATOM      4  C04 CXH d   1       7.828   6.802 -20.980  0.00  0.00     0.036 A 
+ATOM      5  C11 CXH d   1      10.133   6.315 -21.695  0.00  0.00    -0.058 A 
+ATOM      6  C12 CXH d   1       9.659   5.364 -22.583  0.00  0.00     0.055 A 
+ATOM      7 CL1  CXH d   1       7.636   3.971 -23.815  0.00  0.00    -0.082 Cl
+ATOM      8 CL2  CXH d   1      10.781   4.520 -23.551  0.00  0.00    -0.083 Cl
+ATOM      9  H1  CXH d   1       9.623   7.740 -20.192  0.00  0.00     0.087 H 
+ATOM     10  H2  CXH d   1       6.299   5.626 -21.955  0.00  0.00     0.089 H 
+ATOM     11  H5  CXH d   1      11.197   6.512 -21.624  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   4  12
+ATOM     12  N05 CXH d   1       6.997   7.481 -20.103  0.00  0.00    -0.326 N 
+ATOM     13  C06 CXH d   1       6.048   6.913 -19.261  0.00  0.00     0.231 C 
+ATOM     14  O09 CXH d   1       5.839   5.685 -19.374  0.00  0.00    -0.272 OA
+ATOM     15  H6  CXH d   1       7.089   8.476 -20.073  0.00  0.00     0.169 HD
+BRANCH  13  16
+ATOM     16  C07 CXH d   1       5.261   7.682 -18.251  0.00  0.00     0.048 C 
+ATOM     17  H3  CXH d   1       4.399   7.085 -17.920  0.00  0.00     0.062 H 
+ATOM     18  H4  CXH d   1       4.906   8.623 -18.696  0.00  0.00     0.062 H 
+BRANCH  16  19
+ATOM     19  S08 CXH d   1       6.358   8.051 -16.801  0.00  0.00    -0.173 SA
+ATOM     20  H7  CXH d   1       6.682   7.186 -16.398  0.00  0.00     0.102 HD
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH   4  12
+TORSDOF 3

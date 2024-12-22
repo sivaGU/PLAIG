@@ -1,0 +1,72 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAF_6  and  NAG_7 
+REMARK    2  A    between atoms: CAI_9  and  SBD_30 
+REMARK    3  A    between atoms: CAJ_10  and  NAM_13 
+REMARK    4  A    between atoms: CAK_11  and  OAL_12 
+REMARK    5  A    between atoms: NAN_14  and  CAO_15 
+REMARK    6  A    between atoms: CAV_22  and  SAZ_26 
+REMARK    7  A    between atoms: CAX_24  and  OAY_25 
+ROOT
+ATOM      1  CAA OSA d   1      42.367  15.939   8.351  0.00  0.00    -0.057 A 
+ATOM      2  CAB OSA d   1      41.126  16.067   8.991  0.00  0.00    -0.067 A 
+ATOM      3  CAC OSA d   1      41.072  16.461  10.345  0.00  0.00     0.010 A 
+ATOM      4  CAD OSA d   1      42.261  16.698  11.050  0.00  0.00    -0.019 A 
+ATOM      5  CAE OSA d   1      43.517  16.581  10.421  0.00  0.00    -0.047 A 
+ATOM      6  CAF OSA d   1      43.555  16.201   9.069  0.00  0.00     0.026 A 
+ATOM      7  CAH OSA d   1      42.205  17.053  12.393  0.00  0.00    -0.046 A 
+ATOM      8  CAI OSA d   1      40.997  17.173  13.039  0.00  0.00     0.114 A 
+ATOM      9  CAJ OSA d   1      39.798  16.974  12.353  0.00  0.00     0.137 A 
+ATOM     10  CAK OSA d   1      39.851  16.598  11.002  0.00  0.00     0.108 A 
+ATOM     11  H   OSA d   1      42.415  15.639   7.304  0.00  0.00     0.086 H 
+ATOM     12  H   OSA d   1      40.206  15.863   8.444  0.00  0.00     0.085 H 
+ATOM     13  H   OSA d   1      44.437  16.781  10.970  0.00  0.00     0.088 H 
+ATOM     14  H   OSA d   1      43.129  17.238  12.940  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   9  15
+ATOM     15  NAM OSA d   1      38.632  17.095  13.021  0.00  0.00    -0.145 NA
+ATOM     16  NAN OSA d   1      37.606  16.587  12.558  0.00  0.00    -0.150 NA
+BRANCH  16  17
+ATOM     17  CAO OSA d   1      36.418  16.558  13.163  0.00  0.00     0.080 A 
+ATOM     18  CAP OSA d   1      35.374  15.875  12.551  0.00  0.00    -0.052 A 
+ATOM     19  CAQ OSA d   1      34.123  15.794  13.161  0.00  0.00    -0.067 A 
+ATOM     20  H   OSA d   1      35.535  15.398  11.584  0.00  0.00     0.087 H 
+ATOM     21  CAR OSA d   1      33.889  16.397  14.399  0.00  0.00     0.007 A 
+ATOM     22  H   OSA d   1      33.317  15.253  12.665  0.00  0.00     0.085 H 
+ATOM     23  CAS OSA d   1      34.947  17.086  14.998  0.00  0.00    -0.019 A 
+ATOM     24  CAX OSA d   1      32.627  16.329  15.038  0.00  0.00     0.078 A 
+ATOM     25  CAT OSA d   1      36.204  17.164  14.398  0.00  0.00    -0.043 A 
+ATOM     26  CAU OSA d   1      34.756  17.693  16.216  0.00  0.00    -0.048 A 
+ATOM     27  H   OSA d   1      37.015  17.697  14.894  0.00  0.00     0.088 H 
+ATOM     28  CAV OSA d   1      33.521  17.629  16.860  0.00  0.00     0.084 A 
+ATOM     29  H   OSA d   1      35.580  18.231  16.684  0.00  0.00     0.087 H 
+ATOM     30  CAW OSA d   1      32.442  16.958  16.281  0.00  0.00    -0.027 A 
+ATOM     31  H   OSA d   1      31.475  16.923  16.783  0.00  0.00     0.090 H 
+BRANCH  28  32
+ATOM     32  SAZ OSA d   1      33.418  18.453  18.415  0.00  0.00     0.137 S 
+ATOM     33  OBA OSA d   1      32.113  18.089  19.110  0.00  0.00    -0.591 OA
+ATOM     34  OBB OSA d   1      34.607  18.147  19.307  0.00  0.00    -0.591 OA
+ATOM     35  OBC OSA d   1      33.486  19.948  18.163  0.00  0.00    -0.591 OA
+ENDBRANCH  28  32
+BRANCH  24  36
+ATOM     36  OAY OSA d   1      31.565  15.677  14.450  0.00  0.00    -0.360 OA
+ATOM     37  H   OSA d   1      31.846  15.301  13.612  0.00  0.00     0.217 HD
+ENDBRANCH  24  36
+ENDBRANCH  16  17
+ENDBRANCH   9  15
+BRANCH   8  38
+ATOM     38  SBD OSA d   1      41.088  17.651  14.694  0.00  0.00     0.140 S 
+ATOM     39  OBE OSA d   1      42.532  17.935  14.963  0.00  0.00    -0.591 OA
+ATOM     40  OBF OSA d   1      40.135  18.812  14.864  0.00  0.00    -0.591 OA
+ATOM     41  OBG OSA d   1      40.720  16.612  15.718  0.00  0.00    -0.591 OA
+ENDBRANCH   8  38
+BRANCH  10  42
+ATOM     42  OAL OSA d   1      38.724  16.361  10.292  0.00  0.00    -0.357 OA
+ATOM     43  H   OSA d   1      38.234  15.644  10.701  0.00  0.00     0.217 HD
+ENDBRANCH  10  42
+BRANCH   6  44
+ATOM     44  NAG OSA d   1      44.744  16.081   8.483  0.00  0.00    -0.399 N 
+ATOM     45  H   OSA d   1      45.595  16.263   9.014  0.00  0.00     0.156 HD
+ATOM     46  H   OSA d   1      44.804  15.807   7.502  0.00  0.00     0.156 HD
+ENDBRANCH   6  44
+TORSDOF 7

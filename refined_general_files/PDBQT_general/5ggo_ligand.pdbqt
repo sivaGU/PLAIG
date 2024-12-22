@@ -1,0 +1,124 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_2  and  C8_1 
+REMARK       I    between atoms: N2_4  and  C7_2 
+REMARK    2  A    between atoms: C2_5  and  N2_4 
+REMARK    3  A    between atoms: O3_7  and  C3_6 
+REMARK    4  A    between atoms: C1_25  and  O3_7 
+REMARK    5  A    between atoms: C4_8  and  O4_9 
+REMARK    6  A    between atoms: C5_10  and  C6_11 
+REMARK    7  A    between atoms: C6_11  and  O6_12 
+REMARK    8  A    between atoms: C1_14  and  O1_15 
+REMARK    9  A    between atoms: O1_15  and  C1'_16 
+REMARK   10  A    between atoms: C4'_19  and  N1'_20 
+REMARK   11  A    between atoms: N2_33  and  C2_26 
+REMARK   12  A    between atoms: C3_27  and  O3_34 
+REMARK   13  A    between atoms: C4_28  and  O4_35 
+REMARK   14  A    between atoms: C5_29  and  C6_30 
+REMARK   15  A    between atoms: C6_30  and  O6_37 
+REMARK   16  A    between atoms: C7_31  and  C8_32 
+REMARK       I    between atoms: C7_31  and  N2_33 
+ROOT
+ATOM      1  C2  LEC d   1      88.275  79.448 134.706  0.00  0.00     0.087 C 
+ATOM      2  C3  LEC d   1      87.719  80.856 134.458  0.00  0.00     0.092 C 
+ATOM      3  C4  LEC d   1      88.208  81.390 133.118  0.00  0.00     0.089 C 
+ATOM      4  C5  LEC d   1      87.872  80.437 132.000  0.00  0.00     0.089 C 
+ATOM      5  O5  LEC d   1      88.600  79.232 132.271  0.00  0.00    -0.349 OA
+ATOM      6  C1  LEC d   1      88.127  78.600 133.451  0.00  0.00     0.159 C 
+ATOM      7  H5  LEC d   1      89.349  79.552 134.922  0.00  0.00     0.084 H 
+ATOM      8  H6  LEC d   1      86.622  80.882 134.539  0.00  0.00     0.091 H 
+ATOM      9  H7  LEC d   1      89.294  81.557 133.163  0.00  0.00     0.091 H 
+ATOM     10  H9  LEC d   1      86.788  80.255 131.961  0.00  0.00     0.090 H 
+ATOM     11  H13 LEC d   1      87.075  78.305 133.325  0.00  0.00     0.133 H 
+ENDROOT
+BRANCH   2  12
+ATOM     12  O3  LEC d   1      88.374  81.695 135.413  0.00  0.00    -0.349 OA
+BRANCH  12  13
+ATOM     13  C1  NGA d   1      87.490  81.957 136.467  0.00  0.00     0.154 C 
+ATOM     14  C2  NGA d   1      88.359  82.556 137.568  0.00  0.00     0.087 C 
+ATOM     15  C3  NGA d   1      87.532  83.277 138.625  0.00  0.00     0.086 C 
+ATOM     16  H19 LEC d   1      89.036  83.290 137.108  0.00  0.00     0.084 H 
+ATOM     17  C4  NGA d   1      86.408  84.111 138.010  0.00  0.00     0.089 C 
+ATOM     18  H20 LEC d   1      87.092  82.536 139.309  0.00  0.00     0.090 H 
+ATOM     19  C5  NGA d   1      85.645  83.365 136.916  0.00  0.00     0.089 C 
+ATOM     20  H21 LEC d   1      85.699  84.401 138.800  0.00  0.00     0.091 H 
+ATOM     21  O5  NGA d   1      86.547  82.863 135.966  0.00  0.00    -0.349 OA
+ATOM     22  H22 LEC d   1      85.054  82.552 137.363  0.00  0.00     0.090 H 
+ATOM     23  H18 LEC d   1      86.991  81.043 136.822  0.00  0.00     0.132 H 
+BRANCH  14  24
+ATOM     24  N2  NGA d   1      89.167  81.501 138.183  0.00  0.00    -0.349 N 
+ATOM     25  C7  NGA d   1      90.483  81.385 137.984  0.00  0.00     0.214 C 
+ATOM     26  O7  NGA d   1      91.103  81.847 137.004  0.00  0.00    -0.274 OA
+ATOM     27  H28 LEC d   1      88.714  80.838 138.779  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C8  NGA d   1      91.209  80.614 139.053  0.00  0.00    -0.003 C 
+ATOM     29  H25 LEC d   1      92.281  80.569 138.809  0.00  0.00     0.040 H 
+ATOM     30  H26 LEC d   1      90.802  79.593 139.109  0.00  0.00     0.040 H 
+ATOM     31  H27 LEC d   1      91.075  81.116 140.023  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH  14  24
+BRANCH  15  32
+ATOM     32  O3  NGA d   1      88.407  84.129 139.338  0.00  0.00    -0.391 OA
+ATOM     33  H29 LEC d   1      88.775  84.772 138.744  0.00  0.00     0.210 HD
+ENDBRANCH  15  32
+BRANCH  17  34
+ATOM     34  O4  NGA d   1      87.010  85.263 137.456  0.00  0.00    -0.390 OA
+ATOM     35  H30 LEC d   1      86.337  85.828 137.095  0.00  0.00     0.210 HD
+ENDBRANCH  17  34
+BRANCH  19  36
+ATOM     36  C6  NGA d   1      84.747  84.322 136.145  0.00  0.00     0.043 C 
+ATOM     37  H23 LEC d   1      84.025  84.788 136.831  0.00  0.00     0.078 H 
+ATOM     38  H24 LEC d   1      84.206  83.773 135.361  0.00  0.00     0.078 H 
+BRANCH  36  39
+ATOM     39  O6  NGA d   1      85.560  85.322 135.555  0.00  0.00    -0.398 OA
+ATOM     40  H31 LEC d   1      86.027  85.791 136.236  0.00  0.00     0.209 HD
+ENDBRANCH  36  39
+ENDBRANCH  19  36
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+BRANCH   1  41
+ATOM     41  N2  LEC d   1      87.665  78.770 135.849  0.00  0.00    -0.349 N 
+ATOM     42  C7  LEC d   1      88.439  78.085 136.730  0.00  0.00     0.214 C 
+ATOM     43  O7  LEC d   1      89.666  78.058 136.622  0.00  0.00    -0.274 OA
+ATOM     44  H4  LEC d   1      86.675  78.811 135.982  0.00  0.00     0.163 HD
+BRANCH  42  45
+ATOM     45  C8  LEC d   1      87.698  77.376 137.833  0.00  0.00    -0.003 C 
+ATOM     46  H1  LEC d   1      86.618  77.547 137.718  0.00  0.00     0.040 H 
+ATOM     47  H2  LEC d   1      88.029  77.766 138.807  0.00  0.00     0.040 H 
+ATOM     48  H3  LEC d   1      87.906  76.297 137.780  0.00  0.00     0.040 H 
+ENDBRANCH  42  45
+ENDBRANCH   1  41
+BRANCH   3  49
+ATOM     49  O4  LEC d   1      87.523  82.609 132.807  0.00  0.00    -0.390 OA
+ATOM     50  H8  LEC d   1      87.830  82.939 131.971  0.00  0.00     0.210 HD
+ENDBRANCH   3  49
+BRANCH   6  51
+ATOM     51  O1  LEC d   1      88.974  77.460 133.620  0.00  0.00    -0.318 OA
+BRANCH  51  52
+ATOM     52  C1' LEC d   1      88.762  76.299 132.916  0.00  0.00     0.072 A 
+ATOM     53  C2' LEC d   1      89.449  75.184 133.341  0.00  0.00    -0.048 A 
+ATOM     54  C3' LEC d   1      89.253  73.977 132.681  0.00  0.00    -0.048 A 
+ATOM     55  H14 LEC d   1      90.133  75.247 134.179  0.00  0.00     0.087 H 
+ATOM     56  C4' LEC d   1      88.365  73.924 131.625  0.00  0.00     0.103 A 
+ATOM     57  H15 LEC d   1      89.790  73.088 132.991  0.00  0.00     0.087 H 
+ATOM     58  C5' LEC d   1      87.658  75.032 131.192  0.00  0.00    -0.048 A 
+ATOM     59  C6' LEC d   1      87.861  76.247 131.844  0.00  0.00    -0.048 A 
+ATOM     60  H16 LEC d   1      86.962  74.957 130.364  0.00  0.00     0.087 H 
+ATOM     61  H17 LEC d   1      87.330  77.138 131.527  0.00  0.00     0.087 H 
+BRANCH  56  62
+ATOM     62  N1' LEC d   1      88.170  72.686 130.972  0.00  0.00    -0.116 N 
+ATOM     63  O2' LEC d   1      88.835  71.601 131.465  0.00  0.00    -0.532 OA
+ATOM     64  O1' LEC d   1      87.309  72.681 129.899  0.00  0.00    -0.532 OA
+ENDBRANCH  56  62
+ENDBRANCH  51  52
+ENDBRANCH   6  51
+BRANCH   4  65
+ATOM     65  C6  LEC d   1      88.376  80.946 130.656  0.00  0.00     0.043 C 
+ATOM     66  H10 LEC d   1      87.888  81.908 130.440  0.00  0.00     0.078 H 
+ATOM     67  H11 LEC d   1      88.105  80.215 129.880  0.00  0.00     0.078 H 
+BRANCH  65  68
+ATOM     68  O6  LEC d   1      89.817  81.140 130.627  0.00  0.00    -0.398 OA
+ATOM     69  H12 LEC d   1      90.063  81.776 131.288  0.00  0.00     0.209 HD
+ENDBRANCH  65  68
+ENDBRANCH   4  65
+TORSDOF 16

@@ -1,0 +1,80 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_1  and  C4_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C5_8  and  C6_9 
+REMARK    4  A    between atoms: C6_9  and  O6_10 
+REMARK    5  A    between atoms: O6_10  and  C1_11 
+REMARK    6  A    between atoms: C2_12  and  O2_17 
+REMARK    7  A    between atoms: C3_13  and  O3_18 
+REMARK    8  A    between atoms: C4_14  and  O4_19 
+REMARK    9  A    between atoms: C5_15  and  C6_16 
+REMARK   10  A    between atoms: C6_16  and  O6_21 
+ROOT
+ATOM      1  O6  IFM d   1       3.729 -11.433   7.241  0.00  0.00    -0.358 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  IFM d   1       4.414 -12.191   8.228  0.00  0.00     0.030 C 
+ATOM      3  H12 IFM d   1       4.854 -13.086   7.764  0.00  0.00     0.075 H 
+ATOM      4  H13 IFM d   1       5.212 -11.579   8.673  0.00  0.00     0.075 H 
+BRANCH   2   5
+ATOM      5  C5  IFM d   1       3.451 -12.603   9.290  0.00  0.00     0.017 C 
+ATOM      6  C4  IFM d   1       2.200 -13.267   8.672  0.00  0.00     0.069 C 
+ATOM      7  C3  IFM d   1       1.192 -13.712   9.746  0.00  0.00     0.084 C 
+ATOM      8  H2  IFM d   1       1.701 -12.517   8.041  0.00  0.00     0.087 H 
+ATOM      9  C2  IFM d   1       1.462 -13.042  11.102  0.00  0.00     0.107 C 
+ATOM     10  H3  IFM d   1       1.317 -14.796   9.883  0.00  0.00     0.089 H 
+ATOM     11  N   IFM d   1       1.891 -11.660  11.006  0.00  0.00    -0.072 N 
+ATOM     12  H5  IFM d   1       2.248 -13.612  11.618  0.00  0.00     0.079 H 
+ATOM     13  H6  IFM d   1       0.536 -13.075  11.694  0.00  0.00     0.079 H 
+ATOM     14  C1  IFM d   1       3.044 -11.386  10.134  0.00  0.00     0.089 C 
+ATOM     15  H7  IFM d   1       2.129 -11.349  11.935  0.00  0.00     0.277 HD
+ATOM     16  H8  IFM d   1       1.112 -11.121  10.661  0.00  0.00     0.277 HD
+ATOM     17  H9  IFM d   1       3.898 -11.092  10.762  0.00  0.00     0.076 H 
+ATOM     18  H10 IFM d   1       2.784 -10.559   9.457  0.00  0.00     0.076 H 
+ATOM     19  H11 IFM d   1       3.946 -13.335   9.945  0.00  0.00     0.049 H 
+BRANCH   6  20
+ATOM     20  O4  IFM d   1       2.575 -14.346   7.846  0.00  0.00    -0.392 OA
+ATOM     21  H1  IFM d   1       1.804 -14.695   7.413  0.00  0.00     0.210 HD
+ENDBRANCH   6  20
+BRANCH   7  22
+ATOM     22  O3  IFM d   1      -0.171 -13.481   9.323  0.00  0.00    -0.391 OA
+ATOM     23  H4  IFM d   1      -0.297 -12.554   9.158  0.00  0.00     0.210 HD
+ENDBRANCH   7  22
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C1  MAN d   1       4.561 -10.918   6.196  0.00  0.00     0.158 C 
+ATOM     25  C2  MAN d   1       3.584 -10.246   5.229  0.00  0.00     0.110 C 
+ATOM     26  C3  MAN d   1       2.671 -11.289   4.572  0.00  0.00     0.092 C 
+ATOM     27  H15 IFM d   1       2.967  -9.526   5.787  0.00  0.00     0.094 H 
+ATOM     28  C4  MAN d   1       3.504 -12.410   3.953  0.00  0.00     0.090 C 
+ATOM     29  H16 IFM d   1       2.077 -11.744   5.378  0.00  0.00     0.091 H 
+ATOM     30  C5  MAN d   1       4.551 -12.965   4.946  0.00  0.00     0.089 C 
+ATOM     31  H17 IFM d   1       4.054 -11.968   3.109  0.00  0.00     0.091 H 
+ATOM     32  O5  MAN d   1       5.300 -11.907   5.538  0.00  0.00    -0.348 OA
+ATOM     33  H18 IFM d   1       4.006 -13.489   5.745  0.00  0.00     0.090 H 
+ATOM     34  H14 IFM d   1       5.260 -10.176   6.609  0.00  0.00     0.133 H 
+BRANCH  25  35
+ATOM     35  O2  MAN d   1       4.307  -9.557   4.205  0.00  0.00    -0.388 OA
+ATOM     36  H21 IFM d   1       4.830 -10.180   3.714  0.00  0.00     0.210 HD
+ENDBRANCH  25  35
+BRANCH  26  37
+ATOM     37  O3  MAN d   1       1.740 -10.718   3.667  0.00  0.00    -0.390 OA
+ATOM     38  H22 IFM d   1       2.206 -10.353   2.924  0.00  0.00     0.210 HD
+ENDBRANCH  26  37
+BRANCH  28  39
+ATOM     39  O4  MAN d   1       2.718 -13.467   3.431  0.00  0.00    -0.390 OA
+ATOM     40  H23 IFM d   1       2.269 -13.908   4.143  0.00  0.00     0.210 HD
+ENDBRANCH  28  39
+BRANCH  30  41
+ATOM     41  C6  MAN d   1       5.496 -13.956   4.302  0.00  0.00     0.043 C 
+ATOM     42  H19 IFM d   1       4.912 -14.806   3.919  0.00  0.00     0.078 H 
+ATOM     43  H20 IFM d   1       6.208 -14.312   5.061  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  O6  MAN d   1       6.208 -13.390   3.249  0.00  0.00    -0.398 OA
+ATOM     45  H24 IFM d   1       6.788 -14.042   2.873  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  30  41
+ENDBRANCH   1  24
+TORSDOF 10

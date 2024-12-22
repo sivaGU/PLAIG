@@ -1,0 +1,84 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_2  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  S1G_3 
+REMARK    3  A    between atoms: PB_6  and  O3B_2 
+REMARK    4  A    between atoms: O3A_12  and  PB_6 
+REMARK    5  A    between atoms: PA_9  and  O3A_12 
+REMARK    6  A    between atoms: PA_9  and  O5'_13 
+REMARK    7  A    between atoms: O5'_13  and  C5'_14 
+REMARK    8  A    between atoms: C5'_14  and  C4'_15 
+REMARK    9  A    between atoms: C3'_17  and  O3'_18 
+REMARK   10  A    between atoms: C2'_19  and  O2'_20 
+REMARK   11  A    between atoms: C1'_21  and  N9_22 
+ROOT
+ATOM      1  C4' GSP d   1      29.224  29.491  84.610  0.00  0.00     0.089 C 
+ATOM      2  O4' GSP d   1      29.539  30.792  85.068  0.00  0.00    -0.353 OA
+ATOM      3  C3' GSP d   1      30.056  28.527  85.428  0.00  0.00     0.091 C 
+ATOM      4  C2' GSP d   1      30.572  29.358  86.583  0.00  0.00     0.105 C 
+ATOM      5  C1' GSP d   1      30.640  30.737  85.956  0.00  0.00     0.139 C 
+ATOM      6  H4  GSP d   1      29.490  29.391  83.547  0.00  0.00     0.090 H 
+ATOM      7  H5  GSP d   1      29.483  27.648  85.759  0.00  0.00     0.091 H 
+ATOM      8  H7  GSP d   1      29.880  29.338  87.437  0.00  0.00     0.093 H 
+ATOM      9  H9  GSP d   1      31.578  30.846  85.392  0.00  0.00     0.122 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5' GSP d   1      27.727  29.254  84.767  0.00  0.00     0.058 C 
+ATOM     11  H2  GSP d   1      27.177  29.929  84.095  0.00  0.00     0.079 H 
+ATOM     12  H3  GSP d   1      27.493  28.210  84.511  0.00  0.00     0.079 H 
+BRANCH  10  13
+ATOM     13  O5' GSP d   1      27.345  29.507  86.103  0.00  0.00    -0.287 OA
+BRANCH  13  14
+ATOM     14  PA  GSP d   1      25.839  29.225  86.581  0.00  0.00     0.417 P 
+ATOM     15  O1A GSP d   1      25.416  27.845  86.308  0.00  0.00    -0.624 OA
+ATOM     16  O2A GSP d   1      25.667  29.551  88.012  0.00  0.00    -0.624 OA
+BRANCH  14  17
+ATOM     17  O3A GSP d   1      25.022  30.283  85.682  0.00  0.00    -0.180 OA
+BRANCH  17  18
+ATOM     18  PB  GSP d   1      23.433  30.301  85.487  0.00  0.00     0.426 P 
+ATOM     19  O1B GSP d   1      22.928  31.683  85.363  0.00  0.00    -0.624 OA
+ATOM     20  O2B GSP d   1      22.774  29.636  86.615  0.00  0.00    -0.624 OA
+BRANCH  18  21
+ATOM     21  O3B GSP d   1      23.183  29.433  84.159  0.00  0.00    -0.195 OA
+BRANCH  21  22
+ATOM     22  PG  GSP d   1      21.699  28.953  83.715  0.00  0.00     0.322 P 
+ATOM     23  O2G GSP d   1      21.007  28.291  84.910  0.00  0.00    -0.638 OA
+ATOM     24  O3G GSP d   1      21.782  27.923  82.578  0.00  0.00    -0.638 OA
+BRANCH  22  25
+ATOM     25  S1G GSP d   1      20.755  30.269  83.261  0.00  0.00    -0.054 SA
+ATOM     26  H1  GSP d   1      19.839  29.947  82.990  0.00  0.00     0.114 HD
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   3  27
+ATOM     27  O3' GSP d   1      31.169  28.171  84.651  0.00  0.00    -0.390 OA
+ATOM     28  H6  GSP d   1      31.713  27.564  85.139  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   5  29
+ATOM     29  N9  GSP d   1      30.585  31.799  86.982  0.00  0.00    -0.295 N 
+ATOM     30  C8  GSP d   1      29.778  31.860  88.080  0.00  0.00     0.071 A 
+ATOM     31  N7  GSP d   1      30.058  32.998  88.758  0.00  0.00    -0.234 NA
+ATOM     32  H10 GSP d   1      29.033  31.118  88.364  0.00  0.00     0.144 H 
+ATOM     33  C5  GSP d   1      31.046  33.657  88.091  0.00  0.00     0.171 A 
+ATOM     34  C6  GSP d   1      31.712  34.850  88.323  0.00  0.00     0.292 A 
+ATOM     35  C4  GSP d   1      31.388  32.919  86.978  0.00  0.00     0.161 A 
+ATOM     36  O6  GSP d   1      31.414  35.516  89.316  0.00  0.00    -0.265 OA
+ATOM     37  N1  GSP d   1      32.699  35.284  87.449  0.00  0.00    -0.154 N 
+ATOM     38  C2  GSP d   1      33.031  34.525  86.330  0.00  0.00     0.680 A 
+ATOM     39  H11 GSP d   1      33.174  36.146  87.624  0.00  0.00     0.187 HD
+ATOM     40  N2  GSP d   1      33.971  34.905  85.466  0.00  0.00    -0.234 N 
+ATOM     41  N3  GSP d   1      32.348  33.342  86.123  0.00  0.00    -0.174 N 
+ATOM     42  H12 GSP d   1      34.188  34.316  84.650  0.00  0.00     0.174 HD
+ATOM     43  H13 GSP d   1      34.480  35.788  85.615  0.00  0.00     0.174 HD
+ATOM     44  H14 GSP d   1      32.575  32.768  85.298  0.00  0.00     0.186 HD
+ENDBRANCH   5  29
+BRANCH   4  45
+ATOM     45  O2' GSP d   1      31.842  28.912  86.994  0.00  0.00    -0.388 OA
+ATOM     46  H8  GSP d   1      31.784  28.005  87.271  0.00  0.00     0.210 HD
+ENDBRANCH   4  45
+TORSDOF 11

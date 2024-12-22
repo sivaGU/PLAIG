@@ -1,0 +1,96 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C3_3  and  C4_4 
+REMARK    4  A    between atoms: C4_4  and  C5_5 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  C10_9 
+REMARK    8  A    between atoms: C15_14  and  C16_15 
+REMARK    9  A    between atoms: C16_15  and  C17_16 
+REMARK   10  A    between atoms: C18_17  and  C19_18 
+REMARK   11  A    between atoms: C19_18  and  C20_19 
+REMARK   12  A    between atoms: C20_19  and  C21_20 
+REMARK   13  A    between atoms: C21_20  and  C22_21 
+ROOT
+ATOM      1  C10 PTG d   1     -20.695  13.710 -15.999  0.00  0.00     0.018 A 
+ATOM      2  C11 PTG d   1     -20.683  12.910 -17.098  0.00  0.00     0.154 A 
+ATOM      3  O12 PTG d   1     -20.710  13.413 -18.265  0.00  0.00    -0.293 OA
+ATOM      4  C13 PTG d   1     -20.603  11.573 -16.742  0.00  0.00    -0.042 A 
+ATOM      5  C14 PTG d   1     -20.570  11.584 -15.333  0.00  0.00    -0.095 A 
+ATOM      6  C15 PTG d   1     -20.686  12.984 -14.744  0.00  0.00    -0.024 A 
+ATOM      7  H16 PTG d   1     -19.598  13.782 -15.967  0.00  0.00     0.053 H 
+ATOM      8  H17 PTG d   1     -20.573  10.708 -17.403  0.00  0.00     0.088 H 
+ATOM      9  H18 PTG d   1     -20.472  10.684 -14.728  0.00  0.00     0.077 H 
+ATOM     10  H19 PTG d   1     -19.859  13.257 -14.072  0.00  0.00     0.047 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C8  PTG d   1     -20.774  15.155 -16.257  0.00  0.00    -0.040 C 
+ATOM     12  H14 PTG d   1     -19.962  15.292 -16.986  0.00  0.00     0.040 H 
+ATOM     13  H15 PTG d   1     -21.744  15.233 -16.770  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  C7  PTG d   1     -20.732  16.288 -15.603  0.00  0.00    -0.106 C 
+ATOM     15  C6  PTG d   1     -20.656  16.662 -14.356  0.00  0.00    -0.106 C 
+ATOM     16  H12 PTG d   1     -20.565  15.984 -13.508  0.00  0.00     0.076 H 
+ATOM     17  H13 PTG d   1     -20.771  17.142 -16.277  0.00  0.00     0.076 H 
+BRANCH  15  18
+ATOM     18  C5  PTG d   1     -20.712  18.181 -14.252  0.00  0.00    -0.050 C 
+ATOM     19  H10 PTG d   1     -20.529  18.616 -15.245  0.00  0.00     0.038 H 
+ATOM     20  H11 PTG d   1     -21.710  18.481 -13.899  0.00  0.00     0.038 H 
+BRANCH  18  21
+ATOM     21  C4  PTG d   1     -19.681  18.692 -13.296  0.00  0.00    -0.062 C 
+ATOM     22  H8  PTG d   1     -19.273  17.852 -12.715  0.00  0.00     0.033 H 
+ATOM     23  H9  PTG d   1     -18.870  19.178 -13.858  0.00  0.00     0.033 H 
+BRANCH  21  24
+ATOM     24  C3  PTG d   1     -20.315  19.696 -12.355  0.00  0.00    -0.065 C 
+ATOM     25  H6  PTG d   1     -19.906  20.702 -12.528  0.00  0.00     0.033 H 
+ATOM     26  H7  PTG d   1     -21.407  19.716 -12.488  0.00  0.00     0.033 H 
+BRANCH  24  27
+ATOM     27  C2  PTG d   1     -19.956  19.206 -10.972  0.00  0.00    -0.069 C 
+ATOM     28  H4  PTG d   1     -20.047  18.111 -10.919  0.00  0.00     0.032 H 
+ATOM     29  H5  PTG d   1     -18.928  19.502 -10.717  0.00  0.00     0.032 H 
+BRANCH  27  30
+ATOM     30  C1  PTG d   1     -20.918  19.846 -10.049  0.00  0.00    -0.077 C 
+ATOM     31  H1  PTG d   1     -20.706  19.526  -9.018  0.00  0.00     0.027 H 
+ATOM     32  H2  PTG d   1     -21.941  19.549 -10.322  0.00  0.00     0.027 H 
+ATOM     33  H3  PTG d   1     -20.822  20.939 -10.120  0.00  0.00     0.027 H 
+ENDBRANCH  27  30
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   6  34
+ATOM     34  C16 PTG d   1     -22.038  13.145 -14.066  0.00  0.00    -0.043 C 
+ATOM     35  H20 PTG d   1     -22.257  14.220 -13.982  0.00  0.00     0.039 H 
+ATOM     36  H21 PTG d   1     -21.975  12.704 -13.060  0.00  0.00     0.039 H 
+BRANCH  34  37
+ATOM     37  C17 PTG d   1     -23.187  12.480 -14.807  0.00  0.00    -0.106 C 
+ATOM     38  C18 PTG d   1     -23.679  11.359 -14.272  0.00  0.00    -0.106 C 
+ATOM     39  H23 PTG d   1     -23.235  10.988 -13.349  0.00  0.00     0.076 H 
+ATOM     40  H22 PTG d   1     -23.589  12.897 -15.729  0.00  0.00     0.076 H 
+BRANCH  38  41
+ATOM     41  C19 PTG d   1     -24.817  10.583 -14.882  0.00  0.00    -0.050 C 
+ATOM     42  H24 PTG d   1     -24.611  10.394 -15.946  0.00  0.00     0.038 H 
+ATOM     43  H25 PTG d   1     -25.752  11.154 -14.785  0.00  0.00     0.038 H 
+BRANCH  41  44
+ATOM     44  C20 PTG d   1     -24.942   9.255 -14.135  0.00  0.00    -0.053 C 
+ATOM     45  H26 PTG d   1     -25.856   8.745 -14.473  0.00  0.00     0.034 H 
+ATOM     46  H27 PTG d   1     -25.016   9.463 -13.057  0.00  0.00     0.034 H 
+BRANCH  44  47
+ATOM     47  C21 PTG d   1     -23.735   8.321 -14.378  0.00  0.00     0.016 C 
+ATOM     48  H28 PTG d   1     -23.465   7.833 -13.430  0.00  0.00     0.049 H 
+ATOM     49  H29 PTG d   1     -22.886   8.921 -14.737  0.00  0.00     0.049 H 
+BRANCH  47  50
+ATOM     50  C22 PTG d   1     -24.053   7.247 -15.413  0.00  0.00     0.172 C 
+ATOM     51  O23 PTG d   1     -23.451   7.191 -16.482  0.00  0.00    -0.648 OA
+ATOM     52  O24 PTG d   1     -24.999   6.333 -15.178  0.00  0.00    -0.648 OA
+ENDBRANCH  47  50
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  34  37
+ENDBRANCH   6  34
+TORSDOF 13

@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_1  and  C10_4 
+REMARK    2  A    between atoms: C10_4  and  C9_5 
+REMARK    3  A    between atoms: C9_5  and  C8_6 
+REMARK    4  A    between atoms: C8_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  C2_8 
+ROOT
+ATOM      1  C2  BTN d   1      69.484  -3.172  31.770  0.00  0.00     0.012 C 
+ATOM      2  S1  BTN d   1      70.918  -2.466  32.558  0.00  0.00    -0.160 SA
+ATOM      3  C6  BTN d   1      71.072  -1.271  31.221  0.00  0.00    -0.002 C 
+ATOM      4  C5  BTN d   1      69.635  -0.936  30.768  0.00  0.00     0.042 C 
+ATOM      5  N1  BTN d   1      69.211   0.244  31.517  0.00  0.00    -0.336 N 
+ATOM      6  C3  BTN d   1      68.203  -0.027  32.358  0.00  0.00     0.316 C 
+ATOM      7  O3  BTN d   1      67.618   0.792  33.046  0.00  0.00    -0.247 OA
+ATOM      8  N2  BTN d   1      67.896  -1.329  32.306  0.00  0.00    -0.335 N 
+ATOM      9  C4  BTN d   1      68.642  -2.014  31.240  0.00  0.00     0.046 C 
+ATOM     10  H   BTN d   1      69.813  -3.783  30.917  0.00  0.00     0.059 H 
+ATOM     11  H   BTN d   1      71.642  -1.705  30.387  0.00  0.00     0.052 H 
+ATOM     12  H   BTN d   1      71.579  -0.363  31.579  0.00  0.00     0.052 H 
+ATOM     13  H   BTN d   1      69.590  -0.786  29.679  0.00  0.00     0.077 H 
+ATOM     14  H   BTN d   1      69.624   1.149  31.414  0.00  0.00     0.164 HD
+ATOM     15  H   BTN d   1      67.242  -1.779  32.915  0.00  0.00     0.164 HD
+ATOM     16  H   BTN d   1      67.972  -2.355  30.437  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  C7  BTN d   1      68.695  -4.104  32.745  0.00  0.00    -0.051 C 
+ATOM     18  H   BTN d   1      68.616  -3.625  33.732  0.00  0.00     0.034 H 
+ATOM     19  H   BTN d   1      67.687  -4.288  32.346  0.00  0.00     0.034 H 
+BRANCH  17  20
+ATOM     20  C8  BTN d   1      69.449  -5.434  32.876  0.00  0.00    -0.063 C 
+ATOM     21  H   BTN d   1      69.459  -5.954  31.907  0.00  0.00     0.033 H 
+ATOM     22  H   BTN d   1      70.483  -5.246  33.201  0.00  0.00     0.033 H 
+BRANCH  20  23
+ATOM     23  C9  BTN d   1      68.725  -6.294  33.919  0.00  0.00    -0.056 C 
+ATOM     24  H   BTN d   1      68.664  -5.724  34.858  0.00  0.00     0.033 H 
+ATOM     25  H   BTN d   1      67.710  -6.505  33.551  0.00  0.00     0.033 H 
+BRANCH  23  26
+ATOM     26  C10 BTN d   1      69.425  -7.633  34.209  0.00  0.00     0.016 C 
+ATOM     27  H   BTN d   1      70.511  -7.466  34.162  0.00  0.00     0.049 H 
+ATOM     28  H   BTN d   1      69.146  -7.949  35.225  0.00  0.00     0.049 H 
+BRANCH  26  29
+ATOM     29  C11 BTN d   1      69.087  -8.750  33.267  0.00  0.00     0.172 C 
+ATOM     30  O11 BTN d   1      69.498  -9.913  33.635  0.00  0.00    -0.648 OA
+ATOM     31  O12 BTN d   1      68.457  -8.521  32.189  0.00  0.00    -0.648 OA
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+TORSDOF 5

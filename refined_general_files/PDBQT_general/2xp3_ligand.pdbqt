@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_1  and  OAP_2 
+REMARK    2  A    between atoms: OAP_2  and  CAH_3 
+REMARK    3  A    between atoms: CAF_8  and  CAB_9 
+REMARK    4  A    between atoms: CAA_13  and  CAE_14 
+ROOT
+ATOM      1  CAH B21 d   1      39.203 -18.626  12.439  0.00  0.00     0.081 A 
+ATOM      2  CAK B21 d   1      39.381 -19.872  13.072  0.00  0.00    -0.050 A 
+ATOM      3  CAI B21 d   1      39.763 -19.966  14.428  0.00  0.00    -0.080 A 
+ATOM      4  CAJ B21 d   1      39.956 -18.820  15.192  0.00  0.00    -0.082 A 
+ATOM      5  CAG B21 d   1      39.769 -17.586  14.563  0.00  0.00    -0.068 A 
+ATOM      6  CAF B21 d   1      39.391 -17.473  13.193  0.00  0.00     0.031 A 
+ATOM      7  H4  B21 d   1      39.221 -20.781  12.504  0.00  0.00     0.087 H 
+ATOM      8  H5  B21 d   1      39.907 -20.942  14.878  0.00  0.00     0.083 H 
+ATOM      9  H6  B21 d   1      40.241 -18.882  16.236  0.00  0.00     0.083 H 
+ATOM     10  H7  B21 d   1      39.917 -16.680  15.139  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  CAB B21 d   1      39.223 -16.208  12.603  0.00  0.00     0.089 A 
+ATOM     12  OAM B21 d   1      39.429 -15.047  13.290  0.00  0.00    -0.303 OA
+ATOM     13  CAA B21 d   1      39.159 -13.987  12.457  0.00  0.00     0.152 A 
+ATOM     14  CAC B21 d   1      38.812 -14.470  11.189  0.00  0.00    -0.041 A 
+ATOM     15  CAD B21 d   1      38.851 -15.863  11.292  0.00  0.00    -0.046 A 
+ATOM     16  H9  B21 d   1      38.563 -13.882  10.306  0.00  0.00     0.088 H 
+ATOM     17  H8  B21 d   1      38.630 -16.565  10.489  0.00  0.00     0.087 H 
+BRANCH  13  18
+ATOM     18  CAE B21 d   1      39.350 -12.623  13.091  0.00  0.00     0.234 C 
+ATOM     19  OAO B21 d   1      39.031 -11.601  12.435  0.00  0.00    -0.642 OA
+ATOM     20  OAN B21 d   1      39.868 -12.513  14.247  0.00  0.00    -0.642 OA
+ENDBRANCH  13  18
+ENDBRANCH   6  11
+BRANCH   1  21
+ATOM     21  OAP B21 d   1      38.854 -18.463  11.117  0.00  0.00    -0.355 OA
+BRANCH  21  22
+ATOM     22  CAL B21 d   1      38.574 -19.542  10.235  0.00  0.00     0.010 C 
+ATOM     23  H1  B21 d   1      38.322 -19.146   9.240  0.00  0.00     0.066 H 
+ATOM     24  H2  B21 d   1      37.725 -20.123  10.624  0.00  0.00     0.066 H 
+ATOM     25  H3  B21 d   1      39.458 -20.192  10.158  0.00  0.00     0.066 H 
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+TORSDOF 4

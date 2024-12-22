@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C3_3  and  O1_8 
+REMARK    3  A    between atoms: C4_4  and  O2_9 
+REMARK    4  A    between atoms: C5_5  and  O3_10 
+REMARK    5  A    between atoms: O1_8  and  P1_13 
+ROOT
+ATOM      1  C1  S3P d   1      55.920  12.311  28.080  0.00  0.00     0.020 C 
+ATOM      2  C2  S3P d   1      54.852  11.417  28.190  0.00  0.00    -0.060 C 
+ATOM      3  C3  S3P d   1      54.957  10.153  29.009  0.00  0.00     0.096 C 
+ATOM      4  C4  S3P d   1      56.172  10.159  29.964  0.00  0.00     0.089 C 
+ATOM      5  C5  S3P d   1      57.421  10.652  29.227  0.00  0.00     0.067 C 
+ATOM      6  C6  S3P d   1      57.164  12.100  28.792  0.00  0.00    -0.008 C 
+ATOM      7  H1  S3P d   1      53.920  11.637  27.672  0.00  0.00     0.082 H 
+ATOM      8  H2  S3P d   1      54.057  10.094  29.638  0.00  0.00     0.095 H 
+ATOM      9  H3  S3P d   1      55.969  10.848  30.797  0.00  0.00     0.091 H 
+ATOM     10  H4  S3P d   1      57.613  10.021  28.346  0.00  0.00     0.087 H 
+ATOM     11  H5  S3P d   1      57.153  12.731  29.693  0.00  0.00     0.044 H 
+ATOM     12  H6  S3P d   1      57.990  12.412  28.136  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   3  13
+ATOM     13  O1  S3P d   1      54.951   8.968  28.110  0.00  0.00    -0.271 OA
+BRANCH  13  14
+ATOM     14  P1  S3P d   1      53.589   8.028  27.883  0.00  0.00     0.422 P 
+ATOM     15  O6  S3P d   1      52.540   8.897  27.300  0.00  0.00    -0.617 OA
+ATOM     16  O7  S3P d   1      53.275   7.520  29.285  0.00  0.00    -0.617 OA
+ATOM     17  O8  S3P d   1      54.072   6.974  26.931  0.00  0.00    -0.617 OA
+ENDBRANCH  13  14
+ENDBRANCH   3  13
+BRANCH   4  18
+ATOM     18  O2  S3P d   1      56.338   8.839  30.495  0.00  0.00    -0.390 OA
+ATOM     19  H7  S3P d   1      57.063   8.835  31.109  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C7  S3P d   1      55.734  13.539  27.247  0.00  0.00     0.205 C 
+ATOM     21  O4  S3P d   1      54.818  13.533  26.381  0.00  0.00    -0.644 OA
+ATOM     22  O5  S3P d   1      56.472  14.490  27.493  0.00  0.00    -0.644 OA
+ENDBRANCH   1  20
+BRANCH   5  23
+ATOM     23  O3  S3P d   1      58.552  10.608  30.107  0.00  0.00    -0.393 OA
+ATOM     24  H8  S3P d   1      58.377  11.142  30.873  0.00  0.00     0.210 HD
+ENDBRANCH   5  23
+TORSDOF 5

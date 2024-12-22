@@ -1,0 +1,47 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_5  and  CA_6 
+REMARK    2  A    between atoms: CA_6  and  C_7 
+REMARK    3  A    between atoms: CA_6  and  CB_10 
+REMARK    4  A    between atoms: CB_10  and  CG_11 
+ROOT
+ATOM      1  CA  AVO d   1       9.303  15.481  15.152  0.00  0.00     0.191 C 
+ATOM      2  H10 AVO d   1      10.301  15.312  14.721  0.00  0.00     0.102 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   AVO d   1       9.294  16.753  15.806  0.00  0.00    -0.057 N 
+ATOM      4  CAG AVO d   1      10.225  16.762  16.892  0.00  0.00     0.085 C 
+ATOM      5  CAE AVO d   1      10.719  18.230  16.997  0.00  0.00    -0.041 C 
+ATOM      6  H1  AVO d   1       9.731  16.454  17.825  0.00  0.00     0.076 H 
+ATOM      7  H2  AVO d   1      11.067  16.086  16.683  0.00  0.00     0.076 H 
+ATOM      8  CAF AVO d   1      10.720  18.668  15.542  0.00  0.00    -0.041 C 
+ATOM      9  H3  AVO d   1      11.729  18.282  17.431  0.00  0.00     0.035 H 
+ATOM     10  H4  AVO d   1      10.030  18.842  17.598  0.00  0.00     0.035 H 
+ATOM     11  CAH AVO d   1       9.618  17.778  14.890  0.00  0.00     0.085 C 
+ATOM     12  H5  AVO d   1      11.700  18.483  15.077  0.00  0.00     0.035 H 
+ATOM     13  H6  AVO d   1      10.467  19.735  15.453  0.00  0.00     0.035 H 
+ATOM     14  H7  AVO d   1       9.996  17.339  13.955  0.00  0.00     0.076 H 
+ATOM     15  H8  AVO d   1       8.726  18.384  14.676  0.00  0.00     0.076 H 
+ATOM     16  H9  AVO d   1       8.369  16.922  16.170  0.00  0.00     0.281 HD
+ENDBRANCH   1   3
+BRANCH   1  17
+ATOM     17  C   AVO d   1       8.254  15.459  14.035  0.00  0.00     0.205 C 
+ATOM     18  OXT AVO d   1       7.040  15.658  14.305  0.00  0.00    -0.646 OA
+ATOM     19  O   AVO d   1       8.616  15.240  12.847  0.00  0.00    -0.646 OA
+ENDBRANCH   1  17
+BRANCH   1  20
+ATOM     20  CB  AVO d   1       8.981  14.355  16.120  0.00  0.00     0.011 C 
+ATOM     21  H11 AVO d   1       7.977  14.521  16.537  0.00  0.00     0.046 H 
+ATOM     22  H12 AVO d   1       9.722  14.362  16.933  0.00  0.00     0.046 H 
+BRANCH  20  23
+ATOM     23  CG  AVO d   1       9.011  13.021  15.452  0.00  0.00     0.030 A 
+ATOM     24  CD2 AVO d   1       9.864  12.600  14.466  0.00  0.00     0.025 A 
+ATOM     25  NE2 AVO d   1       9.554  11.304  14.159  0.00  0.00    -0.254 NA
+ATOM     26  H13 AVO d   1      10.652  13.194  14.006  0.00  0.00     0.117 H 
+ATOM     27  CE1 AVO d   1       8.518  10.915  14.949  0.00  0.00     0.063 A 
+ATOM     28  ND1 AVO d   1       8.186  11.982  15.753  0.00  0.00    -0.353 N 
+ATOM     29  H14 AVO d   1       8.038   9.937  14.946  0.00  0.00     0.143 H 
+ATOM     30  H15 AVO d   1       7.439  11.992  16.462  0.00  0.00     0.166 HD
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+TORSDOF 4

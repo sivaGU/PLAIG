@@ -1,0 +1,60 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  O20_20 
+REMARK    2  A    between atoms: C02_2  and  N07_7 
+REMARK    3  A    between atoms: C03_3  and  O08_8 
+REMARK    4  A    between atoms: C04_4  and  O09_9 
+REMARK    5  A    between atoms: C05_5  and  C06_6 
+REMARK    6  A    between atoms: C06_6  and  O11_11 
+REMARK    7  A    between atoms: N07_7  and  S12_12 
+REMARK    8  A    between atoms: O11_11  and  S16_16 
+ROOT
+ATOM      1  C01 YJM d   1      87.307  25.345  56.339  0.00  0.00     0.151 C 
+ATOM      2  C02 YJM d   1      86.442  26.549  56.482  0.00  0.00     0.096 C 
+ATOM      3  C03 YJM d   1      85.127  26.288  55.811  0.00  0.00     0.087 C 
+ATOM      4  C04 YJM d   1      85.323  26.112  54.353  0.00  0.00     0.089 C 
+ATOM      5  C05 YJM d   1      86.367  24.963  54.132  0.00  0.00     0.090 C 
+ATOM      6  O10 YJM d   1      87.550  25.099  55.007  0.00  0.00    -0.349 OA
+ATOM      7  H1  YJM d   1      88.259  25.509  56.865  0.00  0.00     0.132 H 
+ATOM      8  H2  YJM d   1      86.933  27.417  56.017  0.00  0.00     0.085 H 
+ATOM      9  H3  YJM d   1      84.715  25.351  56.213  0.00  0.00     0.090 H 
+ATOM     10  H4  YJM d   1      85.700  27.052  53.923  0.00  0.00     0.091 H 
+ATOM     11  H5  YJM d   1      85.865  24.050  54.485  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  12
+ATOM     12  C06 YJM d   1      86.674  24.679  52.604  0.00  0.00     0.067 C 
+ATOM     13  H6  YJM d   1      87.440  25.378  52.237  0.00  0.00     0.080 H 
+ATOM     14  H7  YJM d   1      85.757  24.794  52.008  0.00  0.00     0.080 H 
+BRANCH  12  15
+ATOM     15  O11 YJM d   1      87.134  23.389  52.515  0.00  0.00    -0.254 OA
+BRANCH  15  16
+ATOM     16  S16 YJM d   1      86.322  22.385  51.836  0.00  0.00     0.251 S 
+ATOM     17  O17 YJM d   1      85.145  22.144  52.638  0.00  0.00    -0.572 OA
+ATOM     18  O18 YJM d   1      85.958  22.873  50.529  0.00  0.00    -0.572 OA
+ATOM     19  O19 YJM d   1      87.108  21.157  51.682  0.00  0.00    -0.572 OA
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   5  12
+BRANCH   4  20
+ATOM     20  O09 YJM d   1      84.176  25.758  53.718  0.00  0.00    -0.390 OA
+ATOM     21  H10 YJM d   1      84.351  25.644  52.791  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   3  22
+ATOM     22  O08 YJM d   1      84.233  27.298  56.092  0.00  0.00    -0.391 OA
+ATOM     23  H9  YJM d   1      84.135  27.380  57.033  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   1  24
+ATOM     24  O20 YJM d   1      86.659  24.260  56.875  0.00  0.00    -0.369 OA
+ATOM     25  H11 YJM d   1      87.206  23.489  56.783  0.00  0.00     0.212 HD
+ENDBRANCH   1  24
+BRANCH   2  26
+ATOM     26  N07 YJM d   1      86.212  26.811  57.875  0.00  0.00    -0.289 N 
+ATOM     27  H8  YJM d   1      85.407  26.486  58.371  0.00  0.00     0.175 HD
+BRANCH  26  28
+ATOM     28  S12 YJM d   1      87.402  27.697  58.568  0.00  0.00     0.205 S 
+ATOM     29  O13 YJM d   1      87.428  29.018  57.987  0.00  0.00    -0.578 OA
+ATOM     30  O14 YJM d   1      88.682  27.046  58.404  0.00  0.00    -0.578 OA
+ATOM     31  O15 YJM d   1      87.124  27.814  60.005  0.00  0.00    -0.578 OA
+ENDBRANCH  26  28
+ENDBRANCH   2  26
+TORSDOF 8

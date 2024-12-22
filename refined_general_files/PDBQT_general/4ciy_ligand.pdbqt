@@ -1,0 +1,67 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAQ_6  and  CAM_7 
+REMARK    2  A    between atoms: CAM_7  and  CAR_8 
+REMARK    3  A    between atoms: CAR_8  and  OAC_9 
+REMARK    4  A    between atoms: CAR_8  and  CAP_10 
+REMARK    5  A    between atoms: CAU_12  and  CAO_13 
+REMARK    6  A    between atoms: CAU_12  and  OAF_16 
+REMARK    7  A    between atoms: CAS_18  and  OAD_19 
+REMARK    8  A    between atoms: CAT_20  and  OAE_21 
+ROOT
+ATOM      1  CAP NDY d   1     -17.813 -28.766   8.589  0.00  0.00    -0.021 C 
+ATOM      2  CAG NDY d   1     -18.562 -28.770   7.408  0.00  0.00    -0.053 C 
+ATOM      3  CAU NDY d   1     -19.986 -29.067   7.335  0.00  0.00     0.166 C 
+ATOM      4  CAN NDY d   1     -20.548 -29.722   8.614  0.00  0.00     0.003 C 
+ATOM      5  CAS NDY d   1     -19.985 -29.033   9.833  0.00  0.00     0.067 C 
+ATOM      6  CAT NDY d   1     -18.429 -29.051   9.845  0.00  0.00     0.084 C 
+ATOM      7  H   NDY d   1     -18.045 -28.535   6.479  0.00  0.00     0.083 H 
+ATOM      8  H   NDY d   1     -20.267 -30.785   8.633  0.00  0.00     0.042 H 
+ATOM      9  H   NDY d   1     -21.644 -29.633   8.618  0.00  0.00     0.042 H 
+ATOM     10  H   NDY d   1     -20.341 -27.992   9.839  0.00  0.00     0.087 H 
+ATOM     11  H   NDY d   1     -18.072 -30.036  10.180  0.00  0.00     0.094 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  CAR NDY d   1     -16.414 -28.398   8.572  0.00  0.00     0.063 C 
+ATOM     13  H   NDY d   1     -16.173 -27.968   9.555  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CAM NDY d   1     -15.562 -29.599   8.341  0.00  0.00    -0.013 C 
+ATOM     15  H   NDY d   1     -15.208 -29.938   9.326  0.00  0.00     0.044 H 
+ATOM     16  H   NDY d   1     -16.207 -30.372   7.897  0.00  0.00     0.044 H 
+BRANCH  14  17
+ATOM     17  CAQ NDY d   1     -14.407 -29.479   7.497  0.00  0.00    -0.056 A 
+ATOM     18  CAK NDY d   1     -14.500 -29.107   6.144  0.00  0.00    -0.077 A 
+ATOM     19  CAI NDY d   1     -13.328 -29.081   5.375  0.00  0.00    -0.082 A 
+ATOM     20  H   NDY d   1     -15.456 -28.846   5.705  0.00  0.00     0.084 H 
+ATOM     21  CAH NDY d   1     -12.074 -29.442   5.911  0.00  0.00    -0.083 A 
+ATOM     22  H   NDY d   1     -13.387 -28.774   4.337  0.00  0.00     0.083 H 
+ATOM     23  CAJ NDY d   1     -11.971 -29.836   7.238  0.00  0.00    -0.082 A 
+ATOM     24  H   NDY d   1     -11.189 -29.412   5.285  0.00  0.00     0.083 H 
+ATOM     25  CAL NDY d   1     -13.135 -29.849   8.009  0.00  0.00    -0.077 A 
+ATOM     26  H   NDY d   1     -11.016 -30.125   7.663  0.00  0.00     0.083 H 
+ATOM     27  H   NDY d   1     -13.065 -30.156   9.046  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  OAC NDY d   1     -16.061 -27.455   7.576  0.00  0.00    -0.391 OA
+ATOM     29  H   NDY d   1     -16.583 -26.669   7.686  0.00  0.00     0.210 HD
+ENDBRANCH  12  28
+ENDBRANCH   1  12
+BRANCH   6  30
+ATOM     30  OAE NDY d   1     -18.124 -28.047  10.829  0.00  0.00    -0.389 OA
+ATOM     31  H   NDY d   1     -17.181 -27.971  10.921  0.00  0.00     0.210 HD
+ENDBRANCH   6  30
+BRANCH   3  32
+ATOM     32  CAO NDY d   1     -20.239 -29.902   6.159  0.00  0.00     0.213 C 
+ATOM     33  OAB NDY d   1     -20.480 -31.136   6.253  0.00  0.00    -0.645 OA
+ATOM     34  OAA NDY d   1     -20.246 -29.347   5.055  0.00  0.00    -0.645 OA
+ENDBRANCH   3  32
+BRANCH   3  35
+ATOM     35  OAF NDY d   1     -20.718 -27.799   7.193  0.00  0.00    -0.375 OA
+ATOM     36  H   NDY d   1     -20.421 -27.349   6.411  0.00  0.00     0.211 HD
+ENDBRANCH   3  35
+BRANCH   5  37
+ATOM     37  OAD NDY d   1     -20.409 -29.714  11.088  0.00  0.00    -0.393 OA
+ATOM     38  H   NDY d   1     -21.357 -29.705  11.147  0.00  0.00     0.210 HD
+ENDBRANCH   5  37
+TORSDOF 8

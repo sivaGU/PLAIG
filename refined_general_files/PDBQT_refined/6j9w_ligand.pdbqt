@@ -1,0 +1,86 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_7  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: C1P_13  and  O1_7 
+REMARK    8  A    between atoms: C2P_14  and  O2P_19 
+REMARK    9  A    between atoms: C3P_15  and  O3P_20 
+REMARK   10  A    between atoms: C4P_16  and  O4P_21 
+REMARK   11  A    between atoms: C6P_18  and  C5P_17 
+REMARK   12  A    between atoms: O6P_23  and  C6P_18 
+ROOT
+ATOM      1  O1  TRE d   1      -6.815 -33.067 -15.361  0.00  0.00    -0.326 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  TRE d   1      -6.572 -32.411 -14.095  0.00  0.00     0.162 C 
+ATOM      3  C2  TRE d   1      -7.880 -32.194 -13.378  0.00  0.00     0.110 C 
+ATOM      4  C3  TRE d   1      -8.747 -31.212 -14.195  0.00  0.00     0.092 C 
+ATOM      5  H2  TRE d   1      -7.683 -31.787 -12.375  0.00  0.00     0.094 H 
+ATOM      6  C4  TRE d   1      -7.928 -29.916 -14.373  0.00  0.00     0.090 C 
+ATOM      7  H3  TRE d   1      -9.020 -31.654 -15.165  0.00  0.00     0.091 H 
+ATOM      8  C5  TRE d   1      -6.619 -30.244 -15.067  0.00  0.00     0.089 C 
+ATOM      9  H4  TRE d   1      -7.686 -29.522 -13.375  0.00  0.00     0.091 H 
+ATOM     10  O5  TRE d   1      -5.862 -31.180 -14.314  0.00  0.00    -0.348 OA
+ATOM     11  H5  TRE d   1      -6.856 -30.687 -16.046  0.00  0.00     0.090 H 
+ATOM     12  H1  TRE d   1      -5.943 -33.065 -13.473  0.00  0.00     0.133 H 
+BRANCH   3  13
+ATOM     13  O2  TRE d   1      -8.615 -33.393 -13.272  0.00  0.00    -0.388 OA
+ATOM     14  H8  TRE d   1      -8.114 -34.027 -12.773  0.00  0.00     0.210 HD
+ENDBRANCH   3  13
+BRANCH   4  15
+ATOM     15  O3  TRE d   1      -9.923 -30.828 -13.460  0.00  0.00    -0.390 OA
+ATOM     16  H9  TRE d   1     -10.406 -30.177 -13.956  0.00  0.00     0.210 HD
+ENDBRANCH   4  15
+BRANCH   6  17
+ATOM     17  O4  TRE d   1      -8.716 -28.902 -15.060  0.00  0.00    -0.390 OA
+ATOM     18  H10 TRE d   1      -8.927 -29.206 -15.935  0.00  0.00     0.210 HD
+ENDBRANCH   6  17
+BRANCH   8  19
+ATOM     19  C6  TRE d   1      -5.758 -29.006 -15.292  0.00  0.00     0.043 C 
+ATOM     20  H6  TRE d   1      -5.441 -28.611 -14.316  0.00  0.00     0.078 H 
+ATOM     21  H7  TRE d   1      -6.356 -28.247 -15.818  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O6  TRE d   1      -4.572 -29.307 -16.087  0.00  0.00    -0.398 OA
+ATOM     23  H11 TRE d   1      -4.047 -29.958 -15.636  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH   8  19
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C1P TRE d   1      -5.587 -33.575 -15.956  0.00  0.00     0.162 C 
+ATOM     25  C2P TRE d   1      -5.862 -34.102 -17.334  0.00  0.00     0.110 C 
+ATOM     26  C3P TRE d   1      -6.684 -35.383 -17.288  0.00  0.00     0.092 C 
+ATOM     27  H13 TRE d   1      -4.894 -34.335 -17.802  0.00  0.00     0.094 H 
+ATOM     28  C4P TRE d   1      -6.023 -36.367 -16.351  0.00  0.00     0.090 C 
+ATOM     29  H14 TRE d   1      -7.693 -35.152 -16.915  0.00  0.00     0.091 H 
+ATOM     30  C5P TRE d   1      -5.843 -35.731 -14.994  0.00  0.00     0.089 C 
+ATOM     31  H15 TRE d   1      -5.043 -36.659 -16.756  0.00  0.00     0.091 H 
+ATOM     32  O5P TRE d   1      -4.997 -34.570 -15.111  0.00  0.00    -0.348 OA
+ATOM     33  H16 TRE d   1      -6.819 -35.451 -14.572  0.00  0.00     0.090 H 
+ATOM     34  H12 TRE d   1      -4.875 -32.741 -16.046  0.00  0.00     0.133 H 
+BRANCH  25  35
+ATOM     35  O2P TRE d   1      -6.520 -33.132 -18.144  0.00  0.00    -0.388 OA
+ATOM     36  H19 TRE d   1      -6.001 -32.336 -18.168  0.00  0.00     0.210 HD
+ENDBRANCH  25  35
+BRANCH  26  37
+ATOM     37  O3P TRE d   1      -6.791 -35.954 -18.617  0.00  0.00    -0.390 OA
+ATOM     38  H20 TRE d   1      -7.313 -36.747 -18.579  0.00  0.00     0.210 HD
+ENDBRANCH  26  37
+BRANCH  28  39
+ATOM     39  O4P TRE d   1      -6.848 -37.519 -16.216  0.00  0.00    -0.390 OA
+ATOM     40  H21 TRE d   1      -6.965 -37.925 -17.067  0.00  0.00     0.210 HD
+ENDBRANCH  28  39
+BRANCH  30  41
+ATOM     41  C6P TRE d   1      -5.136 -36.732 -14.093  0.00  0.00     0.043 C 
+ATOM     42  H17 TRE d   1      -4.047 -36.600 -14.177  0.00  0.00     0.078 H 
+ATOM     43  H18 TRE d   1      -5.406 -37.755 -14.394  0.00  0.00     0.078 H 
+BRANCH  41  44
+ATOM     44  O6P TRE d   1      -5.523 -36.517 -12.815  0.00  0.00    -0.398 OA
+ATOM     45  H22 TRE d   1      -5.086 -37.138 -12.244  0.00  0.00     0.209 HD
+ENDBRANCH  41  44
+ENDBRANCH  30  41
+ENDBRANCH   1  24
+TORSDOF 12

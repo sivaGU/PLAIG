@@ -1,0 +1,32 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  NA4_12 
+REMARK    2  A    between atoms: C6_6  and  C11_11 
+ROOT
+ATOM      1  N1  CWS d   1     200.278  -5.999   0.870  0.00  0.00    -0.241 NA
+ATOM      2  C2  CWS d   1     200.399  -4.744   1.258  0.00  0.00     0.089 A 
+ATOM      3  N3  CWS d   1     201.162  -4.252   2.238  0.00  0.00    -0.224 NA
+ATOM      4  C4  CWS d   1     201.909  -5.105   2.934  0.00  0.00     0.135 A 
+ATOM      5  C5  CWS d   1     202.629  -7.518   3.297  0.00  0.00    -0.061 A 
+ATOM      6  C6  CWS d   1     202.542  -8.843   2.941  0.00  0.00    -0.061 A 
+ATOM      7  C7  CWS d   1     201.696  -9.192   1.892  0.00  0.00    -0.075 A 
+ATOM      8  C8  CWS d   1     200.963  -8.262   1.219  0.00  0.00    -0.054 A 
+ATOM      9  C4A CWS d   1     201.889  -6.519   2.630  0.00  0.00     0.039 A 
+ATOM     10  C8A CWS d   1     201.036  -6.899   1.568  0.00  0.00     0.072 A 
+ATOM     11  H1  CWS d   1     199.804  -4.020   0.713  0.00  0.00     0.146 H 
+ATOM     12  H2  CWS d   1     203.284  -7.233   4.112  0.00  0.00     0.085 H 
+ATOM     13  H3  CWS d   1     201.618 -10.234   1.603  0.00  0.00     0.084 H 
+ATOM     14  H4  CWS d   1     200.317  -8.574   0.406  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C11 CWS d   1     203.344  -9.898   3.663  0.00  0.00    -0.051 C 
+ATOM     16  H5  CWS d   1     203.945  -9.425   4.453  0.00  0.00     0.033 H 
+ATOM     17  H6  CWS d   1     204.010 -10.405   2.949  0.00  0.00     0.033 H 
+ATOM     18  H7  CWS d   1     202.661 -10.634   4.113  0.00  0.00     0.033 H 
+ENDBRANCH   6  15
+BRANCH   4  19
+ATOM     19  NA4 CWS d   1     202.673  -4.623   3.924  0.00  0.00    -0.383 N 
+ATOM     20  H8  CWS d   1     203.261  -5.262   4.478  0.00  0.00     0.157 HD
+ATOM     21  H9  CWS d   1     202.672  -3.614   4.130  0.00  0.00     0.157 HD
+ENDBRANCH   4  19
+TORSDOF 2

@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_10 
+REMARK    2  A    between atoms: C2'_11  and  O2'_12 
+REMARK    3  A    between atoms: C3'_13  and  O3'_14 
+REMARK    4  A    between atoms: C4'_15  and  O4'_16 
+REMARK    5  A    between atoms: C5'_17  and  C6'_19 
+REMARK    6  A    between atoms: C6'_19  and  O6'_20 
+ROOT
+ATOM      1  C1' GPQ d   1      33.268  22.726  27.804  0.00  0.00     0.141 C 
+ATOM      2  C2' GPQ d   1      33.695  23.039  26.337  0.00  0.00     0.105 C 
+ATOM      3  C3' GPQ d   1      32.637  22.405  25.390  0.00  0.00     0.091 C 
+ATOM      4  C4' GPQ d   1      32.368  20.953  25.846  0.00  0.00     0.089 C 
+ATOM      5  C5' GPQ d   1      32.065  20.799  27.369  0.00  0.00     0.088 C 
+ATOM      6  O5' GPQ d   1      33.199  21.288  28.089  0.00  0.00    -0.353 OA
+ATOM      7  H3  GPQ d   1      32.247  23.118  27.922  0.00  0.00     0.123 H 
+ATOM      8  H4  GPQ d   1      34.673  22.578  26.134  0.00  0.00     0.093 H 
+ATOM      9  H6  GPQ d   1      31.711  22.995  25.447  0.00  0.00     0.091 H 
+ATOM     10  H8  GPQ d   1      33.260  20.350  25.620  0.00  0.00     0.091 H 
+ATOM     11  H10 GPQ d   1      31.132  21.318  27.634  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  N1  GPQ d   1      34.091  23.415  28.762  0.00  0.00    -0.278 N 
+ATOM     13  C2  GPQ d   1      33.418  24.141  29.751  0.00  0.00     0.331 A 
+ATOM     14  O2  GPQ d   1      32.199  24.199  29.753  0.00  0.00    -0.246 OA
+ATOM     15  N3  GPQ d   1      34.132  24.845  30.682  0.00  0.00    -0.274 N 
+ATOM     16  C4  GPQ d   1      35.529  24.818  30.656  0.00  0.00     0.272 A 
+ATOM     17  H1  GPQ d   1      33.655  25.378  31.380  0.00  0.00     0.173 HD
+ATOM     18  O4  GPQ d   1      36.090  25.483  31.509  0.00  0.00    -0.266 OA
+ATOM     19  C5  GPQ d   1      36.217  24.077  29.687  0.00  0.00     0.117 A 
+ATOM     20 CL1  GPQ d   1      37.941  23.947  29.641  0.00  0.00    -0.077 Cl
+ATOM     21  C6  GPQ d   1      35.496  23.380  28.735  0.00  0.00     0.013 A 
+ATOM     22  H2  GPQ d   1      36.014  22.807  27.968  0.00  0.00     0.114 H 
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2' GPQ d   1      33.820  24.452  26.169  0.00  0.00    -0.388 OA
+ATOM     24  H5  GPQ d   1      34.080  24.642  25.275  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3' GPQ d   1      33.068  22.343  24.041  0.00  0.00    -0.390 OA
+ATOM     26  H7  GPQ d   1      33.248  23.221  23.727  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6' GPQ d   1      32.050  19.352  27.805  0.00  0.00     0.043 C 
+ATOM     28  H11 GPQ d   1      31.142  18.867  27.417  0.00  0.00     0.078 H 
+ATOM     29  H12 GPQ d   1      32.049  19.306  28.904  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6' GPQ d   1      33.208  18.656  27.304  0.00  0.00    -0.398 OA
+ATOM     31  H13 GPQ d   1      33.995  19.070  27.640  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4' GPQ d   1      31.290  20.479  25.090  0.00  0.00    -0.390 OA
+ATOM     33  H9  GPQ d   1      30.530  21.027  25.247  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 6

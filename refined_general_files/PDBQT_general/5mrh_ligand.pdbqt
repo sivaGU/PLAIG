@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_2  and  C01_1 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C04_4  and  C02_2 
+REMARK    4  A    between atoms: C05_5  and  C04_4 
+REMARK    5  A    between atoms: N06_8  and  C05_5 
+ROOT
+ATOM      1  C05 Q9Z d   1     -30.600  40.943  14.455  0.00  0.00     0.114 C 
+ATOM      2  H10 Q9Z d   1     -30.529  41.904  13.924  0.00  0.00     0.079 H 
+ATOM      3  H11 Q9Z d   1     -30.377  41.096  15.521  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C04 Q9Z d   1     -29.600  39.928  13.847  0.00  0.00    -0.037 C 
+ATOM      5  H8  Q9Z d   1     -28.830  39.702  14.599  0.00  0.00     0.036 H 
+ATOM      6  H9  Q9Z d   1     -30.146  39.008  13.593  0.00  0.00     0.036 H 
+BRANCH   4   7
+ATOM      7  C02 Q9Z d   1     -28.902  40.454  12.571  0.00  0.00    -0.060 C 
+ATOM      8  H4  Q9Z d   1     -27.906  40.825  12.855  0.00  0.00     0.038 H 
+BRANCH   7   9
+ATOM      9  C01 Q9Z d   1     -28.718  39.274  11.538  0.00  0.00    -0.073 C 
+ATOM     10  H1  Q9Z d   1     -28.221  39.653  10.633  0.00  0.00     0.028 H 
+ATOM     11  H2  Q9Z d   1     -29.703  38.863  11.271  0.00  0.00     0.028 H 
+ATOM     12  H3  Q9Z d   1     -28.102  38.483  11.991  0.00  0.00     0.028 H 
+ENDBRANCH   7   9
+BRANCH   7  13
+ATOM     13  C03 Q9Z d   1     -29.651  41.584  11.945  0.00  0.00    -0.073 C 
+ATOM     14  H5  Q9Z d   1     -29.770  42.396  12.678  0.00  0.00     0.028 H 
+ATOM     15  H6  Q9Z d   1     -30.642  41.233  11.623  0.00  0.00     0.028 H 
+ATOM     16  H7  Q9Z d   1     -29.093  41.956  11.073  0.00  0.00     0.028 H 
+ENDBRANCH   7  13
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  17
+ATOM     17  N06 Q9Z d   1     -31.914  40.399  14.305  0.00  0.00     0.108 N 
+ATOM     18  C07 Q9Z d   1     -32.751  39.331  14.687  0.00  0.00     0.187 C 
+ATOM     19  C08 Q9Z d   1     -33.850  39.367  13.685  0.00  0.00     0.271 C 
+ATOM     20  H12 Q9Z d   1     -32.211  38.374  14.642  0.00  0.00     0.094 H 
+ATOM     21  H13 Q9Z d   1     -33.142  39.484  15.704  0.00  0.00     0.094 H 
+ATOM     22  N10 Q9Z d   1     -33.821  40.615  13.058  0.00  0.00    -0.161 N 
+ATOM     23  O09 Q9Z d   1     -34.622  38.473  13.457  0.00  0.00    -0.270 OA
+ATOM     24  N11 Q9Z d   1     -32.638  41.268  13.428  0.00  0.00     0.170 N 
+ATOM     25  H15 Q9Z d   1     -34.525  40.980  12.449  0.00  0.00     0.198 HD
+ATOM     26  H16 Q9Z d   1     -32.085  41.466  12.609  0.00  0.00     0.344 HD
+ATOM     27  H17 Q9Z d   1     -32.856  42.130  13.903  0.00  0.00     0.344 HD
+ATOM     28  H14 Q9Z d   1     -32.177  40.868  15.157  0.00  0.00     0.318 HD
+ENDBRANCH   1  17
+TORSDOF 5

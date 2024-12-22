@@ -1,0 +1,49 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_13  and  C1_1 
+REMARK    2  A    between atoms: C5_9  and  N1_2 
+REMARK    3  A    between atoms: N1_2  and  C11_18 
+REMARK    4  A    between atoms: C14_21  and  C13_20 
+ROOT
+ATOM      1  C2  NRM d   1       5.372  30.523   6.149  0.00  0.00     0.004 A 
+ATOM      2  N2  NRM d   1       3.752  32.127   8.874  0.00  0.00    -0.237 NA
+ATOM      3  C3  NRM d   1       4.858  31.113   4.980  0.00  0.00     0.020 A 
+ATOM      4  N3  NRM d   1       4.936  30.940   7.378  0.00  0.00    -0.300 N 
+ATOM      5  C5  NRM d   1       3.441  32.505   6.377  0.00  0.00     0.175 A 
+ATOM      6  C6  NRM d   1       3.990  31.899   7.524  0.00  0.00     0.181 A 
+ATOM      7  C7  NRM d   1       5.347  30.443   8.605  0.00  0.00     0.071 A 
+ATOM      8  N7  NRM d   1       3.916  32.075   5.130  0.00  0.00    -0.238 NA
+ATOM      9  C9  NRM d   1       4.577  31.226   9.488  0.00  0.00     0.032 A 
+ATOM     10  H   NRM d   1       6.119  29.732   6.076  0.00  0.00     0.114 H 
+ATOM     11  H   NRM d   1       5.204  30.808   3.992  0.00  0.00     0.117 H 
+ATOM     12  H   NRM d   1       4.634  31.122  10.572  0.00  0.00     0.118 H 
+ENDROOT
+BRANCH   5  13
+ATOM     13  N1  NRM d   1       2.498  33.514   6.453  0.00  0.00    -0.331 N 
+ATOM     14  H   NRM d   1       2.168  33.804   7.374  0.00  0.00     0.168 HD
+BRANCH  13  15
+ATOM     15  C11 NRM d   1       1.987  34.142   5.348  0.00  0.00     0.096 A 
+ATOM     16  S1  NRM d   1       2.201  33.739   3.673  0.00  0.00     0.029 SA
+ATOM     17  N6  NRM d   1       1.314  34.880   3.074  0.00  0.00    -0.215 NA
+ATOM     18  C14 NRM d   1       0.780  35.650   4.072  0.00  0.00     0.042 A 
+ATOM     19  C12 NRM d   1       1.147  35.242   5.356  0.00  0.00    -0.025 A 
+ATOM     20  H   NRM d   1       0.808  35.736   6.266  0.00  0.00     0.091 H 
+BRANCH  18  21
+ATOM     21  C13 NRM d   1      -0.119  36.807   3.768  0.00  0.00    -0.035 C 
+ATOM     22  H   NRM d   1       0.417  37.530   3.154  0.00  0.00     0.035 H 
+ATOM     23  H   NRM d   1      -0.997  36.451   3.229  0.00  0.00     0.035 H 
+ATOM     24  H   NRM d   1      -0.429  37.279   4.700  0.00  0.00     0.035 H 
+ENDBRANCH  18  21
+ENDBRANCH  13  15
+ENDBRANCH   5  13
+BRANCH   7  25
+ATOM     25  C1  NRM d   1       6.402  29.395   8.917  0.00  0.00     0.029 A 
+ATOM     26  C8  NRM d   1       7.639  29.272   8.295  0.00  0.00     0.009 A 
+ATOM     27  N5  NRM d   1       8.323  28.251   8.845  0.00  0.00    -0.289 N 
+ATOM     28  H   NRM d   1       8.000  29.906   7.485  0.00  0.00     0.115 H 
+ATOM     29  N4  NRM d   1       7.554  27.700   9.799  0.00  0.00    -0.187 NA
+ATOM     30  H   NRM d   1       9.261  27.949   8.583  0.00  0.00     0.188 HD
+ATOM     31  C10 NRM d   1       6.378  28.372   9.855  0.00  0.00     0.035 A 
+ATOM     32  H   NRM d   1       5.550  28.146  10.526  0.00  0.00     0.118 H 
+ENDBRANCH   7  25
+TORSDOF 4

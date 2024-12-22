@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAK_7  and  CAA_1 
+REMARK    2  A    between atoms: CAU_15  and  OAF_4 
+REMARK    3  A    between atoms: CAP_10  and  OAK_7 
+REMARK    4  A    between atoms: CAR_12  and  CAN_9 
+ROOT
+ATOM      1 CLAG LCE d   1      17.219   4.496  32.147  0.00  0.00    -0.098 Cl
+ATOM      2 CLAH LCE d   1      17.802   1.981  33.527  0.00  0.00    -0.098 Cl
+ATOM      3  SAM LCE d   1      15.349   1.328  34.290  0.00  0.00    -0.128 SA
+ATOM      4  CAP LCE d   1      15.264   1.428  36.088  0.00  0.00     0.095 C 
+ATOM      5  CAQ LCE d   1      15.462   3.138  33.930  0.00  0.00     0.036 C 
+ATOM      6  CAR LCE d   1      16.154   2.637  36.304  0.00  0.00     0.071 C 
+ATOM      7  CAS LCE d   1      15.767   3.745  35.324  0.00  0.00     0.005 C 
+ATOM      8  CAT LCE d   1      16.892   3.540  33.564  0.00  0.00     0.152 C 
+ATOM      9  CAU LCE d   1      17.047   4.443  34.768  0.00  0.00     0.076 C 
+ATOM     10  H   LCE d   1      15.504   0.466  36.540  0.00  0.00     0.102 H 
+ATOM     11  H   LCE d   1      14.633   3.389  33.268  0.00  0.00     0.062 H 
+ATOM     12  H   LCE d   1      17.211   2.397  36.190  0.00  0.00     0.062 H 
+ATOM     13  H   LCE d   1      15.010   4.322  35.855  0.00  0.00     0.047 H 
+ATOM     14  H   LCE d   1      17.071   5.531  34.823  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   4  15
+ATOM     15  OAK LCE d   1      13.977   1.813  36.643  0.00  0.00    -0.379 OA
+BRANCH  15  16
+ATOM     16  CAA LCE d   1      13.473   0.734  37.445  0.00  0.00     0.006 C 
+ATOM     17  H   LCE d   1      13.356  -0.154  36.824  0.00  0.00     0.066 H 
+ATOM     18  H   LCE d   1      14.175   0.525  38.252  0.00  0.00     0.066 H 
+ATOM     19  H   LCE d   1      12.507   1.015  37.865  0.00  0.00     0.066 H 
+ENDBRANCH  15  16
+ENDBRANCH   4  15
+BRANCH   6  20
+ATOM     20  CAN LCE d   1      15.742   3.121  37.645  0.00  0.00     0.180 C 
+ATOM     21  OAD LCE d   1      16.588   3.207  38.516  0.00  0.00    -0.648 OA
+ATOM     22  OAE LCE d   1      14.570   3.397  37.744  0.00  0.00    -0.648 OA
+ENDBRANCH   6  20
+BRANCH   9  23
+ATOM     23  OAF LCE d   1      18.346   4.090  35.312  0.00  0.00    -0.392 OA
+ATOM     24  H   LCE d   1      18.506   3.154  35.172  0.00  0.00     0.210 HD
+ENDBRANCH   9  23
+TORSDOF 4

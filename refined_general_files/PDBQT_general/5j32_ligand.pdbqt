@@ -1,0 +1,48 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C2_2  and  O1_8 
+REMARK    4  A    between atoms: C3_3  and  C4_4 
+REMARK    5  A    between atoms: C3_3  and  C5_5 
+REMARK    6  A    between atoms: C5_5  and  C6_6 
+REMARK    7  A    between atoms: C5_5  and  C7_7 
+ROOT
+ATOM      1  C3  IPM d   1      21.908   8.839  19.576  0.00  0.00     0.068 C 
+ATOM      2  H2  IPM d   1      21.971   8.884  20.673  0.00  0.00     0.062 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C2  IPM d   1      20.675   8.078  19.196  0.00  0.00     0.132 C 
+ATOM      4  H1  IPM d   1      19.786   8.596  19.586  0.00  0.00     0.101 H 
+BRANCH   3   5
+ATOM      5  C1  IPM d   1      20.762   6.709  19.785  0.00  0.00     0.203 C 
+ATOM      6  O2  IPM d   1      20.768   6.562  21.034  0.00  0.00    -0.646 OA
+ATOM      7  O3  IPM d   1      20.840   5.701  19.037  0.00  0.00    -0.646 OA
+ENDBRANCH   3   5
+BRANCH   3   8
+ATOM      8  O1  IPM d   1      20.583   7.976  17.820  0.00  0.00    -0.384 OA
+ATOM      9  H10 IPM d   1      19.798   7.492  17.591  0.00  0.00     0.210 HD
+ENDBRANCH   3   8
+ENDBRANCH   1   3
+BRANCH   1  10
+ATOM     10  C4  IPM d   1      23.087   8.081  19.054  0.00  0.00     0.180 C 
+ATOM     11  O4  IPM d   1      23.502   8.259  17.874  0.00  0.00    -0.648 OA
+ATOM     12  O5  IPM d   1      23.671   7.248  19.795  0.00  0.00    -0.648 OA
+ENDBRANCH   1  10
+BRANCH   1  13
+ATOM     13  C5  IPM d   1      21.891  10.251  19.052  0.00  0.00    -0.045 C 
+ATOM     14  H3  IPM d   1      21.920  10.233  17.953  0.00  0.00     0.040 H 
+BRANCH  13  15
+ATOM     15  C6  IPM d   1      23.066  11.013  19.584  0.00  0.00    -0.072 C 
+ATOM     16  H4  IPM d   1      23.043  12.042  19.195  0.00  0.00     0.028 H 
+ATOM     17  H5  IPM d   1      23.997  10.521  19.265  0.00  0.00     0.028 H 
+ATOM     18  H6  IPM d   1      23.021  11.036  20.683  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C7  IPM d   1      20.657  10.961  19.521  0.00  0.00    -0.072 C 
+ATOM     20  H7  IPM d   1      19.767  10.432  19.151  0.00  0.00     0.028 H 
+ATOM     21  H8  IPM d   1      20.658  11.991  19.136  0.00  0.00     0.028 H 
+ATOM     22  H9  IPM d   1      20.641  10.981  20.621  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH   1  13
+TORSDOF 7

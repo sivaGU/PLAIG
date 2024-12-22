@@ -1,0 +1,118 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1B_14  and  N1_1 
+REMARK    2  A    between atoms: PA_9  and  O3A_24 
+REMARK    3  A    between atoms: O5B_34  and  PA_9 
+REMARK    4  A    between atoms: PB_10  and  O1'_12 
+REMARK    5  A    between atoms: O3A_24  and  PB_10 
+REMARK    6  A    between atoms: O1'_12  and  C1'_11 
+REMARK    7  A    between atoms: C2'_16  and  N2'_17 
+REMARK       I    between atoms: N2'_17  and  C7'_37 
+REMARK    8  A    between atoms: C2B_20  and  O2'_18 
+REMARK    9  A    between atoms: C3'_22  and  O3'_23 
+REMARK   10  A    between atoms: C3B_25  and  O3B_26 
+REMARK   11  A    between atoms: C4'_27  and  O4'_28 
+REMARK   12  A    between atoms: C5B_33  and  C4B_29 
+REMARK   13  A    between atoms: C5'_31  and  C6'_35 
+REMARK   14  A    between atoms: C5B_33  and  O5B_34 
+REMARK   15  A    between atoms: C6'_35  and  O6'_36 
+REMARK   16  A    between atoms: C7'_37  and  C8'_39 
+ROOT
+ATOM      1  PB  12V d   1     134.117 -25.670  36.845  0.00  0.00     0.419 P 
+ATOM      2  O1B 12V d   1     134.856 -24.456  37.257  0.00  0.00    -0.624 OA
+ATOM      3  O2B 12V d   1     132.621 -25.700  36.920  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O1' 12V d   1     134.628 -26.902  37.680  0.00  0.00    -0.271 OA
+BRANCH   4   5
+ATOM      5  C1' 12V d   1     134.065 -28.212  37.361  0.00  0.00     0.117 C 
+ATOM      6  C2' 12V d   1     133.360 -28.889  38.547  0.00  0.00     0.073 C 
+ATOM      7  C3' 12V d   1     134.360 -29.189  39.679  0.00  0.00     0.084 C 
+ATOM      8  H   12V d   1     132.940 -29.855  38.264  0.00  0.00     0.082 H 
+ATOM      9  C4' 12V d   1     135.393 -30.279  39.295  0.00  0.00     0.076 C 
+ATOM     10  H   12V d   1     134.917 -28.269  39.856  0.00  0.00     0.090 H 
+ATOM     11  C5' 12V d   1     136.203 -29.906  38.060  0.00  0.00     0.041 C 
+ATOM     12  H   12V d   1     134.844 -31.198  39.090  0.00  0.00     0.088 H 
+ATOM     13  S5' 12V d   1     135.351 -29.234  36.673  0.00  0.00    -0.125 SA
+ATOM     14  H   12V d   1     136.926 -29.247  38.540  0.00  0.00     0.064 H 
+ATOM     15  H   12V d   1     133.274 -28.068  36.625  0.00  0.00     0.104 H 
+BRANCH   6  16
+ATOM     16  N2' 12V d   1     132.281 -27.986  38.971  0.00  0.00    -0.351 N 
+ATOM     17  C7' 12V d   1     131.025 -28.189  38.572  0.00  0.00     0.214 C 
+ATOM     18  O7' 12V d   1     130.671 -29.149  37.891  0.00  0.00    -0.274 OA
+ATOM     19  H   12V d   1     132.495 -27.195  39.578  0.00  0.00     0.163 HD
+BRANCH  17  20
+ATOM     20  C8' 12V d   1     130.011 -27.163  39.059  0.00  0.00    -0.003 C 
+ATOM     21  H   12V d   1     129.522 -26.702  38.201  0.00  0.00     0.040 H 
+ATOM     22  H   12V d   1     129.266 -27.658  39.681  0.00  0.00     0.040 H 
+ATOM     23  H   12V d   1     130.522 -26.397  39.642  0.00  0.00     0.040 H 
+ENDBRANCH  17  20
+ENDBRANCH   6  16
+BRANCH   7  24
+ATOM     24  O3' 12V d   1     133.659 -29.571  40.885  0.00  0.00    -0.391 OA
+ATOM     25  H   12V d   1     133.082 -28.854  41.159  0.00  0.00     0.210 HD
+ENDBRANCH   7  24
+BRANCH   9  26
+ATOM     26  O4' 12V d   1     136.327 -30.404  40.381  0.00  0.00    -0.392 OA
+ATOM     27  H   12V d   1     135.857 -30.657  41.179  0.00  0.00     0.210 HD
+ENDBRANCH   9  26
+BRANCH  11  28
+ATOM     28  C6' 12V d   1     136.621 -31.144  37.274  0.00  0.00     0.031 C 
+ATOM     29  H   12V d   1     137.535 -30.914  36.727  0.00  0.00     0.075 H 
+ATOM     30  H   12V d   1     135.810 -31.415  36.598  0.00  0.00     0.075 H 
+BRANCH  28  31
+ATOM     31  O6' 12V d   1     136.877 -32.248  38.138  0.00  0.00    -0.400 OA
+ATOM     32  H   12V d   1     137.137 -33.009  37.614  0.00  0.00     0.209 HD
+ENDBRANCH  28  31
+ENDBRANCH  11  28
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  33
+ATOM     33  O3A 12V d   1     134.583 -26.115  35.355  0.00  0.00    -0.180 OA
+BRANCH  33  34
+ATOM     34  PA  12V d   1     133.492 -26.435  34.126  0.00  0.00     0.417 P 
+ATOM     35  O1A 12V d   1     132.971 -27.795  34.315  0.00  0.00    -0.624 OA
+ATOM     36  O2A 12V d   1     132.515 -25.308  34.050  0.00  0.00    -0.624 OA
+BRANCH  34  37
+ATOM     37  O5B 12V d   1     134.458 -26.421  32.882  0.00  0.00    -0.287 OA
+BRANCH  37  38
+ATOM     38  C5B 12V d   1     135.320 -25.301  32.783  0.00  0.00     0.058 C 
+ATOM     39  H   12V d   1     134.779 -24.458  32.353  0.00  0.00     0.079 H 
+ATOM     40  H   12V d   1     135.679 -25.026  33.775  0.00  0.00     0.079 H 
+BRANCH  38  41
+ATOM     41  C4B 12V d   1     136.490 -25.656  31.900  0.00  0.00     0.089 C 
+ATOM     42  C3B 12V d   1     137.783 -25.386  32.591  0.00  0.00     0.091 C 
+ATOM     43  C2B 12V d   1     138.036 -23.971  32.133  0.00  0.00     0.105 C 
+ATOM     44  H   12V d   1     137.795 -25.516  33.673  0.00  0.00     0.091 H 
+ATOM     45  C1B 12V d   1     137.739 -24.139  30.667  0.00  0.00     0.141 C 
+ATOM     46  H   12V d   1     137.474 -23.194  32.650  0.00  0.00     0.093 H 
+ATOM     47  O4B 12V d   1     136.458 -24.755  30.761  0.00  0.00    -0.353 OA
+ATOM     48  H   12V d   1     138.591 -24.627  30.194  0.00  0.00     0.123 H 
+ATOM     49  H   12V d   1     136.419 -26.710  31.631  0.00  0.00     0.090 H 
+BRANCH  42  50
+ATOM     50  O3B 12V d   1     138.786 -26.289  32.034  0.00  0.00    -0.390 OA
+ATOM     51  H   12V d   1     139.659 -26.016  32.327  0.00  0.00     0.210 HD
+ENDBRANCH  42  50
+BRANCH  43  52
+ATOM     52  O2' 12V d   1     139.408 -23.671  32.293  0.00  0.00    -0.388 OA
+ATOM     53  H   12V d   1     139.604 -23.563  33.227  0.00  0.00     0.210 HD
+ENDBRANCH  43  52
+BRANCH  45  54
+ATOM     54  N1  12V d   1     137.509 -22.920  29.818  0.00  0.00    -0.280 N 
+ATOM     55  C2  12V d   1     138.249 -22.728  28.695  0.00  0.00     0.331 A 
+ATOM     56  O2  12V d   1     139.152 -23.480  28.341  0.00  0.00    -0.246 OA
+ATOM     57  N3  12V d   1     138.017 -21.627  27.894  0.00  0.00    -0.275 N 
+ATOM     58  C4  12V d   1     137.005 -20.719  28.230  0.00  0.00     0.250 A 
+ATOM     59  H   12V d   1     138.582 -21.475  27.058  0.00  0.00     0.173 HD
+ATOM     60  O4  12V d   1     136.817 -19.765  27.489  0.00  0.00    -0.268 OA
+ATOM     61  C5  12V d   1     136.227 -20.888  29.365  0.00  0.00    -0.002 A 
+ATOM     62  C6  12V d   1     136.474 -21.999  30.158  0.00  0.00    -0.008 A 
+ATOM     63  H   12V d   1     135.447 -20.172  29.625  0.00  0.00     0.094 H 
+ATOM     64  H   12V d   1     135.871 -22.170  31.050  0.00  0.00     0.112 H 
+ENDBRANCH  45  54
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH  34  37
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 16

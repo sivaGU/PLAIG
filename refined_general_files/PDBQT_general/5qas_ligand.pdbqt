@@ -1,0 +1,61 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N_1  and  C1_4 
+REMARK    1  A    between atoms: C2_12  and  N_1 
+REMARK    2  A    between atoms: C1_4  and  C_2 
+REMARK    3  A    between atoms: C9_19  and  C10_5 
+REMARK    4  A    between atoms: C14_9  and  C15_10 
+REMARK    5  A    between atoms: C3_13  and  C2_12 
+REMARK    6  A    between atoms: C4_14  and  C3_13 
+ROOT
+ATOM      1  C4  CVF d   1      95.821 245.470   4.433  0.00  0.00    -0.057 A 
+ATOM      2  C5  CVF d   1      96.994 246.062   4.878  0.00  0.00    -0.076 A 
+ATOM      3  C6  CVF d   1      96.968 247.252   5.584  0.00  0.00    -0.072 A 
+ATOM      4  C7  CVF d   1      94.624 246.112   4.701  0.00  0.00    -0.076 A 
+ATOM      5  C8  CVF d   1      94.594 247.300   5.408  0.00  0.00    -0.072 A 
+ATOM      6  C9  CVF d   1      95.764 247.885   5.883  0.00  0.00    -0.026 A 
+ATOM      7  H13 CVF d   1      97.945 245.585   4.670  0.00  0.00     0.084 H 
+ATOM      8  H14 CVF d   1      97.900 247.699   5.910  0.00  0.00     0.084 H 
+ATOM      9  H15 CVF d   1      93.695 245.676   4.351  0.00  0.00     0.084 H 
+ATOM     10  H16 CVF d   1      93.642 247.784   5.596  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C3  CVF d   1      95.850 244.160   3.680  0.00  0.00    -0.026 C 
+ATOM     12  H11 CVF d   1      96.279 244.347   2.684  0.00  0.00     0.042 H 
+ATOM     13  H12 CVF d   1      96.497 243.463   4.232  0.00  0.00     0.042 H 
+BRANCH  11  14
+ATOM     14  C2  CVF d   1      94.489 243.497   3.493  0.00  0.00    -0.001 C 
+ATOM     15  H9  CVF d   1      93.748 244.274   3.257  0.00  0.00     0.064 H 
+ATOM     16  H10 CVF d   1      94.555 242.787   2.656  0.00  0.00     0.064 H 
+BRANCH  14  17
+ATOM     17  N   CVF d   1      94.050 242.779   4.680  0.00  0.00    -0.361 N 
+ATOM     18  C1  CVF d   1      92.996 243.151   5.410  0.00  0.00     0.213 C 
+ATOM     19  O2  CVF d   1      92.412 244.213   5.208  0.00  0.00    -0.274 OA
+ATOM     20  H1  CVF d   1      94.562 241.968   4.963  0.00  0.00     0.162 HD
+BRANCH  18  21
+ATOM     21  C   CVF d   1      92.551 242.190   6.472  0.00  0.00    -0.003 C 
+ATOM     22  H2  CVF d   1      91.681 242.606   7.001  0.00  0.00     0.040 H 
+ATOM     23  H3  CVF d   1      93.371 242.027   7.186  0.00  0.00     0.040 H 
+ATOM     24  H4  CVF d   1      92.274 241.232   6.007  0.00  0.00     0.040 H 
+ENDBRANCH  18  21
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   6  25
+ATOM     25  C10 CVF d   1      95.718 249.080   6.763  0.00  0.00    -0.025 A 
+ATOM     26  C11 CVF d   1      95.055 249.039   7.990  0.00  0.00    -0.072 A 
+ATOM     27  C12 CVF d   1      95.027 250.147   8.819  0.00  0.00    -0.081 A 
+ATOM     28  H5  CVF d   1      94.555 248.128   8.298  0.00  0.00     0.084 H 
+ATOM     29  C13 CVF d   1      95.658 251.315   8.438  0.00  0.00    -0.066 A 
+ATOM     30  H6  CVF d   1      94.508 250.098   9.770  0.00  0.00     0.083 H 
+ATOM     31  C14 CVF d   1      96.320 251.385   7.219  0.00  0.00     0.041 A 
+ATOM     32  H7  CVF d   1      95.636 252.179   9.092  0.00  0.00     0.085 H 
+ATOM     33  C16 CVF d   1      96.346 250.268   6.389  0.00  0.00    -0.056 A 
+ATOM     34  H8  CVF d   1      96.862 250.322   5.437  0.00  0.00     0.086 H 
+BRANCH  31  35
+ATOM     35  C15 CVF d   1      96.995 252.660   6.787  0.00  0.00     0.209 C 
+ATOM     36  O   CVF d   1      97.638 253.304   7.651  0.00  0.00    -0.644 OA
+ATOM     37  O1  CVF d   1      96.865 253.000   5.590  0.00  0.00    -0.644 OA
+ENDBRANCH  31  35
+ENDBRANCH   6  25
+TORSDOF 6

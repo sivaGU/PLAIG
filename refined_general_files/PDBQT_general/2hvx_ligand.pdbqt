@@ -1,0 +1,59 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAN_10  and  CAM_11 
+REMARK    2  A    between atoms: CAM_11  and  PAD_12 
+REMARK    3  A    between atoms: CAM_11  and  CAL_16 
+REMARK       I    between atoms: CAL_16  and  NAK_18 
+REMARK    4  A    between atoms: NAK_18  and  CAW_19 
+ROOT
+ATOM      1  CAL DRX d   1      62.935  58.121  -6.873  0.00  0.00     0.244 C 
+ATOM      2  OAX DRX d   1      63.625  58.797  -7.642  0.00  0.00    -0.272 OA
+ATOM      3  NAK DRX d   1      61.885  57.331  -7.221  0.00  0.00    -0.326 N 
+ATOM      4  H6  DRX d   1      61.412  56.886  -6.460  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CAM DRX d   1      63.241  58.112  -5.337  0.00  0.00     0.158 C 
+ATOM      6  H5  DRX d   1      62.527  57.436  -4.843  0.00  0.00     0.084 H 
+BRANCH   5   7
+ATOM      7  CAN DRX d   1      63.075  59.502  -4.700  0.00  0.00    -0.014 A 
+ATOM      8  CAO DRX d   1      62.461  59.660  -3.297  0.00  0.00    -0.009 A 
+ATOM      9  CAP DRX d   1      61.972  58.650  -2.380  0.00  0.00    -0.050 A 
+ATOM     10  CAZ DRX d   1      62.377  61.106  -2.848  0.00  0.00     0.015 A 
+ATOM     11  CAQ DRX d   1      61.434  59.051  -1.092  0.00  0.00     0.035 A 
+ATOM     12  H1  DRX d   1      62.008  57.602  -2.654  0.00  0.00     0.087 H 
+ATOM     13 CLR  DRX d   1      60.830  57.828   0.033  0.00  0.00    -0.084 Cl
+ATOM     14  CBB DRX d   1      61.379  60.426  -0.711  0.00  0.00    -0.061 A 
+ATOM     15  CBA DRX d   1      61.844  61.472  -1.577  0.00  0.00    -0.064 A 
+ATOM     16  H2  DRX d   1      60.974  60.687   0.260  0.00  0.00     0.086 H 
+ATOM     17  H3  DRX d   1      61.791  62.511  -1.273  0.00  0.00     0.085 H 
+ATOM     18  SBC DRX d   1      63.073  62.167  -4.238  0.00  0.00    -0.101 SA
+ATOM     19  CAY DRX d   1      63.469  60.731  -5.368  0.00  0.00    -0.036 A 
+ATOM     20  H4  DRX d   1      63.918  60.803  -6.357  0.00  0.00     0.095 H 
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  PAD DRX d   1      64.912  57.435  -5.123  0.00  0.00     0.277 P 
+ATOM     22  OAB DRX d   1      65.982  58.595  -5.542  0.00  0.00    -0.639 OA
+ATOM     23  OAE DRX d   1      65.107  56.214  -6.142  0.00  0.00    -0.639 OA
+ATOM     24  OAC DRX d   1      65.138  56.991  -3.723  0.00  0.00    -0.639 OA
+ENDBRANCH   5  21
+ENDBRANCH   1   5
+BRANCH   3  25
+ATOM     25  CAW DRX d   1      61.382  57.057  -8.470  0.00  0.00     0.035 A 
+ATOM     26  CAV DRX d   1      60.216  56.212  -8.475  0.00  0.00    -0.046 A 
+ATOM     27  CAU DRX d   1      59.610  55.856  -9.724  0.00  0.00    -0.024 A 
+ATOM     28  H7  DRX d   1      59.800  55.848  -7.542  0.00  0.00     0.088 H 
+ATOM     29  CAT DRX d   1      58.451  55.025  -9.746  0.00  0.00    -0.072 A 
+ATOM     30  CAH DRX d   1      60.176  56.353 -10.970  0.00  0.00    -0.026 A 
+ATOM     31  CAS DRX d   1      57.852  54.679 -11.007  0.00  0.00    -0.082 A 
+ATOM     32  H8  DRX d   1      58.025  54.657  -8.820  0.00  0.00     0.084 H 
+ATOM     33  CAF DRX d   1      58.407  55.166 -12.234  0.00  0.00    -0.082 A 
+ATOM     34  H9  DRX d   1      56.973  54.044 -11.029  0.00  0.00     0.083 H 
+ATOM     35  CAG DRX d   1      59.571  56.002 -12.225  0.00  0.00    -0.072 A 
+ATOM     36  H10 DRX d   1      57.943  54.900 -13.177  0.00  0.00     0.083 H 
+ATOM     37  H11 DRX d   1      59.991  56.366 -13.156  0.00  0.00     0.084 H 
+ATOM     38  CAI DRX d   1      61.333  57.185 -10.974  0.00  0.00    -0.070 A 
+ATOM     39  CAJ DRX d   1      61.925  57.536  -9.718  0.00  0.00    -0.056 A 
+ATOM     40  H12 DRX d   1      61.755  57.544 -11.906  0.00  0.00     0.084 H 
+ATOM     41  H13 DRX d   1      62.800  58.175  -9.705  0.00  0.00     0.086 H 
+ENDBRANCH   3  25
+TORSDOF 4

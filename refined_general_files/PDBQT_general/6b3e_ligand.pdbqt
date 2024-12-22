@@ -1,0 +1,91 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: N3_19  and  C2_2 
+REMARK    3  A    between atoms: C9_4  and  N25_14 
+REMARK    4  A    between atoms: N12_25  and  C11_5 
+REMARK    5  A    between atoms: C14_7  and  C13_6 
+REMARK    6  A    between atoms: C13_6  and  N12_25 
+REMARK    7  A    between atoms: C30_16  and  C31_17 
+REMARK    8  A    between atoms: C31_17  and  C32_18 
+REMARK    9  A    between atoms: C32_18  and  O33_33 
+ROOT
+ATOM      1  C7  CJM d   1       0.315  17.603  -7.823  0.00  0.00     0.182 A 
+ATOM      2  C9  CJM d   1       0.735  19.268  -6.420  0.00  0.00     0.729 A 
+ATOM      3  C11 CJM d   1      -0.409  19.778  -8.356  0.00  0.00     0.176 A 
+ATOM      4  N3  CJM d   1       0.315  16.358  -8.391  0.00  0.00    -0.324 N 
+ATOM      5  C4  CJM d   1      -0.301  16.505  -9.593  0.00  0.00     0.068 A 
+ATOM      6  N5  CJM d   1      -0.701  17.725  -9.844  0.00  0.00    -0.236 NA
+ATOM      7  C6  CJM d   1      -0.312  18.431  -8.719  0.00  0.00     0.151 A 
+ATOM      8  N8  CJM d   1       0.849  17.953  -6.661  0.00  0.00    -0.042 NA
+ATOM      9  N10 CJM d   1       0.128  20.175  -7.201  0.00  0.00    -0.043 NA
+ATOM     10  H18 CJM d   1      -0.449  15.679 -10.287  0.00  0.00     0.143 H 
+ENDROOT
+BRANCH   2  11
+ATOM     11  N25 CJM d   1       1.344  19.757  -5.271  0.00  0.00    -0.209 N 
+ATOM     12  C30 CJM d   1       1.856  18.786  -4.292  0.00  0.00     0.031 C 
+ATOM     13  C29 CJM d   1       3.096  19.334  -3.591  0.00  0.00    -0.045 C 
+ATOM     14  H13 CJM d   1       2.166  17.887  -4.845  0.00  0.00     0.073 H 
+ATOM     15  C28 CJM d   1       3.256  20.845  -3.719  0.00  0.00    -0.062 C 
+ATOM     16  H24 CJM d   1       3.983  18.853  -4.028  0.00  0.00     0.036 H 
+ATOM     17  H25 CJM d   1       3.031  19.081  -2.522  0.00  0.00     0.036 H 
+ATOM     18  C27 CJM d   1       1.923  21.549  -3.655  0.00  0.00    -0.049 C 
+ATOM     19  H22 CJM d   1       3.892  21.208  -2.898  0.00  0.00     0.033 H 
+ATOM     20  H23 CJM d   1       3.735  21.073  -4.683  0.00  0.00     0.033 H 
+ATOM     21  C26 CJM d   1       1.001  21.084  -4.757  0.00  0.00     0.012 C 
+ATOM     22  H11 CJM d   1       1.453  21.338  -2.683  0.00  0.00     0.035 H 
+ATOM     23  H12 CJM d   1       2.085  22.632  -3.757  0.00  0.00     0.035 H 
+ATOM     24  H20 CJM d   1      -0.026  21.053  -4.364  0.00  0.00     0.065 H 
+ATOM     25  H21 CJM d   1       1.055  21.805  -5.586  0.00  0.00     0.065 H 
+BRANCH  12  26
+ATOM     26  C31 CJM d   1       0.761  18.360  -3.325  0.00  0.00    -0.026 C 
+ATOM     27  H14 CJM d   1      -0.056  19.095  -3.375  0.00  0.00     0.039 H 
+ATOM     28  H15 CJM d   1       1.179  18.344  -2.308  0.00  0.00     0.039 H 
+BRANCH  26  29
+ATOM     29  C32 CJM d   1       0.198  16.997  -3.633  0.00  0.00     0.019 C 
+ATOM     30  H16 CJM d   1      -0.511  17.080  -4.470  0.00  0.00     0.074 H 
+ATOM     31  H17 CJM d   1      -0.327  16.614  -2.745  0.00  0.00     0.074 H 
+BRANCH  29  32
+ATOM     32  O33 CJM d   1       1.218  16.105  -3.983  0.00  0.00    -0.401 OA
+ATOM     33  H26 CJM d   1       1.672  16.430  -4.752  0.00  0.00     0.209 HD
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  12  26
+ENDBRANCH   2  11
+BRANCH   3  34
+ATOM     34  N12 CJM d   1      -1.048  20.680  -9.102  0.00  0.00    -0.365 N 
+ATOM     35  H19 CJM d   1      -1.330  20.420 -10.058  0.00  0.00     0.161 HD
+BRANCH  34  36
+ATOM     36  C13 CJM d   1      -1.358  21.998  -8.627  0.00  0.00     0.049 C 
+ATOM     37  H6  CJM d   1      -2.203  22.401  -9.204  0.00  0.00     0.075 H 
+ATOM     38  H7  CJM d   1      -1.633  21.944  -7.563  0.00  0.00     0.075 H 
+BRANCH  36  39
+ATOM     39  C14 CJM d   1      -0.205  22.882  -8.781  0.00  0.00     0.123 A 
+ATOM     40  N18 CJM d   1       0.451  23.136  -9.893  0.00  0.00    -0.341 N 
+ATOM     41  C17 CJM d   1       1.482  23.987  -9.509  0.00  0.00     0.066 A 
+ATOM     42  H8  CJM d   1       0.246  22.783 -10.839  0.00  0.00     0.167 HD
+ATOM     43  C16 CJM d   1       1.405  24.217  -8.170  0.00  0.00     0.127 A 
+ATOM     44  C19 CJM d   1       2.494  24.577 -10.266  0.00  0.00    -0.052 A 
+ATOM     45  C22 CJM d   1       2.348  25.028  -7.568  0.00  0.00     0.185 A 
+ATOM     46  N15 CJM d   1       0.325  23.514  -7.717  0.00  0.00    -0.228 NA
+ATOM     47  C21 CJM d   1       3.343  25.599  -8.312  0.00  0.00     0.157 A 
+ATOM     48  F23 CJM d   1       2.295  25.243  -6.246  0.00  0.00    -0.200 F 
+ATOM     49  C20 CJM d   1       3.428  25.393  -9.660  0.00  0.00    -0.040 A 
+ATOM     50  F24 CJM d   1       4.271  26.339  -7.688  0.00  0.00    -0.203 F 
+ATOM     51  H10 CJM d   1       4.213  25.861 -10.242  0.00  0.00     0.088 H 
+ATOM     52  H9  CJM d   1       2.547  24.394 -11.333  0.00  0.00     0.087 H 
+ENDBRANCH  36  39
+ENDBRANCH  34  36
+ENDBRANCH   3  34
+BRANCH   4  53
+ATOM     53  C2  CJM d   1       0.891  15.161  -7.803  0.00  0.00    -0.001 C 
+ATOM     54  H4  CJM d   1       1.126  14.448  -8.607  0.00  0.00     0.064 H 
+ATOM     55  H5  CJM d   1       1.815  15.434  -7.273  0.00  0.00     0.064 H 
+BRANCH  53  56
+ATOM     56  C1  CJM d   1      -0.033  14.517  -6.849  0.00  0.00    -0.061 C 
+ATOM     57  H1  CJM d   1       0.442  13.618  -6.429  0.00  0.00     0.029 H 
+ATOM     58  H2  CJM d   1      -0.959  14.233  -7.370  0.00  0.00     0.029 H 
+ATOM     59  H3  CJM d   1      -0.270  15.220  -6.037  0.00  0.00     0.029 H 
+ENDBRANCH  53  56
+ENDBRANCH   4  53
+TORSDOF 9

@@ -1,0 +1,95 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAL_3 
+REMARK    2  A    between atoms: CAL_3  and  OAQ_4 
+REMARK    3  A    between atoms: OAQ_4  and  CAY_5 
+REMARK    4  A    between atoms: CAX_7  and  OAP_8 
+REMARK    5  A    between atoms: OAP_8  and  CAA_9 
+REMARK    6  A    between atoms: CAW_12  and  CBA_13 
+REMARK    7  A    between atoms: CAV_16  and  CAB_17 
+REMARK    8  A    between atoms: CBB_18  and  CBC_19 
+REMARK    9  A    between atoms: CBC_19  and  CAC_20 
+REMARK   10  A    between atoms: CBC_19  and  SAR_21 
+REMARK   11  A    between atoms: SAR_21  and  C2_22 
+REMARK   12  A    between atoms: C6_25  and  NAD_26 
+REMARK   13  A    between atoms: C4_28  and  NAE_29 
+ROOT
+ATOM      1  CBA 2Y8 d   1      22.536  -0.825  -9.350  0.00  0.00     0.108 A 
+ATOM      2  NAO 2Y8 d   1      22.746  -2.011  -9.972  0.00  0.00    -0.243 NA
+ATOM      3  SAS 2Y8 d   1      21.589  -0.994  -8.151  0.00  0.00    -0.072 SA
+ATOM      4  CAV 2Y8 d   1      21.353  -2.544  -8.307  0.00  0.00     0.007 A 
+ATOM      5  CBB 2Y8 d   1      22.054  -2.999  -9.357  0.00  0.00     0.062 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  CAW 2Y8 d   1      23.040   0.366  -9.661  0.00  0.00     0.003 A 
+ATOM      7  CAJ 2Y8 d   1      24.209   0.470 -10.377  0.00  0.00    -0.035 A 
+ATOM      8  CAY 2Y8 d   1      24.685   1.748 -10.682  0.00  0.00     0.103 A 
+ATOM      9  H   2Y8 d   1      24.747  -0.415 -10.696  0.00  0.00     0.089 H 
+ATOM     10  CAX 2Y8 d   1      24.012   2.911 -10.266  0.00  0.00     0.101 A 
+ATOM     11  CAH 2Y8 d   1      22.838   2.785  -9.548  0.00  0.00    -0.047 A 
+ATOM     12  CAG 2Y8 d   1      22.368   1.520  -9.262  0.00  0.00    -0.068 A 
+ATOM     13  H   2Y8 d   1      22.297   3.663  -9.216  0.00  0.00     0.087 H 
+ATOM     14  H   2Y8 d   1      21.442   1.420  -8.707  0.00  0.00     0.085 H 
+BRANCH   8  15
+ATOM     15  OAQ 2Y8 d   1      25.830   1.916 -11.364  0.00  0.00    -0.346 OA
+BRANCH  15  16
+ATOM     16  CAL 2Y8 d   1      25.903   1.101 -12.549  0.00  0.00     0.050 C 
+ATOM     17  H   2Y8 d   1      25.603   0.065 -12.335  0.00  0.00     0.078 H 
+ATOM     18  H   2Y8 d   1      25.267   1.509 -13.348  0.00  0.00     0.078 H 
+BRANCH  16  19
+ATOM     19  CAK 2Y8 d   1      27.344   1.174 -12.922  0.00  0.00     0.078 C 
+ATOM     20  FAF 2Y8 d   1      27.487   0.279 -13.867  0.00  0.00    -0.253 F 
+ATOM     21  H   2Y8 d   1      27.598   2.177 -13.296  0.00  0.00     0.085 H 
+ATOM     22  H   2Y8 d   1      27.981   0.932 -12.059  0.00  0.00     0.085 H 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+BRANCH  10  23
+ATOM     23  OAP 2Y8 d   1      24.546   4.107 -10.609  0.00  0.00    -0.353 OA
+BRANCH  23  24
+ATOM     24  CAA 2Y8 d   1      24.033   5.337 -10.044  0.00  0.00     0.010 C 
+ATOM     25  H   2Y8 d   1      24.598   6.190 -10.448  0.00  0.00     0.066 H 
+ATOM     26  H   2Y8 d   1      24.141   5.311  -8.950  0.00  0.00     0.066 H 
+ATOM     27  H   2Y8 d   1      22.970   5.445 -10.305  0.00  0.00     0.066 H 
+ENDBRANCH  23  24
+ENDBRANCH  10  23
+ENDBRANCH   1   6
+BRANCH   5  28
+ATOM     28  CBC 2Y8 d   1      22.036  -4.501  -9.760  0.00  0.00     0.038 C 
+ATOM     29  H   2Y8 d   1      21.343  -5.020  -9.081  0.00  0.00     0.066 H 
+BRANCH  28  30
+ATOM     30  CAC 2Y8 d   1      21.524  -4.703 -11.201  0.00  0.00    -0.059 C 
+ATOM     31  H   2Y8 d   1      21.527  -5.776 -11.444  0.00  0.00     0.029 H 
+ATOM     32  H   2Y8 d   1      22.180  -4.166 -11.902  0.00  0.00     0.029 H 
+ATOM     33  H   2Y8 d   1      20.499  -4.311 -11.284  0.00  0.00     0.029 H 
+ENDBRANCH  28  30
+BRANCH  28  34
+ATOM     34  SAR 2Y8 d   1      23.666  -5.246  -9.566  0.00  0.00    -0.079 SA
+BRANCH  34  35
+ATOM     35  C2  2Y8 d   1      23.294  -6.964  -9.331  0.00  0.00     0.192 A 
+ATOM     36  N3  2Y8 d   1      22.012  -7.389  -9.369  0.00  0.00    -0.206 NA
+ATOM     37  C4  2Y8 d   1      21.687  -8.677  -9.199  0.00  0.00     0.127 A 
+ATOM     38  C5  2Y8 d   1      22.698  -9.619  -8.969  0.00  0.00     0.005 A 
+ATOM     39  C6  2Y8 d   1      24.007  -9.157  -8.921  0.00  0.00     0.127 A 
+ATOM     40  H   2Y8 d   1      22.467 -10.669  -8.834  0.00  0.00     0.095 H 
+ATOM     41  N1  2Y8 d   1      24.293  -7.838  -9.086  0.00  0.00    -0.206 NA
+BRANCH  37  42
+ATOM     42  NAE 2Y8 d   1      20.407  -9.024  -9.231  0.00  0.00    -0.384 N 
+ATOM     43  H   2Y8 d   1      20.137 -10.010  -9.102  0.00  0.00     0.157 HD
+ATOM     44  H   2Y8 d   1      19.683  -8.308  -9.385  0.00  0.00     0.157 HD
+ENDBRANCH  37  42
+BRANCH  39  45
+ATOM     45  NAD 2Y8 d   1      25.009 -10.002  -8.689  0.00  0.00    -0.384 N 
+ATOM     46  H   2Y8 d   1      24.817 -11.006  -8.561  0.00  0.00     0.157 HD
+ATOM     47  H   2Y8 d   1      25.976  -9.652  -8.638  0.00  0.00     0.157 HD
+ENDBRANCH  39  45
+ENDBRANCH  34  35
+ENDBRANCH  28  34
+ENDBRANCH   5  28
+BRANCH   4  48
+ATOM     48  CAB 2Y8 d   1      20.465  -3.368  -7.399  0.00  0.00    -0.043 C 
+ATOM     49  H   2Y8 d   1      20.477  -4.418  -7.728  0.00  0.00     0.034 H 
+ATOM     50  H   2Y8 d   1      19.436  -2.982  -7.443  0.00  0.00     0.034 H 
+ATOM     51  H   2Y8 d   1      20.837  -3.304  -6.366  0.00  0.00     0.034 H 
+ENDBRANCH   4  48
+TORSDOF 13

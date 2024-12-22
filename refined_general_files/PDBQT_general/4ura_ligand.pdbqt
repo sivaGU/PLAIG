@@ -1,0 +1,30 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4 
+REMARK    2  A    between atoms: C2_7  and  C6_10 
+ROOT
+ATOM      1  C4  LEL d   1     -25.598 -21.859 -23.946  0.00  0.00     0.044 A 
+ATOM      2  C   LEL d   1     -26.586 -22.836 -23.993  0.00  0.00    -0.049 A 
+ATOM      3  C3  LEL d   1     -25.637 -20.747 -23.083  0.00  0.00    -0.036 A 
+ATOM      4  C2  LEL d   1     -26.764 -20.687 -22.244  0.00  0.00     0.089 A 
+ATOM      5  N7  LEL d   1     -27.702 -21.669 -22.292  0.00  0.00    -0.259 NA
+ATOM      6  C1  LEL d   1     -27.639 -22.694 -23.117  0.00  0.00     0.004 A 
+ATOM      7  H1  LEL d   1     -26.530 -23.669 -24.685  0.00  0.00     0.087 H 
+ATOM      8  H2  LEL d   1     -24.857 -19.994 -23.067  0.00  0.00     0.088 H 
+ATOM      9  H3  LEL d   1     -28.428 -23.437 -23.106  0.00  0.00     0.114 H 
+ENDROOT
+BRANCH   4  10
+ATOM     10  C6  LEL d   1     -27.020 -19.621 -21.238  0.00  0.00     0.126 A 
+ATOM     11  N3  LEL d   1     -28.286 -19.408 -20.603  0.00  0.00    -0.154 NA
+ATOM     12  N2  LEL d   1     -28.257 -18.366 -19.847  0.00  0.00    -0.197 N 
+ATOM     13  N1  LEL d   1     -26.999 -17.813 -19.910  0.00  0.00    -0.167 NA
+ATOM     14  H4  LEL d   1     -29.044 -18.007 -19.288  0.00  0.00     0.212 HD
+ATOM     15  C7  LEL d   1     -26.190 -18.573 -20.780  0.00  0.00     0.055 A 
+ATOM     16  H5  LEL d   1     -25.149 -18.391 -21.043  0.00  0.00     0.121 H 
+ENDBRANCH   4  10
+BRANCH   1  17
+ATOM     17  C5  LEL d   1     -24.446 -22.031 -24.787  0.00  0.00     0.209 C 
+ATOM     18  O1  LEL d   1     -24.479 -22.329 -25.967  0.00  0.00    -0.644 OA
+ATOM     19  O   LEL d   1     -23.283 -21.846 -24.113  0.00  0.00    -0.644 OA
+ENDBRANCH   1  17
+TORSDOF 2

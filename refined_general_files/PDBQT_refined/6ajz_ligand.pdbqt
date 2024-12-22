@@ -1,0 +1,90 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_2  and  C13_3 
+REMARK       I    between atoms: C12_2  and  N1_4 
+REMARK    2  A    between atoms: N1_4  and  C11_5 
+REMARK    3  A    between atoms: C5_12  and  O3_19 
+REMARK    4  A    between atoms: C3_13  and  O2_17 
+REMARK    5  A    between atoms: C1_14  and  O1_15 
+REMARK    6  A    between atoms: O1_15  and  C2_16 
+REMARK    7  A    between atoms: O2_17  and  C4_18 
+REMARK    8  A    between atoms: O3_19  and  C6_20 
+REMARK    9  A    between atoms: C17_25  and  O6_28 
+REMARK   10  A    between atoms: O6_28  and  C18_29 
+ROOT
+ATOM      1  C11 LOC d   1     -15.016   8.594  -3.166  0.00  0.00     0.039 C 
+ATOM      2  C14 LOC d   1     -14.584   7.818  -2.007  0.00  0.00    -0.020 A 
+ATOM      3  C15 LOC d   1     -15.533   6.906  -1.523  0.00  0.00    -0.023 A 
+ATOM      4  C10 LOC d   1     -15.448   9.967  -2.820  0.00  0.00    -0.038 C 
+ATOM      5  C9  LOC d   1     -14.402  10.655  -1.945  0.00  0.00    -0.038 C 
+ATOM      6  C8  LOC d   1     -13.082  10.370  -2.383  0.00  0.00    -0.041 A 
+ATOM      7  C7  LOC d   1     -12.369  11.395  -3.028  0.00  0.00    -0.041 A 
+ATOM      8  C5  LOC d   1     -11.062  11.126  -3.483  0.00  0.00     0.104 A 
+ATOM      9  C3  LOC d   1     -10.493   9.896  -3.265  0.00  0.00     0.136 A 
+ATOM     10  C1  LOC d   1     -11.202   8.887  -2.617  0.00  0.00     0.116 A 
+ATOM     11  C22 LOC d   1     -12.513   9.103  -2.162  0.00  0.00     0.017 A 
+ATOM     12  C21 LOC d   1     -13.286   8.060  -1.523  0.00  0.00    -0.014 A 
+ATOM     13  C20 LOC d   1     -12.625   7.425  -0.475  0.00  0.00    -0.069 A 
+ATOM     14  C19 LOC d   1     -13.098   6.371   0.316  0.00  0.00    -0.046 A 
+ATOM     15  C17 LOC d   1     -14.339   5.707   0.339  0.00  0.00     0.118 A 
+ATOM     16  C16 LOC d   1     -15.471   6.001  -0.449  0.00  0.00     0.205 A 
+ATOM     17  O5  LOC d   1     -16.504   5.361  -0.153  0.00  0.00    -0.285 OA
+ATOM     18  H5  LOC d   1     -14.115   8.693  -3.789  0.00  0.00     0.080 H 
+ATOM     19  H6  LOC d   1     -16.475   6.897  -2.070  0.00  0.00     0.090 H 
+ATOM     20  H7  LOC d   1     -16.401   9.919  -2.274  0.00  0.00     0.036 H 
+ATOM     21  H8  LOC d   1     -15.584  10.547  -3.745  0.00  0.00     0.036 H 
+ATOM     22  H9  LOC d   1     -14.517  10.304  -0.909  0.00  0.00     0.040 H 
+ATOM     23  H10 LOC d   1     -14.564  11.742  -1.984  0.00  0.00     0.040 H 
+ATOM     24  H11 LOC d   1     -12.815  12.372  -3.173  0.00  0.00     0.088 H 
+ATOM     25  H21 LOC d   1     -11.625   7.790  -0.244  0.00  0.00     0.085 H 
+ATOM     26  H22 LOC d   1     -12.378   5.999   1.043  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  27
+ATOM     27  N1  LOC d   1     -16.062   7.997  -4.053  0.00  0.00    -0.353 N 
+ATOM     28  C12 LOC d   1     -15.778   7.566  -5.250  0.00  0.00     0.214 C 
+ATOM     29  O4  LOC d   1     -14.634   7.224  -5.538  0.00  0.00    -0.274 OA
+ATOM     30  H4  LOC d   1     -17.002   7.927  -3.720  0.00  0.00     0.163 HD
+BRANCH  28  31
+ATOM     31  C13 LOC d   1     -16.953   7.212  -6.145  0.00  0.00    -0.003 C 
+ATOM     32  H1  LOC d   1     -17.880   7.610  -5.707  0.00  0.00     0.040 H 
+ATOM     33  H2  LOC d   1     -17.030   6.118  -6.234  0.00  0.00     0.040 H 
+ATOM     34  H3  LOC d   1     -16.800   7.651  -7.142  0.00  0.00     0.040 H 
+ENDBRANCH  28  31
+ENDBRANCH   1  27
+BRANCH  15  35
+ATOM     35  O6  LOC d   1     -14.553   4.655   1.192  0.00  0.00    -0.352 OA
+BRANCH  35  36
+ATOM     36  C18 LOC d   1     -13.475   4.030   1.894  0.00  0.00     0.011 C 
+ATOM     37  H23 LOC d   1     -13.868   3.214   2.519  0.00  0.00     0.067 H 
+ATOM     38  H24 LOC d   1     -12.974   4.772   2.533  0.00  0.00     0.067 H 
+ATOM     39  H25 LOC d   1     -12.754   3.623   1.171  0.00  0.00     0.067 H 
+ENDBRANCH  35  36
+ENDBRANCH  15  35
+BRANCH  10  40
+ATOM     40  O1  LOC d   1     -10.584   7.677  -2.433  0.00  0.00    -0.352 OA
+BRANCH  40  41
+ATOM     41  C2  LOC d   1     -10.666   6.850  -3.579  0.00  0.00     0.011 C 
+ATOM     42  H12 LOC d   1     -10.157   5.896  -3.380  0.00  0.00     0.067 H 
+ATOM     43  H13 LOC d   1     -10.182   7.353  -4.429  0.00  0.00     0.067 H 
+ATOM     44  H14 LOC d   1     -11.723   6.659  -3.818  0.00  0.00     0.067 H 
+ENDBRANCH  40  41
+ENDBRANCH  10  40
+BRANCH   9  45
+ATOM     45  O2  LOC d   1      -9.213   9.636  -3.708  0.00  0.00    -0.351 OA
+BRANCH  45  46
+ATOM     46  C4  LOC d   1      -8.200  10.043  -2.828  0.00  0.00     0.011 C 
+ATOM     47  H15 LOC d   1      -7.219   9.798  -3.260  0.00  0.00     0.067 H 
+ATOM     48  H16 LOC d   1      -8.318   9.522  -1.867  0.00  0.00     0.067 H 
+ATOM     49  H17 LOC d   1      -8.269  11.129  -2.667  0.00  0.00     0.067 H 
+ENDBRANCH  45  46
+ENDBRANCH   9  45
+BRANCH   8  50
+ATOM     50  O3  LOC d   1     -10.239  12.044  -4.128  0.00  0.00    -0.353 OA
+BRANCH  50  51
+ATOM     51  C6  LOC d   1     -10.888  13.288  -4.385  0.00  0.00     0.010 C 
+ATOM     52  H18 LOC d   1     -10.189  13.968  -4.894  0.00  0.00     0.066 H 
+ATOM     53  H19 LOC d   1     -11.209  13.737  -3.434  0.00  0.00     0.066 H 
+ATOM     54  H20 LOC d   1     -11.766  13.118  -5.025  0.00  0.00     0.066 H 
+ENDBRANCH  50  51
+ENDBRANCH   8  50
+TORSDOF 10

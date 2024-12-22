@@ -1,0 +1,141 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  C2_1 
+REMARK    2  A    between atoms: C4_3  and  C3_2 
+REMARK    3  A    between atoms: C5_4  and  C4_3 
+REMARK    4  A    between atoms: C6_5  and  C5_4 
+REMARK    5  A    between atoms: C7_6  and  C6_5 
+REMARK    6  A    between atoms: C8_7  and  C7_6 
+REMARK    7  A    between atoms: C23_22  and  C8_7 
+REMARK    8  A    between atoms: C10_9  and  O9_8 
+REMARK    9  A    between atoms: C10_9  and  C11_10 
+REMARK   10  A    between atoms: C10_9  and  C12_11 
+REMARK   11  A    between atoms: C13_12  and  C10_9 
+REMARK   12  A    between atoms: C14_13  and  C13_12 
+REMARK   13  A    between atoms: C15_14  and  C14_13 
+REMARK   14  A    between atoms: C16_15  and  C15_14 
+REMARK   15  A    between atoms: C17_16  and  C16_15 
+REMARK   16  A    between atoms: C18_17  and  C17_16 
+REMARK   17  A    between atoms: C24_23  and  C25_24 
+REMARK   18  A    between atoms: C29_28  and  O30_29 
+REMARK   19  A    between atoms: C32_31  and  O33_32 
+ROOT
+ATOM      1  C8  DZT d   1       0.517  34.934  39.053  0.00  0.00    -0.048 C 
+ATOM      2  C24 DZT d   1       1.039  36.183  38.931  0.00  0.00    -0.075 C 
+ATOM      3  H35 DZT d   1       2.121  36.254  39.032  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C7  DZT d   1      -0.935  34.569  38.937  0.00  0.00    -0.040 C 
+ATOM      5  H12 DZT d   1      -1.140  33.766  39.660  0.00  0.00     0.040 H 
+ATOM      6  H13 DZT d   1      -1.528  35.458  39.198  0.00  0.00     0.040 H 
+BRANCH   4   7
+ATOM      7  C6  DZT d   1      -1.390  34.089  37.563  0.00  0.00    -0.061 C 
+ATOM      8  H10 DZT d   1      -0.560  33.541  37.094  0.00  0.00     0.033 H 
+ATOM      9  H11 DZT d   1      -2.247  33.412  37.698  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  C5  DZT d   1      -1.809  35.214  36.632  0.00  0.00    -0.065 C 
+ATOM     11  H8  DZT d   1      -2.766  35.623  36.989  0.00  0.00     0.033 H 
+ATOM     12  H9  DZT d   1      -1.039  35.999  36.666  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C4  DZT d   1      -1.983  34.774  35.187  0.00  0.00    -0.065 C 
+ATOM     14  H6  DZT d   1      -2.440  35.605  34.629  0.00  0.00     0.033 H 
+ATOM     15  H7  DZT d   1      -0.987  34.558  34.773  0.00  0.00     0.033 H 
+BRANCH  13  16
+ATOM     16  C3  DZT d   1      -2.848  33.547  34.996  0.00  0.00    -0.069 C 
+ATOM     17  H4  DZT d   1      -2.442  32.732  35.613  0.00  0.00     0.032 H 
+ATOM     18  H5  DZT d   1      -3.870  33.783  35.327  0.00  0.00     0.032 H 
+BRANCH  16  19
+ATOM     19  C2  DZT d   1      -2.901  33.085  33.560  0.00  0.00    -0.077 C 
+ATOM     20  H1  DZT d   1      -3.542  32.194  33.485  0.00  0.00     0.027 H 
+ATOM     21  H2  DZT d   1      -1.886  32.836  33.217  0.00  0.00     0.027 H 
+ATOM     22  H3  DZT d   1      -3.314  33.888  32.931  0.00  0.00     0.027 H 
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  C23 DZT d   1       1.493  33.852  39.341  0.00  0.00    -0.029 A 
+ATOM     24  C19 DZT d   1       1.397  32.625  38.690  0.00  0.00    -0.067 A 
+ATOM     25  C18 DZT d   1       2.319  31.611  38.934  0.00  0.00    -0.057 A 
+ATOM     26  H31 DZT d   1       0.593  32.457  37.983  0.00  0.00     0.085 H 
+ATOM     27  C20 DZT d   1       3.336  31.838  39.847  0.00  0.00    -0.077 A 
+ATOM     28  C21 DZT d   1       3.439  33.051  40.501  0.00  0.00    -0.082 A 
+ATOM     29  H32 DZT d   1       4.059  31.056  40.050  0.00  0.00     0.084 H 
+ATOM     30  C22 DZT d   1       2.524  34.056  40.251  0.00  0.00    -0.072 A 
+ATOM     31  H33 DZT d   1       4.240  33.215  41.212  0.00  0.00     0.083 H 
+ATOM     32  H34 DZT d   1       2.610  35.006  40.766  0.00  0.00     0.084 H 
+BRANCH  25  33
+ATOM     33  C17 DZT d   1       2.219  30.301  38.190  0.00  0.00    -0.041 C 
+ATOM     34  H29 DZT d   1       2.686  29.516  38.803  0.00  0.00     0.040 H 
+ATOM     35  H30 DZT d   1       1.155  30.066  38.042  0.00  0.00     0.040 H 
+BRANCH  33  36
+ATOM     36  C16 DZT d   1       2.906  30.319  36.822  0.00  0.00    -0.061 C 
+ATOM     37  H27 DZT d   1       2.516  29.478  36.230  0.00  0.00     0.033 H 
+ATOM     38  H28 DZT d   1       2.654  31.267  36.323  0.00  0.00     0.033 H 
+BRANCH  36  39
+ATOM     39  C15 DZT d   1       4.421  30.199  36.877  0.00  0.00    -0.065 C 
+ATOM     40  H25 DZT d   1       4.788  30.845  37.688  0.00  0.00     0.033 H 
+ATOM     41  H26 DZT d   1       4.675  29.152  37.099  0.00  0.00     0.033 H 
+BRANCH  39  42
+ATOM     42  C14 DZT d   1       5.132  30.599  35.593  0.00  0.00    -0.062 C 
+ATOM     43  H23 DZT d   1       5.053  31.690  35.477  0.00  0.00     0.033 H 
+ATOM     44  H24 DZT d   1       6.191  30.315  35.678  0.00  0.00     0.033 H 
+BRANCH  42  45
+ATOM     45  C13 DZT d   1       4.553  29.937  34.346  0.00  0.00    -0.037 C 
+ATOM     46  H21 DZT d   1       3.728  29.283  34.664  0.00  0.00     0.037 H 
+ATOM     47  H22 DZT d   1       4.160  30.731  33.694  0.00  0.00     0.037 H 
+BRANCH  45  48
+ATOM     48  C10 DZT d   1       5.526  29.097  33.525  0.00  0.00     0.051 C 
+BRANCH  48  49
+ATOM     49  O9  DZT d   1       5.872  27.936  34.304  0.00  0.00    -0.391 OA
+ATOM     50  H14 DZT d   1       5.085  27.442  34.500  0.00  0.00     0.210 HD
+ENDBRANCH  48  49
+BRANCH  48  51
+ATOM     51  C11 DZT d   1       6.808  29.862  33.231  0.00  0.00    -0.048 C 
+ATOM     52  H15 DZT d   1       6.573  30.756  32.635  0.00  0.00     0.031 H 
+ATOM     53  H16 DZT d   1       7.499  29.217  32.667  0.00  0.00     0.031 H 
+ATOM     54  H17 DZT d   1       7.279  30.165  34.178  0.00  0.00     0.031 H 
+ENDBRANCH  48  51
+BRANCH  48  55
+ATOM     55  C12 DZT d   1       4.881  28.614  32.235  0.00  0.00    -0.048 C 
+ATOM     56  H18 DZT d   1       4.605  29.481  31.616  0.00  0.00     0.031 H 
+ATOM     57  H19 DZT d   1       3.979  28.030  32.472  0.00  0.00     0.031 H 
+ATOM     58  H20 DZT d   1       5.593  27.982  31.683  0.00  0.00     0.031 H 
+ENDBRANCH  48  55
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  33  36
+ENDBRANCH  25  33
+ENDBRANCH   1  23
+BRANCH   2  59
+ATOM     59  C25 DZT d   1       0.360  37.413  38.688  0.00  0.00    -0.076 C 
+ATOM     60  C26 DZT d   1       0.914  38.610  38.338  0.00  0.00    -0.048 C 
+ATOM     61  C27 DZT d   1       2.339  38.853  38.081  0.00  0.00    -0.033 C 
+ATOM     62  C34 DZT d   1       0.029  39.816  38.119  0.00  0.00    -0.016 C 
+ATOM     63  C28 DZT d   1       3.073  38.066  37.319  0.00  0.00    -0.113 C 
+ATOM     64  C29 DZT d   1       2.867  40.095  38.759  0.00  0.00     0.063 C 
+ATOM     65  H37 DZT d   1       2.629  37.184  36.859  0.00  0.00     0.067 H 
+ATOM     66  H38 DZT d   1       4.123  38.298  37.149  0.00  0.00     0.067 H 
+ATOM     67  C31 DZT d   1       2.024  41.274  38.298  0.00  0.00    -0.013 C 
+ATOM     68  H39 DZT d   1       2.805  39.990  39.852  0.00  0.00     0.090 H 
+ATOM     69  C32 DZT d   1       0.590  41.078  38.747  0.00  0.00     0.042 C 
+ATOM     70  H41 DZT d   1       2.058  41.342  37.201  0.00  0.00     0.041 H 
+ATOM     71  H42 DZT d   1       2.421  42.202  38.736  0.00  0.00     0.041 H 
+ATOM     72  H43 DZT d   1      -0.009  41.938  38.413  0.00  0.00     0.083 H 
+ATOM     73  H45 DZT d   1      -0.958  39.613  38.560  0.00  0.00     0.043 H 
+ATOM     74  H46 DZT d   1      -0.080  39.980  37.037  0.00  0.00     0.043 H 
+ATOM     75  H36 DZT d   1      -0.724  37.395  38.794  0.00  0.00     0.084 H 
+BRANCH  64  76
+ATOM     76  O30 DZT d   1       4.223  40.284  38.364  0.00  0.00    -0.391 OA
+ATOM     77  H40 DZT d   1       4.266  40.386  37.420  0.00  0.00     0.210 HD
+ENDBRANCH  64  76
+BRANCH  69  78
+ATOM     78  O33 DZT d   1       0.528  41.001  40.173  0.00  0.00    -0.395 OA
+ATOM     79  H44 DZT d   1      -0.374  40.878  40.443  0.00  0.00     0.210 HD
+ENDBRANCH  69  78
+ENDBRANCH   2  59
+TORSDOF 19

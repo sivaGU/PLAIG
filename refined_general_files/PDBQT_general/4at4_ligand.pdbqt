@@ -1,0 +1,63 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBB_8  and  CAZ_9 
+REMARK    2  A    between atoms: CAX_14  and  NAT_15 
+REMARK       I    between atoms: NAT_15  and  CAV_16 
+REMARK       I    between atoms: CAV_16  and  NAU_18 
+REMARK    3  A    between atoms: NAU_18  and  CAY_19 
+REMARK    4  A    between atoms: CBA_24  and  CBG_25 
+ROOT
+ATOM      1  CAZ T6E d   1      53.258  29.275  18.537  0.00  0.00    -0.024 A 
+ATOM      2  CAO T6E d   1      53.226  30.579  19.124  0.00  0.00    -0.070 A 
+ATOM      3  CAM T6E d   1      54.392  31.080  19.778  0.00  0.00    -0.056 A 
+ATOM      4  CAN T6E d   1      54.437  28.474  18.583  0.00  0.00    -0.070 A 
+ATOM      5  CAL T6E d   1      55.588  28.959  19.227  0.00  0.00    -0.056 A 
+ATOM      6  CAX T6E d   1      55.587  30.281  19.828  0.00  0.00     0.036 A 
+ATOM      7  H4  T6E d   1      52.326  31.181  19.073  0.00  0.00     0.084 H 
+ATOM      8  H5  T6E d   1      54.377  32.062  20.237  0.00  0.00     0.086 H 
+ATOM      9  H6  T6E d   1      54.445  27.493  18.122  0.00  0.00     0.084 H 
+ATOM     10  H7  T6E d   1      56.480  28.344  19.275  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  NAT T6E d   1      56.742  30.818  20.500  0.00  0.00    -0.309 N 
+ATOM     12  CAV T6E d   1      58.081  30.350  20.527  0.00  0.00     0.325 C 
+ATOM     13  OAD T6E d   1      58.469  29.357  19.943  0.00  0.00    -0.247 OA
+ATOM     14  NAU T6E d   1      58.945  31.141  21.311  0.00  0.00    -0.306 N 
+ATOM     15  H9  T6E d   1      58.658  32.074  21.530  0.00  0.00     0.171 HD
+ATOM     16  H8  T6E d   1      56.574  31.649  21.030  0.00  0.00     0.170 HD
+BRANCH  14  17
+ATOM     17  CAY T6E d   1      60.197  30.695  21.808  0.00  0.00     0.075 A 
+ATOM     18  CAP T6E d   1      61.192  30.111  20.963  0.00  0.00    -0.039 A 
+ATOM     19  CBA T6E d   1      62.418  29.682  21.511  0.00  0.00     0.050 A 
+ATOM     20  H10 T6E d   1      61.004  29.998  19.901  0.00  0.00     0.088 H 
+ATOM     21  CAK T6E d   1      62.699  29.835  22.899  0.00  0.00    -0.065 A 
+ATOM     22  CAH T6E d   1      61.732  30.423  23.763  0.00  0.00    -0.043 A 
+ATOM     23  H12 T6E d   1      63.651  29.503  23.298  0.00  0.00     0.084 H 
+ATOM     24  CAJ T6E d   1      60.483  30.846  23.213  0.00  0.00     0.143 A 
+ATOM     25  H11 T6E d   1      61.940  30.548  24.820  0.00  0.00     0.088 H 
+ATOM     26  F1  T6E d   1      59.576  31.391  24.008  0.00  0.00    -0.204 F 
+BRANCH  19  27
+ATOM     27  CBG T6E d   1      63.461  29.053  20.608  0.00  0.00     0.417 C 
+ATOM     28  FAF T6E d   1      64.310  29.894  20.038  0.00  0.00    -0.166 F 
+ATOM     29  FAG T6E d   1      62.927  28.379  19.579  0.00  0.00    -0.166 F 
+ATOM     30  FAE T6E d   1      64.240  28.164  21.211  0.00  0.00    -0.166 F 
+ENDBRANCH  19  27
+ENDBRANCH  14  17
+ENDBRANCH   6  11
+BRANCH   1  31
+ATOM     31  CBB T6E d   1      52.156  28.644  17.869  0.00  0.00    -0.003 A 
+ATOM     32  C5  T6E d   1      52.053  28.398  16.469  0.00  0.00     0.057 A 
+ATOM     33  C4  T6E d   1      52.906  28.696  15.323  0.00  0.00     0.136 A 
+ATOM     34  C6  T6E d   1      50.821  27.703  16.180  0.00  0.00     0.113 A 
+ATOM     35  N3  T6E d   1      52.521  28.314  14.022  0.00  0.00    -0.224 NA
+ATOM     36  NBF T6E d   1      54.099  29.355  15.409  0.00  0.00    -0.383 N 
+ATOM     37  C2  T6E d   1      51.310  27.640  13.913  0.00  0.00     0.090 A 
+ATOM     38  N1  T6E d   1      50.408  27.315  14.924  0.00  0.00    -0.234 NA
+ATOM     39  H3  T6E d   1      51.032  27.327  12.913  0.00  0.00     0.146 H 
+ATOM     40  H1  T6E d   1      54.652  29.533  14.558  0.00  0.00     0.157 HD
+ATOM     41  H2  T6E d   1      54.446  29.674  16.325  0.00  0.00     0.157 HD
+ATOM     42  S   T6E d   1      49.908  27.412  17.600  0.00  0.00    -0.080 SA
+ATOM     43  C8  T6E d   1      51.098  28.173  18.559  0.00  0.00    -0.031 A 
+ATOM     44  H13 T6E d   1      51.010  28.270  19.640  0.00  0.00     0.096 H 
+ENDBRANCH   1  31
+TORSDOF 4

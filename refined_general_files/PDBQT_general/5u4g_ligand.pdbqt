@@ -1,0 +1,58 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  B02_20 
+REMARK    2  A    between atoms: C04_4  and  C07_7 
+REMARK    3  A    between atoms: C08_8  and  C09_9 
+REMARK    4  A    between atoms: C11_11  and  B01_19 
+REMARK    5  A    between atoms: B01_19  and  O01_15 
+REMARK    6  A    between atoms: B01_19  and  O02_16 
+REMARK    7  A    between atoms: B02_20  and  O04_17 
+ROOT
+ATOM      1  C07 7UV d   1     -21.673  -0.098 -24.925  0.00  0.00    -0.071 C 
+ATOM      2  C08 7UV d   1     -20.985   0.467 -25.840  0.00  0.00    -0.072 C 
+ATOM      3  H   7UV d   1     -22.399  -0.839 -25.258  0.00  0.00     0.084 H 
+ATOM      4  H   7UV d   1     -20.246   1.203 -25.524  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   2   5
+ATOM      5  C09 7UV d   1     -21.108   0.200 -27.344  0.00  0.00    -0.036 A 
+ATOM      6  C10 7UV d   1     -20.376   0.823 -28.388  0.00  0.00    -0.072 A 
+ATOM      7  C11 7UV d   1     -20.493   0.576 -29.794  0.00  0.00    -0.032 A 
+ATOM      8  H   7UV d   1     -19.644   1.572 -28.087  0.00  0.00     0.084 H 
+ATOM      9  C12 7UV d   1     -21.465  -0.402 -30.127  0.00  0.00    -0.082 A 
+ATOM     10  C13 7UV d   1     -22.240  -1.064 -29.151  0.00  0.00    -0.082 A 
+ATOM     11  H   7UV d   1     -21.619  -0.652 -31.177  0.00  0.00     0.083 H 
+ATOM     12  C14 7UV d   1     -22.064  -0.759 -27.791  0.00  0.00    -0.073 A 
+ATOM     13  H   7UV d   1     -22.974  -1.811 -29.452  0.00  0.00     0.083 H 
+ATOM     14  H   7UV d   1     -22.679  -1.273 -27.052  0.00  0.00     0.084 H 
+BRANCH   7  15
+ATOM     15  B01 7UV d   1     -19.561   1.363 -30.959  0.00  0.00     0.529 B 
+BRANCH  15  16
+ATOM     16  O01 7UV d   1     -20.155   1.826 -32.157  0.00  0.00    -0.433 OA
+ATOM     17  H   7UV d   1     -20.040   2.777 -32.223  0.00  0.00     0.185 HD
+ENDBRANCH  15  16
+BRANCH  15  18
+ATOM     18  O02 7UV d   1     -18.147   1.576 -30.757  0.00  0.00    -0.433 OA
+ATOM     19  H   7UV d   1     -17.961   2.518 -30.773  0.00  0.00     0.185 HD
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+ENDBRANCH   2   5
+BRANCH   1  20
+ATOM     20  C04 7UV d   1     -21.598   0.144 -23.409  0.00  0.00    -0.015 A 
+ATOM     21  C03 7UV d   1     -21.506   1.493 -22.955  0.00  0.00    -0.072 A 
+ATOM     22  C02 7UV d   1     -21.435   1.876 -21.592  0.00  0.00    -0.085 A 
+ATOM     23  H   7UV d   1     -21.489   2.282 -23.706  0.00  0.00     0.084 H 
+ATOM     24  C01 7UV d   1     -21.475   0.929 -20.534  0.00  0.00    -0.070 A 
+ATOM     25  H   7UV d   1     -21.347   2.934 -21.347  0.00  0.00     0.082 H 
+ATOM     26  C06 7UV d   1     -21.592  -0.411 -21.006  0.00  0.00    -0.064 A 
+ATOM     27  C05 7UV d   1     -21.650  -0.825 -22.368  0.00  0.00     0.043 A 
+ATOM     28  H   7UV d   1     -21.642  -1.196 -20.251  0.00  0.00     0.085 H 
+ATOM     29 CL01 7UV d   1     -21.775  -2.556 -22.730  0.00  0.00    -0.083 Cl
+BRANCH  24  30
+ATOM     30  B02 7UV d   1     -21.442   1.241 -18.881  0.00  0.00     0.359 B 
+BRANCH  30  31
+ATOM     31  O04 7UV d   1     -20.740   0.438 -17.958  0.00  0.00    -0.463 OA
+ATOM     32  H   7UV d   1     -20.855   0.794 -17.074  0.00  0.00     0.182 HD
+ENDBRANCH  30  31
+ENDBRANCH  24  30
+ENDBRANCH   1  20
+TORSDOF 7

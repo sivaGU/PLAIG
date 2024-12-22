@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAL_2 
+REMARK    2  A    between atoms: CAL_2  and  CAB_3 
+REMARK    3  A    between atoms: CAL_2  and  CAC_4 
+REMARK    4  A    between atoms: CAL_2  and  CAK_5 
+REMARK    5  A    between atoms: CAJ_7  and  OAE_8 
+REMARK    6  A    between atoms: CAI_9  and  OAD_10 
+ROOT
+ATOM      1  CAK EKZ d   1      12.453   7.087  41.543  0.00  0.00    -0.048 A 
+ATOM      2  CAH EKZ d   1      12.974   8.216  42.178  0.00  0.00    -0.041 A 
+ATOM      3  CAJ EKZ d   1      12.928   9.387  41.484  0.00  0.00     0.099 A 
+ATOM      4  CAI EKZ d   1      12.381   9.402  40.201  0.00  0.00     0.098 A 
+ATOM      5  CAF EKZ d   1      11.877   8.270  39.606  0.00  0.00    -0.048 A 
+ATOM      6  CAG EKZ d   1      11.908   7.087  40.279  0.00  0.00    -0.073 A 
+ATOM      7  H   EKZ d   1      13.395   8.163  43.175  0.00  0.00     0.088 H 
+ATOM      8  H   EKZ d   1      11.458   8.319  38.608  0.00  0.00     0.087 H 
+ATOM      9  H   EKZ d   1      11.518   6.178  39.836  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CAL EKZ d   1      12.504   5.972  42.170  0.00  0.00    -0.024 C 
+BRANCH  10  11
+ATOM     11  CAA EKZ d   1      12.443   4.886  41.159  0.00  0.00    -0.066 C 
+ATOM     12  H   EKZ d   1      12.485   3.911  41.666  0.00  0.00     0.028 H 
+ATOM     13  H   EKZ d   1      13.296   4.978  40.470  0.00  0.00     0.028 H 
+ATOM     14  H   EKZ d   1      11.504   4.965  40.592  0.00  0.00     0.028 H 
+ENDBRANCH  10  11
+BRANCH  10  15
+ATOM     15  CAB EKZ d   1      13.858   5.964  42.788  0.00  0.00    -0.066 C 
+ATOM     16  H   EKZ d   1      13.922   6.763  43.541  0.00  0.00     0.028 H 
+ATOM     17  H   EKZ d   1      14.617   6.132  42.010  0.00  0.00     0.028 H 
+ATOM     18  H   EKZ d   1      14.035   4.991  43.270  0.00  0.00     0.028 H 
+ENDBRANCH  10  15
+BRANCH  10  19
+ATOM     19  CAC EKZ d   1      11.343   5.932  43.140  0.00  0.00    -0.066 C 
+ATOM     20  H   EKZ d   1      10.396   5.942  42.580  0.00  0.00     0.028 H 
+ATOM     21  H   EKZ d   1      11.387   6.810  43.801  0.00  0.00     0.028 H 
+ATOM     22  H   EKZ d   1      11.402   5.015  43.745  0.00  0.00     0.028 H 
+ENDBRANCH  10  19
+ENDBRANCH   1  10
+BRANCH   3  23
+ATOM     23  OAE EKZ d   1      13.416  10.519  42.021  0.00  0.00    -0.358 OA
+ATOM     24  H   EKZ d   1      13.304  11.234  41.406  0.00  0.00     0.217 HD
+ENDBRANCH   3  23
+BRANCH   4  25
+ATOM     25  OAD EKZ d   1      12.333  10.562  39.525  0.00  0.00    -0.358 OA
+ATOM     26  H   EKZ d   1      11.937  10.415  38.674  0.00  0.00     0.217 HD
+ENDBRANCH   4  25
+TORSDOF 6

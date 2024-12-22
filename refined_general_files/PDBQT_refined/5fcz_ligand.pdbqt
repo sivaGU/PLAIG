@@ -1,0 +1,55 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_10  and  C2_3 
+REMARK    2  A    between atoms: C3_4  and  O3_11 
+REMARK    3  A    between atoms: C4_5  and  O4_12 
+REMARK    4  A    between atoms: C5_6  and  C6_7 
+REMARK    5  A    between atoms: C6_7  and  O6_14 
+REMARK    6  A    between atoms: C7_8  and  C8_9 
+REMARK    7  A    between atoms: C7_8  and  N2_10 
+ROOT
+ATOM      1  C1  TNX d   1      -5.793  66.632  10.283  0.00  0.00     0.041 C 
+ATOM      2  C2  TNX d   1      -6.147  66.735   9.020  0.00  0.00     0.058 C 
+ATOM      3  C3  TNX d   1      -5.298  67.575   8.057  0.00  0.00     0.084 C 
+ATOM      4  C4  TNX d   1      -4.055  68.030   8.860  0.00  0.00     0.089 C 
+ATOM      5  C5  TNX d   1      -3.513  66.854   9.703  0.00  0.00     0.086 C 
+ATOM      6  O5  TNX d   1      -4.507  66.284  10.576  0.00  0.00    -0.379 OA
+ATOM      7  H1  TNX d   1      -6.446  65.875  10.742  0.00  0.00     0.077 H 
+ATOM      8  H2  TNX d   1      -5.979  67.609  10.752  0.00  0.00     0.077 H 
+ATOM      9  H3  TNX d   1      -6.838  67.566   9.226  0.00  0.00     0.079 H 
+ATOM     10  H4  TNX d   1      -4.966  66.948   7.216  0.00  0.00     0.090 H 
+ATOM     11  H5  TNX d   1      -4.332  68.856   9.532  0.00  0.00     0.091 H 
+ATOM     12  H6  TNX d   1      -3.142  66.074   9.022  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   2  13
+ATOM     13  N2  TNX d   1      -7.191  65.904   8.490  0.00  0.00    -0.375 N 
+ATOM     14  H12 TNX d   1      -8.118  66.234   8.309  0.00  0.00     0.160 HD
+BRANCH  13  15
+ATOM     15  C7  TNX d   1      -6.804  64.654   8.264  0.00  0.00     0.070 C 
+ATOM     16  S7  TNX d   1      -5.384  64.184   9.001  0.00  0.00    -0.066 SA
+BRANCH  15  17
+ATOM     17  C8  TNX d   1      -7.558  63.720   7.341  0.00  0.00    -0.028 C 
+ATOM     18  H9  TNX d   1      -8.460  64.225   6.965  0.00  0.00     0.036 H 
+ATOM     19  H10 TNX d   1      -7.848  62.814   7.893  0.00  0.00     0.036 H 
+ATOM     20  H11 TNX d   1      -6.914  63.443   6.494  0.00  0.00     0.036 H 
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   2  13
+BRANCH   3  21
+ATOM     21  O3  TNX d   1      -6.054  68.628   7.537  0.00  0.00    -0.391 OA
+ATOM     22  H13 TNX d   1      -6.796  68.278   7.059  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   4  23
+ATOM     23  O4  TNX d   1      -3.093  68.471   7.957  0.00  0.00    -0.390 OA
+ATOM     24  H14 TNX d   1      -2.324  68.762   8.432  0.00  0.00     0.210 HD
+ENDBRANCH   4  23
+BRANCH   5  25
+ATOM     25  C6  TNX d   1      -2.379  67.351  10.587  0.00  0.00     0.043 C 
+ATOM     26  H7  TNX d   1      -2.795  67.815  11.493  0.00  0.00     0.078 H 
+ATOM     27  H8  TNX d   1      -1.781  68.092  10.037  0.00  0.00     0.078 H 
+BRANCH  25  28
+ATOM     28  O6  TNX d   1      -1.566  66.267  10.947  0.00  0.00    -0.398 OA
+ATOM     29  H15 TNX d   1      -1.208  65.867  10.163  0.00  0.00     0.209 HD
+ENDBRANCH  25  28
+ENDBRANCH   5  25
+TORSDOF 7

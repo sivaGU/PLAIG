@@ -1,0 +1,35 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  NAF_2 
+REMARK       I    between atoms: NAF_2  and  CAI_3 
+REMARK       I    between atoms: CAI_3  and  NAG_5 
+REMARK       I    between atoms: NAG_5  and  CAH_6 
+REMARK       I    between atoms: CAH_6  and  NAC_7 
+REMARK    2  A    between atoms: NAE_8  and  CAA_9 
+ROOT
+ATOM      1  NAF XRG d   1      89.735  68.057  -3.550  0.00  0.00    -0.347 N 
+ATOM      2  CAI XRG d   1      90.754  68.909  -3.466  0.00  0.00     0.334 C 
+ATOM      3  OAD XRG d   1      91.584  68.838  -2.560  0.00  0.00    -0.247 OA
+ATOM      4  NAG XRG d   1      90.815  69.861  -4.409  0.00  0.00    -0.142 N 
+ATOM      5  CAH XRG d   1      91.743  70.809  -4.514  0.00  0.00     0.675 C 
+ATOM      6  NAC XRG d   1      92.761  70.864  -3.659  0.00  0.00    -0.235 N 
+ATOM      7  NAE XRG d   1      91.662  71.698  -5.501  0.00  0.00    -0.231 N 
+ATOM      8  H4  XRG d   1      89.059  68.128  -4.284  0.00  0.00     0.163 HD
+ATOM      9  H5  XRG d   1      90.093  69.858  -5.101  0.00  0.00     0.189 HD
+ATOM     10  H6  XRG d   1      93.472  71.603  -3.752  0.00  0.00     0.174 HD
+ATOM     11  H7  XRG d   1      92.838  70.167  -2.904  0.00  0.00     0.174 HD
+ATOM     12  H8  XRG d   1      90.868  71.617  -6.152  0.00  0.00     0.177 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  CAB XRG d   1      89.639  67.008  -2.525  0.00  0.00    -0.017 C 
+ATOM     14  H1  XRG d   1      88.755  66.384  -2.721  0.00  0.00     0.056 H 
+ATOM     15  H2  XRG d   1      89.547  67.473  -1.532  0.00  0.00     0.056 H 
+ATOM     16  H3  XRG d   1      90.543  66.382  -2.555  0.00  0.00     0.056 H 
+ENDBRANCH   1  13
+BRANCH   7  17
+ATOM     17  CAA XRG d   1      92.623  72.787  -5.729  0.00  0.00    -0.005 C 
+ATOM     18  H9  XRG d   1      92.316  73.369  -6.610  0.00  0.00     0.057 H 
+ATOM     19  H10 XRG d   1      93.624  72.363  -5.900  0.00  0.00     0.057 H 
+ATOM     20  H11 XRG d   1      92.649  73.444  -4.847  0.00  0.00     0.057 H 
+ENDBRANCH   7  17
+TORSDOF 2

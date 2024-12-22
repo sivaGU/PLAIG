@@ -1,0 +1,77 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O3A_4 
+REMARK    2  A    between atoms: PA_1  and  O5'_13 
+REMARK    3  A    between atoms: O3A_4  and  PB_5 
+REMARK    4  A    between atoms: PB_5  and  O3B_8 
+REMARK    5  A    between atoms: O3B_8  and  PG_9 
+REMARK    6  A    between atoms: O5'_13  and  C5'_14 
+REMARK    7  A    between atoms: C5'_14  and  C4'_15 
+REMARK    8  A    between atoms: C3'_17  and  O3'_18 
+REMARK    9  A    between atoms: C1'_20  and  N1_21 
+REMARK   10  A    between atoms: C5_27  and  C5M_28 
+ROOT
+ATOM      1  C4' TTP d   1     248.516 465.428 100.413  0.00  0.00     0.087 C 
+ATOM      2  O4' TTP d   1     247.529 465.828 101.355  0.00  0.00    -0.356 OA
+ATOM      3  C3' TTP d   1     249.851 465.755 101.080  0.00  0.00     0.066 C 
+ATOM      4  C2' TTP d   1     249.524 466.866 102.073  0.00  0.00     0.002 C 
+ATOM      5  C1' TTP d   1     248.001 467.015 101.985  0.00  0.00     0.116 C 
+ATOM      6  H3  TTP d   1     248.426 466.046  99.508  0.00  0.00     0.090 H 
+ATOM      7  H4  TTP d   1     250.248 464.876 101.609  0.00  0.00     0.087 H 
+ATOM      8  H6  TTP d   1     250.024 467.803 101.788  0.00  0.00     0.043 H 
+ATOM      9  H7  TTP d   1     249.830 466.582 103.091  0.00  0.00     0.043 H 
+ATOM     10  H8  TTP d   1     247.786 467.879 101.339  0.00  0.00     0.118 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C5' TTP d   1     248.302 463.978  99.986  0.00  0.00     0.058 C 
+ATOM     12  H1  TTP d   1     247.262 463.851  99.650  0.00  0.00     0.079 H 
+ATOM     13  H2  TTP d   1     248.987 463.741  99.158  0.00  0.00     0.079 H 
+BRANCH  11  14
+ATOM     14  O5' TTP d   1     248.555 463.085 101.072  0.00  0.00    -0.287 OA
+BRANCH  14  15
+ATOM     15  PA  TTP d   1     249.079 461.591 100.823  0.00  0.00     0.417 P 
+ATOM     16  O1A TTP d   1     247.935 460.760 100.116  0.00  0.00    -0.624 OA
+ATOM     17  O2A TTP d   1     249.586 461.162 102.163  0.00  0.00    -0.624 OA
+BRANCH  15  18
+ATOM     18  O3A TTP d   1     250.522 461.904 100.121  0.00  0.00    -0.180 OA
+BRANCH  18  19
+ATOM     19  PB  TTP d   1     251.069 461.762  98.594  0.00  0.00     0.428 P 
+ATOM     20  O1B TTP d   1     249.914 461.429  97.688  0.00  0.00    -0.624 OA
+ATOM     21  O2B TTP d   1     251.871 463.010  98.315  0.00  0.00    -0.624 OA
+BRANCH  19  22
+ATOM     22  O3B TTP d   1     252.120 460.530  98.600  0.00  0.00    -0.173 OA
+BRANCH  22  23
+ATOM     23  PG  TTP d   1     251.770 458.932  98.595  0.00  0.00     0.431 P 
+ATOM     24  O1G TTP d   1     252.320 458.397  97.301  0.00  0.00    -0.616 OA
+ATOM     25  O2G TTP d   1     252.504 458.394  99.810  0.00  0.00    -0.616 OA
+ATOM     26  O3G TTP d   1     250.270 458.806  98.737  0.00  0.00    -0.616 OA
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   3  27
+ATOM     27  O3' TTP d   1     250.796 466.176 100.091  0.00  0.00    -0.393 OA
+ATOM     28  H5  TTP d   1     251.624 466.378 100.511  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   5  29
+ATOM     29  N1  TTP d   1     247.269 467.230 103.255  0.00  0.00    -0.282 N 
+ATOM     30  C2  TTP d   1     246.323 468.301 103.368  0.00  0.00     0.331 A 
+ATOM     31  O2  TTP d   1     246.101 469.087 102.419  0.00  0.00    -0.246 OA
+ATOM     32  N3  TTP d   1     245.639 468.512 104.505  0.00  0.00    -0.275 N 
+ATOM     33  C4  TTP d   1     245.806 467.724 105.576  0.00  0.00     0.256 A 
+ATOM     34  H9  TTP d   1     244.992 469.273 104.553  0.00  0.00     0.173 HD
+ATOM     35  O4  TTP d   1     245.147 467.959 106.615  0.00  0.00    -0.267 OA
+ATOM     36  C5  TTP d   1     246.774 466.590 105.497  0.00  0.00     0.022 A 
+ATOM     37  C6  TTP d   1     247.465 466.400 104.302  0.00  0.00    -0.002 A 
+ATOM     38  H13 TTP d   1     248.170 465.575 104.212  0.00  0.00     0.113 H 
+BRANCH  36  39
+ATOM     39  C5M TTP d   1     247.021 465.659 106.657  0.00  0.00    -0.045 C 
+ATOM     40  H10 TTP d   1     247.769 464.906 106.370  0.00  0.00     0.033 H 
+ATOM     41  H11 TTP d   1     246.081 465.157 106.931  0.00  0.00     0.033 H 
+ATOM     42  H12 TTP d   1     247.393 466.235 107.517  0.00  0.00     0.033 H 
+ENDBRANCH  36  39
+ENDBRANCH   5  29
+TORSDOF 10

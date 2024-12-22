@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  CA_3 
+REMARK    3  A    between atoms: CA_3  and  C_4 
+REMARK    4  A    between atoms: CA_3  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CG_6 
+ROOT
+ATOM      1  CB  BZS d   1      -2.499  31.149  -9.489  0.00  0.00    -0.028 C 
+ATOM      2  H4  BZS d   1      -1.662  31.848  -9.344  0.00  0.00     0.041 H 
+ATOM      3  H5  BZS d   1      -3.451  31.694  -9.407  0.00  0.00     0.041 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  BZS d   1      -2.431  29.948  -8.496  0.00  0.00     0.043 C 
+ATOM      5  H3  BZS d   1      -3.048  29.104  -8.838  0.00  0.00     0.058 H 
+BRANCH   4   6
+ATOM      6  C2  BZS d   1      -2.908  30.460  -7.104  0.00  0.00     0.028 C 
+ATOM      7  H1  BZS d   1      -2.137  31.101  -6.652  0.00  0.00     0.050 H 
+ATOM      8  H2  BZS d   1      -3.843  31.030  -7.210  0.00  0.00     0.050 H 
+BRANCH   6   9
+ATOM      9  C1  BZS d   1      -3.140  29.232  -6.239  0.00  0.00     0.173 C 
+ATOM     10  O1  BZS d   1      -2.133  28.749  -5.854  0.00  0.00    -0.648 OA
+ATOM     11  O2  BZS d   1      -4.226  28.780  -5.940  0.00  0.00    -0.648 OA
+ENDBRANCH   6   9
+ENDBRANCH   4   6
+BRANCH   4  12
+ATOM     12  C   BZS d   1      -0.881  29.539  -8.404  0.00  0.00     0.177 C 
+ATOM     13  O3  BZS d   1      -0.479  28.351  -8.814  0.00  0.00    -0.648 OA
+ATOM     14  O4  BZS d   1      -0.113  30.368  -7.826  0.00  0.00    -0.648 OA
+ENDBRANCH   4  12
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  CG  BZS d   1      -2.384  30.375 -10.852  0.00  0.00    -0.057 A 
+ATOM     16  CD1 BZS d   1      -1.127  30.183 -11.443  0.00  0.00    -0.077 A 
+ATOM     17  CE1 BZS d   1      -1.084  29.570 -12.724  0.00  0.00    -0.082 A 
+ATOM     18  H6  BZS d   1      -0.218  30.492 -10.939  0.00  0.00     0.084 H 
+ATOM     19  CZ  BZS d   1      -2.238  29.201 -13.351  0.00  0.00    -0.083 A 
+ATOM     20  H8  BZS d   1      -0.129  29.395 -13.206  0.00  0.00     0.083 H 
+ATOM     21  CE2 BZS d   1      -3.451  29.359 -12.763  0.00  0.00    -0.082 A 
+ATOM     22  H10 BZS d   1      -2.185  28.770 -14.344  0.00  0.00     0.083 H 
+ATOM     23  CD2 BZS d   1      -3.527  29.962 -11.568  0.00  0.00    -0.077 A 
+ATOM     24  H9  BZS d   1      -4.349  29.002 -13.254  0.00  0.00     0.083 H 
+ATOM     25  H7  BZS d   1      -4.505  30.139 -11.135  0.00  0.00     0.084 H 
+ENDBRANCH   1  15
+TORSDOF 5

@@ -1,0 +1,105 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAR_18  and  CAA_1 
+REMARK    2  A    between atoms: CAR_18  and  CAB_2 
+REMARK    3  A    between atoms: CAS_19  and  CAC_3 
+REMARK    4  A    between atoms: CAF_6  and  CAD_4 
+REMARK    5  A    between atoms: CAG_7  and  CAE_5 
+REMARK    6  A    between atoms: CAJ_10  and  CAF_6 
+REMARK    7  A    between atoms: NAP_16  and  CAG_7 
+REMARK    8  A    between atoms: CAI_9  and  CAH_8 
+REMARK    9  A    between atoms: CAH_8  and  NAP_16 
+REMARK   10  A    between atoms: NAQ_17  and  CAI_9 
+REMARK   11  A    between atoms: CAS_19  and  CAJ_10 
+REMARK   12  A    between atoms: CAX_24  and  NAQ_17 
+ROOT
+ATOM      1  CAH RWZ d   1     -20.121 -15.631  -8.275  0.00  0.00     0.104 C 
+ATOM      2  H16 RWZ d   1     -19.965 -15.800  -9.351  0.00  0.00     0.078 H 
+ATOM      3  H17 RWZ d   1     -19.231 -15.962  -7.719  0.00  0.00     0.078 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAI RWZ d   1     -21.315 -16.398  -7.814  0.00  0.00     0.104 C 
+ATOM      5  H18 RWZ d   1     -22.139 -15.708  -7.578  0.00  0.00     0.078 H 
+ATOM      6  H19 RWZ d   1     -21.063 -16.988  -6.921  0.00  0.00     0.078 H 
+BRANCH   4   7
+ATOM      7  NAQ RWZ d   1     -21.698 -17.276  -8.897  0.00  0.00    -0.069 N 
+ATOM      8  H34 RWZ d   1     -20.996 -17.986  -9.038  0.00  0.00     0.277 HD
+ATOM      9  H35 RWZ d   1     -21.819 -16.750  -9.748  0.00  0.00     0.277 HD
+BRANCH   7  10
+ATOM     10  CAX RWZ d   1     -22.947 -17.878  -8.497  0.00  0.00     0.109 C 
+ATOM     11  CAV RWZ d   1     -22.853 -19.372  -8.710  0.00  0.00    -0.026 C 
+ATOM     12  CAL RWZ d   1     -21.711 -19.943  -7.903  0.00  0.00    -0.056 C 
+ATOM     13  CAM RWZ d   1     -24.102 -20.031  -8.194  0.00  0.00    -0.056 C 
+ATOM     14  H38 RWZ d   1     -22.714 -19.588  -9.780  0.00  0.00     0.043 H 
+ATOM     15  CAT RWZ d   1     -21.884 -19.583  -6.435  0.00  0.00    -0.053 C 
+ATOM     16  H24 RWZ d   1     -21.699 -21.038  -8.011  0.00  0.00     0.034 H 
+ATOM     17  H25 RWZ d   1     -20.761 -19.528  -8.271  0.00  0.00     0.034 H 
+ATOM     18  CAK RWZ d   1     -23.140 -20.218  -5.924  0.00  0.00    -0.058 C 
+ATOM     19  CAN RWZ d   1     -21.971 -18.074  -6.248  0.00  0.00    -0.056 C 
+ATOM     20  H36 RWZ d   1     -21.023 -19.965  -5.867  0.00  0.00     0.040 H 
+ATOM     21  CAU RWZ d   1     -24.299 -19.698  -6.729  0.00  0.00    -0.053 C 
+ATOM     22  H22 RWZ d   1     -23.280 -19.962  -4.863  0.00  0.00     0.034 H 
+ATOM     23  H23 RWZ d   1     -23.074 -21.311  -6.032  0.00  0.00     0.034 H 
+ATOM     24  CAO RWZ d   1     -24.389 -18.213  -6.492  0.00  0.00    -0.056 C 
+ATOM     25  H37 RWZ d   1     -25.229 -20.174  -6.383  0.00  0.00     0.040 H 
+ATOM     26  CAW RWZ d   1     -23.145 -17.545  -7.031  0.00  0.00    -0.026 C 
+ATOM     27  H30 RWZ d   1     -24.473 -18.017  -5.413  0.00  0.00     0.034 H 
+ATOM     28  H31 RWZ d   1     -25.274 -17.812  -7.007  0.00  0.00     0.034 H 
+ATOM     29  H39 RWZ d   1     -23.224 -16.455  -6.908  0.00  0.00     0.043 H 
+ATOM     30  H28 RWZ d   1     -21.045 -17.604  -6.611  0.00  0.00     0.034 H 
+ATOM     31  H29 RWZ d   1     -22.106 -17.843  -5.181  0.00  0.00     0.034 H 
+ATOM     32  H26 RWZ d   1     -24.968 -19.670  -8.769  0.00  0.00     0.034 H 
+ATOM     33  H27 RWZ d   1     -24.013 -21.121  -8.311  0.00  0.00     0.034 H 
+ATOM     34  H40 RWZ d   1     -23.779 -17.471  -9.091  0.00  0.00     0.085 H 
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  35
+ATOM     35  NAP RWZ d   1     -20.352 -14.220  -8.031  0.00  0.00    -0.070 N 
+ATOM     36  H32 RWZ d   1     -20.555 -14.085  -7.053  0.00  0.00     0.277 HD
+ATOM     37  H33 RWZ d   1     -19.521 -13.704  -8.276  0.00  0.00     0.277 HD
+BRANCH  35  38
+ATOM     38  CAG RWZ d   1     -21.468 -13.722  -8.820  0.00  0.00     0.097 C 
+ATOM     39  H14 RWZ d   1     -21.885 -12.822  -8.345  0.00  0.00     0.081 H 
+ATOM     40  H15 RWZ d   1     -21.123 -13.474  -9.835  0.00  0.00     0.081 H 
+BRANCH  38  41
+ATOM     41  CAE RWZ d   1     -22.424 -14.693  -8.884  0.00  0.00    -0.077 C 
+ATOM     42  CAS RWZ d   1     -23.775 -14.532  -8.717  0.00  0.00    -0.086 C 
+ATOM     43  H11 RWZ d   1     -22.077 -15.704  -9.090  0.00  0.00     0.079 H 
+BRANCH  42  44
+ATOM     44  CAC RWZ d   1     -24.653 -15.733  -8.815  0.00  0.00    -0.055 C 
+ATOM     45  H7  RWZ d   1     -24.039 -16.619  -9.032  0.00  0.00     0.033 H 
+ATOM     46  H8  RWZ d   1     -25.385 -15.587  -9.623  0.00  0.00     0.033 H 
+ATOM     47  H9  RWZ d   1     -25.183 -15.878  -7.862  0.00  0.00     0.033 H 
+ENDBRANCH  42  44
+BRANCH  42  48
+ATOM     48  CAJ RWZ d   1     -24.435 -13.216  -8.424  0.00  0.00    -0.042 C 
+ATOM     49  H20 RWZ d   1     -23.761 -12.595  -7.816  0.00  0.00     0.040 H 
+ATOM     50  H21 RWZ d   1     -24.658 -12.699  -9.369  0.00  0.00     0.040 H 
+BRANCH  48  51
+ATOM     51  CAF RWZ d   1     -25.723 -13.457  -7.663  0.00  0.00    -0.046 C 
+ATOM     52  H12 RWZ d   1     -26.037 -14.498  -7.827  0.00  0.00     0.039 H 
+ATOM     53  H13 RWZ d   1     -25.532 -13.296  -6.592  0.00  0.00     0.039 H 
+BRANCH  51  54
+ATOM     54  CAD RWZ d   1     -26.743 -12.627  -8.054  0.00  0.00    -0.101 C 
+ATOM     55  CAR RWZ d   1     -27.042 -11.449  -7.437  0.00  0.00    -0.091 C 
+ATOM     56  H10 RWZ d   1     -27.349 -12.927  -8.907  0.00  0.00     0.077 H 
+BRANCH  55  57
+ATOM     57  CAA RWZ d   1     -28.177 -10.554  -7.890  0.00  0.00    -0.055 C 
+ATOM     58  H1  RWZ d   1     -28.224  -9.665  -7.243  0.00  0.00     0.033 H 
+ATOM     59  H2  RWZ d   1     -29.127 -11.105  -7.825  0.00  0.00     0.033 H 
+ATOM     60  H3  RWZ d   1     -28.005 -10.241  -8.930  0.00  0.00     0.033 H 
+ENDBRANCH  55  57
+BRANCH  55  61
+ATOM     61  CAB RWZ d   1     -26.173 -11.039  -6.292  0.00  0.00    -0.055 C 
+ATOM     62  H4  RWZ d   1     -25.412 -11.813  -6.114  0.00  0.00     0.033 H 
+ATOM     63  H5  RWZ d   1     -26.789 -10.917  -5.389  0.00  0.00     0.033 H 
+ATOM     64  H6  RWZ d   1     -25.678 -10.086  -6.530  0.00  0.00     0.033 H 
+ENDBRANCH  55  61
+ENDBRANCH  51  54
+ENDBRANCH  48  51
+ENDBRANCH  42  48
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 12

@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAC_1  and  CAI_2 
+REMARK    2  A    between atoms: CAJ_3  and  OAD_4 
+REMARK    3  A    between atoms: CAH_6  and  OAB_7 
+REMARK    4  A    between atoms: CAK_11  and  CAE_12 
+REMARK    5  A    between atoms: CAE_12  and  NAA_13 
+ROOT
+ATOM      1  CAI X09 d   1      49.049  41.820  72.702  0.00  0.00     0.091 C 
+ATOM      2  CAJ X09 d   1      49.687  43.095  72.161  0.00  0.00     0.092 C 
+ATOM      3  CAL X09 d   1      49.790  42.664  70.681  0.00  0.00     0.155 C 
+ATOM      4  CAH X09 d   1      50.810  43.411  69.792  0.00  0.00     0.067 C 
+ATOM      5  CAF X09 d   1      51.476  42.269  69.048  0.00  0.00    -0.016 C 
+ATOM      6  CAG X09 d   1      51.606  41.239  70.167  0.00  0.00     0.087 C 
+ATOM      7  NAM X09 d   1      50.270  41.252  70.765  0.00  0.00    -0.053 N 
+ATOM      8  CAK X09 d   1      50.202  40.902  72.215  0.00  0.00     0.154 C 
+ATOM      9  H2  X09 d   1      48.083  41.586  72.231  0.00  0.00     0.090 H 
+ATOM     10  H3  X09 d   1      50.662  43.312  72.621  0.00  0.00     0.090 H 
+ATOM     11  H5  X09 d   1      48.797  42.729  70.213  0.00  0.00     0.093 H 
+ATOM     12  H6  X09 d   1      50.310  44.113  69.108  0.00  0.00     0.086 H 
+ATOM     13  H8  X09 d   1      52.459  42.562  68.651  0.00  0.00     0.039 H 
+ATOM     14  H9  X09 d   1      50.845  41.898  68.227  0.00  0.00     0.039 H 
+ATOM     15  H10 X09 d   1      52.371  41.540  70.897  0.00  0.00     0.076 H 
+ATOM     16  H11 X09 d   1      51.852  40.245  69.766  0.00  0.00     0.076 H 
+ATOM     17  H12 X09 d   1      49.670  40.631  70.245  0.00  0.00     0.281 HD
+ATOM     18  H13 X09 d   1      51.136  41.140  72.745  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   8  19
+ATOM     19  CAE X09 d   1      49.931  39.413  72.315  0.00  0.00     0.109 C 
+ATOM     20  H14 X09 d   1      50.879  38.873  72.176  0.00  0.00     0.078 H 
+ATOM     21  H15 X09 d   1      49.227  39.129  71.519  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  NAA X09 d   1      49.362  39.031  73.596  0.00  0.00    -0.077 N 
+ATOM     23  H16 X09 d   1      49.202  38.036  73.609  0.00  0.00     0.274 HD
+ATOM     24  H17 X09 d   1      48.488  39.514  73.733  0.00  0.00     0.274 HD
+ATOM     25  H18 X09 d   1      50.001  39.279  74.335  0.00  0.00     0.274 HD
+ENDBRANCH  19  22
+ENDBRANCH   8  19
+BRANCH   1  26
+ATOM     26  OAC X09 d   1      48.894  41.830  74.130  0.00  0.00    -0.391 OA
+ATOM     27  H1  X09 d   1      48.494  41.015  74.410  0.00  0.00     0.210 HD
+ENDBRANCH   1  26
+BRANCH   2  28
+ATOM     28  OAD X09 d   1      48.825  44.214  72.275  0.00  0.00    -0.391 OA
+ATOM     29  H4  X09 d   1      49.260  44.984  71.928  0.00  0.00     0.210 HD
+ENDBRANCH   2  28
+BRANCH   4  30
+ATOM     30  OAB X09 d   1      51.791  44.102  70.573  0.00  0.00    -0.393 OA
+ATOM     31  H7  X09 d   1      51.359  44.738  71.131  0.00  0.00     0.210 HD
+ENDBRANCH   4  30
+TORSDOF 5

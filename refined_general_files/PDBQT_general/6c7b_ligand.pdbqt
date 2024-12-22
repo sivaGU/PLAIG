@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_13  and  C10_1 
+REMARK    2  A    between atoms: C13_2  and  C15_3 
+REMARK    3  A    between atoms: C13_2  and  O14_17 
+REMARK    4  A    between atoms: O02_16  and  C01_5 
+REMARK    5  A    between atoms: C03_6  and  O02_16 
+REMARK    6  A    between atoms: C11_13  and  C12_14 
+ROOT
+ATOM      1  C10 ENY d   1      33.770  77.299  61.998  0.00  0.00     0.015 A 
+ATOM      2  C20 ENY d   1      30.770  74.220  61.746  0.00  0.00    -0.040 A 
+ATOM      3  C03 ENY d   1      29.789  74.224  60.765  0.00  0.00     0.069 A 
+ATOM      4  C04 ENY d   1      29.792  75.284  59.812  0.00  0.00    -0.050 A 
+ATOM      5  C05 ENY d   1      30.745  76.293  59.869  0.00  0.00    -0.070 A 
+ATOM      6  C06 ENY d   1      31.774  76.306  60.874  0.00  0.00    -0.025 A 
+ATOM      7  C07 ENY d   1      31.772  75.237  61.812  0.00  0.00    -0.023 A 
+ATOM      8  C08 ENY d   1      32.785  75.226  62.827  0.00  0.00    -0.071 A 
+ATOM      9  C09 ENY d   1      33.759  76.205  62.933  0.00  0.00    -0.068 A 
+ATOM     10  C19 ENY d   1      32.802  77.318  60.992  0.00  0.00    -0.059 A 
+ATOM     11  H1  ENY d   1      30.777  73.424  62.482  0.00  0.00     0.089 H 
+ATOM     12  H5  ENY d   1      29.040  75.303  59.032  0.00  0.00     0.087 H 
+ATOM     13  H6  ENY d   1      30.712  77.092  59.137  0.00  0.00     0.085 H 
+ATOM     14  H7  ENY d   1      32.789  74.414  63.545  0.00  0.00     0.084 H 
+ATOM     15  H8  ENY d   1      34.508  76.148  63.715  0.00  0.00     0.085 H 
+ATOM     16  H10 ENY d   1      32.821  78.125  60.269  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  C11 ENY d   1      34.860  78.364  62.074  0.00  0.00     0.185 C 
+ATOM     18  O18 ENY d   1      35.115  78.908  60.985  0.00  0.00    -0.287 OA
+BRANCH  17  19
+ATOM     19  C12 ENY d   1      35.666  78.866  63.238  0.00  0.00     0.005 C 
+ATOM     20  C13 ENY d   1      36.480  79.957  63.111  0.00  0.00     0.146 C 
+ATOM     21  H9  ENY d   1      35.601  78.353  64.197  0.00  0.00     0.094 H 
+BRANCH  20  22
+ATOM     22  C15 ENY d   1      37.733  80.143  63.914  0.00  0.00     0.233 C 
+ATOM     23  O16 ENY d   1      37.659  79.666  65.197  0.00  0.00    -0.642 OA
+ATOM     24  O17 ENY d   1      38.856  80.146  63.433  0.00  0.00    -0.642 OA
+ENDBRANCH  20  22
+BRANCH  20  25
+ATOM     25  O14 ENY d   1      36.643  80.611  61.904  0.00  0.00    -0.355 OA
+ATOM     26  H11 ENY d   1      36.996  80.006  61.262  0.00  0.00     0.218 HD
+ENDBRANCH  20  25
+ENDBRANCH  17  19
+ENDBRANCH   1  17
+BRANCH   3  27
+ATOM     27  O02 ENY d   1      28.836  73.218  60.703  0.00  0.00    -0.356 OA
+BRANCH  27  28
+ATOM     28  C01 ENY d   1      27.886  73.207  59.626  0.00  0.00     0.010 C 
+ATOM     29  H2  ENY d   1      27.213  72.344  59.739  0.00  0.00     0.066 H 
+ATOM     30  H3  ENY d   1      28.420  73.133  58.667  0.00  0.00     0.066 H 
+ATOM     31  H4  ENY d   1      27.297  74.136  59.647  0.00  0.00     0.066 H 
+ENDBRANCH  27  28
+ENDBRANCH   3  27
+TORSDOF 6

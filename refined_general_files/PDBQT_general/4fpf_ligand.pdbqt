@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAI_5  and  CAJ_6 
+REMARK    2  A    between atoms: NAL_10  and  CAI_5 
+REMARK    3  A    between atoms: CAJ_6  and  SAO_14 
+REMARK    4  A    between atoms: CAK_7  and  CAN_9 
+REMARK    5  A    between atoms: CAK_7  and  NAL_10 
+ROOT
+ATOM      1  CAK JKK d   1      -6.319  -6.372 -36.602  0.00  0.00     0.105 C 
+ATOM      2  H9  JKK d   1      -7.170  -6.833 -36.078  0.00  0.00     0.083 H 
+ATOM      3  H10 JKK d   1      -6.379  -5.278 -36.506  0.00  0.00     0.083 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAN JKK d   1      -6.407  -6.749 -38.136  0.00  0.00    -0.031 A 
+ATOM      5  CAG JKK d   1      -7.170  -7.739 -38.544  0.00  0.00    -0.075 A 
+ATOM      6  CAE JKK d   1      -7.212  -8.056 -39.930  0.00  0.00    -0.081 A 
+ATOM      7  H3  JKK d   1      -7.760  -8.306 -37.833  0.00  0.00     0.084 H 
+ATOM      8  CAF JKK d   1      -6.443  -7.328 -40.812  0.00  0.00    -0.062 A 
+ATOM      9  H1  JKK d   1      -7.842  -8.862 -40.289  0.00  0.00     0.083 H 
+ATOM     10  CAM JKK d   1      -5.663  -6.331 -40.390  0.00  0.00     0.034 A 
+ATOM     11  H2  JKK d   1      -6.472  -7.570 -41.868  0.00  0.00     0.086 H 
+ATOM     12  CAH JKK d   1      -5.629  -6.022 -39.029  0.00  0.00    -0.054 A 
+ATOM     13 CL   JKK d   1      -4.695  -5.410 -41.465  0.00  0.00    -0.084 Cl
+ATOM     14  H4  JKK d   1      -4.998  -5.217 -38.670  0.00  0.00     0.086 H 
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  NAL JKK d   1      -5.098  -6.822 -35.980  0.00  0.00    -0.070 N 
+ATOM     16  H11 JKK d   1      -5.196  -7.796 -35.740  0.00  0.00     0.277 HD
+ATOM     17  H12 JKK d   1      -4.340  -6.712 -36.636  0.00  0.00     0.277 HD
+BRANCH  15  18
+ATOM     18  CAI JKK d   1      -4.793  -6.090 -34.803  0.00  0.00     0.096 C 
+ATOM     19  H5  JKK d   1      -4.715  -5.026 -35.072  0.00  0.00     0.077 H 
+ATOM     20  H6  JKK d   1      -5.619  -6.229 -34.090  0.00  0.00     0.077 H 
+BRANCH  18  21
+ATOM     21  CAJ JKK d   1      -3.486  -6.506 -34.110  0.00  0.00     0.068 C 
+ATOM     22  H7  JKK d   1      -2.718  -6.623 -34.889  0.00  0.00     0.062 H 
+ATOM     23  H8  JKK d   1      -3.662  -7.474 -33.619  0.00  0.00     0.062 H 
+BRANCH  21  24
+ATOM     24  SAO JKK d   1      -2.846  -5.387 -32.884  0.00  0.00     0.103 S 
+ATOM     25  OAA JKK d   1      -2.560  -4.120 -33.544  0.00  0.00    -0.595 OA
+ATOM     26  OAB JKK d   1      -3.838  -5.175 -31.813  0.00  0.00    -0.595 OA
+ATOM     27  OAC JKK d   1      -1.622  -5.964 -32.301  0.00  0.00    -0.595 OA
+ENDBRANCH  21  24
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   1  15
+TORSDOF 5

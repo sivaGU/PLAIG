@@ -1,0 +1,52 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  O2_2 
+REMARK       I    between atoms: N1_1  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C5_5 
+REMARK    3  A    between atoms: C5_5  and  C6_6 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C6_6  and  C12_8 
+REMARK    6  A    between atoms: C7_7  and  C17_13 
+ROOT
+ATOM      1  C6  7JT d   1      -6.492  -0.477  11.078  0.00  0.00     0.037 C 
+ATOM      2  H5  7JT d   1      -5.634   0.148  10.789  0.00  0.00     0.059 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C5  7JT d   1      -6.275  -1.279  12.385  0.00  0.00     0.025 C 
+ATOM      4  H3  7JT d   1      -6.039  -0.584  13.204  0.00  0.00     0.049 H 
+ATOM      5  H4  7JT d   1      -7.192  -1.835  12.628  0.00  0.00     0.049 H 
+BRANCH   3   6
+ATOM      6  C3  7JT d   1      -5.098  -2.280  12.203  0.00  0.00     0.241 C 
+ATOM      7  N1  7JT d   1      -5.415  -3.525  11.810  0.00  0.00    -0.237 N 
+ATOM      8  H1  7JT d   1      -6.364  -3.805  11.665  0.00  0.00     0.197 HD
+ATOM      9  O4  7JT d   1      -3.937  -1.930  12.392  0.00  0.00    -0.271 OA
+BRANCH   7  10
+ATOM     10  O2  7JT d   1      -4.327  -4.428  11.610  0.00  0.00    -0.287 OA
+ATOM     11  H2  7JT d   1      -4.664  -5.273  11.335  0.00  0.00     0.244 HD
+ENDBRANCH   7  10
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  C7  7JT d   1      -6.998  -1.370   9.923  0.00  0.00    -0.081 C 
+ATOM     13  H6  7JT d   1      -7.399  -2.365  10.108  0.00  0.00     0.079 H 
+BRANCH  12  14
+ATOM     14  C17 7JT d   1      -6.921  -0.861   8.672  0.00  0.00    -0.039 A 
+ATOM     15  C18 7JT d   1      -6.300   0.242   8.300  0.00  0.00    -0.073 A 
+ATOM     16  C21 7JT d   1      -6.440   0.343   6.974  0.00  0.00    -0.082 A 
+ATOM     17  H8  7JT d   1      -5.773   0.939   8.950  0.00  0.00     0.084 H 
+ATOM     18  C20 7JT d   1      -7.128  -0.694   6.541  0.00  0.00    -0.082 A 
+ATOM     19  H11 7JT d   1      -6.050   1.149   6.354  0.00  0.00     0.083 H 
+ATOM     20  C19 7JT d   1      -7.425  -1.463   7.593  0.00  0.00    -0.073 A 
+ATOM     21  H10 7JT d   1      -7.406  -0.890   5.506  0.00  0.00     0.083 H 
+ATOM     22  H9  7JT d   1      -7.974  -2.403   7.573  0.00  0.00     0.084 H 
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C12 7JT d   1      -7.708   0.249  11.505  0.00  0.00     0.180 A 
+ATOM     24  O13 7JT d   1      -8.931  -0.246  11.702  0.00  0.00    -0.196 OA
+ATOM     25  N15 7JT d   1      -9.791   0.763  11.564  0.00  0.00    -0.120 NA
+ATOM     26  C16 7JT d   1      -9.102   1.849  11.271  0.00  0.00     0.115 A 
+ATOM     27  N14 7JT d   1      -7.803   1.533  11.224  0.00  0.00    -0.217 NA
+ATOM     28  H7  7JT d   1      -9.521   2.839  11.096  0.00  0.00     0.150 H 
+ENDBRANCH   1  23
+TORSDOF 6

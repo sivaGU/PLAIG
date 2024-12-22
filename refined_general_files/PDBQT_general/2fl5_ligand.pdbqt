@@ -1,0 +1,85 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_11  and  C7M_12 
+REMARK    2  A    between atoms: C8_13  and  C8M_14 
+REMARK    3  A    between atoms: N10_17  and  C1_19 
+REMARK    4  A    between atoms: C1_19  and  C2_20 
+REMARK    5  A    between atoms: C2_20  and  O2_21 
+REMARK    6  A    between atoms: C2_20  and  C3_22 
+REMARK    7  A    between atoms: C3_22  and  O3_23 
+REMARK    8  A    between atoms: C3_22  and  C4_24 
+REMARK    9  A    between atoms: C4_24  and  O4_25 
+REMARK   10  A    between atoms: C4_24  and  C5_26 
+REMARK   11  A    between atoms: C5_26  and  O5_27 
+ROOT
+ATOM      1  N1  RBF d   1      55.347  86.294  76.989  0.00  0.00    -0.173 NA
+ATOM      2  C2  RBF d   1      54.171  85.712  77.457  0.00  0.00     0.350 A 
+ATOM      3  O2  RBF d   1      53.224  85.697  76.712  0.00  0.00    -0.244 OA
+ATOM      4  N3  RBF d   1      54.231  85.208  78.721  0.00  0.00    -0.272 N 
+ATOM      5  C4  RBF d   1      55.313  85.205  79.621  0.00  0.00     0.282 A 
+ATOM      6  O4  RBF d   1      55.219  84.728  80.703  0.00  0.00    -0.265 OA
+ATOM      7  C4A RBF d   1      56.565  85.847  79.078  0.00  0.00     0.171 A 
+ATOM      8  N5  RBF d   1      57.629  85.910  79.856  0.00  0.00    -0.237 NA
+ATOM      9  C5A RBF d   1      58.799  86.520  79.359  0.00  0.00     0.085 A 
+ATOM     10  C6  RBF d   1      59.910  86.558  80.283  0.00  0.00    -0.047 A 
+ATOM     11  C7  RBF d   1      61.064  87.172  79.808  0.00  0.00    -0.054 A 
+ATOM     12  C8  RBF d   1      61.100  87.734  78.454  0.00  0.00    -0.054 A 
+ATOM     13  C9  RBF d   1      60.053  87.719  77.532  0.00  0.00    -0.048 A 
+ATOM     14  C9A RBF d   1      58.859  87.089  78.036  0.00  0.00     0.065 A 
+ATOM     15  N10 RBF d   1      57.627  86.980  77.206  0.00  0.00    -0.325 N 
+ATOM     16  C10 RBF d   1      56.518  86.388  77.750  0.00  0.00     0.170 A 
+ATOM     17  H1  RBF d   1      53.391  84.781  79.055  0.00  0.00     0.174 HD
+ATOM     18  H2  RBF d   1      59.848  86.136  81.280  0.00  0.00     0.088 H 
+ATOM     19  H9  RBF d   1      60.130  88.139  76.536  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH  15  20
+ATOM     20  C1  RBF d   1      57.631  87.552  75.822  0.00  0.00     0.028 C 
+ATOM     21  H10 RBF d   1      58.415  88.319  75.730  0.00  0.00     0.069 H 
+ATOM     22  H11 RBF d   1      56.652  87.999  75.593  0.00  0.00     0.069 H 
+BRANCH  20  23
+ATOM     23  C2  RBF d   1      57.919  86.377  74.863  0.00  0.00     0.078 C 
+ATOM     24  H12 RBF d   1      57.213  85.561  75.076  0.00  0.00     0.089 H 
+BRANCH  23  25
+ATOM     25  O2  RBF d   1      59.298  85.968  75.017  0.00  0.00    -0.391 OA
+ATOM     26  H13 RBF d   1      59.480  85.245  74.429  0.00  0.00     0.210 HD
+ENDBRANCH  23  25
+BRANCH  23  27
+ATOM     27  C3  RBF d   1      57.934  86.694  73.438  0.00  0.00     0.088 C 
+ATOM     28  H14 RBF d   1      58.241  85.780  72.908  0.00  0.00     0.091 H 
+BRANCH  27  29
+ATOM     29  O3  RBF d   1      58.889  87.717  73.171  0.00  0.00    -0.390 OA
+ATOM     30  H15 RBF d   1      59.752  87.419  73.433  0.00  0.00     0.210 HD
+ENDBRANCH  27  29
+BRANCH  27  31
+ATOM     31  C4  RBF d   1      56.629  87.131  72.859  0.00  0.00     0.083 C 
+ATOM     32  H16 RBF d   1      56.357  88.096  73.312  0.00  0.00     0.090 H 
+BRANCH  31  33
+ATOM     33  O4  RBF d   1      55.491  86.273  73.018  0.00  0.00    -0.391 OA
+ATOM     34  H17 RBF d   1      55.670  85.433  72.611  0.00  0.00     0.210 HD
+ENDBRANCH  31  33
+BRANCH  31  35
+ATOM     35  C5  RBF d   1      56.998  87.345  71.337  0.00  0.00     0.043 C 
+ATOM     36  H18 RBF d   1      58.054  87.639  71.241  0.00  0.00     0.078 H 
+ATOM     37  H19 RBF d   1      56.359  88.125  70.898  0.00  0.00     0.078 H 
+BRANCH  35  38
+ATOM     38  O5  RBF d   1      56.771  86.086  70.674  0.00  0.00    -0.398 OA
+ATOM     39  H20 RBF d   1      55.858  85.839  70.769  0.00  0.00     0.209 HD
+ENDBRANCH  35  38
+ENDBRANCH  31  35
+ENDBRANCH  27  31
+ENDBRANCH  23  27
+ENDBRANCH  20  23
+ENDBRANCH  15  20
+BRANCH  12  40
+ATOM     40  C8M RBF d   1      62.421  88.411  77.975  0.00  0.00    -0.051 C 
+ATOM     41  H6  RBF d   1      62.292  88.781  76.947  0.00  0.00     0.033 H 
+ATOM     42  H7  RBF d   1      63.240  87.677  78.001  0.00  0.00     0.033 H 
+ATOM     43  H8  RBF d   1      62.663  89.253  78.640  0.00  0.00     0.033 H 
+ENDBRANCH  12  40
+BRANCH  11  44
+ATOM     44  C7M RBF d   1      62.338  87.299  80.664  0.00  0.00    -0.051 C 
+ATOM     45  H3  RBF d   1      62.167  86.837  81.647  0.00  0.00     0.033 H 
+ATOM     46  H4  RBF d   1      62.586  88.362  80.797  0.00  0.00     0.033 H 
+ATOM     47  H5  RBF d   1      63.171  86.788  80.159  0.00  0.00     0.033 H 
+ENDBRANCH  11  44
+TORSDOF 11

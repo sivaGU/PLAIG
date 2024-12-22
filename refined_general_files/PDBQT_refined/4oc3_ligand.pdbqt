@@ -1,0 +1,98 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBC_7  and  CBA_8 
+REMARK       I    between atoms: CBA_8  and  NAT_10 
+REMARK    2  A    between atoms: NAT_10  and  CAQ_11 
+REMARK    3  A    between atoms: CAQ_11  and  CAO_12 
+REMARK    4  A    between atoms: CAO_12  and  CAP_13 
+REMARK    5  A    between atoms: CAP_13  and  CB_14 
+REMARK    6  A    between atoms: CB_14  and  CA_15 
+REMARK    7  A    between atoms: CA_15  and  C_16 
+REMARK    8  A    between atoms: CA_15  and  N_19 
+REMARK       I    between atoms: N_19  and  CAZ_20 
+REMARK       I    between atoms: CAZ_20  and  NAV_22 
+REMARK    9  A    between atoms: NAV_22  and  CBF_23 
+REMARK   10  A    between atoms: CBF_23  and  CAY_24 
+REMARK   11  A    between atoms: CBF_23  and  CAS_27 
+REMARK   12  A    between atoms: CAS_27  and  CBD_28 
+ROOT
+ATOM      1  CB  2QP d   1      20.978  45.821  43.373  0.00  0.00    -0.036 C 
+ATOM      2  H   2QP d   1      20.652  45.692  42.330  0.00  0.00     0.036 H 
+ATOM      3  H   2QP d   1      20.952  46.889  43.636  0.00  0.00     0.036 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAP 2QP d   1      22.441  45.320  43.496  0.00  0.00    -0.061 C 
+ATOM      5  H   2QP d   1      22.759  45.382  44.547  0.00  0.00     0.033 H 
+ATOM      6  H   2QP d   1      22.497  44.275  43.157  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  CAO 2QP d   1      23.388  46.199  42.617  0.00  0.00    -0.050 C 
+ATOM      8  H   2QP d   1      24.102  45.556  42.082  0.00  0.00     0.035 H 
+ATOM      9  H   2QP d   1      22.795  46.773  41.890  0.00  0.00     0.035 H 
+BRANCH   7  10
+ATOM     10  CAQ 2QP d   1      24.161  47.178  43.560  0.00  0.00    -0.004 C 
+ATOM     11  H   2QP d   1      24.295  46.736  44.558  0.00  0.00     0.064 H 
+ATOM     12  H   2QP d   1      25.143  47.435  43.137  0.00  0.00     0.064 H 
+BRANCH  10  13
+ATOM     13  NAT 2QP d   1      23.318  48.329  43.623  0.00  0.00    -0.357 N 
+ATOM     14  CBA 2QP d   1      23.069  49.314  44.484  0.00  0.00     0.251 C 
+ATOM     15  OAD 2QP d   1      22.204  50.061  44.034  0.00  0.00    -0.268 OA
+ATOM     16  H   2QP d   1      22.764  48.420  42.795  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  CBC 2QP d   1      23.318  49.430  46.050  0.00  0.00     0.032 A 
+ATOM     18  CAM 2QP d   1      23.542  48.417  46.989  0.00  0.00    -0.067 A 
+ATOM     19  CAK 2QP d   1      23.635  48.693  48.401  0.00  0.00    -0.066 A 
+ATOM     20  H   2QP d   1      23.649  47.395  46.645  0.00  0.00     0.085 H 
+ATOM     21  CBB 2QP d   1      23.496  49.961  49.024  0.00  0.00     0.006 A 
+ATOM     22  H   2QP d   1      23.831  47.848  49.052  0.00  0.00     0.085 H 
+ATOM     23  IAG 2QP d   1      23.633  50.312  51.253  0.00  0.00    -0.045 I 
+ATOM     24  CAL 2QP d   1      23.260  50.954  48.047  0.00  0.00    -0.066 A 
+ATOM     25  CAN 2QP d   1      23.148  50.710  46.643  0.00  0.00    -0.067 A 
+ATOM     26  H   2QP d   1      23.156  51.978  48.388  0.00  0.00     0.085 H 
+ATOM     27  H   2QP d   1      22.921  51.548  45.995  0.00  0.00     0.085 H 
+ENDBRANCH  14  17
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  28
+ATOM     28  CA  2QP d   1      19.993  45.068  44.289  0.00  0.00     0.098 C 
+ATOM     29  H   2QP d   1      20.148  43.979  44.275  0.00  0.00     0.089 H 
+BRANCH  28  30
+ATOM     30  C   2QP d   1      20.132  45.653  45.700  0.00  0.00     0.196 C 
+ATOM     31  OXT 2QP d   1      20.744  44.933  46.543  0.00  0.00    -0.646 OA
+ATOM     32  O   2QP d   1      19.589  46.780  45.915  0.00  0.00    -0.646 OA
+ENDBRANCH  28  30
+BRANCH  28  33
+ATOM     33  N   2QP d   1      18.662  45.464  43.791  0.00  0.00    -0.329 N 
+ATOM     34  CAZ 2QP d   1      17.951  44.780  42.912  0.00  0.00     0.317 C 
+ATOM     35  OAC 2QP d   1      18.361  43.735  42.437  0.00  0.00    -0.247 OA
+ATOM     36  NAV 2QP d   1      16.726  45.198  42.580  0.00  0.00    -0.328 N 
+ATOM     37  H   2QP d   1      16.288  45.945  43.081  0.00  0.00     0.165 HD
+ATOM     38  H   2QP d   1      18.269  46.313  44.145  0.00  0.00     0.165 HD
+BRANCH  36  39
+ATOM     39  CBF 2QP d   1      16.035  44.537  41.464  0.00  0.00     0.103 C 
+ATOM     40  H   2QP d   1      15.928  43.470  41.709  0.00  0.00     0.090 H 
+BRANCH  39  41
+ATOM     41  CAY 2QP d   1      16.981  44.673  40.193  0.00  0.00     0.197 C 
+ATOM     42  OAF 2QP d   1      16.771  43.872  39.241  0.00  0.00    -0.646 OA
+ATOM     43  OAB 2QP d   1      17.936  45.513  40.214  0.00  0.00    -0.646 OA
+ENDBRANCH  39  41
+BRANCH  39  44
+ATOM     44  CAS 2QP d   1      14.631  45.083  41.199  0.00  0.00     0.008 C 
+ATOM     45  H   2QP d   1      14.056  44.985  42.132  0.00  0.00     0.046 H 
+ATOM     46  H   2QP d   1      14.174  44.457  40.419  0.00  0.00     0.046 H 
+BRANCH  44  47
+ATOM     47  CBD 2QP d   1      14.523  46.545  40.741  0.00  0.00     0.055 A 
+ATOM     48  CAJ 2QP d   1      13.467  47.320  40.765  0.00  0.00    -0.052 A 
+ATOM     49  CAH 2QP d   1      13.753  48.524  40.264  0.00  0.00    -0.059 A 
+ATOM     50  H   2QP d   1      12.490  47.023  41.142  0.00  0.00     0.087 H 
+ATOM     51  CAI 2QP d   1      15.000  48.548  39.837  0.00  0.00     0.019 A 
+ATOM     52  H   2QP d   1      13.059  49.362  40.215  0.00  0.00     0.086 H 
+ATOM     53  OAW 2QP d   1      15.537  47.275  40.148  0.00  0.00    -0.327 OA
+ATOM     54  H   2QP d   1      15.511  49.375  39.347  0.00  0.00     0.123 H 
+ENDBRANCH  44  47
+ENDBRANCH  39  44
+ENDBRANCH  36  39
+ENDBRANCH  28  33
+ENDBRANCH   1  28
+TORSDOF 12

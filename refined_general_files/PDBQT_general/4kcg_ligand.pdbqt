@@ -1,0 +1,118 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAC_1  and  SBH_2 
+REMARK    2  A    between atoms: SBH_2  and  NAT_5 
+REMARK    3  A    between atoms: NAT_5  and  CAM_6 
+REMARK    4  A    between atoms: CAM_6  and  CAN_7 
+REMARK    5  A    between atoms: CAN_7  and  OAV_8 
+REMARK    6  A    between atoms: OAV_8  and  CBD_9 
+REMARK    7  A    between atoms: CBC_11  and  OAU_12 
+REMARK    8  A    between atoms: OAU_12  and  CAB_13 
+REMARK    9  A    between atoms: CBA_16  and  CBG_17 
+REMARK   10  A    between atoms: CBF_20  and  CAO_21 
+REMARK   11  A    between atoms: CAO_21  and  CAL_22 
+REMARK   12  A    between atoms: CAL_22  and  CAA_23 
+REMARK   13  A    between atoms: CBE_24  and  CAP_25 
+REMARK   14  A    between atoms: CAP_25  and  SAW_26 
+REMARK   15  A    between atoms: SAW_26  and  C2_27 
+REMARK   16  A    between atoms: C6_30  and  NAD_31 
+REMARK   17  A    between atoms: C4_33  and  NAE_34 
+ROOT
+ATOM      1  CBG 1QC d   1     -33.229  12.320  -3.982  0.00  0.00     0.108 A 
+ATOM      2  NAS 1QC d   1     -32.264  11.972  -3.123  0.00  0.00    -0.243 NA
+ATOM      3  SAX 1QC d   1     -32.578  13.232  -5.153  0.00  0.00    -0.072 SA
+ATOM      4  CBF 1QC d   1     -31.051  13.186  -4.588  0.00  0.00     0.010 A 
+ATOM      5  CBE 1QC d   1     -31.049  12.446  -3.464  0.00  0.00     0.058 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  CBA 1QC d   1     -34.532  12.011  -3.874  0.00  0.00     0.003 A 
+ATOM      7  CAK 1QC d   1     -34.949  11.083  -2.936  0.00  0.00    -0.035 A 
+ATOM      8  CBD 1QC d   1     -36.304  10.800  -2.834  0.00  0.00     0.102 A 
+ATOM      9  H   1QC d   1     -34.231  10.586  -2.293  0.00  0.00     0.089 H 
+ATOM     10  CBC 1QC d   1     -37.256  11.435  -3.626  0.00  0.00     0.101 A 
+ATOM     11  CAI 1QC d   1     -36.854  12.375  -4.556  0.00  0.00    -0.047 A 
+ATOM     12  CAH 1QC d   1     -35.492  12.655  -4.661  0.00  0.00    -0.068 A 
+ATOM     13  H   1QC d   1     -37.577  12.880  -5.186  0.00  0.00     0.087 H 
+ATOM     14  H   1QC d   1     -35.166  13.399  -5.379  0.00  0.00     0.085 H 
+BRANCH   8  15
+ATOM     15  OAV 1QC d   1     -36.783   9.906  -1.952  0.00  0.00    -0.347 OA
+BRANCH  15  16
+ATOM     16  CAN 1QC d   1     -35.905   8.850  -1.535  0.00  0.00     0.041 C 
+ATOM     17  H   1QC d   1     -35.521   8.315  -2.416  0.00  0.00     0.077 H 
+ATOM     18  H   1QC d   1     -35.063   9.269  -0.965  0.00  0.00     0.077 H 
+BRANCH  16  19
+ATOM     19  CAM 1QC d   1     -36.712   7.874  -0.639  0.00  0.00     0.023 C 
+ATOM     20  H   1QC d   1     -37.216   7.137  -1.281  0.00  0.00     0.068 H 
+ATOM     21  H   1QC d   1     -36.017   7.356   0.038  0.00  0.00     0.068 H 
+BRANCH  19  22
+ATOM     22  NAT 1QC d   1     -37.738   8.584   0.176  0.00  0.00    -0.318 N 
+ATOM     23  H   1QC d   1     -38.451   9.165  -0.215  0.00  0.00     0.172 HD
+BRANCH  22  24
+ATOM     24  SBH 1QC d   1     -37.563   8.296   1.862  0.00  0.00     0.222 S 
+ATOM     25  OAF 1QC d   1     -38.394   7.042   2.169  0.00  0.00    -0.206 OA
+ATOM     26  OAG 1QC d   1     -36.074   8.076   2.202  0.00  0.00    -0.206 OA
+BRANCH  24  27
+ATOM     27  CAC 1QC d   1     -38.103   9.677   2.867  0.00  0.00     0.032 C 
+ATOM     28  H   1QC d   1     -39.165   9.883   2.667  0.00  0.00     0.051 H 
+ATOM     29  H   1QC d   1     -37.504  10.566   2.620  0.00  0.00     0.051 H 
+ATOM     30  H   1QC d   1     -37.971   9.430   3.931  0.00  0.00     0.051 H 
+ENDBRANCH  24  27
+ENDBRANCH  22  24
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+BRANCH  10  31
+ATOM     31  OAU 1QC d   1     -38.551  11.067  -3.425  0.00  0.00    -0.353 OA
+BRANCH  31  32
+ATOM     32  CAB 1QC d   1     -39.493  11.654  -4.344  0.00  0.00     0.010 C 
+ATOM     33  H   1QC d   1     -40.507  11.301  -4.105  0.00  0.00     0.066 H 
+ATOM     34  H   1QC d   1     -39.235  11.360  -5.372  0.00  0.00     0.066 H 
+ATOM     35  H   1QC d   1     -39.457  12.750  -4.256  0.00  0.00     0.066 H 
+ENDBRANCH  31  32
+ENDBRANCH  10  31
+ENDBRANCH   1   6
+BRANCH   5  36
+ATOM     36  CAP 1QC d   1     -29.773  12.150  -2.643  0.00  0.00     0.025 C 
+ATOM     37  H   1QC d   1     -30.053  12.107  -1.580  0.00  0.00     0.059 H 
+ATOM     38  H   1QC d   1     -29.065  12.976  -2.802  0.00  0.00     0.059 H 
+BRANCH  36  39
+ATOM     39  SAW 1QC d   1     -28.919  10.572  -3.076  0.00  0.00    -0.084 SA
+BRANCH  39  40
+ATOM     40  C2  1QC d   1     -27.230  11.023  -3.475  0.00  0.00     0.192 A 
+ATOM     41  N3  1QC d   1     -26.262  10.097  -3.608  0.00  0.00    -0.206 NA
+ATOM     42  C4  1QC d   1     -24.981  10.429  -3.873  0.00  0.00     0.127 A 
+ATOM     43  C5  1QC d   1     -24.632  11.760  -4.062  0.00  0.00     0.005 A 
+ATOM     44  C6  1QC d   1     -25.679  12.693  -3.921  0.00  0.00     0.127 A 
+ATOM     45  H   1QC d   1     -23.619  12.062  -4.303  0.00  0.00     0.095 H 
+ATOM     46  N1  1QC d   1     -26.923  12.299  -3.640  0.00  0.00    -0.206 NA
+BRANCH  42  47
+ATOM     47  NAE 1QC d   1     -24.062   9.484  -3.964  0.00  0.00    -0.384 N 
+ATOM     48  H   1QC d   1     -23.084   9.735  -4.166  0.00  0.00     0.157 HD
+ATOM     49  H   1QC d   1     -24.324   8.496  -3.833  0.00  0.00     0.157 HD
+ENDBRANCH  42  47
+BRANCH  44  50
+ATOM     50  NAD 1QC d   1     -25.492  14.001  -4.078  0.00  0.00    -0.384 N 
+ATOM     51  H   1QC d   1     -24.553  14.364  -4.296  0.00  0.00     0.157 HD
+ATOM     52  H   1QC d   1     -26.286  14.650  -3.981  0.00  0.00     0.157 HD
+ENDBRANCH  44  50
+ENDBRANCH  39  40
+ENDBRANCH  36  39
+ENDBRANCH   5  36
+BRANCH   4  53
+ATOM     53  CAO 1QC d   1     -29.812  13.875  -5.242  0.00  0.00    -0.033 C 
+ATOM     54  H   1QC d   1     -29.693  13.495  -6.267  0.00  0.00     0.041 H 
+ATOM     55  H   1QC d   1     -28.916  13.629  -4.653  0.00  0.00     0.041 H 
+BRANCH  53  56
+ATOM     56  CAL 1QC d   1     -29.969  15.405  -5.294  0.00  0.00    -0.064 C 
+ATOM     57  H   1QC d   1     -31.011  15.651  -5.547  0.00  0.00     0.032 H 
+ATOM     58  H   1QC d   1     -29.299  15.809  -6.067  0.00  0.00     0.032 H 
+BRANCH  56  59
+ATOM     59  CAA 1QC d   1     -29.614  16.048  -3.930  0.00  0.00    -0.076 C 
+ATOM     60  H   1QC d   1     -29.735  17.139  -3.997  0.00  0.00     0.027 H 
+ATOM     61  H   1QC d   1     -28.572  15.810  -3.672  0.00  0.00     0.027 H 
+ATOM     62  H   1QC d   1     -30.284  15.652  -3.152  0.00  0.00     0.027 H 
+ENDBRANCH  56  59
+ENDBRANCH  53  56
+ENDBRANCH   4  53
+TORSDOF 17

@@ -1,0 +1,36 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_9  and  CAJ_10 
+REMARK    2  A    between atoms: CAJ_10  and  CAK_12 
+ROOT
+ATOM      1  CAI 0FR d   1      23.315  37.416  -0.451  0.00  0.00    -0.056 A 
+ATOM      2  CAH 0FR d   1      23.798  38.008   0.736  0.00  0.00    -0.081 A 
+ATOM      3  CAG 0FR d   1      23.792  37.251   1.939  0.00  0.00    -0.082 A 
+ATOM      4  CAF 0FR d   1      23.316  35.940   1.828  0.00  0.00    -0.070 A 
+ATOM      5  CAE 0FR d   1      22.911  35.398   0.686  0.00  0.00     0.006 A 
+ATOM      6  CAD 0FR d   1      22.876  36.143  -0.462  0.00  0.00     0.043 A 
+ATOM      7  NAC 0FR d   1      22.434  35.338  -1.475  0.00  0.00    -0.364 N 
+ATOM      8  CAB 0FR d   1      22.126  34.103  -0.947  0.00  0.00    -0.008 A 
+ATOM      9  CAA 0FR d   1      22.432  34.150   0.382  0.00  0.00     0.045 A 
+ATOM     10  H1  0FR d   1      23.297  37.995  -1.367  0.00  0.00     0.086 H 
+ATOM     11  H2  0FR d   1      24.169  39.027   0.730  0.00  0.00     0.083 H 
+ATOM     12  H3  0FR d   1      24.134  37.663   2.882  0.00  0.00     0.083 H 
+ATOM     13  H4  0FR d   1      23.276  35.333   2.725  0.00  0.00     0.084 H 
+ATOM     14  H5  0FR d   1      22.346  35.609  -2.465  0.00  0.00     0.165 HD
+ATOM     15  H6  0FR d   1      21.716  33.251  -1.488  0.00  0.00     0.112 H 
+ENDROOT
+BRANCH   9  16
+ATOM     16  CAJ 0FR d   1      22.317  33.101   1.261  0.00  0.00     0.218 C 
+ATOM     17  OAP 0FR d   1      22.597  33.189   2.479  0.00  0.00    -0.284 OA
+BRANCH  16  18
+ATOM     18  CAK 0FR d   1      21.929  31.902   0.769  0.00  0.00     0.125 A 
+ATOM     19  OAL 0FR d   1      21.478  30.827   1.599  0.00  0.00    -0.319 OA
+ATOM     20  CAM 0FR d   1      21.177  29.826   0.664  0.00  0.00     0.019 A 
+ATOM     21  CAN 0FR d   1      21.420  30.313  -0.561  0.00  0.00    -0.059 A 
+ATOM     22  H7  0FR d   1      20.810  28.827   0.893  0.00  0.00     0.123 H 
+ATOM     23  CAO 0FR d   1      21.851  31.564  -0.509  0.00  0.00    -0.044 A 
+ATOM     24  H8  0FR d   1      21.280  29.751  -1.483  0.00  0.00     0.086 H 
+ATOM     25  H9  0FR d   1      22.096  32.198  -1.360  0.00  0.00     0.088 H 
+ENDBRANCH  16  18
+ENDBRANCH   9  16
+TORSDOF 2

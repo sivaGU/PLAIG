@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  C4_5 
+REMARK    3  A    between atoms: N7_8  and  C8_9 
+REMARK    4  A    between atoms: C9_10  and  O10_11 
+ROOT
+ATOM      1  C3  SVB d   1     -25.273  -4.007  62.889  0.00  0.00    -0.004 C 
+ATOM      2  H   SVB d   1     -24.796  -3.671  63.821  0.00  0.00     0.048 H 
+ATOM      3  H   SVB d   1     -24.527  -4.509  62.256  0.00  0.00     0.048 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C2  SVB d   1     -25.721  -2.773  62.151  0.00  0.00    -0.008 A 
+ATOM      5  C1  SVB d   1     -25.766  -1.581  62.780  0.00  0.00     0.042 A 
+ATOM      6 CL1  SVB d   1     -25.370  -1.486  64.465  0.00  0.00    -0.084 Cl
+ATOM      7  C15 SVB d   1     -26.180  -0.323  62.058  0.00  0.00    -0.060 A 
+ATOM      8  C14 SVB d   1     -26.485  -0.403  60.761  0.00  0.00    -0.059 A 
+ATOM      9  H   SVB d   1     -26.229   0.625  62.581  0.00  0.00     0.086 H 
+ATOM     10  C13 SVB d   1     -26.410  -1.737  60.052  0.00  0.00     0.056 A 
+ATOM     11  H   SVB d   1     -26.785   0.485  60.217  0.00  0.00     0.086 H 
+ATOM     12  C12 SVB d   1     -26.043  -2.876  60.687  0.00  0.00     0.064 A 
+ATOM     13 CL3  SVB d   1     -26.827  -1.705  58.375  0.00  0.00    -0.083 Cl
+ATOM     14 CL2  SVB d   1     -25.953  -4.454  59.918  0.00  0.00    -0.082 Cl
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  C4  SVB d   1     -26.305  -5.045  63.268  0.00  0.00     0.041 A 
+ATOM     16  S5  SVB d   1     -27.796  -5.383  62.798  0.00  0.00    -0.060 SA
+ATOM     17  C6  SVB d   1     -28.150  -6.682  63.689  0.00  0.00     0.147 A 
+ATOM     18  N7  SVB d   1     -27.063  -7.069  64.555  0.00  0.00    -0.317 N 
+ATOM     19  S11 SVB d   1     -29.579  -7.663  63.778  0.00  0.00    -0.052 SA
+ATOM     20  C9  SVB d   1     -25.895  -6.029  64.283  0.00  0.00     0.157 A 
+BRANCH  18  21
+ATOM     21  C8  SVB d   1     -27.045  -8.166  65.474  0.00  0.00    -0.011 C 
+ATOM     22  H   SVB d   1     -28.007  -8.698  65.429  0.00  0.00     0.057 H 
+ATOM     23  H   SVB d   1     -26.883  -7.787  66.494  0.00  0.00     0.057 H 
+ATOM     24  H   SVB d   1     -26.232  -8.856  65.206  0.00  0.00     0.057 H 
+ENDBRANCH  18  21
+BRANCH  20  25
+ATOM     25  O10 SVB d   1     -24.679  -6.093  64.940  0.00  0.00    -0.345 OA
+ATOM     26  H   SVB d   1     -24.120  -5.386  64.639  0.00  0.00     0.219 HD
+ENDBRANCH  20  25
+ENDBRANCH   1  15
+TORSDOF 4

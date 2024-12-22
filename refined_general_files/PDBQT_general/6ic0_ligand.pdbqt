@@ -1,0 +1,80 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAT_3  and  CAU_4 
+REMARK    2  A    between atoms: CAG_10  and  CAC_11 
+REMARK    3  A    between atoms: CAA_20  and  NAQ_21 
+REMARK    4  A    between atoms: NAQ_21  and  CAV_22 
+REMARK    5  A    between atoms: CAW_27  and  CBB_28 
+REMARK       I    between atoms: CBB_28  and  NBC_30 
+REMARK    6  A    between atoms: NBC_30  and  CBE_31 
+ROOT
+ATOM      1  CAC HAK d   1     143.043 -39.037 264.437  0.00  0.00     0.007 A 
+ATOM      2  CAB HAK d   1     141.745 -39.345 263.991  0.00  0.00    -0.044 A 
+ATOM      3  CAD HAK d   1     144.060 -39.984 264.211  0.00  0.00     0.096 A 
+ATOM      4  NAP HAK d   1     145.332 -39.717 264.598  0.00  0.00    -0.256 NA
+ATOM      5  CAO HAK d   1     146.327 -40.660 264.363  0.00  0.00     0.020 A 
+ATOM      6  CAN HAK d   1     145.999 -41.845 263.719  0.00  0.00     0.020 A 
+ATOM      7  NAM HAK d   1     144.676 -42.090 263.320  0.00  0.00    -0.257 NA
+ATOM      8  CAE HAK d   1     143.722 -41.203 263.563  0.00  0.00     0.088 A 
+ATOM      9  CAF HAK d   1     142.420 -41.503 263.147  0.00  0.00    -0.027 A 
+ATOM     10  CAA HAK d   1     141.408 -40.547 263.343  0.00  0.00     0.035 A 
+ATOM     11  H9  HAK d   1     140.961 -38.615 264.156  0.00  0.00     0.088 H 
+ATOM     12  H10 HAK d   1     147.347 -40.472 264.679  0.00  0.00     0.117 H 
+ATOM     13  H11 HAK d   1     146.768 -42.584 263.524  0.00  0.00     0.117 H 
+ATOM     14  H12 HAK d   1     142.196 -42.456 262.682  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH  10  15
+ATOM     15  NAQ HAK d   1     140.095 -40.713 263.062  0.00  0.00    -0.354 N 
+ATOM     16  H13 HAK d   1     139.415 -40.330 263.734  0.00  0.00     0.166 HD
+BRANCH  15  17
+ATOM     17  CAV HAK d   1     139.610 -41.335 261.981  0.00  0.00     0.066 A 
+ATOM     18  CBA HAK d   1     140.384 -41.527 260.836  0.00  0.00     0.028 A 
+ATOM     19  NAZ HAK d   1     139.877 -42.145 259.711  0.00  0.00    -0.271 NA
+ATOM     20  H14 HAK d   1     141.411 -41.181 260.830  0.00  0.00     0.118 H 
+ATOM     21  CAY HAK d   1     138.560 -42.534 259.708  0.00  0.00     0.003 A 
+ATOM     22  CAX HAK d   1     137.779 -42.336 260.836  0.00  0.00    -0.049 A 
+ATOM     23  H15 HAK d   1     138.132 -42.995 258.825  0.00  0.00     0.114 H 
+ATOM     24  CAW HAK d   1     138.260 -41.739 262.005  0.00  0.00     0.061 A 
+ATOM     25  H16 HAK d   1     136.745 -42.660 260.810  0.00  0.00     0.087 H 
+BRANCH  24  26
+ATOM     26  CBB HAK d   1     137.395 -41.557 263.118  0.00  0.00     0.258 C 
+ATOM     27  OBD HAK d   1     137.715 -40.830 264.038  0.00  0.00    -0.267 OA
+ATOM     28  NBC HAK d   1     136.219 -42.197 263.103  0.00  0.00    -0.320 N 
+ATOM     29  H17 HAK d   1     135.979 -42.744 262.301  0.00  0.00     0.169 HD
+BRANCH  28  30
+ATOM     30  CBE HAK d   1     135.356 -42.132 264.117  0.00  0.00     0.070 A 
+ATOM     31  CBF HAK d   1     134.815 -43.347 264.543  0.00  0.00     0.031 A 
+ATOM     32  NBG HAK d   1     133.881 -43.385 265.559  0.00  0.00    -0.252 NA
+ATOM     33  H18 HAK d   1     135.132 -44.270 264.071  0.00  0.00     0.118 H 
+ATOM     34  CBH HAK d   1     133.508 -42.198 266.191  0.00  0.00     0.086 A 
+ATOM     35  NBI HAK d   1     134.026 -40.967 265.776  0.00  0.00    -0.252 NA
+ATOM     36  H19 HAK d   1     132.806 -42.231 267.016  0.00  0.00     0.146 H 
+ATOM     37  CBJ HAK d   1     134.945 -40.944 264.716  0.00  0.00     0.031 A 
+ATOM     38  H20 HAK d   1     135.337 -39.997 264.362  0.00  0.00     0.118 H 
+ENDBRANCH  28  30
+ENDBRANCH  24  26
+ENDBRANCH  15  17
+ENDBRANCH  10  15
+BRANCH   1  39
+ATOM     39  CAG HAK d   1     143.249 -37.783 265.056  0.00  0.00    -0.021 A 
+ATOM     40  CAH HAK d   1     142.544 -37.375 266.192  0.00  0.00    -0.045 A 
+ATOM     41  CAI HAK d   1     142.749 -36.159 266.734  0.00  0.00     0.045 A 
+ATOM     42  H1  HAK d   1     141.822 -38.047 266.643  0.00  0.00     0.088 H 
+ATOM     43  NAT HAK d   1     142.191 -35.550 267.782  0.00  0.00    -0.360 N 
+ATOM     44  CAJ HAK d   1     143.633 -35.297 266.195  0.00  0.00    -0.008 A 
+ATOM     45  CAS HAK d   1     142.730 -34.342 267.888  0.00  0.00    -0.020 A 
+ATOM     46  CAR HAK d   1     143.634 -34.177 266.916  0.00  0.00    -0.056 A 
+ATOM     47  H5  HAK d   1     142.477 -33.602 268.646  0.00  0.00     0.111 H 
+ATOM     48  H6  HAK d   1     144.252 -33.296 266.747  0.00  0.00     0.086 H 
+ATOM     49  CAK HAK d   1     144.352 -35.646 265.133  0.00  0.00    -0.070 A 
+ATOM     50  CAL HAK d   1     144.170 -36.885 264.528  0.00  0.00    -0.071 A 
+ATOM     51  H7  HAK d   1     145.088 -34.958 264.734  0.00  0.00     0.084 H 
+ATOM     52  H8  HAK d   1     144.744 -37.150 263.648  0.00  0.00     0.084 H 
+BRANCH  43  53
+ATOM     53  CAU HAK d   1     141.152 -36.107 268.651  0.00  0.00    -0.014 C 
+ATOM     54  H2  HAK d   1     140.892 -35.373 269.428  0.00  0.00     0.057 H 
+ATOM     55  H3  HAK d   1     141.525 -37.027 269.126  0.00  0.00     0.057 H 
+ATOM     56  H4  HAK d   1     140.259 -36.340 268.052  0.00  0.00     0.057 H 
+ENDBRANCH  43  53
+ENDBRANCH   1  39
+TORSDOF 6

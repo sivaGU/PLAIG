@@ -1,0 +1,58 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7'_11  and  C1_1 
+REMARK    2  A    between atoms: C8'_12  and  C7'_11 
+REMARK    3  A    between atoms: N_15  and  C8'_12 
+REMARK    4  A    between atoms: C8'_12  and  B_18 
+REMARK    5  A    between atoms: C_14  and  C9'_13 
+REMARK       I    between atoms: C_14  and  N_15 
+REMARK    6  A    between atoms: B_18  and  O1B_17 
+ROOT
+ATOM      1  C1  SRD d   1      28.364   1.861  39.965  0.00  0.00    -0.046 A 
+ATOM      2  C2  SRD d   1      27.835   2.915  40.690  0.00  0.00    -0.020 A 
+ATOM      3  C3  SRD d   1      27.921   2.931  42.110  0.00  0.00    -0.025 A 
+ATOM      4  C4  SRD d   1      28.548   1.894  42.783  0.00  0.00    -0.072 A 
+ATOM      5  C5  SRD d   1      29.086   0.838  42.065  0.00  0.00    -0.082 A 
+ATOM      6  C6  SRD d   1      28.991   0.827  40.661  0.00  0.00    -0.076 A 
+ATOM      7  C7  SRD d   1      27.231   3.972  40.038  0.00  0.00    -0.072 A 
+ATOM      8  C8  SRD d   1      26.711   5.033  40.766  0.00  0.00    -0.082 A 
+ATOM      9  C9  SRD d   1      26.791   5.041  42.167  0.00  0.00    -0.082 A 
+ATOM     10  C10 SRD d   1      27.391   4.000  42.835  0.00  0.00    -0.072 A 
+ATOM     11  H1  SRD d   1      28.617   1.909  43.865  0.00  0.00     0.084 H 
+ATOM     12  H2  SRD d   1      29.578   0.023  42.583  0.00  0.00     0.083 H 
+ATOM     13  H3  SRD d   1      29.415  -0.004  40.108  0.00  0.00     0.084 H 
+ATOM     14  H4  SRD d   1      27.163   3.973  38.956  0.00  0.00     0.084 H 
+ATOM     15  H5  SRD d   1      26.240   5.861  40.249  0.00  0.00     0.083 H 
+ATOM     16  H6  SRD d   1      26.377   5.873  42.726  0.00  0.00     0.083 H 
+ATOM     17  H7  SRD d   1      27.452   4.009  43.917  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  18
+ATOM     18  C7' SRD d   1      28.245   1.819  38.466  0.00  0.00    -0.027 C 
+ATOM     19  H8  SRD d   1      27.448   2.514  38.162  0.00  0.00     0.042 H 
+ATOM     20  H9  SRD d   1      27.972   0.796  38.169  0.00  0.00     0.042 H 
+BRANCH  18  21
+ATOM     21  C8' SRD d   1      29.525   2.206  37.734  0.00  0.00     0.016 C 
+ATOM     22  H10 SRD d   1      29.920   3.113  38.215  0.00  0.00     0.060 H 
+BRANCH  21  23
+ATOM     23  N   SRD d   1      30.612   1.252  37.682  0.00  0.00    -0.363 N 
+ATOM     24  C   SRD d   1      31.840   1.581  38.058  0.00  0.00     0.213 C 
+ATOM     25  O   SRD d   1      32.155   2.752  38.339  0.00  0.00    -0.274 OA
+ATOM     26  H14 SRD d   1      30.433   0.324  37.355  0.00  0.00     0.161 HD
+BRANCH  24  27
+ATOM     27  C9' SRD d   1      32.875   0.484  38.194  0.00  0.00    -0.003 C 
+ATOM     28  H11 SRD d   1      33.833   0.921  38.511  0.00  0.00     0.040 H 
+ATOM     29  H12 SRD d   1      33.005  -0.020  37.225  0.00  0.00     0.040 H 
+ATOM     30  H13 SRD d   1      32.539  -0.246  38.945  0.00  0.00     0.040 H 
+ENDBRANCH  24  27
+ENDBRANCH  21  23
+BRANCH  21  31
+ATOM     31  B   SRD d   1      29.074   2.546  36.254  0.00  0.00     0.330 B 
+ATOM     32  H16 SRD d   1      28.863   3.470  35.910  0.00  0.00     0.009 HD
+BRANCH  31  33
+ATOM     33  O1B SRD d   1      29.009   1.305  35.453  0.00  0.00    -0.464 OA
+ATOM     34  H15 SRD d   1      28.381   0.709  35.844  0.00  0.00     0.182 HD
+ENDBRANCH  31  33
+ENDBRANCH  21  31
+ENDBRANCH  18  21
+ENDBRANCH   1  18
+TORSDOF 6

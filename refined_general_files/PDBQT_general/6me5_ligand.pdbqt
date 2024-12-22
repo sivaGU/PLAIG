@@ -1,0 +1,59 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_1  and  C2_11 
+REMARK    1  A    between atoms: C3_13  and  N1_1 
+REMARK    2  A    between atoms: C5_3  and  C4_2 
+REMARK    3  A    between atoms: C4_2  and  C3_13 
+REMARK    4  A    between atoms: O2_18  and  C15_9 
+REMARK    5  A    between atoms: C2_11  and  C1_10 
+REMARK    6  A    between atoms: C12_16  and  O2_18 
+ROOT
+ATOM      1  C5  AWY d   1      23.949 -24.012  47.311  0.00  0.00    -0.045 A 
+ATOM      2  C6  AWY d   1      22.788 -24.744  47.624  0.00  0.00    -0.076 A 
+ATOM      3  C7  AWY d   1      22.881 -25.975  48.280  0.00  0.00    -0.082 A 
+ATOM      4  C8  AWY d   1      24.134 -26.489  48.629  0.00  0.00    -0.072 A 
+ATOM      5  C10 AWY d   1      25.220 -24.549  47.638  0.00  0.00    -0.017 A 
+ATOM      6  C13 AWY d   1      27.722 -25.642  48.355  0.00  0.00    -0.050 A 
+ATOM      7  C9  AWY d   1      25.300 -25.789  48.308  0.00  0.00    -0.025 A 
+ATOM      8  C11 AWY d   1      26.418 -23.878  47.334  0.00  0.00    -0.040 A 
+ATOM      9  C12 AWY d   1      27.667 -24.401  47.711  0.00  0.00     0.069 A 
+ATOM     10  C14 AWY d   1      26.541 -26.312  48.685  0.00  0.00    -0.070 A 
+ATOM     11  H4  AWY d   1      21.815 -24.350  47.354  0.00  0.00     0.084 H 
+ATOM     12  H5  AWY d   1      21.982 -26.531  48.518  0.00  0.00     0.083 H 
+ATOM     13  H6  AWY d   1      24.201 -27.436  49.152  0.00  0.00     0.084 H 
+ATOM     14  H7  AWY d   1      28.681 -26.084  48.598  0.00  0.00     0.087 H 
+ATOM     15  H16 AWY d   1      26.377 -22.937  46.797  0.00  0.00     0.089 H 
+ATOM     16  H17 AWY d   1      26.587 -27.244  49.237  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  C4  AWY d   1      23.801 -22.770  46.659  0.00  0.00    -0.025 C 
+ATOM     18  H2  AWY d   1      22.883 -22.787  46.053  0.00  0.00     0.042 H 
+ATOM     19  H3  AWY d   1      24.669 -22.600  46.005  0.00  0.00     0.042 H 
+BRANCH  17  20
+ATOM     20  C3  AWY d   1      23.709 -21.623  47.684  0.00  0.00    -0.001 C 
+ATOM     21  H14 AWY d   1      22.674 -21.254  47.728  0.00  0.00     0.064 H 
+ATOM     22  H15 AWY d   1      24.008 -21.994  48.675  0.00  0.00     0.064 H 
+BRANCH  20  23
+ATOM     23  N1  AWY d   1      24.602 -20.525  47.283  0.00  0.00    -0.361 N 
+ATOM     24  C2  AWY d   1      24.171 -19.271  47.039  0.00  0.00     0.213 C 
+ATOM     25  O1  AWY d   1      23.001 -18.883  47.116  0.00  0.00    -0.274 OA
+ATOM     26  H1  AWY d   1      25.578 -20.718  47.187  0.00  0.00     0.162 HD
+BRANCH  24  27
+ATOM     27  C1  AWY d   1      25.278 -18.305  46.623  0.00  0.00    -0.003 C 
+ATOM     28  H11 AWY d   1      24.847 -17.309  46.443  0.00  0.00     0.040 H 
+ATOM     29  H12 AWY d   1      25.756 -18.669  45.702  0.00  0.00     0.040 H 
+ATOM     30  H13 AWY d   1      26.029 -18.241  47.424  0.00  0.00     0.040 H 
+ENDBRANCH  24  27
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+BRANCH   9  31
+ATOM     31  O2  AWY d   1      28.857 -23.766  47.402  0.00  0.00    -0.356 OA
+BRANCH  31  32
+ATOM     32  C15 AWY d   1      28.823 -22.339  47.193  0.00  0.00     0.010 C 
+ATOM     33  H8  AWY d   1      29.835 -21.979  46.957  0.00  0.00     0.066 H 
+ATOM     34  H9  AWY d   1      28.461 -21.843  48.106  0.00  0.00     0.066 H 
+ATOM     35  H10 AWY d   1      28.147 -22.107  46.357  0.00  0.00     0.066 H 
+ENDBRANCH  31  32
+ENDBRANCH   9  31
+TORSDOF 6

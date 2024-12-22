@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C3'_5  and  O3'_6 
+REMARK    4  A    between atoms: C1'_8  and  N1_9 
+REMARK    5  A    between atoms: C5_15  and  C5M_16 
+ROOT
+ATOM      1  C4' THM d   1      28.145  48.630  -9.328  0.00  0.00     0.086 A 
+ATOM      2  O4' THM d   1      28.066  47.203  -9.247  0.00  0.00    -0.356 OA
+ATOM      3  C3' THM d   1      28.074  49.022 -10.810  0.00  0.00     0.066 A 
+ATOM      4  C2' THM d   1      28.060  47.722 -11.582  0.00  0.00     0.002 A 
+ATOM      5  C1' THM d   1      28.123  46.609 -10.550  0.00  0.00     0.116 A 
+ATOM      6  H   THM d   1      29.101  48.978  -8.911  0.00  0.00     0.090 H 
+ATOM      7  H   THM d   1      27.143  49.578 -10.995  0.00  0.00     0.087 H 
+ATOM      8  H   THM d   1      28.930  47.669 -12.253  0.00  0.00     0.043 H 
+ATOM      9  H   THM d   1      27.136  47.641 -12.173  0.00  0.00     0.043 H 
+ATOM     10  H   THM d   1      29.073  46.062 -10.642  0.00  0.00     0.118 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  N1  THM d   1      27.014  45.689 -10.858  0.00  0.00    -0.282 N 
+ATOM     12  C2  THM d   1      27.213  44.731 -11.899  0.00  0.00     0.331 A 
+ATOM     13  O2  THM d   1      28.289  44.609 -12.536  0.00  0.00    -0.246 OA
+ATOM     14  N3  THM d   1      26.244  43.887 -12.240  0.00  0.00    -0.275 N 
+ATOM     15  C4  THM d   1      25.059  43.900 -11.629  0.00  0.00     0.256 A 
+ATOM     16  H   THM d   1      26.408  43.226 -12.973  0.00  0.00     0.173 HD
+ATOM     17  O4  THM d   1      24.267  43.053 -12.016  0.00  0.00    -0.267 OA
+ATOM     18  C5  THM d   1      24.784  44.869 -10.539  0.00  0.00     0.022 A 
+ATOM     19  C6  THM d   1      25.822  45.759 -10.209  0.00  0.00    -0.002 A 
+ATOM     20  H   THM d   1      25.670  46.506  -9.431  0.00  0.00     0.113 H 
+BRANCH  18  21
+ATOM     21  C5M THM d   1      23.459  44.928  -9.810  0.00  0.00    -0.045 C 
+ATOM     22  H   THM d   1      23.494  45.722  -9.049  0.00  0.00     0.033 H 
+ATOM     23  H   THM d   1      23.265  43.961  -9.322  0.00  0.00     0.033 H 
+ATOM     24  H   THM d   1      22.654  45.144 -10.528  0.00  0.00     0.033 H 
+ENDBRANCH  18  21
+ENDBRANCH   5  11
+BRANCH   1  25
+ATOM     25  C5' THM d   1      27.005  49.214  -8.507  0.00  0.00     0.043 C 
+ATOM     26  H   THM d   1      27.036  48.805  -7.486  0.00  0.00     0.078 H 
+ATOM     27  H   THM d   1      27.101  50.309  -8.467  0.00  0.00     0.078 H 
+BRANCH  25  28
+ATOM     28  O5' THM d   1      25.764  48.860  -9.131  0.00  0.00    -0.398 OA
+ATOM     29  H   THM d   1      25.044  49.219  -8.627  0.00  0.00     0.209 HD
+ENDBRANCH  25  28
+ENDBRANCH   1  25
+BRANCH   3  30
+ATOM     30  O3' THM d   1      29.185  49.836 -11.233  0.00  0.00    -0.393 OA
+ATOM     31  H   THM d   1      29.201  50.638 -10.723  0.00  0.00     0.210 HD
+ENDBRANCH   3  30
+TORSDOF 5

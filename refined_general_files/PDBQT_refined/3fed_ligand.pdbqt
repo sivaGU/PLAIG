@@ -1,0 +1,73 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  C3_3 
+REMARK    2  A    between atoms: C4_4  and  C2_1 
+REMARK    3  A    between atoms: C2_1  and  N_19 
+REMARK    4  A    between atoms: C5_2  and  C4_4 
+REMARK    5  A    between atoms: P6_16  and  C5_2 
+REMARK    6  A    between atoms: CA_12  and  C1_5 
+REMARK    7  A    between atoms: C1_5  and  P6_16 
+REMARK    8  A    between atoms: CG_10  and  CD_8 
+REMARK    9  A    between atoms: CB_11  and  CG_10 
+REMARK   10  A    between atoms: CB_11  and  CA_12 
+REMARK   11  A    between atoms: CA_12  and  C_13 
+ROOT
+ATOM      1  P6  BIX d   1      19.895  44.749  19.005  0.00  0.00     0.107 P 
+ATOM      2  O61 BIX d   1      20.568  43.833  19.982  0.00  0.00    -0.667 OA
+ATOM      3  O6  BIX d   1      19.241  45.878  19.666  0.00  0.00    -0.667 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  BIX d   1      21.093  45.289  17.779  0.00  0.00     0.009 C 
+ATOM      5  H2  BIX d   1      20.635  46.099  17.192  0.00  0.00     0.048 H 
+ATOM      6  H3  BIX d   1      21.973  45.676  18.314  0.00  0.00     0.048 H 
+BRANCH   4   7
+ATOM      7  C4  BIX d   1      21.576  44.204  16.794  0.00  0.00    -0.020 C 
+ATOM      8  H4  BIX d   1      21.951  43.350  17.378  0.00  0.00     0.037 H 
+ATOM      9  H5  BIX d   1      20.718  43.883  16.185  0.00  0.00     0.037 H 
+BRANCH   7  10
+ATOM     10  C2  BIX d   1      22.711  44.676  15.831  0.00  0.00     0.183 C 
+ATOM     11  H1  BIX d   1      22.849  43.898  15.066  0.00  0.00     0.101 H 
+BRANCH  10  12
+ATOM     12  C3  BIX d   1      22.411  45.954  15.115  0.00  0.00     0.204 C 
+ATOM     13  O1  BIX d   1      22.848  46.996  15.641  0.00  0.00    -0.646 OA
+ATOM     14  O3  BIX d   1      21.707  45.964  14.065  0.00  0.00    -0.646 OA
+ENDBRANCH  10  12
+BRANCH  10  15
+ATOM     15  N   BIX d   1      23.931  44.787  16.596  0.00  0.00    -0.065 N 
+ATOM     16  H13 BIX d   1      24.679  45.091  15.993  0.00  0.00     0.275 HD
+ATOM     17  H14 BIX d   1      24.162  43.889  16.992  0.00  0.00     0.275 HD
+ATOM     18  H15 BIX d   1      23.803  45.458  17.337  0.00  0.00     0.275 HD
+ENDBRANCH  10  15
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  C1  BIX d   1      18.542  43.828  18.131  0.00  0.00     0.020 C 
+ATOM     20  H6  BIX d   1      17.658  44.481  18.084  0.00  0.00     0.050 H 
+ATOM     21  H7  BIX d   1      18.885  43.601  17.111  0.00  0.00     0.050 H 
+BRANCH  19  22
+ATOM     22  CA  BIX d   1      18.130  42.516  18.798  0.00  0.00     0.040 C 
+ATOM     23  H12 BIX d   1      17.996  42.693  19.875  0.00  0.00     0.057 H 
+BRANCH  22  24
+ATOM     24  CB  BIX d   1      16.812  41.987  18.183  0.00  0.00    -0.043 C 
+ATOM     25  H10 BIX d   1      16.609  40.990  18.601  0.00  0.00     0.035 H 
+ATOM     26  H11 BIX d   1      15.999  42.674  18.460  0.00  0.00     0.035 H 
+BRANCH  24  27
+ATOM     27  CG  BIX d   1      16.851  41.873  16.649  0.00  0.00     0.017 C 
+ATOM     28  H8  BIX d   1      16.938  42.888  16.233  0.00  0.00     0.049 H 
+ATOM     29  H9  BIX d   1      17.739  41.286  16.373  0.00  0.00     0.049 H 
+BRANCH  27  30
+ATOM     30  CD  BIX d   1      15.640  41.213  16.028  0.00  0.00     0.172 C 
+ATOM     31  OE2 BIX d   1      14.881  40.564  16.722  0.00  0.00    -0.648 OA
+ATOM     32  OE1 BIX d   1      15.479  41.371  14.806  0.00  0.00    -0.648 OA
+ENDBRANCH  27  30
+ENDBRANCH  24  27
+ENDBRANCH  22  24
+BRANCH  22  33
+ATOM     33  C   BIX d   1      19.150  41.440  18.588  0.00  0.00     0.177 C 
+ATOM     34  OC  BIX d   1      19.190  40.459  19.350  0.00  0.00    -0.648 OA
+ATOM     35  O   BIX d   1      19.994  41.529  17.628  0.00  0.00    -0.648 OA
+ENDBRANCH  22  33
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+TORSDOF 11

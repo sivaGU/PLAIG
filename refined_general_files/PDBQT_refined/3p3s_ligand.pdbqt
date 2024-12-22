@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAR_18  and  CAA_1 
+REMARK    2  A    between atoms: CAO_15  and  NAB_2 
+REMARK    3  A    between atoms: CAK_11  and  OAD_4 
+REMARK    4  A    between atoms: CAG_7  and  CAL_12 
+REMARK    5  A    between atoms: CAQ_17  and  CAG_7 
+ROOT
+ATOM      1  OAC 3M2 d   1       0.330  -1.980 -10.255  0.00  0.00    -0.265 OA
+ATOM      2  NAJ 3M2 d   1      -0.050   0.189 -11.005  0.00  0.00    -0.154 N 
+ATOM      3  CAO 3M2 d   1      -0.277   1.347 -10.345  0.00  0.00     0.681 A 
+ATOM      4  CAP 3M2 d   1       0.107  -0.760 -10.074  0.00  0.00     0.287 A 
+ATOM      5  CAQ 3M2 d   1      -0.042  -0.146  -8.837  0.00  0.00     0.120 A 
+ATOM      6  NAR 3M2 d   1      -0.267   1.114  -9.048  0.00  0.00    -0.182 N 
+ATOM      7  H10 3M2 d   1      -0.008   0.065 -11.996  0.00  0.00     0.187 HD
+ENDROOT
+BRANCH   5   8
+ATOM      8  CAG 3M2 d   1       0.064  -0.859  -7.686  0.00  0.00    -0.041 C 
+ATOM      9  H7  3M2 d   1       0.259  -1.922  -7.818  0.00  0.00     0.088 H 
+BRANCH   8  10
+ATOM     10  CAL 3M2 d   1      -0.039  -0.438  -6.365  0.00  0.00    -0.031 A 
+ATOM     11  CAH 3M2 d   1      -0.886   0.523  -5.778  0.00  0.00    -0.053 A 
+ATOM     12  CAM 3M2 d   1      -0.848   0.742  -4.381  0.00  0.00     0.046 A 
+ATOM     13  H8  3M2 d   1      -1.567   1.095  -6.397  0.00  0.00     0.086 H 
+ATOM     14 BRAE 3M2 d   1      -1.939   2.000  -3.448  0.00  0.00    -0.048 Br
+ATOM     15  CAK 3M2 d   1       0.001   0.003  -3.595  0.00  0.00     0.100 A 
+ATOM     16  CAN 3M2 d   1       0.797  -0.921  -4.206  0.00  0.00     0.046 A 
+ATOM     17 BRAF 3M2 d   1       2.006  -2.001  -3.283  0.00  0.00    -0.048 Br
+ATOM     18  CAI 3M2 d   1       0.781  -1.149  -5.545  0.00  0.00    -0.053 A 
+ATOM     19  H9  3M2 d   1       1.431  -1.908  -5.966  0.00  0.00     0.086 H 
+BRANCH  15  20
+ATOM     20  OAD 3M2 d   1       0.065   0.186  -2.254  0.00  0.00    -0.358 OA
+ATOM     21  H6  3M2 d   1       0.704  -0.412  -1.884  0.00  0.00     0.217 HD
+ENDBRANCH  15  20
+ENDBRANCH   8  10
+ENDBRANCH   5   8
+BRANCH   6  22
+ATOM     22  CAA 3M2 d   1      -0.482   2.106  -7.992  0.00  0.00     0.003 C 
+ATOM     23  H1  3M2 d   1      -0.649   3.094  -8.446  0.00  0.00     0.058 H 
+ATOM     24  H2  3M2 d   1       0.404   2.147  -7.341  0.00  0.00     0.058 H 
+ATOM     25  H3  3M2 d   1      -1.362   1.822  -7.396  0.00  0.00     0.058 H 
+ENDBRANCH   6  22
+BRANCH   3  26
+ATOM     26  NAB 3M2 d   1      -0.476   2.601 -10.810  0.00  0.00    -0.234 N 
+ATOM     27  H4  3M2 d   1      -0.483   2.779 -11.825  0.00  0.00     0.174 HD
+ATOM     28  H5  3M2 d   1      -0.621   3.378 -10.150  0.00  0.00     0.174 HD
+ENDBRANCH   3  26
+TORSDOF 5

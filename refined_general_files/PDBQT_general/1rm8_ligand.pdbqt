@@ -1,0 +1,116 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C1_1  and  C3_3 
+REMARK    3  A    between atoms: C8_8  and  C1_1 
+REMARK    4  A    between atoms: C3_3  and  S1_31 
+REMARK    5  A    between atoms: S1_31  and  C4_4 
+REMARK    6  A    between atoms: C8_8  and  C9_9 
+REMARK    7  A    between atoms: C13_13  and  C8_8 
+REMARK    8  A    between atoms: C9_9  and  C10_10 
+REMARK    9  A    between atoms: C10_10  and  C11_11 
+REMARK   10  A    between atoms: C10_10  and  C12_12 
+REMARK   11  A    between atoms: C14_14  and  C15_15 
+REMARK   12  A    between atoms: C14_14  and  C17_17 
+REMARK   13  A    between atoms: C14_14  and  N2_25 
+REMARK   14  A    between atoms: N3_26  and  C16_16 
+REMARK   15  A    between atoms: C17_17  and  C18_18 
+REMARK   16  A    between atoms: N1_24  and  O2_28 
+ROOT
+ATOM      1  C8  BAT d   1       1.307   4.343  48.376  0.00  0.00     0.022 C 
+ATOM      2  H7  BAT d   1       1.647   3.719  49.216  0.00  0.00     0.054 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  BAT d   1       1.733   3.647  47.073  0.00  0.00     0.032 C 
+ATOM      4  H1  BAT d   1       1.342   4.226  46.224  0.00  0.00     0.055 H 
+BRANCH   3   5
+ATOM      5  C2  BAT d   1       3.225   3.648  47.039  0.00  0.00     0.180 C 
+ATOM      6  N1  BAT d   1       3.925   4.364  46.197  0.00  0.00    -0.248 N 
+ATOM      7  H28 BAT d   1       3.441   4.924  45.525  0.00  0.00     0.196 HD
+ATOM      8  O1  BAT d   1       3.982   3.012  47.891  0.00  0.00    -0.175 OA
+BRANCH   6   9
+ATOM      9  O2  BAT d   1       5.304   4.378  46.199  0.00  0.00    -0.288 OA
+ATOM     10  H31 BAT d   1       5.615   4.958  45.514  0.00  0.00     0.244 HD
+ENDBRANCH   6   9
+ENDBRANCH   3   5
+BRANCH   3  11
+ATOM     11  C3  BAT d   1       1.238   2.187  46.933  0.00  0.00    -0.007 C 
+ATOM     12  H2  BAT d   1       0.158   2.147  47.140  0.00  0.00     0.050 H 
+ATOM     13  H3  BAT d   1       1.773   1.551  47.653  0.00  0.00     0.050 H 
+BRANCH  11  14
+ATOM     14  S1  BAT d   1       1.554   1.575  45.229  0.00  0.00    -0.122 SA
+BRANCH  14  15
+ATOM     15  C4  BAT d   1       2.809   0.469  45.458  0.00  0.00     0.041 A 
+ATOM     16  C5  BAT d   1       4.115   0.794  45.126  0.00  0.00    -0.060 A 
+ATOM     17  C6  BAT d   1       4.922  -0.293  45.364  0.00  0.00    -0.075 A 
+ATOM     18  H4  BAT d   1       4.448   1.756  44.739  0.00  0.00     0.086 H 
+ATOM     19  C7  BAT d   1       4.210  -1.353  45.904  0.00  0.00    -0.044 A 
+ATOM     20  H5  BAT d   1       5.990  -0.319  45.154  0.00  0.00     0.084 H 
+ATOM     21  S2  BAT d   1       2.550  -1.091  46.138  0.00  0.00    -0.095 SA
+ATOM     22  H6  BAT d   1       4.687  -2.297  46.162  0.00  0.00     0.095 H 
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   3  11
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  C9  BAT d   1       1.932   5.730  48.549  0.00  0.00    -0.051 C 
+ATOM     24  H8  BAT d   1       1.493   6.397  47.792  0.00  0.00     0.034 H 
+ATOM     25  H9  BAT d   1       3.014   5.639  48.373  0.00  0.00     0.034 H 
+BRANCH  23  26
+ATOM     26  C10 BAT d   1       1.731   6.374  49.916  0.00  0.00    -0.060 C 
+ATOM     27  H10 BAT d   1       0.651   6.321  50.116  0.00  0.00     0.038 H 
+BRANCH  26  28
+ATOM     28  C11 BAT d   1       2.387   5.669  51.094  0.00  0.00    -0.073 C 
+ATOM     29  H11 BAT d   1       2.172   6.224  52.019  0.00  0.00     0.028 H 
+ATOM     30  H12 BAT d   1       3.475   5.626  50.936  0.00  0.00     0.028 H 
+ATOM     31  H13 BAT d   1       1.988   4.647  51.178  0.00  0.00     0.028 H 
+ENDBRANCH  26  28
+BRANCH  26  32
+ATOM     32  C12 BAT d   1       2.082   7.850  49.837  0.00  0.00    -0.073 C 
+ATOM     33  H14 BAT d   1       1.579   8.300  48.968  0.00  0.00     0.028 H 
+ATOM     34  H15 BAT d   1       3.171   7.963  49.729  0.00  0.00     0.028 H 
+ATOM     35  H16 BAT d   1       1.750   8.356  50.756  0.00  0.00     0.028 H 
+ENDBRANCH  26  32
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+BRANCH   1  36
+ATOM     36  C13 BAT d   1      -0.180   4.428  48.429  0.00  0.00     0.157 C 
+ATOM     37  N2  BAT d   1      -0.837   3.756  49.392  0.00  0.00    -0.359 N 
+ATOM     38  H29 BAT d   1      -0.312   3.293  50.106  0.00  0.00     0.162 HD
+ATOM     39  O3  BAT d   1      -0.782   5.145  47.525  0.00  0.00    -0.177 OA
+BRANCH  37  40
+ATOM     40  C14 BAT d   1      -2.303   3.684  49.424  0.00  0.00     0.079 C 
+ATOM     41  H17 BAT d   1      -2.684   3.881  48.411  0.00  0.00     0.086 H 
+BRANCH  40  42
+ATOM     42  C15 BAT d   1      -2.916   4.671  50.361  0.00  0.00     0.174 C 
+ATOM     43  N3  BAT d   1      -3.930   5.345  49.881  0.00  0.00    -0.375 N 
+ATOM     44  H30 BAT d   1      -4.310   5.058  49.002  0.00  0.00     0.160 HD
+ATOM     45  O4  BAT d   1      -2.479   4.838  51.596  0.00  0.00    -0.175 OA
+BRANCH  43  46
+ATOM     46  C16 BAT d   1      -4.543   6.494  50.552  0.00  0.00    -0.019 C 
+ATOM     47  H18 BAT d   1      -5.373   6.876  49.940  0.00  0.00     0.056 H 
+ATOM     48  H19 BAT d   1      -3.791   7.285  50.685  0.00  0.00     0.056 H 
+ATOM     49  H20 BAT d   1      -4.926   6.183  51.535  0.00  0.00     0.056 H 
+ENDBRANCH  43  46
+ENDBRANCH  40  42
+BRANCH  40  50
+ATOM     50  C17 BAT d   1      -2.723   2.258  49.862  0.00  0.00    -0.015 C 
+ATOM     51  H21 BAT d   1      -3.815   2.229  49.993  0.00  0.00     0.043 H 
+ATOM     52  H22 BAT d   1      -2.233   2.016  50.816  0.00  0.00     0.043 H 
+BRANCH  50  53
+ATOM     53  C18 BAT d   1      -2.327   1.242  48.838  0.00  0.00    -0.056 A 
+ATOM     54  C19 BAT d   1      -1.271   0.385  49.084  0.00  0.00    -0.077 A 
+ATOM     55  C20 BAT d   1      -0.859  -0.512  48.102  0.00  0.00    -0.082 A 
+ATOM     56  H23 BAT d   1      -0.763   0.411  50.041  0.00  0.00     0.084 H 
+ATOM     57  C21 BAT d   1      -1.528  -0.576  46.889  0.00  0.00    -0.083 A 
+ATOM     58  H24 BAT d   1      -0.012  -1.163  48.286  0.00  0.00     0.083 H 
+ATOM     59  C22 BAT d   1      -2.576   0.281  46.652  0.00  0.00    -0.082 A 
+ATOM     60  H25 BAT d   1      -1.227  -1.295  46.135  0.00  0.00     0.083 H 
+ATOM     61  C23 BAT d   1      -2.983   1.190  47.607  0.00  0.00    -0.077 A 
+ATOM     62  H26 BAT d   1      -3.091   0.242  45.699  0.00  0.00     0.083 H 
+ATOM     63  H27 BAT d   1      -3.809   1.861  47.402  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  40  50
+ENDBRANCH  37  40
+ENDBRANCH   1  36
+TORSDOF 16

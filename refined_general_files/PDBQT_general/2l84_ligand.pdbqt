@@ -1,0 +1,68 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CJ1_22  and  S_1 
+REMARK    2  A    between atoms: CH_5  and  NA_2 
+REMARK    3  A    between atoms: NB_3  and  CG_4 
+REMARK    4  A    between atoms: CZ_13  and  OH_6 
+REMARK    5  A    between atoms: CK_7  and  CN_10 
+REMARK    6  A    between atoms: CD1_16  and  NL_8 
+REMARK    7  A    between atoms: CE2_19  and  CM_9 
+REMARK    8  A    between atoms: CI2_21  and  CP_11 
+ROOT
+ATOM      1  CH  J28 d   1      13.910  -0.098   6.017  0.00  0.00     0.086 A 
+ATOM      2  CK  J28 d   1      12.954  -0.287   8.611  0.00  0.00    -0.037 A 
+ATOM      3  CI1 J28 d   1      14.568  -0.879   6.953  0.00  0.00    -0.029 A 
+ATOM      4  CI2 J28 d   1      12.771   0.585   6.402  0.00  0.00    -0.031 A 
+ATOM      5  CJ1 J28 d   1      14.096  -0.978   8.250  0.00  0.00     0.088 A 
+ATOM      6  CJ2 J28 d   1      12.293   0.493   7.690  0.00  0.00    -0.068 A 
+ATOM      7  H   J28 d   1      15.468  -1.422   6.665  0.00  0.00     0.089 H 
+ATOM      8  H   J28 d   1      11.393   1.036   7.979  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  NA  J28 d   1      14.359   0.002   4.773  0.00  0.00    -0.149 NA
+ATOM     10  NB  J28 d   1      15.371  -0.599   4.425  0.00  0.00    -0.148 NA
+BRANCH  10  11
+ATOM     11  CG  J28 d   1      15.802  -0.484   3.175  0.00  0.00     0.106 A 
+ATOM     12  CD1 J28 d   1      16.941  -1.150   2.757  0.00  0.00     0.059 A 
+ATOM     13  CE1 J28 d   1      17.391  -1.036   1.460  0.00  0.00    -0.023 A 
+ATOM     14  CZ  J28 d   1      16.699  -0.248   0.567  0.00  0.00     0.073 A 
+ATOM     15  H   J28 d   1      18.289  -1.566   1.142  0.00  0.00     0.091 H 
+ATOM     16  CE2 J28 d   1      15.558   0.427   0.961  0.00  0.00    -0.026 A 
+ATOM     17  CD2 J28 d   1      15.117   0.304   2.260  0.00  0.00    -0.043 A 
+ATOM     18  H   J28 d   1      14.217   0.833   2.574  0.00  0.00     0.088 H 
+BRANCH  12  19
+ATOM     19  NL  J28 d   1      17.605  -1.900   3.622  0.00  0.00    -0.397 N 
+ATOM     20  H   J28 d   1      17.276  -1.982   4.584  0.00  0.00     0.156 HD
+ATOM     21  H   J28 d   1      18.446  -2.396   3.327  0.00  0.00     0.156 HD
+ENDBRANCH  12  19
+BRANCH  14  22
+ATOM     22  OH  J28 d   1      17.150  -0.136  -0.721  0.00  0.00    -0.360 OA
+ATOM     23  H   J28 d   1      16.565   0.443  -1.215  0.00  0.00     0.217 HD
+ENDBRANCH  14  22
+BRANCH  16  24
+ATOM     24  CM  J28 d   1      14.781   1.307  -0.033  0.00  0.00    -0.049 C 
+ATOM     25  H   J28 d   1      13.764   0.928  -0.133  0.00  0.00     0.033 H 
+ATOM     26  H   J28 d   1      14.754   2.332   0.336  0.00  0.00     0.033 H 
+ATOM     27  H   J28 d   1      15.277   1.282  -1.003  0.00  0.00     0.033 H 
+ENDBRANCH  16  24
+ENDBRANCH  10  11
+ENDBRANCH   1   9
+BRANCH   4  28
+ATOM     28  CP  J28 d   1      12.037   1.458   5.383  0.00  0.00    -0.049 C 
+ATOM     29  H   J28 d   1      11.016   1.095   5.264  0.00  0.00     0.033 H 
+ATOM     30  H   J28 d   1      12.019   2.489   5.736  0.00  0.00     0.033 H 
+ATOM     31  H   J28 d   1      12.555   1.410   4.425  0.00  0.00     0.033 H 
+ENDBRANCH   4  28
+BRANCH   5  32
+ATOM     32  S   J28 d   1      14.942  -1.969   9.420  0.00  0.00     0.138 S 
+ATOM     33  OT  J28 d   1      14.058  -2.974   9.922  0.00  0.00    -0.591 OA
+ATOM     34  OC1 J28 d   1      16.120  -2.624   8.760  0.00  0.00    -0.591 OA
+ATOM     35  OC2 J28 d   1      15.419  -1.109  10.553  0.00  0.00    -0.591 OA
+ENDBRANCH   5  32
+BRANCH   2  36
+ATOM     36  CN  J28 d   1      12.413  -0.377  10.040  0.00  0.00    -0.050 C 
+ATOM     37  H   J28 d   1      12.173  -1.415  10.272  0.00  0.00     0.033 H 
+ATOM     38  H   J28 d   1      13.168  -0.013  10.737  0.00  0.00     0.033 H 
+ATOM     39  H   J28 d   1      11.514   0.233  10.126  0.00  0.00     0.033 H 
+ENDBRANCH   2  36
+TORSDOF 8

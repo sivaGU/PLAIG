@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+ROOT
+ATOM      1  CB  PHE d   1      15.379  17.765  50.639  0.00  0.00    -0.005 C 
+ATOM      2  H5  PHE d   1      14.691  18.623  50.623  0.00  0.00     0.044 H 
+ATOM      3  H6  PHE d   1      15.204  17.138  49.752  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  PHE d   1      15.089  16.930  51.891  0.00  0.00     0.186 C 
+ATOM      5  H4  PHE d   1      15.007  17.598  52.761  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  C   PHE d   1      13.780  16.236  51.675  0.00  0.00     0.204 C 
+ATOM      7  OXT PHE d   1      12.817  17.005  51.521  0.00  0.00    -0.646 OA
+ATOM      8  O   PHE d   1      13.726  14.982  51.643  0.00  0.00    -0.646 OA
+ENDBRANCH   4   6
+BRANCH   4   9
+ATOM      9  N   PHE d   1      16.182  15.941  52.152  0.00  0.00    -0.065 N 
+ATOM     10  H1  PHE d   1      17.052  16.431  52.294  0.00  0.00     0.275 HD
+ATOM     11  H2  PHE d   1      16.270  15.322  51.362  0.00  0.00     0.275 HD
+ATOM     12  H3  PHE d   1      15.960  15.405  52.976  0.00  0.00     0.275 HD
+ENDBRANCH   4   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  PHE d   1      16.761  18.272  50.589  0.00  0.00    -0.056 A 
+ATOM     14  CD2 PHE d   1      17.678  17.729  49.683  0.00  0.00    -0.077 A 
+ATOM     15  CE2 PHE d   1      19.011  18.127  49.693  0.00  0.00    -0.082 A 
+ATOM     16  H8  PHE d   1      17.346  16.989  48.964  0.00  0.00     0.084 H 
+ATOM     17  CZ  PHE d   1      19.448  19.067  50.595  0.00  0.00    -0.083 A 
+ATOM     18  H10 PHE d   1      19.709  17.693  48.986  0.00  0.00     0.083 H 
+ATOM     19  CE1 PHE d   1      18.542  19.634  51.515  0.00  0.00    -0.082 A 
+ATOM     20  H11 PHE d   1      20.488  19.372  50.599  0.00  0.00     0.083 H 
+ATOM     21  CD1 PHE d   1      17.193  19.225  51.501  0.00  0.00    -0.077 A 
+ATOM     22  H9  PHE d   1      18.880  20.378  52.227  0.00  0.00     0.083 H 
+ATOM     23  H7  PHE d   1      16.491  19.656  52.205  0.00  0.00     0.084 H 
+ENDBRANCH   1  13
+TORSDOF 4

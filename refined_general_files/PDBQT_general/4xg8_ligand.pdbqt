@@ -1,0 +1,81 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBD_17  and  C4_1 
+REMARK    2  A    between atoms: CBA_7  and  OAC_8 
+REMARK    3  A    between atoms: CAK_11  and  NBB_10 
+REMARK    4  A    between atoms: CAU_12  and  CAK_11 
+REMARK    5  A    between atoms: CAS_14  and  CAA_15 
+REMARK    6  A    between atoms: C2_18  and  NAR_19 
+REMARK    7  A    between atoms: NAR_19  and  CAT_20 
+REMARK    8  A    between atoms: NBC_26  and  CAB_27 
+ROOT
+ATOM      1  C4  X8G d   1      -4.874  -6.234   1.855  0.00  0.00     0.170 A 
+ATOM      2  C5  X8G d   1      -5.934  -5.338   1.813  0.00  0.00    -0.019 A 
+ATOM      3  C6  X8G d   1      -5.711  -4.145   1.133  0.00  0.00     0.025 A 
+ATOM      4  N1  X8G d   1      -4.484  -3.815   0.518  0.00  0.00    -0.075 NA
+ATOM      5  N3  X8G d   1      -3.729  -5.830   1.267  0.00  0.00    -0.043 NA
+ATOM      6  C2  X8G d   1      -3.468  -4.689   0.602  0.00  0.00     0.728 A 
+ATOM      7  H1  X8G d   1      -6.885  -5.557   2.285  0.00  0.00     0.091 H 
+ATOM      8  H2  X8G d   1      -6.524  -3.430   1.072  0.00  0.00     0.115 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  NBD X8G d   1      -4.880  -7.400   2.549  0.00  0.00    -0.225 N 
+ATOM     10  CAJ X8G d   1      -3.808  -8.178   2.848  0.00  0.00     0.016 A 
+ATOM     11  CAU X8G d   1      -4.189  -9.175   3.604  0.00  0.00     0.011 A 
+ATOM     12  H12 X8G d   1      -2.788  -7.999   2.510  0.00  0.00     0.115 H 
+ATOM     13  CAS X8G d   1      -5.470  -8.959   3.780  0.00  0.00     0.060 A 
+ATOM     14  NAP X8G d   1      -5.808  -7.849   3.121  0.00  0.00    -0.171 NA
+BRANCH  11  15
+ATOM     15  CAK X8G d   1      -3.303 -10.327   4.150  0.00  0.00     0.110 C 
+ATOM     16  H10 X8G d   1      -3.870 -10.899   4.899  0.00  0.00     0.083 H 
+ATOM     17  H11 X8G d   1      -3.017 -10.991   3.321  0.00  0.00     0.083 H 
+BRANCH  15  18
+ATOM     18  NBB X8G d   1      -2.089  -9.773   4.774  0.00  0.00    -0.062 N 
+ATOM     19  CAL X8G d   1      -1.466 -10.492   5.942  0.00  0.00     0.109 C 
+ATOM     20  CBA X8G d   1      -1.214  -9.069   6.531  0.00  0.00     0.082 C 
+ATOM     21  H3  X8G d   1      -2.156 -11.121   6.523  0.00  0.00     0.080 H 
+ATOM     22  H4  X8G d   1      -0.558 -11.066   5.705  0.00  0.00     0.080 H 
+ATOM     23  CAM X8G d   1      -2.211  -8.513   5.552  0.00  0.00     0.109 C 
+ATOM     24  H5  X8G d   1      -1.480  -8.957   7.592  0.00  0.00     0.088 H 
+ATOM     25  H7  X8G d   1      -1.871  -7.614   5.018  0.00  0.00     0.080 H 
+ATOM     26  H8  X8G d   1      -3.211  -8.333   5.973  0.00  0.00     0.080 H 
+ATOM     27  H9  X8G d   1      -1.422  -9.669   4.026  0.00  0.00     0.280 HD
+BRANCH  20  28
+ATOM     28  OAC X8G d   1       0.093  -8.554   6.286  0.00  0.00    -0.392 OA
+ATOM     29  H6  X8G d   1       0.169  -7.690   6.673  0.00  0.00     0.210 HD
+ENDBRANCH  20  28
+ENDBRANCH  15  18
+ENDBRANCH  11  15
+BRANCH  13  30
+ATOM     30  CAA X8G d   1      -6.446  -9.847   4.561  0.00  0.00    -0.033 C 
+ATOM     31  H13 X8G d   1      -7.452  -9.402   4.530  0.00  0.00     0.035 H 
+ATOM     32  H14 X8G d   1      -6.113  -9.927   5.606  0.00  0.00     0.035 H 
+ATOM     33  H15 X8G d   1      -6.474 -10.849   4.107  0.00  0.00     0.035 H 
+ENDBRANCH  13  30
+ENDBRANCH   1   9
+BRANCH   6  34
+ATOM     34  NAR X8G d   1      -2.221  -4.461   0.059  0.00  0.00    -0.188 N 
+ATOM     35  H16 X8G d   1      -2.060  -3.643  -0.545  0.00  0.00     0.184 HD
+BRANCH  34  36
+ATOM     36  CAT X8G d   1      -1.204  -5.327   0.328  0.00  0.00     0.050 A 
+ATOM     37  CAI X8G d   1       0.158  -5.231  -0.030  0.00  0.00    -0.041 A 
+ATOM     38  CAY X8G d   1       1.004  -6.235   0.347  0.00  0.00     0.037 A 
+ATOM     39  H17 X8G d   1       0.524  -4.379  -0.592  0.00  0.00     0.088 H 
+ATOM     40  CAV X8G d   1       2.278  -6.542   0.238  0.00  0.00     0.159 A 
+ATOM     41  CAZ X8G d   1       0.618  -7.294   1.041  0.00  0.00     0.066 A 
+ATOM     42 CL1  X8G d   1       3.449  -5.597  -0.541  0.00  0.00    -0.060 Cl
+ATOM     43  NAQ X8G d   1       2.551  -7.708   0.839  0.00  0.00    -0.159 NA
+ATOM     44  NBC X8G d   1       1.605  -8.135   1.297  0.00  0.00    -0.272 N 
+ATOM     45  CAH X8G d   1      -0.615  -7.411   1.385  0.00  0.00    -0.052 A 
+ATOM     46  CAG X8G d   1      -1.498  -6.454   1.034  0.00  0.00    -0.054 A 
+ATOM     47  H21 X8G d   1      -0.943  -8.274   1.954  0.00  0.00     0.087 H 
+ATOM     48  H22 X8G d   1      -2.529  -6.593   1.339  0.00  0.00     0.087 H 
+BRANCH  44  49
+ATOM     49  CAB X8G d   1       1.313  -9.404   2.089  0.00  0.00     0.003 C 
+ATOM     50  H18 X8G d   1       0.245  -9.436   2.349  0.00  0.00     0.059 H 
+ATOM     51  H19 X8G d   1       1.915  -9.408   3.010  0.00  0.00     0.059 H 
+ATOM     52  H20 X8G d   1       1.569 -10.284   1.480  0.00  0.00     0.059 H 
+ENDBRANCH  44  49
+ENDBRANCH  34  36
+ENDBRANCH   6  34
+TORSDOF 8

@@ -1,0 +1,71 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  OAU_2 
+REMARK    2  A    between atoms: OAU_2  and  CBC_3 
+REMARK    3  A    between atoms: CAW_11  and  CAG_12 
+REMARK    4  A    between atoms: CAH_13  and  CBB_14 
+REMARK    5  A    between atoms: CBA_21  and  NAS_22 
+REMARK    6  A    between atoms: NAS_22  and  SBF_23 
+REMARK    7  A    between atoms: SBF_23  and  CAZ_26 
+ROOT
+ATOM      1  CBB 7Z0 d   1      10.860   2.281  10.562  0.00  0.00     0.097 A 
+ATOM      2  CAY 7Z0 d   1      10.955   3.506  11.211  0.00  0.00     0.165 A 
+ATOM      3  FAE 7Z0 d   1      11.167   4.529  10.556  0.00  0.00    -0.202 F 
+ATOM      4  CAX 7Z0 d   1      10.641   1.129  11.312  0.00  0.00     0.138 A 
+ATOM      5  FAD 7Z0 d   1      10.554  -0.090  10.685  0.00  0.00    -0.204 F 
+ATOM      6  CAL 7Z0 d   1      10.495   1.215  12.690  0.00  0.00    -0.042 A 
+ATOM      7  CAM 7Z0 d   1      10.582   2.458  13.335  0.00  0.00    -0.051 A 
+ATOM      8  CBA 7Z0 d   1      10.815   3.607  12.585  0.00  0.00     0.083 A 
+ATOM      9  H7  7Z0 d   1      10.313   0.318  13.270  0.00  0.00     0.088 H 
+ATOM     10  H8  7Z0 d   1      10.468   2.523  14.411  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  CAH 7Z0 d   1      11.019   2.229   9.100  0.00  0.00    -0.055 C 
+ATOM     12  CAG 7Z0 d   1      11.152   2.190   7.920  0.00  0.00    -0.060 C 
+BRANCH  12  13
+ATOM     13  CAW 7Z0 d   1      11.252   2.143   6.455  0.00  0.00     0.036 A 
+ATOM     14  CAP 7Z0 d   1      12.419   2.042   5.704  0.00  0.00    -0.045 A 
+ATOM     15  CBE 7Z0 d   1      12.324   2.005   4.368  0.00  0.00     0.067 A 
+ATOM     16  H4  7Z0 d   1      13.386   1.994   6.191  0.00  0.00     0.087 H 
+ATOM     17  CBC 7Z0 d   1      13.230   1.916   3.405  0.00  0.00     0.197 A 
+ATOM     18  CBD 7Z0 d   1      11.144   2.091   3.730  0.00  0.00     0.158 A 
+ATOM     19  NAR 7Z0 d   1      12.602   1.943   2.224  0.00  0.00    -0.147 NA
+ATOM     20  NAT 7Z0 d   1      11.364   2.041   2.413  0.00  0.00    -0.258 N 
+ATOM     21  H5  7Z0 d   1      10.642   2.077   1.679  0.00  0.00     0.191 HD
+ATOM     22  NAQ 7Z0 d   1      10.001   2.191   4.412  0.00  0.00    -0.240 NA
+ATOM     23  CAN 7Z0 d   1      10.023   2.211   5.793  0.00  0.00     0.023 A 
+ATOM     24  H6  7Z0 d   1       9.099   2.279   6.356  0.00  0.00     0.117 H 
+BRANCH  17  25
+ATOM     25  OAU 7Z0 d   1      14.587   1.839   3.536  0.00  0.00    -0.338 OA
+BRANCH  25  26
+ATOM     26  CAA 7Z0 d   1      15.267   1.934   2.282  0.00  0.00     0.012 C 
+ATOM     27  H1  7Z0 d   1      16.352   1.866   2.447  0.00  0.00     0.067 H 
+ATOM     28  H2  7Z0 d   1      15.028   2.897   1.807  0.00  0.00     0.067 H 
+ATOM     29  H3  7Z0 d   1      14.944   1.112   1.627  0.00  0.00     0.067 H 
+ENDBRANCH  25  26
+ENDBRANCH  17  25
+ENDBRANCH  12  13
+ENDBRANCH   1  11
+BRANCH   8  30
+ATOM     30  NAS 7Z0 d   1      10.934   4.858  13.071  0.00  0.00    -0.277 N 
+ATOM     31  H9  7Z0 d   1      11.144   5.615  12.452  0.00  0.00     0.179 HD
+BRANCH  30  32
+ATOM     32  SBF 7Z0 d   1      10.739   5.142  14.652  0.00  0.00     0.263 S 
+ATOM     33  OAB 7Z0 d   1      11.125   6.585  14.931  0.00  0.00    -0.200 OA
+ATOM     34  OAC 7Z0 d   1      11.610   4.234  15.482  0.00  0.00    -0.200 OA
+BRANCH  32  35
+ATOM     35  CAZ 7Z0 d   1       9.037   4.994  15.149  0.00  0.00     0.081 A 
+ATOM     36  CAO 7Z0 d   1       8.688   4.555  16.418  0.00  0.00    -0.044 A 
+ATOM     37  CAV 7Z0 d   1       7.352   4.471  16.796  0.00  0.00     0.012 A 
+ATOM     38  H10 7Z0 d   1       9.464   4.275  17.122  0.00  0.00     0.087 H 
+ATOM     39 BR   7Z0 d   1       6.930   3.866  18.506  0.00  0.00    -0.051 Br
+ATOM     40  CAJ 7Z0 d   1       6.331   4.839  15.926  0.00  0.00    -0.066 A 
+ATOM     41  CAI 7Z0 d   1       6.686   5.291  14.664  0.00  0.00    -0.080 A 
+ATOM     42  H11 7Z0 d   1       5.291   4.774  16.225  0.00  0.00     0.085 H 
+ATOM     43  CAK 7Z0 d   1       8.024   5.375  14.287  0.00  0.00    -0.060 A 
+ATOM     44  H12 7Z0 d   1       5.913   5.582  13.963  0.00  0.00     0.083 H 
+ATOM     45  H13 7Z0 d   1       8.277   5.746  13.300  0.00  0.00     0.085 H 
+ENDBRANCH  32  35
+ENDBRANCH  30  32
+ENDBRANCH   8  30
+TORSDOF 7

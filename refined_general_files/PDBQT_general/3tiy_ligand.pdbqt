@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_1  and  O14_15 
+REMARK    2  A    between atoms: C15_2  and  O16_16 
+REMARK    3  A    between atoms: C02_4  and  O01_3 
+REMARK    4  A    between atoms: C08_10  and  O11_13 
+ROOT
+ATOM      1  C13 TIY d   1     -94.732   9.767 -48.720  0.00  0.00     0.102 A 
+ATOM      2  C15 TIY d   1     -94.322   9.763 -50.063  0.00  0.00     0.133 A 
+ATOM      3  C02 TIY d   1     -93.257   8.950 -50.451  0.00  0.00     0.117 A 
+ATOM      4  C03 TIY d   1     -92.541   8.089 -49.543  0.00  0.00     0.063 A 
+ATOM      5  C04 TIY d   1     -92.979   8.098 -48.171  0.00  0.00    -0.016 A 
+ATOM      6  C05 TIY d   1     -92.445   7.358 -47.083  0.00  0.00    -0.072 A 
+ATOM      7  C06 TIY d   1     -91.397   6.436 -47.028  0.00  0.00    -0.079 A 
+ATOM      8  C07 TIY d   1     -90.576   6.013 -48.062  0.00  0.00    -0.047 A 
+ATOM      9  C08 TIY d   1     -90.601   6.389 -49.407  0.00  0.00     0.116 A 
+ATOM     10  C09 TIY d   1     -91.465   7.304 -50.065  0.00  0.00     0.218 A 
+ATOM     11  O10 TIY d   1     -91.203   7.400 -51.300  0.00  0.00    -0.284 OA
+ATOM     12  C12 TIY d   1     -94.068   8.946 -47.800  0.00  0.00    -0.037 A 
+ATOM     13  H2  TIY d   1     -92.936   7.540 -46.129  0.00  0.00     0.084 H 
+ATOM     14  H3  TIY d   1     -91.201   5.995 -46.052  0.00  0.00     0.083 H 
+ATOM     15  H4  TIY d   1     -89.808   5.290 -47.789  0.00  0.00     0.087 H 
+ATOM     16  H6  TIY d   1     -94.393   8.954 -46.766  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  O14 TIY d   1     -95.760  10.535 -48.298  0.00  0.00    -0.358 OA
+ATOM     18  H7  TIY d   1     -96.105  11.031 -49.031  0.00  0.00     0.217 HD
+ENDBRANCH   1  17
+BRANCH   2  19
+ATOM     19  O16 TIY d   1     -94.923  10.532 -51.009  0.00  0.00    -0.356 OA
+ATOM     20  H8  TIY d   1     -95.626  11.031 -50.610  0.00  0.00     0.218 HD
+ENDBRANCH   2  19
+BRANCH   3  21
+ATOM     21  O01 TIY d   1     -92.995   9.073 -51.771  0.00  0.00    -0.357 OA
+ATOM     22  H1  TIY d   1     -92.267   8.508 -52.002  0.00  0.00     0.217 HD
+ENDBRANCH   3  21
+BRANCH   9  23
+ATOM     23  O11 TIY d   1     -89.633   5.744 -50.127  0.00  0.00    -0.357 OA
+ATOM     24  H5  TIY d   1     -90.041   5.231 -50.815  0.00  0.00     0.218 HD
+ENDBRANCH   9  23
+TORSDOF 4

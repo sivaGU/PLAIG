@@ -1,0 +1,86 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  NA2_3 
+REMARK    2  A    between atoms: C9_13  and  C6_9 
+REMARK    3  A    between atoms: N10_14  and  C9_13 
+REMARK    4  A    between atoms: C14_18  and  N10_14 
+REMARK    5  A    between atoms: C11_15  and  C_21 
+REMARK       I    between atoms: C_21  and  N_23 
+REMARK    6  A    between atoms: N_23  and  CA_24 
+REMARK    7  A    between atoms: CA_24  and  CB_25 
+REMARK    8  A    between atoms: CA_24  and  CT_30 
+REMARK    9  A    between atoms: CB_25  and  CG_26 
+REMARK   10  A    between atoms: CG_26  and  CD_27 
+ROOT
+ATOM      1  C11 FOL d   1     -10.865   4.465  52.031  0.00  0.00     0.032 A 
+ATOM      2  C12 FOL d   1     -12.150   4.757  51.556  0.00  0.00    -0.066 A 
+ATOM      3  C13 FOL d   1     -13.305   4.297  52.191  0.00  0.00    -0.057 A 
+ATOM      4  C14 FOL d   1     -13.194   3.523  53.345  0.00  0.00     0.028 A 
+ATOM      5  C15 FOL d   1     -11.923   3.217  53.837  0.00  0.00    -0.057 A 
+ATOM      6  C16 FOL d   1     -10.784   3.696  53.184  0.00  0.00    -0.066 A 
+ATOM      7  H9  FOL d   1     -12.251   5.362  50.663  0.00  0.00     0.085 H 
+ATOM      8  H10 FOL d   1     -14.282   4.540  51.789  0.00  0.00     0.086 H 
+ATOM      9  H11 FOL d   1     -11.820   2.607  54.727  0.00  0.00     0.086 H 
+ATOM     10  H12 FOL d   1      -9.807   3.460  53.590  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  N10 FOL d   1     -14.338   3.065  53.926  0.00  0.00    -0.384 N 
+ATOM     12  H8  FOL d   1     -14.798   2.280  53.444  0.00  0.00     0.160 HD
+BRANCH  11  13
+ATOM     13  C9  FOL d   1     -15.001   3.536  55.140  0.00  0.00     0.034 C 
+ATOM     14  H6  FOL d   1     -15.045   4.635  55.121  0.00  0.00     0.073 H 
+ATOM     15  H7  FOL d   1     -16.022   3.129  55.171  0.00  0.00     0.073 H 
+BRANCH  13  16
+ATOM     16  C6  FOL d   1     -14.256   3.094  56.383  0.00  0.00     0.070 A 
+ATOM     17  N5  FOL d   1     -13.788   4.032  57.247  0.00  0.00    -0.241 NA
+ATOM     18  C4A FOL d   1     -13.101   3.648  58.343  0.00  0.00     0.172 A 
+ATOM     19  C4  FOL d   1     -12.573   4.627  59.314  0.00  0.00     0.292 A 
+ATOM     20  C8A FOL d   1     -12.860   2.215  58.613  0.00  0.00     0.177 A 
+ATOM     21  N3  FOL d   1     -11.910   4.165  60.390  0.00  0.00    -0.154 N 
+ATOM     22  O4  FOL d   1     -12.759   5.847  59.137  0.00  0.00    -0.265 OA
+ATOM     23  C2  FOL d   1     -11.726   2.837  60.572  0.00  0.00     0.680 A 
+ATOM     24  H4  FOL d   1     -11.549   4.811  61.063  0.00  0.00     0.187 HD
+ATOM     25  N1  FOL d   1     -12.180   1.881  59.727  0.00  0.00    -0.172 N 
+ATOM     26  H1  FOL d   1     -12.004   0.888  59.938  0.00  0.00     0.186 HD
+ATOM     27  N8  FOL d   1     -13.347   1.318  57.717  0.00  0.00    -0.238 NA
+ATOM     28  C7  FOL d   1     -14.027   1.735  56.625  0.00  0.00     0.030 A 
+ATOM     29  H5  FOL d   1     -14.403   1.000  55.922  0.00  0.00     0.118 H 
+BRANCH  23  30
+ATOM     30  NA2 FOL d   1     -11.029   2.490  61.670  0.00  0.00    -0.234 N 
+ATOM     31  H2  FOL d   1     -10.684   3.218  62.312  0.00  0.00     0.174 HD
+ATOM     32  H3  FOL d   1     -10.841   1.497  61.868  0.00  0.00     0.174 HD
+ENDBRANCH  23  30
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+ENDBRANCH   4  11
+BRANCH   1  33
+ATOM     33  C   FOL d   1      -9.631   5.010  51.308  0.00  0.00     0.252 C 
+ATOM     34  O   FOL d   1      -9.569   4.858  50.095  0.00  0.00    -0.268 OA
+ATOM     35  N   FOL d   1      -8.675   5.686  51.975  0.00  0.00    -0.342 N 
+ATOM     36  H13 FOL d   1      -8.744   5.690  52.973  0.00  0.00     0.163 HD
+BRANCH  35  37
+ATOM     37  CA  FOL d   1      -7.554   6.410  51.399  0.00  0.00     0.097 C 
+ATOM     38  H14 FOL d   1      -7.558   6.329  50.302  0.00  0.00     0.089 H 
+BRANCH  37  39
+ATOM     39  CB  FOL d   1      -7.470   7.880  51.834  0.00  0.00    -0.028 C 
+ATOM     40  H15 FOL d   1      -6.564   7.997  52.447  0.00  0.00     0.037 H 
+ATOM     41  H16 FOL d   1      -8.357   8.099  52.446  0.00  0.00     0.037 H 
+BRANCH  39  42
+ATOM     42  CG  FOL d   1      -7.410   8.924  50.706  0.00  0.00     0.018 C 
+ATOM     43  H17 FOL d   1      -8.255   8.745  50.025  0.00  0.00     0.049 H 
+ATOM     44  H18 FOL d   1      -6.464   8.789  50.160  0.00  0.00     0.049 H 
+BRANCH  42  45
+ATOM     45  CD  FOL d   1      -7.482  10.377  51.191  0.00  0.00     0.172 C 
+ATOM     46  OE1 FOL d   1      -7.282  11.293  50.362  0.00  0.00    -0.648 OA
+ATOM     47  OE2 FOL d   1      -7.738  10.619  52.396  0.00  0.00    -0.648 OA
+ENDBRANCH  42  45
+ENDBRANCH  39  42
+ENDBRANCH  37  39
+BRANCH  37  48
+ATOM     48  CT  FOL d   1      -6.364   5.769  52.020  0.00  0.00     0.196 C 
+ATOM     49  O1  FOL d   1      -5.309   5.616  51.365  0.00  0.00    -0.646 OA
+ATOM     50  O2  FOL d   1      -6.501   5.386  53.203  0.00  0.00    -0.646 OA
+ENDBRANCH  37  48
+ENDBRANCH  35  37
+ENDBRANCH   1  33
+TORSDOF 10

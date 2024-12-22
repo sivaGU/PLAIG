@@ -1,0 +1,71 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_7  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: O1_7  and  C1_22 
+REMARK    8  A    between atoms: C1_22  and  C3_15 
+REMARK    9  A    between atoms: C6_20  and  O6_21 
+ROOT
+ATOM      1  H17 BGC d   1      31.288   2.984  28.645  0.00  0.00     0.115 H 
+ATOM      2  N2  DHR d   1      30.756   5.755  30.257  0.00  0.00    -0.194 NA
+ATOM      3  C2  DHR d   1      31.077   4.988  29.429  0.00  0.00     0.096 C 
+ATOM      4  C1  DHR d   1      31.338   4.025  28.293  0.00  0.00     0.149 C 
+ENDROOT
+BRANCH   4   5
+ATOM      5  O1  BGC d   1      29.868   4.288  27.667  0.00  0.00    -0.334 OA
+BRANCH   5   6
+ATOM      6  C1  BGC d   1      28.648   2.565  28.371  0.00  0.00     0.161 C 
+ATOM      7  C2  BGC d   1      27.264   2.692  27.689  0.00  0.00     0.110 C 
+ATOM      8  C3  BGC d   1      26.636   1.354  27.277  0.00  0.00     0.092 C 
+ATOM      9  H2  BGC d   1      27.382   3.312  26.788  0.00  0.00     0.094 H 
+ATOM     10  C4  BGC d   1      27.662   0.402  26.674  0.00  0.00     0.090 C 
+ATOM     11  H3  BGC d   1      26.209   0.881  28.174  0.00  0.00     0.091 H 
+ATOM     12  C5  BGC d   1      28.836   0.280  27.627  0.00  0.00     0.089 C 
+ATOM     13  H4  BGC d   1      28.010   0.795  25.707  0.00  0.00     0.091 H 
+ATOM     14  O5  BGC d   1      29.476   1.560  27.749  0.00  0.00    -0.348 OA
+ATOM     15  H5  BGC d   1      28.466  -0.051  28.608  0.00  0.00     0.090 H 
+ATOM     16  H1  BGC d   1      28.560   2.463  29.463  0.00  0.00     0.133 H 
+BRANCH   7  17
+ATOM     17  O2  BGC d   1      26.367   3.330  28.589  0.00  0.00    -0.388 OA
+ATOM     18  H8  BGC d   1      25.534   3.474  28.155  0.00  0.00     0.210 HD
+ENDBRANCH   7  17
+BRANCH   8  19
+ATOM     19  O3  BGC d   1      25.592   1.587  26.339  0.00  0.00    -0.390 OA
+ATOM     20  H9  BGC d   1      24.954   2.181  26.718  0.00  0.00     0.210 HD
+ENDBRANCH   8  19
+BRANCH  10  21
+ATOM     21  O4  BGC d   1      27.069  -0.863  26.482  0.00  0.00    -0.390 OA
+ATOM     22  H10 BGC d   1      27.711  -1.460  26.116  0.00  0.00     0.210 HD
+ENDBRANCH  10  21
+BRANCH  12  23
+ATOM     23  C6  BGC d   1      29.886  -0.693  27.132  0.00  0.00     0.043 C 
+ATOM     24  H6  BGC d   1      30.214  -1.325  27.971  0.00  0.00     0.078 H 
+ATOM     25  H7  BGC d   1      30.744  -0.127  26.742  0.00  0.00     0.078 H 
+BRANCH  23  26
+ATOM     26  O6  BGC d   1      29.372  -1.523  26.101  0.00  0.00    -0.398 OA
+ATOM     27  H11 BGC d   1      30.050  -2.122  25.810  0.00  0.00     0.209 HD
+ENDBRANCH  23  26
+ENDBRANCH  12  23
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+BRANCH   4  28
+ATOM     28  C3  DHR d   1      32.853   4.135  27.893  0.00  0.00    -0.016 A 
+ATOM     29  C4  DHR d   1      33.307   3.331  26.835  0.00  0.00    -0.071 A 
+ATOM     30  C5  DHR d   1      34.672   3.393  26.463  0.00  0.00    -0.050 A 
+ATOM     31  H12 BGC d   1      32.623   2.673  26.311  0.00  0.00     0.084 H 
+ATOM     32  C6  DHR d   1      35.559   4.253  27.158  0.00  0.00     0.065 A 
+ATOM     33  H15 BGC d   1      35.039   2.782  25.646  0.00  0.00     0.087 H 
+ATOM     34  C7  DHR d   1      35.078   5.051  28.218  0.00  0.00    -0.050 A 
+ATOM     35  C8  DHR d   1      33.727   4.999  28.593  0.00  0.00    -0.071 A 
+ATOM     36  H14 BGC d   1      35.758   5.709  28.747  0.00  0.00     0.087 H 
+ATOM     37  H13 BGC d   1      33.358   5.612  29.407  0.00  0.00     0.084 H 
+BRANCH  32  38
+ATOM     38  O6  DHR d   1      36.887   4.321  26.803  0.00  0.00    -0.361 OA
+ATOM     39  H16 BGC d   1      37.283   3.463  26.898  0.00  0.00     0.217 HD
+ENDBRANCH  32  38
+ENDBRANCH   4  28
+TORSDOF 9

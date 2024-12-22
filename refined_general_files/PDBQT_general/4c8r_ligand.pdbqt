@@ -1,0 +1,66 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_6  and  CAL_7 
+REMARK    2  A    between atoms: CAL_7  and  SAQ_8 
+REMARK    3  A    between atoms: SAQ_8  and  CB_9 
+REMARK    4  A    between atoms: CB_9  and  CA_10 
+REMARK    5  A    between atoms: CA_10  and  C_11 
+REMARK    6  A    between atoms: CA_10  and  N_14 
+REMARK    7  A    between atoms: CAS_15  and  CAV_17 
+REMARK    8  A    between atoms: CAT_22  and  OAD_23 
+ROOT
+ATOM      1  CA  6YT d   1     -34.068  35.874 -24.384  0.00  0.00     0.103 C 
+ATOM      2  H   6YT d   1     -33.958  36.598 -23.563  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  6YT d   1     -33.125  34.715 -24.156  0.00  0.00     0.005 C 
+ATOM      4  H   6YT d   1     -32.092  35.072 -24.278  0.00  0.00     0.052 H 
+ATOM      5  H   6YT d   1     -33.265  34.342 -23.131  0.00  0.00     0.052 H 
+BRANCH   3   6
+ATOM      6  SAQ 6YT d   1     -33.405  33.378 -25.292  0.00  0.00    -0.160 SA
+BRANCH   6   7
+ATOM      7  CAL 6YT d   1     -31.711  32.971 -25.599  0.00  0.00     0.017 C 
+ATOM      8  H   6YT d   1     -31.653  32.298 -26.467  0.00  0.00     0.058 H 
+ATOM      9  H   6YT d   1     -31.151  33.893 -25.812  0.00  0.00     0.058 H 
+BRANCH   7  10
+ATOM     10  CAU 6YT d   1     -31.100  32.285 -24.396  0.00  0.00     0.043 A 
+ATOM     11  CAK 6YT d   1     -31.505  31.003 -24.053  0.00  0.00    -0.058 A 
+ATOM     12  CAF 6YT d   1     -30.959  30.378 -22.972  0.00  0.00    -0.080 A 
+ATOM     13  H   6YT d   1     -32.258  30.497 -24.647  0.00  0.00     0.086 H 
+ATOM     14  CAE 6YT d   1     -30.019  31.019 -22.220  0.00  0.00    -0.066 A 
+ATOM     15  H   6YT d   1     -31.271  29.373 -22.710  0.00  0.00     0.083 H 
+ATOM     16  CAH 6YT d   1     -29.619  32.303 -22.556  0.00  0.00     0.003 A 
+ATOM     17  H   6YT d   1     -29.584  30.524 -21.359  0.00  0.00     0.085 H 
+ATOM     18  NAN 6YT d   1     -30.164  32.927 -23.640  0.00  0.00    -0.265 NA
+ATOM     19  H   6YT d   1     -28.872  32.812 -21.957  0.00  0.00     0.114 H 
+ENDBRANCH   7  10
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  C   6YT d   1     -33.695  36.538 -25.694  0.00  0.00     0.197 C 
+ATOM     21  O   6YT d   1     -34.537  36.458 -26.629  0.00  0.00    -0.646 OA
+ATOM     22  OXT 6YT d   1     -32.572  37.114 -25.750  0.00  0.00    -0.646 OA
+ENDBRANCH   1  20
+BRANCH   1  23
+ATOM     23  N   6YT d   1     -35.419  35.429 -24.427  0.00  0.00    -0.351 N 
+ATOM     24  CAS 6YT d   1     -36.024  34.964 -23.316  0.00  0.00     0.207 C 
+ATOM     25  OAB 6YT d   1     -35.383  34.597 -22.187  0.00  0.00    -0.170 OA
+ATOM     26  H   6YT d   1     -35.924  35.462 -25.289  0.00  0.00     0.162 HD
+BRANCH  24  27
+ATOM     27  CAV 6YT d   1     -37.402  34.875 -23.357  0.00  0.00     0.142 A 
+ATOM     28  NAO 6YT d   1     -38.048  33.948 -22.596  0.00  0.00    -0.254 NA
+ATOM     29  CAI 6YT d   1     -39.407  33.865 -22.630  0.00  0.00     0.003 A 
+ATOM     30  CAG 6YT d   1     -40.130  34.730 -23.432  0.00  0.00    -0.063 A 
+ATOM     31  H   6YT d   1     -39.921  33.123 -22.030  0.00  0.00     0.114 H 
+ATOM     32  CAJ 6YT d   1     -39.481  35.664 -24.189  0.00  0.00    -0.047 A 
+ATOM     33  H   6YT d   1     -41.212  34.667 -23.460  0.00  0.00     0.085 H 
+ATOM     34  CAT 6YT d   1     -38.118  35.744 -24.154  0.00  0.00     0.098 A 
+ATOM     35  H   6YT d   1     -40.048  36.342 -24.817  0.00  0.00     0.087 H 
+BRANCH  34  36
+ATOM     36  OAD 6YT d   1     -37.420  36.697 -24.922  0.00  0.00    -0.358 OA
+ATOM     37  H   6YT d   1     -36.487  36.603 -24.770  0.00  0.00     0.217 HD
+ENDBRANCH  34  36
+ENDBRANCH  24  27
+ENDBRANCH   1  23
+TORSDOF 8

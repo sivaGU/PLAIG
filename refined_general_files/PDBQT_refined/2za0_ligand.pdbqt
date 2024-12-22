@@ -1,0 +1,73 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  O1_3 
+REMARK    2  A    between atoms: C1_2  and  C2_5 
+REMARK    3  A    between atoms: O1_3  and  C9_4 
+REMARK    4  A    between atoms: C7_6  and  O3_7 
+REMARK    5  A    between atoms: C3_9  and  C8_10 
+REMARK    6  A    between atoms: C5_12  and  O4_13 
+REMARK    7  A    between atoms: O4_13  and  C10_14 
+REMARK    8  A    between atoms: C11_16  and  O5_17 
+REMARK    9  A    between atoms: C12_18  and  O6_19 
+REMARK   10  A    between atoms: C14_21  and  C16_22 
+ROOT
+ATOM      1  C2  MGI d   1      45.372  29.812  58.592  0.00  0.00     0.078 A 
+ATOM      2  C7  MGI d   1      44.419  28.761  58.701  0.00  0.00     0.085 A 
+ATOM      3  C6  MGI d   1      43.068  29.046  58.755  0.00  0.00    -0.017 A 
+ATOM      4  C3  MGI d   1      44.887  31.185  58.532  0.00  0.00    -0.040 A 
+ATOM      5  C4  MGI d   1      43.517  31.434  58.592  0.00  0.00    -0.043 A 
+ATOM      6  C5  MGI d   1      42.598  30.393  58.704  0.00  0.00     0.079 A 
+ATOM      7  H5  MGI d   1      42.354  28.234  58.837  0.00  0.00     0.092 H 
+ATOM      8  H9  MGI d   1      43.160  32.457  58.551  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   9
+ATOM      9  O4  MGI d   1      41.282  30.738  58.763  0.00  0.00    -0.308 OA
+BRANCH   9  10
+ATOM     10  C10 MGI d   1      40.247  29.887  59.127  0.00  0.00     0.112 A 
+ATOM     11  C15 MGI d   1      40.208  29.226  60.403  0.00  0.00    -0.042 A 
+ATOM     12  C14 MGI d   1      39.134  28.359  60.708  0.00  0.00    -0.057 A 
+ATOM     13  H10 MGI d   1      40.998  29.392  61.127  0.00  0.00     0.088 H 
+ATOM     14  C13 MGI d   1      38.115  28.150  59.760  0.00  0.00    -0.042 A 
+ATOM     15  C12 MGI d   1      38.158  28.812  58.493  0.00  0.00     0.102 A 
+ATOM     16  H13 MGI d   1      37.292  27.483  59.992  0.00  0.00     0.088 H 
+ATOM     17  C11 MGI d   1      39.220  29.672  58.195  0.00  0.00     0.133 A 
+BRANCH  12  18
+ATOM     18  C16 MGI d   1      39.068  27.660  62.028  0.00  0.00    -0.051 C 
+ATOM     19  H14 MGI d   1      39.941  27.941  62.636  0.00  0.00     0.033 H 
+ATOM     20  H15 MGI d   1      39.068  26.572  61.867  0.00  0.00     0.033 H 
+ATOM     21  H16 MGI d   1      38.147  27.953  62.553  0.00  0.00     0.033 H 
+ENDBRANCH  12  18
+BRANCH  15  22
+ATOM     22  O6  MGI d   1      37.156  28.599  57.565  0.00  0.00    -0.358 OA
+ATOM     23  H12 MGI d   1      37.532  28.233  56.773  0.00  0.00     0.217 HD
+ENDBRANCH  15  22
+BRANCH  17  24
+ATOM     24  O5  MGI d   1      39.259  30.300  57.002  0.00  0.00    -0.356 OA
+ATOM     25  H11 MGI d   1      39.256  31.240  57.140  0.00  0.00     0.218 HD
+ENDBRANCH  17  24
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+BRANCH   2  26
+ATOM     26  O3  MGI d   1      44.810  27.461  58.759  0.00  0.00    -0.360 OA
+ATOM     27  H4  MGI d   1      45.291  27.241  57.970  0.00  0.00     0.217 HD
+ENDBRANCH   2  26
+BRANCH   4  28
+ATOM     28  C8  MGI d   1      45.766  32.414  58.404  0.00  0.00    -0.050 C 
+ATOM     29  H6  MGI d   1      45.136  33.315  58.382  0.00  0.00     0.033 H 
+ATOM     30  H7  MGI d   1      46.349  32.352  57.474  0.00  0.00     0.033 H 
+ATOM     31  H8  MGI d   1      46.451  32.466  59.263  0.00  0.00     0.033 H 
+ENDBRANCH   4  28
+BRANCH   1  32
+ATOM     32  C1  MGI d   1      46.842  29.444  58.545  0.00  0.00     0.296 C 
+ATOM     33  O2  MGI d   1      47.177  28.268  58.500  0.00  0.00    -0.259 OA
+BRANCH  32  34
+ATOM     34  O1  MGI d   1      47.888  30.453  58.582  0.00  0.00    -0.322 OA
+BRANCH  34  35
+ATOM     35  C9  MGI d   1      49.284  30.142  58.754  0.00  0.00     0.013 C 
+ATOM     36  H1  MGI d   1      49.870  31.073  58.748  0.00  0.00     0.067 H 
+ATOM     37  H2  MGI d   1      49.619  29.492  57.932  0.00  0.00     0.067 H 
+ATOM     38  H3  MGI d   1      49.429  29.624  59.714  0.00  0.00     0.067 H 
+ENDBRANCH  34  35
+ENDBRANCH  32  34
+ENDBRANCH   1  32
+TORSDOF 10

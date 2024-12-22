@@ -1,0 +1,40 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C10_11 
+REMARK    2  A    between atoms: C4_4  and  O5_5 
+REMARK    3  A    between atoms: C8_9  and  C11_14 
+ROOT
+ATOM      1  C1  TSA d   1      14.428  47.550   9.318  0.00  0.00     0.071 C 
+ATOM      2  C2  TSA d   1      14.465  49.002   9.823  0.00  0.00    -0.086 C 
+ATOM      3  C3  TSA d   1      13.793  49.996   9.220  0.00  0.00    -0.076 C 
+ATOM      4  C4  TSA d   1      12.869  49.748   8.138  0.00  0.00     0.076 C 
+ATOM      5  C5  TSA d   1      12.549  48.273   7.905  0.00  0.00     0.069 C 
+ATOM      6  C6  TSA d   1      13.815  47.493   7.981  0.00  0.00    -0.018 C 
+ATOM      7  O7  TSA d   1      11.528  47.760   8.875  0.00  0.00    -0.367 OA
+ATOM      8  C8  TSA d   1      11.913  47.150  10.225  0.00  0.00     0.124 C 
+ATOM      9  C9  TSA d   1      13.506  46.670  10.251  0.00  0.00    -0.012 C 
+ATOM     10  H1  TSA d   1      15.060  49.233  10.705  0.00  0.00     0.078 H 
+ATOM     11  H2  TSA d   1      13.949  51.020   9.557  0.00  0.00     0.080 H 
+ATOM     12  H3  TSA d   1      11.932  50.286   8.345  0.00  0.00     0.093 H 
+ATOM     13  H5  TSA d   1      12.134  48.165   6.892  0.00  0.00     0.087 H 
+ATOM     14  H6  TSA d   1      13.598  46.443   7.736  0.00  0.00     0.039 H 
+ATOM     15  H7  TSA d   1      14.526  47.901   7.248  0.00  0.00     0.039 H 
+ATOM     16  H8  TSA d   1      11.361  46.199  10.210  0.00  0.00     0.100 H 
+ATOM     17  H9  TSA d   1      13.878  46.744  11.283  0.00  0.00     0.040 H 
+ATOM     18  H10 TSA d   1      13.563  45.624   9.915  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   8  19
+ATOM     19  C11 TSA d   1      11.416  47.778  11.567  0.00  0.00     0.203 C 
+ATOM     20  O3  TSA d   1      10.675  47.115  12.323  0.00  0.00    -0.646 OA
+ATOM     21  O4  TSA d   1      11.699  48.945  11.856  0.00  0.00    -0.646 OA
+ENDBRANCH   8  19
+BRANCH   1  22
+ATOM     22  C10 TSA d   1      15.885  47.017   9.167  0.00  0.00     0.186 C 
+ATOM     23  O1  TSA d   1      16.416  46.384  10.072  0.00  0.00    -0.647 OA
+ATOM     24  O2  TSA d   1      16.554  47.207   8.149  0.00  0.00    -0.647 OA
+ENDBRANCH   1  22
+BRANCH   4  25
+ATOM     25  O5  TSA d   1      13.474  50.248   6.920  0.00  0.00    -0.389 OA
+ATOM     26  H4  TSA d   1      12.885  50.097   6.190  0.00  0.00     0.210 HD
+ENDBRANCH   4  25
+TORSDOF 3

@@ -1,0 +1,62 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_6 
+REMARK    2  A    between atoms: O5'_6  and  C5'_7 
+REMARK    3  A    between atoms: C5'_7  and  C4'_8 
+REMARK    4  A    between atoms: C3'_10  and  O3'_11 
+REMARK    5  A    between atoms: C2'_12  and  O2'_13 
+REMARK    6  A    between atoms: C1'_14  and  C9_15 
+ROOT
+ATOM      1  C4' IMU d   1      10.030  85.606  42.298  0.00  0.00     0.150 C 
+ATOM      2  N4' IMU d   1       8.802  84.889  42.226  0.00  0.00    -0.055 N 
+ATOM      3  C3' IMU d   1       9.897  86.741  43.248  0.00  0.00     0.092 C 
+ATOM      4  C2' IMU d   1       8.599  86.446  43.942  0.00  0.00     0.094 C 
+ATOM      5  C1' IMU d   1       7.872  85.267  43.233  0.00  0.00     0.158 C 
+ATOM      6  H3  IMU d   1      10.274  85.996  41.299  0.00  0.00     0.091 H 
+ATOM      7  H4  IMU d   1       8.999  83.906  42.325  0.00  0.00     0.278 HD
+ATOM      8  H5  IMU d   1       8.384  85.059  41.324  0.00  0.00     0.278 HD
+ATOM      9  H6  IMU d   1      10.723  86.768  43.974  0.00  0.00     0.090 H 
+ATOM     10  H8  IMU d   1       8.824  86.147  44.976  0.00  0.00     0.090 H 
+ATOM     11  H10 IMU d   1       6.890  85.554  42.828  0.00  0.00     0.096 H 
+ENDROOT
+BRANCH   5  12
+ATOM     12  C9  IMU d   1       7.763  84.095  44.218  0.00  0.00     0.022 A 
+ATOM     13  C8  IMU d   1       8.661  83.015  44.330  0.00  0.00    -0.012 A 
+ATOM     14  N7  IMU d   1       8.377  82.143  45.253  0.00  0.00    -0.359 N 
+ATOM     15  H11 IMU d   1       9.534  82.917  43.687  0.00  0.00     0.112 H 
+ATOM     16  C5  IMU d   1       7.211  82.635  45.840  0.00  0.00     0.131 A 
+ATOM     17  H12 IMU d   1       8.895  81.286  45.495  0.00  0.00     0.165 HD
+ATOM     18  C6  IMU d   1       6.441  82.094  46.926  0.00  0.00     0.288 A 
+ATOM     19  C4  IMU d   1       6.807  83.829  45.217  0.00  0.00     0.118 A 
+ATOM     20  O6  IMU d   1       6.676  81.069  47.558  0.00  0.00    -0.265 OA
+ATOM     21  N1  IMU d   1       5.309  82.866  47.239  0.00  0.00    -0.153 N 
+ATOM     22  C2  IMU d   1       4.950  84.060  46.572  0.00  0.00     0.701 A 
+ATOM     23  H13 IMU d   1       4.719  82.550  47.982  0.00  0.00     0.187 HD
+ATOM     24  N3  IMU d   1       5.689  84.585  45.544  0.00  0.00    -0.062 NA
+ATOM     25  N2  IMU d   1       3.842  84.686  46.981  0.00  0.00    -0.233 N 
+ATOM     26  H14 IMU d   1       3.545  85.559  46.522  0.00  0.00     0.174 HD
+ATOM     27  H15 IMU d   1       3.286  84.296  47.755  0.00  0.00     0.174 HD
+ENDBRANCH   5  12
+BRANCH   4  28
+ATOM     28  O2' IMU d   1       7.748  87.589  43.985  0.00  0.00    -0.390 OA
+ATOM     29  H9  IMU d   1       8.185  88.290  44.455  0.00  0.00     0.210 HD
+ENDBRANCH   4  28
+BRANCH   1  30
+ATOM     30  C5' IMU d   1      11.122  84.726  42.753  0.00  0.00     0.061 C 
+ATOM     31  H1  IMU d   1      12.085  85.254  42.695  0.00  0.00     0.078 H 
+ATOM     32  H2  IMU d   1      10.943  84.401  43.789  0.00  0.00     0.078 H 
+BRANCH  30  33
+ATOM     33  O5' IMU d   1      11.122  83.614  41.886  0.00  0.00    -0.281 OA
+BRANCH  33  34
+ATOM     34  P   IMU d   1      12.330  82.907  41.267  0.00  0.00     0.422 P 
+ATOM     35  O1P IMU d   1      13.445  82.987  42.238  0.00  0.00    -0.617 OA
+ATOM     36  O2P IMU d   1      12.642  83.475  39.951  0.00  0.00    -0.617 OA
+ATOM     37  O3P IMU d   1      11.831  81.514  41.186  0.00  0.00    -0.617 OA
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH   1  30
+BRANCH   3  38
+ATOM     38  O3' IMU d   1       9.897  87.936  42.484  0.00  0.00    -0.391 OA
+ATOM     39  H7  IMU d   1       9.813  88.682  43.066  0.00  0.00     0.210 HD
+ENDBRANCH   3  38
+TORSDOF 6

@@ -1,0 +1,76 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CA1_2 
+REMARK    2  A    between atoms: CA1_2  and  C1_3 
+REMARK    3  A    between atoms: CA1_2  and  CB1_6 
+REMARK    4  A    between atoms: CB1_6  and  CG1_7 
+REMARK    5  A    between atoms: CG1_7  and  CD1_8 
+REMARK       I    between atoms: CD1_8  and  N2_10 
+REMARK    6  A    between atoms: N2_10  and  CA2_11 
+REMARK    7  A    between atoms: CA2_11  and  C2_12 
+REMARK    8  A    between atoms: CA2_11  and  CB2_14 
+REMARK       I    between atoms: C2_12  and  N3_16 
+REMARK    9  A    between atoms: CB2_14  and  SG2_15 
+REMARK   10  A    between atoms: N3_16  and  CA3_17 
+REMARK   11  A    between atoms: CA3_17  and  C3_18 
+ROOT
+ATOM      1  CD1 GSH d   1      16.375  -0.364  25.318  0.00  0.00     0.218 C 
+ATOM      2  OE1 GSH d   1      17.141  -1.195  25.919  0.00  0.00    -0.274 OA
+ATOM      3  N2  GSH d   1      16.499   0.944  25.588  0.00  0.00    -0.347 N 
+ATOM      4  H9  GSH d   1      15.992   1.655  25.101  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA2 GSH d   1      17.437   1.227  26.651  0.00  0.00     0.097 C 
+ATOM      6  H10 GSH d   1      17.746   0.328  27.204  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  C2  GSH d   1      16.694   2.335  27.530  0.00  0.00     0.241 C 
+ATOM      8  O2  GSH d   1      15.738   2.970  27.100  0.00  0.00    -0.271 OA
+ATOM      9  N3  GSH d   1      17.205   2.564  28.764  0.00  0.00    -0.349 N 
+ATOM     10  H14 GSH d   1      18.001   2.063  29.104  0.00  0.00     0.163 HD
+BRANCH   9  11
+ATOM     11  CA3 GSH d   1      16.530   3.588  29.580  0.00  0.00     0.075 C 
+ATOM     12  H15 GSH d   1      15.885   4.199  28.931  0.00  0.00     0.080 H 
+ATOM     13  H16 GSH d   1      17.288   4.230  30.052  0.00  0.00     0.080 H 
+BRANCH  11  14
+ATOM     14  C3  GSH d   1      15.678   2.940  30.665  0.00  0.00     0.191 C 
+ATOM     15  O31 GSH d   1      15.219   3.702  31.562  0.00  0.00    -0.647 OA
+ATOM     16  O32 GSH d   1      15.539   1.687  30.626  0.00  0.00    -0.647 OA
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   7
+BRANCH   5  17
+ATOM     17  CB2 GSH d   1      18.629   2.052  26.084  0.00  0.00     0.001 C 
+ATOM     18  H11 GSH d   1      19.327   2.299  26.897  0.00  0.00     0.052 H 
+ATOM     19  H12 GSH d   1      18.253   2.980  25.629  0.00  0.00     0.052 H 
+BRANCH  17  20
+ATOM     20  SG2 GSH d   1      19.478   1.067  24.836  0.00  0.00    -0.180 SA
+ATOM     21  H13 GSH d   1      19.820   0.217  25.256  0.00  0.00     0.101 HD
+ENDBRANCH  17  20
+ENDBRANCH   5  17
+ENDBRANCH   3   5
+BRANCH   1  22
+ATOM     22  CG1 GSH d   1      15.363  -0.759  24.250  0.00  0.00     0.012 C 
+ATOM     23  H7  GSH d   1      14.365  -0.846  24.705  0.00  0.00     0.047 H 
+ATOM     24  H8  GSH d   1      15.341   0.009  23.463  0.00  0.00     0.047 H 
+BRANCH  22  25
+ATOM     25  CB1 GSH d   1      15.773  -2.128  23.629  0.00  0.00    -0.021 C 
+ATOM     26  H5  GSH d   1      16.693  -1.996  23.040  0.00  0.00     0.037 H 
+ATOM     27  H6  GSH d   1      15.957  -2.850  24.438  0.00  0.00     0.037 H 
+BRANCH  25  28
+ATOM     28  CA1 GSH d   1      14.652  -2.674  22.705  0.00  0.00     0.183 C 
+ATOM     29  H4  GSH d   1      13.661  -2.649  23.183  0.00  0.00     0.101 H 
+BRANCH  28  30
+ATOM     30  N1  GSH d   1      15.066  -4.086  22.265  0.00  0.00    -0.065 N 
+ATOM     31  H1  GSH d   1      15.044  -4.706  23.060  0.00  0.00     0.275 HD
+ATOM     32  H2  GSH d   1      16.000  -4.060  21.886  0.00  0.00     0.275 HD
+ATOM     33  H3  GSH d   1      14.427  -4.420  21.561  0.00  0.00     0.275 HD
+ENDBRANCH  28  30
+BRANCH  28  34
+ATOM     34  C1  GSH d   1      14.728  -1.809  21.379  0.00  0.00     0.204 C 
+ATOM     35  O11 GSH d   1      14.020  -0.837  21.187  0.00  0.00    -0.646 OA
+ATOM     36  O12 GSH d   1      15.545  -2.344  20.571  0.00  0.00    -0.646 OA
+ENDBRANCH  28  34
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH   1  22
+TORSDOF 11

@@ -1,0 +1,64 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CG1_15 
+REMARK    2  A    between atoms: CA6_7  and  OA6_8 
+REMARK    3  A    between atoms: CG1_15  and  CB1_9 
+REMARK    4  A    between atoms: CG1_15  and  CG2_16 
+REMARK    5  A    between atoms: CG2_16  and  CG3_17 
+ROOT
+ATOM      1  CA  NIU d   1      -0.391  18.226  20.761  0.00  0.00     0.060 A 
+ATOM      2  CA2 NIU d   1      -1.559  17.653  21.346  0.00  0.00     0.297 A 
+ATOM      3  OA2 NIU d   1      -1.771  16.494  21.254  0.00  0.00    -0.259 OA
+ATOM      4  OA3 NIU d   1      -2.502  18.381  21.993  0.00  0.00    -0.279 OA
+ATOM      5  CA4 NIU d   1      -2.260  19.761  22.062  0.00  0.00     0.066 A 
+ATOM      6  CA5 NIU d   1      -1.131  20.407  21.515  0.00  0.00     0.006 A 
+ATOM      7  CA6 NIU d   1      -0.186  19.592  20.855  0.00  0.00     0.087 A 
+ATOM      8  CD1 NIU d   1      -3.362  20.536  22.804  0.00  0.00    -0.020 C 
+ATOM      9  CD2 NIU d   1      -3.996  21.745  22.116  0.00  0.00    -0.060 C 
+ATOM     10  CD3 NIU d   1      -3.412  22.128  20.746  0.00  0.00    -0.064 C 
+ATOM     11  CD4 NIU d   1      -1.975  22.696  20.770  0.00  0.00    -0.061 C 
+ATOM     12  CD5 NIU d   1      -0.956  21.907  21.617  0.00  0.00    -0.036 C 
+ATOM     13  H13 NIU d   1      -2.928  20.892  23.750  0.00  0.00     0.043 H 
+ATOM     14  H14 NIU d   1      -4.172  19.823  23.018  0.00  0.00     0.043 H 
+ATOM     15  H15 NIU d   1      -5.066  21.530  21.977  0.00  0.00     0.033 H 
+ATOM     16  H16 NIU d   1      -3.880  22.611  22.785  0.00  0.00     0.033 H 
+ATOM     17  H17 NIU d   1      -3.410  21.227  20.115  0.00  0.00     0.033 H 
+ATOM     18  H18 NIU d   1      -4.069  22.888  20.298  0.00  0.00     0.033 H 
+ATOM     19  H19 NIU d   1      -1.605  22.722  19.734  0.00  0.00     0.033 H 
+ATOM     20  H20 NIU d   1      -2.024  23.720  21.168  0.00  0.00     0.033 H 
+ATOM     21  H21 NIU d   1       0.057  22.165  21.275  0.00  0.00     0.040 H 
+ATOM     22  H22 NIU d   1      -1.074  22.202  22.670  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   1  23
+ATOM     23  CG1 NIU d   1       0.625  17.383  19.955  0.00  0.00     0.005 C 
+ATOM     24  H7  NIU d   1       1.249  18.150  19.474  0.00  0.00     0.055 H 
+BRANCH  23  25
+ATOM     25  CG2 NIU d   1       1.648  16.595  20.786  0.00  0.00    -0.057 C 
+ATOM     26  H8  NIU d   1       2.132  17.303  21.475  0.00  0.00     0.033 H 
+ATOM     27  H9  NIU d   1       2.398  16.188  20.091  0.00  0.00     0.033 H 
+BRANCH  25  28
+ATOM     28  CG3 NIU d   1       1.113  15.432  21.620  0.00  0.00    -0.076 C 
+ATOM     29  H10 NIU d   1       1.944  14.957  22.162  0.00  0.00     0.027 H 
+ATOM     30  H11 NIU d   1       0.638  14.694  20.957  0.00  0.00     0.027 H 
+ATOM     31  H12 NIU d   1       0.372  15.808  22.341  0.00  0.00     0.027 H 
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+BRANCH  23  32
+ATOM     32  CB1 NIU d   1       0.022  16.632  18.753  0.00  0.00    -0.049 A 
+ATOM     33  CB6 NIU d   1      -0.186  15.222  18.800  0.00  0.00    -0.076 A 
+ATOM     34  CB5 NIU d   1      -0.711  14.558  17.678  0.00  0.00    -0.082 A 
+ATOM     35  H6  NIU d   1       0.060  14.665  19.697  0.00  0.00     0.084 H 
+ATOM     36  CB4 NIU d   1      -1.047  15.264  16.518  0.00  0.00    -0.083 A 
+ATOM     37  H5  NIU d   1      -0.858  13.485  17.712  0.00  0.00     0.083 H 
+ATOM     38  CB3 NIU d   1      -0.847  16.658  16.467  0.00  0.00    -0.082 A 
+ATOM     39  H4  NIU d   1      -1.459  14.741  15.662  0.00  0.00     0.083 H 
+ATOM     40  CB2 NIU d   1      -0.325  17.352  17.577  0.00  0.00    -0.076 A 
+ATOM     41  H3  NIU d   1      -1.097  17.203  15.564  0.00  0.00     0.083 H 
+ATOM     42  H2  NIU d   1      -0.189  18.427  17.535  0.00  0.00     0.084 H 
+ENDBRANCH  23  32
+ENDBRANCH   1  23
+BRANCH   7  43
+ATOM     43  OA6 NIU d   1       0.974  20.097  20.301  0.00  0.00    -0.359 OA
+ATOM     44  H1  NIU d   1       1.494  20.510  20.980  0.00  0.00     0.217 HD
+ENDBRANCH   7  43
+TORSDOF 5

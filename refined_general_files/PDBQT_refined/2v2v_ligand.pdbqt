@@ -1,0 +1,79 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_4  and  NAA_5 
+REMARK    2  A    between atoms: NBD_8  and  CBC_9 
+REMARK    3  A    between atoms: CBA_11  and  OAE_12 
+REMARK    4  A    between atoms: CAZ_13  and  OAD_14 
+REMARK    5  A    between atoms: CB0_15  and  CAN_16 
+REMARK    6  A    between atoms: CAN_16  and  NAQ_17 
+REMARK       I    between atoms: NAQ_17  and  CAU_18 
+REMARK    7  A    between atoms: CAU_18  and  CAL_20 
+REMARK    8  A    between atoms: CAL_20  and  CA0_21 
+ROOT
+ATOM      1  CBC V12 d   1      14.677 -10.372  17.184  0.00  0.00     0.141 C 
+ATOM      2  OAS V12 d   1      15.195 -10.090  18.538  0.00  0.00    -0.354 OA
+ATOM      3  CBA V12 d   1      15.903 -10.550  16.268  0.00  0.00     0.105 C 
+ATOM      4  CAZ V12 d   1      17.097 -10.290  17.189  0.00  0.00     0.091 C 
+ATOM      5  CB0 V12 d   1      16.559 -10.490  18.594  0.00  0.00     0.083 C 
+ATOM      6  H5  V12 d   1      14.069 -11.288  17.170  0.00  0.00     0.123 H 
+ATOM      7  H6  V12 d   1      15.884  -9.823  15.443  0.00  0.00     0.093 H 
+ATOM      8  H8  V12 d   1      17.495  -9.274  17.050  0.00  0.00     0.091 H 
+ATOM      9  H10 V12 d   1      16.681 -11.523  18.953  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  10
+ATOM     10  CAN V12 d   1      17.290  -9.475  19.479  0.00  0.00     0.022 C 
+ATOM     11  H11 V12 d   1      16.992  -8.460  19.177  0.00  0.00     0.068 H 
+ATOM     12  H12 V12 d   1      18.374  -9.596  19.339  0.00  0.00     0.068 H 
+BRANCH  10  13
+ATOM     13  NAQ V12 d   1      16.970  -9.662  20.905  0.00  0.00    -0.358 N 
+ATOM     14  CAU V12 d   1      17.777 -10.289  21.765  0.00  0.00     0.224 C 
+ATOM     15  OAB V12 d   1      18.866 -10.783  21.470  0.00  0.00    -0.273 OA
+ATOM     16  H13 V12 d   1      16.103  -9.300  21.247  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  CAL V12 d   1      17.243 -10.349  23.202  0.00  0.00     0.064 C 
+ATOM     18  H14 V12 d   1      16.148 -10.247  23.175  0.00  0.00     0.059 H 
+ATOM     19  H15 V12 d   1      17.675  -9.514  23.773  0.00  0.00     0.059 H 
+BRANCH  17  20
+ATOM     20  CA0 V12 d   1      17.597 -11.665  23.910  0.00  0.00     0.114 A 
+ATOM     21  NAR V12 d   1      17.345 -11.920  25.194  0.00  0.00    -0.233 NA
+ATOM     22  CAY V12 d   1      17.779 -13.143  25.477  0.00  0.00     0.085 A 
+ATOM     23  CAK V12 d   1      17.770 -13.900  26.648  0.00  0.00    -0.053 A 
+ATOM     24  CAX V12 d   1      18.322 -13.663  24.308  0.00  0.00     0.062 A 
+ATOM     25  CAI V12 d   1      18.310 -15.186  26.642  0.00  0.00    -0.081 A 
+ATOM     26  H16 V12 d   1      17.346 -13.491  27.558  0.00  0.00     0.087 H 
+ATOM     27  CAH V12 d   1      18.857 -15.709  25.469  0.00  0.00    -0.081 A 
+ATOM     28  H17 V12 d   1      18.305 -15.780  27.549  0.00  0.00     0.083 H 
+ATOM     29  CAJ V12 d   1      18.864 -14.948  24.300  0.00  0.00    -0.055 A 
+ATOM     30  H18 V12 d   1      19.277 -16.708  25.467  0.00  0.00     0.083 H 
+ATOM     31  H19 V12 d   1      19.289 -15.354  23.389  0.00  0.00     0.087 H 
+ATOM     32  NAP V12 d   1      18.193 -12.730  23.368  0.00  0.00    -0.342 N 
+ATOM     33  H20 V12 d   1      18.501 -12.815  22.389  0.00  0.00     0.167 HD
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  10  13
+ENDBRANCH   5  10
+BRANCH   4  34
+ATOM     34  OAD V12 d   1      18.113 -11.263  16.949  0.00  0.00    -0.390 OA
+ATOM     35  H9  V12 d   1      17.766 -12.130  17.121  0.00  0.00     0.210 HD
+ENDBRANCH   4  34
+BRANCH   1  36
+ATOM     36  NBD V12 d   1      13.828  -9.190  16.831  0.00  0.00    -0.280 N 
+ATOM     37  CAV V12 d   1      12.982  -9.133  15.695  0.00  0.00     0.330 A 
+ATOM     38  OAC V12 d   1      12.876 -10.068  14.898  0.00  0.00    -0.246 OA
+ATOM     39  NAO V12 d   1      12.262  -8.019  15.475  0.00  0.00    -0.293 N 
+ATOM     40  CAT V12 d   1      12.307  -6.953  16.293  0.00  0.00     0.125 A 
+ATOM     41  H1  V12 d   1      11.669  -7.982  14.671  0.00  0.00     0.172 HD
+ATOM     42  CAF V12 d   1      13.117  -6.955  17.421  0.00  0.00    -0.024 A 
+ATOM     43  CAG V12 d   1      13.880  -8.078  17.699  0.00  0.00    -0.009 A 
+ATOM     44  H3  V12 d   1      13.152  -6.087  18.078  0.00  0.00     0.091 H 
+ATOM     45  H4  V12 d   1      14.516  -8.102  18.582  0.00  0.00     0.112 H 
+BRANCH  40  46
+ATOM     46  NAA V12 d   1      11.575  -5.873  16.034  0.00  0.00    -0.284 NA
+ATOM     47  H2  V12 d   1      11.614  -5.078  16.652  0.00  0.00     0.188 HD
+ENDBRANCH  40  46
+ENDBRANCH   1  36
+BRANCH   3  48
+ATOM     48  OAE V12 d   1      15.937 -11.889  15.727  0.00  0.00    -0.388 OA
+ATOM     49  H7  V12 d   1      16.697 -11.983  15.165  0.00  0.00     0.210 HD
+ENDBRANCH   3  48
+TORSDOF 8

@@ -1,0 +1,92 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAI_2 
+REMARK    2  A    between atoms: CAI_2  and  CAJ_3 
+REMARK    3  A    between atoms: CAJ_3  and  CAK_4 
+REMARK    4  A    between atoms: CAK_4  and  CAL_5 
+REMARK    5  A    between atoms: CAL_5  and  CAM_6 
+REMARK    6  A    between atoms: CAM_6  and  CAN_7 
+REMARK    7  A    between atoms: CAN_7  and  CAO_8 
+REMARK    8  A    between atoms: CAO_8  and  CAP_9 
+REMARK    9  A    between atoms: CAP_9  and  CAQ_10 
+REMARK   10  A    between atoms: CAQ_10  and  CAR_11 
+REMARK   11  A    between atoms: CAR_11  and  CAS_12 
+REMARK   12  A    between atoms: CAS_12  and  PAT_13 
+REMARK   13  A    between atoms: CAS_12  and  PAU_17 
+REMARK   14  A    between atoms: CAS_12  and  OAD_21 
+ROOT
+ATOM      1  CAO H23 d   1      27.489  46.365  11.382  0.00  0.00    -0.065 C 
+ATOM      2  H16 H23 d   1      27.725  47.436  11.466  0.00  0.00     0.033 H 
+ATOM      3  H17 H23 d   1      26.431  46.243  11.105  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAN H23 d   1      27.731  45.693  12.737  0.00  0.00    -0.065 C 
+ATOM      5  H14 H23 d   1      27.630  44.605  12.611  0.00  0.00     0.033 H 
+ATOM      6  H15 H23 d   1      28.753  45.931  13.068  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  CAM H23 d   1      26.748  46.152  13.819  0.00  0.00    -0.065 C 
+ATOM      8  H12 H23 d   1      26.859  47.236  13.967  0.00  0.00     0.033 H 
+ATOM      9  H13 H23 d   1      25.723  45.930  13.489  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  CAL H23 d   1      27.010  45.438  15.148  0.00  0.00    -0.065 C 
+ATOM     11  H10 H23 d   1      26.243  45.727  15.882  0.00  0.00     0.033 H 
+ATOM     12  H11 H23 d   1      26.980  44.349  14.996  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  CAK H23 d   1      28.394  45.850  15.658  0.00  0.00    -0.065 C 
+ATOM     14  H8  H23 d   1      29.142  45.560  14.906  0.00  0.00     0.033 H 
+ATOM     15  H9  H23 d   1      28.407  46.943  15.786  0.00  0.00     0.033 H 
+BRANCH  13  16
+ATOM     16  CAJ H23 d   1      28.771  45.204  16.989  0.00  0.00    -0.065 C 
+ATOM     17  H6  H23 d   1      28.048  45.507  17.761  0.00  0.00     0.033 H 
+ATOM     18  H7  H23 d   1      28.757  44.109  16.882  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  CAI H23 d   1      30.174  45.658  17.398  0.00  0.00    -0.069 C 
+ATOM     20  H4  H23 d   1      30.908  45.252  16.686  0.00  0.00     0.032 H 
+ATOM     21  H5  H23 d   1      30.218  46.757  17.384  0.00  0.00     0.032 H 
+BRANCH  19  22
+ATOM     22  CAA H23 d   1      30.507  45.159  18.804  0.00  0.00    -0.077 C 
+ATOM     23  H1  H23 d   1      31.517  45.494  19.082  0.00  0.00     0.027 H 
+ATOM     24  H2  H23 d   1      30.467  44.060  18.822  0.00  0.00     0.027 H 
+ATOM     25  H3  H23 d   1      29.777  45.565  19.520  0.00  0.00     0.027 H 
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  CAP H23 d   1      28.366  45.745  10.288  0.00  0.00    -0.065 C 
+ATOM     27  H18 H23 d   1      28.309  44.649  10.369  0.00  0.00     0.033 H 
+ATOM     28  H19 H23 d   1      29.405  46.071  10.442  0.00  0.00     0.033 H 
+BRANCH  26  29
+ATOM     29  CAQ H23 d   1      27.924  46.158   8.879  0.00  0.00    -0.061 C 
+ATOM     30  H20 H23 d   1      28.045  47.246   8.770  0.00  0.00     0.033 H 
+ATOM     31  H21 H23 d   1      26.866  45.891   8.743  0.00  0.00     0.033 H 
+BRANCH  29  32
+ATOM     32  CAR H23 d   1      28.759  45.453   7.804  0.00  0.00    -0.010 C 
+ATOM     33  H22 H23 d   1      28.602  44.369   7.902  0.00  0.00     0.039 H 
+ATOM     34  H23 H23 d   1      29.819  45.688   7.982  0.00  0.00     0.039 H 
+BRANCH  32  35
+ATOM     35  CAS H23 d   1      28.411  45.861   6.366  0.00  0.00     0.285 C 
+BRANCH  35  36
+ATOM     36  PAT H23 d   1      29.380  44.785   5.190  0.00  0.00     0.310 P 
+ATOM     37  OAE H23 d   1      28.695  43.337   5.196  0.00  0.00    -0.637 OA
+ATOM     38  OAF H23 d   1      29.167  45.416   3.727  0.00  0.00    -0.637 OA
+ATOM     39  OAB H23 d   1      30.814  44.726   5.557  0.00  0.00    -0.637 OA
+ENDBRANCH  35  36
+BRANCH  35  40
+ATOM     40  PAU H23 d   1      26.582  45.700   6.029  0.00  0.00     0.310 P 
+ATOM     41  OAG H23 d   1      26.444  45.939   4.443  0.00  0.00    -0.637 OA
+ATOM     42  OAH H23 d   1      26.225  44.153   6.290  0.00  0.00    -0.637 OA
+ATOM     43  OAC H23 d   1      25.764  46.666   6.788  0.00  0.00    -0.637 OA
+ENDBRANCH  35  40
+BRANCH  35  44
+ATOM     44  OAD H23 d   1      28.742  47.224   6.094  0.00  0.00    -0.365 OA
+ATOM     45  H24 H23 d   1      28.513  47.431   5.196  0.00  0.00     0.212 HD
+ENDBRANCH  35  44
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH   1  26
+TORSDOF 14

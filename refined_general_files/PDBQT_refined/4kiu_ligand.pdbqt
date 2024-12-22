@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_2  and  CAT_4 
+REMARK    2  A    between atoms: CAU_7  and  CAQ_8 
+REMARK    3  A    between atoms: CAS_12  and  OAO_13 
+REMARK    4  A    between atoms: OAO_13  and  CAN_14 
+REMARK    5  A    between atoms: CAN_14  and  CAR_15 
+REMARK    6  A    between atoms: CAV_20  and  NAW_21 
+ROOT
+ATOM      1  OAO KIU d   1      -4.464  36.542  79.609  0.00  0.00    -0.347 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAS KIU d   1      -3.769  35.382  79.357  0.00  0.00     0.071 A 
+ATOM      3  CAJ KIU d   1      -3.377  35.106  78.062  0.00  0.00    -0.034 A 
+ATOM      4  CAT KIU d   1      -2.661  33.947  77.810  0.00  0.00     0.044 A 
+ATOM      5  H   KIU d   1      -3.626  35.786  77.255  0.00  0.00     0.089 H 
+ATOM      6  CAM KIU d   1      -2.327  33.042  78.821  0.00  0.00    -0.050 A 
+ATOM      7  CAU KIU d   1      -2.714  33.318  80.125  0.00  0.00     0.044 A 
+ATOM      8  H   KIU d   1      -1.774  32.139  78.590  0.00  0.00     0.086 H 
+ATOM      9  CAK KIU d   1      -3.435  34.481  80.375  0.00  0.00    -0.034 A 
+ATOM     10  H   KIU d   1      -3.748  34.696  81.390  0.00  0.00     0.089 H 
+BRANCH   4  11
+ATOM     11  CAP KIU d   1      -2.268  33.717  76.509  0.00  0.00     0.209 C 
+ATOM     12  OAA KIU d   1      -1.570  32.712  76.242  0.00  0.00    -0.644 OA
+ATOM     13  OAC KIU d   1      -2.586  34.536  75.612  0.00  0.00    -0.644 OA
+ENDBRANCH   4  11
+BRANCH   7  14
+ATOM     14  CAQ KIU d   1      -2.430  32.428  81.159  0.00  0.00     0.209 C 
+ATOM     15  OAD KIU d   1      -2.446  31.201  80.892  0.00  0.00    -0.644 OA
+ATOM     16  OAB KIU d   1      -2.220  32.840  82.338  0.00  0.00    -0.644 OA
+ENDBRANCH   7  14
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  CAN KIU d   1      -5.087  36.468  80.901  0.00  0.00     0.050 C 
+ATOM     18  H   KIU d   1      -5.149  37.480  81.328  0.00  0.00     0.082 H 
+ATOM     19  H   KIU d   1      -4.478  35.830  81.558  0.00  0.00     0.082 H 
+BRANCH  17  20
+ATOM     20  CAR KIU d   1      -6.377  35.930  80.809  0.00  0.00    -0.032 A 
+ATOM     21  CAL KIU d   1      -7.047  35.641  81.991  0.00  0.00    -0.043 A 
+ATOM     22  CAV KIU d   1      -8.327  35.123  81.920  0.00  0.00     0.103 A 
+ATOM     23  H   KIU d   1      -6.575  35.818  82.951  0.00  0.00     0.088 H 
+ATOM     24  CAI KIU d   1      -8.954  34.908  80.693  0.00  0.00    -0.051 A 
+ATOM     25  CAG KIU d   1      -8.288  35.188  79.506  0.00  0.00    -0.080 A 
+ATOM     26  H   KIU d   1      -9.966  34.520  80.665  0.00  0.00     0.087 H 
+ATOM     27  CAH KIU d   1      -6.997  35.706  79.568  0.00  0.00    -0.075 A 
+ATOM     28  H   KIU d   1      -8.765  35.007  78.549  0.00  0.00     0.083 H 
+ATOM     29  H   KIU d   1      -6.466  35.938  78.652  0.00  0.00     0.084 H 
+BRANCH  22  30
+ATOM     30  NAW KIU d   1      -8.970  34.869  83.043  0.00  0.00    -0.116 N 
+ATOM     31  OAF KIU d   1      -8.756  33.748  83.747  0.00  0.00    -0.532 OA
+ATOM     32  OAE KIU d   1      -9.845  35.770  83.502  0.00  0.00    -0.532 OA
+ENDBRANCH  22  30
+ENDBRANCH  17  20
+ENDBRANCH   1  17
+TORSDOF 6

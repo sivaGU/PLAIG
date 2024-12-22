@@ -1,0 +1,79 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_5  and  C_6 
+REMARK    2  A    between atoms: N_8  and  CAG_9 
+REMARK    3  A    between atoms: CAG_9  and  CAH_10 
+REMARK    4  A    between atoms: CAH_10  and  OAP_11 
+REMARK    5  A    between atoms: CAH_10  and  CAI_12 
+REMARK    6  A    between atoms: CAI_12  and  OAQ_13 
+REMARK    7  A    between atoms: CAI_12  and  CAJ_14 
+REMARK    8  A    between atoms: CAJ_14  and  OAR_15 
+REMARK    9  A    between atoms: CAJ_14  and  CAK_16 
+REMARK   10  A    between atoms: CAK_16  and  OAT_17 
+REMARK   11  A    between atoms: CAK_16  and  CAL_18 
+REMARK   12  A    between atoms: CAL_18  and  OAS_19 
+ROOT
+ATOM      1  CAH G9Z d   1      25.354 -20.720 -20.850  0.00  0.00     0.078 C 
+ATOM      2  H8  G9Z d   1      25.264 -21.444 -20.027  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAG G9Z d   1      26.813 -20.214 -20.935  0.00  0.00     0.025 C 
+ATOM      4  H6  G9Z d   1      27.482 -21.084 -21.013  0.00  0.00     0.068 H 
+ATOM      5  H7  G9Z d   1      26.916 -19.590 -21.835  0.00  0.00     0.068 H 
+BRANCH   3   6
+ATOM      6  N   G9Z d   1      27.211 -19.419 -19.765  0.00  0.00    -0.335 N 
+ATOM      7  CAB G9Z d   1      27.679 -19.975 -18.647  0.00  0.00     0.220 C 
+ATOM      8  OAM G9Z d   1      27.883 -21.185 -18.539  0.00  0.00    -0.273 OA
+ATOM      9  CAC G9Z d   1      28.094 -19.047 -17.701  0.00  0.00     0.012 C 
+ATOM     10  CB  G9Z d   1      27.506 -17.714 -18.153  0.00  0.00    -0.029 C 
+ATOM     11  H1  G9Z d   1      29.192 -18.993 -17.672  0.00  0.00     0.047 H 
+ATOM     12  H2  G9Z d   1      27.714 -19.317 -16.705  0.00  0.00     0.047 H 
+ATOM     13  CA  G9Z d   1      27.086 -17.941 -19.599  0.00  0.00     0.099 C 
+ATOM     14  H3  G9Z d   1      28.261 -16.917 -18.090  0.00  0.00     0.037 H 
+ATOM     15  H4  G9Z d   1      26.637 -17.445 -17.535  0.00  0.00     0.037 H 
+ATOM     16  H5  G9Z d   1      26.034 -17.651 -19.734  0.00  0.00     0.089 H 
+BRANCH  13  17
+ATOM     17  C   G9Z d   1      27.866 -17.159 -20.495  0.00  0.00     0.197 C 
+ATOM     18  O   G9Z d   1      28.803 -17.706 -21.117  0.00  0.00    -0.646 OA
+ATOM     19  OXT G9Z d   1      27.566 -15.945 -20.591  0.00  0.00    -0.646 OA
+ENDBRANCH  13  17
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  OAP G9Z d   1      24.473 -19.603 -20.612  0.00  0.00    -0.391 OA
+ATOM     21  H9  G9Z d   1      23.577 -19.914 -20.560  0.00  0.00     0.210 HD
+ENDBRANCH   1  20
+BRANCH   1  22
+ATOM     22  CAI G9Z d   1      24.958 -21.394 -22.175  0.00  0.00     0.089 C 
+ATOM     23  H10 G9Z d   1      23.860 -21.370 -22.233  0.00  0.00     0.091 H 
+BRANCH  22  24
+ATOM     24  OAQ G9Z d   1      25.459 -20.652 -23.287  0.00  0.00    -0.390 OA
+ATOM     25  H11 G9Z d   1      26.407 -20.607 -23.235  0.00  0.00     0.210 HD
+ENDBRANCH  22  24
+BRANCH  22  26
+ATOM     26  CAJ G9Z d   1      25.380 -22.883 -22.246  0.00  0.00     0.089 C 
+ATOM     27  H12 G9Z d   1      24.954 -23.375 -21.359  0.00  0.00     0.091 H 
+BRANCH  26  28
+ATOM     28  OAR G9Z d   1      26.803 -23.040 -22.173  0.00  0.00    -0.390 OA
+ATOM     29  H13 G9Z d   1      27.209 -22.581 -22.899  0.00  0.00     0.210 HD
+ENDBRANCH  26  28
+BRANCH  26  30
+ATOM     30  CAK G9Z d   1      24.810 -23.616 -23.484  0.00  0.00     0.083 C 
+ATOM     31  H14 G9Z d   1      25.278 -23.173 -24.375  0.00  0.00     0.090 H 
+BRANCH  30  32
+ATOM     32  OAT G9Z d   1      23.386 -23.430 -23.607  0.00  0.00    -0.391 OA
+ATOM     33  H15 G9Z d   1      22.955 -23.772 -22.832  0.00  0.00     0.210 HD
+ENDBRANCH  30  32
+BRANCH  30  34
+ATOM     34  CAL G9Z d   1      25.180 -25.116 -23.460  0.00  0.00     0.043 C 
+ATOM     35  H16 G9Z d   1      26.250 -25.221 -23.230  0.00  0.00     0.078 H 
+ATOM     36  H17 G9Z d   1      24.973 -25.555 -24.447  0.00  0.00     0.078 H 
+BRANCH  34  37
+ATOM     37  OAS G9Z d   1      24.414 -25.809 -22.465  0.00  0.00    -0.398 OA
+ATOM     38  H18 G9Z d   1      23.489 -25.723 -22.662  0.00  0.00     0.209 HD
+ENDBRANCH  34  37
+ENDBRANCH  30  34
+ENDBRANCH  26  30
+ENDBRANCH  22  26
+ENDBRANCH   1  22
+TORSDOF 12

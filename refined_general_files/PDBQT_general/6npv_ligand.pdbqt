@@ -1,0 +1,65 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_4  and  N21_21 
+REMARK    2  A    between atoms: C13_5  and  C8_16 
+REMARK       I    between atoms: N21_21  and  C13_5 
+REMARK    3  A    between atoms: C15_7  and  C16_8 
+REMARK    4  A    between atoms: C16_8  and  C17_9 
+REMARK    5  A    between atoms: C17_9  and  O23_23 
+REMARK    6  A    between atoms: C9_17  and  N19_19 
+ROOT
+ATOM      1  C12 KWP d   1      11.809   7.066 -34.704  0.00  0.00     0.133 C 
+ATOM      2  C14 KWP d   1      13.758   8.446 -34.741  0.00  0.00     0.027 C 
+ATOM      3  C15 KWP d   1      12.250   8.439 -34.968  0.00  0.00     0.025 C 
+ATOM      4  N19 KWP d   1      14.071   7.037 -34.615  0.00  0.00    -0.268 N 
+ATOM      5  N20 KWP d   1      12.848   6.300 -34.485  0.00  0.00    -0.158 NA
+ATOM      6  H2  KWP d   1      14.018   8.993 -33.823  0.00  0.00     0.068 H 
+ATOM      7  H3  KWP d   1      14.285   8.894 -35.596  0.00  0.00     0.068 H 
+ATOM      8  H4  KWP d   1      12.008   8.749 -35.995  0.00  0.00     0.054 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  N21 KWP d   1      10.533   6.685 -34.655  0.00  0.00    -0.309 N 
+ATOM     10  C13 KWP d   1       9.487   7.266 -35.413  0.00  0.00     0.257 C 
+ATOM     11  O22 KWP d   1       9.713   8.136 -36.241  0.00  0.00    -0.267 OA
+ATOM     12  H15 KWP d   1      10.297   5.934 -34.038  0.00  0.00     0.170 HD
+BRANCH  10  13
+ATOM     13  C8  KWP d   1       8.156   6.740 -35.147  0.00  0.00     0.035 A 
+ATOM     14  C3  KWP d   1       7.153   6.952 -36.065  0.00  0.00    -0.051 A 
+ATOM     15  C6  KWP d   1       5.916   6.435 -35.763  0.00  0.00     0.003 A 
+ATOM     16  H10 KWP d   1       7.330   7.501 -36.983  0.00  0.00     0.087 H 
+ATOM     17  N18 KWP d   1       5.617   5.749 -34.654  0.00  0.00    -0.273 NA
+ATOM     18  H13 KWP d   1       5.119   6.596 -36.480  0.00  0.00     0.114 H 
+ATOM     19  C7  KWP d   1       6.633   5.573 -33.800  0.00  0.00     0.003 A 
+ATOM     20  C4  KWP d   1       7.911   6.042 -33.993  0.00  0.00    -0.051 A 
+ATOM     21  H14 KWP d   1       6.433   5.020 -32.889  0.00  0.00     0.114 H 
+ATOM     22  H11 KWP d   1       8.693   5.867 -33.263  0.00  0.00     0.087 H 
+ENDBRANCH  10  13
+ENDBRANCH   1   9
+BRANCH   3  23
+ATOM     23  C16 KWP d   1      11.560   9.329 -33.972  0.00  0.00    -0.034 C 
+ATOM     24  H5  KWP d   1      11.702   8.914 -32.963  0.00  0.00     0.037 H 
+ATOM     25  H6  KWP d   1      10.486   9.363 -34.206  0.00  0.00     0.037 H 
+BRANCH  23  26
+ATOM     26  C17 KWP d   1      12.113  10.730 -34.008  0.00  0.00     0.018 C 
+ATOM     27  H7  KWP d   1      13.210  10.700 -34.089  0.00  0.00     0.074 H 
+ATOM     28  H8  KWP d   1      11.828  11.271 -33.094  0.00  0.00     0.074 H 
+BRANCH  26  29
+ATOM     29  O23 KWP d   1      11.560  11.370 -35.143  0.00  0.00    -0.401 OA
+ATOM     30  H16 KWP d   1      11.890  12.259 -35.196  0.00  0.00     0.209 HD
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   3  23
+BRANCH   4  31
+ATOM     31  C9  KWP d   1      15.230   6.590 -33.959  0.00  0.00     0.054 A 
+ATOM     32  C1  KWP d   1      16.364   7.358 -33.820  0.00  0.00    -0.054 A 
+ATOM     33  C2  KWP d   1      17.475   6.848 -33.182  0.00  0.00    -0.058 A 
+ATOM     34  H1  KWP d   1      16.384   8.368 -34.214  0.00  0.00     0.087 H 
+ATOM     35  C10 KWP d   1      17.458   5.560 -32.695  0.00  0.00     0.055 A 
+ATOM     36  H9  KWP d   1      18.361   7.461 -33.064  0.00  0.00     0.086 H 
+ATOM     37  C11 KWP d   1      16.329   4.781 -32.832  0.00  0.00     0.058 A 
+ATOM     38 CL24 KWP d   1      18.848   4.903 -31.897  0.00  0.00    -0.083 Cl
+ATOM     39  C5  KWP d   1      15.219   5.301 -33.461  0.00  0.00    -0.033 A 
+ATOM     40 CL25 KWP d   1      16.316   3.162 -32.205  0.00  0.00    -0.082 Cl
+ATOM     41  H12 KWP d   1      14.328   4.693 -33.566  0.00  0.00     0.089 H 
+ENDBRANCH   4  31
+TORSDOF 6

@@ -1,0 +1,112 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_5  and  N3_7 
+REMARK    2  A    between atoms: N5_10  and  C6_11 
+REMARK    3  A    between atoms: C7_12  and  O15_38 
+REMARK    4  A    between atoms: C8_13  and  O3_18 
+REMARK    5  A    between atoms: C9_14  and  C10_16 
+REMARK    6  A    between atoms: C10_16  and  O2_17 
+REMARK    7  A    between atoms: O3_18  and  C11_19 
+REMARK    8  A    between atoms: C12_20  and  O14_37 
+REMARK    9  A    between atoms: C13_21  and  O10_32 
+REMARK   10  A    between atoms: C14_22  and  O6_27 
+REMARK   11  A    between atoms: C15_23  and  C16_25 
+REMARK   12  A    between atoms: C16_25  and  O5_26 
+REMARK   13  A    between atoms: O6_27  and  P1_28 
+REMARK   14  A    between atoms: O10_32  and  P2_33 
+REMARK   15  A    between atoms: O15_38  and  P3_39 
+ROOT
+ATOM      1  C6  JYP d   1     181.524 143.623  86.892  0.00  0.00     0.140 A 
+ATOM      2  C7  JYP d   1     181.540 145.085  87.179  0.00  0.00     0.121 A 
+ATOM      3  C8  JYP d   1     182.915 145.475  87.453  0.00  0.00     0.098 A 
+ATOM      4  C9  JYP d   1     183.768 144.256  87.353  0.00  0.00     0.089 A 
+ATOM      5  O1  JYP d   1     182.899 143.111  87.018  0.00  0.00    -0.353 OA
+ATOM      6  H5  JYP d   1     181.154 143.448  85.871  0.00  0.00     0.123 H 
+ATOM      7  H6  JYP d   1     180.908 145.302  88.053  0.00  0.00     0.095 H 
+ATOM      8  H7  JYP d   1     183.246 146.226  86.720  0.00  0.00     0.091 H 
+ATOM      9  H8  JYP d   1     184.524 144.393  86.566  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O3  JYP d   1     183.007 146.031  88.801  0.00  0.00    -0.348 OA
+BRANCH  10  11
+ATOM     11  C11 JYP d   1     182.980 147.455  88.733  0.00  0.00     0.159 C 
+ATOM     12  C12 JYP d   1     184.260 148.010  89.329  0.00  0.00     0.111 C 
+ATOM     13  C13 JYP d   1     184.025 148.394  90.807  0.00  0.00     0.109 C 
+ATOM     14  H13 JYP d   1     185.051 147.248  89.270  0.00  0.00     0.094 H 
+ATOM     15  C14 JYP d   1     182.985 149.503  90.892  0.00  0.00     0.106 C 
+ATOM     16  H14 JYP d   1     183.668 147.514  91.361  0.00  0.00     0.092 H 
+ATOM     17  C15 JYP d   1     181.929 149.297  89.812  0.00  0.00     0.090 C 
+ATOM     18  H15 JYP d   1     182.506 149.482  91.882  0.00  0.00     0.092 H 
+ATOM     19  O4  JYP d   1     181.879 147.933  89.449  0.00  0.00    -0.348 OA
+ATOM     20  H16 JYP d   1     182.185 149.902  88.930  0.00  0.00     0.090 H 
+ATOM     21  H12 JYP d   1     182.898 147.771  87.683  0.00  0.00     0.133 H 
+BRANCH  12  22
+ATOM     22  O14 JYP d   1     184.650 149.142  88.614  0.00  0.00    -0.388 OA
+ATOM     23  H20 JYP d   1     185.453 149.488  88.984  0.00  0.00     0.210 HD
+ENDBRANCH  12  22
+BRANCH  13  24
+ATOM     24  O10 JYP d   1     185.221 148.841  91.364  0.00  0.00    -0.272 OA
+BRANCH  24  25
+ATOM     25  P2  JYP d   1     185.316 148.991  93.006  0.00  0.00     0.422 P 
+ATOM     26  O11 JYP d   1     185.970 147.761  93.586  0.00  0.00    -0.617 OA
+ATOM     27  O12 JYP d   1     183.930 149.141  93.580  0.00  0.00    -0.617 OA
+ATOM     28  O13 JYP d   1     186.139 150.212  93.354  0.00  0.00    -0.617 OA
+ENDBRANCH  24  25
+ENDBRANCH  13  24
+BRANCH  15  29
+ATOM     29  O6  JYP d   1     183.613 150.746  90.701  0.00  0.00    -0.272 OA
+BRANCH  29  30
+ATOM     30  P1  JYP d   1     183.504 151.889  91.921  0.00  0.00     0.422 P 
+ATOM     31  O7  JYP d   1     183.324 151.193  93.249  0.00  0.00    -0.617 OA
+ATOM     32  O8  JYP d   1     182.317 152.793  91.662  0.00  0.00    -0.617 OA
+ATOM     33  O9  JYP d   1     184.771 152.717  91.953  0.00  0.00    -0.617 OA
+ENDBRANCH  29  30
+ENDBRANCH  15  29
+BRANCH  17  34
+ATOM     34  C16 JYP d   1     180.558 149.730  90.350  0.00  0.00     0.043 C 
+ATOM     35  H17 JYP d   1     180.572 149.708  91.450  0.00  0.00     0.078 H 
+ATOM     36  H18 JYP d   1     179.785 149.041  89.980  0.00  0.00     0.078 H 
+BRANCH  34  37
+ATOM     37  O5  JYP d   1     180.272 151.030  89.913  0.00  0.00    -0.398 OA
+ATOM     38  H19 JYP d   1     180.940 151.625  90.233  0.00  0.00     0.209 HD
+ENDBRANCH  34  37
+ENDBRANCH  17  34
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+BRANCH   2  39
+ATOM     39  O15 JYP d   1     181.041 145.823  86.018  0.00  0.00    -0.270 OA
+BRANCH  39  40
+ATOM     40  P3  JYP d   1     182.102 146.817  85.186  0.00  0.00     0.422 P 
+ATOM     41  O16 JYP d   1     183.110 147.404  86.151  0.00  0.00    -0.617 OA
+ATOM     42  O17 JYP d   1     182.825 146.012  84.131  0.00  0.00    -0.617 OA
+ATOM     43  O18 JYP d   1     181.325 147.940  84.521  0.00  0.00    -0.617 OA
+ENDBRANCH  39  40
+ENDBRANCH   2  39
+BRANCH   4  44
+ATOM     44  C10 JYP d   1     184.450 144.005  88.667  0.00  0.00     0.043 C 
+ATOM     45  H9  JYP d   1     183.709 144.045  89.479  0.00  0.00     0.078 H 
+ATOM     46  H10 JYP d   1     185.219 144.774  88.834  0.00  0.00     0.078 H 
+BRANCH  44  47
+ATOM     47  O2  JYP d   1     185.060 142.723  88.646  0.00  0.00    -0.398 OA
+ATOM     48  H11 JYP d   1     184.395 142.060  88.502  0.00  0.00     0.209 HD
+ENDBRANCH  44  47
+ENDBRANCH   4  44
+BRANCH   1  49
+ATOM     49  N5  JYP d   1     180.663 142.950  87.840  0.00  0.00    -0.294 N 
+ATOM     50  C2  JYP d   1     180.826 141.696  88.010  0.00  0.00     0.167 A 
+ATOM     51  N1  JYP d   1     181.775 140.819  87.672  0.00  0.00    -0.222 NA
+ATOM     52  C3  JYP d   1     179.573 141.257  88.502  0.00  0.00     0.149 A 
+ATOM     53  C1  JYP d   1     181.515 139.482  87.801  0.00  0.00     0.091 A 
+ATOM     54  N2  JYP d   1     180.321 139.066  88.286  0.00  0.00    -0.222 NA
+ATOM     55  H1  JYP d   1     182.266 138.755  87.514  0.00  0.00     0.146 H 
+ATOM     56  C4  JYP d   1     179.362 139.924  88.618  0.00  0.00     0.155 A 
+ATOM     57  N4  JYP d   1     178.676 142.512  88.575  0.00  0.00    -0.236 NA
+ATOM     58  C5  JYP d   1     179.528 143.501  88.124  0.00  0.00     0.071 A 
+ATOM     59  H4  JYP d   1     179.287 144.558  88.025  0.00  0.00     0.144 H 
+BRANCH  56  60
+ATOM     60  N3  JYP d   1     178.142 139.435  89.262  0.00  0.00    -0.382 N 
+ATOM     61  H2  JYP d   1     177.978 138.422  89.352  0.00  0.00     0.157 HD
+ATOM     62  H3  JYP d   1     177.448 140.104  89.625  0.00  0.00     0.157 HD
+ENDBRANCH  56  60
+ENDBRANCH   1  49
+TORSDOF 15

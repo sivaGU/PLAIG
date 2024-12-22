@@ -1,0 +1,106 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: C3_3  and  C2_2 
+REMARK    3  A    between atoms: C2_2  and  O1_25 
+REMARK    4  A    between atoms: C3_3  and  C4_4 
+REMARK    5  A    between atoms: N1_21  and  C3_3 
+REMARK    6  A    between atoms: C4_4  and  C5_5 
+REMARK    7  A    between atoms: C4_4  and  C6_6 
+REMARK    8  A    between atoms: C8_8  and  C7_7 
+REMARK       I    between atoms: C7_7  and  N1_21 
+REMARK    9  A    between atoms: N2_22  and  C8_8 
+REMARK   10  A    between atoms: N3_23  and  C10_10 
+REMARK   11  A    between atoms: C13_13  and  C14_14 
+REMARK   12  A    between atoms: N4_24  and  C20_20 
+REMARK   13  A    between atoms: S1_33  and  N3_23 
+REMARK   14  A    between atoms: N4_24  and  S1_33 
+ROOT
+ATOM      1  C9  TFK d   1     -13.807  19.532  39.349  0.00  0.00     0.276 C 
+ATOM      2  C10 TFK d   1     -14.828  18.495  39.356  0.00  0.00     0.112 C 
+ATOM      3  C11 TFK d   1     -14.502  17.219  39.031  0.00  0.00    -0.049 C 
+ATOM      4  C12 TFK d   1     -13.167  16.904  38.666  0.00  0.00    -0.054 C 
+ATOM      5  C13 TFK d   1     -12.150  17.812  38.668  0.00  0.00     0.048 C 
+ATOM      6  N2  TFK d   1     -12.485  19.131  39.100  0.00  0.00    -0.303 N 
+ATOM      7  O3  TFK d   1     -14.095  20.702  39.615  0.00  0.00    -0.265 OA
+ATOM      8  H12 TFK d   1     -15.262  16.439  39.050  0.00  0.00     0.087 H 
+ATOM      9  H13 TFK d   1     -12.943  15.881  38.368  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  10
+ATOM     10  C8  TFK d   1     -11.388  20.085  39.369  0.00  0.00     0.077 C 
+ATOM     11  H10 TFK d   1     -11.530  20.522  40.368  0.00  0.00     0.079 H 
+ATOM     12  H11 TFK d   1     -10.429  19.547  39.338  0.00  0.00     0.079 H 
+BRANCH  10  13
+ATOM     13  C7  TFK d   1     -11.362  21.211  38.331  0.00  0.00     0.236 C 
+ATOM     14  N1  TFK d   1     -10.695  22.288  38.724  0.00  0.00    -0.352 N 
+ATOM     15  H22 TFK d   1     -10.358  22.320  39.665  0.00  0.00     0.163 HD
+ATOM     16  O2  TFK d   1     -11.967  21.121  37.279  0.00  0.00    -0.272 OA
+BRANCH  14  17
+ATOM     17  C3  TFK d   1     -10.423  23.446  37.842  0.00  0.00     0.048 C 
+ATOM     18  H2  TFK d   1     -10.835  23.210  36.849  0.00  0.00     0.077 H 
+BRANCH  17  19
+ATOM     19  C2  TFK d   1      -8.888  23.527  37.653  0.00  0.00     0.148 C 
+ATOM     20  H1  TFK d   1      -8.415  23.430  38.641  0.00  0.00     0.100 H 
+BRANCH  19  21
+ATOM     21  C1  TFK d   1      -8.340  22.423  36.722  0.00  0.00     0.414 C 
+ATOM     22  F1  TFK d   1      -8.614  21.212  37.168  0.00  0.00    -0.168 F 
+ATOM     23  F2  TFK d   1      -7.023  22.456  36.579  0.00  0.00    -0.168 F 
+ATOM     24  F3  TFK d   1      -8.853  22.512  35.499  0.00  0.00    -0.168 F 
+ENDBRANCH  19  21
+BRANCH  19  25
+ATOM     25  O1  TFK d   1      -8.529  24.728  37.089  0.00  0.00    -0.384 OA
+ATOM     26  H25 TFK d   1      -7.585  24.757  36.982  0.00  0.00     0.210 HD
+ENDBRANCH  19  25
+ENDBRANCH  17  19
+BRANCH  17  27
+ATOM     27  C4  TFK d   1     -11.198  24.691  38.312  0.00  0.00    -0.039 C 
+ATOM     28  H3  TFK d   1     -10.815  25.526  37.707  0.00  0.00     0.042 H 
+BRANCH  27  29
+ATOM     29  C5  TFK d   1     -12.681  24.617  38.035  0.00  0.00    -0.071 C 
+ATOM     30  H4  TFK d   1     -13.168  25.535  38.395  0.00  0.00     0.028 H 
+ATOM     31  H5  TFK d   1     -13.108  23.747  38.555  0.00  0.00     0.028 H 
+ATOM     32  H6  TFK d   1     -12.847  24.515  36.953  0.00  0.00     0.028 H 
+ENDBRANCH  27  29
+BRANCH  27  33
+ATOM     33  C6  TFK d   1     -10.928  25.060  39.759  0.00  0.00    -0.071 C 
+ATOM     34  H7  TFK d   1      -9.842  25.106  39.929  0.00  0.00     0.028 H 
+ATOM     35  H8  TFK d   1     -11.371  24.300  40.420  0.00  0.00     0.028 H 
+ATOM     36  H9  TFK d   1     -11.375  26.041  39.977  0.00  0.00     0.028 H 
+ENDBRANCH  27  33
+ENDBRANCH  17  27
+ENDBRANCH  14  17
+ENDBRANCH  10  13
+ENDBRANCH   6  10
+BRANCH   5  37
+ATOM     37  C14 TFK d   1     -10.751  17.439  38.298  0.00  0.00    -0.009 A 
+ATOM     38  C15 TFK d   1     -10.088  18.100  37.253  0.00  0.00    -0.071 A 
+ATOM     39  C16 TFK d   1      -8.816  17.710  36.892  0.00  0.00    -0.082 A 
+ATOM     40  H14 TFK d   1     -10.575  18.916  36.731  0.00  0.00     0.084 H 
+ATOM     41  C17 TFK d   1      -8.239  16.621  37.478  0.00  0.00    -0.083 A 
+ATOM     42  H15 TFK d   1      -8.272  18.270  36.140  0.00  0.00     0.083 H 
+ATOM     43  C18 TFK d   1      -8.913  15.902  38.454  0.00  0.00    -0.082 A 
+ATOM     44  H16 TFK d   1      -7.244  16.315  37.178  0.00  0.00     0.083 H 
+ATOM     45  C19 TFK d   1     -10.149  16.327  38.894  0.00  0.00    -0.071 A 
+ATOM     46  H17 TFK d   1      -8.468  15.006  38.871  0.00  0.00     0.083 H 
+ATOM     47  H18 TFK d   1     -10.651  15.801  39.698  0.00  0.00     0.084 H 
+ENDBRANCH   5  37
+BRANCH   2  48
+ATOM     48  N3  TFK d   1     -16.116  18.932  39.766  0.00  0.00    -0.263 N 
+ATOM     49  H23 TFK d   1     -16.253  19.918  39.862  0.00  0.00     0.180 HD
+BRANCH  48  50
+ATOM     50  S1  TFK d   1     -17.384  17.974  40.093  0.00  0.00     0.319 S 
+ATOM     51  O4  TFK d   1     -18.484  18.803  40.331  0.00  0.00    -0.183 OA
+ATOM     52  O5  TFK d   1     -17.437  16.986  39.087  0.00  0.00    -0.183 OA
+BRANCH  50  53
+ATOM     53  N4  TFK d   1     -16.955  17.318  41.523  0.00  0.00    -0.307 N 
+ATOM     54  H24 TFK d   1     -16.352  16.520  41.525  0.00  0.00     0.173 HD
+BRANCH  53  55
+ATOM     55  C20 TFK d   1     -17.420  17.855  42.808  0.00  0.00    -0.010 C 
+ATOM     56  H19 TFK d   1     -17.004  17.253  43.629  0.00  0.00     0.057 H 
+ATOM     57  H20 TFK d   1     -18.519  17.816  42.846  0.00  0.00     0.057 H 
+ATOM     58  H21 TFK d   1     -17.086  18.898  42.912  0.00  0.00     0.057 H 
+ENDBRANCH  53  55
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+ENDBRANCH   2  48
+TORSDOF 14

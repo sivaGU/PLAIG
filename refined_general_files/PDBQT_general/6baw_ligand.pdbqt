@@ -1,0 +1,96 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAB_25  and  CAA_1 
+REMARK    2  A    between atoms: CAE_3  and  CAC_2 
+REMARK    3  A    between atoms: CAC_2  and  OAB_25 
+REMARK    4  A    between atoms: CAF_4  and  OAG_27 
+REMARK    5  A    between atoms: CAI_6  and  OAJ_28 
+REMARK    6  A    between atoms: CAK_7  and  CAL_8 
+REMARK    7  A    between atoms: CAL_8  and  OAN_30 
+REMARK    8  A    between atoms: OAN_30  and  CAO_9 
+REMARK    9  A    between atoms: CAQ_11  and  CAP_10 
+REMARK   10  A    between atoms: CAR_12  and  CAQ_11 
+REMARK   11  A    between atoms: CAS_13  and  CAR_12 
+REMARK   12  A    between atoms: CAX_16  and  CAY_17 
+REMARK   13  A    between atoms: CAX_16  and  NAW_24 
+ROOT
+ATOM      1  CAQ D57 d   1      -5.755  39.231 -23.535  0.00  0.00    -0.033 C 
+ATOM      2  H8  D57 d   1      -6.002  38.174 -23.358  0.00  0.00     0.040 H 
+ATOM      3  H9  D57 d   1      -5.379  39.353 -24.561  0.00  0.00     0.040 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CAP D57 d   1      -4.767  39.632 -22.631  0.00  0.00    -0.020 A 
+ATOM      5  CAE D57 d   1      -3.881  40.672 -22.935  0.00  0.00     0.080 A 
+ATOM      6  CAF D57 d   1      -2.906  41.034 -22.013  0.00  0.00     0.085 A 
+ATOM      7  CAH D57 d   1      -2.785  40.392 -20.790  0.00  0.00    -0.017 A 
+ATOM      8  CAI D57 d   1      -3.667  39.362 -20.502  0.00  0.00     0.085 A 
+ATOM      9  H4  D57 d   1      -2.022  40.687 -20.079  0.00  0.00     0.092 H 
+ATOM     10  CAK D57 d   1      -4.651  38.976 -21.404  0.00  0.00     0.080 A 
+BRANCH   5  11
+ATOM     11  CAC D57 d   1      -3.925  41.374 -24.139  0.00  0.00     0.296 C 
+ATOM     12  OAD D57 d   1      -4.895  42.064 -24.451  0.00  0.00    -0.259 OA
+BRANCH  11  13
+ATOM     13  OAB D57 d   1      -2.796  41.278 -24.891  0.00  0.00    -0.322 OA
+BRANCH  13  14
+ATOM     14  CAA D57 d   1      -2.959  42.006 -26.111  0.00  0.00     0.013 C 
+ATOM     15  H1  D57 d   1      -2.042  41.923 -26.713  0.00  0.00     0.067 H 
+ATOM     16  H2  D57 d   1      -3.154  43.064 -25.883  0.00  0.00     0.067 H 
+ATOM     17  H3  D57 d   1      -3.807  41.590 -26.675  0.00  0.00     0.067 H 
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   5  11
+BRANCH   6  18
+ATOM     18  OAG D57 d   1      -2.084  42.055 -22.376  0.00  0.00    -0.360 OA
+ATOM     19  H21 D57 d   1      -2.324  42.361 -23.243  0.00  0.00     0.217 HD
+ENDBRANCH   6  18
+BRANCH   8  20
+ATOM     20  OAJ D57 d   1      -3.620  38.679 -19.328  0.00  0.00    -0.360 OA
+ATOM     21  H22 D57 d   1      -2.916  39.023 -18.791  0.00  0.00     0.217 HD
+ENDBRANCH   8  20
+BRANCH  10  22
+ATOM     22  CAL D57 d   1      -5.506  37.935 -21.057  0.00  0.00     0.296 C 
+ATOM     23  OAM D57 d   1      -5.125  36.766 -21.096  0.00  0.00    -0.259 OA
+BRANCH  22  24
+ATOM     24  OAN D57 d   1      -6.748  38.315 -20.650  0.00  0.00    -0.322 OA
+BRANCH  24  25
+ATOM     25  CAO D57 d   1      -7.494  37.169 -20.230  0.00  0.00     0.013 C 
+ATOM     26  H5  D57 d   1      -8.496  37.484 -19.903  0.00  0.00     0.067 H 
+ATOM     27  H6  D57 d   1      -6.973  36.678 -19.395  0.00  0.00     0.067 H 
+ATOM     28  H7  D57 d   1      -7.587  36.464 -21.069  0.00  0.00     0.067 H 
+ENDBRANCH  24  25
+ENDBRANCH  22  24
+ENDBRANCH  10  22
+ENDBRANCH   1   4
+BRANCH   1  29
+ATOM     29  CAR D57 d   1      -7.018  40.082 -23.355  0.00  0.00    -0.006 C 
+ATOM     30  H10 D57 d   1      -6.825  41.097 -23.733  0.00  0.00     0.045 H 
+ATOM     31  H11 D57 d   1      -7.270  40.131 -22.285  0.00  0.00     0.045 H 
+BRANCH  29  32
+ATOM     32  CAS D57 d   1      -8.200  39.477 -24.122  0.00  0.00     0.106 A 
+ATOM     33  NAT D57 d   1      -9.177  38.781 -23.554  0.00  0.00    -0.246 NA
+ATOM     34  CAU D57 d   1     -10.013  38.430 -24.527  0.00  0.00     0.019 A 
+ATOM     35  CAV D57 d   1      -9.547  38.916 -25.678  0.00  0.00    -0.002 A 
+ATOM     36  H12 D57 d   1     -10.923  37.845 -24.404  0.00  0.00     0.117 H 
+ATOM     37  NAW D57 d   1      -8.408  39.566 -25.434  0.00  0.00    -0.340 N 
+ATOM     38  H13 D57 d   1     -10.017  38.801 -26.654  0.00  0.00     0.113 H 
+BRANCH  37  39
+ATOM     39  CAX D57 d   1      -7.568  40.264 -26.451  0.00  0.00     0.024 C 
+ATOM     40  H14 D57 d   1      -8.231  40.769 -27.169  0.00  0.00     0.072 H 
+ATOM     41  H15 D57 d   1      -6.945  41.012 -25.939  0.00  0.00     0.072 H 
+BRANCH  39  42
+ATOM     42  CAY D57 d   1      -6.731  39.388 -27.153  0.00  0.00    -0.040 A 
+ATOM     43  CAZ D57 d   1      -5.756  39.916 -27.993  0.00  0.00    -0.075 A 
+ATOM     44  CBA D57 d   1      -4.911  39.075 -28.708  0.00  0.00    -0.082 A 
+ATOM     45  H16 D57 d   1      -5.654  40.991 -28.091  0.00  0.00     0.084 H 
+ATOM     46  CBB D57 d   1      -5.035  37.697 -28.586  0.00  0.00    -0.083 A 
+ATOM     47  H17 D57 d   1      -4.155  39.495 -29.361  0.00  0.00     0.083 H 
+ATOM     48  CBC D57 d   1      -6.007  37.163 -27.749  0.00  0.00    -0.082 A 
+ATOM     49  H18 D57 d   1      -4.376  37.040 -29.142  0.00  0.00     0.083 H 
+ATOM     50  CBD D57 d   1      -6.851  38.007 -27.036  0.00  0.00    -0.075 A 
+ATOM     51  H19 D57 d   1      -6.107  36.088 -27.652  0.00  0.00     0.083 H 
+ATOM     52  H20 D57 d   1      -7.608  37.586 -26.384  0.00  0.00     0.084 H 
+ENDBRANCH  39  42
+ENDBRANCH  37  39
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 13

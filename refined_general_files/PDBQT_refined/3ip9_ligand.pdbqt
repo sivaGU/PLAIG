@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CB_3  and  CG_4 
+REMARK    4  A    between atoms: CG_4  and  CD_5 
+ROOT
+ATOM      1  CB  ABU d   1      23.055  19.579  18.234  0.00  0.00    -0.034 C 
+ATOM      2  H6  ABU d   1      21.981  19.481  18.450  0.00  0.00     0.036 H 
+ATOM      3  H7  ABU d   1      23.422  20.538  18.629  0.00  0.00     0.036 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  ABU d   1      23.242  19.581  16.724  0.00  0.00     0.080 C 
+ATOM      5  H4  ABU d   1      24.194  19.077  16.501  0.00  0.00     0.075 H 
+ATOM      6  H5  ABU d   1      22.413  19.011  16.280  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  N   ABU d   1      23.271  20.885  16.095  0.00  0.00    -0.079 N 
+ATOM      8  H1  ABU d   1      23.398  20.776  15.101  0.00  0.00     0.274 HD
+ATOM      9  H2  ABU d   1      24.034  21.424  16.474  0.00  0.00     0.274 HD
+ATOM     10  H3  ABU d   1      22.401  21.363  16.272  0.00  0.00     0.274 HD
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  CG  ABU d   1      23.789  18.457  18.945  0.00  0.00     0.017 C 
+ATOM     12  H8  ABU d   1      23.969  18.786  19.979  0.00  0.00     0.049 H 
+ATOM     13  H9  ABU d   1      24.752  18.318  18.432  0.00  0.00     0.049 H 
+BRANCH  11  14
+ATOM     14  CD  ABU d   1      23.112  17.097  19.014  0.00  0.00     0.172 C 
+ATOM     15  OE1 ABU d   1      23.295  16.422  20.211  0.00  0.00    -0.648 OA
+ATOM     16  OE2 ABU d   1      22.819  16.484  18.025  0.00  0.00    -0.648 OA
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+TORSDOF 4

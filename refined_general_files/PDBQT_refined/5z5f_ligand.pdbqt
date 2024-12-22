@@ -1,0 +1,40 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C3'_5  and  O3'_6 
+REMARK    4  A    between atoms: C2'_7  and  O2'_8 
+REMARK    5  A    between atoms: C1'_9  and  O1'_10 
+ROOT
+ATOM      1  C4' FUB d   1       6.980   7.625  16.017  0.00  0.00     0.089 C 
+ATOM      2  O4' FUB d   1       7.406   7.750  14.656  0.00  0.00    -0.349 OA
+ATOM      3  C3' FUB d   1       8.143   8.078  16.870  0.00  0.00     0.092 C 
+ATOM      4  C2' FUB d   1       8.727   9.154  15.965  0.00  0.00     0.110 C 
+ATOM      5  C1' FUB d   1       8.640   8.489  14.596  0.00  0.00     0.156 C 
+ATOM      6  H4  FUB d   1       6.113   8.275  16.205  0.00  0.00     0.090 H 
+ATOM      7  H5  FUB d   1       8.875   7.266  16.992  0.00  0.00     0.091 H 
+ATOM      8  H7  FUB d   1       8.084  10.046  15.999  0.00  0.00     0.094 H 
+ATOM      9  H9  FUB d   1       8.599   9.251  13.803  0.00  0.00     0.133 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C5' FUB d   1       6.579   6.176  16.286  0.00  0.00     0.043 C 
+ATOM     11  H2  FUB d   1       6.450   6.032  17.369  0.00  0.00     0.078 H 
+ATOM     12  H3  FUB d   1       5.630   5.963  15.772  0.00  0.00     0.078 H 
+BRANCH  10  13
+ATOM     13  O5' FUB d   1       7.596   5.265  15.803  0.00  0.00    -0.398 OA
+ATOM     14  H1  FUB d   1       8.417   5.444  16.247  0.00  0.00     0.209 HD
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+BRANCH   3  15
+ATOM     15  O3' FUB d   1       7.722   8.467  18.180  0.00  0.00    -0.390 OA
+ATOM     16  H6  FUB d   1       8.477   8.744  18.685  0.00  0.00     0.210 HD
+ENDBRANCH   3  15
+BRANCH   5  17
+ATOM     17  O1' FUB d   1       9.745   7.609  14.340  0.00  0.00    -0.369 OA
+ATOM     18  H10 FUB d   1       9.805   6.966  15.037  0.00  0.00     0.212 HD
+ENDBRANCH   5  17
+BRANCH   4  19
+ATOM     19  O2' FUB d   1      10.057   9.574  16.254  0.00  0.00    -0.388 OA
+ATOM     20  H8  FUB d   1      10.092   9.928  17.135  0.00  0.00     0.210 HD
+ENDBRANCH   4  19
+TORSDOF 5

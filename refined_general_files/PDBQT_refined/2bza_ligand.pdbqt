@@ -1,0 +1,29 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2 
+REMARK    2  A    between atoms: C_2  and  C1_3 
+ROOT
+ATOM      1  C1  ABN d   1     -12.899  27.975  43.464  0.00  0.00    -0.033 A 
+ATOM      2  C2  ABN d   1     -14.195  28.474  43.797  0.00  0.00    -0.075 A 
+ATOM      3  C3  ABN d   1     -14.662  28.560  45.127  0.00  0.00    -0.082 A 
+ATOM      4  C4  ABN d   1     -13.843  28.146  46.174  0.00  0.00    -0.083 A 
+ATOM      5  C5  ABN d   1     -12.559  27.649  45.889  0.00  0.00    -0.082 A 
+ATOM      6  C6  ABN d   1     -12.090  27.562  44.558  0.00  0.00    -0.075 A 
+ATOM      7  H6  ABN d   1     -14.848  28.800  42.995  0.00  0.00     0.084 H 
+ATOM      8  H7  ABN d   1     -15.654  28.947  45.332  0.00  0.00     0.083 H 
+ATOM      9  H8  ABN d   1     -14.192  28.206  47.199  0.00  0.00     0.083 H 
+ATOM     10  H9  ABN d   1     -11.919  27.328  46.702  0.00  0.00     0.083 H 
+ATOM     11  H10 ABN d   1     -11.096  27.174  44.368  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  C   ABN d   1     -12.446  27.894  42.128  0.00  0.00     0.103 C 
+ATOM     13  H4  ABN d   1     -12.237  26.841  41.889  0.00  0.00     0.082 H 
+ATOM     14  H5  ABN d   1     -13.238  28.271  41.464  0.00  0.00     0.082 H 
+BRANCH  12  15
+ATOM     15  N   ABN d   1     -11.343  28.604  41.922  0.00  0.00    -0.075 N 
+ATOM     16  H1  ABN d   1     -11.061  28.514  40.959  0.00  0.00     0.274 HD
+ATOM     17  H2  ABN d   1     -10.607  28.263  42.521  0.00  0.00     0.274 HD
+ATOM     18  H3  ABN d   1     -11.524  29.573  42.130  0.00  0.00     0.274 HD
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 2

@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O02_12  and  C01_1 
+REMARK    2  A    between atoms: C03_2  and  O02_12 
+REMARK    3  A    between atoms: C07_9  and  C08_10 
+REMARK    4  A    between atoms: C08_10  and  P09_18 
+ROOT
+ATOM      1  C03 FUJ d   1      23.271  16.106   6.375  0.00  0.00     0.070 A 
+ATOM      2  C04 FUJ d   1      23.358  16.194   7.726  0.00  0.00    -0.050 A 
+ATOM      3  C05 FUJ d   1      22.328  16.815   8.430  0.00  0.00    -0.067 A 
+ATOM      4  C13 FUJ d   1      19.258  18.500   7.600  0.00  0.00    -0.003 A 
+ATOM      5  C17 FUJ d   1      21.193  17.216   6.395  0.00  0.00     0.092 A 
+ATOM      6  C18 FUJ d   1      22.197  16.620   5.746  0.00  0.00    -0.017 A 
+ATOM      7  C06 FUJ d   1      21.252  17.349   7.732  0.00  0.00     0.005 A 
+ATOM      8  C07 FUJ d   1      20.244  17.979   8.386  0.00  0.00    -0.026 A 
+ATOM      9  C14 FUJ d   1      19.263  18.308   6.259  0.00  0.00     0.288 A 
+ATOM     10  O15 FUJ d   1      18.453  18.734   5.587  0.00  0.00    -0.260 OA
+ATOM     11  O16 FUJ d   1      20.237  17.685   5.671  0.00  0.00    -0.275 OA
+ATOM     12  H4  FUJ d   1      24.216  15.787   8.250  0.00  0.00     0.087 H 
+ATOM     13  H5  FUJ d   1      22.366  16.881   9.511  0.00  0.00     0.085 H 
+ATOM     14  H6  FUJ d   1      18.456  19.078   8.057  0.00  0.00     0.093 H 
+ATOM     15  H7  FUJ d   1      22.145  16.547   4.666  0.00  0.00     0.092 H 
+ENDROOT
+BRANCH   8  16
+ATOM     16  C08 FUJ d   1      20.303  18.217   9.861  0.00  0.00     0.064 C 
+ATOM     17  H8  FUJ d   1      20.055  19.267  10.077  0.00  0.00     0.061 H 
+ATOM     18  H9  FUJ d   1      21.314  17.995  10.232  0.00  0.00     0.061 H 
+BRANCH  16  19
+ATOM     19  P09 FUJ d   1      19.055  17.083  10.703  0.00  0.00     0.263 P 
+ATOM     20  O10 FUJ d   1      19.123  17.228  11.957  0.00  0.00    -0.639 OA
+ATOM     21  O11 FUJ d   1      19.545  15.664  10.400  0.00  0.00    -0.639 OA
+ATOM     22  O12 FUJ d   1      17.684  17.365  10.175  0.00  0.00    -0.639 OA
+ENDBRANCH  16  19
+ENDBRANCH   8  16
+BRANCH   1  23
+ATOM     23  O02 FUJ d   1      24.243  15.550   5.475  0.00  0.00    -0.356 OA
+BRANCH  23  24
+ATOM     24  C01 FUJ d   1      25.366  15.026   5.984  0.00  0.00     0.010 C 
+ATOM     25  H1  FUJ d   1      25.997  14.647   5.167  0.00  0.00     0.066 H 
+ATOM     26  H2  FUJ d   1      25.110  14.199   6.663  0.00  0.00     0.066 H 
+ATOM     27  H3  FUJ d   1      25.913  15.801   6.540  0.00  0.00     0.066 H 
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 4

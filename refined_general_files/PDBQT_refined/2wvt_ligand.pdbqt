@@ -1,0 +1,55 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C5_7  and  C7_8 
+REMARK    5  A    between atoms: C7_8  and  O7_9 
+REMARK    6  A    between atoms: C1_11  and  C6_12 
+REMARK    7  A    between atoms: C6_12  and  O6_13 
+ROOT
+ATOM      1  C2  FHN d   1     -27.033   2.163  28.814  0.00  0.00     0.092 C 
+ATOM      2  C3  FHN d   1     -25.663   1.741  28.299  0.00  0.00     0.089 C 
+ATOM      3  C4  FHN d   1     -24.919   2.961  27.818  0.00  0.00     0.092 C 
+ATOM      4  C5  FHN d   1     -25.737   3.609  26.715  0.00  0.00     0.149 C 
+ATOM      5  N   FHN d   1     -27.120   3.978  27.127  0.00  0.00    -0.058 N 
+ATOM      6  C1  FHN d   1     -27.845   2.827  27.729  0.00  0.00     0.149 C 
+ATOM      7  H2  FHN d   1     -26.898   2.878  29.639  0.00  0.00     0.090 H 
+ATOM      8  H3  FHN d   1     -25.773   1.026  27.471  0.00  0.00     0.091 H 
+ATOM      9  H5  FHN d   1     -23.940   2.657  27.420  0.00  0.00     0.090 H 
+ATOM     10  H7  FHN d   1     -25.794   2.905  25.871  0.00  0.00     0.091 H 
+ATOM     11  H11 FHN d   1     -27.628   4.295  26.316  0.00  0.00     0.278 HD
+ATOM     12  H12 FHN d   1     -27.070   4.722  27.805  0.00  0.00     0.278 HD
+ATOM     13  H13 FHN d   1     -28.755   3.226  28.201  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   4  14
+ATOM     14  C7  FHN d   1     -25.064   4.900  26.262  0.00  0.00     0.046 C 
+ATOM     15  H8  FHN d   1     -24.056   4.685  25.877  0.00  0.00     0.077 H 
+ATOM     16  H9  FHN d   1     -24.992   5.604  27.104  0.00  0.00     0.077 H 
+BRANCH  14  17
+ATOM     17  O7  FHN d   1     -25.868   5.451  25.236  0.00  0.00    -0.399 OA
+ATOM     18  H10 FHN d   1     -25.477   6.260  24.929  0.00  0.00     0.209 HD
+ENDBRANCH  14  17
+ENDBRANCH   4  14
+BRANCH   3  19
+ATOM     19  O4  FHN d   1     -24.717   3.899  28.896  0.00  0.00    -0.391 OA
+ATOM     20  H6  FHN d   1     -24.211   3.484  29.585  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   2  21
+ATOM     21  O3  FHN d   1     -24.966   1.129  29.378  0.00  0.00    -0.390 OA
+ATOM     22  H4  FHN d   1     -24.105   0.856  29.083  0.00  0.00     0.210 HD
+ENDBRANCH   2  21
+BRANCH   6  23
+ATOM     23  C6  FHN d   1     -28.296   1.811  26.653  0.00  0.00     0.046 C 
+ATOM     24  H14 FHN d   1     -28.941   1.042  27.105  0.00  0.00     0.077 H 
+ATOM     25  H15 FHN d   1     -27.419   1.331  26.194  0.00  0.00     0.077 H 
+BRANCH  23  26
+ATOM     26  O6  FHN d   1     -29.025   2.548  25.668  0.00  0.00    -0.399 OA
+ATOM     27  H16 FHN d   1     -28.461   3.212  25.290  0.00  0.00     0.209 HD
+ENDBRANCH  23  26
+ENDBRANCH   6  23
+BRANCH   1  28
+ATOM     28  O2  FHN d   1     -27.729   0.992  29.309  0.00  0.00    -0.391 OA
+ATOM     29  H1  FHN d   1     -27.227   0.601  30.014  0.00  0.00     0.210 HD
+ENDBRANCH   1  28
+TORSDOF 7

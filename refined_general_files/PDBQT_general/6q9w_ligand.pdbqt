@@ -1,0 +1,106 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C24_13  and  C1_1 
+REMARK    2  A    between atoms: C20_10  and  C11_3 
+REMARK    3  A    between atoms: C26_14  and  C27_15 
+REMARK    4  A    between atoms: C26_14  and  C28_16 
+REMARK    5  A    between atoms: C26_14  and  N23_28 
+REMARK    6  A    between atoms: N19_27  and  C30_17 
+REMARK    7  A    between atoms: C30_17  and  C31_31 
+REMARK    8  A    between atoms: C30_17  and  C38_38 
+REMARK    9  A    between atoms: C4_19  and  O9_24 
+REMARK   10  A    between atoms: C6_21  and  O7_22 
+REMARK   11  A    between atoms: O7_22  and  C8_23 
+REMARK   12  A    between atoms: O9_24  and  C10_25 
+ROOT
+ATOM      1  C18 HRT d   1      19.830   3.476  -4.333  0.00  0.00     0.276 A 
+ATOM      2  C20 HRT d   1      18.550   4.817  -2.831  0.00  0.00     0.084 A 
+ATOM      3  C21 HRT d   1      18.455   5.336  -4.247  0.00  0.00     0.076 A 
+ATOM      4  C22 HRT d   1      19.195   4.566  -5.045  0.00  0.00     0.152 A 
+ATOM      5  C24 HRT d   1      18.282   6.159  -6.192  0.00  0.00     0.147 A 
+ATOM      6  N19 HRT d   1      19.434   3.657  -3.040  0.00  0.00    -0.324 N 
+ATOM      7  N23 HRT d   1      17.895   6.311  -4.948  0.00  0.00    -0.326 N 
+ATOM      8  N25 HRT d   1      19.044   5.163  -6.330  0.00  0.00    -0.222 NA
+ATOM      9  O29 HRT d   1      20.570   2.641  -4.840  0.00  0.00    -0.266 OA
+ATOM     10  H6  HRT d   1      17.569   4.547  -2.413  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1  HRT d   1      17.917   6.977  -7.398  0.00  0.00     0.081 A 
+ATOM     12  C2  HRT d   1      16.624   6.929  -7.934  0.00  0.00     0.024 A 
+ATOM     13  N3  HRT d   1      16.333   7.664  -9.024  0.00  0.00    -0.218 NA
+ATOM     14  H1  HRT d   1      15.865   6.306  -7.476  0.00  0.00     0.116 H 
+ATOM     15  C4  HRT d   1      17.291   8.435  -9.589  0.00  0.00     0.270 A 
+ATOM     16  N5  HRT d   1      18.540   8.481  -9.090  0.00  0.00    -0.181 NA
+ATOM     17  C6  HRT d   1      18.873   7.779  -8.003  0.00  0.00     0.183 A 
+BRANCH  15  18
+ATOM     18  O9  HRT d   1      17.047   9.200 -10.709  0.00  0.00    -0.324 OA
+BRANCH  18  19
+ATOM     19  C10 HRT d   1      15.680   9.207 -11.169  0.00  0.00     0.013 C 
+ATOM     20  H18 HRT d   1      15.597   9.844 -12.062  0.00  0.00     0.067 H 
+ATOM     21  H19 HRT d   1      15.028   9.601 -10.376  0.00  0.00     0.067 H 
+ATOM     22  H20 HRT d   1      15.372   8.181 -11.420  0.00  0.00     0.067 H 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+BRANCH  17  23
+ATOM     23  O7  HRT d   1      20.153   7.811  -7.473  0.00  0.00    -0.339 OA
+BRANCH  23  24
+ATOM     24  C8  HRT d   1      21.128   8.655  -8.118  0.00  0.00     0.012 C 
+ATOM     25  H15 HRT d   1      22.089   8.576  -7.588  0.00  0.00     0.067 H 
+ATOM     26  H16 HRT d   1      20.782   9.699  -8.095  0.00  0.00     0.067 H 
+ATOM     27  H17 HRT d   1      21.257   8.334  -9.162  0.00  0.00     0.067 H 
+ENDBRANCH  23  24
+ENDBRANCH  17  23
+ENDBRANCH   5  11
+BRANCH   7  28
+ATOM     28  C26 HRT d   1      16.997   7.381  -4.468  0.00  0.00     0.012 C 
+ATOM     29  H7  HRT d   1      16.376   7.665  -5.330  0.00  0.00     0.072 H 
+BRANCH  28  30
+ATOM     30  C27 HRT d   1      16.003   6.919  -3.370  0.00  0.00    -0.057 C 
+ATOM     31  H8  HRT d   1      15.372   7.767  -3.066  0.00  0.00     0.030 H 
+ATOM     32  H9  HRT d   1      16.564   6.549  -2.499  0.00  0.00     0.030 H 
+ATOM     33  H10 HRT d   1      15.368   6.113  -3.766  0.00  0.00     0.030 H 
+ENDBRANCH  28  30
+BRANCH  28  34
+ATOM     34  C28 HRT d   1      17.793   8.654  -4.071  0.00  0.00    -0.057 C 
+ATOM     35  H11 HRT d   1      18.477   8.928  -4.888  0.00  0.00     0.030 H 
+ATOM     36  H12 HRT d   1      18.374   8.454  -3.158  0.00  0.00     0.030 H 
+ATOM     37  H13 HRT d   1      17.093   9.482  -3.886  0.00  0.00     0.030 H 
+ENDBRANCH  28  34
+ENDBRANCH   7  28
+BRANCH   2  38
+ATOM     38  C11 HRT d   1      19.292   5.823  -1.910  0.00  0.00    -0.029 A 
+ATOM     39  C12 HRT d   1      18.946   5.963  -0.550  0.00  0.00    -0.073 A 
+ATOM     40  C13 HRT d   1      19.642   6.868   0.270  0.00  0.00    -0.061 A 
+ATOM     41  H2  HRT d   1      18.139   5.370  -0.135  0.00  0.00     0.084 H 
+ATOM     42  C14 HRT d   1      20.697   7.648  -0.242  0.00  0.00     0.034 A 
+ATOM     43  H3  HRT d   1      19.362   6.967   1.313  0.00  0.00     0.086 H 
+ATOM     44  C15 HRT d   1      21.060   7.505  -1.589  0.00  0.00    -0.061 A 
+ATOM     45 CL1  HRT d   1      21.571   8.782   0.785  0.00  0.00    -0.084 Cl
+ATOM     46  C16 HRT d   1      20.360   6.602  -2.409  0.00  0.00    -0.073 A 
+ATOM     47  H4  HRT d   1      21.877   8.089  -1.997  0.00  0.00     0.086 H 
+ATOM     48  H5  HRT d   1      20.647   6.501  -3.450  0.00  0.00     0.084 H 
+ENDBRANCH   2  38
+BRANCH   6  49
+ATOM     49  C30 HRT d   1      19.797   2.714  -1.967  0.00  0.00     0.038 C 
+ATOM     50  H14 HRT d   1      19.131   2.976  -1.132  0.00  0.00     0.080 H 
+BRANCH  49  51
+ATOM     51  C31 HRT d   1      21.204   2.768  -1.389  0.00  0.00    -0.034 A 
+ATOM     52  C32 HRT d   1      21.560   1.788  -0.447  0.00  0.00    -0.075 A 
+ATOM     53  C33 HRT d   1      22.831   1.802   0.118  0.00  0.00    -0.081 A 
+ATOM     54  H21 HRT d   1      20.846   1.024  -0.162  0.00  0.00     0.084 H 
+ATOM     55  C34 HRT d   1      23.732   2.805  -0.249  0.00  0.00    -0.062 A 
+ATOM     56  H22 HRT d   1      23.120   1.043   0.836  0.00  0.00     0.083 H 
+ATOM     57  C35 HRT d   1      23.373   3.781  -1.185  0.00  0.00     0.034 A 
+ATOM     58  H23 HRT d   1      24.720   2.827   0.196  0.00  0.00     0.086 H 
+ATOM     59  C36 HRT d   1      22.107   3.766  -1.756  0.00  0.00    -0.054 A 
+ATOM     60 CL2  HRT d   1      24.494   5.021  -1.658  0.00  0.00    -0.084 Cl
+ATOM     61  H24 HRT d   1      21.823   4.522  -2.479  0.00  0.00     0.087 H 
+ENDBRANCH  49  51
+BRANCH  49  62
+ATOM     62  C38 HRT d   1      19.477   1.242  -2.345  0.00  0.00    -0.053 C 
+ATOM     63  H25 HRT d   1      19.765   0.580  -1.515  0.00  0.00     0.030 H 
+ATOM     64  H26 HRT d   1      20.040   0.965  -3.248  0.00  0.00     0.030 H 
+ATOM     65  H27 HRT d   1      18.399   1.139  -2.539  0.00  0.00     0.030 H 
+ENDBRANCH  49  62
+ENDBRANCH   6  49
+TORSDOF 12

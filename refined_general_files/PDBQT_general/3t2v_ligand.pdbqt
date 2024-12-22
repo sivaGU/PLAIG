@@ -1,0 +1,97 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C2_2  and  C7_7 
+REMARK    4  A    between atoms: C3_3  and  C4_4 
+REMARK    5  A    between atoms: C3_3  and  C13_13 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  C9_9 
+REMARK    8  A    between atoms: C9_9  and  C10_10 
+REMARK    9  A    between atoms: C10_10  and  C11_11 
+REMARK   10  A    between atoms: C11_11  and  C12_12 
+REMARK   11  A    between atoms: C13_13  and  C14_14 
+REMARK   12  A    between atoms: C14_14  and  C15_15 
+REMARK   13  A    between atoms: C15_15  and  C16_16 
+REMARK   14  A    between atoms: C16_16  and  C17_17 
+REMARK   15  A    between atoms: C17_17  and  C18_18 
+ROOT
+ATOM      1  C3  KKJ d   1     -34.528 -19.733 -41.062  0.00  0.00     0.055 C 
+ATOM      2  H3  KKJ d   1     -34.486 -20.577 -40.358  0.00  0.00     0.060 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C2  KKJ d   1     -34.033 -18.454 -40.311  0.00  0.00     0.048 C 
+ATOM      4  H2  KKJ d   1     -34.781 -18.214 -39.541  0.00  0.00     0.084 H 
+BRANCH   3   5
+ATOM      5  O1  KKJ d   1     -33.951 -17.352 -41.219  0.00  0.00    -0.395 OA
+ATOM      6  H1  KKJ d   1     -33.340 -17.562 -41.915  0.00  0.00     0.210 HD
+ENDBRANCH   3   5
+BRANCH   3   7
+ATOM      7  C7  KKJ d   1     -32.679 -18.628 -39.605  0.00  0.00    -0.040 C 
+ATOM      8  H4  KKJ d   1     -32.193 -17.645 -39.518  0.00  0.00     0.036 H 
+ATOM      9  H5  KKJ d   1     -32.047 -19.298 -40.206  0.00  0.00     0.036 H 
+BRANCH   7  10
+ATOM     10  C8  KKJ d   1     -32.845 -19.228 -38.198  0.00  0.00    -0.063 C 
+ATOM     11  H6  KKJ d   1     -33.834 -19.706 -38.143  0.00  0.00     0.033 H 
+ATOM     12  H7  KKJ d   1     -32.793 -18.408 -37.466  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C9  KKJ d   1     -31.782 -20.277 -37.822  0.00  0.00    -0.065 C 
+ATOM     14  H8  KKJ d   1     -32.024 -20.678 -36.827  0.00  0.00     0.033 H 
+ATOM     15  H9  KKJ d   1     -30.800 -19.782 -37.789  0.00  0.00     0.033 H 
+BRANCH  13  16
+ATOM     16  C10 KKJ d   1     -31.705 -21.447 -38.813  0.00  0.00    -0.065 C 
+ATOM     17  H10 KKJ d   1     -30.693 -21.474 -39.243  0.00  0.00     0.033 H 
+ATOM     18  H11 KKJ d   1     -32.439 -21.274 -39.614  0.00  0.00     0.033 H 
+BRANCH  16  19
+ATOM     19  C11 KKJ d   1     -31.995 -22.798 -38.176  0.00  0.00    -0.069 C 
+ATOM     20  H12 KKJ d   1     -32.770 -22.677 -37.405  0.00  0.00     0.032 H 
+ATOM     21  H13 KKJ d   1     -31.075 -23.186 -37.714  0.00  0.00     0.032 H 
+BRANCH  19  22
+ATOM     22  C12 KKJ d   1     -32.483 -23.783 -39.228  0.00  0.00    -0.077 C 
+ATOM     23  H14 KKJ d   1     -32.688 -24.754 -38.754  0.00  0.00     0.027 H 
+ATOM     24  H15 KKJ d   1     -31.709 -23.908 -40.000  0.00  0.00     0.027 H 
+ATOM     25  H16 KKJ d   1     -33.404 -23.399 -39.691  0.00  0.00     0.027 H 
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   3   7
+ENDBRANCH   1   3
+BRANCH   1  26
+ATOM     26  C4  KKJ d   1     -36.010 -19.520 -41.433  0.00  0.00     0.179 C 
+ATOM     27  O5  KKJ d   1     -36.645 -18.541 -40.957  0.00  0.00    -0.648 OA
+ATOM     28  O6  KKJ d   1     -36.604 -20.310 -42.212  0.00  0.00    -0.648 OA
+ENDBRANCH   1  26
+BRANCH   1  29
+ATOM     29  C13 KKJ d   1     -33.593 -20.105 -42.256  0.00  0.00    -0.050 C 
+ATOM     30  H17 KKJ d   1     -32.586 -20.264 -41.842  0.00  0.00     0.034 H 
+ATOM     31  H18 KKJ d   1     -33.578 -19.241 -42.937  0.00  0.00     0.034 H 
+BRANCH  29  32
+ATOM     32  C14 KKJ d   1     -33.936 -21.346 -43.104  0.00  0.00    -0.064 C 
+ATOM     33  H19 KKJ d   1     -33.029 -21.627 -43.660  0.00  0.00     0.033 H 
+ATOM     34  H20 KKJ d   1     -34.725 -21.054 -43.813  0.00  0.00     0.033 H 
+BRANCH  32  35
+ATOM     35  C15 KKJ d   1     -34.430 -22.607 -42.352  0.00  0.00    -0.065 C 
+ATOM     36  H21 KKJ d   1     -34.648 -22.333 -41.309  0.00  0.00     0.033 H 
+ATOM     37  H22 KKJ d   1     -33.633 -23.365 -42.373  0.00  0.00     0.033 H 
+BRANCH  35  38
+ATOM     38  C16 KKJ d   1     -35.690 -23.202 -42.977  0.00  0.00    -0.065 C 
+ATOM     39  H23 KKJ d   1     -35.620 -23.109 -44.071  0.00  0.00     0.033 H 
+ATOM     40  H24 KKJ d   1     -36.564 -22.640 -42.616  0.00  0.00     0.033 H 
+BRANCH  38  41
+ATOM     41  C17 KKJ d   1     -35.872 -24.674 -42.620  0.00  0.00    -0.069 C 
+ATOM     42  H25 KKJ d   1     -36.862 -24.819 -42.163  0.00  0.00     0.032 H 
+ATOM     43  H26 KKJ d   1     -35.091 -24.976 -41.906  0.00  0.00     0.032 H 
+BRANCH  41  44
+ATOM     44  C18 KKJ d   1     -35.765 -25.528 -43.877  0.00  0.00    -0.077 C 
+ATOM     45  H27 KKJ d   1     -35.897 -26.588 -43.613  0.00  0.00     0.027 H 
+ATOM     46  H28 KKJ d   1     -34.775 -25.385 -44.334  0.00  0.00     0.027 H 
+ATOM     47  H29 KKJ d   1     -36.546 -25.228 -44.592  0.00  0.00     0.027 H 
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH   1  29
+TORSDOF 15

@@ -1,0 +1,98 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C2_2 
+REMARK    2  A    between atoms: N3_3  and  S1_1 
+REMARK       I    between atoms: C5_5  and  N3_3 
+REMARK       I    between atoms: N11_11  and  C5_5 
+REMARK    3  A    between atoms: C6_6  and  N11_11 
+REMARK    4  A    between atoms: C7_7  and  N12_12 
+REMARK    5  A    between atoms: C10_10  and  C23_23 
+REMARK       I    between atoms: N12_12  and  C14_14 
+REMARK    6  A    between atoms: C13_13  and  C25_25 
+REMARK       I    between atoms: C14_14  and  N22_22 
+REMARK    7  A    between atoms: C19_19  and  O24_24 
+REMARK    8  A    between atoms: N22_22  and  C28_28 
+REMARK    9  A    between atoms: C23_23  and  C27_27 
+REMARK   10  A    between atoms: O24_24  and  C29_29 
+REMARK   11  A    between atoms: C27_27  and  O26_26 
+REMARK   12  A    between atoms: O26_26  and  C30_30 
+ROOT
+ATOM      1  N3  YCU d   1      16.097  59.968  19.754  0.00  0.00    -0.231 N 
+ATOM      2  C5  YCU d   1      15.822  59.585  21.030  0.00  0.00     0.335 C 
+ATOM      3  N11 YCU d   1      15.418  60.579  21.852  0.00  0.00    -0.292 N 
+ATOM      4  O20 YCU d   1      15.960  58.430  21.412  0.00  0.00    -0.246 OA
+ATOM      5  H1  YCU d   1      15.950  60.931  19.528  0.00  0.00     0.183 HD
+ATOM      6  H3  YCU d   1      15.405  61.492  21.443  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  S1  YCU d   1      16.655  58.984  18.535  0.00  0.00     0.273 S 
+ATOM      8  O17 YCU d   1      16.532  59.742  17.338  0.00  0.00    -0.200 OA
+ATOM      9  O18 YCU d   1      16.079  57.705  18.702  0.00  0.00    -0.200 OA
+BRANCH   7  10
+ATOM     10  C2  YCU d   1      18.384  58.773  18.728  0.00  0.00     0.121 A 
+ATOM     11  S4  YCU d   1      19.536  59.909  18.084  0.00  0.00    -0.081 SA
+ATOM     12  C10 YCU d   1      20.883  58.956  18.680  0.00  0.00    -0.008 A 
+ATOM     13  C13 YCU d   1      20.410  57.875  19.305  0.00  0.00    -0.047 A 
+ATOM     14  C8  YCU d   1      19.028  57.771  19.334  0.00  0.00    -0.047 A 
+ATOM     15  H2  YCU d   1      18.510  56.941  19.811  0.00  0.00     0.087 H 
+BRANCH  12  16
+ATOM     16  C23 YCU d   1      22.351  59.307  18.523  0.00  0.00    -0.015 C 
+ATOM     17  H8  YCU d   1      22.949  58.613  19.132  0.00  0.00     0.044 H 
+ATOM     18  H9  YCU d   1      22.510  60.336  18.877  0.00  0.00     0.044 H 
+BRANCH  16  19
+ATOM     19  C27 YCU d   1      22.815  59.209  17.060  0.00  0.00     0.023 C 
+ATOM     20  H13 YCU d   1      22.251  59.927  16.447  0.00  0.00     0.074 H 
+ATOM     21  H14 YCU d   1      22.639  58.190  16.686  0.00  0.00     0.074 H 
+BRANCH  19  22
+ATOM     22  O26 YCU d   1      24.223  59.513  16.984  0.00  0.00    -0.396 OA
+BRANCH  22  23
+ATOM     23  C30 YCU d   1      24.728  59.813  15.674  0.00  0.00     0.004 C 
+ATOM     24  H21 YCU d   1      25.805  60.028  15.736  0.00  0.00     0.066 H 
+ATOM     25  H22 YCU d   1      24.202  60.691  15.270  0.00  0.00     0.066 H 
+ATOM     26  H23 YCU d   1      24.564  58.950  15.011  0.00  0.00     0.066 H 
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  12  16
+BRANCH  13  27
+ATOM     27  C25 YCU d   1      21.328  56.850  19.933  0.00  0.00    -0.050 C 
+ATOM     28  H10 YCU d   1      20.727  56.050  20.389  0.00  0.00     0.033 H 
+ATOM     29  H11 YCU d   1      21.942  57.333  20.707  0.00  0.00     0.033 H 
+ATOM     30  H12 YCU d   1      21.983  56.421  19.160  0.00  0.00     0.033 H 
+ENDBRANCH  13  27
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   3  31
+ATOM     31  C6  YCU d   1      15.019  60.519  23.180  0.00  0.00     0.136 A 
+ATOM     32  N9  YCU d   1      14.643  61.670  23.718  0.00  0.00    -0.213 NA
+ATOM     33  C7  YCU d   1      14.200  61.764  24.961  0.00  0.00     0.136 A 
+ATOM     34  C16 YCU d   1      14.110  60.633  25.763  0.00  0.00    -0.006 A 
+ATOM     35  C19 YCU d   1      14.476  59.395  25.235  0.00  0.00     0.075 A 
+ATOM     36  H6  YCU d   1      13.760  60.712  26.786  0.00  0.00     0.093 H 
+ATOM     37  C15 YCU d   1      14.937  59.338  23.911  0.00  0.00    -0.006 A 
+ATOM     38  H5  YCU d   1      15.224  58.392  23.466  0.00  0.00     0.093 H 
+BRANCH  33  39
+ATOM     39  N12 YCU d   1      13.811  62.999  25.480  0.00  0.00    -0.293 N 
+ATOM     40  C14 YCU d   1      13.337  63.994  24.688  0.00  0.00     0.321 C 
+ATOM     41  O21 YCU d   1      12.992  65.036  25.204  0.00  0.00    -0.247 OA
+ATOM     42  N22 YCU d   1      13.261  63.850  23.343  0.00  0.00    -0.347 N 
+ATOM     43  H7  YCU d   1      13.548  62.980  22.943  0.00  0.00     0.163 HD
+ATOM     44  H4  YCU d   1      13.884  63.156  26.465  0.00  0.00     0.172 HD
+BRANCH  42  45
+ATOM     45  C28 YCU d   1      12.779  64.905  22.441  0.00  0.00    -0.017 C 
+ATOM     46  H15 YCU d   1      12.814  64.544  21.403  0.00  0.00     0.056 H 
+ATOM     47  H16 YCU d   1      13.419  65.794  22.542  0.00  0.00     0.056 H 
+ATOM     48  H17 YCU d   1      11.743  65.167  22.703  0.00  0.00     0.056 H 
+ENDBRANCH  42  45
+ENDBRANCH  33  39
+BRANCH  35  49
+ATOM     49  O24 YCU d   1      14.392  58.279  26.019  0.00  0.00    -0.356 OA
+BRANCH  49  50
+ATOM     50  C29 YCU d   1      13.538  58.357  27.166  0.00  0.00     0.010 C 
+ATOM     51  H18 YCU d   1      13.561  57.399  27.706  0.00  0.00     0.066 H 
+ATOM     52  H19 YCU d   1      12.509  58.571  26.843  0.00  0.00     0.066 H 
+ATOM     53  H20 YCU d   1      13.889  59.161  27.830  0.00  0.00     0.066 H 
+ENDBRANCH  49  50
+ENDBRANCH  35  49
+ENDBRANCH   3  31
+TORSDOF 12

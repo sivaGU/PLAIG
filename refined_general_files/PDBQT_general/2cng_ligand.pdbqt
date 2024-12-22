@@ -1,0 +1,79 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C1_1 
+REMARK    2  A    between atoms: C21_15  and  C14_12 
+REMARK    3  A    between atoms: C22_16  and  C21_15 
+REMARK    4  A    between atoms: C22_16  and  N45_17 
+REMARK    5  A    between atoms: C25_25  and  C22_16 
+REMARK       I    between atoms: N45_17  and  C7_31 
+REMARK    6  A    between atoms: C17_18  and  C28_27 
+REMARK    7  A    between atoms: C7_31  and  C8_32 
+ROOT
+ATOM      1  C22 IZE d   1       1.145   7.309  46.101  0.00  0.00     0.073 C 
+ATOM      2  H11 IZE d   1       0.944   7.272  47.182  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C21 IZE d   1       2.647   7.141  45.824  0.00  0.00    -0.015 C 
+ATOM      4  H9  IZE d   1       2.940   6.109  46.067  0.00  0.00     0.043 H 
+ATOM      5  H10 IZE d   1       2.836   7.335  44.758  0.00  0.00     0.043 H 
+BRANCH   3   6
+ATOM      6  C14 IZE d   1       3.479   8.090  46.646  0.00  0.00    -0.056 A 
+ATOM      7  C13 IZE d   1       4.405   9.021  45.987  0.00  0.00    -0.076 A 
+ATOM      8  C12 IZE d   1       5.210   9.933  46.794  0.00  0.00    -0.075 A 
+ATOM      9  H6  IZE d   1       4.490   9.031  44.906  0.00  0.00     0.084 H 
+ATOM     10  C11 IZE d   1       5.087   9.910  48.260  0.00  0.00    -0.037 A 
+ATOM     11  H5  IZE d   1       5.895  10.624  46.316  0.00  0.00     0.084 H 
+ATOM     12  C16 IZE d   1       4.164   8.985  48.903  0.00  0.00    -0.075 A 
+ATOM     13  C15 IZE d   1       3.364   8.078  48.101  0.00  0.00    -0.076 A 
+ATOM     14  H8  IZE d   1       4.074   8.974  49.983  0.00  0.00     0.084 H 
+ATOM     15  H7  IZE d   1       2.679   7.390  48.584  0.00  0.00     0.084 H 
+BRANCH  10  16
+ATOM     16  C1  IZE d   1       5.916  10.839  49.106  0.00  0.00     0.096 C 
+ATOM     17  C2  IZE d   1       6.183  12.223  48.614  0.00  0.00     0.032 C 
+ATOM     18  C3  IZE d   1       7.392  12.757  49.327  0.00  0.00     0.232 C 
+ATOM     19  H2  IZE d   1       5.315  12.865  48.824  0.00  0.00     0.049 H 
+ATOM     20  H3  IZE d   1       6.370  12.202  47.530  0.00  0.00     0.049 H 
+ATOM     21  N4  IZE d   1       8.152  11.819  49.867  0.00  0.00    -0.254 N 
+ATOM     22  O9  IZE d   1       7.692  13.937  49.450  0.00  0.00    -0.273 OA
+ATOM     23  S5  IZE d   1       7.561  10.175  49.443  0.00  0.00     0.241 S 
+ATOM     24  H4  IZE d   1       8.953  12.001  50.438  0.00  0.00     0.181 HD
+ATOM     25  O6  IZE d   1       7.485   9.053  50.631  0.00  0.00    -0.205 OA
+ATOM     26  O7  IZE d   1       8.097   9.593  48.047  0.00  0.00    -0.205 OA
+ATOM     27  H1  IZE d   1       5.375  10.932  50.059  0.00  0.00     0.075 H 
+ENDBRANCH  10  16
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  N45 IZE d   1       0.428   6.227  45.416  0.00  0.00    -0.342 N 
+ATOM     29  C7  IZE d   1      -0.831   5.953  45.752  0.00  0.00     0.326 C 
+ATOM     30  O1  IZE d   1      -1.394   6.579  46.659  0.00  0.00    -0.263 OA
+ATOM     31  H12 IZE d   1       0.883   5.698  44.700  0.00  0.00     0.163 HD
+BRANCH  29  32
+ATOM     32  C8  IZE d   1      -1.574   4.878  45.004  0.00  0.00     0.472 C 
+ATOM     33  F4  IZE d   1      -2.942   4.814  45.378  0.00  0.00    -0.162 F 
+ATOM     34  F6  IZE d   1      -0.919   3.636  45.013  0.00  0.00    -0.162 F 
+ATOM     35  F5  IZE d   1      -1.605   5.159  43.624  0.00  0.00    -0.162 F 
+ENDBRANCH  29  32
+ENDBRANCH   1  28
+BRANCH   1  36
+ATOM     36  C25 IZE d   1       0.717   8.652  45.531  0.00  0.00     0.128 A 
+ATOM     37  N11 IZE d   1       0.342   9.730  46.355  0.00  0.00    -0.341 N 
+ATOM     38  C23 IZE d   1       0.062  10.674  45.363  0.00  0.00     0.063 A 
+ATOM     39  H16 IZE d   1       0.290   9.802  47.381  0.00  0.00     0.167 HD
+ATOM     40  C19 IZE d   1      -0.327  12.068  45.521  0.00  0.00    -0.040 A 
+ATOM     41  C4  IZE d   1       0.257  10.137  44.020  0.00  0.00     0.085 A 
+ATOM     42  C17 IZE d   1      -0.489  12.926  44.333  0.00  0.00     0.050 A 
+ATOM     43  H13 IZE d   1      -0.497  12.475  46.511  0.00  0.00     0.088 H 
+ATOM     44  C6  IZE d   1      -0.290  12.366  42.984  0.00  0.00    -0.066 A 
+ATOM     45  C5  IZE d   1       0.068  10.965  42.833  0.00  0.00    -0.052 A 
+ATOM     46  H15 IZE d   1      -0.410  12.995  42.109  0.00  0.00     0.084 H 
+ATOM     47  H14 IZE d   1       0.194  10.538  41.845  0.00  0.00     0.087 H 
+ATOM     48  N13 IZE d   1       0.701   8.814  44.131  0.00  0.00    -0.231 NA
+BRANCH  42  49
+ATOM     49  C28 IZE d   1      -0.843  14.318  44.533  0.00  0.00     0.417 C 
+ATOM     50  F1  IZE d   1      -0.175  15.205  43.632  0.00  0.00    -0.166 F 
+ATOM     51  F3  IZE d   1      -0.450  14.864  45.781  0.00  0.00    -0.166 F 
+ATOM     52  F2  IZE d   1      -2.233  14.523  44.392  0.00  0.00    -0.166 F 
+ENDBRANCH  42  49
+ENDBRANCH   1  36
+TORSDOF 7

@@ -1,0 +1,140 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_1  and  CAW_2 
+REMARK    2  A    between atoms: CAW_2  and  CBL_3 
+REMARK       I    between atoms: CBL_3  and  NBF_5 
+REMARK    3  A    between atoms: NBF_5  and  CBO_6 
+REMARK    4  A    between atoms: CBN_11  and  CBC_12 
+REMARK    5  A    between atoms: CBC_12  and  NCB_13 
+REMARK       I    between atoms: NCB_13  and  CBM_14 
+REMARK    6  A    between atoms: NCB_13  and  C4_29 
+REMARK       I    between atoms: CBM_14  and  NBG_16 
+REMARK    7  A    between atoms: NBG_16  and  CBX_17 
+REMARK    8  A    between atoms: CBV_22  and  OBI_23 
+REMARK    9  A    between atoms: OBI_23  and  CAA_24 
+REMARK   10  A    between atoms: CBW_26  and  OBJ_27 
+REMARK   11  A    between atoms: OBJ_27  and  CAB_28 
+REMARK   12  A    between atoms: C6_34  and  NBH_35 
+REMARK   13  A    between atoms: NBH_35  and  CBP_36 
+REMARK   14  A    between atoms: CBR_41  and  NCA_42 
+REMARK   15  A    between atoms: NBZ_45  and  CAC_46 
+ROOT
+ATOM      1  NCB FI3 d   1     -60.981 144.852   1.066  0.00  0.00    -0.279 N 
+ATOM      2  CBM FI3 d   1     -60.999 143.425   1.228  0.00  0.00     0.329 C 
+ATOM      3  OAG FI3 d   1     -60.061 142.832   0.902  0.00  0.00    -0.246 OA
+ATOM      4  NBG FI3 d   1     -62.147 142.783   1.761  0.00  0.00    -0.305 N 
+ATOM      5  H13 FI3 d   1     -62.931 143.346   2.021  0.00  0.00     0.171 HD
+ENDROOT
+BRANCH   1   6
+ATOM      6  CBC FI3 d   1     -59.813 145.488   0.426  0.00  0.00     0.029 C 
+ATOM      7  H11 FI3 d   1     -59.498 144.816  -0.385  0.00  0.00     0.072 H 
+ATOM      8  H12 FI3 d   1     -60.170 146.436  -0.002  0.00  0.00     0.072 H 
+BRANCH   6   9
+ATOM      9  CBN FI3 d   1     -58.583 145.813   1.208  0.00  0.00    -0.040 A 
+ATOM     10  CAM FI3 d   1     -58.493 145.823   2.565  0.00  0.00    -0.073 A 
+ATOM     11  CAO FI3 d   1     -57.289 146.151   3.118  0.00  0.00    -0.057 A 
+ATOM     12  H8  FI3 d   1     -59.348 145.579   3.186  0.00  0.00     0.084 H 
+ATOM     13  CBO FI3 d   1     -56.205 146.489   2.301  0.00  0.00     0.034 A 
+ATOM     14  H7  FI3 d   1     -57.172 146.150   4.196  0.00  0.00     0.086 H 
+ATOM     15  CAN FI3 d   1     -56.347 146.463   0.961  0.00  0.00    -0.057 A 
+ATOM     16  CAL FI3 d   1     -57.539 146.130   0.401  0.00  0.00    -0.073 A 
+ATOM     17  H9  FI3 d   1     -55.504 146.710   0.326  0.00  0.00     0.086 H 
+ATOM     18  H10 FI3 d   1     -57.655 146.118  -0.677  0.00  0.00     0.084 H 
+BRANCH  13  19
+ATOM     19  NBF FI3 d   1     -54.932 146.829   2.850  0.00  0.00    -0.327 N 
+ATOM     20  CBL FI3 d   1     -53.671 146.961   2.079  0.00  0.00     0.221 C 
+ATOM     21  OAF FI3 d   1     -53.606 146.788   0.865  0.00  0.00    -0.273 OA
+ATOM     22  H6  FI3 d   1     -54.886 146.992   3.836  0.00  0.00     0.169 HD
+BRANCH  20  23
+ATOM     23  CAW FI3 d   1     -52.374 147.301   2.815  0.00  0.00     0.006 C 
+ATOM     24  H4  FI3 d   1     -51.902 148.179   2.351  0.00  0.00     0.046 H 
+ATOM     25  H5  FI3 d   1     -52.591 147.517   3.872  0.00  0.00     0.046 H 
+BRANCH  23  26
+ATOM     26  CAV FI3 d   1     -51.477 146.146   2.718  0.00  0.00    -0.068 C 
+ATOM     27  H1  FI3 d   1     -50.535 146.368   3.241  0.00  0.00     0.028 H 
+ATOM     28  H2  FI3 d   1     -51.267 145.933   1.659  0.00  0.00     0.028 H 
+ATOM     29  H3  FI3 d   1     -51.956 145.270   3.180  0.00  0.00     0.028 H 
+ENDBRANCH  23  26
+ENDBRANCH  20  23
+ENDBRANCH  13  19
+ENDBRANCH   6   9
+ENDBRANCH   1   6
+BRANCH   1  30
+ATOM     30  C4  FI3 d   1     -62.092 145.665   1.402  0.00  0.00     0.139 A 
+ATOM     31  C5  FI3 d   1     -61.945 147.037   1.507  0.00  0.00     0.006 A 
+ATOM     32  C6  FI3 d   1     -63.070 147.835   1.844  0.00  0.00     0.133 A 
+ATOM     33  H21 FI3 d   1     -60.980 147.498   1.333  0.00  0.00     0.095 H 
+ATOM     34  N1  FI3 d   1     -64.214 147.249   2.028  0.00  0.00    -0.224 NA
+ATOM     35  C2  FI3 d   1     -64.258 145.948   1.909  0.00  0.00     0.091 A 
+ATOM     36  N3  FI3 d   1     -63.258 145.132   1.609  0.00  0.00    -0.224 NA
+ATOM     37  H22 FI3 d   1     -65.223 145.483   2.075  0.00  0.00     0.146 H 
+BRANCH  32  38
+ATOM     38  NBH FI3 d   1     -62.948 149.194   1.950  0.00  0.00    -0.341 N 
+ATOM     39  H23 FI3 d   1     -63.795 149.780   1.952  0.00  0.00     0.167 HD
+BRANCH  38  40
+ATOM     40  CBP FI3 d   1     -61.711 149.792   2.054  0.00  0.00     0.033 A 
+ATOM     41  CAQ FI3 d   1     -60.744 149.218   2.883  0.00  0.00    -0.055 A 
+ATOM     42  CAS FI3 d   1     -59.496 149.795   3.028  0.00  0.00    -0.055 A 
+ATOM     43  H24 FI3 d   1     -60.976 148.306   3.421  0.00  0.00     0.087 H 
+ATOM     44  CBR FI3 d   1     -59.232 150.896   2.355  0.00  0.00     0.030 A 
+ATOM     45  H25 FI3 d   1     -58.752 149.352   3.680  0.00  0.00     0.087 H 
+ATOM     46  CAR FI3 d   1     -60.195 151.510   1.530  0.00  0.00    -0.055 A 
+ATOM     47  CAP FI3 d   1     -61.449 150.930   1.391  0.00  0.00    -0.055 A 
+ATOM     48  H27 FI3 d   1     -59.959 152.429   1.007  0.00  0.00     0.087 H 
+ATOM     49  H26 FI3 d   1     -62.202 151.387   0.759  0.00  0.00     0.087 H 
+BRANCH  44  50
+ATOM     50  NCA FI3 d   1     -57.903 151.448   2.542  0.00  0.00    -0.378 N 
+ATOM     51  CAZ FI3 d   1     -57.535 152.593   1.966  0.00  0.00     0.018 A 
+ATOM     52  CAX FI3 d   1     -56.224 153.049   2.191  0.00  0.00     0.098 A 
+ATOM     53  H28 FI3 d   1     -58.220 153.375   2.324  0.00  0.00     0.066 H 
+ATOM     54  H29 FI3 d   1     -57.657 152.468   0.880  0.00  0.00     0.066 H 
+ATOM     55  NBZ FI3 d   1     -55.368 152.375   2.980  0.00  0.00    -0.072 N 
+ATOM     56  H30 FI3 d   1     -56.316 154.056   2.624  0.00  0.00     0.078 H 
+ATOM     57  H31 FI3 d   1     -55.746 153.117   1.203  0.00  0.00     0.078 H 
+ATOM     58  CAY FI3 d   1     -55.751 151.230   3.543  0.00  0.00     0.098 A 
+ATOM     59  H32 FI3 d   1     -55.698 152.889   3.782  0.00  0.00     0.279 HD
+ATOM     60  CBA FI3 d   1     -57.059 150.748   3.319  0.00  0.00     0.018 A 
+ATOM     61  H36 FI3 d   1     -55.638 151.355   4.630  0.00  0.00     0.078 H 
+ATOM     62  H37 FI3 d   1     -55.059 150.452   3.189  0.00  0.00     0.078 H 
+ATOM     63  H38 FI3 d   1     -56.958 149.752   2.864  0.00  0.00     0.066 H 
+ATOM     64  H39 FI3 d   1     -57.537 150.654   4.305  0.00  0.00     0.066 H 
+BRANCH  55  65
+ATOM     65  CAC FI3 d   1     -54.084 152.847   3.199  0.00  0.00     0.066 C 
+ATOM     66  H33 FI3 d   1     -53.549 152.157   3.867  0.00  0.00     0.068 H 
+ATOM     67  H34 FI3 d   1     -54.134 153.843   3.664  0.00  0.00     0.068 H 
+ATOM     68  H35 FI3 d   1     -53.550 152.916   2.240  0.00  0.00     0.068 H 
+ENDBRANCH  55  65
+ENDBRANCH  44  50
+ENDBRANCH  38  40
+ENDBRANCH  32  38
+ENDBRANCH   1  30
+BRANCH   4  69
+ATOM     69  CBX FI3 d   1     -62.235 141.340   1.947  0.00  0.00     0.085 A 
+ATOM     70  CBU FI3 d   1     -62.117 140.424   0.906  0.00  0.00     0.096 A 
+ATOM     71 CLI  FI3 d   1     -61.820 140.875  -0.729  0.00  0.00    -0.079 Cl
+ATOM     72  CBW FI3 d   1     -62.230 139.083   1.151  0.00  0.00     0.095 A 
+ATOM     73  CAU FI3 d   1     -62.475 138.660   2.432  0.00  0.00    -0.015 A 
+ATOM     74  CBV FI3 d   1     -62.623 139.562   3.487  0.00  0.00     0.095 A 
+ATOM     75  H17 FI3 d   1     -62.556 137.597   2.631  0.00  0.00     0.092 H 
+ATOM     76  CBT FI3 d   1     -62.490 140.894   3.209  0.00  0.00     0.096 A 
+ATOM     77 CLH  FI3 d   1     -62.636 142.134   4.317  0.00  0.00    -0.079 Cl
+BRANCH  72  78
+ATOM     78  OBJ FI3 d   1     -62.103 138.191   0.058  0.00  0.00    -0.354 OA
+BRANCH  78  79
+ATOM     79  CAB FI3 d   1     -61.902 136.822   0.336  0.00  0.00     0.010 C 
+ATOM     80  H18 FI3 d   1     -61.823 136.264  -0.609  0.00  0.00     0.066 H 
+ATOM     81  H19 FI3 d   1     -62.752 136.438   0.919  0.00  0.00     0.066 H 
+ATOM     82  H20 FI3 d   1     -60.974 136.697   0.914  0.00  0.00     0.066 H 
+ENDBRANCH  78  79
+ENDBRANCH  72  78
+BRANCH  74  83
+ATOM     83  OBI FI3 d   1     -62.876 139.144   4.801  0.00  0.00    -0.354 OA
+BRANCH  83  84
+ATOM     84  CAA FI3 d   1     -63.566 137.994   4.972  0.00  0.00     0.010 C 
+ATOM     85  H14 FI3 d   1     -63.687 137.795   6.047  0.00  0.00     0.066 H 
+ATOM     86  H15 FI3 d   1     -63.016 137.163   4.505  0.00  0.00     0.066 H 
+ATOM     87  H16 FI3 d   1     -64.556 138.087   4.503  0.00  0.00     0.066 H 
+ENDBRANCH  83  84
+ENDBRANCH  74  83
+ENDBRANCH   4  69
+TORSDOF 15

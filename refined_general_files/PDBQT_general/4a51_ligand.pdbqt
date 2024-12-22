@@ -1,0 +1,82 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAU_2 
+REMARK    2  A    between atoms: CAU_2  and  CAV_4 
+REMARK    3  A    between atoms: CAY_9  and  CAZ_10 
+REMARK    4  A    between atoms: CAZ_10  and  CAX_11 
+REMARK    5  A    between atoms: CAZ_10  and  SAT_17 
+REMARK    6  A    between atoms: CAZ_10  and  CAW_21 
+REMARK    7  A    between atoms: SAT_17  and  CAS_18 
+REMARK    8  A    between atoms: CAS_18  and  CAR_19 
+REMARK    9  A    between atoms: CAR_19  and  NAB_20 
+ROOT
+ATOM      1  CAZ DQ8 d   1     -10.024 -45.105  30.002  0.00  0.00     0.089 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAY DQ8 d   1     -10.616 -45.701  28.748  0.00  0.00    -0.029 A 
+ATOM      3  CAQ DQ8 d   1     -11.693 -45.078  28.179  0.00  0.00    -0.061 A 
+ATOM      4  CAV DQ8 d   1     -12.293 -45.613  27.064  0.00  0.00     0.010 A 
+ATOM      5  H   DQ8 d   1     -12.077 -44.154  28.611  0.00  0.00     0.085 H 
+ATOM      6  CAK DQ8 d   1     -11.809 -46.774  26.481  0.00  0.00    -0.070 A 
+ATOM      7  CAJ DQ8 d   1     -10.733 -47.413  27.070  0.00  0.00    -0.082 A 
+ATOM      8  H   DQ8 d   1     -12.267 -47.175  25.577  0.00  0.00     0.085 H 
+ATOM      9  CAP DQ8 d   1     -10.150 -46.881  28.211  0.00  0.00    -0.075 A 
+ATOM     10  H   DQ8 d   1     -10.343 -48.334  26.638  0.00  0.00     0.083 H 
+ATOM     11  H   DQ8 d   1      -9.318 -47.400  28.686  0.00  0.00     0.084 H 
+BRANCH   4  12
+ATOM     12  CAU DQ8 d   1     -13.430 -44.804  26.484  0.00  0.00     0.155 C 
+ATOM     13  OAC DQ8 d   1     -13.869 -43.875  27.146  0.00  0.00    -0.293 OA
+BRANCH  12  14
+ATOM     14  CAA DQ8 d   1     -14.083 -45.168  25.179  0.00  0.00    -0.017 C 
+ATOM     15  H   DQ8 d   1     -15.124 -45.438  25.358  0.00  0.00     0.038 H 
+ATOM     16  H   DQ8 d   1     -14.039 -44.315  24.502  0.00  0.00     0.038 H 
+ATOM     17  H   DQ8 d   1     -13.558 -46.014  24.735  0.00  0.00     0.038 H 
+ENDBRANCH  12  14
+ENDBRANCH   4  12
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  CAX DQ8 d   1      -9.945 -43.583  30.069  0.00  0.00    -0.030 A 
+ATOM     19  CAN DQ8 d   1      -9.346 -42.845  29.070  0.00  0.00    -0.075 A 
+ATOM     20  CAH DQ8 d   1      -9.279 -41.468  29.191  0.00  0.00    -0.082 A 
+ATOM     21  H   DQ8 d   1      -8.929 -43.341  28.194  0.00  0.00     0.084 H 
+ATOM     22  CAE DQ8 d   1      -9.803 -40.832  30.313  0.00  0.00    -0.083 A 
+ATOM     23  H   DQ8 d   1      -8.813 -40.877  28.402  0.00  0.00     0.083 H 
+ATOM     24  CAI DQ8 d   1     -10.399 -41.558  31.327  0.00  0.00    -0.082 A 
+ATOM     25  H   DQ8 d   1      -9.742 -39.747  30.393  0.00  0.00     0.083 H 
+ATOM     26  CAO DQ8 d   1     -10.453 -42.932  31.191  0.00  0.00    -0.075 A 
+ATOM     27  H   DQ8 d   1     -10.813 -41.063  32.205  0.00  0.00     0.083 H 
+ATOM     28  H   DQ8 d   1     -10.907 -43.524  31.985  0.00  0.00     0.084 H 
+ENDBRANCH   1  18
+BRANCH   1  29
+ATOM     29  SAT DQ8 d   1     -11.203 -45.577  31.332  0.00  0.00    -0.142 SA
+BRANCH  29  30
+ATOM     30  CAS DQ8 d   1     -12.849 -44.867  30.822  0.00  0.00     0.001 C 
+ATOM     31  H   DQ8 d   1     -13.155 -45.400  29.921  0.00  0.00     0.051 H 
+ATOM     32  H   DQ8 d   1     -12.703 -43.794  30.698  0.00  0.00     0.051 H 
+BRANCH  30  33
+ATOM     33  CAR DQ8 d   1     -13.984 -45.044  31.848  0.00  0.00     0.087 C 
+ATOM     34  H   DQ8 d   1     -14.904 -44.617  31.449  0.00  0.00     0.076 H 
+ATOM     35  H   DQ8 d   1     -13.719 -44.535  32.775  0.00  0.00     0.076 H 
+BRANCH  33  36
+ATOM     36  NAB DQ8 d   1     -14.185 -46.482  32.117  0.00  0.00    -0.079 N 
+ATOM     37  H   DQ8 d   1     -14.937 -46.598  32.797  0.00  0.00     0.274 HD
+ATOM     38  H   DQ8 d   1     -14.433 -46.958  31.249  0.00  0.00     0.274 HD
+ATOM     39  H   DQ8 d   1     -13.323 -46.880  32.490  0.00  0.00     0.274 HD
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+BRANCH   1  40
+ATOM     40  CAW DQ8 d   1      -8.616 -45.616  30.302  0.00  0.00    -0.030 A 
+ATOM     41  CAL DQ8 d   1      -7.666 -45.737  29.311  0.00  0.00    -0.075 A 
+ATOM     42  CAF DQ8 d   1      -6.386 -46.198  29.626  0.00  0.00    -0.082 A 
+ATOM     43  H   DQ8 d   1      -7.913 -45.473  28.283  0.00  0.00     0.084 H 
+ATOM     44  CAD DQ8 d   1      -6.026 -46.518  30.926  0.00  0.00    -0.083 A 
+ATOM     45  H   DQ8 d   1      -5.651 -46.309  28.829  0.00  0.00     0.083 H 
+ATOM     46  CAG DQ8 d   1      -6.975 -46.383  31.923  0.00  0.00    -0.082 A 
+ATOM     47  H   DQ8 d   1      -5.020 -46.867  31.157  0.00  0.00     0.083 H 
+ATOM     48  CAM DQ8 d   1      -8.252 -45.932  31.605  0.00  0.00    -0.075 A 
+ATOM     49  H   DQ8 d   1      -6.723 -46.629  32.955  0.00  0.00     0.083 H 
+ATOM     50  H   DQ8 d   1      -8.988 -45.823  32.401  0.00  0.00     0.084 H 
+ENDBRANCH   1  40
+TORSDOF 9

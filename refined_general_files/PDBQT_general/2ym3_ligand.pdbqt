@@ -1,0 +1,68 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_2  and  CAC_1 
+REMARK    2  A    between atoms: O03_21  and  CAB_2 
+REMARK    3  A    between atoms: CAQ_3  and  CAR_4 
+REMARK    4  A    between atoms: CAQ_3  and  O03_21 
+REMARK    5  A    between atoms: CAS_12  and  NAV_13 
+REMARK    6  A    between atoms: CAW_18  and  CAI_19 
+REMARK    7  A    between atoms: CAI_19  and  NAA_20 
+ROOT
+ATOM      1  CAR YM3 d   1      17.849  -0.243   9.305  0.00  0.00     0.084 A 
+ATOM      2  CAG YM3 d   1      17.554   0.958   8.671  0.00  0.00     0.023 A 
+ATOM      3  NAN YM3 d   1      16.336   1.518   8.787  0.00  0.00    -0.240 NA
+ATOM      4  CAU YM3 d   1      15.345   0.910   9.538  0.00  0.00     0.157 A 
+ATOM      5  NAO YM3 d   1      14.050   1.310   9.784  0.00  0.00    -0.261 N 
+ATOM      6  NAM YM3 d   1      13.457   0.371  10.589  0.00  0.00    -0.184 NA
+ATOM      7  CAH YM3 d   1      14.357  -0.600  10.851  0.00  0.00     0.037 A 
+ATOM      8  CAT YM3 d   1      15.578  -0.283  10.191  0.00  0.00     0.058 A 
+ATOM      9  CAS YM3 d   1      16.844  -0.885  10.084  0.00  0.00     0.064 A 
+ATOM     10  H   YM3 d   1      18.319   1.452   8.072  0.00  0.00     0.116 H 
+ATOM     11  H   YM3 d   1      13.608   2.158   9.429  0.00  0.00     0.191 HD
+ATOM     12  H   YM3 d   1      14.178  -1.482  11.466  0.00  0.00     0.119 H 
+ENDROOT
+BRANCH   9  13
+ATOM     13  NAV YM3 d   1      17.106  -2.161  10.774  0.00  0.00    -0.375 N 
+ATOM     14  CAL YM3 d   1      17.796  -2.221  11.998  0.00  0.00     0.021 C 
+ATOM     15  CAW YM3 d   1      18.261  -3.595  12.359  0.00  0.00     0.076 C 
+ATOM     16  H   YM3 d   1      17.107  -1.895  12.777  0.00  0.00     0.068 H 
+ATOM     17  H   YM3 d   1      18.681  -1.591  11.904  0.00  0.00     0.068 H 
+ATOM     18  OAP YM3 d   1      17.262  -4.572  12.207  0.00  0.00    -0.381 OA
+ATOM     19  H   YM3 d   1      18.512  -3.571  13.419  0.00  0.00     0.088 H 
+ATOM     20  CAJ YM3 d   1      16.588  -4.508  10.981  0.00  0.00     0.035 C 
+ATOM     21  CAK YM3 d   1      16.095  -3.136  10.673  0.00  0.00     0.015 C 
+ATOM     22  H   YM3 d   1      17.287  -4.798  10.197  0.00  0.00     0.076 H 
+ATOM     23  H   YM3 d   1      15.725  -5.171  11.036  0.00  0.00     0.076 H 
+ATOM     24  H   YM3 d   1      15.729  -3.134   9.646  0.00  0.00     0.067 H 
+ATOM     25  H   YM3 d   1      15.318  -2.889  11.396  0.00  0.00     0.067 H 
+BRANCH  15  26
+ATOM     26  CAI YM3 d   1      19.501  -3.967  11.557  0.00  0.00     0.105 C 
+ATOM     27  H   YM3 d   1      20.206  -3.150  11.707  0.00  0.00     0.079 H 
+ATOM     28  H   YM3 d   1      19.152  -4.145  10.540  0.00  0.00     0.079 H 
+BRANCH  26  29
+ATOM     29  NAA YM3 d   1      20.194  -5.149  11.939  0.00  0.00    -0.077 N 
+ATOM     30  H   YM3 d   1      20.999  -5.283  11.327  0.00  0.00     0.274 HD
+ATOM     31  H   YM3 d   1      20.511  -5.059  12.904  0.00  0.00     0.274 HD
+ATOM     32  H   YM3 d   1      19.567  -5.950  11.859  0.00  0.00     0.274 HD
+ENDBRANCH  26  29
+ENDBRANCH  15  26
+ENDBRANCH   9  13
+BRANCH   1  33
+ATOM     33  CAQ YM3 d   1      19.233  -0.834   9.138  0.00  0.00     0.297 C 
+ATOM     34  O05 YM3 d   1      19.376  -2.039   9.004  0.00  0.00    -0.259 OA
+BRANCH  33  35
+ATOM     35  O03 YM3 d   1      20.348  -0.003   9.107  0.00  0.00    -0.318 OA
+BRANCH  35  36
+ATOM     36  CAB YM3 d   1      21.486  -0.441   8.478  0.00  0.00     0.026 C 
+ATOM     37  H   YM3 d   1      22.179  -0.706   9.277  0.00  0.00     0.074 H 
+ATOM     38  H   YM3 d   1      21.162  -1.236   7.807  0.00  0.00     0.074 H 
+BRANCH  36  39
+ATOM     39  CAC YM3 d   1      22.225   0.542   7.612  0.00  0.00    -0.056 C 
+ATOM     40  H   YM3 d   1      21.568   0.886   6.813  0.00  0.00     0.030 H 
+ATOM     41  H   YM3 d   1      22.539   1.393   8.217  0.00  0.00     0.030 H 
+ATOM     42  H   YM3 d   1      23.101   0.058   7.181  0.00  0.00     0.030 H 
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  33  35
+ENDBRANCH   1  33
+TORSDOF 7

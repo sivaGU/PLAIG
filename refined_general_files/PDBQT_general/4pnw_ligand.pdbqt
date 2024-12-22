@@ -1,0 +1,80 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_3  and  CBD_4 
+REMARK    2  A    between atoms: NAG_17  and  CAO_18 
+REMARK    3  A    between atoms: CAO_18  and  CAP_19 
+REMARK       I    between atoms: CAP_19  and  N_21 
+REMARK    4  A    between atoms: N_21  and  CA_22 
+REMARK    5  A    between atoms: CA_22  and  C_23 
+REMARK    6  A    between atoms: CA_22  and  CB_26 
+REMARK    7  A    between atoms: CB_26  and  CG_27 
+ROOT
+ATOM      1  CAM 2VM d   1      39.777  11.991  45.649  0.00  0.00    -0.037 C 
+ATOM      2  CAL 2VM d   1      40.251  13.339  45.085  0.00  0.00    -0.048 C 
+ATOM      3  CAK 2VM d   1      40.922  14.098  46.222  0.00  0.00     0.036 C 
+ATOM      4  CAJ 2VM d   1      39.844  14.566  47.160  0.00  0.00    -0.013 C 
+ATOM      5  CAH 2VM d   1      38.969  13.481  47.449  0.00  0.00     0.020 A 
+ATOM      6  CAI 2VM d   1      38.923  12.303  46.758  0.00  0.00    -0.023 A 
+ATOM      7  CAE 2VM d   1      37.971  11.539  47.323  0.00  0.00     0.000 A 
+ATOM      8  CAF 2VM d   1      37.537  10.298  47.028  0.00  0.00    -0.053 A 
+ATOM      9  CAA 2VM d   1      36.516   9.706  47.768  0.00  0.00     0.011 A 
+ATOM     10 BR   2VM d   1      35.817   7.963  47.437  0.00  0.00    -0.051 Br
+ATOM     11  CAB 2VM d   1      35.979  10.427  48.816  0.00  0.00    -0.064 A 
+ATOM     12  CAC 2VM d   1      36.454  11.697  49.092  0.00  0.00    -0.055 A 
+ATOM     13  CAD 2VM d   1      37.433  12.228  48.343  0.00  0.00     0.046 A 
+ATOM     14  NAG 2VM d   1      38.035  13.417  48.417  0.00  0.00    -0.340 N 
+ATOM     15  H1  2VM d   1      40.637  11.394  45.986  0.00  0.00     0.040 H 
+ATOM     16  H2  2VM d   1      39.220  11.431  44.883  0.00  0.00     0.040 H 
+ATOM     17  H3  2VM d   1      39.391  13.912  44.707  0.00  0.00     0.034 H 
+ATOM     18  H4  2VM d   1      40.969  13.173  44.268  0.00  0.00     0.034 H 
+ATOM     19  H5  2VM d   1      41.594  13.418  46.765  0.00  0.00     0.057 H 
+ATOM     20  H6  2VM d   1      39.275  15.381  46.689  0.00  0.00     0.043 H 
+ATOM     21  H7  2VM d   1      40.300  14.929  48.093  0.00  0.00     0.043 H 
+ATOM     22  H8  2VM d   1      37.987   9.754  46.206  0.00  0.00     0.086 H 
+ATOM     23  H9  2VM d   1      35.188   9.999  49.421  0.00  0.00     0.085 H 
+ATOM     24  H10 2VM d   1      36.035  12.264  49.915  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH  14  25
+ATOM     25  CAO 2VM d   1      37.696  14.481  49.458  0.00  0.00     0.073 C 
+ATOM     26  H11 2VM d   1      38.630  14.844  49.912  0.00  0.00     0.079 H 
+ATOM     27  H12 2VM d   1      37.062  14.028  50.235  0.00  0.00     0.079 H 
+BRANCH  25  28
+ATOM     28  CAP 2VM d   1      36.945  15.679  48.838  0.00  0.00     0.236 C 
+ATOM     29  OAQ 2VM d   1      37.171  16.820  49.223  0.00  0.00    -0.272 OA
+ATOM     30  N   2VM d   1      36.038  15.390  47.896  0.00  0.00    -0.345 N 
+ATOM     31  H13 2VM d   1      35.881  14.427  47.675  0.00  0.00     0.163 HD
+BRANCH  30  32
+ATOM     32  CA  2VM d   1      35.249  16.414  47.158  0.00  0.00     0.100 C 
+ATOM     33  H14 2VM d   1      35.800  17.363  47.087  0.00  0.00     0.090 H 
+BRANCH  32  34
+ATOM     34  C   2VM d   1      33.931  16.640  47.885  0.00  0.00     0.197 C 
+ATOM     35  OXT 2VM d   1      33.275  15.629  48.209  0.00  0.00    -0.646 OA
+ATOM     36  O   2VM d   1      33.627  17.823  48.123  0.00  0.00    -0.646 OA
+ENDBRANCH  32  34
+BRANCH  32  37
+ATOM     37  CB  2VM d   1      35.038  15.821  45.787  0.00  0.00    -0.013 C 
+ATOM     38  H15 2VM d   1      34.033  16.116  45.452  0.00  0.00     0.043 H 
+ATOM     39  H16 2VM d   1      35.083  14.727  45.892  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CG  2VM d   1      35.938  16.182  44.777  0.00  0.00    -0.056 A 
+ATOM     41  CD1 2VM d   1      37.249  16.576  45.079  0.00  0.00    -0.077 A 
+ATOM     42  CE1 2VM d   1      38.157  16.864  44.068  0.00  0.00    -0.082 A 
+ATOM     43  H17 2VM d   1      37.558  16.657  46.115  0.00  0.00     0.084 H 
+ATOM     44  CZ  2VM d   1      37.765  16.730  42.744  0.00  0.00    -0.083 A 
+ATOM     45  H18 2VM d   1      39.162  17.190  44.311  0.00  0.00     0.083 H 
+ATOM     46  CE2 2VM d   1      36.474  16.310  42.433  0.00  0.00    -0.082 A 
+ATOM     47  H19 2VM d   1      38.466  16.953  41.948  0.00  0.00     0.083 H 
+ATOM     48  CD2 2VM d   1      35.565  16.021  43.447  0.00  0.00    -0.077 A 
+ATOM     49  H20 2VM d   1      36.175  16.208  41.396  0.00  0.00     0.083 H 
+ATOM     50  H21 2VM d   1      34.569  15.671  43.200  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  32  37
+ENDBRANCH  30  32
+ENDBRANCH  25  28
+ENDBRANCH  14  25
+BRANCH   3  51
+ATOM     51  CBD 2VM d   1      41.764  15.271  45.662  0.00  0.00     0.177 C 
+ATOM     52  OBF 2VM d   1      42.679  14.979  44.856  0.00  0.00    -0.648 OA
+ATOM     53  OBE 2VM d   1      41.510  16.428  46.067  0.00  0.00    -0.648 OA
+ENDBRANCH   3  51
+TORSDOF 7

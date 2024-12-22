@@ -1,0 +1,103 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_2  and  C19_5 
+REMARK    2  A    between atoms: C19_5  and  C18_8 
+REMARK    3  A    between atoms: C18_8  and  C17_9 
+REMARK    4  A    between atoms: C17_9  and  C16_10 
+REMARK    5  A    between atoms: C16_10  and  C15_11 
+REMARK    6  A    between atoms: C15_11  and  N5_12 
+REMARK    7  A    between atoms: N7_19  and  C10_24 
+REMARK    8  A    between atoms: C10_24  and  C11_25 
+REMARK    9  A    between atoms: C11_25  and  O19_26 
+REMARK   10  A    between atoms: C11_25  and  C12_27 
+REMARK   11  A    between atoms: C12_27  and  O21_28 
+REMARK   12  A    between atoms: C12_27  and  C13_29 
+REMARK   13  A    between atoms: C13_29  and  O23_30 
+REMARK   14  A    between atoms: C13_29  and  C14_31 
+REMARK   15  A    between atoms: C14_31  and  O26_32 
+ROOT
+ATOM      1  N5  TSF d   1      43.090   0.418   4.426  0.00  0.00    -0.291 N 
+ATOM      2  C9  TSF d   1      42.607  -0.746   4.874  0.00  0.00     0.152 A 
+ATOM      3  C4  TSF d   1      42.866  -2.143   4.459  0.00  0.00     0.280 A 
+ATOM      4  O2  TSF d   1      43.658  -2.428   3.531  0.00  0.00    -0.265 OA
+ATOM      5  N3  TSF d   1      42.190  -3.089   5.132  0.00  0.00    -0.273 N 
+ATOM      6  C6  TSF d   1      42.479   1.316   5.204  0.00  0.00     0.331 A 
+ATOM      7  O4  TSF d   1      42.665   2.585   5.087  0.00  0.00    -0.246 OA
+ATOM      8  N7  TSF d   1      41.632   0.843   6.119  0.00  0.00    -0.280 N 
+ATOM      9  C8  TSF d   1      41.655  -0.491   5.970  0.00  0.00     0.148 A 
+ATOM     10  N1  TSF d   1      41.070  -1.542   6.547  0.00  0.00    -0.292 N 
+ATOM     11  C2  TSF d   1      41.331  -2.795   6.143  0.00  0.00     0.328 A 
+ATOM     12  O1  TSF d   1      40.738  -3.718   6.732  0.00  0.00    -0.247 OA
+ATOM     13  H9  TSF d   1      42.324  -4.047   4.879  0.00  0.00     0.173 HD
+ATOM     14  H10 TSF d   1      40.424  -1.393   7.296  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   8  15
+ATOM     15  C10 TSF d   1      40.893   1.706   7.031  0.00  0.00     0.032 C 
+ATOM     16  H11 TSF d   1      40.108   2.212   6.450  0.00  0.00     0.069 H 
+ATOM     17  H12 TSF d   1      41.596   2.454   7.428  0.00  0.00     0.069 H 
+BRANCH  15  18
+ATOM     18  C11 TSF d   1      40.227   1.025   8.213  0.00  0.00     0.078 C 
+ATOM     19  H13 TSF d   1      39.415   0.419   7.783  0.00  0.00     0.089 H 
+BRANCH  18  20
+ATOM     20  O19 TSF d   1      41.072   0.098   8.914  0.00  0.00    -0.391 OA
+ATOM     21  H14 TSF d   1      40.589  -0.286   9.636  0.00  0.00     0.210 HD
+ENDBRANCH  18  20
+BRANCH  18  22
+ATOM     22  C12 TSF d   1      39.555   2.012   9.162  0.00  0.00     0.088 C 
+ATOM     23  H15 TSF d   1      39.871   1.794  10.193  0.00  0.00     0.091 H 
+BRANCH  22  24
+ATOM     24  O21 TSF d   1      38.171   1.702   8.969  0.00  0.00    -0.390 OA
+ATOM     25  H16 TSF d   1      38.016   0.794   9.201  0.00  0.00     0.210 HD
+ENDBRANCH  22  24
+BRANCH  22  26
+ATOM     26  C13 TSF d   1      39.763   3.519   8.913  0.00  0.00     0.083 C 
+ATOM     27  H17 TSF d   1      39.503   3.730   7.865  0.00  0.00     0.090 H 
+BRANCH  26  28
+ATOM     28  O23 TSF d   1      41.123   3.919   9.140  0.00  0.00    -0.391 OA
+ATOM     29  H18 TSF d   1      41.209   4.851   8.976  0.00  0.00     0.210 HD
+ENDBRANCH  26  28
+BRANCH  26  30
+ATOM     30  C14 TSF d   1      38.872   4.365   9.823  0.00  0.00     0.043 C 
+ATOM     31  H19 TSF d   1      37.819   4.240   9.531  0.00  0.00     0.078 H 
+ATOM     32  H20 TSF d   1      39.154   5.425   9.737  0.00  0.00     0.078 H 
+BRANCH  30  33
+ATOM     33  O26 TSF d   1      39.054   3.924  11.180  0.00  0.00    -0.398 OA
+ATOM     34  H21 TSF d   1      38.812   3.008  11.249  0.00  0.00     0.209 HD
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  22  26
+ENDBRANCH  18  22
+ENDBRANCH  15  18
+ENDBRANCH   8  15
+BRANCH   1  35
+ATOM     35  C15 TSF d   1      44.043   0.677   3.351  0.00  0.00     0.005 C 
+ATOM     36  H7  TSF d   1      43.884  -0.046   2.537  0.00  0.00     0.065 H 
+ATOM     37  H8  TSF d   1      43.897   1.698   2.969  0.00  0.00     0.065 H 
+BRANCH  35  38
+ATOM     38  C16 TSF d   1      45.459   0.534   3.887  0.00  0.00    -0.049 C 
+ATOM     39  H5  TSF d   1      45.651   1.315   4.638  0.00  0.00     0.035 H 
+ATOM     40  H6  TSF d   1      45.582  -0.457   4.348  0.00  0.00     0.035 H 
+BRANCH  38  41
+ATOM     41  C17 TSF d   1      46.438   0.685   2.728  0.00  0.00    -0.058 C 
+ATOM     42  H3  TSF d   1      47.451   0.437   3.078  0.00  0.00     0.033 H 
+ATOM     43  H4  TSF d   1      46.150  -0.005   1.921  0.00  0.00     0.033 H 
+BRANCH  41  44
+ATOM     44  C18 TSF d   1      46.430   2.116   2.190  0.00  0.00     0.009 C 
+ATOM     45  H1  TSF d   1      45.525   2.625   2.552  0.00  0.00     0.043 H 
+ATOM     46  H2  TSF d   1      47.321   2.640   2.566  0.00  0.00     0.043 H 
+BRANCH  44  47
+ATOM     47  C19 TSF d   1      46.441   2.160   0.665  0.00  0.00     0.353 C 
+ATOM     48  F1  TSF d   1      45.198   2.108   0.225  0.00  0.00    -0.191 F 
+ATOM     49  F2  TSF d   1      47.128   1.139   0.186  0.00  0.00    -0.191 F 
+BRANCH  47  50
+ATOM     50  P   TSF d   1      47.225   3.684   0.073  0.00  0.00     0.334 P 
+ATOM     51  O2P TSF d   1      47.276   3.522  -1.421  0.00  0.00    -0.636 OA
+ATOM     52  O3P TSF d   1      48.593   3.669   0.720  0.00  0.00    -0.636 OA
+ATOM     53  O1P TSF d   1      46.321   4.801   0.549  0.00  0.00    -0.636 OA
+ENDBRANCH  47  50
+ENDBRANCH  44  47
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 15

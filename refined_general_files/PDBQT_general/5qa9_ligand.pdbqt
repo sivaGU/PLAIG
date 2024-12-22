@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_3  and  C_1 
+REMARK    2  A    between atoms: C10_4  and  C11_5 
+REMARK    3  A    between atoms: C11_5  and  O1_16 
+REMARK    4  A    between atoms: C5_11  and  C6_12 
+ROOT
+ATOM      1  C10 QKU d   1      94.728 246.198   4.830  0.00  0.00    -0.034 A 
+ATOM      2  C12 QKU d   1      94.622 247.440   5.445  0.00  0.00    -0.064 A 
+ATOM      3  C6  QKU d   1      95.737 248.251   5.658  0.00  0.00    -0.025 A 
+ATOM      4  C7  QKU d   1      96.974 247.801   5.205  0.00  0.00    -0.072 A 
+ATOM      5  C8  QKU d   1      97.089 246.574   4.577  0.00  0.00    -0.082 A 
+ATOM      6  C9  QKU d   1      95.973 245.778   4.395  0.00  0.00    -0.075 A 
+ATOM      7  H3  QKU d   1      93.647 247.788   5.768  0.00  0.00     0.085 H 
+ATOM      8  H8  QKU d   1      97.855 248.417   5.346  0.00  0.00     0.084 H 
+ATOM      9  H9  QKU d   1      98.057 246.235   4.226  0.00  0.00     0.083 H 
+ATOM     10  H10 QKU d   1      96.074 244.815   3.907  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   3  11
+ATOM     11  C5  QKU d   1      95.616 249.526   6.410  0.00  0.00    -0.025 A 
+ATOM     12  C13 QKU d   1      96.009 250.734   5.833  0.00  0.00    -0.056 A 
+ATOM     13  C1  QKU d   1      95.954 251.924   6.553  0.00  0.00     0.041 A 
+ATOM     14  H4  QKU d   1      96.363 250.746   4.808  0.00  0.00     0.086 H 
+ATOM     15  C2  QKU d   1      95.491 251.908   7.863  0.00  0.00    -0.066 A 
+ATOM     16  C3  QKU d   1      95.089 250.721   8.443  0.00  0.00    -0.081 A 
+ATOM     17  H5  QKU d   1      95.445 252.830   8.431  0.00  0.00     0.085 H 
+ATOM     18  C4  QKU d   1      95.149 249.541   7.724  0.00  0.00    -0.072 A 
+ATOM     19  H6  QKU d   1      94.725 250.714   9.464  0.00  0.00     0.083 H 
+ATOM     20  H7  QKU d   1      94.829 248.615   8.188  0.00  0.00     0.084 H 
+BRANCH  13  21
+ATOM     21  C   QKU d   1      96.405 253.215   5.917  0.00  0.00     0.209 C 
+ATOM     22  O   QKU d   1      95.722 253.670   4.969  0.00  0.00    -0.644 OA
+ATOM     23  O2  QKU d   1      97.440 253.757   6.374  0.00  0.00    -0.644 OA
+ENDBRANCH  13  21
+ENDBRANCH   3  11
+BRANCH   1  24
+ATOM     24  C11 QKU d   1      93.519 245.312   4.686  0.00  0.00     0.040 C 
+ATOM     25  H1  QKU d   1      93.670 244.645   3.825  0.00  0.00     0.081 H 
+ATOM     26  H2  QKU d   1      92.636 245.944   4.509  0.00  0.00     0.081 H 
+BRANCH  24  27
+ATOM     27  O1  QKU d   1      93.289 244.520   5.842  0.00  0.00    -0.396 OA
+ATOM     28  H11 QKU d   1      92.520 243.980   5.706  0.00  0.00     0.209 HD
+ENDBRANCH  24  27
+ENDBRANCH   1  24
+TORSDOF 4

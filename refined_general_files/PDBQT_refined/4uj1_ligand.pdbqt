@@ -1,0 +1,56 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_11  and  CAY_12 
+REMARK    2  A    between atoms: CAX_16  and  CAQ_17 
+REMARK    3  A    between atoms: CAQ_17  and  CAS_19 
+ROOT
+ATOM      1  CAY NVX d   1     -26.665   9.205   3.566  0.00  0.00     0.006 C 
+ATOM      2  CAM NVX d   1     -26.692   7.584   3.432  0.00  0.00     0.089 C 
+ATOM      3  NAN NVX d   1     -25.304   7.172   3.099  0.00  0.00    -0.074 N 
+ATOM      4  CAL NVX d   1     -24.582   8.447   2.793  0.00  0.00     0.092 C 
+ATOM      5  CAX NVX d   1     -25.693   9.551   2.445  0.00  0.00     0.041 C 
+ATOM      6  H6  NVX d   1     -26.253   9.569   4.519  0.00  0.00     0.051 H 
+ATOM      7  H7  NVX d   1     -27.383   7.279   2.632  0.00  0.00     0.076 H 
+ATOM      8  H8  NVX d   1     -27.007   7.128   4.382  0.00  0.00     0.076 H 
+ATOM      9  H9  NVX d   1     -25.299   6.561   2.297  0.00  0.00     0.277 HD
+ATOM     10  H10 NVX d   1     -24.877   6.702   3.882  0.00  0.00     0.277 HD
+ATOM     11  H11 NVX d   1     -23.912   8.303   1.933  0.00  0.00     0.076 H 
+ATOM     12  H12 NVX d   1     -23.994   8.766   3.667  0.00  0.00     0.076 H 
+ATOM     13  H13 NVX d   1     -26.161   9.409   1.460  0.00  0.00     0.056 H 
+ENDROOT
+BRANCH   1  14
+ATOM     14  CAT NVX d   1     -28.092   9.494   3.529  0.00  0.00    -0.049 A 
+ATOM     15  CAK NVX d   1     -28.851   9.387   2.391  0.00  0.00    -0.050 A 
+ATOM     16  CAV NVX d   1     -30.246   9.629   2.373  0.00  0.00     0.049 A 
+ATOM     17  H1  NVX d   1     -28.362   9.105   1.466  0.00  0.00     0.087 H 
+ATOM     18  NAO NVX d   1     -30.943   9.563   1.232  0.00  0.00    -0.350 N 
+ATOM     19  CAW NVX d   1     -30.937   9.957   3.554  0.00  0.00     0.060 A 
+ATOM     20  CAI NVX d   1     -32.347   9.785   1.285  0.00  0.00     0.068 A 
+ATOM     21  H2  NVX d   1     -30.474   9.357   0.338  0.00  0.00     0.166 HD
+ATOM     22  NAP NVX d   1     -33.046  10.054   2.410  0.00  0.00    -0.205 NA
+ATOM     23  H3  NVX d   1     -32.900   9.734   0.348  0.00  0.00     0.143 H 
+ATOM     24  CAU NVX d   1     -32.332  10.157   3.593  0.00  0.00     0.280 A 
+ATOM     25  OAB NVX d   1     -32.942  10.371   4.669  0.00  0.00    -0.265 OA
+ATOM     26  CAH NVX d   1     -30.172  10.005   4.738  0.00  0.00    -0.065 A 
+ATOM     27  CAG NVX d   1     -28.781   9.767   4.729  0.00  0.00    -0.075 A 
+ATOM     28  H4  NVX d   1     -30.664  10.230   5.677  0.00  0.00     0.085 H 
+ATOM     29  H5  NVX d   1     -28.231   9.795   5.663  0.00  0.00     0.084 H 
+ENDBRANCH   1  14
+BRANCH   5  30
+ATOM     30  CAQ NVX d   1     -24.980  10.939   2.479  0.00  0.00     0.166 C 
+ATOM     31  OAA NVX d   1     -25.020  11.588   3.520  0.00  0.00    -0.292 OA
+BRANCH  30  32
+ATOM     32  CAS NVX d   1     -24.269  11.401   1.346  0.00  0.00     0.012 A 
+ATOM     33  CAJ NVX d   1     -23.796  12.718   1.235  0.00  0.00    -0.049 A 
+ATOM     34  CAR NVX d   1     -23.095  13.096   0.071  0.00  0.00     0.035 A 
+ATOM     35  H14 NVX d   1     -23.967  13.433   2.031  0.00  0.00     0.087 H 
+ATOM     36 CL   NVX d   1     -22.588  14.573  -0.139  0.00  0.00    -0.084 Cl
+ATOM     37  CAE NVX d   1     -22.798  12.245  -0.972  0.00  0.00    -0.062 A 
+ATOM     38  CAD NVX d   1     -23.244  10.932  -0.874  0.00  0.00    -0.080 A 
+ATOM     39  H15 NVX d   1     -22.238  12.586  -1.835  0.00  0.00     0.086 H 
+ATOM     40  CAF NVX d   1     -23.942  10.549   0.288  0.00  0.00    -0.069 A 
+ATOM     41  H16 NVX d   1     -23.059  10.221  -1.671  0.00  0.00     0.083 H 
+ATOM     42  H17 NVX d   1     -24.249   9.512   0.368  0.00  0.00     0.085 H 
+ENDBRANCH  30  32
+ENDBRANCH   5  30
+TORSDOF 3

@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C10_17 
+REMARK    2  A    between atoms: N2_4  and  C6_5 
+REMARK    3  A    between atoms: C6_5  and  C7_6 
+REMARK    4  A    between atoms: C5_7  and  C8_12 
+REMARK    5  A    between atoms: C9_13  and  N5_14 
+ROOT
+ATOM      1  C   VUP d   1      25.373 -10.067   0.384  0.00  0.00     0.032 A 
+ATOM      2  C1  VUP d   1      25.808  -9.927   1.694  0.00  0.00    -0.031 A 
+ATOM      3  C2  VUP d   1      27.188  -9.940   1.915  0.00  0.00     0.068 A 
+ATOM      4  N2  VUP d   1      27.949  -9.845   3.087  0.00  0.00    -0.328 N 
+ATOM      5  C5  VUP d   1      29.262  -9.945   2.685  0.00  0.00     0.166 A 
+ATOM      6  N1  VUP d   1      29.415 -10.082   1.381  0.00  0.00    -0.225 NA
+ATOM      7  C3  VUP d   1      28.115 -10.086   0.876  0.00  0.00     0.103 A 
+ATOM      8  C4  VUP d   1      27.538 -10.196  -0.390  0.00  0.00     0.032 A 
+ATOM      9  N   VUP d   1      26.226 -10.194  -0.657  0.00  0.00    -0.263 NA
+ATOM     10  H1  VUP d   1      25.107  -9.812   2.512  0.00  0.00     0.090 H 
+ATOM     11  H7  VUP d   1      28.213 -10.292  -1.233  0.00  0.00     0.118 H 
+ENDROOT
+BRANCH   5  12
+ATOM     12  C8  VUP d   1      30.393 -10.039   3.618  0.00  0.00     0.179 A 
+ATOM     13  C9  VUP d   1      31.773 -10.034   3.214  0.00  0.00     0.186 A 
+ATOM     14  N4  VUP d   1      32.526 -10.229   4.266  0.00  0.00    -0.085 NA
+ATOM     15  O   VUP d   1      31.640 -10.370   5.329  0.00  0.00    -0.104 OA
+ATOM     16  N3  VUP d   1      30.319 -10.244   4.911  0.00  0.00    -0.097 NA
+BRANCH  13  17
+ATOM     17  N5  VUP d   1      32.243  -9.825   1.981  0.00  0.00    -0.380 N 
+ATOM     18  H8  VUP d   1      33.258  -9.845   1.806  0.00  0.00     0.158 HD
+ATOM     19  H9  VUP d   1      31.590  -9.644   1.205  0.00  0.00     0.158 HD
+ENDBRANCH  13  17
+ENDBRANCH   5  12
+BRANCH   4  20
+ATOM     20  C6  VUP d   1      27.390  -9.614   4.435  0.00  0.00    -0.002 C 
+ATOM     21  H2  VUP d   1      26.488  -8.991   4.342  0.00  0.00     0.064 H 
+ATOM     22  H3  VUP d   1      28.140  -9.087   5.043  0.00  0.00     0.064 H 
+BRANCH  20  23
+ATOM     23  C7  VUP d   1      27.023 -10.892   5.124  0.00  0.00    -0.061 C 
+ATOM     24  H4  VUP d   1      26.613 -10.667   6.120  0.00  0.00     0.029 H 
+ATOM     25  H5  VUP d   1      27.919 -11.522   5.230  0.00  0.00     0.029 H 
+ATOM     26  H6  VUP d   1      26.268 -11.426   4.529  0.00  0.00     0.029 H 
+ENDBRANCH  20  23
+ENDBRANCH   4  20
+BRANCH   1  27
+ATOM     27  C10 VUP d   1      23.913 -10.078   0.047  0.00  0.00    -0.035 C 
+ATOM     28  H10 VUP d   1      23.788 -10.198  -1.039  0.00  0.00     0.035 H 
+ATOM     29  H11 VUP d   1      23.456  -9.130   0.365  0.00  0.00     0.035 H 
+ATOM     30  H12 VUP d   1      23.423 -10.914   0.567  0.00  0.00     0.035 H 
+ENDBRANCH   1  27
+TORSDOF 5

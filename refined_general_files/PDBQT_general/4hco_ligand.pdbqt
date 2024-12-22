@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAG_7 
+REMARK    2  A    between atoms: CAD_4  and  CAH_8 
+REMARK    3  A    between atoms: CAH_8  and  CAI_9 
+REMARK    4  A    between atoms: CAH_8  and  CAL_12 
+ROOT
+ATOM      1  CAA IMW d   1      -3.053 -12.861  -2.173  0.00  0.00    -0.008 A 
+ATOM      2  CAB IMW d   1      -4.196 -12.423  -2.676  0.00  0.00    -0.025 A 
+ATOM      3  CAC IMW d   1      -4.232 -11.933  -3.906  0.00  0.00     0.179 A 
+ATOM      4  CAD IMW d   1      -3.028 -11.811  -4.692  0.00  0.00    -0.001 A 
+ATOM      5  CAE IMW d   1      -1.865 -12.223  -4.193  0.00  0.00    -0.024 A 
+ATOM      6  CAF IMW d   1      -1.827 -12.749  -2.970  0.00  0.00     0.178 A 
+ATOM      7  OAJ IMW d   1      -0.711 -13.098  -2.563  0.00  0.00    -0.288 OA
+ATOM      8  OAK IMW d   1      -5.312 -11.579  -4.307  0.00  0.00    -0.288 OA
+ATOM      9  H1  IMW d   1      -5.106 -12.465  -2.079  0.00  0.00     0.090 H 
+ATOM     10  H2  IMW d   1      -0.952 -12.131  -4.780  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  CAH IMW d   1      -2.976 -11.267  -6.018  0.00  0.00    -0.032 C 
+ATOM     12  H6  IMW d   1      -1.965 -11.381  -6.437  0.00  0.00     0.046 H 
+BRANCH  11  13
+ATOM     13  CAI IMW d   1      -3.311  -9.804  -5.961  0.00  0.00    -0.069 C 
+ATOM     14  H7  IMW d   1      -3.273  -9.379  -6.975  0.00  0.00     0.028 H 
+ATOM     15  H8  IMW d   1      -2.583  -9.286  -5.319  0.00  0.00     0.028 H 
+ATOM     16  H9  IMW d   1      -4.322  -9.675  -5.547  0.00  0.00     0.028 H 
+ENDBRANCH  11  13
+BRANCH  11  17
+ATOM     17  CAL IMW d   1      -3.933 -12.068  -6.821  0.00  0.00    -0.069 C 
+ATOM     18  H10 IMW d   1      -3.623 -13.123  -6.816  0.00  0.00     0.028 H 
+ATOM     19  H11 IMW d   1      -3.946 -11.695  -7.856  0.00  0.00     0.028 H 
+ATOM     20  H12 IMW d   1      -4.940 -11.980  -6.387  0.00  0.00     0.028 H 
+ENDBRANCH  11  17
+ENDBRANCH   4  11
+BRANCH   1  21
+ATOM     21  CAG IMW d   1      -3.140 -13.436  -0.790  0.00  0.00    -0.047 C 
+ATOM     22  H3  IMW d   1      -4.182 -13.392  -0.439  0.00  0.00     0.033 H 
+ATOM     23  H4  IMW d   1      -2.499 -12.855  -0.110  0.00  0.00     0.033 H 
+ATOM     24  H5  IMW d   1      -2.803 -14.483  -0.806  0.00  0.00     0.033 H 
+ENDBRANCH   1  21
+TORSDOF 4

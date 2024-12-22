@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: NAM_5  and  CAB_6 
+REMARK    3  A    between atoms: NAN_9  and  CAC_10 
+REMARK    4  A    between atoms: CAI_13  and  NAD_14 
+ROOT
+ATOM      1  CAH 39O d   1      12.083 -21.062   9.606  0.00  0.00    -0.034 A 
+ATOM      2  CAF 39O d   1      12.157 -21.949  10.686  0.00  0.00    -0.047 A 
+ATOM      3  CAK 39O d   1      13.218 -22.929  10.771  0.00  0.00     0.066 A 
+ATOM      4  NAM 39O d   1      13.531 -23.901  11.707  0.00  0.00    -0.302 N 
+ATOM      5  CAJ 39O d   1      14.640 -24.567  11.282  0.00  0.00     0.329 A 
+ATOM      6  OAE 39O d   1      15.149 -25.475  11.865  0.00  0.00    -0.246 OA
+ATOM      7  NAN 39O d   1      15.054 -24.043  10.137  0.00  0.00    -0.302 N 
+ATOM      8  CAL 39O d   1      14.165 -23.015   9.794  0.00  0.00     0.067 A 
+ATOM      9  CAG 39O d   1      14.095 -22.095   8.691  0.00  0.00    -0.029 A 
+ATOM     10  CAI 39O d   1      13.065 -21.140   8.599  0.00  0.00     0.034 A 
+ATOM     11  H   39O d   1      11.409 -21.901  11.469  0.00  0.00     0.088 H 
+ATOM     12  H   39O d   1      14.851 -22.138   7.915  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  CAA 39O d   1      10.970 -20.043   9.544  0.00  0.00    -0.049 C 
+ATOM     14  H   39O d   1      10.320 -20.156  10.424  0.00  0.00     0.033 H 
+ATOM     15  H   39O d   1      10.380 -20.200   8.629  0.00  0.00     0.033 H 
+ATOM     16  H   39O d   1      11.400 -19.031   9.534  0.00  0.00     0.033 H 
+ENDBRANCH   1  13
+BRANCH  10  17
+ATOM     17  NAD 39O d   1      13.033 -20.251   7.459  0.00  0.00    -0.399 N 
+ATOM     18  H   39O d   1      12.286 -19.546   7.376  0.00  0.00     0.156 HD
+ATOM     19  H   39O d   1      13.757 -20.322   6.730  0.00  0.00     0.156 HD
+ENDBRANCH  10  17
+BRANCH   4  20
+ATOM     20  CAB 39O d   1      12.768 -24.177  12.915  0.00  0.00    -0.009 C 
+ATOM     21  H   39O d   1      11.927 -23.471  12.987  0.00  0.00     0.057 H 
+ATOM     22  H   39O d   1      13.419 -24.062  13.794  0.00  0.00     0.057 H 
+ATOM     23  H   39O d   1      12.381 -25.206  12.877  0.00  0.00     0.057 H 
+ENDBRANCH   4  20
+BRANCH   7  24
+ATOM     24  CAC 39O d   1      16.209 -24.459   9.366  0.00  0.00    -0.009 C 
+ATOM     25  H   39O d   1      16.716 -25.288   9.883  0.00  0.00     0.057 H 
+ATOM     26  H   39O d   1      16.904 -23.613   9.261  0.00  0.00     0.057 H 
+ATOM     27  H   39O d   1      15.884 -24.792   8.369  0.00  0.00     0.057 H 
+ENDBRANCH   7  24
+TORSDOF 4

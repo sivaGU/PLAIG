@@ -1,0 +1,84 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: C_3  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: N_10  and  C_3 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD1_7 
+REMARK    6  A    between atoms: CG_6  and  CD2_8 
+REMARK    7  A    between atoms: C_9  and  O_11 
+REMARK    8  A    between atoms: CA_12  and  C_9 
+REMARK    9  A    between atoms: N_10  and  CA_12 
+REMARK   10  A    between atoms: CA_12  and  CB_13 
+REMARK   11  A    between atoms: CB_13  and  CG_15 
+REMARK   12  A    between atoms: CG_15  and  CD_14 
+REMARK       I    between atoms: CD_14  and  NE2_17 
+ROOT
+ATOM      1  C   LEU d   1     -17.046 -28.982   7.120  0.00  0.00     0.248 C 
+ATOM      2  O   LEU d   1     -16.535 -29.033   8.272  0.00  0.00    -0.271 OA
+ATOM      3  N   ECC d   1     -16.334 -28.270   6.353  0.00  0.00    -0.353 N 
+ATOM      4  H   ECC d   1     -16.712 -28.268   5.405  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  LEU d   1     -17.953 -30.067   6.493  0.00  0.00     0.176 C 
+ATOM      6  H   LEU d   1     -18.714 -29.508   5.948  0.00  0.00     0.099 H 
+BRANCH   5   7
+ATOM      7  N   LEU d   1     -17.306 -30.941   5.403  0.00  0.00    -0.066 N 
+ATOM      8  H   LEU d   1     -16.872 -30.341   4.701  0.00  0.00     0.275 HD
+ATOM      9  H   LEU d   1     -16.596 -31.540   5.826  0.00  0.00     0.275 HD
+ATOM     10  H   LEU d   1     -18.022 -31.519   4.963  0.00  0.00     0.275 HD
+ENDBRANCH   5   7
+BRANCH   5  11
+ATOM     11  CB  LEU d   1     -18.626 -30.916   7.585  0.00  0.00    -0.028 C 
+ATOM     12  H   LEU d   1     -17.915 -30.984   8.408  0.00  0.00     0.037 H 
+ATOM     13  H   LEU d   1     -18.896 -31.864   7.119  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CG  LEU d   1     -19.932 -30.327   8.178  0.00  0.00    -0.059 C 
+ATOM     15  H   LEU d   1     -19.702 -29.276   8.352  0.00  0.00     0.038 H 
+BRANCH  14  16
+ATOM     16  CD1 LEU d   1     -21.128 -30.429   7.174  0.00  0.00    -0.073 C 
+ATOM     17  H   LEU d   1     -21.404 -31.476   7.045  0.00  0.00     0.028 H 
+ATOM     18  H   LEU d   1     -21.979 -29.873   7.567  0.00  0.00     0.028 H 
+ATOM     19  H   LEU d   1     -20.831 -30.009   6.213  0.00  0.00     0.028 H 
+ENDBRANCH  14  16
+BRANCH  14  20
+ATOM     20  CD2 LEU d   1     -20.330 -30.915   9.543  0.00  0.00    -0.073 C 
+ATOM     21  H   LEU d   1     -21.179 -30.360   9.942  0.00  0.00     0.028 H 
+ATOM     22  H   LEU d   1     -20.604 -31.963   9.420  0.00  0.00     0.028 H 
+ATOM     23  H   LEU d   1     -19.488 -30.837  10.230  0.00  0.00     0.028 H 
+ENDBRANCH  14  20
+ENDBRANCH  11  14
+ENDBRANCH   5  11
+ENDBRANCH   1   5
+BRANCH   3  24
+ATOM     24  CA  ECC d   1     -15.117 -27.443   6.434  0.00  0.00     0.033 C 
+ATOM     25  H   ECC d   1     -14.358 -27.902   7.068  0.00  0.00     0.075 H 
+BRANCH  24  26
+ATOM     26  C   ECC d   1     -15.405 -26.099   7.110  0.00  0.00     0.035 C 
+ATOM     27  H   ECC d   1     -16.266 -25.661   6.604  0.00  0.00     0.077 H 
+ATOM     28  H   ECC d   1     -15.566 -26.299   8.169  0.00  0.00     0.077 H 
+BRANCH  26  29
+ATOM     29  O   ECC d   1     -14.327 -25.151   7.014  0.00  0.00    -0.399 OA
+ATOM     30  H   ECC d   1     -14.143 -24.970   6.089  0.00  0.00     0.209 HD
+ENDBRANCH  26  29
+ENDBRANCH  24  26
+BRANCH  24  31
+ATOM     31  CB  ECC d   1     -14.559 -27.327   5.017  0.00  0.00    -0.036 C 
+ATOM     32  H   ECC d   1     -13.752 -26.595   4.997  0.00  0.00     0.036 H 
+ATOM     33  H   ECC d   1     -15.346 -27.002   4.336  0.00  0.00     0.036 H 
+BRANCH  31  34
+ATOM     34  CG  ECC d   1     -14.029 -28.694   4.582  0.00  0.00     0.011 C 
+ATOM     35  H   ECC d   1     -14.786 -29.452   4.783  0.00  0.00     0.047 H 
+ATOM     36  H   ECC d   1     -13.118 -28.918   5.138  0.00  0.00     0.047 H 
+BRANCH  34  37
+ATOM     37  CD  ECC d   1     -13.717 -28.683   3.099  0.00  0.00     0.215 C 
+ATOM     38  OE1 ECC d   1     -14.530 -28.272   2.290  0.00  0.00    -0.274 OA
+ATOM     39  NE2 ECC d   1     -12.519 -29.160   2.734  0.00  0.00    -0.370 N 
+ATOM     40  H   ECC d   1     -12.260 -29.188   1.748  0.00  0.00     0.159 HD
+ATOM     41  H   ECC d   1     -11.866 -29.495   3.442  0.00  0.00     0.159 HD
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  24  31
+ENDBRANCH   3  24
+TORSDOF 12

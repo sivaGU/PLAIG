@@ -1,0 +1,135 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1D_9  and  N1U_1 
+REMARK    2  A    between atoms: C2D_10  and  O2D_11 
+REMARK    3  A    between atoms: C3D_12  and  O3D_15 
+REMARK    4  A    between atoms: C5D_16  and  C4D_13 
+REMARK    5  A    between atoms: O5D_17  and  C5D_16 
+REMARK    6  A    between atoms: PA_18  and  O5D_17 
+REMARK    7  A    between atoms: O3A_21  and  PA_18 
+REMARK    8  A    between atoms: PB_22  and  O3A_21 
+REMARK    9  A    between atoms: O1_34  and  PB_22 
+REMARK   10  A    between atoms: C1_25  and  O1_34 
+REMARK   11  A    between atoms: C2_26  and  N2_33 
+REMARK   12  A    between atoms: O3_35  and  C3_27 
+REMARK   13  A    between atoms: C4_28  and  O4_36 
+REMARK   14  A    between atoms: C5_29  and  C6_30 
+REMARK   15  A    between atoms: C6_30  and  O6_38 
+REMARK   16  A    between atoms: C7_31  and  C8_32 
+REMARK       I    between atoms: N2_33  and  C7_31 
+REMARK   17  A    between atoms: C2E_43  and  O3_35 
+REMARK   18  A    between atoms: C1E_40  and  C2E_43 
+REMARK   19  A    between atoms: C2E_43  and  C3E_44 
+ROOT
+ATOM      1  C1  EPU d   1      -1.587  -5.957  -1.016  0.00  0.00     0.165 C 
+ATOM      2  C2  EPU d   1      -1.559  -4.521  -0.575  0.00  0.00     0.087 C 
+ATOM      3  C3  EPU d   1      -2.784  -3.832  -1.095  0.00  0.00     0.091 C 
+ATOM      4  C4  EPU d   1      -2.685  -3.891  -2.569  0.00  0.00     0.089 C 
+ATOM      5  C5  EPU d   1      -2.694  -5.337  -2.939  0.00  0.00     0.089 C 
+ATOM      6  O5  EPU d   1      -1.572  -5.978  -2.410  0.00  0.00    -0.348 OA
+ATOM      7  H12 EPU d   1      -0.760  -6.538  -0.580  0.00  0.00     0.133 H 
+ATOM      8  H13 EPU d   1      -0.627  -4.024  -0.882  0.00  0.00     0.084 H 
+ATOM      9  H14 EPU d   1      -3.697  -4.325  -0.729  0.00  0.00     0.090 H 
+ATOM     10  H15 EPU d   1      -1.784  -3.387  -2.949  0.00  0.00     0.091 H 
+ATOM     11  H16 EPU d   1      -3.615  -5.826  -2.588  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  O1  EPU d   1      -2.815  -6.450  -0.670  0.00  0.00    -0.256 OA
+BRANCH  12  13
+ATOM     13  PB  EPU d   1      -3.021  -7.958  -0.670  0.00  0.00     0.420 P 
+ATOM     14  O1B EPU d   1      -1.849  -8.633  -0.188  0.00  0.00    -0.624 OA
+ATOM     15  O2B EPU d   1      -4.235  -8.129   0.083  0.00  0.00    -0.624 OA
+BRANCH  13  16
+ATOM     16  O3A EPU d   1      -3.263  -8.241  -2.206  0.00  0.00    -0.180 OA
+BRANCH  16  17
+ATOM     17  PA  EPU d   1      -3.143  -9.589  -2.985  0.00  0.00     0.417 P 
+ATOM     18  O1A EPU d   1      -3.091 -10.689  -2.079  0.00  0.00    -0.624 OA
+ATOM     19  O2A EPU d   1      -2.174  -9.455  -4.038  0.00  0.00    -0.624 OA
+BRANCH  17  20
+ATOM     20  O5D EPU d   1      -4.503  -9.674  -3.706  0.00  0.00    -0.287 OA
+BRANCH  20  21
+ATOM     21  C5D EPU d   1      -4.681 -10.732  -4.618  0.00  0.00     0.058 C 
+ATOM     22  H10 EPU d   1      -4.027 -10.550  -5.483  0.00  0.00     0.079 H 
+ATOM     23  H11 EPU d   1      -4.380 -11.665  -4.120  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  C4D EPU d   1      -6.093 -10.907  -5.127  0.00  0.00     0.089 C 
+ATOM     25  C3D EPU d   1      -7.137 -10.239  -4.275  0.00  0.00     0.091 C 
+ATOM     26  C2D EPU d   1      -7.660 -11.293  -3.368  0.00  0.00     0.105 C 
+ATOM     27  H7  EPU d   1      -6.712  -9.389  -3.721  0.00  0.00     0.091 H 
+ATOM     28  C1D EPU d   1      -7.232 -12.582  -4.001  0.00  0.00     0.141 C 
+ATOM     29  H5  EPU d   1      -7.277 -11.192  -2.342  0.00  0.00     0.093 H 
+ATOM     30  O4D EPU d   1      -6.321 -12.284  -5.035  0.00  0.00    -0.353 OA
+ATOM     31  H4  EPU d   1      -8.110 -13.086  -4.431  0.00  0.00     0.123 H 
+ATOM     32  H8  EPU d   1      -6.172 -10.548  -6.164  0.00  0.00     0.090 H 
+BRANCH  25  33
+ATOM     33  O3D EPU d   1      -8.240  -9.836  -5.060  0.00  0.00    -0.390 OA
+ATOM     34  H9  EPU d   1      -8.887  -9.417  -4.504  0.00  0.00     0.210 HD
+ENDBRANCH  25  33
+BRANCH  26  35
+ATOM     35  O2D EPU d   1      -9.065 -11.199  -3.405  0.00  0.00    -0.388 OA
+ATOM     36  H6  EPU d   1      -9.359 -11.223  -4.308  0.00  0.00     0.210 HD
+ENDBRANCH  26  35
+BRANCH  28  37
+ATOM     37  N1U EPU d   1      -6.641 -13.447  -3.010  0.00  0.00    -0.280 N 
+ATOM     38  C2U EPU d   1      -7.124 -14.725  -2.911  0.00  0.00     0.331 A 
+ATOM     39  N3U EPU d   1      -6.665 -15.598  -2.029  0.00  0.00    -0.275 N 
+ATOM     40  O2U EPU d   1      -8.010 -15.062  -3.670  0.00  0.00    -0.246 OA
+ATOM     41  C4U EPU d   1      -5.698 -15.234  -1.217  0.00  0.00     0.250 A 
+ATOM     42  H1  EPU d   1      -7.048 -16.520  -1.981  0.00  0.00     0.173 HD
+ATOM     43  C5U EPU d   1      -5.190 -13.961  -1.297  0.00  0.00    -0.002 A 
+ATOM     44  O4U EPU d   1      -5.274 -16.048  -0.408  0.00  0.00    -0.268 OA
+ATOM     45  C6U EPU d   1      -5.685 -13.060  -2.213  0.00  0.00    -0.008 A 
+ATOM     46  H2  EPU d   1      -4.386 -13.660  -0.628  0.00  0.00     0.094 H 
+ATOM     47  H3  EPU d   1      -5.287 -12.048  -2.270  0.00  0.00     0.112 H 
+ENDBRANCH  28  37
+ENDBRANCH  21  24
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  48
+ATOM     48  N2  EPU d   1      -1.774  -4.473   0.834  0.00  0.00    -0.349 N 
+ATOM     49  C7  EPU d   1      -0.735  -4.313   1.607  0.00  0.00     0.214 C 
+ATOM     50  O7  EPU d   1       0.352  -4.250   1.146  0.00  0.00    -0.274 OA
+ATOM     51  H22 EPU d   1      -2.693  -4.559   1.218  0.00  0.00     0.163 HD
+BRANCH  49  52
+ATOM     52  C8  EPU d   1      -0.952  -4.227   3.068  0.00  0.00    -0.003 C 
+ATOM     53  H19 EPU d   1       0.015  -4.094   3.575  0.00  0.00     0.040 H 
+ATOM     54  H20 EPU d   1      -1.428  -5.153   3.423  0.00  0.00     0.040 H 
+ATOM     55  H21 EPU d   1      -1.605  -3.370   3.292  0.00  0.00     0.040 H 
+ENDBRANCH  49  52
+ENDBRANCH   2  48
+BRANCH   3  56
+ATOM     56  O3  EPU d   1      -2.776  -2.483  -0.741  0.00  0.00    -0.365 OA
+BRANCH  56  57
+ATOM     57  C2E EPU d   1      -3.595  -2.205   0.380  0.00  0.00     0.119 C 
+ATOM     58  H25 EPU d   1      -3.615  -3.102   1.017  0.00  0.00     0.099 H 
+BRANCH  57  59
+ATOM     59  C1E EPU d   1      -3.059  -1.070   1.207  0.00  0.00     0.202 C 
+ATOM     60  O1E EPU d   1      -2.515  -0.129   0.653  0.00  0.00    -0.646 OA
+ATOM     61  O2E EPU d   1      -3.139  -1.080   2.434  0.00  0.00    -0.646 OA
+ENDBRANCH  57  59
+BRANCH  57  62
+ATOM     62  C3E EPU d   1      -5.005  -1.923  -0.083  0.00  0.00    -0.043 C 
+ATOM     63  H26 EPU d   1      -5.641  -1.707   0.788  0.00  0.00     0.031 H 
+ATOM     64  H27 EPU d   1      -5.399  -2.801  -0.616  0.00  0.00     0.031 H 
+ATOM     65  H28 EPU d   1      -5.002  -1.055  -0.759  0.00  0.00     0.031 H 
+ENDBRANCH  57  62
+ENDBRANCH  56  57
+ENDBRANCH   3  56
+BRANCH   5  66
+ATOM     66  C6  EPU d   1      -2.597  -5.369  -4.424  0.00  0.00     0.043 C 
+ATOM     67  H17 EPU d   1      -3.588  -5.261  -4.888  0.00  0.00     0.078 H 
+ATOM     68  H18 EPU d   1      -2.130  -6.303  -4.770  0.00  0.00     0.078 H 
+BRANCH  66  69
+ATOM     69  O6  EPU d   1      -1.783  -4.261  -4.707  0.00  0.00    -0.398 OA
+ATOM     70  H24 EPU d   1      -2.201  -3.471  -4.384  0.00  0.00     0.209 HD
+ENDBRANCH  66  69
+ENDBRANCH   5  66
+BRANCH   4  71
+ATOM     71  O4  EPU d   1      -3.852  -3.276  -3.024  0.00  0.00    -0.390 OA
+ATOM     72  H23 EPU d   1      -3.838  -2.357  -2.785  0.00  0.00     0.210 HD
+ENDBRANCH   4  71
+TORSDOF 19

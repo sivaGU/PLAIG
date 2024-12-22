@@ -1,0 +1,55 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAS_7  and  NAN_8 
+REMARK       I    between atoms: NAN_8  and  CAQ_9 
+REMARK    2  A    between atoms: CAQ_9  and  CAW_11 
+REMARK    3  A    between atoms: CAT_12  and  NAA_13 
+REMARK    4  A    between atoms: CAU_20  and  CAV_21 
+ROOT
+ATOM      1  CAW DZ9 d   1      16.707 -15.244  -8.076  0.00  0.00     0.102 A 
+ATOM      2  CAT DZ9 d   1      18.097 -15.244  -7.961  0.00  0.00     0.061 A 
+ATOM      3  SAP DZ9 d   1      16.173 -13.670  -7.781  0.00  0.00    -0.062 SA
+ATOM      4  CAY DZ9 d   1      17.700 -12.969  -7.491  0.00  0.00     0.111 A 
+ATOM      5  NAM DZ9 d   1      18.062 -11.705  -7.177  0.00  0.00    -0.239 NA
+ATOM      6  CAX DZ9 d   1      18.664 -13.991  -7.635  0.00  0.00     0.028 A 
+ATOM      7  CAK DZ9 d   1      20.003 -13.654  -7.438  0.00  0.00    -0.066 A 
+ATOM      8  CAJ DZ9 d   1      20.352 -12.344  -7.116  0.00  0.00    -0.053 A 
+ATOM      9  CAU DZ9 d   1      19.357 -11.367  -6.997  0.00  0.00     0.075 A 
+ATOM     10  H8  DZ9 d   1      20.772 -14.411  -7.535  0.00  0.00     0.085 H 
+ATOM     11  H9  DZ9 d   1      21.392 -12.082  -6.958  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  CAQ DZ9 d   1      15.824 -16.453  -8.438  0.00  0.00     0.265 C 
+ATOM     13  NAN DZ9 d   1      14.575 -16.127  -8.817  0.00  0.00    -0.322 N 
+ATOM     14  H5  DZ9 d   1      14.351 -15.153  -8.797  0.00  0.00     0.169 HD
+ATOM     15  OAB DZ9 d   1      16.283 -17.594  -8.371  0.00  0.00    -0.267 OA
+BRANCH  13  16
+ATOM     16  CAS DZ9 d   1      13.591 -16.950  -9.219  0.00  0.00     0.037 A 
+ATOM     17  CAL DZ9 d   1      13.659 -18.342  -9.101  0.00  0.00    -0.020 A 
+ATOM     18  CAR DZ9 d   1      12.609 -19.136  -9.564  0.00  0.00     0.118 A 
+ATOM     19  H1  DZ9 d   1      14.529 -18.805  -8.649  0.00  0.00     0.091 H 
+ATOM     20  FAC DZ9 d   1      12.671 -20.474  -9.442  0.00  0.00    -0.206 F 
+ATOM     21  CAG DZ9 d   1      11.487 -18.556 -10.151  0.00  0.00    -0.046 A 
+ATOM     22  CAE DZ9 d   1      11.415 -17.172 -10.281  0.00  0.00    -0.078 A 
+ATOM     23  H2  DZ9 d   1      10.674 -19.179 -10.505  0.00  0.00     0.088 H 
+ATOM     24  CAH DZ9 d   1      12.467 -16.378  -9.819  0.00  0.00    -0.057 A 
+ATOM     25  H3  DZ9 d   1      10.546 -16.713 -10.739  0.00  0.00     0.083 H 
+ATOM     26  H4  DZ9 d   1      12.410 -15.301  -9.928  0.00  0.00     0.086 H 
+ENDBRANCH  13  16
+ENDBRANCH   1  12
+BRANCH   2  27
+ATOM     27  NAA DZ9 d   1      18.829 -16.340  -8.138  0.00  0.00    -0.397 N 
+ATOM     28  H6  DZ9 d   1      18.372 -17.232  -8.375  0.00  0.00     0.156 HD
+ATOM     29  H7  DZ9 d   1      19.853 -16.297  -8.038  0.00  0.00     0.156 HD
+ENDBRANCH   2  27
+BRANCH   9  30
+ATOM     30  CAV DZ9 d   1      19.706 -10.061  -6.643  0.00  0.00     0.033 A 
+ATOM     31  CAI DZ9 d   1      20.888  -9.439  -6.707  0.00  0.00    -0.064 A 
+ATOM     32  CAD DZ9 d   1      20.885  -8.161  -6.250  0.00  0.00    -0.075 A 
+ATOM     33  H10 DZ9 d   1      21.784  -9.921  -7.096  0.00  0.00     0.085 H 
+ATOM     34  CAF DZ9 d   1      19.729  -7.688  -5.778  0.00  0.00    -0.044 A 
+ATOM     35  H11 DZ9 d   1      21.785  -7.549  -6.268  0.00  0.00     0.084 H 
+ATOM     36  SAO DZ9 d   1      18.631  -8.960  -5.941  0.00  0.00    -0.100 SA
+ATOM     37  H12 DZ9 d   1      19.536  -6.695  -5.375  0.00  0.00     0.095 H 
+ENDBRANCH   9  30
+TORSDOF 4

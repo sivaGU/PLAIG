@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_7 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+ROOT
+ATOM      1  C1  GAL d   1      82.506  28.904  85.200  0.00  0.00     0.156 C 
+ATOM      2  C2  GAL d   1      81.693  27.942  86.069  0.00  0.00     0.110 C 
+ATOM      3  C3  GAL d   1      81.945  28.277  87.523  0.00  0.00     0.092 C 
+ATOM      4  C4  GAL d   1      83.467  28.286  87.883  0.00  0.00     0.090 C 
+ATOM      5  C5  GAL d   1      84.257  29.171  86.875  0.00  0.00     0.089 C 
+ATOM      6  O5  GAL d   1      83.894  28.788  85.516  0.00  0.00    -0.349 OA
+ATOM      7  H1  GAL d   1      82.177  29.935  85.398  0.00  0.00     0.133 H 
+ATOM      8  H2  GAL d   1      82.012  26.908  85.871  0.00  0.00     0.094 H 
+ATOM      9  H3  GAL d   1      81.534  29.276  87.732  0.00  0.00     0.091 H 
+ATOM     10  H4  GAL d   1      83.609  28.677  88.901  0.00  0.00     0.091 H 
+ATOM     11  H5  GAL d   1      83.987  30.224  87.044  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   5  12
+ATOM     12  C6  GAL d   1      85.792  29.016  87.029  0.00  0.00     0.043 C 
+ATOM     13  H6  GAL d   1      86.088  28.000  86.730  0.00  0.00     0.078 H 
+ATOM     14  H7  GAL d   1      86.073  29.185  88.079  0.00  0.00     0.078 H 
+BRANCH  12  15
+ATOM     15  O6  GAL d   1      86.457  29.963  86.205  0.00  0.00    -0.398 OA
+ATOM     16  H12 GAL d   1      86.216  29.817  85.298  0.00  0.00     0.209 HD
+ENDBRANCH  12  15
+ENDBRANCH   5  12
+BRANCH   4  17
+ATOM     17  O4  GAL d   1      83.918  26.961  87.812  0.00  0.00    -0.390 OA
+ATOM     18  H11 GAL d   1      83.431  26.428  88.430  0.00  0.00     0.210 HD
+ENDBRANCH   4  17
+BRANCH   3  19
+ATOM     19  O3  GAL d   1      81.283  27.340  88.295  0.00  0.00    -0.390 OA
+ATOM     20  H10 GAL d   1      80.360  27.341  88.070  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   1  21
+ATOM     21  O1  GAL d   1      82.300  28.613  83.869  0.00  0.00    -0.369 OA
+ATOM     22  H8  GAL d   1      82.795  29.221  83.333  0.00  0.00     0.212 HD
+ENDBRANCH   1  21
+BRANCH   2  23
+ATOM     23  O2  GAL d   1      80.310  28.070  85.767  0.00  0.00    -0.388 OA
+ATOM     24  H9  GAL d   1      79.811  27.475  86.314  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+TORSDOF 6

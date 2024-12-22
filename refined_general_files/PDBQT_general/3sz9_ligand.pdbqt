@@ -1,0 +1,46 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C4_4  and  C9_9 
+REMARK    3  A    between atoms: C7_7  and  C8_8 
+REMARK    4  A    between atoms: C9_9  and  C10_11 
+REMARK    5  A    between atoms: C10_11  and  C11_12 
+ROOT
+ATOM      1  C1  I3E d   1      72.026  57.496  72.157  0.00  0.00    -0.059 A 
+ATOM      2  C2  I3E d   1      71.034  58.434  71.901  0.00  0.00    -0.076 A 
+ATOM      3  C3  I3E d   1      70.828  58.879  70.599  0.00  0.00    -0.069 A 
+ATOM      4  C4  I3E d   1      71.606  58.392  69.559  0.00  0.00     0.010 A 
+ATOM      5  C5  I3E d   1      72.596  57.458  69.819  0.00  0.00    -0.069 A 
+ATOM      6  C6  I3E d   1      72.805  57.007  71.118  0.00  0.00    -0.076 A 
+ATOM      7  H   I3E d   1      70.421  58.819  72.716  0.00  0.00     0.084 H 
+ATOM      8  H   I3E d   1      70.050  59.615  70.395  0.00  0.00     0.085 H 
+ATOM      9  H   I3E d   1      73.212  57.076  69.005  0.00  0.00     0.085 H 
+ATOM     10  H   I3E d   1      73.581  56.269  71.320  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C9  I3E d   1      71.388  58.878  68.160  0.00  0.00     0.159 C 
+ATOM     12  O9  I3E d   1      71.017  60.029  67.971  0.00  0.00    -0.292 OA
+BRANCH  11  13
+ATOM     13  C10 I3E d   1      71.612  58.002  66.992  0.00  0.00    -0.008 C 
+ATOM     14  H   I3E d   1      71.234  57.022  67.283  0.00  0.00     0.044 H 
+ATOM     15  H   I3E d   1      72.675  58.083  66.764  0.00  0.00     0.044 H 
+BRANCH  13  16
+ATOM     16  C11 I3E d   1      70.892  58.352  65.710  0.00  0.00    -0.070 C 
+ATOM     17  H   I3E d   1      69.816  58.334  65.883  0.00  0.00     0.028 H 
+ATOM     18  H   I3E d   1      71.193  59.348  65.386  0.00  0.00     0.028 H 
+ATOM     19  H   I3E d   1      71.150  57.625  64.940  0.00  0.00     0.028 H 
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+ENDBRANCH   4  11
+BRANCH   1  20
+ATOM     20  C7  I3E d   1      72.264  56.998  73.564  0.00  0.00    -0.044 C 
+ATOM     21  H   I3E d   1      73.187  57.427  73.954  0.00  0.00     0.039 H 
+ATOM     22  H   I3E d   1      72.351  55.911  73.559  0.00  0.00     0.039 H 
+BRANCH  20  23
+ATOM     23  C8  I3E d   1      71.092  57.415  74.445  0.00  0.00    -0.073 C 
+ATOM     24  H   I3E d   1      71.011  58.502  74.449  0.00  0.00     0.028 H 
+ATOM     25  H   I3E d   1      70.172  56.982  74.052  0.00  0.00     0.028 H 
+ATOM     26  H   I3E d   1      71.258  57.058  75.462  0.00  0.00     0.028 H 
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+TORSDOF 5

@@ -1,0 +1,54 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  CAP_20 
+REMARK    2  A    between atoms: NAN_18  and  C6_6 
+REMARK    3  A    between atoms: CAO_19  and  NAA_7 
+REMARK    4  A    between atoms: NAN_18  and  CAU_21 
+ROOT
+ATOM      1  N1  IRG d   1      23.951 -17.020 -10.787  0.00  0.00    -0.210 NA
+ATOM      2  C2  IRG d   1      23.761 -17.767  -9.672  0.00  0.00     0.162 A 
+ATOM      3  N3  IRG d   1      24.014 -17.213  -8.470  0.00  0.00    -0.228 NA
+ATOM      4  C4  IRG d   1      24.477 -15.956  -8.373  0.00  0.00     0.075 A 
+ATOM      5  C5  IRG d   1      24.655 -15.176  -9.511  0.00  0.00     0.038 A 
+ATOM      6  C6  IRG d   1      24.414 -15.753 -10.753  0.00  0.00     0.139 A 
+ATOM      7  CAG IRG d   1      25.439 -13.295  -8.148  0.00  0.00    -0.057 A 
+ATOM      8  CAH IRG d   1      25.150 -13.864  -9.393  0.00  0.00    -0.065 A 
+ATOM      9  CAI IRG d   1      24.785 -15.404  -7.130  0.00  0.00    -0.029 A 
+ATOM     10  CAO IRG d   1      25.236 -14.089  -7.005  0.00  0.00     0.028 A 
+ATOM     11  H8  IRG d   1      25.806 -12.278  -8.067  0.00  0.00     0.086 H 
+ATOM     12  H9  IRG d   1      25.312 -13.278 -10.291  0.00  0.00     0.085 H 
+ATOM     13  H10 IRG d   1      24.671 -16.011  -6.239  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   2  14
+ATOM     14  CAP IRG d   1      23.242 -19.065  -9.799  0.00  0.00     0.012 A 
+ATOM     15  CAE IRG d   1      22.928 -19.544 -11.069  0.00  0.00    -0.069 A 
+ATOM     16  CAC IRG d   1      22.356 -20.803 -11.258  0.00  0.00    -0.082 A 
+ATOM     17  H6  IRG d   1      23.133 -18.922 -11.933  0.00  0.00     0.085 H 
+ATOM     18  CAB IRG d   1      22.070 -21.624 -10.173  0.00  0.00    -0.083 A 
+ATOM     19  H4  IRG d   1      22.132 -21.145 -12.262  0.00  0.00     0.083 H 
+ATOM     20  CAD IRG d   1      22.369 -21.160  -8.875  0.00  0.00    -0.082 A 
+ATOM     21  H3  IRG d   1      21.626 -22.602 -10.322  0.00  0.00     0.083 H 
+ATOM     22  CAF IRG d   1      22.954 -19.895  -8.688  0.00  0.00    -0.069 A 
+ATOM     23  H5  IRG d   1      22.146 -21.783  -8.016  0.00  0.00     0.083 H 
+ATOM     24  H7  IRG d   1      23.186 -19.552  -7.686  0.00  0.00     0.085 H 
+ENDBRANCH   2  14
+BRANCH   6  25
+ATOM     25  NAN IRG d   1      24.587 -15.037 -11.893  0.00  0.00    -0.369 N 
+ATOM     26  H15 IRG d   1      24.875 -14.050 -11.840  0.00  0.00     0.161 HD
+BRANCH  25  27
+ATOM     27  CAU IRG d   1      24.365 -15.663 -13.198  0.00  0.00     0.011 A 
+ATOM     28  CAJ IRG d   1      25.617 -16.292 -13.811  0.00  0.00    -0.044 A 
+ATOM     29  CAK IRG d   1      25.105 -14.978 -14.379  0.00  0.00    -0.044 A 
+ATOM     30  H11 IRG d   1      26.556 -16.311 -13.238  0.00  0.00     0.036 H 
+ATOM     31  H12 IRG d   1      25.531 -17.214 -14.404  0.00  0.00     0.036 H 
+ATOM     32  H13 IRG d   1      24.644 -14.952 -15.377  0.00  0.00     0.036 H 
+ATOM     33  H14 IRG d   1      25.669 -14.048 -14.211  0.00  0.00     0.036 H 
+ATOM     34  H16 IRG d   1      23.362 -16.104 -13.297  0.00  0.00     0.072 H 
+ENDBRANCH  25  27
+ENDBRANCH   6  25
+BRANCH  10  35
+ATOM     35  NAA IRG d   1      25.488 -13.593  -5.791  0.00  0.00    -0.399 N 
+ATOM     36  H1  IRG d   1      25.821 -12.624  -5.690  0.00  0.00     0.156 HD
+ATOM     37  H2  IRG d   1      25.349 -14.180  -4.956  0.00  0.00     0.156 HD
+ENDBRANCH  10  35
+TORSDOF 4

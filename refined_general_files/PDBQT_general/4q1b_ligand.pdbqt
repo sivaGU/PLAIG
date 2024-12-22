@@ -1,0 +1,108 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  SBF_2 
+REMARK    2  A    between atoms: SBF_2  and  NAT_5 
+REMARK    3  A    between atoms: NAT_5  and  CAM_6 
+REMARK    4  A    between atoms: CAM_6  and  CAN_7 
+REMARK    5  A    between atoms: CAN_7  and  OAU_8 
+REMARK    6  A    between atoms: OAU_8  and  CAZ_9 
+REMARK    7  A    between atoms: CBA_14  and  CBE_15 
+REMARK    8  A    between atoms: CBD_18  and  CAO_19 
+REMARK    9  A    between atoms: CAO_19  and  CAL_20 
+REMARK   10  A    between atoms: CAL_20  and  CAA_21 
+REMARK   11  A    between atoms: CBC_22  and  CAP_23 
+REMARK   12  A    between atoms: CAP_23  and  SAV_24 
+REMARK   13  A    between atoms: SAV_24  and  C2_25 
+REMARK   14  A    between atoms: C6_28  and  NAC_29 
+REMARK   15  A    between atoms: C4_31  and  NAD_32 
+ROOT
+ATOM      1  CBE 2Y0 d   1     -33.668  12.220  -3.902  0.00  0.00     0.108 A 
+ATOM      2  NAS 2Y0 d   1     -32.587  11.965  -3.161  0.00  0.00    -0.243 NA
+ATOM      3  SAW 2Y0 d   1     -33.208  13.211  -5.140  0.00  0.00    -0.072 SA
+ATOM      4  CBD 2Y0 d   1     -31.687  13.280  -4.734  0.00  0.00     0.010 A 
+ATOM      5  CBC 2Y0 d   1     -31.494  12.557  -3.647  0.00  0.00     0.058 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  CBA 2Y0 d   1     -34.928  11.785  -3.656  0.00  0.00     0.002 A 
+ATOM      7  CAK 2Y0 d   1     -35.227  10.925  -2.580  0.00  0.00    -0.038 A 
+ATOM      8  CAZ 2Y0 d   1     -36.557  10.516  -2.337  0.00  0.00     0.069 A 
+ATOM      9  H9  2Y0 d   1     -34.430  10.575  -1.934  0.00  0.00     0.089 H 
+ATOM     10  CAH 2Y0 d   1     -37.581  10.969  -3.170  0.00  0.00    -0.051 A 
+ATOM     11  CAG 2Y0 d   1     -37.298  11.820  -4.227  0.00  0.00    -0.079 A 
+ATOM     12  H10 2Y0 d   1     -38.602  10.654  -2.990  0.00  0.00     0.087 H 
+ATOM     13  CAI 2Y0 d   1     -35.983  12.221  -4.469  0.00  0.00    -0.070 A 
+ATOM     14  H11 2Y0 d   1     -38.099  12.174  -4.866  0.00  0.00     0.083 H 
+ATOM     15  H12 2Y0 d   1     -35.774  12.883  -5.302  0.00  0.00     0.084 H 
+BRANCH   8  16
+ATOM     16  OAU 2Y0 d   1     -36.937   9.703  -1.297  0.00  0.00    -0.350 OA
+BRANCH  16  17
+ATOM     17  CAN 2Y0 d   1     -36.001   9.008  -0.432  0.00  0.00     0.041 C 
+ATOM     18  H7  2Y0 d   1     -35.596   8.131  -0.958  0.00  0.00     0.077 H 
+ATOM     19  H8  2Y0 d   1     -35.178   9.685  -0.161  0.00  0.00     0.077 H 
+BRANCH  17  20
+ATOM     20  CAM 2Y0 d   1     -36.736   8.550   0.848  0.00  0.00     0.023 C 
+ATOM     21  H5  2Y0 d   1     -37.461   9.328   1.128  0.00  0.00     0.068 H 
+ATOM     22  H6  2Y0 d   1     -37.270   7.614   0.625  0.00  0.00     0.068 H 
+BRANCH  20  23
+ATOM     23  NAT 2Y0 d   1     -35.840   8.312   2.000  0.00  0.00    -0.318 N 
+ATOM     24  H4  2Y0 d   1     -34.976   7.815   1.924  0.00  0.00     0.172 HD
+BRANCH  23  25
+ATOM     25  SBF 2Y0 d   1     -36.446   9.000   3.556  0.00  0.00     0.222 S 
+ATOM     26  OAE 2Y0 d   1     -37.019   7.889   4.446  0.00  0.00    -0.206 OA
+ATOM     27  OAF 2Y0 d   1     -35.261   9.643   4.277  0.00  0.00    -0.206 OA
+BRANCH  25  28
+ATOM     28  CAB 2Y0 d   1     -37.708  10.231   3.290  0.00  0.00     0.032 C 
+ATOM     29  H1  2Y0 d   1     -38.563   9.773   2.771  0.00  0.00     0.051 H 
+ATOM     30  H2  2Y0 d   1     -37.300  11.047   2.675  0.00  0.00     0.051 H 
+ATOM     31  H3  2Y0 d   1     -38.039  10.632   4.259  0.00  0.00     0.051 H 
+ENDBRANCH  25  28
+ENDBRANCH  23  25
+ENDBRANCH  20  23
+ENDBRANCH  17  20
+ENDBRANCH  16  17
+ENDBRANCH   8  16
+ENDBRANCH   1   6
+BRANCH   5  32
+ATOM     32  CAP 2Y0 d   1     -30.121  12.382  -3.023  0.00  0.00     0.025 C 
+ATOM     33  H20 2Y0 d   1     -30.221  12.243  -1.937  0.00  0.00     0.059 H 
+ATOM     34  H21 2Y0 d   1     -29.506  13.271  -3.223  0.00  0.00     0.059 H 
+BRANCH  32  35
+ATOM     35  SAV 2Y0 d   1     -29.328  10.893  -3.772  0.00  0.00    -0.084 SA
+BRANCH  35  36
+ATOM     36  C2  2Y0 d   1     -27.617  11.358  -3.862  0.00  0.00     0.192 A 
+ATOM     37  N3  2Y0 d   1     -27.257  12.630  -3.752  0.00  0.00    -0.206 NA
+ATOM     38  C4  2Y0 d   1     -25.968  12.997  -3.803  0.00  0.00     0.127 A 
+ATOM     39  C5  2Y0 d   1     -24.961  12.051  -3.982  0.00  0.00     0.005 A 
+ATOM     40  C6  2Y0 d   1     -25.363  10.724  -4.081  0.00  0.00     0.127 A 
+ATOM     41  H24 2Y0 d   1     -23.917  12.335  -4.041  0.00  0.00     0.095 H 
+ATOM     42  N1  2Y0 d   1     -26.676  10.416  -4.021  0.00  0.00    -0.206 NA
+BRANCH  38  43
+ATOM     43  NAD 2Y0 d   1     -25.657  14.282  -3.695  0.00  0.00    -0.384 N 
+ATOM     44  H25 2Y0 d   1     -24.671  14.578  -3.732  0.00  0.00     0.157 HD
+ATOM     45  H26 2Y0 d   1     -26.401  14.984  -3.574  0.00  0.00     0.157 HD
+ENDBRANCH  38  43
+BRANCH  40  46
+ATOM     46  NAC 2Y0 d   1     -24.458   9.760  -4.246  0.00  0.00    -0.384 N 
+ATOM     47  H22 2Y0 d   1     -23.456   9.996  -4.292  0.00  0.00     0.157 HD
+ATOM     48  H23 2Y0 d   1     -24.760   8.779  -4.328  0.00  0.00     0.157 HD
+ENDBRANCH  40  46
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH   5  32
+BRANCH   4  49
+ATOM     49  CAO 2Y0 d   1     -30.614  14.047  -5.501  0.00  0.00    -0.033 C 
+ATOM     50  H13 2Y0 d   1     -30.547  13.663  -6.530  0.00  0.00     0.041 H 
+ATOM     51  H14 2Y0 d   1     -29.642  13.925  -5.000  0.00  0.00     0.041 H 
+BRANCH  49  52
+ATOM     52  CAL 2Y0 d   1     -30.991  15.499  -5.527  0.00  0.00    -0.064 C 
+ATOM     53  H15 2Y0 d   1     -30.997  15.902  -4.503  0.00  0.00     0.032 H 
+ATOM     54  H16 2Y0 d   1     -31.989  15.617  -5.973  0.00  0.00     0.032 H 
+BRANCH  52  55
+ATOM     55  CAA 2Y0 d   1     -29.958  16.239  -6.368  0.00  0.00    -0.076 C 
+ATOM     56  H17 2Y0 d   1     -30.212  17.309  -6.403  0.00  0.00     0.027 H 
+ATOM     57  H18 2Y0 d   1     -29.955  15.829  -7.389  0.00  0.00     0.027 H 
+ATOM     58  H19 2Y0 d   1     -28.962  16.113  -5.919  0.00  0.00     0.027 H 
+ENDBRANCH  52  55
+ENDBRANCH  49  52
+ENDBRANCH   4  49
+TORSDOF 15

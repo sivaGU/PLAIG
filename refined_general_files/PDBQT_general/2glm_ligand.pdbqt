@@ -1,0 +1,83 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: O1_2  and  C2_3 
+REMARK    3  A    between atoms: C2_3  and  C3_4 
+REMARK    4  A    between atoms: C3_4  and  N1_5 
+REMARK    5  A    between atoms: C5_8  and  C6_9 
+REMARK    6  A    between atoms: C6_9  and  C7_10 
+REMARK    7  A    between atoms: C10_13  and  C11_15 
+REMARK    8  A    between atoms: C15_20  and  C17_22 
+REMARK    9  A    between atoms: N2_27  and  C19_28 
+ROOT
+ATOM      1  N1  SCB d   1     -88.992  65.189 197.142  0.00  0.00    -0.290 N 
+ATOM      2  C4  SCB d   1     -88.024  66.112 197.243  0.00  0.00     0.267 A 
+ATOM      3  O2  SCB d   1     -86.916  65.949 196.761  0.00  0.00    -0.266 OA
+ATOM      4  C5  SCB d   1     -88.386  67.262 197.927  0.00  0.00     0.079 A 
+ATOM      5  S1  SCB d   1     -90.001  67.052 198.399  0.00  0.00    -0.046 SA
+ATOM      6  C18 SCB d   1     -90.156  65.521 197.714  0.00  0.00     0.177 A 
+ATOM      7  N2  SCB d   1     -91.234  64.744 197.735  0.00  0.00    -0.224 NA
+ENDROOT
+BRANCH   4   8
+ATOM      8  C6  SCB d   1     -87.582  68.376 198.173  0.00  0.00    -0.028 C 
+ATOM      9  H8  SCB d   1     -88.069  69.312 198.444  0.00  0.00     0.090 H 
+BRANCH   8  10
+ATOM     10  C7  SCB d   1     -86.184  68.357 198.091  0.00  0.00     0.077 A 
+ATOM     11  C8  SCB d   1     -85.451  67.655 197.229  0.00  0.00    -0.048 A 
+ATOM     12  C9  SCB d   1     -84.164  67.912 197.459  0.00  0.00    -0.047 A 
+ATOM     13  H9  SCB d   1     -85.838  66.983 196.464  0.00  0.00     0.087 H 
+ATOM     14  C10 SCB d   1     -84.099  68.790 198.455  0.00  0.00     0.086 A 
+ATOM     15  H10 SCB d   1     -83.318  67.480 196.927  0.00  0.00     0.087 H 
+ATOM     16  O3  SCB d   1     -85.358  69.088 198.883  0.00  0.00    -0.310 OA
+BRANCH  14  17
+ATOM     17  C11 SCB d   1     -82.988  69.337 199.073  0.00  0.00    -0.001 A 
+ATOM     18  C12 SCB d   1     -83.198  70.247 200.097  0.00  0.00    -0.069 A 
+ATOM     19  C13 SCB d   1     -82.122  70.801 200.766  0.00  0.00    -0.060 A 
+ATOM     20  H11 SCB d   1     -84.208  70.525 200.374  0.00  0.00     0.085 H 
+ATOM     21  C14 SCB d   1     -80.837  70.433 200.405  0.00  0.00     0.051 A 
+ATOM     22  H12 SCB d   1     -82.283  71.516 201.565  0.00  0.00     0.086 H 
+ATOM     23 CL1  SCB d   1     -79.471  71.118 201.212  0.00  0.00    -0.083 Cl
+ATOM     24  C15 SCB d   1     -80.622  69.519 199.384  0.00  0.00     0.063 A 
+ATOM     25  C16 SCB d   1     -81.701  68.955 198.715  0.00  0.00    -0.052 A 
+ATOM     26  H13 SCB d   1     -81.541  68.229 197.926  0.00  0.00     0.086 H 
+BRANCH  24  27
+ATOM     27  C17 SCB d   1     -79.174  69.161 199.059  0.00  0.00     0.211 C 
+ATOM     28  O4  SCB d   1     -78.943  68.291 198.205  0.00  0.00    -0.644 OA
+ATOM     29  O5  SCB d   1     -78.292  69.751 199.710  0.00  0.00    -0.644 OA
+ENDBRANCH  24  27
+ENDBRANCH  14  17
+ENDBRANCH   8  10
+ENDBRANCH   4   8
+BRANCH   1  30
+ATOM     30  C3  SCB d   1     -88.782  63.907 196.456  0.00  0.00     0.025 C 
+ATOM     31  H6  SCB d   1     -88.228  63.233 197.125  0.00  0.00     0.068 H 
+ATOM     32  H7  SCB d   1     -89.762  63.466 196.220  0.00  0.00     0.068 H 
+BRANCH  30  33
+ATOM     33  C2  SCB d   1     -87.992  64.075 195.161  0.00  0.00     0.034 C 
+ATOM     34  H4  SCB d   1     -87.655  65.118 195.065  0.00  0.00     0.076 H 
+ATOM     35  H5  SCB d   1     -87.118  63.407 195.170  0.00  0.00     0.076 H 
+BRANCH  33  36
+ATOM     36  O1  SCB d   1     -88.849  63.738 194.055  0.00  0.00    -0.394 OA
+BRANCH  36  37
+ATOM     37  C1  SCB d   1     -88.355  62.611 193.339  0.00  0.00     0.004 C 
+ATOM     38  H1  SCB d   1     -89.032  62.382 192.503  0.00  0.00     0.066 H 
+ATOM     39  H2  SCB d   1     -88.299  61.744 194.013  0.00  0.00     0.066 H 
+ATOM     40  H3  SCB d   1     -87.352  62.836 192.947  0.00  0.00     0.066 H 
+ENDBRANCH  36  37
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH   1  30
+BRANCH   7  41
+ATOM     41  C19 SCB d   1     -92.478  65.199 197.896  0.00  0.00     0.059 A 
+ATOM     42  C20 SCB d   1     -92.738  66.542 198.087  0.00  0.00    -0.055 A 
+ATOM     43  C21 SCB d   1     -94.044  66.984 198.249  0.00  0.00    -0.081 A 
+ATOM     44  H14 SCB d   1     -91.920  67.253 198.111  0.00  0.00     0.087 H 
+ATOM     45  C22 SCB d   1     -95.097  66.089 198.217  0.00  0.00    -0.083 A 
+ATOM     46  H15 SCB d   1     -94.240  68.039 198.402  0.00  0.00     0.083 H 
+ATOM     47  C23 SCB d   1     -94.842  64.744 198.028  0.00  0.00    -0.081 A 
+ATOM     48  H16 SCB d   1     -96.115  66.440 198.339  0.00  0.00     0.083 H 
+ATOM     49  C24 SCB d   1     -93.539  64.305 197.874  0.00  0.00    -0.055 A 
+ATOM     50  H17 SCB d   1     -95.661  64.034 198.000  0.00  0.00     0.083 H 
+ATOM     51  H18 SCB d   1     -93.344  63.248 197.734  0.00  0.00     0.087 H 
+ENDBRANCH   7  41
+TORSDOF 9

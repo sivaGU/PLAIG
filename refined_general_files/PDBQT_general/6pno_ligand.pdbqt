@@ -1,0 +1,60 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAR_1  and  CAP_2 
+REMARK       I    between atoms: CAP_2  and  NAH_4 
+REMARK    2  A    between atoms: NAH_4  and  CAC_5 
+REMARK    3  A    between atoms: CAE_11  and  SAI_12 
+REMARK    4  A    between atoms: SAI_12  and  NAL_15 
+REMARK    5  A    between atoms: NAL_15  and  CAM_16 
+REMARK    6  A    between atoms: CAM_16  and  CAO_17 
+REMARK    7  A    between atoms: CAM_16  and  CAN_18 
+ROOT
+ATOM      1  CAC ORM d   1      16.469  -5.526  15.838  0.00  0.00     0.036 A 
+ATOM      2  CAD ORM d   1      17.304  -4.665  16.564  0.00  0.00    -0.033 A 
+ATOM      3  CAB ORM d   1      15.102  -5.532  16.010  0.00  0.00    -0.056 A 
+ATOM      4  CAA ORM d   1      14.526  -4.610  16.874  0.00  0.00    -0.058 A 
+ATOM      5  CAF ORM d   1      15.343  -3.761  17.598  0.00  0.00     0.057 A 
+ATOM      6 CLA  ORM d   1      14.625  -2.709  18.516  0.00  0.00    -0.083 Cl
+ATOM      7  CAE ORM d   1      16.732  -3.772  17.430  0.00  0.00     0.103 A 
+ATOM      8  H5  ORM d   1      18.380  -4.705  16.442  0.00  0.00     0.089 H 
+ATOM      9  H6  ORM d   1      14.485  -6.247  15.478  0.00  0.00     0.087 H 
+ATOM     10  H7  ORM d   1      13.448  -4.556  16.980  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   7  11
+ATOM     11  SAI ORM d   1      17.774  -2.704  18.295  0.00  0.00     0.260 S 
+ATOM     12  OAJ ORM d   1      19.183  -2.838  17.905  0.00  0.00    -0.200 OA
+ATOM     13  OAK ORM d   1      17.538  -3.138  19.790  0.00  0.00    -0.200 OA
+BRANCH  11  14
+ATOM     14  NAL ORM d   1      17.223  -1.121  18.188  0.00  0.00    -0.311 N 
+ATOM     15  H8  ORM d   1      16.992  -0.614  19.019  0.00  0.00     0.172 HD
+BRANCH  14  16
+ATOM     16  CAM ORM d   1      17.078  -0.470  16.850  0.00  0.00     0.013 C 
+ATOM     17  H9  ORM d   1      17.665   0.459  16.901  0.00  0.00     0.072 H 
+BRANCH  16  18
+ATOM     18  CAO ORM d   1      15.605  -0.081  16.635  0.00  0.00    -0.057 C 
+ATOM     19  H10 ORM d   1      15.492   0.399  15.652  0.00  0.00     0.030 H 
+ATOM     20  H11 ORM d   1      15.292   0.620  17.423  0.00  0.00     0.030 H 
+ATOM     21  H12 ORM d   1      14.977  -0.984  16.677  0.00  0.00     0.030 H 
+ENDBRANCH  16  18
+BRANCH  16  22
+ATOM     22  CAN ORM d   1      17.595  -1.227  15.618  0.00  0.00    -0.057 C 
+ATOM     23  H13 ORM d   1      17.418  -0.623  14.716  0.00  0.00     0.030 H 
+ATOM     24  H14 ORM d   1      17.064  -2.186  15.527  0.00  0.00     0.030 H 
+ATOM     25  H15 ORM d   1      18.673  -1.414  15.728  0.00  0.00     0.030 H 
+ENDBRANCH  16  22
+ENDBRANCH  14  16
+ENDBRANCH  11  14
+ENDBRANCH   7  11
+BRANCH   1  26
+ATOM     26  NAH ORM d   1      16.974  -6.468  15.023  0.00  0.00    -0.327 N 
+ATOM     27  CAP ORM d   1      18.129  -6.249  14.392  0.00  0.00     0.218 C 
+ATOM     28  OAQ ORM d   1      18.816  -5.193  14.348  0.00  0.00    -0.274 OA
+ATOM     29  H4  ORM d   1      16.485  -7.330  14.890  0.00  0.00     0.169 HD
+BRANCH  27  30
+ATOM     30  CAR ORM d   1      18.537  -7.460  13.577  0.00  0.00    -0.003 C 
+ATOM     31  H1  ORM d   1      17.819  -8.275  13.747  0.00  0.00     0.040 H 
+ATOM     32  H2  ORM d   1      19.542  -7.787  13.883  0.00  0.00     0.040 H 
+ATOM     33  H3  ORM d   1      18.547  -7.197  12.509  0.00  0.00     0.040 H 
+ENDBRANCH  27  30
+ENDBRANCH   1  26
+TORSDOF 7

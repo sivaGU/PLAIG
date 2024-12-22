@@ -1,0 +1,36 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_6  and  N2_7 
+REMARK    2  A    between atoms: N2_7  and  N3_8 
+REMARK    3  A    between atoms: N2_7  and  C10_10 
+REMARK    4  A    between atoms: N3_8  and  O3_9 
+ROOT
+ATOM      1  O5  PQR d   1     -17.237 -23.144   1.168  0.00  0.00    -0.284 OA
+ATOM      2  C6  PQR d   1     -16.376 -22.692   0.386  0.00  0.00     0.221 A 
+ATOM      3  C7  PQR d   1     -16.671 -22.661  -1.064  0.00  0.00     0.223 A 
+ATOM      4  O4  PQR d   1     -17.785 -23.036  -1.493  0.00  0.00    -0.284 OA
+ATOM      5  C8  PQR d   1     -15.717 -22.205  -1.946  0.00  0.00    -0.003 A 
+ATOM      6  C9  PQR d   1     -14.484 -21.755  -1.474  0.00  0.00     0.058 A 
+ATOM      7  C5  PQR d   1     -15.151 -22.232   0.883  0.00  0.00    -0.028 A 
+ATOM      8  C4  PQR d   1     -14.169 -21.780   0.002  0.00  0.00    -0.051 A 
+ATOM      9  H   PQR d   1     -15.926 -22.196  -3.016  0.00  0.00     0.093 H 
+ATOM     10  H   PQR d   1     -14.965 -22.227   1.957  0.00  0.00     0.089 H 
+ATOM     11  H   PQR d   1     -13.197 -21.453   0.371  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  12
+ATOM     12  N2  PQR d   1     -13.574 -21.338  -2.451  0.00  0.00    -0.252 N 
+BRANCH  12  13
+ATOM     13  N3  PQR d   1     -12.279 -21.281  -2.186  0.00  0.00    -0.049 NA
+BRANCH  13  14
+ATOM     14  O3  PQR d   1     -11.378 -20.880  -3.181  0.00  0.00    -0.250 OA
+ATOM     15  H   PQR d   1     -10.486 -20.893  -2.827  0.00  0.00     0.248 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C10 PQR d   1     -14.010 -21.038  -3.822  0.00  0.00     0.005 C 
+ATOM     17  H   PQR d   1     -13.710 -20.023  -4.083  0.00  0.00     0.059 H 
+ATOM     18  H   PQR d   1     -13.547 -21.744  -4.512  0.00  0.00     0.059 H 
+ATOM     19  H   PQR d   1     -15.095 -21.125  -3.884  0.00  0.00     0.059 H 
+ENDBRANCH  12  16
+ENDBRANCH   6  12
+TORSDOF 4

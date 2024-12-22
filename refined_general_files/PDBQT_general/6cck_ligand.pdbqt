@@ -1,0 +1,56 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C10_19 
+REMARK    2  A    between atoms: C13_4  and  C14_5 
+REMARK    3  A    between atoms: C13_4  and  C16_7 
+REMARK    4  A    between atoms: N12_21  and  C13_4 
+REMARK    5  A    between atoms: C8_17  and  N12_21 
+ROOT
+ATOM      1  C14 EXJ d   1      23.195  -6.445  31.920  0.00  0.00     0.038 C 
+ATOM      2  C15 EXJ d   1      21.926  -6.544  31.216  0.00  0.00     0.061 C 
+ATOM      3  N23 EXJ d   1      20.908  -6.617  30.685  0.00  0.00    -0.197 NA
+ATOM      4  H3  EXJ d   1      23.653  -5.470  31.695  0.00  0.00     0.058 H 
+ATOM      5  H4  EXJ d   1      23.010  -6.522  33.002  0.00  0.00     0.058 H 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C13 EXJ d   1      24.172  -7.567  31.498  0.00  0.00     0.064 C 
+ATOM      7  H2  EXJ d   1      24.255  -7.587  30.401  0.00  0.00     0.082 H 
+BRANCH   6   8
+ATOM      8  C16 EXJ d   1      23.640  -8.938  31.973  0.00  0.00    -0.032 A 
+ATOM      9  C17 EXJ d   1      23.925  -9.420  33.272  0.00  0.00    -0.054 A 
+ATOM     10  C18 EXJ d   1      23.422 -10.668  33.658  0.00  0.00     0.034 A 
+ATOM     11  H5  EXJ d   1      24.524  -8.832  33.958  0.00  0.00     0.087 H 
+ATOM     12  C19 EXJ d   1      22.645 -11.447  32.790  0.00  0.00    -0.062 A 
+ATOM     13 CL   EXJ d   1      23.753 -11.242  35.260  0.00  0.00    -0.084 Cl
+ATOM     14  C20 EXJ d   1      22.399 -11.003  31.487  0.00  0.00    -0.081 A 
+ATOM     15  H6  EXJ d   1      22.235 -12.392  33.128  0.00  0.00     0.086 H 
+ATOM     16  C21 EXJ d   1      22.883  -9.741  31.095  0.00  0.00    -0.075 A 
+ATOM     17  H7  EXJ d   1      21.844 -11.621  30.790  0.00  0.00     0.083 H 
+ATOM     18  H8  EXJ d   1      22.669  -9.378  30.096  0.00  0.00     0.084 H 
+ENDBRANCH   6   8
+BRANCH   6  19
+ATOM     19  N12 EXJ d   1      25.486  -7.248  32.070  0.00  0.00    -0.211 N 
+ATOM     20  H13 EXJ d   1      25.576  -6.407  32.658  0.00  0.00     0.178 HD
+BRANCH  19  21
+ATOM     21  C8  EXJ d   1      26.540  -7.979  31.868  0.00  0.00     0.756 A 
+ATOM     22  N7  EXJ d   1      26.644  -8.989  31.077  0.00  0.00     0.044 NA
+ATOM     23  N4  EXJ d   1      27.973  -9.528  31.166  0.00  0.00    -0.007 N 
+ATOM     24  C3  EXJ d   1      28.510 -10.581  30.565  0.00  0.00     0.287 A 
+ATOM     25  C5  EXJ d   1      28.586  -8.760  32.092  0.00  0.00     0.747 A 
+ATOM     26  C2  EXJ d   1      29.911 -10.819  30.959  0.00  0.00     0.007 A 
+ATOM     27  O11 EXJ d   1      27.879 -11.246  29.744  0.00  0.00    -0.266 OA
+ATOM     28  C1  EXJ d   1      30.472 -10.015  31.896  0.00  0.00     0.028 A 
+ATOM     29  H1  EXJ d   1      30.485 -11.626  30.506  0.00  0.00     0.095 H 
+ATOM     30  N6  EXJ d   1      29.835  -8.986  32.434  0.00  0.00    -0.191 N 
+ATOM     31  H9  EXJ d   1      30.311  -8.372  33.110  0.00  0.00     0.184 HD
+ATOM     32  N9  EXJ d   1      27.828  -7.828  32.484  0.00  0.00     0.132 NA
+BRANCH  28  33
+ATOM     33  C10 EXJ d   1      31.891 -10.254  32.366  0.00  0.00    -0.037 C 
+ATOM     34  H10 EXJ d   1      32.306 -11.131  31.848  0.00  0.00     0.035 H 
+ATOM     35  H11 EXJ d   1      31.892 -10.435  33.451  0.00  0.00     0.035 H 
+ATOM     36  H12 EXJ d   1      32.506  -9.370  32.141  0.00  0.00     0.035 H 
+ENDBRANCH  28  33
+ENDBRANCH  19  21
+ENDBRANCH   6  19
+ENDBRANCH   1   6
+TORSDOF 5
