@@ -170,7 +170,7 @@ def run_model(complex_files):
         print(f"Receptor: {pdb_list[0]}, Ligand: {pdb_list[1]}")
         print(f"Predicted Binding Affinity in -log(Kd/Ki): {log_prediction}")
         print(f"Predicted Binding Affiinity in uM: {um_prediction}")
-        predictions.append(f"Predicted Binding Affinity (μM): {round(um_prediction, 3)}")
+        predictions.append(f"Binding Affinity from PLAIG (μM): {round(um_prediction, 3)}")
     end = time.time()
     print()
     print(f"Runtime: {end - start}")
