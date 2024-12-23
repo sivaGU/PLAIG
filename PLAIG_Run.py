@@ -134,7 +134,7 @@ def run_model(complex_files):
     model = GNN(hidden_channels=num_hidden_channels, num_layers=num_layers, dropout_rate=dropout_rate,
                 num_node_features=40, num_edge_features=11, num_ligand_features=88, num_pocket_features=74)
 
-    model.load_state_dict(torch.load("PLAIG_Model.pth"))
+    model.load_state_dict(torch.load("GNN_Model8.pth"))
     print(model)
     model.eval()
     embeddings = []
