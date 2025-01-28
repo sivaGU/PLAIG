@@ -46,7 +46,7 @@ with st.expander("General and Refined Set Demo"):
     dataset = st.radio("", ["General Set", "Refined Set"])
     st.markdown(f"<p style='text-align: center; font-size: 16px'>You selected the <b>{dataset}</b>.</p>", unsafe_allow_html=True)
 
-    st.markdown('<div style="text-align: center; font-size: 16px"><a href="https://github.com/sivaGU/PLAIG/tree/main/refined_general_files" target="_blank">Click here '
+    st.markdown('<div style="text-align: center; font-size: 16px"><a href="https://github.com/sivaGU/PLAIG/tree/main/Refined_General_Files" target="_blank">Click here '
                 'to download files from the general or refined set for demo testing.</a>', unsafe_allow_html=True)
 
     st.markdown(f"<p style='text-align: center; font-size: 16px'>Submit general or refined set files in this "
