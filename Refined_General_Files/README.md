@@ -1,7 +1,8 @@
 ## Directions for Downloading Files for the General and Refined Set Demo
 
-There are two .zip files in this directory. In order to run the general and refined set demo, you must first 
-download the RefinedSet.zip and GeneralSet.zip files. Then, unzip them, and you will see the refined/general pdb and 
+There are two .zip files which you need to access. In order to run the general and refined set demo, you must first 
+download the RefinedSet.zip and GeneralSet.zip files [here](https://drive.google.com/drive/folders/1u9y1Fevl7EzcXKQpED1MXa2epGN9n8CT?usp=drive_link). Then, unzip them, and you will see the refined/general 
+pdb and 
 pdbqt zipped folders. Inside these zipped folders are the refined and general set files for demo. Please download four 
 files from the general set or four files from the refined set (2 files for the protein (.pdb and .pdbqt) and 2 files 
 for the ligand (.pdb and .pdbqt). The four files must have the **same four-letter code** in the filenames for the 
