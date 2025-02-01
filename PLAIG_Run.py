@@ -155,7 +155,7 @@ def run_model(complex_files):
     pdb_codes = np.hstack(pdb_codes)
     print(embeddings)
 
-    stack_model = joblib.load("PLAIG_Stacking.joblib")
+    stack_model = joblib.load("PLAIG_Stacking_compress.joblib")
     stack_predictions = stack_model.predict(embeddings)
     protein_labels = []
     ligand_labels = []
