@@ -5,7 +5,8 @@ using a Novel <u>**I**</u>nteraction-Based <u>**G**</u>raph Neural Network Frame
 affinity for protein-ligand complexes. **Please do not download this repository** if you want to test PLAIG's 
 protein-ligand binding affinity prediction capabilities. 
 
-Instead, please click on the link in the **About section to access additional documentation and the demo program**. 
+**Instead, please click on this [link](https://plaig-demo.streamlit.app/), also in the About section, to access 
+additional documentation and the demo program**. 
 The link will take you to the webpage which we created using the Streamlit package.
 
 When you click on the link, you may see this page:
