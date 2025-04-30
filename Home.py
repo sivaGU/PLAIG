@@ -18,6 +18,8 @@ st.markdown("<p style='text-align: center; font-size: 24px'>PLAIG is a GNN-based
             "PLAIG before navigating through this webpage.</p>", unsafe_allow_html=True)
 st.image("GNN Model Framework.png")
 st.markdown("<p style='text-align: center; font-size: 20px'>Flowchart for PLAIG's Model Framework</p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: left; font-size: 20px'><b>Citations:</b><br> In pre-publication stage.</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: left; font-size: 18px'><b>Citation:</b><br>Samudrala, M. V.; Dandibhotla, S.; Kaneriya, A.; Dakshanamurthy, S. PLAIG: Protein–Ligand Binding Affinity Prediction Using a Novel Interaction-Based Graph Neural Network Framework. ACS Bio Med Chem Au 2025. https://doi.org/10.1021/acsbiomedchemau.5c00053.</p>", unsafe_allow_html=True)
+st.markdown("[Click here to access publication](https://pubs.acs.org/doi/10.1021/acsbiomedchemau.5c00053)")
+
 
 
